@@ -37,6 +37,10 @@
     <button class="preset" onclick="preset(1)">Box B (live, opened)</button>
   </div>
 
+  <label class="ev" for="manifestTxid">VAULT-0003 manifest txid (optional; its hash must match the box)</label>
+  <input id="manifestTxid" type="text" placeholder="manifest transaction — 64 hex chars" spellcheck="false">
+  <label class="ev" for="mintTxid">Pack mint txid (optional)</label>
+  <input id="mintTxid" type="text" placeholder="VAULT3-MINT transaction — 64 hex chars" spellcheck="false">
   <div id="out"></div>
 
   <div class="explain">
@@ -45,7 +49,7 @@
     content commitment is immutable — both enforced by miners, not by any website.
     <br><br>
     <b>v0.1 scope:</b> checks the exact UTXO you point at. Full lineage tracing (genesis → current) is indexer work tracked in the spec.
-    Mystery-box opacity (contents hidden until opening) is the VAULT-0002 committee extension — see the spec.
+    VAULT-0003 packs are drawn one block after opening. Supply the manifest transaction to recompute the pack; a presented mint must match it exactly. Pack checks use WoC chain data, not an independent full node.
     <br><br>
     <a href="https://github.com/futureman19/bsv-vault-box/blob/master/VAULT-0001-sealed-boxes.md">Spec</a> · <a href="https://github.com/futureman19/bsv-vault-box">Repo</a> · Data: WhatsOnChain public API
   </div>
@@ -57,21 +61,33 @@ const BOXES = [
   'f3590347ca2a6bd8ea4fcfaca5eafb6f209e25de537f177df07ebf6e7d82dd39', // Box A — sealed
   '2aaa4efa643ea03ffaa2af4542c17d841ad9eaa558f382edab5a61f02107e67f', // Box B — opened
 ]
-function preset(i){ document.getElementById('txid').value = BOXES[i]; run() }
+const escapeHtml = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'}[c]))
+function preset(i){
+  document.getElementById('txid').value = BOXES[i]
+  document.getElementById('manifestTxid').value = ''
+  document.getElementById('mintTxid').value = ''
+  run()
+}
 async function run(){
   const out = document.getElementById('out')
   const txid = document.getElementById('txid').value.trim()
   if(!/^[0-9a-fA-F]{64}$/.test(txid)){ out.innerHTML = '<div class="verdict bad">INVALID TXID</div>'; return }
   out.innerHTML = '<div class="ev">querying chain…</div>'
   try {
-    const r = await VaultCheck.checkBox(txid.toLowerCase())
+    const manifestTxid = document.getElementById('manifestTxid').value.trim()
+    const mintTxid = document.getElementById('mintTxid').value.trim()
+    const r = await VaultCheck.checkBox(txid.toLowerCase(), 3, {manifestTxid, mintTxid})
     const cls = r.verdict.startsWith('SEALED') ? 'sealed' : r.verdict.startsWith('OPENED') ? 'opened' : 'bad'
-    const pend = r.verdict.endsWith('PENDING') ? '<span class="pending">in mempool — awaits confirmation (K≥3 recommended)</span>' : ''
-    out.innerHTML = `<div class="verdict ${cls}">${r.verdict}${pend}</div>` +
-      r.evidence.map(e => `<div class="ev">• ${e}</div>`).join('') +
-      `<div class="ev">confirmations: ${r.confirmations ?? 'n/a'}</div>`
+    const pend = r.verdict.endsWith('PENDING') ? '<span class="pending">awaits confirmation depth (K≥3 recommended)</span>' : ''
+    const packs = (r.outputs || []).map(o =>
+      (o.pack ? `<div class="ev">Pack: ${escapeHtml(o.pack.designs.join(', '))}</div>` : '') +
+      (o.manifestTxid ? `<div class="ev"><a href="https://whatsonchain.com/tx/${escapeHtml(o.manifestTxid)}" target="_blank" rel="noopener noreferrer">Manifest transaction</a></div>` : '')
+    ).join('')
+    out.innerHTML = `<div class="verdict ${cls}">${escapeHtml(r.verdict)}${pend}</div>` + packs +
+      r.evidence.map(e => `<div class="ev">• ${escapeHtml(e)}</div>`).join('') +
+      `<div class="ev">confirmations: ${escapeHtml(r.confirmations ?? 'n/a')}</div>`
   } catch(e){
-    out.innerHTML = `<div class="verdict bad">CHECK FAILED</div><div class="ev">${e.message}</div>`
+    out.innerHTML = `<div class="verdict bad">CHECK FAILED</div><div class="ev">${escapeHtml(e.message)}</div>`
   }
 }
 </script>
