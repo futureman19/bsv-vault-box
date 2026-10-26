@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "network": "regtest",
+  "height": 769,
+  "threshold": "3-of-3",
+  "boxId": "512e8fba0ceadcfdf67de687deb71e0cd36ab3e5d81d2f753cd74fcfb6146cf3",
+  "artifactFingerprint": "4952b80a9b85a37151659f56de19c6d196d91457d9a5932252e8962a185c4852",
+  "setupTx": "29b4ead1f234e7c08e5f88b10cb521934be6ba5ddb619c1b17833f839c26b097",
+  "ciphertextTx": "c1da78753fe8cefce077a6336ee0dfbb47f9cdff7dda578b071eb178158d2291",
+  "genesis": {
+    "txid": "d73312c05ad8f8cd7a9bb91b026024be95c6595942808cacfd2a03e68012ca43",
+    "vout": 0
+  },
+  "transferTx": "270ee6a4afcd250736a2ae8fd377ef31d085671b2fb020f44d36a800ccd4bba3",
+  "openingTx": "fca9fc1107e83a92e44a641abbe6f46bbfd63c6b793a86ee677f7e41e4755398",
+  "releaseTxs": [
+    "b7c19f653f93e9225a3df0f96022707bcc5c996896ee6426cb076f134c5390bd",
+    "87811bee1f30810802f48996deb84e85a6b214c5299723bdcb8ceb16491d2aae",
+    "199418334b8b3f05e9af404bdd79eb508d5f4ab382980c453ee30b2edb6a852e"
+  ],
+  "checks": [
+    "sealed-no-release",
+    "transfer-no-release",
+    "mempool-no-release",
+    "two-confirmations-no-release",
+    "three-confirmations-release",
+    "three-distinct-operator-processes",
+    "restart-idempotent",
+    "confirmed-onchain-records-publicly-verified",
+    "all-two-share-subsets-fail",
+    "three-shares-exact-NFT",
+    "forged-share-rejected"
+  ],
+  "limitations": [
+    "single-process DKG setup",
+    "shared-host plaintext test shares",
+    "shared regtest node/wallet",
+    "no mix-net or issuer secrecy",
+    "one box only; Step3 deferred",
+    "3-of-3 cannot survive one operator loss"
+  ],
+  "runtime": ".local\\milestone1-6427n8"
+}
