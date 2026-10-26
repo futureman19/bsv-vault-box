@@ -1,0 +1,16 @@
+FEE_CHECK 43431 43431 [ 1000000 ] [ 0, 956569 ]
+MANIFEST e5131c5ce961839c74a3df42f0b31e329ab9df8f78b379c780569e907683c5d6 5eee75a35e3c09106bd145d5fa2521e72c9902f84a86974631e751f8d3635957
+BOX 0 DEPLOY 75736f4ef1b20c3b77c53bc47ac001e70d7b71123cb458962164b983b28b86e4 ID 17fac89b1e422c8e03162a723bed942c135269ed4c3246e64592bf5459536bee ANCHOR 8e3a81ca0377c1113eeef4e46e50a1cfb04da21e81094fa73b80d33f26dd2550:1
+BOX 1 DEPLOY da066a495ecb28f1eca0668ce7ca913f9b46bd2e60fb35249840d75beddc2411 ID ac0320c956bac11ff5879f5fd8d4d16f670834bcd7c11f269ecc8718240b7858 ANCHOR 3f13c722f7d89f3baef0365400b93b1abc1a90bd3d9968a8502ba22c410800f9:0
+BOX 2 DEPLOY 55128804134502f6c6c5033c689ad29d4ac25c0c5dcca1f454d3ebde073a02e4 ID 2a5ec998f88cd30bc8097862849612664ff24323803e0eaa1af5b79963de67fd ANCHOR 3e9e87fc593509364a1b1f6b1f918e2238d48253a44cf45680df68f7fd5ede4b:0
+SEALED_TRANSFER bf1823bf3529b18e025b2ffdcfcfc0aeb0d92aa44f2c711d0bf415de5d59f847
+PASS pending draw 33c369ac3970c1f7321edccbe3581b37a27cc694fb5c0661f1cba85ca4ad7659 height 177
+PASS independent public RPC replay / unique main / legendary slot {"boxId":"17fac89b1e422c8e03162a723bed942c135269ed4c3246e64592bf5459536bee","seed":"7b59ef555fd28d152292877651213cfcaf41f4905ee2ad22efbb0eb38809068e","pack":{"designs":[195,605,756,713,187,619,763,251,408,991],"retries":0,"trace":[{"slot":0,"table":"main","retry":0,"design":195},{"slot":1,"table":"main","retry":0,"design":605},{"slot":2,"table":"main","retry":0,"design":756},{"slot":3,"table":"main","retry":0,"design":713},{"slot":4,"table":"main","retry":0,"design":187},{"slot":5,"table":"main","retry":0,"design":619},{"slot":6,"table":"main","retry":0,"design":763},{"slot":7,"table":"main","retry":0,"design":251},{"slot":8,"table":"main","retry":0,"design":408},{"slot":9,"table":"slot9","retry":0,"design":991}]}}
+FEE_CHECK 648 648 [ 995046 ] [ 1, 994397 ]
+PASS valid mint c106e5dbc89a200dc430f59370c502bcc07a0c41bbb45adb2fddaacb3a2be008 output 0 open 33c369ac3970c1f7321edccbe3581b37a27cc694fb5c0661f1cba85ca4ad7659
+PASS pending draw 297fe4714b2683ba293b301d3fc04e9da237fdd9ae0e0d3bbd0df4a25f3781cd height 180
+PASS independent public RPC replay / unique main / legendary slot {"boxId":"ac0320c956bac11ff5879f5fd8d4d16f670834bcd7c11f269ecc8718240b7858","seed":"54b997d11351ea0ba23e560d82bc993f94444803a23569b67fa769509c3b15ce","pack":{"designs":[730,86,240,641,538,559,747,776,711,990],"retries":0,"trace":[{"slot":0,"table":"main","retry":0,"design":730},{"slot":1,"table":"main","retry":0,"design":86},{"slot":2,"table":"main","retry":0,"design":240},{"slot":3,"table":"main","retry":0,"design":641},{"slot":4,"table":"main","retry":0,"design":538},{"slot":5,"table":"main","retry":0,"design":559},{"slot":6,"table":"main","retry":0,"design":747},{"slot":7,"table":"main","retry":0,"design":776},{"slot":8,"table":"main","retry":0,"design":711},{"slot":9,"table":"slot9","retry":0,"design":990}]}}
+FEE_CHECK 964 964 [ 992616 ] [ 1, 1, 991650 ]
+PASS valid mint 517cef7de41f2180e5660382719e4caf9d9ab091a2f0deaf8ff335bb2149d3de output 0 open 297fe4714b2683ba293b301d3fc04e9da237fdd9ae0e0d3bbd0df4a25f3781cd
+PASS forged on-chain mint rejected 517cef7de41f2180e5660382719e4caf9d9ab091a2f0deaf8ff335bb2149d3de output 1
+REGTEST_CYCLE_COMPLETE: all five acceptance checks passed; third box remains sealed

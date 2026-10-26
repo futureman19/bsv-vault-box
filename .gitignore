@@ -3,3 +3,5 @@ node_modules/
 dist/
 *.log
 __pycache__/
+# Local regtest chain/wallet state must never be committed.
+.regtest-node/
