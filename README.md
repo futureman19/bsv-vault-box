@@ -26,6 +26,8 @@ Paste a box's current holding txid, get a verdict from public data: **https://fu
 ## Repo map
 
 - `VAULT-0001-sealed-boxes.md` — the standard (Draft): wire format, state machine, seal-check algorithm, graduation criteria
+- `VAULT-0002-committee-release.md` — **the mystery layer (Draft):** threshold key-keeper committee that makes contents hidden from everyone — including the owner — until the confirmed on-chain opening. On-chain release records, publicly verifiable shares, attributable misbehavior, churn/refresh rules
+- `v2_ref.py` + `v2_vectors.json` — VAULT-0002 reference PoC, executed: Feldman-verifiable per-box shares over secp256k1 stand in for threshold BLS-IBE (15/15): release gating on confirmed openings, public share verification, k-of-n aggregation, UNSEALED-DISCREPANCY detection, quorum-loss demonstration
 - `sealed-box-report.md` — the feasibility research behind it: why fixed-content-hidden-until-opening needs a key-release committee (VAULT-0002), full threat model, prior art
 - `vault/` — the sCrypt covenant (compiled, script-VM tested 8/8, deployed to mainnet)
 - `vault_ref.py` + `vault_vectors.json` — Python reference implementation + golden vectors (16/16)
@@ -34,7 +36,7 @@ Paste a box's current holding txid, get a verdict from public data: **https://fu
 
 ## Status
 
-**Draft.** Graduated: covenant compiled + mainnet-exercised; script-VM attack suite green; live seal checker. Pending for Stable: second-implementation byte parity on golden vectors, SPV-tier seal verification, 1Sat ord-envelope alignment for indexer discovery, VAULT-0002 (committee key-release for hidden contents).
+**Draft.** Graduated: covenant compiled + mainnet-exercised; script-VM attack suite green; live seal checker. Pending for Stable: second-implementation byte parity on golden vectors, SPV-tier seal verification, 1Sat ord-envelope alignment for indexer discovery. **VAULT-0002 spec + executed PoC now in-repo** (Draft): committee key-release delivers hidden-until-opening contents; production graduation needs a real threshold-BLS swap + a live 3-operator testnet seal league.
 
 ## Honest scope note
 
