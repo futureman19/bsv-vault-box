@@ -1,0 +1,62 @@
+[
+  {
+    "test": "T1 unsalted hash-commitment over public inventory",
+    "verdict": "FAIL-INSECURE",
+    "detail": "attacker recovered box content 'NFT-0000' with 1000 hashes in 1.2 ms. Unsalted/low-entropy commitments do NOT hide box contents."
+  },
+  {
+    "test": "T1b salted commitment",
+    "verdict": "OK-HIDES",
+    "detail": "256-bit salt defeats enumeration, BUT salt custody = decryption-key custody: whoever holds the salt can privately inspect; releasing salt requires the same release machinery as a key. Commitments transfer the problem; they don't solve it."
+  },
+  {
+    "test": "T2 owner-held decryption key",
+    "verdict": "FAIL-ATTACK-WORKS",
+    "detail": "owner decrypted 'NFT-0000' locally; blocks mined for opening: 0. Private inspection with zero on-chain footprint is trivial when the owner holds key material."
+  },
+  {
+    "test": "T3 key = H(opening signature)",
+    "verdict": "FAIL-ATTACK-WORKS",
+    "detail": "owner signed locally and decrypted 'NFT-0000' with NO broadcast; a signature is computable offline, so any key derived from it is computable offline. (Requirement: a signature is not proof of broadcast.)"
+  },
+  {
+    "test": "T4 adaptor-signature secret release",
+    "verdict": "FAIL-ATTACK-WORKS",
+    "detail": "owner completed the adaptor signature OFFLINE and decrypted 'NFT-0000' without publishing. Adaptor signatures release the secret to OBSERVERS of a published signature; the party who completes the signature always learns it privately. Publication cannot be forced on the signer."
+  },
+  {
+    "test": "T5.1 creation",
+    "verdict": "SIMULATED",
+    "detail": "inventory committed (root 1cafdee1ca74f6ac); box->NFT permutation shuffled & encrypted [shuffle proof SIMPLIFIED: real design = Bayer-Groth verifiable shuffle]; per-box content key split 3-of-5 to committee. Issuer retains NO key after share distribution [dealer-deletion assumption; DKG variant removes trusted dealer]."
+  },
+  {
+    "test": "T5.2 mint + seal check",
+    "verdict": "SIMULATED",
+    "detail": "buyer paid 1 BSV (sim), received seal UTXO MINT-1.0. Independent seal check: SEALED-VERIFIED = public-data-only verification (UTXO set + opening index + on-chain release log)."
+  },
+  {
+    "test": "T5.3 sealed transfer",
+    "verdict": "SIMULATED",
+    "detail": "box transferred ALICE->BOB as unopened UTXO. Neither owner ever possessed key material; nothing to retain. Seal check: SEALED-VERIFIED"
+  },
+  {
+    "test": "T5.4 previous-owner attack",
+    "verdict": "PASS-DEFENDED",
+    "detail": "ALICE's opening tx references a spent outpoint -> invalid on-chain and committee policy ('release only for spend of CURRENT seal UTXO') refuses share release. Prior owners retain no capability because they never held shares."
+  },
+  {
+    "test": "T5.5 opening + release policy",
+    "verdict": "PASS",
+    "detail": "committee released only after 3 confirmations; BOB reconstructed key and got 'NFT-0007' (pre-assigned at creation, not drawn at open). Seal check: OPENED-VERIFIED (conf=4)"
+  },
+  {
+    "test": "T5.6 reorg after release (point 12)",
+    "verdict": "DETECTED",
+    "detail": "opening/release records reorged out, but shares were already copied off-chain. Seal check now: INCONSISTENT \u2014 box can no longer be sold as sealed because the release log (re-published by committee, and detectable via committee attestations) diverges from UTXO state. Residual risk: attacker learns contents with NO public record if the reorg erases both records before anyone snapshots them -> mitigation: higher K_CONF, committee signed release attestations retained by clients."
+  },
+  {
+    "test": "T5.7 committee outage",
+    "verdict": "CONSEQUENCE",
+    "detail": "with 2 of 5 operators online (< 3-of-5 threshold), NO box can be opened. This is the price of R1: long-term opening depends on committee persistence (mitigate: larger n, proactive refresh, operator escrow \u2014 none eliminate the dependency)."
+  }
+]
