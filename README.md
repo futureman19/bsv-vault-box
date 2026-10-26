@@ -26,8 +26,10 @@ Paste a box's current holding txid, get a verdict from public data: **https://fu
 ## Repo map
 
 - `VAULT-0001-sealed-boxes.md` — the standard (Draft): wire format, state machine, seal-check algorithm, graduation criteria
-- `VAULT-0002-committee-release.md` — **the mystery layer (Draft):** threshold key-keeper committee that makes contents hidden from everyone — including the owner — until the confirmed on-chain opening. On-chain release records, publicly verifiable shares, attributable misbehavior, churn/refresh rules
-- `v2_ref.py` + `v2_vectors.json` — VAULT-0002 reference PoC, executed: Feldman-verifiable per-box shares over secp256k1 stand in for threshold BLS-IBE (15/15): release gating on confirmed openings, public share verification, k-of-n aggregation, UNSEALED-DISCREPANCY detection, quorum-loss demonstration
+- `VAULT-0002-committee-release.md` — committee key-release layer (Draft; shelved — requires trusting k-of-n keepers, rejected on no-third-party grounds; remains the only path for *fixed-before-sale hidden* contents)
+- `VAULT-0003-draw-at-open.md` — **the chosen mystery layer (Draft):** trustless draw-at-open packs. Committed on-chain inventory + odds before sale; opening draws a 10-card pack from box_id + future block hash; verifiable rejection sampling (no within-pack dupes), guaranteed-rare slots, zero trusted parties
+- `v3_ref.py` + `v3_vectors.json` — VAULT-0003 reference PoC, executed (15/15): determinism + independent replay, no-pack-before-collapse, rarity distributions match weights, coupon-collector stats, reorg consistency, invalid-mint rejection
+- `v2_ref.py` + `v2_vectors.json` — VAULT-0002 reference PoC, executed: Feldman-verifiable per-box shares over secp256k1 stand in for threshold BLS-IBE (15/15)
 - `sealed-box-report.md` — the feasibility research behind it: why fixed-content-hidden-until-opening needs a key-release committee (VAULT-0002), full threat model, prior art
 - `vault/` — the sCrypt covenant (compiled, script-VM tested 8/8, deployed to mainnet)
 - `vault_ref.py` + `vault_vectors.json` — Python reference implementation + golden vectors (16/16)
@@ -40,4 +42,4 @@ Paste a box's current holding txid, get a verdict from public data: **https://fu
 
 ## Honest scope note
 
-The on-chain seal (break-once state machine, immutable content commitment, public verification) is fully trustless today. Contents *hidden from the owner until opening* requires the VAULT-0002 threshold key-keeper committee — the research report proves no pure-chain construction can provide it, and names exactly that relaxation. Don't let anyone sell you "sealed" without it.
+The on-chain seal (break-once state machine, immutable content commitment, public verification) is fully trustless and live. The mystery layer is **VAULT-0003 draw-at-open**: provably fair packs drawn from a committed inventory at opening, no committee, no oracle, no server. The trilemma — {fixed before sale, hidden which one, no trusted party}, pick two — is documented in the report; VAULT-0002 (committee) remains on the shelf for the fixed+hidden corner if it's ever wanted.
