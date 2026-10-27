@@ -1,0 +1,14 @@
+run_svnode: consensus-evidence/vault.jsonl (3 entries) vs sv-node@v1.2.3 (subversion /Bitcoin SV:1.2.3/; version 101020300) at http://127.0.0.1:18563; the mempool column on the SAME instance (its zeroed policy = the consensus limits: an entry reaching a policy LIMIT diverges by configuration; give --rpc-mempool); the spec at spec@387dab3 (sv-regtest(genesis=1,chronicle=15000)); 14 RPC calls; the words from eval/bsvs (--config sv-regtest --genesis-height 1 --chronicle-height 15000) (8 CLI calls); totalTimeout 60000 ms, stopOnFirstInvalid true; 0.8s
+  word: spend 170, utxo 169, consensus false -> 0xD47FF
+  word: spend 170, utxo 169, consensus true -> 0xD402B
+  word: spend 176, utxo 170, consensus false -> 0xD47FF
+  word: spend 176, utxo 170, consensus true -> 0xD402B
+  word: spend 177, utxo 175, consensus false -> 0xD47FF
+  word: spend 177, utxo 175, consensus true -> 0xD402B
+  word: spend 177, utxo 176, consensus false -> 0xD47FF
+  word: spend 177, utxo 176, consensus true -> 0xD402B
+  agree: spec 3, spec-mempool 3; node undecided runs (timeout/skipped) 0; without a spec verdict 0; descriptions outside the table 0; flag-word drifts 0
+| column | rule | entries | ruling | witness |
+|---|---|---|---|---|
+  witnesses: 0 written to /mnt/c/Users/futur/sealed-box-research/.worktrees/t_a71c39fc/REVIEWS/consensus-evidence/node/sv-node/consensus-evidence.jsonl (sha256 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855); manifest /mnt/c/Users/futur/sealed-box-research/.worktrees/t_a71c39fc/REVIEWS/consensus-evidence/node/sv-node/manifest.json
+run_svnode: GREEN (0 divergent runs filed under cited classes; every other decided entry agrees in both columns)

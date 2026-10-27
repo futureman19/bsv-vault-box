@@ -1,0 +1,91 @@
+{
+  "consensus-evidence": {
+    "agree": {
+      "spec": 3,
+      "spec-mempool": 3
+    },
+    "code_notes": [],
+    "corpus": "/mnt/c/Users/futur/sealed-box-research/.worktrees/t_a71c39fc/REVIEWS/consensus-evidence/vault.jsonl",
+    "entries": 3,
+    "est_families": {},
+    "file": "consensus-evidence.jsonl",
+    "flag_drifts": 0,
+    "generated": "2026-09-23",
+    "node": "sv-node@v1.2.3",
+    "node_mempool_reported": "",
+    "node_reported": "subversion /Bitcoin SV:1.2.3/; version 101020300",
+    "rpc": "http://127.0.0.1:18563",
+    "rpc_mempool": null,
+    "rules": [],
+    "settings": {
+      "maxopsperscriptpolicy": 4294967295,
+      "maxscriptnumlengthpolicy": 4,
+      "maxscriptsizepolicy": 4294967295,
+      "maxstackmemoryusagepolicy": 9223372036854775807,
+      "maxstdtxvalidationduration": 300000
+    },
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "spec": "spec@387dab3",
+    "spec_config": "sv-regtest(genesis=1,chronicle=15000)",
+    "spec_recorded_keys": {
+      "spec": "spec-sv-node@387dab3",
+      "spec-mempool": "spec-sv-node-mempool@387dab3"
+    },
+    "stop_on_first_invalid": true,
+    "total_timeout_ms": 60000,
+    "undecided_messages": {},
+    "undecided_runs": 0,
+    "unknown_descriptions": {},
+    "witnesses": 0,
+    "words": [
+      {
+        "consensus": false,
+        "spend_height": 170,
+        "utxo_height": 169,
+        "word": 870399
+      },
+      {
+        "consensus": true,
+        "spend_height": 170,
+        "utxo_height": 169,
+        "word": 868395
+      },
+      {
+        "consensus": false,
+        "spend_height": 176,
+        "utxo_height": 170,
+        "word": 870399
+      },
+      {
+        "consensus": true,
+        "spend_height": 176,
+        "utxo_height": 170,
+        "word": 868395
+      },
+      {
+        "consensus": false,
+        "spend_height": 177,
+        "utxo_height": 175,
+        "word": 870399
+      },
+      {
+        "consensus": true,
+        "spend_height": 177,
+        "utxo_height": 175,
+        "word": 868395
+      },
+      {
+        "consensus": false,
+        "spend_height": 177,
+        "utxo_height": 176,
+        "word": 870399
+      },
+      {
+        "consensus": true,
+        "spend_height": 177,
+        "utxo_height": 176,
+        "word": 868395
+      }
+    ]
+  }
+}
