@@ -21,7 +21,7 @@ Box A lineage: deploy `fe2c763f…e95d` → sealed transfer `f3590347…dd39`. B
 
 ## Seal checker (live)
 
-Paste a box's current holding txid, get a verdict from public data: **https://futureman19.github.io/bsv-vault-box/**
+Paste a box's current holding txid, get a verdict from public data: **https://boxsv.com** (old github.io URL redirects)
 
 ## Repo map
 
