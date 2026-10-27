@@ -149,6 +149,11 @@ const VaultCheck = (() => {
                 if (manifest.allow_pack_duplicates || !used.has(id)) {
                     designs.push(id); used.add(id); trace.push({slot, table: key, retry, design: id}); break
                 }
+                if (retry === 10000) {
+                    const error = new Error(`Draw exhausted at slot ${slot} after 10000 retries`)
+                    error.name = 'DrawExhausted'; error.code = 'DRAW_EXHAUSTED'
+                    throw error
+                }
                 retry++; retries++
             }
         }
@@ -179,12 +184,21 @@ const VaultCheck = (() => {
         const found = []
         for (const out of tx?.vout || []) {
             const hex = out.scriptPubKey?.hex || ''
-            if (!/^(006a|6a)/.test(hex)) continue
+            const ordinal = tag === 'VAULT3-MINT' && hex.startsWith('0063036f7264')
+            if (!ordinal && !/^(006a|6a)/.test(hex)) continue
             if (hex.length % 2 || !/^[0-9a-f]+$/i.test(hex)) throw new Error('Malformed OP_RETURN hex')
             const bytes = Uint8Array.from(hex.match(/../g), h => parseInt(h, 16))
-            let p = bytes[0] === 0 ? 2 : 1
+            let closed = false
+            let p = ordinal ? 6 : bytes[0] === 0 ? 2 : 1
+            const decode = b => new TextDecoder('utf-8', {fatal: true, ignoreBOM: true}).decode(b)
+            if (ordinal && bytes[p++] !== 81) throw new Error('Expected ord content-type tag')
             const parts = []
             while (p < bytes.length) {
+                if (ordinal && parts.length === 1 && bytes[p++] !== 0) throw new Error('Expected ord body separator')
+                if (ordinal && parts.length === 2) {
+                    if (bytes[p++] !== 104 || p === bytes.length) throw new Error('Expected ord ENDIF and locking script')
+                    closed = true; break
+                }
                 let n = bytes[p++]
                 if (n >= 76 && n <= 78) {
                     const width = 2 ** (n - 76); n = 0
@@ -194,8 +208,12 @@ const VaultCheck = (() => {
                 if (p + n > bytes.length) throw new Error('Truncated OP_RETURN data')
                 parts.push(bytes.slice(p, p + n)); p += n
             }
-            const decode = b => new TextDecoder('utf-8', {fatal: true, ignoreBOM: true}).decode(b)
-            if (parts.length && decode(parts[0]) === tag) {
+            if (ordinal) {
+                if (!closed || parts.length !== 2) throw new Error('Incomplete ord envelope')
+                if (decode(parts[0]) !== 'application/vnd.vault3-mint+json') continue
+                const payload = JSON.parse(decode(parts[1]))
+                if (payload?.protocol === tag) found.push(payload)
+            } else if (parts.length && decode(parts[0]) === tag) {
                 if (parts.length !== 2) throw new Error('Expected tag and JSON pushes')
                 found.push(JSON.parse(decode(parts[1])))
             }
@@ -304,10 +322,30 @@ const VaultCheck = (() => {
             if (isUnspent && v.state.boxState === 0)
                 verdict = conf >= K ? 'SEALED-VERIFIED' : 'SEALED-PENDING'
             else if (v.state.boxState === 1)
-                verdict = conf >= K ? 'OPENED-VERIFIED' : 'OPENED-PENDING'
+                verdict = !isUnspent ? 'OPENED-SPENT' : conf >= K ? 'OPENED-VERIFIED' : 'OPENED-PENDING'
             else verdict = 'SPENT-UNRESOLVED' // spent while sealed; forward lookup needs an indexer
+            const extra = {}
+            if (verdict === 'OPENED-SPENT') {
+                evidence.push('Opened box has moved: this spent outpoint is not payable')
+                try {
+                    const spent = await fetchJson(`${WOC}/tx/${txid}/${v.vout}/spent`)
+                    if (spent?.txid) {
+                        extra.spendingTxid = txidValue(spent.txid)
+                        evidence.push(`spending transaction: ${extra.spendingTxid}`)
+                    }
+                } catch (_) { evidence.push('Spending transaction unavailable; outpoint remains spent') }
+            }
+            if (v.state.boxState === 0 && options.manifestTxid) {
+                extra.manifestTxid = txidValue(options.manifestTxid)
+                const manifest = taggedJson(await fetchJson(`${WOC}/tx/${extra.manifestTxid}`), 'VAULT3-MANIFEST')
+                validateManifest(manifest)
+                extra.manifestWeld = await hashText(canonicalSerialize(manifest)) === commitments(v.scriptHex).contentRef ? 'MATCH' : 'MISMATCH'
+                evidence.push(`manifest ${extra.manifestTxid}: manifestWeld=${extra.manifestWeld}`)
+                if (extra.manifestWeld === 'MISMATCH') verdict = 'INVALID-MANIFEST'
+            }
             const pack = v.state.boxState === 1 ? await checkPack(tx, v, options, evidence) : {}
-            results.push({ vout: v.vout, state: stateName, unspent: isUnspent, conf, verdict, ...pack })
+            results.push({ vout: v.vout, state: stateName, unspent: isUnspent, conf, ...extra, ...pack,
+                verdict: verdict === 'OPENED-SPENT' ? verdict : pack.verdict || verdict })
         }
         // headline verdict = first vault output (one box per tx in v0.1)
         return { verdict: results[0].verdict, txid, confirmations: conf, outputs: results, evidence }

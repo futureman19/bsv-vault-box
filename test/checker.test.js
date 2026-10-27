@@ -10,7 +10,7 @@ function harness(data=chain(),rateLimit=false){
  const context=vm.createContext({crypto:globalThis.crypto,TextEncoder,TextDecoder,Uint8Array,setTimeout:(f,ms)=>{waits.push(ms);f();},fetch:async url=>{
   const p=url.replace('https://api.whatsonchain.com/v1/bsv/main','');calls.push(p);
   if(rateLimit&&p==='/tx/'+ids.manifest){rateLimit=false;return {status:429};}
-  const value=p.includes('/script/')?[{tx_hash:ids.sealed,tx_pos:0}]:data[p];
+  const value=p.includes('/script/')?(data.unspent ?? [ids.sealed,ids.open,ids.transfer].map(tx_hash=>({tx_hash,tx_pos:0}))):data[p];
   return {status:value?200:404,ok:!!value,json:async()=>JSON.parse(JSON.stringify(value))};
  }});
  vm.runInContext(fs.readFileSync(require.resolve('../docs/vaultcheck'),'utf8')+';globalThis.checker=VaultCheck;',context);
@@ -39,5 +39,32 @@ test('inline draw matches library over 25 seeded catalogs',async()=>{
   for(const [id,state] of [[ids.sealed,0],[ids.open,1]])d['/tx/'+id].vout[0].scriptPubKey.hex=script(state,hash);
   const r=await harness(d).check(ids.open,{manifestTxid:ids.manifest});assert.deepEqual(r.outputs[0].pack,drawPack(m,ids.box,ids.seed));
  }
+});
+function ordMint(claim){
+ const push=s=>{const b=Buffer.from(s),h=Buffer.alloc(3);h[0]=77;h.writeUInt16LE(b.length,1);return h.toString('hex')+b.toString('hex');};
+ return {value:0.00000001,scriptPubKey:{hex:'0063036f726451'+push('application/vnd.vault3-mint+json')+'00'+push(JSON.stringify(claim))+'6876a914'+'99'.repeat(20)+'88ac'}};
+}
+const claim=()=>({protocol:'VAULT3-MINT',manifest_root:root,box_id:ids.box,designs:drawPack(manifest,ids.box,ids.seed).designs});
+test('ord envelope mint is accepted and pack validated',async()=>{const d=chain();d['/tx/'+ids.mint].vout=[ordMint(claim())];const r=await harness(d).check();assert.equal(r.outputs[0].mintStatus,'VALID');assert.equal(r.verdict,'OPENED-VERIFIED');});
+test('ambiguous mixed mint formats and malformed ord envelopes fail closed',async()=>{
+ for(const outputs of [[ordMint(claim()),tagged('VAULT3-MINT',claim())],[ordMint({...claim(),protocol:'OTHER'})],[{...ordMint(claim()),scriptPubKey:{hex:ordMint(claim()).scriptPubKey.hex.replace('6876a914','76a914')}}]]){
+  const d=chain();d['/tx/'+ids.mint].vout=outputs;assert.equal((await harness(d).check()).verdict,'INVALID-MINT');
+ }
+});
+test('spent opened box is non-payable even with valid pack and mint',async()=>{const d=chain();d.unspent=[];d['/tx/'+ids.open+'/0/spent']={txid:ids.transfer,vin:0};const r=await harness(d).check();assert.equal(r.verdict,'OPENED-SPENT');assert.equal(r.outputs[0].spendingTxid,ids.transfer);assert.ok(r.evidence.some(e=>e.includes('moved')));});
+test('unresolved spent opened box stays non-payable',async()=>{const d=chain();d.unspent=[];assert.equal((await harness(d).check(ids.open,{})).verdict,'OPENED-SPENT');});
+test('sealed box verifies supplied manifest weld',async()=>{const r=await harness().check(ids.sealed,{manifestTxid:ids.manifest});assert.equal(r.verdict,'SEALED-VERIFIED');assert.equal(r.outputs[0].manifestWeld,'MATCH');});
+test('sealed box rejects mismatched manifest weld',async()=>{const d=chain();d['/tx/'+ids.manifest].vout=[tagged('VAULT3-MANIFEST',{...manifest,name:'wrong'})];const r=await harness(d).check(ids.sealed,{manifestTxid:ids.manifest});assert.equal(r.verdict,'INVALID-MANIFEST');assert.equal(r.outputs[0].manifestWeld,'MISMATCH');});
+test('spent opened verdict cannot be replaced by invalid mint',async()=>{const d=chain();d.unspent=[];d['/tx/'+ids.mint].vout=[ordMint({...claim(),designs:[999]})];const r=await harness(d).check();assert.equal(r.verdict,'OPENED-SPENT');assert.equal(r.outputs[0].mintStatus,'INVALID');});
+test('sealed missing manifest fails closed',async()=>{const d=chain();delete d['/tx/'+ids.manifest];await assert.rejects(harness(d).check(ids.sealed,{manifestTxid:ids.manifest}),/exactly one/);});
+test('truncated ord push and missing ENDIF fail closed',async()=>{
+ for(const hex of ['0063036f7264514dffff00',ordMint(claim()).scriptPubKey.hex.split('6876a914')[0]]){
+  const d=chain();d['/tx/'+ids.mint].vout=[{scriptPubKey:{hex}}];assert.equal((await harness(d).check()).verdict,'INVALID-MINT');
+ }
+});
+test('inline retry cap throws DrawExhausted after nonce 10000',async()=>{
+ let hashes=0;const context=vm.createContext({TextEncoder,Uint8Array,crypto:{subtle:{digest:async()=>{hashes++;return new Uint8Array(32).buffer;}}}});
+ vm.runInContext(fs.readFileSync(require.resolve('../docs/vaultcheck'),'utf8').replace('return { checkBox,','return { drawPack, checkBox,')+';globalThis.checker=VaultCheck;',context);
+ await assert.rejects(context.checker.drawPack(manifest,ids.box,ids.seed),e=>e.name==='DrawExhausted'&&e.code==='DRAW_EXHAUSTED');assert.equal(hashes,10002);
 });
 test('draw block must link to the opening block',async()=>{const d=chain();d['/block/height/101'].previousblockhash=ids.seed;await assert.rejects(harness(d).check(),/block|reorg/i);});
