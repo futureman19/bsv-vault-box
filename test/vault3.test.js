@@ -12,7 +12,10 @@ const m = buildManifest({name:'Genesis Series', pack_size:10, allow_pack_duplica
 const vectors = JSON.parse(fs.readFileSync(require.resolve('../v3_vectors.json'),'utf8'));
 const first = drawPack(m,'box-alpha',hash('block3'));
 assert.deepEqual(first.designs,vectors.first_pack);
-const generated = {note:vectors.note,D:1,manifest_root:manifestRoot(m),example_box:'box-alpha',first_open_height:2,first_pack:first.designs,reopened_pack:drawPack(m,'box-alpha',hash('block8')).designs};
+// Preserve the historical fixture root; publication now commits slot_odds too.
+const legacy = structuredClone(m); delete legacy.slot_odds;
+assert.notEqual(manifestRoot(m),manifestRoot(legacy));
+const generated = {note:vectors.note,D:1,manifest_root:manifestRoot(legacy),example_box:'box-alpha',first_open_height:2,first_pack:first.designs,reopened_pack:drawPack(m,'box-alpha',hash('block8')).designs};
 assert.deepEqual(generated,vectors);
 // Git Windows checkout may convert LF to CRLF; no protocol bytes are normalized.
 assert.equal(JSON.stringify(generated,null,2),fs.readFileSync(require.resolve('../v3_vectors.json'),'utf8').replace(/\r\n/g,'\n'));
@@ -35,7 +38,7 @@ assert(!verifyPack(m,'box-alpha',hash('block3'),Array(10)));
 assert(!verifyMint(m,'box-alpha',null,()=>null,first.designs));
 assert(!verifyMint(m,'box-alpha',2,()=>null,first.designs));
 assert(verifyMint(m,'box-alpha',2,h=>hash(`block${h}`),first.designs));
-const small = buildManifest({name:'small',pack_size:3,allow_pack_duplicates:false,designs:[{id:0,ref:'a',weight:100},{id:1,ref:'b',weight:1},{id:2,ref:'c',weight:1}]});
+const small = buildManifest({name:'small',pack_size:3,allow_pack_duplicates:false,per_slot_odds_published:true,designs:[{id:0,ref:'a',weight:100},{id:1,ref:'b',weight:1},{id:2,ref:'c',weight:1}]});
 const rejection = drawPack(small,'box','seed');
 assert(rejection.retries>0);
 assert.equal(new Set(rejection.designs).size,3);

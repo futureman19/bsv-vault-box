@@ -21,9 +21,11 @@ for i in range(50):
                   'root': ref.manifest_root(m)})
 script = """
 const fs=require('node:fs'), assert=require('node:assert/strict');
-const {drawPack}=require('./draw'),{canonicalSerialize,manifestRoot}=require('./manifest');
+const {drawPack}=require('./draw'),{buildManifest,canonicalSerialize,manifestRoot}=require('./manifest');
 for(const c of JSON.parse(fs.readFileSync(0,'utf8'))) {
- const result=drawPack(c.manifest,c.box,c.seed);
+ // Historical bytes/root remain compared unchanged; enrich only the drawing input.
+ const published=buildManifest({...c.manifest,per_slot_odds_published:true});
+ const result=drawPack(published,c.box,c.seed);
  assert.deepEqual(result.designs,c.designs); assert.equal(result.retries,c.retries);
  assert.equal(canonicalSerialize(c.manifest),c.canonical); assert.equal(manifestRoot(c.manifest),c.root);
 }

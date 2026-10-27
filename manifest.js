@@ -1,5 +1,6 @@
 'use strict';
 const { createHash } = require('node:crypto');
+const {retryBudget,computeSlotOdds,materiallyDeviates}=require('./odds');
 const own = (o,k) => Object.prototype.hasOwnProperty.call(o,k);
 function integer(n, min=0) {
   if (!Number.isSafeInteger(n) || n < min) throw new TypeError('Expected safe integer >= '+min);
@@ -53,7 +54,7 @@ function tableWeight(table, catalog) {
   }
   return total;
 }
-function validateManifest(m) {
+function validateStructure(m) {
   object(m); canonicalSerialize(m);
   if(typeof m.name!=='string'||m.manifest_version!==1||typeof m.allow_pack_duplicates!=='boolean') throw new TypeError('Invalid manifest fields');
   integer(m.pack_size,1);
@@ -68,6 +69,17 @@ function validateManifest(m) {
   }
   // Each explicit slot is its own table key, even if its table equals another.
   if(!m.allow_pack_duplicates && m.designs.length < m.pack_size-Object.keys(slots).length) throw new TypeError('Not enough designs for main-table slots');
+  if(!m.allow_pack_duplicates) retryBudget(m.designs,m.pack_size-Object.keys(slots).length);
+  return m;
+}
+function validateManifest(m) {
+  validateStructure(m);
+  if(m.per_slot_odds_published!==undefined && typeof m.per_slot_odds_published!=='boolean') throw new TypeError('Invalid odds attestation');
+  if(!m.allow_pack_duplicates || m.slot_odds!==undefined) {
+    const odds=computeSlotOdds(m);
+    if(materiallyDeviates(m,odds) && m.per_slot_odds_published!==true) throw new TypeError('Per-slot odds deviate > 1 percentage point: explicit attestation required');
+    if(m.slot_odds===undefined || canonicalSerialize(m.slot_odds)!==canonicalSerialize(odds)) throw new TypeError('Missing or incorrect slot_odds');
+  }
   return m;
 }
 function buildManifest(input) {
@@ -83,6 +95,8 @@ function buildManifest(input) {
       if(cfg.total_weight===undefined) cfg.total_weight=tableWeight(cfg.table);
     }
   }
+  validateStructure(m);
+  if(!m.allow_pack_duplicates && m.slot_odds===undefined) m.slot_odds=computeSlotOdds(m);
   return validateManifest(m);
 }
-module.exports={buildManifest,validateManifest,canonicalSerialize,manifestRoot};
+module.exports={buildManifest,validateManifest,canonicalSerialize,manifestRoot,computeSlotOdds};
