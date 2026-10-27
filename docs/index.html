@@ -152,6 +152,20 @@
     .claw.sway, .loot, .marquee b, .present.shake { animation:none !important; }
     .trolley, .cable, .claw, .prong, .present .lid, .present .bow, .prize-card { transition-duration:.15s !important; }
   }
+  .machine-wrap { position:relative; touch-action:none; }
+  .game-clock { position:absolute; top:0; left:50%; transform:translateX(-50%); z-index:6; padding:5px 16px; background:#080d16; color:var(--gold); font:bold 18px monospace; border-radius:5px; pointer-events:none; white-space:nowrap; }
+  .aim-controls { display:flex; align-items:center; justify-content:center; gap:28px; margin:8px auto; }
+  [hidden] { display:none !important; }
+  #joystick { width:96px; height:96px; padding:0; border-radius:50%; border:2px solid #536078; background:radial-gradient(circle,#27364d,#0b111c); touch-action:none; position:relative; }
+  #stick { position:absolute; width:42px; height:42px; left:25px; top:25px; border-radius:50%; background:linear-gradient(135deg,#ffe29a,#b97710); box-shadow:0 5px 10px #0008; pointer-events:none; }
+  #dropBtn { min-width:140px; min-height:64px; border:0; border-radius:10px; background:var(--gold); color:#111; font:bold 22px monospace; box-shadow:0 5px 0 #976215; cursor:pointer; }
+  #dropBtn:disabled, #joystick:disabled { opacity:.45; cursor:default; }
+  .aim-hint { font-size:12px; color:#a4b3c7; line-height:1.6; }
+  .interactive .trolley,.interactive .claw,.interactive .cable { transition:none; }
+  .interactive .marquee b { visibility:hidden; }
+  .machine-wrap:not(.claw3d-ready) .game-clock { top:7px; }
+  .interactive .loot { animation:none; }
+  button:focus-visible { outline:3px solid #fff; outline-offset:4px; }
 </style>
 </head>
 <body>
@@ -179,6 +193,11 @@
   </div>
 
   <div class="controls">
+    <div class="aim-controls" id="aimControls" hidden>
+      <button id="joystick" aria-label="Move claw: drag or use arrow keys"><span id="stick"></span></button>
+      <button id="dropBtn" disabled>DROP</button>
+    </div>
+    <p class="aim-hint" id="aimHint" hidden>Drag to aim · arrows to move · Space to drop<br>Aim picks the wrapping. Contents are drawn at open.</p>
     <button id="playBtn">PLAY</button>
     <div class="price">1 BSV per play. <em>Guaranteed win.</em></div>
     <div class="wallet-chip" id="walletChip"></div>
@@ -251,6 +270,7 @@
   </div>
 </div>
 
+<script src="claw-motion.js"></script>
 <script src="claw.js"></script>
 <script type="importmap">
 {"imports":{"three":"./vendor/three/three.module.min.js"}}

@@ -17,10 +17,13 @@
   var state = { mode: null, identity: null, busy: false }
 
   var LOOT_COLORS = ['#7c3aed', '#0ea5e9', '#dc2626', '#16a34a', '#db2777', '#ca8a04']
-  var CLAW_HOME_X = null // set on first layout
-  var CLAW_REST_TOP = 120
-  var CLAW_GRAB_TOP = 318
-  var CHUTE_X = 40
+  var machine = null, fallbackMachine = window.ClawMotion.create()
+  // A late WebGL mount observes an already-armed fallback game, never a new round.
+  window.clawMotionHandle = fallbackMachine
+  var wrap = document.querySelector('.machine-wrap'), joystick = $('joystick'), stick = $('stick'), dropBtn = $('dropBtn')
+  var clock = document.createElement('div'); clock.className = 'game-clock'; clock.hidden = true; wrap.appendChild(clock)
+  var keys = {}, pointer = null, axis = { x: 0, z: 0 }
+  function clearInput () { keys = {}; pointer = null; axis.x = axis.z = 0; stick.style.transform = ''; if (machine) machine.move(0, 0) }
 
   function spawnLoot () {
     pit.innerHTML = ''
@@ -46,10 +49,6 @@
   function setClawY (topPx) {
     claw.style.top = topPx + 'px'
     cable.style.height = Math.max(0, topPx - 60) + 'px'
-  }
-  function homeX () {
-    if (CLAW_HOME_X === null) CLAW_HOME_X = Math.round(cabinet.clientWidth / 2)
-    return CLAW_HOME_X
   }
 
   /* ---------- wallet detection (BRC-100 / window.CWI) ---------- */
@@ -100,68 +99,81 @@
     }
   })
 
-  /* ---------- machine sequence ---------- */
-  async function play () {
+  /* Shared input and timing, independent of rendering. */
+  function play () {
     if (state.busy) return
-    state.busy = true
-    playBtn.disabled = true
-    claw.classList.remove('sway')
-
-    var loot = pit.querySelectorAll('.loot')
-    var target = loot[Math.floor(Math.random() * loot.length)]
-    var targetX = parseInt(target.style.left, 10) + 19 // center of loot
-
-    // 1. move above target
-    setClawY(CLAW_REST_TOP); setClawX(targetX)
-    await wait(1150)
-
-    // 2. descend
-    setClawY(CLAW_GRAB_TOP)
-    await wait(950)
-
-    // 3. grab
-    claw.classList.add('closed')
-    await wait(500)
-    target.classList.add('caught')
-
-    // 4. lift with prize
-    setClawY(CLAW_REST_TOP)
-    target.style.transition = 'top .9s cubic-bezier(.5,0,.4,1), left 1.1s cubic-bezier(.45,.02,.3,1)'
-    target.style.bottom = ''
-    target.style.top = (CLAW_REST_TOP + 34) + 'px'
-    target.style.left = (targetX - 19) + 'px'
-    await wait(950)
-
-    // 5. carry to chute
-    setClawX(CHUTE_X)
-    target.style.left = (CHUTE_X - 19) + 'px'
-    await wait(1150)
-
-    // 6. release
-    claw.classList.remove('closed')
-    target.style.transition = 'top .35s ease-in, opacity .3s .35s'
-    target.style.top = (cabinet.clientHeight - 120) + 'px'
-    target.style.opacity = '0'
-    await wait(450)
-    target.remove()
-
-    // 7. chute lights
-    chute.classList.add('lit'); catchLight.classList.add('on')
-    await wait(600)
-
-    // 8. reveal
-    showReveal()
-
-    // reset machine behind the overlay
-    setClawX(homeX()); setClawY(CLAW_REST_TOP)
-    setTimeout(function () {
-      chute.classList.remove('lit'); catchLight.classList.remove('on')
-      spawnLoot()
-      claw.classList.add('sway')
-      state.busy = false
-      playBtn.disabled = false
-    }, 1500)
+    machine = window.claw3dHandle && !window.claw3dHandle.disposed ? window.claw3dHandle : fallbackMachine
+    clearInput(); spawnLoot(); cabinet.classList.add('interactive'); claw.classList.remove('sway', 'closed')
+    state.busy = true; playBtn.hidden = true
+    $('aimControls').hidden = $('aimHint').hidden = clock.hidden = false
+    machine.arm({ onDrop: function () { clearInput(); state.busy = false; showReveal() } })
+    joystick.disabled = dropBtn.disabled = false
+    joystick.focus({ preventScroll: true })
   }
+  function requestDrop (reason) { if (machine && machine.drop(reason)) clearInput() }
+  dropBtn.addEventListener('click', function () { requestDrop('button') })
+  document.addEventListener('keydown', function (e) {
+    if (!machine || machine.state.phase !== 'armed' || e.altKey || e.ctrlKey || e.metaKey) return
+    if (['ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown'].includes(e.key)) { e.preventDefault(); keys[e.key] = true }
+    if (e.code === 'Space' || e.key === 'Enter') { e.preventDefault(); if (!e.repeat) requestDrop('keyboard') }
+  })
+  document.addEventListener('keyup', function (e) { delete keys[e.key] })
+  window.addEventListener('blur', clearInput)
+  document.addEventListener('visibilitychange', function () { if (document.hidden) clearInput() })
+  function bindDrag (element) {
+    element.addEventListener('pointerdown', function (e) {
+      if (!machine || machine.state.phase !== 'armed' || pointer || e.button !== 0) return
+      e.preventDefault(); element.setPointerCapture(e.pointerId)
+      var r = element.getBoundingClientRect()
+      pointer = { id: e.pointerId, x: element === joystick ? r.left + r.width / 2 : e.clientX, y: element === joystick ? r.top + r.height / 2 : e.clientY }
+      drag(e)
+    })
+    function drag (e) {
+      if (!pointer || pointer.id !== e.pointerId) return
+      var x = (e.clientX - pointer.x) / 32, z = (e.clientY - pointer.y) / 32, n = Math.max(1, Math.hypot(x, z))
+      axis.x = x / n; axis.z = z / n
+      stick.style.transform = 'translate(' + axis.x * 24 + 'px,' + axis.z * 24 + 'px)'
+    }
+    element.addEventListener('pointermove', drag)
+    ;['pointerup', 'pointercancel', 'lostpointercapture'].forEach(function (name) { element.addEventListener(name, function (e) { if (pointer && pointer.id === e.pointerId) clearInput() }) })
+  }
+  bindDrag(joystick); bindDrag(wrap)
+  function renderCSS (s) {
+    var w = cabinet.clientWidth, px = function (x) { return w / 2 + x * (w - 90) / 1.8 }, ground = function (z) { return 285 + (z + .5) * 54 }
+    var chuteOffset = (43 - px(-.48)) * (s.travel || 0)
+    var clawTop = ground(s.z) - 34 - (s.y - 2.605) * 330
+    setClawX(px(s.x) + chuteOffset); setClawY(clawTop)
+    claw.classList.toggle('closed', s.close > .5)
+    Array.from(pit.children).forEach(function (el, i) {
+      var spot = window.ClawMotion.spots[i], selected = i === s.selected && s.prize
+      var p = selected ? s.prize : { x: spot.x, z: spot.z, y: 1.355, squash: 1 }
+      var top = ground(p.z) - (p.y - 1.355) * 330
+      if (selected && ['drop', 'flash', 'reveal'].includes(s.phase)) {
+        var fall = (1.83 - p.y) / 1.28
+        top = clawTop + 34 + (cabinet.clientHeight - 58 - clawTop - 34) * fall
+      }
+      el.style.left = px(p.x) + (selected ? chuteOffset : 0) - 14 - 19 + 'px'; el.style.bottom = ''
+      el.style.top = top - pit.offsetTop + 'px'
+      el.style.zIndex = selected ? '6' : ''
+      el.style.transform = 'scaleY(' + p.squash + ')'; el.style.opacity = s.phase === 'reveal' && i === s.selected ? '0' : '1'
+    })
+    chute.classList.toggle('lit', s.flash); catchLight.classList.toggle('on', s.flash)
+  }
+  function tick (now) {
+    if (machine) {
+      // A lost WebGL context keeps the same mechanics; only the renderer changes.
+      machine.move(axis.x + (keys.ArrowRight ? 1 : 0) - (keys.ArrowLeft ? 1 : 0), axis.z + (keys.ArrowDown ? 1 : 0) - (keys.ArrowUp ? 1 : 0))
+      machine.step(now)
+      var s = machine.state, armed = s.phase === 'armed'
+      dropBtn.disabled = joystick.disabled = !armed
+      clock.textContent = armed ? 'TIME ' + String(s.remaining).padStart(2, '0') : s.phase === 'reveal' ? 'YOUR BOX' : 'RETRIEVING'
+      if (!wrap.classList.contains('claw3d-ready')) renderCSS(s)
+      wrap.dataset.phase = s.phase
+    }
+    requestAnimationFrame(tick)
+  }
+  window.clawGame = { get state () { return machine ? Object.assign({}, machine.state) : { phase: 'idle' } } }
+  requestAnimationFrame(tick)
 
   /* ---------- prize reveal ---------- */
   async function showReveal () {
