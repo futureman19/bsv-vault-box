@@ -1,0 +1,43 @@
+{
+  "desktop": {
+    "ready": "machine-wrap claw3d-ready",
+    "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "canvas": {
+      "width": 728,
+      "height": 520
+    },
+    "fallback": "none",
+    "errors": [],
+    "raf_timing": {
+      "samples": 180,
+      "median_ms": 17.600000000000364,
+      "p95_ms": 18.200000000000728,
+      "note": "desktop GPU even at mobile viewport; not phone proof"
+    },
+    "reduced_motion_and_idle": "passed",
+    "dispose_remount_context_loss": "passed"
+  },
+  "mobile": {
+    "ready": "machine-wrap claw3d-ready",
+    "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "canvas": {
+      "width": 343,
+      "height": 480
+    },
+    "fallback": "none",
+    "errors": [],
+    "raf_timing": {
+      "samples": 180,
+      "median_ms": 17.600000000000364,
+      "p95_ms": 18.100000000000364,
+      "note": "desktop GPU even at mobile viewport; not phone proof"
+    },
+    "reduced_motion_and_idle": "passed",
+    "dispose_remount_context_loss": "passed"
+  },
+  "fallback": {
+    "present": true,
+    "errors": [],
+    "baseline_pixel_parity": "passed"
+  }
+}
