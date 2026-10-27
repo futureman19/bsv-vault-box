@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<link rel="icon" href="data:,">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>boxsv.com — Sealed Vault Boxes</title>
 <meta name="description" content="The claw machine that sells sealed on-chain boxes. 1 BSV per play, guaranteed win. Every seal verifiable on BSV — no trust required.">
@@ -71,6 +72,13 @@
   .coin-slot span { font-size:.52rem; color:var(--dim); letter-spacing:.1em; }
   .catch-light { position:absolute; inset:0; pointer-events:none; opacity:0; background:radial-gradient(circle at 12% 92%, rgba(251,191,36,.45), transparent 55%); transition:opacity .4s; }
   .catch-light.on { opacity:1; }
+
+  /* Progressive enhancement: original cabinet remains the failure path. */
+  .machine-wrap { position:relative; }
+  .claw3d-canvas { position:absolute; inset:0; width:100%; height:100%; display:block; }
+  .machine-wrap.claw3d-ready { height:520px; }
+  .claw3d-ready > .cabinet { display:none; }
+  @media (max-width:600px) { .machine-wrap.claw3d-ready { height:480px; } }
 
   /* ---------- play controls ---------- */
   .controls { text-align:center; margin-top:1.1rem; }
@@ -244,5 +252,12 @@
 </div>
 
 <script src="claw.js"></script>
+<script type="importmap">
+{"imports":{"three":"./vendor/three/three.module.min.js"}}
+</script>
+<script type="module">
+import { mount } from './claw3d.js';
+window.claw3dHandle = mount(document.querySelector('.machine-wrap'));
+</script>
 </body>
 </html>
