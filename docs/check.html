@@ -79,7 +79,7 @@ async function run(){
     const manifestTxid = document.getElementById('manifestTxid').value.trim()
     const mintTxid = document.getElementById('mintTxid').value.trim()
     const r = await VaultCheck.checkBox(txid.toLowerCase(), 3, {manifestTxid, mintTxid})
-    const cls = r.verdict.startsWith('SEALED') ? 'sealed' : r.verdict.startsWith('OPENED') ? 'opened' : 'bad'
+    const cls = r.verdict === 'OPENED-SPENT' ? 'bad' : r.verdict.startsWith('SEALED') ? 'sealed' : r.verdict.startsWith('OPENED') ? 'opened' : 'bad'
     const pend = r.verdict.endsWith('PENDING') ? '<span class="pending">awaits confirmation depth (K≥3 recommended)</span>' : ''
     const packs = (r.outputs || []).map(o =>
       (o.pack ? `<div class="ev">Pack: ${escapeHtml(o.pack.designs.join(', '))}</div>` : '') +

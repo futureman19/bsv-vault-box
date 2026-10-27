@@ -109,6 +109,13 @@ SHA-256 = `a3ae26ffa23407ba3010b78262b0bd33b3453527012c4f34ff3e0b6658a3bdbb`; mo
 3. The opener mints the pack in one child transaction of the opening tx, tagged `VAULT3-MINT`, carrying `{manifest_root, box_id, designs: [d0..dN-1]}` — one inscription per card (each its own 1Sat ordinal, individually tradable) or a single pack inscription with the ordered list (cheaper; cards tradable as a unit). Validity rule (client-enforced): **the mint is valid iff the design list equals the recomputed pack, in slot order, including retry replays.** Any deviation = invalid, MUST be rejected by indexers and marketplaces.
 4. Opened box, pack, and individual cards are independent collectibles; all transferable (VAULT-0001 opened-transfer for the box).
 
+Both mint encodings below are normative for a single ordered pack payload:
+
+- **Tradable inscription:** `OP_FALSE OP_IF <"ord"> OP_1 <"application/vnd.vault3-mint+json"> OP_0 <JSON> OP_ENDIF <locking script>`. JSON includes `protocol: "VAULT3-MINT"` plus `manifest_root`, `box_id`, and `designs`. The envelope precedes the spendable locking script; a single 1Sat pack inscription trades as a unit.
+- **Lightweight record:** `[OP_FALSE] OP_RETURN <"VAULT3-MINT"> <JSON>`, with the same root, identity, and ordered designs. This is a non-spendable record, not itself a tradable ordinal.
+
+The public checker supports exactly one pack payload across these encodings per mint transaction, rejects ambiguous duplicates (including mixed encodings), and applies identical child-transaction and recomputation checks. Split per-card inscriptions require separate aggregation support and are not supported by this checker.
+
 ## 8. Seal-check extension
 
 VAULT-0001 §7 stands unchanged. For opened boxes, the checker additionally: fetches the opening block height, waits for draw block, recomputes the assignment, and verifies any presented mint matches. New verdict: `INVALID-MINT` (mint disagrees with the deterministic draw).
