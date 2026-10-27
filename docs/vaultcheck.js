@@ -17,7 +17,7 @@
 const VaultCheck = (() => {
     const WOC = 'https://api.whatsonchain.com/v1/bsv/main'
 
-    // Compiled covenant fingerprint (vault/artifacts/vault.json, scrypt-ts 1.20.0).
+    // Compiled covenant fingerprint (vault/artifacts/vault.json, scrypt-ts 1.4.5; sCrypt compiler 1.20.0).
     const ARTIFACT_PREFIX =
         '0176018801a901ac2097dfd76851bf465e8f7155' // first bytes of the compiled script
     const ARTIFACT_CODETAIL =
