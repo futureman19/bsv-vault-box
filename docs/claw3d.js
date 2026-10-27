@@ -1,7 +1,7 @@
 import * as THREE from 'three';
 import { RoomEnvironment } from './vendor/three/RoomEnvironment.js';
 
-// Scene only: the existing DOM game retains ownership of PLAY and reveals.
+// Rendering observes shared deterministic game mechanics; DOM owns input/reveal.
 const mounts = new WeakMap();
 function mulberry32(seed) {
   return () => { let t = seed += 0x6D2B79F5; t = Math.imul(t ^ t >>> 15, t | 1); t ^= t + Math.imul(t ^ t >>> 7, t | 61); return ((t ^ t >>> 14) >>> 0) / 4294967296; };
@@ -49,12 +49,27 @@ export function mount(container) {
   }
   function lost(event) { event.preventDefault(); dispose(); }
   function motionChanged() { last=0; if(motion.matches) { time=0; pose(0); render(); } }
-  let prizes=[], claw, marquee;
+  const game = window.clawMotionHandle || window.ClawMotion.create();
+  let prizes=[], claw, marquee, wire, carriage, trolley, chuteLight, cameraDistance=8;
+  const prongs=[];
   function pose(t) {
     if(!claw) return;
-    claw.rotation.z=Math.sin(t*.8)*.025; claw.rotation.x=Math.sin(t*.65)*.014;
-    prizes.forEach((p,i)=>{p.position.y=p.userData.baseY+Math.sin(t*1.4+i)*.009;});
-    marquee.emissiveIntensity=.55+Math.sin(t*1.5)*.07;
+    const s=game.state, active=s.phase!=='idle';
+    const x=active?s.x:.05, z=active?s.z:.04, y=active?s.y:3.08;
+    claw.position.set(x,y,z); carriage.position.x=x; trolley.position.set(x,3.16,z);
+    const length=3.29-(y-.57); wire.position.set(x,3.29-length/2,z); wire.scale.y=length;
+    claw.rotation.z=active?0:Math.sin(t*.8)*.025; claw.rotation.x=active?0:Math.sin(t*.65)*.014;
+    prongs.forEach(p=>{p.scale.x=1-s.close*.4;});
+    prizes.forEach((p,i)=>{
+      const spot=window.ClawMotion.spots[i]; p.visible=!(s.phase==='reveal'&&s.selected===i);
+      if(s.selected===i && s.prize) { p.position.set(s.prize.x,s.prize.y,s.prize.z); p.scale.y=s.prize.squash; p.rotation.set(0,0,0); }
+      else { p.position.set(spot.x,p.userData.baseY+(motion.matches||active?0:Math.sin(t*1.4+i)*.009),spot.z); p.scale.y=1; p.rotation.copy(p.userData.rotation); }
+    });
+    marquee.emissiveIntensity=.55+(motion.matches?0:Math.sin(t*1.5)*.07);
+    chuteLight.emissiveIntensity=s.flash?5:1.5;
+    // Brief restrained camera settle on contact, returning during lift.
+    const settle=motion.matches?0:s.phase==='grab'?.035*s.close:s.phase==='lift'?.035*(3.08-s.y)/.475:0;
+    camera.position.set(cameraDistance*.27,3.65-settle,cameraDistance-settle); camera.lookAt(0,1.95,0);
   }
   function render() { renderer.render(scene,camera); }
   try {
@@ -72,7 +87,7 @@ export function mount(container) {
     finally {room.dispose(); pmrem.dispose();}
     const enamel=material(0x151d29,.65,.27), edge=material(0x303b49,.8,.24), brass=material(gold,.8,.25), chrome=material(0xdce6ee,1,.16), dark=material(0x05090f,.25,.55);
     const light=material(0xffe5a0,.15,.25,{emissive:gold,emissiveIntensity:2});
-    const green=material(0x4ade80,.2,.3,{emissive:0x4ade80,emissiveIntensity:1.5});
+    const green=material(0x4ade80,.2,.3,{emissive:0x4ade80,emissiveIntensity:1.5}); chuteLight=green;
     const cabinet=new THREE.Group();scene.add(cabinet);
     // Plinth, enamel base, raised sill and tall structural posts.
     box(2.65,.14,1.8,edge,cabinet,0,.16,0);
@@ -94,14 +109,14 @@ export function mount(container) {
     for(const x of [-1.08,1.08]) box(.027,2.15,.025,light,cabinet,x,2.25,-.71);
     box(2.22,.025,.06,light,cabinet,0,3.38,.6);
     for(const z of [-.48,.43]) rod([-1.1,3.29,z],[1.1,3.29,z],.035,chrome,cabinet);
-    box(.48,.12,1.05,edge,cabinet,.05,3.27,0);
-    box(.35,.15,.35,brass,cabinet,.05,3.16,.04);
+    carriage=box(.48,.12,1.05,edge,cabinet,.05,3.27,0);
+    trolley=box(.35,.15,.35,brass,cabinet,.05,3.16,.04);
     claw=new THREE.Group();claw.position.set(.05,3.08,.04);cabinet.add(claw);
-    rod([0,0,0],[0,-.57,0],.016,chrome,claw);
+    wire=mesh(new THREE.CylinderGeometry(.016,.016,1,12),chrome,cabinet);
     mesh(new THREE.CylinderGeometry(.13,.18,.22,24),chrome,claw,0,-.66,0);
     mesh(new THREE.CylinderGeometry(.19,.19,.045,24),brass,claw,0,-.62,0);
     for(let i=0;i<3;i++) {
-      const prong=new THREE.Group();prong.rotation.y=i*Math.PI*2/3;claw.add(prong);
+      const prong=new THREE.Group();prong.rotation.y=i*Math.PI*2/3;claw.add(prong);prongs.push(prong);
       mesh(new THREE.SphereGeometry(.065,12,8),chrome,prong,.14,-.73,0);
       rod([.14,-.73,0],[.32,-.96,0],.04,chrome,prong);
       rod([.32,-.96,0],[.28,-1.19,0],.035,chrome,prong);
@@ -111,9 +126,9 @@ export function mount(container) {
     const random=mulberry32(210614), colors=[0x973b48,0x21605e,0x3c538b,0x90572a,0x635187,0x327a54];
     const ribbon=material(0xffd674,.5,.28);
     colors.forEach((color,i)=>{
-      const p=new THREE.Group(), s=.43+random()*.08;
-      p.position.set((i%3-1)*.67+(random()-.5)*.09,1.12+s/2, i<3?.35:-.33);
-      p.rotation.set((random()-.5)*.1,(random()-.5)*.6,(random()-.5)*.12);p.userData.baseY=p.position.y;cabinet.add(p);prizes.push(p);
+      const p=new THREE.Group(), s=.47;
+      p.position.set((i%3-1)*.67,1.12+s/2, i<3?.35:-.33);
+      p.rotation.set(0,(random()-.5)*.6,0);p.userData.rotation=p.rotation.clone();p.userData.baseY=p.position.y;cabinet.add(p);prizes.push(p);
       const wrap=material(color,.22,.38);
       box(s,s,s,wrap,p);box(s+.035,.075,s+.035,wrap,p,0,s/2,0);
       box(.07,s+.012,s+.014,ribbon,p);box(s+.014,s+.012,.07,ribbon,p);
@@ -154,7 +169,7 @@ export function mount(container) {
       const width=container.clientWidth, height=container.clientHeight;
       if(!width||!height) return;
       renderer.setSize(width,height,false);camera.aspect=width/height;
-      const distance=Math.max(7.9,4.0/camera.aspect);
+      const distance=Math.max(7.9,4.0/camera.aspect); cameraDistance=distance;
       camera.position.set(distance*.27,3.65,distance);camera.lookAt(0,1.95,0);camera.updateProjectionMatrix();render();
     }
     container.append(canvas);resize();pose(0);render();
@@ -163,11 +178,11 @@ export function mount(container) {
     canvas.addEventListener('webglcontextlost',lost);motion.addEventListener('change',motionChanged);
     function tick(now) {
       if(disposed) return;
-      if(!motion.matches && !document.hidden) {time+=last?Math.min((now-last)/1000,.05):0;pose(time);render();}
+      if(!document.hidden) {if(!motion.matches) time+=last?Math.min((now-last)/1000,.05):0;pose(time);render();}
       last=now;raf=requestAnimationFrame(tick);
     }
     raf=requestAnimationFrame(tick);
-    const handle={dispose};mounts.set(container,handle);return handle;
+    const handle={...game,dispose,get disposed(){return disposed;}};mounts.set(container,handle);return handle;
   } catch(error) { dispose(); return null; }
 }
 window.Claw3D={mount};
