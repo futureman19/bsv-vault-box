@@ -1,6 +1,7 @@
 'use strict';
 const { createHash } = require('node:crypto');
 const { validateManifest } = require('./manifest');
+const {MAX_RETRIES,DrawExhausted}=require('./odds');
 const D=1;
 function natural(n) { if(!Number.isSafeInteger(n)||n<0) throw new TypeError('Expected nonnegative safe integer'); return n; }
 function text(s) { if(typeof s!=='string'||!s.length||!s.isWellFormed()||s.includes('|')) throw new TypeError('Expected nonempty well-formed text without pipe delimiter'); }
@@ -20,7 +21,7 @@ function drawPack(manifest,boxId,seed) {
     const key=cfg?`slot${slot}`:'main';
     if(!seen.has(key)) seen.set(key,new Set());
     const used=seen.get(key); let retry=0;
-    while(true) {
+    for(;retry<=MAX_RETRIES;) {
       const index=drawIndex(boxId,seed,slot,retry,total);
       let cumulative=0, id;
       for(const d of table) { cumulative+=d.weight; if(index<cumulative) { id=d.id; break; } }
@@ -28,6 +29,7 @@ function drawPack(manifest,boxId,seed) {
       if(manifest.allow_pack_duplicates||!used.has(id)) {
         designs.push(id); used.add(id); trace.push({slot,table:key,retry,design:id}); break;
       }
+      if(retry===MAX_RETRIES) throw new DrawExhausted(`Draw exhausted at slot ${slot} after ${MAX_RETRIES} retries`);
       retry=natural(retry+1); retries=natural(retries+1);
     }
   }
@@ -43,4 +45,4 @@ function drawPackForOpen(manifest,boxId,openHeight,blockHashAtHeight,delay=D) {
   if(seed===null||seed===undefined) return null;
   return drawPack(manifest,boxId,seed);
 }
-module.exports={D,drawIndex,drawPack,drawBlockHeight,drawPackForOpen};
+module.exports={D,MAX_RETRIES,DrawExhausted,drawIndex,drawPack,drawBlockHeight,drawPackForOpen};

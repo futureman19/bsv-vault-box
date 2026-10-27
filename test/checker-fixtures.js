@@ -4,7 +4,7 @@ const {buildManifest,manifestRoot}=require('../manifest');
 const {drawPack}=require('../draw');
 const checker=require('../docs/vaultcheck');
 const ids={sealed:'11'.repeat(32),open:'22'.repeat(32),transfer:'33'.repeat(32),manifest:'44'.repeat(32),mint:'55'.repeat(32),block:'66'.repeat(32),seed:'77'.repeat(32),box:'88'.repeat(32)};
-const manifest=buildManifest({name:'Fixture',pack_size:3,allow_pack_duplicates:false,designs:[{id:0,ref:'a',weight:5},{id:1,ref:'b',weight:3},{id:2,ref:'c',weight:1}],slots:{2:{table:[{id:2,weight:1}]}}});
+const manifest=buildManifest({name:'Fixture',pack_size:3,allow_pack_duplicates:false,per_slot_odds_published:true,designs:[{id:0,ref:'a',weight:5},{id:1,ref:'b',weight:3},{id:2,ref:'c',weight:1}],slots:{2:{table:[{id:2,weight:1}]}}});
 const root=manifestRoot(manifest),owner='02'+'99'.repeat(32);
 function script(state,commitment=root){
  const constants='0176018801a901ac20'+'97dfd76851bf465e8f715593b217714858bbe9570ff3bd5e33840a34e20ff026'+'21'+'02ba79df5f8ae7604a9830f03c7933028186aede0675a16f025dc4f8be8eec0382'+'20'+'1008ce7480da41702918d1ec8e6849ba32b4d65b1e40dc669c31a1e6306b266c';

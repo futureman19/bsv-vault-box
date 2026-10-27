@@ -13,7 +13,7 @@ This is the "Copenhagen" box: no hidden fact of the matter exists until opening 
 
 ## 2. Draw semantics — Version A (with replacement), pack model
 
-Each box contains a **pack of N cards** (default N = 10; the format supports any N, e.g. 100). Each card is an independent draw from the full inventory, derived from a per-slot seed (§6). Duplicates of a design can exist across boxes; each minted instance is unique by construction (identity = `(design_id, box_id, slot)`).
+Each box contains a **pack of N cards** (default N = 10). Each card is derived from a per-slot seed (§6); draws are independent only when duplicates are allowed. Committed weights are **FIRST-SLOT marginals** for each table: `weight / total_weight`. No-duplicate later slots have different marginal probabilities, not the original weight ratios. Duplicates of a design can exist across boxes; each minted instance is unique by construction (identity = `(design_id, box_id, slot)`).
 
 **Within-pack duplicates** are configurable per manifest:
 - `allow_pack_duplicates: true` (simplest) — slots fully independent; a pack may contain two of the same design.
@@ -43,12 +43,24 @@ Before any box is sold, the issuer publishes on-chain:
      "total_weight": 100000,
      "slots": { "9": { "table": [ {"id": 7, "weight": 90}, {"id": 8, "weight": 10} ],
                        "total_weight": 100 } },        // optional per-slot tables ("guaranteed rare")
+     "slot_odds": [ ... ],                         // required exact rows, see §4.1
+     "per_slot_odds_published": true,              // required if deviation > 1 percentage point
      "manifest_version": 1 }
    ```
-   Weights are integers; rarity = weight / total_weight. The manifest is PUBLIC by design — buyers must be able to audit the odds (and any per-slot guarantees) before paying.
+   Weights are integers and specify FIRST-SLOT marginals, not universal per-slot rarity. The manifest is PUBLIC by design — buyers must be able to audit the odds (and any per-slot guarantees) before paying.
 2. **Manifest root** = SHA-256 of the canonical manifest bytes. Every box's covenant `content_ref` field carries this root (repurposing VAULT-0001's field: for mystery boxes it commits the catalog, not a specific content).
 
 Immutability follows from VAULT-0001: `content_ref` can never change, so every box is welded to the manifest it was born under.
+
+### 4.1 Normative odds disclosure
+
+Every no-duplicate manifest MUST additionally contain `slot_odds`, computed by the reference `computeSlotOdds` in `manifest.js`/`odds.js`. This is an array indexed by absolute slot, each containing `{ "id": <integer>, "probability": "<numerator>/<denominator>" }` rows in that slot's table order. Fractions MUST be reduced nonnegative base-10 integers with positive denominator (including `0/1` and `1/1`); no JSON floating-point values. They specify exact ideal weighted-without-replacement marginals, before the finite retry cap; modulo bias below `total_weight / 2^256` is not represented as advertised precision. Exhaustion is a failed draw, never a substitute card, and can affect the distribution conditional on successful packs. These fractions are not a claim of zero exhaustion probability.
+
+For `[99,1]` and two main slots, the rows are `[99/100,1/100]` then `[1/100,99/100]`. A deviation of **more than 1 percentage point** from that table's first-slot weights requires explicit `per_slot_odds_published: true`; absent/false attestation MUST fail validation. Attestation alone is insufficient: missing or forged `slot_odds` MUST fail. The builder fills missing odds but never supplies attestation for the issuer. The fields are inside the manifest commitment; adding them changes its root, not the draw preimage.
+
+The reference enumerates selected-count states grouped by equal weights (singleton groups are subset enumeration). A transition from state S to selecting group g has probability `remaining_count[g] * weight[g] / remaining_weight`; sum incoming probability mass, then divide a group's marginal equally among its designs. Thus the 1000-design Genesis table has only three weight groups and is computed exactly, not sampled. Main-slot index advances only for main-table slots. Every explicit slot has its own single-use table scope.
+
+Resource limits: at most 100 slots, 10000 catalog designs, 20000 state transitions per table, and an 8192-bit incoming rational denominator. If exact computation exceeds a state/rational limit, the implementation supplies fixed-seed (`0x5641554c`, xorshift32) sampling diagnostics and rejects with `OddsUnavailable`. Sample count is `max(1,min(4096,floor(1000000/(slots*designs))))`; the reported simultaneous Hoeffding radius is `sqrt(log(2*slots*designs/1e-6)/(2*samples))`. This is a diagnostic confidence bound under an IID assumption, not a proof for a fixed PRNG. Estimates MUST NOT be published as exact odds or accepted via attestation. Such catalogs must be simplified before publication. Size-limit violations fail immediately. These conservative limits keep validation finite without mislabelling sampled probabilities as exact.
 
 ## 5. Box creation and minting of boxes
 
@@ -65,14 +77,25 @@ for slot in 0 .. pack_size-1:
     table_key      = slot if slot has own table, else "main"
     retry          = 0
     loop:
-        draw_index = SHA256("VAULT3-DRAW" || box_id || seed || slot || retry) mod table.total_weight
+        draw_index = SHA256(UTF8("VAULT3-DRAW|" + boxId + "|" + seed + "|" + slot + "|" + retry)) mod table.total_weight
         design     = walk table weights in order until cumulative > draw_index
         if allow_pack_duplicates or design not already drawn FROM THIS TABLE: accept, break
+        if retry == 10000: throw DrawExhausted                            // never return a partial pack
         retry += 1                                                        // deterministic rejection sampling
 ```
 
 - **Dedup scope is per-table** (prevents non-termination): main-table slots dedup among themselves; a slot with its own table (e.g. guaranteed-rare) dedups only against slots sharing that table — its card may coincide with a main-table pull, exactly like a physical pack's rare slot.
-- **Manifest validity rule:** with `allow_pack_duplicates: false`, every table must contain at least as many designs as the number of slots bound to it.
+- **Manifest validity rule:** with `allow_pack_duplicates: false`, every table must contain at least as many designs as the number of slots bound to it. For a table bound to k >= 2 slots, reject when `(max_weight / min_weight) * k > 10000`, using exact integer comparison. After j < k accepted designs, rejected mass is at most `j*max_weight`, while remaining mass is at least `(n-j)*min_weight`, so expected retries are at most `j*max_weight/((n-j)*min_weight) <= (k-1)*max_weight/min_weight < k*max_weight/min_weight`. This is a conservative per-slot expectation bound, not a guarantee; geometric tails still require the runtime cap. Single-use explicit tables and duplicate-allowed draws do not reject duplicates and need no ratio constraint. An unsafe table raises typed `DrawExhausted` during validation, before hashing.
+
+**Normative byte encoding:** hash UTF-8 bytes of exactly `"VAULT3-DRAW|" + boxId + "|" + seed + "|" + slot + "|" + retry`. Do not hash binary concatenation, reverse hashes, add spaces, BOM or a newline. Production `boxId` and `seed` are lowercase hexadecimal strings representing 32-byte hashes; slot and retry are zero-based unsigned decimal integers with no leading zeros except `0`. Fields containing `|` are invalid. The digest is interpreted as an unsigned big-endian integer, then reduced modulo table weight. Historical simulation APIs also accept nonempty well-formed text IDs such as `box-alpha`; callers MUST enforce production hash format at the chain boundary. This compatibility does not change any encoded bytes or historical vectors.
+
+**Conformance vector (literal UTF-8 preimage, no trailing newline):**
+```
+VAULT3-DRAW|0000000000000000000000000000000000000000000000000000000000000000|1111111111111111111111111111111111111111111111111111111111111111|2|3
+```
+SHA-256 = `a3ae26ffa23407ba3010b78262b0bd33b3453527012c4f34ff3e0b6658a3bdbb`; modulo 100 = **91**. Inputs: boxId = 32 zero bytes rendered as hex, seed = 32 `11` bytes rendered as hex, slot = 2, retry = 3. This literal vector was independently hashed with Python hashlib and is asserted in JS and Python tests.
+
+**Retry cap:** attempt nonce 0 followed by at most 10000 retries (nonces 1 through 10000). If nonce 10000 also repeats an already-selected design, throw `DrawExhausted` (`code: DRAW_EXHAUSTED` in JS); no partial pack or alternate seed is valid. A valid manifest can still exhaust at runtime.
 
 - **Everything is replayable:** box_id, block hash, slot, retry are all public or derivable — any verifier recomputes the entire pack bit-for-bit.
 - **D = 0** (hash of the open block itself) is acceptable for low-value boxes; the including miner could orphan-and-remine for a reroll at block-reward cost.

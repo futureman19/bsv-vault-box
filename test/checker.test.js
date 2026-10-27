@@ -34,7 +34,7 @@ test('invalid manifest weight and duplicate payload are rejected',async()=>{cons
 test('inline draw matches library over 25 seeded catalogs',async()=>{
  const {buildManifest,manifestRoot}=require('../manifest');
  for(let i=0;i<25;i++){
-  const m=buildManifest({name:'Unicode é 😀 '+i,pack_size:4,allow_pack_duplicates:i%2===0,designs:Array.from({length:6},(_,j)=>({id:j,ref:'r',weight:(j+1)*(i+1)})),slots:{3:{table:[{id:0,weight:1},{id:5,weight:2}]}}});
+  const m=buildManifest({name:'Unicode é 😀 '+i,pack_size:4,allow_pack_duplicates:i%2===0,per_slot_odds_published:true,designs:Array.from({length:6},(_,j)=>({id:j,ref:'r',weight:(j+1)*(i+1)})),slots:{3:{table:[{id:0,weight:1},{id:5,weight:2}]}}});
   const d=chain();const hash=manifestRoot(m);d['/tx/'+ids.manifest].vout=[tagged('VAULT3-MANIFEST',m)];
   for(const [id,state] of [[ids.sealed,0],[ids.open,1]])d['/tx/'+id].vout[0].scriptPubKey.hex=script(state,hash);
   const r=await harness(d).check(ids.open,{manifestTxid:ids.manifest});assert.deepEqual(r.outputs[0].pack,drawPack(m,ids.box,ids.seed));

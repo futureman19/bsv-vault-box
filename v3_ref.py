@@ -9,6 +9,10 @@ The chain is simulated: block hashes are deterministic stand-ins
 import hashlib, json, math, os, sys
 
 D = 1  # draw block = open block + D (spec default)
+MAX_RETRIES = 10000
+
+class DrawExhausted(RuntimeError):
+    pass
 
 # ---------------- manifest ----------------
 def canonical_manifest():
@@ -49,6 +53,15 @@ class Chain:
 
 # ---------------- the draw (spec section 6, verbatim semantics) ----------------
 def draw_index(box_id, seed, slot, retry, total_weight):
+    for field in (box_id, seed):
+        if not isinstance(field, str) or not field or '|' in field:
+            raise ValueError('Expected nonempty text without pipe delimiter')
+        field.encode('utf-8', errors='strict')
+    for value in (slot, retry, total_weight):
+        if type(value) is not int or not 0 <= value <= 9007199254740991:
+            raise ValueError('Expected nonnegative safe integer')
+    if total_weight == 0:
+        raise ValueError('Zero total weight')
     h = hashlib.sha256(f"VAULT3-DRAW|{box_id}|{seed}|{slot}|{retry}".encode()).digest()
     return int.from_bytes(h, 'big') % total_weight
 
@@ -61,8 +74,8 @@ def pick(table, idx):
 
 def draw_pack(manifest, box_id, seed):
     """Deterministic pack computation from public data. Anyone replays this.
-    Dedup scope is PER-TABLE (spec section 6): non-termination is impossible
-    if the manifest validity rule holds (table size >= slots bound to it)."""
+    Dedup scope is PER-TABLE. This legacy simulation is not a manifest
+    validator; manifest.js is the hardened publication reference."""
     pack, retries, seen = [], 0, {}
     for slot in range(manifest["pack_size"]):
         scfg = manifest.get("slots", {}).get(str(slot))
@@ -74,6 +87,8 @@ def draw_pack(manifest, box_id, seed):
         while True:
             d = pick(table, draw_index(box_id, seed, slot, retry, tw))
             if manifest["allow_pack_duplicates"] or d not in seen[tkey]: break
+            if retry == MAX_RETRIES:
+                raise DrawExhausted('Draw retry budget exhausted')
             retry += 1; retries += 1
         seen[tkey].add(d)
         pack.append(d)
