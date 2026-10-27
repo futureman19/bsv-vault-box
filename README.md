@@ -19,9 +19,10 @@ Everything else — re-sealing, swapping the contents, destroying the box — is
 
 Box A lineage: deploy `fe2c763f…e95d` → sealed transfer `f3590347…dd39`. Box B lineage: deploy `9a3007e5…0303` → open `2aaa4efa…e67f`. The seal flip is a single on-chain state byte (`00`→`01`) in the covenant trailer, enforced by the compiled contract in `vault/artifacts/vault.json`.
 
-## Seal checker (live)
+## Live site — boxsv.com
 
-Paste a box's current holding txid, get a verdict from public data: **https://boxsv.com** (old github.io URL redirects)
+- **https://boxsv.com** — landing: the vault claw machine (demo play + wallet connect; real minting switches on at launch)
+- **https://boxsv.com/check.html** — the zero-dependency seal checker: paste a box's current holding txid, get a verdict from public data (old github.io URL redirects)
 
 ## Repo map
 
