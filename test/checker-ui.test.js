@@ -2,7 +2,7 @@
 const {test}=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm');
 const {ids}=require('./checker-fixtures');
 test('UI sends optional locators, shows pack and manifest link, escapes evidence',async()=>{
- const html=fs.readFileSync('docs/index.html','utf8');
+ const html=fs.readFileSync('docs/check.html','utf8');
  assert.match(html,/id="manifestTxid"/);assert.match(html,/id="mintTxid"/);
  const elements={txid:{value:ids.open},manifestTxid:{value:ids.manifest},mintTxid:{value:ids.mint},out:{innerHTML:''}};
  const ctx=vm.createContext({document:{getElementById:id=>elements[id]},VaultCheck:{checkBox:async(id,k,opts)=>{
