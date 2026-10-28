@@ -1,13 +1,13 @@
 from playwright.sync_api import sync_playwright
-import json,pathlib
-out=pathlib.Path('evidence/claw3d');out.mkdir(parents=True,exist_ok=True)
+import json,pathlib,os
+out=pathlib.Path(os.environ.get('BOXSV_EVIDENCE_DIR','evidence/claw3d'));out.mkdir(parents=True,exist_ok=True)
 report={}
 with sync_playwright() as p:
  b=p.chromium.launch(channel='chrome',headless=False,args=['--disable-features=Vulkan'])
  for name,w,h in [('desktop',1280,900),('mobile',390,844)]:
   page=b.new_page(viewport={'width':w,'height':h},device_scale_factor=1,reduced_motion='reduce')
   errors=[];page.on('pageerror',lambda e:errors.append(str(e)));page.on('console',lambda m:errors.append(m.text) if m.type=='error' else None)
-  page.goto('http://127.0.0.1:4179/');page.wait_for_timeout(2000)
+  page.goto('http://127.0.0.1:4179/');page.wait_for_function("window.claw3dHandle?.assets.status==='ready'");page.wait_for_timeout(300)
   data=page.evaluate('''() => { const c=document.querySelector('.claw3d-canvas');const gl=c?.getContext('webgl2');const ext=gl?.getExtension('WEBGL_debug_renderer_info');return {ready:document.querySelector('.machine-wrap').className,renderer:ext?gl.getParameter(ext.UNMASKED_RENDERER_WEBGL):null,canvas:c?{width:c.width,height:c.height}:null, fallback:getComputedStyle(document.querySelector('.cabinet')).display}; }''')
   page.screenshot(path=str(out/(name+'.png')));data['errors']=errors;report[name]=data
   assert data['renderer'] and 'SwiftShader' not in data['renderer'],data

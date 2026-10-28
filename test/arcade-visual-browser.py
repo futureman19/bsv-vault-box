@@ -2,9 +2,9 @@
 from playwright.sync_api import sync_playwright
 from http.server import ThreadingHTTPServer, SimpleHTTPRequestHandler
 from functools import partial
-import pathlib, threading, json
+import pathlib, threading, json, os
 ROOT = pathlib.Path(__file__).resolve().parents[1]
-OUT = ROOT / 'evidence/arcade-polish'
+OUT = ROOT / os.environ.get('BOXSV_EVIDENCE_DIR', 'evidence/arcade-polish')
 OUT.mkdir(parents=True, exist_ok=True)
 server = ThreadingHTTPServer(('127.0.0.1', 0), partial(SimpleHTTPRequestHandler, directory=str(ROOT / 'docs')))
 threading.Thread(target=server.serve_forever, daemon=True).start()
@@ -20,6 +20,7 @@ try:
             page.on('console', lambda m: errors.append(m.text) if m.type == 'error' else None)
             page.goto(url)
             page.wait_for_function('!!window.claw3dHandle')
+            page.wait_for_function("claw3dHandle.assets.status !== 'loading'")
             page.wait_for_timeout(400)
             assert page.evaluate('document.documentElement.scrollWidth <= innerWidth'), name
             canvas = page.locator('.claw3d-canvas')

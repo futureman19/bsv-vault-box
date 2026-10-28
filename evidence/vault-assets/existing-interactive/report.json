@@ -1,0 +1,92 @@
+{
+  "desktop": {
+    "errors": [],
+    "input_response_ms": 1.8000001907348633,
+    "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "bounds": {
+      "phase": "armed",
+      "x": 0.9,
+      "z": 0.5,
+      "y": 3.08,
+      "close": 0,
+      "remaining": 26,
+      "selected": -1,
+      "prize": null,
+      "flash": false,
+      "drops": 0,
+      "reason": null,
+      "travel": 0
+    },
+    "timeout": {
+      "phase": "descend",
+      "x": 0,
+      "z": 0,
+      "y": 3.08,
+      "close": 0,
+      "remaining": 0,
+      "selected": 4,
+      "prize": {
+        "x": 0,
+        "y": 1.355,
+        "z": -0.33,
+        "squash": 1
+      },
+      "flash": false,
+      "drops": 1,
+      "reason": "timeout",
+      "travel": 0
+    },
+    "input_frames": {
+      "samples": 180,
+      "median_ms": 17.699999999999818,
+      "p95_ms": 18.200000000000728,
+      "fps": 55.781090210418654
+    },
+    "cpu4x_proxy": {
+      "samples": 180,
+      "median_ms": 17.600000000000364,
+      "p95_ms": 18.200000000000728,
+      "fps": 55.80357142857142
+    },
+    "strict_60fps_pass": false,
+    "remount_and_context_loss": "passed"
+  },
+  "wallet_reduced": {
+    "mock_calls": [
+      [
+        "auth",
+        {}
+      ],
+      [
+        "key",
+        {
+          "identityKey": true
+        }
+      ]
+    ],
+    "errors": []
+  },
+  "fallback": {
+    "errors": [],
+    "reset": {
+      "phase": "armed",
+      "x": 0,
+      "z": 0,
+      "y": 3.08,
+      "close": 0,
+      "remaining": 30,
+      "selected": -1,
+      "prize": null,
+      "flash": false,
+      "drops": 0,
+      "reason": null,
+      "travel": 0
+    }
+  },
+  "payload": {
+    "baseline_bytes": 783759,
+    "current_bytes": 801391,
+    "delta_percent": 2.2496711361528225,
+    "optional_authored_bytes": 853053
+  }
+}

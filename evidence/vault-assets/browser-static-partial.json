@@ -1,0 +1,1118 @@
+{
+  "models": {
+    "cabinet": {
+      "http": 200,
+      "bytes": 438856,
+      "sha256": "a47afa68a36d9ed16f126fdf53f63cc60c3b2c8061c91d6c082353569132f446",
+      "triangles": 6208,
+      "meshes": 5,
+      "min": [
+        -1.3250000476837158,
+        0.019999980926513672,
+        -0.9200000166893005
+      ],
+      "max": [
+        1.3250000476837158,
+        3.9735000133514404,
+        0.9824999570846558
+      ],
+      "min_triangle_area": 5.75636832077314e-06
+    },
+    "claw-hub": {
+      "http": 200,
+      "bytes": 41052,
+      "sha256": "26341ef3f4b587ed4ff0e0ff3ce50c9d39a358595c3848d342b496e6a78ddaf1",
+      "triangles": 636,
+      "meshes": 4,
+      "min": [
+        -0.1899999976158142,
+        -0.7900000810623169,
+        -0.1899999976158142
+      ],
+      "max": [
+        0.1899999976158142,
+        -0.550000011920929,
+        0.1899999976158142
+      ],
+      "min_triangle_area": 2.6794810443181438e-05
+    },
+    "claw-finger": {
+      "http": 200,
+      "bytes": 44024,
+      "sha256": "54fb3a79508f635ed89af2148389467f21d9092247981aaabebdcf91937d8572",
+      "triangles": 700,
+      "meshes": 4,
+      "min": [
+        0.08300000429153442,
+        -1.2775986194610596,
+        -0.06100001186132431
+      ],
+      "max": [
+        0.37400001287460327,
+        -0.6729999780654907,
+        0.06100001186132431
+      ],
+      "min_triangle_area": 7.400895346493136e-06
+    },
+    "vault-box": {
+      "http": 200,
+      "bytes": 160440,
+      "sha256": "3293b543f49c7a27c24bbc37986f0c5363aedccfb8a2e5651406c16a0bf00a32",
+      "triangles": 2288,
+      "meshes": 5,
+      "min": [
+        -0.2580000162124634,
+        -0.23499999940395355,
+        -0.25
+      ],
+      "max": [
+        0.2580000162124634,
+        0.2985000014305115,
+        0.32099997997283936
+      ],
+      "min_triangle_area": 3.684305337546164e-06
+    }
+  },
+  "desktop": {
+    "status": "ready",
+    "http": {
+      "cabinet.glb": 200,
+      "claw-hub.glb": 200,
+      "claw-finger.glb": 200,
+      "vault-box.glb": 200
+    },
+    "rejected": [],
+    "errors": [],
+    "idle": {
+      "assets": {
+        "status": "ready",
+        "parts": 11
+      },
+      "drawCalls": 151,
+      "triangles": 46562,
+      "claw": [
+        0.05,
+        3.08,
+        0.04
+      ],
+      "fingers": [
+        {
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "authored": 1
+        },
+        {
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotation": [
+            0,
+            2.0943951023931953,
+            0,
+            "XYZ"
+          ],
+          "authored": 1
+        },
+        {
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotation": [
+            0,
+            4.1887902047863905,
+            0,
+            "XYZ"
+          ],
+          "authored": 1
+        }
+      ],
+      "prizes": [
+        {
+          "position": [
+            -0.67,
+            1.3569106295261835,
+            0.35
+          ],
+          "visible": true,
+          "authored": 1
+        },
+        {
+          "position": [
+            0,
+            1.3634329338099178,
+            0.35
+          ],
+          "visible": true,
+          "authored": 1
+        },
+        {
+          "position": [
+            0.67,
+            1.3622020376392803,
+            0.35
+          ],
+          "visible": true,
+          "authored": 1
+        },
+        {
+          "position": [
+            -0.67,
+            1.3543496212769868,
+            -0.33
+          ],
+          "visible": true,
+          "authored": 1
+        },
+        {
+          "position": [
+            0,
+            1.3470951601132566,
+            -0.33
+          ],
+          "visible": true,
+          "authored": 1
+        },
+        {
+          "position": [
+            0.67,
+            1.3471083722863613,
+            -0.33
+          ],
+          "visible": true,
+          "authored": 1
+        }
+      ],
+      "primitiveCabinetVisible": false
+    },
+    "grab": {
+      "assets": {
+        "status": "ready",
+        "parts": 11
+      },
+      "drawCalls": 151,
+      "triangles": 46562,
+      "claw": [
+        0.372050177172648,
+        2.605,
+        0
+      ],
+      "fingers": [
+        {
+          "scale": [
+            0.9151462015475652,
+            1,
+            1
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "authored": 1
+        },
+        {
+          "scale": [
+            0.9151462015475652,
+            1,
+            1
+          ],
+          "rotation": [
+            0,
+            2.0943951023931953,
+            0,
+            "XYZ"
+          ],
+          "authored": 1
+        },
+        {
+          "scale": [
+            0.9151462015475652,
+            1,
+            1
+          ],
+          "rotation": [
+            0,
+            4.1887902047863905,
+            0,
+            "XYZ"
+          ],
+          "authored": 1
+        }
+      ],
+      "prizes": [
+        {
+          "position": [
+            -0.67,
+            1.355,
+            0.35
+          ],
+          "visible": true,
+          "authored": 1
+        },
+        {
+          "position": [
+            0,
+            1.355,
+            0.35
+          ],
+          "visible": true,
+          "authored": 1
+        },
+        {
+          "position": [
+            0.67,
+            1.355,
+            0.35
+          ],
+          "visible": true,
+          "authored": 1
+        },
+        {
+          "position": [
+            -0.67,
+            1.355,
+            -0.33
+          ],
+          "visible": true,
+          "authored": 1
+        },
+        {
+          "position": [
+            0,
+            1.355,
+            -0.33
+          ],
+          "visible": true,
+          "authored": 1
+        },
+        {
+          "position": [
+            0.6067945644621731,
+            1.355,
+            -0.2599956162767413
+          ],
+          "visible": true,
+          "authored": 1
+        }
+      ],
+      "primitiveCabinetVisible": false
+    },
+    "carry_alignment": {
+      "p": [
+        0.37042535848255265,
+        1.83,
+        0.0011060320923615382
+      ],
+      "target": {
+        "x": 0.37042535848255265,
+        "y": 1.83,
+        "z": 0.0011060320923615382,
+        "squash": 1
+      },
+      "claw": [
+        0.37042535848255265,
+        3.08,
+        0.0011060320923615382
+      ]
+    },
+    "input": "keyboard",
+    "reduced_motion_static": false,
+    "drop_reveal_reset": true
+  },
+  "mobile-reduced": {
+    "status": "ready",
+    "http": {
+      "cabinet.glb": 200,
+      "claw-hub.glb": 200,
+      "claw-finger.glb": 200,
+      "vault-box.glb": 200
+    },
+    "rejected": [],
+    "errors": [],
+    "idle": {
+      "assets": {
+        "status": "ready",
+        "parts": 11
+      },
+      "drawCalls": 151,
+      "triangles": 46562,
+      "claw": [
+        0.05,
+        3.08,
+        0.04
+      ],
+      "fingers": [
+        {
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "authored": 1
+        },
+        {
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotation": [
+            0,
+            2.0943951023931953,
+            0,
+            "XYZ"
+          ],
+          "authored": 1
+        },
+        {
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotation": [
+            0,
+            4.1887902047863905,
+            0,
+            "XYZ"
+          ],
+          "authored": 1
+        }
+      ],
+      "prizes": [
+        {
+          "position": [
+            -0.67,
+            1.355,
+            0.35
+          ],
+          "visible": true,
+          "authored": 1
+        },
+        {
+          "position": [
+            0,
+            1.355,
+            0.35
+          ],
+          "visible": true,
+          "authored": 1
+        },
+        {
+          "position": [
+            0.67,
+            1.355,
+            0.35
+          ],
+          "visible": true,
+          "authored": 1
+        },
+        {
+          "position": [
+            -0.67,
+            1.355,
+            -0.33
+          ],
+          "visible": true,
+          "authored": 1
+        },
+        {
+          "position": [
+            0,
+            1.355,
+            -0.33
+          ],
+          "visible": true,
+          "authored": 1
+        },
+        {
+          "position": [
+            0.67,
+            1.355,
+            -0.33
+          ],
+          "visible": true,
+          "authored": 1
+        }
+      ],
+      "primitiveCabinetVisible": false
+    },
+    "grab": {
+      "assets": {
+        "status": "ready",
+        "parts": 11
+      },
+      "drawCalls": 151,
+      "triangles": 46562,
+      "claw": [
+        0.23681054627932846,
+        2.605,
+        0.1894484370234628
+      ],
+      "fingers": [
+        {
+          "scale": [
+            0.900104442057351,
+            1,
+            1
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "authored": 1
+        },
+        {
+          "scale": [
+            0.900104442057351,
+            1,
+            1
+          ],
+          "rotation": [
+            0,
+            2.0943951023931953,
+            0,
+            "XYZ"
+          ],
+          "authored": 1
+        },
+        {
+          "scale": [
+            0.900104442057351,
+            1,
+            1
+          ],
+          "rotation": [
+            0,
+            4.1887902047863905,
+            0,
+            "XYZ"
+          ],
+          "authored": 1
+        }
+      ],
+      "prizes": [
+        {
+          "position": [
+            -0.67,
+            1.355,
+            0.35
+          ],
+          "visible": true,
+          "authored": 1
+        },
+        {
+          "position": [
+            0.05914080411819257,
+            1.355,
+            0.30990403009473616
+          ],
+          "visible": true,
+          "authored": 1
+        },
+        {
+          "position": [
+            0.67,
+            1.355,
+            0.35
+          ],
+          "visible": true,
+          "authored": 1
+        },
+        {
+          "position": [
+            -0.67,
+            1.355,
+            -0.33
+          ],
+          "visible": true,
+          "authored": 1
+        },
+        {
+          "position": [
+            0,
+            1.355,
+            -0.33
+          ],
+          "visible": true,
+          "authored": 1
+        },
+        {
+          "position": [
+            0.67,
+            1.355,
+            -0.33
+          ],
+          "visible": true,
+          "authored": 1
+        }
+      ],
+      "primitiveCabinetVisible": false
+    },
+    "carry_alignment": {
+      "p": [
+        0.21629523163329792,
+        1.83,
+        0.20062612998787466
+      ],
+      "target": {
+        "x": 0.21629523163329792,
+        "y": 1.83,
+        "z": 0.20062612998787466,
+        "squash": 1
+      },
+      "claw": [
+        0.21629523163329792,
+        3.08,
+        0.20062612998787466
+      ]
+    },
+    "input": "CDP touch",
+    "reduced_motion_static": true,
+    "drop_reveal_reset": true
+  },
+  "desktop-rejected": {
+    "status": "fallback",
+    "http": {
+      "cabinet.glb": 200,
+      "claw-hub.glb": 200,
+      "claw-finger.glb": 200
+    },
+    "rejected": [
+      "http://127.0.0.1:64394/assets/vault-kit/vault-box.glb"
+    ],
+    "errors": [],
+    "idle": {
+      "assets": {
+        "status": "fallback",
+        "parts": 0
+      },
+      "drawCalls": 233,
+      "triangles": 14882,
+      "claw": [
+        0.05,
+        3.08,
+        0.04
+      ],
+      "fingers": [
+        {
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "authored": 0
+        },
+        {
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotation": [
+            0,
+            2.0943951023931953,
+            0,
+            "XYZ"
+          ],
+          "authored": 0
+        },
+        {
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotation": [
+            0,
+            4.1887902047863905,
+            0,
+            "XYZ"
+          ],
+          "authored": 0
+        }
+      ],
+      "prizes": [
+        {
+          "position": [
+            -0.67,
+            1.3562945539195066,
+            0.35
+          ],
+          "visible": true,
+          "authored": 0
+        },
+        {
+          "position": [
+            0,
+            1.3631939356393263,
+            0.35
+          ],
+          "visible": true,
+          "authored": 0
+        },
+        {
+          "position": [
+            0.67,
+            1.3625598507206198,
+            0.35
+          ],
+          "visible": true,
+          "authored": 0
+        },
+        {
+          "position": [
+            -0.67,
+            1.354975273913413,
+            -0.33
+          ],
+          "visible": true,
+          "authored": 0
+        },
+        {
+          "position": [
+            0,
+            1.3474134301561844,
+            -0.33
+          ],
+          "visible": true,
+          "authored": 0
+        },
+        {
+          "position": [
+            0.67,
+            1.3468266437261003,
+            -0.33
+          ],
+          "visible": true,
+          "authored": 0
+        }
+      ],
+      "primitiveCabinetVisible": true
+    },
+    "grab": {
+      "assets": {
+        "status": "fallback",
+        "parts": 0
+      },
+      "drawCalls": 233,
+      "triangles": 14882,
+      "claw": [
+        0.3715858530515701,
+        2.605,
+        0
+      ],
+      "fingers": [
+        {
+          "scale": [
+            0.9129789666985892,
+            1,
+            1
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "authored": 0
+        },
+        {
+          "scale": [
+            0.9129789666985892,
+            1,
+            1
+          ],
+          "rotation": [
+            0,
+            2.0943951023931953,
+            0,
+            "XYZ"
+          ],
+          "authored": 0
+        },
+        {
+          "scale": [
+            0.9129789666985892,
+            1,
+            1
+          ],
+          "rotation": [
+            0,
+            4.1887902047863905,
+            0,
+            "XYZ"
+          ],
+          "authored": 0
+        }
+      ],
+      "prizes": [
+        {
+          "position": [
+            -0.67,
+            1.355,
+            0.35
+          ],
+          "visible": true,
+          "authored": 0
+        },
+        {
+          "position": [
+            0,
+            1.355,
+            0.35
+          ],
+          "visible": true,
+          "authored": 0
+        },
+        {
+          "position": [
+            0.67,
+            1.355,
+            0.35
+          ],
+          "visible": true,
+          "authored": 0
+        },
+        {
+          "position": [
+            -0.67,
+            1.355,
+            -0.33
+          ],
+          "visible": true,
+          "authored": 0
+        },
+        {
+          "position": [
+            0,
+            1.355,
+            -0.33
+          ],
+          "visible": true,
+          "authored": 0
+        },
+        {
+          "position": [
+            0.6050792314519715,
+            1.355,
+            -0.25820764752633607
+          ],
+          "visible": true,
+          "authored": 0
+        }
+      ],
+      "primitiveCabinetVisible": true
+    },
+    "carry_alignment": {
+      "p": [
+        0.3699255436724847,
+        1.83,
+        0.0011308072303206995
+      ],
+      "target": {
+        "x": 0.3699255436724847,
+        "y": 1.83,
+        "z": 0.0011308072303206995,
+        "squash": 1
+      },
+      "claw": [
+        0.3699255436724847,
+        3.08,
+        0.0011308072303206995
+      ]
+    },
+    "input": "keyboard",
+    "reduced_motion_static": false,
+    "drop_reveal_reset": true
+  },
+  "fallback-cabinet": {
+    "status": "fallback",
+    "http": {
+      "claw-hub.glb": 200,
+      "claw-finger.glb": 200,
+      "vault-box.glb": 200
+    },
+    "rejected": [
+      "http://127.0.0.1:64394/assets/vault-kit/cabinet.glb"
+    ],
+    "errors": [],
+    "idle": {
+      "assets": {
+        "status": "fallback",
+        "parts": 0
+      },
+      "drawCalls": 233,
+      "triangles": 14882,
+      "claw": [
+        0.05,
+        3.08,
+        0.04
+      ],
+      "fingers": [
+        {
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "authored": 0
+        },
+        {
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotation": [
+            0,
+            2.0943951023931953,
+            0,
+            "XYZ"
+          ],
+          "authored": 0
+        },
+        {
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotation": [
+            0,
+            4.1887902047863905,
+            0,
+            "XYZ"
+          ],
+          "authored": 0
+        }
+      ],
+      "prizes": [
+        {
+          "position": [
+            -0.67,
+            1.355,
+            0.35
+          ],
+          "visible": true,
+          "authored": 0
+        },
+        {
+          "position": [
+            0,
+            1.355,
+            0.35
+          ],
+          "visible": true,
+          "authored": 0
+        },
+        {
+          "position": [
+            0.67,
+            1.355,
+            0.35
+          ],
+          "visible": true,
+          "authored": 0
+        },
+        {
+          "position": [
+            -0.67,
+            1.355,
+            -0.33
+          ],
+          "visible": true,
+          "authored": 0
+        },
+        {
+          "position": [
+            0,
+            1.355,
+            -0.33
+          ],
+          "visible": true,
+          "authored": 0
+        },
+        {
+          "position": [
+            0.67,
+            1.355,
+            -0.33
+          ],
+          "visible": true,
+          "authored": 0
+        }
+      ],
+      "primitiveCabinetVisible": true
+    },
+    "grab": {
+      "assets": {
+        "status": "fallback",
+        "parts": 0
+      },
+      "drawCalls": 233,
+      "triangles": 14882,
+      "claw": [
+        0.24589918800422592,
+        2.605,
+        0.19671935040338073
+      ],
+      "fingers": [
+        {
+          "scale": [
+            0.9010767984327718,
+            1,
+            1
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "authored": 0
+        },
+        {
+          "scale": [
+            0.9010767984327718,
+            1,
+            1
+          ],
+          "rotation": [
+            0,
+            2.0943951023931953,
+            0,
+            "XYZ"
+          ],
+          "authored": 0
+        },
+        {
+          "scale": [
+            0.9010767984327718,
+            1,
+            1
+          ],
+          "rotation": [
+            0,
+            4.1887902047863905,
+            0,
+            "XYZ"
+          ],
+          "authored": 0
+        }
+      ],
+      "prizes": [
+        {
+          "position": [
+            -0.67,
+            1.355,
+            0.35
+          ],
+          "visible": true,
+          "authored": 0
+        },
+        {
+          "position": [
+            0.06081283735039945,
+            1.355,
+            0.31209246850899486
+          ],
+          "visible": true,
+          "authored": 0
+        },
+        {
+          "position": [
+            0.67,
+            1.355,
+            0.35
+          ],
+          "visible": true,
+          "authored": 0
+        },
+        {
+          "position": [
+            -0.67,
+            1.355,
+            -0.33
+          ],
+          "visible": true,
+          "authored": 0
+        },
+        {
+          "position": [
+            0,
+            1.355,
+            -0.33
+          ],
+          "visible": true,
+          "authored": 0
+        },
+        {
+          "position": [
+            0.67,
+            1.355,
+            -0.33
+          ],
+          "visible": true,
+          "authored": 0
+        }
+      ],
+      "primitiveCabinetVisible": true
+    },
+    "carry_alignment": {
+      "p": [
+        0.2257974333507241,
+        1.83,
+        0.20733323964440464
+      ],
+      "target": {
+        "x": 0.2257974333507241,
+        "y": 1.83,
+        "z": 0.20733323964440464,
+        "squash": 1
+      },
+      "claw": [
+        0.2257974333507241,
+        3.08,
+        0.20733323964440464
+      ]
+    },
+    "input": "CDP touch",
+    "reduced_motion_static": true,
+    "drop_reveal_reset": true
+  }
+}

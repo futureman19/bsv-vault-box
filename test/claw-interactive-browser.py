@@ -2,9 +2,9 @@
 from playwright.sync_api import sync_playwright
 from http.server import ThreadingHTTPServer, SimpleHTTPRequestHandler
 from functools import partial
-import pathlib, threading, json, subprocess, statistics
+import pathlib, threading, json, subprocess, statistics, os
 ROOT=pathlib.Path(__file__).resolve().parents[1]
-OUT=ROOT/'evidence/claw-interactive'; OUT.mkdir(parents=True,exist_ok=True)
+OUT=ROOT/os.environ.get('BOXSV_EVIDENCE_DIR','evidence/claw-interactive'); OUT.mkdir(parents=True,exist_ok=True)
 server=ThreadingHTTPServer(('127.0.0.1',0),partial(SimpleHTTPRequestHandler,directory=str(ROOT/'docs')))
 threading.Thread(target=server.serve_forever,daemon=True).start()
 url=f'http://127.0.0.1:{server.server_port}/'
@@ -26,7 +26,7 @@ try:
  with sync_playwright() as p:
   b=p.chromium.launch(channel='chrome',headless=False,args=['--disable-features=Vulkan'])
   page=b.new_page(viewport={'width':1280,'height':1000});errors=watch(page)
-  page.goto(url);page.wait_for_function('!!window.claw3dHandle');arm(page);shot(page,'armed')
+  page.goto(url);page.wait_for_function('!!window.claw3dHandle');page.wait_for_function("claw3dHandle.assets.status !== 'loading'");arm(page);shot(page,'armed')
   latency=page.evaluate('''()=>new Promise(resolve=>{const start=performance.now(),x=clawGame.state.x;document.dispatchEvent(new KeyboardEvent('keydown',{key:'ArrowRight',bubbles:true}));function check(){if(clawGame.state.x!==x){document.dispatchEvent(new KeyboardEvent('keyup',{key:'ArrowRight',bubbles:true}));resolve(performance.now()-start)}else requestAnimationFrame(check)}requestAnimationFrame(check)})''');assert latency<100
   renderer=page.evaluate("(()=>{const gl=document.querySelector('canvas.claw3d-canvas').getContext('webgl2');const e=gl.getExtension('WEBGL_debug_renderer_info');return e?gl.getParameter(e.UNMASKED_RENDERER_WEBGL):'unknown'})()")
   page.keyboard.down('ArrowRight');page.wait_for_timeout(500);page.keyboard.up('ArrowRight');assert state(page)['x']>0;shot(page,'moving')
@@ -80,9 +80,14 @@ try:
   phase(page,'reveal');page.wait_for_timeout(700);shot(page,'fallback-reveal')
   page.locator('#againBtn').click();phase(page,'armed');assert state(page)['remaining']>=29;assert not errors
   report['fallback']={'errors':errors,'reset':state(page)};b.close()
- files=['docs/index.html','docs/claw.js','docs/claw3d.js']+ [str(f.relative_to(ROOT)).replace('\\','/') for f in (ROOT/'docs/vendor').rglob('*.js')]
+ # Preserve the original core payload guard; budget the newly requested optional
+ # authored assets separately rather than pretending they existed at baseline.
+ files=['docs/index.html','docs/claw.js','docs/claw3d.js','docs/vendor/three/three.module.min.js','docs/vendor/three/RoomEnvironment.js']
  baseline=sum(len(subprocess.check_output(['git','show',f'e6727f0:{f}'],cwd=ROOT)) for f in files)
  current=sum((ROOT/f).stat().st_size for f in files)+(ROOT/'docs/claw-motion.js').stat().st_size+(ROOT/'docs/arcade.css').stat().st_size
  report['payload']={'baseline_bytes':baseline,'current_bytes':current,'delta_percent':100*(current-baseline)/baseline};assert abs(report['payload']['delta_percent'])<=5
+ optional=[ROOT/'docs/vault-assets.js',*(ROOT/'docs/assets/vault-kit').glob('*.glb'),*(ROOT/'docs/vendor/three/loaders').glob('*.js'),*(ROOT/'docs/vendor/three/utils').glob('*.js')]
+ report['payload']['optional_authored_bytes']=sum(f.stat().st_size for f in optional)
+ assert report['payload']['optional_authored_bytes']<=1000000
 finally:
  server.shutdown();(OUT/'report.json').write_text(json.dumps(report,indent=2));print(json.dumps(report,indent=2))

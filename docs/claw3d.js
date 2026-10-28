@@ -13,6 +13,7 @@ export function mount(container) {
   const mobile = matchMedia('(max-width: 600px)').matches;
   const motion = matchMedia('(prefers-reduced-motion: reduce)');
   const resources = new Set();
+  const assetState = { status: 'loading', parts: 0 };
   let renderer, env, observer, raf = 0, disposed = false, time = 0, last = 0;
   const own = resource => { resources.add(resource); return resource; };
   const scene = new THREE.Scene();
@@ -111,6 +112,7 @@ export function mount(container) {
     shell(2.62,.46,1.82,.055,enamel,cabinet,0,3.66,0);
     box(2.65,.045,1.84,brass,cabinet,0,3.9,0);
     box(2.43,.31,.03,dark,cabinet,0,3.66,.925);
+    const originalCabinet = [...cabinet.children];
     marquee=label('VAULT CLAW',2.26,.28,'#ffdb75','#080d16',cabinet,0,3.66,.945,96);
     label('SEALED  /  ON CHAIN',1.5,.24,'#8195ac','#151d29',cabinet,0,2.6,-.742,49);
     // Interior warm strip lights, rear rails and trolley.
@@ -123,6 +125,7 @@ export function mount(container) {
     wire=mesh(new THREE.CylinderGeometry(.016,.016,1,12),chrome,cabinet);
     mesh(new THREE.CylinderGeometry(.13,.18,.22,24),chrome,claw,0,-.66,0);
     mesh(new THREE.CylinderGeometry(.19,.19,.045,24),brass,claw,0,-.62,0);
+    const originalHub = [...claw.children];
     for(let i=0;i<3;i++) {
       const prong=new THREE.Group();prong.rotation.y=i*Math.PI*2/3;claw.add(prong);prongs.push(prong);
       mesh(new THREE.SphereGeometry(.065,12,8),chrome,prong,.14,-.73,0);
@@ -138,6 +141,7 @@ export function mount(container) {
       p.position.set((i%3-1)*.67,1.12+s/2, i<3?.35:-.33);
       p.rotation.set(0,(random()-.5)*.6,0);p.userData.rotation=p.rotation.clone();p.userData.baseY=p.position.y;cabinet.add(p);prizes.push(p);
       const wrap=material(color,.05,.65);
+      p.userData.wrap = wrap;
       shell(s,s,s,.018,wrap,p);shell(s+.035,.075,s+.035,.012,wrap,p,0,s/2,0);
       box(.07,s+.012,s+.014,ribbon,p);box(s+.014,s+.012,.07,ribbon,p);
       box(.075,.012,s+.045,ribbon,p,0,s/2+.044,0);box(s+.045,.012,.075,ribbon,p,0,s/2+.045,0);
@@ -182,6 +186,19 @@ export function mount(container) {
     }
     container.append(canvas);resize();pose(0);render();
     container.classList.add('claw3d-ready');if(fallback) fallback.setAttribute('aria-hidden','true');
+    // Replace presentation only after the entire kit validates; retain live anchors,
+    // rails, cable, labels, lights, glass and all primitive failure paths.
+    import('./vault-assets.js').then(async ({loadVaultKit, attachVaultPart}) => {
+      const kit = await loadVaultKit();
+      if (disposed) { kit.dispose(); return; }
+      kit.resources.forEach(own);
+      attachVaultPart(kit.scenes.cabinet, cabinet, originalCabinet, own);
+      attachVaultPart(kit.scenes['claw-hub'], claw, originalHub, own);
+      prongs.forEach(p => attachVaultPart(kit.scenes['claw-finger'], p, [...p.children], own));
+      prizes.forEach(p => attachVaultPart(kit.scenes['vault-box'], p, [...p.children], own, p.userData.wrap.color));
+      canvas.setAttribute('aria-label','VAULT CLAW: glass arcade cabinet with six collectible vault boxes and a metal claw');
+      assetState.status = 'ready'; assetState.parts = 11; pose(time); render();
+    }).catch(() => { if (!disposed) assetState.status = 'fallback'; });
     observer=new ResizeObserver(resize);observer.observe(container);
     canvas.addEventListener('webglcontextlost',lost);motion.addEventListener('change',motionChanged);
     function tick(now) {
@@ -190,7 +207,11 @@ export function mount(container) {
       last=now;raf=requestAnimationFrame(tick);
     }
     raf=requestAnimationFrame(tick);
-    const handle={...game,dispose,get disposed(){return disposed;}};mounts.set(container,handle);return handle;
+    const handle={...game,dispose,get disposed(){return disposed;},get assets(){return {...assetState};},
+      visualSnapshot(){return {assets:{...assetState},drawCalls:renderer.info.render.calls,triangles:renderer.info.render.triangles,
+        claw:claw.position.toArray(),fingers:prongs.map(p=>({scale:p.scale.toArray(),rotation:p.rotation.toArray(),authored:p.children.filter(c=>c.name==='authored-vault-part').length})),
+        prizes:prizes.map(p=>({position:p.position.toArray(),visible:p.visible,authored:p.children.filter(c=>c.name==='authored-vault-part').length})),
+        primitiveCabinetVisible:originalCabinet.some(o=>o.visible)};}};mounts.set(container,handle);return handle;
   } catch(error) { dispose(); return null; }
 }
 window.Claw3D={mount};
