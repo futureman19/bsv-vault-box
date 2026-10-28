@@ -1,0 +1,7 @@
+Source: https://raw.githubusercontent.com/bitcoin-sv/bitcoin-sv/v1.2.3/src/init.cpp
+
+    int32_t chronicleActivationHeight = static_cast<int32_t>(gArgs.GetArg("-chronicleactivationheight", chainparams.GetConsensus().chronicleHeight));
+    if (std::string err; !config.SetChronicleActivationHeight(chronicleActivationHeight, &err)) {
+    // Option -minrelaytxfee has been removed
+    if (gArgs.IsArgSet("-minrelaytxfee")) {
+        LogPrintf("Warning: configuration parameter -minrelaytxfee was removed\n");
