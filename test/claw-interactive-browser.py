@@ -30,6 +30,7 @@ try:
   latency=page.evaluate('''()=>new Promise(resolve=>{const start=performance.now(),x=clawGame.state.x;document.dispatchEvent(new KeyboardEvent('keydown',{key:'ArrowRight',bubbles:true}));function check(){if(clawGame.state.x!==x){document.dispatchEvent(new KeyboardEvent('keyup',{key:'ArrowRight',bubbles:true}));resolve(performance.now()-start)}else requestAnimationFrame(check)}requestAnimationFrame(check)})''');assert latency<100
   renderer=page.evaluate("(()=>{const gl=document.querySelector('canvas.claw3d-canvas').getContext('webgl2');const e=gl.getExtension('WEBGL_debug_renderer_info');return e?gl.getParameter(e.UNMASKED_RENDERER_WEBGL):'unknown'})()")
   page.keyboard.down('ArrowRight');page.wait_for_timeout(500);page.keyboard.up('ArrowRight');assert state(page)['x']>0;shot(page,'moving')
+  page.locator('#joystick').scroll_into_view_if_needed()
   r=page.locator('#joystick').bounding_box();x=r['x']+r['width']/2;y=r['y']+r['height']/2
   before=state(page)['z'];page.mouse.move(x,y);page.mouse.down();page.mouse.move(x-25,y-25);page.wait_for_timeout(500);page.mouse.up();assert state(page)['z']<before
   page.keyboard.down('ArrowRight');page.keyboard.down('ArrowDown');page.wait_for_timeout(2500)
@@ -58,6 +59,7 @@ try:
   page.goto(url);page.wait_for_function('!!window.claw3dHandle');page.locator('#playBtn').click();page.locator('#optCancel').click();assert state(page)['phase']=='idle'
   page.locator('#playBtn').click();page.locator('#optYours').click();phase(page,'armed');assert state(page)['remaining']>=29
   calls=page.evaluate('walletCalls');assert calls==[['auth',{}],['key',{'identityKey':True}]]
+  page.locator('#joystick').scroll_into_view_if_needed()
   r=page.locator('#joystick').bounding_box();x=r['x']+r['width']/2;y=r['y']+r['height']/2
   touch=page.context.new_cdp_session(page)
   touch.send('Input.dispatchTouchEvent',{'type':'touchStart','touchPoints':[{'x':x,'y':y}]})
@@ -69,6 +71,7 @@ try:
   page=b.new_page(viewport={'width':390,'height':844},reduced_motion='reduce');errors=watch(page)
   page.goto(url);page.wait_for_timeout(1000);assert page.locator('.claw3d-canvas').count()==0;arm(page)
   page.keyboard.down('ArrowLeft');page.wait_for_timeout(400);page.keyboard.up('ArrowLeft');assert state(page)['x']<0
+  page.locator('.machine-wrap').scroll_into_view_if_needed()
   r=page.locator('.machine-wrap').bounding_box();x=r['x']+r['width']/2;y=r['y']+r['height']/2
   page.mouse.move(x,y);page.mouse.down();page.mouse.move(x+30,y+30);page.wait_for_timeout(500);page.mouse.up();assert state(page)['z']>0
   shot(page,'fallback-moving');page.keyboard.press('Enter');phase(page,'grab');shot(page,'fallback-grab');phase(page,'carry');shot(page,'fallback-carry')
@@ -79,7 +82,7 @@ try:
   report['fallback']={'errors':errors,'reset':state(page)};b.close()
  files=['docs/index.html','docs/claw.js','docs/claw3d.js']+ [str(f.relative_to(ROOT)).replace('\\','/') for f in (ROOT/'docs/vendor').rglob('*.js')]
  baseline=sum(len(subprocess.check_output(['git','show',f'e6727f0:{f}'],cwd=ROOT)) for f in files)
- current=sum((ROOT/f).stat().st_size for f in files)+(ROOT/'docs/claw-motion.js').stat().st_size
+ current=sum((ROOT/f).stat().st_size for f in files)+(ROOT/'docs/claw-motion.js').stat().st_size+(ROOT/'docs/arcade.css').stat().st_size
  report['payload']={'baseline_bytes':baseline,'current_bytes':current,'delta_percent':100*(current-baseline)/baseline};assert abs(report['payload']['delta_percent'])<=5
 finally:
  server.shutdown();(OUT/'report.json').write_text(json.dumps(report,indent=2));print(json.dumps(report,indent=2))

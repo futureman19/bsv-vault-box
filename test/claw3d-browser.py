@@ -12,10 +12,11 @@ with sync_playwright() as p:
   page.screenshot(path=str(out/(name+'.png')));data['errors']=errors;report[name]=data
   assert data['renderer'] and 'SwiftShader' not in data['renderer'],data
   assert 'claw3d-ready' in data['ready'] and not errors,data
-  frozen=page.locator('.claw3d-canvas').screenshot();page.wait_for_timeout(250)
-  assert frozen==page.locator('.claw3d-canvas').screenshot()
+  snapshot="el=>new Promise(resolve=>requestAnimationFrame(()=>resolve(el.toDataURL())))"
+  frozen=page.locator('.claw3d-canvas').evaluate(snapshot);page.wait_for_timeout(250)
+  assert len(frozen)>10000 and frozen==page.locator('.claw3d-canvas').evaluate(snapshot)
   page.emulate_media(reduced_motion='no-preference');page.wait_for_timeout(500)
-  assert frozen!=page.locator('.claw3d-canvas').screenshot()
+  assert frozen!=page.locator('.claw3d-canvas').evaluate(snapshot)
   data['raf_timing']=page.evaluate('''() => new Promise(resolve=>{let times=[],last;function frame(t){if(last)times.push(t-last);last=t;if(times.length<180)requestAnimationFrame(frame);else {times.sort((a,b)=>a-b);resolve({samples:times.length,median_ms:times[90],p95_ms:times[171],note:'desktop GPU even at mobile viewport; not phone proof'})}}requestAnimationFrame(frame)})''')
   data['reduced_motion_and_idle']='passed'
   page.evaluate('window.claw3dHandle.dispose();window.claw3dHandle.dispose()')
@@ -35,12 +36,13 @@ with sync_playwright() as p:
  page.goto('http://127.0.0.1:4179/');page.wait_for_timeout(1000)
  assert page.locator('.cabinet').is_visible() and page.locator('.claw3d-canvas').count()==0
  page.screenshot(path=str(out/'fallback.png'));report['fallback']={'present':True,'errors':errors};assert not errors
- candidate=page.locator('.cabinet').screenshot()
- import subprocess
- baseline_html=subprocess.check_output(['git','show','2258bf5b7fb319c33e94112a5bedf00b71231f6f:docs/index.html'])
- page.route('http://127.0.0.1:4179/',lambda route:route.fulfill(body=baseline_html,content_type='text/html'))
- page.reload();page.wait_for_timeout(1000)
- assert candidate==page.locator('.cabinet').screenshot()
- report['fallback']['baseline_pixel_parity']='passed'
+ # Layout/background intentionally changed; historical whole-cabinet pixel parity
+ # is no longer the contract. Exercise the original CSS fallback instead.
+ assert page.evaluate('document.documentElement.scrollWidth<=innerWidth')
+ page.locator('#playBtn').click();page.locator('#optDemo').click()
+ page.wait_for_function("clawGame.state.phase==='armed'")
+ page.locator('#dropBtn').click();page.wait_for_function("clawGame.state.phase==='reveal'",timeout=12000)
+ assert page.locator('#cabinet').is_visible()
+ report['fallback']['demo_drop_reveal']='passed'
  b.close()
 (out/'report.json').write_text(json.dumps(report,indent=2));print(json.dumps(report,indent=2))

@@ -5,7 +5,7 @@
 <link rel="icon" href="data:,">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>boxsv.com — Sealed Vault Boxes</title>
-<meta name="description" content="The claw machine that sells sealed on-chain boxes. 1 BSV per play, guaranteed win. Every seal verifiable on BSV — no trust required.">
+<meta name="description" content="Try the BoxSV vault claw demo: an arcade experience for sealed boxes on BSV. No payment or minting in this demo. Explore the public seal checker.">
 <style>
   :root {
     color-scheme: dark;
@@ -167,6 +167,7 @@
   .interactive .loot { animation:none; }
   button:focus-visible { outline:3px solid #fff; outline-offset:4px; }
 </style>
+<link rel="stylesheet" href="arcade.css">
 </head>
 <body>
 <main>
@@ -175,6 +176,13 @@
     <span class="demo-ribbon">DEMO — NO BSV CHARGED</span>
   </header>
 
+  <section class="arcade" aria-labelledby="arcadeTitle">
+    <div class="intro">
+      <p class="eyebrow">THE VAULT CLAW / INTERACTIVE DEMO</p>
+      <h1 id="arcadeTitle">A little mystery.<br><span>A seal you can check.</span></h1>
+      <p class="intro-copy">An arcade classic, reimagined for sealed boxes on BSV. Take the claw for a spin — this round is on the house.</p>
+      <a class="proof-link" href="check.html">Explore the seal checker ↗</a>
+    </div>
   <div class="machine-wrap">
     <div class="cabinet" id="cabinet">
       <div class="marquee"><b>VAULT CLAW</b></div>
@@ -199,24 +207,27 @@
     </div>
     <p class="aim-hint" id="aimHint" hidden>Drag to aim · arrows to move · Space to drop<br>Aim picks the wrapping. Contents are drawn at open.</p>
     <button id="playBtn">PLAY</button>
-    <div class="price">1 BSV per play. <em>Guaranteed win.</em></div>
+        <p class="demo-note">Free demo · No BSV charged · No box minted</p>
+        <div class="price">At launch: 1 BSV per play. <em>Every play wins a box.</em></div>
     <div class="wallet-chip" id="walletChip"></div>
   </div>
 
+  </section>
+
   <section class="rules">
-    <h2>HOW IT WORKS</h2>
+    <h2>HOW IT WORKS<br>AT LAUNCH</h2>
     <ol>
       <li><b>Pay 1 BSV, win a box. Every time.</b> The claw never misses — the mystery is what's sealed inside, not whether you win.</li>
       <li><b>Your box is sealed by miners, not by us.</b> Each box is a VAULT-0001 covenant on BSV. Its state byte says SEALED, and consensus forbids faking or resealing it.</li>
       <li><b>Contents are committed before you pay.</b> The inventory and odds live on-chain in a manifest before any sale. We can't swap, cherry-pick, or weigh the packs.</li>
-      <li><b>Nobody knows which prize you'll get — not even us.</b> At opening, your pack is drawn from your box id plus a future block hash (VAULT-0003). No committee, no oracle, no trusted party.</li>
+      <li><b>The proposed draw happens at opening.</b> At opening, your pack is drawn from your box id plus a future block hash (VAULT-0003). No committee, no oracle, no trusted party.</li>
       <li><b>Keep it sealed, trade it sealed.</b> Sealed boxes are transferable and stay collectible. Anyone can verify any seal, forever, from public chain data.</li>
       <li><b>Open it whenever you want.</b> Opening is a one-way on-chain event — it breaks the seal permanently and mints your pack. Opened boxes remain transferable.</li>
     </ol>
   </section>
 
   <section class="rules">
-    <h2>THE RULES</h2>
+    <h2>THE RULES<br>AT LAUNCH</h2>
     <ol>
       <li>One play = one sealed box, minted to your wallet's key. Only you can open it.</li>
       <li>Every play wins a box. Rarity is set by the published on-chain odds — not by us.</li>
@@ -224,6 +235,7 @@
       <li>No refunds on opened boxes: opening is your choice, and it's final.</li>
       <li>The standard is open. Anyone can check our work: <a href="check.html">seal checker</a>, <a href="https://github.com/futureman19/bsv-vault-box">specs &amp; code</a>.</li>
     </ol>
+    <p class="scope-note">The seal covenant has live mainnet proofs. VAULT-0003 draw-at-open is a draft, not a live prize service. This demo illustrates the experience; payment and minting are not enabled.</p>
   </section>
 
   <div class="fine">

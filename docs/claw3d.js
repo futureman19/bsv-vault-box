@@ -25,6 +25,14 @@ export function mount(container) {
     const m = new THREE.Mesh(own(geometry), mat); m.position.set(x,y,z); m.castShadow = true; m.receiveShadow = true; parent.add(m); return m;
   }
   function box(w,h,d,mat,parent,x=0,y=0,z=0) { return mesh(new THREE.BoxGeometry(w,h,d),mat,parent,x,y,z); }
+  // Small manufactured bevels catch the studio lights without changing game bounds.
+  function shell(w,h,d,r,mat,parent,x=0,y=0,z=0) {
+    const shape=new THREE.Shape(), a=w/2-r, b=h/2-r;
+    shape.moveTo(-a,-b);shape.lineTo(a,-b);shape.lineTo(a,b);shape.lineTo(-a,b);shape.closePath();
+    const geometry=new THREE.ExtrudeGeometry(shape,{depth:d-2*r,bevelEnabled:true,bevelThickness:r,bevelSize:r,bevelSegments:3,steps:1,curveSegments:1});
+    geometry.translate(0,0,-d/2+r);
+    return mesh(geometry,mat,parent,x,y,z);
+  }
   function rod(a,b,r,mat,parent) {
     const v = new THREE.Vector3(...a), end = new THREE.Vector3(...b), delta=end.clone().sub(v);
     const m = mesh(new THREE.CylinderGeometry(r,r,delta.length(),12),mat,parent);
@@ -85,13 +93,13 @@ export function mount(container) {
     const pmrem=new THREE.PMREMGenerator(renderer), room=new RoomEnvironment();
     try { env=pmrem.fromScene(room,.04); scene.environment=env.texture; scene.environmentIntensity=.85; }
     finally {room.dispose(); pmrem.dispose();}
-    const enamel=material(0x151d29,.65,.27), edge=material(0x303b49,.8,.24), brass=material(gold,.8,.25), chrome=material(0xdce6ee,1,.16), dark=material(0x05090f,.25,.55);
+    const enamel=material(0x243747,.55,.32), edge=material(0x455362,.8,.3), brass=material(0xc79137,.75,.32), chrome=material(0xaebbc9,1,.23), dark=material(0x05090f,.25,.55);
     const light=material(0xffe5a0,.15,.25,{emissive:gold,emissiveIntensity:2});
     const green=material(0x4ade80,.2,.3,{emissive:0x4ade80,emissiveIntensity:1.5}); chuteLight=green;
     const cabinet=new THREE.Group();scene.add(cabinet);
     // Plinth, enamel base, raised sill and tall structural posts.
-    box(2.65,.14,1.8,edge,cabinet,0,.16,0);
-    box(2.48,.75,1.62,enamel,cabinet,0,.59,0);
+    shell(2.65,.14,1.8,.035,edge,cabinet,0,.16,0);
+    shell(2.48,.75,1.62,.065,enamel,cabinet,0,.59,0);
     box(2.58,.12,1.74,brass,cabinet,0,.99,0);
     box(2.34,.08,1.5,dark,cabinet,0,1.08,0);
     box(2.46,2.34,.09,enamel,cabinet,0,2.23,-.8);
@@ -100,7 +108,7 @@ export function mount(container) {
       box(.025,2.35,.025,brass,cabinet,x+(x<0?.07:-.07),2.24,z+.07);
       for(const y of [1.14,3.4]) mesh(new THREE.SphereGeometry(.026,8,6),chrome,cabinet,x,y,z+.075);
     }
-    box(2.62,.46,1.82,enamel,cabinet,0,3.66,0);
+    shell(2.62,.46,1.82,.055,enamel,cabinet,0,3.66,0);
     box(2.65,.045,1.84,brass,cabinet,0,3.9,0);
     box(2.43,.31,.03,dark,cabinet,0,3.66,.925);
     marquee=label('VAULT CLAW',2.26,.28,'#ffdb75','#080d16',cabinet,0,3.66,.945,96);
@@ -129,8 +137,8 @@ export function mount(container) {
       const p=new THREE.Group(), s=.47;
       p.position.set((i%3-1)*.67,1.12+s/2, i<3?.35:-.33);
       p.rotation.set(0,(random()-.5)*.6,0);p.userData.rotation=p.rotation.clone();p.userData.baseY=p.position.y;cabinet.add(p);prizes.push(p);
-      const wrap=material(color,.22,.38);
-      box(s,s,s,wrap,p);box(s+.035,.075,s+.035,wrap,p,0,s/2,0);
+      const wrap=material(color,.05,.65);
+      shell(s,s,s,.018,wrap,p);shell(s+.035,.075,s+.035,.012,wrap,p,0,s/2,0);
       box(.07,s+.012,s+.014,ribbon,p);box(s+.014,s+.012,.07,ribbon,p);
       box(.075,.012,s+.045,ribbon,p,0,s/2+.044,0);box(s+.045,.012,.075,ribbon,p,0,s/2+.045,0);
       for(const sign of [-1,1]) {
@@ -144,7 +152,7 @@ export function mount(container) {
     box(.86,.16,.025,edge,cabinet,-.48,.62,.887);box(.82,.018,.02,green,cabinet,-.48,.4,.894);
     label('COLLECT',.63,.1,'#a2b4c4','#05090f',cabinet,-.48,.51,.9,54);
     box(.53,.52,.07,edge,cabinet,.7,.57,.84);box(.065,.19,.02,dark,cabinet,.7,.64,.885);
-    label('1 BSV',.42,.13,'#ffdb75','#303b49',cabinet,.7,.43,.882,76);
+    label('DEMO',.42,.13,'#ffdb75','#303b49',cabinet,.7,.43,.882,76);
     for(const x of [.49,.91]) for(const y of [.36,.79]) mesh(new THREE.SphereGeometry(.018,8,6),chrome,cabinet,x,y,.885);
     // Side and front glazing retain crisp rims and environment highlights.
     const glass=own(new THREE.MeshPhysicalMaterial({color:0xb8d9e9,metalness:0,roughness:.08,transparent:true,opacity:.12,envMapIntensity:.9,clearcoat:1,clearcoatRoughness:.06,side:THREE.DoubleSide,depthWrite:false}));
@@ -152,18 +160,18 @@ export function mount(container) {
     for(const x of [-1.18,1.18]) {const m=mesh(new THREE.PlaneGeometry(1.42,2.22),glass,cabinet,x,2.24,0);m.rotation.y=Math.PI/2;m.castShadow=false;m.receiveShadow=false;}
     const gleam=own(new THREE.MeshBasicMaterial({color:0xd5eafa,transparent:true,opacity:.075,depthWrite:false}));
     const reflection=mesh(new THREE.PlaneGeometry(.1,1.8),gleam,cabinet,-.88,2.3,.778);reflection.rotation.z=-.18;reflection.castShadow=false;
-    const floor=mesh(new THREE.PlaneGeometry(200,200),own(new THREE.ShadowMaterial({color:0x000000,opacity:.3})),scene);floor.rotation.x=-Math.PI/2;floor.position.y=.01;floor.castShadow=false;
+    const floor=mesh(new THREE.PlaneGeometry(200,200),own(new THREE.ShadowMaterial({color:0x000000,opacity:.12})),scene);floor.rotation.x=-Math.PI/2;floor.position.y=.01;floor.castShadow=false;
     const contactCanvas=document.createElement('canvas');contactCanvas.width=128;contactCanvas.height=128;
     const contactCtx=contactCanvas.getContext('2d'), gradient=contactCtx.createRadialGradient(64,64,12,64,64,64);
     gradient.addColorStop(0,'rgba(0,0,0,.65)');gradient.addColorStop(1,'rgba(0,0,0,0)');contactCtx.fillStyle=gradient;contactCtx.fillRect(0,0,128,128);
     const contactTexture=own(new THREE.CanvasTexture(contactCanvas));
     const contact=mesh(new THREE.PlaneGeometry(4.1,3.3),own(new THREE.MeshBasicMaterial({map:contactTexture,transparent:true,depthWrite:false})),scene,0,.02,0);
     contact.rotation.x=-Math.PI/2;contact.castShadow=false;contact.receiveShadow=false;
-    const key=new THREE.DirectionalLight(0xffe5b1,3.4);key.position.set(-3,7,5);key.castShadow=true;
+    const key=new THREE.DirectionalLight(0xffe5b1,2.4);key.position.set(-3,7,5);key.castShadow=true;
     key.shadow.mapSize.setScalar(mobile?1024:2048);key.shadow.bias=-.0004;key.shadow.normalBias=.55;
     Object.assign(key.shadow.camera,{left:-3,right:3,top:5,bottom:-2,near:.5,far:16});key.shadow.radius=3;scene.add(key);own(key.shadow);
     const fill=new THREE.DirectionalLight(0x98bdff,2);fill.position.set(4,4,1);scene.add(fill);
-    const interior=new THREE.PointLight(0xffd88c,8,5,2);interior.position.set(0,3.15,.3);scene.add(interior);
+    const interior=new THREE.PointLight(0xffd88c,3.5,5,2);interior.position.set(0,3.15,.3);scene.add(interior);
     scene.add(new THREE.HemisphereLight(0xc5d9ff,0x222637,1));
     function resize() {
       const width=container.clientWidth, height=container.clientHeight;
