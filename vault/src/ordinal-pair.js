@@ -40,7 +40,7 @@ function verify(tx, parents) {
  if(tx.outputs.reduce((n,o)=>n+o.satoshis,0)>incoming) return {success:false,error:'overspend'}
  return {success:true}
 }
-function transition(f, source, action, signer, recipient, mutate, proof) {
+function transition(f, source, action, signer, recipient, mutate, proof, options = {}) {
  const deposit = action === 0
  const c = C.fromHex((deposit ? f.box.outputs[0] : source.outputs[0]).script.toHex())
  const parents = deposit ? [f.foreign,f.box] : [source]
@@ -51,6 +51,29 @@ function transition(f, source, action, signer, recipient, mutate, proof) {
  const newOwner = action===2 ? recipient : c.owner
  const script = action===4 ? pay(newOwner) : c.getNewStateScript({phase:BigInt(nextPhase),owner:newOwner})
  tx.addOutput(output(script)).addOutput(output(script))
+ let funding, fundingRoot, prefix='', locktime='', fundingValue=0, change=0
+ if(options.sponsor) {
+  fundingValue=options.funding ?? 100000; change=fundingValue-(options.fee ?? 500)
+  // Independent synthetic funding UTXO; never an implicit network lookup.
+  funding=options.fundingTx
+  if(!options.fundingTx) {
+   const fundingScript=pay(options.sponsor.publicKey.toString())
+   fundingRoot=seed(fundingScript,'44')
+   // Distinct assumed funding roots; their ancestry is intentionally synthetic.
+   fundingRoot.inputs[0].prevTxId=bsv.crypto.Hash.sha256(Buffer.from('BoxSV sponsor root:'+(source?source.id:f.box.id)))
+   fundingRoot.outputs[0].satoshis=fundingValue+500
+   funding=add(new bsv.Transaction(),fundingRoot,0).addOutput(output(fundingScript,fundingValue))
+   funding.nLockTime=source ? source.nLockTime+1 : 1
+   const fundingSig=S.signTx(funding,options.sponsor,fundingScript,fundingValue+500,0)
+   funding.inputs[0].setScript(bsv.Script.fromASM(fundingSig+' '+options.sponsor.publicKey.toString()))
+  }
+  const raw=funding.toBuffer(), unlockSize=raw[41]
+  prefix=raw.subarray(0,47+unlockSize).toString('hex')
+  locktime=raw.subarray(-4).toString('hex')
+  parents.push(funding); add(tx,funding,0)
+  tx.nLockTime=funding.nLockTime
+  if(change>0) tx.addOutput(output(pay(options.sponsor.publicKey.toString()),change))
+ }
  if(mutate) mutate(tx)
  // Low-S grinding changes hashSequence: stabilize ALL inputs before signing ANY.
  for(let attempts=0;;attempts++) {
@@ -68,11 +91,19 @@ function transition(f, source, action, signer, recipient, mutate, proof) {
    const instance=C.fromHex(o.script.toHex())
    const pre=S.getLowSPreimage(tx,o.script,1,i)
    const sig=S.signTx(tx,signer,o.script,1,i)
-   const call=instance.move(sig,BigInt(action),recipient,proof ?? (deposit ? f.box : source).uncheckedSerialize(),pre,prevouts(tx))
+   const parentHash=bsv.crypto.Hash.sha256(Buffer.from(proof ?? (deposit ? f.box : source).uncheckedSerialize(),'hex')).toString('hex')
+   const sponsorSig=options.sponsor ? S.signTx(tx,options.sponsor,o.script,1,i) : ''
+   const call=instance.move(sig,BigInt(action),recipient,parentHash,
+    options.sponsor ? options.sponsor.publicKey.toString() : '',sponsorSig,
+    prefix,locktime,BigInt(fundingValue),BigInt(change),pre,prevouts(tx))
    tx.inputs[i].setScript(call.toScript())
   }
  }
- return {tx,result:verify(tx,parents)}
+ if(funding && tx.inputs[2]) {
+  const sig=S.signTx(tx,options.sponsor,funding.outputs[0].script,funding.outputs[0].satoshis,2)
+  tx.inputs[2].setScript(bsv.Script.fromASM(sig+' '+options.sponsor.publicKey.toString()))
+ }
+ return {tx,result:verify(tx,parents),funding,fundingRoot}
 }
 class Ledger {
  constructor(parents) {this.parents=[...parents];this.spent=new Set()}
@@ -83,7 +114,7 @@ class Ledger {
   refs.forEach(r=>this.spent.add(r));this.parents.push(tx)
  }
 }
-function verifyHistory(f, entries) {
+function verifyHistory(f, entries, fundingParents = []) {
  try {
   const hex=f.foreign.outputs[0].script.toHex()
   const match=/^76a914([0-9a-f]{40})88ac0063036f7264510a746578742f706c61696e00([0-9a-f]{2})([0-9a-f]*)68$/.exec(hex)
@@ -92,10 +123,10 @@ function verifyHistory(f, entries) {
   if(initial.lockingScript.toHex()!==f.box.outputs[0].script.toHex() || f.box.outputs[0].satoshis!==1) throw Error('noncanonical initial box')
   if(initial.phase!==0n || initial.ctorArgs().find(a=>a.name==='origin').value!==outpoint(f.foreign,0)) throw Error('unanchored box')
   if(bsv.crypto.Hash.sha256ripemd160(Buffer.from(initial.owner,'hex')).toString('hex')!==match[1]) throw Error('foreign owner mismatch')
-  const ledger=new Ledger([f.foreign,f.box]); let previous=null
+  const ledger=new Ledger([f.foreign,f.box,...fundingParents]); let previous=null
   for(const tx of entries) {
    const expected=previous?outpoint(previous,0)+outpoint(previous,1):outpoint(f.foreign,0)+outpoint(f.box,0)
-   if(prevouts(tx)!==expected) throw Error('origin continuity failure')
+   if(prevouts(tx).slice(0,144)!==expected || ![2,3].includes(tx.inputs.length)) throw Error('origin continuity failure')
    ledger.accept(tx);previous=tx
   }
   return {valid:true,origin:f.foreign.id+'_0',tip:previous?previous.id+':0':f.foreign.id+':0',ordinalInput:0,ordinalOutput:0}
