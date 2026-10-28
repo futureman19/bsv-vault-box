@@ -1,0 +1,37 @@
+'use strict'
+const assert=require('node:assert/strict')
+const M=require('../src/ordinal-pair')
+const {bsv,C,fixture,transition,verify,verifyHistory,Ledger,pay,output}=M
+const f=fixture(), bob=f.bob.publicKey.toString()
+const chain=[];let p
+for(const a of [0,1,2,3,4]) {const r=transition(f,p,a,a<3?f.alice:f.bob,bob);assert.equal(r.result.success,true,JSON.stringify(r.result));chain.push(r.tx);p=r.tx}
+const [packed,sealed,transferred,opened,withdrawn]=chain
+const bad=(source,action,key,mutate,proof)=>assert.equal(transition(f,source,action,key,bob,mutate,proof).result.success,false)
+describe('external one-ordinal paired custody (serialized Script VM)',function(){
+ this.timeout(120000)
+ it('deposits independently existing inscription and executes full lifecycle',()=>{assert.equal(verifyHistory(f,chain).valid,true);assert.equal(withdrawn.outputs[0].script.toHex(),pay(bob).toHex());assert.equal(withdrawn.outputs[0].satoshis,1);assert.notEqual(f.foreign.outputs[0].script.toHex(),packed.outputs[0].script.toHex())})
+ it('foreign asset substitution fails in the deposit BOX Script itself',()=>{const r=transition(f,null,0,f.alice,bob,t=>{t.inputs[0].prevTxId=Buffer.from('33'.repeat(32),'hex')});const vm=new bsv.Script.Interpreter();assert.equal(vm.verify(r.tx.inputs[1].script,f.box.outputs[0].script,r.tx,1,M.S.DEFAULT_FLAGS,new bsv.crypto.BN(1)),false)})
+ it('sealed withdrawal is forbidden even with owner signature',()=>bad(sealed,4,f.alice))
+ it('seller cannot open transferred custody',()=>bad(transferred,3,f.alice))
+ it('seller cannot withdraw opened custody',()=>bad(opened,4,f.alice))
+ it('wrong raw parent proof fails freshly signed VM',()=>bad(sealed,2,f.alice,null,f.box.uncheckedSerialize()))
+ it('tampered raw parent bytes fail',()=>bad(sealed,2,f.alice,null,sealed.uncheckedSerialize()+'00'))
+ it('wrong sibling outpoint fails VM',()=>bad(sealed,2,f.alice,t=>{t.inputs[1].outputIndex=0}))
+ it('missing asset input fails',()=>bad(sealed,2,f.alice,t=>{t.inputs.splice(0,1)}))
+ it('duplicated asset input fails',()=>bad(sealed,2,f.alice,t=>{t.inputs.push(t.inputs[0])}))
+ it('asset output omission fails',()=>bad(sealed,2,f.alice,t=>{t.outputs.splice(0,1)}))
+ it('asset output substitution fails',()=>bad(sealed,2,f.alice,t=>{t.outputs[0]=output(pay(bob))}))
+ it('asset output duplication fails',()=>bad(sealed,2,f.alice,t=>{t.addOutput(t.outputs[0])}))
+ it('control output counterfeit code fails',()=>bad(sealed,2,f.alice,t=>{t.outputs[1]=output(bsv.Script.fromASM('OP_TRUE'))}))
+ it('one-sat principal cannot be diverted as fee',()=>bad(sealed,2,f.alice,t=>{t.outputs[0].satoshis=0}))
+ it('extra change destination fails',()=>bad(sealed,2,f.alice,t=>{t.addOutput(output(pay(bob),0))}))
+ it('unsupported external fee input fails',()=>bad(sealed,2,f.alice,t=>{t.addInput(new bsv.Transaction.Input({prevTxId:f.box.id,outputIndex:0,script:'',output:f.box.outputs[0]}))}))
+ it('withdrawal to seller fails with fresh buyer signature',()=>bad(opened,4,f.bob,t=>{t.outputs[0]=output(pay(f.alice.publicKey.toString()))}))
+ it('copy of same-label box cannot replace original control sibling',()=>{const fake=new bsv.Transaction(sealed.uncheckedSerialize());fake.nLockTime++;bad(sealed,2,f.alice,t=>{t.inputs[1].prevTxId=Buffer.from(fake.id,'hex')})})
+ it('a counterfeit same-label history is rejected at client origin boundary',()=>{const fake=new bsv.Transaction(packed.uncheckedSerialize());fake.nLockTime++;const r=transition(f,fake,1,f.alice,bob);assert.equal(r.result.success,true);assert.equal(verifyHistory(f,[fake,r.tx]).valid,false)})
+ it('wrong initial origin rejected by history admission',()=>{const fake={...f,foreign:new bsv.Transaction(f.foreign.uncheckedSerialize())};fake.foreign.nLockTime++;assert.equal(verifyHistory(fake,chain).valid,false)})
+ it('wrong actual previous locking code cannot be overridden by witness',()=>{const fake=new bsv.Transaction(sealed.uncheckedSerialize());fake.outputs[0]=output(bsv.Script.fromASM('OP_FALSE'));const tx=new bsv.Transaction(transferred.uncheckedSerialize());tx.inputs.forEach(i=>{i.prevTxId=Buffer.from(fake.id,'hex')});assert.equal(verify(tx,[fake]).success,false)})
+ it('conflicting spends are rejected by ledger, not claimed as Script feature',()=>{const ledger=new Ledger([f.foreign,f.box]);chain.forEach(t=>ledger.accept(t));assert.throws(()=>ledger.accept(chain[0]),/conflicting/);assert.equal(verify(chain[0],[f.foreign,f.box]).success,true)})
+ it('ordinal first-satoshi mapping stays unchanged at every step',()=>{let source=f.foreign;for(const tx of chain){assert.equal(tx.inputs[0].prevTxId.toString('hex'),source.id);assert.equal(tx.inputs[0].outputIndex,0);assert.equal(source.outputs[0].satoshis,1);assert.equal(tx.outputs[0].satoshis,1);source=tx}})
+ it('actual primary-spec example transaction parses to the published txid',()=>{const fs=require('node:fs');const tx=new bsv.Transaction(fs.readFileSync('fixtures/primary-1sat-example.hex','utf8').trim());assert.equal(tx.id,'10f4465cd18c39fbc7aa4089268e57fc719bf19c8c24f2e09156f4a89a2809d6');assert.equal(tx.outputs[0].satoshis,1);assert.match(tx.outputs[0].script.toASM(),/OP_CHECKSIG 0 OP_IF 6f7264 OP_1/)})
+})
