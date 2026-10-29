@@ -263,6 +263,112 @@ test("short ledger writes are completed before broadcasting", async (t) => {
   }
   assert.equal(shortened, true);
 });
+test("ledger failure during prepare closes the writer without broadcast", async (t) => {
+  if (process.platform === "win32") return t.skip("POSIX file modes required");
+  let pool, replacement;
+  t.after(() => { pool?.close(); replacement?.close(); });
+  const { dir, keyPath } = setup(t);
+  let broadcasts = 0;
+  const rpc = async (method) => {
+    if (method === "getblockchaininfo") return { chain: "regtest" };
+    if (method === "gettxout") return {
+      value: 0.001,
+      scriptPubKey: { hex: pay(key.publicKey.toString()).toHex() },
+    };
+    if (method === "sendrawtransaction") broadcasts++;
+  };
+  const opts = { keyPath, ledgerPath: path.join(dir, "failed.jsonl"), rpc };
+  pool = new P.SponsorPool(opts);
+  const original = fs.writeSync;
+  fs.writeSync = function (fd, ...args) {
+    if (fd === pool.fd) throw Error("injected disk failure");
+    return original.call(fs, fd, ...args);
+  };
+  try {
+    await assert.rejects(pool.prepare(root(), 0), /injected disk failure/);
+  } finally {
+    fs.writeSync = original;
+  }
+  assert.equal(pool.closed, true);
+  assert.equal(pool.busy, false);
+  assert.equal(broadcasts, 0);
+  replacement = new P.SponsorPool(opts);
+  await assert.rejects(pool.prepare(root(), 0), /closed/);
+  assert.equal(replacement.totals().inputSats, 0);
+});
+
+for (const [operation, pausedMethod] of [
+  ["prepare", "getblockchaininfo"],
+  ["prepare", "gettxout"],
+  ["prepare", "sendrawtransaction"],
+  ["dispense", "gettxout"],
+]) {
+  test(`close rejects during ${operation}/${pausedMethod} and reopen cannot duplicate`, async (t) => {
+    if (process.platform === "win32") return t.skip("POSIX file modes required");
+    let pool, replacement, pending, release, entered;
+    t.after(async () => {
+      release();
+      await pending?.catch(() => {});
+      pool?.close();
+      replacement?.close();
+    });
+    const { dir, keyPath } = setup(t);
+    const gate = new Promise((resolve) => { release = resolve; });
+    const paused = new Promise((resolve) => { entered = resolve; });
+    let armed = false, calls = 0, broadcasts = 0;
+    const rpc = async (method, args = []) => {
+      calls++;
+      if (armed && method === pausedMethod) {
+        armed = false;
+        entered();
+        await gate;
+      }
+      if (method === "getblockchaininfo") return { chain: "regtest" };
+      if (method === "gettxout") return {
+        value: args[0] === root().id ? 0.001 : 0.000995,
+        confirmations: 5,
+        scriptPubKey: { hex: pay(key.publicKey.toString()).toHex() },
+      };
+      if (method === "sendrawtransaction") {
+        broadcasts++;
+        return new bsv.Transaction(args[0]).id;
+      }
+      throw Error(method);
+    };
+    const opts = { keyPath, ledgerPath: path.join(dir, "race.jsonl"), rpc };
+    pool = new P.SponsorPool(opts);
+    if (operation === "dispense") await pool.prepare(root(), 0);
+    armed = true;
+    pending = operation === "prepare" ? pool.prepare(root(), 0) : pool.dispense();
+    await paused;
+    assert.throws(() => pool.close(), /busy/);
+    assert.equal(pool.closed, false);
+    assert.throws(() => new P.SponsorPool(opts), /locked/);
+    await assert.rejects(pool.refresh(), /busy/);
+    release();
+    const tx = await pending;
+    assert.equal(broadcasts, 1);
+    pool.close();
+    pool.close(); // Idle close remains idempotent.
+    replacement = new P.SponsorPool(opts);
+    const before = fs.readFileSync(opts.ledgerPath, "utf8"), callCount = calls;
+    await assert.rejects(pool.prepare(root(2), 0), /closed/);
+    await assert.rejects(pool.dispense(), /closed/);
+    await assert.rejects(pool.refresh(), /closed/);
+    assert.throws(() => pool.append({ type: "dispensed", txid: tx.id }), /closed/);
+    assert.equal(calls, callCount);
+    assert.equal(fs.readFileSync(opts.ledgerPath, "utf8"), before);
+    if (operation === "prepare") assert.equal((await replacement.dispense()).id, tx.id);
+    assert.equal(await replacement.dispense(), null);
+    replacement.close();
+    replacement = new P.SponsorPool(opts);
+    assert.equal(await replacement.dispense(), null);
+    const rows = fs.readFileSync(opts.ledgerPath, "utf8").trim().split("\n").map(JSON.parse);
+    assert.deepEqual(rows.map((row) => row.type), ["prepared", "dispensed"]);
+    assert.equal(replacement.totals().dispensedSats, 99500);
+  });
+}
+
 test("grammar accepts N=108 and rejects 109, extra inputs/outputs and huge amounts", () => {
   const raw = P.buildPrep(root(), 0, key, 500).toBuffer(),
     n = raw[41];

@@ -1,0 +1,100 @@
+TAP version 13
+# Subtest: builds byte-exact bounded parents and valid signatures
+ok 1 - builds byte-exact bounded parents and valid signatures
+  ---
+  duration_ms: 464.338353
+  type: 'test'
+  ...
+# Subtest: rejects invalid fees, wrong source and malformed grammar
+ok 2 - rejects invalid fees, wrong source and malformed grammar
+  ---
+  duration_ms: 24.903544
+  type: 'test'
+  ...
+# Subtest: key custody rejects mainnet WIF and insecure files without echoing input
+ok 3 - key custody rejects mainnet WIF and insecure files without echoing input
+  ---
+  duration_ms: 5.641981
+  type: 'test'
+  ...
+# Subtest: pool waits five confirmations, rechecks unspentness, FIFO and durable ledger
+ok 4 - pool waits five confirmations, rechecks unspentness, FIFO and durable ledger
+  ---
+  duration_ms: 68.630035
+  type: 'test'
+  ...
+# Subtest: broadcast uncertainty stays reserved across restart and corrupt ledgers fail closed
+ok 5 - broadcast uncertainty stays reserved across restart and corrupt ledgers fail closed
+  ---
+  duration_ms: 30.599951
+  type: 'test'
+  ...
+# Subtest: missing or mismatched chain source is rejected before signing or ledger writes
+ok 6 - missing or mismatched chain source is rejected before signing or ledger writes
+  ---
+  duration_ms: 6.19315
+  type: 'test'
+  ...
+# Subtest: short ledger writes are completed before broadcasting
+ok 7 - short ledger writes are completed before broadcasting
+  ---
+  duration_ms: 8.223796
+  type: 'test'
+  ...
+# Subtest: ledger failure during prepare closes the writer without broadcast
+ok 8 - ledger failure during prepare closes the writer without broadcast
+  ---
+  duration_ms: 7.652086
+  type: 'test'
+  ...
+# Subtest: close rejects during prepare/getblockchaininfo and reopen cannot duplicate
+ok 9 - close rejects during prepare/getblockchaininfo and reopen cannot duplicate
+  ---
+  duration_ms: 15.952796
+  type: 'test'
+  ...
+# Subtest: close rejects during prepare/gettxout and reopen cannot duplicate
+ok 10 - close rejects during prepare/gettxout and reopen cannot duplicate
+  ---
+  duration_ms: 19.525658
+  type: 'test'
+  ...
+# Subtest: close rejects during prepare/sendrawtransaction and reopen cannot duplicate
+ok 11 - close rejects during prepare/sendrawtransaction and reopen cannot duplicate
+  ---
+  duration_ms: 15.875431
+  type: 'test'
+  ...
+# Subtest: close rejects during dispense/gettxout and reopen cannot duplicate
+ok 12 - close rejects during dispense/gettxout and reopen cannot duplicate
+  ---
+  duration_ms: 15.224308
+  type: 'test'
+  ...
+# Subtest: grammar accepts N=108 and rejects 109, extra inputs/outputs and huge amounts
+ok 13 - grammar accepts N=108 and rejects 109, extra inputs/outputs and huge amounts
+  ---
+  duration_ms: 5.723333
+  type: 'test'
+  ...
+# Subtest: RPC rejects remote URLs and nonabsolute cookie paths
+ok 14 - RPC rejects remote URLs and nonabsolute cookie paths
+  ---
+  duration_ms: 0.899349
+  type: 'test'
+  ...
+# Subtest: RPC uses cookie auth, captures only RPC data, propagates error and timeout
+ok 15 - RPC uses cookie auth, captures only RPC data, propagates error and timeout
+  ---
+  duration_ms: 141.907237
+  type: 'test'
+  ...
+1..15
+# tests 15
+# suites 0
+# pass 15
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 3614.780762
