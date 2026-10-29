@@ -3,6 +3,7 @@ const fs = require("node:fs"),
   path = require("node:path");
 const { S, bsv, pay, output } = require("../vault/src/ordinal-pair");
 const { loadKey } = require("./keys");
+const Canary = require("./canary");
 const MAX_SATS = 2100000000000000;
 function sats(n) {
   if (!Number.isSafeInteger(n) || n < 1 || n > MAX_SATS)
@@ -11,7 +12,7 @@ function sats(n) {
 }
 function fee(n) {
   sats(n);
-  if (n > 10000) throw Error("Fee exceeds 10000 sat cap");
+  if (n > Canary.CAPS.fee) throw Error("Fee exceeds 10000 sat cap");
   return n;
 }
 function parsePrep(raw, pubkey) {
@@ -40,15 +41,17 @@ function parsePrep(raw, pubkey) {
     locktime: raw.subarray(-4).toString("hex"),
   };
 }
-function buildPrep(parent, index, key, prepFee = 500) {
+function buildPrep(parent, index, key, prepFee = 500, options = {}) {
+  const policy = Canary.policy(options);
   fee(prepFee);
-  if (key.network !== bsv.Networks.testnet || !key.compressed)
-    throw Error("Compressed testnet key required");
+  if (key.network !== bsv.Networks[policy.network] || !key.compressed)
+    throw Error("Compressed " + policy.chain + " key required");
   const source = parent.outputs[index],
     script = pay(key.publicKey.toString());
   if (!source || !source.script.toBuffer().equals(script.toBuffer()))
     throw Error("Source must be sponsor P2PKH");
   sats(source.satoshis);
+  Canary.cap(policy, "prep", source.satoshis);
   const amount = sats(source.satoshis - prepFee);
   const tx = new bsv.Transaction()
     .addInput(
@@ -77,10 +80,16 @@ class SponsorPool {
     ledgerPath,
     rpc,
     depth = 5,
-    capSats = 1000000,
+    capSats,
+    chain,
+    canary,
     prepFee = 500,
   }) {
-    this.#key = loadKey(keyPath);
+    Canary.bind(this, { chain, canary });
+    if (capSats === undefined)
+      capSats = this.policy.canary ? Canary.CAPS.pool : 1000000;
+    Canary.cap(this.policy, "pool", capSats);
+    this.#key = loadKey(keyPath, this.policy);
     if (!path.isAbsolute(ledgerPath) || typeof rpc !== "function")
       throw Error("Absolute ledger path and RPC required");
     if (!Number.isSafeInteger(depth) || depth < 1) throw Error("Invalid depth");
@@ -107,6 +116,7 @@ class SponsorPool {
         throw Error("Truncated ledger; reconcile manually");
       for (const line of text.split("\n").filter(Boolean))
         this.apply(JSON.parse(line));
+      this.checkCaps();
       this.fd = fs.openSync(
         ledgerPath,
         fs.constants.O_WRONLY |
@@ -118,6 +128,18 @@ class SponsorPool {
     } catch (e) {
       this.close();
       throw e;
+    }
+  }
+  checkCaps() {
+    Canary.cap(this.policy, "pool", this.capSats);
+    fee(this.prepFee);
+    if (this.policy.canary) {
+      for (const e of this.entries) {
+        Canary.cap(this.policy, "prep", e.inputSats);
+        Canary.cap(this.policy, "prep", e.amount);
+        fee(e.prepFee);
+      }
+      Canary.cap(this.policy, "pool", this.totals().heldSats);
     }
   }
   apply(row) {
@@ -148,7 +170,12 @@ class SponsorPool {
       const bytes = Buffer.from(JSON.stringify(row) + "\n");
       let offset = 0;
       while (offset < bytes.length) {
-        const written = fs.writeSync(this.fd, bytes, offset, bytes.length - offset);
+        const written = fs.writeSync(
+          this.fd,
+          bytes,
+          offset,
+          bytes.length - offset
+        );
         if (written <= 0) throw Error("Ledger write made no progress");
         offset += written;
       }
@@ -164,10 +191,11 @@ class SponsorPool {
   async exclusive(fn) {
     if (this.closed) throw Error("Pool closed");
     if (this.busy) throw Error("Pool busy");
+    this.checkCaps();
     this.busy = true;
     try {
-      if ((await this.rpc("getblockchaininfo")).chain !== "regtest")
-        throw Error("regtest only");
+      Canary.chain(this.policy, (await this.rpc("getblockchaininfo")).chain);
+      this.checkCaps();
       return await fn();
     } finally {
       this.busy = false;
@@ -175,6 +203,8 @@ class SponsorPool {
   }
   async prepare(parent, index) {
     return this.exclusive(async () => {
+      Canary.cap(this.policy, "prep", parent.outputs[index]?.satoshis);
+      Canary.broadcast(this.policy);
       const source = parent.id + ":" + index;
       if (this.entries.some((e) => e.source === source))
         throw Error("duplicate source");
@@ -187,7 +217,8 @@ class SponsorPool {
         actual.scriptPubKey.hex !== claimed.script.toHex()
       )
         throw Error("Source UTXO absent or mismatched");
-      const tx = buildPrep(parent, index, this.#key, this.prepFee);
+      this.checkCaps();
+      const tx = buildPrep(parent, index, this.#key, this.prepFee, this.policy);
       if (
         this.totals().heldSats + parent.outputs[index].satoshis >
         this.capSats
@@ -211,6 +242,7 @@ class SponsorPool {
     });
   }
   async refreshUnlocked() {
+    this.checkCaps();
     const states = [];
     for (const e of this.entries.filter((e) => !e.dispensed)) {
       const utxo = await this.rpc("gettxout", [e.txid, 0, true]);
@@ -233,6 +265,7 @@ class SponsorPool {
     return this.exclusive(async () => {
       const first = (await this.refreshUnlocked()).find((s) => s.ready);
       if (!first) return null;
+      this.checkCaps();
       const e = this.entries.find((e) => e.txid === first.txid);
       this.append({ type: "dispensed", txid: e.txid });
       return new bsv.Transaction(e.raw);
@@ -257,7 +290,8 @@ class SponsorPool {
     return r;
   }
   close() {
-    if (this.busy) throw Error("Pool busy; await active operation before close");
+    if (this.busy)
+      throw Error("Pool busy; await active operation before close");
     this.#close();
   }
   #close() {

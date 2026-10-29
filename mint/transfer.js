@@ -2,12 +2,15 @@
 const M = require("../vault/src/ordinal-pair");
 const { loadKey } = require("./keys"),
   { parsePrep } = require("./pool");
+const Canary = require("./canary");
 const active = new WeakSet();
 class TransferWorker {
   #inventoryKey;
   #sponsorKey;
   constructor({
     store,
+    chain,
+    canary,
     rpc,
     pool,
     inventory,
@@ -19,7 +22,8 @@ class TransferWorker {
     maxAttempts = 3,
     retryMs = 1000,
   } = {}) {
-    if (!Number.isSafeInteger(fee) || fee < 1 || fee > 10000)
+    Canary.bind(this, { chain, canary });
+    if (!Number.isSafeInteger(fee) || fee < 1 || fee > Canary.CAPS.fee)
       throw Error("Invalid fee cap");
     if (
       !Number.isSafeInteger(depth) ||
@@ -40,11 +44,27 @@ class TransferWorker {
     this.fee = fee;
     this.maxAttempts = maxAttempts;
     this.retryMs = retryMs;
-    this.#inventoryKey = loadKey(inventoryKeyPath);
-    this.#sponsorKey = loadKey(sponsorKeyPath);
+    this.checkCaps();
+    this.#inventoryKey = loadKey(inventoryKeyPath, this.policy);
+    this.#sponsorKey = loadKey(sponsorKeyPath, this.policy);
+  }
+  checkCaps() {
+    if (
+      !Number.isSafeInteger(this.fee) ||
+      this.fee < 1 ||
+      this.fee > Canary.CAPS.fee
+    )
+      throw Error("Invalid fee cap");
+    for (const c of [this.store, this.pool, this.paymentTransport])
+      Canary.match(this.policy, c);
+    if (this.policy.canary) Canary.inventory(this.policy, this.store.all());
   }
   async checkPayment(b) {
+    this.checkCaps();
+    Canary.box(this.policy, b);
     const p = await this.paymentTransport.read(b.payAddress, this.depth);
+    if (p && Canary.overpaid(this.policy, p.satoshis, b.priceSats))
+      throw Error("Canary payment cap exceeded");
     if (
       !p ||
       !Number.isSafeInteger(p.satoshis) ||
@@ -55,8 +75,9 @@ class TransferWorker {
       throw Error("Payment no longer confirmed");
   }
   async guard() {
-    if ((await this.rpc("getblockchaininfo")).chain !== "regtest")
-      throw Error("regtest only");
+    this.checkCaps();
+    Canary.chain(this.policy, (await this.rpc("getblockchaininfo")).chain);
+    this.checkCaps();
   }
   async unspent(tx, index) {
     const o = tx.outputs[index],
@@ -98,6 +119,9 @@ class TransferWorker {
         throw Error(
           "Ambiguous funding reservation; manual reconciliation required"
         );
+      // No reservation, signing or broadcast on mainnet in the read-only phase.
+      Canary.box(this.policy, b);
+      Canary.broadcast(this.policy);
       if (!b.transfer) {
         await this.checkPayment(b);
         const { f, source } = await this.inventory(b.inventoryId);
@@ -123,7 +147,9 @@ class TransferWorker {
           funding.toBuffer(),
           this.#sponsorKey.publicKey.toString()
         );
+        Canary.cap(this.policy, "prep", parsed.amount);
         await this.unspent(funding, 0);
+        this.checkCaps();
         const result = M.transition(
           f,
           source,
@@ -183,6 +209,8 @@ class TransferWorker {
       };
       this.store.update(id, { transfer: tr });
       try {
+        this.checkCaps();
+        Canary.broadcast(this.policy);
         const txid = await this.rpc("sendrawtransaction", [tr.raw]);
         if (txid !== tr.txid) throw Error("Broadcast id mismatch");
         this.store.update(id, { transfer: { ...tr, stage: "SUBMITTED" } });

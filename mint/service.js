@@ -1,5 +1,6 @@
 "use strict";
 const http = require("node:http");
+const Canary = require("./canary");
 function view(b) {
   if (!b) return null;
   const {
@@ -24,11 +25,19 @@ function view(b) {
 }
 function createService({
   store,
+  chain,
+  canary,
   inventory = [],
   host = "127.0.0.1",
   reservationMs = 900000,
   now = Date.now,
 } = {}) {
+  const policy = Canary.policy({ chain, canary });
+  const check = () => {
+    Canary.match(policy, store);
+    Canary.inventory(policy, inventory);
+  };
+  check();
   if (!["127.0.0.1", "::1"].includes(host)) throw Error("Loopback bind only");
   const started = now();
   const server = http.createServer(async (req, res) => {
@@ -40,6 +49,7 @@ function createService({
       res.end(JSON.stringify(obj) + "\n");
     };
     try {
+      check();
       const url = new URL(req.url, "http://localhost"),
         route = url.pathname;
       if (req.headers.origin)
@@ -49,7 +59,7 @@ function createService({
           ? send(200, {
               ok: true,
               service: "boxsv-mint",
-              version: "0.2.0-regtest",
+              version: "0.2.0-" + policy.chain,
               uptimeSec: Math.floor((now() - started) / 1000),
             })
           : send(405, { error: "method not allowed" });
