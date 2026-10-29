@@ -1,0 +1,13 @@
+{
+  "name": "boxsv-mint-regtest",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Regtest-only sponsor pool; uses the repository's pinned vault dependency tree",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node test/run.js",
+    "regtest": "node scripts/regtest-pool.js"
+  }
+}

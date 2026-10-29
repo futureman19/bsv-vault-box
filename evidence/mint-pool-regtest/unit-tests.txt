@@ -1,0 +1,70 @@
+TAP version 13
+# Subtest: builds byte-exact bounded parents and valid signatures
+ok 1 - builds byte-exact bounded parents and valid signatures
+  ---
+  duration_ms: 274.907681
+  type: 'test'
+  ...
+# Subtest: rejects invalid fees, wrong source and malformed grammar
+ok 2 - rejects invalid fees, wrong source and malformed grammar
+  ---
+  duration_ms: 15.198612
+  type: 'test'
+  ...
+# Subtest: key custody rejects mainnet WIF and insecure files without echoing input
+ok 3 - key custody rejects mainnet WIF and insecure files without echoing input
+  ---
+  duration_ms: 3.373235
+  type: 'test'
+  ...
+# Subtest: pool waits five confirmations, rechecks unspentness, FIFO and durable ledger
+ok 4 - pool waits five confirmations, rechecks unspentness, FIFO and durable ledger
+  ---
+  duration_ms: 57.840219
+  type: 'test'
+  ...
+# Subtest: broadcast uncertainty stays reserved across restart and corrupt ledgers fail closed
+ok 5 - broadcast uncertainty stays reserved across restart and corrupt ledgers fail closed
+  ---
+  duration_ms: 22.371583
+  type: 'test'
+  ...
+# Subtest: missing or mismatched chain source is rejected before signing or ledger writes
+ok 6 - missing or mismatched chain source is rejected before signing or ledger writes
+  ---
+  duration_ms: 3.129528
+  type: 'test'
+  ...
+# Subtest: short ledger writes are completed before broadcasting
+ok 7 - short ledger writes are completed before broadcasting
+  ---
+  duration_ms: 7.184
+  type: 'test'
+  ...
+# Subtest: grammar accepts N=108 and rejects 109, extra inputs/outputs and huge amounts
+ok 8 - grammar accepts N=108 and rejects 109, extra inputs/outputs and huge amounts
+  ---
+  duration_ms: 3.972877
+  type: 'test'
+  ...
+# Subtest: RPC rejects remote URLs and nonabsolute cookie paths
+ok 9 - RPC rejects remote URLs and nonabsolute cookie paths
+  ---
+  duration_ms: 0.859959
+  type: 'test'
+  ...
+# Subtest: RPC uses cookie auth, captures only RPC data, propagates error and timeout
+ok 10 - RPC uses cookie auth, captures only RPC data, propagates error and timeout
+  ---
+  duration_ms: 144.305485
+  type: 'test'
+  ...
+1..10
+# tests 10
+# suites 0
+# pass 10
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 2311.33608
