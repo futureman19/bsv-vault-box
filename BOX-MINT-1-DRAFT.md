@@ -100,8 +100,13 @@ and may sit under real relay/mining policy. Before any sale:
 2. **Payout address** (where proceeds consolidate).
 3. **Launch inventory size** (sats locked as 1-sat pairs are trivial; ordinal
    collectibles + sponsor prep fees are not).
-4. **Hosting** — idle Hetzner VPS vs fly.io (both available; VPS keeps BSV work off
-   the gryd deploy path).
+4. ~~**Hosting**~~ **DECIDED 2026-10-29: Hetzner VPS** (`5.78.188.41`, Ubuntu 24.04,
+   2 vCPU/1.9 GB). Skeleton live: Node 22, `/opt/boxsv-mint`, systemd unit
+   `boxsv-mint.service` (enabled, Restart=always, MemoryMax=512M, loopback
+   `127.0.0.1:8090`, stub `/health` + `/v1/boxes`). Host also runs zeroclaw
+   (`clark.gryll.ai` via cloudflared) — exposure for `api.boxsv.com` to be done
+   with Caddy + UFW 80/443 (box DNS is not on Cloudflare, so the existing tunnel
+   pattern does not apply).
 5. **Who sponsors buyer open/withdraw fees** — default assumption: buyer's wallet
    funds its own open (standard wallet behavior); service sponsoring those too is a
    product choice, not a technical gate.
