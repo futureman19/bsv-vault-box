@@ -143,6 +143,7 @@ class SponsorPool {
     } else throw Error("Unknown ledger event");
   }
   append(row) {
+    if (this.closed) throw Error("Pool closed");
     try {
       const bytes = Buffer.from(JSON.stringify(row) + "\n");
       let offset = 0;
@@ -154,7 +155,9 @@ class SponsorPool {
       fs.fsyncSync(this.fd);
       this.apply(row);
     } catch (e) {
-      this.close();
+      // This synchronous failure aborts the operation before any further RPC.
+      // Unlike public close(), it must poison the writer even while busy.
+      this.#close();
       throw e;
     }
   }
@@ -254,6 +257,10 @@ class SponsorPool {
     return r;
   }
   close() {
+    if (this.busy) throw Error("Pool busy; await active operation before close");
+    this.#close();
+  }
+  #close() {
     if (this.closed) return;
     this.closed = true;
     if (this.fd !== undefined) fs.closeSync(this.fd);
