@@ -1,0 +1,30 @@
+{
+  "cause": "Invoked -help-debug without -help, with mandatory runtime settings but without -datadir/-regtest/offline flags; the WSL process survived tool timeout. Identified by full argv as owned PID 34313, terminated with SIGTERM; /proc/34313 absence verified. Existing PID 1762 with .bsv-regtest datadir was left running. This was an isolation violation; default mainnet data and wallet were opened, with chain sync activity. No spending RPC was issued against it; incidental wallet rebroadcast was not assessed.",
+  "path": "/home/futureman19/.bitcoin/bitcoind.log",
+  "window": "2026-10-28 15:58:37 through 16:04:00 UTC",
+  "selectedLogLines": [
+    "2026-10-28 15:58:38 [main] Bitcoin SV version v1.2.3",
+    "2026-10-28 15:58:38 [main] Using data directory /home/futureman19/.bitcoin",
+    "2026-10-28 15:58:38 [main] Using config file /home/futureman19/.bitcoin/bitcoin.conf",
+    "2026-10-28 15:58:38 [main] init message: Verifying wallet(s)...",
+    "2026-10-28 15:58:38 [main] Using wallet wallet.dat",
+    "2026-10-28 15:58:38 [main] init message: Loading block index...",
+    "2026-10-28 15:58:40 [main] init message: Rewinding blocks...",
+    "2026-10-28 15:58:40 [main] init message: Verifying blocks...",
+    "2026-10-28 15:58:41 [main] init message: Loading wallet...",
+    "2026-10-28 15:58:41 [main] wallet=wallet.dat",
+    "2026-10-28 15:58:41 [main] init message: Loading addresses...",
+    "2026-10-28 15:58:41 [main] init message: Loading banlist...",
+    "2026-10-28 15:58:41 [main] init message: Starting network threads...",
+    "2026-10-28 15:58:41 [main] init message: Done loading",
+    "2026-10-28 16:03:28 [main] Shutdown: In progress...",
+    "2026-10-28 16:03:32 [shutoff] Shutdown: done"
+  ],
+  "tipUpdateCount": 193674,
+  "firstTip": [
+    "2026-10-28 15:58:45 [worker0-N-CAsyncTaskPool] UpdateTip: new best=00000000839a8e6886ab5951d76f411475428afc90947ee320161bbf18eb6048 height=1 version=0x00000001 log2_work=33.000022 tx=2 date='2009-01-09 02:54:25' progress=0.000000 cache=0.0MiB(1txo)"
+  ],
+  "lastTip": [
+    "2026-10-28 16:03:28 [worker0-N-CAsyncTaskPool] UpdateTip: new best=000000000000052eddcaf2d42d92bba88d338f4e9dd70bd9c80987dcbee56036 height=193674 version=0x00000001 log2_work=68.530196 tx=5909046 date='2012-08-13 09:38:46' progress=0.005302 cache=377.4MiB(2300530txo)"
+  ]
+}

@@ -1,0 +1,25 @@
+
+> vault@0.1.0 test:mocha
+> cross-env NETWORK=local mocha
+
+Private key already present ...
+You can fund its address 'mrzKXEpXfEDHk7vFS3LBXVXoa4YXFcCkje' from the sCrypt faucet https://scrypt.io/faucet
+(node:24116) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/futur/Desktop/bsv-vault-box/vault/tests/vault.test.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to C:\Users\futur\Desktop\bsv-vault-box\vault\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+
+  VAULT-0001 covenant graduation tests (script-VM executed)
+deployed sealed box: a08787f1b5cb3e24ba04c88af58a0305285e88c2fb085e73174e7f3780520f23
+    ✔ rejects theft: non-owner cannot transfer (59ms)
+    ✔ rejects content substitution via forged next instance
+    ✔ allows sealed transfer alice -> bob, preserving state/ids (69ms)
+    ✔ rejects previous owner opening after transfer
+    ✔ allows current owner (bob) to open (64ms)
+    ✔ rejects double-open (open an opened box)
+    ✔ rejects reseal attempt via tampered transfer
+    ✔ allows opened box transfer bob -> alice (46ms)
+
+
+  8 passing (380ms)

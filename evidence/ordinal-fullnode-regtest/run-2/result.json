@@ -1,0 +1,316 @@
+{
+  "status": "PASS",
+  "origin": "15e5c81167db43379ae9dbc43289eb41befbe402dfc6c08d971cb10406cb33bb_0",
+  "tip": "817641232c7760deb069940fe3d638e4b99f861f7628f8f7b8136db04de51a40:0",
+  "outcomes": [
+    {
+      "name": "funding-root",
+      "txid": "4d72be7fa810dfe398b1f06a3c16e46f5199d89cf39a11b7c4876ccf1e7b09fa",
+      "mempool": true,
+      "block": "0f09f0272b614419f7170b498f67d3e628464d88866103eee5b951bd45c83452",
+      "confirmations": 1
+    },
+    {
+      "name": "existing-inscription",
+      "txid": "15e5c81167db43379ae9dbc43289eb41befbe402dfc6c08d971cb10406cb33bb",
+      "mempool": true,
+      "block": "7ffaae47b59af2b5a177a378cf601f1cd0ac395f265fffe01530de41e1973579",
+      "confirmations": 1
+    },
+    {
+      "name": "empty-box",
+      "txid": "97dcae39d7790e38eb0d5e80587fa1c4adbcd83ace177f93bdc8293d7f422031",
+      "mempool": true,
+      "block": "0b37ce930a4522fb9e69130f2f465ac73ba3bb253f0f79bc9558d94d54c45103",
+      "confirmations": 1
+    },
+    {
+      "name": "sponsor-prep-2",
+      "txid": "990a20872be947ec2d59530d7b3042676b9a130bac2b41510c1a52dec3f967dc",
+      "mempool": true,
+      "block": "6a72203931767b6886438d7bf6691018d990a54d94f859aa0d831b743ed4ccf1",
+      "confirmations": 1
+    },
+    {
+      "name": "deposit",
+      "txid": "d12f232f5fe2995566c691a947505270396d2dbc43bc869e416298e3960d10d9",
+      "mempool": true,
+      "block": "553ba342c3d62ebce5a8a433fadadd4cad5cce5910fb285da8dcf74ff7699762",
+      "confirmations": 1
+    },
+    {
+      "name": "sponsor-prep-3",
+      "txid": "9c7d532ee87c4c7b0e8a887dddf11d6e59afcd13785fcb696a3ed16a3f55938c",
+      "mempool": true,
+      "block": "7192a7c16583778c88732ab8f1308786968740123d4652e9403f548d3fe25acf",
+      "confirmations": 1
+    },
+    {
+      "name": "seal",
+      "txid": "0caa31311267d5ccce153311e5bdf48c8547bf15f9d5f304112244b10fa0919f",
+      "mempool": true,
+      "block": "7b5ddef1a75294554c082fce9f33681e9d9643b06215d2f07dfe896108c3ba10",
+      "confirmations": 1
+    },
+    {
+      "name": "sponsor-prep-4",
+      "txid": "63ebd899f2d35a9684dd02b34dc43b212e2344424e210e3f80ec4fa3d9d8e854",
+      "mempool": true,
+      "block": "252e3026348eba695925b87bd34a9728f75b5cb7431266ae812f1a7305c028a5",
+      "confirmations": 1
+    },
+    {
+      "name": "attack-sealed-withdraw",
+      "txid": "50fbbdac76bc55630a0deefbce7a69d824e2369d453570f36759db7546fd0d35",
+      "rejection": {
+        "code": -26,
+        "message": "16: mandatory-script-verify-flag-failed (Script failed an OP_VERIFY operation)"
+      }
+    },
+    {
+      "name": "sponsor-prep-5",
+      "txid": "df52cd8f9f370a0c5154b29abbbe0cf781f0ecf47b59614fb3c580f17815914b",
+      "mempool": true,
+      "block": "6458ce43d76b47fe84b31c2627eadef710e474d264e1d58085e2e5ab9487ec01",
+      "confirmations": 1
+    },
+    {
+      "name": "transfer",
+      "txid": "918fd97dde99fdf812ac6be79b45fbf5ded34faa7913dd1af67fd6c222cc5593",
+      "mempool": true,
+      "block": "62e6fbb95285fb97e308ec27ce5fc2b4d179d324664d96468c9edf698832b95c",
+      "confirmations": 1
+    },
+    {
+      "name": "sponsor-prep-6",
+      "txid": "d1b231f887bd045a26b386e6a73f36bdfd906d0c0d161adf79d2143a4f658e49",
+      "mempool": true,
+      "block": "39def41e718e8a0fb74c63b5658a8d541aba32b462d9e1e8bc06b187ad2abcf9",
+      "confirmations": 1
+    },
+    {
+      "name": "attack-old-owner-open",
+      "txid": "99dd603c3ab62bc36772f4bc2f2acdc7952817e72e539e924310a5154392d88c",
+      "rejection": {
+        "code": -26,
+        "message": "16: mandatory-script-verify-flag-failed (Signature must be zero for failed CHECK(MULTI)SIG operation)"
+      }
+    },
+    {
+      "name": "sponsor-prep-7",
+      "txid": "9ccbe6aeef06f7446f1d20ae36d3354ccc4ff343d2842a53a8d0ae50261e9fe9",
+      "mempool": true,
+      "block": "283f25405736ac954a47941cf2d0a832f50b30e59b43bf6d265c0a10fef2f9fb",
+      "confirmations": 1
+    },
+    {
+      "name": "open",
+      "txid": "59c9fd11f1be25854bb165f502f745ae3cbde7cc0a851af8ae9b3991dbcbb2dd",
+      "mempool": true,
+      "block": "0721c0d84605b41af805277c974df0dd33a940843f5d7d62ac993aecfeadf4d3",
+      "confirmations": 1
+    },
+    {
+      "name": "sponsor-prep-8",
+      "txid": "08dea1d58f16abbdf9e9e9ebdc136b3a003cce626fb518e45a982d9f5e811e1c",
+      "mempool": true,
+      "block": "1cd467dfd5105b0a42214428459032c7a036247c30e6d9e9a1c496207a93755f",
+      "confirmations": 1
+    },
+    {
+      "name": "attack-old-owner-withdraw",
+      "txid": "50ba398a3fc7506cf159bd265187f4738515c7ee0134748d2ef0783b8ae81895",
+      "rejection": {
+        "code": -26,
+        "message": "16: mandatory-script-verify-flag-failed (Signature must be zero for failed CHECK(MULTI)SIG operation)"
+      }
+    },
+    {
+      "name": "sponsor-prep-9",
+      "txid": "17f80cda3ec40bbc823e2de4d6467b52200396346eabed1f7c4f16c718e725e2",
+      "mempool": true,
+      "block": "68d99ed43154df69f1aec1055e153bbd3b5645ab29f7236dd9a41a098d5cd2a6",
+      "confirmations": 1
+    },
+    {
+      "name": "withdraw",
+      "txid": "817641232c7760deb069940fe3d638e4b99f861f7628f8f7b8136db04de51a40",
+      "mempool": true,
+      "block": "30c700135a118bf3341c3e4c34b7d232d519053f5b7c4436256dd9244598f8d5",
+      "confirmations": 1
+    }
+  ],
+  "transactions": [
+    {
+      "name": "funding-root",
+      "txid": "4d72be7fa810dfe398b1f06a3c16e46f5199d89cf39a11b7c4876ccf1e7b09fa",
+      "bytes": 600
+    },
+    {
+      "name": "existing-inscription",
+      "txid": "15e5c81167db43379ae9dbc43289eb41befbe402dfc6c08d971cb10406cb33bb",
+      "bytes": 257
+    },
+    {
+      "name": "empty-box",
+      "txid": "97dcae39d7790e38eb0d5e80587fa1c4adbcd83ace177f93bdc8293d7f422031",
+      "bytes": 3748
+    },
+    {
+      "name": "sponsor-prep-2",
+      "txid": "990a20872be947ec2d59530d7b3042676b9a130bac2b41510c1a52dec3f967dc",
+      "bytes": 191
+    },
+    {
+      "name": "deposit",
+      "txid": "d12f232f5fe2995566c691a947505270396d2dbc43bc869e416298e3960d10d9",
+      "bytes": 11726
+    },
+    {
+      "name": "sponsor-prep-3",
+      "txid": "9c7d532ee87c4c7b0e8a887dddf11d6e59afcd13785fcb696a3ed16a3f55938c",
+      "bytes": 192
+    },
+    {
+      "name": "seal",
+      "txid": "0caa31311267d5ccce153311e5bdf48c8547bf15f9d5f304112244b10fa0919f",
+      "bytes": 15854
+    },
+    {
+      "name": "sponsor-prep-4",
+      "txid": "63ebd899f2d35a9684dd02b34dc43b212e2344424e210e3f80ec4fa3d9d8e854",
+      "bytes": 192
+    },
+    {
+      "name": "attack-sealed-withdraw",
+      "txid": "50fbbdac76bc55630a0deefbce7a69d824e2369d453570f36759db7546fd0d35",
+      "bytes": 8811
+    },
+    {
+      "name": "sponsor-prep-5",
+      "txid": "df52cd8f9f370a0c5154b29abbbe0cf781f0ecf47b59614fb3c580f17815914b",
+      "bytes": 192
+    },
+    {
+      "name": "transfer",
+      "txid": "918fd97dde99fdf812ac6be79b45fbf5ded34faa7913dd1af67fd6c222cc5593",
+      "bytes": 15855
+    },
+    {
+      "name": "sponsor-prep-6",
+      "txid": "d1b231f887bd045a26b386e6a73f36bdfd906d0c0d161adf79d2143a4f658e49",
+      "bytes": 191
+    },
+    {
+      "name": "attack-old-owner-open",
+      "txid": "99dd603c3ab62bc36772f4bc2f2acdc7952817e72e539e924310a5154392d88c",
+      "bytes": 15853
+    },
+    {
+      "name": "sponsor-prep-7",
+      "txid": "9ccbe6aeef06f7446f1d20ae36d3354ccc4ff343d2842a53a8d0ae50261e9fe9",
+      "bytes": 192
+    },
+    {
+      "name": "open",
+      "txid": "59c9fd11f1be25854bb165f502f745ae3cbde7cc0a851af8ae9b3991dbcbb2dd",
+      "bytes": 15855
+    },
+    {
+      "name": "sponsor-prep-8",
+      "txid": "08dea1d58f16abbdf9e9e9ebdc136b3a003cce626fb518e45a982d9f5e811e1c",
+      "bytes": 192
+    },
+    {
+      "name": "attack-old-owner-withdraw",
+      "txid": "50ba398a3fc7506cf159bd265187f4738515c7ee0134748d2ef0783b8ae81895",
+      "bytes": 8812
+    },
+    {
+      "name": "sponsor-prep-9",
+      "txid": "17f80cda3ec40bbc823e2de4d6467b52200396346eabed1f7c4f16c718e725e2",
+      "bytes": 192
+    },
+    {
+      "name": "withdraw",
+      "txid": "817641232c7760deb069940fe3d638e4b99f861f7628f8f7b8136db04de51a40",
+      "bytes": 8814
+    }
+  ],
+  "finalUTXOs": [
+    {
+      "bestblock": "30c700135a118bf3341c3e4c34b7d232d519053f5b7c4436256dd9244598f8d5",
+      "confirmations": 1,
+      "value": 1e-8,
+      "scriptPubKey": {
+        "asm": "OP_DUP OP_HASH160 06afd46bcdfd22ef94ac122aa11f241244a37ecc OP_EQUALVERIFY OP_CHECKSIG",
+        "hex": "76a91406afd46bcdfd22ef94ac122aa11f241244a37ecc88ac",
+        "reqSigs": 1,
+        "type": "pubkeyhash",
+        "addresses": [
+          "mg8Jz5776UdyiYcBb9Z873NTozEiADRW5H"
+        ]
+      },
+      "coinbase": false,
+      "confiscation": false
+    },
+    {
+      "bestblock": "30c700135a118bf3341c3e4c34b7d232d519053f5b7c4436256dd9244598f8d5",
+      "confirmations": 1,
+      "value": 1e-8,
+      "scriptPubKey": {
+        "asm": "OP_DUP OP_HASH160 06afd46bcdfd22ef94ac122aa11f241244a37ecc OP_EQUALVERIFY OP_CHECKSIG",
+        "hex": "76a91406afd46bcdfd22ef94ac122aa11f241244a37ecc88ac",
+        "reqSigs": 1,
+        "type": "pubkeyhash",
+        "addresses": [
+          "mg8Jz5776UdyiYcBb9Z873NTozEiADRW5H"
+        ]
+      },
+      "coinbase": false,
+      "confiscation": false
+    }
+  ],
+  "chain": {
+    "chain": "regtest",
+    "blocks": 126,
+    "headers": 126,
+    "bestblockhash": "30c700135a118bf3341c3e4c34b7d232d519053f5b7c4436256dd9244598f8d5",
+    "difficulty": 4.656542373906925e-10,
+    "mediantime": 1793203482,
+    "verificationprogress": 1,
+    "chainwork": "00000000000000000000000000000000000000000000000000000000000000fe",
+    "pruned": false,
+    "softforks": [
+      {
+        "id": "bip34",
+        "version": 2,
+        "reject": {
+          "status": false
+        }
+      },
+      {
+        "id": "bip66",
+        "version": 3,
+        "reject": {
+          "status": false
+        }
+      },
+      {
+        "id": "bip65",
+        "version": 4,
+        "reject": {
+          "status": false
+        }
+      },
+      {
+        "id": "csv",
+        "version": 5,
+        "reject": {
+          "status": false
+        }
+      }
+    ]
+  },
+  "boundary": "Independent BSV node mempool and mined acceptance; attacks rejected by mempool script validation, not submitted in candidate blocks. Identity positional ancestry checked by harness, not an indexer."
+}

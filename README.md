@@ -1,5 +1,7 @@
 # VAULT-0001 — Sealed Vault Boxes on BSV
 
+> **Custody status:** the deployed VAULT-0001 contract enforces a seal and immutable content commitment, not custody of the referenced NFT UTXOs. The new [BOX-NATIVE-1 local research lab](BOX-NATIVE-1-DRAFT.md) executes a singleton native-token wrapper in Script, but is **not the requested external-NFT vault** and must not be funded or deployed. External deposit/release, multi-item conservation, fee sponsorship, and chain-aware verification remain unimplemented.
+
 **A digital safe-deposit box with a break-once, publicly verifiable seal — enforced by BSV consensus, not by any company.**
 
 A vault box is a UTXO carrying a covenant (state machine) with exactly three legal moves:

@@ -1,0 +1,107 @@
+{
+  "state": {
+    "localOnly": true,
+    "scope": "single native-token wrapper prototype; NOT external NFT custody",
+    "verified": {
+      "valid": true,
+      "anchor": "ce7bf05f9a32e44c6dad0e6fd5541fdcb22993b6b3e9a6291c18c5951b23c678:0",
+      "tip": "144d6d4d99a8aa261e710e33aa6b278b574df6c93dbd49c315fc7d7e0f453bcf:0",
+      "state": {
+        "asset": "4242424242424242424242424242424242424242424242424242424242424242",
+        "owner": "02c6047f9441ed7d6d3045406e95c07cd85c778e4b8cef3ca7abac09b95c709ee5",
+        "phase": 4,
+        "label": "WITHDRAWN"
+      },
+      "inventory": []
+    },
+    "transactions": [
+      {
+        "action": "pack",
+        "txid": "fec7c273eb45b8045873a530b63c531e9474441fb56f7d462f1ad3550fc6f174",
+        "bytes": 5371
+      },
+      {
+        "action": "remove",
+        "txid": "a83f89ba2247c4e7b046303df1b80b538bf478aaa5cc63ccdbaa3501b5fcf291",
+        "bytes": 5370
+      },
+      {
+        "action": "pack",
+        "txid": "805e4757524c30dfaec079b40601f45b264c25d2ef4a3ae02b33d1fdfb0dbded",
+        "bytes": 5370
+      },
+      {
+        "action": "seal",
+        "txid": "4acaa50397fc419d511b871008e705548dbb82f32366dbd85ac8ed9cdfe71adf",
+        "bytes": 5371
+      },
+      {
+        "action": "transfer",
+        "txid": "9c727d73907bbe7bbc09849815ccd20b38d6c45df3fe1a8ca145d53b9fb7c854",
+        "bytes": 5370
+      },
+      {
+        "action": "open",
+        "txid": "2a518c00ebde725152d4d8261ae09143080063cbc8967d49fffcd553b7b0feb8",
+        "bytes": 5371
+      },
+      {
+        "action": "withdraw",
+        "txid": "144d6d4d99a8aa261e710e33aa6b278b574df6c93dbd49c315fc7d7e0f453bcf",
+        "bytes": 5371
+      }
+    ]
+  },
+  "errors": [],
+  "controls": [
+    {
+      "text": "Funded deposits unavailable",
+      "disabled": true,
+      "x": 141,
+      "y": 366.96875,
+      "parent": "warning"
+    },
+    {
+      "text": "Pack",
+      "disabled": true,
+      "x": 145,
+      "y": 846.53125,
+      "parent": "controls"
+    },
+    {
+      "text": "Remove",
+      "disabled": true,
+      "x": 218.90625,
+      "y": 846.53125,
+      "parent": "controls"
+    },
+    {
+      "text": "Seal",
+      "disabled": true,
+      "x": 317.5625,
+      "y": 846.53125,
+      "parent": "controls"
+    },
+    {
+      "text": "Transfer to other owner",
+      "disabled": false,
+      "x": 388.453125,
+      "y": 846.53125,
+      "parent": "controls"
+    },
+    {
+      "text": "Open irreversibly",
+      "disabled": true,
+      "x": 595.578125,
+      "y": 846.53125,
+      "parent": "controls"
+    },
+    {
+      "text": "Withdraw native token",
+      "disabled": true,
+      "x": 757.5,
+      "y": 846.53125,
+      "parent": "controls"
+    }
+  ]
+}

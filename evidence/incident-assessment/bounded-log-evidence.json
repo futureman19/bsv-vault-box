@@ -1,0 +1,583 @@
+{
+  "collected_at_utc": "2026-10-28T17:56:00.677107+00:00",
+  "source": "/home/futureman19/.bitcoin/bitcoind.log",
+  "window_inclusive_utc": [
+    "2026-10-28 15:58:37",
+    "2026-10-28 16:04:00"
+  ],
+  "method": "One streaming pass of bitcoind.log; only timestamped lines in bounded window selected. No wallet/config/db contents read. Category matching on all window lines except UpdateTip; displayed samples bounded, counts complete. No RPC, node control or external lookup. Metadata is current, not baseline comparison.",
+  "window_line_count": 281932,
+  "first_window_line": {
+    "line": 326,
+    "text": "2026-10-28 15:58:38 [main]"
+  },
+  "last_window_line": {
+    "line": 282276,
+    "text": "2026-10-28 16:03:32 [shutoff] Shutdown: done"
+  },
+  "tip_count": 193674,
+  "first_tip": {
+    "line": 533,
+    "text": "2026-10-28 15:58:45 [worker0-N-CAsyncTaskPool] UpdateTip: new best=[hash-redacted] height=1 version=0x00000001 log2_work=33.000022 tx=2 date='2009-01-09 02:54:25' progress=0.000000 cache=0.0MiB(1txo)"
+  },
+  "last_tip": {
+    "line": 282181,
+    "text": "2026-10-28 16:03:28 [worker0-N-CAsyncTaskPool] UpdateTip: new best=[hash-redacted] height=193674 version=0x00000001 log2_work=68.530196 tx=5909046 date='2012-08-13 09:38:46' progress=0.005302 cache=377.4MiB(2300530txo)"
+  },
+  "category_counts": {
+    "wallet": 7,
+    "transaction_relay": 7,
+    "peer_network": 25,
+    "storage_shutdown": 25
+  },
+  "category_samples": {
+    "wallet": [
+      {
+        "line": 405,
+        "text": "2026-10-28 15:58:38 [main] init message: Verifying wallet(s)..."
+      },
+      {
+        "line": 407,
+        "text": "2026-10-28 15:58:38 [main] Using wallet wallet.dat"
+      },
+      {
+        "line": 486,
+        "text": "2026-10-28 15:58:41 [main] init message: Loading wallet..."
+      },
+      {
+        "line": 489,
+        "text": "2026-10-28 15:58:41 [main]  wallet                   13ms"
+      },
+      {
+        "line": 490,
+        "text": "2026-10-28 15:58:41 [main] setKeyPool.size() = 2000"
+      },
+      {
+        "line": 491,
+        "text": "2026-10-28 15:58:41 [main] mapWallet.size() = 0"
+      },
+      {
+        "line": 498,
+        "text": "2026-10-28 15:58:41 [main] wallet=wallet.dat"
+      }
+    ],
+    "transaction_relay": [
+      {
+        "line": 394,
+        "text": "2026-10-28 15:58:38 [main] Opening LevelDB in /home/futureman19/.bitcoin/mempoolTxDB"
+      },
+      {
+        "line": 396,
+        "text": "2026-10-28 15:58:38 [main] Using obfuscation key for /home/futureman19/.bitcoin/mempoolTxDB: [redacted]"
+      },
+      {
+        "line": 524,
+        "text": "2026-10-28 15:58:41 [loadblk] Checking mempool TxDB: found 0 transactions"
+      },
+      {
+        "line": 525,
+        "text": "2026-10-28 15:58:41 [loadblk] Imported mempool transactions from disk: 0 successes, 0 failed, 0 expired"
+      },
+      {
+        "line": 526,
+        "text": "2026-10-28 15:58:41 [loadblk] Imported non-final mempool transactions from disk: 0 successes, 0 failed, 0 expired"
+      },
+      {
+        "line": 282270,
+        "text": "2026-10-28 16:03:28 [shutoff] Dumped mempool: 0.000001s to copy, 0.003803s to dump (0 txs, 0 in txdb)"
+      },
+      {
+        "line": 282271,
+        "text": "2026-10-28 16:03:28 [shutoff] Dumped 0 txns to non-final mempool: 0.001191s to dump"
+      }
+    ],
+    "peer_network": [
+      {
+        "line": 356,
+        "text": "2026-10-28 15:58:38 [main] Using at most 125 automatic connections (10240 file descriptors available, 8192 reserved for coins database files)"
+      },
+      {
+        "line": 448,
+        "text": "2026-10-28 15:58:38 [main] Bound to [::]:8333"
+      },
+      {
+        "line": 449,
+        "text": "2026-10-28 15:58:38 [main] Bound to [ip-redacted]"
+      },
+      {
+        "line": 505,
+        "text": "2026-10-28 15:58:41 [main] Loaded 1291 addresses from peers.dat  1ms"
+      },
+      {
+        "line": 507,
+        "text": "2026-10-28 15:58:41 [main] init message: Starting network threads..."
+      },
+      {
+        "line": 509,
+        "text": "2026-10-28 15:58:41 [net] P2P socket handler waiting with poll()"
+      },
+      {
+        "line": 511,
+        "text": "2026-10-28 15:58:41 [dnsseed] dnsseed thread start"
+      },
+      {
+        "line": 513,
+        "text": "2026-10-28 15:58:41 [dnsseed] Loading addresses from DNS seeds (could take a while)"
+      },
+      {
+        "line": 521,
+        "text": "2026-10-28 15:58:41 [dnsseed] 16 addresses found from DNS seeds"
+      },
+      {
+        "line": 522,
+        "text": "2026-10-28 15:58:41 [dnsseed] dnsseed thread exit"
+      },
+      {
+        "line": 528,
+        "text": "2026-10-28 15:58:42 [msghand] New outbound peer connected: version: 70016, blocks=973054, peer=0"
+      },
+      {
+        "line": 529,
+        "text": "2026-10-28 15:58:42 [msghand] New outbound peer connected: version: 70016, blocks=973054, peer=1"
+      },
+      {
+        "line": 530,
+        "text": "2026-10-28 15:58:43 [msghand] New outbound peer connected: version: 70016, blocks=973054, peer=4"
+      },
+      {
+        "line": 531,
+        "text": "2026-10-28 15:58:44 [msghand] New outbound peer connected: version: 70016, blocks=973054, peer=6"
+      },
+      {
+        "line": 1637,
+        "text": "2026-10-28 15:58:50 [msghand] New outbound peer connected: version: 70016, blocks=973054, peer=8"
+      },
+      {
+        "line": 1694,
+        "text": "2026-10-28 15:58:50 [msghand] New outbound peer connected: version: 70016, blocks=973054, peer=9"
+      },
+      {
+        "line": 1888,
+        "text": "2026-10-28 15:58:51 [msghand] New outbound peer connected: version: 70016, blocks=973054, peer=12"
+      },
+      {
+        "line": 2040,
+        "text": "2026-10-28 15:58:52 [msghand] New outbound peer connected: version: 70016, blocks=973054, peer=14"
+      },
+      {
+        "line": 2329,
+        "text": "2026-10-28 15:58:53 [msghand] New outbound peer connected: version: 70016, blocks=973054, peer=16"
+      },
+      {
+        "line": 5088,
+        "text": "2026-10-28 15:59:03 [msghand] Misbehaving: [ip-redacted] peer=18 (0 -> 100) reason: invalid-UA BAN THRESHOLD EXCEEDED"
+      },
+      {
+        "line": 19260,
+        "text": "2026-10-28 15:59:21 [msghand] Misbehaving: [ip-redacted] peer=19 (0 -> 100) reason: invalid-UA BAN THRESHOLD EXCEEDED"
+      },
+      {
+        "line": 32734,
+        "text": "2026-10-28 15:59:35 [msghand] Misbehaving: [ip-redacted] peer=20 (0 -> 100) reason: invalid-UA BAN THRESHOLD EXCEEDED"
+      },
+      {
+        "line": 37698,
+        "text": "2026-10-28 15:59:40 [msghand] Misbehaving: [ip-redacted] peer=21 (0 -> 100) reason: invalid-UA BAN THRESHOLD EXCEEDED"
+      },
+      {
+        "line": 69341,
+        "text": "2026-10-28 16:00:14 [msghand] New outbound peer connected: version: 70016, blocks=973055, peer=22"
+      },
+      {
+        "line": 87608,
+        "text": "2026-10-28 16:00:30 [msghand] New outbound peer connected: version: 70016, blocks=973055, peer=24"
+      }
+    ],
+    "storage_shutdown": [
+      {
+        "line": 356,
+        "text": "2026-10-28 15:58:38 [main] Using at most 125 automatic connections (10240 file descriptors available, 8192 reserved for coins database files)"
+      },
+      {
+        "line": 405,
+        "text": "2026-10-28 15:58:38 [main] init message: Verifying wallet(s)..."
+      },
+      {
+        "line": 408,
+        "text": "2026-10-28 15:58:38 [main] CDBEnv::Open: LogDir=/home/futureman19/.bitcoin/database ErrorFile=/home/futureman19/.bitcoin/db.log"
+      },
+      {
+        "line": 451,
+        "text": "2026-10-28 15:58:38 [main] * Using 2.0MiB for block index database"
+      },
+      {
+        "line": 452,
+        "text": "2026-10-28 15:58:38 [main] * Using 0.5MiB for Merkle Tree index database"
+      },
+      {
+        "line": 453,
+        "text": "2026-10-28 15:58:38 [main] * Using 1024.0MiB for chain state database (LevelDB cache)"
+      },
+      {
+        "line": 459,
+        "text": "2026-10-28 15:58:38 [main] init message: Loading block index..."
+      },
+      {
+        "line": 471,
+        "text": "2026-10-28 15:58:39 [main] LoadDBIndexNL() : CMerkleTreeIndexDB loaded in 0ms"
+      },
+      {
+        "line": 479,
+        "text": "2026-10-28 15:58:40 [main] Initializing databases..."
+      },
+      {
+        "line": 480,
+        "text": "2026-10-28 15:58:40 [main] Loaded best chain: hashBestChain=[hash-redacted] height=0 date=2009-01-03 18:15:05 progress=0.000000"
+      },
+      {
+        "line": 481,
+        "text": "2026-10-28 15:58:40 [main] init message: Rewinding blocks..."
+      },
+      {
+        "line": 482,
+        "text": "2026-10-28 15:58:40 [main] init message: Verifying blocks..."
+      },
+      {
+        "line": 483,
+        "text": "2026-10-28 15:58:41 [main] WARNING: Safe mode level changed to UNKNOWN"
+      },
+      {
+        "line": 486,
+        "text": "2026-10-28 15:58:41 [main] init message: Loading wallet..."
+      },
+      {
+        "line": 500,
+        "text": "2026-10-28 15:58:41 [main] Chainstate will NOT be preloaded"
+      },
+      {
+        "line": 504,
+        "text": "2026-10-28 15:58:41 [main] init message: Loading addresses..."
+      },
+      {
+        "line": 505,
+        "text": "2026-10-28 15:58:41 [main] Loaded 1291 addresses from peers.dat  1ms"
+      },
+      {
+        "line": 506,
+        "text": "2026-10-28 15:58:41 [main] init message: Loading banlist..."
+      },
+      {
+        "line": 513,
+        "text": "2026-10-28 15:58:41 [dnsseed] Loading addresses from DNS seeds (could take a while)"
+      },
+      {
+        "line": 518,
+        "text": "2026-10-28 15:58:41 [main] init message: Done loading"
+      },
+      {
+        "line": 523,
+        "text": "2026-10-28 15:58:41 [main] Preload wait for shutdown"
+      },
+      {
+        "line": 282219,
+        "text": "2026-10-28 16:03:28 [main] Preload wait for shutdown done"
+      },
+      {
+        "line": 282220,
+        "text": "2026-10-28 16:03:28 [main] Checking Thread shutdown"
+      },
+      {
+        "line": 282221,
+        "text": "2026-10-28 16:03:28 [main] Shutdown: In progress..."
+      },
+      {
+        "line": 282276,
+        "text": "2026-10-28 16:03:32 [shutoff] Shutdown: done"
+      }
+    ]
+  },
+  "metadata": [
+    {
+      "path": "/home/futureman19/.bitcoin/wallet.dat",
+      "type": "file",
+      "size_bytes": 1392640,
+      "mtime_utc": "2026-10-28T16:03:32.459816+00:00",
+      "ctime_utc": "2026-10-28T16:03:32.459816+00:00",
+      "mode": "0o600"
+    },
+    {
+      "path": "/home/futureman19/.bitcoin/chainstate",
+      "type": "directory",
+      "size_bytes": 4096,
+      "mtime_utc": "2026-10-28T15:58:39.585022+00:00",
+      "ctime_utc": "2026-10-28T15:58:39.585022+00:00",
+      "mode": "0o700"
+    },
+    {
+      "path": "/home/futureman19/.bitcoin/blocks",
+      "type": "directory",
+      "size_bytes": 4096,
+      "mtime_utc": "2026-10-28T16:03:28.503832+00:00",
+      "ctime_utc": "2026-10-28T16:03:28.503832+00:00",
+      "mode": "0o700"
+    },
+    {
+      "path": "/home/futureman19/.bitcoin/blocks/index",
+      "type": "directory",
+      "size_bytes": 4096,
+      "mtime_utc": "2026-10-28T15:58:39.561022+00:00",
+      "ctime_utc": "2026-10-28T15:58:39.561022+00:00",
+      "mode": "0o700"
+    },
+    {
+      "path": "/home/futureman19/.bitcoin/peers.dat",
+      "type": "file",
+      "size_bytes": 270118,
+      "mtime_utc": "2026-10-28T16:03:28.807831+00:00",
+      "ctime_utc": "2026-10-28T16:03:28.811831+00:00",
+      "mode": "0o600"
+    },
+    {
+      "path": "/home/futureman19/.bitcoin/banlist.dat",
+      "type": "file",
+      "size_bytes": 253,
+      "mtime_utc": "2026-10-28T16:03:28.811831+00:00",
+      "ctime_utc": "2026-10-28T16:03:28.811831+00:00",
+      "mode": "0o600"
+    },
+    {
+      "path": "/home/futureman19/.bitcoin/mempool.dat",
+      "type": "file",
+      "size_bytes": 33,
+      "mtime_utc": "2026-10-28T16:03:28.819831+00:00",
+      "ctime_utc": "2026-10-28T16:03:28.819831+00:00",
+      "mode": "0o600"
+    },
+    {
+      "path": "/home/futureman19/.bitcoin/fee_estimates.dat",
+      "absent": true
+    },
+    {
+      "path": "/home/futureman19/.bitcoin/db.log",
+      "type": "file",
+      "size_bytes": 0,
+      "mtime_utc": "2026-10-26T20:21:40.134816+00:00",
+      "ctime_utc": "2026-10-26T20:21:40.134816+00:00",
+      "mode": "0o600"
+    },
+    {
+      "path": "/home/futureman19/.bitcoin/bitcoind.log",
+      "type": "file",
+      "size_bytes": 74322684,
+      "mtime_utc": "2026-10-28T16:03:32.627815+00:00",
+      "ctime_utc": "2026-10-28T16:03:32.627815+00:00",
+      "mode": "0o600"
+    },
+    {
+      "directory": "/home/futureman19/.bitcoin/chainstate",
+      "entry_count": 5,
+      "newest_entries_metadata_only": [
+        {
+          "path": "/home/futureman19/.bitcoin/chainstate/000006.log",
+          "type": "file",
+          "size_bytes": 137817947,
+          "mtime_utc": "2026-10-28T16:03:32.415816+00:00",
+          "ctime_utc": "2026-10-28T16:03:32.415816+00:00",
+          "mode": "0o600"
+        },
+        {
+          "path": "/home/futureman19/.bitcoin/chainstate/CURRENT",
+          "type": "file",
+          "size_bytes": 16,
+          "mtime_utc": "2026-10-28T15:58:39.581022+00:00",
+          "ctime_utc": "2026-10-28T15:58:39.585022+00:00",
+          "mode": "0o600"
+        },
+        {
+          "path": "/home/futureman19/.bitcoin/chainstate/MANIFEST-000004",
+          "type": "file",
+          "size_bytes": 89,
+          "mtime_utc": "2026-10-28T15:58:39.577022+00:00",
+          "ctime_utc": "2026-10-28T15:58:39.577022+00:00",
+          "mode": "0o600"
+        },
+        {
+          "path": "/home/futureman19/.bitcoin/chainstate/000005.ldb",
+          "type": "file",
+          "size_bytes": 343,
+          "mtime_utc": "2026-10-28T15:58:39.577022+00:00",
+          "ctime_utc": "2026-10-28T15:58:39.577022+00:00",
+          "mode": "0o600"
+        },
+        {
+          "path": "/home/futureman19/.bitcoin/chainstate/LOCK",
+          "type": "file",
+          "size_bytes": 0,
+          "mtime_utc": "2026-10-26T20:21:40.194847+00:00",
+          "ctime_utc": "2026-10-26T20:21:40.194847+00:00",
+          "mode": "0o600"
+        }
+      ]
+    },
+    {
+      "directory": "/home/futureman19/.bitcoin/blocks/index",
+      "entry_count": 5,
+      "newest_entries_metadata_only": [
+        {
+          "path": "/home/futureman19/.bitcoin/blocks/index/000006.log",
+          "type": "file",
+          "size_bytes": 95844698,
+          "mtime_utc": "2026-10-28T16:03:29.371829+00:00",
+          "ctime_utc": "2026-10-28T16:03:29.371829+00:00",
+          "mode": "0o600"
+        },
+        {
+          "path": "/home/futureman19/.bitcoin/blocks/index/CURRENT",
+          "type": "file",
+          "size_bytes": 16,
+          "mtime_utc": "2026-10-28T15:58:39.561022+00:00",
+          "ctime_utc": "2026-10-28T15:58:39.561022+00:00",
+          "mode": "0o600"
+        },
+        {
+          "path": "/home/futureman19/.bitcoin/blocks/index/MANIFEST-000004",
+          "type": "file",
+          "size_bytes": 87,
+          "mtime_utc": "2026-10-28T15:58:39.557022+00:00",
+          "ctime_utc": "2026-10-28T15:58:39.557022+00:00",
+          "mode": "0o600"
+        },
+        {
+          "path": "/home/futureman19/.bitcoin/blocks/index/000005.ldb",
+          "type": "file",
+          "size_bytes": 63967506,
+          "mtime_utc": "2026-10-28T15:58:39.517022+00:00",
+          "ctime_utc": "2026-10-28T15:58:39.517022+00:00",
+          "mode": "0o600"
+        },
+        {
+          "path": "/home/futureman19/.bitcoin/blocks/index/LOCK",
+          "type": "file",
+          "size_bytes": 0,
+          "mtime_utc": "2026-10-26T20:21:40.158829+00:00",
+          "ctime_utc": "2026-10-26T20:21:40.158829+00:00",
+          "mode": "0o600"
+        }
+      ]
+    },
+    {
+      "directory": "/home/futureman19/.bitcoin/blocks",
+      "entry_count": 41,
+      "newest_entries_metadata_only": [
+        {
+          "path": "/home/futureman19/.bitcoin/blocks/blk00019.dat",
+          "type": "file",
+          "size_bytes": 134217728,
+          "mtime_utc": "2026-10-28T16:03:28.703831+00:00",
+          "ctime_utc": "2026-10-28T16:03:28.703831+00:00",
+          "mode": "0o600"
+        },
+        {
+          "path": "/home/futureman19/.bitcoin/blocks/rev00018.dat",
+          "type": "file",
+          "size_bytes": 18874368,
+          "mtime_utc": "2026-10-28T16:03:28.583832+00:00",
+          "ctime_utc": "2026-10-28T16:03:28.583832+00:00",
+          "mode": "0o600"
+        },
+        {
+          "path": "/home/futureman19/.bitcoin/blocks/rev00019.dat",
+          "type": "file",
+          "size_bytes": 1048576,
+          "mtime_utc": "2026-10-28T16:03:28.575832+00:00",
+          "ctime_utc": "2026-10-28T16:03:28.575832+00:00",
+          "mode": "0o600"
+        },
+        {
+          "path": "/home/futureman19/.bitcoin/blocks/blk00018.dat",
+          "type": "file",
+          "size_bytes": 134082671,
+          "mtime_utc": "2026-10-28T16:03:25.363846+00:00",
+          "ctime_utc": "2026-10-28T16:03:25.363846+00:00",
+          "mode": "0o600"
+        },
+        {
+          "path": "/home/futureman19/.bitcoin/blocks/rev00017.dat",
+          "type": "file",
+          "size_bytes": 18874368,
+          "mtime_utc": "2026-10-28T16:03:23.587853+00:00",
+          "ctime_utc": "2026-10-28T16:03:23.587853+00:00",
+          "mode": "0o600"
+        },
+        {
+          "path": "/home/futureman19/.bitcoin/blocks/blk00017.dat",
+          "type": "file",
+          "size_bytes": 134198997,
+          "mtime_utc": "2026-10-28T16:03:20.135868+00:00",
+          "ctime_utc": "2026-10-28T16:03:20.135868+00:00",
+          "mode": "0o600"
+        },
+        {
+          "path": "/home/futureman19/.bitcoin/blocks/rev00016.dat",
+          "type": "file",
+          "size_bytes": 18874368,
+          "mtime_utc": "2026-10-28T16:03:18.611874+00:00",
+          "ctime_utc": "2026-10-28T16:03:18.611874+00:00",
+          "mode": "0o600"
+        },
+        {
+          "path": "/home/futureman19/.bitcoin/blocks/blk00016.dat",
+          "type": "file",
+          "size_bytes": 134080736,
+          "mtime_utc": "2026-10-28T16:03:15.043891+00:00",
+          "ctime_utc": "2026-10-28T16:03:15.043891+00:00",
+          "mode": "0o600"
+        },
+        {
+          "path": "/home/futureman19/.bitcoin/blocks/rev00015.dat",
+          "type": "file",
+          "size_bytes": 18874368,
+          "mtime_utc": "2026-10-28T16:03:13.779897+00:00",
+          "ctime_utc": "2026-10-28T16:03:13.779897+00:00",
+          "mode": "0o600"
+        },
+        {
+          "path": "/home/futureman19/.bitcoin/blocks/blk00015.dat",
+          "type": "file",
+          "size_bytes": 134029307,
+          "mtime_utc": "2026-10-28T16:03:10.619910+00:00",
+          "ctime_utc": "2026-10-28T16:03:10.619910+00:00",
+          "mode": "0o600"
+        },
+        {
+          "path": "/home/futureman19/.bitcoin/blocks/rev00014.dat",
+          "type": "file",
+          "size_bytes": 18874368,
+          "mtime_utc": "2026-10-28T16:03:08.251921+00:00",
+          "ctime_utc": "2026-10-28T16:03:08.251921+00:00",
+          "mode": "0o600"
+        },
+        {
+          "path": "/home/futureman19/.bitcoin/blocks/blk00014.dat",
+          "type": "file",
+          "size_bytes": 134188830,
+          "mtime_utc": "2026-10-28T16:03:05.443934+00:00",
+          "ctime_utc": "2026-10-28T16:03:05.443934+00:00",
+          "mode": "0o600"
+        }
+      ]
+    }
+  ],
+  "processes": [
+    {
+      "pid": 1762,
+      "argv": [
+        "/home/futureman19/bitcoin-sv-1.2.3/bin/bitcoind",
+        "-datadir=/home/futureman19/.bsv-regtest",
+        "-daemon",
+        "-reindex"
+      ]
+    }
+  ],
+  "incident_pid_34313_exists": false
+}

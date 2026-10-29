@@ -1,0 +1,41 @@
+✔ UI sends optional locators, shows pack and manifest link, escapes evidence (2.3917ms)
+✔ recomputes pack from committed manifest, opening height +1, and validates mint (14.3225ms)
+✔ tampered ordered designs are INVALID-MINT (4.2932ms)
+✔ missing draw block is pending, never invalid mint (2.5463ms)
+✔ opened transfer uses original opening, not transfer height (3.0183ms)
+✔ unconfirmed opening never draws (2.1368ms)
+✔ mismatched manifest commitment fails closed (2.5782ms)
+✔ unrelated mint cannot validate even with correct designs (2.4944ms)
+✔ manifest fetch retries 429 with backoff (2.8065ms)
+✔ legacy verdicts remain unchanged without a manifest locator (2.4123ms)
+✔ missing ancestry fails closed instead of using transfer height (2.1402ms)
+✔ compiler genesis-state parent is resolved (2.4363ms)
+✔ missing mint and locator are unverified errors (3.7265ms)
+✔ invalid manifest weight and duplicate payload are rejected (2.9443ms)
+✔ inline draw matches library over 25 seeded catalogs (75.4473ms)
+✔ ord envelope mint is accepted and pack validated (2.7872ms)
+✔ ambiguous mixed mint formats and malformed ord envelopes fail closed (8.3391ms)
+✔ spent opened box is non-payable even with valid pack and mint (2.645ms)
+✔ unresolved spent opened box stays non-payable (1.5713ms)
+✔ sealed box verifies supplied manifest weld (2.2115ms)
+✔ sealed box rejects mismatched manifest weld (2.3931ms)
+✔ spent opened verdict cannot be replaced by invalid mint (2.6887ms)
+✔ sealed missing manifest fails closed (1.3283ms)
+✔ truncated ord push and missing ENDIF fail closed (4.5636ms)
+✔ inline retry cap throws DrawExhausted after nonce 10000 (92.1609ms)
+✔ draw block must link to the opening block (2.4569ms)
+✔ inertia responds within one frame, clamps both axes, ignores duplicate drops and always delivers nearest wrapping (5.2492ms)
+✔ timeout is clock based, exactly once; reduced motion preserves thirty seconds (2.3906ms)
+PASS hardening odds guard, disclosure integrity, unsafe budget
+PASS encoding, actual retry cap and boundary, table scope, cache safety, bounded sampling
+✔ test\hardening.test.js (622.1346ms)
+PASS vault3: golden byte parity, canonicalization, validation, retry replay, mint verification, pending/D=0 and slot scopes
+✔ test\vault3.test.js (7590.2661ms)
+ℹ tests 30
+ℹ suites 0
+ℹ pass 30
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 7629.0692

@@ -1,0 +1,37 @@
+
+> vault@0.1.0 test:native
+> mocha --no-config tests/native-custody.test.js
+
+
+
+  BOX-NATIVE-1 actual Script VM
+    ✔ implements the native wrapper experiment
+    ✔ full lifecycle with anchored replay (232ms)
+    ✔ sealed remove bypass rejected by VM
+    ✔ sealed withdraw bypass rejected by VM
+    ✔ sealed pack bypass rejected by VM
+    ✔ old owner cannot open after transfer
+    ✔ wrong signature cannot transfer
+    ✔ open is irreversible
+    ✔ withdrawn wrapper cannot repack (44ms)
+    ✔ asset substitution rejected with fresh signature/preimage
+    ✔ inventory removal rejected with fresh signature/preimage
+    ✔ duplicate asset rejected with fresh signature/preimage
+    ✔ fee diversion rejected with fresh signature/preimage
+    ✔ change diversion rejected with fresh signature/preimage
+    ✔ counterfeit box replacement rejected with fresh signature/preimage
+    ✔ sibling input injection rejected with fresh signature/preimage
+    ✔ counterfeit standalone genesis rejected by anchored validation
+    ✔ omitted ancestor rejected by history validator
+    ✔ forged sibling proof rejected by VM
+    ✔ decoder rejects unrelated scripts
+    ✔ local zero-fee prototype preserves principal at minimum balance (53ms)
+    ✔ old owner cannot transfer or withdraw after transfer (45ms)
+    ✔ same label on a different genesis is not the same asset
+    ✔ serialized transactions replay through VM without builder result metadata (144ms)
+    ✔ competing remove and seal cannot both enter local ledger (176ms)
+    ✔ one-satoshi principal remains spendable
+    ✔ local UTXO ledger rejects replay/double spend (89ms)
+
+
+  27 passing (1s)
