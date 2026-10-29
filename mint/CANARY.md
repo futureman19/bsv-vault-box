@@ -64,22 +64,50 @@ wallet and maximum loss. These fees are proposed budgets, NOT miner quotes.
 Stop if admission needs >10000 sats per transition. Public sales, VPS/treasury,
 remote listeners and third-party buyers remain out of scope.
 
-Prerequisite funded-phase delivery: a reviewed HTTP-read/mainnet-broadcast
-adapter, real inventory provisioning and a concrete runner with an independent
-owner authorization gate. **There is deliberately no funded run command in
-phase 3b.** `node mint/scripts/mainnet-indexer-readonly.js` is the current mainnet
-run command; it cannot mint or sell. Do not remove the broadcast guard ad hoc.
+The named operator entrypoint is `mint/scripts/canary-preflight.js`. It checks
+custody, constructs the mainnet canary policy, derives the first payment address,
+reads all three funding addresses using the real HttpTransport, checks exact
+confirmed/unspent funding output shapes against serialized transactions and a
+stable tip, and emits a dry-run composition report. It has no broadcast adapter,
+listener, signing call or RPC client. Its network wrapper allows only specific
+WoC GET routes with redirects disabled. No flag can arm it.
+
+This is the approved **preflight-entrypoint path**, not a funded execution engine.
+A funded release still needs inventory provisioning and a reviewed broadcast
+adapter under a separate owner gate. Preflight does not build/sign transactions,
+create a buyer reservation, or prove miner admission. Do not remove the guard.
 
 ### 2. Generate isolated keys only after that approval
 
-On a local Linux/WSL POSIX filesystem, create a new owner-only 0700 directory
-outside the repository. Use an audited wallet/key generator to generate separate
-compressed mainnet inventory and sponsor keys, writing each directly to an owned
-0600 file. Do not print WIF, paste it into chat, or put it in a command argument.
-Generate/back up the payment HD wallet in the owner's wallet; export only its
-mainnet xpub to the service. The payment private key/seed and buyer key NEVER
-enter the service. Confirm network/address and offline backup recovery before
-funding. Never use any scalar/seed in the tests or regtest harness with real funds.
+**Future owner-only commands; do not execute key generation in phase 3b.**
+Use Node >=22 and this repository's lockfile-pinned `bsv` dependency (via
+`vault/src/ordinal-pair`), not an unspecified web key generator. On Linux/WSL,
+with the repo path substituted, generate service keys directly to exclusive files:
+
+```sh
+export BOXSV_REPO=/absolute/path/to/bsv-vault-box
+umask 077
+mkdir -m 700 "$HOME/boxsv-canary-service"
+node -e 'const fs=require("node:fs"),p=require("node:path"),{bsv}=require(process.env.BOXSV_REPO+"/vault/src/ordinal-pair"); for(const name of ["inventory","sponsor"]){const k=new bsv.PrivateKey(bsv.Networks.livenet); fs.writeFileSync(p.join(process.env.HOME,"boxsv-canary-service",name+".wif"),k.toWIF()+"\n",{flag:"wx",mode:0o600});}'
+```
+
+Never rerun into an existing directory or overwrite keys. On a **separate offline
+owner wallet machine** with the same pinned dependency, generate the isolated
+payment HD wallet; only the public xpub may be copied to the service machine:
+
+```sh
+umask 077
+mkdir -m 700 "$HOME/boxsv-canary-owner"
+node -e 'const fs=require("node:fs"),p=require("node:path"),{bsv}=require(process.env.BOXSV_REPO+"/vault/src/ordinal-pair"); const hd=bsv.HDPrivateKey.fromSeed(require("node:crypto").randomBytes(32),bsv.Networks.livenet),d=p.join(process.env.HOME,"boxsv-canary-owner"); fs.writeFileSync(p.join(d,"payment.xprv"),hd.toString()+"\n",{flag:"wx",mode:0o600}); fs.writeFileSync(p.join(d,"payment.xpub"),hd.hdPublicKey.toString()+"\n",{flag:"wx",mode:0o600});'
+```
+
+Back up private files offline and verify recovery/public-address derivation before
+funding. This HD wallet is not automatically imported into the buyer's wallet;
+the owner must retain a reviewed recovery/spend path before funding it. The buyer
+uses the owner's existing BSV wallet, exporting only the compressed buyer public
+key. Neither buyer private key nor payment xprv enters the service. Never use
+fixture scalars/seeds for funds. These commands have not been executed with random
+keys in phase 3b; custody/derivation/preflight are tested with public fixture keys.
 
 ### 3. Exact funding plan (owner wallet pays all miner fees separately)
 
@@ -102,10 +130,52 @@ funding the sale. The 10000-sat purchase receipt must not be swept to pay them.
 These 270000 service-funding sats are not the pool cap: 120000 are inventory,
 150000 sponsor; pool hold cap is independently 250000.
 
-### 4. Run locally after funded-phase release
+### 4. Run the operator preflight (no broadcast, no listener)
 
-Bind only 127.0.0.1:8090 (or ::1), no tunnels or VPS. Use one process/one journal
-and explicitly serial scheduler ticks:
+After future key-custody approval, create `~/boxsv-canary-service/preflight.json`
+using this exact schema. Replace placeholders with absolute POSIX paths and public
+values; `$HOME` is not expanded inside JSON. No WIF/xprv belongs in this file:
+
+```json
+{
+  "inventoryKeyPath": "/home/OPERATOR/boxsv-canary-service/inventory.wif",
+  "sponsorKeyPath": "/home/OPERATOR/boxsv-canary-service/sponsor.wif",
+  "paymentXpub": "REPLACE_WITH_OWNER_PAYMENT_XPUB",
+  "buyerPubkey": "REPLACE_WITH_OWNER_COMPRESSED_PUBLIC_KEY"
+}
+```
+
+From the repo root on Linux/WSL (not a Windows-mounted directory for secret files):
+
+```sh
+node mint/scripts/canary-preflight.js --help
+node mint/scripts/canary-preflight.js "$HOME/boxsv-canary-service/preflight.json" "$HOME/boxsv-canary-service/preflight-before-funding.json"
+```
+
+Exit 0 means **read-only checks passed**, NOT permission to fund. Inspect the
+report's three addresses offline against backed-up keys/xpub; payment derivation
+is exactly `xpub/0`, matching SaleStore's first allocation in a fresh journal.
+Unfunded addresses are explicitly `UNFUNDED`. Once the separate funded phase is
+approved, use the exact output plan above (inventory now strictly two 60000-sat
+outputs). Repeat with a **new** report filename after funding confirmations:
+
+```sh
+node mint/scripts/canary-preflight.js "$HOME/boxsv-canary-service/preflight.json" "$HOME/boxsv-canary-service/preflight-after-funding.json"
+```
+
+Nonempty addresses must match the exact planned output count and amounts; partial,
+unconfirmed, spent-during-read, duplicate, extra or inconsistent receipts fail
+closed. A 429/5xx, changing tip or timeout also fails; wait at least 15 seconds,
+reconcile, then rerun to a new report. No automatic broadcast/retry/refund exists.
+Payment should remain UNFUNDED until a later release actually creates the durable
+buyer reservation. **Do not pay based on this preflight's address alone.**
+The report's prepared amounts/change are verified budget arithmetic, not signed
+transactions. No journal or server is started and no inventory ancestry is proved
+by this funding-only preflight. The full regtest command in §Commands exercises
+actual inventory creation, reservation and signing without touching mainnet.
+
+After the separately reviewed funded release, bind only 127.0.0.1:8090 (or ::1),
+no tunnels or VPS. Use one process/one journal and explicitly serial scheduler ticks:
 
 1. Validate sealed inventory ancestry, phase, owner and both 1-sat outputs.
 2. List one inventory item; reserve using owner's buyer public key BEFORE payment.

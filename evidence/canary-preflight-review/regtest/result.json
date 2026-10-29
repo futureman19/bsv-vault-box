@@ -1,0 +1,116 @@
+{
+  "status": "PASS",
+  "origin": "cba0434bda8c869bef408613a48541d3b2ac543dcc43d0f72ea48b48c31e1d21_0",
+  "outcomes": [
+    {
+      "name": "root",
+      "txid": "5fe5a05406fa445c11358eeb9fae558d562e83fcc6963fe5c5adfe88475e3090",
+      "confirmations": 1,
+      "block": "16fe1a7c268b4ebd8130334d8e7977cc393cd0628e710921fc55abe31468639c",
+      "bytes": 497
+    },
+    {
+      "name": "inscription",
+      "txid": "cba0434bda8c869bef408613a48541d3b2ac543dcc43d0f72ea48b48c31e1d21",
+      "confirmations": 1,
+      "block": "4d57aa2b48f95c639b09c6abea2c73ed21c50517dd2a0a9788d69ca035e60310",
+      "bytes": 257
+    },
+    {
+      "name": "empty-box",
+      "txid": "5d61d984f29ea1f321d88a6f78783564718db084381799d7e53c8c2ef1539361",
+      "confirmations": 1,
+      "block": "02fbd16e3937dc0908e2b96c96d2e3d48c1150a9304a88e0b3e0ae59232ba8ba",
+      "bytes": 3748
+    },
+    {
+      "name": "deposit",
+      "txid": "99f86d6d1c18d5f891bb88c10bc9ba5168f9fc504c069807c81f6a003013f07d",
+      "confirmations": 1,
+      "block": "6dca6189220ec90f6df97ad38376e54579415842180a4d63132a7552cfe05652",
+      "bytes": 11727
+    },
+    {
+      "name": "seal",
+      "txid": "0e74fe2fe267451e16e4d296d2ec45341ff8d35f947e860640bbe9f47ea6e255",
+      "confirmations": 1,
+      "block": "5289d2acfe0d73ae66d4f3fcac0aa85764460d05ff0305813b21e5cfc80b3889",
+      "bytes": 15853
+    },
+    {
+      "name": "buyer-payment",
+      "txid": "30bbef1057b6ddc4450f2ae31514d88be04166a47df685666dc9bd80b36908a2",
+      "confirmations": 1,
+      "block": "3e161240c6a4fc553089d32ed4fa35960757bc5a915fdb49bec8e3c887f8509d",
+      "bytes": 225
+    },
+    {
+      "name": "transfer",
+      "txid": "d85e3f984a81caa2532a09b536b2959f4a16068d88ba3e3ad59fa027f04dc272",
+      "confirmations": 1,
+      "block": "1a4c601f1a43fd58627c87086b9a504fb00db26780998b1bf3e725d93963d018",
+      "bytes": 15854
+    },
+    {
+      "name": "buyer-open",
+      "txid": "25406d59bfcea236a66b28ebf833bf07ce9cf80366e0937ed99f5ef17d4d7836",
+      "confirmations": 1,
+      "block": "549b1ad667370a0214103b2de6edb17e5771204ba84f07458eda09a43d4fb706",
+      "bytes": 15856
+    },
+    {
+      "name": "buyer-withdraw",
+      "txid": "308d87e060fa716abc7451c2b027fb336efdb0279da7f15d82b72388514728eb",
+      "confirmations": 1,
+      "block": "7a0d31d6a3f105ac5b695a4f2b2875322df6e1891c188638cb633854ef253695",
+      "bytes": 8808
+    }
+  ],
+  "oldOwnerRejected": {
+    "code": -26,
+    "message": "RPC sendrawtransaction failed (-26)"
+  },
+  "finalUTXOs": [
+    {
+      "bestblock": "7a0d31d6a3f105ac5b695a4f2b2875322df6e1891c188638cb633854ef253695",
+      "confirmations": 1,
+      "value": 1e-8,
+      "scriptPubKey": {
+        "asm": "OP_DUP OP_HASH160 06afd46bcdfd22ef94ac122aa11f241244a37ecc OP_EQUALVERIFY OP_CHECKSIG",
+        "hex": "76a91406afd46bcdfd22ef94ac122aa11f241244a37ecc88ac",
+        "reqSigs": 1,
+        "type": "pubkeyhash",
+        "addresses": [
+          "mg8Jz5776UdyiYcBb9Z873NTozEiADRW5H"
+        ]
+      },
+      "coinbase": false,
+      "confiscation": false
+    },
+    {
+      "bestblock": "7a0d31d6a3f105ac5b695a4f2b2875322df6e1891c188638cb633854ef253695",
+      "confirmations": 1,
+      "value": 1e-8,
+      "scriptPubKey": {
+        "asm": "OP_DUP OP_HASH160 06afd46bcdfd22ef94ac122aa11f241244a37ecc OP_EQUALVERIFY OP_CHECKSIG",
+        "hex": "76a91406afd46bcdfd22ef94ac122aa11f241244a37ecc88ac",
+        "reqSigs": 1,
+        "type": "pubkeyhash",
+        "addresses": [
+          "mg8Jz5776UdyiYcBb9Z873NTozEiADRW5H"
+        ]
+      },
+      "coinbase": false,
+      "confiscation": false
+    }
+  ],
+  "pool": {
+    "inputSats": 600000,
+    "prepFeeSats": 3000,
+    "preparedSats": 597000,
+    "dispensedSats": 597000,
+    "heldSats": 0
+  },
+  "saleState": "OPENED",
+  "boundary": "Official guarded v1.2.3 isolated regtest only; public fixture keys; no miner-policy or production-readiness claim."
+}

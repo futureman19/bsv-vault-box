@@ -1,0 +1,105 @@
+{
+  "status": "READ_ONLY_PREFLIGHT_PASS",
+  "broadcastAuthorized": false,
+  "policy": {
+    "chain": "mainnet",
+    "canary": true,
+    "network": "livenet",
+    "rpcChain": "main"
+  },
+  "funding": {
+    "inventory": {
+      "address": "1NDTiygBwjhUwsK9n9qJqrKitDURg4csxP",
+      "expectedSatoshis": [
+        60000,
+        60000
+      ],
+      "status": "UNFUNDED",
+      "outpoints": []
+    },
+    "sponsor": {
+      "address": "1GL37AoxoUj45fPNYf8Dq5CTncyRYLqo7",
+      "expectedSatoshis": [
+        50000,
+        50000,
+        50000
+      ],
+      "status": "UNFUNDED",
+      "outpoints": []
+    },
+    "payment": {
+      "address": "1MwXYLsjn5Xi9BGtr5SF5TPoxGYRoGN9Q8",
+      "expectedSatoshis": [
+        10000
+      ],
+      "status": "UNFUNDED",
+      "outpoints": []
+    }
+  },
+  "requests": [
+    {
+      "method": "GET",
+      "url": "https://api.whatsonchain.com/v1/bsv/main/chain/info",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://api.whatsonchain.com/v1/bsv/main/address/1NDTiygBwjhUwsK9n9qJqrKitDURg4csxP/unspent",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://api.whatsonchain.com/v1/bsv/main/address/1NDTiygBwjhUwsK9n9qJqrKitDURg4csxP/unspent",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://api.whatsonchain.com/v1/bsv/main/address/1GL37AoxoUj45fPNYf8Dq5CTncyRYLqo7/unspent",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://api.whatsonchain.com/v1/bsv/main/address/1GL37AoxoUj45fPNYf8Dq5CTncyRYLqo7/unspent",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://api.whatsonchain.com/v1/bsv/main/address/1MwXYLsjn5Xi9BGtr5SF5TPoxGYRoGN9Q8/unspent",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://api.whatsonchain.com/v1/bsv/main/address/1MwXYLsjn5Xi9BGtr5SF5TPoxGYRoGN9Q8/unspent",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://api.whatsonchain.com/v1/bsv/main/chain/info",
+      "status": 200
+    }
+  ],
+  "composition": {
+    "listen": "127.0.0.1:8090 (future service; not started)",
+    "paymentDerivation": "xpub/0; fresh single-box journal only",
+    "buyerPubkey": "021880c9ad32fbb07e1fb52a688d9d6fe6db0df90ecd4c9483203f636ee00926dc",
+    "priceSats": 10000,
+    "prepFeeSats": 500,
+    "preparedSats": [
+      49500,
+      49500,
+      49500
+    ],
+    "transitionFeeSats": 1000,
+    "sponsorChangeSats": [
+      48500,
+      48500,
+      48500
+    ]
+  },
+  "limitations": [
+    "Budget composition only: no inventory minted, reservation created, transaction built or signed.",
+    "Payment must only be made after a durable buyer reservation in the later funded release; this command does not reserve.",
+    "No mainnet writes; broadcast remains hard locked. PASS is not funding authorization or miner acceptance.",
+    "Indexer evidence is not SPV. Revalidate before any later spend; no automatic retries or refunds."
+  ]
+}
