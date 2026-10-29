@@ -2,6 +2,7 @@
 const fs = require("node:fs"),
   path = require("node:path");
 const { bsv } = require("../vault/src/ordinal-pair");
+const Canary = require("./canary");
 const copy = (x) => JSON.parse(JSON.stringify(x));
 function positive(n) {
   if (!Number.isSafeInteger(n) || n < 1)
@@ -19,11 +20,12 @@ function publicKey(pub) {
 }
 // Crash locks require manual reconciliation; allocations are never recycled.
 class SaleStore {
-  constructor({ file, xpub }) {
+  constructor({ file, xpub, chain, canary } = {}) {
+    Canary.bind(this, { chain, canary });
     if (!path.isAbsolute(file)) throw Error("Absolute journal path required");
     this.hd = new bsv.HDPublicKey(xpub);
-    if (this.hd.network.name !== "testnet")
-      throw Error("Testnet xpub required");
+    if (this.hd.network.name !== this.policy.network)
+      throw Error(this.policy.chain + " xpub required");
     this.file = file;
     this.xpub = xpub;
     this.boxes = new Map();
@@ -37,7 +39,9 @@ class SaleStore {
         const e = JSON.parse(line);
         if (e.xpub !== xpub || !e.box || typeof e.box.id !== "string")
           throw Error("Invalid journal");
+        Canary.box(this.policy, e.box);
         this.boxes.set(e.box.id, e.box);
+        Canary.inventory(this.policy, [...this.boxes.values()]);
       }
     } catch (e) {
       this.close();
@@ -46,9 +50,16 @@ class SaleStore {
   }
   assertOpen() {
     if (this.closed) throw Error("Sale store closed");
+    Canary.inventory(this.policy, [...this.boxes.values()]);
   }
   append(box) {
     this.assertOpen();
+    Canary.box(this.policy, box);
+    Canary.cap(
+      this.policy,
+      "inventory",
+      this.boxes.size + (this.boxes.has(box.id) ? 0 : 1)
+    );
     const buf = Buffer.from(JSON.stringify({ xpub: this.xpub, box }) + "\n");
     try {
       let n = 0;
@@ -78,6 +89,8 @@ class SaleStore {
   list({ priceSats, inventoryId }) {
     this.assertOpen();
     positive(priceSats);
+    Canary.price(this.policy, priceSats);
+    Canary.cap(this.policy, "inventory", this.boxes.size + 1);
     if (
       typeof inventoryId !== "string" ||
       !inventoryId.length ||
@@ -90,7 +103,7 @@ class SaleStore {
     if (index >= 0x80000000) throw Error("HD index exhausted");
     const payAddress = this.hd
       .deriveChild(index)
-      .publicKey.toAddress(bsv.Networks.testnet)
+      .publicKey.toAddress(bsv.Networks[this.policy.network])
       .toString();
     return this.append({
       id: "box-" + (index + 1),
@@ -135,6 +148,15 @@ class SaleStore {
       throw Error("Invalid payment");
     this.expire(now);
     const b = this.get(id);
+    if (Canary.overpaid(this.policy, p.satoshis, b.priceSats))
+      return this.append({
+        ...b,
+        state: ["TRANSFERRED", "OPENED"].includes(b.state)
+          ? b.state
+          : "EXPIRED",
+        refundRequired: true,
+        payment: p,
+      });
     if (b.state === "EXPIRED" || !b.buyerPubkey) {
       if (p.satoshis > 0)
         return this.append({ ...b, refundRequired: true, payment: p });

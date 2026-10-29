@@ -3,7 +3,9 @@ const fs = require("node:fs"),
   path = require("node:path");
 const { bsv } = require("../vault/src/ordinal-pair");
 // Key material only from an owned POSIX file, never argv/env.
-function loadKey(file) {
+const Canary = require("./canary");
+function loadKey(file, options = {}) {
+  const policy = Canary.policy(options);
   if (process.platform === "win32")
     throw Error("POSIX 0600 key custody required; use Linux/WSL");
   if (typeof file !== "string" || !path.isAbsolute(file))
@@ -27,9 +29,13 @@ function loadKey(file) {
     } catch {
       throw Error("Invalid key file");
     }
-    if (decoded[0] !== 0xef) throw Error("Only testnet-prefix keys accepted");
+    if (decoded[0] !== (policy.canary ? 0x80 : 0xef))
+      throw Error(
+        policy.chain +
+          " key network required (testnet prefix for regtest/testnet)"
+      );
     if (decoded.length !== 34 || decoded[33] !== 1)
-      throw Error("Compressed testnet key required");
+      throw Error("Compressed key required");
     try {
       return bsv.PrivateKey.fromWIF(text);
     } catch {
