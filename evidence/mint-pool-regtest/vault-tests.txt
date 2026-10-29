@@ -1,0 +1,101 @@
+
+
+  BOX-NATIVE-1 actual Script VM
+    ✔ implements the native wrapper experiment
+    ✔ full lifecycle with anchored replay (128ms)
+    ✔ sealed remove bypass rejected by VM
+    ✔ sealed withdraw bypass rejected by VM
+    ✔ sealed pack bypass rejected by VM
+    ✔ old owner cannot open after transfer
+    ✔ wrong signature cannot transfer
+    ✔ open is irreversible
+    ✔ withdrawn wrapper cannot repack
+    ✔ asset substitution rejected with fresh signature/preimage
+    ✔ inventory removal rejected with fresh signature/preimage
+    ✔ duplicate asset rejected with fresh signature/preimage
+    ✔ fee diversion rejected with fresh signature/preimage
+    ✔ change diversion rejected with fresh signature/preimage
+    ✔ counterfeit box replacement rejected with fresh signature/preimage
+    ✔ sibling input injection rejected with fresh signature/preimage
+    ✔ counterfeit standalone genesis rejected by anchored validation
+    ✔ omitted ancestor rejected by history validator
+    ✔ forged sibling proof rejected by VM
+    ✔ decoder rejects unrelated scripts
+    ✔ local zero-fee prototype preserves principal at minimum balance
+    ✔ old owner cannot transfer or withdraw after transfer
+    ✔ same label on a different genesis is not the same asset
+    ✔ serialized transactions replay through VM without builder result metadata (95ms)
+    ✔ competing remove and seal cannot both enter local ledger (134ms)
+    ✔ one-satoshi principal remains spendable
+    ✔ local UTXO ledger rejects replay/double spend (48ms)
+
+  external one-ordinal paired custody (serialized Script VM)
+    ✔ deposits independently existing inscription and executes full lifecycle (162ms)
+    ✔ foreign asset substitution fails in the deposit BOX Script itself
+    ✔ sealed withdrawal is forbidden even with owner signature
+    ✔ seller cannot open transferred custody
+    ✔ seller cannot withdraw opened custody
+    ✔ wrong raw parent proof fails freshly signed VM
+    ✔ tampered raw parent bytes fail
+    ✔ wrong sibling outpoint fails VM
+    ✔ missing asset input fails
+    ✔ duplicated asset input fails
+    ✔ asset output omission fails
+    ✔ asset output substitution fails
+    ✔ asset output duplication fails
+    ✔ control output counterfeit code fails
+    ✔ one-sat principal cannot be diverted as fee
+    ✔ extra change destination fails
+    ✔ unsupported external fee input fails
+    ✔ withdrawal to seller fails with fresh buyer signature
+    ✔ copy of same-label box cannot replace original control sibling
+    ✔ a counterfeit same-label history is rejected at client origin boundary (52ms)
+    ✔ wrong initial origin rejected by history admission
+    ✔ wrong actual previous locking code cannot be overridden by witness
+    ✔ conflicting spends are rejected by ledger, not claimed as Script feature (163ms)
+    ✔ ordinal first-satoshi mapping stays unchanged at every step
+    ✔ actual primary-spec example transaction parses to the published txid
+
+  bounded sponsored external custody (serialized Script VM)
+    ✔ funds the full lifecycle without spending either principal sat (486ms)
+    ✔ keeps repeated transfer serialized witnesses bounded (1329ms)
+    ✔ uses a genuinely signed bounded P2PKH funding parent (125ms)
+    ✔ accepts exact positive fee boundaries and no-change funding (251ms)
+    ✔ rejects zero fee even with both signatures (48ms)
+    ✔ rejects fee above the 10000-sat cap even with both signatures (55ms)
+    ✔ rejects negative fee (75ms)
+    ✔ rejects change destination diversion with fresh owner and sponsor signatures (99ms)
+    ✔ rejects excess change with fresh signatures (67ms)
+    ✔ rejects missing change with fresh signatures (71ms)
+    ✔ rejects extra change outputs with fresh signatures (70ms)
+    ✔ rejects ordinal principal diversion (70ms)
+    ✔ rejects control principal diversion (81ms)
+    ✔ rejects fourth input (51ms)
+    ✔ rejects sponsor input relocation ahead of the ordinal
+    ✔ rejects wrong actual sponsor outpoint in covenant VM (97ms)
+    ✔ rejects wrong sponsor output index in covenant VM (88ms)
+    ✔ rejects tampered fundingValue witness in covenant VM (120ms)
+    ✔ rejects tampered change witness in covenant VM (124ms)
+    ✔ rejects tampered fundingLocktime witness in covenant VM (119ms)
+    ✔ rejects tampered parent witness in covenant VM (104ms)
+    ✔ rejects tampered sponsor witness in covenant VM (126ms)
+    ✔ rejects tampered sponsorSig witness in covenant VM (99ms)
+    ✔ rejects oversized parent digest (127ms)
+    ✔ rejects prefix input-count ambiguity (135ms)
+    ✔ rejects prefix output-count ambiguity (142ms)
+    ✔ rejects noncanonical/long scriptSig boundary (124ms)
+    ✔ rejects sig sighash 42 even if cryptographically signed (105ms)
+    ✔ rejects sig sighash c1 even if cryptographically signed (109ms)
+    ✔ rejects sponsorSig sighash 42 even if cryptographically signed (126ms)
+    ✔ rejects sponsorSig sighash c1 even if cryptographically signed (110ms)
+    ✔ requires the actual funding P2PKH authorization too (195ms)
+    ✔ rejects substituted sponsor locking script despite an asserted key (180ms)
+    ✔ rejects an actual two-output funding parent (178ms)
+    ✔ accepts canonical maximum 108-byte funding scriptSig and rejects 109 (384ms)
+    ✔ sponsorship does not let the former owner open or withdraw (117ms)
+    ✔ sponsorship cannot bypass sealed withdrawal or counterfeit companion code (134ms)
+    ✔ counterfeit copied-label spend is locally valid but not anchored NFT history (93ms)
+
+
+  90 passing (8s)
+
