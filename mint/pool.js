@@ -83,9 +83,10 @@ class SponsorPool {
     capSats,
     chain,
     canary,
+    authorization,
     prepFee = 500,
   }) {
-    Canary.bind(this, { chain, canary });
+    Canary.bind(this, { chain, canary, authorization });
     if (capSats === undefined)
       capSats = this.policy.canary ? Canary.CAPS.pool : 1000000;
     Canary.cap(this.policy, "pool", capSats);

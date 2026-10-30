@@ -8,17 +8,57 @@ const CAPS = Object.freeze({
   paymentMultiple: 2,
   inventory: 2,
 });
-function policy({ chain = "regtest", canary = false } = {}) {
+// Capabilities are process-local, unforgeable by JSON/config/env, and never serialized.
+const grants = new WeakMap();
+const armed = new WeakSet();
+async function authorizeRunner({
+  chain,
+  ownerAuthorized,
+  rehearsal = false,
+  binding = "",
+} = {}) {
+  if (ownerAuthorized !== true) throw Error("Owner authorization required");
+  if (!["mainnet", "regtest"].includes(chain))
+    throw Error("Unsupported funded chain");
+  if (chain === "regtest" && rehearsal === true) {
+    const token = Object.freeze({});
+    grants.set(token, chain);
+    return token;
+  }
+  if (!process.stdin.isTTY || !process.stdout.isTTY)
+    throw Error("Owner authorization requires an interactive terminal");
+  const nonce = require("node:crypto").randomBytes(16).toString("hex");
+  const phrase = `AUTHORIZE ${chain} ${nonce}`;
+  const rl = require("node:readline/promises").createInterface({
+    input: process.stdin,
+    output: process.stdout,
+  });
+  try {
+    const answer = await rl.question(
+      `One bounded BoxSV run. No automatic recovery. Binding: ${binding}\nType exactly: ${phrase}\n> `,
+      { signal: AbortSignal.timeout(120000) }
+    );
+    if (answer !== phrase) throw Error("Owner authorization refused");
+    const token = Object.freeze({});
+    grants.set(token, chain);
+    return token;
+  } finally {
+    rl.close();
+  }
+}
+function policy({ chain = "regtest", canary = false, authorization } = {}) {
   if (!["regtest", "testnet", "mainnet"].includes(chain))
     throw Error("Invalid chain policy");
   if (chain === "mainnet" && canary !== true)
     throw Error("Mainnet requires canary: true");
-  return Object.freeze({
+  const p = Object.freeze({
     chain,
     canary: chain === "mainnet",
     network: chain === "mainnet" ? "livenet" : "testnet",
     rpcChain: { regtest: "regtest", testnet: "test", mainnet: "main" }[chain],
   });
+  if (authorization && grants.get(authorization) === chain) armed.add(p);
+  return p;
 }
 function bind(target, options) {
   const p = policy(options);
@@ -63,15 +103,16 @@ function match(p, component) {
 function chain(p, actual) {
   if (actual !== p.rpcChain) throw Error(p.chain + " only: chain mismatch");
 }
-// This phase is READ ONLY on mainnet. No config flag can arm broadcasting.
+// Only a branded capability issued by the deliberate runner gate arms mainnet.
 function broadcast(p) {
-  if (p.canary)
+  if (p.canary && !armed.has(p))
     throw Error(
       "Mainnet broadcasts disabled in phase 3b; owner-gated funded phase required"
     );
 }
 module.exports = Object.freeze({
   CAPS,
+  authorizeRunner,
   policy,
   bind,
   cap,
