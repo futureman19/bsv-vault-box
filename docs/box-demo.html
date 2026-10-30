@@ -1,0 +1,126 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Box Demo — BoxSV</title><style>
+:root{color-scheme:dark;--bg:#0b0e14;--panel:#121722;--line:#2c384b;--ink:#e4eaf1;--dim:#a6b2c2;--gold:#fbbf24}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,sans-serif}header,main,footer{max-width:1080px;margin:auto;padding:24px}header{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line)}.brand{font:800 23px monospace;letter-spacing:3px}.brand span{color:var(--gold)}.label,.eyebrow{font:12px/1.6 monospace;letter-spacing:1.5px;text-transform:uppercase}.label{color:var(--gold);border:1px solid #66551f;padding:5px 10px;border-radius:5px}.notice{color:var(--dim);font-size:14px;margin:0 0 30px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:54px;align-items:center}.stage{background:var(--panel);border:1px solid var(--line);border-radius:24px;padding:24px;position:relative}.stage svg{width:100%;height:auto;display:block}.tag{display:flex;justify-content:space-between;color:var(--dim);font:12px monospace}.eyebrow{color:var(--gold)}h1{font-size:clamp(34px,5vw,54px);line-height:1.08;letter-spacing:-2px;margin:12px 0 20px}p{margin:12px 0}.sub{color:var(--dim);font-size:18px}.state{display:inline-block;background:#263321;color:#bde3a5;border:1px solid #4b603d;border-radius:30px;padding:5px 14px;font-size:13px}.facts{margin:24px 0}.facts div{display:flex;justify-content:space-between;padding:10px 0;border-bottom:1px solid var(--line);gap:15px}.facts dt{color:var(--dim)}.facts dd{margin:0;text-align:right}button,select{font:inherit;min-height:46px;border:1px solid #526078;border-radius:9px;background:transparent;color:var(--ink);padding:10px 15px;cursor:pointer}button.primary{background:var(--gold);border-color:var(--gold);color:#17130a;font-weight:700}button:disabled{opacity:.45;cursor:not-allowed}button:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid #fff;outline-offset:4px}.actions{display:flex;gap:10px;flex-wrap:wrap}.section{margin-top:48px;border-top:1px solid var(--line);padding-top:24px}.section h2{font-size:23px;letter-spacing:-.5px;margin:0 0 18px}.item{display:flex;align-items:center;gap:18px;padding:20px;background:var(--panel);border:1px solid var(--line);border-radius:13px}.icon{font:26px monospace;color:var(--gold);padding:10px;background:#24283a;border-radius:8px}.muted{color:var(--dim);font-size:14px}.item p{margin:2px 0}.item .number{margin-left:auto;white-space:nowrap;flex-shrink:0}.columns{display:grid;grid-template-columns:1fr 1fr;gap:30px}.rule{border-left:2px solid var(--gold);padding-left:18px}details{border-bottom:1px solid var(--line);padding:15px 0}summary{cursor:pointer;min-height:30px}.demo{margin-top:32px;padding:18px;background:#181c25;border:1px dashed #566074;border-radius:12px;display:flex;gap:14px;align-items:center;flex-wrap:wrap}.demo label{font-size:14px}.demo select{background:#121722}.demo button{margin-left:auto}#message{min-height:28px;font-size:14px;color:var(--gold)}footer{color:var(--dim);font-size:13px}dialog{background:var(--panel);color:var(--ink);border:1px solid #65718a;border-radius:18px;padding:28px;max-width:460px;width:calc(100% - 32px)}dialog::backdrop{background:#000b}dialog h2{line-height:1.25}.hidden{display:none!important}@media(max-width:700px){header,main,footer{padding:20px}.grid{grid-template-columns:1fr;gap:28px}.stage{max-width:450px;width:100%;margin:auto}.stage svg{max-height:270px}.columns{grid-template-columns:1fr;gap:22px}.section{margin-top:30px}.demo button{margin-left:0}h1{margin-top:10px}.label{font-size:10px;letter-spacing:.5px}}
+
+.box-tap{display:block;width:100%;padding:0;border:0;background:transparent;border-radius:16px;cursor:pointer;-webkit-tap-highlight-color:transparent;touch-action:manipulation}
+.box-tap:focus-visible{outline:2px solid var(--gold);outline-offset:4px}
+.tap-hint{display:block;text-align:center;font:12px/1.6 monospace;color:var(--dim);margin:0 0 16px}
+#boxBody{transform-box:view-box;transform-origin:220px 240px}#boxShadow{transform-box:view-box;transform-origin:220px 300px}
+
+#lid{transform-box:view-box;transform-origin:220px 125px}#asset{transform-box:view-box;transform-origin:220px 135px}
+#sealLeft,#sealRight,#ribbon{transform-box:view-box;transform-origin:281px 195px}
+.stage[data-phase="opened"] #lid,.stage[data-phase="empty"] #lid{transform:translateY(-55px) rotate(-12deg) scaleY(.55)}
+.stage[data-phase="opened"] #seal,.stage[data-phase="empty"] #seal,.stage[data-phase="opened"] #ribbon,.stage[data-phase="empty"] #ribbon{opacity:0}
+.stage[data-phase="opened"] #asset,.stage[data-phase="opened"] #innerGlow{opacity:1}
+.stage[data-phase="opened"] #asset{transform:translateY(-12px)}
+.stage[data-phase="empty"] #asset,.stage[data-phase="empty"] #innerGlow{opacity:0}
+.motion-caption{min-height:24px;text-align:center;color:var(--gold);font:13px/1.6 monospace;margin:4px 0 10px}
+</style><header><a class="brand" href="./" style="color:inherit;text-decoration:none" aria-label="BoxSV home">BOX<span>SV</span></a><span class="label">Interactive prototype</span></header><main><p class="notice">Demonstration only · Fictional package · No keys, payments, or chain verification</p><div class="grid"><div class="stage"><div class="tag"><span id="boxIdentity">BOX / DEMO-001</span><span id="artState">SEAL INTACT</span></div><button type="button" class="box-tap" id="boxTap" aria-label="Animate Box. Decorative only; does not open it."><svg viewBox="0 0 440 350" role="img" aria-label="Animated vault Box; decorative demo illustration">
+<ellipse id="boxShadow" cx="220" cy="300" rx="151" ry="22" fill="#080b10"/>
+<g id="handoff" opacity="0" fill="none" stroke="#fbbf24" stroke-width="2"><path d="M95 310H340m-12-9 12 9-12 9"/><circle cx="95" cy="310" r="5"/></g>
+<g id="boxBody">
+<path d="M75 125 220 61 365 125 220 195Z" fill="#080c13" stroke="#64738a" stroke-width="2"/>
+<g id="lid"><path d="M75 125 220 61 365 125 220 195Z" fill="#344157" stroke="#64738a" stroke-width="2"/><path d="M75 125v16l145 70 145-70v-16l-145 70Z" fill="#43516a" stroke="#1b2432"/><path d="M133 100 159 89 305 158 280 170Z" fill="#fbbf24"/></g>
+<g id="innerGlow" opacity="0"><ellipse cx="220" cy="142" rx="80" ry="24" fill="#fbbf24" opacity=".13"/></g>
+<g id="asset" opacity="0"><rect x="185" y="90" width="70" height="88" rx="7" fill="#e4eaf1" stroke="#fbbf24" stroke-width="2"/><text id="assetSymbol" x="220" y="132" text-anchor="middle" fill="#354056" font-size="30">✦</text><path d="M199 149h42m-42 9h30" stroke="#788393" stroke-width="3"/></g>
+<path d="M75 125 220 195 220 306 75 229Z" fill="#1c2534" stroke="#4e5b70" stroke-width="2"/>
+<path d="M220 195 365 125 365 229 220 306Z" fill="#263145" stroke="#4e5b70" stroke-width="2"/>
+<path d="m96 186 48 24m-48-11 34 17" stroke="#7f8da1" stroke-width="3"/>
+<text x="237" y="257" fill="#a8b5c6" font-size="12" font-family="monospace" transform="rotate(-27 237 257)">BOXSV</text>
+<g id="ribbon"><path d="M280 170v105l25-13V158Z" fill="#a87c19"/></g>
+
+<g id="seal"><g id="sealLeft"><path d="m268 180 13-7v22l-5 7 5 5v12l-13 7Z" fill="#fbbf24" stroke="#ffe49c"/></g><g id="sealRight"><path d="m281 173 13-6v46l-13 6v-12l-5-5 5-7Z" fill="#fbbf24" stroke="#ffe49c"/><path d="m280 195 3 3 7-14" fill="none" stroke="#35280b" stroke-width="2"/></g></g>
+</g></svg></button><div id="motionCaption" class="motion-caption" role="status" aria-live="polite">Sealed package · demo</div><span class="tap-hint">Tap the Box · take a closer look</span><div class="tag"><span>CONCEPT ILLUSTRATION</span><span id="artCount">01 ITEM</span></div></div><div><span class="eyebrow">A package, not an account</span><h1>A little something.<br>Kept together.</h1><span class="state" id="state">Sealed · simulated</span><p class="sub" id="description">One collectible. Its own Box.<br>Pass it on without breaking the seal.</p><dl class="facts"><div><dt>Controlled by</dt><dd id="owner">Alice · demo identity</dd></div><div><dt>Current seal</dt><dd id="sealNumber">#1 · intact</dd></div><div><dt>Opening rule</dt><dd>Current owner only</dd></div><div><dt>Chain verification</dt><dd>Not connected</dd></div></dl><div class="actions"><button id="transfer" class="primary">Transfer Box</button><button id="open">Open Box</button><button id="withdraw" class="hidden primary">Withdraw item</button><button id="repack" class="hidden primary">Repack & reseal</button></div><p id="viewerNote" class="muted">Owner actions are simulated. No wallet is connected.</p><p id="message" role="status" aria-live="polite"></p></div></div><section class="section"><h2>Inside this Box</h2><div class="item"><span class="icon" aria-hidden="true">✦</span><div><strong id="itemName">A note for the next owner</strong><p class="muted" id="contents">Example text collectible · Fictional asset</p></div><span class="number" id="count">× 1</span></div></section><section class="section columns"><div class="rule"><h2>The seal’s promise</h2><p>Contents stay fixed while sealed. Ownership can change without unpacking.</p><p class="muted">The current owner can open it. Opening permanently ends this seal; withdrawal is a separate step.</p></div><div><h2>Inspect before you accept</h2><details><summary>Package history · demo</summary><p class="muted">One Box, successive seals. Each seal records its own contents; broken seals stay broken. This reusable lifecycle is a design demo, not implemented on-chain functionality.</p><ol id="history" class="muted"><li>Seal #1 · A note for the next owner · intact</li></ol></details><details><summary>Identity &amp; evidence</summary><p class="muted">DEMO-001 is a display identifier, not an on-chain Box. This prototype has no transaction history, confirmed owner, or verified assets.</p></details><details><summary>What the seal does not mean</summary><p class="muted">Not secret. Not a guarantee of value or permanent file storage. Not proof of payment or delivery.</p></details><details><summary>Independent of your wallet</summary><p class="muted">A Box is an on-chain package. A compatible wallet authorizes actions. This page only demonstrates that experience; it cannot sign or transfer anything.</p></details></div></section><aside class="demo" aria-label="Prototype controls"><label for="role">Preview as</label><select id="role"><option value="Alice">Alice · original owner</option><option value="Bob">Bob · recipient</option><option value="Visitor">Public visitor</option></select><button id="reset">Reset demo</button></aside></main><footer>BoxSV / Inspection concept v5 · A public link allows inspection, not ownership.</footer><dialog id="dialog" aria-labelledby="dialogTitle"><h2 id="dialogTitle"></h2><p id="dialogText"></p><div id="itemPicker" class="hidden"><label for="replacement">Choose a fictional item</label><select id="replacement" style="width:100%;margin:12px 0;background:#121722"><option value="note">A note for the next owner</option><option value="ticket">Golden admission ticket</option><option value="art">Blue constellation card</option></select></div><div class="actions"><button id="confirm" class="primary">Confirm simulation</button><button id="cancel">Cancel</button></div></dialog><script>
+const $=id=>document.getElementById(id),stage=document.querySelector('.stage');
+const items={note:{name:"A note for the next owner",color:"#e4eaf1",symbol:"✦"},ticket:{name:"Golden admission ticket",color:"#fbbf24",symbol:"★"},art:{name:"Blue constellation card",color:"#8ac8f5",symbol:"✧"}};let itemKey="note",generation=1;let owner='Alice',phase='sealed',pending=null,action=null,busy=false,epoch=0,animations=[];
+const dialog=$('dialog'),reduce=()=>matchMedia('(prefers-reduced-motion: reduce)').matches;
+function paintItem(key){$('asset').querySelector('rect').setAttribute('fill',items[key].color);$('assetSymbol').textContent=items[key].symbol;}
+function render(){
+ stage.dataset.phase=phase;
+ $('boxIdentity').textContent='BOX / DEMO-001';
+ $('sealNumber').textContent='#'+generation+(phase==='sealed'?' · intact':' · broken');
+ $('itemName').textContent=phase==='empty'?'No item inside':items[itemKey].name;
+ paintItem(itemKey);
+ $('artCount').textContent=phase==='empty'?'00 ITEMS':'01 ITEM';
+ const mine=$('role').value===owner;
+ $('owner').textContent=owner+' · demo identity';
+ $('state').textContent=(pending?'Transfer pending':phase==='sealed'?'Sealed':phase==='opened'?'Opened':'Emptied')+' · simulated';
+ $('artState').textContent=phase==='sealed'?'SEAL INTACT':'SEAL ENDED';
+ $('transfer').classList.toggle('hidden',!mine||phase!=='sealed'||!!pending);
+ $('open').classList.toggle('hidden',!mine||phase!=='sealed'||!!pending);
+ $('withdraw').classList.toggle('hidden',!mine||phase!=='opened'||!!pending);
+ $('repack').classList.toggle('hidden',!mine||phase!=='empty'||!!pending);
+ ['transfer','open','withdraw','repack','boxTap','role'].forEach(id=>$(id).disabled=busy);
+ $('viewerNote').textContent=pending?'Ownership has not changed. Complete the demo confirmation below.':mine?'Owner actions are simulated. No wallet is connected.':'Inspection only. This demo identity cannot act for the current owner.';
+ $('contents').textContent=phase==='empty'?'Withdrawn to '+owner+' · simulation only':'Example text collectible · Fictional asset';
+ $('count').textContent=phase==='empty'?'× 0':'× 1';
+ $('description').textContent=phase==='sealed'?'One collectible. Its own Box. Pass it on without breaking the seal.':phase==='opened'?'The seal has ended. The item stays in custody until its owner withdraws it.':'The item has left the Box. Its opened history remains.';
+}
+function cancelMotion(){epoch++;animations.forEach(a=>a.cancel());animations=[];busy=false;stage.removeAttribute('aria-busy');}
+function animate(id,frames,duration=650,delay=0){
+ const a=$(id).animate(frames,{duration:reduce()?150:duration,delay:reduce()?0:delay,easing:'cubic-bezier(.4,0,.2,1)',fill:'forwards'});
+ animations.push(a);return a.finished.catch(()=>{});
+}
+function frames(normal){return reduce()?[{opacity:.55},{opacity:1}]:normal;}
+async function transition(kind,done,selected=itemKey){
+ cancelMotion();const ticket=epoch;busy=true;stage.setAttribute('aria-busy','true');render();
+ if(kind==='submit'){
+  $('motionCaption').textContent='Preparing handoff · demo';
+  await Promise.all([animate('boxBody',frames([{transform:'translateY(0)'},{transform:'translateY(-9px)'},{transform:'translateY(0)'}]),650),animate('handoff',[{opacity:0},{opacity:1},{opacity:.35}],650)]);
+ }else if(kind==='settle'){
+  $('motionCaption').textContent='Passing the sealed package · demo';
+  await Promise.all([animate('boxBody',frames([{transform:'translateX(0)',opacity:1},{transform:'translateX(32px)',opacity:.4,offset:.45},{transform:'translateX(-24px)',opacity:.4,offset:.55},{transform:'translateX(0)',opacity:1}]),850),animate('handoff',[{opacity:.2},{opacity:1},{opacity:0}],850)]);
+ }else if(kind==='open'){
+  $('motionCaption').textContent='Breaking the seal · demo';
+  await Promise.all([animate('sealLeft',reduce()?[{opacity:1},{opacity:0}]:[{transform:'translate(0,0)',opacity:1},{transform:'translate(-22px,10px) rotate(-14deg)',opacity:0}],430),animate('sealRight',reduce()?[{opacity:1},{opacity:0}]:[{transform:'translate(0,0)',opacity:1},{transform:'translate(22px,10px) rotate(14deg)',opacity:0}],430),animate('ribbon',[{opacity:1},{opacity:0}],430)]);
+  if(ticket!==epoch)return;
+  $('motionCaption').textContent='Opening the lid · demo';
+  await Promise.all([animate('lid',reduce()?[{opacity:.5},{opacity:1}]:[{transform:'translateY(0) rotate(0deg)'},{transform:'translateY(-55px) rotate(-12deg) scaleY(.55)'}],800),animate('innerGlow',[{opacity:0},{opacity:1}],600,140),animate('asset',reduce()?[{opacity:0},{opacity:1}]:[{transform:'translateY(12px)',opacity:0},{transform:'translateY(-12px)',opacity:1}],650,180)]);
+ }else if(kind==='withdraw'){
+  $('motionCaption').textContent='Releasing the item · demo';
+  await Promise.all([animate('asset',reduce()?[{opacity:1},{opacity:0}]:[{transform:'translateY(-12px)',opacity:1},{transform:'translateY(-48px)',opacity:1,offset:.45},{transform:'translate(50px,-70px) scale(.92)',opacity:0}],1000),animate('innerGlow',[{opacity:1},{opacity:0}],800,150)]);
+ }else if(kind==='repack'){
+  paintItem(selected);
+  $('motionCaption').textContent='Placing the item inside · demo';
+  await Promise.all([animate('asset',reduce()?[{opacity:0},{opacity:1}]:[{transform:'translate(50px,-70px) scale(.92)',opacity:0},{transform:'translateY(-48px)',opacity:1,offset:.4},{transform:'translateY(-12px)',opacity:1}],900),animate('innerGlow',[{opacity:0},{opacity:1}],650)]);
+  if(ticket!==epoch)return;
+  $('motionCaption').textContent='Closing the lid · demo';
+  await Promise.all([animate('lid',reduce()?[{opacity:.5},{opacity:1}]:[{transform:'translateY(-55px) rotate(-12deg) scaleY(.55)'},{transform:'translateY(0) rotate(0deg) scaleY(1)'}],700),animate('asset',[{opacity:1},{opacity:0}],350),animate('innerGlow',[{opacity:1},{opacity:0}],500)]);
+  if(ticket!==epoch)return;
+  $('motionCaption').textContent='Fastening a fresh seal · demo';
+  await Promise.all([animate('seal',[{opacity:0},{opacity:1}],550),animate('ribbon',reduce()?[{opacity:0},{opacity:1}]:[{transform:'translateY(-8px)',opacity:0},{transform:'translateY(0)',opacity:1}],550),animate('sealLeft',reduce()?[{opacity:0},{opacity:1}]:[{transform:'translate(-12px,0)',opacity:0},{transform:'translate(0,0)',opacity:1}],500),animate('sealRight',reduce()?[{opacity:0},{opacity:1}]:[{transform:'translate(12px,0)',opacity:0},{transform:'translate(0,0)',opacity:1}],500)]);
+ }
+ if(ticket!==epoch)return;
+ done();animations.forEach(a=>a.cancel());animations=[];busy=false;stage.removeAttribute('aria-busy');render();
+ $('motionCaption').textContent=pending?'Awaiting demo confirmation':phase==='sealed'?'Seal #'+generation+' intact · '+owner:phase==='opened'?'Open package · item still inside':'Empty package · item released';
+}
+function ask(kind){if(busy||$('role').value!==owner||pending)return;if(kind==='withdraw'?phase!=='opened':kind==='repack'?phase!=='empty':phase!=='sealed')return;action=kind;
+ $('dialogTitle').textContent=kind==='transfer'?'Transfer this sealed Box?':kind==='open'?'End this seal?':kind==='repack'?'New contents. A new seal. Same Box?':'Withdraw the item?';
+ $('dialogText').textContent=kind==='transfer'?'Simulate a transfer to '+(owner==='Alice'?'Bob':'Alice')+'. The Box remains sealed.':kind==='open'?'The seal breaks, then the lid opens. This is one simulated action. Withdrawal remains separate.':kind==='repack'?'Choose an example item to place in this same Box. A fresh numbered seal will record the new contents. Earlier seals stay broken. This simulates future functionality; no assets move.':'The item leaves the open Box in this simulation. No real assets move.';$('itemPicker').classList.toggle('hidden',kind!=='repack');if(kind==='repack')$('replacement').value=itemKey;dialog.showModal();}
+$('transfer').onclick=()=>ask('transfer');$('open').onclick=()=>ask('open');$('withdraw').onclick=()=>ask('withdraw');$('repack').onclick=()=>ask('repack');$('cancel').onclick=()=>dialog.close();
+$('confirm').onclick=()=>{
+ if(busy)return;const chosen=action;dialog.close();
+ if(chosen==='settle'){
+  if(!pending)return;
+  $('message').replaceChildren();transition('settle',()=>{owner=pending;pending=null;$('message').textContent='Demo confirmation complete. Select '+owner+' below to try the new owner’s actions.';});
+ }else{
+  if($('role').value!==owner||pending)return;
+  if(chosen==='transfer'&&phase==='sealed')transition('submit',()=>{
+   pending=owner==='Alice'?'Bob':'Alice';$('message').replaceChildren(document.createTextNode('Simulated transaction submitted. '));
+   const b=document.createElement('button');b.textContent='Simulate confirmation';b.onclick=()=>{if(busy||!pending)return;action='settle';$('itemPicker').classList.add('hidden');$('dialogTitle').textContent='Simulate chain confirmation?';$('dialogText').textContent='This manually advances demo state. No blockchain is queried.';dialog.showModal();};$('message').append(b);
+  });
+  else if(chosen==='open'&&phase==='sealed')transition('open',()=>{phase='opened';$('history').lastElementChild.textContent='Seal #'+generation+' · '+items[itemKey].name+' · broken by '+owner;$('message').textContent='Seal #'+generation+' ended. The item stays inside until withdrawal.';});
+  else if(chosen==='repack'&&phase==='empty'){
+   const selected=$('replacement').value;if(!Object.hasOwn(items,selected))return;
+   transition('repack',()=>{itemKey=selected;generation++;phase='sealed';const entry=document.createElement('li');entry.textContent='Seal #'+generation+' · '+items[itemKey].name+' · intact';$('history').append(entry);$('message').textContent='Same Box, fresh seal #'+generation+'. Earlier seals remain broken in its history.';},selected);
+  }
+  else if(chosen==='withdraw'&&phase==='opened')transition('withdraw',()=>{phase='empty';$('message').textContent='Simulated withdrawal complete.';});
+ }
+};
+$('role').onchange=render;
+$('reset').onclick=()=>{cancelMotion();dialog.close();generation=1;itemKey="note";$('history').innerHTML='<li>Seal #1 · A note for the next owner · intact</li>';owner='Alice';phase='sealed';pending=null;action=null;$('role').value='Alice';$('message').textContent='Demo reset.';$('motionCaption').textContent='Sealed package · demo';render();};
+$('boxTap').onclick=async()=>{
+ if(busy)return;cancelMotion();const ticket=epoch;
+ await Promise.all([animate('boxBody',frames([{transform:'translateY(0) rotate(0deg)'},{transform:'translateY(-16px) rotate(-3deg)',offset:.32},{transform:'translateY(-12px) rotate(2deg)',offset:.64},{transform:'translateY(0) rotate(0deg)'}]),900),animate('boxShadow',reduce()?[{opacity:.6},{opacity:1}]:[{transform:'scale(1)',opacity:1},{transform:'scale(.88)',opacity:.55},{transform:'scale(1)',opacity:1}],900)]);
+ if(ticket===epoch){animations.forEach(a=>a.cancel());animations=[];}
+};render();
+</script></html>
