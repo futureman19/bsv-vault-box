@@ -177,10 +177,10 @@
   </header>
 
   <nav aria-label="BoxSV demos" style="display:flex;gap:10px;flex-wrap:wrap;margin:12px 0 20px;font-size:13px">
-    <a href="./" aria-current="page" style="padding:12px 16px;border:1px solid #56657a;border-radius:8px;color:#d7e0ea;text-decoration:none">Claw Demo</a>
-    <a href="box-demo.html" target="_blank" rel="noopener noreferrer" aria-label="Box Demo (opens in a new tab)" style="padding:12px 16px;border:1px solid #fbbf24;border-radius:8px;color:#fbbf24;text-decoration:none">Box Demo ↗</a>
+    <a href="#claw-demo" style="padding:12px 16px;border:1px solid #56657a;border-radius:8px;color:#d7e0ea;text-decoration:none">Claw Demo</a>
+    <a href="#box-demo" style="padding:12px 16px;border:1px solid #fbbf24;border-radius:8px;color:#fbbf24;text-decoration:none">Box Demo ↓</a>
   </nav>
-  <section class="arcade" aria-labelledby="arcadeTitle">
+  <section class="arcade" id="claw-demo" aria-labelledby="arcadeTitle">
     <div class="intro">
       <p class="eyebrow">THE VAULT CLAW / INTERACTIVE DEMO</p>
       <h1 id="arcadeTitle">A little mystery.<br><span>A seal you can check.</span></h1>
@@ -216,6 +216,14 @@
     <div class="wallet-chip" id="walletChip"></div>
   </div>
 
+  </section>
+
+  <section id="box-demo" aria-labelledby="boxDemoTitle" style="border-top:1px solid #344157;margin-top:36px;padding-top:28px;scroll-margin-top:20px">
+    <p class="eyebrow">THE BOX / INTERACTIVE PROTOTYPE</p>
+    <h2 id="boxDemoTitle" style="font-size:28px;line-height:1.2">Explore the Box</h2>
+    <p style="color:#a6b2c2;font-size:14px;line-height:1.6">Transfer, open, withdraw, and repack a fictional Box. This is a separate hands-on example, not a prize claimed from the claw. No real assets move.</p>
+    <box-inspector></box-inspector>
+    <p><a href="#claw-demo">↑ Back to the claw</a> · <a href="box-demo.html">Open the standalone Box demo</a></p>
   </section>
 
   <section class="rules">
@@ -286,6 +294,7 @@
   </div>
 </div>
 
+<script type="module" src="box-inspector.js"></script>
 <script src="claw-motion.js"></script>
 <script src="claw.js"></script>
 <script type="importmap">

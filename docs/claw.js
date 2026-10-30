@@ -113,6 +113,7 @@
   function requestDrop (reason) { if (machine && machine.drop(reason)) clearInput() }
   dropBtn.addEventListener('click', function () { requestDrop('button') })
   document.addEventListener('keydown', function (e) {
+    if (e.target instanceof Element && e.target.closest('#box-demo')) { clearInput(); return }
     if (!machine || machine.state.phase !== 'armed' || e.altKey || e.ctrlKey || e.metaKey) return
     if (['ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown'].includes(e.key)) { e.preventDefault(); keys[e.key] = true }
     if (e.code === 'Space' || e.key === 'Enter') { e.preventDefault(); if (!e.repeat) requestDrop('keyboard') }
