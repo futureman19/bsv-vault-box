@@ -38,7 +38,7 @@ a:focus-visible { outline:3px solid #fff; outline-offset:4px; }
   .intro-copy { font-size:.9rem; line-height:1.6; max-width:400px; margin-bottom:6px; }
   .proof-link { font-size:.7rem; }
   .arcade .machine-wrap { width:100%; height:410px; margin:10px 0 14px; flex-shrink:0; }
-  .arcade .machine-wrap:not(.claw3d-ready) { height:480px; }
+  .arcade .machine-wrap:not(.claw3d-ready):not(.claw-loading) { height:480px; }
   .arcade .controls { align-self:stretch; padding:0; text-align:center; }
   .arcade .aim-controls { justify-content:center; }
   .arcade #playBtn { width:100%; }

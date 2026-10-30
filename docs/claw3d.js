@@ -190,7 +190,7 @@ export function mount(container) {
     // rails, cable, labels, lights, glass and all primitive failure paths.
     import('./vault-assets.js').then(async ({loadVaultKit, attachVaultPart}) => {
       const kit = await loadVaultKit();
-      if (disposed) { kit.dispose(); return; }
+      if (disposed || container.dataset.presentation === 'fallback') { kit.dispose(); if (!disposed) assetState.status = 'fallback'; return; }
       kit.resources.forEach(own);
       attachVaultPart(kit.scenes.cabinet, cabinet, originalCabinet, own);
       attachVaultPart(kit.scenes['claw-hub'], claw, originalHub, own);
@@ -198,7 +198,8 @@ export function mount(container) {
       prizes.forEach(p => attachVaultPart(kit.scenes['vault-box'], p, [...p.children], own, p.userData.wrap.color));
       canvas.setAttribute('aria-label','VAULT CLAW: glass arcade cabinet with six collectible vault boxes and a metal claw');
       assetState.status = 'ready'; assetState.parts = 11; pose(time); render();
-    }).catch(() => { if (!disposed) assetState.status = 'fallback'; });
+      window.clawPresentation?.settle('ready');
+    }).catch(() => { if (!disposed) { assetState.status = 'fallback'; window.clawPresentation?.settle('fallback'); } });
     observer=new ResizeObserver(resize);observer.observe(container);
     canvas.addEventListener('webglcontextlost',lost);motion.addEventListener('change',motionChanged);
     function tick(now) {

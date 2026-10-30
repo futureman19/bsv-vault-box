@@ -166,6 +166,9 @@
   .machine-wrap:not(.claw3d-ready) .game-clock { top:7px; }
   .interactive .loot { animation:none; }
   button:focus-visible { outline:3px solid #fff; outline-offset:4px; }
+  .claw-loading > .cabinet, .claw-loading > .claw3d-canvas { visibility:hidden; }
+  .claw-loader { position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#fbbf24;font:14px system-ui,sans-serif; }
+  .machine-wrap:not(.claw-loading) > .claw-loader { display:none; }
 </style>
 <link rel="stylesheet" href="arcade.css">
 </head>
@@ -187,7 +190,8 @@
       <p class="intro-copy">Your wallet manages what you own. A Box keeps a specific package together. Start with the claw for fun, then explore how a Box is transferred, opened, and reused below.</p>
       <a class="proof-link" href="check.html">Explore the earlier seal proofs ↗</a>
     </div>
-  <div class="machine-wrap">
+  <div class="machine-wrap claw-loading" aria-busy="true">
+    <div class="claw-loader" role="status">Loading the claw machine…</div>
     <div class="cabinet" id="cabinet">
       <div class="marquee"><b>VAULT CLAW</b></div>
       <div class="rail"></div>
@@ -210,7 +214,7 @@
       <button id="dropBtn" disabled>DROP</button>
     </div>
     <p class="aim-hint" id="aimHint" hidden>Drag to aim · arrows to move · Space to drop<br>Catch a fictional package. No item is minted or delivered.</p>
-    <button id="playBtn">PLAY</button>
+    <button id="playBtn" disabled>LOADING…</button>
         <p class="demo-note">Free to play · No wallet required · No real prizes</p>
         <div class="price"><em>The claw is the introduction. The Box is the product.</em></div>
     <div class="wallet-chip" id="walletChip"></div>
@@ -284,6 +288,7 @@
   </div>
 </div>
 
+<script src="claw-loading.js"></script>
 <script type="module" src="box-inspector.js"></script>
 <script src="claw-motion.js"></script>
 <script src="claw.js"></script>
@@ -291,8 +296,13 @@
 {"imports":{"three":"./vendor/three/three.module.min.js"}}
 </script>
 <script type="module">
-import { mount } from './claw3d.js';
-window.claw3dHandle = mount(document.querySelector('.machine-wrap'));
+try {
+  const { mount } = await import('./claw3d.js');
+  if (window.clawPresentation.state === 'loading') {
+    window.claw3dHandle = mount(document.querySelector('.machine-wrap'));
+    if (!window.claw3dHandle) window.clawPresentation.settle('fallback');
+  }
+} catch (_) { window.clawPresentation.settle('fallback'); }
 </script>
 </body>
 </html>
