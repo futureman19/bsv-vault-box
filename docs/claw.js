@@ -191,10 +191,10 @@
     burst.classList.add('on')
 
     if (state.identity) {
-      prizeKey.textContent = 'Minted-to key (demo): ' + state.identity.slice(0, 14) + '…' + state.identity.slice(-8) +
-        ' — at launch this is a real on-chain VAULT box only this key can open.'
+      prizeKey.textContent = 'Connected public identity: ' + state.identity.slice(0, 14) + '…' + state.identity.slice(-8) +
+        ' — this round creates no on-chain Box.'
     } else {
-      prizeKey.textContent = 'Demo box. At launch it is minted to your connected wallet key — only that key can open it.'
+      prizeKey.textContent = 'Demo only. No wallet, payment, or real asset transfer.'
     }
     prizeCard.classList.add('on')
   }

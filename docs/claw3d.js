@@ -114,7 +114,7 @@ export function mount(container) {
     box(2.43,.31,.03,dark,cabinet,0,3.66,.925);
     const originalCabinet = [...cabinet.children];
     marquee=label('VAULT CLAW',2.26,.28,'#ffdb75','#080d16',cabinet,0,3.66,.945,96);
-    label('SEALED  /  ON CHAIN',1.5,.24,'#8195ac','#151d29',cabinet,0,2.6,-.742,49);
+    label('BOXSV  /  PLAY DEMO',1.5,.24,'#8195ac','#151d29',cabinet,0,2.6,-.742,49);
     // Interior warm strip lights, rear rails and trolley.
     for(const x of [-1.08,1.08]) box(.027,2.15,.025,light,cabinet,x,2.25,-.71);
     box(2.22,.025,.06,light,cabinet,0,3.38,.6);
