@@ -11,6 +11,7 @@ class TransferWorker {
     store,
     chain,
     canary,
+    authorization,
     rpc,
     pool,
     inventory,
@@ -22,7 +23,7 @@ class TransferWorker {
     maxAttempts = 3,
     retryMs = 1000,
   } = {}) {
-    Canary.bind(this, { chain, canary });
+    Canary.bind(this, { chain, canary, authorization });
     if (!Number.isSafeInteger(fee) || fee < 1 || fee > Canary.CAPS.fee)
       throw Error("Invalid fee cap");
     if (

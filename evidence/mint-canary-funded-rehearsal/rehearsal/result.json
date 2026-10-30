@@ -1,0 +1,98 @@
+{
+  "status": "PASS",
+  "throughSameRunner": true,
+  "runnerEnds": "TRANSFER_CONFIRMED",
+  "buyerCompletion": "separate offline-wallet process",
+  "mainnetWrites": 0,
+  "outcomes": [
+    {
+      "name": "funding",
+      "txid": "ad7357f651bcccb0798ace7495a71254cd4106244df35b02a9f591e61d77e40f",
+      "confirmations": 1,
+      "blockhash": "0173e828f8b7f7aac60f9ca17cd3824632452a14b68f44a8523ab236c2b48c8f"
+    },
+    {
+      "name": "funding-correction-2",
+      "txid": "a209568220099934cdccd62bec0a9aa3e48c3f87a5971ca8a7983fccc88a291b",
+      "confirmations": 1,
+      "blockhash": "7a11708d45d41acd7410f20021f945b95c3542be888642c9a1cd6978c4519213"
+    },
+    {
+      "name": "funding-correction-3",
+      "txid": "636de471d3b13ae237fde9b8063b2d499487bcd164ddc5631ed89a121648621d",
+      "confirmations": 1,
+      "blockhash": "54e8dfb78b13d5cbef1a77b704014f7320465899ba5c03a052945766856b5a1c"
+    },
+    {
+      "name": "funding-correction-4",
+      "txid": "cb35864380473531d4c6ed35436fb0c8f3fba7753efbcd62bb61278c62a76979",
+      "confirmations": 1,
+      "blockhash": "4ea251cf711ea548a9ebd9dce762f131a684f43d4477c433960a02a4bed55a8f"
+    },
+    {
+      "name": "payment",
+      "txid": "7d1b376793a565b69b83cceeff31f0a337105c13874fe75ac55b27839c6b2109",
+      "confirmations": 1,
+      "blockhash": "2ccffa584b89eea5a7c01dbfc622fe165bfc53730a1a78a77ac689ef66ff4f52"
+    },
+    {
+      "name": "buyer-open-prep",
+      "txid": "c600706d14a4e57547be723f3ab8a76e42e97bb72b3e765ac694b8e7566db1db",
+      "confirmations": 1,
+      "blockhash": "6c6161798edbe98cde789788dd5c7932ace18f4f4f2d1d0b99eaa2c03cd8a0c7"
+    },
+    {
+      "name": "buyer-open",
+      "txid": "7b30301a9b59cf1c1ef4924eace685fe638881fc68807a67a595ad94afb73b7e",
+      "confirmations": 1,
+      "blockhash": "27e2f5131203bd1ddb13ff2df2d454c212a6da14c71a4c50fdeacf98817e35bd"
+    },
+    {
+      "name": "buyer-withdraw-prep",
+      "txid": "4bef2e3cadf37cb087fef932f648216ffc8988d4061b8abb6d133e29e494edb9",
+      "confirmations": 1,
+      "blockhash": "35baefd42b4990ba7afb950d6b275511eb3a519a64a52596dd32a7975e6fe385"
+    },
+    {
+      "name": "buyer-withdraw",
+      "txid": "ca6610f7dc064100d8c60a7c53aa6b2f60e1ec5b831ebf0b68994bf3456e648a",
+      "confirmations": 1,
+      "blockhash": "20522c90864af924f529b252df1453163054ac4680737d75893cf04913e95206"
+    }
+  ],
+  "finalUTXOs": [
+    {
+      "bestblock": "20522c90864af924f529b252df1453163054ac4680737d75893cf04913e95206",
+      "confirmations": 1,
+      "value": 1e-8,
+      "scriptPubKey": {
+        "asm": "OP_DUP OP_HASH160 21ff8a6f151b2361976ee8da4ea1d356636613e2 OP_EQUALVERIFY OP_CHECKSIG",
+        "hex": "76a91421ff8a6f151b2361976ee8da4ea1d356636613e288ac",
+        "reqSigs": 1,
+        "type": "pubkeyhash",
+        "addresses": [
+          "miciiffoxzFoMUFcF7WyYFUd64pyBcJxFX"
+        ]
+      },
+      "coinbase": false,
+      "confiscation": false
+    },
+    {
+      "bestblock": "20522c90864af924f529b252df1453163054ac4680737d75893cf04913e95206",
+      "confirmations": 1,
+      "value": 1e-8,
+      "scriptPubKey": {
+        "asm": "OP_DUP OP_HASH160 21ff8a6f151b2361976ee8da4ea1d356636613e2 OP_EQUALVERIFY OP_CHECKSIG",
+        "hex": "76a91421ff8a6f151b2361976ee8da4ea1d356636613e288ac",
+        "reqSigs": 1,
+        "type": "pubkeyhash",
+        "addresses": [
+          "miciiffoxzFoMUFcF7WyYFUd64pyBcJxFX"
+        ]
+      },
+      "coinbase": false,
+      "confiscation": false
+    }
+  ],
+  "historyValid": true
+}

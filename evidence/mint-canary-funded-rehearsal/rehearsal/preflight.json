@@ -1,0 +1,73 @@
+{
+  "status": "READ_ONLY_PREFLIGHT_PASS",
+  "broadcastAuthorized": false,
+  "policy": {
+    "chain": "regtest",
+    "canary": false,
+    "network": "testnet",
+    "rpcChain": "regtest"
+  },
+  "stage": "startup",
+  "createdAt": 1793353289554,
+  "funding": {
+    "inventory": {
+      "address": "n2jR22mAkm8jiynmViogfmY3kD58YgopHh",
+      "expectedSatoshis": [
+        60000,
+        60000
+      ],
+      "status": "EXACT_CONFIRMED_UNSPENT",
+      "outpoints": [
+        "ad7357f651bcccb0798ace7495a71254cd4106244df35b02a9f591e61d77e40f:0",
+        "ad7357f651bcccb0798ace7495a71254cd4106244df35b02a9f591e61d77e40f:1"
+      ]
+    },
+    "sponsor": {
+      "address": "mfnHLAFnmpuyqC9167dW3kHXKnDgPHMmvz",
+      "expectedSatoshis": [
+        50000,
+        50000,
+        50000
+      ],
+      "status": "EXACT_CONFIRMED_UNSPENT",
+      "outpoints": [
+        "636de471d3b13ae237fde9b8063b2d499487bcd164ddc5631ed89a121648621d:0",
+        "a209568220099934cdccd62bec0a9aa3e48c3f87a5971ca8a7983fccc88a291b:0",
+        "cb35864380473531d4c6ed35436fb0c8f3fba7753efbcd62bb61278c62a76979:0"
+      ]
+    },
+    "payment": {
+      "address": "n2TUqPxib6xxvHkWZeQcuNc8pG98h3vyBP",
+      "expectedSatoshis": [
+        10000
+      ],
+      "status": "UNFUNDED",
+      "outpoints": []
+    }
+  },
+  "requests": [],
+  "composition": {
+    "listen": "127.0.0.1:8090 (future service; not started)",
+    "paymentDerivation": "xpub/0; fresh single-box journal only",
+    "buyerPubkey": "021880c9ad32fbb07e1fb52a688d9d6fe6db0df90ecd4c9483203f636ee00926dc",
+    "priceSats": 10000,
+    "prepFeeSats": 500,
+    "preparedSats": [
+      49500,
+      49500,
+      49500
+    ],
+    "transitionFeeSats": 1000,
+    "sponsorChangeSats": [
+      48500,
+      48500,
+      48500
+    ]
+  },
+  "limitations": [
+    "Budget composition only: no inventory minted, reservation created, transaction built or signed.",
+    "Payment must only be made after a durable buyer reservation in the later funded release; this command does not reserve.",
+    "No mainnet writes; broadcast remains hard locked. PASS is not funding authorization or miner acceptance.",
+    "Indexer evidence is not SPV. Revalidate before any later spend; no automatic retries or refunds."
+  ]
+}
