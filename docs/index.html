@@ -2,10 +2,20 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<link rel="icon" href="data:,">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>BoxSV — Pack. Seal. Pass it on.</title>
-<meta name="description" content="Explore BoxSV: reusable digital packages with distinct seals and a visible history. Try the claw and Box demos. No payments or real asset transfers.">
+<meta name="description" content="BoxSV is a sealed digital box on Bitcoin SV. Pack tokens or collectibles, seal it on-chain, and pass it on — anyone can verify the seal. Play the demo.">
+<link rel="canonical" href="https://boxsv.com/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://boxsv.com/">
+<meta property="og:title" content="BoxSV — Pack. Seal. Pass it on.">
+<meta property="og:description" content="A sealed digital box on Bitcoin SV. Pack it, seal it on-chain, pass it on — anyone can verify the seal. Play the demo.">
+<meta property="og:image" content="https://boxsv.com/assets/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="BoxSV — Pack. Seal. Pass it on.">
+<meta name="twitter:description" content="A sealed digital box on Bitcoin SV. Pack it, seal it on-chain, pass it on — anyone can verify the seal.">
+<meta name="twitter:image" content="https://boxsv.com/assets/og.png">
 <style>
   :root {
     color-scheme: dark;
@@ -87,8 +97,6 @@
     box-shadow:0 6px 0 #92610a, 0 14px 34px rgba(245,158,11,.35); transition:transform .08s, box-shadow .08s; }
   #playBtn:active { transform:translateY(4px); box-shadow:0 2px 0 #92610a, 0 8px 18px rgba(245,158,11,.3); }
   #playBtn:disabled { filter:grayscale(.6) brightness(.7); cursor:wait; }
-  .price { margin-top:.9rem; font-size:.95rem; color:var(--gold); letter-spacing:.06em; }
-  .price em { color:var(--green); font-style:normal; }
   .wallet-chip { display:none; margin-top:.6rem; font-size:.72rem; color:var(--green); }
   .wallet-chip.on { display:block; }
 
@@ -148,6 +156,23 @@
   .rules b { color:var(--ink); }
   .fine { margin-top:1.6rem; font-size:.7rem; color:#5f6b7d; line-height:1.7; border-top:1px solid var(--line); padding-top:1rem; }
 
+  /* ---------- hero CTAs & story sections ---------- */
+  .thesis { font:1.05rem/1.5 system-ui,sans-serif; color:var(--ink); margin:0 0 18px; }
+  .thesis em { color:var(--gold); font-style:normal; font-weight:700; }
+  .cta-row { display:flex; gap:10px; flex-wrap:wrap; }
+  .cta { display:inline-block; padding:12px 18px; border-radius:8px; font:700 .8rem ui-monospace,SFMono-Regular,Menlo,monospace;
+    letter-spacing:.12em; text-decoration:none; border:1px solid var(--gold); color:#0b0e14; background:var(--gold); }
+  .cta.line { background:none; color:var(--gold); }
+  .cta:hover { filter:brightness(1.12); }
+  .section { border-top:1px solid #344157; margin-top:36px; padding-top:28px; scroll-margin-top:20px; }
+  .section h2 { font-size:28px; line-height:1.2; margin:.3rem 0 .7rem; letter-spacing:0; }
+  .body-copy { color:#a6b2c2; font-size:14px; line-height:1.6; font-family:system-ui,sans-serif; max-width:660px; margin:.4rem 0; }
+  .tick-list { list-style:none; padding:0; margin:14px 0; font:14px/1.9 system-ui,sans-serif; color:#a6b2c2; max-width:660px; }
+  .tick-list li { margin-bottom:.5rem; }
+  .tick-list b { color:var(--ink); }
+  .tick { color:var(--green); font-weight:700; }
+  .next { color:var(--gold); font-weight:700; }
+
   @media (prefers-reduced-motion: reduce) {
     .claw.sway, .loot, .marquee b, .present.shake { animation:none !important; }
     .trolley, .cable, .claw, .prong, .present .lid, .present .bow, .prize-card { transition-duration:.15s !important; }
@@ -176,24 +201,31 @@
 <main>
   <header>
     <div class="wordmark">BOX<b>SV</b></div>
-    <span class="demo-ribbon">INTERACTIVE DEMOS · NO PAYMENTS</span>
+    <span class="demo-ribbon">PLAYABLE CONCEPT · FREE TO PLAY</span>
   </header>
 
-  <nav aria-label="BoxSV demos" style="display:flex;gap:10px;flex-wrap:wrap;margin:12px 0 20px;font-size:13px">
-    <a href="#claw-demo" style="padding:12px 16px;border:1px solid #56657a;border-radius:8px;color:#d7e0ea;text-decoration:none">Claw Demo</a>
-    <a href="#box-demo" style="padding:12px 16px;border:1px solid #fbbf24;border-radius:8px;color:#fbbf24;text-decoration:none">Box Demo ↓</a>
+  <nav aria-label="BoxSV sections" style="display:flex;gap:10px;flex-wrap:wrap;margin:12px 0 20px;font-size:13px">
+    <a href="#claw-demo" style="padding:12px 16px;border:1px solid #56657a;border-radius:8px;color:#d7e0ea;text-decoration:none">Play</a>
+    <a href="#box-demo" style="padding:12px 16px;border:1px solid #fbbf24;border-radius:8px;color:#fbbf24;text-decoration:none">The Box ↓</a>
+    <a href="#proof" style="padding:12px 16px;border:1px solid #56657a;border-radius:8px;color:#d7e0ea;text-decoration:none">Proof</a>
+    <a href="#whats-next" style="padding:12px 16px;border:1px solid #56657a;border-radius:8px;color:#d7e0ea;text-decoration:none">Roadmap</a>
+    <a href="https://github.com/futureman19/bsv-vault-box" style="padding:12px 16px;border:1px solid #56657a;border-radius:8px;color:#d7e0ea;text-decoration:none">Spec ↗</a>
   </nav>
   <section class="arcade" id="claw-demo" aria-labelledby="arcadeTitle">
     <div class="intro">
-      <p class="eyebrow">BOXSV / DIGITAL PACKAGING</p>
+      <p class="eyebrow">SEALED DIGITAL PACKAGING · BITCOIN SV</p>
       <h1 id="arcadeTitle">Pack. Seal.<br><span>Pass it on.</span></h1>
-      <p class="intro-copy">Your wallet manages what you own. A Box keeps a specific package together. Start with the claw for fun, then explore how a Box is transferred, opened, and reused below.</p>
-      <a class="proof-link" href="check.html">Explore the earlier seal proofs ↗</a>
+      <p class="intro-copy">BoxSV is a sealed digital box on Bitcoin SV. Pack tokens or collectibles, seal the Box on-chain, and pass it on — anyone can verify the seal without trusting you.</p>
+      <p class="thesis">The claw is the introduction. <em>The Box is the product.</em></p>
+      <div class="cta-row">
+        <a class="cta" href="#box-demo">TRY THE BOX ↓</a>
+        <a class="cta line" href="check.html">VERIFY A REAL SEAL ↗</a>
+      </div>
     </div>
   <div class="machine-wrap claw-loading" aria-busy="true">
     <div class="claw-loader" role="status">Loading the claw machine…</div>
     <div class="cabinet" id="cabinet">
-      <div class="marquee"><b>VAULT CLAW</b></div>
+      <div class="marquee"><b>BOXSV CLAW</b></div>
       <div class="rail"></div>
       <div class="trolley" id="trolley"></div>
       <div class="cable" id="cable"></div>
@@ -213,43 +245,69 @@
       <button id="joystick" aria-label="Move claw: drag or use arrow keys"><span id="stick"></span></button>
       <button id="dropBtn" disabled>DROP</button>
     </div>
-    <p class="aim-hint" id="aimHint" hidden>Drag to aim · arrows to move · Space to drop<br>Catch a fictional package. No item is minted or delivered.</p>
+    <p class="aim-hint" id="aimHint" hidden>Drag to aim · arrows to move · Space to drop</p>
     <button id="playBtn" disabled>LOADING…</button>
         <p class="demo-note">Free to play · No wallet required · No real prizes</p>
-        <div class="price"><em>The claw is the introduction. The Box is the product.</em></div>
     <div class="wallet-chip" id="walletChip"></div>
   </div>
 
   </section>
 
-  <section id="box-demo" aria-labelledby="boxDemoTitle" style="border-top:1px solid #344157;margin-top:36px;padding-top:28px;scroll-margin-top:20px">
+  <section class="section" id="box-demo" aria-labelledby="boxDemoTitle">
     <p class="eyebrow">TRY THE BOX / HANDS-ON DEMO</p>
-    <h2 id="boxDemoTitle" style="font-size:28px;line-height:1.2">Inspect the seal. Choose what comes next.</h2>
-    <p style="color:#a6b2c2;font-size:14px;line-height:1.6">Tap the gold seal below. Open the Box to discover its contents, or send it on with the seal intact. This fictional example is independent of your claw result.</p>
+    <h2 id="boxDemoTitle">Inspect the seal. Choose what comes next.</h2>
+    <p class="body-copy">Tap the gold seal below. Open the Box to discover its contents, or send it on with the seal intact.</p>
     <box-inspector></box-inspector>
     <p><a href="#claw-demo">↑ Back to the claw</a> · <a href="box-demo.html">Open the standalone Box demo</a></p>
+  </section>
+
+  <section class="section" id="proof" aria-labelledby="proofTitle">
+    <p class="eyebrow">PROOF, NOT PROMISES</p>
+    <h2 id="proofTitle">The seal already works on-chain.</h2>
+    <p class="body-copy">A BoxSV seal is a covenant enforced by BSV miners — not a promise on a website. While a Box is sealed, its contents cannot be added, removed, or swapped. Opening is one-way and permanent. Two real Boxes sit on mainnet today, so don't take this page's word for it — check them yourself.</p>
+    <p class="cta-row" style="margin:16px 0 12px"><a class="cta" href="check.html">OPEN THE SEAL CHECKER ↗</a></p>
+    <p class="body-copy" style="font-size:13px">Live on mainnet: <a href="https://whatsonchain.com/tx/f3590347ca2a6bd8ea4fcfaca5eafb6f209e25de537f177df07ebf6e7d82dd39">a sealed Box</a> · <a href="https://whatsonchain.com/tx/2aaa4efa643ea03ffaa2af4542c17d841ad9eaa558f382edab5a61f02107e67f">an opened Box</a>.</p>
   </section>
 
   <section class="rules">
     <h2>ONE BOX.<br>DISTINCT SEALS.</h2>
     <ol>
-      <li><b>Pack a purpose.</b> A Box brings specific items together. It is a package, not a replacement for your wallet.</li>
-      <li><b>Seal the contents.</b> The intended guarantee is simple: while sealed, contents cannot be added, removed, or swapped.</li>
-      <li><b>Pass it on intact.</b> Transfer ownership without unpacking. In the intended custody model, the previous owner loses authority.</li>
-      <li><b>Open, then withdraw.</b> Opening ends that seal permanently. Taking the item out is a separate action.</li>
+      <li><b>Pack anything.</b> A Box brings specific items together — a package, not a replacement for your wallet.</li>
+      <li><b>Seal the contents.</b> While sealed, contents cannot be added, removed, or swapped — enforced by miners, not by any website.</li>
+      <li><b>Pass it on intact.</b> Transfer ownership without unpacking. The sender can no longer open or change it — like a shipped package with a tamper seal.</li>
+      <li><b>Open, then withdraw.</b> Opening breaks that seal permanently. Taking the item out is a separate action.</li>
       <li><b>Reuse the Box, not the seal.</b> Repack with a new item and issue a new numbered seal. The Box keeps its identity; earlier seals stay broken in its history.</li>
     </ol>
+    <p class="scope-note">Sealed means contents stay fixed — not that they are secret. Each seal has its own history.</p>
   </section>
-  <section class="rules">
-    <h2>WHAT YOU SEE.<br>WHAT IT MEANS.</h2>
-    <p class="scope-note">Both experiences on this page are simulations. The claw awards no real assets, and the Box controls change demo state only. No payment, custody, or chain verification occurs here.</p>
-    <p class="scope-note">Sealed means contents stay fixed—not that they are secret. Currently sealed does not mean never opened: each seal has its own history.</p>
-    <p class="scope-note">The reusable Box lifecycle is a product prototype, not deployed on-chain functionality. Earlier seal proofs and the narrower custody experiments do not establish this complete experience.</p>
+
+  <section class="section" id="use-cases" aria-labelledby="useTitle">
+    <p class="eyebrow">WHAT GOES IN A BOX</p>
+    <h2 id="useTitle">Built for things you pass on.</h2>
+    <ul class="tick-list">
+      <li><b>Collectibles &amp; NFTs.</b> The starting point — pack a set, seal it, sell or ship it as one package.</li>
+      <li><b>Mystery packs.</b> Contents drawn when the Box is opened (VAULT-0003) — nobody can peek or curate after sealing.</li>
+      <li><b>Trustless resale.</b> An unopened Box keeps its seal verifiable on-chain, so buyers can check before they pay.</li>
+      <li><b>Gifts &amp; drops.</b> A present that travels sealed until the recipient opens it.</li>
+    </ul>
   </section>
+
+  <section class="section" id="whats-next" aria-labelledby="nextTitle">
+    <p class="eyebrow">WHERE THIS IS GOING</p>
+    <h2 id="nextTitle">Demo today. Mainnet mint next.</h2>
+    <ul class="tick-list">
+      <li><span class="tick">✓</span> <b>Sealed-box covenant on mainnet.</b> VAULT-0001 is live and verified by the <a href="check.html">seal checker</a>.</li>
+      <li><span class="tick">✓</span> <b>Interactive demos.</b> The claw and the full Box lifecycle, playable above.</li>
+      <li><span class="next">→</span> <b>Mainnet mint.</b> Pack and seal your own Box — in development.</li>
+      <li><span class="next">→</span> <b>More package types.</b> BSV balances, other tokens, encrypted-file access.</li>
+    </ul>
+    <p class="cta-row" style="margin-top:14px"><a class="cta line" href="https://github.com/futureman19/bsv-vault-box">STAR OR WATCH THE REPO ↗</a></p>
+  </section>
+
   <div class="fine">
     BoxSV — a package you can pass on, open, and use again.<br>
-    Technical background: <a href="check.html">earlier seal checker</a> · <a href="https://github.com/futureman19/bsv-vault-box">specifications &amp; code</a>.<br>
-    Historical proof transactions: <a href="https://whatsonchain.com/tx/f3590347ca2a6bd8ea4fcfaca5eafb6f209e25de537f177df07ebf6e7d82dd39">sealed example</a> · <a href="https://whatsonchain.com/tx/2aaa4efa643ea03ffaa2af4542c17d841ad9eaa558f382edab5a61f02107e67f">opened example</a>. These are not the fictional Box shown above.
+    The claw and Box demos on this page are simulations: no payment, custody, or minting happens here. The seal checker reads real Boxes from the BSV chain.<br>
+    <a href="check.html">Seal checker</a> · <a href="https://github.com/futureman19/bsv-vault-box">Spec &amp; code</a>
   </div>
 </main>
 
@@ -278,10 +336,10 @@
     <div class="prize-card" id="prizeCard">
       <div class="seal">DEMO PACKAGE</div>
       <h3>YOUR DEMO BOX</h3>
-      <p id="prizeText">A fictional package caught in the claw. Nothing was minted or transferred. Explore the Box below to try its separate lifecycle demo.</p>
+      <p id="prizeText">Caught it. This package is a demo souvenir — nothing was minted. The real product is below: a Box you can inspect, open, pass on, and reuse.</p>
       <p id="prizeKey"></p>
       <div class="row">
-        <a class="btn" href="check.html">EARLIER SEAL PROOFS →</a>
+        <a class="btn" id="tryBoxBtn" href="#box-demo">TRY THE BOX ↓</a>
         <button class="btn" id="againBtn">PLAY AGAIN</button>
       </div>
     </div>
@@ -296,13 +354,23 @@
 {"imports":{"three":"./vendor/three/three.module.min.js"}}
 </script>
 <script type="module">
-try {
-  const { mount } = await import('./claw3d.js');
-  if (window.clawPresentation.state === 'loading') {
-    window.claw3dHandle = mount(document.querySelector('.machine-wrap'));
-    if (!window.claw3dHandle) window.clawPresentation.settle('fallback');
-  }
-} catch (_) { window.clawPresentation.settle('fallback'); }
+const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const boot3d = async () => {
+  try {
+    const { mount } = await import('./claw3d.js');
+    if (window.clawPresentation.state === 'loading') {
+      window.claw3dHandle = mount(document.querySelector('.machine-wrap'));
+      if (!window.claw3dHandle) window.clawPresentation.settle('fallback');
+    }
+  } catch (_) { window.clawPresentation.settle('fallback'); }
+};
+if (reducedMotion) {
+  window.clawPresentation.settle('fallback');
+} else if ('requestIdleCallback' in window) {
+  requestIdleCallback(boot3d, { timeout: 3000 });
+} else {
+  setTimeout(boot3d, 0);
+}
 </script>
 </body>
 </html>

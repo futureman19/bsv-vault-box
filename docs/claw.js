@@ -204,6 +204,10 @@
     play() // mode already chosen; straight back into the machine
   })
 
+  $('tryBoxBtn').addEventListener('click', function () {
+    reveal.className = 'reveal' // let the anchor scroll to the Box demo
+  })
+
   /* ---------- entry ---------- */
   playBtn.addEventListener('click', function () {
     if (state.busy) return

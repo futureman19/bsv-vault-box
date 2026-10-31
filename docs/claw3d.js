@@ -90,7 +90,7 @@ export function mount(container) {
     renderer.outputColorSpace=THREE.SRGBColorSpace; renderer.toneMapping=THREE.ACESFilmicToneMapping; renderer.toneMappingExposure=1.08;
     renderer.setPixelRatio(Math.min(devicePixelRatio,mobile?1.5:2));
     renderer.shadowMap.enabled=true; renderer.shadowMap.type=THREE.PCFSoftShadowMap;
-    canvas.className='claw3d-canvas'; canvas.setAttribute('role','img'); canvas.setAttribute('aria-label','VAULT CLAW: glass arcade cabinet with six wrapped prizes and a metal claw');
+    canvas.className='claw3d-canvas'; canvas.setAttribute('role','img'); canvas.setAttribute('aria-label','BOXSV CLAW: glass arcade cabinet with six wrapped prizes and a metal claw');
     const pmrem=new THREE.PMREMGenerator(renderer), room=new RoomEnvironment();
     try { env=pmrem.fromScene(room,.04); scene.environment=env.texture; scene.environmentIntensity=.85; }
     finally {room.dispose(); pmrem.dispose();}
@@ -113,7 +113,7 @@ export function mount(container) {
     box(2.65,.045,1.84,brass,cabinet,0,3.9,0);
     box(2.43,.31,.03,dark,cabinet,0,3.66,.925);
     const originalCabinet = [...cabinet.children];
-    marquee=label('VAULT CLAW',2.26,.28,'#ffdb75','#080d16',cabinet,0,3.66,.945,96);
+    marquee=label('BOXSV CLAW',2.26,.28,'#ffdb75','#080d16',cabinet,0,3.66,.945,96);
     label('BOXSV  /  PLAY DEMO',1.5,.24,'#8195ac','#151d29',cabinet,0,2.6,-.742,49);
     // Interior warm strip lights, rear rails and trolley.
     for(const x of [-1.08,1.08]) box(.027,2.15,.025,light,cabinet,x,2.25,-.71);
@@ -196,7 +196,7 @@ export function mount(container) {
       attachVaultPart(kit.scenes['claw-hub'], claw, originalHub, own);
       prongs.forEach(p => attachVaultPart(kit.scenes['claw-finger'], p, [...p.children], own));
       prizes.forEach(p => attachVaultPart(kit.scenes['vault-box'], p, [...p.children], own, p.userData.wrap.color));
-      canvas.setAttribute('aria-label','VAULT CLAW: glass arcade cabinet with six collectible vault boxes and a metal claw');
+      canvas.setAttribute('aria-label','BOXSV CLAW: glass arcade cabinet with six collectible vault boxes and a metal claw');
       assetState.status = 'ready'; assetState.parts = 11; pose(time); render();
       window.clawPresentation?.settle('ready');
     }).catch(() => { if (!disposed) { assetState.status = 'fallback'; window.clawPresentation?.settle('fallback'); } });
