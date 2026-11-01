@@ -1,0 +1,150 @@
+✖ derives recorded counts, fees, stages, one-sat mapping and safe manifest (0.9777ms)
+✖ rejects missing serialized evidence (29.9073ms)
+✖ rejects changed serialized transaction (27.6086ms)
+✖ rejects forged acceptance summary (28.4112ms)
+✖ rejects altered RPC final value (59.6777ms)
+✖ rejects unsafe string injection (29.7491ms)
+✖ rejects absent rejection journal record (51.9726ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 0
+ℹ fail 7
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 294.42
+
+✖ failing tests:
+
+test at preview\evidence-inspector\export.test.js:5:1
+✖ derives recorded counts, fees, stages, one-sat mapping and safe manifest (0.9777ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+
+  undefined !== 16
+
+      at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\preview\evidence-inspector\export.test.js:7:9)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.start (node:internal/test_runner/test:1003:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:358:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: 16,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at preview\evidence-inspector\export.test.js:19:1
+✖ rejects missing serialized evidence (29.9073ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at altered (C:\Users\futur\Desktop\bsv-vault-box\preview\evidence-inspector\export.test.js:18:295)
+      at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\preview\evidence-inspector\export.test.js:19:48)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:788:18)
+      at Test.postRun (node:internal/test_runner/test:1235:19)
+      at Test.run (node:internal/test_runner/test:1163:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:358:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: /missing|ENOENT/,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at preview\evidence-inspector\export.test.js:20:1
+✖ rejects changed serialized transaction (27.6086ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at altered (C:\Users\futur\Desktop\bsv-vault-box\preview\evidence-inspector\export.test.js:18:295)
+      at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\preview\evidence-inspector\export.test.js:20:51)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:788:18)
+      at Test.postRun (node:internal/test_runner/test:1235:19)
+      at Test.run (node:internal/test_runner/test:1163:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: /transaction|txid|RPC/,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at preview\evidence-inspector\export.test.js:21:1
+✖ rejects forged acceptance summary (28.4112ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at altered (C:\Users\futur\Desktop\bsv-vault-box\preview\evidence-inspector\export.test.js:18:295)
+      at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\preview\evidence-inspector\export.test.js:21:46)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:788:18)
+      at Test.postRun (node:internal/test_runner/test:1235:19)
+      at Test.run (node:internal/test_runner/test:1163:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: /summary|outcome/,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at preview\evidence-inspector\export.test.js:22:1
+✖ rejects altered RPC final value (59.6777ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at altered (C:\Users\futur\Desktop\bsv-vault-box\preview\evidence-inspector\export.test.js:18:295)
+      at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\preview\evidence-inspector\export.test.js:22:44)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:788:18)
+      at Test.postRun (node:internal/test_runner/test:1235:19)
+      at Test.run (node:internal/test_runner/test:1163:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: /UTXO|value/,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at preview\evidence-inspector\export.test.js:23:1
+✖ rejects unsafe string injection (29.7491ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at altered (C:\Users\futur\Desktop\bsv-vault-box\preview\evidence-inspector\export.test.js:18:295)
+      at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\preview\evidence-inspector\export.test.js:23:44)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:788:18)
+      at Test.postRun (node:internal/test_runner/test:1235:19)
+      at Test.run (node:internal/test_runner/test:1163:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: /unsafe/,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at preview\evidence-inspector\export.test.js:24:1
+✖ rejects absent rejection journal record (51.9726ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at altered (C:\Users\futur\Desktop\bsv-vault-box\preview\evidence-inspector\export.test.js:18:295)
+      at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\preview\evidence-inspector\export.test.js:24:52)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:788:18)
+      at Test.postRun (node:internal/test_runner/test:1235:19)
+      at Test.run (node:internal/test_runner/test:1163:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: /RPC|transaction|outcome/,
+    operator: 'throws',
+    diff: 'simple'
+  }
