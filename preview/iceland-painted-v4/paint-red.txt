@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\preview\iceland-painted-v4\test_paint.py", line 35, in <module>
+    if __name__=='__main__':run()
+                            ~~~^^
+  File "C:\Users\futur\Desktop\bsv-vault-box\preview\iceland-painted-v4\test_paint.py", line 12, in run
+    g,b=glb(R/'iceland.glb');old,ob=glb(R.parent/'iceland-lightweight-v3/original/iceland.glb')
+        ~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\futur\Desktop\bsv-vault-box\preview\iceland-painted-v4\test_paint.py", line 9, in glb
+    b=p.read_bytes();n=struct.unpack_from('<I',b,12)[0];return json.loads(b[20:20+n]),b[28+n:]
+  File "C:\Users\futur\.hermes\tools\python-3.14.7+20260901-win32-x64\Lib\pathlib\__init__.py", line 777, in read_bytes
+    with self.open(mode='rb', buffering=0) as f:
+         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\futur\.hermes\tools\python-3.14.7+20260901-win32-x64\Lib\pathlib\__init__.py", line 771, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\futur\\Desktop\\bsv-vault-box\\preview\\iceland-painted-v4\\iceland.glb'

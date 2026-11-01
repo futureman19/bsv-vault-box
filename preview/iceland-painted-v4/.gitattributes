@@ -1,0 +1,8 @@
+# Preserve measured attachment, evidence and original runtime bytes.
+* -text whitespace=cr-at-eol
+# Frozen vendor shader whitespace is not authored by this experiment.
+*.html -diff
+viewer.bundle.js -diff
+original/** -diff
+*-green.txt -diff
+*-red.txt -diff
