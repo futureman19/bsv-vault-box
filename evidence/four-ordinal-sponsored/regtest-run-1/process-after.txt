@@ -1,0 +1,27 @@
+    PID COMMAND
+      1 /sbin/init
+      2 /init
+      6 plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+     39 /usr/lib/systemd/systemd-journald
+     86 /usr/lib/systemd/systemd-udevd
+    146 /usr/lib/systemd/systemd-resolved
+    147 /usr/lib/systemd/systemd-timesyncd
+    157 /usr/sbin/cron -f -P
+    158 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+    165 /usr/lib/systemd/systemd-logind
+    168 /usr/libexec/wsl-pro-service
+    180 /sbin/agetty -o -p -- \u --noclear --keep-baud - 115200,38400,9600 vt220
+    185 /usr/sbin/rsyslogd -n -iNONE
+    188 /sbin/agetty -o -p -- \u --noclear - linux
+    190 /usr/bin/containerd
+    200 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+    271 /usr/lib/systemd/systemd-timedated
+    289 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+    533 /init
+    534 /init
+    535 node /mnt/c/Users/futur/Desktop/bsv-vault-box/vault/scripts/four-ordinal-regtest.js /home/futureman19/bitcoin-sv-1.2.3/bin/bitcoind /mnt/c/Users/futur/.hermes/profiles/telegram2/cache/scratch/box4-sponsored /mnt/c/Users/futur/Desktop/bsv-vault-box/evidence/four-ordinal-sponsored/regtest-run-1
+    536 /bin/login -f
+    580 /usr/lib/systemd/systemd --user
+    581 (sd-pam)
+    603 -bash
+    869 ps -eo pid,args

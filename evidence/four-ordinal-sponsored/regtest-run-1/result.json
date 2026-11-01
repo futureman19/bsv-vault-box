@@ -1,0 +1,676 @@
+{
+  "status": "PASS",
+  "outcomes": [
+    {
+      "name": "funding-root",
+      "txid": "d1467e5df1ab4769b4f505585dcf2cc087fe61a8be43065ac2d822c248f812af",
+      "mempool": true,
+      "block": "57bbc639968d1d8c12aef9ccecdffe1eb8f8c92822f96531a6bfe6641a730c26",
+      "confirmations": 1
+    },
+    {
+      "name": "original-0",
+      "txid": "75ea6ef6cae46f0a67bbb7cf853cde4841c5108b9ddf88153083bc535c41f3cd",
+      "mempool": true,
+      "block": "515c3f9b9101257160e1195e57fd6fa1ff76a21febaa98edc93f5ea00a252b79",
+      "confirmations": 1
+    },
+    {
+      "name": "original-2",
+      "txid": "badbf6642847d1bc0cd1c3f2e424f95e0db315e8d58e580bafabf70953c0c31f",
+      "mempool": true,
+      "block": "1a490550be6fe4181221391f44cc4ab07e5a31b18609ed13b586c8e60ff45f86",
+      "confirmations": 1
+    },
+    {
+      "name": "original-3",
+      "txid": "f3864ef3b780cdaf0c5d2b77ffc1c098f07738bf8eb56b79b41f9d201861b751",
+      "mempool": true,
+      "block": "55a1f4251140650b00625bdc58b4d6173aba2d19e3b8dbbf5772fdea3eb234ec",
+      "confirmations": 1
+    },
+    {
+      "name": "original-1-certificate",
+      "txid": "e938d9113d186ead8d70d1f6aca2acce022fc36ebe86344e38738656ddc3dd90",
+      "mempool": true,
+      "block": "47809aeb926c0a9d9ca0c16c426e78d40a61f04fbfe9b2cb628bf2efd3473bbb",
+      "confirmations": 1
+    },
+    {
+      "name": "initial-control",
+      "txid": "990beb9f0c0787ef4706f9f76826179de1c11bd032776a24dac34b16de2b7c51",
+      "mempool": true,
+      "block": "690fce4c1369e933f2e0f632897ebfcaaf32e0945fb5c69b5224bcdfa7d3fa87",
+      "confirmations": 1
+    },
+    {
+      "name": "sponsor-prep-0",
+      "txid": "0e28d426951ac5c25338969b06871371a7129496d177f49530d3a959f671a99b",
+      "mempool": true,
+      "block": "720e97b6cbca826d0042f49ae80719369ea27f7944bf0d0c3108d6135eab729d",
+      "confirmations": 1
+    },
+    {
+      "name": "pack",
+      "txid": "df74c52d4b1071e235154a9059f2a562c999160a534ac59abfe6fddcb60325d4",
+      "mempool": true,
+      "block": "66027a667ff0ba6ba8079754ccbbecf410e9a8540bf2919ddd66da030a2dc708",
+      "confirmations": 1
+    },
+    {
+      "name": "sponsor-prep-1",
+      "txid": "dcfffba4abb6e3e96486a541dd1eb8895f66266c01f73424d9debb935abfcefb",
+      "mempool": true,
+      "block": "657fafb2025a9b9b2c2527f3584fbbf639d598bcec9f863dd0504772d69959d4",
+      "confirmations": 1
+    },
+    {
+      "name": "seal",
+      "txid": "69990d6a7efcf128305bee64f6fcb554363efae048a0b1ce03e9c5726eb2baef",
+      "mempool": true,
+      "block": "3d15f941b9a495a0117fb3796fe7aeceee8c62d3849386d7c00bea3b51a906bd",
+      "confirmations": 1
+    },
+    {
+      "name": "sponsor-prep-2",
+      "txid": "6f812f9dc5a8c319af4c9d3bbb4fb57c830f83cde11dd17981e802722bb128dd",
+      "mempool": true,
+      "block": "0af4f8a70c556b4feaba75a6b85c7038c8f366bf53487eb3f5f3566647598fe5",
+      "confirmations": 1
+    },
+    {
+      "name": "attack-missing-sponsor-auth",
+      "txid": "dd5dd3a44b8ace336334c0f80341e271871b39b299f02d0daf03fb1d743704b1",
+      "rejection": {
+        "code": -26,
+        "message": "16: mandatory-script-verify-flag-failed (Invalid OP_SPLIT range)"
+      },
+      "allInputsLiveBeforeAndAfter": true
+    },
+    {
+      "name": "attack-wrong-sponsor-auth",
+      "txid": "e25ad881a18c4d4c40e6fa8d083591477285a1ce6db65fad27e2ecc9904a5a99",
+      "rejection": {
+        "code": -26,
+        "message": "16: mandatory-script-verify-flag-failed (Signature must be zero for failed CHECK(MULTI)SIG operation)"
+      },
+      "allInputsLiveBeforeAndAfter": true
+    },
+    {
+      "name": "attack-malformed-parent-input-count",
+      "txid": "cbb72251046199c538f0cb0ce8ce85b56a223e93b5fbb00241b827d5288781f2",
+      "rejection": {
+        "code": -26,
+        "message": "16: mandatory-script-verify-flag-failed (Script failed an OP_EQUALVERIFY operation)"
+      },
+      "allInputsLiveBeforeAndAfter": true
+    },
+    {
+      "name": "attack-malformed-parent-output-count",
+      "txid": "dac05da0decdf8996321f4221cbc791af5863337da52a315b434d0b24f2c4f0c",
+      "rejection": {
+        "code": -26,
+        "message": "16: mandatory-script-verify-flag-failed (Script failed an OP_EQUALVERIFY operation)"
+      },
+      "allInputsLiveBeforeAndAfter": true
+    },
+    {
+      "name": "attack-malformed-parent-length",
+      "txid": "4ca02c1e08d97d709d2355133277093f6f86c72b35252f2afd0c299a5f7444d8",
+      "rejection": {
+        "code": -26,
+        "message": "16: mandatory-script-verify-flag-failed (Script failed an OP_VERIFY operation)"
+      },
+      "allInputsLiveBeforeAndAfter": true
+    },
+    {
+      "name": "attack-reordered-input",
+      "txid": "2c5025e65c28bc05dad6fe792000d7f1483602388e279e8c2fcd4e1ac98bbd0e",
+      "rejection": {
+        "code": -26,
+        "message": "16: mandatory-script-verify-flag-failed (Script failed an OP_EQUALVERIFY operation)"
+      },
+      "allInputsLiveBeforeAndAfter": true
+    },
+    {
+      "name": "attack-zero-fee-witness",
+      "txid": "ef1c7b559f760d48e479b777f0425d2ae16d0b437408e98431db6d56a24cd444",
+      "rejection": {
+        "code": -26,
+        "message": "16: mandatory-script-verify-flag-failed (Script failed an OP_VERIFY operation)"
+      },
+      "allInputsLiveBeforeAndAfter": true
+    },
+    {
+      "name": "attack-negative-fee-witness",
+      "txid": "6324a46b0c0b251691ffa453ec63bcbfb5c3228d297a3ab7198db6468c7fcb99",
+      "rejection": {
+        "code": -26,
+        "message": "16: mandatory-script-verify-flag-failed (Script failed an OP_VERIFY operation)"
+      },
+      "allInputsLiveBeforeAndAfter": true
+    },
+    {
+      "name": "attack-excess-fee",
+      "txid": "3ee58cda0f97c2ffbf71b771844e0975160eafa17a60d08a53d62885ab42a44e",
+      "rejection": {
+        "code": -26,
+        "message": "16: mandatory-script-verify-flag-failed (Script failed an OP_VERIFY operation)"
+      },
+      "allInputsLiveBeforeAndAfter": true
+    },
+    {
+      "name": "attack-change-diversion",
+      "txid": "6a172b965ed83b8ef4f56b08bd66e0e14ecd81893a1bd914a7e299949d6a5e8a",
+      "rejection": {
+        "code": -26,
+        "message": "16: mandatory-script-verify-flag-failed (Script evaluated without error but finished with a false/empty top stack element)"
+      },
+      "allInputsLiveBeforeAndAfter": true
+    },
+    {
+      "name": "attack-extra-output",
+      "txid": "22552c18816cb28730178c393ab25d2860b163e8f893a89fb3b66c0c0ea67dff",
+      "rejection": {
+        "code": -26,
+        "message": "16: mandatory-script-verify-flag-failed (Script evaluated without error but finished with a false/empty top stack element)"
+      },
+      "allInputsLiveBeforeAndAfter": true
+    },
+    {
+      "name": "attack-principal-diversion-0",
+      "txid": "4232914981e1d49a797f35d94ae0a39339b2e31452c4f9d125adaaaeb57c650e",
+      "rejection": {
+        "code": -26,
+        "message": "16: mandatory-script-verify-flag-failed (Script evaluated without error but finished with a false/empty top stack element)"
+      },
+      "allInputsLiveBeforeAndAfter": true
+    },
+    {
+      "name": "attack-principal-diversion-1",
+      "txid": "4894b50ad75e0adfbaa15ca31a6fc7bf7f4a7e3b34bd8debc750c28616da717d",
+      "rejection": {
+        "code": -26,
+        "message": "16: mandatory-script-verify-flag-failed (Script evaluated without error but finished with a false/empty top stack element)"
+      },
+      "allInputsLiveBeforeAndAfter": true
+    },
+    {
+      "name": "attack-principal-diversion-2",
+      "txid": "67f76d13bf03c4f5b7deeb03556a9cbcd44201cc669bd7d6689e3f75f10e1e4f",
+      "rejection": {
+        "code": -26,
+        "message": "16: mandatory-script-verify-flag-failed (Script evaluated without error but finished with a false/empty top stack element)"
+      },
+      "allInputsLiveBeforeAndAfter": true
+    },
+    {
+      "name": "attack-principal-diversion-3",
+      "txid": "68b6f3a13d506d4f47f40c92bae3f430484c9af059e5d7d499b94d1c5e749c53",
+      "rejection": {
+        "code": -26,
+        "message": "16: mandatory-script-verify-flag-failed (Script evaluated without error but finished with a false/empty top stack element)"
+      },
+      "allInputsLiveBeforeAndAfter": true
+    },
+    {
+      "name": "attack-principal-diversion-4",
+      "txid": "7f45ac0010f9c32697903fe5cecef63e3fd81dc1316a90c191f37e9b46df86b7",
+      "rejection": {
+        "code": -26,
+        "message": "16: mandatory-script-verify-flag-failed (Script evaluated without error but finished with a false/empty top stack element)"
+      },
+      "allInputsLiveBeforeAndAfter": true
+    },
+    {
+      "name": "attack-missing-p2pkh-auth",
+      "txid": "6dd46a8a14e970599e0684e3dd59a3e33bd1985119e39f3be014f8fd8ae86af1",
+      "rejection": {
+        "code": -26,
+        "message": "16: mandatory-script-verify-flag-failed (Operation not valid with the current stack size)"
+      },
+      "allInputsLiveBeforeAndAfter": true
+    },
+    {
+      "name": "attack-sealed-withdrawal",
+      "txid": "c333cdd0b31d252747a97cced0d88634c1ebcc9d7182c82df1f05b340047ca35",
+      "rejection": {
+        "code": -26,
+        "message": "16: mandatory-script-verify-flag-failed (Script failed an OP_VERIFY operation)"
+      },
+      "allInputsLiveBeforeAndAfter": true
+    },
+    {
+      "name": "transfer",
+      "txid": "73257a458de2be73fbaf252f2c66497ff543b227a54b6fe64d4949ef8217a23b",
+      "mempool": true,
+      "block": "2c88f4d476bffa17534a0050f2bfbd9c6315d9259dab96fe5c356415993cf137",
+      "confirmations": 1
+    },
+    {
+      "name": "sponsor-prep-3",
+      "txid": "e66a8aee504da437c679625f0f86e698c7f307717547c557a47dcb7431942c2e",
+      "mempool": true,
+      "block": "4935b54092aed50d9cac2e1db2fc997cf1dbd05bb8879c60e80a4b90f831b81b",
+      "confirmations": 1
+    },
+    {
+      "name": "attack-old-owner-open",
+      "txid": "9ade64e32818868320338ae829c121496fe64bba3aff2984fc74a85a06826d11",
+      "rejection": {
+        "code": -26,
+        "message": "16: mandatory-script-verify-flag-failed (Signature must be zero for failed CHECK(MULTI)SIG operation)"
+      },
+      "allInputsLiveBeforeAndAfter": true
+    },
+    {
+      "name": "open",
+      "txid": "a0a278655344dd39e12904e9943a95458c109d7fd9f31f40d50f446c46f591a2",
+      "mempool": true,
+      "block": "766319afb8ead3e5236ba4ff1471ac0a69f5a23ec3e577db105d5ca9186a6201",
+      "confirmations": 1
+    },
+    {
+      "name": "sponsor-prep-4",
+      "txid": "2dbd083331c792e360a0fef650b3bb151cd74c76ad3afc368da524bb6ad0e267",
+      "mempool": true,
+      "block": "46307a56989542dc3b3e3ddc8ca9537d240ab08193802252b50738e8fa89f316",
+      "confirmations": 1
+    },
+    {
+      "name": "attack-old-owner-withdraw",
+      "txid": "d70365cbee69f19ecda34c19dc495a0ff5477df39e9f6e9ff2d02b2cfcb0f7b5",
+      "rejection": {
+        "code": -26,
+        "message": "16: mandatory-script-verify-flag-failed (Signature must be zero for failed CHECK(MULTI)SIG operation)"
+      },
+      "allInputsLiveBeforeAndAfter": true
+    },
+    {
+      "name": "withdraw",
+      "txid": "4cd43d140973d410b212f58216a3c9abaed6df35ac8a2cd3a38c7950503f1661",
+      "mempool": true,
+      "block": "5d269bf33d21364027d43398b309fff96ddb7cd3b7ba8c7ab77bed78077ea5ef",
+      "confirmations": 1
+    }
+  ],
+  "transactions": [
+    {
+      "name": "funding-root",
+      "txid": "d1467e5df1ab4769b4f505585dcf2cc087fe61a8be43065ac2d822c248f812af",
+      "bytes": 532
+    },
+    {
+      "name": "original-0",
+      "txid": "75ea6ef6cae46f0a67bbb7cf853cde4841c5108b9ddf88153083bc535c41f3cd",
+      "bytes": 275
+    },
+    {
+      "name": "original-2",
+      "txid": "badbf6642847d1bc0cd1c3f2e424f95e0db315e8d58e580bafabf70953c0c31f",
+      "bytes": 267
+    },
+    {
+      "name": "original-3",
+      "txid": "f3864ef3b780cdaf0c5d2b77ffc1c098f07738bf8eb56b79b41f9d201861b751",
+      "bytes": 264
+    },
+    {
+      "name": "original-1-certificate",
+      "txid": "e938d9113d186ead8d70d1f6aca2acce022fc36ebe86344e38738656ddc3dd90",
+      "bytes": 311
+    },
+    {
+      "name": "initial-control",
+      "txid": "990beb9f0c0787ef4706f9f76826179de1c11bd032776a24dac34b16de2b7c51",
+      "bytes": 3933
+    },
+    {
+      "name": "sponsor-prep-0",
+      "txid": "0e28d426951ac5c25338969b06871371a7129496d177f49530d3a959f671a99b",
+      "bytes": 191
+    },
+    {
+      "name": "pack",
+      "txid": "df74c52d4b1071e235154a9059f2a562c999160a534ac59abfe6fddcb60325d4",
+      "bytes": 24054
+    },
+    {
+      "name": "sponsor-prep-1",
+      "txid": "dcfffba4abb6e3e96486a541dd1eb8895f66266c01f73424d9debb935abfcefb",
+      "bytes": 191
+    },
+    {
+      "name": "seal",
+      "txid": "69990d6a7efcf128305bee64f6fcb554363efae048a0b1ce03e9c5726eb2baef",
+      "bytes": 41740
+    },
+    {
+      "name": "sponsor-prep-2",
+      "txid": "6f812f9dc5a8c319af4c9d3bbb4fb57c830f83cde11dd17981e802722bb128dd",
+      "bytes": 191
+    },
+    {
+      "name": "attack-missing-sponsor-auth",
+      "txid": "dd5dd3a44b8ace336334c0f80341e271871b39b299f02d0daf03fb1d743704b1",
+      "bytes": 41665
+    },
+    {
+      "name": "attack-wrong-sponsor-auth",
+      "txid": "e25ad881a18c4d4c40e6fa8d083591477285a1ce6db65fad27e2ecc9904a5a99",
+      "bytes": 41736
+    },
+    {
+      "name": "attack-malformed-parent-input-count",
+      "txid": "cbb72251046199c538f0cb0ce8ce85b56a223e93b5fbb00241b827d5288781f2",
+      "bytes": 41736
+    },
+    {
+      "name": "attack-malformed-parent-output-count",
+      "txid": "dac05da0decdf8996321f4221cbc791af5863337da52a315b434d0b24f2c4f0c",
+      "bytes": 41736
+    },
+    {
+      "name": "attack-malformed-parent-length",
+      "txid": "4ca02c1e08d97d709d2355133277093f6f86c72b35252f2afd0c299a5f7444d8",
+      "bytes": 41736
+    },
+    {
+      "name": "attack-reordered-input",
+      "txid": "2c5025e65c28bc05dad6fe792000d7f1483602388e279e8c2fcd4e1ac98bbd0e",
+      "bytes": 41736
+    },
+    {
+      "name": "attack-zero-fee-witness",
+      "txid": "ef1c7b559f760d48e479b777f0425d2ae16d0b437408e98431db6d56a24cd444",
+      "bytes": 41736
+    },
+    {
+      "name": "attack-negative-fee-witness",
+      "txid": "6324a46b0c0b251691ffa453ec63bcbfb5c3228d297a3ab7198db6468c7fcb99",
+      "bytes": 41736
+    },
+    {
+      "name": "attack-excess-fee",
+      "txid": "3ee58cda0f97c2ffbf71b771844e0975160eafa17a60d08a53d62885ab42a44e",
+      "bytes": 41737
+    },
+    {
+      "name": "attack-change-diversion",
+      "txid": "6a172b965ed83b8ef4f56b08bd66e0e14ecd81893a1bd914a7e299949d6a5e8a",
+      "bytes": 41737
+    },
+    {
+      "name": "attack-extra-output",
+      "txid": "22552c18816cb28730178c393ab25d2860b163e8f893a89fb3b66c0c0ea67dff",
+      "bytes": 41770
+    },
+    {
+      "name": "attack-principal-diversion-0",
+      "txid": "4232914981e1d49a797f35d94ae0a39339b2e31452c4f9d125adaaaeb57c650e",
+      "bytes": 38029
+    },
+    {
+      "name": "attack-principal-diversion-1",
+      "txid": "4894b50ad75e0adfbaa15ca31a6fc7bf7f4a7e3b34bd8debc750c28616da717d",
+      "bytes": 38027
+    },
+    {
+      "name": "attack-principal-diversion-2",
+      "txid": "67f76d13bf03c4f5b7deeb03556a9cbcd44201cc669bd7d6689e3f75f10e1e4f",
+      "bytes": 38028
+    },
+    {
+      "name": "attack-principal-diversion-3",
+      "txid": "68b6f3a13d506d4f47f40c92bae3f430484c9af059e5d7d499b94d1c5e749c53",
+      "bytes": 38030
+    },
+    {
+      "name": "attack-principal-diversion-4",
+      "txid": "7f45ac0010f9c32697903fe5cecef63e3fd81dc1316a90c191f37e9b46df86b7",
+      "bytes": 38028
+    },
+    {
+      "name": "attack-missing-p2pkh-auth",
+      "txid": "6dd46a8a14e970599e0684e3dd59a3e33bd1985119e39f3be014f8fd8ae86af1",
+      "bytes": 41630
+    },
+    {
+      "name": "attack-sealed-withdrawal",
+      "txid": "c333cdd0b31d252747a97cced0d88634c1ebcc9d7182c82df1f05b340047ca35",
+      "bytes": 23201
+    },
+    {
+      "name": "transfer",
+      "txid": "73257a458de2be73fbaf252f2c66497ff543b227a54b6fe64d4949ef8217a23b",
+      "bytes": 41736
+    },
+    {
+      "name": "sponsor-prep-3",
+      "txid": "e66a8aee504da437c679625f0f86e698c7f307717547c557a47dcb7431942c2e",
+      "bytes": 192
+    },
+    {
+      "name": "attack-old-owner-open",
+      "txid": "9ade64e32818868320338ae829c121496fe64bba3aff2984fc74a85a06826d11",
+      "bytes": 41742
+    },
+    {
+      "name": "open",
+      "txid": "a0a278655344dd39e12904e9943a95458c109d7fd9f31f40d50f446c46f591a2",
+      "bytes": 41742
+    },
+    {
+      "name": "sponsor-prep-4",
+      "txid": "2dbd083331c792e360a0fef650b3bb151cd74c76ad3afc368da524bb6ad0e267",
+      "bytes": 191
+    },
+    {
+      "name": "attack-old-owner-withdraw",
+      "txid": "d70365cbee69f19ecda34c19dc495a0ff5477df39e9f6e9ff2d02b2cfcb0f7b5",
+      "bytes": 23201
+    },
+    {
+      "name": "withdraw",
+      "txid": "4cd43d140973d410b212f58216a3c9abaed6df35ac8a2cd3a38c7950503f1661",
+      "bytes": 23201
+    }
+  ],
+  "fees": [
+    {
+      "name": "pack",
+      "funding": 999500,
+      "change": 999000,
+      "fee": 500,
+      "principalInput": 5,
+      "principalOutput": 5
+    },
+    {
+      "name": "seal",
+      "funding": 999500,
+      "change": 999000,
+      "fee": 500,
+      "principalInput": 5,
+      "principalOutput": 5
+    },
+    {
+      "name": "transfer",
+      "funding": 999500,
+      "change": 999000,
+      "fee": 500,
+      "principalInput": 5,
+      "principalOutput": 5
+    },
+    {
+      "name": "open",
+      "funding": 999500,
+      "change": 999000,
+      "fee": 500,
+      "principalInput": 5,
+      "principalOutput": 5
+    },
+    {
+      "name": "withdraw",
+      "funding": 999500,
+      "change": 999000,
+      "fee": 500,
+      "principalInput": 5,
+      "principalOutput": 5
+    }
+  ],
+  "feeTotals": {
+    "custody": 2500,
+    "sponsorPreparation": 2500,
+    "fundingSplit": 1000,
+    "originalsAndControl": 2500
+  },
+  "finalUTXOs": [
+    {
+      "role": "collectible-box",
+      "origin": "75ea6ef6cae46f0a67bbb7cf853cde4841c5108b9ddf88153083bc535c41f3cd:0",
+      "final": "4cd43d140973d410b212f58216a3c9abaed6df35ac8a2cd3a38c7950503f1661:0",
+      "utxo": {
+        "bestblock": "5d269bf33d21364027d43398b309fff96ddb7cd3b7ba8c7ab77bed78077ea5ef",
+        "confirmations": 1,
+        "value": 1e-8,
+        "scriptPubKey": {
+          "asm": "OP_DUP OP_HASH160 06afd46bcdfd22ef94ac122aa11f241244a37ecc OP_EQUALVERIFY OP_CHECKSIG",
+          "hex": "76a91406afd46bcdfd22ef94ac122aa11f241244a37ecc88ac",
+          "reqSigs": 1,
+          "type": "pubkeyhash",
+          "addresses": [
+            "mg8Jz5776UdyiYcBb9Z873NTozEiADRW5H"
+          ]
+        },
+        "coinbase": false,
+        "confiscation": false
+      }
+    },
+    {
+      "role": "certificate",
+      "origin": "e938d9113d186ead8d70d1f6aca2acce022fc36ebe86344e38738656ddc3dd90:0",
+      "final": "4cd43d140973d410b212f58216a3c9abaed6df35ac8a2cd3a38c7950503f1661:1",
+      "utxo": {
+        "bestblock": "5d269bf33d21364027d43398b309fff96ddb7cd3b7ba8c7ab77bed78077ea5ef",
+        "confirmations": 1,
+        "value": 1e-8,
+        "scriptPubKey": {
+          "asm": "OP_DUP OP_HASH160 06afd46bcdfd22ef94ac122aa11f241244a37ecc OP_EQUALVERIFY OP_CHECKSIG",
+          "hex": "76a91406afd46bcdfd22ef94ac122aa11f241244a37ecc88ac",
+          "reqSigs": 1,
+          "type": "pubkeyhash",
+          "addresses": [
+            "mg8Jz5776UdyiYcBb9Z873NTozEiADRW5H"
+          ]
+        },
+        "coinbase": false,
+        "confiscation": false
+      }
+    },
+    {
+      "role": "object-one",
+      "origin": "badbf6642847d1bc0cd1c3f2e424f95e0db315e8d58e580bafabf70953c0c31f:0",
+      "final": "4cd43d140973d410b212f58216a3c9abaed6df35ac8a2cd3a38c7950503f1661:2",
+      "utxo": {
+        "bestblock": "5d269bf33d21364027d43398b309fff96ddb7cd3b7ba8c7ab77bed78077ea5ef",
+        "confirmations": 1,
+        "value": 1e-8,
+        "scriptPubKey": {
+          "asm": "OP_DUP OP_HASH160 06afd46bcdfd22ef94ac122aa11f241244a37ecc OP_EQUALVERIFY OP_CHECKSIG",
+          "hex": "76a91406afd46bcdfd22ef94ac122aa11f241244a37ecc88ac",
+          "reqSigs": 1,
+          "type": "pubkeyhash",
+          "addresses": [
+            "mg8Jz5776UdyiYcBb9Z873NTozEiADRW5H"
+          ]
+        },
+        "coinbase": false,
+        "confiscation": false
+      }
+    },
+    {
+      "role": "object-two",
+      "origin": "f3864ef3b780cdaf0c5d2b77ffc1c098f07738bf8eb56b79b41f9d201861b751:0",
+      "final": "4cd43d140973d410b212f58216a3c9abaed6df35ac8a2cd3a38c7950503f1661:3",
+      "utxo": {
+        "bestblock": "5d269bf33d21364027d43398b309fff96ddb7cd3b7ba8c7ab77bed78077ea5ef",
+        "confirmations": 1,
+        "value": 1e-8,
+        "scriptPubKey": {
+          "asm": "OP_DUP OP_HASH160 06afd46bcdfd22ef94ac122aa11f241244a37ecc OP_EQUALVERIFY OP_CHECKSIG",
+          "hex": "76a91406afd46bcdfd22ef94ac122aa11f241244a37ecc88ac",
+          "reqSigs": 1,
+          "type": "pubkeyhash",
+          "addresses": [
+            "mg8Jz5776UdyiYcBb9Z873NTozEiADRW5H"
+          ]
+        },
+        "coinbase": false,
+        "confiscation": false
+      }
+    },
+    {
+      "role": "control",
+      "origin": "990beb9f0c0787ef4706f9f76826179de1c11bd032776a24dac34b16de2b7c51:0",
+      "final": "4cd43d140973d410b212f58216a3c9abaed6df35ac8a2cd3a38c7950503f1661:4",
+      "utxo": {
+        "bestblock": "5d269bf33d21364027d43398b309fff96ddb7cd3b7ba8c7ab77bed78077ea5ef",
+        "confirmations": 1,
+        "value": 1e-8,
+        "scriptPubKey": {
+          "asm": "OP_DUP OP_HASH160 06afd46bcdfd22ef94ac122aa11f241244a37ecc OP_EQUALVERIFY OP_CHECKSIG",
+          "hex": "76a91406afd46bcdfd22ef94ac122aa11f241244a37ecc88ac",
+          "reqSigs": 1,
+          "type": "pubkeyhash",
+          "addresses": [
+            "mg8Jz5776UdyiYcBb9Z873NTozEiADRW5H"
+          ]
+        },
+        "coinbase": false,
+        "confiscation": false
+      }
+    }
+  ],
+  "chain": {
+    "chain": "regtest",
+    "blocks": 126,
+    "headers": 126,
+    "bestblockhash": "5d269bf33d21364027d43398b309fff96ddb7cd3b7ba8c7ab77bed78077ea5ef",
+    "difficulty": 4.656542373906925e-10,
+    "mediantime": 1793495333,
+    "verificationprogress": 1,
+    "chainwork": "00000000000000000000000000000000000000000000000000000000000000fe",
+    "pruned": false,
+    "softforks": [
+      {
+        "id": "bip34",
+        "version": 2,
+        "reject": {
+          "status": false
+        }
+      },
+      {
+        "id": "bip66",
+        "version": 3,
+        "reject": {
+          "status": false
+        }
+      },
+      {
+        "id": "bip65",
+        "version": 4,
+        "reject": {
+          "status": false
+        }
+      },
+      {
+        "id": "csv",
+        "version": 5,
+        "reject": {
+          "status": false
+        }
+      }
+    ]
+  },
+  "boundary": "Local regtest; mandatory script rejection at mempool admission, not invalid-block testing. Ordinal identity is positional ancestry, not indexer recognition. Certificate provenance is client-only with explicit fixture issuer. Zero/negative-fee witnesses isolated from ledger overspend; actual negative-fee output tested separately in VM."
+}

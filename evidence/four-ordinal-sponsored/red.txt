@@ -1,0 +1,26 @@
+
+
+  four original ordinals with bounded external sponsorship
+    1) adds sponsor input after all five principals and pays exact positive fee through a full lifecycle
+
+
+  0 passing (84ms)
+  1 failing
+
+  1) four original ordinals with bounded external sponsorship
+       adds sponsor input after all five principals and pays exact positive fee through a full lifecycle:
+
+      AssertionError [ERR_ASSERTION]: missing external fee sponsor after five principals
+
+5 !== 6
+
+      + expected - actual
+
+      -5
+      +6
+      
+      at Context.<anonymous> (tests\four-ordinal-sponsored.test.js:19:11)
+      at process.processImmediate (node:internal/timers:504:21)
+
+
+

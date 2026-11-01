@@ -1,0 +1,21 @@
+
+
+  four original ordinals with bounded external sponsorship
+    1) uses distinct sponsor parents across custody steps
+
+
+  0 passing (492ms)
+  1 failing
+
+  1) four original ordinals with bounded external sponsorship
+       uses distinct sponsor parents across custody steps:
+
+      AssertionError [ERR_ASSERTION]: sponsor cannot be double spent across lifecycle
+      + expected - actual
+
+
+      at Context.<anonymous> (tests\four-ordinal-sponsored.test.js:30:46)
+      at process.processImmediate (node:internal/timers:504:21)
+
+
+

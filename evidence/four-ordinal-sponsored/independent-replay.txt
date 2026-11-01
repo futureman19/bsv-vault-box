@@ -1,0 +1,13 @@
+[eval]:1
+const fs=require('fs'),assert=require('assert/strict'),M=require('./src/four-ordinal-sponsored');const dir='../evidence/four-ordinal-sponsored/regtest-run-1/';const rows=fs.readFileSync(dir+'rpc.jsonl','utf8').trim().split('
+                                                                                                                                                                                                                               ^
+Expected ',', got 'string literal ().map(JSON.parse);const parents=[];for(const r of rows){if(r.method===, ').map(JSON.parse);const parents=[];for(const r of rows){if(r.method===')'
+
+SyntaxError: Invalid or unexpected token
+    at makeContextifyScript (node:internal/vm:194:14)
+    at compileScript (node:internal/process/execution:388:10)
+    at evalTypeScript (node:internal/process/execution:260:22)
+    at node:internal/main/eval_string:71:3
+
+Node.js v24.13.0
+Assertion failed: !(handle->flags & UV_HANDLE_CLOSING), file src\win\async.c, line 76
