@@ -1,0 +1,12 @@
+00:00.421  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\preview\iceland-stone-ice-v8\approved-v7.blend"
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\preview\iceland-stone-ice-v8\test_features.py", line 16, in <module>
+    (R/('features-red.json' if '--baseline' in sys.argv else 'features-check.json')).write_text(json.dumps(checks,indent=2));print(checks);assert all(checks.values())
+                                                                                                                                                  ~~~^^^^^^^^^^^^^^^^^
+AssertionError
+{'notched_all_four_sides': False, 'varied_notch_depths': False, 'retained_inner_shell': True, 'ridge_crevasses': False, 'river_cross_section': False, 'portable_fine_maps': False, 'lid_attachments': True}
+
+Error: script failed, file: 'preview/iceland-stone-ice-v8/test_features.py', exiting.
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
