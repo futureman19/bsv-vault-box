@@ -1,0 +1,26 @@
+
+
+  four independent ordinals (serialized compiled Script VM)
+    1) admits four independently existing one-sat inscriptions plus separate control
+
+
+  0 passing (3ms)
+  1 failing
+
+  1) four independent ordinals (serialized compiled Script VM)
+       admits four independently existing one-sat inscriptions plus separate control:
+
+      AssertionError [ERR_ASSERTION]: fixed bundle must contain four independent assets
+
+0 !== 4
+
+      + expected - actual
+
+      -0
+      +4
+      
+      at Context.<anonymous> (tests\four-ordinal.test.js:9:10)
+      at process.processImmediate (node:internal/timers:504:21)
+
+
+

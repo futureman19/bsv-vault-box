@@ -1,0 +1,106 @@
+
+
+  external one-ordinal paired custody (serialized Script VM)
+    ✔ deposits independently existing inscription and executes full lifecycle (138ms)
+    ✔ foreign asset substitution fails in the deposit BOX Script itself
+    ✔ sealed withdrawal is forbidden even with owner signature
+    ✔ seller cannot open transferred custody
+    ✔ seller cannot withdraw opened custody
+    ✔ wrong raw parent proof fails freshly signed VM
+    ✔ tampered raw parent bytes fail
+    ✔ wrong sibling outpoint fails VM
+    ✔ missing asset input fails
+    ✔ duplicated asset input fails
+    ✔ asset output omission fails
+    ✔ asset output substitution fails
+    ✔ asset output duplication fails
+    ✔ control output counterfeit code fails
+    ✔ one-sat principal cannot be diverted as fee
+    ✔ extra change destination fails
+    ✔ unsupported external fee input fails
+    ✔ withdrawal to seller fails with fresh buyer signature
+    ✔ copy of same-label box cannot replace original control sibling
+    ✔ a counterfeit same-label history is rejected at client origin boundary (43ms)
+    ✔ wrong initial origin rejected by history admission
+    ✔ wrong actual previous locking code cannot be overridden by witness
+    ✔ conflicting spends are rejected by ledger, not claimed as Script feature (160ms)
+    ✔ ordinal first-satoshi mapping stays unchanged at every step
+    ✔ actual primary-spec example transaction parses to the published txid
+
+  bounded sponsored external custody (serialized Script VM)
+    ✔ funds the full lifecycle without spending either principal sat (424ms)
+    ✔ keeps repeated transfer serialized witnesses bounded (1005ms)
+    ✔ uses a genuinely signed bounded P2PKH funding parent (70ms)
+    ✔ accepts exact positive fee boundaries and no-change funding (162ms)
+    ✔ rejects zero fee even with both signatures (44ms)
+    ✔ rejects fee above the 10000-sat cap even with both signatures (46ms)
+    ✔ rejects negative fee (48ms)
+    ✔ rejects change destination diversion with fresh owner and sponsor signatures (54ms)
+    ✔ rejects excess change with fresh signatures (49ms)
+    ✔ rejects missing change with fresh signatures (68ms)
+    ✔ rejects extra change outputs with fresh signatures (61ms)
+    ✔ rejects ordinal principal diversion (63ms)
+    ✔ rejects control principal diversion (48ms)
+    ✔ rejects fourth input (41ms)
+    ✔ rejects sponsor input relocation ahead of the ordinal
+    ✔ rejects wrong actual sponsor outpoint in covenant VM (50ms)
+    ✔ rejects wrong sponsor output index in covenant VM (67ms)
+    ✔ rejects tampered fundingValue witness in covenant VM (84ms)
+    ✔ rejects tampered change witness in covenant VM (72ms)
+    ✔ rejects tampered fundingLocktime witness in covenant VM (97ms)
+    ✔ rejects tampered parent witness in covenant VM (67ms)
+    ✔ rejects tampered sponsor witness in covenant VM (109ms)
+    ✔ rejects tampered sponsorSig witness in covenant VM (76ms)
+    ✔ rejects oversized parent digest (72ms)
+    ✔ rejects prefix input-count ambiguity (79ms)
+    ✔ rejects prefix output-count ambiguity (100ms)
+    ✔ rejects noncanonical/long scriptSig boundary (70ms)
+    ✔ rejects sig sighash 42 even if cryptographically signed (71ms)
+    ✔ rejects sig sighash c1 even if cryptographically signed (68ms)
+    ✔ rejects sponsorSig sighash 42 even if cryptographically signed (84ms)
+    ✔ rejects sponsorSig sighash c1 even if cryptographically signed (68ms)
+    ✔ requires the actual funding P2PKH authorization too (146ms)
+    ✔ rejects substituted sponsor locking script despite an asserted key (134ms)
+    ✔ rejects an actual two-output funding parent (124ms)
+    ✔ accepts canonical maximum 108-byte funding scriptSig and rejects 109 (264ms)
+    ✔ sponsorship does not let the former owner open or withdraw (70ms)
+    ✔ sponsorship cannot bypass sealed withdrawal or counterfeit companion code (81ms)
+    ✔ counterfeit copied-label spend is locally valid but not anchored NFT history (66ms)
+
+  four independent ordinals (serialized compiled Script VM)
+    ✔ admits four independently existing one-sat inscriptions plus separate control
+    ✔ executes pack/seal/transfer/open/withdraw and anchored replay with trusted issuer (1062ms)
+    ✔ sealed withdrawal rejected
+    ✔ former owner open rejected (70ms)
+    ✔ former owner withdrawal rejected (159ms)
+    ✔ missing input rejected
+    ✔ duplicate input rejected (106ms)
+    ✔ reordered assets rejected (56ms)
+    ✔ substituted asset rejected (69ms)
+    ✔ extra input rejected (57ms)
+    ✔ missing output rejected (47ms)
+    ✔ extra output rejected (52ms)
+    ✔ changed output owner rejected with fresh signatures (227ms)
+    ✔ changed output code rejected (86ms)
+    ✔ principal cannot become a fee (204ms)
+    ✔ principal cannot be enlarged (185ms)
+    ✔ withdrawal redirected to old owner rejected (79ms)
+    ✔ all five real covenant inputs independently reject ordered-prevout mutation (199ms)
+    ✔ admission control rejects swapped independent origins in VM (48ms)
+    ✔ same-label counterfeit can pass standalone VM but fails anchored replay (262ms)
+    ✔ forged certificate rejected at client policy boundary
+    ✔ certificate with changed origin rejected
+    ✔ unknown issuer cannot self-declare trust inside bundle (52ms)
+    ✔ explicit external policy is mandatory
+    ✔ changed initial ordered origin anchor rejected
+    ✔ immutable ordered commitment cannot change in continuation outputs (154ms)
+    ✔ a well-formed wrong-key issuer signature is rejected
+    ✔ covenant outside allowed parent output range rejects independently (44ms)
+    ✔ every ordinal slot stays one-sat in ordered ancestry
+    ✔ exported origin metadata must equal the actual transaction origin (723ms)
+    ✔ unsupported evidence format fails closed (740ms)
+    ✔ raw fixture export reproduces all transactions deterministically (2340ms)
+
+
+  95 passing (12s)
+

@@ -1,0 +1,72 @@
+
+
+  four independent ordinals (serialized compiled Script VM)
+    ✔ admits four independently existing one-sat inscriptions plus separate control
+    ✔ executes pack/seal/transfer/open/withdraw and anchored replay with trusted issuer (993ms)
+    ✔ sealed withdrawal rejected
+    ✔ former owner open rejected (54ms)
+    ✔ former owner withdrawal rejected (111ms)
+    ✔ missing input rejected
+    ✔ duplicate input rejected (75ms)
+    ✔ reordered assets rejected (41ms)
+    ✔ substituted asset rejected (54ms)
+    ✔ extra input rejected
+    ✔ missing output rejected
+    ✔ extra output rejected (57ms)
+    ✔ changed output owner rejected with fresh signatures (159ms)
+    ✔ changed output code rejected (74ms)
+    ✔ principal cannot become a fee (139ms)
+    ✔ principal cannot be enlarged (148ms)
+    ✔ withdrawal redirected to old owner rejected (43ms)
+    ✔ all five real covenant inputs independently reject ordered-prevout mutation (145ms)
+    ✔ admission control rejects swapped independent origins in VM (40ms)
+    ✔ same-label counterfeit can pass standalone VM but fails anchored replay (210ms)
+    ✔ forged certificate rejected at client policy boundary
+    ✔ certificate with changed origin rejected
+    ✔ unknown issuer cannot self-declare trust inside bundle
+    ✔ explicit external policy is mandatory
+    ✔ changed initial ordered origin anchor rejected
+    ✔ immutable ordered commitment cannot change in continuation outputs (103ms)
+    ✔ a well-formed wrong-key issuer signature is rejected
+    ✔ covenant outside allowed parent output range rejects independently (41ms)
+    ✔ every ordinal slot stays one-sat in ordered ancestry
+    1) exported origin metadata must equal the actual transaction origin
+    2) unsupported evidence format fails closed
+    ✔ raw fixture export reproduces all transactions deterministically (2207ms)
+
+
+  30 passing (7s)
+  2 failing
+
+  1) four independent ordinals (serialized compiled Script VM)
+       exported origin metadata must equal the actual transaction origin:
+
+      AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+
+true !== false
+
+      + expected - actual
+
+      -true
+      +false
+      
+      at Context.<anonymous> (tests\four-ordinal.test.js:112:10)
+      at process.processImmediate (node:internal/timers:504:21)
+
+  2) four independent ordinals (serialized compiled Script VM)
+       unsupported evidence format fails closed:
+
+      AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+
+true !== false
+
+      + expected - actual
+
+      -true
+      +false
+      
+      at Context.<anonymous> (tests\four-ordinal.test.js:116:10)
+      at process.processImmediate (node:internal/timers:504:21)
+
+
+

@@ -1,0 +1,44 @@
+
+
+  four independent ordinals (serialized compiled Script VM)
+    ✔ admits four independently existing one-sat inscriptions plus separate control
+    ✔ executes pack/seal/transfer/open/withdraw and anchored replay with trusted issuer (1009ms)
+    ✔ sealed withdrawal rejected
+    ✔ former owner open rejected (55ms)
+    ✔ former owner withdrawal rejected (114ms)
+    ✔ missing input rejected
+    ✔ duplicate input rejected (82ms)
+    ✔ reordered assets rejected (40ms)
+    ✔ substituted asset rejected (65ms)
+    ✔ extra input rejected
+    ✔ missing output rejected
+    ✔ extra output rejected (50ms)
+    ✔ changed output owner rejected with fresh signatures (146ms)
+    ✔ changed output code rejected (75ms)
+    ✔ principal cannot become a fee (153ms)
+    ✔ principal cannot be enlarged (136ms)
+    ✔ withdrawal redirected to old owner rejected (41ms)
+    ✔ all five real covenant inputs independently reject ordered-prevout mutation (147ms)
+    ✔ admission control rejects swapped independent origins in VM (40ms)
+    ✔ same-label counterfeit can pass standalone VM but fails anchored replay (188ms)
+    ✔ forged certificate rejected at client policy boundary
+    ✔ certificate with changed origin rejected
+    ✔ unknown issuer cannot self-declare trust inside bundle
+    ✔ explicit external policy is mandatory
+    ✔ changed initial ordered origin anchor rejected
+    1) raw fixture export reproduces all transactions deterministically
+
+
+  25 passing (3s)
+  1 failing
+
+  1) four independent ordinals (serialized compiled Script VM)
+       raw fixture export reproduces all transactions deterministically:
+     TypeError: Do not know how to serialize a BigInt
+      at JSON.stringify (<anonymous>)
+      at Object.vectors (src\four-ordinal.js:116:162)
+      at Context.<anonymous> (tests\four-ordinal.test.js:83:13)
+      at process.processImmediate (node:internal/timers:504:21)
+
+
+

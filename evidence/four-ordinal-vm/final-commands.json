@@ -1,0 +1,22 @@
+[
+  {
+    "command": "node node_modules/mocha/bin/mocha.js --no-config tests/ordinal-pair.test.js tests/ordinal-sponsored.test.js tests/four-ordinal.test.js",
+    "exitCode": 0,
+    "evidence": "green-all-final.txt"
+  },
+  {
+    "command": "node node_modules/mocha/bin/mocha.js --no-config tests/native-custody.test.js",
+    "exitCode": 0,
+    "evidence": "native-regression.txt"
+  },
+  {
+    "command": "node scripts/ordinal-pair-vectors.js",
+    "exitCode": 0,
+    "evidence": "original-vectors.txt"
+  },
+  {
+    "command": "node scripts/ordinal-sponsored-vectors.js",
+    "exitCode": 0,
+    "evidence": "original-sponsored-vectors.txt"
+  }
+]
