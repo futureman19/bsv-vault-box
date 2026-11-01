@@ -1,0 +1,158 @@
+{
+  "blender": "5.2.1 LTS",
+  "backend": "OPTIX NVIDIA GeForce RTX 4060",
+  "samples": 64,
+  "dimensions": [
+    3000,
+    3000
+  ],
+  "asset_geometry_uv_material_fingerprint": "cf474c095716842ddb670a98c84bb33dd464f087b40e3bca69e8527533302033",
+  "asset_fingerprint_preserved_all_shots": true,
+  "all_approved_files_byte_preserved": true,
+  "source": "C:\\Users\\futur\\Desktop\\bsv-vault-box\\preview\\iceland-lightweight-v3",
+  "shots": [
+    {
+      "name": "01-closed-hero",
+      "location": [
+        5,
+        -7,
+        4.8
+      ],
+      "target": [
+        0,
+        0,
+        0.9
+      ],
+      "scale": 5.7,
+      "lid": 0,
+      "latch": 0
+    },
+    {
+      "name": "02-open-hero",
+      "location": [
+        5,
+        -8,
+        5.3
+      ],
+      "target": [
+        0,
+        0.1,
+        1.65
+      ],
+      "scale": 6.5,
+      "lid": -105,
+      "latch": -80,
+      "fitted_location": [
+        5.111976623535156,
+        -7.671664714813232,
+        5.875242710113525
+      ],
+      "fitted_scale": 7.076946258544922
+    },
+    {
+      "name": "03-material-macro",
+      "location": [
+        4,
+        -6,
+        4.8
+      ],
+      "target": [
+        0.75,
+        -0.62,
+        1.31
+      ],
+      "scale": 2.65,
+      "lid": 0,
+      "latch": 0
+    }
+  ],
+  "lights": [
+    {
+      "name": "large neutral key",
+      "location": [
+        -3,
+        -4,
+        6
+      ],
+      "power_w": 1250,
+      "color": [
+        0.93,
+        0.97,
+        1
+      ],
+      "size": 4.5,
+      "size_y": 3,
+      "target": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "soft front fill",
+      "location": [
+        3,
+        -5,
+        3.3
+      ],
+      "power_w": 700,
+      "color": [
+        0.87,
+        0.93,
+        1
+      ],
+      "size": 4,
+      "size_y": 4,
+      "target": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "neutral rim",
+      "location": [
+        3,
+        3,
+        5
+      ],
+      "power_w": 1500,
+      "color": [
+        1,
+        0.94,
+        0.84
+      ],
+      "size": 3,
+      "size_y": 4,
+      "target": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "lid strip",
+      "location": [
+        -1,
+        2,
+        6
+      ],
+      "power_w": 650,
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "size": 4,
+      "size_y": 1.2,
+      "target": [
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "exposure": 0.25,
+  "view_transform": "AgX",
+  "notes": "Original editable source with packed approved textures; no collectible material, geometry or texture edits. Open pose from motion.mjs endpoint: lid -105 deg, latch -80 deg. Studio floor retained from source; camera/lights/world changed."
+}
