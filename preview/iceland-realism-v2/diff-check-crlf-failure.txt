@@ -1,0 +1,356 @@
+preview/iceland-realism-v2/author.py:1: trailing whitespace.
++"""Authored procedural geometry, not exact image reconstruction. Regeneration overwrites outputs."""
+preview/iceland-realism-v2/author.py:2: trailing whitespace.
++import bpy, math, random
+preview/iceland-realism-v2/author.py:3: trailing whitespace.
++from pathlib import Path
+preview/iceland-realism-v2/author.py:4: trailing whitespace.
++from mathutils import Vector
+preview/iceland-realism-v2/author.py:5: trailing whitespace.
++ROOT=Path(__file__).resolve().parent
+preview/iceland-realism-v2/author.py:6: trailing whitespace.
++random.seed(73)
+preview/iceland-realism-v2/author.py:7: trailing whitespace.
++bpy.ops.object.select_all(action='SELECT'); bpy.ops.object.delete(use_global=False)
+preview/iceland-realism-v2/author.py:8: trailing whitespace.
++for d in list(bpy.data.materials): bpy.data.materials.remove(d)
+preview/iceland-realism-v2/author.py:9: trailing whitespace.
++def material(name,c,metal=0,rough=.5,emission=0):
+preview/iceland-realism-v2/author.py:10: trailing whitespace.
++ m=bpy.data.materials.new(name); m.diffuse_color=(*c,1);m.use_nodes=True
+preview/iceland-realism-v2/author.py:11: trailing whitespace.
++ p=m.node_tree.nodes.get('Principled BSDF');p.inputs['Base Color'].default_value=(*c,1);p.inputs['Metallic'].default_value=metal;p.inputs['Roughness'].default_value=rough
+preview/iceland-realism-v2/author.py:12: trailing whitespace.
++ if emission:p.inputs['Emission Color'].default_value=(*c,1);p.inputs['Emission Strength'].default_value=emission
+preview/iceland-realism-v2/author.py:13: trailing whitespace.
++ return m
+preview/iceland-realism-v2/author.py:14: trailing whitespace.
++stones=[material('Basalt / facet %02d'%i,(.016+i*.003,.021+i*.003,.026+i*.003),.04,.78) for i in range(5)]
+preview/iceland-realism-v2/author.py:15: trailing whitespace.
++obsidian=material('Polished blue-black lid',(.018,.028,.036),.28,.29)
+preview/iceland-realism-v2/author.py:16: trailing whitespace.
++inside=material('Dark stone interior',(.018,.024,.029),.1,.65)
+preview/iceland-realism-v2/author.py:17: trailing whitespace.
++brass=material('Aged satin brass',(.39,.25,.095),.78,.31)
+preview/iceland-realism-v2/author.py:18: trailing whitespace.
++blue=material('Glacier mineral',(.10,.48,.64),.25,.28,.65)
+preview/iceland-realism-v2/author.py:19: trailing whitespace.
++parts=[]
+preview/iceland-realism-v2/author.py:20: trailing whitespace.
++def finish(o,name,mat,parent=None):
+preview/iceland-realism-v2/author.py:21: trailing whitespace.
++ o.name=name;o.data.materials.append(mat);parts.append(o)
+preview/iceland-realism-v2/author.py:22: trailing whitespace.
++ if parent:
+preview/iceland-realism-v2/author.py:23: trailing whitespace.
++  matrix=o.matrix_world.copy();o.parent=parent;o.matrix_world=matrix
+preview/iceland-realism-v2/author.py:24: trailing whitespace.
++ return o
+preview/iceland-realism-v2/author.py:25: trailing whitespace.
++def cube(name,loc,scale,mat,bevel=.03,parent=None):
+preview/iceland-realism-v2/author.py:26: trailing whitespace.
++ bpy.ops.mesh.primitive_cube_add(size=1,location=loc);o=bpy.context.object;o.dimensions=scale;bpy.ops.object.transform_apply(location=False,rotation=False,scale=True)
+preview/iceland-realism-v2/author.py:27: trailing whitespace.
++ if bevel:
+preview/iceland-realism-v2/author.py:28: trailing whitespace.
++  mod=o.modifiers.new('Soft worked edges','BEVEL');mod.width=min(bevel,min(scale)*.35);mod.segments=3
+preview/iceland-realism-v2/author.py:29: trailing whitespace.
++  o.modifiers.new('Weighted face normals','WEIGHTED_NORMAL')
+preview/iceland-realism-v2/author.py:30: trailing whitespace.
++ return finish(o,name,mat,parent)
+preview/iceland-realism-v2/author.py:31: trailing whitespace.
++def cyl(name,loc,r,depth,mat,rotation=(0,0,0),parent=None,vertices=24):
+preview/iceland-realism-v2/author.py:32: trailing whitespace.
++ bpy.ops.mesh.primitive_cylinder_add(vertices=vertices,radius=r,depth=depth,location=loc,rotation=rotation)
+preview/iceland-realism-v2/author.py:33: trailing whitespace.
++ o=finish(bpy.context.object,name,mat,parent);mod=o.modifiers.new('Turned edge','BEVEL');mod.width=min(.012,depth*.2);mod.segments=2;o.modifiers.new('Normals','WEIGHTED_NORMAL');return o
+preview/iceland-realism-v2/author.py:34: trailing whitespace.
++def line(name,points,r,mat,parent=None):
+preview/iceland-realism-v2/author.py:35: trailing whitespace.
++ c=bpy.data.curves.new(name,'CURVE');c.dimensions='3D';c.bevel_depth=r;c.bevel_resolution=1
+preview/iceland-realism-v2/author.py:36: trailing whitespace.
++ s=c.splines.new('POLY');s.points.add(len(points)-1)
+preview/iceland-realism-v2/author.py:37: trailing whitespace.
++ for p,co in zip(s.points,points):p.co=(*co,1)
+preview/iceland-realism-v2/author.py:38: trailing whitespace.
++ o=bpy.data.objects.new(name,c);bpy.context.collection.objects.link(o)
+preview/iceland-realism-v2/author.py:39: trailing whitespace.
++ # Mesh conversion makes exported mineral geometry explicit.
+preview/iceland-realism-v2/author.py:40: trailing whitespace.
++ bpy.context.view_layer.objects.active=o;o.select_set(True);bpy.ops.object.convert(target='MESH');o=bpy.context.object;o.select_set(False)
+preview/iceland-realism-v2/author.py:41: trailing whitespace.
++ return finish(o,name,mat,parent)
+preview/iceland-realism-v2/author.py:42: trailing whitespace.
++def empty(name,loc,parent=None):
+preview/iceland-realism-v2/author.py:43: trailing whitespace.
++ o=bpy.data.objects.new(name,None);bpy.context.collection.objects.link(o);o.location=loc
+preview/iceland-realism-v2/author.py:44: trailing whitespace.
++ if parent:
+preview/iceland-realism-v2/author.py:45: trailing whitespace.
++  bpy.context.view_layer.update();mw=o.matrix_world.copy();o.parent=parent;o.matrix_world=mw
+preview/iceland-realism-v2/author.py:46: trailing whitespace.
++ return o
+preview/iceland-realism-v2/author.py:47: trailing whitespace.
++# Fully hollow, continuous structural liner; exposed faceted cladding outside.
+preview/iceland-realism-v2/author.py:48: trailing whitespace.
++cube('Interior floor',(0,0,.15),(3.42,2.12,.23),inside)
+preview/iceland-realism-v2/author.py:49: trailing whitespace.
++for y in [-.99,.99]:cube('Interior wall / front' if y<0 else 'Interior wall / rear',(0,y,.8),(3.42,.16,1.24),inside,.025)
+preview/iceland-realism-v2/author.py:50: trailing whitespace.
++for x in [-1.62,1.62]:cube('Interior wall / end',(x,0,.8),(.16,1.9,1.24),inside,.025)
+preview/iceland-realism-v2/author.py:51: trailing whitespace.
++# Irregular vertical polygon columns, angular cross-sections and staggered strata.
+preview/iceland-realism-v2/author.py:52: trailing whitespace.
++def column(name,x,y,rx,ry):
+preview/iceland-realism-v2/author.py:53: trailing whitespace.
++ n=6;verts=[]
+preview/iceland-realism-v2/author.py:54: trailing whitespace.
++ ring=[(math.cos(math.tau*j/n)*rx*(1+random.uniform(-.10,.10)),math.sin(math.tau*j/n)*ry*(1+random.uniform(-.1,.1))) for j in range(n)]
+preview/iceland-realism-v2/author.py:55: trailing whitespace.
++ levels=[.06,.51+random.uniform(-.14,.14),1.02+random.uniform(-.12,.12),1.405]
+preview/iceland-realism-v2/author.py:56: trailing whitespace.
++ for k,z in enumerate(levels):
+preview/iceland-realism-v2/author.py:57: trailing whitespace.
++  for a,b in ring:verts.append((x+a*(1 if k in [0,3] else random.uniform(.87,1.08)),y+b,z))
+preview/iceland-realism-v2/author.py:58: trailing whitespace.
++ faces=[tuple(reversed(range(n))),tuple(range(3*n,4*n))]
+preview/iceland-realism-v2/author.py:59: trailing whitespace.
++ for k in range(3):
+preview/iceland-realism-v2/author.py:60: trailing whitespace.
++  for j in range(n):faces.append((k*n+j,k*n+(j+1)%n,(k+1)*n+(j+1)%n,(k+1)*n+j))
+preview/iceland-realism-v2/author.py:61: trailing whitespace.
++ mesh=bpy.data.meshes.new(name);mesh.from_pydata(verts,[],faces);mesh.update();o=bpy.data.objects.new(name,mesh);bpy.context.collection.objects.link(o)
+preview/iceland-realism-v2/author.py:62: trailing whitespace.
++ for m in stones:mesh.materials.append(m)
+preview/iceland-realism-v2/author.py:63: trailing whitespace.
++ for f in mesh.polygons:f.material_index=random.randrange(len(stones))
+preview/iceland-realism-v2/author.py:64: trailing whitespace.
++ parts.append(o)
+preview/iceland-realism-v2/author.py:65: trailing whitespace.
++for y in [-1.07,1.07]:
+preview/iceland-realism-v2/author.py:66: trailing whitespace.
++ for i in range(12):column('Basalt column / long %s %02d'%(y,i),-1.61+i*.293,y,.177,.177)
+preview/iceland-realism-v2/author.py:67: trailing whitespace.
++for x in [-1.65,1.65]:
+preview/iceland-realism-v2/author.py:68: trailing whitespace.
++ for i in range(6):column('Basalt column / end %s %02d'%(x,i),x,-.77+i*.31,.17,.19)
+preview/iceland-realism-v2/author.py:69: trailing whitespace.
++# Fixed lip is below the lid swept volume.
+preview/iceland-realism-v2/author.py:70: trailing whitespace.
++for y in [-1.08,1.08]:cube('Glacial seam / rim',(0,y,1.435),(3.48,.028,.018),blue,.004)
+preview/iceland-realism-v2/author.py:71: trailing whitespace.
++for x in [-1.73,1.73]:cube('Glacial seam / end',(x,0,1.435),(.028,2.16,.018),blue,.004)
+preview/iceland-realism-v2/author.py:72: trailing whitespace.
++lid=empty('Lid_Hinge',(0,1.32,1.5));lid['mechanism']='negative local X, 0 to -105 degrees; latch releases first'
+preview/iceland-realism-v2/author.py:73: trailing whitespace.
++cube('Lid / polished slab',(0,0,1.66),(3.72,2.38,.30),obsidian,.09,lid)
+preview/iceland-realism-v2/author.py:74: trailing whitespace.
++cube('Lid / recessed inner face',(0,0,1.509),(3.31,1.98,.018),inside,.005,lid)
+preview/iceland-realism-v2/author.py:75: trailing whitespace.
++# Sparse irregular blue mineral, not a broad neon panel.
+preview/iceland-realism-v2/author.py:76: trailing whitespace.
++line('Lid / glacial fault',[(-1.81,.2,1.72),(-1.65,.18,1.812),(-1.15,.24,1.812),(-.82,.10,1.812),(-.32,.16,1.812),(.12,.06,1.812),(.43,.16,1.812),(.78,.11,1.812)],.009,blue,lid)
+preview/iceland-realism-v2/author.py:77: trailing whitespace.
++line('Lid / fault branch',[(-.82,.1,1.812),(-.71,.44,1.812),(-.5,.65,1.812)],.005,blue,lid)
+preview/iceland-realism-v2/author.py:78: trailing whitespace.
++for x in [-1.66,1.66]:
+preview/iceland-realism-v2/author.py:79: trailing whitespace.
++ for y in [-1.0,1.0]:
+preview/iceland-realism-v2/author.py:80: trailing whitespace.
++  cube('Lid / brass corner',(x,y,1.814),(.32,.31,.045),brass,.014,lid)
+preview/iceland-realism-v2/author.py:81: trailing whitespace.
++  cyl('Lid / corner rivet',(x,y,1.844),.035,.022,brass,parent=lid)
+preview/iceland-realism-v2/author.py:82: trailing whitespace.
++  cube('Foot / brass shoe',(x,y,.10),(.26,.26,.16),brass,.04)
+preview/iceland-realism-v2/author.py:83: trailing whitespace.
++for x in [-1.13,1.13]:
+preview/iceland-realism-v2/author.py:84: trailing whitespace.
++ # Barrels coaxial with exact hinge pivot; mounting ears are wholly behind body.
+preview/iceland-realism-v2/author.py:85: trailing whitespace.
++ cyl('Hinge / fixed barrel',(x,1.32,1.50),.075,.42,brass,(0,math.pi/2,0))
+preview/iceland-realism-v2/author.py:86: trailing whitespace.
++ cube('Hinge / fixed mount',(x,1.265,1.23),(.29,.06,.35),brass,.02)
+preview/iceland-realism-v2/author.py:87: trailing whitespace.
++ cube('Hinge / moving leaf',(x,1.25,1.59),(.28,.18,.18),brass,.015,lid)
+preview/iceland-realism-v2/author.py:88: trailing whitespace.
++cube('Latch / keeper',(0,-1.30,1.12),(.35,.09,.20),brass,.025)
+preview/iceland-realism-v2/author.py:89: trailing whitespace.
++latch=empty('Latch_Pivot',(0,-1.29,1.72),lid)
+preview/iceland-realism-v2/author.py:90: trailing whitespace.
++cyl('Latch / rotating knuckle',(0,-1.29,1.72),.073,.23,brass,(0,math.pi/2,0),latch)
+preview/iceland-realism-v2/author.py:91: trailing whitespace.
++cube('Latch / hinge bridge',(0,-1.36,1.70),(.24,.14,.06),brass,.012,latch)
+preview/iceland-realism-v2/author.py:92: trailing whitespace.
++cube('Latch / lifting hasp',(0,-1.425,1.40),(.24,.065,.60),brass,.022,latch)
+preview/iceland-realism-v2/author.py:93: trailing whitespace.
++cube('Latch / raised face',(0,-1.47,1.31),(.16,.035,.19),brass,.012,latch)
+preview/iceland-realism-v2/author.py:94: trailing whitespace.
++cyl('Latch / pin',(0,-1.30,1.72),.058,.34,brass,(0,math.pi/2,0),lid)
+preview/iceland-realism-v2/author.py:95: trailing whitespace.
++cyl('Medallion / decorative round',(0,-1.285,.69),.135,.048,brass,(math.pi/2,0,0))
+preview/iceland-realism-v2/author.py:96: trailing whitespace.
++cyl('Medallion / inset',(0,-1.313,.69),.095,.012,obsidian,(math.pi/2,0,0))
+preview/iceland-realism-v2/author.py:97: trailing whitespace.
++# Small abstract geological notch, no authenticity seal iconography.
+preview/iceland-realism-v2/author.py:98: trailing whitespace.
++line('Medallion / mountain',[(-.06,-1.325,.66),(0,-1.325,.73),(.06,-1.325,.66)],.008,brass)
+preview/iceland-realism-v2/author.py:99: trailing whitespace.
++# Lighting and camera are source-only, not part of collectible export.
+preview/iceland-realism-v2/author.py:100: trailing whitespace.
++scene=bpy.context.scene;scene.render.engine='CYCLES';scene.cycles.samples=40;scene.cycles.use_denoising=True
+preview/iceland-realism-v2/author.py:101: trailing whitespace.
++scene.world.color=(.20,.20,.20)
+preview/iceland-realism-v2/author.py:102: trailing whitespace.
++def area(name,loc,power,color,size):
+preview/iceland-realism-v2/author.py:103: trailing whitespace.
++ bpy.ops.object.light_add(type='AREA',location=loc);o=bpy.context.object;o.name=name;o.data.energy=power;o.data.color=color;o.data.shape='DISK';o.data.size=size;o.rotation_euler=(Vector((0,0,.8))-o.location).to_track_quat('-Z','Y').to_euler()
+preview/iceland-realism-v2/author.py:104: trailing whitespace.
++area('Studio / key',(-3,-4,6),1000,(.80,.91,1),5)
+preview/iceland-realism-v2/author.py:105: trailing whitespace.
++area('Studio / gold rim',(4,2,4),1100,(1,.77,.46),4)
+preview/iceland-realism-v2/author.py:106: trailing whitespace.
++area('Studio / front',(1,-5,2.8),500,(.65,.80,1),3)
+preview/iceland-realism-v2/author.py:107: trailing whitespace.
++bpy.ops.object.camera_add(location=(5,-7,4.7));cam=bpy.context.object;cam.name='Poster camera';cam.rotation_euler=(Vector((0,0,.9))-cam.location).to_track_quat('-Z','Y').to_euler();cam.data.type='ORTHO';cam.data.ortho_scale=5.65;scene.camera=cam
+preview/iceland-realism-v2/author.py:108: trailing whitespace.
++scene.render.resolution_x=1500;scene.render.resolution_y=1200;scene.render.resolution_percentage=100
+preview/iceland-realism-v2/author.py:109: trailing whitespace.
++scene.render.image_settings.file_format='PNG';scene.render.film_transparent=True
+preview/iceland-realism-v2/author.py:110: trailing whitespace.
++scene.view_settings.view_transform='AgX'
+preview/iceland-realism-v2/author.py:111: trailing whitespace.
++# Studio floor deliberately excluded from GLB, and collision contract.
+preview/iceland-realism-v2/author.py:112: trailing whitespace.
++floor=cube('Studio / shadow floor',(0,0,-.045),(200,200,.04),material('Studio charcoal',(.018,.023,.029)),0);parts.remove(floor)
+preview/iceland-realism-v2/author.py:113: trailing whitespace.
++# V2 portable PBR and bounded exterior edge treatment.
+preview/iceland-realism-v2/author.py:114: trailing whitespace.
++exec(compile((ROOT/'upgrade.py').read_text(),str(ROOT/'upgrade.py'),'exec'))
+preview/iceland-realism-v2/author.py:115: trailing whitespace.
++# Save independent editable source before exporting.
+preview/iceland-realism-v2/author.py:116: trailing whitespace.
++bpy.ops.wm.save_as_mainfile(filepath=str(ROOT/'iceland.blend'))
+preview/iceland-realism-v2/author.py:117: trailing whitespace.
++bpy.ops.object.select_all(action='DESELECT')
+preview/iceland-realism-v2/author.py:118: trailing whitespace.
++for o in parts+[lid,latch]:o.select_set(True)
+preview/iceland-realism-v2/author.py:119: trailing whitespace.
++bpy.context.view_layer.objects.active=lid
+preview/iceland-realism-v2/author.py:120: trailing whitespace.
++bpy.ops.export_scene.gltf(filepath=str(ROOT/'iceland.glb'),export_format='GLB',use_selection=True,export_apply=True,export_animations=False)
+preview/iceland-realism-v2/author.py:121: trailing whitespace.
++scene.render.filepath=str(ROOT/'poster.png');bpy.ops.render.render(write_still=True)
+preview/iceland-realism-v2/author.py:122: trailing whitespace.
++print('ICELAND_EXPORT_COMPLETE',len(parts))
+preview/iceland-realism-v2/build.py:1: trailing whitespace.
++import subprocess, base64, shutil, os
+preview/iceland-realism-v2/build.py:2: trailing whitespace.
++from pathlib import Path
+preview/iceland-realism-v2/build.py:3: trailing whitespace.
++ROOT=Path(__file__).resolve().parent
+preview/iceland-realism-v2/build.py:4: trailing whitespace.
++DEPS=ROOT/'node_modules'
+preview/iceland-realism-v2/build.py:5: trailing whitespace.
++if not DEPS.exists():DEPS=ROOT/'../iceland-pilot/node_modules'
+preview/iceland-realism-v2/build.py:6: trailing whitespace.
++os.environ['NODE_PATH']=str(DEPS.resolve())
+preview/iceland-realism-v2/build.py:7: trailing whitespace.
++node=shutil.which('node')
+preview/iceland-realism-v2/build.py:8: trailing whitespace.
++
+preview/iceland-realism-v2/build.py:9: trailing whitespace.
++subprocess.run([str(DEPS/'@esbuild/win32-x64/esbuild.exe'),str(ROOT/'viewer.js'),'--bundle','--minify','--format=iife','--outfile='+str(ROOT/'viewer.bundle.js')],check=True)
+preview/iceland-realism-v2/build.py:10: trailing whitespace.
++html=(ROOT/'template.html').read_text(encoding='utf8').replace('{{POSTER}}',base64.b64encode((ROOT/'poster.png').read_bytes()).decode()).replace('{{GLB}}',base64.b64encode((ROOT/'iceland.glb').read_bytes()).decode()).replace('{{BUNDLE}}',(ROOT/'viewer.bundle.js').read_text().replace('</script','<\\/script'))
+preview/iceland-realism-v2/build.py:11: trailing whitespace.
++(ROOT/'iceland-realism-v2.html').write_text(html,encoding='utf8')
+preview/iceland-realism-v2/build.py:12: trailing whitespace.
++shutil.copyfile(DEPS/'three/LICENSE',ROOT/'THREE-LICENSE.txt')
+preview/iceland-realism-v2/build.py:13: trailing whitespace.
++print('Built offline HTML:',(ROOT/'iceland-realism-v2.html').stat().st_size)
+preview/iceland-realism-v2/verify_browser.py:1: trailing whitespace.
++from pathlib import Path
+preview/iceland-realism-v2/verify_browser.py:2: trailing whitespace.
++from playwright.sync_api import sync_playwright
+preview/iceland-realism-v2/verify_browser.py:3: trailing whitespace.
++import json, math
+preview/iceland-realism-v2/verify_browser.py:4: trailing whitespace.
++ROOT=Path(__file__).resolve().parent
+preview/iceland-realism-v2/verify_browser.py:5: trailing whitespace.
++results=[]
+preview/iceland-realism-v2/verify_browser.py:6: trailing whitespace.
++with sync_playwright() as pw:
+preview/iceland-realism-v2/verify_browser.py:7: trailing whitespace.
++ browser=pw.chromium.launch(channel='msedge',headless=True,args=['--allow-file-access-from-files'])
+preview/iceland-realism-v2/verify_browser.py:8: trailing whitespace.
++ for name,width,height,mobile in [('desktop',1440,1080,False),('mobile',390,844,True)]:
+preview/iceland-realism-v2/verify_browser.py:9: trailing whitespace.
++  context=browser.new_context(viewport={'width':width,'height':height},is_mobile=mobile,has_touch=mobile,offline=True,device_scale_factor=1)
+preview/iceland-realism-v2/verify_browser.py:10: trailing whitespace.
++  page=context.new_page();errors=[];requests=[];page.on('pageerror',lambda e:errors.append(str(e)));page.on('console',lambda m:errors.append(m.text) if m.type=='error' else None);page.on('request',lambda r:requests.append(r.url) if r.url.startswith(('http:','https:')) else None)
+preview/iceland-realism-v2/verify_browser.py:11: trailing whitespace.
++  page.goto((ROOT/'iceland-realism-v2.html').as_uri());page.wait_for_function('window.pilot?.ready===true',timeout=25000);page.wait_for_timeout(250)
+preview/iceland-realism-v2/verify_browser.py:12: trailing whitespace.
++  asset=page.evaluate('window.pilot.asset');assert asset['degenerate']==0 and asset['nonfinite']==0
+preview/iceland-realism-v2/verify_browser.py:13: trailing whitespace.
++  assert page.evaluate('document.documentElement.scrollWidth<=innerWidth')
+preview/iceland-realism-v2/verify_browser.py:14: trailing whitespace.
++  page.screenshot(path=str(ROOT/(name+'-closed.png')),full_page=True)
+preview/iceland-realism-v2/verify_browser.py:15: trailing whitespace.
++  initial=page.evaluate('pilot.rotation');box=page.locator('canvas').bounding_box();x=box['x']+box['width']*.5;y=box['y']+box['height']*.5
+preview/iceland-realism-v2/verify_browser.py:16: trailing whitespace.
++  if mobile:
+preview/iceland-realism-v2/verify_browser.py:17: trailing whitespace.
++   cdp=context.new_cdp_session(page);cdp.send('Input.dispatchTouchEvent',{'type':'touchStart','touchPoints':[{'x':x,'y':y}]});cdp.send('Input.dispatchTouchEvent',{'type':'touchMove','touchPoints':[{'x':x+75,'y':y+10}]});cdp.send('Input.dispatchTouchEvent',{'type':'touchEnd','touchPoints':[]})
+preview/iceland-realism-v2/verify_browser.py:18: trailing whitespace.
++  else:
+preview/iceland-realism-v2/verify_browser.py:19: trailing whitespace.
++   page.mouse.move(x,y);page.mouse.down();page.mouse.move(x+130,y+20,steps=8);page.mouse.up()
+preview/iceland-realism-v2/verify_browser.py:20: trailing whitespace.
++  page.wait_for_timeout(100);assert abs(page.evaluate('pilot.rotation')-initial)>.1
+preview/iceland-realism-v2/verify_browser.py:21: trailing whitespace.
++  page.locator('#reset').click();page.wait_for_timeout(100);assert abs(page.evaluate('pilot.rotation')-initial)<1e-6
+preview/iceland-realism-v2/verify_browser.py:22: trailing whitespace.
++  page.locator('#open').click();page.wait_for_function('pilot.progress===1');assert abs(page.evaluate('pilot.lid')+math.radians(105))<1e-6
+preview/iceland-realism-v2/verify_browser.py:23: trailing whitespace.
++  projected=page.evaluate("""(()=>{let max=0;pilot.root.updateMatrixWorld(true);pilot.root.traverse(o=>{if(!o.isMesh)return;let p=o.geometry.attributes.position,v=pilot.root.position.clone();for(let i=0;i<p.count;i++){v.fromBufferAttribute(p,i).applyMatrix4(o.matrixWorld).project(pilot.camera);max=Math.max(max,Math.abs(v.x),Math.abs(v.y));}});return max})()""")
+preview/iceland-realism-v2/verify_browser.py:24: trailing whitespace.
++  assert projected<1, f'Open model clipped: {projected}'
+preview/iceland-realism-v2/verify_browser.py:25: trailing whitespace.
++  asset['open_projection_max_abs_ndc']=projected
+preview/iceland-realism-v2/verify_browser.py:26: trailing whitespace.
++  page.screenshot(path=str(ROOT/(name+'-open.png')),full_page=True)
+preview/iceland-realism-v2/verify_browser.py:27: trailing whitespace.
++  page.locator('#open').click();page.wait_for_function('pilot.progress===0')
+preview/iceland-realism-v2/verify_browser.py:28: trailing whitespace.
++  page.locator('#open').click();page.wait_for_timeout(120);page.locator('#reset').click();page.wait_for_timeout(1100);assert page.evaluate('pilot.progress')==0
+preview/iceland-realism-v2/verify_browser.py:29: trailing whitespace.
++  page.emulate_media(reduced_motion='reduce');page.locator('#open').click();page.wait_for_timeout(70);assert page.evaluate('pilot.progress')==1
+preview/iceland-realism-v2/verify_browser.py:30: trailing whitespace.
++  page.locator('#reset').click();page.wait_for_timeout(60);assert page.evaluate('pilot.progress')==0
+preview/iceland-realism-v2/verify_browser.py:31: trailing whitespace.
++  assert not errors and not requests
+preview/iceland-realism-v2/verify_browser.py:32: trailing whitespace.
++  results.append({'case':name,'asset':asset,'offline_file':True,'external_requests':requests,'errors':errors,'rotation':True,'touch_rotation':mobile,'open_close':True,'reset_mid_motion':True,'reduced_motion':True,'overflow':False,'webgl':page.evaluate("(()=>{let gl=pilot.renderer.getContext(),e=gl.getExtension('WEBGL_debug_renderer_info');return e?gl.getParameter(e.UNMASKED_RENDERER_WEBGL):gl.getParameter(gl.RENDERER)})()")})
+preview/iceland-realism-v2/verify_browser.py:33: trailing whitespace.
++  context.close()
+preview/iceland-realism-v2/verify_browser.py:34: trailing whitespace.
++ # Corrupt actual embedded GLB input before GLTFLoader.parse, not a bypass flag.
+preview/iceland-realism-v2/verify_browser.py:35: trailing whitespace.
++ context=browser.new_context(offline=True,viewport={'width':390,'height':844})
+preview/iceland-realism-v2/verify_browser.py:36: trailing whitespace.
++ context.add_init_script("const original=window.atob;window.atob=function(s){return s.startsWith('Z2xURg')?'invalid glb bytes':original(s)}")
+preview/iceland-realism-v2/verify_browser.py:37: trailing whitespace.
++ page=context.new_page();errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
+preview/iceland-realism-v2/verify_browser.py:38: trailing whitespace.
++ page.goto((ROOT/'iceland-realism-v2.html').as_uri());page.wait_for_function("document.querySelector('#status').textContent.includes('unavailable')")
+preview/iceland-realism-v2/verify_browser.py:39: trailing whitespace.
++ assert page.locator('#fallback').is_visible() and page.locator('#open').is_disabled();assert not errors
+preview/iceland-realism-v2/verify_browser.py:40: trailing whitespace.
++ page.screenshot(path=str(ROOT/'mobile-fallback.png'),full_page=True)
+preview/iceland-realism-v2/verify_browser.py:41: trailing whitespace.
++ results.append({'case':'corrupted GLB','fallback':True,'unhandled_errors':errors,'caught_loader_errors':page.evaluate('pilot.errors')})
+preview/iceland-realism-v2/verify_browser.py:42: trailing whitespace.
++ context.close();browser.close()
+preview/iceland-realism-v2/verify_browser.py:43: trailing whitespace.
++(ROOT/'browser-check.json').write_text(json.dumps(results,indent=2));print(json.dumps(results,indent=2))
