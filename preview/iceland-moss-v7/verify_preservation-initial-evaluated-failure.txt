@@ -1,0 +1,14 @@
+00:00.406  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\preview\iceland-polished-v6\iceland.blend"
+C:\Users\futur\Desktop\bsv-vault-box\preview\iceland-moss-v7\verify_preservation.py:22: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  if not m.use_nodes:continue
+00:00.593  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\preview\iceland-moss-v7\iceland.blend"
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\preview\iceland-moss-v7\verify_preservation.py", line 32, in <module>
+    assert all(b[kind].get(n)==v for n,v in records.items()),[kind,[n for n,v in records.items() if b[kind].get(n)!=v]]
+           ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ['objects', ['Clasp / keeper mounting ear', 'Clasp / keeper mounting ear.001', 'Clasp / keeper screw', 'Clasp / keeper screw.001', 'Hinge / bearing mounting stem', 'Hinge / bearing mounting stem.001', 'Hinge / body attachment bridge', 'Hinge / body attachment bridge.001', 'Hinge / fixed barrel', 'Hinge / fixed barrel.001', 'Interior floor', 'Interior wall / end', 'Interior wall / end.001', 'Interior wall / front', 'Interior wall / rear', 'Latch / hinge bridge', 'Latch / pin', 'Lid / recessed inner face', 'Ring / mounting stud', 'Ring / mounting stud.002', 'Strap rivet / domed', 'Strap rivet / domed.001', 'Strap rivet / domed.002', 'Strap rivet / domed.003', 'Strap rivet / domed.004', 'Strap rivet / domed.005', 'Strap rivet / domed.006', 'Strap rivet / domed.007', 'Strap rivet / domed.008', 'Strap rivet / domed.009', 'Strap rivet / domed.010', 'Strap rivet / domed.013', 'Strap rivet / domed.014', 'Strap rivet / domed.015', 'Strap rivet / domed.016', 'Strap rivet / domed.017', 'Strap rivet / domed.021', 'Strap rivet / domed.022', 'Strap rivet / domed.024', 'Strap rivet / domed.027', 'Strap rivet / domed.028', 'Strap rivet / domed.029', 'Strap rivet / domed.030', 'Strap rivet / domed.031']]
+
+Error: script failed, file: 'preview/iceland-moss-v7/verify_preservation.py', exiting.
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

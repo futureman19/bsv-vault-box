@@ -1,0 +1,14 @@
+00:00.781  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\preview\iceland-polished-v6\iceland.blend"
+C:\Users\futur\Desktop\bsv-vault-box\preview\iceland-moss-v7\verify_preservation.py:29: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  if not m.use_nodes:continue
+00:00.938  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\preview\iceland-moss-v7\iceland.blend"
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\preview\iceland-moss-v7\verify_preservation.py", line 74, in <module>
+    bad=[n for n,v in g[kind].items() if h[kind].get(n)!=v];assert not bad,(kind,bad)
+                                                                   ^^^^^^^
+AssertionError: ('meshes', ['Cube.020', 'Cube.017', 'Cube.019', 'Cube.016', 'Cube.010', 'Cube.003', 'Cube.012', 'Cube.007', 'Cylinder', 'Cylinder.008', 'Cylinder.009', 'Cylinder.011', 'Cylinder.016', 'Cylinder.017', 'Cylinder.018', 'Cylinder.024', 'Cylinder.026', 'Cylinder.027', 'Cylinder.037', 'Cylinder.039', 'Cylinder.004', 'Cylinder.005', 'Cylinder.007', 'Cylinder.012', 'Cylinder.013', 'Cylinder.014', 'Cylinder.015', 'Cylinder.020', 'Cylinder.021', 'Cylinder.022', 'Cylinder.023', 'Cylinder.028', 'Cylinder.029', 'Cylinder.030', 'Cylinder.031'])
+
+Error: script failed, file: 'preview/iceland-moss-v7/verify_preservation.py', exiting.
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
