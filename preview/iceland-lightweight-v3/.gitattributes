@@ -1,0 +1,8 @@
+# Preserve measured attachment and original runtime bytes.
+* -text whitespace=cr-at-eol
+# Generated/frozen artifacts contain original vendor shader whitespace.
+*.html -diff
+viewer.bundle.js -diff
+original/** -diff
+*-green.txt -diff
+*-red.txt -diff

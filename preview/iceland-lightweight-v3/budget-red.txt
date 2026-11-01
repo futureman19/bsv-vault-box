@@ -1,0 +1,17 @@
+{
+  "path": "C:\\Users\\futur\\Desktop\\bsv-vault-box\\preview\\iceland-realism-v2",
+  "html_bytes": 40408995,
+  "glb_bytes": 27688600,
+  "checks": {
+    "html_budget": false,
+    "glb_budget": false,
+    "clear_original_glossy_lid": false,
+    "portable_basalt_maps": false,
+    "embedded_images": true
+  }
+}
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\preview\iceland-lightweight-v3\test_budget.py", line 14, in <module>
+    print(json.dumps({'path':str(path),'html_bytes':html.stat().st_size,'glb_bytes':len(b),'checks':checks},indent=2));assert all(checks.values()),checks
+                                                                                                                              ~~~^^^^^^^^^^^^^^^^^
+AssertionError: {'html_budget': False, 'glb_budget': False, 'clear_original_glossy_lid': False, 'portable_basalt_maps': False, 'embedded_images': True}
