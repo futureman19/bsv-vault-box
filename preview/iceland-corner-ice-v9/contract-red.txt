@@ -1,0 +1,33 @@
+{
+  "asset": "C:\\Users\\futur\\Desktop\\bsv-vault-box\\preview\\iceland-stone-ice-v8\\iceland.glb",
+  "checks": {
+    "portable_glass_transmission": false,
+    "portable_glass_roughness": false,
+    "portable_volume_thickness": false,
+    "portable_ior": true,
+    "rock_luminance_multiplier": false,
+    "four_corner_top_wraps": true,
+    "eight_new_top_rivets": false
+  },
+  "glacier_material": {
+    "doubleSided": true,
+    "extensions": {
+      "KHR_materials_transmission": {
+        "transmissionFactor": 0.47999998927116394
+      },
+      "KHR_materials_ior": {
+        "ior": 1.309999942779541
+      }
+    },
+    "name": "Glacier / blue depth",
+    "pbrMetallicRoughness": {
+      "metallicFactor": 0,
+      "roughnessFactor": 0.1599999964237213
+    }
+  }
+}
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\preview\iceland-corner-ice-v9\test_contract.py", line 15, in <module>
+    print(json.dumps({'asset':str(p),'checks':checks,'glacier_material':m},indent=2));assert all(checks.values()),checks
+                                                                                             ~~~^^^^^^^^^^^^^^^^^
+AssertionError: {'portable_glass_transmission': False, 'portable_glass_roughness': False, 'portable_volume_thickness': False, 'portable_ior': True, 'rock_luminance_multiplier': False, 'four_corner_top_wraps': True, 'eight_new_top_rivets': False}
