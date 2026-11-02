@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_a449d55c\preview\malawi-v1\verify_theme.py", line 16, in <module>
+    (R/'theme-observed.json').write_text(json.dumps(d,indent=2));validate(d)
+                                                                 ~~~~~~~~^^^
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_a449d55c\preview\malawi-v1\verify_theme.py", line 9, in validate
+    assert len(d['maps'])==3 and all(max(m['width'],m['height'])<=512 and m['range']>0 for m in d['maps']),d
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'boulders': 4, 'bodies': 3, 'tails': 3, 'lake': 1, 'shore': 1, 'wrong': [], 'obsolete': [], 'maps': [{'key': 'map', 'width': 256, 'height': 256, 'range': 175}, {'key': 'normalMap', 'width': 256, 'height': 256, 'range': 51}, {'key': 'roughnessMap', 'width': 256, 'height': 256, 'range': 0}], 'width': 3.7871190189382498, 'height': 2.8182390704751015}
