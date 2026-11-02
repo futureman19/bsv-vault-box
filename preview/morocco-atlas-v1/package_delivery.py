@@ -9,10 +9,11 @@ assert not json.loads((R/'source-check.json').read_text())['collisions']
 assert json.loads((R/'source-check.json').read_text())['bearing_and_ridge_attachment_samples']==81
 assert json.loads((R/'extended-check.json').read_text())['noJS_poster']
 # Explicit extension and filename policy; no hidden files, secrets or dependency trees.
-allowed={'.py','.js','.mjs','.html','.json','.md','.txt','.png','.jpg','.blend'}
+allowed={'.py','.js','.mjs','.html','.json','.md','.txt','.png','.jpg','.blend','.glb'}
 exclude={'inventory.json','delivery-check.json'}
 files=sorted(p for p in R.rglob('*') if p.is_file() and p.suffix in allowed and p.name not in exclude and not any(x.startswith('.') or x in ['node_modules','__pycache__'] for x in p.relative_to(R).parts))
 files.append(R/'.gitattributes')
+assert {'morocco.glb','morocco.blend','morocco-atlas-v1.html','poster.png','reference-comparison.jpg'}.issubset({p.name for p in files})
 assert not any(any(s in p.name.lower() for s in ['secret','credential','.env','blend1']) for p in files)
 inv={p.relative_to(R).as_posix():{'bytes':p.stat().st_size,'sha256':sha(p)} for p in files};(R/'inventory.json').write_text(json.dumps(inv,indent=2));files.append(R/'inventory.json')
 z=R/'morocco-atlas-v1-source.zip'
