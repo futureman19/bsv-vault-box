@@ -1,0 +1,5 @@
+# Preserve exact offline payload, evidence and inventory bytes.
+* -text whitespace=cr-at-eol
+# Vendor shader strings intentionally include whitespace; do not rewrite runtime.
+morocco-atlas-v1.html whitespace=-blank-at-eol
+viewer.bundle.js whitespace=-blank-at-eol

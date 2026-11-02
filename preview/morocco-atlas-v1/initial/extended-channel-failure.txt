@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\preview\morocco-atlas-v1\verify_extended.py", line 11, in <module>
+    assert len(out['features']['maps'])>=4 and all(x['range']>10 and max(x['width'],x['height'])<=512 for x in out['features']['maps'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
