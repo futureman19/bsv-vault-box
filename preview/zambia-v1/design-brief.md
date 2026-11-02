@@ -1,0 +1,15 @@
+# Zambia v1 — Zambezi / Basalt Gorge
+
+## Research and interpretation (before modeling)
+UNESCO World Heritage Centre, Mosi-oa-Tunya / Victoria Falls, https://whc.unesco.org/en/list/509/ describes the Zambezi plunging through basalt gorges and raising iridescent mist; its Outstanding Universal Value text identifies eight igneous/basalt gorges and banded basalt of ancient lava flows. Retrieved via search excerpt on 2026-11-02 (direct page fetch returned 403). This transboundary landscape belongs to Zambia AND Zimbabwe; this Zambia collectible interprets the Zambian landscape, not exclusive ownership. No copied photographs, sacred motifs, national seal, or scientific scale reconstruction. Geometry/maps will be independently procedural.
+
+## Visual contract
+- Theme: Zambezi / Basalt Gorge. Wide dark warm-charcoal basalt keepsake body, approximately 3.72 x 2.38 units footprint, inherited hollow interior and lid seating. Basalt color target charcoal #343936 with warmer mineral variation, muted olive riverbank accents, blue-green #287d87 water and ivory #dfede6 foam. Brass/copper-gold inherited mechanical fittings, not a modern safe.
+- Physical shallow miniature gorge on lid: two irregular basalt banks with a coherent blue-green river above an ivory segmented waterfall drop into a recessed lower channel. River/cascade must be actual geometry, not a pasted image; all ornament must descend from Lid_Hinge. No glacier, cedar, or Moroccan ridge motif. Landmark maximum height 0.65 above lid, within lid perimeter with clearance from hinge/latch.
+- Narrow dark olive seam <=0.10 high, continuous hollow five-sided liner. Compact generated color/roughness/normal maps <=1024 per dimension. Body striations irregular and subordinate to large dark stone masses.
+- Coordinate system: front latch -Y, rear hinges +Y, right +X, up +Z; glTF (X,Z,-Y). Preserve established pivots and staged 80-degree latch release then 105-degree lid opening. Do not change mechanics to conceal collisions.
+- Retain wide silhouette, inset lid and connected brass hardware. New terrain is low and asymmetrical, not a rectangular floating diorama platform.
+
+## Acceptance gates
+Independent saved .blend reopen and source/export vertex parity within 1e-5; real GLTFLoader finite geometry and no degenerate triangles; expected terrain/river/cascade hierarchy; real texture variation; 81 motion poses covering every moving ornament vs static geometry and latch vs lid, only explicit inherited mating bearings exempt. Include positive and negative theme checks.
+Standalone file:// HTML <5,000,000 bytes, all assets embedded; real source-render poster. Desktop and touch-emulated mobile controls, drag, open/close, interrupted reset, reduced motion, corrupt GLB fallback and no-JS fallback, no external requests/uncaught errors/overflow. Exact inventory sizes/SHA256 and delivery checks. Emulation is not phone performance; sampled collision is not continuous mechanical certification. Visual goal is an original stylized collectible, not photorealism. One bounded correction pass if required; human review waived for this batch.
