@@ -1,0 +1,108 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "motion",
+      "status": "PASS",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "command": [
+        "node",
+        "--test",
+        "tests.mjs"
+      ]
+    },
+    {
+      "name": "source",
+      "status": "PASS",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "command": [
+        "C:/Users/futur/AppData/Local/Programs/Blender-5.2.1/blender.exe",
+        "--background",
+        "--factory-startup",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "verify_source.py"
+      ]
+    },
+    {
+      "name": "parity",
+      "status": "PASS",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "command": [
+        "C:/Users/futur/AppData/Local/Programs/Blender-5.2.1/blender.exe",
+        "--background",
+        "--factory-startup",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "verify_parity.py"
+      ]
+    },
+    {
+      "name": "theme",
+      "status": "PASS",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "command": [
+        "C:/Users/futur/AppData/Local/Programs/Blender-5.2.1/blender.exe",
+        "--background",
+        "--factory-startup",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "verify_theme.py"
+      ]
+    },
+    {
+      "name": "negative-theme",
+      "status": "PASS",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "command": [
+        "C:/Users/futur/AppData/Local/Programs/Blender-5.2.1/blender.exe",
+        "--background",
+        "--factory-startup",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "verify_theme.py",
+        "--",
+        "--negative"
+      ]
+    },
+    {
+      "name": "build",
+      "status": "PASS",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "command": [
+        "C:\\Users\\futur\\.hermes\\installs\\60215e25aec448c9\\environments\\b3c4bbda9be44f5cb17e68e2e2ba7648\\venv\\Scripts\\python.exe",
+        "build.py"
+      ]
+    },
+    {
+      "name": "browser",
+      "status": "PASS",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "command": [
+        "C:\\Users\\futur\\.hermes\\installs\\60215e25aec448c9\\environments\\b3c4bbda9be44f5cb17e68e2e2ba7648\\venv\\Scripts\\python.exe",
+        "verify_browser.py"
+      ]
+    },
+    {
+      "name": "extended",
+      "status": "PASS",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "command": [
+        "C:\\Users\\futur\\.hermes\\installs\\60215e25aec448c9\\environments\\b3c4bbda9be44f5cb17e68e2e2ba7648\\venv\\Scripts\\python.exe",
+        "verify_extended.py"
+      ]
+    }
+  ]
+}
