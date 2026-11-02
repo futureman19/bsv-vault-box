@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "required_features": true,
+  "portable_images": 3,
+  "no_old_theme_nodes": true,
+  "negative_control": {
+    "removed_feature": "Fako",
+    "rejected": true,
+    "reason": "Fako"
+  },
+  "negative_control_note": "Post-implementation mutation control, not test-first TDD"
+}
