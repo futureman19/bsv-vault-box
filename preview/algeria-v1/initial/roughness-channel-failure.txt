@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_70be1214\preview\algeria-v1\verify_theme.py", line 21, in <module>
+    f=p.evaluate(script);accept(f)
+                         ~~~~~~^^^
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_70be1214\preview\algeria-v1\verify_theme.py", line 18, in accept
+    assert all(m['range']>20 and max(m['width'],m['height'])<=512 for m in f['maps'])
+           ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
