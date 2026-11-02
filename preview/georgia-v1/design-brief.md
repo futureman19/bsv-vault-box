@@ -1,0 +1,17 @@
+# Georgia v1 — Svaneti Stone & Snow
+
+## Research and interpretation (before modeling)
+UNESCO's Upper Svaneti listing https://whc.unesco.org/en/list/709/ describes mountain villages, gorges/alpine valleys and snow-covered mountain backdrops, with slender tapering defensive tower houses typically three to five floors. This is the primary design inspiration: warm weathered stone, a sculpted alpine ridge and a single tapering tower. It is not an exact replica of Chazhashi or a claim to represent every Georgian tradition.
+UNESCO https://ich.unesco.org/en/RL/ancient-georgian-traditional-qvevri-wine-making-method-00870 documents Georgian earthenware wine vessels. That alternative was considered but is not mixed into this mountain-led design. No source photographs or text are embedded as textures. All surface maps and forms are independently procedural. No supplied Georgia concept image exists; the written contract is the primary reference.
+
+## Measurable visual contract
+- Retain wide keepsake silhouette: approximately 3.72 wide by 2.38 deep, body approximately 1.9 high; hollow five-sided liner and inherited mechanical pivots.
+- Body and lid: warm gray-beige weathered masonry/stone, target sRGB midtones around #8b8270 with darker irregular seams; avoid Japan wood grain or Morocco salmon stripes. Compact generated color/roughness/normal maps, maximum 1024 per dimension.
+- Thin dark muted green seam below lid (height <=0.10), not a luminous lawn. Brass fittings in restrained antique gold; preserve visibly seated rear hinges, front hasp and side ring.
+- Lid relief: asymmetric faceted Caucasus-inspired ridge approximately 2.5 wide, less than 0.85 above lid, with distinct pale snow patches on the upper slopes and muted olive alpine patches. Not Iceland's blue glacier or river.
+- One slender tapering stone tower on the forward-left portion of the lid (Blender X<0, Y<0), about 0.75 tall, base width about 0.30, narrower upper section, dark slit openings and a modest pitched cap. No sacred inscriptions, flag decal or invented historical claim. All ridge/snow/tower elements are real meshes parented to the lid.
+- Front is Blender -Y, rear +Y, right +X, up +Z; glTF maps (X,Z,-Y). Preserve staged -80 degree latch release then -105 degree lid rotation, same source pivots. Full motion collision sampling includes all moving ornament and hardware; only individually named mating bearings can be exempted.
+- Actual source-rendered poster, not generated promotional art. Offline standalone HTML includes all runtime bytes and must be strictly less than 5,000,000 bytes. Desktop and 390x844 touch-emulated mobile file:// open/close, drag, reset, reduced-motion and fallback checks.
+
+## Acceptance gates
+Independent saved-source reopening, source/export world-vertex parity, finite actual-loader geometry and zero degenerate triangles, portable decoded map variation, expected ornament hierarchy, hollow interior and hinge attachment, 81 sampled poses with no unintended intersections, offline browser checks, exact byte/hash inventory and archive readback. Negative controls must actually fail; record genuine failure/fix evidence. Technical success is not photoreal equivalence or continuous collision certification. One bounded visual correction pass if required. No physical-phone performance claim. Only preview/georgia-v1 is deliverable scope; no blockchain, deployment, shared kit or other preview edits.
