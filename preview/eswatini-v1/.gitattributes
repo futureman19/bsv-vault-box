@@ -1,0 +1,6 @@
+# Preserve exact delivery inventory bytes across Git checkouts.
+* -text whitespace=cr-at-eol
+# Raw logs and embedded/generated shader payloads are byte-preserved artifacts.
+*-output.txt -diff
+viewer.bundle.js -diff
+eswatini-v1.html -diff
