@@ -1,0 +1,12 @@
+00:02.937  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\preview\morocco-atlas-v1\morocco.blend"
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\preview\morocco-atlas-v2\verify_features.py", line 25, in <module>
+    name='feature-negative-control.json' if source.parent!=R else 'feature-check.json';(R/name).write_text(json.dumps(result,indent=2));print(json.dumps(result));assert result['passed']
+                                                                                                                                                                         ~~~~~~^^^^^^^^^^
+AssertionError
+{"source": "C:\\Users\\futur\\Desktop\\bsv-vault-box\\preview\\morocco-atlas-v1\\morocco.blend", "checks": {"dense_individual_prisms": false, "all_tiles_lid_parent": true, "ring_low_front_left": false, "compact_hasp": false, "enlarged_eroded_ridge": false, "packed_normal_and_roughness": false}, "details": {"ceramic_connected_components": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], "hasp_height": 0.6000001430511475, "ridge_height": 0.5622529983520508}, "passed": false, "method": "Post-implementation regression gate; v1 negative control, not test-first TDD"}
+
+Error: script failed, file: 'C:/Users/futur/Desktop/bsv-vault-box/preview/morocco-atlas-v2/verify_features.py', exiting.
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
