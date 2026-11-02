@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "controls": [
+    {
+      "case": "one required karst peak removed",
+      "exit_code": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_bf4bd949\\preview\\laos-v1\\test_theme.py\", line 11, in <module>\n    assert len(matching('Karst / peak'))==3\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    },
+    {
+      "case": "HTML exactly 5000000 bytes rejected",
+      "exit_code": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_bf4bd949\\preview\\laos-v1\\test_theme.py\", line 21, in <module>\n    assert (R/'laos-v1.html').stat().st_size<5_000_000\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    }
+  ],
+  "restored_final_theme_exit_code": 0,
+  "restored_glb_sha256": "872a020a084a1bec3ae0e2e68170b00834403369d55df36b3012ba89adb6c69e",
+  "restored_html_sha256": "564910fad1a87f98a04d40296a6960044ad920bf41bf1d5138e8409208879227",
+  "label": "deliberate post-implementation negatives; not accidental failures or TDD"
+}
