@@ -1,0 +1,29 @@
+{
+  "technical_acceptance": "passed listed bounded checks",
+  "visual_acceptance": "Closer to original in dusty reddish palette and thin irregular strata; candidate awaiting user review, not exact match.",
+  "remaining_visual_differences": [
+    "Lighter/pinker and flatter than original under unchanged viewer lighting",
+    "Pale front-left corner and local patch joins remain",
+    "Some fine vein registration differs; hidden back/right mirrored extrapolation",
+    "Nonbody original-art discrepancies intentionally untouched"
+  ],
+  "swatches": 2,
+  "selected": "B",
+  "post_model_corrections": 1,
+  "html_bytes": 4663232,
+  "glb_bytes": 2909040,
+  "actual_gltf_map_bytes_match_source_inputs": true,
+  "checks": [
+    "preservation-check",
+    "source-preservation-check",
+    "source-check",
+    "parity-check",
+    "browser-check",
+    "extended-check",
+    "runtime-material-check",
+    "reference-check",
+    "fallback-check"
+  ],
+  "source_export_max_error": 1.712013073529306e-07,
+  "prior_failure": "Inherited extended map dimension/normal range assumption failed. Corrected to bounded physical-aspect texel budget/nonzero subtle normal range; all actual geometry/render gates retained."
+}

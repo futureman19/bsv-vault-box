@@ -1,0 +1,8 @@
+00:00.485  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\preview\morocco-reference-v5\baseline\morocco.blend"
+C:\Users\futur\Desktop\bsv-vault-box\preview\morocco-reference-v5\verify_source_preservation.py:22: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mats[m.name]={'diffuse':list(m.diffuse_color),'nodes':[(n.name,n.type,[(x.name,simple(x.default_value)) for x in n.inputs if hasattr(x,'default_value')],n.image.name if n.type=='TEX_IMAGE' and n.image else '') for n in m.node_tree.nodes] if m.use_nodes else [],'links':[(l.from_node.name,l.from_socket.name,l.to_node.name,l.to_socket.name) for l in m.node_tree.links] if m.use_nodes else []}
+00:00.563  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\preview\morocco-reference-v5\morocco.blend"
+{'exact_source_geometry_all_objects': True, 'exact_source_nonbody_materials_and_UVs': True, 'exact_transforms_parents_cameras_lights': True, 'body_source_uv_error': np.float64(5.9315683920146967e-08), 'source_packed_maps_match_finalizer_inputs': True, 'source_objects_compared': 69, 'nonbody_materials_compared': 8}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
