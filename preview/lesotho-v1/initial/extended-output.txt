@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_b2b8dd5f\preview\lesotho-v1\verify_extended.py", line 10, in <module>
+    f=out['features'];assert f['ridge']>=1 and f['grass']==19 and f['panel']==1 and not f['wrong'] and not f['uvBad'],f
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'ridge': 0, 'grass': 19, 'panel': 1, 'maps': [{'material': 'Basalt / blue charcoal mineral', 'channel': 'map', 'width': 512, 'height': 512, 'range': 57}, {'material': 'Basalt / blue charcoal mineral', 'channel': 'roughnessMap', 'width': 512, 'height': 512, 'range': 60}, {'material': 'Textile / invented indigo weave', 'channel': 'map', 'width': 512, 'height': 512, 'range': 174}], 'wrong': [], 'uvBad': 0}
