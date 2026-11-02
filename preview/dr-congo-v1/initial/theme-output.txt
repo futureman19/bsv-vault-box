@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_d3e540e2\preview\dr-congo-v1\verify_theme.py", line 25, in <module>
+    accept(f)
+    ~~~~~~^^^
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_d3e540e2\preview\dr-congo-v1\verify_theme.py", line 13, in accept
+    assert all(m['range']>0 and m['width']==512 and m['height']==512 for m in f['maps']),'invalid map'
+           ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: invalid map
