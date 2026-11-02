@@ -1,0 +1,12 @@
+00:01.641  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_bf4f8e21\preview\bhutan-v1\mechanism.blend"
+00:01.672  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_bf4f8e21\preview\bhutan-v1\bhutan.blend"
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_bf4f8e21\preview\bhutan-v1\verify_theme.py", line 18, in <module>
+    assert all(o.parent==lid for o in objects),('lid ancestry',prefix)
+           ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('lid ancestry', 'Mountain /')
+
+Error: script failed, file: 'C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_bf4f8e21\preview\bhutan-v1\verify_theme.py', exiting.
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
