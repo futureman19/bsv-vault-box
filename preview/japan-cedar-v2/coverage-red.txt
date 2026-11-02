@@ -1,0 +1,8 @@
+C:\Users\futur\Desktop\bsv-vault-box\preview\japan-cedar-v2\coverage.py:15: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  dest=R/f'{tag}-{name}-{feature}-mask.png';p.locator('canvas').screenshot(path=str(dest));im=Image.open(dest).convert('RGB');out[f'{name}_{feature}_pixels']=sum(min(v)>240 for v in im.getdata())
+{'desktop_foliage_pixels': 1051, 'desktop_moss_pixels': 725, 'mobile_foliage_pixels': 334, 'mobile_moss_pixels': 242}
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\preview\japan-cedar-v2\coverage.py", line 20, in <module>
+    old=json.loads((R/'before-coverage.json').read_text());ratios={k:out[k]/old[k] for k in old};(R/'coverage-check.json').write_text(json.dumps({'method':'Same-camera white emissive isolated mesh raster coverage; silhouette union, not occlusion-aware ecosystem realism or biological density. Desktop and native mobile viewport.','baseline':old,'candidate':out,'ratios':ratios},indent=2));assert all(v>=(1.65 if 'foliage' in k else 1.8) for k,v in ratios.items()),ratios
+                                                                                                                                                                                                                                                                                                                                                                                                            ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'desktop_foliage_pixels': 1.0, 'desktop_moss_pixels': 1.0, 'mobile_foliage_pixels': 1.0, 'mobile_moss_pixels': 1.0}

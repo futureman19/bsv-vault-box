@@ -1,0 +1,3 @@
+C:\Users\futur\Desktop\bsv-vault-box\preview\japan-cedar-v2\coverage.py:15: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  dest=R/f'{tag}-{name}-{feature}-mask.png';p.locator('canvas').screenshot(path=str(dest));im=Image.open(dest).convert('RGB');out[f'{name}_{feature}_pixels']=sum(min(v)>240 for v in im.getdata())
+{'desktop_foliage_pixels': 1791, 'desktop_moss_pixels': 1331, 'mobile_foliage_pixels': 580, 'mobile_moss_pixels': 449}
