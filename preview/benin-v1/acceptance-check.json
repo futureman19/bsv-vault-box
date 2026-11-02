@@ -1,0 +1,81 @@
+[
+  {
+    "gate": "motion",
+    "command": [
+      "node",
+      "--test",
+      "tests.mjs"
+    ],
+    "exit_code": 0,
+    "status": "PASS"
+  },
+  {
+    "gate": "build",
+    "command": [
+      "C:\\Users\\futur\\.hermes\\installs\\60215e25aec448c9\\environments\\b3c4bbda9be44f5cb17e68e2e2ba7648\\venv\\Scripts\\python.exe",
+      "build.py"
+    ],
+    "exit_code": 0,
+    "status": "PASS"
+  },
+  {
+    "gate": "source",
+    "command": [
+      "C:/Users/futur/AppData/Local/Programs/Blender-5.2.1/blender.exe",
+      "--background",
+      "--factory-startup",
+      "--python-exit-code",
+      "1",
+      "--python",
+      "verify_source.py"
+    ],
+    "exit_code": 0,
+    "status": "PASS"
+  },
+  {
+    "gate": "parity",
+    "command": [
+      "C:/Users/futur/AppData/Local/Programs/Blender-5.2.1/blender.exe",
+      "--background",
+      "--factory-startup",
+      "--python-exit-code",
+      "1",
+      "--python",
+      "verify_parity.py"
+    ],
+    "exit_code": 0,
+    "status": "PASS"
+  },
+  {
+    "gate": "theme",
+    "command": [
+      "C:/Users/futur/AppData/Local/Programs/Blender-5.2.1/blender.exe",
+      "--background",
+      "--factory-startup",
+      "--python-exit-code",
+      "1",
+      "--python",
+      "verify_theme.py"
+    ],
+    "exit_code": 0,
+    "status": "PASS"
+  },
+  {
+    "gate": "browser",
+    "command": [
+      "C:\\Users\\futur\\.hermes\\installs\\60215e25aec448c9\\environments\\b3c4bbda9be44f5cb17e68e2e2ba7648\\venv\\Scripts\\python.exe",
+      "verify_browser.py"
+    ],
+    "exit_code": 0,
+    "status": "PASS"
+  },
+  {
+    "gate": "extended",
+    "command": [
+      "C:\\Users\\futur\\.hermes\\installs\\60215e25aec448c9\\environments\\b3c4bbda9be44f5cb17e68e2e2ba7648\\venv\\Scripts\\python.exe",
+      "verify_extended.py"
+    ],
+    "exit_code": 0,
+    "status": "PASS"
+  }
+]

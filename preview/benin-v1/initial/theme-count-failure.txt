@@ -1,0 +1,15 @@
+00:01.172  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_94087c53\preview\benin-v1\mechanism.blend"
+00:01.203  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_94087c53\preview\benin-v1\benin.blend"
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_94087c53\preview\benin-v1\verify_theme.py", line 30, in <module>
+    validate(facts)
+    ~~~~~~~~^^^^^^^
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_94087c53\preview\benin-v1\verify_theme.py", line 23, in validate
+    assert d['ornaments']==50 and not d['wrong_parent'],'lid ornament parenting'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: lid ornament parenting
+
+Error: script failed, file: 'preview/benin-v1/verify_theme.py', exiting.
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

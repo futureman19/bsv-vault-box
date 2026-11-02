@@ -1,0 +1,113 @@
+00:01.297  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_94087c53\preview\benin-v1\mechanism.blend"
+00:01.328  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_94087c53\preview\benin-v1\benin.blend"
+{
+  "pivots": {
+    "Lid_Hinge": {
+      "location": [
+        0.0,
+        1.3200000524520874,
+        1.6679999828338623
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": null
+    },
+    "Latch_Pivot": {
+      "location": [
+        0.0,
+        -2.6100001335144043,
+        0.2200000286102295
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "Lid_Hinge"
+    }
+  },
+  "ornaments": 51,
+  "roofed_towers": 2,
+  "flat_towers": 1,
+  "roofs": 2,
+  "roof_ribs": 40,
+  "walls": 2,
+  "terrace": 1,
+  "wrong_parent": [],
+  "feet": 4,
+  "buttresses": 4,
+  "bounds": [
+    [
+      -1.1200000047683716,
+      1.1200000047683716
+    ],
+    [
+      -0.559999942779541,
+      0.6800000071525574
+    ],
+    [
+      1.9550000429153442,
+      2.7800002098083496
+    ]
+  ],
+  "earth_median_srgb": [
+    158.00000578165054,
+    88.00000235438347,
+    49.000004678964615
+  ],
+  "earth_range": 34.99999791383743,
+  "maps": {
+    "earth-color.png": [
+      512,
+      512
+    ],
+    "earth-roughness.png": [
+      512,
+      512
+    ],
+    "straw-color.png": [
+      512,
+      512
+    ]
+  },
+  "roughness_linked": true,
+  "status": "PASS",
+  "negative_controls": [
+    {
+      "mutation": "missing roof",
+      "rejected": true,
+      "assertion": "three tower / two roof contract"
+    },
+    {
+      "mutation": "detached ornament",
+      "rejected": true,
+      "assertion": "lid ornament parenting"
+    },
+    {
+      "mutation": "bad palette",
+      "rejected": true,
+      "assertion": "earth palette"
+    },
+    {
+      "mutation": "missing feet",
+      "rejected": true,
+      "assertion": "feet / buttresses"
+    }
+  ]
+}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

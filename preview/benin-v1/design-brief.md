@@ -1,0 +1,22 @@
+# Benin v1 — Atakora Earth / Takienta
+
+Design contract recorded before model authoring. A contemporary BoxSV keepsake inspired by the earthen architecture of northwestern Benin, not an ethnographic scale replica, sacred object or claim to represent every Beninese community. No Nigeria/Benin Kingdom bronze conflation.
+
+## Research and provenance
+- UNESCO, Koutammakou, the Land of the Batammariba: https://whc.unesco.org/en/list/1140 — identifies a living cultural landscape spanning northeastern Togo and northwestern Benin, mud tower-houses (takienta; plural sikien), and circular/elliptical architecture. The tradition is shared across the border, not exclusive to Benin.
+- ICOMOS evaluation of the Benin extension: https://whc.unesco.org/document/205650 — locates it in Atacora Department, describes walls built in successive hand-applied layers and lines/dashes in fresh plaster.
+- ICOMOS original evaluation: https://whc.unesco.org/document/151851 — describes joined earthen towers, layered walls, flat roofs and steep conical thatched roofs, and swelling granaries above cylindrical bases.
+Retrieved via indexed source text; direct UNESCO HTTP retrieval returned 403. These factual descriptions inform original geometry and procedural maps only. No source photographs or copied sacred markings are embedded. No external reference illustration exists for this first-version design: the contract below is the visual target.
+
+## Measurable visual contract
+- Retain family wide silhouette: body width 3.72, depth approximately 2.38, body exterior z .10–1.56, lid slab about .30 thick centred at z 1.828. Five-sided hollow interior remains continuous. Front is Blender -Y; rear +Y; right +X; glTF is (X,Z,-Y).
+- Body reads as warm hand-plastered red/ochre earth, not striped sandstone or cedar: generated compact 512px or smaller earth color/roughness maps, low-amplitude irregular grain with subtle broad hand-smoothed changes. Color-map median targets R 135–185, G 65–115, B 35–80 (8-bit sRGB); roughness .7–.95. No photographic-scan claim.
+- Four modest rounded earthen corner buttresses; restrained warm satin brass cap/edge protectors and retained working family latch. No royal insignia, copied ritual scarification, masks, invented writing or flag pasted onto the body.
+- Dark umber narrow seam, maximum .11 high, with rear hardware clearance. Retain attached rear hinges and inherited exact Lid_Hinge / Latch_Pivot transforms.
+- Lid carries a small sculptural joined-tower compound inspired by takienta: at least three cylindrical/tapered earthen towers with a connecting terrace/wall, two conical straw-colored roof forms and one open/flat roof form. The silhouette is architectural rather than a mountain/tree. Ornament footprint stays within x +/-1.35, y +/- .85 and rises no more than .85 above the lid. Roofs have real faceted/ribbed geometry; small dark entrances are inset/relief details, not functional full interiors.
+- All lid architecture and ornament must descend from Lid_Hinge and travel with it; all four feet remain static. No free-floating landmark. Source/render includes original generated maps and a named editable hierarchy.
+- Exact inherited choreography: 80-degree latch release during first quarter, then 105-degree lid opening, reversed for closure. Sample 81 poses against every static mesh and latch-vs-lid mesh, with only explicitly named mating bearing exceptions; no blanket ornament exemptions.
+- Portable mesh and maps, actual source-render poster. Self-contained offline file:// viewer with embedded GLB/runtime/poster strictly <5,000,000 bytes, drag/touch rotation, open/close, interrupted reset, reduced motion, corrupt-GLB fallback and no-JS poster.
+
+## Acceptance and bounded finish
+Independent saved-source reopening and source/export geometry parity within 1e-5 units; actual GLTFLoader nonfinite/degenerate checks; theme geometry/material/parentage checks capable of failing; full sampled motion; desktop and 390x844 touch-emulated mobile offline browser checks with no external requests/errors/overflow. Exact byte counts and SHA-256 inventory checked by readback. Inspect actual desktop/mobile closed/open captures. Up to two focused correction passes if necessary. Technical acceptance does not establish photorealism, cultural-community endorsement, continuous collision proof or real-phone performance. User waived per-asset human review; finish autonomously when gates pass. No minting, node, funds, deployment or production edits.
