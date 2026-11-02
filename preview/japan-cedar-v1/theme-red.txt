@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\preview\japan-cedar-v1\test_theme.py", line 4, in <module>
+    raw=(R/'japan.glb').read_bytes();n=struct.unpack_from('<I',raw,12)[0];d=json.loads(raw[20:20+n]);names=[x.get('name','') for x in d['nodes']]
+  File "C:\Users\futur\.hermes\tools\python-3.14.7+20260901-win32-x64\Lib\pathlib\__init__.py", line 777, in read_bytes
+    with self.open(mode='rb', buffering=0) as f:
+         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\futur\.hermes\tools\python-3.14.7+20260901-win32-x64\Lib\pathlib\__init__.py", line 771, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\futur\\Desktop\\bsv-vault-box\\preview\\japan-cedar-v1\\japan.glb'
