@@ -1,0 +1,30 @@
+00:00.437  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\preview\morocco-finish-v6\baseline\morocco.blend"
+C:\Users\futur\Desktop\bsv-vault-box\preview\morocco-finish-v6\author.py:9: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name);m.use_nodes=True;nt=m.node_tree;p=nt.nodes.get('Principled BSDF');p.inputs['Roughness'].default_value=roughness;im=bpy.data.images.load(str(R/'maps'/file));im.pack();n=nt.nodes.new('ShaderNodeTexImage');n.image=im;nt.links.new(n.outputs['Color'],p.inputs['Base Color']);return m
+Info: Saved as "morocco.blend"
+INFO Draco is available, use library at C:\Users\futur\AppData\Local\Programs\Blender-5.2.1\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\Users\futur\AppData\Local\Programs\Blender-5.2.1\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+23:27:20 | INFO: Starting glTF 2.0 export
+23:27:20 | INFO: Extracting primitive: Reference continuous ceramic carrier
+23:27:20 | INFO: Primitives created: 1
+23:27:20 | INFO: Extracting primitive: Reference continuous ceramic carrier.001
+23:27:20 | INFO: Primitives created: 1
+23:27:20 | INFO: Extracting primitive: Reference continuous ceramic carrier.002
+23:27:20 | INFO: Primitives created: 1
+23:27:20 | INFO: Extracting primitive: Cube.029
+23:27:20 | INFO: Primitives created: 2
+23:27:20 | INFO: Extracting primitive: Cube.030
+23:27:20 | INFO: Primitives created: 1
+23:27:20 | INFO: Extracting primitive: Cube.031
+23:27:20 | INFO: Primitives created: 1
+23:27:20 | INFO: Extracting primitive: Cube.032
+23:27:20 | INFO: Primitives created: 1
+23:27:20 | INFO: Extracting primitive: Cube.033
+23:27:20 | INFO: Primitives created: 1
+23:27:20 | INFO: Finished glTF 2.0 export in 0.04369330406188965 s
+00:11.562  render           | Saved: 'C:\Users\futur\Desktop\bsv-vault-box\preview\morocco-finish-v6\poster.png'
+
+V6 saved, target primitives exported, actual model poster rendered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
