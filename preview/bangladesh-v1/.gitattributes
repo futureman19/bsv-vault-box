@@ -1,0 +1,7 @@
+# Preserve exact offline payload, evidence and inventory bytes across checkouts.
+* -text whitespace=cr-at-eol
+# Preserve raw native tool transcripts without whitespace rewriting.
+*.txt -diff
+# Bundled upstream shader strings intentionally contain whitespace.
+*.html -diff
+viewer.bundle.js -diff

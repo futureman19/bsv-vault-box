@@ -1,0 +1,58 @@
+{
+  "features": {
+    "islands": [
+      "Delta__island_1",
+      "Delta__island_2",
+      "Delta__island_3",
+      "Delta__island_4"
+    ],
+    "wrong": [],
+    "maps": [
+      {
+        "material": "Jamdani / original ivory repeats",
+        "slot": "map",
+        "width": 512,
+        "height": 512,
+        "range": 215,
+        "ivory": 19156,
+        "teal": 242988
+      },
+      {
+        "material": "Jamdani / original ivory repeats",
+        "slot": "roughnessMap",
+        "width": 512,
+        "height": 512,
+        "range": 26,
+        "ivory": 0,
+        "teal": 0
+      },
+      {
+        "material": "Jamdani / original ivory repeats",
+        "slot": "normalMap",
+        "width": 512,
+        "height": 512,
+        "range": 6,
+        "ivory": 0,
+        "teal": 0
+      },
+      {
+        "material": "Delta / green alluvial islands",
+        "slot": "map",
+        "width": 512,
+        "height": 512,
+        "range": 37,
+        "ivory": 0,
+        "teal": 106968
+      }
+    ],
+    "nonfiniteUV": 0
+  },
+  "negative_control": {
+    "result": "EXPECTED FAIL",
+    "mutation": "detach actual island 1 from lid in loaded scene",
+    "rejected": "['Delta__island_1', 'Delta__island_1_1', 'Delta__island_1_2']"
+  },
+  "restored": "PASS",
+  "no_js_poster": "PASS",
+  "result": "PASS"
+}
