@@ -1,0 +1,17 @@
+{
+  "status": "PASS_WITH_DISCLOSED_LIMITATIONS",
+  "method": "vision inspection of actual PNGs, separate from geometry assertions",
+  "images": ["poster.png", "mobile-closed.png", "desktop-open.png"],
+  "findings": [
+    "Poster is nonblack; ivory medallion and eight cobalt petals visible, terracotta/patterned panels distinct.",
+    "Mobile whole box and controls readable; ceramic pattern and lid motif distinguishable; no obvious clipping.",
+    "Desktop open view shows hollow interior, lid and released latch entirely framed; no obvious detached hardware."
+  ],
+  "limitations": [
+    "Source render is grainy and matte; blue reads lighter than deep cobalt.",
+    "Dark lid seam can read as a slightly lifted lid; it is intentional geometry.",
+    "Body ornament is a continuous patterned panel, not individually grouted tiles.",
+    "Static captures do not establish hidden mechanical correctness; sampled source collision tests are separate.",
+    "No photoreal, historic pattern authenticity, physical-phone, or production-readiness claim."
+  ]
+}
