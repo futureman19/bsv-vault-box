@@ -1,0 +1,13 @@
+00:00.485  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_6973a681\preview\croatia-v1\croatia.blend"
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_6973a681\preview\croatia-v1\verify_theme.py", line 32, in <module>
+    r=check()
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_6973a681\preview\croatia-v1\verify_theme.py", line 23, in check
+    assert hit and obj.name==o.name,('occluded cascade',o.name,obj.name if hit else None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('occluded cascade', 'Cascade / 0', 'Lake / 1')
+
+Error: script failed, file: 'preview/croatia-v1/verify_theme.py', exiting.
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
