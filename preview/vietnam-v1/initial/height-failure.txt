@@ -1,0 +1,15 @@
+00:00.547  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_7998b81c\preview\vietnam-v1\mechanism.blend"
+00:00.562  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_7998b81c\preview\vietnam-v1\vietnam.blend"
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_7998b81c\preview\vietnam-v1\verify_theme.py", line 20, in <module>
+    for o in islands:records.append(check(o))
+                                    ~~~~~^^^
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_7998b81c\preview\vietnam-v1\verify_theme.py", line 17, in check
+    assert 1.999<lo[2]<2.011 and .30<hi[2]-2.006<=.68, ('Island height outside frozen brief',o.name,hi[2]-2.006)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('Island height outside frozen brief', 'Karst island / 1', 0.7037735404968264)
+
+Error: script failed, file: 'preview/vietnam-v1/verify_theme.py', exiting.
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
