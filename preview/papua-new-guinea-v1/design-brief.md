@@ -1,0 +1,18 @@
+# Papua New Guinea / Bilum & Highlands — pre-model visual contract
+
+## Research and interpretation
+- Horniman Museum, Woman's Working Bag (wal me), Mt Hagen, Western Highlands: https://www.horniman.ac.uk/object/13.4.66/5/ describes hand-rolled two-ply inner-bark string and expandable finger-knitted bags.
+- QAGOMA, All about the bilum: https://www.qagoma.qld.gov.au/stories/all-about-the-bilum/ describes plant fibre preparation, twisting and needle looping, natural colouring and the significance of distinct makers' patterns.
+- Canterbury Museum, Handmade in Papua New Guinea: https://www.canterburymuseum.com/explore/our-stories/handmade-in-papua-new-guinea describes regionally diverse bilum styles, natural and contemporary fibres.
+Sources retrieved through web search before authoring. No museum imagery is copied. This is an invented fibre-panel vault inspired by material and loop construction, not a replica of a named maker's pattern, sacred object or authentic traditional chest. Bilum is not generic basket-weaving: the visible pattern must suggest repeated interconnecting loops, not a plain checkerboard. Do not confuse PNG with Indonesian Papua's UNESCO noken inscription.
+
+## Frozen measurable contract
+- Wide inherited keepsake silhouette: approximately 3.72 X by 2.38 Y, body height approximately 1.9; hollow five-sided liner and functional family fittings.
+- Dark warm timber frame surrounds broad ochre/tan fibre-inspired panels on front and sides. Procedural portable base colour, normal and roughness maps, maximum 1024 pixels per dimension. Visible loop rows with subtle twisted-strand grain; invented muted russet accents. Palette targets: straw #B99157, dark timber #503523, rust #8D4937, forest #375A3A; lighting may alter displayed colour.
+- Satin timber lid with a low irregular green highland relief: three asymmetrical rounded ridges, footprint no more than 2.6 by 1.45, relief height 0.35–0.65 above lid. Not an exact geographic mountain or sacred-site miniature. No cedar, glacier, temple or unrelated inherited ornaments.
+- Thin dark green seam under 0.10 units. Refined inherited brass latch, ring and physically attached rear hinges; hardware is collection fiction, not asserted PNG craft history.
+- Front -Y, rear +Y, up +Z. Preserve original Lid_Hinge and Latch_Pivot matrices. Latch releases 80 degrees first; lid then opens 105 degrees. Relief belongs to lid ancestry. Sample all moving meshes against static surfaces plus latch against lid at 81 poses; only named intentional bearing contacts exempt.
+- Desktop and mobile closed views must show fibre panel loop pattern, warm frame and green hill silhouette. Full-open must fit camera and retain hollow interior. Source poster is rendered from the final saved scene, never promotional AI.
+
+## Acceptance gates
+Independent saved-source reopening, source/export world-vertex parity under 1e-5, actual GLTFLoader finite and nondegenerate geometry, actual decoded map variation (roughness green channel), measurable theme bounds/ancestry/loop-map variation, motion endpoint and staged tests, 81-pose collision sampling, offline file:// desktop/mobile native interactions, drag, interrupted reset, reduced motion, corrupt-GLB and no-JS fallback, no external requests or overflow. Every gate must assert rather than merely emit PASS. Include negative controls and retain genuine failures/fixes. HTML strictly less than 5,000,000 bytes, all runtime dependencies embedded. Inventory exact bytes and SHA-256; folder-local * -text preserves checkout bytes. Technical acceptance does not imply photorealism, ethnographic authenticity, continuous physical clearance or phone-hardware performance.
