@@ -1,0 +1,12 @@
+00:01.125  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_f49902b0\preview\timor-leste-v1\timor-leste.blend"
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_f49902b0\preview\timor-leste-v1\verify_theme.py", line 20, in <module>
+    (R/('theme-negative-control.json' if '--negative-control' in sys.argv else 'theme-check.json')).write_text(json.dumps(report,indent=2));print(json.dumps(report));assert all(checks.values()),report
+                                                                                                                                                                             ~~~^^^^^^^^^^^^^^^^^
+AssertionError: {'checks': {'runner_lid_parent': False, 'runner_top_height': True, 'runner_xy_contract': True, '56_lid_fringe_strands': True, 'four_body_cloth_panels': True, 'original_pivots': True, 'packed_maps': True}, 'status': 'FAIL', 'runner_top_min': 2.01008939743042, 'runner_top_max': 2.049910545349121, 'fringe_count': 56, 'negative_control': 'detached runner'}
+{"checks": {"runner_lid_parent": false, "runner_top_height": true, "runner_xy_contract": true, "56_lid_fringe_strands": true, "four_body_cloth_panels": true, "original_pivots": true, "packed_maps": true}, "status": "FAIL", "runner_top_min": 2.01008939743042, "runner_top_max": 2.049910545349121, "fringe_count": 56, "negative_control": "detached runner"}
+
+Error: script failed, file: 'preview/timor-leste-v1/verify_theme.py', exiting.
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
