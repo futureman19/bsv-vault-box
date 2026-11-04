@@ -1,0 +1,11 @@
+00:01.813  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_5a2be80c\preview\netherlands-v1\netherlands.blend"
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_5a2be80c\preview\netherlands-v1\verify_theme.py", line 23, in <module>
+    for o in fields:assert hit(o.location.x,o.location.y)[0].startswith('Polder / field') or o.location.x>0
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+Error: script failed, file: 'preview/netherlands-v1/verify_theme.py', exiting.
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
