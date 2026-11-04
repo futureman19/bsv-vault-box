@@ -1,0 +1,36 @@
+PASS extended {
+  "features": {
+    "terrain": [
+      "Terrain__Alpine_lake/Terrain__Alpine_lake",
+      "Terrain__Pamir_ridge/Pamir_ridge_closed_relief",
+      "Terrain__Pamir_ridge/Pamir_ridge_closed_relief_1"
+    ],
+    "maps": [
+      {
+        "kind": "map",
+        "material": "Pamir / granular rock",
+        "width": 256,
+        "height": 256,
+        "range": 179
+      },
+      {
+        "kind": "map",
+        "material": "Pamir / mineral stone",
+        "width": 512,
+        "height": 512,
+        "range": 159
+      },
+      {
+        "kind": "roughnessMap",
+        "material": "Pamir / mineral stone",
+        "width": 512,
+        "height": 512,
+        "range": 138
+      }
+    ],
+    "wrong": []
+  },
+  "country_copy": true,
+  "noJS_poster": true,
+  "PASS": true
+}

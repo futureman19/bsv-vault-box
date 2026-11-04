@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_d3caeb05\preview\tajikistan-v1\verify_extended.py", line 10, in <module>
+    assert len(out['features']['terrain'])>=3 and not out['features']['wrong'],out
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'features': {'terrain': ['Terrain__Alpine_lake'], 'maps': [{'kind': 'map', 'material': 'Pamir / granular rock', 'width': 256, 'height': 256, 'range': 179}, {'kind': 'map', 'material': 'Pamir / mineral stone', 'width': 512, 'height': 512, 'range': 159}, {'kind': 'roughnessMap', 'material': 'Pamir / mineral stone', 'width': 512, 'height': 512, 'range': 138}], 'wrong': []}}
