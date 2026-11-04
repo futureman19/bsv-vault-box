@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "checks": {
+    "source-motion": "PASS",
+    "parity": "PASS",
+    "theme": "PASS",
+    "extended": "PASS",
+    "browser": "PASS",
+    "size": "PASS",
+    "archive-readback": "PASS"
+  },
+  "html_bytes": 3709575,
+  "glb_bytes": 2202964,
+  "payload_files": 53,
+  "zip_bytes": 5718224,
+  "zip_sha256": "9db3f8f20edb8a8ec6fd40da190f52b82637085005eeaca08943d3be74e4b691",
+  "inventory_sha256": "8dab431090193d725b3408225f67120e29779ca044b34128dc39df54952426c5",
+  "required_artifacts": [
+    ".gitattributes",
+    "README.md",
+    "author.py",
+    "browser-check.json",
+    "design-brief.md",
+    "extended-check.json",
+    "maps.py",
+    "mechanism.blend",
+    "parity-check.json",
+    "poster.jpg",
+    "poster.png",
+    "source-check.json",
+    "sweden-v1.html",
+    "sweden.blend",
+    "sweden.glb",
+    "theme-check.json"
+  ],
+  "scope": "local source archive; not hosted or minted"
+}
