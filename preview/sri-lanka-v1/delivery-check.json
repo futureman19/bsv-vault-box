@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "html_bytes": 4209106,
+  "glb_bytes": 2549052,
+  "payload_count": 54,
+  "required_artifacts_present": true,
+  "zip_readback_all_hashes": true,
+  "zip_bytes": 7049018,
+  "zip_sha256": "aa2d0a03095b63032630146fd9ea4842f3247340c06d7c60636aced27834e7f0",
+  "inventory_sha256": "68a2272d214b009d1703ef850ce41bde0632d435ae53be028ebeb27ef5bba266",
+  "excluded_envelopes": [
+    "delivery-check.json",
+    "inventory.json",
+    "sri-lanka-v1-source.zip",
+    "verification-output.txt"
+  ],
+  "note": "inventory excludes itself, ZIP, delivery-check and active wrapper output to avoid circular identities"
+}
