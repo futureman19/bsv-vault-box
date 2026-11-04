@@ -1,0 +1,13 @@
+00:00.531  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_d085fa34\preview\liechtenstein-v1\liechtenstein.blend"
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_d085fa34\preview\liechtenstein-v1\verify_theme.py", line 24, in <module>
+    r=check();(R/'theme-check.json').write_text(json.dumps(r,indent=2));print(json.dumps(r))
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_d085fa34\preview\liechtenstein-v1\verify_theme.py", line 13, in check
+    assert o.parent==lid, 'Peak detached from lid'
+           ^^^^^^^^^^^^^
+AssertionError: Peak detached from lid
+
+Error: script failed, file: 'preview/liechtenstein-v1/verify_theme.py', exiting.
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
