@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "html_bytes": 2615340,
+  "glb_bytes": 1390032,
+  "inventory_entries": 53,
+  "required_artifacts_present": [
+    ".gitattributes",
+    "README.md",
+    "browser-check.json",
+    "design-brief.md",
+    "extended-check.json",
+    "mechanism.blend",
+    "pacific-ocean-v1.html",
+    "pacific-ocean.blend",
+    "pacific-ocean.glb",
+    "parity-check.json",
+    "poster.jpg",
+    "poster.png",
+    "source-check.json",
+    "theme-check.json"
+  ],
+  "all_archive_bytes_verified": true,
+  "archive": {
+    "bytes": 6308708,
+    "sha256": "fd44831a75cc8e3b235c41d8b822ea1fe7795c70d7e04856c62cdcb60084f7be"
+  },
+  "inventory": {
+    "bytes": 7080,
+    "sha256": "c6f4771532d51291167662208a347bab0795c41c7d579eb0f48778843b57d600"
+  },
+  "exclusions": [
+    "delivery-check.json",
+    "inventory.json",
+    "lane-output.txt",
+    "lane-prompt.md",
+    "pacific-ocean-v1-source.zip",
+    "package-output.txt",
+    "setup.py",
+    "verification-output.txt"
+  ],
+  "note": "Inventory excludes itself, delivery envelope, archive and active verification log to avoid circular hashes. No dependencies or backups archived."
+}

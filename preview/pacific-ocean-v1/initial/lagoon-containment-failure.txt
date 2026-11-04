@@ -1,0 +1,15 @@
+00:02.172  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_fac0a83e\preview\pacific-ocean-v1\mechanism.blend"
+00:02.266  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_fac0a83e\preview\pacific-ocean-v1\pacific-ocean.blend"
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_fac0a83e\preview\pacific-ocean-v1\verify_theme.py", line 28, in <module>
+    check();neg=[]
+    ~~~~~^^
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_fac0a83e\preview\pacific-ocean-v1\verify_theme.py", line 20, in check
+    assert all(inside(water.matrix_world@v.co) for v in water.data.vertices),'Lagoon escaped ring'
+           ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Lagoon escaped ring
+
+Error: script failed, file: 'preview/pacific-ocean-v1/verify_theme.py', exiting.
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
