@@ -1,0 +1,11 @@
+00:00.875  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_e1b70ceb\preview\samoa-v1\samoa.blend"
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_e1b70ceb\preview\samoa-v1\verify_theme.py", line 16, in <module>
+    assert min(top_z)>=2.01 and max(top_z)<=2.07,('Cloth top outside brief',min(top_z),max(top_z))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('Cloth top outside brief', 2.004004955291748, 2.045994997024536)
+
+Error: script failed, file: 'preview/samoa-v1/verify_theme.py', exiting.
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
