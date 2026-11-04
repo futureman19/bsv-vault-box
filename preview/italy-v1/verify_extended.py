@@ -1,0 +1,16 @@
+from pathlib import Path
+from playwright.sync_api import sync_playwright
+from PIL import Image
+import json,numpy as np
+R=Path(__file__).resolve().parent
+im=np.array(Image.open(R/'poster.png').convert('RGBA'));assert (im[:,:,3]>0).mean()>.5 and im[:,:,:3].std()>10
+out={'poster_nonblank':True}
+with sync_playwright() as pw:
+ b=pw.chromium.launch(channel='msedge',headless=True,args=['--allow-file-access-from-files'])
+ c=b.new_context(offline=True,viewport={'width':1440,'height':1080});p=c.new_page();p.goto((R/'italy-v1.html').as_uri());p.wait_for_function('pilot.ready')
+ out['maps']=p.evaluate('''(()=>{let maps=[],seen=new Set();pilot.root.traverse(o=>{if(!o.isMesh)return;for(let [key,ch] of [['map',0],['roughnessMap',1]]){let t=o.material[key];if(!t||seen.has(t.uuid+key))continue;seen.add(t.uuid+key);let im=t.image,c=document.createElement('canvas');c.width=im.width;c.height=im.height;let x=c.getContext('2d');x.drawImage(im,0,0);let d=x.getImageData(0,0,c.width,c.height).data,lo=255,hi=0;for(let i=ch;i<d.length;i+=4){lo=Math.min(lo,d[i]);hi=Math.max(hi,d[i])}maps.push({key,channel:ch,width:c.width,height:c.height,range:hi-lo})}});return maps})()''')
+ assert len(out['maps'])>=4 and all(m['range']>10 and m['width']<=512 and m['height']<=512 for m in out['maps'])
+ assert 'Italy' in p.locator('canvas').get_attribute('aria-label');assert not any(x in p.locator('body').inner_text() for x in ['Japan','Yakushima','Cedar'])
+ p.locator('#open').click();p.wait_for_function('pilot.progress===1');box=p.locator('canvas').bounding_box();x=box['x']+box['width']/2;y=box['y']+box['height']/2;p.mouse.move(x,y);p.mouse.down();p.mouse.move(x+box['height']*.5,y,steps=30);p.mouse.up();p.screenshot(path=str(R/'desktop-open-rear.png'));c.close()
+ c=b.new_context(offline=True,java_script_enabled=False,viewport={'width':390,'height':844});p=c.new_page();p.goto((R/'italy-v1.html').as_uri());assert p.locator('#fallback').is_visible();assert p.locator('#fallback').evaluate('(e)=>e.complete&&e.naturalWidth>0');out['noJS_poster']=True;p.screenshot(path=str(R/'mobile-nojs.png'));c.close();b.close()
+out['status']='PASS';(R/'extended-check.json').write_text(json.dumps(out,indent=2));print(json.dumps(out,indent=2))
