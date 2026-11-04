@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "pivots": {
+    "Lid_Hinge": {
+      "location": [
+        0.0,
+        1.3200000524520874,
+        1.6679999828338623
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "parent": null
+    },
+    "Latch_Pivot": {
+      "location": [
+        0.0,
+        -2.6100001335144043,
+        0.2200000286102295
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "parent": "Lid_Hinge"
+    }
+  },
+  "pinnacles": 28,
+  "green_patches": 18,
+  "negative_controls": [
+    "missing pinnacles rejected",
+    "detached pinnacle rejected"
+  ],
+  "height_range_above_lid": [
+    0.18744947433471681,
+    0.6336207580566406
+  ]
+}
