@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "HTML_BYTES": 3979743,
+  "GLB_BYTES": 2407672,
+  "ZIP_BYTES": 6201683,
+  "ZIP_SHA256": "b9177dff2d266082e36e08ee41915fbce7e0d5ba5f0c2f83234958f24b54d6c9",
+  "archive_entries": 55,
+  "required_artifacts_verified": [
+    "README.md",
+    "acceptance-check.json",
+    "browser-check.json",
+    "design-brief.md",
+    "extended-check.json",
+    "latvia-v1.html",
+    "latvia.blend",
+    "latvia.glb",
+    "mechanism.blend",
+    "motion-output.txt",
+    "parity-check.json",
+    "poster.jpg",
+    "poster.png",
+    "source-check.json",
+    "theme-check.json"
+  ],
+  "archive_readback_verified": true,
+  "checks": {
+    "source_and_motion_sampling": "PASS",
+    "source_export_parity": "PASS",
+    "theme-check.json": "PASS",
+    "extended-check.json": "PASS",
+    "offline_browser": "PASS",
+    "motion_unit_tests": "PASS",
+    "html_budget": "PASS"
+  }
+}
