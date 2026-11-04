@@ -1,0 +1,12 @@
+00:01.656  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_ed8048e6\preview\thailand-v1\mechanism.blend"
+00:01.812  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_ed8048e6\preview\thailand-v1\thailand.blend"
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_ed8048e6\preview\thailand-v1\verify_theme.py", line 15, in <module>
+    assert 1.975<=lo[2]<=1.979 and hi[2]<=2.16, ('Wave must seat into lid top 1.978',lo,hi)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('Wave must seat into lid top 1.978', [-1.422397255897522, -0.6608901619911194, 1.9581351280212402], [1.422397255897522, -0.31910988688468933, 2.0929999351501465])
+
+Error: script failed, file: 'preview/thailand-v1/verify_theme.py', exiting.
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
