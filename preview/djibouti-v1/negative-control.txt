@@ -1,0 +1,12 @@
+00:00.890  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_0e95cfbd\preview\djibouti-v1\mechanism.blend"
+00:00.906  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_0e95cfbd\preview\djibouti-v1\djibouti.blend"
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_0e95cfbd\preview\djibouti-v1\verify_theme.py", line 13, in <module>
+    assert all(o.parent==lid for o in terrain),'detached terrain'
+           ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: detached terrain
+
+Error: script failed, file: 'preview/djibouti-v1/verify_theme.py', exiting.
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
