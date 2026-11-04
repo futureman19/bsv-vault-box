@@ -1,0 +1,36 @@
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_60a912ef\preview\vatican-city-v1\verify_browser.py", line 11, in <module>
+    page.goto((ROOT/'vatican-city-v1.html').as_uri());page.wait_for_function('window.pilot?.ready===true',timeout=25000);page.wait_for_timeout(250)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\futur\.hermes\installs\60215e25aec448c9\environments\b3c4bbda9be44f5cb17e68e2e2ba7648\venv\Lib\site-packages\playwright\sync_api\_generated.py", line 9875, in goto
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.goto(
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        )
+        ^
+    )
+    ^
+  File "C:\Users\futur\.hermes\installs\60215e25aec448c9\environments\b3c4bbda9be44f5cb17e68e2e2ba7648\venv\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\futur\.hermes\installs\60215e25aec448c9\environments\b3c4bbda9be44f5cb17e68e2e2ba7648\venv\Lib\site-packages\playwright\_impl\_page.py", line 560, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\futur\.hermes\installs\60215e25aec448c9\environments\b3c4bbda9be44f5cb17e68e2e2ba7648\venv\Lib\site-packages\playwright\_impl\_frame.py", line 156, in goto
+    await self._channel.send(
+        "goto", self._navigation_timeout, locals_to_params(locals())
+    )
+  File "C:\Users\futur\.hermes\installs\60215e25aec448c9\environments\b3c4bbda9be44f5cb17e68e2e2ba7648\venv\Lib\site-packages\playwright\_impl\_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\futur\.hermes\installs\60215e25aec448c9\environments\b3c4bbda9be44f5cb17e68e2e2ba7648\venv\Lib\site-packages\playwright\_impl\_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.goto: net::ERR_FILE_NOT_FOUND at file:///C:/Users/futur/Desktop/bsv-vault-box/.worktrees/t_60a912ef/preview/vatican-city-v1/vatican-city-v1.html
+Call log:
+  - navigating to "file:///C:/Users/futur/Desktop/bsv-vault-box/.worktrees/t_60a912ef/preview/vatican-city-v1/vatican-city-v1.html", waiting until "load"
+
