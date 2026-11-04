@@ -1,0 +1,12 @@
+00:00.578  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_2d27b3ab\preview\cyprus-v1\mechanism.blend"
+00:00.593  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_2d27b3ab\preview\cyprus-v1\cyprus.blend"
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_2d27b3ab\preview\cyprus-v1\verify_theme.py", line 12, in <module>
+    assert all(o.parent==lid for o in diamonds),'Detached cutwork ornament'
+           ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Detached cutwork ornament
+
+Error: script failed, file: 'preview/cyprus-v1/verify_theme.py', exiting.
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
