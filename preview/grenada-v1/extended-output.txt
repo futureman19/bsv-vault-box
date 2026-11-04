@@ -1,0 +1,52 @@
+C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_0261e9f1\preview\grenada-v1\verify_extended.py:6: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  im=Image.open(R/'poster.png').convert('RGBA');pixels=list(im.getdata());assert sum(p[3]>0 and max(p[:3])>20 for p in pixels)>len(pixels)*.1
+{
+  "actual_poster_nonblack_coverage": 0.9306344444444444,
+  "maps": [
+    {
+      "material": "Spicewood / dark finger endgrain",
+      "key": "map",
+      "width": 256,
+      "height": 256,
+      "range": 28
+    },
+    {
+      "material": "Granite / salt and pepper",
+      "key": "map",
+      "width": 256,
+      "height": 256,
+      "range": 143
+    },
+    {
+      "material": "Spicewood / fine longitudinal grain",
+      "key": "map",
+      "width": 512,
+      "height": 512,
+      "range": 70
+    },
+    {
+      "material": "Spicewood / fine longitudinal grain",
+      "key": "normalMap",
+      "width": 512,
+      "height": 512,
+      "range": 10
+    },
+    {
+      "material": "Spicewood / fine longitudinal grain",
+      "key": "roughnessMap",
+      "width": 512,
+      "height": 512,
+      "range": 53
+    },
+    {
+      "material": "Nutmeg / warm brown seed",
+      "key": "map",
+      "width": 256,
+      "height": 256,
+      "range": 22
+    }
+  ],
+  "noJS_poster": true,
+  "status": "PASS"
+}
+EXTENDED PASS
