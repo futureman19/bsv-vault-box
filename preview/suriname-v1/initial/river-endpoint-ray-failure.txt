@@ -1,0 +1,13 @@
+00:01.547  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_cd7d4973\preview\suriname-v1\suriname.blend"
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_cd7d4973\preview\suriname-v1\verify_theme_source.py", line 19, in <module>
+    height=validate();river.parent=None
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_cd7d4973\preview\suriname-v1\verify_theme_source.py", line 17, in validate
+    assert hit and o==river,(i,o.name if o else None)
+           ^^^^^^^^^^^^^^^^
+AssertionError: (48, 'Terrain / island')
+
+Error: script failed, file: 'preview/suriname-v1/verify_theme_source.py', exiting.
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
