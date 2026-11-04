@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_893d919e\preview\botswana-v1\verify_theme.py", line 11, in <module>
+    assert len(f['maps'])>=3 and all(x['range']>0 and max(x['width'],x['height'])<=1024 for x in f['maps'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
