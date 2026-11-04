@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "basis": "Vision inspection of actual source poster, offline mobile closed and desktop open screenshots; not user approval or photoreal equivalence.",
+  "final_mobile": "Higher default camera makes all five domes separately identifiable: three rear, two front. Full chest and controls remain visible.",
+  "initial_failure": "Default inherited low camera merged/occluded one dome at mobile size. initial/mobile-four-visible.png retains the rejected presentation.",
+  "fix": "Changed only viewer camera from (-5,3.7,7) to (-4,5.8,7), rebuilt and reran complete offline browser and extended checks.",
+  "source_render": "Five domes present; source-rendered poster, not generated promotional art.",
+  "limitations": ["Stylized simplified dome geometry, not a geographic reconstruction", "Regular strong bands can read as painted wood in the source render; browser reads more like banded sandstone", "Pronounced dark seam and blocky fittings are family-design abstractions", "Some dome contours overlap in projection, though all five are now countable", "Mobile is desktop-GPU touch emulation, not a physical phone", "Front open view naturally hides lid-top domes; rear-open view is included"],
+  "brief_deviation": "Foreground dome footprint reaches y=-0.69545 rather than nominal -0.65. Kept for front-row separation; inside the lid and included in clearance tests. Source acceptance bounds explicitly allow -0.75."
+}
