@@ -1,0 +1,64 @@
+{
+  "status": "PASS",
+  "features": {
+    "coils": 18,
+    "panels": 4,
+    "wrong": [],
+    "maps": [
+      {
+        "slot": "map",
+        "width": 512,
+        "height": 512,
+        "range": 173
+      },
+      {
+        "slot": "roughnessMap",
+        "width": 512,
+        "height": 512,
+        "range": 31
+      },
+      {
+        "slot": "normalMap",
+        "width": 512,
+        "height": 512,
+        "range": 24
+      }
+    ],
+    "maxY": 2.0733580589294434
+  },
+  "runtime_negative_control": {
+    "mutation": "actual loaded coil reparented to scene root",
+    "rejected": true,
+    "reason": "Ornament detached from lid",
+    "features": {
+      "coils": 18,
+      "panels": 4,
+      "wrong": [
+        "Lid_coil__00"
+      ],
+      "maps": [
+        {
+          "slot": "map",
+          "width": 512,
+          "height": 512,
+          "range": 173
+        },
+        {
+          "slot": "roughnessMap",
+          "width": 512,
+          "height": 512,
+          "range": 31
+        },
+        {
+          "slot": "normalMap",
+          "width": 512,
+          "height": 512,
+          "range": 24
+        }
+      ],
+      "maxY": 2.0733580589294434
+    }
+  },
+  "restored_pass": true,
+  "noJS_poster": true
+}
