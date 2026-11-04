@@ -2,7 +2,7 @@ from pathlib import Path
 import hashlib,json,zipfile
 R=Path(__file__).resolve().parent
 excluded={'inventory.json','delivery-check.json','chad-v1-source.zip'}
-files=sorted(p for p in R.rglob('*') if p.is_file() and p.name not in excluded and not p.name.endswith('.blend1') and '__pycache__' not in p.parts)
+files=sorted(p for p in R.rglob('*') if p.is_file() and p.name not in excluded and not p.name.endswith('.blend1') and '__pycache__' not in p.parts and 'node_modules' not in p.parts)
 required={'chad-v1.html','chad.glb','chad.blend','mechanism.blend','poster.png','poster.jpg','design-brief.md','README.md','source-check.json','parity-check.json','theme-check.json','browser-check.json','fallback-check.json'}
 assert required<={p.relative_to(R).as_posix() for p in files}
 assert (R/'chad-v1.html').stat().st_size<5000000
