@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "method": "Visual inspection of actual saved source render and final offline browser screenshots, separate from geometry tests",
+  "final_images": ["mobile-closed.png", "desktop-open.png"],
+  "observations": ["Two separately legible green peak silhouettes", "Final shoreline rounded and irregular, not initial rectangular pad", "Visible teal surround", "Wide stone/brass box", "Open hollow interior and attached hinges visible", "No model clipping in tested default framing"],
+  "retained_initial_visual_failure": "Rectangular land pad contradicted irregular coastline intent; rebuilt radial irregular coast, then reran source/export/browser gates",
+  "limitations": ["Stylized fluted peaks, not surveyed terrain", "Stone reads pale and clean rather than strongly volcanic", "Sage greens under studio lights, not individual forest foliage", "Some Cycles sampling noise", "No physical-device or photoreal equivalence claim"]
+}
