@@ -1,0 +1,83 @@
+{
+  "status": "PASS",
+  "commands": [
+    {
+      "check": "build",
+      "exit_code": 0,
+      "command": [
+        "C:\\Users\\futur\\.hermes\\installs\\60215e25aec448c9\\environments\\b3c4bbda9be44f5cb17e68e2e2ba7648\\venv\\Scripts\\python.exe",
+        "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_b4f24906\\preview\\guatemala-v1\\build.py"
+      ]
+    },
+    {
+      "check": "motion",
+      "exit_code": 0,
+      "command": [
+        "node",
+        "--test",
+        "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_b4f24906\\preview\\guatemala-v1\\tests.mjs"
+      ]
+    },
+    {
+      "check": "verify_theme",
+      "exit_code": 0,
+      "command": [
+        "C:/Users/futur/AppData/Local/Programs/Blender-5.2.1/blender.exe",
+        "--background",
+        "-t",
+        "2",
+        "--factory-startup",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_b4f24906\\preview\\guatemala-v1\\verify_theme.py"
+      ]
+    },
+    {
+      "check": "verify_source",
+      "exit_code": 0,
+      "command": [
+        "C:/Users/futur/AppData/Local/Programs/Blender-5.2.1/blender.exe",
+        "--background",
+        "-t",
+        "2",
+        "--factory-startup",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_b4f24906\\preview\\guatemala-v1\\verify_source.py"
+      ]
+    },
+    {
+      "check": "verify_parity",
+      "exit_code": 0,
+      "command": [
+        "C:/Users/futur/AppData/Local/Programs/Blender-5.2.1/blender.exe",
+        "--background",
+        "-t",
+        "2",
+        "--factory-startup",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_b4f24906\\preview\\guatemala-v1\\verify_parity.py"
+      ]
+    },
+    {
+      "check": "verify_browser",
+      "exit_code": 0,
+      "command": [
+        "C:\\Users\\futur\\.hermes\\installs\\60215e25aec448c9\\environments\\b3c4bbda9be44f5cb17e68e2e2ba7648\\venv\\Scripts\\python.exe",
+        "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_b4f24906\\preview\\guatemala-v1\\verify_browser.py"
+      ]
+    },
+    {
+      "check": "verify_extended",
+      "exit_code": 0,
+      "command": [
+        "C:\\Users\\futur\\.hermes\\installs\\60215e25aec448c9\\environments\\b3c4bbda9be44f5cb17e68e2e2ba7648\\venv\\Scripts\\python.exe",
+        "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_b4f24906\\preview\\guatemala-v1\\verify_extended.py"
+      ]
+    }
+  ]
+}
