@@ -1,0 +1,11 @@
+00:00.500  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_eddc248d\preview\hungary-v1\hungary.blend"
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_eddc248d\preview\hungary-v1\verify_theme.py", line 12, in <module>
+    assert all(o.parent and o.parent.name=='Lid_Hinge' for o in orn),'Detached ornament'
+           ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Detached ornament
+
+Error: script failed, file: 'preview/hungary-v1/verify_theme.py', exiting.
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
