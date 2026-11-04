@@ -1,0 +1,11 @@
+00:01.157  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_665d5599\preview\solomon-islands-v1\solomon-islands.blend"
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_665d5599\preview\solomon-islands-v1\verify_parity.py", line 12, in <module>
+    source=vertices();image_names=[i.name for i in bpy.data.images if i.packed_file];assert len(image_names)>=3
+                                                                                            ^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+Error: script failed, file: 'preview/solomon-islands-v1/verify_parity.py', exiting.
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

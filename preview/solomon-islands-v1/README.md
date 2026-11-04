@@ -1,0 +1,22 @@
+# Solomon Islands v1 — Ebony & Shell
+
+Open `solomon-islands-v1.html` directly in Edge/Chrome. Standalone offline HTML **3,726,216 bytes**; GLB **2,148,952 bytes**. Original brief-driven dark timber collectible with 65 cream shell-inspired geometric inserts, including 45 lid-owned inserts. Invented motifs inspired by documented western Solomon Islands material contrasts, not replicas of ceremonial figures. No photos or museum artwork embedded.
+
+## Verified
+- Reopened packed editable `solomon-islands.blend`; actual source poster rendered with Cycles, 24 samples, two CPU threads, no denoising. Poster is not AI marketing imagery.
+- Actual GLTFLoader: 192 meshes, 27,640 triangles, 5 materials, zero nonfinite vertices and zero degenerate triangles. Compact 512x256 maps; decoded ebony color range 40, roughness GREEN range 68, shell color range 18.
+- Independent source/export bidirectional vertex error 1.712013073529306e-7 (<1e-5). Packed source images verified.
+- 81 motion poses: 73 moving and 119 static meshes, no unintended surface intersections; every lid ornament included. Ten hinge attachment pairs intersect as intended. Only named mating bearings excluded. Hollow floor ray z=0.26500001549720764. Sampled surface checks, not continuous collision/manufacturing certification.
+- Original mechanism pivot matrices match exactly. 80-degree latch release then 105-degree lid lift. Two executed Node motion/invalid-input tests pass. Deliberately detached lid ornament rejected by theme validator. Medallion segments independently checked for XY overlap and low relief.
+- Offline file:// Edge desktop and 390x844 touch emulation: native open/close, drag/touch rotation, reset during movement, reduced motion, no horizontal overflow, no external HTTP requests or JS errors. Full-open projection maximum absolute NDC 0.892365. Genuine corrupt-GLB parsing error shows poster; no-JS poster also verified. RTX 4060 browser, not physical-phone testing.
+- SHA-256/byte inventory and source ZIP readback in delivery-check.json. Archive excludes dependencies, caches and Blender backups. Folder-local Git attributes preserve bytes.
+
+## Visual verdict and limits
+Actual desktop/mobile screenshots inspected. Wide wood/brass silhouette and contrasting front diamonds are readable. Fine lid decoration remains small on mobile; shell is cream-colored decorative geometry, not convincing optical nacre. Grain is regular and visibly procedural; the lit lid reads lighter than the dark body. Dark reveal is prominent. Front-open view can suggest a floating lid; rear screenshot shows connected hardware and ten source contact checks independently confirm attachment. No photoreal-equivalence claim or human approval claim. Per-asset review was waived for collection production.
+
+Initial medallion pieces overlapped visually; narrowed into separated diamonds and added nonoverlap test. Initial parity gate rejected two packed images; adding a real portable shell-color map gave three and passed without weakening the gate. Initial build failed because provided sibling node_modules was empty; installed pinned dependencies locally. Optional Codex lane failed authentication (401), accepted no changes; Hermes authored and verified everything. Initial failed parity/build evidence and first render retained. One shell launcher could not run Node without a TTY; tests rerun successfully via native node.exe.
+
+## Reproduce
+Dependencies: Blender 5.2.1, Python with numpy/Pillow/Playwright, installed Edge, Node. In this folder: `npm ci --no-audit --no-fund`; `python maps.py`; Blender `--background --factory-startup --python-exit-code 1 --python author.py`; same Blender flags with verify_source.py, verify_parity.py and verify_theme.py; `node --test tests.mjs`; `python build.py`; `python verify_browser.py`; `python verify_extended.py`; `python package_delivery.py`. Windows shell may require `C:/Program Files/nodejs/node.exe` explicitly. Authoring overwrites output; preserve manual copies first. Mechanism is included, derived from repository Japan v1; build prefers local dependencies. Three MIT license included.
+
+Editable source, GLB, maps, actual-source poster, offline HTML, screenshots, validators, raw outputs and source archive are included. Inventory excludes itself and packaging envelopes to avoid recursive hashes. Nothing minted, hosted, signed, chain queried or deployed. Cosmetic opening does not change custody. Branch backup only; integration into the 201-design collection remains a separate task.
