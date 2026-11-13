@@ -1,0 +1,6 @@
+# Initial findings retained
+
+- Optional Codex lane exited 1 before authoring: HTTP 401 / token-refresh failure. No Codex changes were accepted; Hermes implemented directly. No credential files were read or changed.
+- First build failed because the requested shared `preview/iceland-pilot/node_modules` location existed but was empty: Node reported MODULE_NOT_FOUND for esbuild/bin/esbuild. Installed the existing package.json dependencies locally inside Brazil's folder (`npm install --prefix preview/brazil-v1 --no-audit --no-fund`); no dependency upgrade or sibling edit. The standalone runtime has no external dependency.
+- First mobile visual inspection found the ochre river hard to distinguish between high foreground crowns despite 61 clear vertical river rays. Retained initial mobile/desktop/poster. One bounded correction widened the channel from .34 to .46, moved canopies outward, reduced crown radius and changed water to a declared stylized teal; raised viewer camera from Y=4.8 to 5.8. The final asset is an invented diorama, not the actual sediment color or a hydrological reconstruction.
+- The theme test actually detaches the river, asserts the lid-ancestry predicate rejects it, then restores it before geometry checks. This is a deliberate regression negative control, not a claim of test-first development.
