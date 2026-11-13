@@ -1,0 +1,13 @@
+{
+  "observed_build_failure": {
+    "command": "python preview/mexico-v1/build.py",
+    "exit_code": 1,
+    "error": "MODULE_NOT_FOUND: preview/iceland-pilot/node_modules/esbuild/bin/esbuild",
+    "cause_verified": "Main checkout and worktree baseline node_modules directories were empty.",
+    "fix": "npm install --prefix preview/mexico-v1 --no-audit --no-fund installed 3 packages from pinned package.json; build.py unchanged.",
+    "rerun_exit_code": 0
+  },
+  "asset_acceptance_failures": [],
+  "intentional_negative_controls": ["Detached agave leaf rejected by ancestry assertion, restored passes", "Corrupt embedded GLB reaches actual parser and displays poster", "Missing lid and nonfinite bounds rejected by motion module validation"],
+  "note": "This is a factual failure summary, not a fabricated raw subprocess transcript. Raw successful outputs are retained separately."
+}
