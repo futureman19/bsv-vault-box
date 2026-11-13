@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_a443243b\preview\ghana-v1\verify_theme.py", line 15, in <module>
+    validate(out)
+    ~~~~~~~~^^^^^
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_a443243b\preview\ghana-v1\verify_theme.py", line 14, in validate
+    assert len(v['maps'])==2 and all(m['range']>20 and max(m['width'],m['height'])<=512 for m in v['maps']),v
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'strips': ['Kente__lid_strip_0', 'Kente__lid_strip_1', 'Kente__lid_strip_2', 'Kente__lid_strip_3', 'Kente__lid_strip_4', 'Kente__lid_strip_5', 'Kente__lid_strip_6', 'Kente__lid_strip_7'], 'ornaments': ['Ornament__stepped_diamond_0', 'Ornament__stepped_diamond_1', 'Ornament__stepped_diamond_2'], 'maps': [{'material': 'Cocoa wood / satin', 'width': 512, 'height': 256, 'range': 19}, {'material': 'Kente inspired / original strip geometry', 'width': 256, 'height': 512, 'range': 203}], 'wrong': []}
