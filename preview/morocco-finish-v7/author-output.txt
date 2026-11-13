@@ -1,0 +1,30 @@
+00:03.000  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_abe5a3f6\preview\morocco-finish-v7\baseline\morocco.blend"
+C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_abe5a3f6\preview\morocco-finish-v7\author.py:9: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name);m.use_nodes=True;nt=m.node_tree;p=nt.nodes.get('Principled BSDF');p.inputs['Roughness'].default_value=roughness;im=bpy.data.images.load(str(R/'maps'/file));im.pack();n=nt.nodes.new('ShaderNodeTexImage');n.image=im;nt.links.new(n.outputs['Color'],p.inputs['Base Color']);return m
+Info: Saved as "morocco.blend"
+INFO Draco is available, use library at C:\Users\futur\AppData\Local\Programs\Blender-5.2.1\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\Users\futur\AppData\Local\Programs\Blender-5.2.1\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+13:21:51 | INFO: Starting glTF 2.0 export
+13:21:51 | INFO: Extracting primitive: Reference continuous ceramic carrier
+13:21:51 | INFO: Primitives created: 1
+13:21:51 | INFO: Extracting primitive: Reference continuous ceramic carrier.001
+13:21:51 | INFO: Primitives created: 1
+13:21:51 | INFO: Extracting primitive: Reference continuous ceramic carrier.002
+13:21:51 | INFO: Primitives created: 1
+13:21:51 | INFO: Extracting primitive: Cube.029
+13:21:51 | INFO: Primitives created: 2
+13:21:51 | INFO: Extracting primitive: Cube.030
+13:21:51 | INFO: Primitives created: 1
+13:21:51 | INFO: Extracting primitive: Cube.031
+13:21:51 | INFO: Primitives created: 1
+13:21:51 | INFO: Extracting primitive: Cube.032
+13:21:51 | INFO: Primitives created: 1
+13:21:51 | INFO: Extracting primitive: Cube.033
+13:21:51 | INFO: Primitives created: 1
+13:21:51 | INFO: Finished glTF 2.0 export in 0.07690882682800293 s
+00:30.812  render           | Saved: 'C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_abe5a3f6\preview\morocco-finish-v7\poster.png'
+
+V7 saved, target primitives exported, actual model poster rendered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
