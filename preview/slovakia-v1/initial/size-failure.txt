@@ -1,0 +1,9 @@
+
+  preview\slovakia-v1\viewer.bundle.js  582.2kb
+
+Done in 624ms
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_c34ede86\preview\slovakia-v1\build.py", line 13, in <module>
+    p=R/'slovakia-v1.html';p.write_text(html,encoding='utf8');assert p.stat().st_size<5_000_000;print('HTML_BYTES',p.stat().st_size,'GLB_BYTES',(R/'slovakia.glb').stat().st_size)
+                                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

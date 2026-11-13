@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_c34ede86\preview\slovakia-v1\verify_extended.py", line 12, in <module>
+    assert result['relief']==60 and not result['wrong'];assert all(m['range']>0 and max(m['width'],m['height'])<=1024 for m in result['maps']);assert {'map','roughnessMap','normalMap'}<=set(m['slot'] for m in result['maps'])
+                                                               ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
