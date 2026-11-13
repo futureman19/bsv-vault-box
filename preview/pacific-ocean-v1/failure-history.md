@@ -1,0 +1,8 @@
+# Failure and correction history
+
+1. Optional Codex CLI implementation lane exited 1: refresh-token 401 / invalid_jwt. No lane implementation or commits accepted; Hermes implemented directly. Credential stores were not read or modified. Raw lane diagnostics retained separately, excluded from the source ZIP.
+2. One-time bootstrap initially requested Japan's nonexistent tests.mjs. It stopped before authoring; corrected to use the existing Iceland motion tests. Bootstrap is not part of the regeneration pipeline.
+3. Existing iceland-pilot/node_modules was an empty directory, so the inherited build failed with MODULE_NOT_FOUND for esbuild/bin/esbuild. Installed the same pinned Three 0.180.0 and esbuild 0.25.11 in this new preview only (npm install --ignore-scripts --no-audit --no-fund); no dependency upgrades or sibling modifications.
+4. **Real geometry gate failed:** saved-source `verify_theme.py` rejected `Lagoon escaped ring`. The nominal .60 by .39 lagoon slightly exceeded the irregular inner shoreline at a few angles. Preserved raw failure in `initial/lagoon-containment-failure.txt`. Reduced lagoon radii to .57 by .37; did not weaken containment. Reauthored source/GLB and rerendered poster. Final source checks additionally reject deliberately detached and displaced lagoons as negative controls.
+
+The lagoon size is a documented small deviation from the pre-model brief. Other declared technical gates were retained. Visual palette under lighting is more petrol/teal than deep navy; the smooth pale ring and faceted volcano remain stylized. Source render has some sampling grain. These are disclosed visual limits, not claims of photorealistic reference equivalence.
