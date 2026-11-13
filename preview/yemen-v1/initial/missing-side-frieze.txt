@@ -1,0 +1,12 @@
+00:00.515  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_d9a89478\preview\yemen-v1\mechanism.blend"
+00:00.531  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_d9a89478\preview\yemen-v1\yemen.blend"
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_d9a89478\preview\yemen-v1\verify_theme.py", line 9, in <module>
+    assert len([o for o in bpy.data.objects if o.name.startswith('Gypsum / side diamond')])==32
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+Error: script failed, file: 'preview/yemen-v1/verify_theme.py', exiting.
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
