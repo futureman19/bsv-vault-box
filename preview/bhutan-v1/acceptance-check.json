@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "build",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "motion",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "source",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "parity",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "theme",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "theme-negative",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "status": "PASS"
+    },
+    {
+      "name": "browser",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "extended",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "status": "PASS"
+    }
+  ],
+  "negative_control": "Post-implementation in-memory detachment of mountain from lid is rejected; saved source is never modified."
+}
