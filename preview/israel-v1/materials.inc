@@ -1,0 +1,11 @@
+stone_mat=mat('Limestone / pale sediment',(.55,.43,.28),.78)
+maptex(stone_mat,'limestone-color.png','Base Color')
+maptex(stone_mat,'limestone-roughness.png','Roughness',True)
+t=stone_mat.node_tree.nodes.new('ShaderNodeTexImage');t.image=bpy.data.images.load(str(R/'maps/limestone-normal.png'));t.image.colorspace_settings.name='Non-Color';t.image.pack()
+n=stone_mat.node_tree.nodes.new('ShaderNodeNormalMap');n.inputs['Strength'].default_value=.24;stone_mat.node_tree.links.new(t.outputs['Color'],n.inputs['Color']);stone_mat.node_tree.links.new(n.outputs['Normal'],stone_mat.node_tree.nodes.get('Principled BSDF').inputs['Normal'])
+wood=stone_mat;granite=stone_mat
+sand=mat('Basin / golden ochre',(.46,.255,.105),.9)
+chalk=mat('Rim / warm chalk',(.68,.55,.36),.83)
+shade=mat('Basin / dark mineral beds',(.27,.14,.065),.87)
+gold=mat('Brass / warm satin',(.48,.30,.10),.28,.8)
+seam=mat('Mineral seam / umber',(.07,.045,.025),.9)
