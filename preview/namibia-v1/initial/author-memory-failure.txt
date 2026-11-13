@@ -1,0 +1,59 @@
+00:03.172  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_b8d65bef\preview\namibia-v1\mechanism.blend"
+C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_b8d65bef\preview\namibia-v1\author.py:15: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  c=tuple(linear(int(h[i:i+2],16)/255) for i in (0,2,4));m=bpy.data.materials.new(n);m.diffuse_color=(*c,1);m.use_nodes=True;p=m.node_tree.nodes.get('Principled BSDF');p.inputs['Base Color'].default_value=(*c,1);p.inputs['Roughness'].default_value=r;p.inputs['Metallic'].default_value=metal;return m
+Traceback (most recent call last):
+  File "C:\Users\futur\AppData\Local\Programs\Blender-5.2.1\5.2\scripts\addons_core\io_scene_gltf2\__init__.py", line 1120, in execute
+    from .blender.exp import export as gltf2_blender_export
+  File "C:\Users\futur\AppData\Local\Programs\Blender-5.2.1\5.2\scripts\addons_core\io_scene_gltf2\blender\exp\export.py", line 17, in <module>
+    from . import gather as gltf2_blender_gather
+  File "C:\Users\futur\AppData\Local\Programs\Blender-5.2.1\5.2\scripts\addons_core\io_scene_gltf2\blender\exp\gather.py", line 15, in <module>
+    from .animation.animations import gather_animations
+  File "C:\Users\futur\AppData\Local\Programs\Blender-5.2.1\5.2\scripts\addons_core\io_scene_gltf2\blender\exp\animation\animations.py", line 7, in <module>
+    from .scene_animation import gather_scene_animations
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1019, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1152, in get_code
+  File "<frozen importlib._bootstrap_external>", line 781, in _compile_bytecode
+MemoryError
+00:04.625  bpy.rna          | ERROR Python script error in EXPORT_SCENE_OT_gltf.execute
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_b8d65bef\preview\namibia-v1\author.py", line 108, in <module>
+    bpy.context.view_layer.objects.active=lid;bpy.ops.export_scene.gltf(filepath=str(R/'namibia.glb'),export_format='GLB',use_selection=True,export_apply=True,export_animations=False)
+                                              ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Error: Python: Traceback (most recent call last):
+  File "C:\Users\futur\AppData\Local\Programs\Blender-5.2.1\5.2\scripts\addons_core\io_scene_gltf2\__init__.py", line 1120, in execute
+    from .blender.exp import export as gltf2_blender_export
+  File "C:\Users\futur\AppData\Local\Programs\Blender-5.2.1\5.2\scripts\addons_core\io_scene_gltf2\blender\exp\export.py", line 17, in <module>
+    from . import gather as gltf2_blender_gather
+  File "C:\Users\futur\AppData\Local\Programs\Blender-5.2.1\5.2\scripts\addons_core\io_scene_gltf2\blender\exp\gather.py", line 15, in <module>
+    from .animation.animations import gather_animations
+  File "C:\Users\futur\AppData\Local\Programs\Blender-5.2.1\5.2\scripts\addons_core\io_scene_gltf2\blender\exp\animation\animations.py", line 7, in <module>
+    from .scene_animation import gather_scene_animations
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1019, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1152, in get_code
+  File "<frozen importlib._bootstrap_external>", line 781, in _compile_bytecode
+MemoryError
+Location: C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_b8d65bef\preview\namibia-v1\author.py:108
+
+Info: Saved as "namibia.blend"
+Error: Python: Traceback (most recent call last):
+  File "C:\Users\futur\AppData\Local\Programs\Blender-5.2.1\5.2\scripts\addons_core\io_scene_gltf2\__init__.py", line 1120, in execute
+    from .blender.exp import export as gltf2_blender_export
+  File "C:\Users\futur\AppData\Local\Programs\Blender-5.2.1\5.2\scripts\addons_core\io_scene_gltf2\blender\exp\export.py", line 17, in <module>
+    from . import gather as gltf2_blender_gather
+  File "C:\Users\futur\AppData\Local\Programs\Blender-5.2.1\5.2\scripts\addons_core\io_scene_gltf2\blender\exp\gather.py", line 15, in <module>
+    from .animation.animations import gather_animations
+  File "C:\Users\futur\AppData\Local\Programs\Blender-5.2.1\5.2\scripts\addons_core\io_scene_gltf2\blender\exp\animation\animations.py", line 7, in <module>
+    from .scene_animation import gather_scene_animations
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+ ... truncated
+Error: script failed, file: 'preview/namibia-v1/author.py', exiting.
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

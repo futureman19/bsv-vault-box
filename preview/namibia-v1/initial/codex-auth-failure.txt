@@ -1,0 +1,8 @@
+2026-11-02T22:34:14.082740Z ERROR codex_login::auth::manager: Failed to refresh token: 401 Unauthorized: {
+2026-11-02T22:34:14.807735Z ERROR codex_models_manager::manager: failed to refresh available models: unexpected status 401 Unauthorized: Could not find the appropriate key in your authentication token. Please try signing in again., url: https://chatgpt.com/backend-api/codex/models?client_version=0.128.0, cf-ray: a5469b01fa355150-LAX, request id: req_21d3fdfda96b47ae86eb62f56ccf8d6d, auth error: 401, auth error code: invalid_jwt
+2026-11-02T22:34:15.723521Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 401 Unauthorized, url: wss://chatgpt.com/backend-api/codex/responses
+2026-11-02T22:34:15.930553Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 401 Unauthorized, url: wss://chatgpt.com/backend-api/codex/responses
+2026-11-02T22:34:17.002545Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 401 Unauthorized, url: wss://chatgpt.com/backend-api/codex/responses
+2026-11-02T22:34:17.180555Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 401 Unauthorized, url: wss://chatgpt.com/backend-api/codex/responses
+ERROR: Your access token could not be refreshed. Please log out and sign in again.
+ERROR: Your access token could not be refreshed. Please log out and sign in again.

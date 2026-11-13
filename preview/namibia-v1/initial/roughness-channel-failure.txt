@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_b8d65bef\preview\namibia-v1\verify_extended.py", line 12, in <module>
+    assert all(x['range']>0 and max(x['width'],x['height'])<=1024 for x in f['maps'])
+           ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
