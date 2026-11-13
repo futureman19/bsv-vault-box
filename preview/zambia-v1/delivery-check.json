@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "html_bytes": 3254642,
+  "glb_bytes": 1898704,
+  "required_artifacts_present": true,
+  "inventory_files": 54,
+  "zip_readback_verified": true,
+  "zip_bytes": 7673648,
+  "zip_sha256": "7d962759dca745fd4e030d15071fdc59890394b22b742a0153d54a2999beca32",
+  "inventory_sha256": "e556e2aa5f77e880ffe2cadd41c61f48f35046be6dcdd6c9402e99bc64f41a46",
+  "exclusions": [
+    "codex-lane.log",
+    "delivery-check.json",
+    "inventory.json",
+    "lane-prompt.txt",
+    "zambia-v1-source.zip"
+  ],
+  "note": "Inventory excludes its own hash and packaging envelopes to avoid recursion; optional rejected Codex log omitted from package."
+}
