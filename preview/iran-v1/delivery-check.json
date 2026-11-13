@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "HTML_BYTES": 2582271,
+  "GLB_BYTES": 1314276,
+  "ZIP_BYTES": 5631444,
+  "ZIP_SHA256": "c27e5f42f9710a35983c9a4a6cc221455f0ae2dad66155ec3be8bc55a7a091b2",
+  "inventory_entries": 50,
+  "archive_entries": 51,
+  "required_files_present": [
+    "README.md",
+    "browser-check.json",
+    "design-brief.md",
+    "extended-check.json",
+    "iran-v1.html",
+    "iran.blend",
+    "iran.glb",
+    "motion-output.txt",
+    "parity-check.json",
+    "poster.jpg",
+    "poster.png",
+    "source-check.json",
+    "theme-check.json"
+  ],
+  "archive_readback_verified": true,
+  "checks_passed": [
+    "source",
+    "81-pose motion collisions",
+    "parity",
+    "theme and detached negative control",
+    "browser desktop/mobile offline",
+    "extended maps/noJS/poster",
+    "motion unit tests",
+    "delivery bytes/hash/archive"
+  ]
+}
