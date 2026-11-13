@@ -1,0 +1,8 @@
+# Failures and negative controls
+
+- Optional Codex input lane exited 1 before editing: HTTP 401 invalid_refresh_token/invalid_jwt. Raw `lane-output.txt` retained. No Codex code accepted; Hermes authored and ran all checks directly. Credential stores not touched.
+- First `build.py` exited 1: `Error: Cannot find module 'C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_a206be09\preview\iceland-pilot\node_modules\esbuild\bin\esbuild'`. The requested source dependency directory existed but was empty, as was the worktree directory. Fixed by installing the existing pinned Three 0.180.0 / esbuild 0.25.11 dependencies locally inside this new preview only (`npm install --no-audit --no-fund`). `install-output.txt`, lockfile and successful `build-output.txt` retained. This is an environment failure/fix, not an art rejection.
+- Independent saved-source theme test deliberately detaches the actual west ridge, reruns the same acceptance function and gets `Terrain must travel with lid`. Negative control recorded in `theme-check.json`; mutation is in-memory only and is not saved.
+- Browser check corrupts actual GLB parser input and records the caught SyntaxError plus visible poster/disabled controls. It does not fake a loader status flag. Motion unit tests reject absent pivots, zero triangles and nonfinite bounds.
+
+No real geometry/collision failure occurred in this bounded pass. No photoreal-equivalence test was invented. Source render and mobile review found clear box/water silhouettes but stylized flat forest slopes, regular foliation that can resemble wood, and visually inconspicuous inherited open hinge connections despite numerical attachment checks.
