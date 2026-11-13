@@ -1,0 +1,17 @@
+# Cyprus / Lefkara Linen — visual contract frozen before authoring
+
+## Research and interpretation
+- UNESCO, Lefkara laces or Lefkaritika: https://ich.unesco.org/en/RL/00255 — handmade designs combine hemstitch, cut work, satin stitch fillings and needlepoint edgings; cotton thread on linen. Search-retrieved description verified against the Cyprus National Commission entry: http://unesco.org.cy/Programmes-Lefkara_Laces_or_Lefkaritika,EN-PROGRAMMES-04-02-03-01,EN .
+- Larnaka Tourism, https://larnakaregion.com/directory/product/lefkaritika-lace-pieces — white, brown and beige palette and reversible embroidered linens.
+No source photographs, textile patterns or text are copied into runtime assets. The design is an invented geometric tribute to this specific Cypriot craft, NOT authentic Lefkaritika, artisan-made lace, a historical pattern reconstruction or an assertion that one craft represents all Cyprus. The written contract is the primary reference; no supplied concept illustration exists. Initial guessed UNESCO ID 00220 was not verified; the search resolved correct ID 00255.
+
+## Geometry/material contract
+- Wide family box: body exterior approximately 3.72 X 2.48 units; body z .10–1.56. Hollow liner and floor retained. Front -Y; rear +Y; glTF (X,Z,-Y).
+- Four continuous warm brown linen-inspired exterior skins, not inherited wood finger courses. Generated 512px woven base color, roughness and normal maps. Palette target base-map RGB median brown approximately (115,78,47), with nonzero fine thread variation. No scans.
+- Satin beige lid slab: 3.72 X 2.38 X .30, center z=1.828. Dark brown inset carrier above it. Six ivory open diamond outlines arranged in three columns and two rows. Each diamond has four thick thread segments and a small inner diamond; open centers expose the dark carrier rather than punching the container. Border stitch bars surround the inset. Visible thread relief z 2.005–2.075; all ornaments parented to Lid_Hinge.
+- Original restrained warm brass corner caps, medallion, ring, hinges and latch. Ecru seam height .108 with narrowed rear strip to preserve hinge clearance. Four brown low feet. Hardware is family styling, not claimed traditional Cypriot metalwork.
+- Preserve original pivots exactly: staged 80-degree latch release, then 105-degree lid opening. Include all new moving parts in 81 pose sampled BVH collision checks, with only the inherited named bearing exclusions.
+- Readability: distinct ivory geometric cutwork against brown at desktop and 390px mobile. No landscape miniature or borrowed cedar. Openwork is a raised interpretation over a solid lid, not real cloth simulation.
+
+## Gates
+Independent saved-source reopen, six geometric motif counts/bounds/ancestry, open-center downward rays, woven texture palette/variation, same-pivot comparison, source/GLB nearest-vertex parity <1e-5. Real GLTFLoader finite geometry and no degenerate triangles. Offline file:// desktop and touch-emulated mobile: native rotate/open/close/reset, reduced motion, unclipped full-open model, no HTTP requests or JS errors, actual corrupted-parser fallback and no-JS poster. Real source-render poster with pixel sanity check. Full standalone HTML strictly <5,000,000 bytes. Exact SHA-256 inventory and ZIP readback. Negative control deliberately removes ornament lid ancestry and must fail. Visual acceptance is a stylized craft-inspired asset, never photoreal or authentic-pattern certification. Complete autonomously per task directive; no human-review stop.
