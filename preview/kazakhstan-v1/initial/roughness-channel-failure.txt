@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_83a6b387\preview\kazakhstan-v1\verify_extended.py", line 13, in <module>
+    f=p.evaluate(JS);check(f)
+                     ~~~~~^^^
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_83a6b387\preview\kazakhstan-v1\verify_extended.py", line 9, in check
+    assert len(f['maps'])==3 and all(m['range']>10 and max(m['width'],m['height'])<=512 for m in f['maps']),f
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'counts': {'lidScroll': 8, 'bodyScroll': 8, 'sideScroll': 8, 'lattice': 6, 'rim': 1}, 'maps': [{'slot': 'map', 'width': 512, 'height': 512, 'range': 31}, {'slot': 'roughnessMap', 'width': 512, 'height': 512, 'range': 0}, {'slot': 'map', 'width': 512, 'height': 512, 'range': 23}], 'wrong': []}
