@@ -1,0 +1,85 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "build",
+      "status": "PASS",
+      "exit_code": 0,
+      "command": [
+        "C:\\Users\\futur\\.hermes\\installs\\60215e25aec448c9\\environments\\b3c4bbda9be44f5cb17e68e2e2ba7648\\venv\\Scripts\\python.exe",
+        "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_f7f021b3\\preview\\sudan-v1\\build.py"
+      ]
+    },
+    {
+      "check": "motion",
+      "status": "PASS",
+      "exit_code": 0,
+      "command": [
+        "node",
+        "--test",
+        "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_f7f021b3\\preview\\sudan-v1\\tests.mjs"
+      ]
+    },
+    {
+      "check": "source",
+      "status": "PASS",
+      "exit_code": 0,
+      "command": [
+        "C:/Users/futur/AppData/Local/Programs/Blender-5.2.1/blender.exe",
+        "--background",
+        "--factory-startup",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_f7f021b3\\preview\\sudan-v1\\verify_source.py"
+      ]
+    },
+    {
+      "check": "parity",
+      "status": "PASS",
+      "exit_code": 0,
+      "command": [
+        "C:/Users/futur/AppData/Local/Programs/Blender-5.2.1/blender.exe",
+        "--background",
+        "--factory-startup",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_f7f021b3\\preview\\sudan-v1\\verify_parity.py"
+      ]
+    },
+    {
+      "check": "theme",
+      "status": "PASS",
+      "exit_code": 0,
+      "command": [
+        "C:/Users/futur/AppData/Local/Programs/Blender-5.2.1/blender.exe",
+        "--background",
+        "--factory-startup",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_f7f021b3\\preview\\sudan-v1\\verify_theme.py"
+      ]
+    },
+    {
+      "check": "browser",
+      "status": "PASS",
+      "exit_code": 0,
+      "command": [
+        "C:\\Users\\futur\\.hermes\\installs\\60215e25aec448c9\\environments\\b3c4bbda9be44f5cb17e68e2e2ba7648\\venv\\Scripts\\python.exe",
+        "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_f7f021b3\\preview\\sudan-v1\\verify_browser.py"
+      ]
+    },
+    {
+      "check": "extended",
+      "status": "PASS",
+      "exit_code": 0,
+      "command": [
+        "C:\\Users\\futur\\.hermes\\installs\\60215e25aec448c9\\environments\\b3c4bbda9be44f5cb17e68e2e2ba7648\\venv\\Scripts\\python.exe",
+        "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_f7f021b3\\preview\\sudan-v1\\verify_extended.py"
+      ]
+    }
+  ],
+  "owner": "Hermes direct execution; optional Codex lane failed auth without implementation"
+}
