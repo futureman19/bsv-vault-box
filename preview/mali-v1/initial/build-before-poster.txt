@@ -1,0 +1,11 @@
+
+  preview\mali-v1\viewer.bundle.js  582.2kb
+
+Done in 426ms
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_f5a28c34\preview\mali-v1\build.py", line 11, in <module>
+    Image.open(R/'poster.png').convert('RGB').save(R/'poster.jpg',quality=90,optimize=True)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\futur\.hermes\installs\60215e25aec448c9\environments\b3c4bbda9be44f5cb17e68e2e2ba7648\venv\Lib\site-packages\PIL\Image.py", line 3639, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_f5a28c34\\preview\\mali-v1\\poster.png'
