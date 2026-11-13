@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "HTML_BYTES": 2266525,
+  "GLB_BYTES": 1116544,
+  "ZIP_BYTES": 5329820,
+  "ZIP_SHA256": "7062843be935c9a7bc9a5e3748ab71371335400eabe0e2bf980c07896e1c6b35",
+  "ZIP_entries": 57,
+  "required_artifacts_present": true,
+  "archive_readback_verified": true,
+  "inventory_entries": 56,
+  "inventory_sha256": "5b2d8298f86166683161a3c095edeefa80fb173d0e2e6248d6b193c9c567a630",
+  "checks_passed": [
+    "source",
+    "hinge-attachment",
+    "motion-81",
+    "parity",
+    "theme-source",
+    "theme-runtime",
+    "browser-desktop",
+    "browser-mobile",
+    "corrupt-GLB",
+    "no-JS",
+    "size",
+    "SHA256-inventory",
+    "ZIP-readback"
+  ],
+  "excluded_envelopes": [
+    "inventory.json (self)",
+    "delivery-check.json (self)",
+    "source ZIP (envelope)",
+    "package-output.txt (active log)",
+    "git evidence",
+    "optional lane prompt/log/setup"
+  ]
+}
