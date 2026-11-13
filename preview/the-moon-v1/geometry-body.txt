@@ -1,0 +1,47 @@
+for o in bpy.data.objects:
+ if o.type=='MESH' and not o.name.startswith('Studio'):
+  o.data.materials.clear();o.data.materials.append(rock if o.name.startswith('Interior') else gold)
+  if o.name.startswith('Interior'):uv(o)
+for sy in [-1,1]:cube('Regolith / wall',(0,sy*1.145,.83),(3.72,.19,1.46),rock,bevel=.035)
+for sx in [-1,1]:cube('Regolith / side',(sx*1.745,0,.83),(.23,2.10,1.46),rock,bevel=.035)
+cube('Regolith / clasp seat',(0,-1.255,1.36),(.56,.075,.47),rock,bevel=.025)
+for sy in [-1,1]:cube('Seam / long',(0,sy*(1.14 if sy<0 else 1.10),1.618),(3.28,.16 if sy<0 else .08,.108),seam,bevel=.009)
+for sx in [-1,1]:
+ cube('Seam / side',(sx*1.74,0,1.618),(.16,2.05,.108),seam,bevel=.009)
+ for sy in [-1,1]:cube('Regolith / rim corner',(sx*1.745,sy*1.145,1.616),(.23,.19,.112),rock,bevel=.004)
+slab=cube('Lid / polished slab',(0,0,1.828),(3.72,2.38,.30),highland,lid,.045)
+for sx in [-1,1]:
+ for sy in [-1,1]:
+  cube('Corner hardware / top',(sx*1.73,sy*1.07,1.989),(.23,.23,.023),gold,lid,.008)
+  cube('Corner hardware / edge',(sx*1.73,sy*1.197,1.93),(.23,.018,.12),gold,lid,.005)
+  cube('Regolith / foot',(sx*1.47,sy*.91,-.10),(.5,.44,.34),rock,bevel=.07)
+# One continuous height field: bowls and ejecta rims are connected terrain,
+# with no torus meshes, hidden planes or floating ornament bases.
+craters=[(-.68,-.22,.52),(.65,.43,.255),(.85,-.55,.19)]
+def height(x,y):
+ z=2.055+.024*math.sin(x*4+y*2)+.016*math.cos(y*8-x*3)
+ for cx,cy,r in craters:
+  d=math.hypot(x-cx,y-cy)/r
+  z+=.115*math.exp(-((d-1)/.19)**2)-.066*math.exp(-(d/.67)**4)
+ return max(1.984,z)
+verts=[];faces=[];nx=100;ny=66
+for j in range(ny+1):
+ for i in range(nx+1):
+  x=-1.58+3.16*i/nx;y=-.94+1.88*j/ny
+  # Blend perimeter down to the lid with an organic unraised boundary.
+  e=min(1,(1.58-abs(x))/.13,(.94-abs(y))/.13)
+  z=1.977+max(0,e)*(height(x,y)-1.977)
+  verts.append((x,y,z))
+for j in range(ny):
+ for i in range(nx):
+  a=j*(nx+1)+i;faces.append((a,a+1,a+nx+2,a+nx+1))
+me=bpy.data.meshes.new('Continuous lunar impact surface');me.from_pydata(verts,[],faces);me.update();o=bpy.data.objects.new('Terrain / impact highlands',me);bpy.context.collection.objects.link(o);me.materials.append(highland);me.materials.append(mare)
+surface=mat('Lunar terrain / highlands and mare',(.4,.4,.39),.9);maptex(surface,'terrain-color.png','Base Color');maptex(surface,'regolith-roughness.png','Roughness',True)
+me.materials.clear();me.materials.append(surface)
+for p in me.polygons:p.use_smooth=True
+layer=me.uv_layers.new(name='Lunar plan')
+for p in me.polygons:
+ for li in p.loop_indices:
+  v=me.vertices[me.loops[li].vertex_index].co;layer.data[li].uv=((v.x+1.58)/3.16,(v.y+.94)/1.88)
+parent(o)
+(R/'crater-spec.json').write_text(json.dumps({'craters':craters,'grid':[nx,ny]},indent=2))
