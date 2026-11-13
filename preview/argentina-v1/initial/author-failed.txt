@@ -1,0 +1,17 @@
+00:01.484  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_ca51a4ac\preview\argentina-v1\mechanism.blend"
+C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_ca51a4ac\preview\argentina-v1\author.py:15: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(n);m.diffuse_color=(*c,1);m.use_nodes=True;p=m.node_tree.nodes.get('Principled BSDF');p.inputs['Base Color'].default_value=(*c,1);p.inputs['Roughness'].default_value=r;p.inputs['Metallic'].default_value=metal;return m
+TypeError: must be real number, not complex
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_ca51a4ac\preview\argentina-v1\author.py", line 84, in <module>
+    me=bpy.data.meshes.new('Folded ridge mesh');me.from_pydata(verts,[],faces);me.update();o=bpy.data.objects.new('Terrain / Quebrada folded ridge',me);bpy.context.collection.objects.link(o)
+                                                ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\futur\AppData\Local\Programs\Blender-5.2.1\5.2\scripts\modules\_bpy_types.py", line 783, in from_pydata
+    self.vertices.foreach_set("co", tuple(chain.from_iterable(vertices)))
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: couldn't access the py sequence
+
+Error: script failed, file: 'preview/argentina-v1/author.py', exiting.
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
