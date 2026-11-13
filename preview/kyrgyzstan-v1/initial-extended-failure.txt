@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_fc6c6645\preview\kyrgyzstan-v1\verify_extended.py", line 10, in <module>
+    assert len(out['maps'])>=3 and all(m['range']>0 and max(m['width'],m['height'])<=512 for m in out['maps'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
