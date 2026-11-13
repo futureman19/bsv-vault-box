@@ -1,0 +1,11 @@
+00:01.344  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_3a80160a\preview\nauru-v1\nauru.blend"
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_3a80160a\preview\nauru-v1\verify_theme.py", line 13, in <module>
+    assert min(heights)>=.20 and max(heights)<=.65 and max(heights)-min(heights)>.3,heights
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: [0.29735794067382804, 0.4351202487945556, 0.6174880504608153, 0.4722007751464843, 0.6650353908538817, 0.40534725189208975, 0.32687368392944327, 0.23915877342224112]
+
+Error: script failed, file: 'preview/nauru-v1/verify_theme.py', exiting.
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

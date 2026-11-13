@@ -1,0 +1,11 @@
+00:01.750  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_3a80160a\preview\nauru-v1\nauru.blend"
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_3a80160a\preview\nauru-v1\verify_theme.py", line 10, in <module>
+    for o in pinnacles:assert o.parent==lid,('Detached pinnacle',o.name)
+                              ^^^^^^^^^^^^^
+AssertionError: ('Detached pinnacle', 'Pinnacle / 1')
+
+Error: script failed, file: 'preview/nauru-v1/verify_theme.py', exiting.
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
