@@ -1,0 +1,26 @@
+node:internal/modules/cjs/loader:1424
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_0d56d938\preview\iceland-pilot\node_modules\esbuild\bin\esbuild'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1421:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1059:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1064:22)
+    at Module._load (node:internal/modules/cjs/loader:1227:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v24.13.0
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_0d56d938\preview\el-salvador-v1\build.py", line 10, in <module>
+    subprocess.run(['node',str(esbuild),str(R/'viewer.js'),'--bundle','--format=iife','--minify','--outfile='+str(R/'viewer.bundle.js')],check=True,env=env)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\futur\.hermes\tools\python-3.14.7+20260901-win32-x64\Lib\subprocess.py", line 578, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['node', 'C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_0d56d938\\preview\\iceland-pilot\\node_modules\\esbuild\\bin\\esbuild', 'C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_0d56d938\\preview\\el-salvador-v1\\viewer.js', '--bundle', '--format=iife', '--minify', '--outfile=C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_0d56d938\\preview\\el-salvador-v1\\viewer.bundle.js']' returned non-zero exit status 1.
