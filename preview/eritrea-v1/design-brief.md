@@ -1,0 +1,17 @@
+# Eritrea — Dahlak Reef Limestone
+
+## Research and interpretation (written before authoring)
+Primary factual reference: *Present-day sedimentation on the carbonate platform of the Dahlak Islands, Eritrea*, https://link.springer.com/article/10.1007/978-94-011-4930-3_28 . Its published abstract/text describes a southern Red Sea carbonate shelf, low flat islands, uplifted Dahlak Reef Limestone, flattened fossil reefs, skeletal sands and irregular facies. This supports pale porous limestone and low island relief rather than volcanic mountains. Secondary context: https://africatourismguide.com/destinations/eritrea/places/massawa describes coral-stone construction in Eritrea's historic coastal port. The scientific landscape is the primary design anchor, not a replica of Massawa architecture.
+
+No photographs, research text, sacred motifs or map imagery are embedded. Procedural textures are invented, not scans; no claim of harvested coral. The island arrangement is an abstract landscape jewel, not a geographic map or comprehensive representation of Eritrea. No original user concept image exists for this country; this written brief is the visual reference.
+
+## Measurable visual contract
+- Keep family wide silhouette: body approximately 3.72 X by 2.38 Y; shell to roughly 2.1 Z, hollow continuous liner and floor. Front = -Y, rear = +Y, right = +X. glTF coordinates (X,Z,-Y).
+- Pale warm limestone body with fine irregular porous grain, cream/sand palette (sRGB approximate #d9c294 to #eee0bc) and subdued fossil-like flecks. No cedar finger joints, tree, glacier or Morocco stripe reskin.
+- Dark petrol/turquoise polished lid panel surrounded by pale limestone rim. Low irregular limestone island cluster on top, at least five distinct flattened asymmetrical island forms, max relief 0.35 units above lid; inset-looking teal sea visible around them. Avoid tall conical peaks. Island geometry must belong to moving Lid_Hinge subtree.
+- Compact generated portable maps at 512px or below per side; texture variation verified from actual decoded export. Metallic warm brass family fittings; retain proven bearing geometry and pivots.
+- Narrow dark teal seam, no more than 0.10 units high; continuous liner behind exterior finish. Existing latch releases 80 degrees before rear lid opens 105 degrees; reset/reduced motion preserved. Sample all moving parts against static body and latch against lid for 81 poses with only explicit mating bearings exempted.
+- Actual-source poster, desktop/mobile closed/open captures. Offline standalone runtime with all assets embedded, total HTML strictly <5,000,000 bytes. Drag, open/close, interrupted reset, reduced motion, corrupt-GLB fallback and no-JS poster checked over file://; no remote requests.
+
+## Gates and limitations
+Saved-source reopening; actual loader finite geometry/no degenerate triangles; independent source/export parity <=1e-5 world units; actual texture variation; island ancestry/count/relief; hollow floor and hinge attachment checks; sampled motion; browser desktop and touch-emulated mobile; exact byte/SHA-256 inventory and delivery checks. Tests must genuinely reject missing/wrong artifacts. Preserve any actual failure and its fix. At most two focused aesthetic corrections; technical defects must be fixed. Passing technical gates is not photoreal equivalence, continuous collision proof, physical-phone performance or human art approval. User waived individual review until collection completion. This is a local collectible art asset only, not minted, hosted or custody functionality.
