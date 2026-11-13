@@ -1,0 +1,6 @@
+{"dunes": ["Dune__sculpted_relief"], "panels": ["Sadu__lid_band", "Sadu__lid_band001", "Sadu__lid_side_band", "Sadu__lid_side_band001", "Sadu__front_panel", "Sadu__rear_panel", "Sadu__side_panel", "Sadu__side_panel001"], "maps": [{"field": "map", "material": "Wood / dark warm frame", "width": 512, "height": 512, "range": 28}, {"field": "map", "material": "Sand / sculpted desert relief", "width": 256, "height": 256, "range": 26}, {"field": "map", "material": "Sadu / invented woven bands", "width": 512, "height": 512, "range": 190}, {"field": "roughnessMap", "material": "Sadu / invented woven bands", "width": 512, "height": 512, "range": 0}], "wrong": [], "badUV": 0}
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_37d139c2\preview\kuwait-v1\verify_extended.py", line 12, in <module>
+    assert len(f['maps'])>=4 and all(x['range']>10 and max(x['width'],x['height'])<=512 for x in f['maps'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
