@@ -1,0 +1,7 @@
+Actual first extended check failed after the final title correction rebuild:
+HTML_BYTES 2955082 GLB_BYTES 1642600
+File verify_extended.py, line 10, in accept
+assert all(m['width']==512 and m['height']==512 and m['range']>0 for m in f['maps']), 'Flat or oversized maps'
+AssertionError: Flat or oversized maps
+
+Diagnosis: inherited red-channel range measurement was inappropriate for glTF metallic/roughness packing. Roughness is stored in GREEN, not RED. Corrected the inspection to measure green for roughnessMap; retained exact dimensions and positive-variation assertions. No asset or threshold relaxation.
