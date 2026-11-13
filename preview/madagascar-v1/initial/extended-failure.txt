@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_c7d3039c\preview\madagascar-v1\verify_extended.py", line 10, in <module>
+    assert len(out['features']['maps'])==2 and all(x['range']>30 and max(x['width'],x['height'])<=512 for x in out['features']['maps'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
