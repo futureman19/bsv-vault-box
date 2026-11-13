@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_7631aa71\preview\bangladesh-v1\verify_theme.py", line 20, in <module>
+    out['features']=p.evaluate(probe);accept(out['features'])
+                                      ~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_7631aa71\preview\bangladesh-v1\verify_theme.py", line 13, in accept
+    assert all(max(m['width'],m['height'])<=512 and m['range']>0 for m in f['maps'])
+           ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
