@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "html_bytes": 2905568,
+  "glb_bytes": 1622452,
+  "inventory_files": 50,
+  "required_files": 39,
+  "all_required_present": true,
+  "zip_readback_verified": true,
+  "zip_bytes": 5334426,
+  "zip_sha256": "c9bfa3e45463fca17a5b13912d6b404ab31e005eaccd8495262c5274f7d39804",
+  "inventory_sha256": "382da9bbde5f22bb3a6293956415772fb23a8f78831b04634c755309f14d6806",
+  "exclusions": [
+    "inventory and delivery reports and ZIP excluded from payload inventory to avoid circular hashes",
+    "lane diagnostics",
+    "caches",
+    "node_modules",
+    "blend backups"
+  ]
+}

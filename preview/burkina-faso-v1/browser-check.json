@@ -1,0 +1,85 @@
+[
+  {
+    "status": "PASS",
+    "case": "desktop",
+    "asset": {
+      "triangles": 21596,
+      "meshes": 99,
+      "materials": 5,
+      "bounds": {
+        "min": [
+          -1.927119004633135,
+          -0.2850000038743019,
+          -1.3950000554323196
+        ],
+        "max": [
+          1.8710000095888972,
+          2.5195001028478146,
+          1.4875000286847353
+        ]
+      },
+      "lid": "Lid_Hinge",
+      "latch": "Latch_Pivot",
+      "nonfinite": 0,
+      "degenerate": 0,
+      "bytes": 1622452,
+      "open_projection_max_abs_ndc": 0.8923646516630196
+    },
+    "offline_file": true,
+    "external_requests": [],
+    "errors": [],
+    "rotation": true,
+    "touch_rotation": false,
+    "open_close": true,
+    "reset_mid_motion": true,
+    "reduced_motion": true,
+    "overflow": false,
+    "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+  },
+  {
+    "status": "PASS",
+    "case": "mobile",
+    "asset": {
+      "triangles": 21596,
+      "meshes": 99,
+      "materials": 5,
+      "bounds": {
+        "min": [
+          -1.927119004633135,
+          -0.2850000038743019,
+          -1.3950000554323196
+        ],
+        "max": [
+          1.8710000095888972,
+          2.5195001028478146,
+          1.4875000286847353
+        ]
+      },
+      "lid": "Lid_Hinge",
+      "latch": "Latch_Pivot",
+      "nonfinite": 0,
+      "degenerate": 0,
+      "bytes": 1622452,
+      "open_projection_max_abs_ndc": 0.8923646516630197
+    },
+    "offline_file": true,
+    "external_requests": [],
+    "errors": [],
+    "rotation": true,
+    "touch_rotation": true,
+    "open_close": true,
+    "reset_mid_motion": true,
+    "reduced_motion": true,
+    "overflow": false,
+    "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+  },
+  {
+    "status": "PASS",
+    "case": "corrupted GLB",
+    "fallback": true,
+    "unhandled_errors": [],
+    "caught_loader_errors": [
+      "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+    ]
+  }
+]
