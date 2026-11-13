@@ -1,0 +1,33 @@
+C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_3c903e70\preview\sweden-v1\verify_extended.py:6: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  im=Image.open(R/'poster.png').convert('RGBA'); pixels=list(im.getdata());assert sum(p[3]>0 and max(p[:3])>30 for p in pixels)>len(pixels)*.1
+{
+  "poster_actual_render_nonblank": true,
+  "maps": [
+    {
+      "material": "Pine / exposed endgrain",
+      "type": "map",
+      "width": 256,
+      "height": 256,
+      "range": 41,
+      "channel": 0
+    },
+    {
+      "material": "Falun red / painted wood",
+      "type": "map",
+      "width": 512,
+      "height": 512,
+      "range": 49,
+      "channel": 0
+    },
+    {
+      "material": "Falun red / painted wood",
+      "type": "roughnessMap",
+      "width": 512,
+      "height": 512,
+      "range": 47,
+      "channel": 1
+    }
+  ],
+  "no_js_poster": true,
+  "status": "PASS"
+}
