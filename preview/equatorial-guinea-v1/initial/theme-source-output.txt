@@ -1,0 +1,12 @@
+00:01.985  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_ba2cd709\preview\equatorial-guinea-v1\mechanism.blend"
+00:02.031  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_ba2cd709\preview\equatorial-guinea-v1\equatorial-guinea.blend"
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_ba2cd709\preview\equatorial-guinea-v1\verify_theme_source.py", line 22, in <module>
+    verts=[terrain.matrix_world@v.co for v in terrain.data.vertices];assert max(v.z for v in verts)-1.978<.65
+                                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+Error: script failed, file: 'preview/equatorial-guinea-v1/verify_theme_source.py', exiting.
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

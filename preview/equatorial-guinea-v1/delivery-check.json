@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "html_bytes": 2747578,
+  "glb_bytes": 1519756,
+  "html_sha256": "cebd9485fd0f8fb808a56b350fbf94e6ec0dd28de830a4bac2d8b053a3457fbf",
+  "glb_sha256": "526b8e42c49cb304809818e909b51b3a3be3a9470343646d3fcdd8284c7d16ec",
+  "checks_passed": [
+    "source",
+    "81-pose-motion",
+    "hinge-attachments",
+    "parity",
+    "theme-source",
+    "GLTFLoader",
+    "desktop-file-browser",
+    "mobile-touch-file-browser",
+    "corrupt-GLB-fallback",
+    "no-JS-fallback",
+    "portable-maps",
+    "motion-unit-negative-controls",
+    "embedded-payload-identity",
+    "strict-HTML-size",
+    "SHA256-inventory",
+    "ZIP-readback"
+  ],
+  "inventory_files": 54,
+  "zip_bytes": 7963573,
+  "zip_sha256": "7bcf49ad31acbda9f7c93a62f1e4f66a92bdd365cc73f2ff27b167e72d6d52ff",
+  "zip_readback_verified": true,
+  "inventory_sha256": "de0f5147b8771f17fcfb3df4487bbc0b931a38f91a9a3d00a611ff6581a91198",
+  "exclusions": "inventory and delivery envelopes excluded from recursive inventory; backups/caches/dependencies excluded; git-evidence is post-packaging audit"
+}
