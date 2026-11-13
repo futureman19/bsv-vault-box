@@ -1,0 +1,12 @@
+00:01.438  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_6555a3e8\preview\turkey-v1\mechanism.blend"
+00:01.469  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_6555a3e8\preview\turkey-v1\turkey.blend"
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_6555a3e8\preview\turkey-v1\verify_theme.py", line 25, in <module>
+    assert min(overlaps)<1e-6,('Overlapping ceramic skins',a.name,b.name,overlaps)
+           ^^^^^^^^^^^^^^^^^^
+AssertionError: ('Overlapping ceramic skins', 'Ceramic / front', 'Ceramic / side', [0.23000001907348633, 0.19000005722045898, 1.4599999785423279])
+
+Error: script failed, file: 'preview/turkey-v1/verify_theme.py', exiting.
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
