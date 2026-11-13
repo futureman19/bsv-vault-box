@@ -1,0 +1,5 @@
+# Preserve exact asset/evidence hashes across Windows checkouts.
+* -text whitespace=cr-at-eol
+# Bundled upstream Three.js GLSL strings contain intentional trailing whitespace.
+viewer.bundle.js whitespace=-blank-at-eol
+laos-v1.html whitespace=-blank-at-eol
