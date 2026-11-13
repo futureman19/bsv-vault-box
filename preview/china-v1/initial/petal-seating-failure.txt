@@ -1,0 +1,11 @@
+00:00.516  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_74df860b\preview\china-v1\china.blend"
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_74df860b\preview\china-v1\verify_theme.py", line 14, in <module>
+    z=min((o.matrix_world@v.co).z for v in o.data.vertices);assert 1.97<=z<=2.001,(o.name,z)
+                                                                   ^^^^^^^^^^^^^^
+AssertionError: ('Peony / petal 0-1-0', 2.0399999618530273)
+
+Error: script failed, file: 'preview/china-v1/verify_theme.py', exiting.
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
