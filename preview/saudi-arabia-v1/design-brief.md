@@ -1,0 +1,15 @@
+# Saudi Arabia / AlUla Sandstone — frozen pre-model contract
+
+## Research and limits
+UNESCO, https://whc.unesco.org/en/list/1293 (retrieved through web search): Hegra in Saudi Arabia preserves Nabataean architecture cut directly into sandstone; the site testifies to caravan-trade cultural exchange. UNESCO's https://whc.unesco.org/fr/actualites/2839 describes the sandstone setting and the role of local Rawis and Rangers in interpretation. These inform a material/landscape miniature, not a replica of a tomb or a geographic survey. No inscriptions, sacred symbols, copied photographs, or claims of artisan authorship. No supplied concept image: this written brief is the primary reference. Geometry and maps are original procedural interpretation.
+
+## Visual contract, before authoring
+- Wide family box: exterior 3.72 X by 2.38 Y; walls z .10–1.56, lid centre 1.828, thickness .30. Hollow inherited liner, four low stone feet.
+- Ochre/salmon sandstone body with fine irregular cream sediment bands and subordinate pores. Generated 512x512 colour and roughness maps; palette near #b9784b / #d5a16b / #ead0a1, not cedar grain.
+- Three separated, asymmetrical rounded sandstone outcrops on the lid, inspired by AlUla's eroded landscape, not monument replicas. Centres (-.95,.30), (.12,.54), (.98,.16); approximate radii .43/.40/.36 and heights .68/.95/.53 above lid. Flat seated bottoms at z=1.97, maximum z<3.05. Each has a varying radial silhouette and irregular ledges; all lid-owned. Visible gaps between outcrops; no rectangular terrain tray.
+- Low warm sand inlay under the group; restrained dark bronze seam under .12 high. Satin brass latch, medallion, side ring and corner fittings preserve collection hardware language. No copied Japanese tree, moss, fingers or wood.
+- Front -Y, rear +Y, right +X; glTF (X,Z,-Y). Preserve inherited lid/latch pivots. Stage 80-degree latch release then 105-degree lid opening. All moving meshes included in 81 collision samples, excluding only explicit mating bearings.
+- Standalone HTML strictly below 5,000,000 bytes; embedded runtime/model/source-render poster, offline controls, reset and reduced motion. Editable packed Blender source, GLB, maps and reproducible scripts separate.
+
+## Acceptance gates
+Saved-source reopen: hollow floor ray, hinge attachment, every moving/static mesh sampled; independent GLB/source world-vertex parity tolerance 1e-5. Theme: three separated named outcrops seated on lid, contracted height, lid ancestry, nonconstant portable maps, no inherited tree. Actual GLTFLoader finite/nondegenerate geometry and all mesh projection at full open. Desktop and mobile-emulated file:// native controls, drag/touch, interrupted reset, reduced motion, no network/errors/overflow, corrupt input and no-JS poster. Exact-byte SHA-256 inventory and ZIP readback. Negative control must fail a real theme assertion. Visual inspection of actual source and browser images; no photoreal or physical-phone claims. No per-asset review stop per task directive.
