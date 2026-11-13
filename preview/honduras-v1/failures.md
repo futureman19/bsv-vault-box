@@ -1,0 +1,8 @@
+# Recorded failures / correction history
+
+1. Optional Codex process exited 1 with HTTP 401 token-refresh failure before editing files. Full raw output: codex-output.txt. No credential edits attempted; Hermes implemented directly.
+2. First build exited 1: `Error: Cannot find module 'C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_19bfb218\\preview\\iceland-pilot\\node_modules\\esbuild\\bin\\esbuild'`. Inspection showed the prescribed main-checkout node_modules directory empty. Installed the existing package.json dependencies locally in this preview (`npm install --ignore-scripts --no-audit --no-fund`, added 3 packages). Final local build PASS. This is a recorded diagnostic excerpt, not a reconstructed raw log.
+3. Initial actual-source visual review found thin raised bank sheets visually floating. `initial-sheet-banks.png` preserves that source render. Added vertical terrain perimeter faces down to lid height 1.978. Reauthored GLB/source/poster and reran independent tests. Final mobile visual inspection found supported terrain; forest remains stylized and sparse, river a narrow opaque ribbon.
+4. Theme regression control deliberately detaches one lid ornament in memory; the same ownership predicate returns false, then restored ownership passes. This is an intentional postimplementation negative control, not a naturally occurring source defect or test-first claim.
+
+Full-open front view hides exterior lid ornaments behind the raised lid; this is expected orientation, not missing geometry. Source ancestry and final closed views demonstrate the scene exists and travels with the lid.
