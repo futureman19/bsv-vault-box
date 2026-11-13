@@ -1,0 +1,71 @@
+{
+  "status": "PASS",
+  "html": {
+    "bytes": 3504236,
+    "sha256": "b1c0ac41441cba24ad9908d0a601fde510f77c7d2f4722282af706d3ce40c358"
+  },
+  "glb": {
+    "bytes": 2022488,
+    "sha256": "1d314e64ee211bd4c98bef84085a3fe3383960cbe92e8205bbb7ccb39d2bfa70"
+  },
+  "source_zip": {
+    "bytes": 10542159,
+    "sha256": "48b9ae291cb72fb254a3984c35619359dee506f6114aa4ec9642c4099fed97c0"
+  },
+  "required_artifacts": [
+    "README.md",
+    "author.py",
+    "browser-check.json",
+    "build.py",
+    "cabo-verde-v1.html",
+    "cabo-verde.blend",
+    "cabo-verde.glb",
+    "design-brief.md",
+    "extended-check.json",
+    "maps.py",
+    "maps/scoria-color.png",
+    "maps/scoria-normal.png",
+    "maps/scoria-roughness.png",
+    "mechanism.blend",
+    "motion.mjs",
+    "parity-check.json",
+    "poster.jpg",
+    "poster.png",
+    "source-check.json",
+    "template.html",
+    "theme-check.json",
+    "verify_browser.py",
+    "verify_extended.py",
+    "verify_parity.py",
+    "verify_source.py",
+    "verify_theme.py",
+    "viewer.js"
+  ],
+  "inventory_count": 54,
+  "zip_readback_all_entries": true,
+  "inventory_sha256": "3df5b4f675e48ad5072d01561ce9defc6ca0c7b635489e282904853816c0f84f",
+  "excluded_envelopes": [
+    "build-output.txt",
+    "cabo-verde-v1-source.zip",
+    "codex-lane.log",
+    "delivery-check.json",
+    "delivery-output.txt",
+    "inventory.json",
+    "lane-prompt.md"
+  ],
+  "checks_passed": [
+    "source",
+    "81-pose motion",
+    "hinge attachment",
+    "parity",
+    "theme and negative crater control",
+    "browser desktop/mobile",
+    "corrupt GLB fallback",
+    "no-JS fallback",
+    "decoded maps",
+    "motion unit tests",
+    "size cap",
+    "SHA256 inventory",
+    "ZIP readback"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "crater_depth": 0.33377838134765625,
+  "cone_max_z": 2.753000020980835,
+  "east_gap": true,
+  "west_ridge": true,
+  "maps": [
+    {
+      "name": "scoria-color.png",
+      "size": [
+        512,
+        512
+      ],
+      "red_range_linear": 0.28627452068030834
+    },
+    {
+      "name": "scoria-normal.png",
+      "size": [
+        512,
+        512
+      ],
+      "red_range_linear": 0.19607841968536377
+    },
+    {
+      "name": "scoria-roughness.png",
+      "size": [
+        512,
+        512
+      ],
+      "red_range_linear": 0.1607843041419983
+    }
+  ],
+  "terrain_parentage": true,
+  "seam_height_max": 0.08799999952316284,
+  "negative_control": {
+    "mutation": "flattened every cone vertex to summit height in memory only",
+    "rejected": true,
+    "message": "crater must be a depressed bowl"
+  },
+  "exact_pivots": {
+    "Lid_Hinge": {
+      "location": [
+        0.0,
+        1.3200000524520874,
+        1.6679999828338623
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Latch_Pivot": {
+      "location": [
+        0.0,
+        -2.6100001335144043,
+        0.2200000286102295
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ]
+    }
+  },
+  "status": "PASS"
+}
