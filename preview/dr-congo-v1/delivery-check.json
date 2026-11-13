@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "html": {
+    "bytes": 2960420,
+    "sha256": "2f259b6fded5f8aa96816848aa0515b4dd2b6c9474544a85038839e9f02f4c97"
+  },
+  "glb": {
+    "bytes": 1620404,
+    "sha256": "dcf7c5af66339f72114e7e0a2587509e6ff298039881d1ee2e93d474e873e99a"
+  },
+  "source_archive": {
+    "bytes": 8417042,
+    "sha256": "a1a822fdb893d0d4b3c209b3644863ba43a9f8126125e87c694a342fd49eae84"
+  },
+  "inventory": {
+    "bytes": 6956,
+    "sha256": "300db59b90bdeadcbbbd1ee0a4776446f8a93f78a2fc4e859fc55406940d31a2"
+  },
+  "payload_count": 52,
+  "required_count": 36,
+  "all_required_present": true,
+  "archive_readback_hashes_match": true,
+  "embedded_glb_identical": true,
+  "self_hash_policy": "inventory excludes itself, ZIP and delivery-check; ZIP contains inventory but not delivery-check",
+  "delivery_location": "this directory; exact HTML tested offline in place"
+}
