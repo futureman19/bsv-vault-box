@@ -1,0 +1,13 @@
+00:00.625  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_1dcc3aea\preview\france-v1\france.blend"
+00:00.688  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_1dcc3aea\preview\france-v1\mechanism.blend"
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_1dcc3aea\preview\france-v1\verify_theme.py", line 30, in <module>
+    print(json.dumps(report));assert all(checks.values()),'Theme checks failed'
+                                     ~~~^^^^^^^^^^^^^^^^^
+AssertionError: Theme checks failed
+{"status": "FAIL", "checks": {"160_individual_tile_meshes": true, "all_tiles_move_with_lid": false, "tile_field_bounds": true, "raised_tile_top": true, "seated_tile_bottom": true, "four_glaze_colors": true, "glaze_roughness_metalness": true, "original_lid_pivot": true, "latch_owned_by_lid": true, "inherited_pivots_exact": true}, "tile_world_bounds": [[-1.5959999561309814, 1.5959999561309814], [-0.9360001087188721, 0.9359999895095825], [1.997999906539917, 2.0379998683929443]], "glaze_colors_linear": {"Glaze / bottle green": [0.004999999888241291, 0.04500000178813934, 0.014000000432133675, 1.0], "Glaze / ivory": [0.7200000286102295, 0.6299999952316284, 0.4000000059604645, 1.0], "Glaze / burgundy": [0.11999999731779099, 0.004000000189989805, 0.00800000037997961, 1.0], "Glaze / mustard": [0.4000000059604645, 0.14000000059604645, 0.006000000052154064, 1.0]}, "negative_control": true}
+
+Error: script failed, file: 'preview/france-v1/verify_theme.py', exiting.
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
