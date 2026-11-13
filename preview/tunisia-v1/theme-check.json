@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "dish_radius": 0.73,
+  "dish_floor_z": 2.015000104904175,
+  "dish_rim_z": 2.200000047683716,
+  "dish_concavity": 0.18499994277954102,
+  "upward_top_faces": 480,
+  "lip_accents": 12,
+  "lid_dimensions": [
+    3.72,
+    2.38,
+    0.3
+  ],
+  "mechanism_pivots_preserved": true,
+  "negative_control": {
+    "mutation": "detach dish from Lid_Hinge",
+    "rejected": true,
+    "error": "Every dish/mark must travel with lid"
+  }
+}
