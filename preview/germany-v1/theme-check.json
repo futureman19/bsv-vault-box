@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "pivot_transforms_unchanged": true,
+  "village_meshes": 14,
+  "turned_trees": 3,
+  "houses": 2,
+  "roofs": 2,
+  "lid_ancestry": true,
+  "root_contacts": [
+    {
+      "tree": "Village / turned tree 0",
+      "base_hit_z": 2.0400002002716064,
+      "root_z": 2.0399999618530273
+    },
+    {
+      "tree": "Village / turned tree 1",
+      "base_hit_z": 2.0400002002716064,
+      "root_z": 2.0399999618530273
+    },
+    {
+      "tree": "Village / turned tree 2",
+      "base_hit_z": 2.0400002002716064,
+      "root_z": 2.0399999618530273
+    }
+  ],
+  "slab_dimensions": [
+    3.7200000286102295,
+    2.380000114440918,
+    0.30000001192092896
+  ],
+  "negative_control": {
+    "status": "EXPECTED_FAIL",
+    "message": "detached ornament lacks lid ancestry"
+  }
+}
