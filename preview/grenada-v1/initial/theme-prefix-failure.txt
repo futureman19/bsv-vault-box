@@ -1,0 +1,13 @@
+00:01.719  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_0261e9f1\preview\grenada-v1\grenada.blend"
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_0261e9f1\preview\grenada-v1\verify_theme.py", line 18, in <module>
+    counts=check_ornaments()
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_0261e9f1\preview\grenada-v1\verify_theme.py", line 10, in check_ornaments
+    assert [len(v) for v in groups.values()]==[1,9,2,4,1]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+Error: script failed, file: 'preview/grenada-v1/verify_theme.py', exiting.
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
