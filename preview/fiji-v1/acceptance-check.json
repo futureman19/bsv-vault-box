@@ -1,0 +1,84 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "build",
+      "exit_code": 0,
+      "owner": "hermes",
+      "command": [
+        "C:\\Users\\futur\\.hermes\\installs\\60215e25aec448c9\\environments\\b3c4bbda9be44f5cb17e68e2e2ba7648\\venv\\Scripts\\python.exe",
+        "build.py"
+      ]
+    },
+    {
+      "check": "motion",
+      "exit_code": 0,
+      "owner": "hermes",
+      "command": [
+        "C:/Program Files/nodejs/node.exe",
+        "--test",
+        "tests.mjs"
+      ]
+    },
+    {
+      "check": "source",
+      "exit_code": 0,
+      "owner": "hermes",
+      "command": [
+        "C:/Users/futur/AppData/Local/Programs/Blender-5.2.1/blender.exe",
+        "--background",
+        "--factory-startup",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "verify_source.py"
+      ]
+    },
+    {
+      "check": "parity",
+      "exit_code": 0,
+      "owner": "hermes",
+      "command": [
+        "C:/Users/futur/AppData/Local/Programs/Blender-5.2.1/blender.exe",
+        "--background",
+        "--factory-startup",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "verify_parity.py"
+      ]
+    },
+    {
+      "check": "theme",
+      "exit_code": 0,
+      "owner": "hermes",
+      "command": [
+        "C:/Users/futur/AppData/Local/Programs/Blender-5.2.1/blender.exe",
+        "--background",
+        "--factory-startup",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "verify_theme.py"
+      ]
+    },
+    {
+      "check": "browser",
+      "exit_code": 0,
+      "owner": "hermes",
+      "command": [
+        "C:\\Users\\futur\\.hermes\\installs\\60215e25aec448c9\\environments\\b3c4bbda9be44f5cb17e68e2e2ba7648\\venv\\Scripts\\python.exe",
+        "verify_browser.py"
+      ]
+    },
+    {
+      "check": "extended",
+      "exit_code": 0,
+      "owner": "hermes",
+      "command": [
+        "C:\\Users\\futur\\.hermes\\installs\\60215e25aec448c9\\environments\\b3c4bbda9be44f5cb17e68e2e2ba7648\\venv\\Scripts\\python.exe",
+        "verify_extended.py"
+      ]
+    }
+  ]
+}
