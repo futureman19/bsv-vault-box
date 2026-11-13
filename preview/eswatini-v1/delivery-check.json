@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "html": {
+    "bytes": 3669950,
+    "sha256": "6c4b9910a24cbc880c97cde7feeafe4c94c8d75472eeb98d0466d8bb99ceeada"
+  },
+  "glb": {
+    "bytes": 2166720,
+    "sha256": "fc61b0216373e30f8e5fa105ef61bda51a643c75df30405d3777787cc427c55c"
+  },
+  "zip": {
+    "bytes": 6729043,
+    "sha256": "67d1051f02c94fec398007056a8601c279d063de0c8ff71291c7926a82a48263"
+  },
+  "archive_members": 50,
+  "required_artifacts": [
+    "README.md",
+    "THREE-LICENSE.txt",
+    "author.py",
+    "browser-check.json",
+    "build.py",
+    "design-brief.md",
+    "eswatini-v1.html",
+    "eswatini.blend",
+    "eswatini.glb",
+    "extended-check.json",
+    "maps.py",
+    "maps/binding.png",
+    "maps/grass-color.png",
+    "maps/grass-roughness.png",
+    "mechanism.blend",
+    "motion-check.json",
+    "motion.mjs",
+    "package.json",
+    "parity-check.json",
+    "poster.jpg",
+    "poster.png",
+    "source-check.json",
+    "template.html",
+    "theme-source-check.json",
+    "viewer.bundle.js",
+    "viewer.js"
+  ],
+  "exact_inventory_and_archive_readback": true,
+  "checks": [
+    "source",
+    "parity",
+    "theme-source",
+    "motion",
+    "browser desktop/mobile/corruption",
+    "extended theme/no-JS",
+    "strict HTML budget",
+    "SHA-256 inventory",
+    "required archive contents/readback"
+  ]
+}
