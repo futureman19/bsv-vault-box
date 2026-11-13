@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "HTML_BYTES": 2447623,
+  "GLB_BYTES": 1260984,
+  "ZIP_BYTES": 4698946,
+  "ZIP_entries": 58,
+  "zip_sha256": "967027db3518f7b4ff05477fd46739e00d2983497e06fa5aa77556124b785280",
+  "inventory_entries": 57,
+  "checks": {
+    "source": "PASS",
+    "parity": "PASS",
+    "theme": "PASS",
+    "motion": "PASS",
+    "browser": "PASS",
+    "extended": "PASS",
+    "poster": "PASS",
+    "budget": "PASS",
+    "archive_readback": "PASS"
+  },
+  "inventory_self_exclusions": [
+    "inventory.json",
+    "delivery-check.json",
+    "monaco-v1-source.zip",
+    "package-output.txt"
+  ],
+  "delivery": "in-folder standalone HTML and source ZIP; no external copy"
+}
