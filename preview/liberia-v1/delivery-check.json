@@ -1,0 +1,114 @@
+{
+  "status": "PASS",
+  "html_bytes": 3905725,
+  "glb_bytes": 2377424,
+  "decoded_maps": [
+    {
+      "name": "timber-end",
+      "size": [
+        256,
+        256
+      ],
+      "extrema": [
+        [
+          59,
+          83
+        ],
+        [
+          34,
+          48
+        ],
+        [
+          18,
+          26
+        ]
+      ]
+    },
+    {
+      "name": "granite",
+      "size": [
+        256,
+        256
+      ],
+      "extrema": [
+        [
+          39,
+          182
+        ],
+        [
+          38,
+          180
+        ],
+        [
+          38,
+          177
+        ]
+      ]
+    },
+    {
+      "name": "timber-color",
+      "size": [
+        512,
+        512
+      ],
+      "extrema": [
+        [
+          66,
+          125
+        ],
+        [
+          38,
+          74
+        ],
+        [
+          21,
+          40
+        ]
+      ]
+    },
+    {
+      "name": "timber-roughness",
+      "size": [
+        512,
+        512
+      ],
+      "extrema": [
+        [
+          255,
+          255
+        ],
+        [
+          146,
+          199
+        ],
+        [
+          255,
+          255
+        ]
+      ]
+    }
+  ],
+  "no_js_fallback": true,
+  "required_artifacts": [
+    "liberia-v1.html",
+    "liberia.glb",
+    "liberia.blend",
+    "poster.png",
+    "poster.jpg",
+    "design-brief.md",
+    "README.md",
+    "author.py",
+    "maps.py",
+    "mechanism.blend",
+    "source-check.json",
+    "parity-check.json",
+    "browser-check.json",
+    "theme-check.json"
+  ],
+  "inventory_files": 44,
+  "inventory_sha256": "34a1592f160b14cbc95c17455fe7010a17e3c5738006f3586693c3544ab43b12",
+  "exclusions": [
+    "inventory.json and delivery-check.json avoid recursive self hashes"
+  ],
+  "scope": "Local file delivery, no archive/upload/mint/deployment"
+}
