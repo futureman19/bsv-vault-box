@@ -173,6 +173,17 @@
   .tick { color:var(--green); font-weight:700; }
   .next { color:var(--gold); font-weight:700; }
 
+  /* Collection spotlight */
+  .spotlight{display:grid;grid-template-columns:1.05fr 1fr;gap:40px;align-items:center;margin-top:28px}
+  .spotlight-art{position:relative;margin:0}
+  .spotlight-art img{display:block;width:100%;height:auto;border:1px solid var(--line);border-radius:16px}
+  .spotlight-badge{position:absolute;top:14px;left:14px;background:linear-gradient(180deg,var(--gold),var(--gold-deep));color:#151515;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:10px;letter-spacing:0.22em;padding:6px 12px;border-radius:999px}
+  .spotlight-copy h3{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:13px;letter-spacing:0.24em;color:var(--gold);margin:0 0 10px}
+  .spotlight-copy .body-copy{font-size:15px}
+  .spotlight-copy a{color:var(--gold)}
+  @media (max-width:860px){
+    .spotlight{grid-template-columns:1fr;gap:24px}
+  }
   @media (prefers-reduced-motion: reduce) {
     .claw.sway, .loot, .marquee b, .present.shake { animation:none !important; }
     .trolley, .cable, .claw, .prong, .present .lid, .present .bow, .prize-card { transition-duration:.15s !important; }
@@ -208,6 +219,7 @@
     <a href="#claw-demo" style="padding:12px 16px;border:1px solid #56657a;border-radius:8px;color:#d7e0ea;text-decoration:none">Play</a>
     <a href="#box-demo" style="padding:12px 16px;border:1px solid #fbbf24;border-radius:8px;color:#fbbf24;text-decoration:none">The Box ↓</a>
     <a href="#proof" style="padding:12px 16px;border:1px solid #56657a;border-radius:8px;color:#d7e0ea;text-decoration:none">Proof</a>
+    <a href="#collection" style="padding:12px 16px;border:1px solid #56657a;border-radius:8px;color:#d7e0ea;text-decoration:none">Collection</a>
     <a href="#whats-next" style="padding:12px 16px;border:1px solid #56657a;border-radius:8px;color:#d7e0ea;text-decoration:none">Roadmap</a>
     <a href="https://github.com/futureman19/bsv-vault-box" style="padding:12px 16px;border:1px solid #56657a;border-radius:8px;color:#d7e0ea;text-decoration:none">Spec ↗</a>
   </nav>
@@ -290,6 +302,23 @@
       <li><b>Trustless resale.</b> An unopened Box keeps its seal verifiable on-chain, so buyers can check before they pay.</li>
       <li><b>Gifts &amp; drops.</b> A present that travels sealed until the recipient opens it.</li>
     </ul>
+  </section>
+
+  <section class="section" id="collection" aria-labelledby="collectionTitle">
+    <p class="eyebrow">THE COLLECTION</p>
+    <h2 id="collectionTitle">Boxed worlds.<br>One wears a ring.</h2>
+    <div class="spotlight">
+      <figure class="spotlight-art">
+        <img src="assets/collection/saturn-over-the-atlas.jpg" alt="Saturn over the Atlas — a sealed BoxSV diorama: a Moroccan desert night beneath a ringed planet" width="1100" height="1000" loading="lazy">
+        <figcaption class="spotlight-badge">THE CHASE PIECE</figcaption>
+      </figure>
+      <div class="spotlight-copy">
+        <h3>Saturn over the Atlas</h3>
+        <p class="body-copy">A desert night in the Atlas mountains, pinned under a ringed planet — the only one of its kind in the opening set. Every BoxSV collectible is a hand-built diorama sealed in a Box on-chain: three terrains so far — Iceland, Japan, Morocco — and this is the piece the set hunts for.</p>
+        <p class="body-copy" style="font-size:13px">Arrives with the <a href="#whats-next">mainnet mint</a>. Nothing here is for sale yet — the seal comes first.</p>
+        <p class="cta-row" style="margin-top:12px"><a class="cta line" href="#whats-next">SEE WHAT'S COMING ↓</a></p>
+      </div>
+    </div>
   </section>
 
   <section class="section" id="whats-next" aria-labelledby="nextTitle">
