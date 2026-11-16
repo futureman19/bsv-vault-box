@@ -1,0 +1,27 @@
+{
+  "candidate": "USA flag v7",
+  "technical_gates_pass": true,
+  "visual_top_bevel_vertical_lid_wrap": "pass: final front/left comparison crops show five/four single folded glyphs and no lower white echoes",
+  "top_pattern": "fourteen interior stars retained; five front and four left edge stars; no extra corner star visible",
+  "literal_body_star_continuation": "NOT MET: unchanged lid thickness exceeds same-scale star diameter; navy field alone continues onto body",
+  "full_user_acceptance": false,
+  "corrections_used": 2,
+  "corrections_limit": 2,
+  "correction_1": "Exported surface ray oracle caught incorrect second-axis unfolding at side-quad endpoints; constrained unfolding by polygon normal",
+  "correction_2": "Visual inspection found lower seam white echoes from underside UV reset; extended lower bevel coordinates and verified zero white lower-bevel samples",
+  "remaining_visual_gaps": [
+    "Existing gold corner fitting may partially hide extreme left front-star tip",
+    "Tiny folded tips and thin firework trails lose crispness at mobile size",
+    "Star glyphs terminate on vertical lid, not below mechanical seam"
+  ],
+  "evidence": [
+    "front-edge-comparison.png",
+    "left-edge-comparison.png",
+    "v7-top-view.png",
+    "hero-fireworks.png",
+    "mobile-closed.png",
+    "features-check.json"
+  ],
+  "presentation": "Actual browser screenshots, not generated marketing art; genuine source no-effects render labeled separately",
+  "status": "review candidate; not user-approved, published or minted"
+}
