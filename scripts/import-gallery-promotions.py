@@ -24,8 +24,10 @@ def baseline(path):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--batches', type=Path, required=True)
+    parser.add_argument('--redesigns', type=Path, help='Native USA redesign directory; defaults to sibling boxsv-usa-flag-fireworks')
     args = parser.parse_args()
     batches = args.batches.resolve()
+    redesigns = args.redesigns or batches.parent / 'boxsv-usa-flag-fireworks'
     manifest_path = 'docs/assets/gallery/manifest.json'
     site = json.loads(baseline(manifest_path))
     entries = {e['id']: e for e in site['entries']}
@@ -120,6 +122,22 @@ def main():
                       repair={'manifest': 'repairs/manifest.json', 'selectedAttempt': repair['selected_attempt'],
                               'selectedNativePath': attempt_relative, 'priorRejectionNotes': repair['prior_rejection_notes'],
                               'attempts': [{k: a[k] for k in ('attempt', 'status', 'output_sha256', 'dimensions', 'provider_url', 'visual_verdict', 'inspected')} for a in repair['attempts']]})
+    # Intentional redesign supersedes (but never rewrites) the earlier repair history.
+    override = json.loads((ROOT / 'evidence/marketing-gallery-release/usa-redesign.json').read_text(encoding='utf-8'))
+    assert override['id'] == 'united-states'
+    assert sha((redesigns / override['path']).read_bytes()) == override['sha256']
+    with Image.open(redesigns / override['path']) as image:
+        assert list(image.size) == override['dimensions']
+        image.verify()
+    record = by_id[override['id']]
+    prior = dict(record)
+    record.update(supersededProvenance=prior, intentionalRedesign=True,
+                  original={k: override[k] for k in ('path', 'sha256', 'dimensions')},
+                  notes=override['notes'], acceptance=override['authorization'],
+                  reviewStatus='reviewed-intentional-redesign', provider=override['provider'],
+                  model=override['model'], providerUrl=override['providerUrl'])
+    record.pop('repair')
+    record.pop('priorProvenance')
     accepted = records
     assert len(accepted) == 197 and all(r['releaseStatus'] != 'held' for r in accepted)
     # Freeze the four original marketing designs byte-for-byte.
@@ -130,7 +148,7 @@ def main():
                 assert (ROOT / p).read_bytes() == baseline(p), p
     for record in accepted:
         entry = entries[record['id']]
-        image = Image.open(batches / record['original']['path']).convert('RGB')
+        image = Image.open((redesigns if record.get('intentionalRedesign') else batches) / record['original']['path']).convert('RGB')
         entry['imageType'] = 'Promotional art'
         entry['provenance'] = {
             'kind': 'AI-generated promotional illustration; not an actual-model screenshot',
@@ -141,6 +159,9 @@ def main():
             'exactModelEquivalenceClaimed': False,
             'transform': 'Native provider original resized proportionally and WebP encoded; no cropping or added padding'}
         record['outputs'] = {}
+        if record.get('intentionalRedesign'):
+            entry['provenance']['intentionalRedesign'] = True
+            entry['provenance']['sourceRole'] = 'Historical model reference only; intentionally not matched by this redesign'
         for key, bound, quality in [('thumbnail', 600, 80), ('image', 1400, 85)]:
             scaled = image.copy()
             scaled.thumbnail((bound, bound), Image.Resampling.LANCZOS)
@@ -152,7 +173,8 @@ def main():
     site['imageTypeCounts'] = dict(Counter(e['imageType'] for e in site['entries']))
     assert site['imageTypeCounts'] == {'Promotional art': 201}
     (ROOT / manifest_path).write_text(json.dumps(site, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-    release = {'schema': 'boxsv-marketing-release-v2', 'baselineCommit': BASE,
+    release = {'schema': 'boxsv-marketing-release-v3', 'baselineCommit': BASE,
+               'redesignManifest': 'evidence/marketing-gallery-release/usa-redesign.json',
                'sourceManifests': inputs, 'counts': {'validated': 197, 'accepted': 197, 'held': 0, 'repaired': 11},
                'policy': 'Review-qualified promotional illustrations only; no exact-model equivalence. Native originals; no square padding. Explicitly accepted repairs supersede held candidates with prior provenance retained.',
                'entries': sorted(records, key=lambda r: r['id'])}

@@ -1,4 +1,17 @@
-# Complete marketing integration — feature branch only
+# Marketing integration history and featured-five successor
+
+## Featured-five / intentional USA redesign (current)
+
+Branch `feature/featured-five-usa`, based on fetched `origin/master` at `c26e31b`. Homepage collection only: China, Canada, United States, Egypt, Moon; five links open the corresponding accessible gallery dialogs. Everything outside the collection HTML/CSS is unchanged against that baseline; models and demos untouched. Parent owns master publication.
+
+Schema v3 adds `redesignManifest` and USA `intentionalRedesign` / `supersededProvenance`. `usa-redesign.json` pins the separately supplied native PNG (1072×976, SHA-256 `dea369dda513f9c779d5b22b188abab583ff8d43adb1ae4374b5705777e52793`). Raw original stays externally in active-profile `output/boxsv-usa-flag-fireworks/`. This user-directed flag/fireworks concept intentionally differs from the unchanged canyon model, not a repair claiming fidelity. All earlier USA source/repair/rejection provenance is preserved under `supersededProvenance`; prior derivative bytes remain in baseline Git history. Original batch and repair archives are not modified.
+
+Verification: promotion tests PASS; 200 other entries and 400 images byte-for-byte unchanged against c26e31b; only USA thumbnail/full replaced. Browser suite PASS: all 402 images decoded, 201 roster, existing search/filter/keyboard checks, all five ordered deep links on desktop/mobile, matching full-image URLs, invalid hashes, filtered hash navigation, focus restoration, no overflow at 1440/1024/768/390/320, no browser/HTTP errors. Re-running importer preserves all 404 gallery/ledger files exactly. Native original hash unchanged. Image payload total 16,824,456 bytes.
+
+Evidence: active-profile `output/boxsv-featured-five-qa/` contains `results.json`, `release-verification.json`, `verification-0.txt`, `verification-1.txt`, reproduction probe, homepage/showcase/gallery/dialog screenshots. Desktop/mobile showcase and native USA visually reviewed: readable labels, all boxes contained, supplied fireworks retained; Moon's preexisting poster framing is deliberately unchanged. Section screenshots are element crops, so do not represent page gutters. Viewport emulation is not physical-device or assistive-technology certification. Two initial new post-Escape assertions raced native asynchronous close events; bounded state waits now retain the same focus expectation and pass.
+
+## Earlier all-201 integration (historical record)
+
 
 Baseline: `fd5cf2aa5d84655fecf361fff5b0b00b0c36c05e` (fetched origin/master). Branch: `feature/marketing-gallery-release`.
 

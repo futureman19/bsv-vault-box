@@ -173,17 +173,18 @@
   .tick { color:var(--green); font-weight:700; }
   .next { color:var(--gold); font-weight:700; }
 
-  /* Collection spotlight */
-  .spotlight{display:grid;grid-template-columns:1.05fr 1fr;gap:40px;align-items:center;margin-top:28px}
-  .spotlight-art{position:relative;margin:0}
-  .spotlight-art img{display:block;width:100%;height:auto;border:1px solid var(--line);border-radius:16px}
-  .spotlight-badge{position:absolute;top:14px;left:14px;background:linear-gradient(180deg,var(--gold),var(--gold-deep));color:#151515;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:10px;letter-spacing:0.22em;padding:6px 12px;border-radius:999px}
-  .spotlight-copy h3{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:13px;letter-spacing:0.24em;color:var(--gold);margin:0 0 10px}
-  .spotlight-copy .body-copy{font-size:15px}
-  .spotlight-copy a{color:var(--gold)}
-  @media (max-width:860px){
-    .spotlight{grid-template-columns:1fr;gap:24px}
-  }
+  /* Selected promotional art; isolated from the interactive demos. */
+  .showcase{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px;margin:28px 0 20px;padding:0;list-style:none}
+  .showcase a{display:block;height:100%;overflow:hidden;border:1px solid var(--line);border-radius:12px;background:#0b111c;color:var(--ink);text-decoration:none}
+  .showcase a:hover{border-color:var(--gold)}
+  .showcase a:focus-visible{outline:3px solid var(--gold);outline-offset:4px}
+  .showcase img{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:contain;background:#080d16}
+  .showcase-caption{display:block;padding:14px;font:600 15px/1.4 system-ui,sans-serif}
+  .showcase-caption small{display:block;margin-top:6px;color:#a6b2c2;font:11px/1.5 system-ui,sans-serif;letter-spacing:.06em;text-transform:uppercase}
+  .showcase-note{max-width:760px}
+  @media(max-width:1000px){.showcase{grid-template-columns:repeat(3,minmax(0,1fr))}}
+  @media(max-width:600px){.showcase{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.showcase-caption{padding:12px;font-size:15px}}
+  @media(max-width:360px){.showcase{grid-template-columns:1fr}}
   @media (prefers-reduced-motion: reduce) {
     .claw.sway, .loot, .marquee b, .present.shake { animation:none !important; }
     .trolley, .cable, .claw, .prong, .present .lid, .present .bow, .prize-card { transition-duration:.15s !important; }
@@ -307,18 +308,16 @@
   <section class="section" id="collection" aria-labelledby="collectionTitle">
     <p class="eyebrow">THE COLLECTION</p>
     <h2 id="collectionTitle">Boxed worlds.<br>Explore all 201.</h2>
-    <div class="spotlight">
-      <figure class="spotlight-art">
-        <img src="assets/collection/saturn-over-the-atlas.jpg" alt="Morocco-inspired Box design with banded stone-like sides, geometric green trim and a mountain-like lid ornament" width="1100" height="1000" loading="lazy">
-        <figcaption class="spotlight-badge">PROMOTIONAL ART</figcaption>
-      </figure>
-      <div class="spotlight-copy">
-        <h3>Morocco / Atlas-inspired</h3>
-        <p class="body-copy">Stone-like bands, geometric trim and a mountain-inspired lid — the Morocco design, shown in the existing collection artwork. Explore the full collection: 195 country-inspired Boxes, five oceans and the Moon.</p>
-        <p class="body-copy" style="font-size:13px">Explore promotional artwork for all 201 designs. AI-enhanced illustrations may differ in detail from the interactive models. This gallery is not a mint or sale.</p>
-        <p class="cta-row" style="margin-top:12px"><a class="cta line" href="gallery.html">EXPLORE ALL 201 DESIGNS →</a></p>
-      </div>
-    </div>
+    <p class="body-copy">Five worlds to start your collection journey. Discover 195 country-inspired Boxes, five oceans and the Moon.</p>
+    <ul class="showcase" aria-label="Featured promotional artwork">
+      <li><a href="gallery.html#china"><img src="assets/gallery/china-thumb.webp" alt="" width="600" height="600" loading="lazy"><span class="showcase-caption">China <span aria-hidden="true">↗</span><small>Promotional art</small></span></a></li>
+      <li><a href="gallery.html#canada"><img src="assets/gallery/canada-thumb.webp" alt="" width="600" height="600" loading="lazy"><span class="showcase-caption">Canada <span aria-hidden="true">↗</span><small>Promotional art</small></span></a></li>
+      <li><a href="gallery.html#united-states"><img src="assets/gallery/united-states-thumb.webp" alt="" width="600" height="546" loading="lazy"><span class="showcase-caption">United States <span aria-hidden="true">↗</span><small>Promotional art</small></span></a></li>
+      <li><a href="gallery.html#egypt"><img src="assets/gallery/egypt-thumb.webp" alt="" width="600" height="600" loading="lazy"><span class="showcase-caption">Egypt <span aria-hidden="true">↗</span><small>Promotional art</small></span></a></li>
+      <li><a href="gallery.html#the-moon"><img src="assets/gallery/the-moon-thumb.webp" alt="" width="600" height="600" loading="lazy"><span class="showcase-caption">Moon <span aria-hidden="true">↗</span><small>Promotional art</small></span></a></li>
+    </ul>
+    <p class="body-copy showcase-note">Promotional illustrations, not model screenshots. Details may differ. The USA flag-and-fireworks artwork is a new visual concept; its canyon-inspired model is unchanged. This gallery is not a mint or sale.</p>
+    <p class="cta-row" style="margin-top:20px"><a class="cta line" href="gallery.html">EXPLORE ALL 201 DESIGNS →</a></p>
   </section>
 
   <section class="section" id="whats-next" aria-labelledby="nextTitle">

@@ -10,7 +10,9 @@ from PIL import Image
 ROOT = Path(__file__).resolve().parents[1]
 parser = argparse.ArgumentParser()
 parser.add_argument('--batches', type=Path, required=True)
+parser.add_argument('--redesigns', type=Path)
 args = parser.parse_args()
+redesigns = args.redesigns or args.batches.parent / 'boxsv-usa-flag-fireworks'
 release = json.loads((ROOT / 'evidence/marketing-gallery-release/normalized-manifest.json').read_text(encoding='utf-8'))
 site = json.loads((ROOT / 'docs/assets/gallery/manifest.json').read_text(encoding='utf-8'))
 base = json.loads(subprocess.check_output(['git', '-C', str(ROOT), 'show', release['baselineCommit'] + ':docs/assets/gallery/manifest.json']))
@@ -30,7 +32,15 @@ accepted = set()
 for record in release['entries']:
     slug = record['id']
     assert record['source']['sha256'] == old[slug]['image']['sha256']
-    raw = (args.batches / record['original']['path']).read_bytes()
+    redesigned = record.get('intentionalRedesign', False)
+    if redesigned:
+        assert slug == 'united-states'
+        override = json.loads((ROOT / release['redesignManifest']).read_text())
+        assert record['original'] == {k: override[k] for k in ('path', 'sha256', 'dimensions')}
+        assert record['providerUrl'] == override['providerUrl']
+        assert current[slug]['provenance']['intentionalRedesign'] is True
+        assert record['notes'] == override['notes'] and record['acceptance'] == override['authorization']
+    raw = ((redesigns if redesigned else args.batches) / record['original']['path']).read_bytes()
     assert sha(raw) == record['original']['sha256']
     image = Image.open(io.BytesIO(raw)).convert('RGB')
     assert list(image.size) == record['original']['dimensions']
@@ -38,16 +48,18 @@ for record in release['entries']:
     source_bytes = subprocess.check_output(['git', '-C', str(ROOT), 'show', release['baselineCommit'] + ':docs/' + record['source']['src']])
     assert sha(source_bytes) == record['source']['sha256']
     if slug in repairs:
+        repair_record = record['supersededProvenance'] if redesigned else record
+        repair_raw = (args.batches / repair_record['original']['path']).read_bytes()
         repair = repairs[slug]
         assert repair['approved_for_gallery'] and repair['inspected'] and repair['status'] == 'accepted'
-        assert record['original']['sha256'] == repair['output_sha256']
-        assert record['notes'] == repair['visual_verdict']
-        assert record['repair']['selectedAttempt'] == repair['selected_attempt']
-        assert (args.batches / record['repair']['selectedNativePath']).read_bytes() == raw
-        prior = record['priorProvenance']
+        assert repair_record['original']['sha256'] == repair['output_sha256'] == sha(repair_raw)
+        assert repair_record['notes'] == repair['visual_verdict']
+        assert repair_record['repair']['selectedAttempt'] == repair['selected_attempt']
+        assert (args.batches / repair_record['repair']['selectedNativePath']).read_bytes() == repair_raw
+        prior = repair_record['priorProvenance']
         assert prior['releaseStatus'] == 'held' and prior['source'] == record['source']
         assert sha((args.batches / prior['original']['path']).read_bytes()) == prior['original']['sha256']
-        assert record['repair']['attempts'] == [{k: a[k] for k in ('attempt', 'status', 'output_sha256', 'dimensions', 'provider_url', 'visual_verdict', 'inspected')} for a in repair['attempts']]
+        assert repair_record['repair']['attempts'] == [{k: a[k] for k in ('attempt', 'status', 'output_sha256', 'dimensions', 'provider_url', 'visual_verdict', 'inspected')} for a in repair['attempts']]
     accepted.add(slug)
     assert current[slug]['imageType'] == 'Promotional art'
     for kind, bound, quality in [('thumbnail', 600, 80), ('image', 1400, 85)]:
@@ -72,5 +84,16 @@ for slug in set(old) - accepted:
 public = (ROOT / 'docs/assets/gallery/manifest.json').read_text(encoding='utf-8')
 assert 'C:' not in public and 'Users' not in public and 'files-cdn.x.ai' not in public
 changed = subprocess.check_output(['git', '-C', str(ROOT), 'diff', release['baselineCommit'], '--name-only'], text=True).splitlines()
-assert all(p.startswith('docs/assets/gallery/') or p in {'docs/gallery.html', 'docs/gallery.js', 'scripts/GALLERY.md', 'scripts/test-gallery.py', 'scripts/import-gallery-promotions.py', 'scripts/test-gallery-promotions.py', 'evidence/marketing-gallery-release/README.md', 'evidence/marketing-gallery-release/normalized-manifest.json'} for p in changed), changed
+assert all(p.startswith('docs/assets/gallery/') or p in {'docs/index.html', 'docs/gallery.html', 'docs/gallery.js', 'scripts/GALLERY.md', 'scripts/test-gallery.py', 'scripts/import-gallery-promotions.py', 'scripts/test-gallery-promotions.py', 'evidence/marketing-gallery-release/README.md', 'evidence/marketing-gallery-release/usa-redesign.json', 'evidence/marketing-gallery-release/normalized-manifest.json'} for p in changed), changed
+# New redesign release: all 200 other entries and every image byte stay frozen.
+published = json.loads(subprocess.check_output(['git', '-C', str(ROOT), 'show', 'c26e31b:docs/assets/gallery/manifest.json']))
+changed_images = []
+for entry in published['entries']:
+    slug = entry['id']
+    if slug != 'united-states': assert current[slug] == entry, slug
+    for kind in ('thumbnail', 'image'):
+        meta = entry[kind]
+        if sha((ROOT / 'docs' / meta['src']).read_bytes()) != meta['sha256']: changed_images.append((slug, kind))
+assert changed_images == [('united-states', 'thumbnail'), ('united-states', 'image')], changed_images
+print('PASS only USA image pair changed; 200 other designs/400 images unchanged from c26e31b')
 print(json.dumps({'result': 'PASS', 'roster': 201, 'sourceAndNativeHashes': 197, 'reproducedDerivatives': len(accepted)*2, 'unchangedImages': preserved, 'existingMarketingDesignsUnchanged': 4, 'held': 0, 'modelChanges': 0}))

@@ -113,14 +113,47 @@ with sync_playwright() as p:
         page.keyboard.press('Escape')
         page.locator('#search').fill('')
     print('PASS no overflow at 1440, 1024, 768, 390, 320; desktop/mobile screenshots')
-    for width in [1440, 390]:
+    featured = [('china', 'China'), ('canada', 'Canada'), ('united-states', 'United States'), ('egypt', 'Egypt'), ('the-moon', 'Moon')]
+    for width in [1440, 1024, 768, 390, 320]:
         page.set_viewport_size({'width': width, 'height': 900})
         page.goto(url + '/index.html')
-        assert page.locator('a[href="gallery.html"]').count() == 2
+        assert page.locator('nav a[href="gallery.html"]').count() == 1
+        assert page.locator('#collection a[href="gallery.html"]').count() == 1
+        assert page.locator('.showcase a').evaluate_all('(links) => links.map(a => a.getAttribute("href"))') == ['gallery.html#' + slug for slug, _ in featured]
         assert page.evaluate('document.documentElement.scrollWidth <= innerWidth')
         page.screenshot(path=str(args.output / f'homepage-{width}.png'))
+        page.locator('#collection').scroll_into_view_if_needed()
+        page.locator('.showcase img').evaluate_all('(images) => Promise.all(images.map(image => image.decode()))')
+        page.locator('#collection').screenshot(path=str(args.output / f'showcase-{width}.png'))
+        if width in [1440, 390]:
+            for slug, name in featured:
+                page.locator(f'.showcase a[href="gallery.html#{slug}"]').click()
+                page.wait_for_selector('#viewer[open]')
+                assert page.locator('#image-title').inner_text() == name
+                expected = next(e for e in manifest['entries'] if e['id'] == slug)
+                assert page.locator('#full-image').get_attribute('src') == expected['image']['src']
+                page.locator('#full-image').evaluate('(e) => e.decode()')
+                assert page.locator('#close').evaluate('(e) => e === document.activeElement')
+                if slug == 'united-states':
+                    assert 'model is unchanged' in page.locator('#image-note').inner_text()
+                    page.screenshot(path=str(args.output / f'usa-dialog-{width}.png'))
+                page.keyboard.press('Escape')
+                page.wait_for_function('(slug) => document.activeElement?.dataset.id === slug && !document.querySelector("#viewer").open', arg=slug)
+                assert page.evaluate('location.hash') == ''
+                page.go_back()
+                page.wait_for_selector('.showcase')
         page.locator('nav a[href="gallery.html"]').click()
         page.wait_for_function("document.querySelector('#status').textContent === '201 of 201 designs'")
+    page.goto(url + '/gallery.html#unknown-artwork')
+    page.wait_for_function("document.querySelector('#status').textContent === '201 of 201 designs'")
+    assert not page.locator('#viewer').is_visible()
+    page.locator('#search').fill('egypt')
+    page.evaluate("location.hash = 'china'")
+    page.wait_for_selector('#viewer[open]')
+    assert page.locator('#image-title').inner_text() == 'China'
+    page.keyboard.press('Escape')
+    page.wait_for_function('document.activeElement?.dataset.id === "china" && !document.querySelector("#viewer").open')
+    print('PASS five ordered showcase links, exact dialog artwork, deep-link focus/Escape, invalid hash, hashchange with filters')
     print('PASS homepage links, homepage mobile/desktop overflow and gallery navigation')
     assert not errors, errors
     browser.close()

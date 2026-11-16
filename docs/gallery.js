@@ -18,7 +18,11 @@
     const rect = viewer.getBoundingClientRect();
     if (event.target === viewer && (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom)) viewer.close();
   });
-  viewer.addEventListener('close', () => { fullImage.removeAttribute('src'); opener?.focus(); });
+  viewer.addEventListener('close', () => {
+    fullImage.removeAttribute('src');
+    history.replaceState(null, '', location.pathname + location.search);
+    opener?.focus();
+  });
   fullImage.addEventListener('error', () => { document.querySelector('#image-note').textContent = 'This image could not load. Close and try again.'; });
   try {
     const response = await fetch('assets/gallery/manifest.json');
@@ -49,6 +53,8 @@
         document.querySelector('#image-note').textContent = entry.imageType === 'Promotional art'
           ? `${entry.provenance.provider === 'xai' ? 'AI-generated promotional art' : 'Promotional art'} · Illustration, not a model screenshot. Details may differ from the actual model.`
           : 'Model preview · Still image rendered from the actual collection model; not an interactive 3D viewer.';
+        if (entry.provenance.intentionalRedesign) document.querySelector('#image-note').textContent += ' USA flag-and-fireworks redesign; the canyon-inspired model is unchanged. Stylized flag, not an exact official flag reproduction.';
+        history.replaceState(null, '', '#' + entry.id);
         fullImage.alt = `${entry.name} Box design — ${entry.imageType.toLowerCase()}`;
         fullImage.src = entry.image.src;
         viewer.showModal(); viewer.scrollTop = 0; close.focus();
@@ -70,7 +76,15 @@
     search.addEventListener('input', render);
     document.querySelectorAll('[data-category]').forEach(button => button.addEventListener('click', () => { category = button.dataset.category; render(); }));
     document.querySelector('#reset').addEventListener('click', () => { category = 'All'; search.value = ''; render(); search.focus(); });
+    const openHash = () => {
+      const card = cards.find(card => '#' + card.entry.id === location.hash);
+      if (!card) { if (viewer.open) viewer.close(); return; }
+      category = 'All'; search.value = ''; render();
+      card.button.click();
+    };
     render();
+    window.addEventListener('hashchange', openHash);
+    openHash();
   } catch (error) {
     status.textContent = 'The collection could not load. Please refresh to try again.';
   }
