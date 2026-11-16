@@ -1,0 +1,118 @@
+{
+  "edge_wrap_PASS": true,
+  "negative_control_v6": {
+    "not_rerun": "V9 validates actual current export; V6 negative control belongs to historical V7 evidence"
+  },
+  "current": {
+    "left": {
+      "components": 4,
+      "parts": [
+        {
+          "samples": 2480,
+          "s_min": -0.9068659127625203,
+          "s_max": -0.687221324717286,
+          "unfolded_q_min": -0.10164429530201341,
+          "unfolded_q_max": 0.13110738255033558,
+          "touches_top": true,
+          "touches_vertical": true
+        },
+        {
+          "samples": 2480,
+          "s_min": -0.3677382875605816,
+          "s_max": -0.14809369951534734,
+          "unfolded_q_min": -0.10164429530201341,
+          "unfolded_q_max": 0.13110738255033558,
+          "touches_top": true,
+          "touches_vertical": true
+        },
+        {
+          "samples": 2485,
+          "s_min": 0.1713893376413571,
+          "s_max": 0.39103392568659134,
+          "unfolded_q_min": -0.10164429530201341,
+          "unfolded_q_max": 0.13110738255033558,
+          "touches_top": true,
+          "touches_vertical": true
+        },
+        {
+          "samples": 2485,
+          "s_min": 0.7105169628432957,
+          "s_max": 0.9301615508885299,
+          "unfolded_q_min": -0.10164429530201341,
+          "unfolded_q_max": 0.13110738255033558,
+          "touches_top": true,
+          "touches_vertical": true
+        }
+      ],
+      "actual_export_ray_samples": 93000,
+      "misses": 0,
+      "max_shared_metric_uv_error": 2.243174802851744e-07
+    },
+    "front": {
+      "components": 5,
+      "parts": [
+        {
+          "samples": 3683,
+          "s_min": -1.6563166397415185,
+          "s_max": -1.4250242326332794,
+          "unfolded_q_min": -0.10620805369127516,
+          "unfolded_q_max": 0.11285234899328858,
+          "touches_top": true,
+          "touches_vertical": true
+        },
+        {
+          "samples": 3682,
+          "s_min": -1.3846042003231018,
+          "s_max": -1.1555573505654282,
+          "unfolded_q_min": -0.10620805369127516,
+          "unfolded_q_max": 0.11285234899328858,
+          "touches_top": true,
+          "touches_vertical": true
+        },
+        {
+          "samples": 3672,
+          "s_min": -1.1151373182552504,
+          "s_max": -0.8838449111470114,
+          "unfolded_q_min": -0.10620805369127516,
+          "unfolded_q_max": 0.11285234899328858,
+          "touches_top": true,
+          "touches_vertical": true
+        },
+        {
+          "samples": 3678,
+          "s_min": -0.8456704361873991,
+          "s_max": -0.6143780290791601,
+          "unfolded_q_min": -0.10620805369127516,
+          "unfolded_q_max": 0.11285234899328858,
+          "touches_top": true,
+          "touches_vertical": true
+        },
+        {
+          "samples": 3679,
+          "s_min": -0.5762035541195478,
+          "s_max": -0.34491114701130865,
+          "unfolded_q_min": -0.10620805369127516,
+          "unfolded_q_max": 0.11285234899328858,
+          "touches_top": true,
+          "touches_vertical": true
+        }
+      ],
+      "actual_export_ray_samples": 93000,
+      "misses": 0,
+      "max_shared_metric_uv_error": 2.589164727340165e-07
+    },
+    "top_star_measured": {
+      "width": 0.23150837988826817,
+      "height": 0.22055865921787712,
+      "circumradius_authored": 0.125
+    },
+    "lower_bevel_no_duplicate_stars": {
+      "samples": 5940,
+      "white_samples": 0
+    }
+  },
+  "physical_scale": "All stars radius 0.125 world units; 300 isotropic texels/unit in new lid atlas",
+  "body_star_continuation": false,
+  "body_limitation": "0.30-thick lid exceeds 0.25 star diameter; glyphs cross top/bevel/vertical lid, not body seam. No floating mesh bridges.",
+  "v9_art_correction_iterations": 0
+}
