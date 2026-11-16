@@ -1,0 +1,31 @@
+"""Original deterministic painted flag-inspired maps; no image generation/download."""
+from pathlib import Path
+from PIL import Image,ImageDraw
+import math,numpy as np
+R=Path(__file__).resolve().parent/'maps';R.mkdir(exist_ok=True)
+N=1024;RED=(235,8,20);WHITE=(239,235,218);NAVY=(12,30,69)
+def star(d,x,y,r):
+ pts=[(x+math.sin(i*math.pi/5)*r*(1 if i%2==0 else .42),y-math.cos(i*math.pi/5)*r*(1 if i%2==0 else .42)) for i in range(10)];d.polygon(pts,fill=WHITE)
+# Single rear-right-seamed perimeter interval; no per-face repeats.
+for name,w,h,x0,x1,rows,cols in [('flag-wall.png',2048,256,2.01/12.4,7.91/12.4,3,15),('flag-lid.png',768,512,0,1.71/3.72,4,4)]:
+ im=Image.new('RGB',(w,h));d=ImageDraw.Draw(im)
+ for i in range(5):d.rectangle((0,int(i*h/5),w,int((i+1)*h/5)),fill=RED if i%2==0 else WHITE)
+ bottom=int(h*3/7) if 'wall' in name else h
+ if 'wall' in name:d.rectangle((int(x0*w),0,int(x1*w),int(h*.125)),fill=NAVY)
+ if 'lid' in name:d.rectangle((int(x0*w),0,int(x1*w),bottom),fill=NAVY)
+ for row in range(rows if 'lid' in name else 0):
+  count=cols if row%2==0 else cols-1
+  for col in range(count):
+   xx=(x0+(col+1)*(x1-x0)/(count+1))*w;yy=(row+.5)*bottom/rows
+   rx=w/(12.4 if 'wall' in name else 3.72)*.125;ry=h/(1.46 if 'wall' in name else 2.38)*.125
+   d.polygon([(xx+math.sin(i*math.pi/5)*rx*(1 if i%2==0 else .42),yy-math.cos(i*math.pi/5)*ry*(1 if i%2==0 else .42)) for i in range(10)],fill=WHITE)
+ if 'wall' in name:
+  # One row on each physical face, away from corners and front clasp.
+  centers=[3.72+1.24-y for y in [-.81,-.27,.27,.81]]+[6.20+x+1.86 for x in [-1.54,-1.27,-1.00,-.73,-.46]]
+  for s in centers:
+   xx=s/12.4*w; yy=(1-(1.465-.10)/1.46)*h
+   rx=w/12.4*.078;ry=h/1.46*.078
+   d.polygon([(xx+math.sin(i*math.pi/5)*rx*(1 if i%2==0 else .42),yy-math.cos(i*math.pi/5)*ry*(1 if i%2==0 else .42)) for i in range(10)],fill=WHITE)
+ im.save(R/name,optimize=True)
+y,x=np.mgrid[:256,:256];a=(68+3*np.sin(x*.17)*np.cos(y*.23)).astype('uint8');Image.fromarray(a).save(R/'lacquer-roughness.png')
+print('3 maps generated')

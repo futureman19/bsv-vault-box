@@ -1,0 +1,11 @@
+{
+  "PASS": true,
+  "review_method": "vision_analyze on final actual-browser images and genuine Blender render",
+  "front": {"image": "band-front-close.png", "visible_body_band_stars": 5, "all_separate_unobstructed": true, "visible_feet_red": true},
+  "left": {"image": "band-left-close.png", "visible_body_band_stars": 4, "all_separate_unobstructed": true, "visible_feet_red_and_in_frame": true},
+  "hero": {"image": "hero-fireworks.png", "visible_firework_bursts": 3, "shallow_band_both_faces": true, "visible_feet_red": true},
+  "blender": {"image": "blender-source-no-fx.png", "left_stars": 4, "front_stars": 5, "visible_feet_red": true, "sampling_noise": true},
+  "initial_hero_review_issue": "Initial perspective-only vision review attributed corner-left star to front and reported six; crop and independent face-on views resolved it without artwork changes.",
+  "artwork_count_corrections": 0,
+  "limitations": ["Left band foreshortened in normal hero", "Dedicated closeups crop some background fireworks", "Emulated mobile, not physical-phone testing"]
+}
