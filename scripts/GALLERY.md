@@ -1,6 +1,6 @@
 # Public collection gallery
 
-Static entry: `docs/gallery.html`; GitHub Pages serves `master:/docs`. This feature branch is **not a deployment**. The homepage collection section now features China, Canada, United States, Egypt and Moon in that order. Its five artwork links open the corresponding gallery dialogs through stable ID hashes. Hero, claw, Box demo and other sections are unchanged. The former Morocco spotlight is removed from the homepage; its gallery design and original JPEG remain unchanged.
+Static entry: `docs/gallery.html`; GitHub Pages serves `master:/docs`. This feature branch is **not a deployment**. The homepage collection section now features China, Canada, United States, Egypt, Moon and Iceland in that order. Its six artwork links open the corresponding gallery dialogs through stable ID hashes, using unchanged existing gallery artwork. The grid uses three columns on desktop/tablet, two on mobile and one at narrow widths. Hero, claw, Box demo and other sections are unchanged. The former Morocco spotlight is removed from the homepage; its gallery design and original JPEG remain unchanged.
 
 ## Sources and disclosure
 

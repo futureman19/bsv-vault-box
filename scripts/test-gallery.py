@@ -113,13 +113,15 @@ with sync_playwright() as p:
         page.keyboard.press('Escape')
         page.locator('#search').fill('')
     print('PASS no overflow at 1440, 1024, 768, 390, 320; desktop/mobile screenshots')
-    featured = [('china', 'China'), ('canada', 'Canada'), ('united-states', 'United States'), ('egypt', 'Egypt'), ('the-moon', 'Moon')]
+    featured = [('china', 'China'), ('canada', 'Canada'), ('united-states', 'United States'), ('egypt', 'Egypt'), ('the-moon', 'Moon'), ('iceland', 'Iceland')]
     for width in [1440, 1024, 768, 390, 320]:
         page.set_viewport_size({'width': width, 'height': 900})
         page.goto(url + '/index.html')
         assert page.locator('nav a[href="gallery.html"]').count() == 1
         assert page.locator('#collection a[href="gallery.html"]').count() == 1
+        assert 'Six worlds to start' in page.locator('#collection').inner_text()
         assert page.locator('.showcase a').evaluate_all('(links) => links.map(a => a.getAttribute("href"))') == ['gallery.html#' + slug for slug, _ in featured]
+        assert page.locator('.showcase img').evaluate_all('(images) => images.map(image => image.getAttribute("src"))') == [next(e for e in manifest['entries'] if e['id'] == slug)['thumbnail']['src'] for slug, _ in featured]
         assert page.evaluate('document.documentElement.scrollWidth <= innerWidth')
         page.screenshot(path=str(args.output / f'homepage-{width}.png'))
         page.locator('#collection').scroll_into_view_if_needed()
@@ -133,7 +135,10 @@ with sync_playwright() as p:
                 expected = next(e for e in manifest['entries'] if e['id'] == slug)
                 assert page.locator('#full-image').get_attribute('src') == expected['image']['src']
                 page.locator('#full-image').evaluate('(e) => e.decode()')
+                assert page.locator('#viewer').evaluate('(e) => e.scrollWidth <= e.clientWidth')
                 assert page.locator('#close').evaluate('(e) => e === document.activeElement')
+                if slug == 'iceland':
+                    page.screenshot(path=str(args.output / f'iceland-dialog-{width}.png'))
                 if slug == 'united-states':
                     assert 'model is unchanged' in page.locator('#image-note').inner_text()
                     page.screenshot(path=str(args.output / f'usa-dialog-{width}.png'))
@@ -153,7 +158,7 @@ with sync_playwright() as p:
     assert page.locator('#image-title').inner_text() == 'China'
     page.keyboard.press('Escape')
     page.wait_for_function('document.activeElement?.dataset.id === "china" && !document.querySelector("#viewer").open')
-    print('PASS five ordered showcase links, exact dialog artwork, deep-link focus/Escape, invalid hash, hashchange with filters')
+    print('PASS six ordered showcase links and thumbnails, exact dialog artwork, deep-link focus/Escape, invalid hash, hashchange with filters')
     print('PASS homepage links, homepage mobile/desktop overflow and gallery navigation')
     assert not errors, errors
     browser.close()
