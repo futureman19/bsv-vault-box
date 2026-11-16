@@ -22,6 +22,7 @@ manifest = json.loads((ROOT / 'docs/assets/gallery/manifest.json').read_text(enc
 source = json.loads((args.review / 'manifest.json').read_text(encoding='utf-8'))
 assert {(e['id'], e['name'], e['category']) for e in manifest['entries']} == {(e['id'], e['name'], e['category']) for e in source['entries']}
 assert len(manifest['entries']) == len({e['id'] for e in manifest['entries']}) == 201
+assert Counter(e['imageType'] for e in manifest['entries']) == {'Promotional art': 201}
 assert Counter(e['category'] for e in manifest['entries']) == {'Country': 195, 'Ocean': 5, 'Moon': 1}
 for entry in manifest['entries']:
     for kind in ('image', 'thumbnail'):
@@ -46,6 +47,9 @@ with sync_playwright() as p:
     page.goto(url + '/gallery.html')
     page.wait_for_function("document.querySelector('#status').textContent === '201 of 201 designs'")
     assert page.locator('.design').count() == 201
+    assert page.locator('.design.art').count() == 201
+    assert 'All 201 designs' in page.locator('.disclosure').inner_text()
+    assert 'Illustrated detail can differ' in page.locator('.disclosure').inner_text()
     # Decode every published full image and thumbnail through the browser, not just disk checks.
     loaded = page.evaluate('''async () => {
       const {entries} = await (await fetch('assets/gallery/manifest.json')).json();

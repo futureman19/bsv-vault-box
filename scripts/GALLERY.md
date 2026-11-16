@@ -4,13 +4,14 @@ Static entry: `docs/gallery.html`; GitHub Pages serves `master:/docs`. This feat
 
 ## Sources and disclosure
 
-201 exact identities from the supplied `boxsv-collection-review/manifest.json`: 195 countries, five oceans, `the-moon` (display name Moon). Country roster is 193 UN members plus Palestine and Vatican City. No new artwork, viewer bundles, models, minting, sales or chain functionality are included.
+201 exact identities from the supplied `boxsv-collection-review/manifest.json`: 195 countries, five oceans, `the-moon` (display name Moon). Country roster is 193 UN members plus Palestine and Vatican City. This release imports reviewed promotional artwork; no viewer bundles, model changes, minting, sales or chain functionality are included.
 
 - Iceland, Japan and Moon: supplied `boxsv-marketing-pilot/{iceland,japan,moon}-final.png`. Read `source-manifest.json` and `generation-provenance.json`: xAI grok-imagine-image, actual-model image-to-image, corrected final sources. They are promotional illustrations, not screenshots.
 - Morocco: unchanged existing `docs/assets/collection/saturn-over-the-atlas.jpg`, used as existing promotional collection imagery. No AI provenance is asserted for this file.
-- Other 197: original JPEG/PNG posters extracted from the supplied standalone viewers. Both viewer SHA256 and embedded poster SHA256 are checked against the review manifest before conversion. No source HTML is published.
+- All other 197 now use review-qualified xAI promotional illustrations made from each design's own model preview, including 11 explicitly accepted repairs replacing held candidates. Prior rejection provenance is retained in the release ledger. Per-design limitations remain documented; acceptance does not certify exact materials, geometry or model equivalence.
+- Native provider originals are used directly, never the square-padded batch delivery variants. No model or viewer changes are included. The four existing marketing designs and their image bytes remain unchanged.
 
-`docs/assets/gallery/manifest.json` records source hashes, model commits, output hashes/dimensions/bytes and image types. Marketing art is labeled on cards and in the dialog; model posters are labeled separately. Image conversion preserves aspect ratios and the complete composition. Cards use lazy-loaded, at-most-600px WebP; full-image dialogs load at-most-1400px WebP. There are 402 image files totaling 16,656,458 bytes; full images are loaded only when opened. Thumbnail and full-image encodings use quality 80/85 and method 6 respectively.
+`docs/assets/gallery/manifest.json` records source hashes, model commits, output hashes/dimensions/bytes and image types. All 201 cards and dialogs are labeled promotional art; there are zero model-preview images. Image conversion preserves aspect ratios and the complete composition. Cards use lazy-loaded, at-most-600px WebP; full-image dialogs load at-most-1400px WebP. There are 402 image files totaling 16,766,742 bytes; full images are loaded only when opened. Thumbnail and full-image encodings use quality 80/85 and method 6 respectively.
 
 ## Reproduce
 
@@ -18,6 +19,8 @@ Requires Python, `Pillow==13.0.0`, Python Playwright and installed Microsoft Edg
 
 ```sh
 python scripts/build-gallery.py --review PATH_TO_COLLECTION_REVIEW --marketing PATH_TO_MARKETING_PILOT
+python scripts/import-gallery-promotions.py --batches PATH_TO_MARKETING_COMPLETE
+python scripts/test-gallery-promotions.py --batches PATH_TO_MARKETING_COMPLETE
 python scripts/test-gallery.py --review PATH_TO_COLLECTION_REVIEW --output PATH_TO_QA_OUTPUT
 ```
 

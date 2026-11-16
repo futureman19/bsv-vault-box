@@ -47,7 +47,7 @@
         opener = button;
         document.querySelector('#image-title').textContent = entry.name;
         document.querySelector('#image-note').textContent = entry.imageType === 'Promotional art'
-          ? 'Promotional art · Illustration, not a model screenshot. Details may differ from the actual model.'
+          ? `${entry.provenance.provider === 'xai' ? 'AI-generated promotional art' : 'Promotional art'} · Illustration, not a model screenshot. Details may differ from the actual model.`
           : 'Model preview · Still image rendered from the actual collection model; not an interactive 3D viewer.';
         fullImage.alt = `${entry.name} Box design — ${entry.imageType.toLowerCase()}`;
         fullImage.src = entry.image.src;
