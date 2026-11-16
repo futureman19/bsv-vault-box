@@ -1,0 +1,14 @@
+00:00.532  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\usa-flag-v3\preview\united-states-flag-v2\united-states.blend"
+00:00.547  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\usa-flag-v3\preview\united-states-flag-v3\united-states.blend"
+00:00.657  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\usa-flag-v3\preview\united-states-flag-v2\united-states.blend"
+00:01.766  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\usa-flag-v3\preview\united-states-flag-v3\united-states.blend"
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\usa-flag-v3\preview\united-states-flag-v3\verify_canton.py", line 55, in <module>
+    assert new['navy_perimeter_runs']==1,new
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'navy_perimeter_runs': 3, 'lower_navy_samples': 0, 'upper_navy_samples': 2430, 'navy_columns': 222, 'grid': [496, 40], 'unsampled_corner_points': 1200}
+
+Error: script failed, file: 'verify_canton.py', exiting.
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
