@@ -1,0 +1,97 @@
+FIREWORK_BOUNDS 1440 True {'max': 0.6870423854109999, 'depthRange': 2.1399201154708862, 'particles': 432, 'trailSegments': 1728}
+FIREWORK_BOUNDS 1440 False {'max': 0.8595902318972988, 'depthRange': 2.1399201154708862, 'particles': 432, 'trailSegments': 1728}
+FIREWORK_BOUNDS 390 True {'max': 0.7884657575342053, 'depthRange': 2.1399201154708862, 'particles': 432, 'trailSegments': 1728}
+FIREWORK_BOUNDS 390 False {'max': 0.9822709957883309, 'depthRange': 2.1399201154708862, 'particles': 432, 'trailSegments': 1728}
+{
+  "poster_nonblank": true,
+  "devices": [
+    {
+      "width": 1440,
+      "maps": [
+        {
+          "key": "map",
+          "channel": "RED",
+          "range": 227,
+          "width": 2048,
+          "height": 256
+        },
+        {
+          "key": "roughnessMap",
+          "channel": "GREEN",
+          "range": 5,
+          "width": 256,
+          "height": 256
+        },
+        {
+          "key": "map",
+          "channel": "RED",
+          "range": 255,
+          "width": 1536,
+          "height": 1134
+        }
+      ],
+      "firework_framing": [
+        {
+          "max": 0.6870423854109999,
+          "depthRange": 2.1399201154708862,
+          "particles": 432,
+          "trailSegments": 1728
+        },
+        {
+          "max": 0.8595902318972988,
+          "depthRange": 2.1399201154708862,
+          "particles": 432,
+          "trailSegments": 1728
+        }
+      ],
+      "animated_3d": true,
+      "reduced_static": true,
+      "reduced_pose_endpoints": true
+    },
+    {
+      "width": 390,
+      "maps": [
+        {
+          "key": "map",
+          "channel": "RED",
+          "range": 227,
+          "width": 2048,
+          "height": 256
+        },
+        {
+          "key": "roughnessMap",
+          "channel": "GREEN",
+          "range": 5,
+          "width": 256,
+          "height": 256
+        },
+        {
+          "key": "map",
+          "channel": "RED",
+          "range": 255,
+          "width": 1536,
+          "height": 1134
+        }
+      ],
+      "firework_framing": [
+        {
+          "max": 0.7884657575342053,
+          "depthRange": 2.1399201154708862,
+          "particles": 432,
+          "trailSegments": 1728
+        },
+        {
+          "max": 0.9822709957883309,
+          "depthRange": 2.1399201154708862,
+          "particles": 432,
+          "trailSegments": 1728
+        }
+      ],
+      "animated_3d": true,
+      "reduced_static": true,
+      "reduced_pose_endpoints": true
+    }
+  ],
+  "noJS_poster": true,
+  "PASS": true
+}

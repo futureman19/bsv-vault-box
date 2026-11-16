@@ -1,0 +1,12 @@
+00:00.453  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\usa-flag-v8\preview\united-states-flag-v8\united-states.blend"
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\usa-flag-v8\preview\united-states-flag-v8\verify_source.py", line 37, in <module>
+    (ROOT/'source-check.json').write_text(json.dumps(result,indent=2));print(json.dumps(result));assert not collisions
+                                                                                                        ^^^^^^^^^^^^^^
+AssertionError
+{"saved_source_reopened": true, "named_lid": "Lid_Hinge", "latch_parent": "Lid_Hinge", "moving_meshes": 16, "static_meshes": 39, "collision_samples": 81, "collisions": [[14, "Latch / rotating knuckle", "Flag / clasp seat"], [15, "Latch / rotating knuckle", "Flag / clasp seat"], [16, "Latch / rotating knuckle", "Flag / clasp seat"], [17, "Latch / rotating knuckle", "Flag / clasp seat"], [18, "Latch / rotating knuckle", "Flag / clasp seat"], [19, "Latch / rotating knuckle", "Flag / clasp seat"], [20, "Latch / rotating knuckle", "Flag / clasp seat"], [80, "Hinge / moving leaf", "Hinge / bearing mounting stem"], [80, "Hinge / moving leaf.001", "Hinge / bearing mounting stem.001"]], "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)", "hollow_floor_ray_z": 0.26500001549720764, "source_objects": 62}
+
+Error: script failed, file: 'verify_source.py', exiting.
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

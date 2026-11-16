@@ -1,0 +1,55 @@
+"""World-metric unfolded flag artwork. Original top radius, no independent side glyphs."""
+from pathlib import Path
+from PIL import Image,ImageDraw
+import math,json
+R=Path(__file__).resolve().parent
+RED=(235,8,20);WHITE=(239,235,218);NAVY=(12,30,69)
+XMIN,XMAX=-2.56,2.56;YMIN,YMAX=-1.89,1.89
+TX,TY=1.848,1.178;ZTOP=1.6436;BEVEL=.012
+SCALE=.20
+CHORDS=[math.hypot(BEVEL*(math.sin((i+1)*math.pi/6)-math.sin(i*math.pi/6)),(.009)*(math.cos((i+1)*math.pi/6)-math.cos(i*math.pi/6))) for i in range(3)]
+ARC=sum(CHORDS)
+RADIUS=.145
+LEFT=[-.81,-.27,.27,.81];FRONT=[-1.54,-1.25,-.96,-.67,-.38]
+def side_distance(z):return 2*ARC+.042+(1.5836-z)
+def star_points(x,y):
+ return [(x+math.sin(i*math.pi/5)*RADIUS*(1 if i%2==0 else .42),y+math.cos(i*math.pi/5)*RADIUS*(1 if i%2==0 else .42)) for i in range(10)]
+# One coordinate-space stencil, shared by top, bevel and any continuation onto sides.
+STARS=[]
+for row in range(4):
+ count=4 if row%2==0 else 3
+ for col in range(count):STARS.append((-1.86+(col+1)*1.71/(count+1),1.19-(row+.5)*2.38/4))
+STARS += [(-TX-.105,y) for y in LEFT]+[(x,-TY-.105) for x in FRONT]
+def inside_star(x,y,cx,cy):
+ pts=star_points(cx,cy);inside=False
+ for i,(a,b) in enumerate(pts):
+  c,d=pts[i-1]
+  if (b>y)!=(d>y) and x<(c-a)*(y-b)/(d-b)+a:inside=not inside
+ return inside
+# 300 texels per physical unit in BOTH axes; supersample outlines.
+w,h=1536,1134;ss=2
+im=Image.new('RGB',(w*ss,h*ss));d=ImageDraw.Draw(im)
+def pix(x,y):return ((x-XMIN)/(XMAX-XMIN)*w*ss,(YMAX-y)/(YMAX-YMIN)*h*ss)
+for py in range(h*ss):
+ y=YMAX-(py+.5)/(h*ss)*(YMAX-YMIN);row=min(4,max(0,int((1.19-y)/2.38*5)))
+ d.line((0,py,w*ss,py),fill=RED if row%2==0 else WHITE)
+d.rectangle((0,0,pix(-.15,0)[0],h*ss),fill=NAVY)
+for x,y in STARS:d.polygon([pix(a,b) for a,b in star_points(x,y)],fill=WHITE)
+im.resize((w,h),Image.Resampling.LANCZOS).save(R/'maps/flag-lid.png',optimize=True)
+# One shallow body field with the same developed stencil; no independent body glyphs.
+w,h=2048,256
+im=Image.new('RGB',(w,h));d=ImageDraw.Draw(im)
+for i in range(5):d.rectangle((0,int(i*h/5),w,int((i+1)*h/5)),fill=RED if i%2==0 else WHITE)
+d.rectangle((int(2.01/12.4*w),0,int(7.91/12.4*w),int(h*.125)),fill=NAVY)
+# Evaluate SAME world stencil on shallow band, with metric unfolding from lid top.
+for py in range(int(h*.125)+1):
+ z=.10+(1-(py+.5)/h)*1.46;distance=side_distance(z)
+ for px in range(int(2.01/12.4*w),int(7.91/12.4*w)+1):
+  s=(px+.5)/w*12.4
+  if 3.72<=s<=6.20:x,y=-TX-distance,4.96-s
+  elif 6.20<s<=9.92:x,y=s-8.06,-TY-distance
+  else:continue
+  if any(inside_star(x,y,cx,cy) for cx,cy in STARS):im.putpixel((px,py),WHITE)
+im.save(R/'maps/flag-wall.png',optimize=True)
+(R/'wrap-layout.json').write_text(json.dumps(dict(radius=RADIUS,diameter=2*RADIUS,top_stars=STARS[:-9],left_centers=STARS[-9:-5],front_centers=STARS[-5:],atlas_bounds=[XMIN,XMAX,YMIN,YMAX],texels_per_world_unit=300,bevel_chord_length=ARC,top_z=ZTOP,top_tangencies=[TX,TY],body_top_z=1.56,limitation='Closed-pose developed mapping; natural seam interruption. Geometry intentionally changed; all stars share .145 radius.'),indent=2))
+print('Shared metric masks: 4 left + 5 front folded edge stars; radius .145')

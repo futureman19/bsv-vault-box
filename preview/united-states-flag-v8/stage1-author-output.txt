@@ -1,0 +1,14 @@
+00:00.469  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\usa-flag-v8\preview\united-states-flag-v8\baseline-v7.blend"
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\usa-flag-v8\preview\united-states-flag-v8\author_v8.py", line 12, in <module>
+    for o in sorted(objects,key=lambda o:len(o.parent_recursive)):
+             ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\usa-flag-v8\preview\united-states-flag-v8\author_v8.py", line 12, in <lambda>
+    for o in sorted(objects,key=lambda o:len(o.parent_recursive)):
+                                             ^^^^^^^^^^^^^^^^^^
+AttributeError: 'Object' object has no attribute 'parent_recursive'. Did you mean: 'children_recursive'?
+
+Error: script failed, file: 'author_v8.py', exiting.
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

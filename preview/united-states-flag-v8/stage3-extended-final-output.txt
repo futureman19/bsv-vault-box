@@ -1,0 +1,9 @@
+FIREWORK_BOUNDS 1440 True {'max': 0.8298148985311552, 'depthRange': 2.741762697696686, 'particles': 432, 'trailSegments': 1728}
+FIREWORK_BOUNDS 1440 False {'max': 0.9628873370158146, 'depthRange': 2.741762697696686, 'particles': 432, 'trailSegments': 1728}
+FIREWORK_BOUNDS 390 True {'max': 0.941406856787057, 'depthRange': 2.741762697696686, 'particles': 432, 'trailSegments': 1728}
+FIREWORK_BOUNDS 390 False {'max': 1.0877135665234894, 'depthRange': 2.741762697696686, 'particles': 432, 'trailSegments': 1728}
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\usa-flag-v8\preview\united-states-flag-v8\verify_extended.py", line 26, in <module>
+    assert v['max']<1 and v['depthRange']>1 and v['particles']==432;maxima.append(v)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
