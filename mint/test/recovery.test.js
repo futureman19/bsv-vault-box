@@ -178,4 +178,92 @@ test("captured inclusion loss is distinct from historical INCLUDED", () => {
   assert.equal(r.persistedStage, "INCLUDED");
   assert.equal(r.reconciliationRequired, true);
 });
+for (const [name, mutate] of [
+  [
+    "inclusion regression",
+    (b) => {
+      b.transfer.stage = "BUILT";
+    },
+  ],
+  [
+    "ownership regression",
+    (b) => {
+      b.state = "PAID_PENDING";
+    },
+  ],
+  [
+    "open regression",
+    (b) => {
+      b.state = "TRANSFERRED";
+    },
+  ],
+  [
+    "changed open identity",
+    (b) => {
+      b.openTxid = "changed";
+    },
+  ],
+  [
+    "cleared hold",
+    (b) => {
+      b.reconciliationRequired = false;
+    },
+  ],
+  [
+    "cleared reason with hold retained",
+    (b) => {
+      b.reconciliationReasons = [];
+    },
+  ],
+])
+  test("replay rejects historical " + name, () => {
+    const e = evidence("INCLUDED"),
+      prior = JSON.parse(e.saleText);
+    Object.assign(prior.box, {
+      state: "OPENED",
+      openTxid: "historical",
+      reconciliationRequired: true,
+      reconciliationReasons: ["PAYMENT_FINALITY_LOST"],
+    });
+    const later = structuredClone(prior);
+    mutate(later.box);
+    const r = classify({ ...e, saleText: lines([prior, later]) });
+    assert.equal(r.classification, "INCONSISTENT");
+    assert.equal(r.quarantined, true);
+    assert.equal(r.mayResume, false);
+  });
+test("legitimate retry progression and accumulated reasons remain quarantined", () => {
+  const e = evidence(),
+    rows = [],
+    row = JSON.parse(e.saleText);
+  for (const stage of [
+    "BUILT",
+    "UNCERTAIN",
+    "UNCERTAIN",
+    "SUBMITTED",
+    "INCLUDED",
+  ]) {
+    row.box.transfer.stage = stage;
+    if (stage === "INCLUDED") row.box.state = "TRANSFERRED";
+    rows.push(structuredClone(row));
+  }
+  Object.assign(row.box, {
+    state: "OPENED",
+    openTxid: "historical",
+    reconciliationRequired: true,
+    reconciliationReasons: ["PAYMENT_FINALITY_LOST"],
+  });
+  rows.push(structuredClone(row));
+  row.box.reconciliationReasons.push("TRANSFER_FINALITY_LOST");
+  rows.push(row);
+  const r = classify({ ...e, saleText: lines(rows) });
+  assert.equal(r.classification, "INCLUDED");
+  assert.equal(r.reconciliationRequired, true);
+  assert.deepEqual(r.reconciliationReasons, [
+    "PAYMENT_FINALITY_LOST",
+    "TRANSFER_FINALITY_LOST",
+  ]);
+  assert.equal(r.quarantined, true);
+  assert.equal(r.mayResume, false);
+});
 module.exports = { evidence };

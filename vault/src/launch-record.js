@@ -11,7 +11,11 @@ function exact(value, fields) {
     Array.isArray(value) ||
     typeof value !== "object" ||
     Object.keys(value).length !== fields.length ||
-    fields.some((k) => typeof value[k] !== "string")
+    fields.some(
+      (k) =>
+        !Object.prototype.hasOwnProperty.call(value, k) ||
+        typeof value[k] !== "string"
+    )
   )
     throw Error("Invalid fields");
   return Object.fromEntries(fields.map((k) => [k, value[k]]));
