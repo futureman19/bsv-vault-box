@@ -1,0 +1,91 @@
+{
+  "reviewer": "visual-3",
+  "immutable_revision": "d1becdc7366b9781a65d29712553b77fa8355059",
+  "scope": "Independent static visual review; no approval or promotion of any asset.",
+  "method": "All 20 original final PNG paths and all 5 matching marketing.webp paths were individually inspected using vision_analyze; no contact sheets substituted. Native image dimensions were separately checked with Pillow.",
+  "inspected_file_count": 25,
+  "input_path_base": "parent/",
+  "image_dimensions": {"desktop_png": [1440, 1080], "mobile_png": [390, 844]},
+  "approval_granted": false,
+  "shared_limitations": [
+    "All reviewed closed/open desktop/mobile compositions contain the full object and controls without obvious clipping or horizontal overflow.",
+    "Mobile secondary labels and custody disclaimers are small; generous viewer whitespace reduces fine-detail readability.",
+    "Open views reveal empty cavities, but front walls and lighting obscure portions of the floors. These images do not verify watertight meshes, underside completeness, animation collisions, hinge kinematics, interactions, performance or archive integrity.",
+    "Open lids show dark separation above rear rims and projecting clasp tabs. Visible separation is a review concern, not proof of a detached mesh or broken articulation.",
+    "The marketing references show closed exteriors only; open-interior fidelity has no corresponding reference view."
+  ],
+  "reviews": [
+    {
+      "id": "jamaica",
+      "recommendation": "candidate-with-limitations",
+      "approved": false,
+      "reference": {"file": "sources/jamaica/marketing.webp", "dimensions": [1072, 960], "observations": "Ivory patterned mineral body and pale block feet; pebbled dusty-teal lid, sage/mint mountain relief with lavender-gray exposed slopes, rounded canopy clusters, brass corner caps, long front clasp, round lower fitting and side ring."},
+      "final_views": [
+        {"file": "smoke/jamaica/desktop-closed.png", "observations": "All primary source motifs and hardware positions remain readable. Pale mottled body, teal lid band, clustered green terrain and pale feet are fully framed. Flat muted lid top and simplified terrain have less tactile material separation than the reference."},
+        {"file": "smoke/jamaica/desktop-open.png", "observations": "Broad plain teal underside, pale inner walls and green rim are exposed. Rear hinge gap, prominent upper clasp tab and stepped pale rim corners merit construction review; no unmistakable large missing face is visible."},
+        {"file": "smoke/jamaica/mobile-closed.png", "observations": "Full mountain and feet fit. Title leaves Crow alone on a second line. Small terrain clusters and layered clasp lose definition; lid seam and front-left corner are visually busy."},
+        {"file": "smoke/jamaica/mobile-open.png", "observations": "Raised lid and tab fit without control overlap. Green rim joins look segmented and the front wall masks much of the floor. Fine diagonals show edge stepping."}
+      ],
+      "artistic_gaps": ["Stone's repeated diagonal pattern reads as decorative composite rather than natural limestone.", "The reference's pebbled lid, granular terrain and restrained aged-brass response are softened into simpler surfaces.", "Canopy blobs and broad facets retain the reference concept but do not establish realistic forest ecology or geography."],
+      "follow_up": "Candidate for user consideration with stylization disclosed; inspect hinge seating, clasp attachment and rim joins in a rotating close-up before any approval."
+    },
+    {
+      "id": "laos",
+      "recommendation": "candidate-with-limitations",
+      "approved": false,
+      "reference": {"file": "sources/laos/marketing.webp", "dimensions": [1072, 976], "observations": "Cream segmented/woven panels, stitched brown edging, olive lid band, three rough white karst peaks, small green accents and thin turquoise river. Brass clasp, lower oval fitting, side ring and lid caps; irregular gray stone-like feet."},
+      "final_views": [
+        {"file": "smoke/laos/desktop-closed.png", "observations": "Woven golden panels, brown frame, jade strip, white peaks, river and irregular stone feet all read clearly. Peaks are faceted and river is a flat stripe. Green lid seam is conspicuous but not proof of failed closure."},
+        {"file": "smoke/laos/desktop-open.png", "observations": "Woven lid underside and visible inner walls repeat the exterior material. Green rim, pale corner caps, two hinges and upper tab are visible; rear gap requires attachment verification. Entire model fits."},
+        {"file": "smoke/laos/mobile-closed.png", "observations": "Title, full closed chest and controls fit. Karst silhouette survives reduction; tiny weave and metal details soften. Fine text has slight color-fringed appearance in the capture."},
+        {"file": "smoke/laos/mobile-open.png", "observations": "Open lid, tab and pale supports are fully contained. Fine weave and edges become stepped. Irregular feet look loosely integrated but are consistent with the source's stone-support idea."}
+      ],
+      "artistic_gaps": ["Regular weave lacks the reference's fine tactile variation and clearly legible stitched borders.", "Sparse peaks and green lumps sit abruptly on a flat lid; river lacks depth or water response.", "Brass fittings are simplified; lower fitting details are less legible than in the marketing image."],
+      "follow_up": "Retain as a stylized candidate, not an approved final. User should evaluate simplified bamboo, river and terrain treatment; inspect hinge and support attachment separately."
+    },
+    {
+      "id": "luxembourg",
+      "recommendation": "candidate-with-limitations",
+      "approved": false,
+      "reference": {"file": "sources/luxembourg/marketing.webp", "dimensions": [1072, 976], "observations": "Warm ivory fine-grained chest, pale block feet, emerald seam, brass clasp/disc/ring/caps. Two pale stepped formations, delicate green sprigs and turquoise water-like inset; even the reference can read as wood or architectural miniature rather than sandstone."},
+      "final_views": [
+        {"file": "smoke/luxembourg/desktop-closed.png", "observations": "Two layered formations, small turquoise accent and sparse plants remain visible. Uniform pale horizontal bands resemble stacked sheets or wood grain. Wiry plants do not convincingly read as fern fronds; all parts fit."},
+        {"file": "smoke/luxembourg/desktop-open.png", "observations": "Pale banded underside and empty cream cavity with green trim are visible. Upper brass tab appears detached from this angle and lower lid gap makes hinge connection visually weak; attachment remains unconfirmed, not a proven mesh failure."},
+        {"file": "smoke/luxembourg/mobile-closed.png", "observations": "Complete chest, wrapped title and buttons fit. Viewer has ample vertical whitespace; small fern and water details are difficult to resolve. Secondary text is fine."},
+        {"file": "smoke/luxembourg/mobile-open.png", "observations": "Lid, projecting tab, cavity and feet remain framed. Repeating wavy bands are conspicuous and diagonal edges slightly jagged. Close lid state label matches the open view."}
+      ],
+      "artistic_gaps": ["Fern-lined ravine concept remains sparse and emblematic, with weak plant density and no convincing fine frond structure.", "Repeated bands and angular formations limit geological realism, though some material ambiguity is already present in the source.", "Uniform stone and clean brass lack fine erosion and surface variation."],
+      "follow_up": "Candidate with explicit material/vegetation limitations. Resolve apparent upper-tab detachment and hinge seating in close-up before approval; static views alone cannot settle attachment."
+    },
+    {
+      "id": "mauritania",
+      "recommendation": "candidate-with-limitations",
+      "approved": false,
+      "reference": {"file": "sources/mauritania/marketing.webp", "dimensions": [1072, 976], "observations": "Pale cream/blond flowing grain, slate-blue seam and block feet, brass corner caps and central clasp with lower round fitting. Cream and blue-gray irregular concentric ridges form a jagged spiral/eroded-crater ornament."},
+      "final_views": [
+        {"file": "smoke/mauritania/desktop-closed.png", "observations": "Desert-cream chest, flowing tan bands, gray-blue feet and cream/blue ridge ornament preserve major source cues. Ridge silhouette is strongly toothlike and faceted; regular wave texture looks synthetic. Closed seam is conspicuous."},
+        {"file": "smoke/mauritania/desktop-open.png", "observations": "Same wave pattern covers lid underside and inner walls. Dark rim, hinge gap and pale corner protrusions are visible; floor partly concealed. Tab, lid and feet fit fully."},
+        {"file": "smoke/mauritania/mobile-closed.png", "observations": "Single-line title and entire chest fit. Concentric terrain becomes a small jagged emblem at phone size; hardware silhouette is readable but fine detail is limited."},
+        {"file": "smoke/mauritania/mobile-open.png", "observations": "Open state and empty cavity read clearly with no clipping. Uniform wave repetition, blocky feet/hardware and slight edge pixelation are prominent; upper projecting piece remains conspicuous."}
+      ],
+      "artistic_gaps": ["Richat reads as a stylized spiral or flower-like crater emblem, not a geographically convincing erosion miniature.", "Repeating pale grain and wave bands can look wooden or molded, a material ambiguity also present in the marketing source.", "Fine weathering and ridge transitions are simplified; jaggedness alone is not a new defect because the source also has pointed ridges."],
+      "follow_up": "Candidate only with abstract-geology and material limitations disclosed. Check seam clearance and hinge/clasp joins independently before approval."
+    },
+    {
+      "id": "morocco",
+      "recommendation": "needs-user-review",
+      "approved": false,
+      "retained_status": "partial unapproved",
+      "archive_byte_hold": {"retained": true, "separate_from_visual_review": true, "cleared": false, "note": "Existing archive-byte hold is retained exactly as a separate unresolved gate. This visual inspection did not test or resolve archive bytes."},
+      "reference": {"file": "sources/morocco/marketing.webp", "dimensions": [1100, 1000], "observations": "Predominantly ivory/cream/honey horizontally banded polished stone body, chocolate lid, smooth gray-brown center, intricate green-white floral/geometric perimeter inlay with fine edging, small peach mountain ornament. Brass central clasp, round medallion, low front ring and bottom guards."},
+      "final_views": [
+        {"file": "smoke/morocco/desktop-closed.png", "observations": "Body is substantially more salmon/rose, rust and ochre than the pale reference. Wood sides show strong stretched-looking grain. Green-white border is soft and difficult to resolve; mountain is small and abruptly seated. Uneven-looking dark lid seam, disconnected-looking small front fittings and weak grounding shadow merit review."},
+        {"file": "smoke/morocco/desktop-open.png", "observations": "Dark brown underside and cavity obscure internal detail. Rear gap and layered/uneven rim strips at front-left and rear-right make attachment and join quality uncertain. Full model fits, slightly right-weighted."},
+        {"file": "smoke/morocco/mobile-closed.png", "observations": "Complete chest and controls fit; title has little spare width. Tile pattern, mountain and metal edges look pixelated; small latch pieces merge. Dark front-left lid seam remains noticeable."},
+        {"file": "smoke/morocco/mobile-open.png", "observations": "Full raised lid, upper hardware and lower corners fit without page overflow. Cavity remains very dark, ceramic motif is not discernible in this orientation, and rim/hinge edges are jagged."}
+      ],
+      "artistic_gaps": ["Material and palette drift is material to fidelity: warm rose/rust stone differs from the reference's predominantly pale cream/honey body, regardless of the page's Rose stone subtitle.", "Intricate green-white reference inlay is reduced to a less legible tiled border; smooth satin center and polished stone response are less convincing.", "Mountain-to-lid transition, abrupt veining direction changes, soft hardware and weak ground contact reduce crafted-object coherence."],
+      "follow_up": "User must decide whether the warmer rose recolor and simplified tile/material treatment are intended. Retain partial unapproved status and the independent archive-byte hold; do not promote on the basis of intact framing or readable open/closed states."
+    }
+  ]
+}

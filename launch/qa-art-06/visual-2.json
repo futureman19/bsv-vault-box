@@ -1,0 +1,96 @@
+{
+  "reviewer": "visual-2",
+  "parent_commit": "d1becdc7366b9781a65d29712553b77fa8355059",
+  "method": "Independent vision_analyze inspection of every original full-resolution PNG and matching marketing.webp, individually, without contact sheets or prior reviewers' findings. Image dimensions checked with Pillow.",
+  "reviewed_file_count": 25,
+  "dimensions": {"desktop_png": [1440,1080], "mobile_png": [390,844]},
+  "scope_limits": ["Static images establish visible poses, not working animation, hinge attachment, rotation, reset, zoom, or custody behavior.", "Open views hide the exterior lid artwork; this is not evidence that its decoration disappeared.", "Material realism and marketing fidelity are distinct from demonstrated malfunction.", "Recommendations are provisional review routing, not user approval or publication authorization."],
+  "approved": false,
+  "reviews": [
+    {
+      "id": "czechia",
+      "inspected_files": ["parent/sources/czechia/marketing.webp", "parent/smoke/czechia/desktop-closed.png", "parent/smoke/czechia/desktop-open.png", "parent/smoke/czechia/mobile-closed.png", "parent/smoke/czechia/mobile-open.png"],
+      "marketing_dimensions": [1072,960],
+      "reference_appearance": "Cobalt rectangular chest, pale opaque faceted central mound with smaller surrounding crystals, warm brass corner caps, long clasp, separate round disk, side ring, and squat irregular gray feet.",
+      "views": {
+        "desktop_closed": "Cobalt body and icy faceted lid ornaments preserve the reference silhouette and brass hardware hierarchy. Thick dark lid seam; softly mottled broad panels; whole model and controls fit.",
+        "desktop_open": "Blue underside and empty blue cavity are visible, with gray rim strips, two brass rear hinges and an upright lid clasp. Whole lid and feet remain in frame; Close lid label agrees with pose.",
+        "mobile_closed": "Same recognizable crystal cluster and cobalt/brass palette. Fine hardware and feet are coarse at phone scale. Heading wraps with Glass alone on the second line; no truncation.",
+        "mobile_open": "Open cavity, gray rim and projecting brass clasp remain legible and contained. Small edge stepping and abrupt rim corners are more conspicuous; controls remain separate from model."
+      },
+      "demonstrated_malfunctions": [],
+      "visible_concerns_not_proven_malfunctions": ["Heavy closed seam and coarse rim junctions warrant another-angle inspection, but do not demonstrate a detached lid.", "Small hardware and diagonal silhouettes have aliasing; capture resolution may contribute."],
+      "artistic_fidelity_gaps": ["Glass reads opaque and rock-like, with little optical sparkle or transparency. Importantly, the reference also uses opaque pale faceted ornaments: this is mainly a material-story limitation, not proof of lost reference glass transparency.", "Reference's fine surface grain and brass highlights are simplified; feet and ornaments remain deliberately low-poly."],
+      "suggested_disposition": "candidate-with-limitations",
+      "user_review_focus": "Whether the faithful stylized blue/crystal silhouette is sufficient despite weak cut-glass material expression and coarse finish."
+    },
+    {
+      "id": "el-salvador",
+      "inspected_files": ["parent/sources/el-salvador/marketing.webp", "parent/smoke/el-salvador/desktop-closed.png", "parent/smoke/el-salvador/desktop-open.png", "parent/smoke/el-salvador/mobile-closed.png", "parent/smoke/el-salvador/mobile-open.png"],
+      "marketing_dimensions": [1072,960],
+      "reference_appearance": "Speckled blue chest with heavy rough gray slab lid, hollow irregular volcanic crater with pale inner walls and a turquoise pool, brass corners/clasp/disk/side ring, and dark stone feet.",
+      "views": {
+        "desktop_closed": "Indigo speckled body, gray crater slab and turquoise center retain the reference concept. Crater walls have abrupt pale-versus-dark material transitions. The pool is partly occluded by the near rim, not clipped.",
+        "desktop_open": "Dark rippled stone lid underside, blue walls, pale interior floor and brass hinges are visible. Raised clasp is thinly connected-looking from this angle, without proof of disconnection. Entire assembly fits.",
+        "mobile_closed": "Crater, lagoon, blue body and gold clasp remain distinguishable; angular rock surfaces and small coarse edges are evident. Title and controls fit without overlap.",
+        "mobile_open": "Open cavity and dark textured lid remain contained; blue-gray rim corners have abrupt ends. Close lid state is coherent and no broken face or missing texture is evident."
+      },
+      "demonstrated_malfunctions": [],
+      "visible_concerns_not_proven_malfunctions": ["Raised clasp attachment is ambiguous in open views; a still does not prove it floats.", "Strong lid seam and pale crater facets are visible but consistent with clearance and stylized rock, not established holes or inverted normals."],
+      "artistic_fidelity_gaps": ["Crater's pale interior has a folded/angular look; rough stone transitions and hardware are less refined than the reference.", "Pool remains a simple turquoise surface rather than rich water; the reference already uses a similarly restrained pool treatment."],
+      "suggested_disposition": "candidate-with-limitations",
+      "user_review_focus": "Acceptability of simplified crater material transitions and hardware finish; the signature lagoon concept is retained."
+    },
+    {
+      "id": "france",
+      "inspected_files": ["parent/sources/france/marketing.webp", "parent/smoke/france/desktop-closed.png", "parent/smoke/france/desktop-open.png", "parent/smoke/france/mobile-closed.png", "parent/smoke/france/mobile-open.png"],
+      "marketing_dimensions": [1056,976],
+      "reference_appearance": "Ivory softly marbled chest with relief square-tile floral mosaic: muted rose petals, peach centers, sage foliage. Warm brass hardware, dark green lid seam and rounded irregular ivory feet.",
+      "views": {
+        "desktop_closed": "Pale veined chest and brass fittings remain recognizable, but lid reads as a higher-contrast green/white/red/ochre geometric mosaic rather than the reference's soft pink floral composition. Dark seam and faceted feet are prominent.",
+        "desktop_open": "Pale lid underside, brown cavity and dark rim are visible with rear hinges and front fittings. Exterior mosaic is turned away, not demonstrably missing. No major mesh corruption or layout break.",
+        "mobile_closed": "Green/white/red tile pattern remains visible, though tile and brass edges are jagged at this scale. Pale body, hardware, and short feet fit the viewport with usable-looking separated controls.",
+        "mobile_open": "Cream underside and plain brown interior dominate; rim/corner seams and blocky feet are noticeable. Model, heading and controls are not visibly cropped."
+      },
+      "demonstrated_malfunctions": [],
+      "visible_concerns_not_proven_malfunctions": ["Heavy closed seam and weak-looking open hinge connection warrant closer geometric inspection, but neither proves failed articulation.", "Small tile and hardware edges show render roughness."],
+      "artistic_fidelity_gaps": ["Noticeable palette and motif-reading difference: reference's soft rose/peach flowers and sage accents become bolder geometric red/green/ochre patterning.", "Tile relief, grout and glazed sheen are weak; pattern reads flatter than the reference mosaic.", "Stone grain, satin-metal response, corner joinery and feet remain simplified."],
+      "suggested_disposition": "needs-user-review",
+      "user_review_focus": "Decide whether the stronger geometric tile palette is an acceptable interpretation of the softer floral marketing reference before any acceptance."
+    },
+    {
+      "id": "guatemala",
+      "inspected_files": ["parent/sources/guatemala/marketing.webp", "parent/smoke/guatemala/desktop-closed.png", "parent/smoke/guatemala/desktop-open.png", "parent/smoke/guatemala/mobile-closed.png", "parent/smoke/guatemala/mobile-open.png"],
+      "marketing_dimensions": [1136,912],
+      "reference_appearance": "Muted denim-blue chest and blue lid/feet, coral and pale-gold horizontal bands, gold clasp and corners, pale aqua lake and three mint-green faceted volcanic peaks, two with dark tips.",
+      "views": {
+        "desktop_closed": "Three green peaks and turquoise lake preserve the central motif. Body is deeper indigo; lid slab and feet read gray volcanic stone rather than the reference blue. Fine multicolor bands and central gold clasp remain.",
+        "desktop_open": "Plain blue cavity and gray-blue textured underside are exposed; striped exterior, stone rim and rear hinges remain visible. Hinge continuity is visually ambiguous, not proven broken.",
+        "mobile_closed": "Three mountain silhouettes, flat lake and striped indigo body remain readable. Latch backing/shadow is dark and offset-looking; coarse trim seams do not establish penetration.",
+        "mobile_open": "Open indigo chest with narrow colored bands, gray rim and lid underside fits the phone layout. Broad panels are plain and dark trim blends into the background in places."
+      },
+      "demonstrated_malfunctions": [],
+      "visible_concerns_not_proven_malfunctions": ["Blocky rim joints, exposed upright clasp and apparent hinge clearance need alternate views to assess mechanical continuity.", "Small stripe and latch edges are jagged, especially on mobile."],
+      "artistic_fidelity_gaps": ["Visible reference deviation in material allocation: gray stone lid and dark feet replace the reference's blue lid and blue squared feet; body is darker/more saturated.", "Woven character is expressed chiefly through stripes rather than textile detail. The reference also has restrained surface texture, so lack of weave is not a demonstrated rendering failure.", "Lake is flat and opaque; low-poly peaks match the stylized reference approach but material richness remains limited."],
+      "suggested_disposition": "needs-user-review",
+      "user_review_focus": "Whether the gray-stone lid/feet and darker indigo reinterpretation are acceptable despite preserving the lake/three-volcano composition."
+    },
+    {
+      "id": "india",
+      "inspected_files": ["parent/sources/india/marketing.webp", "parent/smoke/india/desktop-closed.png", "parent/smoke/india/desktop-open.png", "parent/smoke/india/mobile-closed.png", "parent/smoke/india/mobile-open.png"],
+      "marketing_dimensions": [1072,976],
+      "reference_appearance": "Ivory chest with fine gray wavy markings, large pink lid flower plus four smaller blue flowers on green stems, six raised blue front ovals, green lid seam, gold clasp/disk/corners/side ring and ivory block feet.",
+      "views": {
+        "desktop_closed": "Ivory wavy-veined body, green seam, six blue ovals and brass hardware preserve the reference structure. Central lid flower reads orange/warm ochre rather than reference pink; blue flowers and green stems remain.",
+        "desktop_open": "Ivory underside and cavity with green rim strips are exposed; six blue front ovals remain. Green rim has conspicuous corner interruptions, especially front-left. Entire model fits and Close lid matches pose.",
+        "mobile_closed": "Floral lid and blue front accents remain recognizable, but fine edges are jagged and the green lid seam is broad with pale interruptions near the front-left corner. No major interface overlap.",
+        "mobile_open": "Repeated marble squiggles, green rim breaks, exposed upright clasp and blue ovals remain visible. No clear broken panel or missing asset; hardware attachment cannot be resolved from this angle."
+      },
+      "demonstrated_malfunctions": [],
+      "visible_concerns_not_proven_malfunctions": ["Green rim strips visibly break at corner junctions in open views. This is an observable join-quality concern; screenshots do not establish an unintended mesh hole or animation failure.", "Broad closed seam and upright clasp merit alternate-angle inspection; visible clearance alone does not establish malfunction."],
+      "artistic_fidelity_gaps": ["Central flower hue differs visibly: marketing pink versus warm orange/ochre in the final closed views.", "Marble markings are repetitive; brass response and edge bevels are simplified.", "Flowers and ovals appear applied/raised rather than fine flush parchin kari. The marketing reference also uses raised-looking ornament, so this is craft/material expression rather than proven loss of required inlay geometry.", "Flowers are on the lid exterior: their absence from the open-facing underside is normal occlusion, not missing ornament."],
+      "suggested_disposition": "needs-user-review",
+      "user_review_focus": "Resolve central-flower color fidelity and green-rim join finish expectations; do not treat visible open/closed poses as proof of mechanically correct movement."
+    }
+  ]
+}

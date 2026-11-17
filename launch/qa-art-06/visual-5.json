@@ -1,0 +1,140 @@
+{
+  "review_type": "independent-static-visual-review",
+  "immutable_parent": "d1becdc7366b9781a65d29712553b77fa8355059",
+  "scope": "Five IDs; all four final PNGs and matching marketing.webp individually inspected through vision_analyze using actual file paths, without crops or contact-sheet substitution.",
+  "images_inspected": 25,
+  "final_approval": false,
+  "method_limitations": [
+    "Full source images were submitted to vision_analyze; the tool may internally resize its display. No claim of exhaustive pixel-level inspection is made.",
+    "Static endpoints do not verify animation, pivot placement, collisions during travel, controls, reset, gestures, or hidden geometry.",
+    "Repeated visual concerns across desktop/mobile establish repeatable appearance only, not a reproduced runtime mechanism defect.",
+    "Marketing references depict closed boxes; plain undersides and empty interiors are not automatically fidelity failures. Lid-top motifs becoming hidden when opened are not missing-decoration defects."
+  ],
+  "shared_findings": {
+    "layout": "All inspected desktop/mobile frames contain the complete model, controls and footer without obvious cropping, horizontal overflow or UI overlap. Closed/open captures use Open lid/Close lid respectively. Secondary text is small, especially on mobile; dark materials and substantial viewer negative space limit inspection detail.",
+    "mechanism": "All open captures show a near-upright lid, two rear brass hinges and a projecting free-edge clasp tab. Dark clearance and small hinge contacts make attachment visually ambiguous. The tab is plausibly the lid-side clasp, not proven stray geometry. No reproduced mechanism defect is established by these stills.",
+    "reference_correction": "Broad lid seams, oversized front clasps with separate circular fittings, side rings and stylized feet already occur in the marketing references. Their presence alone is not a regression."
+  },
+  "reviews": [
+    {
+      "id": "south-korea",
+      "recommendation": "candidate-with-limitations",
+      "images": {
+        "desktop_closed": "parent/smoke/south-korea/desktop-closed.png",
+        "desktop_open": "parent/smoke/south-korea/desktop-open.png",
+        "mobile_closed": "parent/smoke/south-korea/mobile-closed.png",
+        "mobile_open": "parent/smoke/south-korea/mobile-open.png",
+        "marketing": "parent/sources/south-korea/marketing.webp"
+      },
+      "appearance": "Near-black blue-green chest with pearl-white/mint/lavender pointed flowers, thin lid border and gold stems, brass corner caps and clasp, side ring and block feet. Closed desktop/mobile retain the floral layout. Open desktop/mobile expose a very dark empty cavity and plain lid underside.",
+      "reference_comparison": "Strong correspondence in palette, squat proportions, floral motifs and hardware. The reference itself has pointed geometric petals and subdued satin lacquer, so these should not be called invented flaws. Runtime dark shading suppresses frame, feet and interior detail; fine ornament and brass edges look more jagged at presentation scale.",
+      "artistic_gaps": ["Pearl reads as segmented angular ornament rather than nuanced inlay.", "Dark material separation and soft brass variation could be improved without redesigning the reference."],
+      "observed_defects": [],
+      "mechanism_concerns_unconfirmed": ["Open views leave hinge-to-lid continuity difficult to resolve; mobile rear-right trim appears to project slightly. No definite collision or wrong pivot is visible."],
+      "per_frame": {
+        "desktop_closed": "Entire flowered lid and feet fit; low-contrast frame and layered lid seam.",
+        "desktop_open": "Near-upright dark underside, two hinges, empty cavity; attachment obscured by dark clearance.",
+        "mobile_closed": "Clean two-line title and complete model; fine floral edges pixelate and feet lose contrast.",
+        "mobile_open": "Raised tab and feet remain in frame; dark interior and thin rim edges impede inspection.",
+        "marketing": "Same dark squat construction, flowers, lid border, brass clasp/disk, ring and block feet."
+      },
+      "recommendation_reason": "Recognizable reference-faithful candidate with presentation/material limitations; any hinge defect requires runtime or alternate-angle evidence. Not final approval."
+    },
+    {
+      "id": "switzerland",
+      "recommendation": "candidate-with-limitations",
+      "images": {
+        "desktop_closed": "parent/smoke/switzerland/desktop-closed.png",
+        "desktop_open": "parent/smoke/switzerland/desktop-open.png",
+        "mobile_closed": "parent/smoke/switzerland/mobile-closed.png",
+        "mobile_open": "parent/smoke/switzerland/mobile-open.png",
+        "marketing": "parent/sources/switzerland/marketing.webp"
+      },
+      "appearance": "Warm horizontal-grain wooden chest with contrasting corner joinery, green lid seam, brass hardware and rough stone feet. Closed views show a gray mountain with pointed white snow streaks and basal boulders. Open views reveal a wood-lined cavity and plain wood underside.",
+      "reference_comparison": "Warm wood, exposed joints, jade band, stone feet and simplified snow mountain closely follow the reference. The reference already looks warmer than 'dark walnut' and has a generic pyramidal mountain, so limited Matterhorn specificity is inherited rather than a new modeling failure.",
+      "artistic_gaps": ["Snow transition is conspicuously spiky; mountain silhouette is not strongly Matterhorn-specific.", "Uniform brass and repetitive grain remain stylized rather than premium material rendering."],
+      "observed_defects": [],
+      "mechanism_concerns_unconfirmed": ["Green/dark separation in closed views can read as an unseated lid beneath the clasp, but the reference also has the green seam.", "Open views have ambiguous hinge contact and segmented rim joins; static evidence does not prove detachment."],
+      "per_frame": {
+        "desktop_closed": "Mountain and all feet fit; snowy starburst and green seam are prominent.",
+        "desktop_open": "Wood interior visible; green strips terminate at corner blocks; lid contact looks sparse.",
+        "mobile_closed": "Two-line title fits, complete mountain silhouette; rough stone supports remain visible.",
+        "mobile_open": "No cropping; layered lid edge and uneven rim terminations more apparent at small scale.",
+        "marketing": "Same warm wood, green band, box joints, snow-streaked pyramidal mountain and rock supports."
+      },
+      "recommendation_reason": "Good correspondence to existing art. Mountain identity and material polish are artistic limitations; runtime hinge/closed-seat verification remains outside this review. Not final approval."
+    },
+    {
+      "id": "tonga",
+      "recommendation": "needs-user-review",
+      "images": {
+        "desktop_closed": "parent/smoke/tonga/desktop-closed.png",
+        "desktop_open": "parent/smoke/tonga/desktop-open.png",
+        "mobile_closed": "parent/smoke/tonga/mobile-closed.png",
+        "mobile_open": "parent/smoke/tonga/mobile-open.png",
+        "marketing": "parent/sources/tonga/marketing.webp"
+      },
+      "appearance": "Brown framed chest with cream panels, ochre nested diamond grids, larger lid lozenges, brass caps/clasp and short block feet. Open views have plain brown underside and empty brown interior; the lid-to-body connection appears visually sparse.",
+      "reference_comparison": "Motifs, broad framing and hardware match. Reference framing is dusty taupe/gray-chocolate with subtle surface grain; model presentation reads warmer/darker and flatter. The reference already has a dark lid seam, but its conspicuous runtime presentation makes the apparently latched closed state look less tightly seated.",
+      "artistic_gaps": ["Subtle barkcloth/wood grain is weak; broad brown surfaces appear flat or clay-like.", "Claimed raised diamond relief is not clearly legible at mobile scale.", "Frame tone versus the taupe reference warrants a user fidelity decision, not automatic recoloring."],
+      "observed_defects": [],
+      "mechanism_concerns_unconfirmed": ["Desktop/mobile closed views both show pronounced dark lid separation crossed by the clasp; inspect actual closed seating before calling this a closure defect.", "Desktop/mobile open views show dark clearance around small hinge contacts; connected motion is not demonstrated by stills."],
+      "per_frame": {
+        "desktop_closed": "Diamond grids clear; dark seam and overlapping-looking clasp dominate closure reading.",
+        "desktop_open": "Plain brown underside and cavity; two hinges and projecting clasp tab fit fully in frame.",
+        "mobile_closed": "Complete chest and controls; dark seam and chunky frame junctions persist.",
+        "mobile_open": "No clipping; weak attachment reading and flat materials are prominent.",
+        "marketing": "Taupe-brown frame, cream nested-diamond panels, six larger lid lozenges, dark seam and brass hardware."
+      },
+      "recommendation_reason": "User should judge frame-tone/material fidelity and visibly loose closure presentation. These are appearance concerns, not a proven malfunction or a final rejection."
+    },
+    {
+      "id": "united-arab-emirates",
+      "recommendation": "candidate-with-limitations",
+      "images": {
+        "desktop_closed": "parent/smoke/united-arab-emirates/desktop-closed.png",
+        "desktop_open": "parent/smoke/united-arab-emirates/desktop-open.png",
+        "mobile_closed": "parent/smoke/united-arab-emirates/mobile-closed.png",
+        "mobile_open": "parent/smoke/united-arab-emirates/mobile-open.png",
+        "marketing": "parent/sources/united-arab-emirates/marketing.webp"
+      },
+      "appearance": "Crimson/red chest with ivory and dark parallel bands, diamond-patterned raised lid panel, brass hardware and rough dark gray feet. Open views expose a red interior and plain red underside, with the lid-top diamonds out of sight.",
+      "reference_comparison": "Red/ivory patterning, lid-edge short dark bars, broad lid seam and rough feet all occur in the reference and are not missing-face or support regressions by themselves. Reference has muted brick-red, fine pebbled material and soft brass highlights; final presentation reads smoother and more painted.",
+      "artistic_gaps": ["Fine textile/leather-like surface character is weak; reference itself is not clearly woven cloth.", "Mobile title leaves a slash at the end of the first line, an awkward but unclipped wrap.", "Brass is chunky/faceted and tiny patterned edges show aliasing."],
+      "observed_defects": [],
+      "mechanism_concerns_unconfirmed": ["Dark closed seam and overlapping-looking clasp merit a seating check, but seam is present in source art.", "Open lid looks offset with sparse hinge contact; no reproducible pivot or collision defect can be inferred."],
+      "per_frame": {
+        "desktop_closed": "Full striped chest and diamond lid visible; dark bars at left lid edge mirror source detail.",
+        "desktop_open": "Plain red underside and cavity; dark rim joints and small hinge contacts visible.",
+        "mobile_closed": "No overflow or cropping; trailing title slash and fine-edge pixelation.",
+        "mobile_open": "Lid and tab fit; lid-top diamonds are naturally hidden, not absent from the asset.",
+        "marketing": "Muted red pebbled covering, ivory bands and lid diamonds, dark edge bars/seam and rough gray feet."
+      },
+      "recommendation_reason": "Source-defining palette and pattern survive. Material fidelity and hinge legibility remain limited; do not classify hidden open-state lid ornaments or reference-authored edge bars as defects. Not final approval."
+    },
+    {
+      "id": "vietnam",
+      "recommendation": "candidate-with-limitations",
+      "images": {
+        "desktop_closed": "parent/smoke/vietnam/desktop-closed.png",
+        "desktop_open": "parent/smoke/vietnam/desktop-open.png",
+        "mobile_closed": "parent/smoke/vietnam/mobile-closed.png",
+        "mobile_open": "parent/smoke/vietnam/mobile-open.png",
+        "marketing": "parent/sources/vietnam/marketing.webp"
+      },
+      "appearance": "Cloudy ivory stone-like chest with brass fittings, turquoise inset and seam, five angular pale karst islands with green summits and squat pale feet. Closed views retain all five formations; open views show a pale empty interior and underside edged by teal trim.",
+      "reference_comparison": "Five-island arrangement, ivory/turquoise/green palette, marble-like body and hardware are recognizable matches. Reference inset has more reflective depth; runtime water appears flatter and opaque. Angular green caps and squat irregular feet are already source characteristics.",
+      "artistic_gaps": ["Water reads as a flat colored panel; green summits look like caps rather than vegetation, also present in the reference.", "Cloudy stone shading and stepped corner junctions reduce material refinement.", "Mobile title isolates 'Karst' on its second line without clipping."],
+      "observed_defects": [],
+      "mechanism_concerns_unconfirmed": ["Open hinge-to-lid clearance and interrupted teal rim strips make attachment visually unclear, without proving missing geometry.", "Closed teal seam and layered clasp edges warrant angle/animation inspection only if closure behavior is in scope."],
+      "per_frame": {
+        "desktop_closed": "All five island forms and complete chest fit; opaque turquoise surface and chunky corner joints.",
+        "desktop_open": "Empty pale interior and plain underside; open lid hides its exterior landscape normally.",
+        "mobile_closed": "Five islands remain legible; no cropping, minor jagged seams and overlapping-looking latch pieces.",
+        "mobile_open": "Full lid and controls visible; small hinge contacts and dark clearance weaken connection reading.",
+        "marketing": "Ivory marble-like chest with reflective turquoise inset, five green-capped formations and satin brass."
+      },
+      "recommendation_reason": "Strong motif and palette correspondence, with water/material simplification and unverified hinge behavior. Not final approval."
+    }
+  ]
+}
