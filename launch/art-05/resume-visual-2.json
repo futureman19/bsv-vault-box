@@ -1,0 +1,121 @@
+{
+  "scope": "Independent resumed inspection of original images only. No art, ledger, archive or approval changes.",
+  "completion": "complete",
+  "review_complete": true,
+  "blocker": null,
+  "evidence_base": "launch/art-05",
+  "status_semantics": {
+    "pass": "Bounded visual candidate pass, not user approval, release authorization or mechanical certification.",
+    "needs-decision": "An independent hold remains; consult visual_status to distinguish visual findings from packaging holds."
+  },
+  "source_records_read": ["partial-ledger.json", "visual-2.json"],
+  "required_original_images_inspected": 25,
+  "shared_limitations": [
+    "Existing static desktop/mobile endpoint captures only; no new browser run, animation clearance sampling, physical-phone test or Blender reopening.",
+    "Hidden faces, complete foot counts, hinge contact, topology and collision cannot be certified from these views.",
+    "Closed promotional illustrations do not establish interior/rear fidelity or exact model equivalence. Lighting, detail simplification and promotional realism are not automatically geometry defects.",
+    "No user approval or publication/mint authorization is inferred. Full source/archive inventories were not rerun."
+  ],
+  "findings": [
+    {
+      "id": "cyprus",
+      "status": "pass",
+      "visual_status": "pass",
+      "review_complete": true,
+      "disposition_reason": "Independent original-image inspection supports the prior bounded pass: coherent object, preserved design identity and no definite gross geometry or framing defect.",
+      "images_inspected": ["sources/cyprus/marketing.webp", "smoke/cyprus/desktop-closed.png", "smoke/cyprus/desktop-open.png", "smoke/cyprus/mobile-closed.png", "smoke/cyprus/mobile-open.png"],
+      "images_not_inspected": [],
+      "observed_defects": [],
+      "finish_and_fidelity_differences": [
+        "Viewer tan panels have stronger regular weave/ribbing than the smoother promotional finish; linen can read as ribbed wood.",
+        "Ivory relief and brass highlights are more graphic and less softly shaded than marketing."
+      ],
+      "geometry_observations": [
+        "Six nested ivory lid motifs, corner fittings, front clasp/round fitting, side ring and block feet preserve reference identity.",
+        "All four captures contain the complete object without evident clipping; open cavity and plain ivory inner lid remain coherent."
+      ],
+      "visual_limitations": ["Rear hinge contacts and projecting upper clasp tab are not fully resolved; apparent dark separation is not proof of detachment.", "Mobile sampling limits tiny relief and clasp assessment."],
+      "user_final_approved": false,
+      "art_changed": false
+    },
+    {
+      "id": "egypt",
+      "status": "pass",
+      "visual_status": "pass",
+      "review_complete": true,
+      "disposition_reason": "Original captures retain the three-pyramid identity and coherent closed/open chest; visible rim junctions do not establish a broken mesh or justify treating finish differences as structural failure.",
+      "images_inspected": ["sources/egypt/marketing.webp", "smoke/egypt/desktop-closed.png", "smoke/egypt/desktop-open.png", "smoke/egypt/mobile-closed.png", "smoke/egypt/mobile-open.png"],
+      "images_not_inspected": [],
+      "observed_defects": [],
+      "finish_and_fidelity_differences": [
+        "Viewer honey veining is more regular and contrasty, with flatter lighting than the promotional stone treatment.",
+        "Dark rim bands, pale corner blocks and stepped trim junctions are conspicuous in open views; these are visible material/junction discontinuities, not established cracks or missing faces.",
+        "Rounded pale feet and brass fittings appear more faceted/simplified than the promotional rendering."
+      ],
+      "geometry_observations": ["Three pyramids on an irregular raised platform, blue edging, central clasp, round front fitting and side ring remain recognizable.", "Complete object is framed in desktop/mobile closed/open views; interior walls and raised lid are coherent. Exterior pyramids hidden by the raised lid are not missing-geometry evidence."],
+      "visual_limitations": ["Fine rim continuity and hinge/tab anchoring need other angles or source inspection to certify; bottom and rear surfaces remain partly hidden."],
+      "user_final_approved": false,
+      "art_changed": false
+    },
+    {
+      "id": "finland",
+      "status": "pass",
+      "visual_status": "pass",
+      "review_complete": true,
+      "disposition_reason": "Original images preserve birch, finger joints, blue lake/three green islands and coherent open cavity. Follow-up crop does not substantiate the initial apparent hinge-detachment concern.",
+      "images_inspected": ["sources/finland/marketing.webp", "smoke/finland/desktop-closed.png", "smoke/finland/desktop-open.png", "smoke/finland/mobile-closed.png", "smoke/finland/mobile-open.png"],
+      "additional_inspection": {"image": "smoke/finland/desktop-open.png", "crop": [550, 380, 900, 600], "finding": "Hinge upper portions meet or disappear behind the lower lid edge; lower portions lie immediately above the green rear rail. Occlusion/shadow prevent proving continuous contact or detachment."},
+      "images_not_inspected": [],
+      "observed_defects": [],
+      "finish_and_fidelity_differences": ["Viewer bark streaking, finger joints and green seam are cleaner and more graphic than marketing; islands and stone-like feet are more faceted.", "Promotional wood/metal shading is richer; this does not establish damaged geometry."],
+      "geometry_observations": ["Blue lake with three green relief islands, corner caps, clasp, round fitting and side ring remain present.", "All four original captures frame the full object; open cavity and lid are coherent."],
+      "visual_limitations": ["Initial full-view analysis called the tab/hinges disconnected; mobile original and targeted rear-junction crop do not establish that claim. Retain attachment ambiguity, not a confirmed defect.", "Crop resolves rear junctions only, not every upper-tab attachment surface; source/motion inspection is still needed for mechanical certification."],
+      "user_final_approved": false,
+      "art_changed": false
+    },
+    {
+      "id": "grenada",
+      "status": "pass",
+      "visual_status": "pass",
+      "review_complete": true,
+      "disposition_reason": "Required originals show a coherent chest retaining nutmeg/mace ornament, scarlet seam and hardware identity, with no definite breakage or clipping.",
+      "images_inspected": ["sources/grenada/marketing.webp", "smoke/grenada/desktop-closed.png", "smoke/grenada/desktop-open.png", "smoke/grenada/mobile-closed.png", "smoke/grenada/mobile-open.png"],
+      "images_not_inspected": [],
+      "observed_defects": [],
+      "finish_and_fidelity_differences": ["Viewer wood has more regular horizontal striping and flatter shading than promotional honey-brown wood.", "Rough gray stone-like feet are also present in the marketing reference; their contrast with polished fittings is not a defect.", "Angular brass and stylized red mace strands are less softly rendered than marketing."],
+      "geometry_observations": ["Brown nutmeg with scarlet strands, paired pale forms, leaf/stem accents, finger joints and principal hardware retain identity.", "Full object fits all desktop/mobile captures; raised lid, empty wood-lined cavity and visible feet remain coherent."],
+      "visual_limitations": ["Rear hinge and hidden foot contacts are partly occluded; projecting clasp tab is not demonstrably detached.", "No matching open promotional reference exists in the inspected evidence."],
+      "user_final_approved": false,
+      "art_changed": false
+    },
+    {
+      "id": "iceland",
+      "status": "needs-decision",
+      "visual_status": "pass",
+      "review_complete": true,
+      "disposition_reason": "Bounded original-image visual pass; overall needs-decision is retained solely for independent archive exact-byte and historical inventory holds, not a visual failure.",
+      "images_inspected": ["sources/iceland/marketing.webp", "smoke/iceland/desktop-closed.png", "smoke/iceland/desktop-open.png", "smoke/iceland/mobile-closed.png", "smoke/iceland/mobile-open.png"],
+      "images_not_inspected": [],
+      "observed_defects": [],
+      "finish_and_fidelity_differences": ["Viewer basalt is angular/faceted, moss is bright and simplified, and glacier/river forms are more graphic than the detailed promotional illustration.", "The promotional glossy obsidian reflections, water depth and fine moss/rock weathering are not reproduced at that realism level; these are finish/fidelity differences, not demonstrated mesh damage."],
+      "geometry_observations": ["Basalt walls, green moss, blue glacier/river, gold corner guards, front clasp/round fitting and side ring preserve design identity.", "Full model is visible in all four captures; open lid/frame and empty cavity are coherent.", "Mobile title wraps Back-right across lines without clipping; this is a minor layout observation, not an art defect."],
+      "visual_limitations": ["Dark underside obscures exact ground/support contact; rear hinge and projecting tab attachment are not mechanically certified.", "Promotional image is explicitly an illustration, not proof of exact model equivalence."],
+      "independent_archive_hold": {
+        "held": true,
+        "archive_exact_byte_hold": true,
+        "historical_inventory_hold": true,
+        "reassessed": false,
+        "cleared": false,
+        "source": "partial-ledger.json / iceland",
+        "archive": "preview/iceland-backright-v10/iceland-backright-v10-source.zip",
+        "member": "iceland-backright-v10.html",
+        "exact_byte_match": false,
+        "newline_normalized_match": true,
+        "historical_inventory_checked": false,
+        "note": "Retained existing evidence: newline-normalized equality does not clear exact-byte discrepancy; visual pass clears neither archive nor historical inventory hold."
+      },
+      "user_final_approved": false,
+      "art_changed": false
+    }
+  ]
+}

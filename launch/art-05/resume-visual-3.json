@@ -1,0 +1,161 @@
+{
+  "review": "resume-visual-3",
+  "review_complete": true,
+  "scope": "Bounded original-image visual review; five successful vision_analyze inspections per ID, not a live interaction or source-mesh audit.",
+  "context_read": ["launch/art-05/partial-ledger.json", "launch/art-05/visual-3.json"],
+  "blocker": null,
+  "status_definition": {
+    "pass": "Candidate visual pass within the inspected views; not final user approval or release authorization.",
+    "needs-decision": "Required images reviewed, but an appearance/fidelity difference needs disposition; not automatically broken geometry."
+  },
+  "user_final_approved": false,
+  "art_changed": false,
+  "limitations": [
+    "Static desktop/mobile endpoint screenshots only; no fresh animation, collision, hinge-connectivity, clasp engagement or interaction test.",
+    "Hidden faces, underside, full cavity floor and fine attachment details are not certified by these camera angles.",
+    "Mobile screenshots are emulated, not physical-device verification; small details remain limited by rendered object size even in original PNGs.",
+    "Marketing images are promotional appearance references, not exact geometry or material specifications. Lighting and camera differ.",
+    "Released lid-mounted clasps and outside lid motifs turned away in open views are not counted as defects.",
+    "No Blender reopening, packaging/archive revalidation, art edits, lifecycle changes or new approval. Prior technical claims were not rerun."
+  ],
+  "findings": [
+    {
+      "id": "italy",
+      "status": "pass",
+      "review_complete": true,
+      "reason": "Complete original-view review shows coherent closed and open presentation, with finish differences but no demonstrated structural or framing defect.",
+      "images_inspected": [
+        "launch/art-05/smoke/italy/desktop-closed.png",
+        "launch/art-05/smoke/italy/desktop-open.png",
+        "launch/art-05/smoke/italy/mobile-closed.png",
+        "launch/art-05/smoke/italy/mobile-open.png",
+        "launch/art-05/sources/italy/marketing.webp"
+      ],
+      "images_not_inspected": [],
+      "observed_defects": [],
+      "geometry_observations": [
+        "Ivory body, green lid edging and feet, floral/diamond top ornament, corner caps and central brass clasp are present in closed views.",
+        "Both open views show a recessed cavity, green inner lid and rear hinge fittings; full silhouette including released clasp and feet remains in frame.",
+        "Desktop and mobile show no obvious missing wall, detached support or gross intersection. Dark rear-joint clearance is not proof of disconnection."
+      ],
+      "finish_and_fidelity_differences": [
+        "Viewer lid field reads more beige/olive with darker green edging than the marketing image's softer teal-green treatment.",
+        "Viewer stone veining and green pattern are more repetitive, especially inside the lid; inlay and clasp are chunkier and less finely shaded."
+      ],
+      "visual_limitations": ["Hinge attachment and partly hidden cavity floor remain unverified; closed marketing does not validate the interior."],
+      "next_decision": "Candidate visual pass only; retain normal final-approval gate."
+    },
+    {
+      "id": "kyrgyzstan",
+      "status": "pass",
+      "review_complete": true,
+      "reason": "Complete original-view review retains the reference design identity and shows no definite geometry or mobile-layout failure.",
+      "images_inspected": [
+        "launch/art-05/smoke/kyrgyzstan/desktop-closed.png",
+        "launch/art-05/smoke/kyrgyzstan/desktop-open.png",
+        "launch/art-05/smoke/kyrgyzstan/mobile-closed.png",
+        "launch/art-05/smoke/kyrgyzstan/mobile-open.png",
+        "launch/art-05/sources/kyrgyzstan/marketing.webp"
+      ],
+      "images_not_inspected": [],
+      "observed_defects": [],
+      "geometry_observations": [
+        "Brown frame, crimson inset panels, ivory paired scroll motifs and stitch borders, brass corner caps/clasp and short trimmed feet remain recognizable.",
+        "Open desktop/mobile views expose a coherent brown cavity and plain inner lid with rear hinge fittings; no framing clipping or clear panel failure.",
+        "Open-loop/segmented ornament also occurs in marketing; interrupted curves alone are not established broken applique. Exterior lid motifs face away when open."
+      ],
+      "finish_and_fidelity_differences": [
+        "Viewer panels are stronger crimson than the muted rose-pink marketing panels.",
+        "Brown frame has less tactile leather-like texture; brass, bevels, scrollwork and felt rendering are flatter or more angular than the promotional treatment."
+      ],
+      "visual_limitations": ["Fine scroll joins and exact hinge mechanics are unresolved at screenshot scale; no cultural-fidelity certification."],
+      "next_decision": "Candidate visual pass with disclosed color/finish differences; no final approval inferred."
+    },
+    {
+      "id": "lithuania",
+      "status": "needs-decision",
+      "review_complete": true,
+      "reason": "Original screenshots resolve the prior board-scale question: marketing has prominent tall black vertical body-corner accents, while visible model corners remain pale. This is a concrete appearance discrepancy requiring acceptance or correction direction, not demonstrated broken geometry.",
+      "images_inspected": [
+        "launch/art-05/smoke/lithuania/desktop-closed.png",
+        "launch/art-05/smoke/lithuania/desktop-open.png",
+        "launch/art-05/smoke/lithuania/mobile-closed.png",
+        "launch/art-05/smoke/lithuania/mobile-open.png",
+        "launch/art-05/sources/lithuania/marketing.webp"
+      ],
+      "images_not_inspected": [],
+      "observed_defects": [],
+      "fidelity_decisions": [
+        {
+          "issue": "Dark vertical corner trim present in marketing is not visibly reproduced on model body corners.",
+          "classification": "Reference/model appearance mismatch, not a confirmed mesh defect.",
+          "evidence": ["sources/lithuania/marketing.webp", "smoke/lithuania/desktop-closed.png", "smoke/lithuania/mobile-closed.png"],
+          "required_decision": "Accept the pale-corner model as an intentional variant or direct reference/model alignment; do not silently invent black geometry from promotional artwork."
+        }
+      ],
+      "geometry_observations": [
+        "Pale body and block feet, turquoise inset/seam, elongated dune relief, brass lid-corner caps and front clasp are intact in closed views.",
+        "Open desktop/mobile views show pale recessed interiors and raised lids; entire model and controls fit without clipping.",
+        "No definite hole, missing wall, detached foot or gross lid penetration established."
+      ],
+      "finish_and_fidelity_differences": [
+        "Model has more regular wavy horizontal striations and a flatter/more angular dune treatment than the softly grained marketing image.",
+        "Turquoise seam and simplified brass response are finish differences, not evidence of failed closure."
+      ],
+      "visual_limitations": ["The images establish visible corner-color difference, not whether the marketing strips are separate physical parts or whether hidden corners match."],
+      "next_decision": "Resolve corner-trim fidelity discrepancy; review itself is complete and no art modification is authorized."
+    },
+    {
+      "id": "marshall-islands",
+      "status": "pass",
+      "review_complete": true,
+      "reason": "All original views inspected; atoll/chart identity and hardware are retained with simplified finish, without an unequivocal structural or framing defect.",
+      "images_inspected": [
+        "launch/art-05/smoke/marshall-islands/desktop-closed.png",
+        "launch/art-05/smoke/marshall-islands/desktop-open.png",
+        "launch/art-05/smoke/marshall-islands/mobile-closed.png",
+        "launch/art-05/smoke/marshall-islands/mobile-open.png",
+        "launch/art-05/sources/marshall-islands/marketing.webp"
+      ],
+      "images_not_inspected": [],
+      "observed_defects": [],
+      "geometry_observations": [
+        "Cream grid/weave body, alternating corner blocks, turquoise seam, atoll ring and raised stick-chart panel are visible in closed views.",
+        "Front clasp, separate round front fitting, side ring, corner caps and pale irregular feet remain present.",
+        "Both open views show a coherent woven cavity and inner lid, rear hinges and released clasp; no clipping or clear geometry break. Exterior atoll/chart turns away."
+      ],
+      "finish_and_fidelity_differences": [
+        "Viewer weave is more uniform and less tactile, lagoon reads flatter, and brass is less reflective than marketing.",
+        "Feet are softer/lumpier and chart rods/markers less crisp at mobile scale; these are detail/readability limitations rather than proven broken components."
+      ],
+      "visual_limitations": ["Fine chart crossings/attachments and cultural chart accuracy are not certified; cavity floor and hidden support remain partly occluded."],
+      "next_decision": "Candidate visual pass with finish caveats; retain final-approval gate."
+    },
+    {
+      "id": "montenegro",
+      "status": "pass",
+      "review_complete": true,
+      "reason": "All original views inspected; landscape and hardware remain coherent with no definite structural or mobile-framing defect.",
+      "images_inspected": [
+        "launch/art-05/smoke/montenegro/desktop-closed.png",
+        "launch/art-05/smoke/montenegro/desktop-open.png",
+        "launch/art-05/smoke/montenegro/mobile-closed.png",
+        "launch/art-05/smoke/montenegro/mobile-open.png",
+        "launch/art-05/sources/montenegro/marketing.webp"
+      ],
+      "images_not_inspected": [],
+      "observed_defects": [],
+      "geometry_observations": [
+        "Pale mountain ridge, turquoise river, green oval vegetation/insets and green seam preserve the closed reference identity.",
+        "Brass clasp, round fitting, side ring, lid corner caps and rounded pale supports remain visible.",
+        "Open views expose coherent pale interiors and hinge fittings; entire lid, released clasp and feet fit desktop and mobile. Terrain is on the turned-away outside face, not proven absent."
+      ],
+      "finish_and_fidelity_differences": [
+        "Repeated diagonal/checkered or rippled body shading is more conspicuous than the smoother satin promotional finish.",
+        "Faceted terrain, ribbon-like river, bead-like green details and chunky feet are simplified relative to marketing; hardware has less refined reflections."
+      ],
+      "visual_limitations": ["Uneven-looking corner seams and partly hidden foot attachments do not establish a fault from these angles; no motion or terrain-clearance validation performed."],
+      "next_decision": "Candidate visual pass with finish caveats; no final approval inferred."
+    }
+  ]
+}

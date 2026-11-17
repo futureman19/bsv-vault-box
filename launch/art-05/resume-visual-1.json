@@ -1,0 +1,129 @@
+{
+  "review_scope": ["angola", "azerbaijan", "benin", "burkina-faso", "chile"],
+  "review_complete": true,
+  "method": "Individual original-image inspection through vision_analyze: four smoke PNGs and standalone marketing.webp per ID. Prior partial-ledger.json and visual-1.json read for context; prior board findings not substituted for original inspection.",
+  "image_path_base": "launch/art-05/",
+  "disposition_definition": "pass is a bounded visual candidate disposition, not final user approval or release authorization. needs-decision denotes an unresolved visible presentation/fidelity concern, not necessarily broken geometry. review_complete means all five required images inspected, not all technical acceptance gates passed.",
+  "blocker": null,
+  "art_changes": false,
+  "user_final_approved": false,
+  "limitations": [
+    "Static endpoints cannot establish motion clearance, hidden topology, physical hinge contact, collision, or source/model parity. No Blender inspection or fresh browser execution performed.",
+    "Marketing images are promotional illustrations, not exact-model ground truth, and show only the closed exterior. Different lighting, scale and camera angle limit exact comparisons.",
+    "Mobile evidence is an emulated viewport, not a physical-phone test. Fine hardware contact and cavity bottoms remain partly occluded.",
+    "Released clasps and exterior ornaments hidden by raised lids are not classified as failures. Dark closure seams also appear in the marketing references.",
+    "No final approval, mint/release authorization, or change to historical holds is implied. Prior reports and all source art remain unchanged."
+  ],
+  "findings": [
+    {
+      "id": "angola",
+      "status": "pass",
+      "review_complete": true,
+      "reason": "Bounded visual candidate pass: coherent terrain chest, intact visible open cavity and complete desktop/mobile framing; no unequivocal structural defect observed.",
+      "images_inspected": ["smoke/angola/desktop-closed.png", "smoke/angola/desktop-open.png", "smoke/angola/mobile-closed.png", "smoke/angola/mobile-open.png", "sources/angola/marketing.webp"],
+      "images_not_inspected": [],
+      "observed_defects": [],
+      "finish_and_fidelity_differences": [
+        "Viewer banding is more repetitive and orange/ochre; marketing surfaces and terrain contours read softer and rounder.",
+        "Terrain and rock-like feet are more angular in the viewer. Muted brass fittings and broad terrain arrangement preserve the reference identity."
+      ],
+      "geometry_observations": [
+        "Prominent dark closed seam occurs in both viewer and marketing; it does not prove failed closure.",
+        "Desktop closed shows a small stepped light detail under the front-left lid and a distinct vertical panel/bevel boundary. Open rim joints look stepped in places, without a demonstrated hole or detached part.",
+        "Both open screenshots show a coherent recess, raised patterned lid and visible rear hardware. Entire object, feet and projecting clasp fit all four frames."
+      ],
+      "limitations": ["Fine rim and hinge contact unresolved from static view; no mechanical-fit certification.", "Cavity floor is partly obscured. Finish differences are not geometry failures."],
+      "user_final_approved": false
+    },
+    {
+      "id": "azerbaijan",
+      "status": "needs-decision",
+      "review_complete": true,
+      "reason": "Original inspection is complete and no definite structural failure is visible, but lid ornament fidelity needs an explicit decision: viewer reads as leafy botanical relief whereas marketing reads as a more angular radial/petal medallion.",
+      "images_inspected": ["smoke/azerbaijan/desktop-closed.png", "smoke/azerbaijan/desktop-open.png", "smoke/azerbaijan/mobile-closed.png", "smoke/azerbaijan/mobile-open.png", "sources/azerbaijan/marketing.webp"],
+      "images_not_inspected": [],
+      "observed_defects": [],
+      "finish_and_fidelity_differences": [
+        "Closed viewer medallion contains recognizable leaf/stem shapes within a double ring; standalone marketing has a more angular radial/petal layout. This is an ornament-fidelity difference, not missing geometry.",
+        "Viewer copper is orange and graphically mottled, with comparatively angular satin brass feet and clasp. Marketing has richer brown grain, softer shading and more pronounced relief/highlights."
+      ],
+      "geometry_observations": [
+        "Closed body, lid, corner fittings and visible block feet remain coherent in desktop and mobile.",
+        "Open cavity reads hollow with visible inner walls. Rim joins are stepped and hinge seating partly obscured; no definite detachment, inverted wall or hole is established.",
+        "All four views fully frame the chest and hardware. Dark closure band also exists in marketing."
+      ],
+      "next_decision": "Decide whether the observed medallion/finish difference is acceptable for the candidate; do not edit art or infer that marketing defines exact geometry.",
+      "limitations": ["Different view/lighting prevents exact ornament equivalence certification.", "No open marketing reference; hidden exterior ornament and released clasp are not defects. Hinge contact and cavity floor remain unresolved."],
+      "user_final_approved": false
+    },
+    {
+      "id": "benin",
+      "status": "pass",
+      "review_complete": true,
+      "reason": "Bounded visual candidate pass: two roofed towers, smaller open cylindrical feature, connected architecture and earthen chest identity retained. No definite geometry or framing failure in the required views.",
+      "images_inspected": ["smoke/benin/desktop-closed.png", "smoke/benin/desktop-open.png", "smoke/benin/mobile-closed.png", "smoke/benin/mobile-open.png", "sources/benin/marketing.webp"],
+      "images_not_inspected": [],
+      "observed_defects": [],
+      "finish_and_fidelity_differences": [
+        "Viewer roofs are more simplified/faceted with radial or stippled texture; marketing thatch shows finer repeated radial and horizontal detail.",
+        "Viewer terracotta is warmer orange and relatively flat in shading; marketing is peachier with richer surface/contact treatment and more reflective fittings.",
+        "The central circular opening and narrow front recess are present, but their depth reads less strongly than in marketing."
+      ],
+      "geometry_observations": [
+        "Both closed views show the tower arrangement, pale conical roofs, short feet and front fittings; broad dark seam is also present in marketing.",
+        "Open views show intact visible cavity walls, rim and lid inner face; no demonstrated missing faces or broken hardware.",
+        "Full original desktop and mobile layouts include header, object and controls without obvious clipping; prior board-header concern is not reproduced in the originals."
+      ],
+      "limitations": ["Roof texture/opening depth not certified at these display scales.", "Hidden exterior architecture in open pose is not missing; rear attachment and cavity bottom remain partly occluded."],
+      "user_final_approved": false
+    },
+    {
+      "id": "burkina-faso",
+      "status": "pass",
+      "review_complete": true,
+      "reason": "Bounded visual candidate pass: architectural lid motif, cream trim/feet and brass identity retained; no definite broken geometry, missing visible feature or framing defect.",
+      "images_inspected": ["smoke/burkina-faso/desktop-closed.png", "smoke/burkina-faso/desktop-open.png", "smoke/burkina-faso/mobile-closed.png", "smoke/burkina-faso/mobile-open.png", "sources/burkina-faso/marketing.webp"],
+      "images_not_inspected": [],
+      "observed_defects": [],
+      "finish_and_fidelity_differences": [
+        "Viewer is warmer terracotta with more angular/beveled detailing; marketing is softer peach/salmon with rounded cream feet and roof caps.",
+        "Both retain three capped architectural forms, low courtyard rails, cream panel stripes, dark front accents, front clasp/disc and side ring. Metallic and contact shading is richer in marketing."
+      ],
+      "geometry_observations": [
+        "Closed seam is continuous and dark in both viewer and reference, not demonstrated fracture or closure failure.",
+        "Open cavity, raised lid, visible hinges and rim are coherent in desktop/mobile; no definite hole, stray obstruction or broken section.",
+        "All four screenshots contain the full chest, feet and raised hardware without obvious clipping."
+      ],
+      "limitations": ["Rear/underside details and a concealed foot cannot be verified.", "Static endpoint evidence does not certify hinge connectivity or movement; concealed lid ornaments are not failures."],
+      "user_final_approved": false
+    },
+    {
+      "id": "chile",
+      "status": "needs-decision",
+      "review_complete": true,
+      "reason": "Original inspection is complete. Open mobile framing reveals conspicuously stepped/offset rim junctions, especially rear-right, which warrant a presentation-quality decision or closer alternate-angle review. Apparent hinge separation is uncertain, not proven breakage.",
+      "images_inspected": ["smoke/chile/desktop-closed.png", "smoke/chile/desktop-open.png", "smoke/chile/mobile-closed.png", "smoke/chile/mobile-open.png", "sources/chile/marketing.webp"],
+      "images_not_inspected": [],
+      "observed_defects": [
+        {
+          "kind": "visible_finish_alignment_concern",
+          "evidence": "smoke/chile/mobile-open.png",
+          "observation": "Cavity rim has conspicuous corner discontinuities, especially rear-right: pale end pieces and offset dark strips make the joint read unfinished.",
+          "certainty": "Visible presentation concern; unintended geometry, missing material and mechanical failure are not established."
+        }
+      ],
+      "finish_and_fidelity_differences": [
+        "Viewer terrain is warmer tan/rust with sharper regular facets, whereas marketing peaks are grayer and more granular. Both preserve the lower left mass, taller rear-right peak and cracked white salt patch on a pale slab.",
+        "Viewer body waves are pronounced and repetitive; marketing has softer salmon coloring, stronger metallic highlights and richer grounding. Short rounded feet and front/side fittings retain the reference identity."
+      ],
+      "geometry_observations": [
+        "Closed desktop/mobile show no definite broken component; salt-basin polygonal lines are intentional detail, not cracks in the model.",
+        "Open desktop shows hinge barrels apparently separated from the rear rim, but concealed connecting structure cannot be resolved. This is not a finding of a broken or detached hinge.",
+        "Visible cavity walls and lid are intact; all four screenshots fully frame the object and controls. Released clasp and obscured terrain are not defects."
+      ],
+      "next_decision": "Resolve whether open-rim presentation is acceptable or requires a separate closer inspection. Keep hinge-contact uncertainty and terrain/finish differences separate from confirmed geometry defects.",
+      "limitations": ["No alternate-angle or motion inspection to resolve apparent hinge contact/rim construction.", "Closed-only marketing cannot establish interior fidelity; cavity floor partly hidden. No art changes authorized or made."],
+      "user_final_approved": false
+    }
+  ]
+}

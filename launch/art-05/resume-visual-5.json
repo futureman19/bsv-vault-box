@@ -1,0 +1,212 @@
+{
+  "review_scope": "Resumed original-image visual candidate review only. All image paths relative to launch/art-05. Previous board-only reports retained unchanged.",
+  "context_read": [
+    "partial-ledger.json",
+    "visual-5.json"
+  ],
+  "review_complete": true,
+  "required_originals_inspected": 25,
+  "additional_crop_inspections": 1,
+  "provider_failures": [],
+  "status_semantics": {
+    "pass": "Bounded visual candidate disposition; not user approval or launch readiness.",
+    "needs-decision": "Images inspected but targeted unresolved hardware question retained for runtime decision."
+  },
+  "findings": [
+    {
+      "id": "south-africa",
+      "status": "pass",
+      "review_complete": true,
+      "disposition_reason": "Bounded visual candidate pass: all five required originals inspected; identity retained, no unequivocal major geometry or framing defect observed. Not final user approval.",
+      "images_inspected": [
+        "smoke/south-africa/desktop-closed.png",
+        "smoke/south-africa/desktop-open.png",
+        "smoke/south-africa/mobile-closed.png",
+        "smoke/south-africa/mobile-open.png",
+        "sources/south-africa/marketing.webp"
+      ],
+      "inspection_method": "vision_analyze, individual original files",
+      "images_not_inspected": [],
+      "images_failed": [],
+      "observed_defects": [],
+      "geometry_observations": [
+        "Pale banded chest, flat-topped mountain, green vegetation and seam band, brass fittings and irregular gray feet preserve promotional identity.",
+        "Closed/open desktop and mobile objects are fully framed; cavity and walls read coherently.",
+        "Open free-edge brass tab is consistent with released lid-side clasp; two rear hinge-position fittings are separate. Dark clearance alone does not prove detachment."
+      ],
+      "finish_and_fidelity_differences": [
+        "Viewer stone has more regular bands and sharper faceting; promotional sculpture and vegetation have softer shading. This is finish/detail variation, not demonstrated broken geometry."
+      ],
+      "visual_limitations": [
+        "Static endpoint images do not verify continuous motion, collision clearance, hinge-axis correctness, topology or hidden attachments. No runtime or Blender inspection performed in this resumed review.",
+        "Marketing is a closed-state promotional illustration, not exact model geometry or interior/rear ground truth.",
+        "Original files were individually inspected via vision; small hardware still occupies few pixels. Mobile is an emulated capture, not a physical-device test. Secondary text is small; no accessibility compliance claim.",
+        "No art changes, user approval, mint/release authorization or completion of other acceptance gates inferred."
+      ],
+      "user_final_approved": false,
+      "art_changed": false
+    },
+    {
+      "id": "sweden",
+      "status": "pass",
+      "review_complete": true,
+      "disposition_reason": "Bounded visual candidate pass: all five required originals inspected; identity retained, no unequivocal major geometry or framing defect observed. Not final user approval.",
+      "images_inspected": [
+        "smoke/sweden/desktop-closed.png",
+        "smoke/sweden/desktop-open.png",
+        "smoke/sweden/mobile-closed.png",
+        "smoke/sweden/mobile-open.png",
+        "sources/sweden/marketing.webp"
+      ],
+      "inspection_method": "vision_analyze, individual original files",
+      "images_not_inspected": [],
+      "images_failed": [],
+      "observed_defects": [],
+      "geometry_observations": [
+        "Red plank chest, cream finger joints, blue floral lid panel, brass fittings and dark block feet preserve promotional identity.",
+        "Floral decoration is visible in closed originals; its absence from the exposed inner lid in open images is occlusion, not missing ornament. All four captures are unclipped.",
+        "Open free-edge brass tab is consistent with released lid-side clasp; two rear hinge-position fittings are separate. Dark clearance alone does not prove detachment."
+      ],
+      "finish_and_fidelity_differences": [
+        "Viewer wood and brass are more uniform and less richly shaded than marketing. Small floral relief loses definition at mobile scale; no major motif/layout change established."
+      ],
+      "visual_limitations": [
+        "Static endpoint images do not verify continuous motion, collision clearance, hinge-axis correctness, topology or hidden attachments. No runtime or Blender inspection performed in this resumed review.",
+        "Marketing is a closed-state promotional illustration, not exact model geometry or interior/rear ground truth.",
+        "Original files were individually inspected via vision; small hardware still occupies few pixels. Mobile is an emulated capture, not a physical-device test. Secondary text is small; no accessibility compliance claim.",
+        "No art changes, user approval, mint/release authorization or completion of other acceptance gates inferred."
+      ],
+      "user_final_approved": false,
+      "art_changed": false
+    },
+    {
+      "id": "togo",
+      "status": "pass",
+      "review_complete": true,
+      "disposition_reason": "Bounded visual candidate pass: all five required originals inspected; identity retained, no unequivocal major geometry or framing defect observed. Not final user approval.",
+      "images_inspected": [
+        "smoke/togo/desktop-closed.png",
+        "smoke/togo/desktop-open.png",
+        "smoke/togo/mobile-closed.png",
+        "smoke/togo/mobile-open.png",
+        "sources/togo/marketing.webp"
+      ],
+      "inspection_method": "vision_analyze, individual original files",
+      "images_not_inspected": [],
+      "images_failed": [],
+      "observed_defects": [],
+      "geometry_observations": [
+        "Layered tan chest and four-tower compound, including two pale pointed roofs and two shorter flat-topped towers, match the promotional design.",
+        "Open cavity, rim and raised lid are coherent; whole object and controls fit both viewport sizes.",
+        "Open free-edge brass tab is consistent with released lid-side clasp; two rear hinge-position fittings are separate. Dark clearance alone does not prove detachment."
+      ],
+      "finish_and_fidelity_differences": [
+        "Viewer is warmer/honey-colored and regularly banded compared with pink-beige promotional finish. Both can read as wood rather than earth; this material impression is not a structural defect. Towers are more regular/faceted."
+      ],
+      "visual_limitations": [
+        "Static endpoint images do not verify continuous motion, collision clearance, hinge-axis correctness, topology or hidden attachments. No runtime or Blender inspection performed in this resumed review.",
+        "Marketing is a closed-state promotional illustration, not exact model geometry or interior/rear ground truth.",
+        "Original files were individually inspected via vision; small hardware still occupies few pixels. Mobile is an emulated capture, not a physical-device test. Secondary text is small; no accessibility compliance claim.",
+        "No art changes, user approval, mint/release authorization or completion of other acceptance gates inferred."
+      ],
+      "user_final_approved": false,
+      "art_changed": false
+    },
+    {
+      "id": "ukraine",
+      "status": "pass",
+      "review_complete": true,
+      "disposition_reason": "Bounded visual candidate pass: all five required originals inspected; identity retained, no unequivocal major geometry or framing defect observed. Not final user approval.",
+      "images_inspected": [
+        "smoke/ukraine/desktop-closed.png",
+        "smoke/ukraine/desktop-open.png",
+        "smoke/ukraine/mobile-closed.png",
+        "smoke/ukraine/mobile-open.png",
+        "sources/ukraine/marketing.webp"
+      ],
+      "inspection_method": "vision_analyze, individual original files",
+      "images_not_inspected": [],
+      "images_failed": [],
+      "observed_defects": [],
+      "geometry_observations": [
+        "Dark green chest, coral-red/yellow flowers, green foliage, fine gold borders and brass hardware preserve promotional identity.",
+        "Closed top relief and side/front floral sprays are visible; open interiors and raised lid are coherent. No object clipping or UI overlap in four captures.",
+        "Open free-edge brass tab is consistent with released lid-side clasp; two rear hinge-position fittings are separate. Dark clearance alone does not prove detachment."
+      ],
+      "finish_and_fidelity_differences": [
+        "Viewer lacquer and brass look flatter, darker and less reflective than promotional treatment; feet and trim are less legible against the dark background. Top relief is rounder than angular side motifs in both reference and viewer, not proven damage."
+      ],
+      "visual_limitations": [
+        "Static endpoint images do not verify continuous motion, collision clearance, hinge-axis correctness, topology or hidden attachments. No runtime or Blender inspection performed in this resumed review.",
+        "Marketing is a closed-state promotional illustration, not exact model geometry or interior/rear ground truth.",
+        "Original files were individually inspected via vision; small hardware still occupies few pixels. Mobile is an emulated capture, not a physical-device test. Secondary text is small; no accessibility compliance claim.",
+        "No art changes, user approval, mint/release authorization or completion of other acceptance gates inferred."
+      ],
+      "user_final_approved": false,
+      "art_changed": false
+    },
+    {
+      "id": "venezuela",
+      "status": "needs-decision",
+      "review_complete": true,
+      "disposition_reason": "Required original-image review complete. No unequivocal defect established, but retain targeted rear-hinge decision pending parent runtime investigation; projecting free-edge clasp is not a defect finding.",
+      "images_inspected": [
+        "smoke/venezuela/desktop-closed.png",
+        "smoke/venezuela/desktop-open.png",
+        "smoke/venezuela/mobile-closed.png",
+        "smoke/venezuela/mobile-open.png",
+        "sources/venezuela/marketing.webp"
+      ],
+      "inspection_method": "vision_analyze, individual original files",
+      "images_not_inspected": [],
+      "images_failed": [],
+      "observed_defects": [],
+      "geometry_observations": [
+        "Green-topped tepui, pale cascade ending in oval pool, mottled warm chest, brass fittings and matching block feet preserve promotional identity.",
+        "All four originals fully frame the model and controls. Dark closed seam also appears in marketing; not independently evidence of failed closure.",
+        "Open free-edge brass tab is consistent with released lid-side clasp; two rear hinge-position fittings are separate. Dark clearance alone does not prove detachment."
+      ],
+      "finish_and_fidelity_differences": [
+        "Viewer mottling is softer/more uniform and directional; summit vegetation is flatter and less richly varied than promotional artwork. Waterfall is schematic in both. These are finish/fidelity observations, not demonstrated UV or geometry failures."
+      ],
+      "visual_limitations": [
+        "Static endpoint images do not verify continuous motion, collision clearance, hinge-axis correctness, topology or hidden attachments. No runtime or Blender inspection performed in this resumed review.",
+        "Marketing is a closed-state promotional illustration, not exact model geometry or interior/rear ground truth.",
+        "Original files were individually inspected via vision; small hardware still occupies few pixels. Mobile is an emulated capture, not a physical-device test. Secondary text is small; no accessibility compliance claim.",
+        "No art changes, user approval, mint/release authorization or completion of other acceptance gates inferred."
+      ],
+      "user_final_approved": false,
+      "art_changed": false,
+      "additional_inspection": {
+        "path": "smoke/venezuela/desktop-open.png",
+        "method": "vision_analyze native-resolution region after full-image inspection",
+        "region_original_pixels": [
+          470,
+          235,
+          920,
+          565
+        ],
+        "result": "success",
+        "finding": "Crop does not unambiguously resolve background separating either rear hinge metal from lid/body. Precise contacts are small and partly obscured. Neither correct mechanical attachment nor detachment proven."
+      },
+      "hardware_assessment": {
+        "released_front_clasp": "Projecting brass strip at upper/free lid edge approximately x600-632,y248-304 in desktop original; distinct from rear hinges. Its disengagement from body-side catch is expected in open pose.",
+        "rear_hinges": "Two fittings at lower lid/rear rim approximately x560-597,y504-529 and x716-747,y475-497. Dark strip exists between lid and body, but attachment interfaces remain unresolved in full image and native crop.",
+        "confirmed_detachment": false,
+        "runtime_follow_up": "Parent to inspect rear/side views and motion or transforms; do not infer a broken rear hinge from the released upper clasp."
+      }
+    }
+  ],
+  "summary": {
+    "pass": [
+      "south-africa",
+      "sweden",
+      "togo",
+      "ukraine"
+    ],
+    "needs-decision": [
+      "venezuela"
+    ],
+    "uninspected_required_images": []
+  }
+}
