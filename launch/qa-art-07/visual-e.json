@@ -1,0 +1,263 @@
+{
+  "reviewer": "visual-e",
+  "scope": "Independent static visual review only; no art edits, approval, publication or runtime verification.",
+  "images_inspected": 25,
+  "readmes_read": 5,
+  "reviews": [
+    {
+      "id": "south-sudan",
+      "source_readme": "parent/sources/south-sudan/source_readme.md",
+      "source_readme_read": true,
+      "readme_context": "README discloses stylized non-surveyed wetland, procedural rather than scanned materials, delicate papyrus, ambiguous silt/fibre finish, family hardware and sampled checks.",
+      "observations": [
+        {
+          "view": "marketing",
+          "path": "parent/sources/south-sudan/marketing.webp",
+          "inspected_with": "vision_analyze",
+          "observation": "Pale fibre-textured chest, turquoise inset with three green planted banks, slender umbrella-like plants, brass fittings and rough stone-like feet. Complete silhouette; no obvious large missing surfaces."
+        },
+        {
+          "view": "desktop-closed",
+          "path": "parent/smoke/south-sudan/desktop-closed.png",
+          "inspected_with": "vision_analyze",
+          "observation": "Full chest and plants framed; turquoise wetland and repeated woven/wood-like body pattern readable. Open lid and Reset view controls visible."
+        },
+        {
+          "view": "desktop-open",
+          "path": "parent/smoke/south-sudan/desktop-open.png",
+          "inspected_with": "vision_analyze",
+          "observation": "Full raised lid and projecting latch framed; empty lined cavity and green rim visible. Hinge region has a visually suspended appearance, but contact is not resolved and detachment is not established."
+        },
+        {
+          "view": "mobile-closed",
+          "path": "parent/smoke/south-sudan/mobile-closed.png",
+          "inspected_with": "vision_analyze",
+          "observation": "Entire chest and plants visible; water/islets read clearly, but papyrus crowns become fine pixel-thin marks. Title wraps without clipping."
+        },
+        {
+          "view": "mobile-open",
+          "path": "parent/smoke/south-sudan/mobile-open.png",
+          "inspected_with": "vision_analyze",
+          "observation": "Open chest and latch fully contained; hollow interior readable. No definite disconnected component, missing wall or UI overlap."
+        }
+      ],
+      "confirmed_defects": [],
+      "limitations": [
+        "Papyrus is delicate at mobile size; scene can read as generic tropical islets rather than a specific Sudd wetland.",
+        "Water is a flat turquoise inset rather than flowing channels; ochre surface reads woven/bamboo/wood-like rather than literal sediment.",
+        "Repetitive surface pattern and fine-geometry aliasing remain; green seam and rough feet are conspicuous.",
+        "Static screenshots do not verify animation, touch behavior, collision clearance, hidden surfaces, or physical-phone performance. Source README technical checks are reported provenance, not independently rerun in this visual review.",
+        "Small secondary UI text and fine model edges are less readable on mobile; no visible overflow, clipped controls, or model cropping in the supplied captures.",
+        "Open views obscure exterior lid ornament and some attachment contacts; apparent hinge gaps do not establish detached geometry."
+      ],
+      "marketing_comparison": "Core palette, silhouette, theme and hardware remain consistent across marketing and closed screenshots; lighting/detail differences alone are not functional failure. Open views expose the inner lid instead of its decorated exterior.",
+      "recommendation": "candidate-with-limitations",
+      "recommendation_reason": "No unmistakable visual breakage, cropping or UI obstruction in these supplied views; disclosed stylization and contact/hidden-surface uncertainties remain. Candidate status is not art approval.",
+      "art_approval": false
+    },
+    {
+      "id": "syria",
+      "source_readme": "parent/sources/syria/source_readme.md",
+      "source_readme_read": true,
+      "readme_context": "README explicitly discloses opaque pearl, shallow applied inlay, regular wood, conspicuous seam, small mobile rosettes and uncertain visual latch seating despite reported source checks.",
+      "observations": [
+        {
+          "view": "marketing",
+          "path": "parent/sources/syria/marketing.webp",
+          "inspected_with": "vision_analyze",
+          "observation": "Brown chest with three white floral/star rosettes, lid-border diamonds, two front diamond rows, brass corners/clasp/ring and rough gray feet. Pronounced dark lid seam; no obvious broken ornament."
+        },
+        {
+          "view": "desktop-closed",
+          "path": "parent/smoke/syria/desktop-closed.png",
+          "inspected_with": "vision_analyze",
+          "observation": "Walnut/cream/brass identity and geometric ornament readable; whole chest framed. Dark seam makes closure look slightly lifted but is not proof of failure."
+        },
+        {
+          "view": "desktop-open",
+          "path": "parent/smoke/syria/desktop-open.png",
+          "inspected_with": "vision_analyze",
+          "observation": "Raised lid, upper latch tab, feet and cavity contained. Empty wood-lined cavity visible; exact latch/hinge contacts unresolved."
+        },
+        {
+          "view": "mobile-closed",
+          "path": "parent/smoke/syria/mobile-closed.png",
+          "inspected_with": "vision_analyze",
+          "observation": "Full box and controls visible; pearl-like contrast survives downscaling while rosette details become small. No overflow."
+        },
+        {
+          "view": "mobile-open",
+          "path": "parent/smoke/syria/mobile-open.png",
+          "inspected_with": "vision_analyze",
+          "observation": "Hollow cavity, raised lid, fittings and feet visible and contained. Close lid label matches pose; no unequivocal broken or detached geometry."
+        }
+      ],
+      "confirmed_defects": [],
+      "limitations": [
+        "Regular/banded wood, opaque satin pearl and applied rather than flush-looking ornament remain stylized.",
+        "Prominent dark seam, rough stone-like feet and bulky projecting released latch affect refinement.",
+        "Released latch can appear weakly seated; screenshots do not resolve every bearing contact.",
+        "Static screenshots do not verify animation, touch behavior, collision clearance, hidden surfaces, or physical-phone performance. Source README technical checks are reported provenance, not independently rerun in this visual review.",
+        "Small secondary UI text and fine model edges are less readable on mobile; no visible overflow, clipped controls, or model cropping in the supplied captures.",
+        "Open views obscure exterior lid ornament and some attachment contacts; apparent hinge gaps do not establish detached geometry."
+      ],
+      "marketing_comparison": "Core palette, silhouette, theme and hardware remain consistent across marketing and closed screenshots; lighting/detail differences alone are not functional failure. Open views expose the inner lid instead of its decorated exterior.",
+      "recommendation": "candidate-with-limitations",
+      "recommendation_reason": "No unmistakable visual breakage, cropping or UI obstruction in these supplied views; disclosed stylization and contact/hidden-surface uncertainties remain. Candidate status is not art approval.",
+      "art_approval": false
+    },
+    {
+      "id": "trinidad-and-tobago",
+      "source_readme": "parent/sources/trinidad-and-tobago/source_readme.md",
+      "source_readme_read": true,
+      "readme_context": "README discloses subtle mobile note islands, rippled enamel, bulky brass/seam, hidden pans in open front view, procedural authorship and emulated mobile testing.",
+      "observations": [
+        {
+          "view": "marketing",
+          "path": "parent/sources/trinidad-and-tobago/marketing.webp",
+          "inspected_with": "vision_analyze",
+          "observation": "Scarlet chest with two silver concave steelpan-inspired bowls on red raised bases, brass fittings and black feet/seam. Note forms are visible but can resemble decorative discs without context."
+        },
+        {
+          "view": "desktop-closed",
+          "path": "parent/smoke/trinidad-and-tobago/desktop-closed.png",
+          "inspected_with": "vision_analyze",
+          "observation": "Both silver bowls and complete chest framed; red finish visibly patterned/rippled. Broad dark seam is conspicuous, not a demonstrated closure defect."
+        },
+        {
+          "view": "desktop-open",
+          "path": "parent/smoke/trinidad-and-tobago/desktop-open.png",
+          "inspected_with": "vision_analyze",
+          "observation": "Raised red inner lid and dark empty cavity framed. Interior floor is shadow-obscured; pans hidden behind lid, not shown detached or absent."
+        },
+        {
+          "view": "mobile-closed",
+          "path": "parent/smoke/trinidad-and-tobago/mobile-closed.png",
+          "inspected_with": "vision_analyze",
+          "observation": "Both bowls recognizable and full silhouette/controls visible; individual note islands not reliably countable. Title wraps cleanly."
+        },
+        {
+          "view": "mobile-open",
+          "path": "parent/smoke/trinidad-and-tobago/mobile-open.png",
+          "inspected_with": "vision_analyze",
+          "observation": "Full raised lid, tab and feet within viewport; dark cavity readable but floor boundaries unclear. Close lid and Reset view unobstructed."
+        }
+      ],
+      "confirmed_defects": [],
+      "limitations": [
+        "Steelpan note islands subtle at mobile scale; decorative interpretation is not a playable/tuned instrument.",
+        "Procedural rippled/hammered scarlet finish rather than flawless lacquer; bulky inherited clasp and dark seam are prominent.",
+        "Open front view hides both pans; dark liner limits interior detail inspection.",
+        "Static screenshots do not verify animation, touch behavior, collision clearance, hidden surfaces, or physical-phone performance. Source README technical checks are reported provenance, not independently rerun in this visual review.",
+        "Small secondary UI text and fine model edges are less readable on mobile; no visible overflow, clipped controls, or model cropping in the supplied captures.",
+        "Open views obscure exterior lid ornament and some attachment contacts; apparent hinge gaps do not establish detached geometry."
+      ],
+      "marketing_comparison": "Core palette, silhouette, theme and hardware remain consistent across marketing and closed screenshots; lighting/detail differences alone are not functional failure. Open views expose the inner lid instead of its decorated exterior.",
+      "recommendation": "candidate-with-limitations",
+      "recommendation_reason": "No unmistakable visual breakage, cropping or UI obstruction in these supplied views; disclosed stylization and contact/hidden-surface uncertainties remain. Candidate status is not art approval.",
+      "art_approval": false
+    },
+    {
+      "id": "united-kingdom",
+      "source_readme": "parent/sources/united-kingdom/source_readme.md",
+      "source_readme_read": true,
+      "readme_context": "README discloses regular masonry reading, shallow meadow, conspicuous palisade-like coping, invented green reveal, selective landscape inspiration and no previous approved art equivalence.",
+      "observations": [
+        {
+          "view": "marketing",
+          "path": "parent/sources/united-kingdom/marketing.webp",
+          "inspected_with": "vision_analyze",
+          "observation": "Blue-gray masonry/slate chest with pale-green lid fields and intersecting pale raised walls, brass fittings, green reveal and rough stone feet. Complete composition; no major visible breakage."
+        },
+        {
+          "view": "desktop-closed",
+          "path": "parent/smoke/united-kingdom/desktop-closed.png",
+          "inspected_with": "vision_analyze",
+          "observation": "Slate courses, meadow panels and raised field boundaries readable with full silhouette. Green seam conspicuous; no clipped asset or UI."
+        },
+        {
+          "view": "desktop-open",
+          "path": "parent/smoke/united-kingdom/desktop-open.png",
+          "inspected_with": "vision_analyze",
+          "observation": "Raised slate-textured underside, tab and feet framed. Empty blue-gray cavity readable; floor partly occluded. No established disconnected hinge."
+        },
+        {
+          "view": "mobile-closed",
+          "path": "parent/smoke/united-kingdom/mobile-closed.png",
+          "inspected_with": "vision_analyze",
+          "observation": "Whole chest, walled green fields and hardware visible; wall relief looks chunky/jagged at this scale. Two-line heading and controls fit."
+        },
+        {
+          "view": "mobile-open",
+          "path": "parent/smoke/united-kingdom/mobile-open.png",
+          "inspected_with": "vision_analyze",
+          "observation": "Entire open box and upper tab contained; green rim and cavity readable. Small hardware contacts unresolved, not proven defective."
+        }
+      ],
+      "confirmed_defects": [],
+      "limitations": [
+        "Body reads regular tiled masonry rather than fractured natural slate; smooth shallow meadow relief loses depth on mobile.",
+        "Upright coping can resemble a stone palisade; selective Welsh/Yorkshire inspiration is not comprehensive UK representation.",
+        "Green seam is an invented reveal; chunky walls/feet and simplified brass remain stylized.",
+        "Static screenshots do not verify animation, touch behavior, collision clearance, hidden surfaces, or physical-phone performance. Source README technical checks are reported provenance, not independently rerun in this visual review.",
+        "Small secondary UI text and fine model edges are less readable on mobile; no visible overflow, clipped controls, or model cropping in the supplied captures.",
+        "Open views obscure exterior lid ornament and some attachment contacts; apparent hinge gaps do not establish detached geometry."
+      ],
+      "marketing_comparison": "Core palette, silhouette, theme and hardware remain consistent across marketing and closed screenshots; lighting/detail differences alone are not functional failure. Open views expose the inner lid instead of its decorated exterior.",
+      "recommendation": "candidate-with-limitations",
+      "recommendation_reason": "No unmistakable visual breakage, cropping or UI obstruction in these supplied views; disclosed stylization and contact/hidden-surface uncertainties remain. Candidate status is not art approval.",
+      "art_approval": false
+    },
+    {
+      "id": "yemen",
+      "source_readme": "parent/sources/yemen/source_readme.md",
+      "source_readme_read": true,
+      "readme_context": "README discloses procedural mineral finish, applied windows, family seam/latch, limited rear/underside review and reported correction of earlier UV/frieze faults; historical failures are not current defects.",
+      "observations": [
+        {
+          "view": "marketing",
+          "path": "parent/sources/yemen/marketing.webp",
+          "inspected_with": "vision_analyze",
+          "observation": "Terracotta chest with three tower houses, ivory bands/window frames, front diamond and side crossed friezes, brass fittings and dark feet. Mottled coating and dark seam prominent; no major missing pieces."
+        },
+        {
+          "view": "desktop-closed",
+          "path": "parent/smoke/yemen/desktop-closed.png",
+          "inspected_with": "vision_analyze",
+          "observation": "Three tower silhouettes and ivory decoration clearly visible; whole model framed. Finish reads warm mottled earthen material. Open lid and Reset view present."
+        },
+        {
+          "view": "desktop-open",
+          "path": "parent/smoke/yemen/desktop-open.png",
+          "inspected_with": "vision_analyze",
+          "observation": "Raised plain inner lid, hardware and empty terracotta cavity visible; towers concealed behind lid. Full floor obscured by front rim, not proven missing."
+        },
+        {
+          "view": "mobile-closed",
+          "path": "parent/smoke/yemen/mobile-closed.png",
+          "inspected_with": "vision_analyze",
+          "observation": "Three houses and ivory architectural accents readable at mobile scale; title close to right edge but uncut. Complete model and controls visible."
+        },
+        {
+          "view": "mobile-open",
+          "path": "parent/smoke/yemen/mobile-open.png",
+          "inspected_with": "vision_analyze",
+          "observation": "Raised lid/tab and feet contained; cavity and front/side friezes visible. No definite floating/intersecting component or UI clipping."
+        }
+      ],
+      "confirmed_defects": [],
+      "limitations": [
+        "Simplified clean/mottled terracotta and applied dark window inserts rather than hollow architecture or historic reproduction.",
+        "Thick dark seam, long inherited latch and coarse edges remain visible.",
+        "Rear/underside and towers in open pose are not aesthetically assessable from these front views.",
+        "Static screenshots do not verify animation, touch behavior, collision clearance, hidden surfaces, or physical-phone performance. Source README technical checks are reported provenance, not independently rerun in this visual review.",
+        "Small secondary UI text and fine model edges are less readable on mobile; no visible overflow, clipped controls, or model cropping in the supplied captures.",
+        "Open views obscure exterior lid ornament and some attachment contacts; apparent hinge gaps do not establish detached geometry."
+      ],
+      "marketing_comparison": "Core palette, silhouette, theme and hardware remain consistent across marketing and closed screenshots; lighting/detail differences alone are not functional failure. Open views expose the inner lid instead of its decorated exterior.",
+      "recommendation": "candidate-with-limitations",
+      "recommendation_reason": "No unmistakable visual breakage, cropping or UI obstruction in these supplied views; disclosed stylization and contact/hidden-surface uncertainties remain. Candidate status is not art approval.",
+      "art_approval": false
+    }
+  ]
+}

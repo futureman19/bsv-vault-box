@@ -1,0 +1,94 @@
+{
+  "reviewer": "visual-c",
+  "scope": "Independent visual review of five original marketing images and all twenty desktop/mobile closed/open screenshots, with each source_readme.md read.",
+  "review_only": true,
+  "approval_granted": false,
+  "assets_modified": false,
+  "image_count": 25,
+  "method": "Each original image was individually inspected with vision_analyze, not inferred from contact sheets. Paths below are relative to this QA root.",
+  "assessment_limits": [
+    "Static screenshots do not independently verify runtime interaction, physical-phone performance, hidden surfaces, attachment geometry or continuous collision clearance.",
+    "Source README verification claims are context, not tests independently rerun by this reviewer.",
+    "Greater promotional realism is not itself a functional defect. Candidate recommendations are not human approval or release authorization.",
+    "Front-open views generally turn exterior lid ornaments away from the camera; lack of their visibility is not evidence of missing ornaments."
+  ],
+  "reviews": {
+    "japan": {
+      "source_readme": "parent/sources/japan/source_readme.md",
+      "readme_context": "Cedar v2 explicitly documents a stylized, airy miniature conifer, planar/stippled branch tiers and mobile moss detail limits after one bounded visual correction.",
+      "observations": [
+        {"image": "parent/sources/japan/marketing.webp", "observation": "Labeled promotional illustration: dense, organically clustered miniature tree and plush moss on granite; warm grained wood, brass hardware, green seam and stone feet. More realistic surface treatment than runtime."},
+        {"image": "parent/smoke/japan/desktop-closed.png", "observation": "Wood/joinery, brass, moss-rock base and conifer remain identifiable. Runtime tree is smaller/airier and stippled, wood brighter orange and hardware flatter than marketing. Broad green lid reveal is conspicuous. Whole silhouette fits."},
+        {"image": "parent/smoke/japan/desktop-open.png", "observation": "Empty wood-toned cavity, green rim, two rear hinge fittings and raised latch tab are visible. Exterior tree turns away. Entire lid/tab/feet fit; no unequivocal missing geometry or detached component."},
+        {"image": "parent/smoke/japan/mobile-closed.png", "observation": "Chest and buttons remain fully framed; tree silhouette is recognizable but fine foliage and moss are weak at native scale. Orange wood dominates the nature motif. No visible layout overlap."},
+        {"image": "parent/smoke/japan/mobile-open.png", "observation": "Open cavity and brass fittings remain readable at overview scale, with lower floor partly hidden by front wall. Raised lid and feet fit; small hinge contacts cannot be judged precisely."}
+      ],
+      "defects": [],
+      "limitations": ["Promotional dense foliage/plush moss is not reproduced photorealistically; documented stylization rather than functional failure.", "Green seam can make closed lid look slightly raised; no closure failure established.", "Fine foliage aliases and mobile moss/hinge details are small; lower interior and rear contacts are partly occluded."],
+      "recommendation": "candidate-with-limitations",
+      "rationale": "Coherent theme and intact closed/open framing on both sizes; observed weaknesses align with documented limits, with no confirmed visual blocker."
+    },
+    "latvia": {
+      "source_readme": "parent/sources/latvia/source_readme.md",
+      "readme_context": "Invented cream/carmine linen-inspired motif, three deliberately opaque amber cabochons; weave resolution, rigid insert appearance and conspicuous seam disclosed. No original reference artwork existed during authoring.",
+      "observations": [
+        {"image": "parent/sources/latvia/marketing.webp", "observation": "Light wood and dark finger joints frame a smooth ivory panel with burgundy stripes and three peach-orange domes on square brass settings. Stone-like feet and gold fittings; polished presentation."},
+        {"image": "parent/smoke/latvia/desktop-closed.png", "observation": "Cream/carmine panel and three honey-yellow domes read clearly. Weave is not convincingly resolved and domes are more opaque/yellow than promotional peach gloss. Pronounced dark closed seam; full silhouette visible."},
+        {"image": "parent/smoke/latvia/desktop-open.png", "observation": "Plain warm wood lid underside and empty cavity, rear hinge fittings, front hardware and raised tab are visible. Ornaments face away naturally. All parts fit without cropping."},
+        {"image": "parent/smoke/latvia/mobile-closed.png", "observation": "Three ornaments and cream/red panel remain distinguishable. Seam stays dark and conspicuous; fine textile detail disappears. Model, title and both controls fit without overlap."},
+        {"image": "parent/smoke/latvia/mobile-open.png", "observation": "Open cavity and two rear fittings remain legible, floor partly obscured. Small fittings have coarse edges; no obvious detached part or UI clipping."}
+      ],
+      "defects": [],
+      "limitations": ["Linen reads as a rigid insert and weave is unresolved at mobile scale.", "Amber is opaque and stylized; promotional versus runtime hue/gloss differs without indicating malfunction.", "Dark closed seam reads raised; documented design concern rather than demonstrated bad closure.", "Front-open view hides lid ornament and small contact details."],
+      "recommendation": "candidate-with-limitations",
+      "rationale": "Core panel/three-cabochon motif survives both viewport sizes and all poses are fully framed; limitations are disclosed and no unmistakable visual failure is shown."
+    },
+    "madagascar": {
+      "source_readme": "parent/sources/madagascar/source_readme.md",
+      "readme_context": "Procedural limestone pinnacles and sheltered green patches, not geographical reconstruction. Regular peak field/body flutes, shallow vegetation and wavy interior map are disclosed.",
+      "observations": [
+        {"image": "parent/sources/madagascar/marketing.webp", "observation": "Ivory marbled/ribbed chest with jagged faceted stone peaks, sage green accents, antique brass and dark rounded feet. Strong sculptural limestone silhouette."},
+        {"image": "parent/smoke/madagascar/desktop-closed.png", "observation": "Pale pointed forest, ribbed shell, green seam and brass remain coherent. Pinnacles are simplified and crowded at their bases; no obvious missing faces or floating pieces. Entire object fits."},
+        {"image": "parent/smoke/madagascar/desktop-open.png", "observation": "Dark gray-green wavy inner walls contrast with pale patterned lid underside and green rim. Two rear brass fittings visible; front wall hides much of floor. No cropping."},
+        {"image": "parent/smoke/madagascar/mobile-closed.png", "observation": "Pointed limestone motif remains strong. Neighboring pale peaks merge and sheltered green patches are subtle; lower feet have low contrast. Title, controls and complete silhouette fit."},
+        {"image": "parent/smoke/madagascar/mobile-open.png", "observation": "Dark patterned cavity and pale rippled lid underside remain visible with rear hinges/front hardware. Depth and tiny contacts are unclear, but no unequivocal damaged/missing geometry or overlap is shown."}
+      ],
+      "defects": [],
+      "limitations": ["Regular simplified peaks/flutes do not reproduce a dense natural tsingy labyrinth.", "Green vegetation is subtle at mobile scale and neighboring ivory peaks lose separation.", "Wavy procedural interior/underside shading is prominent; interior depth and floor remain partly hidden.", "Closed seam is conspicuous but consistent with the family design."],
+      "recommendation": "candidate-with-limitations",
+      "rationale": "Limestone identity is clear on both sizes, full open/closed framing is intact, and no definitive structural or UI visual defect appears."
+    },
+    "mauritius": {
+      "source_readme": "parent/sources/mauritius/source_readme.md",
+      "readme_context": "Seven lid-parented rolling mineral ribbons; README explicitly says not all seven can be visually counted at mobile scale, walls may read as clay, and seam/long clasp are deliberate family geometry.",
+      "observations": [
+        {"image": "parent/sources/mauritius/marketing.webp", "observation": "Peach-pink grained chest with pastel rolling bands in pink, yellow, sage, blue/lavender and taupe. Brass fittings, dark feet and narrow dark lid band; polished landscape relief."},
+        {"image": "parent/smoke/mauritius/desktop-closed.png", "observation": "Pastel flowing lid relief survives over a warmer terracotta shell. All seven bands cannot confidently be counted. Broad dark seam makes lid look slightly ajar; whole chest fits."},
+        {"image": "parent/smoke/mauritius/desktop-open.png", "observation": "Warm wavy lid underside and empty matching cavity, dark rim, two rear hinges and projecting tab visible. Rim corners are segmented but not conclusively broken. Full framing retained."},
+        {"image": "parent/smoke/mauritius/mobile-closed.png", "observation": "Colored-earth lid remains recognizable, but pastel regions blend and shell material reads ambiguously as clay/copper/resin. Full model and wrapped title fit; buttons do not overlap."},
+        {"image": "parent/smoke/mauritius/mobile-open.png", "observation": "Cavity depth is subtle because walls/floor share warm tones; projecting tab is prominent and small hardware simplified. Entire raised lid, feet and controls fit. Exterior ribbons face away, so their count cannot be assessed here."}
+      ],
+      "defects": [],
+      "limitations": ["Seven separate mineral ribbons are not confidently countable from supplied default views; source claim is not independently verified by these stills.", "Marketing has finer wood/material finish and clearer pastel separation; runtime is a stylized clay-like interpretation.", "Dark seam and long clasp are visually prominent but disclosed; no mechanical failure demonstrated.", "Uniform interior tones reduce depth clarity and small rim junctions are hard to inspect."],
+      "recommendation": "candidate-with-limitations",
+      "rationale": "Rolling-earth motif and layout are coherent in both sizes; documented material/count-readability limits warrant disclosure, not automatic functional rejection."
+    },
+    "mozambique": {
+      "source_readme": "parent/sources/mozambique/source_readme.md",
+      "readme_context": "Three raised sandbanks and opaque mapped turquoise water; simple pointed reliefs, wood-like shell ripples, raised-looking seam and ambiguous front-open hinge connection are explicitly disclosed. Source claims attachment tests, not independently rerun here.",
+      "observations": [
+        {"image": "parent/sources/mozambique/marketing.webp", "observation": "Ivory chest and feet with glossy turquoise lid, three cream raised forms and brass fittings. Two pointed forms can read as mountains or cream dollops rather than broad dunes; theme is not unambiguous without context."},
+        {"image": "parent/smoke/mozambique/desktop-closed.png", "observation": "Cream/turquoise/brass palette and raised dune forms remain readable. Pointed reliefs read somewhat mountain-like, regular shell ridges wood-like. Thick dark seam suggests a slightly raised lid. Complete model framed."},
+        {"image": "parent/smoke/mozambique/desktop-open.png", "observation": "Turquoise visible lid face with winding dark channel, cream empty cavity and two brass hinge-like fittings. Dark gap makes connection visually ambiguous/slightly floating; no part is conclusively detached. Full raised silhouette fits."},
+        {"image": "parent/smoke/mozambique/mobile-closed.png", "observation": "Ivory dunes on turquoise remain visible with front clasp bridging the dark seam. Full chest and controls fit; pale forms simplify at this scale."},
+        {"image": "parent/smoke/mozambique/mobile-open.png", "observation": "Cream cavity remains coherent, while small brass pieces and dark rear gap make lid-to-body contact difficult to trace. Slight detached appearance persists, not proof of disconnected geometry. No model cropping or UI overlap."}
+      ],
+      "defects": [],
+      "review_concerns": ["Front-open hinge connection reads visually ambiguous/slightly floating on desktop and mobile. This is a presentation concern, not established detached geometry.", "Closed seam strengthens the raised-lid impression; independent still review cannot resolve attachment/closure certainty."],
+      "limitations": ["Dunes are simple pointed reliefs that can read as mountains/dollops; water is opaque mapped color rather than fluid.", "Shell ripples are regular/wood-like and interior depth subtle.", "Still images cannot supersede the existing review hold or independently establish mechanical correctness."],
+      "hold_preserved": true,
+      "recommendation": "needs-user-review",
+      "rationale": "Preserve the existing Mozambique hold. Supplied desktop/mobile open views retain the documented attachment ambiguity; no approval or promotion is granted, despite no conclusively demonstrated detached part."
+    }
+  }
+}

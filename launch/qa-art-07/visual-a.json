@@ -1,0 +1,312 @@
+{
+  "reviewer": "visual-a",
+  "scope": "Independent original-image visual review only",
+  "inspected_image_count": 25,
+  "readme_count": 5,
+  "method": "Each original marketing WEBP and each of four original endpoint PNGs inspected separately through vision_analyze; no contact-sheet substitution. Source readmes read for context.",
+  "constraints": {
+    "originals_edited": false,
+    "art_approval_granted": false,
+    "existing_holds_preserved": [
+      "arctic-ocean",
+      "bolivia",
+      "cabo-verde"
+    ]
+  },
+  "overall_findings": [
+    "No unmistakable framing failure, UI overlap, missing major mesh or severe intersection visible in the supplied endpoints. No reproducible runtime defect established by this still-image review.",
+    "Richer promotional materials are artistic differences, not runtime-defect evidence.",
+    "Lid-top ornaments visible closed are occluded behind raised lid in front-open views; absence in open screenshots is not missing content.",
+    "Static screenshots do not verify motion, reset, zoom, connectivity, accessibility or physical-phone performance. Readme test claims were not rerun."
+  ],
+  "reviews": [
+    {
+      "id": "arctic-ocean",
+      "recommendation": "needs-user-review",
+      "art_approved": false,
+      "existing_hold_preserved": true,
+      "source_readme": {
+        "path": "parent/sources/arctic-ocean/source_readme.md",
+        "read": true,
+        "relevant_disclosures": "Discloses stylized enamel/porcelain, tile-like floes, architectural ridges, weak pond readability and source/runtime lighting differences.",
+        "verification_claims_independently_rerun": false
+      },
+      "images": [
+        {
+          "path": "parent/sources/arctic-ocean/marketing.webp",
+          "kind": "marketing",
+          "inspected_with": "vision_analyze",
+          "observation": "Blue contour-patterned chest, brass hardware and pale ice slabs; frosted/translucent-looking rear blocks and turquoise patches are richer than runtime."
+        },
+        {
+          "path": "parent/smoke/arctic-ocean/desktop-closed.png",
+          "kind": "desktop-closed",
+          "inspected_with": "vision_analyze",
+          "observation": "Whole model and UI contained. Floes read as flat tiles and rear ridges as cuboids; body tracery is busy; dark feet have weak separation."
+        },
+        {
+          "path": "parent/smoke/arctic-ocean/desktop-open.png",
+          "kind": "desktop-open",
+          "inspected_with": "vision_analyze",
+          "observation": "Whole open silhouette and projecting latch contained; cavity and two hinge locations visible. Plain turquoise underside obscures lid-top ice, as expected for this camera."
+        },
+        {
+          "path": "parent/smoke/arctic-ocean/mobile-closed.png",
+          "kind": "mobile-closed",
+          "inspected_with": "vision_analyze",
+          "observation": "Title wraps cleanly, controls and footer fit. Tile-like floes remain visible; pond identity and tiny fittings are weak at this scale."
+        },
+        {
+          "path": "parent/smoke/arctic-ocean/mobile-open.png",
+          "kind": "mobile-open",
+          "inspected_with": "vision_analyze",
+          "observation": "Open model and controls remain contained; body detail is smaller and hinge attachment hard to read. No unmistakable missing faces or overlap."
+        }
+      ],
+      "artistic_limitations": [
+        "Opaque enamel-like ice rather than promotional translucency.",
+        "Quadrilateral floes, architectural rear blocks and competing body tracery weaken naturalistic ice/pond reading."
+      ],
+      "reproducible_looking_defects": [],
+      "unconfirmed_inspection_points": [
+        "Open-view hinge/rail joins and projecting released latch are visually schematic; endpoint stills do not establish broken connectivity or collision. Side view and motion inspection would be required to escalate."
+      ],
+      "presentation_limitations": [
+        "Small secondary UI text across desktop/mobile; accessibility contrast not measured.",
+        "Fine edges/hardware lose clarity at mobile screenshot scale."
+      ],
+      "reason": "Preserve existing hold; visual limitations require user judgment, not technical-failure inference."
+    },
+    {
+      "id": "bahrain",
+      "recommendation": "candidate-with-limitations",
+      "art_approved": false,
+      "existing_hold_preserved": false,
+      "source_readme": {
+        "path": "parent/sources/bahrain/source_readme.md",
+        "read": true,
+        "relevant_disclosures": "Discloses scallop-like shell, stylized porous stone, subtle mobile seating details and no photoreal or historical-replica claim.",
+        "verification_claims_independently_rerun": false
+      },
+      "images": [
+        {
+          "path": "parent/sources/bahrain/marketing.webp",
+          "kind": "marketing",
+          "inspected_with": "vision_analyze",
+          "observation": "Ivory pearlescent/stone-like chest, blue-gray inset, teal seam and brass trim; shell and pearl are prominent, with polished studio materials."
+        },
+        {
+          "path": "parent/smoke/bahrain/desktop-closed.png",
+          "kind": "desktop-closed",
+          "inspected_with": "vision_analyze",
+          "observation": "Cream stone, teal inset and shell/pearl clearly readable. Full object fits; dark teal lid seam is conspicuous but coherent with trim, not established misalignment."
+        },
+        {
+          "path": "parent/smoke/bahrain/desktop-open.png",
+          "kind": "desktop-open",
+          "inspected_with": "vision_analyze",
+          "observation": "Open chest, rim, hinges and upper latch fully framed; plain cream underside hides shell/pearl on far side. No UI collision or clear mesh failure."
+        },
+        {
+          "path": "parent/smoke/bahrain/mobile-closed.png",
+          "kind": "mobile-closed",
+          "inspected_with": "vision_analyze",
+          "observation": "Shell and pearl still identifiable; title leaves Stone on second line but fits. Fine shell ribs and fittings are slightly jagged/small."
+        },
+        {
+          "path": "parent/smoke/bahrain/mobile-open.png",
+          "kind": "mobile-open",
+          "inspected_with": "vision_analyze",
+          "observation": "Cavity, lid and controls contained. Rim joints chunky and hinge mounting difficult to resolve at this scale; no confirmed detached part."
+        }
+      ],
+      "artistic_limitations": [
+        "Shell ribs read scallop-like rather than accurate oyster anatomy.",
+        "Cream stone is soft/mottled rather than richly pearlescent; brass seating details are subtle on mobile."
+      ],
+      "reproducible_looking_defects": [],
+      "unconfirmed_inspection_points": [
+        "Open-view hinge/rail joins and projecting released latch are visually schematic; endpoint stills do not establish broken connectivity or collision. Side view and motion inspection would be required to escalate."
+      ],
+      "presentation_limitations": [
+        "Small secondary UI text across desktop/mobile; accessibility contrast not measured.",
+        "Fine edges/hardware lose clarity at mobile screenshot scale."
+      ],
+      "reason": "Intact endpoint presentation with readable theme; candidate only with disclosed stylization, not art approval."
+    },
+    {
+      "id": "bolivia",
+      "recommendation": "needs-user-review",
+      "art_approved": false,
+      "existing_hold_preserved": true,
+      "source_readme": {
+        "path": "parent/sources/bolivia/source_readme.md",
+        "read": true,
+        "relevant_disclosures": "Discloses ceramic/plank reading, invented honeycomb, stylized mound, deliberate wet-blue/dry-crust combination and front-open occlusion of landscape.",
+        "verification_claims_independently_rerun": false
+      },
+      "images": [
+        {
+          "path": "parent/sources/bolivia/marketing.webp",
+          "kind": "marketing",
+          "inspected_with": "vision_analyze",
+          "observation": "White horizontally coursed chest, pale blue polygon-lattice lid and ochre peak, brass fittings and irregular white feet; body reads plank-like."
+        },
+        {
+          "path": "parent/smoke/bolivia/desktop-closed.png",
+          "kind": "desktop-closed",
+          "inspected_with": "vision_analyze",
+          "observation": "Whole chest, relief and feet framed. Polygon lid readable; body remains plank/ceramic-like, ochre mound faceted, thin lines slightly aliased."
+        },
+        {
+          "path": "parent/smoke/bolivia/desktop-open.png",
+          "kind": "desktop-open",
+          "inspected_with": "vision_analyze",
+          "observation": "Whole open chest and controls fit; plain white lid underside hides landscape. Hinge gap is visually ambiguous, not evidence of disconnection."
+        },
+        {
+          "path": "parent/smoke/bolivia/mobile-closed.png",
+          "kind": "mobile-closed",
+          "inspected_with": "vision_analyze",
+          "observation": "Title wraps with Sky alone but is not clipped. Salt polygons remain apparent; mound and feet are simplified and tiny fittings rough."
+        },
+        {
+          "path": "parent/smoke/bolivia/mobile-open.png",
+          "kind": "mobile-open",
+          "inspected_with": "vision_analyze",
+          "observation": "Complete open silhouette and UI fit. Pale rim, walls and interior blend, reducing construction legibility; no demonstrated missing floor or broken mesh."
+        }
+      ],
+      "artistic_limitations": [
+        "Coursed white body does not unmistakably read as crystalline halite.",
+        "Regularized polygons and faceted ochre mound are salt-flat abstractions, not surveyed Uyuni/Tunupa.",
+        "Fine ridge depth and hardware diminish at mobile scale."
+      ],
+      "reproducible_looking_defects": [],
+      "unconfirmed_inspection_points": [
+        "Open-view hinge/rail joins and projecting released latch are visually schematic; endpoint stills do not establish broken connectivity or collision. Side view and motion inspection would be required to escalate."
+      ],
+      "presentation_limitations": [
+        "Small secondary UI text across desktop/mobile; accessibility contrast not measured.",
+        "Fine edges/hardware lose clarity at mobile screenshot scale."
+      ],
+      "reason": "Preserve existing hold; visual limitations require user judgment, not technical-failure inference."
+    },
+    {
+      "id": "cabo-verde",
+      "recommendation": "needs-user-review",
+      "art_approved": false,
+      "existing_hold_preserved": true,
+      "source_readme": {
+        "path": "parent/sources/cabo-verde/source_readme.md",
+        "read": true,
+        "relevant_disclosures": "Discloses stylized non-surveyed terrain, concrete/granite reading, procedural patches, angle-sensitive east opening and unreadable tiny mobile cultivation.",
+        "verification_claims_independently_rerun": false
+      },
+      "images": [
+        {
+          "path": "parent/sources/cabo-verde/marketing.webp",
+          "kind": "marketing",
+          "inspected_with": "vision_analyze",
+          "observation": "Mottled gray stone chest, blue seam and brass fittings with volcanic cone, warm crater and surrounding winding relief. Promotional surface detail is richer."
+        },
+        {
+          "path": "parent/smoke/cabo-verde/desktop-closed.png",
+          "kind": "desktop-closed",
+          "inspected_with": "vision_analyze",
+          "observation": "Volcanic cone and stepped terrain readable and fully framed. Facets and abrupt rust/ash patches conspicuous; faint viewer background boundary above controls."
+        },
+        {
+          "path": "parent/smoke/cabo-verde/desktop-open.png",
+          "kind": "desktop-open",
+          "inspected_with": "vision_analyze",
+          "observation": "Entire lid, cavity, latch projection and feet fit. Dark stone underside replaces terrain in this front-open view; hinges visible but their connection is visually subtle."
+        },
+        {
+          "path": "parent/smoke/cabo-verde/mobile-closed.png",
+          "kind": "mobile-closed",
+          "inspected_with": "vision_analyze",
+          "observation": "No clipping or UI overlap. Volcano visible but caldera opening/cultivated patches hard to read; lower dark silhouette loses contrast."
+        },
+        {
+          "path": "parent/smoke/cabo-verde/mobile-open.png",
+          "kind": "mobile-open",
+          "inspected_with": "vision_analyze",
+          "observation": "Full silhouette and controls fit. Dark interior, cloudy stone and angular rim reduce detail readability; no unmistakable geometry failure."
+        }
+      ],
+      "artistic_limitations": [
+        "Stone can read as concrete/granite rather than distinctive volcanic material.",
+        "Faceted terrain and procedural rust/ash patches are conspicuous.",
+        "Default angle and mobile scale weaken horseshoe opening and symbolic cultivation detail."
+      ],
+      "reproducible_looking_defects": [],
+      "unconfirmed_inspection_points": [
+        "Open-view hinge/rail joins and projecting released latch are visually schematic; endpoint stills do not establish broken connectivity or collision. Side view and motion inspection would be required to escalate."
+      ],
+      "presentation_limitations": [
+        "Small secondary UI text across desktop/mobile; accessibility contrast not measured.",
+        "Fine edges/hardware lose clarity at mobile screenshot scale."
+      ],
+      "reason": "Preserve existing hold; visual limitations require user judgment, not technical-failure inference."
+    },
+    {
+      "id": "colombia",
+      "recommendation": "candidate-with-limitations",
+      "art_approved": false,
+      "existing_hold_preserved": false,
+      "source_readme": {
+        "path": "parent/sources/colombia/source_readme.md",
+        "read": true,
+        "relevant_disclosures": "Discloses regular bamboo, generic shrubs, conspicuous seam, low hills and expected front-open occlusion of terrain.",
+        "verification_claims_independently_rerun": false
+      },
+      "images": [
+        {
+          "path": "parent/sources/colombia/marketing.webp",
+          "kind": "marketing",
+          "inspected_with": "vision_analyze",
+          "observation": "Pale wood/bamboo-like chest with brass, green seam, gray stone feet and miniature green hill, shrubs and white terracotta-roof house; toy-like pastoral treatment."
+        },
+        {
+          "path": "parent/smoke/colombia/desktop-closed.png",
+          "kind": "desktop-closed",
+          "inspected_with": "vision_analyze",
+          "observation": "Entire chest and landscape framed; house, hills and shrub rows legible. Bamboo is regular/repetitive and green seam conspicuous; no clear unintended gap."
+        },
+        {
+          "path": "parent/smoke/colombia/desktop-open.png",
+          "kind": "desktop-open",
+          "inspected_with": "vision_analyze",
+          "observation": "Full open silhouette and empty cavity contained; patterned lid underside visible, landscape hidden behind lid. Hinges visible, no proven detachment."
+        },
+        {
+          "path": "parent/smoke/colombia/mobile-closed.png",
+          "kind": "mobile-closed",
+          "inspected_with": "vision_analyze",
+          "observation": "Title and controls fit. House and cultivated hill remain visible, but shrub species depends on context; thin hardware and foliage edges mildly pixel-stepped."
+        },
+        {
+          "path": "parent/smoke/colombia/mobile-open.png",
+          "kind": "mobile-open",
+          "inspected_with": "vision_analyze",
+          "observation": "Full model and UI contained; repeated bamboo lines dominate and hinge details are small. No unmistakable missing face, clipping or intersection."
+        }
+      ],
+      "artistic_limitations": [
+        "Bamboo reads as regularly ribbed wood.",
+        "Shrubs are generic rounded clusters, not independently identifiable coffee plants.",
+        "Low rolling relief and simple farmhouse are symbolic rather than dramatic or geographic mountains."
+      ],
+      "reproducible_looking_defects": [],
+      "unconfirmed_inspection_points": [
+        "Open-view hinge/rail joins and projecting released latch are visually schematic; endpoint stills do not establish broken connectivity or collision. Side view and motion inspection would be required to escalate."
+      ],
+      "presentation_limitations": [
+        "Small secondary UI text across desktop/mobile; accessibility contrast not measured.",
+        "Fine edges/hardware lose clarity at mobile screenshot scale."
+      ],
+      "reason": "Intact endpoint presentation with readable theme; candidate only with disclosed stylization, not art approval."
+    }
+  ]
+}

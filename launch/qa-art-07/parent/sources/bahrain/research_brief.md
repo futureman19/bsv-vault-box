@@ -1,0 +1,16 @@
+# Bahrain v1 — Pearl & Coral Stone
+
+## Research, recorded before modeling
+UNESCO's World Heritage listing identifies Muharraq merchant buildings, three offshore oyster beds and the departure shore as testimony to Bahrain's historic pearling economy: https://whc.unesco.org/en/list/1364 . UNESCO's illustrated account describes Muharraq as built mainly of coral stone: https://artsandculture.google.com/story/pearling-testimony-of-an-island-economy-bahrain-unesco/tAXhnZnW_QZLPA?hl=en . These sources were retrieved as web search excerpts; no third-party photographs or text are embedded in the model. This original design interprets those materials, not a reconstruction of a historic chest or a claim that one motif represents all Bahrain.
+
+## Measurable visual contract
+- Wide keepsake silhouette, approximately 3.72 X by 2.38 Y, body height approximately 1.9; inherit the proven hollow liner and mechanical pivots from Japan's trimmed mechanism. Front is -Y; rear hinge +Y; glTF maps (X,Z,-Y).
+- Warm cream/coral-stone body and lid surround: target sRGB sandstone cream #c6b28f, subordinate pores/shallow irregular mottling, not wood grain or geological bands. Generated compact color, roughness and normal maps, maximum 512px per side.
+- Deep muted lagoon inset on the lid, target #286c70, surrounded by a narrow satin brass rim. Body remains predominantly pale stone; no large ocean landscape or copied country terrain.
+- A sculpted low open oyster-shell ornament with radial growth ridges and one warm ivory pearl (radius 0.17–0.23), centered on the lid. Footprint at most 1.45 X by 1.1 Y, height above lid at most 0.75. Two asymmetrical shell valves and the pearl are actual geometry, not a poster/decal. Entire ornament is parented beneath Lid_Hinge and travels with it.
+- Restrained aged brass fittings using the proven mechanism, pale stone feet, narrow dark teal seam (height <=0.10). Back and interior are original extrapolations. Pearl uses portable glossy opaque material, not a claim of physical nacre optics.
+- Preserve exact staged 80-degree latch release followed by 105-degree lid opening and inherited pivots. Collision sampling must include every moving ornament and hardware mesh at 81 poses; only explicit mating bearings may be exempted.
+- Actual-source render poster; self-contained offline HTML strictly <5,000,000 bytes with all GLB/runtime/maps embedded, rotation, open/close, interrupted reset and reduced-motion support.
+
+## Acceptance planned before implementation
+Independent saved-source reopening; hollow floor and hinge attachments; source/export vertex parity <=1e-5; actual GLTFLoader finite geometry and zero degenerate triangles; decoded procedural-map variation; ornament geometry, dimensions and lid ancestry; all-part sampled motion collisions; desktop and mobile-touch emulation over file:// with no external requests, no unhandled errors or overflow; real corrupt-GLB and no-JS poster fallback; exact byte counts and SHA-256 inventory. Negative controls must genuinely fail. Technical acceptance is not photorealism, continuous mechanical proof or physical-phone testing. Two bounded visual corrections maximum, no per-asset human-review gate per task directive.

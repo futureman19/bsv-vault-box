@@ -1,0 +1,175 @@
+{
+  "reviewer": "visual-b",
+  "scope": "Independent original-image visual review only; no art edits, approval or runtime testing.",
+  "ids_reviewed": 5,
+  "original_images_reviewed": 25,
+  "method": "Vision inspection of each individual original, not boards. Gabon marketing required lossless decode to PNG after two HTTP 400 failures. Read each source README; kept source assertions separate from visual findings.",
+  "results": {
+    "denmark": {
+      "observations": {
+        "marketing": "Off-white textured chest; green-capped faceted chalk cliffs, glossy turquoise inset, gray shoreline stones, brass corner caps/clasp and dark flint feet.",
+        "desktop-closed": "Cliff/shoreline identity retained; flatter turquoise water, pale matte body and strong dark lid seam; complete object and controls visible.",
+        "desktop-open": "Empty pale cavity and plain lid underside visible, rear brass hinge pieces and released tab; entire open silhouette framed.",
+        "mobile-closed": "Chalk cliffs and turquoise inset remain recognizable; seam appears slightly ajar, shoreline/hardware simplify at this size.",
+        "mobile-open": "Open cavity, brass hardware and dark feet visible without cropping; small connection details unresolved."
+      },
+      "defects": [],
+      "limitations": [
+        "Faceted/repetitive cliffs and abstract green plateau, straight flat water boundary and conspicuous dark seam match disclosed source limitations.",
+        "Marketing has richer glossy water and surface detail than runtime; no unequivocal broken geometry established.",
+        "Static endpoint images do not verify animation, continuous collision clearance, hidden geometry, input handling or physical-phone performance. Source README test claims are context, not independently rerun here.",
+        "Mobile secondary text and small hardware are difficult to resolve; main title/buttons remain readable. No obvious viewport clipping or UI overlap in the four supplied views.",
+        "Promotional lighting/material realism differs from runtime rendering; that difference alone is not a functional defect."
+      ],
+      "recommendation": "candidate-with-limitations",
+      "source_readme": "parent/sources/denmark/source_readme.md",
+      "source_readme_read": true,
+      "images_inspected": [
+        "parent/sources/denmark/marketing.webp",
+        "parent/smoke/denmark/desktop-closed.png",
+        "parent/smoke/denmark/desktop-open.png",
+        "parent/smoke/denmark/mobile-closed.png",
+        "parent/smoke/denmark/mobile-open.png"
+      ],
+      "art_approval_granted": false
+    },
+    "equatorial-guinea": {
+      "observations": {
+        "marketing": "Gray paneled chest, sage clay-like low caldera and rounded canopy cushions, green seam, brass latch/caps/lower trim and dark rock feet.",
+        "desktop-closed": "Low green relief/caldera and canopy clusters preserved; gray diagonally mottled body, brighter green vegetation and broad green closure strip; fully framed.",
+        "desktop-open": "Empty dark green-gray cavity and plain lid underside; rear hinges present, exact seating shadowed; controls match open state.",
+        "mobile-closed": "Terrain and brass chest silhouette readable but caldera/canopy details diminish; no crop or overflow.",
+        "mobile-open": "Open rim and empty cavity readable; dark floor boundaries weak, no obvious detached part or clipping."
+      },
+      "defects": [],
+      "limitations": [
+        "Clay-like relief and cushion canopy are abstract rather than exposed basalt or individual rainforest trees; stone can read as wood/metal under lighting.",
+        "Broad green seam and dark open interior reduce construction/depth readability.",
+        "This review supplies semantic mobile visual inspection that source README explicitly did not claim after its earlier vision-provider failure.",
+        "Static endpoint images do not verify animation, continuous collision clearance, hidden geometry, input handling or physical-phone performance. Source README test claims are context, not independently rerun here.",
+        "Mobile secondary text and small hardware are difficult to resolve; main title/buttons remain readable. No obvious viewport clipping or UI overlap in the four supplied views.",
+        "Promotional lighting/material realism differs from runtime rendering; that difference alone is not a functional defect."
+      ],
+      "recommendation": "candidate-with-limitations",
+      "source_readme": "parent/sources/equatorial-guinea/source_readme.md",
+      "source_readme_read": true,
+      "images_inspected": [
+        "parent/sources/equatorial-guinea/marketing.webp",
+        "parent/smoke/equatorial-guinea/desktop-closed.png",
+        "parent/smoke/equatorial-guinea/desktop-open.png",
+        "parent/smoke/equatorial-guinea/mobile-closed.png",
+        "parent/smoke/equatorial-guinea/mobile-open.png"
+      ],
+      "art_approval_granted": false
+    },
+    "gabon": {
+      "observations": {
+        "marketing": "Blush timber chest with three stylized tree groups on green islands, winding turquoise/cream lagoon inlay, brass latch/disc/side ring/caps and gray irregular feet; green seam visible.",
+        "desktop-closed": "Three tree groups and winding lagoon remain readable; light rose wood with regular grain, exposed green seam and dense front hardware; complete framing.",
+        "desktop-open": "Empty wood interior with green rim; hinges, front disc and side ring present; exact hinge seating ambiguous but no confirmed detachment.",
+        "mobile-closed": "Tree/lagoon identity clear at small scale; front latch/disc become crowded; entire model and controls fit.",
+        "mobile-open": "Open wood cavity, green edging and hardware visible; small joints and partially occluded feet unresolved; no crop."
+      },
+      "defects": [],
+      "limitations": [
+        "Flat shallow ribbon water, simplified crowns, regular wood grain, prominent family hardware and irregular stone feet match source disclosures.",
+        "Runtime trees are more angular and saturated than soft sage marketing foliage; not a functional failure.",
+        "Green closed seam reads as exposed lining/gap rather than flush closure.",
+        "Static endpoint images do not verify animation, continuous collision clearance, hidden geometry, input handling or physical-phone performance. Source README test claims are context, not independently rerun here.",
+        "Mobile secondary text and small hardware are difficult to resolve; main title/buttons remain readable. No obvious viewport clipping or UI overlap in the four supplied views.",
+        "Promotional lighting/material realism differs from runtime rendering; that difference alone is not a functional defect."
+      ],
+      "recommendation": "candidate-with-limitations",
+      "inspection_note": "Original marketing.webp direct vision failed twice with HTTP 400. Successfully inspected its full-resolution 1072x976 decoded PNG, without resize/crop/art edits; PNG is in telegram2 scratch.",
+      "source_readme": "parent/sources/gabon/source_readme.md",
+      "source_readme_read": true,
+      "images_inspected": [
+        "parent/sources/gabon/marketing.webp",
+        "parent/smoke/gabon/desktop-closed.png",
+        "parent/smoke/gabon/desktop-open.png",
+        "parent/smoke/gabon/mobile-closed.png",
+        "parent/smoke/gabon/mobile-open.png"
+      ],
+      "art_approval_granted": false
+    },
+    "guinea": {
+      "observations": {
+        "marketing": "Three green peaks with exposed pale rock patches and rounded lower clusters; mottled pink-brown chest, green seam, brass fittings/round disc/side ring and gray feet.",
+        "desktop-closed": "Three unequal highland ridges retained; earth-red mottled surface, conspicuous green gasket and clean brass; fully framed.",
+        "desktop-open": "Hollow empty mottled interior, green rim, raised plain lid and rear hinge pieces; full object and controls visible.",
+        "mobile-closed": "Peak silhouette reads clearly, fine lower vegetation less distinct; material can read as wood rather than mineral, weathering weak.",
+        "mobile-open": "Empty cavity visible though repeated mottling reduces depth separation; hardware looks applied-on, not demonstrably detached; no clipping."
+      },
+      "defects": [],
+      "limitations": [
+        "Simple angular terrain, wood-like mineral reading, conspicuous green gasket and cleaner-than-weathered brass explicitly match README limitations.",
+        "Nimba is transboundary, not exclusive Guinea geography; stylized inspiration rather than survey or exact reconstruction.",
+        "Static endpoint images do not verify animation, continuous collision clearance, hidden geometry, input handling or physical-phone performance. Source README test claims are context, not independently rerun here.",
+        "Mobile secondary text and small hardware are difficult to resolve; main title/buttons remain readable. No obvious viewport clipping or UI overlap in the four supplied views.",
+        "Promotional lighting/material realism differs from runtime rendering; that difference alone is not a functional defect."
+      ],
+      "recommendation": "candidate-with-limitations",
+      "source_readme": "parent/sources/guinea/source_readme.md",
+      "source_readme_read": true,
+      "images_inspected": [
+        "parent/sources/guinea/marketing.webp",
+        "parent/smoke/guinea/desktop-closed.png",
+        "parent/smoke/guinea/desktop-open.png",
+        "parent/smoke/guinea/mobile-closed.png",
+        "parent/smoke/guinea/mobile-open.png"
+      ],
+      "art_approval_granted": false
+    },
+    "indian-ocean": {
+      "observations": {
+        "marketing": "Broken ivory reef ring around pale turquoise lagoon, muted slate-blue lid, flowing blue body pattern, brass hardware and pale rock feet; channels visible but stylized.",
+        "desktop-closed": "Ivory atoll and pale opaque lagoon preserved; brighter cyan-blue body and gray-beige lid depart from midnight palette. Cyan seam has conspicuous stepped corner transitions.",
+        "desktop-open": "Lid appears suspended above rear rim; hinge pieces do not read as a continuous connection. Watery interior texture obscures floor/depth; full model fits.",
+        "mobile-closed": "Atoll concept recognizable, but individual channel continuity is ambiguous at small scale; flat lagoon resembles inlay. Complete model and controls fit.",
+        "mobile-open": "Floating-lid/weak hinge-connection appearance persists; top fitting isolated against background. Cavity visible but floor detail weak; no viewport crop."
+      },
+      "defects": [
+        {
+          "type": "visual-presentation",
+          "severity": "review-required",
+          "observation": "Open lid/hinge connection looks floating/disconnected on both desktop and mobile.",
+          "evidence": [
+            "desktop-open",
+            "mobile-open"
+          ],
+          "functional_defect_confirmed": false
+        },
+        {
+          "type": "visual-presentation",
+          "severity": "minor-review-point",
+          "observation": "Closed seam corner has interrupted/stepped trim appearance. Intended construction versus misalignment cannot be established from still.",
+          "evidence": [
+            "desktop-closed"
+          ],
+          "functional_defect_confirmed": false
+        }
+      ],
+      "limitations": [
+        "Four channels are documented as geometry-tested, but not equally legible in supplied views; this review does not contradict those checks.",
+        "Opaque shallow lagoon, brighter body/paler lid, irregular feet and floating-looking inherited hinge are expressly disclosed by source README.",
+        "Marketing-to-runtime material differences do not independently establish a functional failure.",
+        "Static endpoint images do not verify animation, continuous collision clearance, hidden geometry, input handling or physical-phone performance. Source README test claims are context, not independently rerun here.",
+        "Mobile secondary text and small hardware are difficult to resolve; main title/buttons remain readable. No obvious viewport clipping or UI overlap in the four supplied views.",
+        "Promotional lighting/material realism differs from runtime rendering; that difference alone is not a functional defect."
+      ],
+      "recommendation": "needs-user-review",
+      "hold_preserved": true,
+      "hold_reason": "Existing Indian Ocean hold retained; visual endpoint review cannot clear it or grant art approval.",
+      "source_readme": "parent/sources/indian-ocean/source_readme.md",
+      "source_readme_read": true,
+      "images_inspected": [
+        "parent/sources/indian-ocean/marketing.webp",
+        "parent/smoke/indian-ocean/desktop-closed.png",
+        "parent/smoke/indian-ocean/desktop-open.png",
+        "parent/smoke/indian-ocean/mobile-closed.png",
+        "parent/smoke/indian-ocean/mobile-open.png"
+      ],
+      "art_approval_granted": false
+    }
+  }
+}

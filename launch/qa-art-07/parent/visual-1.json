@@ -1,0 +1,89 @@
+{
+  "review_type": "original-image visual comparison",
+  "final_approval": false,
+  "scope": "Five assigned assets; each original marketing WEBP and four original desktop/mobile closed/open PNGs inspected individually with vision. No boards substituted. Art unchanged.",
+  "verdict_meanings": {
+    "pass": "No material visual blocker identified in these views; caveats remain. Not final approval.",
+    "needs-decision": "A visual presentation or promotional-fidelity concern requires an art-direction decision; not a proven geometry failure."
+  },
+  "limitations": [
+    "Runtime checks were supplied as passing context, not rerun or treated as visual approval.",
+    "Static views cannot establish continuous collision clearance, mechanical functionality, hidden surfaces or physical-phone performance.",
+    "Readmes describe desktop-GPU mobile emulation, stylized procedural assets and sampled mechanical checks, not photorealism or engineering certification.",
+    "Closed-view hidden hinges and open-view disengaged latches are not failures by themselves. Lid-top ornaments are occluded behind the raised lid in front open views, not proven missing.",
+    "Small hardware contacts, cavity floors and fine terrain features are partly occluded or too small for definitive inspection. Promotional shading/detail differences are not automatically geometry defects.",
+    "No root source_readme.md existed; the five per-ID sources/<id>/source_readme.md files were located and read instead."
+  ],
+  "findings": [
+    {
+      "id": "arctic-ocean",
+      "verdict": "needs-decision",
+      "context_path": "sources/arctic-ocean/source_readme.md",
+      "inspected_paths": ["sources/arctic-ocean/marketing.webp", "smoke/arctic-ocean/desktop-closed.png", "smoke/arctic-ocean/desktop-open.png", "smoke/arctic-ocean/mobile-closed.png", "smoke/arctic-ocean/mobile-open.png"],
+      "hardware": "Warm brass clasp, round front disc, left ring and lid corner caps remain recognizable across promotional and runtime closed views. Open views show two rear hinges and the released lid-mounted tab. No clear detached fitting or gross break is evidenced.",
+      "terrain": "Pale separate rectangular floes and blue leads are readable. Rear upright blocks read partly architectural. Promo gives these blocks frosted/translucent ice-like depth; runtime reads as opaque pale blocks, consistent with the README's enamel/porcelain limitation. Small enclosed ponds are not clearly distinguished at mobile size.",
+      "texture": "Promo has richer frosted mottling and subtler body tracery. Runtime pale line motifs repeat conspicuously; desktop front has straight-bounded tonal/pattern discontinuities, and corner transitions are abrupt. These are visible surface-treatment concerns, not proof of broken mesh or an unintended UV error.",
+      "mobile_observations": "Closed ice silhouette and main clasp remain readable; fine ponds and seating contacts do not. Both mobile states fit fully without visible clipping or controls overlapping the model.",
+      "open_observations": "Flat teal inner lid, blue lined cavity, rim and rear hinges are visible. Full raised silhouette and projecting tab are framed. Lower cavity remains partly hidden; terrain is on the opposite lid face.",
+      "promotional_finish_vs_geometry": "Primary mismatch is icy/translucent promotional finish versus opaque stylized runtime shading, plus conspicuous runtime body repetition. No unequivocal geometry defect established.",
+      "decision_needed": "Decide whether the promotional ice treatment overstates the intended porcelain-like runtime appearance and whether the front texture discontinuities are acceptable decorative panel treatment.",
+      "limitations": ["No alternate rear/top inspection or animation examined.", "Cannot infer transparent materials or exact attachment quality from promo highlights alone."]
+    },
+    {
+      "id": "bahrain",
+      "verdict": "pass",
+      "context_path": "sources/bahrain/source_readme.md",
+      "inspected_paths": ["sources/bahrain/marketing.webp", "smoke/bahrain/desktop-closed.png", "smoke/bahrain/desktop-open.png", "smoke/bahrain/mobile-closed.png", "smoke/bahrain/mobile-open.png"],
+      "hardware": "Brass front clasp, corner caps and inset edging are coherent across promo/runtime. Two rear hinges and released tab appear in open views. Tiny shell seating details are difficult to resolve, but no clear unattached or broken component is visible.",
+      "terrain": "No landscape terrain is intended. Pearl-bearing shell on teal inset reads clearly; regular fan ribs look scallop-like rather than a biologically accurate oyster, as disclosed in the README. Pearl is readable as a glossy white sphere.",
+      "texture": "Cream cloudy stone, teal inset and brass palette carry through. Promo is more softly polished with a paler blue-gray inset; runtime is more saturated teal and simplified. Fine porosity and nacre are not strongly resolved.",
+      "mobile_observations": "Shell/pearl silhouette survives downscaling, while lower shell and tiny brass cradle details merge. Main clasp remains legible. Both states fully framed; fine secondary UI text is small.",
+      "open_observations": "Plain pale underside, teal rim, empty-looking recessed cavity and rear hinges are visible. No gross cavity intrusion or surface break apparent. Pearl is occluded on opposite lid face, not missing.",
+      "promotional_finish_vs_geometry": "Differences are predominantly lighting, saturation and material polish. Strong teal closed seam is present as a design band; it does not establish an unclosed lid or geometry defect.",
+      "decision_needed": null,
+      "limitations": ["Shell attachment contacts and pearl microfinish cannot be verified at screenshot scale.", "Cavity depth and full hinge motion remain unverified by stills."]
+    },
+    {
+      "id": "bolivia",
+      "verdict": "needs-decision",
+      "context_path": "sources/bolivia/source_readme.md",
+      "inspected_paths": ["sources/bolivia/marketing.webp", "smoke/bolivia/desktop-closed.png", "smoke/bolivia/desktop-open.png", "smoke/bolivia/mobile-closed.png", "smoke/bolivia/mobile-open.png"],
+      "hardware": "Brass corner caps, long front clasp, round disc and left ring are consistent visible features. Pale irregular stone-like feet remain present. Open views expose rear hinges and released tab; no demonstrated broken hardware.",
+      "terrain": "Blue inset with pale polygon loops and small ochre relief retains the Uyuni concept. Promo presents more strongly raised, regular lattice-like crust; runtime lines are finer and flatter-looking at default scale. Ochre relief is faceted and mound-like rather than geographically specific.",
+      "texture": "White horizontal body courses read as planks or ceramic/masonry more readily than crystalline salt in both treatments, consistent with README. Promo gives feet and crust stronger granular detail; runtime pale surfaces are smoother and lower contrast.",
+      "mobile_observations": "Ochre peak and blue lid remain recognizable, but salt polygon relief becomes faint. Main clasp is readable; fine fittings merge. Full closed and open silhouettes fit without clipping.",
+      "open_observations": "Broad plain white underside and pale cavity are visible with blue-gray rim. Low contrast weakens wall/floor separation; no obvious intrusion or break. Landscape is hidden behind lid, not proven absent.",
+      "promotional_finish_vs_geometry": "Raised promotional salt lattice versus fine runtime lines is a relief/readability mismatch, not sufficient evidence that runtime geometry is absent. Readme reports physical loops; stills do not independently verify their depth.",
+      "decision_needed": "Decide whether the subtler runtime salt crust and plank-like body meet the visual promise of the more granular, strongly raised promo treatment.",
+      "limitations": ["No close-up or alternate light to distinguish shallow physical relief from shading.", "Pale interior depth and tiny mounting contacts cannot be established precisely."]
+    },
+    {
+      "id": "cabo-verde",
+      "verdict": "needs-decision",
+      "context_path": "sources/cabo-verde/source_readme.md",
+      "inspected_paths": ["sources/cabo-verde/marketing.webp", "smoke/cabo-verde/desktop-closed.png", "smoke/cabo-verde/desktop-open.png", "smoke/cabo-verde/mobile-closed.png", "smoke/cabo-verde/mobile-open.png"],
+      "hardware": "Brass long clasp, front disc, left ring and corner fittings remain recognizable; open captures show rear hinges and released tab. Front disc's function is not visually obvious but it is not evidence of a detached part. No gross hardware break established.",
+      "terrain": "Volcanic cone and lower ridges carry through. Promo exposes a clearer crater opening and textured interior; default runtime angle emphasizes the peak, leaving crater depth and horseshoe caldera opening difficult to read, especially on mobile. This is a readability issue, not proof of a flat or missing crater.",
+      "texture": "Mottled gray/brown stone with rust/ash bands persists. Promo is more granular and dimensional; runtime mottling can read cloudy concrete, while broad terrain color patches look applied/procedural. These align with disclosed stylization limitations.",
+      "mobile_observations": "Volcanic silhouette and brass clasp read clearly, but caldera basin/opening and symbolic cultivated details do not. Texture becomes muddy at this scale. Both states are fully framed.",
+      "open_observations": "Stone underside, dark cavity, blue rim and rear hinges are visible. Dark interior limits floor/depth inspection. Terrain is concealed on opposite lid face. Projecting released latch remains within frame.",
+      "promotional_finish_vs_geometry": "Concern is weaker runtime recognition of the named caldera and crater compared with promo. README describes a tested recess and opening; this review neither independently confirms nor contradicts those geometry measurements.",
+      "decision_needed": "Decide whether default desktop/mobile crater visibility is adequate for the Atlantic Caldera identity or whether presentation/art needs refinement before acceptance.",
+      "limitations": ["A higher or rear camera would be needed to evaluate the caldera opening directly.", "No continuous motion or fine hardware contact inspection performed."]
+    },
+    {
+      "id": "colombia",
+      "verdict": "pass",
+      "context_path": "sources/colombia/source_readme.md",
+      "inspected_paths": ["sources/colombia/marketing.webp", "smoke/colombia/desktop-closed.png", "smoke/colombia/desktop-open.png", "smoke/colombia/mobile-closed.png", "smoke/colombia/mobile-open.png"],
+      "hardware": "Brass front clasp, round disc, left ring and corner caps retain the family layout across promo/runtime. Irregular gray supports remain visible. Open rear hinges and released tab are recognizable; no unambiguous broken or floating part established.",
+      "terrain": "Low green cultivated hills, repeated shrub clusters and cream farmhouse with terracotta roof retain the same concept. Low rolling relief is not a dramatic mountain skyline, as disclosed. House is a useful scale cue; coffee species relies on title/context.",
+      "texture": "Honey bamboo-like vertical strips with conspicuously repeated scalloped nodes appear in both promo and runtime. Pattern reads stamped/ribbed rather than natural bamboo; this is a shared stylization caveat, not a new runtime defect. Promo adds softer lighting, rougher feet and richer material detail.",
+      "mobile_observations": "House silhouette, hill and plant rows remain visible; shrubs can read bead-like and tiny architectural details disappear. Main latch remains legible. No closed/open silhouette clipping or model/control overlap evident.",
+      "open_observations": "Bamboo-patterned underside and inner walls, green rim, cavity and hinges are visible. Front wall obscures part of lower interior; top landscape is occluded behind raised lid. Complete open silhouette fits.",
+      "promotional_finish_vs_geometry": "Core composition, palette and hardware agree; differences are mostly lighting and polished promotional finish. Repetition and schematic terrain are disclosed artistic limits rather than evidenced geometry failures.",
+      "decision_needed": null,
+      "limitations": ["Small farmhouse details and coffee identity cannot be independently established from mobile view.", "Static front views cannot certify hidden landscape attachment or full cavity depth."]
+    }
+  ]
+}

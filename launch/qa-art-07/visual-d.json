@@ -1,0 +1,226 @@
+{
+  "reviewer": "visual-d",
+  "scope": "Independent static visual review only; no art edits or approval.",
+  "inspected_image_count": 25,
+  "source_readme_count": 5,
+  "method": "Each original marketing.webp and all four supplied smoke PNGs opened individually with vision_analyze; all five source_readme.md files read. No contact-sheet substitution.",
+  "global_limitations": [
+    "Still images do not verify interaction, animation, continuous collision, hidden geometry, hardware attachment, physical-device performance or accessibility compliance.",
+    "Source README technical results are provenance claims read for context, not re-executed or independently certified here.",
+    "Marketing render lighting differs from viewer lighting; no exact photometric/reference equivalence claimed.",
+    "Small helper/disclaimer text across mobile captures; readable primary title/buttons but no measured contrast or real-device accessibility test.",
+    "README-disclosed source render sampling grain is not automatically a broken texture."
+  ],
+  "assets": [
+    {
+      "id": "niger",
+      "source_readme": "parent/sources/niger/source_readme.md",
+      "source_readme_read": true,
+      "images": [
+        {
+          "path": "parent/sources/niger/marketing.webp",
+          "inspected": true,
+          "observations": "Original marketing: pale sand/mineral body reads strongly as wood; shallow dune surface and dark faceted rear outcrop visible. Brass clasp, corner caps, round front disc, side ring and dark stone feet retained; conspicuous dark lid seam."
+        },
+        {
+          "path": "parent/smoke/niger/desktop-closed.png",
+          "inspected": true,
+          "observations": "Desktop closed: warmer/golder than marketing; dune relief is visible but subdued, outcrop looks rock-like rather than specifically volcanic. Complete framing; closed seam looks slightly ajar."
+        },
+        {
+          "path": "parent/smoke/niger/desktop-open.png",
+          "inspected": true,
+          "observations": "Desktop open: empty cavity and raised lid visible without clipping. Rear hinges and released upper latch have visually under-explained attachment/gaps; terrain is hidden behind lid."
+        },
+        {
+          "path": "parent/smoke/niger/mobile-closed.png",
+          "inspected": true,
+          "observations": "Mobile closed: complete model, title and controls fit. Low dunes and dark feet lose definition; body/brass palette has limited separation."
+        },
+        {
+          "path": "parent/smoke/niger/mobile-open.png",
+          "inspected": true,
+          "observations": "Mobile open: full lid, projecting latch and feet fit; hollow opening readable. Small hinge connections cannot be resolved; Close lid label matches pose."
+        }
+      ],
+      "defects": [],
+      "defect_assessment": "No unequivocal broken geometry, missing asset or clipped model demonstrated in the supplied stills. Apparent seams/attachment gaps are recorded as visual concerns, not confirmed mechanical defects.",
+      "limitations": [
+        "Wood-like rather than unambiguously mineral body; shallow dunes and generic faceted rock.",
+        "Conspicuous closed seam and apparent open hardware separation are disclosed presentation limitations, not independently established mechanical failures."
+      ],
+      "recommendation": "candidate-with-limitations",
+      "hold_preserved": false,
+      "rationale": "Coherent theme and complete desktop/mobile closed/open framing; retain disclosed material, detail and readability limitations. Candidate status is not approval.",
+      "approval_granted": false
+    },
+    {
+      "id": "palau",
+      "source_readme": "parent/sources/palau/source_readme.md",
+      "source_readme_read": true,
+      "images": [
+        {
+          "path": "parent/sources/palau/marketing.webp",
+          "inspected": true,
+          "observations": "Original marketing: pale mottled stone/ceramic body, turquoise lagoon and six green mounds with pale shoreline bands are distinguishable. Brass family fittings retained; teal reveal beneath lid is conspicuous."
+        },
+        {
+          "path": "parent/smoke/palau/desktop-closed.png",
+          "inspected": true,
+          "observations": "Desktop closed: six islands and lagoon channels readable; low crowns read as miniature mounds rather than detailed forests. Full model fits; teal reveal can read as an incompletely closed lid."
+        },
+        {
+          "path": "parent/smoke/palau/desktop-open.png",
+          "inspected": true,
+          "observations": "Desktop open: pale inner lid and hollow pale cavity visible; teal rim interrupted by pale corner blocks. Hinges and projecting latch visible, full silhouette contained; lagoon terrain hidden by front-open view."
+        },
+        {
+          "path": "parent/smoke/palau/mobile-closed.png",
+          "inspected": true,
+          "observations": "Mobile closed: two-line title fits, island groups and turquoise surface remain readable. Complete silhouette and controls; shoreline detail and small hardware reduced at this scale."
+        },
+        {
+          "path": "parent/smoke/palau/mobile-open.png",
+          "inspected": true,
+          "observations": "Mobile open: raised lid, latch tab, cavity and feet fit. Brass connections are small but no clearly detached part or gross intersection is demonstrated."
+        }
+      ],
+      "defects": [],
+      "defect_assessment": "No unequivocal broken geometry, missing asset or clipped model demonstrated in the supplied stills. Apparent seams/attachment gaps are recorded as visual concerns, not confirmed mechanical defects.",
+      "limitations": [
+        "Mottled ceramic-like stone, sage-green mound forests and enamel/resin-like lagoon rather than realistic water or karst.",
+        "Teal seam can suggest raised lid; simple shoreline bands and long decorative clasp are disclosed."
+      ],
+      "recommendation": "candidate-with-limitations",
+      "hold_preserved": false,
+      "rationale": "Coherent theme and complete desktop/mobile closed/open framing; retain disclosed material, detail and readability limitations. Candidate status is not approval.",
+      "approval_granted": false
+    },
+    {
+      "id": "portugal",
+      "source_readme": "parent/sources/portugal/source_readme.md",
+      "source_readme_read": true,
+      "images": [
+        {
+          "path": "parent/sources/portugal/marketing.webp",
+          "inspected": true,
+          "observations": "Original marketing: cobalt/ivory four-petal tile repeat and three blue-ivory-blue extruded wave strips visible. Matte surface reads as decorative skin rather than individual glazed tiles; motifs truncate at edges. Brass fittings and pale feet visible."
+        },
+        {
+          "path": "parent/smoke/portugal/desktop-closed.png",
+          "inspected": true,
+          "observations": "Desktop closed: tile/wave identity coherent, three chunky wave fins apparent. Pale side/lid pattern softer than front; dark blue closed reveal prominent. Entire object fits."
+        },
+        {
+          "path": "parent/smoke/portugal/desktop-open.png",
+          "inspected": true,
+          "observations": "Desktop open: decorated inner lid and inner walls readable, dark blue rim and brass hinges visible. Full silhouette fits; cavity floor is partly obscured, not demonstrably missing."
+        },
+        {
+          "path": "parent/smoke/portugal/mobile-closed.png",
+          "inspected": true,
+          "observations": "Mobile closed: two-line title and model fit; pale tile detail loses contrast and central ivory wave is less immediate. Latch/rim detail crowded but no proven geometry collision."
+        },
+        {
+          "path": "parent/smoke/portugal/mobile-open.png",
+          "inspected": true,
+          "observations": "Mobile open: hollow mouth and patterned walls readable, upper latch tab and feet within viewport. Pattern continuity at corners and fine edges unresolved at this resolution."
+        }
+      ],
+      "defects": [],
+      "defect_assessment": "No unequivocal broken geometry, missing asset or clipped model demonstrated in the supplied stills. Apparent seams/attachment gaps are recorded as visual concerns, not confirmed mechanical defects.",
+      "limitations": [
+        "Continuous procedural tile skin with clipped repeats, restrained glaze and chunky wave fins.",
+        "Pale central wave and exact wave count less immediate on mobile; low-contrast fine pattern and conspicuous reveal."
+      ],
+      "recommendation": "candidate-with-limitations",
+      "hold_preserved": false,
+      "rationale": "Coherent theme and complete desktop/mobile closed/open framing; retain disclosed material, detail and readability limitations. Candidate status is not approval.",
+      "approval_granted": false
+    },
+    {
+      "id": "saint-vincent-and-the-grenadines",
+      "source_readme": "parent/sources/saint-vincent-and-the-grenadines/source_readme.md",
+      "source_readme_read": true,
+      "images": [
+        {
+          "path": "parent/sources/saint-vincent-and-the-grenadines/marketing.webp",
+          "inspected": true,
+          "observations": "Original marketing: charcoal mottled box, turquoise enamel-like sea, raised green volcano with visible recessed crater, five pale-edged cays and thin reef arc. Reef reads as decorative line rather than coral; brass clasp/corner fittings visible."
+        },
+        {
+          "path": "parent/smoke/saint-vincent-and-the-grenadines/desktop-closed.png",
+          "inspected": true,
+          "observations": "Desktop closed: volcano and five cays distinguishable; complete box framing. Stone sides and feet low-contrast against background; landscape is schematic, not geographic evidence."
+        },
+        {
+          "path": "parent/smoke/saint-vincent-and-the-grenadines/desktop-open.png",
+          "inspected": true,
+          "observations": "Desktop open: empty cavity and stone inner lid readable; brass hinges/latch have visually ambiguous attachment across rear gap. Complete silhouette fits; lid-top geography hidden from this front view."
+        },
+        {
+          "path": "parent/smoke/saint-vincent-and-the-grenadines/mobile-closed.png",
+          "inspected": true,
+          "observations": "Mobile closed: full title wraps across three lines without clipping; complete model fits. Summit reads more as jagged/notched ridge than a clear crater; reef arc remains schematic."
+        },
+        {
+          "path": "parent/smoke/saint-vincent-and-the-grenadines/mobile-open.png",
+          "inspected": true,
+          "observations": "Mobile open: raised lid, upper tab and feet fit; hollow cavity readable but floor/wall separation subdued. Controls and About row fit. Lower collection identifier is not visible in this capture, unlike desktop; this alone does not establish page clipping."
+        }
+      ],
+      "defects": [],
+      "defect_assessment": "No unequivocal broken geometry, missing asset or clipped model demonstrated in the supplied stills. Apparent seams/attachment gaps are recorded as visual concerns, not confirmed mechanical defects.",
+      "limitations": [
+        "Crater visible in original but poorly legible at mobile scale; thin reef arc reads as wire.",
+        "Faceted cays, enamel sea and compressed invented geography; open attachment details visually under-explained."
+      ],
+      "recommendation": "needs-user-review",
+      "hold_preserved": true,
+      "rationale": "Existing user-review hold retained regardless of technical README passes or this visual inspection. No release or approval.",
+      "approval_granted": false
+    },
+    {
+      "id": "sierra-leone",
+      "source_readme": "parent/sources/sierra-leone/source_readme.md",
+      "source_readme_read": true,
+      "images": [
+        {
+          "path": "parent/sources/sierra-leone/marketing.webp",
+          "inspected": true,
+          "observations": "Original marketing: three separate trunks and lobed crowns visible on green raised ground. Finger-like blunt roots sit prominently on surface; deep repeated body furrows read as scored wood/cuts. Brass clasp, corner caps, side ring and round disc visible; stone feet retained."
+        },
+        {
+          "path": "parent/smoke/sierra-leone/desktop-closed.png",
+          "inspected": true,
+          "observations": "Desktop closed: three ornamental trees readable and all silhouettes fit. Lid top shifts pale sage in lighting; bark relief has repetitive abrupt ends and stronger front texture. No obvious missing tree or major mesh failure."
+        },
+        {
+          "path": "parent/smoke/sierra-leone/desktop-open.png",
+          "inspected": true,
+          "observations": "Desktop open: grove hidden behind raised lid, green inner lid and empty cavity visible. Rear gap and small hinge connections can make lid look suspended; full silhouette fits. Floor partly obscured, not proven absent."
+        },
+        {
+          "path": "parent/smoke/sierra-leone/mobile-closed.png",
+          "inspected": true,
+          "observations": "Mobile closed: three trunks readable, neighboring crowns partially merge. Roots angular and tiny, brass relatively flat at this scale; model/title/controls fit."
+        },
+        {
+          "path": "parent/smoke/sierra-leone/mobile-open.png",
+          "inspected": true,
+          "observations": "Mobile open: full raised lid, isolated-looking upper latch tab, body and feet fit. Cavity readable; fine hinge/contact geometry cannot be determined from static capture."
+        }
+      ],
+      "defects": [],
+      "defect_assessment": "No unequivocal broken geometry, missing asset or clipped model demonstrated in the supplied stills. Apparent seams/attachment gaps are recorded as visual concerns, not confirmed mechanical defects.",
+      "limitations": [
+        "Lobed ornamental trees rather than dense rainforest; crown overlap and blunt roots.",
+        "Deep scored-wood body, uneven front/side relief and pale-lit green lid; open projection hides grove."
+      ],
+      "recommendation": "needs-user-review",
+      "hold_preserved": true,
+      "rationale": "Existing user-review hold retained regardless of technical README passes or this visual inspection. No release or approval.",
+      "approval_granted": false
+    }
+  ]
+}
