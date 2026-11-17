@@ -11,6 +11,7 @@ class TransferWorker {
     store,
     chain,
     canary,
+    authorization,
     rpc,
     pool,
     inventory,
@@ -22,7 +23,7 @@ class TransferWorker {
     maxAttempts = 3,
     retryMs = 1000,
   } = {}) {
-    Canary.bind(this, { chain, canary });
+    Canary.bind(this, { chain, canary, authorization });
     if (!Number.isSafeInteger(fee) || fee < 1 || fee > Canary.CAPS.fee)
       throw Error("Invalid fee cap");
     if (
@@ -76,7 +77,15 @@ class TransferWorker {
   }
   async guard() {
     this.checkCaps();
-    Canary.chain(this.policy, (await this.rpc("getblockchaininfo")).chain);
+    let info;
+    try {
+      info = await this.rpc("getblockchaininfo");
+    } catch {
+      const e = Error("Chain observation unavailable");
+      e.code = "CHAIN_OBSERVATION_UNAVAILABLE";
+      throw e;
+    }
+    Canary.chain(this.policy, info.chain);
     this.checkCaps();
   }
   async unspent(tx, index) {
@@ -108,12 +117,81 @@ class TransferWorker {
     const block = await this.rpc("getblock", [detail.blockhash]);
     return block.confirmations > 0 && block.tx.includes(txid);
   }
+  // Observation is independent of custody history. Holds are monotonic and
+  // require operator reconciliation; a healthy later read never clears one.
+  async observeFinality(id, b, included, unavailable = false) {
+    const reasons = new Set(b.reconciliationReasons || []);
+    if (unavailable) reasons.add("TRANSFER_OBSERVATION_UNAVAILABLE");
+    else if (!included && ["TRANSFERRED", "OPENED"].includes(b.state))
+      reasons.add("TRANSFER_FINALITY_LOST");
+    let excess = false;
+    try {
+      const p = await this.paymentTransport.read(b.payAddress, this.depth);
+      if (
+        !p ||
+        !Number.isSafeInteger(p.satoshis) ||
+        p.satoshis < 0 ||
+        !Number.isSafeInteger(p.confirmations) ||
+        p.confirmations < 0
+      ) {
+        reasons.add("PAYMENT_OBSERVATION_UNAVAILABLE");
+      } else {
+        if (p.satoshis < b.priceSats || p.confirmations < this.depth)
+          reasons.add("PAYMENT_FINALITY_LOST");
+        if (p.satoshis > b.priceSats) {
+          reasons.add("PAYMENT_EXCESS");
+          excess = true;
+        }
+      }
+    } catch {
+      reasons.add("PAYMENT_OBSERVATION_UNAVAILABLE");
+    }
+    const patch = {};
+    if (included && b.state === "PAID_PENDING") {
+      patch.state = "TRANSFERRED";
+      patch.transfer = { ...b.transfer, stage: "INCLUDED" };
+    }
+    const all = [...reasons].sort();
+    if (
+      all.length &&
+      (!b.reconciliationRequired ||
+        JSON.stringify(all) !== JSON.stringify(b.reconciliationReasons))
+    ) {
+      patch.reconciliationRequired = true;
+      patch.reconciliationReasons = all;
+    }
+    if (excess && !b.refundRequired) patch.refundRequired = true;
+    return Object.keys(patch).length ? this.store.update(id, patch) : b;
+  }
   async run(id) {
     if (active.has(this.store)) return;
     active.add(this.store);
     try {
-      await this.guard();
-      let b = this.store.get(id);
+      let b;
+      try {
+        await this.guard();
+      } catch (e) {
+        if (e.code !== "CHAIN_OBSERVATION_UNAVAILABLE") throw e;
+        this.checkCaps();
+        b = this.store.get(id);
+        if (
+          !b.transfer?.raw ||
+          !["PAID_PENDING", "TRANSFERRED", "OPENED"].includes(b.state)
+        )
+          throw e;
+        return await this.observeFinality(id, b, false, true);
+      }
+      b = this.store.get(id);
+      if (["TRANSFERRED", "OPENED"].includes(b.state) && b.transfer?.raw) {
+        let included = false,
+          unavailable = false;
+        try {
+          included = await this.included(b.transfer.txid, b.transfer.raw);
+        } catch {
+          unavailable = true;
+        }
+        return await this.observeFinality(id, b, included, unavailable);
+      }
       if (b.state !== "PAID_PENDING") return b;
       if (b.transfer?.stage === "RESERVING")
         throw Error(
@@ -188,12 +266,20 @@ class TransferWorker {
       }
       b = this.store.get(id);
       let tr = b.transfer;
-      if (await this.included(tr.txid, tr.raw)) {
-        return this.store.update(id, {
-          state: "TRANSFERRED",
-          transfer: { ...tr, stage: "INCLUDED" },
-        });
+      let included = false,
+        unavailable = false;
+      try {
+        included = await this.included(tr.txid, tr.raw);
+      } catch {
+        unavailable = true;
       }
+      if (
+        included ||
+        unavailable ||
+        tr.stage === "SUBMITTED" ||
+        b.reconciliationRequired
+      )
+        return await this.observeFinality(id, b, included, unavailable);
       if (
         tr.stage === "SUBMITTED" ||
         tr.attempts >= this.maxAttempts ||

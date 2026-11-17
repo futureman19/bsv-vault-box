@@ -1,0 +1,92 @@
+✔ included transfer revalidates missing payment, preserves buyer history and durable hold (93.771ms)
+✔ terminal transfer inclusion loss is monitored and never demotes OPENED ownership (25.6908ms)
+✔ read failures are uncertainty not proven loss and holds remain after healthy observation (18.1907ms)
+✔ submitted payment loss is observed without replacement and read-only observation is idempotent (82.7466ms)
+✖ chain-info outage durably records uncertainty without bypassing policy caps (15.5199ms)
+✔ late overpayment preserves TRANSFERRED with durable refund hold (84.1553ms)
+✔ late overpayment preserves OPENED with durable refund hold (82.5868ms)
+✔ read-only recovery identifies RESERVING and exact persisted transaction (2.8361ms)
+✔ read-only recovery identifies BUILT and exact persisted transaction (105.3509ms)
+✔ read-only recovery identifies SUBMITTED and exact persisted transaction (110.087ms)
+✔ read-only recovery identifies INCLUDED and exact persisted transaction (104.9209ms)
+✔ read-only recovery identifies UNCERTAIN and exact persisted transaction (108.279ms)
+✔ RESERVING before and after dispense never guesses funding assignment (2.1925ms)
+✔ send succeeded before stage persistence: matching captured inclusion resolves observation not auto-resume (55.1619ms)
+✔ inconsistent evidence stays quarantined: truncated sale write (1.3459ms)
+✔ inconsistent evidence stays quarantined: short pool write (0.3264ms)
+✔ inconsistent evidence stays quarantined: missing dispense (2.1562ms)
+✔ inconsistent evidence stays quarantined: wrong txid (1.9718ms)
+✔ inconsistent evidence stays quarantined: wrong source bytes (1.9984ms)
+✔ inconsistent evidence stays quarantined: duplicate dispense (1.2277ms)
+✔ inconsistent evidence stays quarantined: ambiguous pool mapping (1.2095ms)
+✔ inconsistent evidence stays quarantined: changed buyer on replay (1.3254ms)
+✔ inconsistent evidence stays quarantined: contradictory captured bytes (100.4457ms)
+✔ inconsistent evidence stays quarantined: false captured block membership (97.5557ms)
+✖ cross-sale claims on identical transfer and funding are inconsistent (61.6849ms)
+✖ captured inclusion loss is distinct from historical INCLUDED (53.8817ms)
+ℹ tests 26
+ℹ suites 0
+ℹ pass 23
+ℹ fail 3
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2004.2482
+
+✖ failing tests:
+
+test at mint\test\finality.test.js:46:1
+✖ chain-info outage durably records uncertainty without bypassing policy caps (15.5199ms)
+  Error: offline
+      at h.w.rpc (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_4bd2681c\mint\test\finality.test.js:47:111)
+      at TransferWorker.guard (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_4bd2681c\mint\transfer.js:80:43)
+      at TransferWorker.run (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_4bd2681c\mint\transfer.js:154:18)
+      at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_4bd2681c\mint\test\finality.test.js:47:156)
+      at async Test.run (node:internal/test_runner/test:1113:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7)
+
+test at mint\test\recovery.test.js:34:1
+✖ cross-sale claims on identical transfer and funding are inconsistent (61.6849ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'BUILT'
+  - 'INCONSISTENT'
+  
+      at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_4bd2681c\mint\test\recovery.test.js:34:194)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:788:18)
+      at Test.postRun (node:internal/test_runner/test:1235:19)
+      at Test.run (node:internal/test_runner/test:1163:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'BUILT',
+    expected: 'INCONSISTENT',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at mint\test\recovery.test.js:35:1
+✖ captured inclusion loss is distinct from historical INCLUDED (53.8817ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'INCLUDED'
+  - 'FINALITY_LOST'
+  
+      at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_4bd2681c\mint\test\recovery.test.js:35:204)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:788:18)
+      at Test.postRun (node:internal/test_runner/test:1235:19)
+      at Test.run (node:internal/test_runner/test:1163:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'INCLUDED',
+    expected: 'FINALITY_LOST',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

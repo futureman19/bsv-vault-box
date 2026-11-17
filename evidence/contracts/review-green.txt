@@ -1,0 +1,34 @@
+✔ included transfer revalidates missing payment, preserves buyer history and durable hold (27.2116ms)
+✔ terminal transfer inclusion loss is monitored and never demotes OPENED ownership (20.0428ms)
+✔ read failures are uncertainty not proven loss and holds remain after healthy observation (19.0708ms)
+✔ submitted payment loss is observed without replacement and read-only observation is idempotent (17.1744ms)
+✔ chain-info outage durably records uncertainty without bypassing policy caps (20.901ms)
+✔ late overpayment preserves TRANSFERRED with durable refund hold (19.7075ms)
+✔ late overpayment preserves OPENED with durable refund hold (19.5077ms)
+✔ read-only recovery identifies RESERVING and exact persisted transaction (3.1745ms)
+✔ read-only recovery identifies BUILT and exact persisted transaction (99.9422ms)
+✔ read-only recovery identifies SUBMITTED and exact persisted transaction (98.4355ms)
+✔ read-only recovery identifies INCLUDED and exact persisted transaction (110.3486ms)
+✔ read-only recovery identifies UNCERTAIN and exact persisted transaction (100.7778ms)
+✔ RESERVING before and after dispense never guesses funding assignment (1.4221ms)
+✔ send succeeded before stage persistence: matching captured inclusion resolves observation not auto-resume (53.0278ms)
+✔ inconsistent evidence stays quarantined: truncated sale write (1.9704ms)
+✔ inconsistent evidence stays quarantined: short pool write (0.3125ms)
+✔ inconsistent evidence stays quarantined: missing dispense (2.5736ms)
+✔ inconsistent evidence stays quarantined: wrong txid (2.2791ms)
+✔ inconsistent evidence stays quarantined: wrong source bytes (2.4429ms)
+✔ inconsistent evidence stays quarantined: duplicate dispense (1.3054ms)
+✔ inconsistent evidence stays quarantined: ambiguous pool mapping (1.2313ms)
+✔ inconsistent evidence stays quarantined: changed buyer on replay (1.352ms)
+✔ inconsistent evidence stays quarantined: contradictory captured bytes (103.9071ms)
+✔ inconsistent evidence stays quarantined: false captured block membership (104.5309ms)
+✔ cross-sale claims on identical transfer and funding are inconsistent (1.4976ms)
+✔ captured inclusion loss is distinct from historical INCLUDED (53.4086ms)
+ℹ tests 26
+ℹ suites 0
+ℹ pass 26
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1338.252

@@ -1,0 +1,58 @@
+[
+  {
+    "gate": "vm-tests",
+    "argv": [
+      "node_modules/mocha/bin/mocha.js",
+      "--no-config",
+      "tests/ordinal-pair.test.js",
+      "tests/ordinal-sponsored.test.js",
+      "tests/native-custody.test.js",
+      "tests/four-ordinal.test.js",
+      "tests/four-ordinal-sponsored.test.js"
+    ],
+    "cwd": ".audit-sources/bundle/vault",
+    "exit": 0
+  },
+  {
+    "gate": "pair-vectors",
+    "argv": [
+      "scripts/ordinal-pair-vectors.js"
+    ],
+    "cwd": ".audit-sources/bundle/vault",
+    "exit": 0
+  },
+  {
+    "gate": "sponsor-vectors",
+    "argv": [
+      "scripts/ordinal-sponsored-vectors.js"
+    ],
+    "cwd": ".audit-sources/bundle/vault",
+    "exit": 0
+  },
+  {
+    "gate": "four-vectors",
+    "argv": [
+      "scripts/four-ordinal-vectors.js"
+    ],
+    "cwd": ".audit-sources/bundle/vault",
+    "exit": 0
+  },
+  {
+    "gate": "node-evidence-replay",
+    "argv": [
+      "scripts/four-ordinal-regtest-replay.js",
+      "../evidence/four-ordinal-sponsored/regtest-run-1"
+    ],
+    "cwd": ".audit-sources/bundle/vault",
+    "exit": 0
+  },
+  {
+    "gate": "typecheck",
+    "argv": [
+      "node_modules/typescript/bin/tsc",
+      "--noEmit"
+    ],
+    "cwd": ".audit-sources/bundle/vault",
+    "exit": 0
+  }
+]

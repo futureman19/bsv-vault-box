@@ -1,0 +1,58 @@
+
+
+  single collectible with detached signed launch record
+    1) accepts canonical detached record independently of serialized custody replay
+    ✔ retains immutable origin, one-sat principals and fresh valid sponsor preparations through withdrawal (629ms)
+    ✔ rejects provenance: unknown issuer (232ms)
+    ✔ rejects provenance: forged signature (200ms)
+    ✔ rejects provenance: missing external policy (207ms)
+    ✔ rejects provenance: wrong collection policy (220ms)
+    ✔ rejects provenance: wrong design policy (223ms)
+    ✔ rejects provenance: extra envelope field (316ms)
+    ✔ rejects provenance: noncanonical statement (271ms)
+    ✔ rejects provenance: changed origin (240ms)
+    ✔ rejects provenance: uppercase digest (292ms)
+    ✔ rejects provenance: extra statement field (313ms)
+    ✔ rejects provenance: missing statement field (274ms)
+    ✔ rejects manifest: tampered metadata (295ms)
+    ✔ rejects manifest: noncanonical metadata (245ms)
+    ✔ rejects manifest: changed media bytes (260ms)
+    ✔ rejects manifest: missing art (337ms)
+    ✔ rejects copied current script presented as original independently of its label
+    ✔ rejects unsupported full-art grammar
+    ✔ rejects missing, duplicate and substituted principal serialized spends (285ms)
+    ✔ rejects sealed withdrawal, former owner open/withdraw and opened-to-seal reuse (159ms)
+
+
+  20 passing (5s)
+  1 failing
+
+  1) single collectible with detached signed launch record
+       accepts canonical detached record independently of serialized custody replay:
+
+      AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
++ actual - expected
+
+  {
+    currentCustodyIntegrity: true,
++   originalIssuanceProvenance: false,
++   originalManifestComplete: false
+-   originalIssuanceProvenance: true,
+-   originalManifestComplete: true
+  }
+
+      + expected - actual
+
+       {
+         "currentCustodyIntegrity": true
+      -  "originalIssuanceProvenance": false
+      -  "originalManifestComplete": false
+      +  "originalIssuanceProvenance": true
+      +  "originalManifestComplete": true
+       }
+      
+      at Context.<anonymous> (vault\tests\launch-record.test.js:8:10)
+      at process.processImmediate (node:internal/timers:504:21)
+
+
+

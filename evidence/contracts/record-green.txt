@@ -1,0 +1,28 @@
+
+
+  single collectible with detached signed launch record
+    ✔ accepts canonical detached record independently of serialized custody replay (286ms)
+    ✔ retains immutable origin, one-sat principals and fresh valid sponsor preparations through withdrawal (801ms)
+    ✔ rejects provenance: unknown issuer (307ms)
+    ✔ rejects provenance: forged signature (273ms)
+    ✔ rejects provenance: missing external policy (275ms)
+    ✔ rejects provenance: wrong collection policy (330ms)
+    ✔ rejects provenance: wrong design policy (337ms)
+    ✔ rejects provenance: extra envelope field (354ms)
+    ✔ rejects provenance: noncanonical statement (372ms)
+    ✔ rejects provenance: changed origin (349ms)
+    ✔ rejects provenance: uppercase digest (334ms)
+    ✔ rejects provenance: extra statement field (361ms)
+    ✔ rejects provenance: missing statement field (345ms)
+    ✔ rejects manifest: tampered metadata (296ms)
+    ✔ rejects manifest: noncanonical metadata (293ms)
+    ✔ rejects manifest: changed media bytes (283ms)
+    ✔ rejects manifest: missing art (274ms)
+    ✔ rejects copied current script presented as original independently of its label
+    ✔ rejects unsupported full-art grammar
+    ✔ rejects missing, duplicate and substituted principal serialized spends (362ms)
+    ✔ rejects sealed withdrawal, former owner open/withdraw and opened-to-seal reuse (127ms)
+
+
+  21 passing (6s)
+

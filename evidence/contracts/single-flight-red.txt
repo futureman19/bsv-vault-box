@@ -1,0 +1,35 @@
+✔ included transfer revalidates missing payment, preserves buyer history and durable hold (19.3414ms)
+✔ terminal transfer inclusion loss is monitored and never demotes OPENED ownership (13.4001ms)
+✔ read failures are uncertainty not proven loss and holds remain after healthy observation (14.1359ms)
+✔ submitted payment loss is observed without replacement and read-only observation is idempotent (14.6447ms)
+✔ chain-info outage durably records uncertainty without bypassing policy caps (13.3687ms)
+✖ asynchronous finality observation retains the single-flight lock until durable write (13.492ms)
+✔ late overpayment preserves TRANSFERRED with durable refund hold (15.3238ms)
+✔ late overpayment preserves OPENED with durable refund hold (13.0771ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 7
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 624.469
+
+✖ failing tests:
+
+test at mint\test\finality.test.js:197:1
+✖ asynchronous finality observation retains the single-flight lock until durable write (13.492ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  2 !== 1
+  
+      at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_4bd2681c\mint\test\finality.test.js:205:10)
+      at async Test.run (node:internal/test_runner/test:1113:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 2,
+    expected: 1,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

@@ -1,0 +1,417 @@
+✖ read-only recovery identifies RESERVING and exact persisted transaction (2.3586ms)
+✖ read-only recovery identifies BUILT and exact persisted transaction (0.3635ms)
+✖ read-only recovery identifies SUBMITTED and exact persisted transaction (0.283ms)
+✖ read-only recovery identifies INCLUDED and exact persisted transaction (0.281ms)
+✖ read-only recovery identifies UNCERTAIN and exact persisted transaction (0.8572ms)
+✖ RESERVING before and after dispense never guesses funding assignment (0.4839ms)
+✖ send succeeded before stage persistence: matching captured inclusion resolves observation not auto-resume (0.5125ms)
+✖ inconsistent evidence stays quarantined: truncated sale write (0.3869ms)
+✖ inconsistent evidence stays quarantined: short pool write (0.398ms)
+✖ inconsistent evidence stays quarantined: missing dispense (0.4483ms)
+✖ inconsistent evidence stays quarantined: wrong txid (0.3665ms)
+✖ inconsistent evidence stays quarantined: wrong source bytes (0.4111ms)
+✖ inconsistent evidence stays quarantined: duplicate dispense (0.2756ms)
+✖ inconsistent evidence stays quarantined: ambiguous pool mapping (0.2626ms)
+✖ inconsistent evidence stays quarantined: changed buyer on replay (0.3273ms)
+✖ inconsistent evidence stays quarantined: contradictory captured bytes (0.3337ms)
+✖ inconsistent evidence stays quarantined: false captured block membership (0.3471ms)
+ℹ tests 17
+ℹ suites 0
+ℹ pass 0
+ℹ fail 17
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 670.6257
+
+✖ failing tests:
+
+test at mint\test\recovery.test.js:13:77
+✖ read-only recovery identifies RESERVING and exact persisted transaction (2.3586ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'UNCLASSIFIED'
+  - 'RESERVING'
+  
+      at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_4bd2681c\mint\test\recovery.test.js:14:47)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.start (node:internal/test_runner/test:1003:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:358:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'UNCLASSIFIED',
+    expected: 'RESERVING',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at mint\test\recovery.test.js:13:77
+✖ read-only recovery identifies BUILT and exact persisted transaction (0.3635ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'UNCLASSIFIED'
+  - 'BUILT'
+  
+      at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_4bd2681c\mint\test\recovery.test.js:14:47)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:788:18)
+      at Test.postRun (node:internal/test_runner/test:1235:19)
+      at Test.run (node:internal/test_runner/test:1163:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:358:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'UNCLASSIFIED',
+    expected: 'BUILT',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at mint\test\recovery.test.js:13:77
+✖ read-only recovery identifies SUBMITTED and exact persisted transaction (0.283ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'UNCLASSIFIED'
+  - 'SUBMITTED'
+  
+      at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_4bd2681c\mint\test\recovery.test.js:14:47)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:788:18)
+      at Test.postRun (node:internal/test_runner/test:1235:19)
+      at Test.run (node:internal/test_runner/test:1163:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'UNCLASSIFIED',
+    expected: 'SUBMITTED',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at mint\test\recovery.test.js:13:77
+✖ read-only recovery identifies INCLUDED and exact persisted transaction (0.281ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'UNCLASSIFIED'
+  - 'INCLUDED'
+  
+      at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_4bd2681c\mint\test\recovery.test.js:14:47)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:788:18)
+      at Test.postRun (node:internal/test_runner/test:1235:19)
+      at Test.run (node:internal/test_runner/test:1163:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'UNCLASSIFIED',
+    expected: 'INCLUDED',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at mint\test\recovery.test.js:13:77
+✖ read-only recovery identifies UNCERTAIN and exact persisted transaction (0.8572ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'UNCLASSIFIED'
+  - 'UNCERTAIN_SEND'
+        ^
+  
+      at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_4bd2681c\mint\test\recovery.test.js:14:47)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:788:18)
+      at Test.postRun (node:internal/test_runner/test:1235:19)
+      at Test.run (node:internal/test_runner/test:1163:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'UNCLASSIFIED',
+    expected: 'UNCERTAIN_SEND',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at mint\test\recovery.test.js:16:1
+✖ RESERVING before and after dispense never guesses funding assignment (0.4839ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'UNCLASSIFIED'
+  - 'RESERVING'
+  
+      at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_4bd2681c\mint\test\recovery.test.js:17:111)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:788:18)
+      at Test.postRun (node:internal/test_runner/test:1235:19)
+      at Test.run (node:internal/test_runner/test:1163:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'UNCLASSIFIED',
+    expected: 'RESERVING',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at mint\test\recovery.test.js:19:1
+✖ send succeeded before stage persistence: matching captured inclusion resolves observation not auto-resume (0.5125ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'UNCLASSIFIED'
+  - 'INCLUDED'
+  
+      at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_4bd2681c\mint\test\recovery.test.js:20:204)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:788:18)
+      at Test.postRun (node:internal/test_runner/test:1235:19)
+      at Test.run (node:internal/test_runner/test:1163:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'UNCLASSIFIED',
+    expected: 'INCLUDED',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at mint\test\recovery.test.js:33:3
+✖ inconsistent evidence stays quarantined: truncated sale write (0.3869ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'UNCLASSIFIED'
+  - 'INCONSISTENT'
+  
+      at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_4bd2681c\mint\test\recovery.test.js:33:98)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:788:18)
+      at Test.postRun (node:internal/test_runner/test:1235:19)
+      at Test.run (node:internal/test_runner/test:1163:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'UNCLASSIFIED',
+    expected: 'INCONSISTENT',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at mint\test\recovery.test.js:33:3
+✖ inconsistent evidence stays quarantined: short pool write (0.398ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'UNCLASSIFIED'
+  - 'INCONSISTENT'
+  
+      at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_4bd2681c\mint\test\recovery.test.js:33:98)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:788:18)
+      at Test.postRun (node:internal/test_runner/test:1235:19)
+      at Test.run (node:internal/test_runner/test:1163:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'UNCLASSIFIED',
+    expected: 'INCONSISTENT',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at mint\test\recovery.test.js:33:3
+✖ inconsistent evidence stays quarantined: missing dispense (0.4483ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'UNCLASSIFIED'
+  - 'INCONSISTENT'
+  
+      at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_4bd2681c\mint\test\recovery.test.js:33:98)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:788:18)
+      at Test.postRun (node:internal/test_runner/test:1235:19)
+      at Test.run (node:internal/test_runner/test:1163:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'UNCLASSIFIED',
+    expected: 'INCONSISTENT',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at mint\test\recovery.test.js:33:3
+✖ inconsistent evidence stays quarantined: wrong txid (0.3665ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'UNCLASSIFIED'
+  - 'INCONSISTENT'
+  
+      at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_4bd2681c\mint\test\recovery.test.js:33:98)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:788:18)
+      at Test.postRun (node:internal/test_runner/test:1235:19)
+      at Test.run (node:internal/test_runner/test:1163:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'UNCLASSIFIED',
+    expected: 'INCONSISTENT',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at mint\test\recovery.test.js:33:3
+✖ inconsistent evidence stays quarantined: wrong source bytes (0.4111ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'UNCLASSIFIED'
+  - 'INCONSISTENT'
+  
+      at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_4bd2681c\mint\test\recovery.test.js:33:98)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:788:18)
+      at Test.postRun (node:internal/test_runner/test:1235:19)
+      at Test.run (node:internal/test_runner/test:1163:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'UNCLASSIFIED',
+    expected: 'INCONSISTENT',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at mint\test\recovery.test.js:33:3
+✖ inconsistent evidence stays quarantined: duplicate dispense (0.2756ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'UNCLASSIFIED'
+  - 'INCONSISTENT'
+  
+      at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_4bd2681c\mint\test\recovery.test.js:33:98)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:788:18)
+      at Test.postRun (node:internal/test_runner/test:1235:19)
+      at Test.run (node:internal/test_runner/test:1163:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'UNCLASSIFIED',
+    expected: 'INCONSISTENT',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at mint\test\recovery.test.js:33:3
+✖ inconsistent evidence stays quarantined: ambiguous pool mapping (0.2626ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'UNCLASSIFIED'
+  - 'INCONSISTENT'
+  
+      at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_4bd2681c\mint\test\recovery.test.js:33:98)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:788:18)
+      at Test.postRun (node:internal/test_runner/test:1235:19)
+      at Test.run (node:internal/test_runner/test:1163:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'UNCLASSIFIED',
+    expected: 'INCONSISTENT',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at mint\test\recovery.test.js:33:3
+✖ inconsistent evidence stays quarantined: changed buyer on replay (0.3273ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'UNCLASSIFIED'
+  - 'INCONSISTENT'
+  
+      at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_4bd2681c\mint\test\recovery.test.js:33:98)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:788:18)
+      at Test.postRun (node:internal/test_runner/test:1235:19)
+      at Test.run (node:internal/test_runner/test:1163:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'UNCLASSIFIED',
+    expected: 'INCONSISTENT',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at mint\test\recovery.test.js:33:3
+✖ inconsistent evidence stays quarantined: contradictory captured bytes (0.3337ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'UNCLASSIFIED'
+  - 'INCONSISTENT'
+  
+      at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_4bd2681c\mint\test\recovery.test.js:33:98)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:788:18)
+      at Test.postRun (node:internal/test_runner/test:1235:19)
+      at Test.run (node:internal/test_runner/test:1163:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'UNCLASSIFIED',
+    expected: 'INCONSISTENT',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at mint\test\recovery.test.js:33:3
+✖ inconsistent evidence stays quarantined: false captured block membership (0.3471ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'UNCLASSIFIED'
+  - 'INCONSISTENT'
+  
+      at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_4bd2681c\mint\test\recovery.test.js:33:98)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:788:18)
+      at Test.postRun (node:internal/test_runner/test:1235:19)
+      at Test.run (node:internal/test_runner/test:1163:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'UNCLASSIFIED',
+    expected: 'INCONSISTENT',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

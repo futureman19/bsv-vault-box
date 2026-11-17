@@ -1,0 +1,9 @@
+# Local launch commitment profile (not issuance or storage approval)
+
+The narrow inscription remains P2PKH + one-push text/plain containing exactly 64 lowercase hex SHA256 characters. The selected design for this proof is `iceland`, sourced from the explicit country/ocean/Moon roster snapshot `evidence/contracts/roster.json`, extracted from the provided collection-review manifest with its source hash recorded. No 201-token issuance is performed.
+
+Canonical metadata JSON has strings only, in this exact order: `protocol` = `BOXSV-LAUNCH-METADATA-1`, `collectionId`, `designId`, `modelSha256`, `artSha256`. No additional/missing fields. SHA256 is lowercase 64 hex. Serialize using JSON.stringify with that order, no whitespace/trailing newline. Collection/design values are nonempty ASCII identifiers `[a-z0-9][a-z0-9-]{0,127}`. Media hashes bind bytes, not storage availability or artistic approval.
+
+Hash metadata before constructing the inscription. After its txid exists, sign canonical JSON fields in order: `protocol` = `BOXSV-LAUNCH-CERT-1`, `collectionId`, `designId`, `collectibleOrigin`, `metadataSha256`. Origin is lowercase 64 hex + `_0`. Envelope has exactly `statement` (canonical string), `issuer` (compressed pubkey hex), `signature` (canonical low-S DER hex ECDSA over SHA256 UTF-8 statement). Envelope is detached data, not an NFT. Caller supplies `{issuer,collectionId,designId}` policy; never derive trust from envelope. Fixture signing uses only public deterministic scalar 1.
+
+Verifier reports `originalIssuanceProvenance`, `originalManifestComplete`, and `currentCustodyIntegrity` independently. Completeness means exactly the one admitted collectible and both exact media byte hashes in this local original manifest, NOT available media or all 201 issued assets. Current custody is anchored offline serialized Script/ledger replay, NOT live chain unspentness. Withdrawal is a valid final history, not a still-sealed container. No seal reuse.

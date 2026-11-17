@@ -1,0 +1,90 @@
+✖ included transfer revalidates missing payment, preserves buyer history and durable hold (15.1545ms)
+✖ terminal transfer inclusion loss is monitored and never demotes OPENED ownership (11.2786ms)
+✖ read failures are uncertainty not proven loss and holds remain after healthy observation (9.5999ms)
+✖ submitted payment loss is observed without replacement and read-only observation is idempotent (9.8595ms)
+✖ late overpayment preserves TRANSFERRED with durable refund hold (12.8538ms)
+✖ late overpayment preserves OPENED with durable refund hold (8.9967ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 0
+ℹ fail 6
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 590.8406
+
+✖ failing tests:
+
+test at mint\test\finality.test.js:30:1
+✖ included transfer revalidates missing payment, preserves buyer history and durable hold (15.1545ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + undefined
+  - true
+  
+      at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_4bd2681c\mint\test\finality.test.js:32:81)
+      at async Test.run (node:internal/test_runner/test:1113:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:358:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at mint\test\finality.test.js:35:1
+✖ terminal transfer inclusion loss is monitored and never demotes OPENED ownership (11.2786ms)
+  TypeError: Cannot read properties of undefined (reading 'includes')
+      at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_4bd2681c\mint\test\finality.test.js:37:78)
+      at async Test.run (node:internal/test_runner/test:1113:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7)
+
+test at mint\test\finality.test.js:39:1
+✖ read failures are uncertainty not proven loss and holds remain after healthy observation (9.5999ms)
+  TypeError: Cannot read properties of undefined (reading 'sort')
+      at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_4bd2681c\mint\test\finality.test.js:41:48)
+      at async Test.run (node:internal/test_runner/test:1113:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7)
+
+test at mint\test\finality.test.js:43:1
+✖ submitted payment loss is observed without replacement and read-only observation is idempotent (9.8595ms)
+  TypeError: Cannot read properties of undefined (reading 'includes')
+      at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_4bd2681c\mint\test\finality.test.js:44:208)
+      at async Test.run (node:internal/test_runner/test:1113:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7)
+
+test at mint\test\finality.test.js:46:45
+✖ late overpayment preserves TRANSFERRED with durable refund hold (12.8538ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  false !== true
+  
+      at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_4bd2681c\mint\test\finality.test.js:47:216)
+      at async Test.run (node:internal/test_runner/test:1113:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at mint\test\finality.test.js:46:45
+✖ late overpayment preserves OPENED with durable refund hold (8.9967ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  false !== true
+  
+      at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_4bd2681c\mint\test\finality.test.js:47:216)
+      at async Test.run (node:internal/test_runner/test:1113:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

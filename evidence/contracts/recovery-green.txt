@@ -1,0 +1,25 @@
+✔ read-only recovery identifies RESERVING and exact persisted transaction (4.9565ms)
+✔ read-only recovery identifies BUILT and exact persisted transaction (109.4878ms)
+✔ read-only recovery identifies SUBMITTED and exact persisted transaction (141.5571ms)
+✔ read-only recovery identifies INCLUDED and exact persisted transaction (126.1493ms)
+✔ read-only recovery identifies UNCERTAIN and exact persisted transaction (123.636ms)
+✔ RESERVING before and after dispense never guesses funding assignment (2.3723ms)
+✔ send succeeded before stage persistence: matching captured inclusion resolves observation not auto-resume (70.6434ms)
+✔ inconsistent evidence stays quarantined: truncated sale write (2.7689ms)
+✔ inconsistent evidence stays quarantined: short pool write (0.6284ms)
+✔ inconsistent evidence stays quarantined: missing dispense (3.1305ms)
+✔ inconsistent evidence stays quarantined: wrong txid (2.9782ms)
+✔ inconsistent evidence stays quarantined: wrong source bytes (2.2812ms)
+✔ inconsistent evidence stays quarantined: duplicate dispense (1.6415ms)
+✔ inconsistent evidence stays quarantined: ambiguous pool mapping (2.1946ms)
+✔ inconsistent evidence stays quarantined: changed buyer on replay (1.9144ms)
+✔ inconsistent evidence stays quarantined: contradictory captured bytes (131.6043ms)
+✔ inconsistent evidence stays quarantined: false captured block membership (123.8869ms)
+ℹ tests 17
+ℹ suites 0
+ℹ pass 17
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1533.8073

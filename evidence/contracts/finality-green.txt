@@ -1,0 +1,14 @@
+✔ included transfer revalidates missing payment, preserves buyer history and durable hold (18.6927ms)
+✔ terminal transfer inclusion loss is monitored and never demotes OPENED ownership (17.3024ms)
+✔ read failures are uncertainty not proven loss and holds remain after healthy observation (14.5857ms)
+✔ submitted payment loss is observed without replacement and read-only observation is idempotent (15.1757ms)
+✔ late overpayment preserves TRANSFERRED with durable refund hold (13.6081ms)
+✔ late overpayment preserves OPENED with durable refund hold (14.4644ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 636.5545
