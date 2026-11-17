@@ -1,0 +1,18 @@
+{
+  "result": "PASS",
+  "failure": null,
+  "checks": [
+    "shareable combined search/category and selected design survive reload",
+    "full-image failure preserves disclosure and reopening retries successfully",
+    "thumbnail failure remains named, accessible and opens available full image",
+    "manifest failure has working retry",
+    "lazy initial mobile load: 10 thumbnails; no full art or model payloads",
+    "box-demo.html/reduce: keyboard/focus, transfer, two reuse cycles, contents/history, persistent lid, interrupted reset",
+    "box-demo.html/no-preference: keyboard/focus, transfer, two reuse cycles, contents/history, persistent lid, interrupted reset",
+    "index.html/reduce: keyboard/focus, transfer, two reuse cycles, contents/history, persistent lid, interrupted reset",
+    "index.html/no-preference: keyboard/focus, transfer, two reuse cycles, contents/history, persistent lid, interrupted reset",
+    "standalone Box no overflow at 320/390/768/1440"
+  ],
+  "count": 10,
+  "scope": "Local Edge; viewport emulation, no physical phone or chain proof"
+}

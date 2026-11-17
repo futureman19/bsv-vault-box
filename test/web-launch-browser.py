@@ -5,7 +5,8 @@ from pathlib import Path
 import json, threading
 from playwright.sync_api import sync_playwright, expect
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / 'evidence/launch-web/interaction'
+import os
+OUT = ROOT / os.environ.get('BOXSV_EVIDENCE_DIR', 'evidence/launch-web/interaction')
 OUT.mkdir(parents=True, exist_ok=True)
 class Handler(SimpleHTTPRequestHandler):
     def log_message(self, *args): pass

@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "case": "success",
+      "pass": true,
+      "calls": [
+        [
+          "auth"
+        ],
+        [
+          "identity",
+          {
+            "identityKey": true
+          }
+        ]
+      ]
+    },
+    {
+      "case": "reject",
+      "pass": true,
+      "calls": [
+        [
+          "auth"
+        ]
+      ]
+    },
+    {
+      "case": "empty",
+      "pass": true,
+      "calls": [
+        [
+          "auth"
+        ],
+        [
+          "identity",
+          {
+            "identityKey": true
+          }
+        ]
+      ]
+    },
+    {
+      "case": "absent",
+      "pass": true,
+      "calls": [
+        [
+          "open",
+          "https://yours.org",
+          "_blank",
+          "noopener,noreferrer"
+        ]
+      ]
+    }
+  ],
+  "boundary": "Mock identity connect only. No transaction signing, paid mint, extension compatibility or custody integration."
+}
