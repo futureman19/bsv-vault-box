@@ -6,7 +6,9 @@
   const viewer = document.querySelector('#viewer');
   const fullImage = document.querySelector('#full-image');
   const close = document.querySelector('#close');
-  let category = 'All';
+  const params = new URLSearchParams(location.search);
+  let category = ['All', 'Country', 'Ocean', 'Moon'].includes(params.get('category')) ? params.get('category') : 'All';
+  search.value = params.get('q') || '';
   let opener;
   const normalize = value => value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[-’']/g, ' ').replace(/\s+/g, ' ').trim();
   close.addEventListener('click', () => viewer.close());
@@ -23,7 +25,12 @@
     history.replaceState(null, '', location.pathname + location.search);
     opener?.focus();
   });
-  fullImage.addEventListener('error', () => { document.querySelector('#image-note').textContent = 'This image could not load. Close and try again.'; });
+  fullImage.addEventListener('error', () => {
+    if (!fullImage.getAttribute('src')) return;
+    fullImage.hidden = true;
+    document.querySelector('#image-load').textContent = 'Image unavailable. Close and reopen to try again.';
+  });
+  fullImage.addEventListener('load', () => { fullImage.hidden = false; document.querySelector('#image-load').textContent = ''; });
   try {
     const response = await fetch('assets/gallery/manifest.json');
     if (!response.ok) throw new Error('Collection unavailable');
@@ -41,6 +48,11 @@
       image.alt = '';
       image.loading = 'lazy';
       image.decoding = 'async';
+      image.addEventListener('error', () => {
+        image.hidden = true;
+        button.classList.add('image-unavailable');
+        button.querySelector('.image-type').textContent = `${entry.imageType} · Preview unavailable — open to retry`;
+      });
       const caption = document.createElement('span');
       caption.className = 'caption';
       for (const [className, text] of [['category', entry.category], ['name', entry.name], ['image-type', entry.imageType]]) {
@@ -54,7 +66,9 @@
           ? `${entry.provenance.provider === 'xai' ? 'AI-generated promotional art' : 'Promotional art'} · Illustration, not a model screenshot. Details may differ from the actual model.`
           : 'Model preview · Still image rendered from the actual collection model; not an interactive 3D viewer.';
         if (entry.provenance.intentionalRedesign) document.querySelector('#image-note').textContent += ' USA flag-and-fireworks redesign; the canyon-inspired model is unchanged. Stylized flag, not an exact official flag reproduction.';
-        history.replaceState(null, '', '#' + entry.id);
+        history.replaceState(null, '', location.pathname + location.search + '#' + entry.id);
+        fullImage.hidden = false;
+        document.querySelector('#image-load').textContent = 'Loading image…';
         fullImage.alt = `${entry.name} Box design — ${entry.imageType.toLowerCase()}`;
         fullImage.src = entry.image.src;
         viewer.showModal(); viewer.scrollTop = 0; close.focus();
@@ -63,6 +77,10 @@
       return { button, entry, text: normalize(`${entry.name} ${entry.id} ${entry.category}`) };
     });
     const render = () => {
+      const query = new URLSearchParams();
+      if (search.value.trim()) query.set('q', search.value.trim());
+      if (category !== 'All') query.set('category', category);
+      history.replaceState(null, '', location.pathname + (query.size ? '?' + query : '') + location.hash);
       const words = normalize(search.value).split(' ').filter(Boolean);
       let count = 0;
       for (const card of cards) {
@@ -79,7 +97,7 @@
     const openHash = () => {
       const card = cards.find(card => '#' + card.entry.id === location.hash);
       if (!card) { if (viewer.open) viewer.close(); return; }
-      category = 'All'; search.value = ''; render();
+      if (card.button.hidden) { category = 'All'; search.value = ''; render(); }
       card.button.click();
     };
     render();
@@ -87,5 +105,7 @@
     openHash();
   } catch (error) {
     status.textContent = 'The collection could not load. Please refresh to try again.';
+    document.querySelector('#load-retry').hidden = false;
   }
+  document.querySelector('#load-retry').addEventListener('click', () => location.reload());
 })();

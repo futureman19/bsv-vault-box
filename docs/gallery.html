@@ -26,6 +26,7 @@
 <fieldset><legend>Explore by category</legend><div class="filters"><button type="button" data-category="All" aria-pressed="true">All <span>201</span></button><button type="button" data-category="Country" aria-pressed="false">Countries <span>195</span></button><button type="button" data-category="Ocean" aria-pressed="false">Oceans <span>5</span></button><button type="button" data-category="Moon" aria-pressed="false">Moon <span>1</span></button></div></fieldset>
 </div>
 <p id="status" role="status" aria-live="polite">Loading the collection…</p>
+<button id="load-retry" type="button" hidden>Retry collection</button>
 <p id="empty" hidden>No designs match. Try another name or <button id="reset" type="button">clear search and filters</button>.</p>
 <div id="grid" class="grid"></div>
 <noscript><p>Enable JavaScript to search and open images, or browse the <a href="assets/gallery/manifest.json">complete collection image manifest</a>.</p></noscript>
@@ -35,6 +36,7 @@
 <dialog id="viewer" aria-labelledby="image-title" aria-describedby="image-note">
 <div class="dialog-head"><h2 id="image-title"></h2><button id="close" type="button" autofocus aria-label="Close image">Close ×</button></div>
 <img id="full-image" alt="">
+<p id="image-load" role="status" aria-live="polite"></p>
 <p id="image-note"></p>
 </dialog>
 </body>

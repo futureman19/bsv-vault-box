@@ -34,6 +34,7 @@ function render(){
  for(const id of ['open','transfer','withdraw','repack'])$(id).disabled=busy;
  $('owner').textContent='Demo owner: '+owner;
  $('contentsTitle').textContent=item==='Star collectible'?'A collectible NFT.':'A new collectible NFT.';
+ $('itemDescription').textContent=item+' is revealed in this simulation. It is still inside the Box until you withdraw it.';
  $('asset').querySelector('rect').setAttribute('fill',item==='Star collectible'?'#e4eaf1':'#8ac8f5');
  $('contentsPanel').hidden=busy||phase!=='opened';$('emptyPanel').hidden=busy||phase!=='empty';
  if(busy||phase!=='sealed')closePanel(false);
