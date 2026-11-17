@@ -1,0 +1,290 @@
+[
+  {
+    "source": {
+      "commit": "db50dd648c4def2a667c702fa879c692b4d6aeaa",
+      "path": "preview/jamaica-v1/browser-check.json",
+      "bytes": 2078,
+      "sha256": "514e25364b0f1d49d38e11ffe00c9a8b7fc58fd7c4ee64d35d512c98d9cef528"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 20488,
+          "meshes": 154,
+          "materials": 9,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.22500000149011612,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.734325684607029,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1600388,
+          "open_projection_max_abs_ndc": 0.8923646516630204
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 20488,
+          "meshes": 154,
+          "materials": 9,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.22500000149011612,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.734325684607029,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1600388,
+          "open_projection_max_abs_ndc": 0.8923646516630196
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "db50dd648c4def2a667c702fa879c692b4d6aeaa",
+      "path": "preview/jamaica-v1/delivery-check.json",
+      "bytes": 664,
+      "sha256": "59eeb50aec319a64de343fc7634160749f3af79775ab69ba700326d91c26b866"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "html_bytes": 2926486,
+      "glb_bytes": 1600388,
+      "payload_files": 55,
+      "required_artifacts_present": true,
+      "archive_readback_hashes_match": true,
+      "oversize_negative_rejected": true,
+      "archive_bytes": 9031799,
+      "archive_sha256": "565278b12fa9ac4dd36012d3464fcc4c6b887a9638640f662b87bf1e7a369995",
+      "inventory_sha256": "7140fbbf4764b03bd423c68cf5aff4a2ff7917b80dc0535ef3ec1bd949bd823a",
+      "excluded_envelopes": [
+        "inventory.json",
+        "delivery-check.json",
+        "source ZIP",
+        "package-output.txt",
+        "staged-check.json"
+      ],
+      "scope": "Local art only; no chain, public deployment or production changes"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "db50dd648c4def2a667c702fa879c692b4d6aeaa",
+      "path": "preview/jamaica-v1/extended-check.json",
+      "bytes": 660,
+      "sha256": "e6196f70908245722c1717ec588fecb596c5f9d17c10d5fae9137b8e514726aa"
+    },
+    "reported_result": {
+      "source_poster_nonblank": true,
+      "features": {
+        "terrain": 96,
+        "maps": [
+          {
+            "material": "Limestone / warm porous cream",
+            "channel": "red",
+            "width": 512,
+            "height": 512,
+            "range": 71
+          },
+          {
+            "material": "Limestone / warm porous cream",
+            "channel": "green",
+            "width": 512,
+            "height": 512,
+            "range": 92
+          },
+          {
+            "material": "Shale / blue grey",
+            "channel": "red",
+            "width": 256,
+            "height": 256,
+            "range": 110
+          }
+        ],
+        "wrong": []
+      },
+      "noJS_poster": true,
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "db50dd648c4def2a667c702fa879c692b4d6aeaa",
+      "path": "preview/jamaica-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "db50dd648c4def2a667c702fa879c692b4d6aeaa",
+      "path": "preview/jamaica-v1/parity-check.json",
+      "bytes": 320,
+      "sha256": "93f98cbf4984853099c9254d7cac99ee4a0452fe3ab64f66d4f1cbdd65ced19a"
+    },
+    "reported_result": {
+      "source_vertices": 10597,
+      "imported_vertices": 29770,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "limestone-color.png",
+        "limestone-roughness.png",
+        "shale-color.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "db50dd648c4def2a667c702fa879c692b4d6aeaa",
+      "path": "preview/jamaica-v1/source-check.json",
+      "bytes": 395,
+      "sha256": "0fa36f5c1af2117530484c1c06ab081bf4ff78982112d174ec9ff18871047f5c"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 112,
+      "static_meshes": 39,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 158
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "db50dd648c4def2a667c702fa879c692b4d6aeaa",
+      "path": "preview/jamaica-v1/theme-check.json",
+      "bytes": 555,
+      "sha256": "78cea4510865c81408d3ca0388ffa7d8958463e99465bbe78aa2d00b7cd26dc7"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "relief_bounds": [
+        [
+          -1.418976068496704,
+          -0.6929587721824646,
+          1.9731433391571045
+        ],
+        [
+          1.4316902160644531,
+          0.7653136849403381,
+          2.7186684608459473
+        ]
+      ],
+      "connected_vertices": 2689,
+      "section_peak_count": 4,
+      "lid_owned_terrain_meshes": 96,
+      "seated_canopies": 95,
+      "original_pivot_matrices_match": true,
+      "detached_ornament_negative_rejected": true,
+      "limitations": "Section sampling and canopy-centre seating, not botanical or geographic fidelity."
+    },
+    "fresh_runtime_execution": false
+  }
+]

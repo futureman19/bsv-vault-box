@@ -1,0 +1,337 @@
+[
+  {
+    "source": {
+      "commit": "5b844eb70b998e675d78ad5aad4974d498f49b73",
+      "path": "preview/malta-v1/acceptance-check.json",
+      "bytes": 493,
+      "sha256": "e1ef41c4a9490ba9bb5a8492d1c2d52475fd6eba044a1896e52e164db4ed1f20"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "checks": [
+        {
+          "check": "build",
+          "exit_code": 0
+        },
+        {
+          "check": "motion",
+          "exit_code": 0
+        },
+        {
+          "check": "source",
+          "exit_code": 0
+        },
+        {
+          "check": "parity",
+          "exit_code": 0
+        },
+        {
+          "check": "theme_source",
+          "exit_code": 0
+        },
+        {
+          "check": "browser",
+          "exit_code": 0
+        },
+        {
+          "check": "extended",
+          "exit_code": 0
+        }
+      ]
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "5b844eb70b998e675d78ad5aad4974d498f49b73",
+      "path": "preview/malta-v1/browser-check.json",
+      "bytes": 2078,
+      "sha256": "a545f0a4f11bb7f7f4ea4ea7869200de7321a1381a971704a083123675346f15"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 10536,
+          "meshes": 150,
+          "materials": 4,
+          "bounds": {
+            "min": [
+              -1.8600000143051147,
+              -0.2749999985098839,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.2649999037384987,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 906108,
+          "open_projection_max_abs_ndc": 0.8923646516630191
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 10536,
+          "meshes": 150,
+          "materials": 4,
+          "bounds": {
+            "min": [
+              -1.8600000143051147,
+              -0.2749999985098839,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.2649999037384987,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 906108,
+          "open_projection_max_abs_ndc": 0.8923646516630186
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "5b844eb70b998e675d78ad5aad4974d498f49b73",
+      "path": "preview/malta-v1/delivery-check.json",
+      "bytes": 282,
+      "sha256": "e15fcd1c2ad843d0174b286c0a00b3259fe10844450501a2abe8f1436af463f1"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "html_bytes": 1997011,
+      "glb_bytes": 906108,
+      "inventory_files": 60,
+      "zip_bytes": 4878248,
+      "zip_sha256": "b05194f7ca3520199760b29efa8fc70cf5d060bde9f7120c1ebfca7ae07ca34f",
+      "required_deliverables_verified": true,
+      "archive_readback": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "5b844eb70b998e675d78ad5aad4974d498f49b73",
+      "path": "preview/malta-v1/extended-check.json",
+      "bytes": 835,
+      "sha256": "7c5e6a1992a21ca03f9ad4b8431354760b4e7477af7bc885141d6c7d963a490a"
+    },
+    "reported_result": {
+      "poster_nonempty": true,
+      "features": {
+        "orn": 9,
+        "wrong": [],
+        "maps": [
+          {
+            "key": "map",
+            "material": "Globigerina / honey cream",
+            "width": 256,
+            "height": 256,
+            "range": 51,
+            "channel": 0
+          },
+          {
+            "key": "roughnessMap",
+            "material": "Globigerina / honey cream",
+            "width": 256,
+            "height": 256,
+            "range": 68,
+            "channel": 1
+          },
+          {
+            "key": "map",
+            "material": "Harbour / blue teal",
+            "width": 256,
+            "height": 256,
+            "range": 15,
+            "channel": 0
+          }
+        ]
+      },
+      "noJS_poster": true,
+      "status": "PASS",
+      "stone_palette_mean": [
+        220.92568969726562,
+        195.92568969726562,
+        143.92568969726562
+      ],
+      "copy_check": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "5b844eb70b998e675d78ad5aad4974d498f49b73",
+      "path": "preview/malta-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "5b844eb70b998e675d78ad5aad4974d498f49b73",
+      "path": "preview/malta-v1/parity-check.json",
+      "bytes": 321,
+      "sha256": "c078c3639d772ee01a1778ea8a8f43daf6014a5b74733821b610319c1290dce0"
+    },
+    "reported_result": {
+      "source_vertices": 5568,
+      "imported_vertices": 18778,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "harbour-color.png",
+        "limestone-color.png",
+        "limestone-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "5b844eb70b998e675d78ad5aad4974d498f49b73",
+      "path": "preview/malta-v1/source-check.json",
+      "bytes": 395,
+      "sha256": "c371141b35a947863ed2e5b56e01f21473a5c7e225744433f0374fa15c03d669"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 25,
+      "static_meshes": 125,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 157
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "5b844eb70b998e675d78ad5aad4974d498f49b73",
+      "path": "preview/malta-v1/theme-source-check.json",
+      "bytes": 571,
+      "sha256": "fc87c16877b0cfa35f4d8f74c9ace42749f2aa66c3dd2a8212a016f66495c99e"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "original_pivots": true,
+      "lid_owned_ornaments": 9,
+      "ashlar_blocks": 94,
+      "concave_turns": 9,
+      "water_two_sides_rays": [
+        {
+          "x": 0,
+          "y": -0.65,
+          "object": "Harbour / water inlay",
+          "z": 1.99399995803833
+        },
+        {
+          "x": 0,
+          "y": 0.73,
+          "object": "Harbour / water inlay",
+          "z": 1.9939998388290405
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "object": "Peninsula / low ashlar block.003",
+          "z": 2.2649998664855957
+        }
+      ],
+      "detached_ornament_rejected": true
+    },
+    "fresh_runtime_execution": false
+  }
+]

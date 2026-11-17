@@ -1,0 +1,701 @@
+[
+  {
+    "source": {
+      "commit": "fbba34ed1d1ca1ad01691cb21ea9e1e74becda48",
+      "path": "preview/montenegro-v1/browser-check.json",
+      "bytes": 2078,
+      "sha256": "8dcf5bdceb36f627edc2a09b48edd25dd33644f1f1a7a7f9d58f2fff10fb1ce7"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 16416,
+          "meshes": 80,
+          "materials": 5,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.8133535385131836,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1394088,
+          "open_projection_max_abs_ndc": 0.9156477400818142
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 16416,
+          "meshes": 80,
+          "materials": 5,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.8133535385131836,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1394088,
+          "open_projection_max_abs_ndc": 0.9156477400818144
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "fbba34ed1d1ca1ad01691cb21ea9e1e74becda48",
+      "path": "preview/montenegro-v1/delivery-check.json",
+      "bytes": 593,
+      "sha256": "ba6b0c40c9b14207d74df2d6dd6e129453bcfdbf2cc03a6b01cb4a3d1c32b614"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "html_bytes": 2662825,
+      "glb_bytes": 1394088,
+      "payload_files": 54,
+      "required_artifacts_present": true,
+      "zip_readback_verified": true,
+      "zip_bytes": 7856943,
+      "zip_sha256": "07f54229d93a54f59840f845148960369e26698d12994cd602a5f1e9218c6d1e",
+      "inventory_sha256": "ccf3a6b52ac70264ba66520fc1bc9d7471411887917bb39d4e3e67aea05283b9",
+      "checks_passed": [
+        "source",
+        "parity",
+        "theme",
+        "browser desktop",
+        "browser mobile",
+        "fallback",
+        "no-JS",
+        "runtime maps and palette",
+        "motion tests",
+        "delivery"
+      ]
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "fbba34ed1d1ca1ad01691cb21ea9e1e74becda48",
+      "path": "preview/montenegro-v1/extended-check.json",
+      "bytes": 3051,
+      "sha256": "c0e09093e6804bf5b2c90816c5a285c1a22efdce7e529c0784a0c2681c5b7d7f"
+    },
+    "reported_result": {
+      "source_poster_nonblack": true,
+      "runtime_features": {
+        "ornaments": [
+          {
+            "name": "Forest__slope_patch",
+            "lid": true
+          },
+          {
+            "name": "Forest__slope_patch001",
+            "lid": true
+          },
+          {
+            "name": "Forest__slope_patch002",
+            "lid": true
+          },
+          {
+            "name": "Forest__slope_patch003",
+            "lid": true
+          },
+          {
+            "name": "Forest__slope_patch004",
+            "lid": true
+          },
+          {
+            "name": "Forest__slope_patch005",
+            "lid": true
+          },
+          {
+            "name": "Forest__slope_patch006",
+            "lid": true
+          },
+          {
+            "name": "Forest__slope_patch007",
+            "lid": true
+          },
+          {
+            "name": "Forest__slope_patch008",
+            "lid": true
+          },
+          {
+            "name": "Forest__slope_patch009",
+            "lid": true
+          },
+          {
+            "name": "Forest__slope_patch010",
+            "lid": true
+          },
+          {
+            "name": "Forest__slope_patch011",
+            "lid": true
+          },
+          {
+            "name": "Forest__slope_patch012",
+            "lid": true
+          },
+          {
+            "name": "Forest__slope_patch013",
+            "lid": true
+          },
+          {
+            "name": "Forest__slope_patch014",
+            "lid": true
+          },
+          {
+            "name": "Forest__slope_patch015",
+            "lid": true
+          },
+          {
+            "name": "Forest__slope_patch016",
+            "lid": true
+          },
+          {
+            "name": "Forest__slope_patch017",
+            "lid": true
+          },
+          {
+            "name": "Forest__slope_patch018",
+            "lid": true
+          },
+          {
+            "name": "Forest__slope_patch019",
+            "lid": true
+          },
+          {
+            "name": "Forest__slope_patch020",
+            "lid": true
+          },
+          {
+            "name": "Forest__slope_patch021",
+            "lid": true
+          },
+          {
+            "name": "Karst__foreground_bank",
+            "lid": true
+          },
+          {
+            "name": "Karst__rear_massif",
+            "lid": true
+          },
+          {
+            "name": "Tara__continuous_river",
+            "lid": true
+          }
+        ],
+        "maps": [
+          {
+            "material": "Limestone / gray karst",
+            "slot": "map",
+            "width": 512,
+            "height": 512,
+            "range": 64,
+            "mean": [
+              159.21411514282227,
+              162.21411514282227,
+              156.21411514282227
+            ]
+          },
+          {
+            "material": "Limestone / gray karst",
+            "slot": "roughnessMap",
+            "width": 512,
+            "height": 512,
+            "range": 45,
+            "mean": [
+              255,
+              183.30050659179688,
+              255
+            ]
+          },
+          {
+            "material": "Forest / dark pine green",
+            "slot": "map",
+            "width": 256,
+            "height": 256,
+            "range": 51,
+            "mean": [
+              39.48199462890625,
+              65.48199462890625,
+              41.48199462890625
+            ]
+          }
+        ]
+      },
+      "noJS_poster": true,
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "fbba34ed1d1ca1ad01691cb21ea9e1e74becda48",
+      "path": "preview/montenegro-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "fbba34ed1d1ca1ad01691cb21ea9e1e74becda48",
+      "path": "preview/montenegro-v1/parity-check.json",
+      "bytes": 320,
+      "sha256": "7fc504fb81d3cd7dffb9736c93e5489b646b2e0605cb3d5298d419aa13f84cef"
+    },
+    "reported_result": {
+      "source_vertices": 8400,
+      "imported_vertices": 25966,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "forest-color.png",
+        "limestone-color.png",
+        "limestone-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "fbba34ed1d1ca1ad01691cb21ea9e1e74becda48",
+      "path": "preview/montenegro-v1/source-check.json",
+      "bytes": 393,
+      "sha256": "662f44bab26a1c06f77e55ef60e468973f024a2c25fea76bdf9fa785613cca99"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 41,
+      "static_meshes": 39,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 87
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "fbba34ed1d1ca1ad01691cb21ea9e1e74becda48",
+      "path": "preview/montenegro-v1/theme-check.json",
+      "bytes": 5988,
+      "sha256": "1412be23451b11e6716716723caaeeb36c30ba4206403b395849f0e57f1274af"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "pivot_matrix_match": true,
+      "detached_ornament_negative_control_rejected": true,
+      "ornament_meshes": 25,
+      "river_connected_vertices": 74,
+      "exposed_centerline_rays": [
+        [
+          -1.45,
+          0.005806613204209698,
+          2.005000114440918
+        ],
+        [
+          -1.4016666666666666,
+          -0.006947231762647002,
+          2.0049996376037598
+        ],
+        [
+          -1.3533333333333333,
+          -0.019622599908945434,
+          2.005000114440918
+        ],
+        [
+          -1.305,
+          -0.03207630865124639,
+          2.005000114440918
+        ],
+        [
+          -1.2566666666666666,
+          -0.04416767929915265,
+          2.005000114440918
+        ],
+        [
+          -1.2083333333333333,
+          -0.055760126179829686,
+          2.005000352859497
+        ],
+        [
+          -1.16,
+          -0.06672269952727455,
+          2.005000114440918
+        ],
+        [
+          -1.1116666666666666,
+          -0.07693156470765948,
+          2.005000114440918
+        ],
+        [
+          -1.0633333333333332,
+          -0.08627140107122987,
+          2.005000114440918
+        ],
+        [
+          -1.0150000000000001,
+          -0.09463670462914672,
+          2.005000114440918
+        ],
+        [
+          -0.9666666666666666,
+          -0.10193297984006958,
+          2.005000114440918
+        ],
+        [
+          -0.9183333333333333,
+          -0.10807780704390431,
+          2.005000114440918
+        ],
+        [
+          -0.87,
+          -0.11300177348484954,
+          2.005000114440918
+        ],
+        [
+          -0.8216666666666667,
+          -0.11664925740678378,
+          2.005000114440918
+        ],
+        [
+          -0.7733333333333333,
+          -0.11897905636375301,
+          2.005000114440918
+        ],
+        [
+          -0.725,
+          -0.11996485264808178,
+          2.005000114440918
+        ],
+        [
+          -0.6766666666666666,
+          -0.11959551057857282,
+          2.005000114440918
+        ],
+        [
+          -0.6283333333333333,
+          -0.11787520229058936,
+          2.005000114440918
+        ],
+        [
+          -0.5800000000000001,
+          -0.11482336060707922,
+          2.005000114440918
+        ],
+        [
+          -0.5316666666666666,
+          -0.11047445952291568,
+          2.005000114440918
+        ],
+        [
+          -0.4833333333333333,
+          -0.10487762478223223,
+          2.005000114440918
+        ],
+        [
+          -0.43500000000000005,
+          -0.09809607894771927,
+          2.005000114440918
+        ],
+        [
+          -0.3866666666666667,
+          -0.09020642723045152,
+          2.005000114440918
+        ],
+        [
+          -0.33833333333333315,
+          -0.0812977921476037,
+          2.005000114440918
+        ],
+        [
+          -0.29000000000000004,
+          -0.07147080678307197,
+          2.005000114440918
+        ],
+        [
+          -0.2416666666666667,
+          -0.060836478023257694,
+          2.005000114440918
+        ],
+        [
+          -0.19333333333333336,
+          -0.04951493260904911,
+          2.005000114440918
+        ],
+        [
+          -0.14500000000000002,
+          -0.03763406016875689,
+          2.005000114440918
+        ],
+        [
+          -0.09666666666666668,
+          -0.025328068560478634,
+          2.005000114440918
+        ],
+        [
+          -0.04833333333333334,
+          -0.012735967842929664,
+          2.005000114440918
+        ],
+        [
+          0.0,
+          0.0,
+          2.005000114440918
+        ],
+        [
+          0.04833333333333334,
+          0.012735967842929664,
+          2.005000114440918
+        ],
+        [
+          0.09666666666666668,
+          0.025328068560478634,
+          2.005000114440918
+        ],
+        [
+          0.14500000000000002,
+          0.03763406016875689,
+          2.005000114440918
+        ],
+        [
+          0.19333333333333336,
+          0.04951493260904911,
+          2.005000352859497
+        ],
+        [
+          0.2416666666666667,
+          0.060836478023257694,
+          2.005000114440918
+        ],
+        [
+          0.2899999999999998,
+          0.07147080678307192,
+          2.005000114440918
+        ],
+        [
+          0.3383333333333334,
+          0.08129779214760376,
+          2.005000114440918
+        ],
+        [
+          0.3866666666666667,
+          0.09020642723045152,
+          2.005000114440918
+        ],
+        [
+          0.43500000000000005,
+          0.09809607894771927,
+          2.005000114440918
+        ],
+        [
+          0.4833333333333334,
+          0.10487762478223224,
+          2.005000114440918
+        ],
+        [
+          0.5316666666666665,
+          0.11047445952291567,
+          2.005000114440918
+        ],
+        [
+          0.5799999999999998,
+          0.11482336060707919,
+          2.005000114440918
+        ],
+        [
+          0.6283333333333336,
+          0.11787520229058937,
+          2.005000114440918
+        ],
+        [
+          0.6766666666666665,
+          0.11959551057857282,
+          2.005000114440918
+        ],
+        [
+          0.7249999999999999,
+          0.11996485264808178,
+          2.005000114440918
+        ],
+        [
+          0.7733333333333337,
+          0.118979056363753,
+          2.005000114440918
+        ],
+        [
+          0.8216666666666665,
+          0.1166492574067838,
+          2.005000114440918
+        ],
+        [
+          0.8699999999999999,
+          0.11300177348484955,
+          2.005000114440918
+        ],
+        [
+          0.9183333333333332,
+          0.10807780704390431,
+          2.005000114440918
+        ],
+        [
+          0.9666666666666666,
+          0.10193297984006958,
+          2.005000114440918
+        ],
+        [
+          1.0150000000000003,
+          0.0946367046291467,
+          2.005000114440918
+        ],
+        [
+          1.0633333333333332,
+          0.08627140107122987,
+          2.005000114440918
+        ],
+        [
+          1.1116666666666666,
+          0.07693156470765948,
+          2.0049996376037598
+        ],
+        [
+          1.16,
+          0.06672269952727455,
+          2.005000114440918
+        ],
+        [
+          1.2083333333333333,
+          0.055760126179829686,
+          2.005000114440918
+        ],
+        [
+          1.2566666666666666,
+          0.04416767929915265,
+          2.005000114440918
+        ],
+        [
+          1.305,
+          0.03207630865124639,
+          2.004999876022339
+        ],
+        [
+          1.3533333333333333,
+          0.019622599908945434,
+          2.005000114440918
+        ],
+        [
+          1.4016666666666666,
+          0.006947231762647002,
+          2.005000114440918
+        ],
+        [
+          1.45,
+          -0.005806613204209698,
+          2.005000114440918
+        ]
+      ],
+      "geographic_accuracy_claimed": false
+    },
+    "fresh_runtime_execution": false
+  }
+]

@@ -1,0 +1,313 @@
+[
+  {
+    "source": {
+      "commit": "c2a84cac11fd6c1d59c58f2c9bc2f3218052a351",
+      "path": "preview/guyana-v1/browser-check.json",
+      "bytes": 2073,
+      "sha256": "c504779b6cc43de8a5a5bf841706aef73080ea7cc98cba06bc9be36321e4d22b"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 9216,
+          "meshes": 70,
+          "materials": 11,
+          "bounds": {
+            "min": [
+              -1.8600000143051147,
+              -0.2749999985098839,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.875148117542267,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 932588,
+          "open_projection_max_abs_ndc": 0.8923646516630197
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 9216,
+          "meshes": 70,
+          "materials": 11,
+          "bounds": {
+            "min": [
+              -1.8600000143051147,
+              -0.2749999985098839,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.875148117542267,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 932588,
+          "open_projection_max_abs_ndc": 0.892364651663021
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "c2a84cac11fd6c1d59c58f2c9bc2f3218052a351",
+      "path": "preview/guyana-v1/delivery-check.json",
+      "bytes": 625,
+      "sha256": "234492a39b0a3646959e238b6d7d7e47e44020304c717e2c081139aa4ae519d4"
+    },
+    "reported_result": {
+      "PASS": true,
+      "html_bytes": 2024172,
+      "glb_bytes": 932588,
+      "html_sha256": "593c689902b93497a0c86522b9c1d6f86ab9d18518a21e6f2799d071f866d8fc",
+      "glb_sha256": "03f4ec4b99208d99adbc02f789f24d7a6e5d8cc831a651c91015ab2cd3234068",
+      "archive_bytes": 7471434,
+      "archive_sha256": "641d0006cbae1228fa3d9d4458a3e4394259d8d455f350cbc1c06d8c200a0ad5",
+      "inventory_entries": 62,
+      "required_artifacts_present": true,
+      "archive_readback_all_hashes": true,
+      "embedded_glb_and_poster_exact": true,
+      "exclusions": "dependencies, caches, backups, inventory/envelopes and actively written logs; no circular hashes"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "c2a84cac11fd6c1d59c58f2c9bc2f3218052a351",
+      "path": "preview/guyana-v1/extended-check.json",
+      "bytes": 774,
+      "sha256": "1437f8f8be350f3a1a7efd0a0ed5a22f9c8d9d75776e92f3f08f68104666891d"
+    },
+    "reported_result": {
+      "poster_nonblank": {
+        "size": [
+          900,
+          850
+        ],
+        "mean": [
+          76.85028235294118,
+          79.31713594771242,
+          75.39656470588235
+        ],
+        "stddev": [
+          52.4311278625578,
+          46.318896283215174,
+          38.04876000267602
+        ]
+      },
+      "maps": [
+        {
+          "key": "map",
+          "width": 512,
+          "height": 256,
+          "range": 105,
+          "channel": 0
+        },
+        {
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 256,
+          "range": 47,
+          "channel": 1
+        },
+        {
+          "key": "normalMap",
+          "width": 512,
+          "height": 256,
+          "range": 17,
+          "channel": 0
+        }
+      ],
+      "theme_ancestry": {
+        "found": 23,
+        "bad": []
+      },
+      "noJS_poster": true,
+      "PASS": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "c2a84cac11fd6c1d59c58f2c9bc2f3218052a351",
+      "path": "preview/guyana-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "c2a84cac11fd6c1d59c58f2c9bc2f3218052a351",
+      "path": "preview/guyana-v1/parity-check.json",
+      "bytes": 324,
+      "sha256": "fd0db6c3a494152caf579aaec4a30533422ab951a32712ca3499d6668dd60a84"
+    },
+    "reported_result": {
+      "source_vertices": 4748,
+      "imported_vertices": 13947,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "sandstone-color.png",
+        "sandstone-normal.png",
+        "sandstone-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "c2a84cac11fd6c1d59c58f2c9bc2f3218052a351",
+      "path": "preview/guyana-v1/source-check.json",
+      "bytes": 393,
+      "sha256": "e57f465e6b50a178a0e448a3fe86266610cb4500d3063f940ffcc5cc039df7cf"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 39,
+      "static_meshes": 31,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 77
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "c2a84cac11fd6c1d59c58f2c9bc2f3218052a351",
+      "path": "preview/guyana-v1/theme-check.json",
+      "bytes": 359,
+      "sha256": "ed9569b66928c3cde27f591cdad86f91aad30d6b56c21b051305a16d10961490"
+    },
+    "reported_result": {
+      "Lid_Hinge_pivot_error": 0.0,
+      "Latch_Pivot_pivot_error": 0.0,
+      "detached_ornament_negative_rejected": true,
+      "all_theme_inside_lid": true,
+      "canopy_count": 12,
+      "waterfall_height": 0.5799999237060547,
+      "connected_Water / upper Potaro river": true,
+      "connected_Water / lower pool": true,
+      "water_visibility_rays": true,
+      "PASS": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "c2a84cac11fd6c1d59c58f2c9bc2f3218052a351",
+      "path": "preview/guyana-v1/visual-check.json",
+      "bytes": 834,
+      "sha256": "6deb057e0a9e6185dfe687c89bc4d62fc136d4df2af2ebee552bc33a3ba9763a"
+    },
+    "reported_result": {
+      "method": "Actual source poster and offline browser screenshots inspected with vision tool",
+      "initial_verdict": "Rejected dominant repetitive wood-like banding; retained initial poster and mobile capture",
+      "correction": "Irregular multiscale mineral mottling and pores, weaker bedding; geometry unchanged",
+      "final_mobile": "Corrected texture reads primarily as mottled sandstone; visible waterfall and canopy; no obvious gross defects or clipping",
+      "full_open_front": "Hollow cavity and entire lid/latch fit; terrain hidden on rear-facing lid as expected",
+      "limitations": [
+        "Residual wood-like streaks",
+        "Simplified solid ribbon water",
+        "Rounded low-detail canopy rather than botanically accurate rainforest",
+        "Inherited visible rim gaps",
+        "No physical-phone or photorealism claim"
+      ],
+      "technical_gates_separate": true
+    },
+    "fresh_runtime_execution": false
+  }
+]

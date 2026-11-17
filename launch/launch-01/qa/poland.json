@@ -1,0 +1,284 @@
+[
+  {
+    "source": {
+      "commit": "fde8b8ab624015f608cc0aa4e3d3c08e4967aef4",
+      "path": "preview/poland-v1/browser-check.json",
+      "bytes": 2078,
+      "sha256": "bc0c80ff353383675a5047565d3864c3fbe11a4fcf0bfbfd65334c97523a03c1"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 16920,
+          "meshes": 65,
+          "materials": 4,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.22500000894069672,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.1300000697374344,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1182436,
+          "open_projection_max_abs_ndc": 0.8923646516630171
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 16920,
+          "meshes": 65,
+          "materials": 4,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.22500000894069672,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.1300000697374344,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1182436,
+          "open_projection_max_abs_ndc": 0.8923646516630173
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "fde8b8ab624015f608cc0aa4e3d3c08e4967aef4",
+      "path": "preview/poland-v1/delivery-check.json",
+      "bytes": 569,
+      "sha256": "3b067a08f317d669860c58b8a2e36b94e1665e547e1eba01e532b1a0242f8c96"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "HTML_BYTES": 2383576,
+      "GLB_BYTES": 1182436,
+      "ZIP_BYTES": 4944465,
+      "zip_sha256": "efd37ca480b9bc490f109613afd78801411a670e35dddcbdabc3fbb83dba64ba",
+      "archive_readback_verified": true,
+      "inventory_entries": 59,
+      "required_artifacts_verified": [
+        ".gitattributes",
+        "README.md",
+        "browser-check.json",
+        "design-brief.md",
+        "design-check.json",
+        "parity-check.json",
+        "poland-v1.html",
+        "poland.blend",
+        "poland.glb",
+        "poster.png",
+        "source-check.json",
+        "theme-check.json"
+      ]
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "fde8b8ab624015f608cc0aa4e3d3c08e4967aef4",
+      "path": "preview/poland-v1/design-check.json",
+      "bytes": 224,
+      "sha256": "d72b12ac34f7029e30c0b6022163e2bfd97c0c4d2fefff255bf542abe2acbf15"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "pivot_matrices_identical": true,
+      "petals": 8,
+      "rosette_max_z": 2.1130001544952393,
+      "front_width": 3.7200000286102295,
+      "front_motif_rows": 5,
+      "seam_max_height": 0.07000000029802322
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "fde8b8ab624015f608cc0aa4e3d3c08e4967aef4",
+      "path": "preview/poland-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "fde8b8ab624015f608cc0aa4e3d3c08e4967aef4",
+      "path": "preview/poland-v1/parity-check.json",
+      "bytes": 291,
+      "sha256": "e21fce0c0d79b7696ed9f9fffa5d3dc3bfc716be882abb9a4c161b00b7654222"
+    },
+    "reported_result": {
+      "source_vertices": 8586,
+      "imported_vertices": 26347,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "ceramic-color.png",
+        "ceramic-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "fde8b8ab624015f608cc0aa4e3d3c08e4967aef4",
+      "path": "preview/poland-v1/source-check.json",
+      "bytes": 393,
+      "sha256": "1024a0f5142b55851516e8cfd714cc260f497654844754537b702d145bbeff59"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 26,
+      "static_meshes": 39,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 72
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "fde8b8ab624015f608cc0aa4e3d3c08e4967aef4",
+      "path": "preview/poland-v1/theme-check.json",
+      "bytes": 758,
+      "sha256": "8e66e53873d28b23c27a88a8d749687c018b238aaa57f5e6f539c0d85cc691c8"
+    },
+    "reported_result": {
+      "poster_nonempty": true,
+      "features": {
+        "petals": [
+          "Rosette__petal_0",
+          "Rosette__petal_1",
+          "Rosette__petal_2",
+          "Rosette__petal_3",
+          "Rosette__petal_4",
+          "Rosette__petal_5",
+          "Rosette__petal_6",
+          "Rosette__petal_7"
+        ],
+        "wrong": [],
+        "maps": [
+          {
+            "kind": "map",
+            "width": 768,
+            "height": 512,
+            "range": 211
+          },
+          {
+            "kind": "roughnessMap",
+            "width": 256,
+            "height": 256,
+            "range": 26
+          }
+        ]
+      },
+      "detached_petal_negative_rejected": true,
+      "nojs_poster": true,
+      "palette": {
+        "cobalt_fraction": 0.1607666015625,
+        "cream_fraction": 0.82122802734375
+      },
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  }
+]

@@ -1,0 +1,422 @@
+[
+  {
+    "source": {
+      "commit": "7542a8d990ede5f508170ec910f741f1d8b68188",
+      "path": "preview/kuwait-v1/browser-check.json",
+      "bytes": 2076,
+      "sha256": "baa24dd45cd36537e7d4e3bb533f41edf0a250f7bb17d2303a436403e1f37a3f"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 19594,
+          "meshes": 76,
+          "materials": 5,
+          "bounds": {
+            "min": [
+              -1.917499989271164,
+              -0.27000000327825546,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.917499989271164,
+              2.3057665824890137,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1590904,
+          "open_projection_max_abs_ndc": 0.8923646516630209
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 19594,
+          "meshes": 76,
+          "materials": 5,
+          "bounds": {
+            "min": [
+              -1.917499989271164,
+              -0.27000000327825546,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.917499989271164,
+              2.3057665824890137,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1590904,
+          "open_projection_max_abs_ndc": 0.8923646516630209
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "7542a8d990ede5f508170ec910f741f1d8b68188",
+      "path": "preview/kuwait-v1/delivery-check.json",
+      "bytes": 1376,
+      "sha256": "f7390c18cf4b6ae9d2173fd0e800445e648a195b5ed87133aac65cbb054fc817"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "html_bytes": 2822646,
+      "glb_bytes": 1590904,
+      "required_artifacts": [
+        "README.md",
+        "THREE-LICENSE.txt",
+        "author-helpers.txt",
+        "author-studio.txt",
+        "author.py",
+        "browser-check.json",
+        "build.py",
+        "checks.json",
+        "design-brief.md",
+        "desktop-closed.png",
+        "desktop-open.png",
+        "extended-check.json",
+        "kuwait-v1.html",
+        "kuwait.blend",
+        "kuwait.glb",
+        "maps.py",
+        "maps/sadu-color.png",
+        "maps/sadu-roughness.png",
+        "maps/sand-color.png",
+        "maps/wood-color.png",
+        "mechanism.blend",
+        "mobile-closed.png",
+        "mobile-open.png",
+        "package_delivery.py",
+        "parity-check.json",
+        "poster.jpg",
+        "poster.png",
+        "run_checks.py",
+        "source-check.json",
+        "theme-check.json",
+        "theme-source-check.json"
+      ],
+      "payload_file_count": 62,
+      "all_archive_bytes_verified": true,
+      "glb_no_external_uris": true,
+      "exact_packaged_html_offline_mobile_open": true,
+      "external_requests": [],
+      "page_errors": [],
+      "zip_bytes": 6105850,
+      "zip_sha256": "e46a5473a60c84dc517c517ba71f7a64b745f6b9d1623c85a886edf7affdff73",
+      "inventory_sha256": "19c261cefecbd6250dc1c4f667679f30fd0409279a8997c464d388e2bc2566e7",
+      "self_hash_exclusions": [
+        "delivery-check.json",
+        "inventory.json",
+        "kuwait-v1-source.zip"
+      ]
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "7542a8d990ede5f508170ec910f741f1d8b68188",
+      "path": "preview/kuwait-v1/extended-check.json",
+      "bytes": 1097,
+      "sha256": "cacfc826dff7e69aee0375ae2d7a5693f275b370e5e85b1b785bb526234d3df2"
+    },
+    "reported_result": {
+      "features": {
+        "dunes": [
+          "Dune__sculpted_relief"
+        ],
+        "panels": [
+          "Sadu__lid_band",
+          "Sadu__lid_band001",
+          "Sadu__lid_side_band",
+          "Sadu__lid_side_band001",
+          "Sadu__front_panel",
+          "Sadu__rear_panel",
+          "Sadu__side_panel",
+          "Sadu__side_panel001"
+        ],
+        "maps": [
+          {
+            "field": "map",
+            "material": "Wood / dark warm frame",
+            "width": 512,
+            "height": 512,
+            "range": 28
+          },
+          {
+            "field": "map",
+            "material": "Sand / sculpted desert relief",
+            "width": 256,
+            "height": 256,
+            "range": 26
+          },
+          {
+            "field": "map",
+            "material": "Sadu / invented woven bands",
+            "width": 512,
+            "height": 512,
+            "range": 190
+          },
+          {
+            "field": "roughnessMap",
+            "material": "Sadu / invented woven bands",
+            "width": 512,
+            "height": 512,
+            "range": 35
+          }
+        ],
+        "wrong": [],
+        "badUV": 0
+      },
+      "noJS_poster": true,
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "7542a8d990ede5f508170ec910f741f1d8b68188",
+      "path": "preview/kuwait-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "7542a8d990ede5f508170ec910f741f1d8b68188",
+      "path": "preview/kuwait-v1/parity-check.json",
+      "bytes": 331,
+      "sha256": "2396ff1abc54195b8ce21ce25c589ad62a90ca7214d18991d55defc67b8de26f"
+    },
+    "reported_result": {
+      "source_vertices": 9949,
+      "imported_vertices": 29235,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "sadu-color.png",
+        "sadu-roughness.png",
+        "sand-color.png",
+        "wood-color.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "7542a8d990ede5f508170ec910f741f1d8b68188",
+      "path": "preview/kuwait-v1/source-check.json",
+      "bytes": 393,
+      "sha256": "f2b76ca14a5ad44fb0eeaba1b90b346df334eed11287811ab36d282633e9f93f"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 21,
+      "static_meshes": 55,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 83
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "7542a8d990ede5f508170ec910f741f1d8b68188",
+      "path": "preview/kuwait-v1/theme-check.json",
+      "bytes": 248,
+      "sha256": "5595784c517946fb7f67e39e54cc72c32ac2673d4a8e5cefaaae0960431a7cb8"
+    },
+    "reported_result": {
+      "palette_fractions": [
+        0.606781005859375,
+        0.222564697265625,
+        0.170654296875
+      ],
+      "diamond_row_transitions": 32,
+      "flat_map_negative_rejected": true,
+      "poster_nonblack_fraction": 0.7911927083333333,
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "7542a8d990ede5f508170ec910f741f1d8b68188",
+      "path": "preview/kuwait-v1/theme-source-check.json",
+      "bytes": 1252,
+      "sha256": "b7744c049f780069b8d14f0b4fc3272c1e9a330f8f4936c27a08062e80a1cf38"
+    },
+    "reported_result": {
+      "dune_bounds": [
+        [
+          -1.25,
+          -0.6499999761581421,
+          1.975000023841858
+        ],
+        [
+          1.25,
+          0.6499999761581421,
+          2.3057665824890137
+        ]
+      ],
+      "centreline_crests": 3,
+      "lid_location": [
+        0.0,
+        1.3200000524520874,
+        1.6679999828338623
+      ],
+      "latch_location": [
+        0.0,
+        -2.6100001335144043,
+        0.2200000286102295
+      ],
+      "all_ornaments_lid_parented": true,
+      "negative_unparented_dune_rejected": true,
+      "exact_inherited_pivot_matrices": {
+        "Lid_Hinge": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            1.3200000524520874
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.6679999828338623
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Latch_Pivot": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -2.6100001335144043
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.2200000286102295
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  }
+]

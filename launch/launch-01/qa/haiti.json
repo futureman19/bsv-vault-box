@@ -1,0 +1,296 @@
+[
+  {
+    "source": {
+      "commit": "757fa87d11e181d54def8503c974fa31bb608dec",
+      "path": "preview/haiti-v1/browser-check.json",
+      "bytes": 2046,
+      "sha256": "dfe6462e1c5899d0e4c48c4c7cd462259b39d0daee8dbc2a966265ed66245b3d"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 15500,
+          "meshes": 93,
+          "materials": 4,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.25,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.0749833583831787,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 997892,
+          "open_projection_max_abs_ndc": 0.8923646516630208
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 15500,
+          "meshes": 93,
+          "materials": 4,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.25,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.0749833583831787,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 997892,
+          "open_projection_max_abs_ndc": 0.8923646516630199
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "757fa87d11e181d54def8503c974fa31bb608dec",
+      "path": "preview/haiti-v1/delivery-check.json",
+      "bytes": 315,
+      "sha256": "5773928597d8d581c832a27cf88867e1178f9cca788126164b8a78033789afe0"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "HTML_BYTES": 2090792,
+      "GLB_BYTES": 997892,
+      "ZIP_BYTES": 4229395,
+      "inventory_entries": 52,
+      "archive_entries": 53,
+      "archive_readback_verified": true,
+      "required_artifacts_present": true,
+      "zip_sha256": "15e44220161eeb91a1d685307012a5b378d1c6666fa124c94241848a9708c1ac"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "757fa87d11e181d54def8503c974fa31bb608dec",
+      "path": "preview/haiti-v1/extended-check.json",
+      "bytes": 508,
+      "sha256": "fc435d190ec1e2c056fc0f7162b69b69cae765ed7a21f4a4ddb32227b095212f"
+    },
+    "reported_result": {
+      "source_poster_nonempty": true,
+      "features": {
+        "leaves": 12,
+        "wrong": [],
+        "maps": [
+          {
+            "kind": "color",
+            "width": 256,
+            "height": 256,
+            "range": 35
+          },
+          {
+            "kind": "roughness",
+            "width": 256,
+            "height": 256,
+            "range": 50
+          },
+          {
+            "kind": "normal",
+            "width": 256,
+            "height": 256,
+            "range": 19
+          }
+        ]
+      },
+      "noJS_poster": true,
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "757fa87d11e181d54def8503c974fa31bb608dec",
+      "path": "preview/haiti-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "757fa87d11e181d54def8503c974fa31bb608dec",
+      "path": "preview/haiti-v1/parity-check.json",
+      "bytes": 312,
+      "sha256": "337efadc5dad39f840bc5f856765550bd00f522438e5d183dde344375f7f367e"
+    },
+    "reported_result": {
+      "source_vertices": 7932,
+      "imported_vertices": 24414,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "steel-color.png",
+        "steel-normal.png",
+        "steel-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "757fa87d11e181d54def8503c974fa31bb608dec",
+      "path": "preview/haiti-v1/source-check.json",
+      "bytes": 394,
+      "sha256": "262a8926684d2a5d1094a83d9c8309786a5117e63c0b7347e4f3866366f2b70b"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 54,
+      "static_meshes": 39,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 100
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "757fa87d11e181d54def8503c974fa31bb608dec",
+      "path": "preview/haiti-v1/theme-check.json",
+      "bytes": 320,
+      "sha256": "c82a507e2dbda3a7afb5f7dbd86fb1e8c6274a77c2fa21875bb39c04719dee96"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "garden_meshes": 38,
+      "leaves": 12,
+      "lid_ancestry": true,
+      "detached_leaf_negative_control_rejected": true,
+      "openwork_rays": {
+        "gap": "Lid / polished slab",
+        "stem": "Garden / central stem"
+      },
+      "max_ornament_z": 2.0749833583831787,
+      "inherited_pivot_max_error": 0.0
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "757fa87d11e181d54def8503c974fa31bb608dec",
+      "path": "preview/haiti-v1/visual-check.json",
+      "bytes": 703,
+      "sha256": "f622e0491d07dfa3e659cd92d32c7cf24a5d8acadfa942ccef214817b36332d2"
+    },
+    "reported_result": {
+      "status": "PASS_WITH_DISCLOSED_LIMITATIONS",
+      "images_inspected": [
+        "poster.png",
+        "mobile-closed.png",
+        "desktop-open.png"
+      ],
+      "poster_nonempty": true,
+      "mobile_copy_controls_and_silhouette_unclipped": true,
+      "open_silhouette_fits_and_hollow_interior_visible": true,
+      "limitations": [
+        "Stylized mottled blue-gray steel, not photoreal hand-hammering",
+        "Angular leafy low relief over solid lid; openwork gaps are between ornaments, not through container",
+        "Mobile fine-detail and dark-foot contrast limited",
+        "Open render hinge junction has a narrow visual separation; independent source test proves ten attachment surface overlaps but does not certify manufacture"
+      ],
+      "human_art_approval": false
+    },
+    "fresh_runtime_execution": false
+  }
+]

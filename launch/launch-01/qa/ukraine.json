@@ -1,0 +1,710 @@
+[
+  {
+    "source": {
+      "commit": "2a78dc5795b15c9d066678986b4422d764e1139c",
+      "path": "preview/ukraine-v1/browser-check.json",
+      "bytes": 2079,
+      "sha256": "2011ee390a544687a24a53b713e08975772b1058fd8536af33708541905dce9d"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 37680,
+          "meshes": 193,
+          "materials": 9,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.25999999791383743,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.1219998952001333,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 2284784,
+          "open_projection_max_abs_ndc": 0.8923646516630183
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 37680,
+          "meshes": 193,
+          "materials": 9,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.25999999791383743,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.1219998952001333,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 2284784,
+          "open_projection_max_abs_ndc": 0.892364651663019
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "2a78dc5795b15c9d066678986b4422d764e1139c",
+      "path": "preview/ukraine-v1/delivery-check.json",
+      "bytes": 565,
+      "sha256": "673e251d579f9dbe61e2499965c104f9b17b1b3613fa803358d3d3be82bcf8bb"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "html_bytes": 3833953,
+      "glb_bytes": 2284784,
+      "inventory_entries": 57,
+      "required_artifacts_present": true,
+      "zip_readback": true,
+      "zip_bytes": 8738655,
+      "zip_sha256": "254732e3606c838f82ad0e13701af79204f2daab18ef5bde02a7b03a69a8697e",
+      "exclusions": [
+        "delivery-check.json",
+        "git-verification.txt",
+        "inventory.json",
+        "package-output.txt",
+        "ukraine-v1-source.zip"
+      ],
+      "limits": "No hosted deployment, no physical-phone tests; archive/inventory exclude themselves to avoid circular hashing."
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "2a78dc5795b15c9d066678986b4422d764e1139c",
+      "path": "preview/ukraine-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "2a78dc5795b15c9d066678986b4422d764e1139c",
+      "path": "preview/ukraine-v1/motion-check.json",
+      "bytes": 7797,
+      "sha256": "29697533a00103346db02d29878623a10a81959fe4da55b005283b5ecbe2f108"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "samples": [
+        {
+          "p": 0,
+          "lid": 0,
+          "latch": 0
+        },
+        {
+          "p": 0.0125,
+          "lid": 0,
+          "latch": -0.06981317007977318
+        },
+        {
+          "p": 0.025,
+          "lid": 0,
+          "latch": -0.13962634015954636
+        },
+        {
+          "p": 0.0375,
+          "lid": 0,
+          "latch": -0.20943951023931953
+        },
+        {
+          "p": 0.05,
+          "lid": 0,
+          "latch": -0.2792526803190927
+        },
+        {
+          "p": 0.0625,
+          "lid": 0,
+          "latch": -0.3490658503988659
+        },
+        {
+          "p": 0.075,
+          "lid": 0,
+          "latch": -0.41887902047863906
+        },
+        {
+          "p": 0.0875,
+          "lid": 0,
+          "latch": -0.48869219055841223
+        },
+        {
+          "p": 0.1,
+          "lid": 0,
+          "latch": -0.5585053606381855
+        },
+        {
+          "p": 0.1125,
+          "lid": 0,
+          "latch": -0.6283185307179586
+        },
+        {
+          "p": 0.125,
+          "lid": 0,
+          "latch": -0.6981317007977318
+        },
+        {
+          "p": 0.1375,
+          "lid": 0,
+          "latch": -0.7679448708775051
+        },
+        {
+          "p": 0.15,
+          "lid": 0,
+          "latch": -0.8377580409572781
+        },
+        {
+          "p": 0.1625,
+          "lid": 0,
+          "latch": -0.9075712110370514
+        },
+        {
+          "p": 0.175,
+          "lid": 0,
+          "latch": -0.9773843811168245
+        },
+        {
+          "p": 0.1875,
+          "lid": 0,
+          "latch": -1.0471975511965976
+        },
+        {
+          "p": 0.2,
+          "lid": 0,
+          "latch": -1.117010721276371
+        },
+        {
+          "p": 0.2125,
+          "lid": 0,
+          "latch": -1.186823891356144
+        },
+        {
+          "p": 0.225,
+          "lid": 0,
+          "latch": -1.2566370614359172
+        },
+        {
+          "p": 0.2375,
+          "lid": 0,
+          "latch": -1.3264502315156903
+        },
+        {
+          "p": 0.25,
+          "lid": 0,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.2625,
+          "lid": -0.030543261909900792,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.275,
+          "lid": -0.061086523819801584,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.2875,
+          "lid": -0.09162978572970225,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.3,
+          "lid": -0.12217304763960304,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.3125,
+          "lid": -0.15271630954950383,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.325,
+          "lid": -0.18325957145940464,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.3375,
+          "lid": -0.21380283336930545,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.35,
+          "lid": -0.2443460952792061,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.3625,
+          "lid": -0.2748893571891069,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.375,
+          "lid": -0.30543261909900765,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.3875,
+          "lid": -0.33597588100890846,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.4,
+          "lid": -0.36651914291880927,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.4125,
+          "lid": -0.39706240482870997,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.425,
+          "lid": -0.4276056667386107,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.4375,
+          "lid": -0.45814892864851153,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.45,
+          "lid": -0.4886921905584123,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.4625,
+          "lid": -0.5192354524683132,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.475,
+          "lid": -0.5497787143782138,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.4875,
+          "lid": -0.5803219762881145,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.5,
+          "lid": -0.6108652381980153,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.5125,
+          "lid": -0.6414085001079161,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.525,
+          "lid": -0.6719517620178169,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.5375,
+          "lid": -0.7024950239277177,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.55,
+          "lid": -0.7330382858376185,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.5625,
+          "lid": -0.7635815477475193,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.575,
+          "lid": -0.7941248096574199,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.5875,
+          "lid": -0.8246680715673208,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.6,
+          "lid": -0.8552113334772214,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.6125,
+          "lid": -0.8857545953871224,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.625,
+          "lid": -0.9162978572970231,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.6375,
+          "lid": -0.9468411192069237,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.65,
+          "lid": -0.9773843811168246,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.6625,
+          "lid": -1.0079276430267252,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.675,
+          "lid": -1.0384709049366263,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.6875,
+          "lid": -1.069014166846527,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.7,
+          "lid": -1.0995574287564276,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.7125,
+          "lid": -1.1301006906663285,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.725,
+          "lid": -1.160643952576229,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.7375,
+          "lid": -1.19118721448613,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.75,
+          "lid": -1.2217304763960306,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.7625,
+          "lid": -1.2522737383059312,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.775,
+          "lid": -1.2828170002158323,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.7875,
+          "lid": -1.313360262125733,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.8,
+          "lid": -1.3439035240356338,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.8125,
+          "lid": -1.3744467859455347,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.825,
+          "lid": -1.4049900478554354,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.8375,
+          "lid": -1.4355333097653362,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.85,
+          "lid": -1.4660765716752369,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.8625,
+          "lid": -1.496619833585138,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.875,
+          "lid": -1.5271630954950386,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.8875,
+          "lid": -1.5577063574049392,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.9,
+          "lid": -1.58824961931484,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.9125,
+          "lid": -1.6187928812247407,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.925,
+          "lid": -1.6493361431346416,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.9375,
+          "lid": -1.6798794050445423,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.95,
+          "lid": -1.710422666954443,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.9625,
+          "lid": -1.740965928864344,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.975,
+          "lid": -1.7715091907742446,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.9875,
+          "lid": -1.8020524526841455,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 1,
+          "lid": -1.8325957145940461,
+          "latch": -1.3962634015954636
+        }
+      ],
+      "negative_invalid_assets_rejected": 3
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "2a78dc5795b15c9d066678986b4422d764e1139c",
+      "path": "preview/ukraine-v1/parity-check.json",
+      "bytes": 314,
+      "sha256": "842a8a5858e5d81d4af7fbbf8b0a6707489823ce1a882f7edff4502a71001595"
+    },
+    "reported_result": {
+      "source_vertices": 19214,
+      "imported_vertices": 39495,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "floral-color.png",
+        "lacquer-roughness.png",
+        "wood-color.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "2a78dc5795b15c9d066678986b4422d764e1139c",
+      "path": "preview/ukraine-v1/source-check.json",
+      "bytes": 395,
+      "sha256": "b8bfd3cb3aa939309dc9af7da66c69412e6cb5b0fdea0c45cb7d914cac6af9dd"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 150,
+      "static_meshes": 39,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 196
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "2a78dc5795b15c9d066678986b4422d764e1139c",
+      "path": "preview/ukraine-v1/theme-check.json",
+      "bytes": 621,
+      "sha256": "5f3e33a451312371cfd839c9fcf13ecf815af3d518073e55f1002db1ba04f11b"
+    },
+    "reported_result": {
+      "poster_actual_pixels_nonblank": true,
+      "features": {
+        "petals": 55,
+        "hearts": 5,
+        "leaves": 8,
+        "wrong": [],
+        "maps": [
+          {
+            "slot": "map",
+            "channel": 0,
+            "width": 1024,
+            "height": 512,
+            "range": 9
+          },
+          {
+            "slot": "roughnessMap",
+            "channel": 1,
+            "width": 1024,
+            "height": 512,
+            "range": 26
+          },
+          {
+            "slot": "map",
+            "channel": 0,
+            "width": 1024,
+            "height": 512,
+            "range": 213
+          }
+        ]
+      },
+      "noJS_poster": true,
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "2a78dc5795b15c9d066678986b4422d764e1139c",
+      "path": "preview/ukraine-v1/theme-source-check.json",
+      "bytes": 521,
+      "sha256": "bf2938aaaf1a673721166efa88cee03239a76814ceb0dfa1d30b38646fe50291"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "exact_baseline_pivots": true,
+      "ornament_meshes": 134,
+      "flowers": 5,
+      "leaves": 8,
+      "connected_flower_stem_endpoints": true,
+      "detached_negative_control_rejected": true,
+      "ornament_bounds": [
+        [
+          -1.4831966161727905,
+          -0.7710745930671692,
+          1.9853713512420654
+        ],
+        [
+          1.4891057014465332,
+          0.8110746145248413,
+          2.121999979019165
+        ]
+      ],
+      "interpretation": "Original procedural floral relief, not artisan-pattern authenticity"
+    },
+    "fresh_runtime_execution": false
+  }
+]

@@ -1,0 +1,262 @@
+[
+  {
+    "source": {
+      "commit": "11175a8e65e619fd35bfdd5f9fb4758fa633b180",
+      "path": "preview/iraq-v1/browser-check.json",
+      "bytes": 2082,
+      "sha256": "bb9748900927be0eb2b7df7bd521da65100c65a93c67d1d1ecc5a8f231eef384"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 15944,
+          "meshes": 274,
+          "materials": 4,
+          "bounds": {
+            "min": [
+              -1.8600000143051147,
+              -0.23000000417232513,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.3700000643730164,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1512052,
+          "open_projection_max_abs_ndc": 0.8923646516630207
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 15944,
+          "meshes": 274,
+          "materials": 4,
+          "bounds": {
+            "min": [
+              -1.8600000143051147,
+              -0.23000000417232513,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.3700000643730164,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1512052,
+          "open_projection_max_abs_ndc": 0.8923646516630201
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "11175a8e65e619fd35bfdd5f9fb4758fa633b180",
+      "path": "preview/iraq-v1/delivery-check.json",
+      "bytes": 380,
+      "sha256": "d2108e8eb77c2dd6db38be3fbe6fb7e2238d240acf0c3d6da81a8d1e692a2429"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "html_bytes": 2768622,
+      "glb_bytes": 1512052,
+      "inventory_entries": 55,
+      "archive_bytes": 5394297,
+      "archive_sha256": "a07aad164adabb62a969730e9608dbb37b483c48ec748eba7a5cd672f007be0d",
+      "archive_readback": true,
+      "required_artifacts_present": true,
+      "inventory_sha256": "1197c3196650a83dbe155a77429b184d8185f60fc4e3f4acc70f850370e75fa6"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "11175a8e65e619fd35bfdd5f9fb4758fa633b180",
+      "path": "preview/iraq-v1/extended-check.json",
+      "bytes": 527,
+      "sha256": "15215f81d44b1f95c4159ae94a22f28d50df8b81890c2b6a3823892813168984"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "decoded_maps": [
+        {
+          "name": "Cobalt / fired glaze",
+          "width": 512,
+          "height": 256,
+          "range": 25,
+          "mean": [
+            22.51311492919922,
+            69.51311492919922,
+            138.51311492919922
+          ]
+        },
+        {
+          "name": "Ochre / fired clay",
+          "width": 512,
+          "height": 256,
+          "range": 25,
+          "mean": [
+            197.51311492919922,
+            148.51311492919922,
+            65.51311492919922
+          ]
+        }
+      ],
+      "noJS_poster": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "11175a8e65e619fd35bfdd5f9fb4758fa633b180",
+      "path": "preview/iraq-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "11175a8e65e619fd35bfdd5f9fb4758fa633b180",
+      "path": "preview/iraq-v1/parity-check.json",
+      "bytes": 312,
+      "sha256": "be8ca2459251158e185047b508614ad26af9a19b287f8ea3644e46ca5cd17697"
+    },
+    "reported_result": {
+      "source_vertices": 8520,
+      "imported_vertices": 30596,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "cobalt-color.png",
+        "glaze-roughness.png",
+        "ochre-color.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "11175a8e65e619fd35bfdd5f9fb4758fa633b180",
+      "path": "preview/iraq-v1/source-check.json",
+      "bytes": 395,
+      "sha256": "29e7d982640c4dc99ddda3e0c8bc1c4d38149eceaf1d669a763aae2a65652d80"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 59,
+      "static_meshes": 215,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 281
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "11175a8e65e619fd35bfdd5f9fb4758fa633b180",
+      "path": "preview/iraq-v1/theme-check.json",
+      "bytes": 172,
+      "sha256": "4b635045e95e65a5b763a534ceb75ccdf56e142d6f814b06fb730fd04ed7d170"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "three_tiers": true,
+      "ornaments_lid_borne": true,
+      "cobalt_brick_count": 184,
+      "negative_control_detected": "tiers must travel with lid"
+    },
+    "fresh_runtime_execution": false
+  }
+]

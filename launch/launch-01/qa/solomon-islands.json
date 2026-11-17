@@ -1,0 +1,281 @@
+[
+  {
+    "source": {
+      "commit": "5670e464afccf22fae2be3477dc480830c13a6f2",
+      "path": "preview/solomon-islands-v1/browser-check.json",
+      "bytes": 2076,
+      "sha256": "6882f06fa22567d657e8c15de2a569569aaa058e1a4895669b44b19e1655ceec"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 27640,
+          "meshes": 192,
+          "materials": 5,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.2749999985098839,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.865999988745898,
+              2.0004999628290534,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 2148952,
+          "open_projection_max_abs_ndc": 0.8923646516630198
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 27640,
+          "meshes": 192,
+          "materials": 5,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.2749999985098839,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.865999988745898,
+              2.0004999628290534,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 2148952,
+          "open_projection_max_abs_ndc": 0.8923646516630204
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "5670e464afccf22fae2be3477dc480830c13a6f2",
+      "path": "preview/solomon-islands-v1/delivery-check.json",
+      "bytes": 467,
+      "sha256": "454abd2c2503b64e1b5291870ba6f55968b82b8b0a828ad52f5441cceff6b581"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "html_bytes": 3726216,
+      "glb_bytes": 2148952,
+      "inventory_entries": 55,
+      "required_deliverables_present": true,
+      "zip_readback_all_hashes_match": true,
+      "zip_bytes": 8110739,
+      "zip_sha256": "6db85a788120757b15c211e543531aa01e5812e26b4b548029039184a95b56c9",
+      "excludes": [
+        "node_modules",
+        "__pycache__",
+        ".blend1",
+        "recursive inventory/delivery envelopes",
+        "actively written package-output.txt"
+      ]
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "5670e464afccf22fae2be3477dc480830c13a6f2",
+      "path": "preview/solomon-islands-v1/extended-check.json",
+      "bytes": 713,
+      "sha256": "74127bea2e85250e43a63ef95d49f84d46812dd40115015d7ecf8a61812829a8"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "real_render_nonblack": true,
+      "maps": [
+        {
+          "name": "Ebony / fine longitudinal grain",
+          "key": "map",
+          "channel": 0,
+          "width": 512,
+          "height": 256,
+          "min": 33,
+          "max": 73,
+          "range": 40
+        },
+        {
+          "name": "Ebony / fine longitudinal grain",
+          "key": "roughnessMap",
+          "channel": 1,
+          "width": 512,
+          "height": 256,
+          "min": 70,
+          "max": 138,
+          "range": 68
+        },
+        {
+          "name": "Shell / warm ivory",
+          "key": "map",
+          "channel": 0,
+          "width": 512,
+          "height": 256,
+          "min": 226,
+          "max": 244,
+          "range": 18
+        }
+      ],
+      "noJS_poster": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "5670e464afccf22fae2be3477dc480830c13a6f2",
+      "path": "preview/solomon-islands-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "5670e464afccf22fae2be3477dc480830c13a6f2",
+      "path": "preview/solomon-islands-v1/parity-check.json",
+      "bytes": 312,
+      "sha256": "d8e6f2bc9a9cbea3c1eb2cb16c920b66bf74abffececd8e5f1da2315a9b6b55e"
+    },
+    "reported_result": {
+      "source_vertices": 14200,
+      "imported_vertices": 52228,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "ebony-color.png",
+        "ebony-roughness.png",
+        "shell-color.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "5670e464afccf22fae2be3477dc480830c13a6f2",
+      "path": "preview/solomon-islands-v1/source-check.json",
+      "bytes": 395,
+      "sha256": "2b53cc375d29d959d892ece17488c1fb6710ee4daeeeaba90d0126c4473753ce"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 73,
+      "static_meshes": 119,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 199
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "5670e464afccf22fae2be3477dc480830c13a6f2",
+      "path": "preview/solomon-islands-v1/theme-check.json",
+      "bytes": 321,
+      "sha256": "6e2fe6b6ee2fa23539e3214859f49f6feed4451a1b0353f4b66fc5cb68ffc69b"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "shell_pieces": 65,
+      "lid_shell_pieces": 45,
+      "lid_ancestry": true,
+      "low_relief": true,
+      "medallion_nonoverlap": true,
+      "detached_lid_ornament_negative_control_rejected": true,
+      "original_geometric_motifs_not_traditional_replicas": true,
+      "baseline_pivot_matrix_max_error": 0.0
+    },
+    "fresh_runtime_execution": false
+  }
+]

@@ -1,0 +1,384 @@
+[
+  {
+    "source": {
+      "commit": "9b4d05481b215504edb58469a97258c22044c13d",
+      "path": "preview/uganda-v1/browser-check.json",
+      "bytes": 2078,
+      "sha256": "4b77a6624fa2170463d0aa83d059849194734d553d361e552c509fd3c3afb095"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 17084,
+          "meshes": 57,
+          "materials": 5,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.1659655570983887,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1806436,
+          "open_projection_max_abs_ndc": 0.8923646516630197
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 17084,
+          "meshes": 57,
+          "materials": 5,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.1659655570983887,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1806436,
+          "open_projection_max_abs_ndc": 0.8923646516630185
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "9b4d05481b215504edb58469a97258c22044c13d",
+      "path": "preview/uganda-v1/delivery-check.json",
+      "bytes": 939,
+      "sha256": "13badd94b910dcf9f8b8a337d37a859cfec578bef0021fe9b27a6514bcb84291"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "HTML_BYTES": 3164852,
+      "GLB_BYTES": 1806436,
+      "ZIP_BYTES": 7701696,
+      "ZIP_SHA256": "55183bf5ffafb3280d9e8f4d3883188de749d742110de1e9c3a62802879e27fd",
+      "inventory_files": 57,
+      "required_files_verified": [
+        "README.md",
+        "author.py",
+        "browser-check.json",
+        "design-brief.md",
+        "extended-check.json",
+        "maps.py",
+        "mechanism.blend",
+        "mobile-closed.png",
+        "mobile-open.png",
+        "parity-check.json",
+        "pivot-check.json",
+        "poster.jpg",
+        "poster.png",
+        "source-check.json",
+        "theme-check.json",
+        "uganda-v1.html",
+        "uganda.blend",
+        "uganda.glb"
+      ],
+      "archive_readback_verified": true,
+      "checks_passed": [
+        "source",
+        "81-pose collision",
+        "parity",
+        "theme",
+        "negative-control rejection",
+        "pivot preservation",
+        "motion",
+        "browser desktop/mobile",
+        "extended/no-JS",
+        "delivery"
+      ]
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "9b4d05481b215504edb58469a97258c22044c13d",
+      "path": "preview/uganda-v1/extended-check.json",
+      "bytes": 1061,
+      "sha256": "81c4632f164d9d38021a9349b21c3390bffb5e846f654aaeefc4cad7635c1f15"
+    },
+    "reported_result": {
+      "maps": [
+        {
+          "kind": "color",
+          "range": 43,
+          "width": 512,
+          "height": 512
+        },
+        {
+          "kind": "roughness",
+          "range": 43,
+          "width": 512,
+          "height": 512
+        },
+        {
+          "kind": "color",
+          "range": 45,
+          "width": 128,
+          "height": 128
+        },
+        {
+          "kind": "color",
+          "range": 30,
+          "width": 512,
+          "height": 512
+        }
+      ],
+      "cloth": [
+        {
+          "name": "Mutuba__folded_barkcloth",
+          "lid": true
+        }
+      ],
+      "text": "BOXSV / STUDIES\n3D asset pilot / not minted\nBOXES FROM IMPOSSIBLE PLACES\nUganda / Mutuba Barkcloth\n\nBeaten fibers. Terracotta folds. Quiet brass.\n\nDrag to rotate · scroll or pinch to zoom\n\nOpen lid\nReset view\n\nCosmetic lid movement only. This is one inner collectible, not the outer custody container. No transaction or custody state changes.\n\nAbout this study\nUGANDA · 3D / 001",
+      "aria": "Interactive Uganda Mutuba Barkcloth model. Drag to rotate.",
+      "nojs_poster": true,
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "9b4d05481b215504edb58469a97258c22044c13d",
+      "path": "preview/uganda-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "9b4d05481b215504edb58469a97258c22044c13d",
+      "path": "preview/uganda-v1/parity-check.json",
+      "bytes": 342,
+      "sha256": "80bdd23dafd2206fb38c2f313919d65e9e46e14f233b2230ef899a55889c7e94"
+    },
+    "reported_result": {
+      "source_vertices": 8889,
+      "imported_vertices": 24500,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "barkcloth-color.png",
+        "barkcloth-edge.png",
+        "barkcloth-roughness.png",
+        "granite.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "9b4d05481b215504edb58469a97258c22044c13d",
+      "path": "preview/uganda-v1/pivot-check.json",
+      "bytes": 1000,
+      "sha256": "427914ee41b88d024d519a095ee0fd6e42a6a489a6b13b109c68ede2b697c2d8"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "exact_inherited_world_matrices": true,
+      "pivots": {
+        "Lid_Hinge": {
+          "parent": null,
+          "matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              1.3200000524520874
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.6679999828338623
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        "Latch_Pivot": {
+          "parent": "Lid_Hinge",
+          "matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.290000081062317
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.8880000114440918
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      }
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "9b4d05481b215504edb58469a97258c22044c13d",
+      "path": "preview/uganda-v1/source-check.json",
+      "bytes": 393,
+      "sha256": "1d418a27f6913e97a136f528e332b76d482f6637c5a9f2f6df3c18371a0afc8a"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 17,
+      "static_meshes": 39,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 63
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "9b4d05481b215504edb58469a97258c22044c13d",
+      "path": "preview/uganda-v1/theme-check.json",
+      "bytes": 343,
+      "sha256": "d554e0c9e6eb0e2522fe21380572d7b135d68a56fa04b894a5fe780cfdd1c107"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "checks": {
+        "lid_ownership": true,
+        "xy_bounds": true,
+        "top_bounds": true,
+        "skirt_seated": true,
+        "upward_top": true,
+        "hollow_body": true,
+        "three_maps_packed": true
+      },
+      "top_min": 2.044034481048584,
+      "top_max": 2.1659655570983887,
+      "note": "Saved-source measured contract"
+    },
+    "fresh_runtime_execution": false
+  }
+]

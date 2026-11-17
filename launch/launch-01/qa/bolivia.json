@@ -1,0 +1,289 @@
+[
+  {
+    "source": {
+      "commit": "0397480e812e28c0f604d69e8a8346eed471e5cc",
+      "path": "preview/bolivia-v1/browser-check.json",
+      "bytes": 2080,
+      "sha256": "f6a5c2942e6370f514590a41c718a1845f2159de2b35298bac8d7569b0cfa0a0"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 21126,
+          "meshes": 109,
+          "materials": 6,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.5199999809265137,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1451276,
+          "open_projection_max_abs_ndc": 0.8923646516630197
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 21126,
+          "meshes": 109,
+          "materials": 6,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.5199999809265137,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1451276,
+          "open_projection_max_abs_ndc": 0.8923646516630204
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "0397480e812e28c0f604d69e8a8346eed471e5cc",
+      "path": "preview/bolivia-v1/delivery-check.json",
+      "bytes": 579,
+      "sha256": "676682f31fb6deff8ae734270544753c9fbe232b27e5f2892708846ff794ebd9"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "html_bytes": 2701281,
+      "glb_bytes": 1451276,
+      "archive_bytes": 4976222,
+      "archive_sha256": "2d65cc79b716506b2d0fa035502353a1ba8bf056c74fdd09d3102d8a805d41ad",
+      "inventory_entries": 55,
+      "archive_readback_all_hashes": true,
+      "required_artifacts_present": [
+        "README.md",
+        "bolivia-v1.html",
+        "bolivia.blend",
+        "bolivia.glb",
+        "browser-check.json",
+        "design-brief.md",
+        "extended-check.json",
+        "parity-check.json",
+        "poster.jpg",
+        "poster.png",
+        "source-check.json",
+        "theme-check.json"
+      ]
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "0397480e812e28c0f604d69e8a8346eed471e5cc",
+      "path": "preview/bolivia-v1/extended-check.json",
+      "bytes": 528,
+      "sha256": "5f862a971d06294180d329d453ca307451766fc7ccf5fe665ee353d9ea64d544"
+    },
+    "reported_result": {
+      "source_poster_pixels_valid": true,
+      "maps": [
+        {
+          "key": "map",
+          "width": 256,
+          "height": 256,
+          "min": 208,
+          "max": 247,
+          "range": 39
+        },
+        {
+          "key": "roughnessMap",
+          "width": 256,
+          "height": 256,
+          "min": 130,
+          "max": 219,
+          "range": 89
+        },
+        {
+          "key": "normalMap",
+          "width": 256,
+          "height": 256,
+          "min": 119,
+          "max": 136,
+          "range": 17
+        }
+      ],
+      "noJS_poster": true,
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "0397480e812e28c0f604d69e8a8346eed471e5cc",
+      "path": "preview/bolivia-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "0397480e812e28c0f604d69e8a8346eed471e5cc",
+      "path": "preview/bolivia-v1/parity-check.json",
+      "bytes": 310,
+      "sha256": "f169980a2c6f5e751d80e1dbedeb5db1d4faf611fb6bee559a5c38ac3101e943"
+    },
+    "reported_result": {
+      "source_vertices": 10777,
+      "imported_vertices": 35337,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "salt-color.png",
+        "salt-normal.png",
+        "salt-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "0397480e812e28c0f604d69e8a8346eed471e5cc",
+      "path": "preview/bolivia-v1/source-check.json",
+      "bytes": 394,
+      "sha256": "92f367411422397f39b6f6489e1cf2bf72afa5fb1d0a01367abf88b55b528eaa"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 42,
+      "static_meshes": 67,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 116
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "0397480e812e28c0f604d69e8a8346eed471e5cc",
+      "path": "preview/bolivia-v1/theme-check.json",
+      "bytes": 452,
+      "sha256": "533eb7dfdc710fef76060699c723d77d2a66387a6489871adf7a8da5dd170026"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "salt_polygon_count": 24,
+      "ornaments_lid_owned": 26,
+      "peak_vertices": 121,
+      "peak_min": [
+        0.3893955647945404,
+        0.23880188167095184,
+        1.9989999532699585
+      ],
+      "peak_max": [
+        1.2987771034240723,
+        0.8712331652641296,
+        2.5199999809265137
+      ],
+      "original_pivot_max_error": 0.0,
+      "negative_control_rejected": "Detached lid ornament",
+      "scope": "Authored relief, not a geographic survey"
+    },
+    "fresh_runtime_execution": false
+  }
+]

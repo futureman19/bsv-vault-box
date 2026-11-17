@@ -1,0 +1,295 @@
+[
+  {
+    "source": {
+      "commit": "87139bbe4b2bb0ac14676f6cf0aeeba7f0135017",
+      "path": "preview/malawi-v1/browser-check.json",
+      "bytes": 2076,
+      "sha256": "83025c10397d87a587981cea20ca6837f0f859463ac7453221f88a4546f89ddf"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 18496,
+          "meshes": 79,
+          "materials": 6,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.510069578886032,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1378228,
+          "open_projection_max_abs_ndc": 0.8923646516630198
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 18496,
+          "meshes": 79,
+          "materials": 6,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.510069578886032,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1378228,
+          "open_projection_max_abs_ndc": 0.8923646516630198
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "87139bbe4b2bb0ac14676f6cf0aeeba7f0135017",
+      "path": "preview/malawi-v1/delivery-check.json",
+      "bytes": 1398,
+      "sha256": "e4306674f8fff45e80c0f43acb51654d9e378063aee73c6a9d3cb52c79facb9e"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "html": {
+        "bytes": 2544716,
+        "sha256": "8f46b115c83700092071ee543cda76e33feee1ac6f4690d6a8800a8fee77e84d"
+      },
+      "glb": {
+        "bytes": 1378228,
+        "sha256": "dd6cca5c7aca09b70616fe53668c472754dd9b666f6218c2fa56659b4b9c1af5"
+      },
+      "archive": {
+        "bytes": 6840380,
+        "sha256": "9a383ecb54be636b359896d930e296b96bd4d385968f06703afde7d57748e842"
+      },
+      "inventory": {
+        "bytes": 7064,
+        "sha256": "6f58cc9cc61dae541ba859dea2ed76c0c4a2c4809f43436d093e3a8e0c34c686"
+      },
+      "required_payload_verified": [
+        "README.md",
+        "THREE-LICENSE.txt",
+        "author.py",
+        "browser-check.json",
+        "build.py",
+        "checks.json",
+        "design-brief.md",
+        "desktop-closed.png",
+        "desktop-open.png",
+        "malawi-v1.html",
+        "malawi.blend",
+        "malawi.glb",
+        "maps.py",
+        "mechanism.blend",
+        "mobile-closed.png",
+        "mobile-open.png",
+        "motion.mjs",
+        "parity-check.json",
+        "poster.jpg",
+        "poster.png",
+        "run_checks.py",
+        "source-check.json",
+        "tests.mjs",
+        "theme-check.json",
+        "verify_browser.py",
+        "verify_parity.py",
+        "verify_source.py",
+        "verify_theme.py"
+      ],
+      "archive_entries": 54,
+      "readback_all_hashes_match": true,
+      "exclusions": "self-referential inventory/delivery/ZIP envelopes, packaging stdout, caches and Blender backups; no delivery copy claimed"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "87139bbe4b2bb0ac14676f6cf0aeeba7f0135017",
+      "path": "preview/malawi-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "87139bbe4b2bb0ac14676f6cf0aeeba7f0135017",
+      "path": "preview/malawi-v1/parity-check.json",
+      "bytes": 318,
+      "sha256": "2cb9bb268cc346fff337124ae70e047555cc9111609c087000fb83d24d3b2640"
+    },
+    "reported_result": {
+      "source_vertices": 9402,
+      "imported_vertices": 29066,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "granite-color.png",
+        "granite-normal.png",
+        "granite-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "87139bbe4b2bb0ac14676f6cf0aeeba7f0135017",
+      "path": "preview/malawi-v1/source-check.json",
+      "bytes": 393,
+      "sha256": "4243491a6ce0dfa002d0e6e7389a296bfe82678f53e373efb7492eeb746448ac"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 40,
+      "static_meshes": 39,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 86
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "87139bbe4b2bb0ac14676f6cf0aeeba7f0135017",
+      "path": "preview/malawi-v1/theme-check.json",
+      "bytes": 691,
+      "sha256": "d05c40bee5b46e7acbf15359c8808dca9814fe616518fc5c19df9200268ccfe4"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "observed": {
+        "boulders": 4,
+        "bodies": 3,
+        "tails": 3,
+        "lake": 1,
+        "shore": 1,
+        "wrong": [],
+        "obsolete": [],
+        "maps": [
+          {
+            "key": "map",
+            "width": 256,
+            "height": 256,
+            "range": 175
+          },
+          {
+            "key": "normalMap",
+            "width": 256,
+            "height": 256,
+            "range": 51
+          },
+          {
+            "key": "roughnessMap",
+            "width": 256,
+            "height": 256,
+            "range": 100
+          }
+        ],
+        "width": 3.7871190189382498,
+        "height": 2.8182390704751015
+      },
+      "missing_boulders_negative_control_rejected": true,
+      "no_js_poster": true
+    },
+    "fresh_runtime_execution": false
+  }
+]

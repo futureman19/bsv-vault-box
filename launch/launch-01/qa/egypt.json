@@ -1,0 +1,300 @@
+[
+  {
+    "source": {
+      "commit": "5c9180bf5f4c6d49e3238bc3134eccaa614b0dc6",
+      "path": "preview/egypt-v1/browser-check.json",
+      "bytes": 2076,
+      "sha256": "7903c7db161560bd4919cfa835ebab29ce7a2000248d5fd5807ddddac7362ff4"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 14942,
+          "meshes": 63,
+          "materials": 4,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.805000066757202,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1467052,
+          "open_projection_max_abs_ndc": 0.8923646516630201
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 14942,
+          "meshes": 63,
+          "materials": 4,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.805000066757202,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1467052,
+          "open_projection_max_abs_ndc": 0.8923646516630206
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "5c9180bf5f4c6d49e3238bc3134eccaa614b0dc6",
+      "path": "preview/egypt-v1/delivery-check.json",
+      "bytes": 348,
+      "sha256": "a0d931c9966108c5e29c3c4101632783ae65e5b2ba41950ee9c2f8e1baaf81cc"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "html_bytes": 2693785,
+      "glb_bytes": 1467052,
+      "archive_entries": 50,
+      "archive_bytes": 6652024,
+      "archive_sha256": "6c1a6bfe2dcb99774ae7a92a5408aa598ad54871788e7c65650c82b37ae970e0",
+      "inventory_sha256": "0b6de9fa16e41951794dfa2732e2fbbf993d709a4273b972c55bc9c8f512a04b",
+      "archive_readback_verified": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "5c9180bf5f4c6d49e3238bc3134eccaa614b0dc6",
+      "path": "preview/egypt-v1/extended-check.json",
+      "bytes": 651,
+      "sha256": "e3ce85eff7d008108b07ee3fe32060cd6876f97e9984d1f7825d2599e864c03f"
+    },
+    "reported_result": {
+      "features": {
+        "pyramids": 3,
+        "terrain": 1,
+        "maps": [
+          {
+            "material": "Alabaster / honey veined calcite",
+            "key": "map",
+            "width": 512,
+            "height": 512,
+            "range": 53
+          },
+          {
+            "material": "Alabaster / honey veined calcite",
+            "key": "roughnessMap",
+            "width": 512,
+            "height": 512,
+            "range": 48
+          },
+          {
+            "material": "Limestone / desert cream",
+            "key": "map",
+            "width": 256,
+            "height": 256,
+            "range": 39
+          }
+        ],
+        "wrong": []
+      },
+      "noJS_poster": true,
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "5c9180bf5f4c6d49e3238bc3134eccaa614b0dc6",
+      "path": "preview/egypt-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "5c9180bf5f4c6d49e3238bc3134eccaa614b0dc6",
+      "path": "preview/egypt-v1/parity-check.json",
+      "bytes": 317,
+      "sha256": "47f4971fe5f6c1261f3a6287fd2da8980dae7c62a5daec495db37eea597fd74d"
+    },
+    "reported_result": {
+      "source_vertices": 7593,
+      "imported_vertices": 24245,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "alabaster-color.png",
+        "alabaster-roughness.png",
+        "limestone.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "5c9180bf5f4c6d49e3238bc3134eccaa614b0dc6",
+      "path": "preview/egypt-v1/source-check.json",
+      "bytes": 393,
+      "sha256": "94fc7d49038cc16af13ee634cb2d6aae91e246c6c39ef9d1b7b06540a72e6a8f"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 24,
+      "static_meshes": 39,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 70
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "5c9180bf5f4c6d49e3238bc3134eccaa614b0dc6",
+      "path": "preview/egypt-v1/theme-check.json",
+      "bytes": 800,
+      "sha256": "7bea69b5fb9a50b46a2cf8474cc28cfecdd78c4eedc6a3ec716f212ed4524b5c"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "three_lid_parented_pyramids": true,
+      "pyramid_dimensions": [
+        [
+          0.9199999570846558,
+          0.9200000166893005,
+          0.7400000095367432
+        ],
+        [
+          0.6600000262260437,
+          0.6599999666213989,
+          0.5299999713897705
+        ],
+        [
+          0.3999999761581421,
+          0.3999999761581421,
+          0.31999993324279785
+        ]
+      ],
+      "lid_dimensions": [
+        3.7200000286102295,
+        2.380000114440918,
+        0.30000001192092896
+      ],
+      "lid_pivot": [
+        0.0,
+        1.3200000524520874,
+        1.6679999828338623
+      ],
+      "latch_pivot": [
+        0.0,
+        -2.6100001335144043,
+        0.2200000286102295
+      ],
+      "packed_maps": [
+        "alabaster-color.png",
+        "alabaster-roughness.png",
+        "limestone.png"
+      ],
+      "no_other_country_ornaments": true
+    },
+    "fresh_runtime_execution": false
+  }
+]

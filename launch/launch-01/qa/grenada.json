@@ -1,0 +1,339 @@
+[
+  {
+    "source": {
+      "commit": "d8733d454a4e893cba8a8de3779e78d29768b137",
+      "path": "preview/grenada-v1/browser-check.json",
+      "bytes": 2080,
+      "sha256": "55db857fe39c0f0dd74a01e196464978644f983bcf6a59f776d0cee6a2565970"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 35854,
+          "meshes": 148,
+          "materials": 10,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.865999988745898,
+              2.6334824562072754,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 2608040,
+          "open_projection_max_abs_ndc": 0.8923646516630205
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 35854,
+          "meshes": 148,
+          "materials": 10,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.865999988745898,
+              2.6334824562072754,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 2608040,
+          "open_projection_max_abs_ndc": 0.8923646516630193
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "d8733d454a4e893cba8a8de3779e78d29768b137",
+      "path": "preview/grenada-v1/delivery-check.json",
+      "bytes": 890,
+      "sha256": "8a42379014c4c6f128b3e33e0c06fc6c9c999edee00328a24f87cbdf8f0fdcae"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "HTML_BYTES": 4282416,
+      "GLB_BYTES": 2608040,
+      "ZIP_BYTES": 7715656,
+      "zip_sha256": "9f8ef4f017f9a6d58057198dab507afab6246f1245343bf43c7bd544103a4109",
+      "inventory_entries": 60,
+      "zip_entries": 61,
+      "required_artifacts_present": [
+        "README.md",
+        "browser-check.json",
+        "design-brief.md",
+        "extended-check.json",
+        "grenada-v1.html",
+        "grenada.blend",
+        "grenada.glb",
+        "mechanism.blend",
+        "motion-output.txt",
+        "parity-check.json",
+        "poster.jpg",
+        "poster.png",
+        "source-check.json",
+        "theme-check.json"
+      ],
+      "archive_readback_verified": true,
+      "inventory_exclusions": [
+        "inventory.json (self hash)",
+        "delivery-check.json (envelope)",
+        "source ZIP (envelope)",
+        "verification-output.txt (actively written log)",
+        "node_modules",
+        "__pycache__",
+        "blend1"
+      ]
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "d8733d454a4e893cba8a8de3779e78d29768b137",
+      "path": "preview/grenada-v1/extended-check.json",
+      "bytes": 1052,
+      "sha256": "06948020d8421582fa327cefeda36d8d2942150304f6348ce3c4313bc4e73848"
+    },
+    "reported_result": {
+      "actual_poster_nonblack_coverage": 0.9306344444444444,
+      "maps": [
+        {
+          "material": "Spicewood / dark finger endgrain",
+          "key": "map",
+          "width": 256,
+          "height": 256,
+          "range": 28
+        },
+        {
+          "material": "Granite / salt and pepper",
+          "key": "map",
+          "width": 256,
+          "height": 256,
+          "range": 143
+        },
+        {
+          "material": "Spicewood / fine longitudinal grain",
+          "key": "map",
+          "width": 512,
+          "height": 512,
+          "range": 70
+        },
+        {
+          "material": "Spicewood / fine longitudinal grain",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512,
+          "range": 10
+        },
+        {
+          "material": "Spicewood / fine longitudinal grain",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512,
+          "range": 53
+        },
+        {
+          "material": "Nutmeg / warm brown seed",
+          "key": "map",
+          "width": 256,
+          "height": 256,
+          "range": 22
+        }
+      ],
+      "noJS_poster": true,
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "d8733d454a4e893cba8a8de3779e78d29768b137",
+      "path": "preview/grenada-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "d8733d454a4e893cba8a8de3779e78d29768b137",
+      "path": "preview/grenada-v1/parity-check.json",
+      "bytes": 396,
+      "sha256": "a850612d9f4a2f02b1c932f4d9a7270535a8a8d05c9be181798767dfdc6f31d4"
+    },
+    "reported_result": {
+      "source_vertices": 18219,
+      "imported_vertices": 54777,
+      "source_to_glb_max": 2.4575624024691933e-07,
+      "glb_to_source_max": 2.4575624024691933e-07,
+      "source_packed_images": [
+        "granite.png",
+        "seed-color.png",
+        "spicewood-color.png",
+        "spicewood-end.png",
+        "spicewood-normal.png",
+        "spicewood-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "d8733d454a4e893cba8a8de3779e78d29768b137",
+      "path": "preview/grenada-v1/source-check.json",
+      "bytes": 394,
+      "sha256": "28f852af554c60ca70c074dd38b728b159dae321bbd3d3921b8891ddb71108ba"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 49,
+      "static_meshes": 99,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 155
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "d8733d454a4e893cba8a8de3779e78d29768b137",
+      "path": "preview/grenada-v1/theme-check.json",
+      "bytes": 831,
+      "sha256": "dfd5ed3569d9fc0e1e6be4cf28c2796ad19a4e3c5ca7d172eb9518e428d86faf"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "counts": {
+        "Nutmeg / seed": 1,
+        "Mace / open curling rib": 9,
+        "Fruit / split cheek": 2,
+        "Botanical / leaf ": 4,
+        "Botanical / branch": 1
+      },
+      "lid_ancestry_and_bounds": true,
+      "palette": {
+        "Mace / scarlet aril": [
+          0.46000000834465027,
+          0.04500000178813934,
+          0.01600000075995922,
+          1.0
+        ],
+        "Leaves / deep green": [
+          0.054999999701976776,
+          0.1599999964237213,
+          0.04500000178813934,
+          1.0
+        ],
+        "Fruit / golden split husk": [
+          0.47999998927116394,
+          0.27000001072883606,
+          0.07500000298023224,
+          1.0
+        ]
+      },
+      "independent_pivot_max_error": 0.0,
+      "negative_control": {
+        "mutation": "detach seed from lid in memory only",
+        "rejected": "('detached', 'Nutmeg / seed')"
+      }
+    },
+    "fresh_runtime_execution": false
+  }
+]

@@ -1,0 +1,285 @@
+[
+  {
+    "source": {
+      "commit": "d76b48e7f1d9e4efffaf6757efb59d26637a03bb",
+      "path": "preview/cuba-v1/browser-check.json",
+      "bytes": 2076,
+      "sha256": "1f2a37e4a4d3a521ffab6b2987023964378df0ba87edc10113ed818a17d3a64b"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 9044,
+          "meshes": 58,
+          "materials": 5,
+          "bounds": {
+            "min": [
+              -1.8600000143051147,
+              -0.23999999463558197,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.8429999351501465,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 765548,
+          "open_projection_max_abs_ndc": 0.8923646516630205
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 9044,
+          "meshes": 58,
+          "materials": 5,
+          "bounds": {
+            "min": [
+              -1.8600000143051147,
+              -0.23999999463558197,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.8429999351501465,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 765548,
+          "open_projection_max_abs_ndc": 0.8923646516630205
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "d76b48e7f1d9e4efffaf6757efb59d26637a03bb",
+      "path": "preview/cuba-v1/delivery-check.json",
+      "bytes": 592,
+      "sha256": "cea3a81ec39e45663b57b79e8d73588a0b7b91840c6cc9db763944023db65d21"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "HTML_BYTES": 1822582,
+      "GLB_BYTES": 765548,
+      "ZIP_BYTES": 5417073,
+      "zip_sha256": "615cf8fe4ff242baf3599aabf191f773bb7e6eaa4737aeba5a720515dc7d1e84",
+      "required_artifacts_verified": [
+        ".gitattributes",
+        "README.md",
+        "browser-check.json",
+        "cuba-v1.html",
+        "cuba.blend",
+        "cuba.glb",
+        "design-brief.md",
+        "extended-check.json",
+        "mechanism.blend",
+        "parity-check.json",
+        "poster.jpg",
+        "poster.png",
+        "source-check.json",
+        "theme-check.json"
+      ],
+      "zip_entries": 48,
+      "archive_readback": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "d76b48e7f1d9e4efffaf6757efb59d26637a03bb",
+      "path": "preview/cuba-v1/extended-check.json",
+      "bytes": 482,
+      "sha256": "2639d250ec733f3124d6424395c6cda137ae412f8b865fd1b2bcda1592abf6a0"
+    },
+    "reported_result": {
+      "hills": [
+        "Mogote__1",
+        "Mogote__2",
+        "Mogote__3"
+      ],
+      "wrong": [],
+      "maps": [
+        {
+          "kind": "map",
+          "width": 256,
+          "height": 256,
+          "range": 68
+        },
+        {
+          "kind": "roughnessMap",
+          "width": 256,
+          "height": 256,
+          "range": 37
+        },
+        {
+          "kind": "map",
+          "width": 256,
+          "height": 256,
+          "range": 52
+        }
+      ],
+      "status": "PASS",
+      "poster_nonempty": true,
+      "noJS": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "d76b48e7f1d9e4efffaf6757efb59d26637a03bb",
+      "path": "preview/cuba-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "d76b48e7f1d9e4efffaf6757efb59d26637a03bb",
+      "path": "preview/cuba-v1/parity-check.json",
+      "bytes": 297,
+      "sha256": "8feaacb1ebafd35c5001dee1b9d2c9ea8e130abb5822b9eec6b458dff138cab4"
+    },
+    "reported_result": {
+      "source_vertices": 4632,
+      "imported_vertices": 14674,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "earth.png",
+        "limestone.png",
+        "roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "d76b48e7f1d9e4efffaf6757efb59d26637a03bb",
+      "path": "preview/cuba-v1/source-check.json",
+      "bytes": 393,
+      "sha256": "f30bb11719c8ccb96171e850884736acc9b3ebe4f96bc480bfade9c056bf07af"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 20,
+      "static_meshes": 35,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 62
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "d76b48e7f1d9e4efffaf6757efb59d26637a03bb",
+      "path": "preview/cuba-v1/theme-check.json",
+      "bytes": 240,
+      "sha256": "5267f73a517518c537f2b91f0dd3a199c7c549ba239312621468b89b8c389c25"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "mogotes": [
+        "Mogote / 1",
+        "Mogote / 2",
+        "Mogote / 3"
+      ],
+      "root_z": 2.023,
+      "negative_control": {
+        "detached_mogote_rejected": "mogote detached from lid"
+      },
+      "pivot_max_error": 0.0
+    },
+    "fresh_runtime_execution": false
+  }
+]

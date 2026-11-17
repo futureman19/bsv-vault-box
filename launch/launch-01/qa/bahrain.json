@@ -1,0 +1,452 @@
+[
+  {
+    "source": {
+      "commit": "8afdaeb4a1d0e677fc32b7c86b9022d14ee5167f",
+      "path": "preview/bahrain-v1/acceptance-check.json",
+      "bytes": 2740,
+      "sha256": "9b07bd014583506db3f9642b49c8c5b9a1088e45b8e92338153fbb43c6bb22c3"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "checks": [
+        {
+          "name": "motion",
+          "status": "PASS",
+          "exit_code": 0,
+          "expected_exit_code": 0,
+          "command": [
+            "node",
+            "--test",
+            "tests.mjs"
+          ]
+        },
+        {
+          "name": "source",
+          "status": "PASS",
+          "exit_code": 0,
+          "expected_exit_code": 0,
+          "command": [
+            "C:/Users/futur/AppData/Local/Programs/Blender-5.2.1/blender.exe",
+            "--background",
+            "--factory-startup",
+            "--python-exit-code",
+            "1",
+            "--python",
+            "verify_source.py"
+          ]
+        },
+        {
+          "name": "parity",
+          "status": "PASS",
+          "exit_code": 0,
+          "expected_exit_code": 0,
+          "command": [
+            "C:/Users/futur/AppData/Local/Programs/Blender-5.2.1/blender.exe",
+            "--background",
+            "--factory-startup",
+            "--python-exit-code",
+            "1",
+            "--python",
+            "verify_parity.py"
+          ]
+        },
+        {
+          "name": "theme",
+          "status": "PASS",
+          "exit_code": 0,
+          "expected_exit_code": 0,
+          "command": [
+            "C:/Users/futur/AppData/Local/Programs/Blender-5.2.1/blender.exe",
+            "--background",
+            "--factory-startup",
+            "--python-exit-code",
+            "1",
+            "--python",
+            "verify_theme.py"
+          ]
+        },
+        {
+          "name": "negative-theme",
+          "status": "PASS",
+          "exit_code": 1,
+          "expected_exit_code": 1,
+          "command": [
+            "C:/Users/futur/AppData/Local/Programs/Blender-5.2.1/blender.exe",
+            "--background",
+            "--factory-startup",
+            "--python-exit-code",
+            "1",
+            "--python",
+            "verify_theme.py",
+            "--",
+            "--negative"
+          ]
+        },
+        {
+          "name": "build",
+          "status": "PASS",
+          "exit_code": 0,
+          "expected_exit_code": 0,
+          "command": [
+            "C:\\Users\\futur\\.hermes\\installs\\60215e25aec448c9\\environments\\b3c4bbda9be44f5cb17e68e2e2ba7648\\venv\\Scripts\\python.exe",
+            "build.py"
+          ]
+        },
+        {
+          "name": "browser",
+          "status": "PASS",
+          "exit_code": 0,
+          "expected_exit_code": 0,
+          "command": [
+            "C:\\Users\\futur\\.hermes\\installs\\60215e25aec448c9\\environments\\b3c4bbda9be44f5cb17e68e2e2ba7648\\venv\\Scripts\\python.exe",
+            "verify_browser.py"
+          ]
+        },
+        {
+          "name": "extended",
+          "status": "PASS",
+          "exit_code": 0,
+          "expected_exit_code": 0,
+          "command": [
+            "C:\\Users\\futur\\.hermes\\installs\\60215e25aec448c9\\environments\\b3c4bbda9be44f5cb17e68e2e2ba7648\\venv\\Scripts\\python.exe",
+            "verify_extended.py"
+          ]
+        }
+      ]
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "8afdaeb4a1d0e677fc32b7c86b9022d14ee5167f",
+      "path": "preview/bahrain-v1/browser-check.json",
+      "bytes": 2076,
+      "sha256": "c7d2a42c9445d8a443d085d00ff3971be09ef07dfe6cb8d6d3897a65888f898f"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 21172,
+          "meshes": 62,
+          "materials": 7,
+          "bounds": {
+            "min": [
+              -1.8600000143051147,
+              -0.2549999952316284,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.6509828567504883,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1380956,
+          "open_projection_max_abs_ndc": 0.8923646516630185
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 21172,
+          "meshes": 62,
+          "materials": 7,
+          "bounds": {
+            "min": [
+              -1.8600000143051147,
+              -0.2549999952316284,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.6509828567504883,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1380956,
+          "open_projection_max_abs_ndc": 0.89236465166302
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "8afdaeb4a1d0e677fc32b7c86b9022d14ee5167f",
+      "path": "preview/bahrain-v1/delivery-check.json",
+      "bytes": 366,
+      "sha256": "bb660dd86a092258880ec8f3279d4d82059b530ecdeed5c298df887ef7529119"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "HTML_BYTES": 2555800,
+      "GLB_BYTES": 1380956,
+      "inventory_files": 56,
+      "sha256_readback_verified": true,
+      "required_artifacts_present": true,
+      "inventory_sha256": "b8245286693223f883a28d8a3e9cb8e5fe425a29cf1b8b7361d2b2c17d039096",
+      "excluded_self_referential_reports": [
+        "inventory.json",
+        "delivery-check.json"
+      ]
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "8afdaeb4a1d0e677fc32b7c86b9022d14ee5167f",
+      "path": "preview/bahrain-v1/extended-check.json",
+      "bytes": 662,
+      "sha256": "bf2260475789d47482fc472269ca84ad0cf5dfc4c6eeca3aaa9fab7e300e5280"
+    },
+    "reported_result": {
+      "ornaments": [
+        {
+          "name": "Oyster__lower_radial_valve",
+          "parent": "Lid_Hinge"
+        },
+        {
+          "name": "Oyster__raised_radial_valve",
+          "parent": "Lid_Hinge"
+        },
+        {
+          "name": "Pearl__central_ivory",
+          "parent": "Lid_Hinge"
+        }
+      ],
+      "maps": [
+        {
+          "slot": "map",
+          "width": 512,
+          "height": 512,
+          "range": 69
+        },
+        {
+          "slot": "normalMap",
+          "width": 512,
+          "height": 512,
+          "range": 9
+        },
+        {
+          "slot": "roughnessMap",
+          "width": 512,
+          "height": 512,
+          "range": 55
+        }
+      ],
+      "noJS_poster": true,
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "8afdaeb4a1d0e677fc32b7c86b9022d14ee5167f",
+      "path": "preview/bahrain-v1/hinge-attachment-check.json",
+      "bytes": 1316,
+      "sha256": "2848da2166daa7ebc32e4993adadd22918a0ae549b33c821f78d1744e2db28cd"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ],
+        [
+          "Shell mount / brass cradle",
+          "Lid / lagoon inset"
+        ],
+        [
+          "Shell mount / brass cradle",
+          "Oyster / lower radial valve"
+        ],
+        [
+          "Shell mount / nacre hinge",
+          "Oyster / lower radial valve"
+        ],
+        [
+          "Shell mount / nacre hinge",
+          "Oyster / raised radial valve"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "8afdaeb4a1d0e677fc32b7c86b9022d14ee5167f",
+      "path": "preview/bahrain-v1/parity-check.json",
+      "bytes": 313,
+      "sha256": "c9029149c1e928b60aff7c6165534560d082c8d12d9607d994979cc5222b1161"
+    },
+    "reported_result": {
+      "source_vertices": 10710,
+      "imported_vertices": 25086,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "stone-color.png",
+        "stone-normal.png",
+        "stone-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "8afdaeb4a1d0e677fc32b7c86b9022d14ee5167f",
+      "path": "preview/bahrain-v1/source-check.json",
+      "bytes": 393,
+      "sha256": "6df90ecb126d9c985b716e279ba65b885855acc5d6b07101934ab8b5328c5769"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 27,
+      "static_meshes": 35,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 69
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "8afdaeb4a1d0e677fc32b7c86b9022d14ee5167f",
+      "path": "preview/bahrain-v1/theme-check.json",
+      "bytes": 964,
+      "sha256": "e69b35a12686cccd68be43ab3bad8f607f4efd166f766e4d7bb2d81740671de0"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "ornament_bounds_xyz": [
+        [
+          -0.695999026298523,
+          0.6969590783119202
+        ],
+        [
+          -0.30478474497795105,
+          0.5140729546546936
+        ],
+        [
+          2.062401056289673,
+          2.6509828567504883
+        ]
+      ],
+      "ornament_meshes": [
+        "Oyster / lower radial valve",
+        "Oyster / raised radial valve",
+        "Pearl / central ivory"
+      ],
+      "shell_polygon_counts": [
+        1860,
+        1860
+      ],
+      "pearl_diameter": [
+        0.38000014424324036,
+        0.3800002336502075,
+        0.3799999952316284
+      ],
+      "lid_dimensions": [
+        3.7200000286102295,
+        2.380000114440918,
+        0.30000001192092896
+      ],
+      "lid_pivot": [
+        0.0,
+        1.3200000524520874,
+        1.6679999828338623
+      ],
+      "latch_pivot": [
+        0.0,
+        -2.6100001335144043,
+        0.2200000286102295
+      ],
+      "packed_maps": [
+        "stone-color.png",
+        "stone-normal.png",
+        "stone-roughness.png"
+      ],
+      "ornaments_move_with_lid": true
+    },
+    "fresh_runtime_execution": false
+  }
+]

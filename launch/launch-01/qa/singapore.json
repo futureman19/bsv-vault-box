@@ -1,0 +1,943 @@
+[
+  {
+    "source": {
+      "commit": "dd22eba16e0476e12f4d42728630dd16e6d66eeb",
+      "path": "preview/singapore-v1/browser-check.json",
+      "bytes": 2074,
+      "sha256": "b8f8df0026a44984b932e5f9535040df4ba4a242e8d7074639c43b3bdea02b1f"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 20178,
+          "meshes": 89,
+          "materials": 9,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.3105585500597954,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.174999952316284,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1086740,
+          "open_projection_max_abs_ndc": 0.9375376955152478
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 20178,
+          "meshes": 89,
+          "materials": 9,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.3105585500597954,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.174999952316284,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1086740,
+          "open_projection_max_abs_ndc": 0.9375376955152491
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "dd22eba16e0476e12f4d42728630dd16e6d66eeb",
+      "path": "preview/singapore-v1/delivery-check.json",
+      "bytes": 461,
+      "sha256": "dbdee2c4c833622c1ed44e9b723fe5d357c0a99b70e3e3c55adc06ba9f55ad83"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "html_bytes": 2224118,
+      "glb_bytes": 1086740,
+      "inventory_files": 51,
+      "required_files_present": true,
+      "archive_readback": true,
+      "zip_bytes": 4583958,
+      "zip_sha256": "3adfda728bf4e8be813a195dc74b1889ddb2ab89fc306ddf47db1adb4c4b9663",
+      "inventory_sha256": "a91b1efaf5e05a65ba4b574631f14f9267da8ed87bddbb38808da36f42077652",
+      "scope": "Local archive only; excludes dependencies and backups; no recursive self-hashes"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "dd22eba16e0476e12f4d42728630dd16e6d66eeb",
+      "path": "preview/singapore-v1/extended-check.json",
+      "bytes": 4786,
+      "sha256": "4c46acff1edfa9fb42288f88288333d35cb85b5dc327b104e0ed5d8fbdf5ea95"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "decoded_map_ranges": [
+        {
+          "key": "map",
+          "width": 256,
+          "height": 256,
+          "range": 21
+        },
+        {
+          "key": "roughnessMap",
+          "width": 256,
+          "height": 256,
+          "range": 43
+        },
+        {
+          "key": "normalMap",
+          "width": 256,
+          "height": 256,
+          "range": 9
+        },
+        {
+          "key": "map",
+          "width": 256,
+          "height": 256,
+          "range": 21
+        },
+        {
+          "key": "roughnessMap",
+          "width": 256,
+          "height": 256,
+          "range": 43
+        },
+        {
+          "key": "normalMap",
+          "width": 256,
+          "height": 256,
+          "range": 9
+        },
+        {
+          "key": "map",
+          "width": 256,
+          "height": 256,
+          "range": 21
+        },
+        {
+          "key": "roughnessMap",
+          "width": 256,
+          "height": 256,
+          "range": 43
+        },
+        {
+          "key": "normalMap",
+          "width": 256,
+          "height": 256,
+          "range": 9
+        },
+        {
+          "key": "map",
+          "width": 256,
+          "height": 256,
+          "range": 21
+        },
+        {
+          "key": "roughnessMap",
+          "width": 256,
+          "height": 256,
+          "range": 43
+        },
+        {
+          "key": "normalMap",
+          "width": 256,
+          "height": 256,
+          "range": 9
+        },
+        {
+          "key": "map",
+          "width": 256,
+          "height": 256,
+          "range": 21
+        },
+        {
+          "key": "roughnessMap",
+          "width": 256,
+          "height": 256,
+          "range": 43
+        },
+        {
+          "key": "normalMap",
+          "width": 256,
+          "height": 256,
+          "range": 9
+        },
+        {
+          "key": "map",
+          "width": 256,
+          "height": 256,
+          "range": 21
+        },
+        {
+          "key": "roughnessMap",
+          "width": 256,
+          "height": 256,
+          "range": 43
+        },
+        {
+          "key": "normalMap",
+          "width": 256,
+          "height": 256,
+          "range": 9
+        },
+        {
+          "key": "map",
+          "width": 256,
+          "height": 256,
+          "range": 21
+        },
+        {
+          "key": "roughnessMap",
+          "width": 256,
+          "height": 256,
+          "range": 43
+        },
+        {
+          "key": "normalMap",
+          "width": 256,
+          "height": 256,
+          "range": 9
+        },
+        {
+          "key": "map",
+          "width": 256,
+          "height": 256,
+          "range": 21
+        },
+        {
+          "key": "roughnessMap",
+          "width": 256,
+          "height": 256,
+          "range": 43
+        },
+        {
+          "key": "normalMap",
+          "width": 256,
+          "height": 256,
+          "range": 9
+        },
+        {
+          "key": "map",
+          "width": 256,
+          "height": 256,
+          "range": 21
+        },
+        {
+          "key": "roughnessMap",
+          "width": 256,
+          "height": 256,
+          "range": 43
+        },
+        {
+          "key": "normalMap",
+          "width": 256,
+          "height": 256,
+          "range": 9
+        },
+        {
+          "key": "map",
+          "width": 256,
+          "height": 256,
+          "range": 21
+        },
+        {
+          "key": "roughnessMap",
+          "width": 256,
+          "height": 256,
+          "range": 43
+        },
+        {
+          "key": "normalMap",
+          "width": 256,
+          "height": 256,
+          "range": 9
+        },
+        {
+          "key": "map",
+          "width": 256,
+          "height": 256,
+          "range": 21
+        },
+        {
+          "key": "roughnessMap",
+          "width": 256,
+          "height": 256,
+          "range": 43
+        },
+        {
+          "key": "normalMap",
+          "width": 256,
+          "height": 256,
+          "range": 9
+        },
+        {
+          "key": "map",
+          "width": 256,
+          "height": 256,
+          "range": 21
+        },
+        {
+          "key": "roughnessMap",
+          "width": 256,
+          "height": 256,
+          "range": 43
+        },
+        {
+          "key": "normalMap",
+          "width": 256,
+          "height": 256,
+          "range": 9
+        },
+        {
+          "key": "map",
+          "width": 256,
+          "height": 256,
+          "range": 21
+        },
+        {
+          "key": "roughnessMap",
+          "width": 256,
+          "height": 256,
+          "range": 43
+        },
+        {
+          "key": "normalMap",
+          "width": 256,
+          "height": 256,
+          "range": 9
+        },
+        {
+          "key": "map",
+          "width": 256,
+          "height": 256,
+          "range": 21
+        },
+        {
+          "key": "roughnessMap",
+          "width": 256,
+          "height": 256,
+          "range": 43
+        },
+        {
+          "key": "normalMap",
+          "width": 256,
+          "height": 256,
+          "range": 9
+        },
+        {
+          "key": "map",
+          "width": 256,
+          "height": 256,
+          "range": 21
+        },
+        {
+          "key": "roughnessMap",
+          "width": 256,
+          "height": 256,
+          "range": 43
+        },
+        {
+          "key": "normalMap",
+          "width": 256,
+          "height": 256,
+          "range": 9
+        }
+      ],
+      "no_js_poster": true,
+      "poster_nonblack_fraction": 0.9959471544715447,
+      "country_copy_and_aria": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "dd22eba16e0476e12f4d42728630dd16e6d66eeb",
+      "path": "preview/singapore-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "dd22eba16e0476e12f4d42728630dd16e6d66eeb",
+      "path": "preview/singapore-v1/motion-check.json",
+      "bytes": 7791,
+      "sha256": "a0cbb30bac3418c5e8301f4c7280cefe1ea0bc0a5691d2e9a3643eb03857d8f7"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "samples": [
+        {
+          "p": 0,
+          "lid": 0,
+          "latch": 0
+        },
+        {
+          "p": 0.0125,
+          "lid": 0,
+          "latch": -0.06981317007977318
+        },
+        {
+          "p": 0.025,
+          "lid": 0,
+          "latch": -0.13962634015954636
+        },
+        {
+          "p": 0.0375,
+          "lid": 0,
+          "latch": -0.20943951023931953
+        },
+        {
+          "p": 0.05,
+          "lid": 0,
+          "latch": -0.2792526803190927
+        },
+        {
+          "p": 0.0625,
+          "lid": 0,
+          "latch": -0.3490658503988659
+        },
+        {
+          "p": 0.075,
+          "lid": 0,
+          "latch": -0.41887902047863906
+        },
+        {
+          "p": 0.0875,
+          "lid": 0,
+          "latch": -0.48869219055841223
+        },
+        {
+          "p": 0.1,
+          "lid": 0,
+          "latch": -0.5585053606381855
+        },
+        {
+          "p": 0.1125,
+          "lid": 0,
+          "latch": -0.6283185307179586
+        },
+        {
+          "p": 0.125,
+          "lid": 0,
+          "latch": -0.6981317007977318
+        },
+        {
+          "p": 0.1375,
+          "lid": 0,
+          "latch": -0.7679448708775051
+        },
+        {
+          "p": 0.15,
+          "lid": 0,
+          "latch": -0.8377580409572781
+        },
+        {
+          "p": 0.1625,
+          "lid": 0,
+          "latch": -0.9075712110370514
+        },
+        {
+          "p": 0.175,
+          "lid": 0,
+          "latch": -0.9773843811168245
+        },
+        {
+          "p": 0.1875,
+          "lid": 0,
+          "latch": -1.0471975511965976
+        },
+        {
+          "p": 0.2,
+          "lid": 0,
+          "latch": -1.117010721276371
+        },
+        {
+          "p": 0.2125,
+          "lid": 0,
+          "latch": -1.186823891356144
+        },
+        {
+          "p": 0.225,
+          "lid": 0,
+          "latch": -1.2566370614359172
+        },
+        {
+          "p": 0.2375,
+          "lid": 0,
+          "latch": -1.3264502315156903
+        },
+        {
+          "p": 0.25,
+          "lid": 0,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.2625,
+          "lid": -0.030543261909900792,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.275,
+          "lid": -0.061086523819801584,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.2875,
+          "lid": -0.09162978572970225,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.3,
+          "lid": -0.12217304763960304,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.3125,
+          "lid": -0.15271630954950383,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.325,
+          "lid": -0.18325957145940464,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.3375,
+          "lid": -0.21380283336930545,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.35,
+          "lid": -0.2443460952792061,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.3625,
+          "lid": -0.2748893571891069,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.375,
+          "lid": -0.30543261909900765,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.3875,
+          "lid": -0.33597588100890846,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.4,
+          "lid": -0.36651914291880927,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.4125,
+          "lid": -0.39706240482870997,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.425,
+          "lid": -0.4276056667386107,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.4375,
+          "lid": -0.45814892864851153,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.45,
+          "lid": -0.4886921905584123,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.4625,
+          "lid": -0.5192354524683132,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.475,
+          "lid": -0.5497787143782138,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.4875,
+          "lid": -0.5803219762881145,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.5,
+          "lid": -0.6108652381980153,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.5125,
+          "lid": -0.6414085001079161,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.525,
+          "lid": -0.6719517620178169,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.5375,
+          "lid": -0.7024950239277177,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.55,
+          "lid": -0.7330382858376185,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.5625,
+          "lid": -0.7635815477475193,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.575,
+          "lid": -0.7941248096574199,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.5875,
+          "lid": -0.8246680715673208,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.6,
+          "lid": -0.8552113334772214,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.6125,
+          "lid": -0.8857545953871224,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.625,
+          "lid": -0.9162978572970231,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.6375,
+          "lid": -0.9468411192069237,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.65,
+          "lid": -0.9773843811168246,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.6625,
+          "lid": -1.0079276430267252,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.675,
+          "lid": -1.0384709049366263,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.6875,
+          "lid": -1.069014166846527,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.7,
+          "lid": -1.0995574287564276,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.7125,
+          "lid": -1.1301006906663285,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.725,
+          "lid": -1.160643952576229,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.7375,
+          "lid": -1.19118721448613,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.75,
+          "lid": -1.2217304763960306,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.7625,
+          "lid": -1.2522737383059312,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.775,
+          "lid": -1.2828170002158323,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.7875,
+          "lid": -1.313360262125733,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.8,
+          "lid": -1.3439035240356338,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.8125,
+          "lid": -1.3744467859455347,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.825,
+          "lid": -1.4049900478554354,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.8375,
+          "lid": -1.4355333097653362,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.85,
+          "lid": -1.4660765716752369,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.8625,
+          "lid": -1.496619833585138,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.875,
+          "lid": -1.5271630954950386,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.8875,
+          "lid": -1.5577063574049392,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.9,
+          "lid": -1.58824961931484,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.9125,
+          "lid": -1.6187928812247407,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.925,
+          "lid": -1.6493361431346416,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.9375,
+          "lid": -1.6798794050445423,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.95,
+          "lid": -1.710422666954443,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.9625,
+          "lid": -1.740965928864344,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.975,
+          "lid": -1.7715091907742446,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.9875,
+          "lid": -1.8020524526841455,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 1,
+          "lid": -1.8325957145940461,
+          "latch": -1.3962634015954636
+        }
+      ],
+      "invalid_assets_rejected": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "dd22eba16e0476e12f4d42728630dd16e6d66eeb",
+      "path": "preview/singapore-v1/parity-check.json",
+      "bytes": 319,
+      "sha256": "0550ddc7c7e28ca7defe250756b43e2cc1ccd6d15558f2fcf00f3b321e6230a2"
+    },
+    "reported_result": {
+      "source_vertices": 10263,
+      "imported_vertices": 26661,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "celadon-color.png",
+        "celadon-normal.png",
+        "celadon-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "dd22eba16e0476e12f4d42728630dd16e6d66eeb",
+      "path": "preview/singapore-v1/source-check.json",
+      "bytes": 393,
+      "sha256": "afdc5696cc8a76797af24014aa96ea026a8fe23d5826020cde93cc0356f7ac9e"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 50,
+      "static_meshes": 39,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 96
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "dd22eba16e0476e12f4d42728630dd16e6d66eeb",
+      "path": "preview/singapore-v1/theme-check.json",
+      "bytes": 348,
+      "sha256": "ac41a7f54eac67e31866faedb3b1a828d40b9888b33489525e4ff1b238b253ef"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "flower_count": 3,
+      "petal_count": 15,
+      "all_ornaments_on_lid": true,
+      "relief_z": [
+        1.97037672996521,
+        2.174999952316284
+      ],
+      "differentiated_petals": true,
+      "original_pivot_matrices": true,
+      "packed_maps": [
+        "celadon-color.png",
+        "celadon-normal.png",
+        "celadon-roughness.png"
+      ]
+    },
+    "fresh_runtime_execution": false
+  }
+]

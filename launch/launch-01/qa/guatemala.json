@@ -1,0 +1,475 @@
+[
+  {
+    "source": {
+      "commit": "94e515f29ce7b28e06e4e5d6f0c5ee702c85d12f",
+      "path": "preview/guatemala-v1/acceptance-check.json",
+      "bytes": 2676,
+      "sha256": "1b4a813ebcac80e3527dc76bd0824b82b05728292b430a34c6311a89db1cd6b1"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "commands": [
+        {
+          "check": "build",
+          "exit_code": 0,
+          "command": [
+            "C:\\Users\\futur\\.hermes\\installs\\60215e25aec448c9\\environments\\b3c4bbda9be44f5cb17e68e2e2ba7648\\venv\\Scripts\\python.exe",
+            "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_b4f24906\\preview\\guatemala-v1\\build.py"
+          ]
+        },
+        {
+          "check": "motion",
+          "exit_code": 0,
+          "command": [
+            "node",
+            "--test",
+            "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_b4f24906\\preview\\guatemala-v1\\tests.mjs"
+          ]
+        },
+        {
+          "check": "verify_theme",
+          "exit_code": 0,
+          "command": [
+            "C:/Users/futur/AppData/Local/Programs/Blender-5.2.1/blender.exe",
+            "--background",
+            "-t",
+            "2",
+            "--factory-startup",
+            "--python-exit-code",
+            "1",
+            "--python",
+            "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_b4f24906\\preview\\guatemala-v1\\verify_theme.py"
+          ]
+        },
+        {
+          "check": "verify_source",
+          "exit_code": 0,
+          "command": [
+            "C:/Users/futur/AppData/Local/Programs/Blender-5.2.1/blender.exe",
+            "--background",
+            "-t",
+            "2",
+            "--factory-startup",
+            "--python-exit-code",
+            "1",
+            "--python",
+            "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_b4f24906\\preview\\guatemala-v1\\verify_source.py"
+          ]
+        },
+        {
+          "check": "verify_parity",
+          "exit_code": 0,
+          "command": [
+            "C:/Users/futur/AppData/Local/Programs/Blender-5.2.1/blender.exe",
+            "--background",
+            "-t",
+            "2",
+            "--factory-startup",
+            "--python-exit-code",
+            "1",
+            "--python",
+            "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_b4f24906\\preview\\guatemala-v1\\verify_parity.py"
+          ]
+        },
+        {
+          "check": "verify_browser",
+          "exit_code": 0,
+          "command": [
+            "C:\\Users\\futur\\.hermes\\installs\\60215e25aec448c9\\environments\\b3c4bbda9be44f5cb17e68e2e2ba7648\\venv\\Scripts\\python.exe",
+            "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_b4f24906\\preview\\guatemala-v1\\verify_browser.py"
+          ]
+        },
+        {
+          "check": "verify_extended",
+          "exit_code": 0,
+          "command": [
+            "C:\\Users\\futur\\.hermes\\installs\\60215e25aec448c9\\environments\\b3c4bbda9be44f5cb17e68e2e2ba7648\\venv\\Scripts\\python.exe",
+            "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_b4f24906\\preview\\guatemala-v1\\verify_extended.py"
+          ]
+        }
+      ]
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "94e515f29ce7b28e06e4e5d6f0c5ee702c85d12f",
+      "path": "preview/guatemala-v1/browser-check.json",
+      "bytes": 2076,
+      "sha256": "1a87d3322841f82d027ca02a917a4635ddb93a7fd4629dedfdacbc42fd2ace77"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 10890,
+          "meshes": 57,
+          "materials": 7,
+          "bounds": {
+            "min": [
+              -1.8600000143051147,
+              -0.2150000035762787,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.6500000953674316,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 869496,
+          "open_projection_max_abs_ndc": 0.9111212719815199
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 10890,
+          "meshes": 57,
+          "materials": 7,
+          "bounds": {
+            "min": [
+              -1.8600000143051147,
+              -0.2150000035762787,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.6500000953674316,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 869496,
+          "open_projection_max_abs_ndc": 0.9111212719815213
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "94e515f29ce7b28e06e4e5d6f0c5ee702c85d12f",
+      "path": "preview/guatemala-v1/delivery-check.json",
+      "bytes": 828,
+      "sha256": "b470fb49019f0f59fbd4167f4f101836b5a0953b0a335be28431a432a8be599f"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "required_artifacts_present": [
+        ".gitattributes",
+        "README.md",
+        "acceptance-check.json",
+        "browser-check.json",
+        "design-brief.md",
+        "extended-check.json",
+        "guatemala-v1.html",
+        "guatemala.blend",
+        "guatemala.glb",
+        "mechanism.blend",
+        "parity-check.json",
+        "poster.jpg",
+        "poster.png",
+        "source-check.json",
+        "theme-check.json"
+      ],
+      "inventory_entries": 58,
+      "archive_entries": 59,
+      "zip_bytes": 5139599,
+      "zip_sha256": "125f08433723421e18fe20f672f7ea42008d54e2632ce265bc8fe28d6880106c",
+      "inventory_sha256": "7a3cb3e788f60e97e6e772e2edcc3e2dc208037c019aabc7a69b0ccb1d4957b0",
+      "html_bytes": 1957093,
+      "glb_bytes": 869496,
+      "archive_all_bytes_read_back": true,
+      "html_archived_bytes_equal_browser_tested_file": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "94e515f29ce7b28e06e4e5d6f0c5ee702c85d12f",
+      "path": "preview/guatemala-v1/extended-check.json",
+      "bytes": 988,
+      "sha256": "15e3e09e0bdb4074041452c54a408432a5542d9e0e92bda5455c2ebd3bfb71a9"
+    },
+    "reported_result": {
+      "poster_nonblack": true,
+      "poster_alpha_coverage": 1.0,
+      "features": {
+        "maps": [
+          {
+            "material": "Volcanic / dark grain",
+            "key": "map",
+            "width": 256,
+            "height": 256,
+            "range": 61
+          },
+          {
+            "material": "Indigo / original woven stripes",
+            "key": "map",
+            "width": 512,
+            "height": 256,
+            "range": 206
+          },
+          {
+            "material": "Indigo / original woven stripes",
+            "key": "normalMap",
+            "width": 512,
+            "height": 256,
+            "range": 14
+          },
+          {
+            "material": "Indigo / original woven stripes",
+            "key": "roughnessMap",
+            "width": 512,
+            "height": 256,
+            "range": 40
+          }
+        ],
+        "terrain": [
+          "Terrain__contiguous_lake",
+          "Terrain__volcano_1",
+          "Terrain__volcano_2",
+          "Terrain__volcano_3"
+        ],
+        "wrong": []
+      },
+      "noJS_poster": true,
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "94e515f29ce7b28e06e4e5d6f0c5ee702c85d12f",
+      "path": "preview/guatemala-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "94e515f29ce7b28e06e4e5d6f0c5ee702c85d12f",
+      "path": "preview/guatemala-v1/parity-check.json",
+      "bytes": 336,
+      "sha256": "285ac9eb276a93c178229e252fc26282e0ac17b8fd6da8b55a947b734d4b9076"
+    },
+    "reported_result": {
+      "source_vertices": 5555,
+      "imported_vertices": 18603,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "stone-color.png",
+        "weave-color.png",
+        "weave-normal.png",
+        "weave-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "94e515f29ce7b28e06e4e5d6f0c5ee702c85d12f",
+      "path": "preview/guatemala-v1/source-check.json",
+      "bytes": 393,
+      "sha256": "f30bb11719c8ccb96171e850884736acc9b3ebe4f96bc480bfade9c056bf07af"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 20,
+      "static_meshes": 35,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 62
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "94e515f29ce7b28e06e4e5d6f0c5ee702c85d12f",
+      "path": "preview/guatemala-v1/theme-check.json",
+      "bytes": 1558,
+      "sha256": "ecd34171ce49e441eaf14e7ac1c464f0d4c718841dd92992f5e00fe2251c44f1"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "landscape_meshes": 4,
+      "volcano_bounds": [
+        [
+          [
+            -1.3355401754379272,
+            -0.5706592798233032
+          ],
+          [
+            0.2791582942008972,
+            0.876800000667572
+          ],
+          [
+            1.9620000123977661,
+            2.4000000953674316
+          ]
+        ],
+        [
+          [
+            -0.5664077997207642,
+            0.3655332624912262
+          ],
+          [
+            0.2842409312725067,
+            1.0360143184661865
+          ],
+          [
+            1.9620000123977661,
+            2.6500000953674316
+          ]
+        ],
+        [
+          [
+            0.4386158287525177,
+            1.2616533041000366
+          ],
+          [
+            0.22924615442752838,
+            0.8969670534133911
+          ],
+          [
+            1.9620000123977661,
+            2.509999990463257
+          ]
+        ]
+      ],
+      "lake_bounds": [
+        [
+          -1.375552773475647,
+          1.375552773475647
+        ],
+        [
+          -0.8273839950561523,
+          0.6273839473724365
+        ],
+        [
+          1.965999960899353,
+          2.015000104904175
+        ]
+      ],
+      "exposed_lake_rays": [
+        [
+          -0.8,
+          2.015000104904175
+        ],
+        [
+          -0.4,
+          2.015000104904175
+        ],
+        [
+          0,
+          2.015000343322754
+        ],
+        [
+          0.4,
+          2.015000104904175
+        ],
+        [
+          0.8,
+          2.015000343322754
+        ]
+      ],
+      "detached_landscape_negative_control_rejected": true,
+      "pivot_matrix_max_error": 0.0,
+      "slab_dimensions": [
+        3.72,
+        2.38,
+        0.3
+      ],
+      "limits": "Stylized peaks, no geographic accuracy; sampled surface rays only"
+    },
+    "fresh_runtime_execution": false
+  }
+]

@@ -1,0 +1,337 @@
+[
+  {
+    "source": {
+      "commit": "20af220774ba241240da080f69636761e4850146",
+      "path": "preview/gambia-v1/browser-check.json",
+      "bytes": 2075,
+      "sha256": "4756b278ad4a9c68cb8d64c624c67d2fe23c7c807d6336475f85533e10fd26d5"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 19400,
+          "meshes": 130,
+          "materials": 9,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.3105585500597954,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.710108518600464,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1552360,
+          "open_projection_max_abs_ndc": 0.892364651663021
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 19400,
+          "meshes": 130,
+          "materials": 9,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.3105585500597954,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.710108518600464,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1552360,
+          "open_projection_max_abs_ndc": 0.8923646516630225
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "20af220774ba241240da080f69636761e4850146",
+      "path": "preview/gambia-v1/delivery-check.json",
+      "bytes": 811,
+      "sha256": "bcd0b3760608c67da025e2ab3f31fa390843cbe5b2484da5894dc73328d10829"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "html_bytes": 2896762,
+      "glb_bytes": 1552360,
+      "html_sha256": "3f9b6bc115fff971f889518f5c79eb491668a5f5f183f0d35a23b551d8f1575a",
+      "glb_sha256": "d432f853ac1dc430fab48ee6815eafa31b7c7e472efb7beae8a5854609f3e14c",
+      "inventory_files": 49,
+      "zip_bytes": 7361321,
+      "zip_sha256": "6637486f0fe31acec32bd6f3c7ce409e87cfb503a71ccd8ff5e27d044f14c07c",
+      "explicit_required_artifacts_present": true,
+      "embedded_glb_identical": true,
+      "zip_inventory_and_every_hash_readback": true,
+      "checks_passed": [
+        "build",
+        "source",
+        "hinge-attachment",
+        "81-pose-motion",
+        "parity",
+        "source-theme",
+        "browser-desktop",
+        "browser-mobile",
+        "corrupt-glb-fallback",
+        "no-js-fallback",
+        "theme",
+        "motion-unit-tests",
+        "delivery"
+      ]
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "20af220774ba241240da080f69636761e4850146",
+      "path": "preview/gambia-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "20af220774ba241240da080f69636761e4850146",
+      "path": "preview/gambia-v1/parity-check.json",
+      "bytes": 317,
+      "sha256": "a2af9e4e4e0fbbb431ce266038f8e05b1b42487a8124c6d306ca05e2f3c2db48"
+    },
+    "reported_result": {
+      "source_vertices": 11766,
+      "imported_vertices": 27624,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "sediment-color.png",
+        "sediment-roughness.png",
+        "silt-color.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "20af220774ba241240da080f69636761e4850146",
+      "path": "preview/gambia-v1/source-check.json",
+      "bytes": 394,
+      "sha256": "4ffb9f350c7944ae72284d95d991cfa6ee4f17d403cb2c910072fcf8de3d5b62"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 91,
+      "static_meshes": 39,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 137
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "20af220774ba241240da080f69636761e4850146",
+      "path": "preview/gambia-v1/source-theme-check.json",
+      "bytes": 1064,
+      "sha256": "6c60010aeb4b0b7a80e9be326de8e7805da4abf592c949e9d6ed50e085d9c036"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "exact_inherited_pivots": {
+        "Lid_Hinge": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            1.3200000524520874
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.6679999828338623
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Latch_Pivot": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -2.6100001335144043
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.2200000286102295
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "lid_dimensions": [
+        3.7200000286102295,
+        2.380000114440918,
+        0.30000001192092896
+      ],
+      "ornament_meshes": 75,
+      "ornament_top_z": 2.710108518600464,
+      "seam_max_height": 0.09600000083446503,
+      "tributary_mouth_connects": true,
+      "portable_body_color_and_roughness": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "20af220774ba241240da080f69636761e4850146",
+      "path": "preview/gambia-v1/theme-check.json",
+      "bytes": 510,
+      "sha256": "80a901dbce07a9247165b971211392f0a7ddd91d8e3ddaa3bff2880d05483941"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "features": {
+        "trunks": 3,
+        "roots": 15,
+        "canopies": 3,
+        "channels": 2,
+        "maps": [
+          {
+            "material": "Sediment bronze / tidal traces",
+            "width": 512,
+            "height": 512,
+            "range": 59
+          },
+          {
+            "material": "Silt / ochre banks",
+            "width": 256,
+            "height": 256,
+            "range": 62
+          }
+        ],
+        "wrong": []
+      },
+      "missing_roots_negative_control_rejected": true,
+      "noJS_poster": true
+    },
+    "fresh_runtime_execution": false
+  }
+]

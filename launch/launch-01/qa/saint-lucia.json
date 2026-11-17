@@ -1,0 +1,366 @@
+[
+  {
+    "source": {
+      "commit": "a8d44d8a42dce864be2880289a6220212a097e05",
+      "path": "preview/saint-lucia-v1/browser-check.json",
+      "bytes": 2073,
+      "sha256": "3b94f8380132ba61946e38e4f9fb516f7a1ae801fe903645ccab0c21319e7acd"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 18648,
+          "meshes": 60,
+          "materials": 6,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.3093631789088249,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.934999942779541,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1619332,
+          "open_projection_max_abs_ndc": 0.892364651663021
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 18648,
+          "meshes": 60,
+          "materials": 6,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.3093631789088249,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.934999942779541,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1619332,
+          "open_projection_max_abs_ndc": 0.8923646516630209
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "a8d44d8a42dce864be2880289a6220212a097e05",
+      "path": "preview/saint-lucia-v1/delivery-check.json",
+      "bytes": 412,
+      "sha256": "16df0ea174392c3555bfd6e0af2aac299dc275f4e4b1039691739dcef4354cbb"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "html_bytes": 2955177,
+      "glb_bytes": 1619332,
+      "inventory_files": 59,
+      "zip_bytes": 8071373,
+      "zip_sha256": "0963a9b6cc44cc9ce8241061020a3b364c3106733f10fa51f8650e81a5bdc212",
+      "archive_readback": "all inventory bytes and hashes match",
+      "exclusions": [
+        "node_modules",
+        "__pycache__",
+        "*.blend1",
+        "inventory and delivery manifest self-references"
+      ]
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "a8d44d8a42dce864be2880289a6220212a097e05",
+      "path": "preview/saint-lucia-v1/extended-check.json",
+      "bytes": 1106,
+      "sha256": "c63a2ce66b8fa40c878c57e19c8bfb2785db9b05403a2e623004ac83d35e1c75"
+    },
+    "reported_result": {
+      "poster_nonblank": true,
+      "runtime": {
+        "terrains": [
+          {
+            "name": "Terrain__Gros_Piton",
+            "lidOwned": true
+          },
+          {
+            "name": "Terrain__Gros_Piton_1",
+            "lidOwned": true
+          },
+          {
+            "name": "Terrain__Gros_Piton_2",
+            "lidOwned": true
+          },
+          {
+            "name": "Terrain__Petit_Piton",
+            "lidOwned": true
+          },
+          {
+            "name": "Terrain__Petit_Piton_1",
+            "lidOwned": true
+          },
+          {
+            "name": "Terrain__Petit_Piton_2",
+            "lidOwned": true
+          },
+          {
+            "name": "Terrain__Piton_Mitan_inspired_ridge",
+            "lidOwned": true
+          }
+        ],
+        "maps": [
+          {
+            "key": "map",
+            "width": 256,
+            "height": 256,
+            "range": 49
+          },
+          {
+            "key": "roughnessMap",
+            "width": 256,
+            "height": 256,
+            "range": 85
+          },
+          {
+            "key": "map",
+            "width": 256,
+            "height": 256,
+            "range": 49
+          }
+        ]
+      },
+      "noJS_poster": true,
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "a8d44d8a42dce864be2880289a6220212a097e05",
+      "path": "preview/saint-lucia-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "a8d44d8a42dce864be2880289a6220212a097e05",
+      "path": "preview/saint-lucia-v1/parity-check.json",
+      "bytes": 312,
+      "sha256": "c46abbf9774104b190326c6d63ff63e69b6408a183bc916f6e58ca75922057c9"
+    },
+    "reported_result": {
+      "source_vertices": 9483,
+      "imported_vertices": 38915,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "forest-color.png",
+        "stone-color.png",
+        "stone-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "a8d44d8a42dce864be2880289a6220212a097e05",
+      "path": "preview/saint-lucia-v1/source-check.json",
+      "bytes": 393,
+      "sha256": "03bfbcf156d965f479c4e21c41670e3f149b8197e22e2ba9781f3adf441aeb39"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 19,
+      "static_meshes": 39,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 65
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "a8d44d8a42dce864be2880289a6220212a097e05",
+      "path": "preview/saint-lucia-v1/theme-check.json",
+      "bytes": 1079,
+      "sha256": "84b9245d603873813d1ade7fce4d209d213a4193dab074c18da380db2025bf80"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "pivots_match_mechanism": true,
+      "landscape_bounds": {
+        "Terrain / Gros Piton": {
+          "min": [
+            -1.2423686981201172,
+            -0.2047654092311859,
+            2.0350000858306885
+          ],
+          "max": [
+            0.02481209859251976,
+            0.7126609086990356,
+            2.934999942779541
+          ]
+        },
+        "Terrain / Petit Piton": {
+          "min": [
+            0.17184066772460938,
+            -0.03649144619703293,
+            2.0350000858306885
+          ],
+          "max": [
+            1.0041821002960205,
+            0.7317613363265991,
+            2.8550000190734863
+          ]
+        },
+        "Terrain / Piton Mitan inspired ridge": {
+          "min": [
+            -1.3609797954559326,
+            -0.5111656785011292,
+            1.9769999980926514
+          ],
+          "max": [
+            1.3799687623977661,
+            0.8500093221664429,
+            2.197999954223633
+          ]
+        }
+      },
+      "all_terrain_lid_owned": true,
+      "detached_peak_negative_control": "REJECTED: Terrain / Gros Piton detached",
+      "scope": "Stylized two-peak miniature, not surveyed geography"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "a8d44d8a42dce864be2880289a6220212a097e05",
+      "path": "preview/saint-lucia-v1/visual-check.json",
+      "bytes": 950,
+      "sha256": "ad418c1ccb65aa579d293e6be0144ad1ef7ad300e0a82b7cabd227f37b02ed0c"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "method": "Visual inspection of actual saved source render and final offline browser screenshots, separate from geometry tests",
+      "final_images": [
+        "mobile-closed.png",
+        "desktop-open.png"
+      ],
+      "observations": [
+        "Two separately legible green peak silhouettes",
+        "Final shoreline rounded and irregular, not initial rectangular pad",
+        "Visible teal surround",
+        "Wide stone/brass box",
+        "Open hollow interior and attached hinges visible",
+        "No model clipping in tested default framing"
+      ],
+      "retained_initial_visual_failure": "Rectangular land pad contradicted irregular coastline intent; rebuilt radial irregular coast, then reran source/export/browser gates",
+      "limitations": [
+        "Stylized fluted peaks, not surveyed terrain",
+        "Stone reads pale and clean rather than strongly volcanic",
+        "Sage greens under studio lights, not individual forest foliage",
+        "Some Cycles sampling noise",
+        "No physical-device or photoreal equivalence claim"
+      ]
+    },
+    "fresh_runtime_execution": false
+  }
+]

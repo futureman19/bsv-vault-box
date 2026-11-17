@@ -1,0 +1,315 @@
+[
+  {
+    "source": {
+      "commit": "8c039faea6acb7cd6db484a1c048df700df04f48",
+      "path": "preview/saint-kitts-and-nevis-v1/browser-check.json",
+      "bytes": 2082,
+      "sha256": "d3d670834d9afbd0b80ba6636eeb06280339a4162786e3692e2b287739da1f5a"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 14860,
+          "meshes": 64,
+          "materials": 10,
+          "bounds": {
+            "min": [
+              -1.8600000143051147,
+              -0.22999999672174454,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.7009999752044678,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1321872,
+          "open_projection_max_abs_ndc": 0.9195185009763711
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 14860,
+          "meshes": 64,
+          "materials": 10,
+          "bounds": {
+            "min": [
+              -1.8600000143051147,
+              -0.22999999672174454,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.7009999752044678,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1321872,
+          "open_projection_max_abs_ndc": 0.9195185009763714
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "8c039faea6acb7cd6db484a1c048df700df04f48",
+      "path": "preview/saint-kitts-and-nevis-v1/delivery-check.json",
+      "bytes": 988,
+      "sha256": "f6b99a2738991e1448c9bead84284b40b0f8c380d8ad506e5ee4dd30c16267d5"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "HTML_BYTES": 2522267,
+      "GLB_BYTES": 1321872,
+      "ZIP_BYTES": 7884278,
+      "archive_entries": 57,
+      "required_artifacts_verified": [
+        "README.md",
+        "browser-check.json",
+        "design-brief.md",
+        "desktop-closed.png",
+        "desktop-open.png",
+        "extended-check.json",
+        "maps/volcanic-color.png",
+        "maps/volcanic-normal.png",
+        "maps/volcanic-roughness.png",
+        "mechanism.blend",
+        "mobile-closed.png",
+        "mobile-open.png",
+        "parity-check.json",
+        "poster.jpg",
+        "poster.png",
+        "saint-kitts-and-nevis-v1.html",
+        "saint-kitts-and-nevis.blend",
+        "saint-kitts-and-nevis.glb",
+        "source-check.json",
+        "theme-check.json"
+      ],
+      "archive_readback_verified": true,
+      "zip_sha256": "f16f7e4b4f2ba35333b4416470343b7b6d4323d033898764b45b609ef97ec4e7",
+      "inventory_sha256": "d502b1780f8756b10fe81f661fbef19ed781503a3fdc069716fc7ada0f03c857",
+      "delivery": "in-folder; no separate copy or deployment"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "8c039faea6acb7cd6db484a1c048df700df04f48",
+      "path": "preview/saint-kitts-and-nevis-v1/extended-check.json",
+      "bytes": 483,
+      "sha256": "86985d2b6e69711f3b52f531fe1a526ea2e19cbf748b25d34dfd27f6e5c50219"
+    },
+    "reported_result": {
+      "poster_source_render_nonblank": true,
+      "maps": [
+        {
+          "slot": "map",
+          "width": 384,
+          "height": 384,
+          "range": 53,
+          "channel": 0
+        },
+        {
+          "slot": "roughnessMap",
+          "width": 384,
+          "height": 384,
+          "range": 48,
+          "channel": 1
+        },
+        {
+          "slot": "normalMap",
+          "width": 384,
+          "height": 384,
+          "range": 47,
+          "channel": 0
+        }
+      ],
+      "noJS_poster": true,
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "8c039faea6acb7cd6db484a1c048df700df04f48",
+      "path": "preview/saint-kitts-and-nevis-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "8c039faea6acb7cd6db484a1c048df700df04f48",
+      "path": "preview/saint-kitts-and-nevis-v1/parity-check.json",
+      "bytes": 321,
+      "sha256": "f4cd6cc5e35d3acf3b6a262c8dd0ba9c6a859352cc137de375338b89e029020b"
+    },
+    "reported_result": {
+      "source_vertices": 7610,
+      "imported_vertices": 19655,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "volcanic-color.png",
+        "volcanic-normal.png",
+        "volcanic-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "8c039faea6acb7cd6db484a1c048df700df04f48",
+      "path": "preview/saint-kitts-and-nevis-v1/source-check.json",
+      "bytes": 393,
+      "sha256": "008347a908e19798409b476ba7432f6a2f6ecb908c31b123641631cec7d4179f"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 19,
+      "static_meshes": 36,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 62
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "8c039faea6acb7cd6db484a1c048df700df04f48",
+      "path": "preview/saint-kitts-and-nevis-v1/theme-check.json",
+      "bytes": 926,
+      "sha256": "218b16967d86d5dc954976b9fe6ea70d3e45c55e963be1885474e6b25e8b7c67"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "pivot_baseline_exact": true,
+      "two_lid_owned_islands": true,
+      "detached_ornament_negative_control_rejected": true,
+      "island_bounds": {
+        "Saint Kitts": {
+          "min": [
+            -1.4757457971572876,
+            -0.4688625931739807,
+            1.9980000257492065
+          ],
+          "max": [
+            0.07265754044055939,
+            0.8995868563652039,
+            2.678637742996216
+          ]
+        },
+        "Nevis": {
+          "min": [
+            0.35225626826286316,
+            -0.7091555595397949,
+            1.9980000257492065
+          ],
+          "max": [
+            1.4193991422653198,
+            0.3068144619464874,
+            2.7009999752044678
+          ]
+        }
+      },
+      "minimum_X_channel_gap": 0.27959872782230377,
+      "crater_center_z": 2.4321999549865723,
+      "minimum_ring_z": 2.6322383880615234,
+      "crater_depression": 0.20003843307495117,
+      "peak_above_outer_slopes": true,
+      "procedural_maps_packed": true
+    },
+    "fresh_runtime_execution": false
+  }
+]

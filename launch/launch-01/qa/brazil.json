@@ -1,0 +1,631 @@
+[
+  {
+    "source": {
+      "commit": "aa3d210b4f6b4e58fd15877d9721b6bc73da30c8",
+      "path": "preview/brazil-v1/browser-check.json",
+      "bytes": 2080,
+      "sha256": "841daf4b1c56b60d2fe2ff8315af5782b2f0b032167481b3d38427d07df7c52f"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 32908,
+          "meshes": 202,
+          "materials": 13,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.865999988745898,
+              2.5260837376117706,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 2754184,
+          "open_projection_max_abs_ndc": 0.9375376955152482
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 32908,
+          "meshes": 202,
+          "materials": 13,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.865999988745898,
+              2.5260837376117706,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 2754184,
+          "open_projection_max_abs_ndc": 0.9375376955152473
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "aa3d210b4f6b4e58fd15877d9721b6bc73da30c8",
+      "path": "preview/brazil-v1/delivery-check.json",
+      "bytes": 308,
+      "sha256": "988ec83bb40551375a70324c0751f14babcc282cf1d894ca224006e053aaa4a2"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "HTML_bytes": 4468142,
+      "GLB_bytes": 2754184,
+      "ZIP_bytes": 9605876,
+      "ZIP_entries": 60,
+      "zip_sha256": "6550e910930038760c8d7a05aa2c783f0ca659aa6f5a562970ab066b2bb6733c",
+      "archive_readback_verified": true,
+      "required_file_coverage": true,
+      "inventory_entries": 59
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "aa3d210b4f6b4e58fd15877d9721b6bc73da30c8",
+      "path": "preview/brazil-v1/extended-check.json",
+      "bytes": 904,
+      "sha256": "e95cdf2d8512084345ad333270d11bbaa2a50a9036ea98c9d42b9a67c65aec6e"
+    },
+    "reported_result": {
+      "poster_nonblank": true,
+      "features": {
+        "counts": {
+          "forest": 74,
+          "river": 1,
+          "canopy": 54
+        },
+        "maps": [
+          {
+            "key": "map",
+            "channel": 0,
+            "width": 512,
+            "height": 512,
+            "range": 68
+          },
+          {
+            "key": "normalMap",
+            "channel": 0,
+            "width": 512,
+            "height": 512,
+            "range": 10
+          },
+          {
+            "key": "roughnessMap",
+            "channel": 1,
+            "width": 512,
+            "height": 512,
+            "range": 41
+          },
+          {
+            "key": "map",
+            "channel": 0,
+            "width": 256,
+            "height": 256,
+            "range": 31
+          },
+          {
+            "key": "map",
+            "channel": 0,
+            "width": 256,
+            "height": 256,
+            "range": 143
+          }
+        ],
+        "wrong": []
+      },
+      "noJS_poster": true,
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "aa3d210b4f6b4e58fd15877d9721b6bc73da30c8",
+      "path": "preview/brazil-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "aa3d210b4f6b4e58fd15877d9721b6bc73da30c8",
+      "path": "preview/brazil-v1/motion-check.json",
+      "bytes": 57,
+      "sha256": "ab758b8141925c64ebc8d3b4d32ed9cabc28cbb17ca1d0864297c3e07020a541"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "samples": 81,
+      "negative_controls": 3
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "aa3d210b4f6b4e58fd15877d9721b6bc73da30c8",
+      "path": "preview/brazil-v1/parity-check.json",
+      "bytes": 371,
+      "sha256": "5ba78b6787ac61dad330213696894637f7617561d42dbab1e7b17bb36c2b9ccd"
+    },
+    "reported_result": {
+      "source_vertices": 16914,
+      "imported_vertices": 55048,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "earthwood-color.png",
+        "earthwood-end.png",
+        "earthwood-normal.png",
+        "earthwood-roughness.png",
+        "granite.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "aa3d210b4f6b4e58fd15877d9721b6bc73da30c8",
+      "path": "preview/brazil-v1/source-check.json",
+      "bytes": 395,
+      "sha256": "8761ec45cc42952ba890275e0a326d9102cc76443abe213731b3efb57661b7fa"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 103,
+      "static_meshes": 99,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 209
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "aa3d210b4f6b4e58fd15877d9721b6bc73da30c8",
+      "path": "preview/brazil-v1/theme-check.json",
+      "bytes": 5693,
+      "sha256": "0f4777d2c232320ba8c33bd54b077592094d174f844e4ebcf9174ff804fe471d"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "forest_river_meshes": 75,
+      "canopy_clusters": 54,
+      "river_unoccluded_vertical_samples": 61,
+      "river_samples": [
+        [
+          -1.5,
+          0.04660103876713753,
+          2.016000270843506
+        ],
+        [
+          -1.45,
+          0.03427892910499928,
+          2.0160000324249268
+        ],
+        [
+          -1.4,
+          0.023721785061004225,
+          2.0160000324249268
+        ],
+        [
+          -1.35,
+          0.014630241805526873,
+          2.016000270843506
+        ],
+        [
+          -1.3,
+          0.006567924930150574,
+          2.016000270843506
+        ],
+        [
+          -1.25,
+          -0.0009957876084292138,
+          2.016000270843506
+        ],
+        [
+          -1.2,
+          -0.008636671558840545,
+          2.0160000324249268
+        ],
+        [
+          -1.15,
+          -0.016923534155460256,
+          2.0159997940063477
+        ],
+        [
+          -1.1,
+          -0.026366559035196198,
+          2.016000270843506
+        ],
+        [
+          -1.05,
+          -0.03736958414422053,
+          2.016000270843506
+        ],
+        [
+          -1.0,
+          -0.050189529458923854,
+          2.0159997940063477
+        ],
+        [
+          -0.95,
+          -0.06490573841306624,
+          2.016000270843506
+        ],
+        [
+          -0.9,
+          -0.08140136837992,
+          2.016000270843506
+        ],
+        [
+          -0.85,
+          -0.09935820067360634,
+          2.0160000324249268
+        ],
+        [
+          -0.8,
+          -0.11826538711014702,
+          2.0159997940063477
+        ],
+        [
+          -0.75,
+          -0.13744176156520427,
+          2.0160000324249268
+        ],
+        [
+          -0.7,
+          -0.15607047677593144,
+          2.0159997940063477
+        ],
+        [
+          -0.65,
+          -0.1732439332253632,
+          2.0159997940063477
+        ],
+        [
+          -0.6,
+          -0.18801629807232184,
+          2.0159997940063477
+        ],
+        [
+          -0.55,
+          -0.19946040978730792,
+          2.016000270843506
+        ],
+        [
+          -0.5,
+          -0.2067255601302429,
+          2.0160000324249268
+        ],
+        [
+          -0.44999999999999996,
+          -0.2090925587511124,
+          2.0160000324249268
+        ],
+        [
+          -0.3999999999999999,
+          -0.20602262287496226,
+          2.0160000324249268
+        ],
+        [
+          -0.3500000000000001,
+          -0.1971969872149211,
+          2.0159997940063477
+        ],
+        [
+          -0.30000000000000004,
+          -0.18254467600044344,
+          2.0160000324249268
+        ],
+        [
+          -0.25,
+          -0.16225658629061837,
+          2.0159997940063477
+        ],
+        [
+          -0.19999999999999996,
+          -0.1367848560372303,
+          2.0160000324249268
+        ],
+        [
+          -0.1499999999999999,
+          -0.10682738083688854,
+          2.0160000324249268
+        ],
+        [
+          -0.10000000000000009,
+          -0.07329824498206636,
+          2.0160000324249268
+        ],
+        [
+          -0.050000000000000044,
+          -0.037285689564612395,
+          2.0160000324249268
+        ],
+        [
+          0.0,
+          0.0,
+          2.0160000324249268
+        ],
+        [
+          0.050000000000000044,
+          0.037285689564612395,
+          2.0160000324249268
+        ],
+        [
+          0.10000000000000009,
+          0.07329824498206636,
+          2.0160000324249268
+        ],
+        [
+          0.1499999999999999,
+          0.10682738083688854,
+          2.0160000324249268
+        ],
+        [
+          0.19999999999999996,
+          0.1367848560372303,
+          2.0160000324249268
+        ],
+        [
+          0.25,
+          0.16225658629061837,
+          2.0159997940063477
+        ],
+        [
+          0.30000000000000004,
+          0.18254467600044344,
+          2.0160000324249268
+        ],
+        [
+          0.3500000000000001,
+          0.1971969872149211,
+          2.0159997940063477
+        ],
+        [
+          0.3999999999999999,
+          0.20602262287496226,
+          2.0160000324249268
+        ],
+        [
+          0.44999999999999996,
+          0.2090925587511124,
+          2.0160000324249268
+        ],
+        [
+          0.5,
+          0.2067255601302429,
+          2.0160000324249268
+        ],
+        [
+          0.5499999999999998,
+          0.19946040978730795,
+          2.016000270843506
+        ],
+        [
+          0.6000000000000001,
+          0.1880162980723218,
+          2.0159997940063477
+        ],
+        [
+          0.6499999999999999,
+          0.1732439332253632,
+          2.0159997940063477
+        ],
+        [
+          0.7000000000000002,
+          0.1560704767759314,
+          2.0159997940063477
+        ],
+        [
+          0.75,
+          0.13744176156520427,
+          2.0159997940063477
+        ],
+        [
+          0.7999999999999998,
+          0.11826538711014709,
+          2.0159997940063477
+        ],
+        [
+          0.8500000000000001,
+          0.09935820067360634,
+          2.0159997940063477
+        ],
+        [
+          0.8999999999999999,
+          0.08140136837992,
+          2.016000270843506
+        ],
+        [
+          0.9500000000000002,
+          0.06490573841306618,
+          2.0159997940063477
+        ],
+        [
+          1.0,
+          0.050189529458923854,
+          2.0159997940063477
+        ],
+        [
+          1.0499999999999998,
+          0.03736958414422057,
+          2.016000270843506
+        ],
+        [
+          1.1,
+          0.026366559035196198,
+          2.0159997940063477
+        ],
+        [
+          1.15,
+          0.016923534155460256,
+          2.0159997940063477
+        ],
+        [
+          1.2000000000000002,
+          0.008636671558840514,
+          2.0160000324249268
+        ],
+        [
+          1.25,
+          0.0009957876084292138,
+          2.016000270843506
+        ],
+        [
+          1.2999999999999998,
+          -0.00656792493015055,
+          2.016000270843506
+        ],
+        [
+          1.35,
+          -0.014630241805526873,
+          2.016000270843506
+        ],
+        [
+          1.4,
+          -0.023721785061004225,
+          2.016000270843506
+        ],
+        [
+          1.4500000000000002,
+          -0.03427892910499932,
+          2.0160000324249268
+        ],
+        [
+          1.5,
+          -0.04660103876713753,
+          2.016000270843506
+        ]
+      ],
+      "detached_river_negative_control_rejected": true,
+      "pivot_matrices_match_mechanism": true,
+      "max_relief_bound": 0.65
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "aa3d210b4f6b4e58fd15877d9721b6bc73da30c8",
+      "path": "preview/brazil-v1/visual-check.json",
+      "bytes": 794,
+      "sha256": "c8d665c8b44ba10b27a1cb12309b66a17034970f9c8de281edae6c23a8cde75d"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "method": "Visual inspection of actual browser screenshots; separate from geometry tests",
+      "initial_mobile": "Forest readable but ochre river not confidently traceable; rejected for readability",
+      "bounded_correction": "Widen channel .34 to .46, move crowns outward, reduce crown radius, use stylized teal, raise camera",
+      "final_mobile": "Continuous winding teal channel identifiable between two forest banks; whole chest and canopies fully framed",
+      "open_view": "Hollow cavity and complete lid/latch framed. Hinge attachment reads subtly but ten source contact pairs are independently verified",
+      "limitations": [
+        "Simplified sparse rounded canopies and flat banks",
+        "Stylized water color, not physical Amazon sediment color",
+        "No photoreal equivalence or physical-phone performance claim"
+      ]
+    },
+    "fresh_runtime_execution": false
+  }
+]

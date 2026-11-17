@@ -1,0 +1,749 @@
+[
+  {
+    "source": {
+      "commit": "d5e293197f403d2be8c470ac03a6090a637da531",
+      "path": "preview/eswatini-v1/browser-check.json",
+      "bytes": 2078,
+      "sha256": "bf674fc5e9407d1d4b0d3b5dbb9f091c38e2b02628590073b37f18463f63e883"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 50564,
+          "meshes": 81,
+          "materials": 5,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.23000000417232513,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8819999694824219,
+              2.0473825931549072,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 2166720,
+          "open_projection_max_abs_ndc": 0.8923646516630207
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 50564,
+          "meshes": 81,
+          "materials": 5,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.23000000417232513,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8819999694824219,
+              2.0473825931549072,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 2166720,
+          "open_projection_max_abs_ndc": 0.8923646516630195
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "d5e293197f403d2be8c470ac03a6090a637da531",
+      "path": "preview/eswatini-v1/delivery-check.json",
+      "bytes": 1363,
+      "sha256": "2c2b8b52e77c43747f23404cfe728d8dbb23a979bd73d494a62ee75b9ed03798"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "html": {
+        "bytes": 3669950,
+        "sha256": "6c4b9910a24cbc880c97cde7feeafe4c94c8d75472eeb98d0466d8bb99ceeada"
+      },
+      "glb": {
+        "bytes": 2166720,
+        "sha256": "fc61b0216373e30f8e5fa105ef61bda51a643c75df30405d3777787cc427c55c"
+      },
+      "zip": {
+        "bytes": 6729043,
+        "sha256": "67d1051f02c94fec398007056a8601c279d063de0c8ff71291c7926a82a48263"
+      },
+      "archive_members": 50,
+      "required_artifacts": [
+        "README.md",
+        "THREE-LICENSE.txt",
+        "author.py",
+        "browser-check.json",
+        "build.py",
+        "design-brief.md",
+        "eswatini-v1.html",
+        "eswatini.blend",
+        "eswatini.glb",
+        "extended-check.json",
+        "maps.py",
+        "maps/binding.png",
+        "maps/grass-color.png",
+        "maps/grass-roughness.png",
+        "mechanism.blend",
+        "motion-check.json",
+        "motion.mjs",
+        "package.json",
+        "parity-check.json",
+        "poster.jpg",
+        "poster.png",
+        "source-check.json",
+        "template.html",
+        "theme-source-check.json",
+        "viewer.bundle.js",
+        "viewer.js"
+      ],
+      "exact_inventory_and_archive_readback": true,
+      "checks": [
+        "source",
+        "parity",
+        "theme-source",
+        "motion",
+        "browser desktop/mobile/corruption",
+        "extended theme/no-JS",
+        "strict HTML budget",
+        "SHA-256 inventory",
+        "required archive contents/readback"
+      ]
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "d5e293197f403d2be8c470ac03a6090a637da531",
+      "path": "preview/eswatini-v1/extended-check.json",
+      "bytes": 657,
+      "sha256": "f5c63d0e4969a9fabed4dcbb64a2e0d39af4c2469d9f536d48baad2ac79f90a2"
+    },
+    "reported_result": {
+      "features": {
+        "body": 12,
+        "lid": 12,
+        "maps": [
+          {
+            "material": "Umber / structural binding",
+            "width": 256,
+            "height": 128,
+            "range": 34,
+            "mean": [
+              83.14093017578125,
+              50.448760986328125,
+              30.27508544921875
+            ]
+          },
+          {
+            "material": "Lutindzi / woven straw",
+            "width": 512,
+            "height": 256,
+            "range": 79,
+            "mean": [
+              181.18611907958984,
+              144.6718521118164,
+              84.99909973144531
+            ]
+          }
+        ],
+        "wrong": []
+      },
+      "noJS_poster": true,
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "d5e293197f403d2be8c470ac03a6090a637da531",
+      "path": "preview/eswatini-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "d5e293197f403d2be8c470ac03a6090a637da531",
+      "path": "preview/eswatini-v1/motion-check.json",
+      "bytes": 8356,
+      "sha256": "8a12f7ed76bf2d1fc0631b54a9b3f56a8f26bf2ac6768c6ae9cbb6d206fdf493"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "samples": [
+        {
+          "progress": 0,
+          "lid": 0,
+          "latch": 0
+        },
+        {
+          "progress": 0.0125,
+          "lid": 0,
+          "latch": -0.06981317007977318
+        },
+        {
+          "progress": 0.025,
+          "lid": 0,
+          "latch": -0.13962634015954636
+        },
+        {
+          "progress": 0.0375,
+          "lid": 0,
+          "latch": -0.20943951023931953
+        },
+        {
+          "progress": 0.05,
+          "lid": 0,
+          "latch": -0.2792526803190927
+        },
+        {
+          "progress": 0.0625,
+          "lid": 0,
+          "latch": -0.3490658503988659
+        },
+        {
+          "progress": 0.075,
+          "lid": 0,
+          "latch": -0.41887902047863906
+        },
+        {
+          "progress": 0.0875,
+          "lid": 0,
+          "latch": -0.48869219055841223
+        },
+        {
+          "progress": 0.1,
+          "lid": 0,
+          "latch": -0.5585053606381855
+        },
+        {
+          "progress": 0.1125,
+          "lid": 0,
+          "latch": -0.6283185307179586
+        },
+        {
+          "progress": 0.125,
+          "lid": 0,
+          "latch": -0.6981317007977318
+        },
+        {
+          "progress": 0.1375,
+          "lid": 0,
+          "latch": -0.7679448708775051
+        },
+        {
+          "progress": 0.15,
+          "lid": 0,
+          "latch": -0.8377580409572781
+        },
+        {
+          "progress": 0.1625,
+          "lid": 0,
+          "latch": -0.9075712110370514
+        },
+        {
+          "progress": 0.175,
+          "lid": 0,
+          "latch": -0.9773843811168245
+        },
+        {
+          "progress": 0.1875,
+          "lid": 0,
+          "latch": -1.0471975511965976
+        },
+        {
+          "progress": 0.2,
+          "lid": 0,
+          "latch": -1.117010721276371
+        },
+        {
+          "progress": 0.2125,
+          "lid": 0,
+          "latch": -1.186823891356144
+        },
+        {
+          "progress": 0.225,
+          "lid": 0,
+          "latch": -1.2566370614359172
+        },
+        {
+          "progress": 0.2375,
+          "lid": 0,
+          "latch": -1.3264502315156903
+        },
+        {
+          "progress": 0.25,
+          "lid": 0,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.2625,
+          "lid": -0.030543261909900792,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.275,
+          "lid": -0.061086523819801584,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.2875,
+          "lid": -0.09162978572970225,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.3,
+          "lid": -0.12217304763960304,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.3125,
+          "lid": -0.15271630954950383,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.325,
+          "lid": -0.18325957145940464,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.3375,
+          "lid": -0.21380283336930545,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.35,
+          "lid": -0.2443460952792061,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.3625,
+          "lid": -0.2748893571891069,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.375,
+          "lid": -0.30543261909900765,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.3875,
+          "lid": -0.33597588100890846,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.4,
+          "lid": -0.36651914291880927,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.4125,
+          "lid": -0.39706240482870997,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.425,
+          "lid": -0.4276056667386107,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.4375,
+          "lid": -0.45814892864851153,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.45,
+          "lid": -0.4886921905584123,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.4625,
+          "lid": -0.5192354524683132,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.475,
+          "lid": -0.5497787143782138,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.4875,
+          "lid": -0.5803219762881145,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.5,
+          "lid": -0.6108652381980153,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.5125,
+          "lid": -0.6414085001079161,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.525,
+          "lid": -0.6719517620178169,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.5375,
+          "lid": -0.7024950239277177,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.55,
+          "lid": -0.7330382858376185,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.5625,
+          "lid": -0.7635815477475193,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.575,
+          "lid": -0.7941248096574199,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.5875,
+          "lid": -0.8246680715673208,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.6,
+          "lid": -0.8552113334772214,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.6125,
+          "lid": -0.8857545953871224,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.625,
+          "lid": -0.9162978572970231,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.6375,
+          "lid": -0.9468411192069237,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.65,
+          "lid": -0.9773843811168246,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.6625,
+          "lid": -1.0079276430267252,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.675,
+          "lid": -1.0384709049366263,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.6875,
+          "lid": -1.069014166846527,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.7,
+          "lid": -1.0995574287564276,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.7125,
+          "lid": -1.1301006906663285,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.725,
+          "lid": -1.160643952576229,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.7375,
+          "lid": -1.19118721448613,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.75,
+          "lid": -1.2217304763960306,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.7625,
+          "lid": -1.2522737383059312,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.775,
+          "lid": -1.2828170002158323,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.7875,
+          "lid": -1.313360262125733,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.8,
+          "lid": -1.3439035240356338,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.8125,
+          "lid": -1.3744467859455347,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.825,
+          "lid": -1.4049900478554354,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.8375,
+          "lid": -1.4355333097653362,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.85,
+          "lid": -1.4660765716752369,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.8625,
+          "lid": -1.496619833585138,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.875,
+          "lid": -1.5271630954950386,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.8875,
+          "lid": -1.5577063574049392,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.9,
+          "lid": -1.58824961931484,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.9125,
+          "lid": -1.6187928812247407,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.925,
+          "lid": -1.6493361431346416,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.9375,
+          "lid": -1.6798794050445423,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.95,
+          "lid": -1.710422666954443,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.9625,
+          "lid": -1.740965928864344,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.975,
+          "lid": -1.7715091907742446,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.9875,
+          "lid": -1.8020524526841455,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 1,
+          "lid": -1.8325957145940461,
+          "latch": -1.3962634015954636
+        }
+      ],
+      "invalidAssetsRejected": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "d5e293197f403d2be8c470ac03a6090a637da531",
+      "path": "preview/eswatini-v1/parity-check.json",
+      "bytes": 308,
+      "sha256": "1c992196cd2b79730594e875690fbdaf2aa228423a52f73eeedd4c4da7ea77e1"
+    },
+    "reported_result": {
+      "source_vertices": 25392,
+      "imported_vertices": 54508,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "binding.png",
+        "grass-color.png",
+        "grass-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "d5e293197f403d2be8c470ac03a6090a637da531",
+      "path": "preview/eswatini-v1/source-check.json",
+      "bytes": 393,
+      "sha256": "d337196e5631840860e96c1e0a81b917806c815efa455782dcebbe926c831bb8"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 30,
+      "static_meshes": 51,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 88
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "d5e293197f403d2be8c470ac03a6090a637da531",
+      "path": "preview/eswatini-v1/theme-source-check.json",
+      "bytes": 535,
+      "sha256": "1230e74eab28989fa14ce3d8f263d884823b2a830ad00228a145bb45bc59456a"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "body_coils": 12,
+      "lid_coils": 12,
+      "all_lid_ornament_parented": true,
+      "unchanged_pivots": {
+        "Lid_Hinge": [
+          0.0,
+          1.3200000524520874,
+          1.6679999828338623
+        ],
+        "Latch_Pivot": [
+          0.0,
+          -2.6100001335144043,
+          0.2200000286102295
+        ]
+      },
+      "negative_control": {
+        "mutation": "Detached actual saved-source lid coil in memory",
+        "rejected": "Every lid coil must travel with lid",
+        "restored_pass": true
+      },
+      "brief_before_model": true
+    },
+    "fresh_runtime_execution": false
+  }
+]

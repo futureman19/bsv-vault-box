@@ -1,0 +1,255 @@
+[
+  {
+    "source": {
+      "commit": "8f81cbb7f1e5022434bb72fb3f028c48f28ad88e",
+      "path": "preview/georgia-v1/browser-check.json",
+      "bytes": 2080,
+      "sha256": "dbdc43db23d192c65462c8fd7b3f58c3e6a376a63e13a45ffddd84b0eec6af35"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 36676,
+          "meshes": 179,
+          "materials": 7,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.23000000417232513,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.7699999809265137,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 2642344,
+          "open_projection_max_abs_ndc": 0.8923646516630211
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 36676,
+          "meshes": 179,
+          "materials": 7,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.23000000417232513,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.7699999809265137,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 2642344,
+          "open_projection_max_abs_ndc": 0.8923646516630206
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "8f81cbb7f1e5022434bb72fb3f028c48f28ad88e",
+      "path": "preview/georgia-v1/delivery-check.json",
+      "bytes": 382,
+      "sha256": "bb9c911e567d873384de8585c82239fc51361c5a32e4e0093e250c9d2172d5c8"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "HTML_BYTES": 4258189,
+      "GLB_BYTES": 2642344,
+      "ZIP_BYTES": 5263557,
+      "ZIP_SHA256": "45c5831cce11946118eebbf45432f1e9f90d40ee4b1deaf4242150140d0e11a1",
+      "archive_entries": 50,
+      "required_artifacts_present": true,
+      "archive_readback_verified": true,
+      "inventory_scope": "all payload except self and packaging envelopes; no recursive hashes"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "8f81cbb7f1e5022434bb72fb3f028c48f28ad88e",
+      "path": "preview/georgia-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "8f81cbb7f1e5022434bb72fb3f028c48f28ad88e",
+      "path": "preview/georgia-v1/parity-check.json",
+      "bytes": 313,
+      "sha256": "1fef2ed2dca58853265cd9d63af6279a6200744e25d92fa0dfa1f0433a8b4806"
+    },
+    "reported_result": {
+      "source_vertices": 18733,
+      "imported_vertices": 71638,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "stone-color.png",
+        "stone-normal.png",
+        "stone-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "8f81cbb7f1e5022434bb72fb3f028c48f28ad88e",
+      "path": "preview/georgia-v1/source-check.json",
+      "bytes": 395,
+      "sha256": "332c41b6a9b95b10ee7e8122e5fbad37414f3f81f9518e2828782ac6f7c2fcbc"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 22,
+      "static_meshes": 155,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 184
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "8f81cbb7f1e5022434bb72fb3f028c48f28ad88e",
+      "path": "preview/georgia-v1/theme-check.json",
+      "bytes": 689,
+      "sha256": "f12043b61e3153ec8caff5fac3ebb45e8350ef081d06df3364fba7c53475a84e"
+    },
+    "reported_result": {
+      "tower": [
+        "Tower__gabled_cap",
+        "Tower__slit",
+        "Tower__slit001",
+        "Tower__slit002",
+        "Tower__tapered_stone"
+      ],
+      "terrain": [
+        "Terrain__Svaneti_snow_ridge"
+      ],
+      "maps": [
+        {
+          "slot": "map",
+          "width": 256,
+          "height": 256,
+          "range": 45
+        },
+        {
+          "slot": "normalMap",
+          "width": 256,
+          "height": 256,
+          "range": 20
+        },
+        {
+          "slot": "roughnessMap",
+          "width": 256,
+          "height": 256,
+          "range": 32
+        }
+      ],
+      "wrong": [],
+      "status": "PASS",
+      "detached_tower_negative_control_rejected": true,
+      "actual_scene_detachment_detected": true,
+      "noJS_poster": true
+    },
+    "fresh_runtime_execution": false
+  }
+]

@@ -1,0 +1,318 @@
+[
+  {
+    "source": {
+      "commit": "97abf7f4a8c899e578afeb605be9170f81b3beb3",
+      "path": "preview/cote-d-ivoire-v1/browser-check.json",
+      "bytes": 2076,
+      "sha256": "effda74bdbe18197e62fe137a3a23463576c3e327eaab0950e3d0f9ef24f08a1"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 18732,
+          "meshes": 263,
+          "materials": 6,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.2500000074505806,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8829999486915767,
+              2.043000064790249,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1732976,
+          "open_projection_max_abs_ndc": 0.8923646516630201
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 18732,
+          "meshes": 263,
+          "materials": 6,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.2500000074505806,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8829999486915767,
+              2.043000064790249,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1732976,
+          "open_projection_max_abs_ndc": 0.8923646516630209
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "97abf7f4a8c899e578afeb605be9170f81b3beb3",
+      "path": "preview/cote-d-ivoire-v1/delivery-check.json",
+      "bytes": 549,
+      "sha256": "b0e726d7c9a1dd376ce4cce31027f36858d55b50f45783937f5df45309e5295f"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "HTML_BYTES": 3148250,
+      "GLB_BYTES": 1732976,
+      "zip_bytes": 5845720,
+      "zip_sha256": "0292fc92391cb1006d45f4269c64447f8570ff0289daccfe91522c058a7860ba",
+      "entries": 55,
+      "required_artifacts_present": [
+        "README.md",
+        "browser-check.json",
+        "cote-d-ivoire-v1.html",
+        "cote-d-ivoire.blend",
+        "cote-d-ivoire.glb",
+        "design-brief.md",
+        "extended-check.json",
+        "parity-check.json",
+        "poster.png",
+        "source-check.json",
+        "theme-check.json"
+      ],
+      "archive_readback": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "97abf7f4a8c899e578afeb605be9170f81b3beb3",
+      "path": "preview/cote-d-ivoire-v1/extended-check.json",
+      "bytes": 611,
+      "sha256": "c28b1dbeb79abc2444c6e182d6a25e270f7a27689dd141daefc7b23afbfa3f8a"
+    },
+    "reported_result": {
+      "poster_nonblack": true,
+      "runtime": {
+        "strips": 9,
+        "joins": 8,
+        "wrong": [],
+        "maps": [
+          {
+            "key": "map",
+            "range": 23,
+            "width": 256
+          },
+          {
+            "key": "map",
+            "range": 77,
+            "width": 256
+          },
+          {
+            "key": "roughnessMap",
+            "range": 50,
+            "width": 256
+          },
+          {
+            "key": "map",
+            "range": 73,
+            "width": 256
+          },
+          {
+            "key": "map",
+            "range": 15,
+            "width": 256
+          }
+        ]
+      },
+      "noJS_poster": true,
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "97abf7f4a8c899e578afeb605be9170f81b3beb3",
+      "path": "preview/cote-d-ivoire-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "97abf7f4a8c899e578afeb605be9170f81b3beb3",
+      "path": "preview/cote-d-ivoire-v1/parity-check.json",
+      "bytes": 337,
+      "sha256": "a3a71eab47ae9b20cfb2f3137cee81272fc2e1151a54620b0db4063992759fad"
+    },
+    "reported_result": {
+      "source_vertices": 9888,
+      "imported_vertices": 35500,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "cream.png",
+        "indigo.png",
+        "ochre.png",
+        "walnut.png",
+        "weave-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "97abf7f4a8c899e578afeb605be9170f81b3beb3",
+      "path": "preview/cote-d-ivoire-v1/source-check.json",
+      "bytes": 395,
+      "sha256": "54eb13ac9e9959d58c7959abeb886686ef6986a3ad6018e45bcc5e39fadeba24"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 72,
+      "static_meshes": 191,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 270
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "97abf7f4a8c899e578afeb605be9170f81b3beb3",
+      "path": "preview/cote-d-ivoire-v1/theme-check.json",
+      "bytes": 797,
+      "sha256": "ec63264d42e5638219f921ca88f0dc0ca694fbbc839f9f7f11e5752259b0c22d"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "strips": 9,
+      "joins": 8,
+      "height_range": [
+        1.9795000553131104,
+        2.0429999828338623
+      ],
+      "lid_ownership": true,
+      "detached_negative_control_rejected": true,
+      "exact_inherited_pivots": {
+        "Lid_Hinge": [
+          0.0,
+          1.3200000524520874,
+          1.6679999828338623
+        ],
+        "Latch_Pivot": [
+          0.0,
+          -1.290000081062317,
+          1.8880000114440918
+        ]
+      },
+      "images": {
+        "cream.png": {
+          "range": 0.3019607663154602,
+          "width": 256
+        },
+        "indigo.png": {
+          "range": 0.05882352590560913,
+          "width": 256
+        },
+        "ochre.png": {
+          "range": 0.2862745523452759,
+          "width": 256
+        },
+        "weave-roughness.png": {
+          "range": 0.19607847929000854,
+          "width": 256
+        }
+      }
+    },
+    "fresh_runtime_execution": false
+  }
+]

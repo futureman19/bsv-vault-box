@@ -1,0 +1,373 @@
+[
+  {
+    "source": {
+      "commit": "545da84e6b6ffde1452a75705f0116bce0662420",
+      "path": "preview/norway-v1/browser-check.json",
+      "bytes": 2076,
+      "sha256": "92967a50b18a287f269f4b5a2afe652216067ee223f748a5c7ba7a1620647def"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 11090,
+          "meshes": 57,
+          "materials": 7,
+          "bounds": {
+            "min": [
+              -1.8600000143051147,
+              -0.3105585500597954,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              3.060468912124634,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1117300,
+          "open_projection_max_abs_ndc": 0.8858526808411822
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 11090,
+          "meshes": 57,
+          "materials": 7,
+          "bounds": {
+            "min": [
+              -1.8600000143051147,
+              -0.3105585500597954,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              3.060468912124634,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1117300,
+          "open_projection_max_abs_ndc": 0.8858526808411835
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "545da84e6b6ffde1452a75705f0116bce0662420",
+      "path": "preview/norway-v1/delivery-check.json",
+      "bytes": 647,
+      "sha256": "4739174d2cbd7da6d79aa900a340d63c39f7b69eb0833ee7256ab9914bac7bd4"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "HTML_BYTES": 2285951,
+      "GLB_BYTES": 1117300,
+      "zip_bytes": 7486513,
+      "zip_entries": 57,
+      "zip_sha256": "92a4fd60be5fbab55f66b0fd5acd2d0cfae1dab792935672a4c292913e7bbdf6",
+      "required_files_present": [
+        "README.md",
+        "browser-check.json",
+        "design-brief.md",
+        "extended-check.json",
+        "motion-output.txt",
+        "norway-v1.html",
+        "norway.blend",
+        "norway.glb",
+        "parity-check.json",
+        "poster.jpg",
+        "poster.png",
+        "source-check.json",
+        "theme-check.json"
+      ],
+      "archive_readback_verified": true,
+      "poster_nonblack_verified": true,
+      "inventory_entries": 56
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "545da84e6b6ffde1452a75705f0116bce0662420",
+      "path": "preview/norway-v1/extended-check.json",
+      "bytes": 685,
+      "sha256": "d6871f84dcaf5f8cb38a90d0ae0094ed558f290303f5bcc0a37e23e9fb758206"
+    },
+    "reported_result": {
+      "terrain": [
+        "Fjord__continuous_water",
+        "Fjord__pale_waterfall",
+        "Fjord_bank__east",
+        "Fjord_bank__west"
+      ],
+      "maps": [
+        {
+          "material": "Crystalline rock / fine grain",
+          "key": "map",
+          "width": 256,
+          "height": 256,
+          "range": 114
+        },
+        {
+          "material": "Gneiss / cool folded mineral bands",
+          "key": "map",
+          "width": 512,
+          "height": 512,
+          "range": 51
+        },
+        {
+          "material": "Gneiss / cool folded mineral bands",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512,
+          "range": 39
+        }
+      ],
+      "wrong": [],
+      "noJS_poster": true,
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "545da84e6b6ffde1452a75705f0116bce0662420",
+      "path": "preview/norway-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "545da84e6b6ffde1452a75705f0116bce0662420",
+      "path": "preview/norway-v1/parity-check.json",
+      "bytes": 307,
+      "sha256": "add91a7ce1375662e9858c6f4fc4ee2deab00faeeaf7d8739933eed8e19e9a7e"
+    },
+    "reported_result": {
+      "source_vertices": 5688,
+      "imported_vertices": 18396,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "cliff.png",
+        "gneiss-color.png",
+        "gneiss-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "545da84e6b6ffde1452a75705f0116bce0662420",
+      "path": "preview/norway-v1/source-check.json",
+      "bytes": 393,
+      "sha256": "f30bb11719c8ccb96171e850884736acc9b3ebe4f96bc480bfade9c056bf07af"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 20,
+      "static_meshes": 35,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 62
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "545da84e6b6ffde1452a75705f0116bce0662420",
+      "path": "preview/norway-v1/theme-check.json",
+      "bytes": 1787,
+      "sha256": "18f93b691ddb87b38428dbf0eda3eabfc1c6150c9639690a71ec33a48510442d"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "negative_detached_water_rejected": "('Detached terrain', 'Fjord / continuous water')",
+      "bank_peaks": [
+        3.060468912124634,
+        3.011439800262451
+      ],
+      "water_exposed_rays": [
+        [
+          0.018534594345880447,
+          -0.8,
+          2.01200008392334
+        ],
+        [
+          -0.04696579664099648,
+          -0.7000000000000001,
+          2.01200008392334
+        ],
+        [
+          -0.11835844888856684,
+          -0.6000000000000001,
+          2.01200008392334
+        ],
+        [
+          -0.17428554076021274,
+          -0.5,
+          2.01200008392334
+        ],
+        [
+          -0.19473394018890966,
+          -0.4,
+          2.01200008392334
+        ],
+        [
+          -0.17119013942248493,
+          -0.30000000000000004,
+          2.01200008392334
+        ],
+        [
+          -0.11124941449823328,
+          -0.19999999999999996,
+          2.01200008392334
+        ],
+        [
+          -0.034962540278926424,
+          -0.09999999999999998,
+          2.01200008392334
+        ],
+        [
+          0.035,
+          0.0,
+          2.01200008392334
+        ],
+        [
+          0.083732009933228,
+          0.09999999999999998,
+          2.01200008392334
+        ],
+        [
+          0.1092054479371431,
+          0.19999999999999996,
+          2.0119998455047607
+        ],
+        [
+          0.11957257933459772,
+          0.30000000000000004,
+          2.01200008392334
+        ],
+        [
+          0.12485330588327694,
+          0.40000000000000013,
+          2.01200008392334
+        ],
+        [
+          0.1285304872997599,
+          0.5,
+          2.01200008392334
+        ],
+        [
+          0.12448337772932813,
+          0.6000000000000001,
+          2.01200008392334
+        ],
+        [
+          0.10125540813671403,
+          0.7,
+          2.0119998455047607
+        ],
+        [
+          0.050988349967193036,
+          0.8,
+          2.01200008392334
+        ]
+      ],
+      "terrain_lid_owned": true,
+      "baseline_pivots_match": true
+    },
+    "fresh_runtime_execution": false
+  }
+]

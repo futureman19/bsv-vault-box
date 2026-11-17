@@ -1,0 +1,415 @@
+[
+  {
+    "source": {
+      "commit": "12e0fd2b176d28f80e2577faf404da9fc642785d",
+      "path": "preview/el-salvador-v1/acceptance-check.json",
+      "bytes": 2407,
+      "sha256": "d52b7491e18f2794d76c9b272cc60138fc6594092aa30ea477e14f5387154c1c"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "commands": [
+        {
+          "command": [
+            "C:\\Users\\futur\\.hermes\\installs\\60215e25aec448c9\\environments\\b3c4bbda9be44f5cb17e68e2e2ba7648\\venv\\Scripts\\python.exe",
+            "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_0d56d938\\preview\\el-salvador-v1\\build.py"
+          ],
+          "exit_code": 0
+        },
+        {
+          "command": [
+            "C:/Program Files/nodejs/node.exe",
+            "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_0d56d938\\preview\\el-salvador-v1\\test_motion.mjs"
+          ],
+          "exit_code": 0
+        },
+        {
+          "command": [
+            "C:/Users/futur/AppData/Local/Programs/Blender-5.2.1/blender.exe",
+            "--background",
+            "--factory-startup",
+            "--python-exit-code",
+            "1",
+            "--python",
+            "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_0d56d938\\preview\\el-salvador-v1\\verify_source.py"
+          ],
+          "exit_code": 0
+        },
+        {
+          "command": [
+            "C:/Users/futur/AppData/Local/Programs/Blender-5.2.1/blender.exe",
+            "--background",
+            "--factory-startup",
+            "--python-exit-code",
+            "1",
+            "--python",
+            "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_0d56d938\\preview\\el-salvador-v1\\verify_parity.py"
+          ],
+          "exit_code": 0
+        },
+        {
+          "command": [
+            "C:/Users/futur/AppData/Local/Programs/Blender-5.2.1/blender.exe",
+            "--background",
+            "--factory-startup",
+            "--python-exit-code",
+            "1",
+            "--python",
+            "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_0d56d938\\preview\\el-salvador-v1\\verify_theme_source.py"
+          ],
+          "exit_code": 0
+        },
+        {
+          "command": [
+            "C:\\Users\\futur\\.hermes\\installs\\60215e25aec448c9\\environments\\b3c4bbda9be44f5cb17e68e2e2ba7648\\venv\\Scripts\\python.exe",
+            "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_0d56d938\\preview\\el-salvador-v1\\verify_browser.py"
+          ],
+          "exit_code": 0
+        },
+        {
+          "command": [
+            "C:\\Users\\futur\\.hermes\\installs\\60215e25aec448c9\\environments\\b3c4bbda9be44f5cb17e68e2e2ba7648\\venv\\Scripts\\python.exe",
+            "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_0d56d938\\preview\\el-salvador-v1\\verify_extended.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "12e0fd2b176d28f80e2577faf404da9fc642785d",
+      "path": "preview/el-salvador-v1/browser-check.json",
+      "bytes": 2078,
+      "sha256": "2ebe524ca2d7118cc26e42314a5b13c93c294e90dfb7c9cbf140a1c5560d5180"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 12808,
+          "meshes": 57,
+          "materials": 6,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30868958681821823,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.6470820903778076,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1077848,
+          "open_projection_max_abs_ndc": 0.9672458923524405
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 12808,
+          "meshes": 57,
+          "materials": 6,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30868958681821823,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.6470820903778076,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1077848,
+          "open_projection_max_abs_ndc": 0.9672458923524394
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "12e0fd2b176d28f80e2577faf404da9fc642785d",
+      "path": "preview/el-salvador-v1/delivery-check.json",
+      "bytes": 1038,
+      "sha256": "be5fefbb580cd95f7843b0761a33f90d50070e2fa6120d491a71cf08844bf944"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "HTML_BYTES": 2264441,
+      "GLB_BYTES": 1077848,
+      "ZIP_BYTES": 7451451,
+      "ZIP_ENTRIES": 66,
+      "zip_sha256": "73ab347da7900cb98434791a5d89b7eb43c398f540be2252c71f0a101661a2ac",
+      "required_artifacts_verified": [
+        ".gitattributes",
+        "README.md",
+        "acceptance-check.json",
+        "browser-check.json",
+        "design-brief.md",
+        "el-salvador-v1.html",
+        "el-salvador.blend",
+        "el-salvador.glb",
+        "extended-check.json",
+        "mechanism.blend",
+        "parity-check.json",
+        "poster.jpg",
+        "poster.png",
+        "source-check.json",
+        "theme-source-check.json"
+      ],
+      "archive_readback_verified": true,
+      "inventory_sha256": "87405edbcfbcf6e29a157ca756bf9577a9423ca4f01c503d7ca0ec549ce0c21a",
+      "excluded_self_references": [
+        "inventory.json",
+        "delivery-check.json",
+        "el-salvador-v1-source.zip",
+        "packaging-output.txt",
+        "git-verification.txt"
+      ],
+      "notes": "Source zip and file:// viewer remain in this folder; no external delivery copy or hosting."
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "12e0fd2b176d28f80e2577faf404da9fc642785d",
+      "path": "preview/el-salvador-v1/extended-check.json",
+      "bytes": 838,
+      "sha256": "97c88773ad88368ad93a12357c3d0112755f43c0e197e0bba55bd4f7a01210f1"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "poster_real_pixels": true,
+      "palette_negative_control_rejected": true,
+      "features": {
+        "terrain": [
+          "Terrain__turquoise_lagoon",
+          "Terrain__volcanic_crater"
+        ],
+        "maps": [
+          {
+            "material": "Anil / indigo resist",
+            "slot": "map",
+            "channel": 0,
+            "width": 256,
+            "height": 256,
+            "range": 78
+          },
+          {
+            "material": "Anil / indigo resist",
+            "slot": "roughnessMap",
+            "channel": 1,
+            "width": 256,
+            "height": 256,
+            "range": 153
+          },
+          {
+            "material": "Volcanic / charcoal granular",
+            "slot": "map",
+            "channel": 0,
+            "width": 256,
+            "height": 256,
+            "range": 79
+          }
+        ],
+        "wrong": []
+      },
+      "noJS_poster": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "12e0fd2b176d28f80e2577faf404da9fc642785d",
+      "path": "preview/el-salvador-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "12e0fd2b176d28f80e2577faf404da9fc642785d",
+      "path": "preview/el-salvador-v1/parity-check.json",
+      "bytes": 310,
+      "sha256": "40f62b7cffed10e64c8fe5c0d418135cfeb8f64cff7ac4d0c4694ebfd38920fb"
+    },
+    "reported_result": {
+      "source_vertices": 6553,
+      "imported_vertices": 22271,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "indigo-color.png",
+        "indigo-roughness.png",
+        "volcanic.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "12e0fd2b176d28f80e2577faf404da9fc642785d",
+      "path": "preview/el-salvador-v1/source-check.json",
+      "bytes": 393,
+      "sha256": "ca35f59133ef99a62155d6116740f7864e7201faf0b3e26fd99f04afad8c82cf"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 18,
+      "static_meshes": 38,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 63
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "12e0fd2b176d28f80e2577faf404da9fc642785d",
+      "path": "preview/el-salvador-v1/theme-source-check.json",
+      "bytes": 844,
+      "sha256": "fc251a65f3366ef6c1d1f35c23899b874e28673d5b58947114e4bbcf91df0c21"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "terrain_parentage": true,
+      "detached_negative_control_rejected": true,
+      "crater_bounds": [
+        [
+          -1.3214679956436157,
+          1.337988018989563
+        ],
+        [
+          -0.6997349858283997,
+          0.9876318573951721
+        ],
+        [
+          1.9739999771118164,
+          2.6470820903778076
+        ]
+      ],
+      "lagoon_downward_rays": [
+        [
+          0.0,
+          0.11999999731779099,
+          2.1050000190734863
+        ],
+        [
+          0.15000000596046448,
+          0.11999999731779099,
+          2.1050000190734863
+        ],
+        [
+          -0.15000000596046448,
+          0.11999999731779099,
+          2.1050000190734863
+        ],
+        [
+          0.0,
+          0.2199999988079071,
+          2.1050000190734863
+        ],
+        [
+          0.0,
+          0.019999999552965164,
+          2.1050000190734863
+        ]
+      ],
+      "inherited_pivots_unchanged": true
+    },
+    "fresh_runtime_execution": false
+  }
+]

@@ -1,0 +1,301 @@
+[
+  {
+    "source": {
+      "commit": "b6fe2e1cc3341376d44c82818b6e827fdac5e978",
+      "path": "preview/maldives-v1/browser-check.json",
+      "bytes": 2075,
+      "sha256": "bcfcdd974402ced1e5fb0b741a596e8f4d5de6d246b59a4a564284501487e727"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 15656,
+          "meshes": 60,
+          "materials": 6,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.161999896168709,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1102092,
+          "open_projection_max_abs_ndc": 0.9269909588669886
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 15656,
+          "meshes": 60,
+          "materials": 6,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.161999896168709,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1102092,
+          "open_projection_max_abs_ndc": 0.926990958866989
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "b6fe2e1cc3341376d44c82818b6e827fdac5e978",
+      "path": "preview/maldives-v1/delivery-check.json",
+      "bytes": 511,
+      "sha256": "3e4e59c2498da7cbdaf81a45579d4f99f6a450ea28eef53fb8d09b21228b71b6"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "html_bytes": 2245553,
+      "glb_bytes": 1102092,
+      "inventory_entries": 56,
+      "zip_entries": 57,
+      "zip_bytes": 5038355,
+      "zip_sha256": "452f69f7b4d23cd01aa1b0c0701cd407ba72b2fcca1bc6dfb5bb171cbb881105",
+      "required_artifacts_present": true,
+      "archive_exact_readback": true,
+      "checks_passed": [
+        "source",
+        "81-pose collision",
+        "hinge attachment",
+        "parity",
+        "theme",
+        "motion",
+        "desktop/mobile browser",
+        "extended",
+        "delivery"
+      ]
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "b6fe2e1cc3341376d44c82818b6e827fdac5e978",
+      "path": "preview/maldives-v1/extended-check.json",
+      "bytes": 408,
+      "sha256": "1d4817c49992a86ad741fea860245effc367c3e524bfda480e83c4593a80a861"
+    },
+    "reported_result": {
+      "poster_pixels": "PASS",
+      "maps": [
+        {
+          "slot": "map",
+          "width": 256,
+          "height": 256,
+          "range": 48
+        },
+        {
+          "slot": "roughnessMap",
+          "width": 256,
+          "height": 256,
+          "range": 48
+        },
+        {
+          "slot": "normalMap",
+          "width": 256,
+          "height": 256,
+          "range": 28
+        }
+      ],
+      "noJS_poster": "PASS",
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "b6fe2e1cc3341376d44c82818b6e827fdac5e978",
+      "path": "preview/maldives-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "b6fe2e1cc3341376d44c82818b6e827fdac5e978",
+      "path": "preview/maldives-v1/parity-check.json",
+      "bytes": 309,
+      "sha256": "4310a45618f511ac65633e614e2abd025e83ac4594b3aa902d5b716083835855"
+    },
+    "reported_result": {
+      "source_vertices": 7983,
+      "imported_vertices": 24587,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "sand-color.png",
+        "sand-normal.png",
+        "sand-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "b6fe2e1cc3341376d44c82818b6e827fdac5e978",
+      "path": "preview/maldives-v1/source-check.json",
+      "bytes": 393,
+      "sha256": "07862d0a4129162908a1a6cec34a6f43993d0cb20b2892520dbd99c14a86bb86"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 21,
+      "static_meshes": 39,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 67
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "b6fe2e1cc3341376d44c82818b6e827fdac5e978",
+      "path": "preview/maldives-v1/theme-check.json",
+      "bytes": 757,
+      "sha256": "986386cb42a4b6b5d283d48ce091e280e250759894dee1be9a6e7b106e4b432d"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "lid_owned_ornaments": 5,
+      "cays": 3,
+      "upward_reef_top_faces": 80,
+      "probes": [
+        {
+          "x": 0,
+          "y": 0,
+          "object": "Lagoon / inset",
+          "z": 2.009999990463257
+        },
+        {
+          "x": 0,
+          "y": 0.68,
+          "object": "Faro / raised sand reef",
+          "z": 2.070589780807495
+        },
+        {
+          "x": 1.2,
+          "y": 0,
+          "object": "Lid / polished slab",
+          "z": 1.9779999256134033
+        },
+        {
+          "x": 1.58,
+          "y": 0,
+          "object": "Lid / polished slab",
+          "z": 1.9779998064041138
+        }
+      ],
+      "detached_ornament_negative_control": "PASS: rejected",
+      "base_pivots_equal": true,
+      "ornament_z_range": [
+        1.9789999723434448,
+        2.1619999408721924
+      ]
+    },
+    "fresh_runtime_execution": false
+  }
+]

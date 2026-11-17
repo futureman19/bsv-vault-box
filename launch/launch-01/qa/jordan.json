@@ -1,0 +1,356 @@
+[
+  {
+    "source": {
+      "commit": "08c0718ecc9a4c212859041604b93ee9c4ca4eac",
+      "path": "preview/jordan-v1/acceptance-check.json",
+      "bytes": 534,
+      "sha256": "89897b12f4e548fa3f641526445ab86a854a4369dbcd7ef7361c671da41658af"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "checks_passed": [
+        "source-reopen",
+        "hollow-interior",
+        "hinge-attachment",
+        "81-pose-motion-collisions",
+        "source-export-parity",
+        "theme-source-and-negative-control",
+        "runtime-maps-and-parentage",
+        "desktop-file-offline",
+        "mobile-touch-file-offline",
+        "reduced-motion",
+        "corrupt-GLB-fallback",
+        "no-JS-fallback",
+        "motion-unit-tests",
+        "embedded-payload-parity",
+        "html-byte-budget"
+      ],
+      "html_bytes": 2689165,
+      "glb_bytes": 1461768
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "08c0718ecc9a4c212859041604b93ee9c4ca4eac",
+      "path": "preview/jordan-v1/browser-check.json",
+      "bytes": 2047,
+      "sha256": "a92e02018d323d21bc943a6003ccf949c047e62347ed10619d5ddfb2b9f74cd9"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 17092,
+          "meshes": 60,
+          "materials": 6,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.25,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.7326807975769043,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1461768,
+          "open_projection_max_abs_ndc": 0.8923646516630201
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 17092,
+          "meshes": 60,
+          "materials": 6,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.25,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.7326807975769043,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1461768,
+          "open_projection_max_abs_ndc": 0.892364651663021
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "08c0718ecc9a4c212859041604b93ee9c4ca4eac",
+      "path": "preview/jordan-v1/delivery-check.json",
+      "bytes": 1147,
+      "sha256": "22ba1da6f8c65ff3245612b3f0d90f8321701486d418c1e3a75716a05d37f62b"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "HTML_BYTES": 2689165,
+      "GLB_BYTES": 1461768,
+      "ZIP_BYTES": 7434973,
+      "html_sha256": "a1ca5fd2b1c0957bc17a09d94993542e03a862d6c9ecdb0f307d8ba48d0352c5",
+      "glb_sha256": "576160d186bd883966cf24a224458cc7304bc2752560591287e175569aba4f84",
+      "zip_sha256": "1ae20e68830385dd5917e187d89ce571a3115ee3dd6c51bfbf5652c1adbe1bb5",
+      "inventory_sha256": "5428324cce8d9762608892543c2159f582ef42fc32a232060c8338da27453a61",
+      "inventory_files": 56,
+      "zip_entries": 57,
+      "explicit_required_set_verified": true,
+      "archive_readback_verified": true,
+      "embedded_model_and_poster_match": true,
+      "checks_passed": [
+        "source-reopen",
+        "hollow-interior",
+        "hinge-attachment",
+        "81-pose-motion-collisions",
+        "source-export-parity",
+        "theme-source-and-negative-control",
+        "runtime-maps-and-parentage",
+        "desktop-file-offline",
+        "mobile-touch-file-offline",
+        "reduced-motion",
+        "corrupt-GLB-fallback",
+        "no-JS-fallback",
+        "motion-unit-tests",
+        "embedded-payload-parity",
+        "html-byte-budget",
+        "required-artifact-inventory",
+        "sha256-archive-readback"
+      ]
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "08c0718ecc9a4c212859041604b93ee9c4ca4eac",
+      "path": "preview/jordan-v1/extended-check.json",
+      "bytes": 1039,
+      "sha256": "9f22d7ab97bbaee01813377ce75712e536b5dce7b382e8eeb6a3f895cfc413d3"
+    },
+    "reported_result": {
+      "terrain": [
+        "Terrain__east_fluted_massif",
+        "Terrain__open_sandstone_arch",
+        "Terrain__sandy_inset",
+        "Terrain__siq_shadow_inlay",
+        "Terrain__west_fluted_massif"
+      ],
+      "wrong": [],
+      "maps": [
+        {
+          "material": "Lid / satin dark rose sandstone",
+          "slot": "map",
+          "width": 512,
+          "height": 256,
+          "range": 49,
+          "mean": [
+            111.93732452392578,
+            54.76776885986328,
+            33.66278839111328
+          ]
+        },
+        {
+          "material": "Sandstone / rose and ochre",
+          "slot": "map",
+          "width": 512,
+          "height": 256,
+          "range": 73,
+          "mean": [
+            167.31976318359375,
+            90.10169982910156,
+            58.400177001953125
+          ]
+        },
+        {
+          "material": "Sandstone / rose and ochre",
+          "slot": "roughnessMap",
+          "width": 512,
+          "height": 256,
+          "range": 49,
+          "mean": [
+            255,
+            180.48737335205078,
+            255
+          ]
+        }
+      ],
+      "noJS_poster": true,
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "08c0718ecc9a4c212859041604b93ee9c4ca4eac",
+      "path": "preview/jordan-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "08c0718ecc9a4c212859041604b93ee9c4ca4eac",
+      "path": "preview/jordan-v1/parity-check.json",
+      "bytes": 317,
+      "sha256": "c64b7d5ca35d21ceb5a3f7f56d11ccb0e7e05dff332ba4548956705d968df941"
+    },
+    "reported_result": {
+      "source_vertices": 8694,
+      "imported_vertices": 30170,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "lid-color.png",
+        "sandstone-color.png",
+        "sandstone-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "08c0718ecc9a4c212859041604b93ee9c4ca4eac",
+      "path": "preview/jordan-v1/source-check.json",
+      "bytes": 393,
+      "sha256": "07862d0a4129162908a1a6cec34a6f43993d0cb20b2892520dbd99c14a86bb86"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 21,
+      "static_meshes": 39,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 67
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "08c0718ecc9a4c212859041604b93ee9c4ca4eac",
+      "path": "preview/jordan-v1/theme-source-check.json",
+      "bytes": 558,
+      "sha256": "a2737df7fcbfc12507dda3084b15098eb7e5db883600aab64570ca2fe5c07230"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "terrain_meshes": 5,
+      "all_terrain_lid_children": true,
+      "arch_aperture_ray_miss": true,
+      "arch_crown_ray_hit": [
+        0.9200000166893005,
+        -0.6200000047683716,
+        2.359999895095825
+      ],
+      "massif_gap_x": 0.20512156933546066,
+      "terrain_bounds": true,
+      "arch_clear_of_massifs": true,
+      "negative_control_detached_terrain_rejected": true,
+      "lid_pivot": [
+        0.0,
+        1.3200000524520874,
+        1.6679999828338623
+      ],
+      "latch_pivot_local": [
+        0.0,
+        -2.6100001335144043,
+        0.2200000286102295
+      ]
+    },
+    "fresh_runtime_execution": false
+  }
+]

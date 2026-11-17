@@ -1,0 +1,289 @@
+[
+  {
+    "source": {
+      "commit": "8ab535cde9da94db88cc70fbe63451015568bbb2",
+      "path": "preview/slovakia-v1/browser-check.json",
+      "bytes": 2080,
+      "sha256": "296d681dcef01630f049859f6abbe17410c0419d1a3f7b9095661b5e40168949"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 21244,
+          "meshes": 295,
+          "materials": 6,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8684999626129866,
+              2.0325001142919064,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 2485936,
+          "open_projection_max_abs_ndc": 0.8923646516630201
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 21244,
+          "meshes": 295,
+          "materials": 6,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8684999626129866,
+              2.0325001142919064,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 2485936,
+          "open_projection_max_abs_ndc": 0.8923646516630207
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "8ab535cde9da94db88cc70fbe63451015568bbb2",
+      "path": "preview/slovakia-v1/delivery-check.json",
+      "bytes": 257,
+      "sha256": "0630af5f2800dedf86052695572504988a276459f932af3209cf6f0b6e7231d6"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "html_bytes": 4138711,
+      "glb_bytes": 2485936,
+      "zip_bytes": 8063709,
+      "zip_sha256": "4936e2d666ba7cb817c38727a2090f1a838bb953e5b0cdb690860a85eab12073",
+      "files": 54,
+      "required_artifacts": true,
+      "zip_readback": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "8ab535cde9da94db88cc70fbe63451015568bbb2",
+      "path": "preview/slovakia-v1/extended-check.json",
+      "bytes": 768,
+      "sha256": "18e76a8ed24427100f0e27a2d603c96d2c508eceae194ba52c14cb9cdd63c68c"
+    },
+    "reported_result": {
+      "relief": 60,
+      "wrong": [],
+      "maps": [
+        {
+          "slot": "map",
+          "channel": 0,
+          "width": 512,
+          "height": 512,
+          "range": 27
+        },
+        {
+          "slot": "map",
+          "channel": 0,
+          "width": 256,
+          "height": 256,
+          "range": 151
+        },
+        {
+          "slot": "map",
+          "channel": 0,
+          "width": 512,
+          "height": 512,
+          "range": 35
+        },
+        {
+          "slot": "roughnessMap",
+          "channel": 1,
+          "width": 512,
+          "height": 512,
+          "range": 70
+        },
+        {
+          "slot": "normalMap",
+          "channel": 1,
+          "width": 512,
+          "height": 512,
+          "range": 12
+        }
+      ],
+      "status": "PASS",
+      "no_js_poster": true,
+      "poster_pixels": true,
+      "identity_copy": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "8ab535cde9da94db88cc70fbe63451015568bbb2",
+      "path": "preview/slovakia-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "8ab535cde9da94db88cc70fbe63451015568bbb2",
+      "path": "preview/slovakia-v1/parity-check.json",
+      "bytes": 359,
+      "sha256": "38e2a8d67e974730d7869559a309f06772b3242abb320571cce350ada4b2352f"
+    },
+    "reported_result": {
+      "source_vertices": 11208,
+      "imported_vertices": 39183,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "granite.png",
+        "timber-color.png",
+        "timber-end.png",
+        "timber-normal.png",
+        "timber-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "8ab535cde9da94db88cc70fbe63451015568bbb2",
+      "path": "preview/slovakia-v1/source-check.json",
+      "bytes": 395,
+      "sha256": "a70239878b244b1a0cca857fa56bd315f115984e347ff7ff26e114414557a5d7"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 88,
+      "static_meshes": 207,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 302
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "8ab535cde9da94db88cc70fbe63451015568bbb2",
+      "path": "preview/slovakia-v1/theme-check.json",
+      "bytes": 374,
+      "sha256": "9cf6ceedafd065fa9995c6278b0e587ab74eb1b44f5e94028644489878201bb9"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "pivot_parity": "exact within 1e-7",
+      "relief_strokes": 60,
+      "diamond_repeats": 15,
+      "facade_strokes": 108,
+      "relief_seated": true,
+      "negative_control": "PASS: detached relief rejected",
+      "packed_images": [
+        "granite.png",
+        "timber-color.png",
+        "timber-end.png",
+        "timber-normal.png",
+        "timber-roughness.png"
+      ]
+    },
+    "fresh_runtime_execution": false
+  }
+]

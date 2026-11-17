@@ -1,0 +1,476 @@
+[
+  {
+    "source": {
+      "commit": "c7237fea4bdde2d6758e70f428b76a4258f62399",
+      "path": "preview/southern-ocean-v1/browser-check.json",
+      "bytes": 2073,
+      "sha256": "9610c7a9b4a15a41f99048a38f245e294c42a48a23c4328a9b46107013147125"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 10124,
+          "meshes": 71,
+          "materials": 6,
+          "bounds": {
+            "min": [
+              -1.8600000143051147,
+              -0.2149999961256981,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.4140000343322754,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 976760,
+          "open_projection_max_abs_ndc": 0.89236465166302
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 10124,
+          "meshes": 71,
+          "materials": 6,
+          "bounds": {
+            "min": [
+              -1.8600000143051147,
+              -0.2149999961256981,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.4140000343322754,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 976760,
+          "open_projection_max_abs_ndc": 0.892364651663021
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "c7237fea4bdde2d6758e70f428b76a4258f62399",
+      "path": "preview/southern-ocean-v1/delivery-check.json",
+      "bytes": 495,
+      "sha256": "45ae13327f7ac2b37163ae45bced4477aaee578100b703ef4d501d673a06083c"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "html_bytes": 2119402,
+      "glb_bytes": 976760,
+      "inventory_entries": 55,
+      "required_artifacts_present": true,
+      "zip_membership_exact": true,
+      "zip_hashes_match": true,
+      "extracted_html_offline_open_reset": true,
+      "external_requests": [],
+      "errors": [],
+      "zip_bytes": 5577602,
+      "zip_sha256": "9b1599a18facfe385ab028ab76f5d5d12b21f291d43f6aae9b8264e301f680c8",
+      "inventory_sha256": "78187d4590f3de3b08259a685b8c4c37041904604ba4518faade91a187a717ec"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "c7237fea4bdde2d6758e70f428b76a4258f62399",
+      "path": "preview/southern-ocean-v1/extended-check.json",
+      "bytes": 3063,
+      "sha256": "dc778a624e9cd83750c4b73f623d8973f52622af061aff3a570d831a7b277387"
+    },
+    "reported_result": {
+      "poster_nonblack": true,
+      "poster_nontransparent": true,
+      "runtime": {
+        "maps": [
+          {
+            "kind": "color",
+            "width": 512,
+            "height": 384,
+            "range": 26,
+            "means": [
+              20.360707600912438,
+              62.340438842772514,
+              80.29503885904624
+            ]
+          },
+          {
+            "kind": "roughness",
+            "width": 512,
+            "height": 384,
+            "range": 40,
+            "means": [
+              255,
+              114.58957417806175,
+              255
+            ]
+          },
+          {
+            "kind": "normal",
+            "width": 512,
+            "height": 384,
+            "range": 15,
+            "means": [
+              127.56448364263017,
+              127.5612080892221,
+              255
+            ]
+          }
+        ],
+        "parts": [
+          {
+            "name": "Pack_floe__0",
+            "lid": true
+          },
+          {
+            "name": "Pack_floe__0_1",
+            "lid": true
+          },
+          {
+            "name": "Pack_floe__0_2",
+            "lid": true
+          },
+          {
+            "name": "Pack_floe__1",
+            "lid": true
+          },
+          {
+            "name": "Pack_floe__1_1",
+            "lid": true
+          },
+          {
+            "name": "Pack_floe__1_2",
+            "lid": true
+          },
+          {
+            "name": "Pack_floe__2",
+            "lid": true
+          },
+          {
+            "name": "Pack_floe__2_1",
+            "lid": true
+          },
+          {
+            "name": "Pack_floe__2_2",
+            "lid": true
+          },
+          {
+            "name": "Pack_floe__3",
+            "lid": true
+          },
+          {
+            "name": "Pack_floe__3_1",
+            "lid": true
+          },
+          {
+            "name": "Pack_floe__3_2",
+            "lid": true
+          },
+          {
+            "name": "Pack_floe__4",
+            "lid": true
+          },
+          {
+            "name": "Pack_floe__4_1",
+            "lid": true
+          },
+          {
+            "name": "Pack_floe__4_2",
+            "lid": true
+          },
+          {
+            "name": "Pack_floe__5",
+            "lid": true
+          },
+          {
+            "name": "Pack_floe__5_1",
+            "lid": true
+          },
+          {
+            "name": "Pack_floe__5_2",
+            "lid": true
+          },
+          {
+            "name": "Pack_floe__6",
+            "lid": true
+          },
+          {
+            "name": "Pack_floe__6_1",
+            "lid": true
+          },
+          {
+            "name": "Pack_floe__6_2",
+            "lid": true
+          },
+          {
+            "name": "Pack_floe__7",
+            "lid": true
+          },
+          {
+            "name": "Pack_floe__7_1",
+            "lid": true
+          },
+          {
+            "name": "Pack_floe__7_2",
+            "lid": true
+          },
+          {
+            "name": "Pack_floe__8",
+            "lid": true
+          },
+          {
+            "name": "Pack_floe__8_1",
+            "lid": true
+          },
+          {
+            "name": "Pack_floe__8_2",
+            "lid": true
+          },
+          {
+            "name": "Tabular_iceberg",
+            "lid": true
+          },
+          {
+            "name": "Tabular_iceberg_1",
+            "lid": true
+          },
+          {
+            "name": "Tabular_iceberg_2",
+            "lid": true
+          }
+        ]
+      },
+      "noJS_poster": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "c7237fea4bdde2d6758e70f428b76a4258f62399",
+      "path": "preview/southern-ocean-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "c7237fea4bdde2d6758e70f428b76a4258f62399",
+      "path": "preview/southern-ocean-v1/parity-check.json",
+      "bytes": 312,
+      "sha256": "bd25ebd079527303d7ae14618381238e52f60a2c494fa7a16b6d165d2c99f661"
+    },
+    "reported_result": {
+      "source_vertices": 5184,
+      "imported_vertices": 17115,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "ocean-color.png",
+        "ocean-normal.png",
+        "ocean-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "c7237fea4bdde2d6758e70f428b76a4258f62399",
+      "path": "preview/southern-ocean-v1/source-check.json",
+      "bytes": 393,
+      "sha256": "f11c153ca0f1223320db69ca1e9cb1b63a157e7354fc71619d2908f4e2685b3a"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 26,
+      "static_meshes": 35,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 68
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "c7237fea4bdde2d6758e70f428b76a4258f62399",
+      "path": "preview/southern-ocean-v1/theme-check.json",
+      "bytes": 1761,
+      "sha256": "f06ab83ecd630bafe739b6e10cf9795dbe2cd99ab89ee9767c7e64aca72acf2a"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "floe_count": 9,
+      "tabular_berg_count": 1,
+      "level_plateaus": true,
+      "rooted_on_lid": true,
+      "separated_xy_bounds": [
+        [
+          "Pack floe / 0",
+          -1.4154549837112427,
+          -0.9094709157943726,
+          -0.8768923878669739,
+          -0.49773189425468445
+        ],
+        [
+          "Pack floe / 1",
+          -0.7670050859451294,
+          -0.18383263051509857,
+          -0.8423222303390503,
+          -0.49442803859710693
+        ],
+        [
+          "Pack floe / 2",
+          0.0028010334353893995,
+          0.5115437507629395,
+          -0.8720740079879761,
+          -0.45199695229530334
+        ],
+        [
+          "Pack floe / 3",
+          0.6652354598045349,
+          1.2912615537643433,
+          -0.7744613289833069,
+          -0.3885078728199005
+        ],
+        [
+          "Pack floe / 4",
+          -1.3818641901016235,
+          -0.9439437985420227,
+          -0.2695850133895874,
+          0.1948518007993698
+        ],
+        [
+          "Pack floe / 5",
+          -0.761772096157074,
+          -0.317780464887619,
+          -0.19300447404384613,
+          0.2328588366508484
+        ],
+        [
+          "Pack floe / 6",
+          -1.333922266960144,
+          -0.6654033064842224,
+          0.3961412310600281,
+          0.8334384560585022
+        ],
+        [
+          "Pack floe / 7",
+          -0.38463813066482544,
+          -0.0637340173125267,
+          0.4709565341472626,
+          0.8908363580703735
+        ],
+        [
+          "Pack floe / 8",
+          1.188387155532837,
+          1.5334306955337524,
+          0.2176896631717682,
+          0.7223196625709534
+        ],
+        [
+          "Tabular iceberg",
+          0.01888897828757763,
+          1.0935852527618408,
+          0.14405491948127747,
+          0.8333508968353271
+        ]
+      ],
+      "baseline_pivots_identical": true,
+      "detached_negative_control_rejected": "('detached', 'Pack floe / 0')"
+    },
+    "fresh_runtime_execution": false
+  }
+]

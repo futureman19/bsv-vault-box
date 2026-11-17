@@ -1,0 +1,378 @@
+[
+  {
+    "source": {
+      "commit": "91c6adb6965b19cbc1970c050e6d92a955626ae4",
+      "path": "preview/togo-v1/browser-check.json",
+      "bytes": 2078,
+      "sha256": "afa5b5111b8f67b096e02b68d07126e001c6a7b65285c625e75c90b25c9b1572"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 21452,
+          "meshes": 67,
+          "materials": 5,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              3.0999999046325684,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1411136,
+          "open_projection_max_abs_ndc": 0.9129709412858644
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 21452,
+          "meshes": 67,
+          "materials": 5,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              3.0999999046325684,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1411136,
+          "open_projection_max_abs_ndc": 0.9129709412858658
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "91c6adb6965b19cbc1970c050e6d92a955626ae4",
+      "path": "preview/togo-v1/delivery-check.json",
+      "bytes": 597,
+      "sha256": "56751e074af836108d5164fe3383966fe75fc4ec0416b9ff03861cc15b4b5964"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "HTML_BYTES": 2643365,
+      "GLB_BYTES": 1411136,
+      "ZIP_BYTES": 5493932,
+      "ZIP_entries": 52,
+      "zip_sha256": "74bb5b5907e3cb9784721cf904103958f957acf7922ea14168a695ed48ccdb50",
+      "archive_readback_verified": true,
+      "explicit_required_artifacts_verified": [
+        "README.md",
+        "browser-check.json",
+        "design-brief.md",
+        "extended-check.json",
+        "mechanism.blend",
+        "parity-check.json",
+        "poster.png",
+        "source-check.json",
+        "theme-check.json",
+        "togo-v1.html",
+        "togo.blend",
+        "togo.glb"
+      ],
+      "poster_nonblank": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "91c6adb6965b19cbc1970c050e6d92a955626ae4",
+      "path": "preview/togo-v1/extended-check.json",
+      "bytes": 1316,
+      "sha256": "bb325fa705183f18a8d39f67574117cc9229139b51aca186e0006e17dd07af37"
+    },
+    "reported_result": {
+      "ornaments": [
+        {
+          "name": "Compound__granary",
+          "lid": true
+        },
+        {
+          "name": "Compound__granary001",
+          "lid": true
+        },
+        {
+          "name": "Compound__linking_wall_X",
+          "lid": true
+        },
+        {
+          "name": "Compound__linking_wall_X001",
+          "lid": true
+        },
+        {
+          "name": "Compound__linking_wall_Y",
+          "lid": true
+        },
+        {
+          "name": "Compound__linking_wall_Y001",
+          "lid": true
+        },
+        {
+          "name": "Compound__thatch_cap",
+          "lid": true
+        },
+        {
+          "name": "Compound__thatch_cap001",
+          "lid": true
+        },
+        {
+          "name": "Compound__tower",
+          "lid": true
+        },
+        {
+          "name": "Compound__tower001",
+          "lid": true
+        },
+        {
+          "name": "Compound__tower002",
+          "lid": true
+        },
+        {
+          "name": "Compound__tower003",
+          "lid": true
+        }
+      ],
+      "maps": [
+        {
+          "key": "map",
+          "width": 512,
+          "height": 256,
+          "range": 73
+        },
+        {
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 256,
+          "range": 74
+        },
+        {
+          "key": "map",
+          "width": 128,
+          "height": 128,
+          "range": 137
+        }
+      ],
+      "status": "PASS",
+      "no_js_poster": true,
+      "copy_and_accessibility": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "91c6adb6965b19cbc1970c050e6d92a955626ae4",
+      "path": "preview/togo-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "91c6adb6965b19cbc1970c050e6d92a955626ae4",
+      "path": "preview/togo-v1/parity-check.json",
+      "bytes": 306,
+      "sha256": "035bc0a3cb3d928f073e840c9ef0f04190180bb46f6318fb158dfe20672cadca"
+    },
+    "reported_result": {
+      "source_vertices": 10856,
+      "imported_vertices": 28953,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "earth-color.png",
+        "earth-roughness.png",
+        "stone.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "91c6adb6965b19cbc1970c050e6d92a955626ae4",
+      "path": "preview/togo-v1/source-check.json",
+      "bytes": 393,
+      "sha256": "5d989b3a43a29bda33798760769fb0b2a05e6559c48a6df63be1487b563570d8"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 28,
+      "static_meshes": 39,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 74
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "91c6adb6965b19cbc1970c050e6d92a955626ae4",
+      "path": "preview/togo-v1/theme-check.json",
+      "bytes": 1487,
+      "sha256": "96fc384dd87e379e12b6ddb428c606d623e8012bae19a45f95f6c0d0e36cb7c2"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "towers": 4,
+      "caps": 2,
+      "lid_owned_ornaments": 12,
+      "bounds": {
+        "Compound / granary": [
+          2.569999933242798,
+          2.8299999237060547
+        ],
+        "Compound / granary.001": [
+          2.569999933242798,
+          2.8299999237060547
+        ],
+        "Compound / linking wall X": [
+          1.9780000448226929,
+          2.3420000076293945
+        ],
+        "Compound / linking wall X.001": [
+          1.9780000448226929,
+          2.3420000076293945
+        ],
+        "Compound / linking wall Y": [
+          1.9780000448226929,
+          2.3420000076293945
+        ],
+        "Compound / linking wall Y.001": [
+          1.9780000448226929,
+          2.3420000076293945
+        ],
+        "Compound / thatch cap": [
+          2.809999942779541,
+          3.0999999046325684
+        ],
+        "Compound / thatch cap.001": [
+          2.809999942779541,
+          3.0999999046325684
+        ],
+        "Compound / tower": [
+          1.9780000448226929,
+          2.4800000190734863
+        ],
+        "Compound / tower.001": [
+          1.9780000448226929,
+          2.5799999237060547
+        ],
+        "Compound / tower.002": [
+          1.9780000448226929,
+          2.4800000190734863
+        ],
+        "Compound / tower.003": [
+          1.9780000448226929,
+          2.5799999237060547
+        ]
+      },
+      "open_court_ray": "Lid / polished slab",
+      "court_z": 1.9779999256134033,
+      "negative_control": {
+        "detached_tower": "FAIL as intended",
+        "reason": "detached ornament"
+      },
+      "scope": "stylized miniature, no ethnographic accuracy claim"
+    },
+    "fresh_runtime_execution": false
+  }
+]

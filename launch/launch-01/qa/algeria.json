@@ -1,0 +1,376 @@
+[
+  {
+    "source": {
+      "commit": "73f3b2addf4ff5361dc309d333cc28afbeb29045",
+      "path": "preview/algeria-v1/browser-check.json",
+      "bytes": 2078,
+      "sha256": "554afc16862c582f7dc66a83d8adb56c558d7503e419972bea8015c307dd4c7e"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 26500,
+          "meshes": 114,
+          "materials": 4,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.26500000059604645,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8996961116790771,
+              2.789477825164795,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 2032836,
+          "open_projection_max_abs_ndc": 0.8923646516630206
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 26500,
+          "meshes": 114,
+          "materials": 4,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.26500000059604645,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8996961116790771,
+              2.789477825164795,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 2032836,
+          "open_projection_max_abs_ndc": 0.8923646516630198
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "73f3b2addf4ff5361dc309d333cc28afbeb29045",
+      "path": "preview/algeria-v1/delivery-check.json",
+      "bytes": 751,
+      "sha256": "48b077278926e1e89b970090b3237a549c49471fe70cdb1f0656d2b8a471787a"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "HTML_BYTES": 3434966,
+      "GLB_BYTES": 2032836,
+      "ZIP_BYTES": 8843093,
+      "zip_sha256": "8e7fc129af07a0f6cfc58349e23778c57a165a6d30f2b22c66b3fb51e0559015",
+      "inventory_sha256": "49cf70399ca8c21887e76d7784a2369767f28108cfd4ac9f8ab8634f1003e46c",
+      "archive_entries": 50,
+      "required_artifacts_present": true,
+      "archive_readback_verified": true,
+      "embedded_payload_current": true,
+      "checks_passed": [
+        "source",
+        "motion-81-poses",
+        "hinge-attachments",
+        "source-export-parity",
+        "desktop-offline",
+        "mobile-offline",
+        "corrupt-GLB-fallback",
+        "no-JS-fallback",
+        "theme",
+        "missing-tower-negative-control",
+        "payload-budget",
+        "inventory-and-archive-readback"
+      ]
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "73f3b2addf4ff5361dc309d333cc28afbeb29045",
+      "path": "preview/algeria-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "73f3b2addf4ff5361dc309d333cc28afbeb29045",
+      "path": "preview/algeria-v1/parity-check.json",
+      "bytes": 319,
+      "sha256": "060d574f72524ff3692d87f26ac5e52a01861ea24c80ae3cafac93de6eb0e922"
+    },
+    "reported_result": {
+      "source_vertices": 13474,
+      "imported_vertices": 34969,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "dark-stone.png",
+        "sandstone-color.png",
+        "sandstone-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "73f3b2addf4ff5361dc309d333cc28afbeb29045",
+      "path": "preview/algeria-v1/source-check.json",
+      "bytes": 394,
+      "sha256": "8c5d5a4aff1ff9db0ea600826721d9b181c698aba7f4235cab374c04ad32cc9e"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 24,
+      "static_meshes": 90,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 121
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "73f3b2addf4ff5361dc309d333cc28afbeb29045",
+      "path": "preview/algeria-v1/theme-check.json",
+      "bytes": 3276,
+      "sha256": "4e17e680fc1594c1eae207b39c01857113e36924a3eba7b89c3d95498dc6d391"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "features": {
+        "towers": [
+          {
+            "name": "Tassili__tower_00",
+            "min": [
+              -1.2301684617996216,
+              2.015000104904175,
+              -0.462941974401474
+            ],
+            "max": [
+              -0.8315446972846985,
+              2.541625738143921,
+              -0.13024093210697174
+            ]
+          },
+          {
+            "name": "Tassili__tower_01",
+            "min": [
+              -0.7857116460800171,
+              2.015000104904175,
+              -0.6381006240844727
+            ],
+            "max": [
+              -0.429976224899292,
+              2.710466146469116,
+              -0.3300473988056183
+            ]
+          },
+          {
+            "name": "Tassili__tower_02",
+            "min": [
+              -0.29855260252952576,
+              2.015000104904175,
+              -0.6527078151702881
+            ],
+            "max": [
+              0.026314275339245796,
+              2.5177347660064697,
+              -0.36112773418426514
+            ]
+          },
+          {
+            "name": "Tassili__tower_03",
+            "min": [
+              0.15135632455348969,
+              2.015000104904175,
+              -0.6913781762123108
+            ],
+            "max": [
+              0.5968942046165466,
+              2.789477825164795,
+              -0.29684364795684814
+            ]
+          },
+          {
+            "name": "Tassili__tower_04",
+            "min": [
+              0.7108268737792969,
+              2.015000104904175,
+              -0.6104754209518433
+            ],
+            "max": [
+              1.139591097831726,
+              2.678772211074829,
+              -0.21776002645492554
+            ]
+          },
+          {
+            "name": "Tassili__tower_05",
+            "min": [
+              -0.7130571007728577,
+              2.015000104904175,
+              -0.04720619320869446
+            ],
+            "max": [
+              -0.3298029899597168,
+              2.358555555343628,
+              0.3300020098686218
+            ]
+          },
+          {
+            "name": "Tassili__tower_06",
+            "min": [
+              0.065191850066185,
+              2.015000104904175,
+              -0.01327888760715723
+            ],
+            "max": [
+              0.5412371754646301,
+              2.4373414516448975,
+              0.36345601081848145
+            ]
+          }
+        ],
+        "aprons": 1,
+        "flutes": 51,
+        "maps": [
+          {
+            "material": "Sandstone / desert ochre",
+            "slot": "map",
+            "width": 512,
+            "height": 512,
+            "range": 70,
+            "mean": [
+              182.4957733154297,
+              124.49636840820312,
+              66.49836730957031
+            ]
+          },
+          {
+            "material": "Sandstone / desert ochre",
+            "slot": "roughnessMap",
+            "width": 512,
+            "height": 512,
+            "range": 39,
+            "mean": [
+              255,
+              197.49789810180664,
+              255
+            ]
+          },
+          {
+            "material": "Sandstone / dark satin lid",
+            "slot": "map",
+            "width": 512,
+            "height": 512,
+            "range": 44,
+            "mean": [
+              92.49731826782227,
+              64.49789810180664,
+              38.49871063232422
+            ]
+          }
+        ],
+        "wrong": [],
+        "obsolete": []
+      },
+      "missing_tower_negative_control_rejected": true,
+      "noJS_poster": true,
+      "note": "Negative control after implementation, not test-first TDD; mobile is emulated."
+    },
+    "fresh_runtime_execution": false
+  }
+]

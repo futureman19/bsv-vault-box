@@ -1,0 +1,263 @@
+[
+  {
+    "source": {
+      "commit": "6ca85f0fe840db4a0b434573486c9c99c4d0c71b",
+      "path": "preview/nicaragua-v1/browser-check.json",
+      "bytes": 2078,
+      "sha256": "efeb9abbfcc8e07855f48006e9f9d041b60b9864a660e3de1ebcb66904217ff0"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 15436,
+          "meshes": 61,
+          "materials": 6,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.7019975185394287,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1075524,
+          "open_projection_max_abs_ndc": 0.9375376955152475
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 15436,
+          "meshes": 61,
+          "materials": 6,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.7019975185394287,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1075524,
+          "open_projection_max_abs_ndc": 0.9375376955152472
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "6ca85f0fe840db4a0b434573486c9c99c4d0c71b",
+      "path": "preview/nicaragua-v1/delivery-check.json",
+      "bytes": 378,
+      "sha256": "0afa76594a1d26efeac26a8377d8b01a51f987b32aaece0167f890d854b7ef20"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "html_bytes": 2200901,
+      "glb_bytes": 1075524,
+      "inventory_files": 45,
+      "required_artifacts_present": true,
+      "archive_readback": true,
+      "archive_bytes": 4850209,
+      "archive_sha256": "e6ad99b1f7fb3d698c5019f36a1e7646d2c5b95cfa5f6f3851d2a3859a0f459f",
+      "inventory_sha256": "1c92c299c45d2a3a331ce61c4bcef09169029938e709efc5521884270ed22878"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "6ca85f0fe840db4a0b434573486c9c99c4d0c71b",
+      "path": "preview/nicaragua-v1/extended-check.json",
+      "bytes": 579,
+      "sha256": "d2331d6127511fc826ea18ebda38b51507a109089a5b3e78473e55c9f19f6c2f"
+    },
+    "reported_result": {
+      "maps": [
+        {
+          "id": "4f0a8e28-fef3-4024-bfe6-e223251b92ff",
+          "key": "map",
+          "width": 256,
+          "height": 256,
+          "range": 68
+        },
+        {
+          "id": "8fb49b44-a169-489d-a12f-b58e5f32f1be",
+          "key": "roughnessMap",
+          "width": 256,
+          "height": 256,
+          "range": 99
+        },
+        {
+          "id": "594c9986-d991-4b4d-a076-ab612645ffe7",
+          "key": "map",
+          "width": 256,
+          "height": 256,
+          "range": 14
+        }
+      ],
+      "status": "PASS",
+      "poster_pixels": true,
+      "noJS_poster": true,
+      "country_copy": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "6ca85f0fe840db4a0b434573486c9c99c4d0c71b",
+      "path": "preview/nicaragua-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "6ca85f0fe840db4a0b434573486c9c99c4d0c71b",
+      "path": "preview/nicaragua-v1/parity-check.json",
+      "bytes": 310,
+      "sha256": "08e61e357e27fe584632f8f6c64ccd7c96880ed5b691be7223a73f7d0c3c27a8"
+    },
+    "reported_result": {
+      "source_vertices": 7832,
+      "imported_vertices": 25441,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "lake-color.png",
+        "stone-color.png",
+        "stone-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "6ca85f0fe840db4a0b434573486c9c99c4d0c71b",
+      "path": "preview/nicaragua-v1/source-check.json",
+      "bytes": 393,
+      "sha256": "d1643ac9f69c5a891ea2b5a6fcc247479835ec0f72467b6fb9c80921e12c9c7a"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 20,
+      "static_meshes": 39,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 66
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "6ca85f0fe840db4a0b434573486c9c99c4d0c71b",
+      "path": "preview/nicaragua-v1/theme-check.json",
+      "bytes": 273,
+      "sha256": "907199d6482089154f1f97f7c8c11b4761bacba2621edf3c5b48efaf58105adf"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "two_recessed_craters": true,
+      "all_landscape_lid_owned": true,
+      "detached_ornament_negative_control_rejected": "Volcano / Maderas crater",
+      "note": "Regression control, not preimplementation TDD; sculptural interpretation not geography."
+    },
+    "fresh_runtime_execution": false
+  }
+]

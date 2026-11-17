@@ -1,0 +1,291 @@
+[
+  {
+    "source": {
+      "commit": "8385e51bd6e5e77459b3629a6459e4c3998993a0",
+      "path": "preview/denmark-v1/browser-check.json",
+      "bytes": 2073,
+      "sha256": "f5c2d93f8a846b25e996b4a525ad9085bbf3b7f65aa8eb1e0ee5e446bb592966"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 10412,
+          "meshes": 82,
+          "materials": 5,
+          "bounds": {
+            "min": [
+              -1.8600000143051147,
+              -0.3105585500597954,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.518463134765625,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 949460,
+          "open_projection_max_abs_ndc": 0.892364651663019
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 10412,
+          "meshes": 82,
+          "materials": 5,
+          "bounds": {
+            "min": [
+              -1.8600000143051147,
+              -0.3105585500597954,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.518463134765625,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 949460,
+          "open_projection_max_abs_ndc": 0.8923646516630179
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "8385e51bd6e5e77459b3629a6459e4c3998993a0",
+      "path": "preview/denmark-v1/delivery-check.json",
+      "bytes": 356,
+      "sha256": "58f9e0837918a7652242eb04631c5a06d35de424722fc9cfdc579b52c3299491"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "html_bytes": 2039658,
+      "glb_bytes": 949460,
+      "zip_bytes": 5268391,
+      "zip_sha256": "926dbb94d5767a0e4dc7256148be4560087c1f0b68c82e5b28f058a809eccb8a",
+      "inventory_files": 52,
+      "required_artifacts_present": true,
+      "zip_readback_all_hashes": true,
+      "poster_pixel_variation": true,
+      "all_acceptance_checks": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "8385e51bd6e5e77459b3629a6459e4c3998993a0",
+      "path": "preview/denmark-v1/extended-check.json",
+      "bytes": 666,
+      "sha256": "a89250426b8d7fa834f185bda19b6fadfed1535c6c029332453259194a2038be"
+    },
+    "reported_result": {
+      "maps": [
+        {
+          "id": "fb9e18b6-6e53-415f-b9e6-cb262c4002ff",
+          "kind": "map",
+          "width": 512,
+          "height": 256,
+          "range": 23
+        },
+        {
+          "id": "61aeb135-9c67-4a76-ba66-2711339a2688",
+          "kind": "roughnessMap",
+          "width": 512,
+          "height": 256,
+          "range": 46
+        },
+        {
+          "id": "9276d8fb-2113-4f70-b1ec-b72a35ddc48b",
+          "kind": "map",
+          "width": 512,
+          "height": 256,
+          "range": 46
+        }
+      ],
+      "wrong": [],
+      "cliffs": [
+        "Landscape__chalk_cliff_0",
+        "Landscape__chalk_cliff_1",
+        "Landscape__chalk_cliff_2"
+      ],
+      "noJS_poster": true,
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "8385e51bd6e5e77459b3629a6459e4c3998993a0",
+      "path": "preview/denmark-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "8385e51bd6e5e77459b3629a6459e4c3998993a0",
+      "path": "preview/denmark-v1/motion-check.json",
+      "bytes": 124,
+      "sha256": "e0c53a838aec6b257bb8fdb3bcb092af8ab01d38b6e3a41cea430d2c9d418c94"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "samples": 81,
+      "latch_degrees": 80,
+      "lid_degrees": 105,
+      "invalid_asset_controls_rejected": 3
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "8385e51bd6e5e77459b3629a6459e4c3998993a0",
+      "path": "preview/denmark-v1/parity-check.json",
+      "bytes": 311,
+      "sha256": "2849e3e1d0294608769131343eb5576bf03f6f3cfa51886c2304986b57c0a3a1"
+    },
+    "reported_result": {
+      "source_vertices": 5364,
+      "imported_vertices": 16770,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "chalk-color.png",
+        "chalk-roughness.png",
+        "flint-color.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "8385e51bd6e5e77459b3629a6459e4c3998993a0",
+      "path": "preview/denmark-v1/source-check.json",
+      "bytes": 393,
+      "sha256": "f5d27c63ba020b61159d60cf6fc9b9c570947c0228ee72bb044e228de28bf5cf"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 44,
+      "static_meshes": 35,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 86
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "8385e51bd6e5e77459b3629a6459e4c3998993a0",
+      "path": "preview/denmark-v1/theme-check.json",
+      "bytes": 386,
+      "sha256": "7877ccabede0d679eba97500da51766f7dd837f202fc8bd5b69c699d653ec6ce"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "landscape_lid_owned": 28,
+      "cliff_sections": 3,
+      "flint_shore_stones": 24,
+      "packed_maps": [
+        "chalk-color.png",
+        "chalk-roughness.png",
+        "flint-color.png"
+      ],
+      "original_pivot_error": 0.0,
+      "detached_ornament_negative_control_rejected": true,
+      "limits": "Abstract plateau crown, not individual trees or geographic reconstruction"
+    },
+    "fresh_runtime_execution": false
+  }
+]

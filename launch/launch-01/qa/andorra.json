@@ -1,0 +1,469 @@
+[
+  {
+    "source": {
+      "commit": "868200fc2e906e670de330a9704bea3eb72ebb4b",
+      "path": "preview/andorra-v1/browser-check.json",
+      "bytes": 2078,
+      "sha256": "87de6aed63d00d574372e9375fdd4d4ebfb3c7028ca863eba882a81e64e6a67b"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 32156,
+          "meshes": 151,
+          "materials": 6,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.564422130584717,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 2311640,
+          "open_projection_max_abs_ndc": 0.9123429964598871
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 32156,
+          "meshes": 151,
+          "materials": 6,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.564422130584717,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 2311640,
+          "open_projection_max_abs_ndc": 0.9123429964598875
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "868200fc2e906e670de330a9704bea3eb72ebb4b",
+      "path": "preview/andorra-v1/delivery-check.json",
+      "bytes": 515,
+      "sha256": "3f2a039d885a4b0885aaa30b99b2b1a9a1eab7b519754d9337dd1e2c64fe4595"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "HTML_BYTES": 3891932,
+      "GLB_BYTES": 2311640,
+      "ZIP_BYTES": 6515605,
+      "zip_sha256": "b91eaf836a20d7ee91f5124be0292c805aae8c42099201fe88d4c5a5f7284eea",
+      "inventory_entries": 54,
+      "required_files_present": true,
+      "archive_readback": true,
+      "poster_nonblank": true,
+      "checks_passed": [
+        "source",
+        "parity",
+        "theme",
+        "browser-desktop",
+        "browser-mobile",
+        "fallbacks",
+        "extended",
+        "motion",
+        "negative-control",
+        "delivery"
+      ]
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "868200fc2e906e670de330a9704bea3eb72ebb4b",
+      "path": "preview/andorra-v1/extended-check.json",
+      "bytes": 1970,
+      "sha256": "e543c451564e46ec5843447f1c37420b9eecf59af6028d7939d1ed99824d3dfb"
+    },
+    "reported_result": {
+      "features": {
+        "ornaments": [
+          {
+            "name": "Path__stepping_stone",
+            "lid": true
+          },
+          {
+            "name": "Path__stepping_stone001",
+            "lid": true
+          },
+          {
+            "name": "Path__stepping_stone002",
+            "lid": true
+          },
+          {
+            "name": "Path__stepping_stone003",
+            "lid": true
+          },
+          {
+            "name": "Path__stepping_stone004",
+            "lid": true
+          },
+          {
+            "name": "Path__stepping_stone005",
+            "lid": true
+          },
+          {
+            "name": "Path__stepping_stone006",
+            "lid": true
+          },
+          {
+            "name": "Path__stepping_stone007",
+            "lid": true
+          },
+          {
+            "name": "Path__stepping_stone008",
+            "lid": true
+          },
+          {
+            "name": "Path__stepping_stone009",
+            "lid": true
+          },
+          {
+            "name": "Path__stepping_stone010",
+            "lid": true
+          },
+          {
+            "name": "Path__stepping_stone011",
+            "lid": true
+          },
+          {
+            "name": "Path__stepping_stone012",
+            "lid": true
+          },
+          {
+            "name": "Path__stepping_stone013",
+            "lid": true
+          },
+          {
+            "name": "Path__stepping_stone014",
+            "lid": true
+          },
+          {
+            "name": "Terrain__valley_flank_1",
+            "lid": true
+          },
+          {
+            "name": "Terrain__valley_flank_-1",
+            "lid": true
+          },
+          {
+            "name": "Terrain__valley_pasture",
+            "lid": true
+          }
+        ],
+        "maps": [
+          {
+            "key": "map",
+            "range": 143,
+            "width": 256,
+            "height": 256
+          },
+          {
+            "key": "roughnessMap",
+            "range": 103,
+            "width": 256,
+            "height": 256
+          },
+          {
+            "key": "map",
+            "range": 31,
+            "width": 256,
+            "height": 256
+          }
+        ]
+      },
+      "noJS_poster": true,
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "868200fc2e906e670de330a9704bea3eb72ebb4b",
+      "path": "preview/andorra-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "868200fc2e906e670de330a9704bea3eb72ebb4b",
+      "path": "preview/andorra-v1/parity-check.json",
+      "bytes": 312,
+      "sha256": "e8c8309d724c2487b76504b57cc4645ed835164fe3f83e2c28fc30357578d9c9"
+    },
+    "reported_result": {
+      "source_vertices": 16538,
+      "imported_vertices": 59892,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "slate-color.png",
+        "stone-color.png",
+        "stone-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "868200fc2e906e670de330a9704bea3eb72ebb4b",
+      "path": "preview/andorra-v1/source-check.json",
+      "bytes": 395,
+      "sha256": "27458e3236cb1a22b22160248f6e649053cb739ede7129a4cf5d5ead9113ffd7"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 34,
+      "static_meshes": 115,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 156
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "868200fc2e906e670de330a9704bea3eb72ebb4b",
+      "path": "preview/andorra-v1/theme-check.json",
+      "bytes": 2777,
+      "sha256": "811f42291e2c2499975489c49e9aa9f89634b82c21c28e997d31877745ec0608"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "original_pivots": true,
+      "lid_ornaments": 18,
+      "masonry_blocks": 80,
+      "summit_z": 2.564422130584717,
+      "path_visibility_rays": [
+        {
+          "point": [
+            0.0,
+            -0.76
+          ],
+          "hit": "Path / stepping stone",
+          "z": 2.0190000534057617
+        },
+        {
+          "point": [
+            0.03479724272889842,
+            -0.652
+          ],
+          "hit": "Path / stepping stone.001",
+          "z": 2.0190000534057617
+        },
+        {
+          "point": [
+            0.06266615277019867,
+            -0.544
+          ],
+          "hit": "Path / stepping stone.002",
+          "z": 2.0189998149871826
+        },
+        {
+          "point": [
+            0.07805786862613273,
+            -0.436
+          ],
+          "hit": "Path / stepping stone.003",
+          "z": 2.0189998149871826
+        },
+        {
+          "point": [
+            0.07790781047025562,
+            -0.328
+          ],
+          "hit": "Path / stepping stone.004",
+          "z": 2.0189998149871826
+        },
+        {
+          "point": [
+            0.062245855751033696,
+            -0.21999999999999997
+          ],
+          "hit": "Path / stepping stone.005",
+          "z": 2.0190000534057617
+        },
+        {
+          "point": [
+            0.03419039041870638,
+            -0.11199999999999999
+          ],
+          "hit": "Path / stepping stone.006",
+          "z": 2.0190000534057617
+        },
+        {
+          "point": [
+            -0.0006725797893718894,
+            -0.0040000000000000036
+          ],
+          "hit": "Path / stepping stone.007",
+          "z": 2.0190000534057617
+        },
+        {
+          "point": [
+            -0.035401635463588196,
+            0.10399999999999998
+          ],
+          "hit": "Path / stepping stone.008",
+          "z": 2.0190000534057617
+        },
+        {
+          "point": [
+            -0.0630820203540956,
+            0.21199999999999997
+          ],
+          "hit": "Path / stepping stone.009",
+          "z": 2.0190000534057617
+        },
+        {
+          "point": [
+            -0.07820240941320776,
+            0.32000000000000006
+          ],
+          "hit": "Path / stepping stone.010",
+          "z": 2.0189998149871826
+        },
+        {
+          "point": [
+            -0.07775224555214566,
+            0.42799999999999994
+          ],
+          "hit": "Path / stepping stone.011",
+          "z": 2.0190000534057617
+        },
+        {
+          "point": [
+            -0.06182115900447897,
+            0.536
+          ],
+          "hit": "Path / stepping stone.012",
+          "z": 2.0189998149871826
+        },
+        {
+          "point": [
+            -0.03358112142718871,
+            0.6439999999999999
+          ],
+          "hit": "Path / stepping stone.013",
+          "z": 2.0189998149871826
+        },
+        {
+          "point": [
+            0.0013451120387479771,
+            0.752
+          ],
+          "hit": "Path / stepping stone.014",
+          "z": 2.0189998149871826
+        }
+      ],
+      "interpretation": "stylized, not a geographic reconstruction"
+    },
+    "fresh_runtime_execution": false
+  }
+]

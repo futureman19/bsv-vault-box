@@ -1,0 +1,284 @@
+[
+  {
+    "source": {
+      "commit": "72ff817a04ff8e4f64fb10fe206249e30332bfc2",
+      "path": "preview/azerbaijan-v1/browser-check.json",
+      "bytes": 2080,
+      "sha256": "72df9496c8d76e150ce1826bbcd8f098e971861468b9674abd35e860742d894f"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 13804,
+          "meshes": 63,
+          "materials": 4,
+          "bounds": {
+            "min": [
+              -1.8600000143051147,
+              -0.23000000417232513,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.0580001063644886,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1495300,
+          "open_projection_max_abs_ndc": 0.8923646516630201
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 13804,
+          "meshes": 63,
+          "materials": 4,
+          "bounds": {
+            "min": [
+              -1.8600000143051147,
+              -0.23000000417232513,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.0580001063644886,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1495300,
+          "open_projection_max_abs_ndc": 0.8923646516630213
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "72ff817a04ff8e4f64fb10fe206249e30332bfc2",
+      "path": "preview/azerbaijan-v1/delivery-check.json",
+      "bytes": 579,
+      "sha256": "c7187a6e5b6a1a77aaf27cb362e23519730aebbf5625c3c39209bf91709a5a26"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "HTML_BYTES": 2821773,
+      "GLB_BYTES": 1495300,
+      "ZIP_BYTES": 6714969,
+      "zip_sha256": "071e8aa397d382c8a117a91dfd8433ce7d9588cce83d258f6440f43bad49f754",
+      "inventory_entries": 54,
+      "archive_entries": 55,
+      "required_artifacts_present": true,
+      "archive_exact_readback": true,
+      "checks_passed": [
+        "source",
+        "parity",
+        "theme",
+        "motion",
+        "desktop_file",
+        "mobile_file",
+        "corrupt_GLB_fallback",
+        "noJS_fallback",
+        "texture_channels",
+        "size",
+        "SHA256_inventory",
+        "archive_readback"
+      ]
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "72ff817a04ff8e4f64fb10fe206249e30332bfc2",
+      "path": "preview/azerbaijan-v1/extended-check.json",
+      "bytes": 481,
+      "sha256": "fc7de83b74a24c1a660e2a7bbadaed207dae22fb25378e09c715fff6d5a3cd2e"
+    },
+    "reported_result": {
+      "poster_nonblack_nontransparent": true,
+      "maps": [
+        {
+          "key": "map",
+          "channel": 0,
+          "width": 512,
+          "height": 512,
+          "range": 63
+        },
+        {
+          "key": "roughnessMap",
+          "channel": 1,
+          "width": 512,
+          "height": 512,
+          "range": 62
+        },
+        {
+          "key": "normalMap",
+          "channel": 0,
+          "width": 512,
+          "height": 512,
+          "range": 61
+        }
+      ],
+      "noJS_poster": true,
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "72ff817a04ff8e4f64fb10fe206249e30332bfc2",
+      "path": "preview/azerbaijan-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "72ff817a04ff8e4f64fb10fe206249e30332bfc2",
+      "path": "preview/azerbaijan-v1/parity-check.json",
+      "bytes": 315,
+      "sha256": "396c5a544669b3d777d585d17e5d279c587ea5b22ef456422081a40bacd5c340"
+    },
+    "reported_result": {
+      "source_vertices": 7024,
+      "imported_vertices": 24171,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "copper-color.png",
+        "copper-normal.png",
+        "copper-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "72ff817a04ff8e4f64fb10fe206249e30332bfc2",
+      "path": "preview/azerbaijan-v1/source-check.json",
+      "bytes": 393,
+      "sha256": "de9fe13833d9539d5db72ce232aad0ab31a9802d2fb912694a44dd7678083f4b"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 28,
+      "static_meshes": 35,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 70
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "72ff817a04ff8e4f64fb10fe206249e30332bfc2",
+      "path": "preview/azerbaijan-v1/theme-check.json",
+      "bytes": 341,
+      "sha256": "cae06e54200c64619ee349c51a9468439099ff8b4d4868b5fb4bf997ed264fa8"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "leaf_count": 8,
+      "rings": 2,
+      "ornament_count": 12,
+      "ornament_z": [
+        1.9780000448226929,
+        2.058000087738037
+      ],
+      "medallion_radius": 0.7599999904632568,
+      "all_lid_owned": true,
+      "leaf_separation": true,
+      "missing_leaf_negative_control_rejected": true,
+      "baseline_pivot_max_error": 0.0
+    },
+    "fresh_runtime_execution": false
+  }
+]

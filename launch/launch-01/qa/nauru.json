@@ -1,0 +1,446 @@
+[
+  {
+    "source": {
+      "commit": "d1cc19d8e7611e59290571207043d5057ac2004d",
+      "path": "preview/nauru-v1/browser-check.json",
+      "bytes": 2073,
+      "sha256": "3635c722455e33ff0dd77c09c6a945c930d4962672cae673882d4c119f1f6339"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 14092,
+          "meshes": 69,
+          "materials": 5,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.3105585500597954,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.745035409927368,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1281980,
+          "open_projection_max_abs_ndc": 0.8923646516630198
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 14092,
+          "meshes": 69,
+          "materials": 5,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.3105585500597954,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.745035409927368,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1281980,
+          "open_projection_max_abs_ndc": 0.892364651663019
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "d1cc19d8e7611e59290571207043d5057ac2004d",
+      "path": "preview/nauru-v1/delivery-check.json",
+      "bytes": 340,
+      "sha256": "d5e7f715e9c407013f3c2f5d64d4125065ea46f13c719663433a56151bc02ee2"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "HTML_BYTES": 2484194,
+      "GLB_BYTES": 1281980,
+      "archive_entries": 60,
+      "archive_readback_verified": true,
+      "zip_bytes": 6104817,
+      "zip_sha256": "4eac9af3761b6a6215eb71ece2ca5010e0c6fa3278b3b90cf80f97688863d0d7",
+      "inventory_sha256": "81c4721303a8101ecce59d3c50b6f7f06b692a30956ab1d438d4b385c890863e"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "d1cc19d8e7611e59290571207043d5057ac2004d",
+      "path": "preview/nauru-v1/extended-check.json",
+      "bytes": 507,
+      "sha256": "7bbfa463c8482510dc75dc8d3b950c8d50afb1dcf0a46deca846fb87637d6cf9"
+    },
+    "reported_result": {
+      "poster_pixels_valid": true,
+      "features": {
+        "pinnacles": 8,
+        "wrong": [],
+        "maps": [
+          {
+            "kind": "color",
+            "width": 384,
+            "height": 384,
+            "range": 81
+          },
+          {
+            "kind": "roughness",
+            "width": 384,
+            "height": 384,
+            "range": 58
+          },
+          {
+            "kind": "normal",
+            "width": 384,
+            "height": 384,
+            "range": 32
+          }
+        ]
+      },
+      "noJS_poster": true,
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "d1cc19d8e7611e59290571207043d5057ac2004d",
+      "path": "preview/nauru-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "d1cc19d8e7611e59290571207043d5057ac2004d",
+      "path": "preview/nauru-v1/motion-check.json",
+      "bytes": 172,
+      "sha256": "e5a04db3f8bcbfe52a494fa8299a295f26e993c61619d15e9267bf73bed91dd7"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "command": "node --test preview/nauru-v1/tests.mjs",
+      "exit_code": 0,
+      "tests": 2,
+      "pose_samples": 101,
+      "negative_asset_contracts": 3
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "d1cc19d8e7611e59290571207043d5057ac2004d",
+      "path": "preview/nauru-v1/parity-check.json",
+      "bytes": 324,
+      "sha256": "514d99f5964fd7ac2f21d137d1bbee47046733d6e99082c02907d893f44797bf"
+    },
+    "reported_result": {
+      "source_vertices": 7249,
+      "imported_vertices": 23747,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "limestone-color.png",
+        "limestone-normal.png",
+        "limestone-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "d1cc19d8e7611e59290571207043d5057ac2004d",
+      "path": "preview/nauru-v1/pivot-check.json",
+      "bytes": 1761,
+      "sha256": "43fd3841a1d3e2b3ddfa35e019c51adc0b46ce4a0c7108ecfa893d8c24512717"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "pivots_identical": true,
+      "matrices": {
+        "mechanism.blend": {
+          "Lid_Hinge": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              1.3200000524520874
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.6679999828338623
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "Latch_Pivot": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.290000081062317
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.8880000114440918
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        "nauru.blend": {
+          "Lid_Hinge": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              1.3200000524520874
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.6679999828338623
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "Latch_Pivot": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.290000081062317
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.8880000114440918
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      }
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "d1cc19d8e7611e59290571207043d5057ac2004d",
+      "path": "preview/nauru-v1/source-check.json",
+      "bytes": 393,
+      "sha256": "0e75124bfaafb79a547c29628a0729e541749793bc8c0e633e126e39dcf50c75"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 30,
+      "static_meshes": 39,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 76
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "d1cc19d8e7611e59290571207043d5057ac2004d",
+      "path": "preview/nauru-v1/theme-check.json",
+      "bytes": 1122,
+      "sha256": "540c1c83b8ac28e8880180934e3375677cd1db31f6f6092c2e860140e51e799f"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "pinnacles": 8,
+      "heights": [
+        0.29735794067382804,
+        0.4351202487945556,
+        0.6174880504608153,
+        0.4722007751464843,
+        0.6450354099273681,
+        0.40534725189208975,
+        0.32687368392944327,
+        0.23915877342224112
+      ],
+      "roots": [
+        {
+          "name": "Pinnacle / 1",
+          "root_surface_z": 2.110903739929199
+        },
+        {
+          "name": "Pinnacle / 2",
+          "root_surface_z": 2.1090176105499268
+        },
+        {
+          "name": "Pinnacle / 3",
+          "root_surface_z": 2.109090805053711
+        },
+        {
+          "name": "Pinnacle / 4",
+          "root_surface_z": 2.1091790199279785
+        },
+        {
+          "name": "Pinnacle / 5",
+          "root_surface_z": 2.110241174697876
+        },
+        {
+          "name": "Pinnacle / 6",
+          "root_surface_z": 2.1099860668182373
+        },
+        {
+          "name": "Pinnacle / 7",
+          "root_surface_z": 2.1105799674987793
+        },
+        {
+          "name": "Pinnacle / 8",
+          "root_surface_z": 2.1121227741241455
+        }
+      ],
+      "lagoon_contained": true,
+      "lagoon_center_visible_from_source_camera": true,
+      "all_ornaments_lid_owned": true
+    },
+    "fresh_runtime_execution": false
+  }
+]

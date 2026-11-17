@@ -1,0 +1,861 @@
+[
+  {
+    "source": {
+      "commit": "c2f4a5c9952cd2de909d0250770a38f012883469",
+      "path": "preview/eritrea-v1/browser-check.json",
+      "bytes": 2076,
+      "sha256": "031ae3e4c5a191fc0d40ff6a3df32bc0492af6b1cf31c35af3c88757d13851f2"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 14674,
+          "meshes": 63,
+          "materials": 4,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.26000000536441803,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.247756242752075,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1403800,
+          "open_projection_max_abs_ndc": 0.8923646516630216
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 14674,
+          "meshes": 63,
+          "materials": 4,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.26000000536441803,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.247756242752075,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1403800,
+          "open_projection_max_abs_ndc": 0.8923646516630184
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "c2f4a5c9952cd2de909d0250770a38f012883469",
+      "path": "preview/eritrea-v1/contract-check.json",
+      "bytes": 1430,
+      "sha256": "da91bb08335387240ca2f41ac97fc5f3ea8afbc9f5da97797fb4e589cbf45109"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "unchanged_pivots": {
+        "Lid_Hinge": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            1.3200000524520874
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.6679999828338623
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Latch_Pivot": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.290000081062317
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.8880000114440918
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "island_world_z": {
+        "Island / 0": [
+          1.9869999885559082,
+          2.187866449356079
+        ],
+        "Island / 1": [
+          1.9869999885559082,
+          2.247756242752075
+        ],
+        "Island / 2": [
+          1.9869999885559082,
+          2.157727003097534
+        ],
+        "Island / 3": [
+          1.9869999885559082,
+          2.1279208660125732
+        ],
+        "Island / 4": [
+          1.9869999885559082,
+          2.1879496574401855
+        ],
+        "Island / 5": [
+          1.9869999885559082,
+          2.1369547843933105
+        ],
+        "Island / 6": [
+          1.9869999885559082,
+          2.217801570892334
+        ]
+      },
+      "seam_height": 0.09,
+      "detached_island_negative_rejected": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "c2f4a5c9952cd2de909d0250770a38f012883469",
+      "path": "preview/eritrea-v1/delivery-check.json",
+      "bytes": 663,
+      "sha256": "4b896b54cac7f49206cce6d549bc293187bfbce21976487733c42088e7c3dee8"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "html_bytes": 2612826,
+      "glb_bytes": 1403800,
+      "inventory_files": 53,
+      "required_files_verified": [
+        "README.md",
+        "browser-check.json",
+        "contract-check.json",
+        "design-brief.md",
+        "eritrea-v1.html",
+        "eritrea.blend",
+        "eritrea.glb",
+        "material-check.json",
+        "mechanism.blend",
+        "motion-check.json",
+        "parity-check.json",
+        "poster.png",
+        "source-check.json",
+        "theme-check.json"
+      ],
+      "archive_bytes": 5511752,
+      "archive_sha256": "7b0fb3f97e547b020aeb76ce4f0e34e284d4ba1ec9f0716ffef4c5eeeb9bed79",
+      "archive_readback": true,
+      "byte_limit_negative_rejected": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "c2f4a5c9952cd2de909d0250770a38f012883469",
+      "path": "preview/eritrea-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "c2f4a5c9952cd2de909d0250770a38f012883469",
+      "path": "preview/eritrea-v1/material-check.json",
+      "bytes": 244,
+      "sha256": "80651708685b1cb6bc5d77d08d39a469ab5d0b9a440f9e01870db29bdb364286"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "roughness": [
+        {
+          "min": 174,
+          "max": 214,
+          "range": 40,
+          "channel": "green"
+        }
+      ],
+      "poster_size": [
+        880,
+        800
+      ],
+      "poster_nonblank": true,
+      "country_copy": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "c2f4a5c9952cd2de909d0250770a38f012883469",
+      "path": "preview/eritrea-v1/motion-check.json",
+      "bytes": 7788,
+      "sha256": "0d6b53ac6a7a4fdc9e5f09c789571f14ee559c46afdc4627c25fc6b9396d9690"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "samples": [
+        {
+          "p": 0,
+          "lid": 0,
+          "latch": 0
+        },
+        {
+          "p": 0.0125,
+          "lid": 0,
+          "latch": -0.06981317007977318
+        },
+        {
+          "p": 0.025,
+          "lid": 0,
+          "latch": -0.13962634015954636
+        },
+        {
+          "p": 0.0375,
+          "lid": 0,
+          "latch": -0.20943951023931953
+        },
+        {
+          "p": 0.05,
+          "lid": 0,
+          "latch": -0.2792526803190927
+        },
+        {
+          "p": 0.0625,
+          "lid": 0,
+          "latch": -0.3490658503988659
+        },
+        {
+          "p": 0.075,
+          "lid": 0,
+          "latch": -0.41887902047863906
+        },
+        {
+          "p": 0.0875,
+          "lid": 0,
+          "latch": -0.48869219055841223
+        },
+        {
+          "p": 0.1,
+          "lid": 0,
+          "latch": -0.5585053606381855
+        },
+        {
+          "p": 0.1125,
+          "lid": 0,
+          "latch": -0.6283185307179586
+        },
+        {
+          "p": 0.125,
+          "lid": 0,
+          "latch": -0.6981317007977318
+        },
+        {
+          "p": 0.1375,
+          "lid": 0,
+          "latch": -0.7679448708775051
+        },
+        {
+          "p": 0.15,
+          "lid": 0,
+          "latch": -0.8377580409572781
+        },
+        {
+          "p": 0.1625,
+          "lid": 0,
+          "latch": -0.9075712110370514
+        },
+        {
+          "p": 0.175,
+          "lid": 0,
+          "latch": -0.9773843811168245
+        },
+        {
+          "p": 0.1875,
+          "lid": 0,
+          "latch": -1.0471975511965976
+        },
+        {
+          "p": 0.2,
+          "lid": 0,
+          "latch": -1.117010721276371
+        },
+        {
+          "p": 0.2125,
+          "lid": 0,
+          "latch": -1.186823891356144
+        },
+        {
+          "p": 0.225,
+          "lid": 0,
+          "latch": -1.2566370614359172
+        },
+        {
+          "p": 0.2375,
+          "lid": 0,
+          "latch": -1.3264502315156903
+        },
+        {
+          "p": 0.25,
+          "lid": 0,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.2625,
+          "lid": -0.030543261909900792,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.275,
+          "lid": -0.061086523819801584,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.2875,
+          "lid": -0.09162978572970225,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.3,
+          "lid": -0.12217304763960304,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.3125,
+          "lid": -0.15271630954950383,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.325,
+          "lid": -0.18325957145940464,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.3375,
+          "lid": -0.21380283336930545,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.35,
+          "lid": -0.2443460952792061,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.3625,
+          "lid": -0.2748893571891069,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.375,
+          "lid": -0.30543261909900765,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.3875,
+          "lid": -0.33597588100890846,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.4,
+          "lid": -0.36651914291880927,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.4125,
+          "lid": -0.39706240482870997,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.425,
+          "lid": -0.4276056667386107,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.4375,
+          "lid": -0.45814892864851153,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.45,
+          "lid": -0.4886921905584123,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.4625,
+          "lid": -0.5192354524683132,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.475,
+          "lid": -0.5497787143782138,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.4875,
+          "lid": -0.5803219762881145,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.5,
+          "lid": -0.6108652381980153,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.5125,
+          "lid": -0.6414085001079161,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.525,
+          "lid": -0.6719517620178169,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.5375,
+          "lid": -0.7024950239277177,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.55,
+          "lid": -0.7330382858376185,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.5625,
+          "lid": -0.7635815477475193,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.575,
+          "lid": -0.7941248096574199,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.5875,
+          "lid": -0.8246680715673208,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.6,
+          "lid": -0.8552113334772214,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.6125,
+          "lid": -0.8857545953871224,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.625,
+          "lid": -0.9162978572970231,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.6375,
+          "lid": -0.9468411192069237,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.65,
+          "lid": -0.9773843811168246,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.6625,
+          "lid": -1.0079276430267252,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.675,
+          "lid": -1.0384709049366263,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.6875,
+          "lid": -1.069014166846527,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.7,
+          "lid": -1.0995574287564276,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.7125,
+          "lid": -1.1301006906663285,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.725,
+          "lid": -1.160643952576229,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.7375,
+          "lid": -1.19118721448613,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.75,
+          "lid": -1.2217304763960306,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.7625,
+          "lid": -1.2522737383059312,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.775,
+          "lid": -1.2828170002158323,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.7875,
+          "lid": -1.313360262125733,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.8,
+          "lid": -1.3439035240356338,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.8125,
+          "lid": -1.3744467859455347,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.825,
+          "lid": -1.4049900478554354,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.8375,
+          "lid": -1.4355333097653362,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.85,
+          "lid": -1.4660765716752369,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.8625,
+          "lid": -1.496619833585138,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.875,
+          "lid": -1.5271630954950386,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.8875,
+          "lid": -1.5577063574049392,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.9,
+          "lid": -1.58824961931484,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.9125,
+          "lid": -1.6187928812247407,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.925,
+          "lid": -1.6493361431346416,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.9375,
+          "lid": -1.6798794050445423,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.95,
+          "lid": -1.710422666954443,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.9625,
+          "lid": -1.740965928864344,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.975,
+          "lid": -1.7715091907742446,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 0.9875,
+          "lid": -1.8020524526841455,
+          "latch": -1.3962634015954636
+        },
+        {
+          "p": 1,
+          "lid": -1.8325957145940461,
+          "latch": -1.3962634015954636
+        }
+      ],
+      "invalidGeometryRejected": 3
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "c2f4a5c9952cd2de909d0250770a38f012883469",
+      "path": "preview/eritrea-v1/parity-check.json",
+      "bytes": 317,
+      "sha256": "9a138269143d01f348514097eb84443bf65693ee6b7ceb5df05146380a81e5c7"
+    },
+    "reported_result": {
+      "source_vertices": 7459,
+      "imported_vertices": 25756,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "limestone-color.png",
+        "limestone-roughness.png",
+        "sea-color.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "c2f4a5c9952cd2de909d0250770a38f012883469",
+      "path": "preview/eritrea-v1/source-check.json",
+      "bytes": 393,
+      "sha256": "94fc7d49038cc16af13ee634cb2d6aae91e246c6c39ef9d1b7b06540a72e6a8f"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 24,
+      "static_meshes": 39,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 70
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "c2f4a5c9952cd2de909d0250770a38f012883469",
+      "path": "preview/eritrea-v1/theme-check.json",
+      "bytes": 1653,
+      "sha256": "e24e87eff2465795ef035da437f73d489f76c104e977206ec113fd3ae03d1eb2"
+    },
+    "reported_result": {
+      "islands": [
+        {
+          "name": "Island__0",
+          "parent": "Lid_Hinge",
+          "size": [
+            1.1156917214393616,
+            0.2008664608001709,
+            0.5812570452690125
+          ]
+        },
+        {
+          "name": "Island__1",
+          "parent": "Lid_Hinge",
+          "size": [
+            0.606644868850708,
+            0.260756254196167,
+            0.7296137139201164
+          ]
+        },
+        {
+          "name": "Island__2",
+          "parent": "Lid_Hinge",
+          "size": [
+            0.947256326675415,
+            0.17072701454162598,
+            0.6244101449847221
+          ]
+        },
+        {
+          "name": "Island__3",
+          "parent": "Lid_Hinge",
+          "size": [
+            0.5649928450584412,
+            0.14092087745666504,
+            0.48283060640096664
+          ]
+        },
+        {
+          "name": "Island__4",
+          "parent": "Lid_Hinge",
+          "size": [
+            0.6513366550207138,
+            0.20094966888427734,
+            0.4862774685025215
+          ]
+        },
+        {
+          "name": "Island__5",
+          "parent": "Lid_Hinge",
+          "size": [
+            0.5174629837274551,
+            0.14995479583740234,
+            0.685358103364706
+          ]
+        },
+        {
+          "name": "Island__6",
+          "parent": "Lid_Hinge",
+          "size": [
+            0.5888248682022095,
+            0.23080158233642578,
+            0.49024856835603714
+          ]
+        }
+      ],
+      "maps": [
+        {
+          "material": "Dahlak / porous reef limestone",
+          "width": 512,
+          "height": 512,
+          "range": 99
+        },
+        {
+          "material": "Red Sea / petrol enamel",
+          "width": 512,
+          "height": 512,
+          "range": 9
+        }
+      ],
+      "wrong": [],
+      "status": "PASS",
+      "noJS_poster": true
+    },
+    "fresh_runtime_execution": false
+  }
+]

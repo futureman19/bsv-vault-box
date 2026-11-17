@@ -1,0 +1,287 @@
+[
+  {
+    "source": {
+      "commit": "c9fdba5de2ab2f9d03914d0023f4f623275fadcb",
+      "path": "preview/angola-v1/browser-check.json",
+      "bytes": 2076,
+      "sha256": "a9cd114f78b97cd01cd3e18899525138f0151c6dfd9e6a31222e11b3ae1b4205"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 15692,
+          "meshes": 54,
+          "materials": 4,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.425748348236084,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1492748,
+          "open_projection_max_abs_ndc": 0.8923646516630198
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 15692,
+          "meshes": 54,
+          "materials": 4,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.425748348236084,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1492748,
+          "open_projection_max_abs_ndc": 0.8923646516630199
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "c9fdba5de2ab2f9d03914d0023f4f623275fadcb",
+      "path": "preview/angola-v1/delivery-check.json",
+      "bytes": 467,
+      "sha256": "41bbba957b7720a4ba5444ae23b9097e89374517e47d6649aaac955628c12194"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "html_bytes": 2728292,
+      "glb_bytes": 1492748,
+      "inventory_files": 65,
+      "archive_entries": 66,
+      "required_files_present": true,
+      "archive_hash_readback": true,
+      "zip_bytes": 8419928,
+      "zip_sha256": "df2c12d59bd2b9203c8789f2375641c5b6beff0b6b5c21e9386226883e66926a",
+      "exclusions": [
+        "node_modules",
+        "blend1 backups",
+        "temporary files",
+        "inventory and delivery envelopes excluded from self-hashes"
+      ]
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "c9fdba5de2ab2f9d03914d0023f4f623275fadcb",
+      "path": "preview/angola-v1/extended-check.json",
+      "bytes": 688,
+      "sha256": "42acbe76bc5ede77b462c0e39f9cbf26e12a9a0c316dece0d2c4844cee5269b7"
+    },
+    "reported_result": {
+      "cliffs": [
+        {
+          "name": "Cliff__eroded_buttress_0",
+          "parent": "Lid_Hinge",
+          "vertices": 2592,
+          "relief": 0.3508087396621704
+        },
+        {
+          "name": "Cliff__eroded_buttress_1",
+          "parent": "Lid_Hinge",
+          "vertices": 2588,
+          "relief": 0.44674837589263916
+        },
+        {
+          "name": "Cliff__eroded_buttress_2",
+          "parent": "Lid_Hinge",
+          "vertices": 2592,
+          "relief": 0.3592604398727417
+        }
+      ],
+      "maps": [
+        {
+          "width": 512,
+          "height": 256,
+          "range": 87
+        },
+        {
+          "width": 512,
+          "height": 256,
+          "range": 80
+        }
+      ],
+      "noJS_poster": true,
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "c9fdba5de2ab2f9d03914d0023f4f623275fadcb",
+      "path": "preview/angola-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "c9fdba5de2ab2f9d03914d0023f4f623275fadcb",
+      "path": "preview/angola-v1/parity-check.json",
+      "bytes": 310,
+      "sha256": "05bbaf9b158a1cc8fb997220e262acfecf10233977bcb891657521f05fa3044f"
+    },
+    "reported_result": {
+      "source_vertices": 8073,
+      "imported_vertices": 28715,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "dark-earth.png",
+        "earth-color.png",
+        "earth-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "c9fdba5de2ab2f9d03914d0023f4f623275fadcb",
+      "path": "preview/angola-v1/source-check.json",
+      "bytes": 393,
+      "sha256": "7aeb15131c573c9a7d0662142cf6b99ec6d688544d1a7a4bb9ed94a1dd64fc67"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 19,
+      "static_meshes": 35,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 61
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "c9fdba5de2ab2f9d03914d0023f4f623275fadcb",
+      "path": "preview/angola-v1/theme-check.json",
+      "bytes": 351,
+      "sha256": "e88f0ebb588300204611ef30d75de1464fff6064565f570c53aca5f9e0efbb46"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "exact_baseline_pivots": {
+        "Lid_Hinge": [
+          0.0,
+          1.3200000524520874,
+          1.6679999828338623
+        ],
+        "Latch_Pivot": [
+          0.0,
+          -2.6100001335144043,
+          0.2200000286102295
+        ]
+      },
+      "cliffs": 3,
+      "seam_height_max": 0.09000000357627869,
+      "missing_cliff_negative_rejected": true
+    },
+    "fresh_runtime_execution": false
+  }
+]

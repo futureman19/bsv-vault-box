@@ -1,0 +1,266 @@
+[
+  {
+    "source": {
+      "commit": "0eaae1fe3b79d7fddf135fde88c11384d64b619f",
+      "path": "preview/south-africa-v1/browser-check.json",
+      "bytes": 2078,
+      "sha256": "8c662f7796c4eb4d0376dd2620ddec282701ef662695078ff85129a6b5cf4768"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 16648,
+          "meshes": 86,
+          "materials": 5,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.7019920349121094,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1720352,
+          "open_projection_max_abs_ndc": 0.8923646516630219
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 16648,
+          "meshes": 86,
+          "materials": 5,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.7019920349121094,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1720352,
+          "open_projection_max_abs_ndc": 0.8923646516630199
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "0eaae1fe3b79d7fddf135fde88c11384d64b619f",
+      "path": "preview/south-africa-v1/delivery-check.json",
+      "bytes": 290,
+      "sha256": "33f45b72d8b1de500e276406e065b43e19535945d9823e3cdcc7692aa511dfa2"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "HTML_BYTES": 3064643,
+      "GLB_BYTES": 1720352,
+      "ZIP_BYTES": 7135621,
+      "zip_sha256": "a523e0cf7e4815633c13035bf4eb26303997184f5ea3730539d8ab06a3327030",
+      "required_artifacts_present": true,
+      "archive_readback_verified": true,
+      "inventory_entries": 52
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "0eaae1fe3b79d7fddf135fde88c11384d64b619f",
+      "path": "preview/south-africa-v1/extended-check.json",
+      "bytes": 572,
+      "sha256": "890c70d84eaab7493db53c6cf7a2dd7c9a69fffbf32571dabf02882b5a1a2646"
+    },
+    "reported_result": {
+      "maps": [
+        {
+          "kind": "color",
+          "material": "Granite / salt and pepper",
+          "width": 256,
+          "height": 256,
+          "range": 155
+        },
+        {
+          "kind": "color",
+          "material": "Sandstone / irregular strata",
+          "width": 512,
+          "height": 512,
+          "range": 70
+        },
+        {
+          "kind": "roughness",
+          "material": "Sandstone / irregular strata",
+          "width": 512,
+          "height": 512,
+          "range": 71
+        }
+      ],
+      "wrong": [],
+      "mesa": 1,
+      "plants": 30,
+      "status": "PASS",
+      "no_js_poster": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "0eaae1fe3b79d7fddf135fde88c11384d64b619f",
+      "path": "preview/south-africa-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "0eaae1fe3b79d7fddf135fde88c11384d64b619f",
+      "path": "preview/south-africa-v1/parity-check.json",
+      "bytes": 315,
+      "sha256": "999e8427b740c983bf41c5963dadd80913f6840b7fd1d9f727a33a7673c653f5"
+    },
+    "reported_result": {
+      "source_vertices": 8492,
+      "imported_vertices": 25635,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "granite.png",
+        "sandstone-color.png",
+        "sandstone-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "0eaae1fe3b79d7fddf135fde88c11384d64b619f",
+      "path": "preview/south-africa-v1/source-check.json",
+      "bytes": 393,
+      "sha256": "2389fd9d19cb9670ea0b20f92bf33586bd2c4e24a4f7ae434dff1ea60f73ce8c"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 47,
+      "static_meshes": 39,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 93
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "0eaae1fe3b79d7fddf135fde88c11384d64b619f",
+      "path": "preview/south-africa-v1/theme-check.json",
+      "bytes": 217,
+      "sha256": "595a76c9d98374fbfd33be3ebc4eb9688c049203eb935856f8b7a69992badecb"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "mesa_top_z": [
+        2.6782498359680176,
+        2.7019920349121094
+      ],
+      "fynbos_clusters": 30,
+      "detached_negative_control_rejected": true,
+      "original_pivot_matrices_preserved": true
+    },
+    "fresh_runtime_execution": false
+  }
+]

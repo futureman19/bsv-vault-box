@@ -1,0 +1,314 @@
+[
+  {
+    "source": {
+      "commit": "7296b1263fa4f7700171086f22c2d46ee7f4f16a",
+      "path": "preview/belarus-v1/acceptance-check.json",
+      "bytes": 344,
+      "sha256": "291f34d26a662131c44e1867693bc1c9f61d93f7dde83b9abf84dec753891538"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "checks": {
+        "source_motion": "PASS",
+        "parity": "PASS",
+        "theme": "PASS",
+        "browser": "PASS",
+        "extended": "PASS",
+        "motion_unit": "PASS",
+        "negative_control": "PASS",
+        "palette_poster": "PASS",
+        "size": "PASS"
+      },
+      "palette_median": [
+        203.0,
+        160.0,
+        82.0
+      ]
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "7296b1263fa4f7700171086f22c2d46ee7f4f16a",
+      "path": "preview/belarus-v1/browser-check.json",
+      "bytes": 2076,
+      "sha256": "a3be3a38db93d71aebea7bff2772767c885b863ee2b42d21628434f13d2929de"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 44848,
+          "meshes": 166,
+          "materials": 6,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.865999988745898,
+              2.046999931335449,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 2721256,
+          "open_projection_max_abs_ndc": 0.8923646516630188
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 44848,
+          "meshes": 166,
+          "materials": 6,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.865999988745898,
+              2.046999931335449,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 2721256,
+          "open_projection_max_abs_ndc": 0.8923646516630201
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "7296b1263fa4f7700171086f22c2d46ee7f4f16a",
+      "path": "preview/belarus-v1/delivery-check.json",
+      "bytes": 541,
+      "sha256": "5b6346bdd762055edf0d29da71a720b7ed3c08d177691916257f9e5bfdfb017b"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "HTML_BYTES": 4490498,
+      "GLB_BYTES": 2721256,
+      "ZIP_BYTES": 6841716,
+      "ZIP_ENTRIES": 56,
+      "zip_sha256": "be3a311786c67ab666425a54b07e75b7b45a16b9ef6f21e7f0ef4c25919bf079",
+      "archive_readback_verified": true,
+      "required_artifacts_present": true,
+      "checks": {
+        "source_motion": "PASS",
+        "parity": "PASS",
+        "theme": "PASS",
+        "browser": "PASS",
+        "extended": "PASS",
+        "motion_unit": "PASS",
+        "negative_control": "PASS",
+        "palette_poster": "PASS",
+        "size": "PASS"
+      }
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "7296b1263fa4f7700171086f22c2d46ee7f4f16a",
+      "path": "preview/belarus-v1/extended-check.json",
+      "bytes": 628,
+      "sha256": "2f866ce4d5711c073f8093fa001e3e48deb09dc74d66cc4795e605dfceeff241"
+    },
+    "reported_result": {
+      "features": {
+        "warp": 21,
+        "weft": 13,
+        "maps": [
+          {
+            "key": "map",
+            "material": "Straw / woven golden skin",
+            "width": 512,
+            "height": 512,
+            "range": 63
+          },
+          {
+            "key": "roughnessMap",
+            "material": "Straw / woven golden skin",
+            "width": 512,
+            "height": 512,
+            "range": 40
+          },
+          {
+            "key": "map",
+            "material": "Timber / dark edging",
+            "width": 256,
+            "height": 256,
+            "range": 25
+          }
+        ],
+        "wrong": []
+      },
+      "noJS_poster": true,
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "7296b1263fa4f7700171086f22c2d46ee7f4f16a",
+      "path": "preview/belarus-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "7296b1263fa4f7700171086f22c2d46ee7f4f16a",
+      "path": "preview/belarus-v1/parity-check.json",
+      "bytes": 310,
+      "sha256": "5c3cb29cb5b8b89fcfde279bc654fc164c6b2664baf81b326b7eee8f6f8d4d51"
+    },
+    "reported_result": {
+      "source_vertices": 22752,
+      "imported_vertices": 74983,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "cedar-color.png",
+        "cedar-end.png",
+        "cedar-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "7296b1263fa4f7700171086f22c2d46ee7f4f16a",
+      "path": "preview/belarus-v1/source-check.json",
+      "bytes": 394,
+      "sha256": "98a3ddea1f32b6694619ecbcad48aa0f2fed89430743d3313ac7b37e7a0509e7"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 67,
+      "static_meshes": 99,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 173
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "7296b1263fa4f7700171086f22c2d46ee7f4f16a",
+      "path": "preview/belarus-v1/theme-check.json",
+      "bytes": 323,
+      "sha256": "8f4213587eade26ee8ddfca15b2210aa7f7b42bb5d15f9ab14749451d069ff33"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "warp": 21,
+      "weft": 13,
+      "lid_parentage": true,
+      "height": [
+        1.9930000305175781,
+        2.046999931335449
+      ],
+      "backing_gap_ray": 1.994999885559082,
+      "pivots_preserved": true,
+      "slab_dimensions": [
+        3.7200000286102295,
+        2.380000114440918,
+        0.30000001192092896
+      ]
+    },
+    "fresh_runtime_execution": false
+  }
+]

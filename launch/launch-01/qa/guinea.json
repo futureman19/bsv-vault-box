@@ -1,0 +1,298 @@
+[
+  {
+    "source": {
+      "commit": "f61f874d665a74778b8e851483a6902014ca81d7",
+      "path": "preview/guinea-v1/browser-check.json",
+      "bytes": 2080,
+      "sha256": "a36be4ac9d221e098086b44f9dc58638ab3a26290945c38d8cc806155d8e5eb4"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 19404,
+          "meshes": 100,
+          "materials": 8,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.6557493209838867,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 2105112,
+          "open_projection_max_abs_ndc": 0.8923646516630199
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 19404,
+          "meshes": 100,
+          "materials": 8,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.6557493209838867,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 2105112,
+          "open_projection_max_abs_ndc": 0.8923646516630195
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "f61f874d665a74778b8e851483a6902014ca81d7",
+      "path": "preview/guinea-v1/delivery-check.json",
+      "bytes": 276,
+      "sha256": "9e53205e66f365310771a8dd7a061f3a50944b018788c6e9ef0d953c3b68e8c0"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "html_bytes": 3580154,
+      "glb_bytes": 2105112,
+      "inventory_files": 57,
+      "archive_bytes": 8907450,
+      "archive_sha256": "e5dbe65ab323a6c740e9cda1e6ec749d9a8dddb860d8deb3dc0f1ecd302f2279",
+      "archive_readback": true,
+      "poster_nonblank": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "f61f874d665a74778b8e851483a6902014ca81d7",
+      "path": "preview/guinea-v1/extended-check.json",
+      "bytes": 453,
+      "sha256": "45abda6d62cdb793feb7e7cd41070546c68a26a80663ac9433441eaee005c34f"
+    },
+    "reported_result": {
+      "features": {
+        "terrain": 45,
+        "maps": [
+          {
+            "material": "Ferruginous earth / fine mineral mottling",
+            "width": 512,
+            "height": 512,
+            "range": 87
+          },
+          {
+            "material": "Nimba / exposed rock",
+            "width": 512,
+            "height": 512,
+            "range": 115
+          }
+        ],
+        "wrong": []
+      },
+      "all_terrain_lid_ancestry": true,
+      "noJS_poster": true,
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "f61f874d665a74778b8e851483a6902014ca81d7",
+      "path": "preview/guinea-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "f61f874d665a74778b8e851483a6902014ca81d7",
+      "path": "preview/guinea-v1/parity-check.json",
+      "bytes": 308,
+      "sha256": "ae35a1ce8b4a1809b700476e8296b8891ee4c9ab4b66839d64d239f67c3bc722"
+    },
+    "reported_result": {
+      "source_vertices": 10097,
+      "imported_vertices": 31311,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "earth-color.png",
+        "earth-roughness.png",
+        "granite.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "f61f874d665a74778b8e851483a6902014ca81d7",
+      "path": "preview/guinea-v1/source-check.json",
+      "bytes": 394,
+      "sha256": "d39ac584b0eba2dd06eb247591858be9deeeea6cc26381b02d1e9a4fa9a3c4b4"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 59,
+      "static_meshes": 39,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 105
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "f61f874d665a74778b8e851483a6902014ca81d7",
+      "path": "preview/guinea-v1/theme-check.json",
+      "bytes": 827,
+      "sha256": "a9c824ad0fd5a752aa94cd1d060f50cc2f317d83a63108665b9d729f1f36b843"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "ridge_dimensions": [
+        2.4600000381469727,
+        0.9599999785423279,
+        0.6797493696212769
+      ],
+      "peak_heights": [
+        2.488034248352051,
+        2.6557493209838867,
+        2.410142660140991
+      ],
+      "forest_clusters": 42,
+      "all_terrain_on_lid": true,
+      "seam_max_height": 0.1080000028014183,
+      "packed_maps": [
+        {
+          "name": "earth-color.png",
+          "size": [
+            512,
+            512
+          ]
+        },
+        {
+          "name": "earth-roughness.png",
+          "size": [
+            512,
+            512
+          ]
+        },
+        {
+          "name": "granite.png",
+          "size": [
+            512,
+            512
+          ]
+        }
+      ],
+      "lid_pivot": [
+        0.0,
+        1.3200000524520874,
+        1.6679999828338623
+      ],
+      "latch_pivot": [
+        0.0,
+        -2.6100001335144043,
+        0.2200000286102295
+      ]
+    },
+    "fresh_runtime_execution": false
+  }
+]

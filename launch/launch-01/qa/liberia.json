@@ -1,0 +1,332 @@
+[
+  {
+    "source": {
+      "commit": "d86fd05f0b2070ce9974541020e712ea9560f82a",
+      "path": "preview/liberia-v1/browser-check.json",
+      "bytes": 2080,
+      "sha256": "30c8a4f933ca92c1560be4cb5a44bdd05574a68d7a7af73131c6deca932a9969"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 29834,
+          "meshes": 174,
+          "materials": 12,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.865999988745898,
+              2.8236457780003548,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 2377424,
+          "open_projection_max_abs_ndc": 0.8923646516630201
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 29834,
+          "meshes": 174,
+          "materials": 12,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.865999988745898,
+              2.8236457780003548,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 2377424,
+          "open_projection_max_abs_ndc": 0.8923646516630203
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "d86fd05f0b2070ce9974541020e712ea9560f82a",
+      "path": "preview/liberia-v1/delivery-check.json",
+      "bytes": 1897,
+      "sha256": "b66ccffcd0c181b5e7242f47af9914be6cc8a4792a24f707f104c659e1b47bbd"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "html_bytes": 3905725,
+      "glb_bytes": 2377424,
+      "decoded_maps": [
+        {
+          "name": "timber-end",
+          "size": [
+            256,
+            256
+          ],
+          "extrema": [
+            [
+              59,
+              83
+            ],
+            [
+              34,
+              48
+            ],
+            [
+              18,
+              26
+            ]
+          ]
+        },
+        {
+          "name": "granite",
+          "size": [
+            256,
+            256
+          ],
+          "extrema": [
+            [
+              39,
+              182
+            ],
+            [
+              38,
+              180
+            ],
+            [
+              38,
+              177
+            ]
+          ]
+        },
+        {
+          "name": "timber-color",
+          "size": [
+            512,
+            512
+          ],
+          "extrema": [
+            [
+              66,
+              125
+            ],
+            [
+              38,
+              74
+            ],
+            [
+              21,
+              40
+            ]
+          ]
+        },
+        {
+          "name": "timber-roughness",
+          "size": [
+            512,
+            512
+          ],
+          "extrema": [
+            [
+              255,
+              255
+            ],
+            [
+              146,
+              199
+            ],
+            [
+              255,
+              255
+            ]
+          ]
+        }
+      ],
+      "no_js_fallback": true,
+      "required_artifacts": [
+        "liberia-v1.html",
+        "liberia.glb",
+        "liberia.blend",
+        "poster.png",
+        "poster.jpg",
+        "design-brief.md",
+        "README.md",
+        "author.py",
+        "maps.py",
+        "mechanism.blend",
+        "source-check.json",
+        "parity-check.json",
+        "browser-check.json",
+        "theme-check.json"
+      ],
+      "inventory_files": 44,
+      "inventory_sha256": "34a1592f160b14cbc95c17455fe7010a17e3c5738006f3586693c3544ab43b12",
+      "exclusions": [
+        "inventory.json and delivery-check.json avoid recursive self hashes"
+      ],
+      "scope": "Local file delivery, no archive/upload/mint/deployment"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "d86fd05f0b2070ce9974541020e712ea9560f82a",
+      "path": "preview/liberia-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "d86fd05f0b2070ce9974541020e712ea9560f82a",
+      "path": "preview/liberia-v1/parity-check.json",
+      "bytes": 333,
+      "sha256": "ec13853f3e2af1fa0cff2c5b8fbd415c46040a91584c240e05b791b02ce53ae0"
+    },
+    "reported_result": {
+      "source_vertices": 15261,
+      "imported_vertices": 52355,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "granite.png",
+        "timber-color.png",
+        "timber-end.png",
+        "timber-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "d86fd05f0b2070ce9974541020e712ea9560f82a",
+      "path": "preview/liberia-v1/source-check.json",
+      "bytes": 394,
+      "sha256": "200c22ec9f7578e0a559205b474a641ca75fca188072f85184fe7492a484b0b9"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 75,
+      "static_meshes": 99,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 181
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "d86fd05f0b2070ce9974541020e712ea9560f82a",
+      "path": "preview/liberia-v1/theme-check.json",
+      "bytes": 223,
+      "sha256": "151d0559417a56419551b8fdad508c2cc069daf5b36f0e4d9cb3ed95c9217411"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "theme": "Sapo Rainforest & River",
+      "lid_ornaments": 47,
+      "broadleaf_trees": 3,
+      "crown_clusters": 15,
+      "river_vertices": 132,
+      "ornament_parentage": true,
+      "height_under_2_9": true
+    },
+    "fresh_runtime_execution": false
+  }
+]

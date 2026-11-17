@@ -1,0 +1,288 @@
+[
+  {
+    "source": {
+      "commit": "f814334fe46f8c4f9aea375f8f78d1c1a32db529",
+      "path": "preview/papua-new-guinea-v1/browser-check.json",
+      "bytes": 2076,
+      "sha256": "309abbee02e922a61c2739145c4be68c36dfdd572482acb14a2c92b77b1f4efe"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 13830,
+          "meshes": 62,
+          "materials": 7,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.24000000208616257,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8805000307038426,
+              2.555000066757202,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1773756,
+          "open_projection_max_abs_ndc": 0.8923646516630185
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 13830,
+          "meshes": 62,
+          "materials": 7,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.24000000208616257,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8805000307038426,
+              2.555000066757202,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1773756,
+          "open_projection_max_abs_ndc": 0.8923646516630223
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "f814334fe46f8c4f9aea375f8f78d1c1a32db529",
+      "path": "preview/papua-new-guinea-v1/delivery-check.json",
+      "bytes": 632,
+      "sha256": "8863794fae6432b8086c991387d83a146d8f35758e75f6772c420adaab687d81"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "html_bytes": 3169901,
+      "glb_bytes": 1773756,
+      "payload_files": 53,
+      "required_files": 27,
+      "exact_archive_inventory_and_hashes": true,
+      "zip_bytes": 8346638,
+      "zip_sha256": "9575886232cc1f2084c9e9f064d88503bf6ea1411e8c73c1f459afffd4f46c9d",
+      "inventory_sha256": "c98192907ad9a56d4a92ba10191502aa10b7a667054654eabbc3f858d24c7bf9",
+      "exclusions": [
+        "delivery-check.json",
+        "git-verification.txt",
+        "inventory.json",
+        "package-output.txt",
+        "papua-new-guinea-v1-source.zip"
+      ],
+      "note": "Local package only; inventory excludes envelopes to avoid circular hashing."
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "f814334fe46f8c4f9aea375f8f78d1c1a32db529",
+      "path": "preview/papua-new-guinea-v1/extended-check.json",
+      "bytes": 824,
+      "sha256": "3742685b8ca78d9e1b5ddb3834a3e7a394d8178700df793672e42a3239dde3c9"
+    },
+    "reported_result": {
+      "poster_pixels": "PASS",
+      "features": {
+        "ridges": [
+          {
+            "name": "Highland_ridge__0",
+            "parent": "Lid_Hinge"
+          },
+          {
+            "name": "Highland_ridge__1",
+            "parent": "Lid_Hinge"
+          },
+          {
+            "name": "Highland_ridge__2",
+            "parent": "Lid_Hinge"
+          }
+        ],
+        "maps": [
+          {
+            "key": "map",
+            "channel": 0,
+            "width": 512,
+            "height": 512,
+            "range": 113
+          },
+          {
+            "key": "roughnessMap",
+            "channel": 1,
+            "width": 512,
+            "height": 512,
+            "range": 44
+          },
+          {
+            "key": "normalMap",
+            "channel": 0,
+            "width": 512,
+            "height": 512,
+            "range": 127
+          }
+        ]
+      },
+      "noJS_poster": true,
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "f814334fe46f8c4f9aea375f8f78d1c1a32db529",
+      "path": "preview/papua-new-guinea-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "f814334fe46f8c4f9aea375f8f78d1c1a32db529",
+      "path": "preview/papua-new-guinea-v1/parity-check.json",
+      "bytes": 312,
+      "sha256": "c2872b12d8e55ae59af2ccf1172a227b4ea6679c072950cb5bad9e97525f41a5"
+    },
+    "reported_result": {
+      "source_vertices": 7035,
+      "imported_vertices": 20606,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "fibre-color.png",
+        "fibre-normal.png",
+        "fibre-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "f814334fe46f8c4f9aea375f8f78d1c1a32db529",
+      "path": "preview/papua-new-guinea-v1/source-check.json",
+      "bytes": 393,
+      "sha256": "6d8993de37fa8e7bc18cb30842fc4d7f341ae13372e0aaa593fcd48c3cc07474"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 19,
+      "static_meshes": 43,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 69
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "f814334fe46f8c4f9aea375f8f78d1c1a32db529",
+      "path": "preview/papua-new-guinea-v1/theme-source-check.json",
+      "bytes": 260,
+      "sha256": "b043f3d2b2a972b5511f2befe2bc48af7e8c2114ab12bb2d1abd39bd279afad3"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "ridges": 3,
+      "fibre_panels": 4,
+      "pivot_matrices_unchanged": true,
+      "relief_height_and_footprint": true,
+      "negative_detached_ridge_rejected": true,
+      "note": "Post-implementation negative control, not test-first history."
+    },
+    "fresh_runtime_execution": false
+  }
+]

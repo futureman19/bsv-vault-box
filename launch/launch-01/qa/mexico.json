@@ -1,0 +1,330 @@
+[
+  {
+    "source": {
+      "commit": "5ed8b7b61f3dfd9ecb9cd4faa0894f30fbdd761c",
+      "path": "preview/mexico-v1/acceptance-check.json",
+      "bytes": 289,
+      "sha256": "54480667549eb9e3abbff03af87c121986b7b7a17dfd50074cc1b543d55dc37c"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "checks": {
+        "source": "PASS",
+        "hinge_attachment": "PASS",
+        "parity": "PASS",
+        "theme": "PASS",
+        "browser": "PASS",
+        "extended": "PASS",
+        "size": "PASS",
+        "motion": "PASS"
+      },
+      "HTML_BYTES": 3886150,
+      "GLB_BYTES": 2266880
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "5ed8b7b61f3dfd9ecb9cd4faa0894f30fbdd761c",
+      "path": "preview/mexico-v1/browser-check.json",
+      "bytes": 2078,
+      "sha256": "3ded3019f5a9d277ac4eac50e5cb30e2d513ca6b32973781301a49852704435a"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 29108,
+          "meshes": 172,
+          "materials": 8,
+          "bounds": {
+            "min": [
+              -1.8680000398308039,
+              -0.30737072974443436,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8680000398308039,
+              2.93999981880188,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 2266880,
+          "open_projection_max_abs_ndc": 0.8923646516630186
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 29108,
+          "meshes": 172,
+          "materials": 8,
+          "bounds": {
+            "min": [
+              -1.8680000398308039,
+              -0.30737072974443436,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8680000398308039,
+              2.93999981880188,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 2266880,
+          "open_projection_max_abs_ndc": 0.8923646516630211
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "5ed8b7b61f3dfd9ecb9cd4faa0894f30fbdd761c",
+      "path": "preview/mexico-v1/delivery-check.json",
+      "bytes": 790,
+      "sha256": "48f7880f6818ae2c82b0524d0cb3eb10ac53d4731eb4a16f70441a53a24d20a3"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "HTML_bytes": 3886150,
+      "GLB_bytes": 2266880,
+      "ZIP_bytes": 6227206,
+      "ZIP_sha256": "037e880057af82467ccc0309d312c3c0c40ecacc30cad3d59a6b3e5eac497161",
+      "inventory_entries": 55,
+      "archive_readback_verified": true,
+      "required_artifacts_verified": [
+        "README.md",
+        "acceptance-check.json",
+        "browser-check.json",
+        "design-brief.md",
+        "mechanism.blend",
+        "mexico-v1.html",
+        "mexico.blend",
+        "mexico.glb",
+        "parity-check.json",
+        "poster.png",
+        "source-check.json",
+        "theme-check.json"
+      ],
+      "all_payload_sha256_verified": true,
+      "inventory_scope": "Every delivery file except inventory itself, delivery-check envelope, ZIP and mutable execution logs git-evidence/package-output; no recursive hashes."
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "5ed8b7b61f3dfd9ecb9cd4faa0894f30fbdd761c",
+      "path": "preview/mexico-v1/extended-check.json",
+      "bytes": 871,
+      "sha256": "2551a25bad76ac34efee13f6e7f28f89b5da899ba67b917079a8b83e554e5606"
+    },
+    "reported_result": {
+      "poster_nontransparent_fraction": 1.0,
+      "runtime": {
+        "maps": [
+          {
+            "material": "Ceramic / cobalt floral glaze",
+            "slot": "map",
+            "channel": 0,
+            "width": 512,
+            "height": 512,
+            "range": 255
+          },
+          {
+            "material": "Ceramic / cobalt floral glaze",
+            "slot": "roughnessMap",
+            "channel": 1,
+            "width": 512,
+            "height": 512,
+            "range": 36
+          },
+          {
+            "material": "Terracotta / fired earth",
+            "slot": "map",
+            "channel": 0,
+            "width": 256,
+            "height": 256,
+            "range": 31
+          }
+        ],
+        "leaves": 24,
+        "wrong": []
+      },
+      "reduced_motion_samples": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "nojs_poster": true,
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "5ed8b7b61f3dfd9ecb9cd4faa0894f30fbdd761c",
+      "path": "preview/mexico-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "5ed8b7b61f3dfd9ecb9cd4faa0894f30fbdd761c",
+      "path": "preview/mexico-v1/parity-check.json",
+      "bytes": 321,
+      "sha256": "3d7258d6cba096a86414d7e4e5008d817463a575cd7997eeacd0e4204e2e516c"
+    },
+    "reported_result": {
+      "source_vertices": 14898,
+      "imported_vertices": 55265,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "ceramic-color.png",
+        "ceramic-roughness.png",
+        "terracotta-color.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "5ed8b7b61f3dfd9ecb9cd4faa0894f30fbdd761c",
+      "path": "preview/mexico-v1/source-check.json",
+      "bytes": 395,
+      "sha256": "c1fbd76edd8333e95f12c905b03700f46ff85080c0fe11ade69017ea64b4c14e"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 59,
+      "static_meshes": 113,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 179
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "5ed8b7b61f3dfd9ecb9cd4faa0894f30fbdd761c",
+      "path": "preview/mexico-v1/theme-check.json",
+      "bytes": 470,
+      "sha256": "919b00eb4012bdc547be1e31719c084a8a469c494e046a87980cb27614f0788f"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "ceramic_body_tiles": 78,
+      "lid_border_tiles": 18,
+      "agave_leaves": 24,
+      "all_ornaments_lid_owned": true,
+      "max_leaf_z": 2.93999981880188,
+      "root_to_soil_max_abs_z": 0.007686138153076172,
+      "pivot_matrices_identical_to_included_mechanism": true,
+      "negative_control": {
+        "detached_leaf_rejected": true,
+        "message": "Detached agave leaf: Agave / leaf 00",
+        "restored_pass": true
+      },
+      "old_theme_nodes_absent": true
+    },
+    "fresh_runtime_execution": false
+  }
+]

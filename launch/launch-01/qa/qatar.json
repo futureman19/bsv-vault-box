@@ -1,0 +1,263 @@
+[
+  {
+    "source": {
+      "commit": "19b21597e5faa964cfc1d48b97145d3015b2f8dd",
+      "path": "preview/qatar-v1/browser-check.json",
+      "bytes": 2077,
+      "sha256": "1d19b6df893742194b0f2ce3f7c5ba5e9701af6fadbd9ee1566468e7edcea1e3"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 18828,
+          "meshes": 59,
+          "materials": 4,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.27000000327825546,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.3959946632385254,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1196608,
+          "open_projection_max_abs_ndc": 0.9375376955152478
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 18828,
+          "meshes": 59,
+          "materials": 4,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.27000000327825546,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.3959946632385254,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1196608,
+          "open_projection_max_abs_ndc": 0.937537695515247
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "19b21597e5faa964cfc1d48b97145d3015b2f8dd",
+      "path": "preview/qatar-v1/delivery-check.json",
+      "bytes": 281,
+      "sha256": "90387a9a33b5a8d2009a69de304ab3f0da41ec022f0ba405e43c31832a585343"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "HTML_BYTES": 2360912,
+      "GLB_BYTES": 1196608,
+      "ZIP_BYTES": 4990355,
+      "ZIP_SHA256": "a57edaeda9932ea343e4ca1f56f21d81d3e00804cc1ab60e8b87e7e3eec43009",
+      "inventory_entries": 53,
+      "archive_readback": true,
+      "required_artifacts_present": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "19b21597e5faa964cfc1d48b97145d3015b2f8dd",
+      "path": "preview/qatar-v1/extended-check.json",
+      "bytes": 421,
+      "sha256": "08e186751fe9b46f6029703166e43dcc124f73a386b02e4df9a4b01af92fe20a"
+    },
+    "reported_result": {
+      "dunes": 3,
+      "water": 1,
+      "wrong": [],
+      "maps": [
+        {
+          "key": "map",
+          "width": 256,
+          "height": 256,
+          "range": 38
+        },
+        {
+          "key": "roughnessMap",
+          "width": 256,
+          "height": 256,
+          "range": 74
+        },
+        {
+          "key": "normalMap",
+          "width": 256,
+          "height": 256,
+          "range": 34
+        }
+      ],
+      "noJS_poster": true,
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "19b21597e5faa964cfc1d48b97145d3015b2f8dd",
+      "path": "preview/qatar-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "19b21597e5faa964cfc1d48b97145d3015b2f8dd",
+      "path": "preview/qatar-v1/parity-check.json",
+      "bytes": 310,
+      "sha256": "b4cf1a43b68582b79258c607cf4479dbf9ba894f201643ea24fdaa6970c3280f"
+    },
+    "reported_result": {
+      "source_vertices": 10165,
+      "imported_vertices": 26907,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "sand-color.png",
+        "sand-normal.png",
+        "sand-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "19b21597e5faa964cfc1d48b97145d3015b2f8dd",
+      "path": "preview/qatar-v1/source-check.json",
+      "bytes": 393,
+      "sha256": "d1643ac9f69c5a891ea2b5a6fcc247479835ec0f72467b6fb9c80921e12c9c7a"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 20,
+      "static_meshes": 39,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 66
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "19b21597e5faa964cfc1d48b97145d3015b2f8dd",
+      "path": "preview/qatar-v1/theme-check.json",
+      "bytes": 241,
+      "sha256": "38287400630641be585ca850cad4e315d5e1508f16692b2846319b2b205ea15f"
+    },
+    "reported_result": {
+      "dunes": 3,
+      "tidal_faces": 64,
+      "lid_ancestry": true,
+      "dune_relief": true,
+      "upward_top_normals": true,
+      "detached_inlay_negative_control": "REJECTED as required",
+      "original_pivots_preserved": true,
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  }
+]

@@ -1,0 +1,288 @@
+[
+  {
+    "source": {
+      "commit": "e13dd91fe1518caeafa2009b54c3a3ed5a88ac29",
+      "path": "preview/belgium-v1/browser-check.json",
+      "bytes": 2080,
+      "sha256": "8ba8f6c0cdec3b56ab214737cf086352881e46f8588fd84d59bfa8a8f6f99247"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 26296,
+          "meshes": 124,
+          "materials": 5,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.21000000461935997,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.0480000115931034,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 2488292,
+          "open_projection_max_abs_ndc": 0.8923646516630227
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 26296,
+          "meshes": 124,
+          "materials": 5,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.21000000461935997,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.0480000115931034,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 2488292,
+          "open_projection_max_abs_ndc": 0.8923646516630197
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "e13dd91fe1518caeafa2009b54c3a3ed5a88ac29",
+      "path": "preview/belgium-v1/delivery-check.json",
+      "bytes": 357,
+      "sha256": "31953b8973d7be2705b94abcd73c98bcd8fc25db18e83b9631655b771ea96325"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "HTML_BYTES": 4095204,
+      "GLB_BYTES": 2488292,
+      "ZIP_BYTES": 7002504,
+      "ZIP_entries": 50,
+      "zip_sha256": "9bb11f489789c444da9e84c8986204d61525136b24f8014e195db5b560645b93",
+      "required_artifacts_present": true,
+      "archive_readback_verified": true,
+      "poster_real_image_nonblank": true,
+      "inventory_payload_count": 49
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "e13dd91fe1518caeafa2009b54c3a3ed5a88ac29",
+      "path": "preview/belgium-v1/extended-check.json",
+      "bytes": 1004,
+      "sha256": "fd58945d158727081839cce9a6acf1a7ea82a561ec915d35391a36d5b6e98883"
+    },
+    "reported_result": {
+      "features": {
+        "fossils": 69,
+        "maps": [
+          {
+            "material": "Belgian blue limestone / honed",
+            "key": "map",
+            "width": 512,
+            "height": 512,
+            "range": 139,
+            "mean": [
+              61.165199279785156,
+              73.88958740234375,
+              84.60863494873047
+            ]
+          },
+          {
+            "material": "Belgian blue limestone / honed",
+            "key": "roughnessMap",
+            "width": 512,
+            "height": 512,
+            "range": 89,
+            "mean": [
+              255,
+              154.52590560913086,
+              255
+            ]
+          },
+          {
+            "material": "Petit Granit / polished lid",
+            "key": "map",
+            "width": 512,
+            "height": 512,
+            "range": 97,
+            "mean": [
+              42.36515808105469,
+              51.320518493652344,
+              58.80311584472656
+            ]
+          }
+        ],
+        "wrong": []
+      },
+      "copy_and_accessibility": "PASS",
+      "status": "PASS",
+      "noJS_poster": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "e13dd91fe1518caeafa2009b54c3a3ed5a88ac29",
+      "path": "preview/belgium-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "e13dd91fe1518caeafa2009b54c3a3ed5a88ac29",
+      "path": "preview/belgium-v1/parity-check.json",
+      "bytes": 310,
+      "sha256": "dac072b13a4f3744ebab580489c1b6abad81cecff4709e20fc54c402730d9426"
+    },
+    "reported_result": {
+      "source_vertices": 13392,
+      "imported_vertices": 49554,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "lid-color.png",
+        "stone-color.png",
+        "stone-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "e13dd91fe1518caeafa2009b54c3a3ed5a88ac29",
+      "path": "preview/belgium-v1/source-check.json",
+      "bytes": 394,
+      "sha256": "fb4849d94e7d03f9f5e9198435f56dca7f22941f90e3859d3df578aa691a2660"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 85,
+      "static_meshes": 39,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 131
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "e13dd91fe1518caeafa2009b54c3a3ed5a88ac29",
+      "path": "preview/belgium-v1/theme-check.json",
+      "bytes": 288,
+      "sha256": "ef7dd043285eef2f0759762eb73bf97ef6b2b9bad3b2ad8fb529ff1ee8270d53"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "ornament_parts": 69,
+      "seated_z": 1.978,
+      "height_max": 2.0480000972747803,
+      "gap_rays": 8,
+      "pivots_unchanged": true,
+      "panel_overlap": false,
+      "negative_control": {
+        "detached_ornament_rejected": true,
+        "error": "ornament ancestry"
+      }
+    },
+    "fresh_runtime_execution": false
+  }
+]

@@ -1,0 +1,425 @@
+[
+  {
+    "source": {
+      "commit": "e80c511888714b9784a12cf894d1a1a863b8c678",
+      "path": "preview/israel-v1/browser-check.json",
+      "bytes": 2074,
+      "sha256": "4b0885675699ec38474f83468a5f9d0768c6b02dabda6c1e5ec70af7aa1b3454"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 14426,
+          "meshes": 58,
+          "materials": 6,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.3105585500597954,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.458031177520752,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1650920,
+          "open_projection_max_abs_ndc": 0.8923646516630203
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 14426,
+          "meshes": 58,
+          "materials": 6,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.3105585500597954,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.458031177520752,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1650920,
+          "open_projection_max_abs_ndc": 0.8923646516630204
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "e80c511888714b9784a12cf894d1a1a863b8c678",
+      "path": "preview/israel-v1/contract-check.json",
+      "bytes": 1280,
+      "sha256": "4e570a97dd946f51fe5a31732100fea174d8ee5aad805b4a7e3c7319432c38c4"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "pivots_equal_included_mechanism": {
+        "Lid_Hinge": {
+          "location": [
+            0.0,
+            1.3200000524520874,
+            1.6679999828338623
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "parent": null
+        },
+        "Latch_Pivot": {
+          "location": [
+            0.0,
+            -2.6100001335144043,
+            0.2200000286102295
+          ],
+          "rotation": [
+            0.0,
+            -0.0,
+            0.0
+          ],
+          "parent": "Lid_Hinge"
+        }
+      },
+      "basin_floor_z": 2.0199999809265137,
+      "basin_rim_z": 2.458031177520752,
+      "relief_height": 0.4380311965942383,
+      "lid_dimensions": [
+        3.7200000286102295,
+        2.380000114440918,
+        0.30000001192092896
+      ],
+      "packed_source_images": [
+        "limestone-color.png",
+        "limestone-normal.png",
+        "limestone-roughness.png"
+      ],
+      "export_image_sha256": [
+        "460ed11a642a98b9ffcd8a37f0f2b049204adf41035ad5624f16dfed32e30c0f",
+        "a841a40eae976316f73998b16041d2f0d0e380b7e6eed860a8cfa855d80848be",
+        "ec9467c94ea37099a0d245b908dc9b2fe363c177af45b9825f520be0e5ad4a26"
+      ],
+      "base_normal_export_bytes_equal_maps": true,
+      "roughness_note": "Exporter packs roughness into ORM image; actual loader decodes and checks variation."
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "e80c511888714b9784a12cf894d1a1a863b8c678",
+      "path": "preview/israel-v1/delivery-check.json",
+      "bytes": 858,
+      "sha256": "df5479d35d756b11470c261d28726e8af92181913d1f426afd22c329c725effe"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "html": {
+        "bytes": 2904746,
+        "sha256": "798b0ff7491b22bb1a5e808cbd92250c155e0cc3e6530e46f47bb18505c08435"
+      },
+      "glb": {
+        "bytes": 1650920,
+        "sha256": "daa29f7f05b382b2c06c9d6bd84797330c42d307e95aa3798afa0ea612bb9d0a"
+      },
+      "blend": {
+        "bytes": 859361,
+        "sha256": "253352aaa42900c9df41e184c4789d785f0a83e33e1c3876d287d0685539d2a2"
+      },
+      "archive": {
+        "bytes": 6905305,
+        "sha256": "d9bbdaefda87b6c94546f914c377728f334722c12723de2d083106da65726d15"
+      },
+      "inventory": {
+        "bytes": 7352,
+        "sha256": "3b40aef7438fecc28251aedd8ab79c973bd1b46e8ad5b996b8202b507a2c98b4"
+      },
+      "payload_file_count": 55,
+      "required_file_count": 26,
+      "zip_exact_inventory_and_hash_readback": true,
+      "extracted_offline_file_browser_open_reset": true,
+      "external_requests": [],
+      "errors": []
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "e80c511888714b9784a12cf894d1a1a863b8c678",
+      "path": "preview/israel-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "e80c511888714b9784a12cf894d1a1a863b8c678",
+      "path": "preview/israel-v1/parity-check.json",
+      "bytes": 324,
+      "sha256": "e0663100f89148a7229787291eb1b182d0e76ccf235c4119b62040ce9cb555aa"
+    },
+    "reported_result": {
+      "source_vertices": 7321,
+      "imported_vertices": 26144,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "limestone-color.png",
+        "limestone-normal.png",
+        "limestone-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "e80c511888714b9784a12cf894d1a1a863b8c678",
+      "path": "preview/israel-v1/source-check.json",
+      "bytes": 393,
+      "sha256": "1d418a27f6913e97a136f528e332b76d482f6637c5a9f2f6df3c18371a0afc8a"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 17,
+      "static_meshes": 39,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 63
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "e80c511888714b9784a12cf894d1a1a863b8c678",
+      "path": "preview/israel-v1/theme-check.json",
+      "bytes": 3097,
+      "sha256": "04c53e288406e3fae411e1f1300389d2528c36da0ac932a494b3f769904f4e50"
+    },
+    "reported_result": {
+      "terrain": [
+        {
+          "name": "Eroded_basin_relief",
+          "lid": true,
+          "lo": [
+            -1.2257381677627563,
+            2.0199999809265137,
+            -0.6687310934066772
+          ],
+          "hi": [
+            1.1925489902496338,
+            2.357736825942993,
+            0.6390758752822876
+          ]
+        },
+        {
+          "name": "Eroded_basin_relief_1",
+          "lid": true,
+          "lo": [
+            -1.543254017829895,
+            1.8915371894836426,
+            -0.8573475480079651
+          ],
+          "hi": [
+            1.5571141242980957,
+            2.458031177520752,
+            0.8193280100822449
+          ]
+        },
+        {
+          "name": "Eroded_basin_relief_2",
+          "lid": true,
+          "lo": [
+            -1.1102778911590576,
+            2.037687063217163,
+            -0.6001432538032532
+          ],
+          "hi": [
+            1.0599799156188965,
+            2.158446788787842,
+            0.5735296010971069
+          ]
+        }
+      ],
+      "maps": [
+        {
+          "slot": "map",
+          "width": 512,
+          "height": 512,
+          "range": 42
+        },
+        {
+          "slot": "roughnessMap",
+          "width": 512,
+          "height": 512,
+          "range": 37
+        },
+        {
+          "slot": "normalMap",
+          "width": 512,
+          "height": 512,
+          "range": 17
+        }
+      ],
+      "names": [
+        "Clasp__keeper_mounting_ear",
+        "Clasp__keeper_mounting_ear001",
+        "Clasp__keeper_screw",
+        "Clasp__keeper_screw001",
+        "Hinge__bearing_mounting_stem",
+        "Hinge__bearing_mounting_stem001",
+        "Hinge__body_attachment_bridge",
+        "Hinge__body_attachment_bridge001",
+        "Hinge__fixed_barrel",
+        "Hinge__fixed_barrel001",
+        "Hinge__fixed_mount",
+        "Hinge__fixed_mount001",
+        "Interior_floor",
+        "Interior_wall__end",
+        "Interior_wall__end001",
+        "Interior_wall__front",
+        "Interior_wall__rear",
+        "Latch__keeper",
+        "Corner_hardware__edge",
+        "Corner_hardware__edge001",
+        "Corner_hardware__edge002",
+        "Corner_hardware__edge003",
+        "Corner_hardware__top",
+        "Corner_hardware__top001",
+        "Corner_hardware__top002",
+        "Corner_hardware__top003",
+        "Hinge__moving_leaf",
+        "Hinge__moving_leaf001",
+        "Latch__pin",
+        "Latch__hinge_bridge",
+        "Latch__lifting_hasp",
+        "Latch__raised_face",
+        "Latch__rotating_knuckle",
+        "Lid__polished_slab",
+        "Eroded_basin_relief",
+        "Eroded_basin_relief_1",
+        "Eroded_basin_relief_2",
+        "Limestone__clasp_seat",
+        "Limestone__end_wall",
+        "Limestone__end_wall001",
+        "Limestone__long_wall",
+        "Limestone__long_wall001",
+        "Limestone__rim_corner",
+        "Limestone__rim_corner001",
+        "Limestone__rim_corner002",
+        "Limestone__rim_corner003",
+        "Limestone_foot",
+        "Limestone_foot001",
+        "Limestone_foot002",
+        "Limestone_foot003",
+        "Medallion__raised_rim",
+        "Medallion__solid_emblem",
+        "Mineral_seam__long",
+        "Mineral_seam__long001",
+        "Mineral_seam__side",
+        "Mineral_seam__side001",
+        "Side_ring__hanging_brass",
+        "Side_ring__mount"
+      ],
+      "detached_terrain_negative_control_rejected": true,
+      "noJS_poster": true,
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  }
+]

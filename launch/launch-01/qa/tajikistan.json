@@ -1,0 +1,311 @@
+[
+  {
+    "source": {
+      "commit": "111078c3443c6a66d3a4a657662b227c91d3a707",
+      "path": "preview/tajikistan-v1/browser-check.json",
+      "bytes": 2076,
+      "sha256": "a72e5a23e395a9438d8430df2cc39718403d6c75c476a7f5ba6b3c8eff04eb57"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 18050,
+          "meshes": 58,
+          "materials": 6,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.923239231109619,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1779636,
+          "open_projection_max_abs_ndc": 0.9128031035463976
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 18050,
+          "meshes": 58,
+          "materials": 6,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.923239231109619,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1779636,
+          "open_projection_max_abs_ndc": 0.9128031035463932
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "111078c3443c6a66d3a4a657662b227c91d3a707",
+      "path": "preview/tajikistan-v1/delivery-check.json",
+      "bytes": 612,
+      "sha256": "d25482f260a7679ada273c3e79f86909ba9dcc6b330344725ab45cd5e40a9782"
+    },
+    "reported_result": {
+      "PASS": true,
+      "HTML_BYTES": 3193523,
+      "GLB_BYTES": 1779636,
+      "HTML_SHA256": "794f37faf9bf9457c8cd759b2797f34a368ff6154be002d85dc46273fc4fc5b0",
+      "GLB_SHA256": "4a9bafed4e6d443b2f68e5de31047407e2b6a3d8e2015bc3947a83e5d09da2bc",
+      "ZIP_BYTES": 8811106,
+      "ZIP_SHA256": "9b1cbd13be3e0e4d8677d3a91d2d4b6d45df2dc8be8ae64e33f650e64487f760",
+      "entries": 59,
+      "required_artifacts_present": true,
+      "archive_readback_verified": true,
+      "poster_nonempty": true,
+      "inventory_excludes": "itself, ZIP and delivery envelope; package-output and git-verification logs to avoid changing self-reference"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "111078c3443c6a66d3a4a657662b227c91d3a707",
+      "path": "preview/tajikistan-v1/extended-check.json",
+      "bytes": 807,
+      "sha256": "c68fd9a6e4bc2a49c21e8e1c68a2c318dbb72a29edf254dbfcdd6c5e9f318e66"
+    },
+    "reported_result": {
+      "features": {
+        "terrain": [
+          "Terrain__Alpine_lake/Terrain__Alpine_lake",
+          "Terrain__Pamir_ridge/Pamir_ridge_closed_relief",
+          "Terrain__Pamir_ridge/Pamir_ridge_closed_relief_1"
+        ],
+        "maps": [
+          {
+            "kind": "map",
+            "material": "Pamir / granular rock",
+            "width": 256,
+            "height": 256,
+            "range": 179
+          },
+          {
+            "kind": "map",
+            "material": "Pamir / mineral stone",
+            "width": 512,
+            "height": 512,
+            "range": 159
+          },
+          {
+            "kind": "roughnessMap",
+            "material": "Pamir / mineral stone",
+            "width": 512,
+            "height": 512,
+            "range": 138
+          }
+        ],
+        "wrong": []
+      },
+      "country_copy": true,
+      "noJS_poster": true,
+      "PASS": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "111078c3443c6a66d3a4a657662b227c91d3a707",
+      "path": "preview/tajikistan-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "111078c3443c6a66d3a4a657662b227c91d3a707",
+      "path": "preview/tajikistan-v1/motion-check.json",
+      "bytes": 106,
+      "sha256": "d034c668f7ea33d7b1540c21679d9ccd7e765e1899919899deeeeacec63ee373"
+    },
+    "reported_result": {
+      "PASS": true,
+      "samples": 81,
+      "latch_degrees": 80,
+      "lid_degrees": 105,
+      "negative_controls": 3
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "111078c3443c6a66d3a4a657662b227c91d3a707",
+      "path": "preview/tajikistan-v1/parity-check.json",
+      "bytes": 307,
+      "sha256": "93ebe511d1ac67ea729b2908b83e2b9b82947de00fb770fd602de690a83ce3ff"
+    },
+    "reported_result": {
+      "source_vertices": 9166,
+      "imported_vertices": 34066,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "mineral.png",
+        "stone-color.png",
+        "stone-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "111078c3443c6a66d3a4a657662b227c91d3a707",
+      "path": "preview/tajikistan-v1/source-check.json",
+      "bytes": 393,
+      "sha256": "912b65ed7c28c7ec1aed0233f97b0dedc7cc1e932850d4a7073467060fbb52bd"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 18,
+      "static_meshes": 39,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 64
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "111078c3443c6a66d3a4a657662b227c91d3a707",
+      "path": "preview/tajikistan-v1/theme-check.json",
+      "bytes": 733,
+      "sha256": "64b2ae3455c2eb1d0fc27228654a69dc62a0c24f729aea38878ad31419ab483a"
+    },
+    "reported_result": {
+      "PASS": true,
+      "checks": {
+        "lid_ancestry": true,
+        "ridge_height_2.65_to_2.95": true,
+        "ridge_footprint": true,
+        "snow_and_rock": true,
+        "three_summits": true,
+        "lake_height": true,
+        "lake_front": true,
+        "lake_upward_normals": true,
+        "lake_exposed_0.1": true,
+        "lake_exposed_-0.3": true,
+        "lake_exposed_0.5": true,
+        "packed_maps": true,
+        "negative_control_detached_lake_rejected": true,
+        "no_cedar_geometry": true,
+        "inherited_pivot_matrices": true
+      },
+      "pivot_error": 0.0,
+      "ridge_max_z": 2.923239231109619,
+      "summit_indices": [
+        12,
+        29,
+        50,
+        52
+      ],
+      "negative_control": "temporarily detached lake rejected; restored without saving"
+    },
+    "fresh_runtime_execution": false
+  }
+]

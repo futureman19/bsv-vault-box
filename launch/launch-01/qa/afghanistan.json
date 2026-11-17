@@ -1,0 +1,291 @@
+[
+  {
+    "source": {
+      "commit": "25514037b972afd2b44579ee35b7450d3faacb2f",
+      "path": "preview/afghanistan-v1/browser-check.json",
+      "bytes": 2076,
+      "sha256": "f8950df9809196243934c31a8455e81f7948f2cea6254e4b79eb447eff066e78"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 16586,
+          "meshes": 56,
+          "materials": 4,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.666875123977661,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1758768,
+          "open_projection_max_abs_ndc": 0.8923646516630193
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 16586,
+          "meshes": 56,
+          "materials": 4,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.666875123977661,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1758768,
+          "open_projection_max_abs_ndc": 0.8923646516630201
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "25514037b972afd2b44579ee35b7450d3faacb2f",
+      "path": "preview/afghanistan-v1/delivery-check.json",
+      "bytes": 343,
+      "sha256": "95ea788f37373adf95987999544b1d1cb91708426ed8490d94b45053ec4e2639"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "HTML_BYTES": 3127732,
+      "GLB_BYTES": 1758768,
+      "ZIP_BYTES": 8203376,
+      "zip_sha256": "dd221b653e5e8d102d1c5759ae8e472ab2235f2224156e6281b751f4a0c6f901",
+      "archive_readback_verified": true,
+      "required_artifacts_present": true,
+      "inventory_count": 56,
+      "location": "in-folder delivery; no separate copy"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "25514037b972afd2b44579ee35b7450d3faacb2f",
+      "path": "preview/afghanistan-v1/extended-check.json",
+      "bytes": 610,
+      "sha256": "072fc8a68dbc390dcfc0ef901dbe8ea88d1ae3d40ec16472a3f10326984bfa01"
+    },
+    "reported_result": {
+      "poster_real_pixels": true,
+      "maps": [
+        {
+          "key": "map",
+          "width": 512,
+          "height": 512,
+          "range": 156
+        },
+        {
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512,
+          "range": 71
+        },
+        {
+          "key": "normalMap",
+          "width": 512,
+          "height": 512,
+          "range": 25
+        },
+        {
+          "key": "map",
+          "width": 256,
+          "height": 256,
+          "range": 65
+        }
+      ],
+      "terrain": [
+        {
+          "name": "Terrain__Hindu_Kush_three_peaks",
+          "lid": true
+        }
+      ],
+      "noJS_poster": true,
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "25514037b972afd2b44579ee35b7450d3faacb2f",
+      "path": "preview/afghanistan-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "25514037b972afd2b44579ee35b7450d3faacb2f",
+      "path": "preview/afghanistan-v1/parity-check.json",
+      "bytes": 331,
+      "sha256": "32f47f49fa2d82ec43a295cc57a6a79e6be3c2f2d53169444c5fcfbd6b3ff002"
+    },
+    "reported_result": {
+      "source_vertices": 8401,
+      "imported_vertices": 30033,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "lapis-color.png",
+        "lapis-normal.png",
+        "lapis-roughness.png",
+        "marble.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "25514037b972afd2b44579ee35b7450d3faacb2f",
+      "path": "preview/afghanistan-v1/source-check.json",
+      "bytes": 393,
+      "sha256": "1d418a27f6913e97a136f528e332b76d482f6637c5a9f2f6df3c18371a0afc8a"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 17,
+      "static_meshes": 39,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 63
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "25514037b972afd2b44579ee35b7450d3faacb2f",
+      "path": "preview/afghanistan-v1/theme-check.json",
+      "bytes": 594,
+      "sha256": "f2200be9b73096815dca0f6a25bda1eb31b274f120e9a8abec703ecdd6432a8f"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "negative_control": "Relief detached from lid",
+      "pivots": {
+        "Lid_Hinge": [
+          0.0,
+          1.3200000524520874,
+          1.6679999828338623
+        ],
+        "Latch_Pivot": [
+          0.0,
+          -1.290000081062317,
+          1.8880000114440918
+        ]
+      },
+      "pivot_parity": true,
+      "terrain_height": 0.6888751239776612,
+      "peak_heights": [
+        2.337883949279785,
+        2.666875123977661,
+        2.3659958839416504
+      ],
+      "terrain_owned_by_lid": true,
+      "seated_bottom_z": 1.9700000286102295,
+      "interpretation": "Invented mountain relief; not surveyed terrain"
+    },
+    "fresh_runtime_execution": false
+  }
+]

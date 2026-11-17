@@ -1,0 +1,346 @@
+[
+  {
+    "source": {
+      "commit": "51f30182601479cd397d14f82cd654540475d469",
+      "path": "preview/tunisia-v1/browser-check.json",
+      "bytes": 2129,
+      "sha256": "01536f8901915964a171715530ff5aa3f85169f7a6a023e3129fb675d221c43b"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 17644,
+          "meshes": 68,
+          "materials": 7,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.205818622120458,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1573396,
+          "open_projection_max_abs_ndc": 0.9110182865019231
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 17644,
+          "meshes": 68,
+          "materials": 7,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.205818622120458,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1573396,
+          "open_projection_max_abs_ndc": 0.9110182865019231
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      },
+      {
+        "case": "no JS",
+        "poster": true
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "51f30182601479cd397d14f82cd654540475d469",
+      "path": "preview/tunisia-v1/delivery-check.json",
+      "bytes": 521,
+      "sha256": "051ff5781fbd6c6540a5ae544c25f2293feb7c10fc448a7fbff75cbac360efec"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "HTML_BYTES": 2889913,
+      "GLB_BYTES": 1573396,
+      "ZIP_BYTES": 6226049,
+      "ZIP_SHA256": "77d401fab66486755ff4b6dfdcd1ab4576fd6c69579575cb17a0b84d842a599e",
+      "archive_entries": 51,
+      "exact_archive_readback": true,
+      "required_artifacts_present": true,
+      "checks_passed": [
+        "source",
+        "hinge-attachment",
+        "parity",
+        "theme-and-negative-control",
+        "material-and-runtime-ancestry",
+        "motion",
+        "browser-desktop-mobile",
+        "fallbacks",
+        "delivery"
+      ]
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "51f30182601479cd397d14f82cd654540475d469",
+      "path": "preview/tunisia-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "51f30182601479cd397d14f82cd654540475d469",
+      "path": "preview/tunisia-v1/material-check.json",
+      "bytes": 1687,
+      "sha256": "0ce9620dabdb66d29ac198e9e6097926e2b7ff04e72dd6dc9fda8e8994ebb5c5"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "decoded_maps": [
+        {
+          "material": "Clay / cream geometric slip",
+          "field": "baseColorTexture",
+          "channel": 0,
+          "range": 170
+        },
+        {
+          "material": "Clay / cream geometric slip",
+          "field": "metallicRoughnessTexture",
+          "channel": 1,
+          "range": 48
+        },
+        {
+          "material": "Clay / fired feet",
+          "field": "baseColorTexture",
+          "channel": 0,
+          "range": 16
+        },
+        {
+          "material": "Clay / ochre body",
+          "field": "baseColorTexture",
+          "channel": 0,
+          "range": 16
+        }
+      ],
+      "poster_nonempty": true,
+      "runtime_ornament_ancestry": [
+        {
+          "name": "Sejnane__lip_accent_00",
+          "lid": true
+        },
+        {
+          "name": "Sejnane__lip_accent_01",
+          "lid": true
+        },
+        {
+          "name": "Sejnane__lip_accent_02",
+          "lid": true
+        },
+        {
+          "name": "Sejnane__lip_accent_03",
+          "lid": true
+        },
+        {
+          "name": "Sejnane__lip_accent_04",
+          "lid": true
+        },
+        {
+          "name": "Sejnane__lip_accent_05",
+          "lid": true
+        },
+        {
+          "name": "Sejnane__lip_accent_06",
+          "lid": true
+        },
+        {
+          "name": "Sejnane__lip_accent_07",
+          "lid": true
+        },
+        {
+          "name": "Sejnane__lip_accent_08",
+          "lid": true
+        },
+        {
+          "name": "Sejnane__lip_accent_09",
+          "lid": true
+        },
+        {
+          "name": "Sejnane__lip_accent_10",
+          "lid": true
+        },
+        {
+          "name": "Sejnane__lip_accent_11",
+          "lid": true
+        },
+        {
+          "name": "Sejnane__shallow_dish",
+          "lid": true
+        }
+      ],
+      "country_copy_and_accessibility": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "51f30182601479cd397d14f82cd654540475d469",
+      "path": "preview/tunisia-v1/parity-check.json",
+      "bytes": 308,
+      "sha256": "0c115ad5b3ead875492cbabe4acba14d759163b30d596fc6f6a2e956b91d1964"
+    },
+    "reported_result": {
+      "source_vertices": 9144,
+      "imported_vertices": 28239,
+      "source_to_glb_max": 2.384185791015625e-07,
+      "glb_to_source_max": 2.384185791015625e-07,
+      "source_packed_images": [
+        "clay-color.png",
+        "clay-plain.png",
+        "clay-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "51f30182601479cd397d14f82cd654540475d469",
+      "path": "preview/tunisia-v1/source-check.json",
+      "bytes": 393,
+      "sha256": "193bab1c6ccc874c9f7d669385270fbbd5b23338c1f898b74a8d8734694b0e2b"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 29,
+      "static_meshes": 39,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 75
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "51f30182601479cd397d14f82cd654540475d469",
+      "path": "preview/tunisia-v1/theme-check.json",
+      "bytes": 467,
+      "sha256": "caf2a4fcbf4b351af37cc34f7182933acb9273c2f60165577d75dd9b9fcd3330"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "dish_radius": 0.73,
+      "dish_floor_z": 2.015000104904175,
+      "dish_rim_z": 2.200000047683716,
+      "dish_concavity": 0.18499994277954102,
+      "upward_top_faces": 480,
+      "lip_accents": 12,
+      "lid_dimensions": [
+        3.72,
+        2.38,
+        0.3
+      ],
+      "mechanism_pivots_preserved": true,
+      "negative_control": {
+        "mutation": "detach dish from Lid_Hinge",
+        "rejected": true,
+        "error": "Every dish/mark must travel with lid"
+      }
+    },
+    "fresh_runtime_execution": false
+  }
+]

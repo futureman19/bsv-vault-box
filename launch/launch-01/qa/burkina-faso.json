@@ -1,0 +1,299 @@
+[
+  {
+    "source": {
+      "commit": "4c536a77ca769d768c7461cfd04f4da88937aa1a",
+      "path": "preview/burkina-faso-v1/browser-check.json",
+      "bytes": 2145,
+      "sha256": "c8517b766e1fad3ebc82ff539c181f6b6f5c09dcbb465c2dcf62d096f2a6736c"
+    },
+    "reported_result": [
+      {
+        "status": "PASS",
+        "case": "desktop",
+        "asset": {
+          "triangles": 21596,
+          "meshes": 99,
+          "materials": 5,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.2850000038743019,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8710000095888972,
+              2.5195001028478146,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1622452,
+          "open_projection_max_abs_ndc": 0.8923646516630196
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "status": "PASS",
+        "case": "mobile",
+        "asset": {
+          "triangles": 21596,
+          "meshes": 99,
+          "materials": 5,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.2850000038743019,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8710000095888972,
+              2.5195001028478146,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1622452,
+          "open_projection_max_abs_ndc": 0.8923646516630197
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "status": "PASS",
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "4c536a77ca769d768c7461cfd04f4da88937aa1a",
+      "path": "preview/burkina-faso-v1/delivery-check.json",
+      "bytes": 605,
+      "sha256": "bbc7efaf82d2a96e0d2e640df4598b18836eeb27f715814c371b6f3fd4c5a689"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "html_bytes": 2905568,
+      "glb_bytes": 1622452,
+      "inventory_files": 50,
+      "required_files": 39,
+      "all_required_present": true,
+      "zip_readback_verified": true,
+      "zip_bytes": 5334426,
+      "zip_sha256": "c9bfa3e45463fca17a5b13912d6b404ab31e005eaccd8495262c5274f7d39804",
+      "inventory_sha256": "382da9bbde5f22bb3a6293956415772fb23a8f78831b04634c755309f14d6806",
+      "exclusions": [
+        "inventory and delivery reports and ZIP excluded from payload inventory to avoid circular hashes",
+        "lane diagnostics",
+        "caches",
+        "node_modules",
+        "blend backups"
+      ]
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "4c536a77ca769d768c7461cfd04f4da88937aa1a",
+      "path": "preview/burkina-faso-v1/extended-check.json",
+      "bytes": 508,
+      "sha256": "d06aa4c0549e7b811a8fcec27a4ad80e6107d50ad0a0f46771e1cd5194df63e1"
+    },
+    "reported_result": {
+      "features": {
+        "ornaments": 20,
+        "volumes": 3,
+        "maps": [
+          {
+            "channel": "map",
+            "width": 256,
+            "height": 256,
+            "range": 62
+          },
+          {
+            "channel": "normalMap",
+            "width": 256,
+            "height": 256,
+            "range": 16
+          },
+          {
+            "channel": "roughnessMap",
+            "width": 256,
+            "height": 256,
+            "range": 42
+          }
+        ],
+        "wrong": []
+      },
+      "noJS_poster": true,
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "4c536a77ca769d768c7461cfd04f4da88937aa1a",
+      "path": "preview/burkina-faso-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "4c536a77ca769d768c7461cfd04f4da88937aa1a",
+      "path": "preview/burkina-faso-v1/parity-check.json",
+      "bytes": 334,
+      "sha256": "1bb61fdd1f1d46d036bb438d319d7a8540b23443d4b2992edd06d9c1a4ae96b8"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "source_vertices": 10992,
+      "imported_vertices": 39916,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "earth-color.png",
+        "earth-normal.png",
+        "earth-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "4c536a77ca769d768c7461cfd04f4da88937aa1a",
+      "path": "preview/burkina-faso-v1/source-check.json",
+      "bytes": 415,
+      "sha256": "c4485746bcd6f7a34d4623ce66a3e9505495d95e9aab6d445bb459efb462ef28"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 36,
+      "static_meshes": 63,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 106
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "4c536a77ca769d768c7461cfd04f4da88937aa1a",
+      "path": "preview/burkina-faso-v1/theme-check.json",
+      "bytes": 602,
+      "sha256": "c14ad60b88b9053275cd3b996f318e1e02628d15deceb434bcfa5b65714b5f04"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "theme": "Earthen Courtyard",
+      "ornaments": 20,
+      "volumes": 3,
+      "lid_parentage": true,
+      "ornament_bounds": [
+        [
+          -1.4499999284744263,
+          1.4499999284744263
+        ],
+        [
+          -0.8200001120567322,
+          0.7700000405311584
+        ],
+        [
+          1.9769998788833618,
+          2.5195000171661377
+        ]
+      ],
+      "source_packed_maps": [
+        "earth-color.png",
+        "earth-normal.png",
+        "earth-roughness.png"
+      ],
+      "no_foreign_theme_meshes": true,
+      "body_width": 3.7200000286102295,
+      "body_depth": 2.380000114440918,
+      "pivots_preserved": true
+    },
+    "fresh_runtime_execution": false
+  }
+]

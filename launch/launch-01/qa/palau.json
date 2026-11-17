@@ -1,0 +1,372 @@
+[
+  {
+    "source": {
+      "commit": "e5a231a934132ae5832f5f2c65f00daea04a0570",
+      "path": "preview/palau-v1/acceptance-check.json",
+      "bytes": 883,
+      "sha256": "3e2d74c1e877631994c52d33857c733feaf2f07feba64eab9e7c45b44cee9b17"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "checks": [
+        {
+          "check": "build",
+          "exit_code": 0,
+          "status": "PASS"
+        },
+        {
+          "check": "motion",
+          "exit_code": 0,
+          "status": "PASS"
+        },
+        {
+          "check": "source",
+          "exit_code": 0,
+          "status": "PASS"
+        },
+        {
+          "check": "theme",
+          "exit_code": 0,
+          "status": "PASS"
+        },
+        {
+          "check": "parity",
+          "exit_code": 0,
+          "status": "PASS"
+        },
+        {
+          "check": "browser",
+          "exit_code": 0,
+          "status": "PASS"
+        },
+        {
+          "check": "extended",
+          "exit_code": 0,
+          "status": "PASS"
+        }
+      ],
+      "html_bytes": 2532972,
+      "glb_bytes": 1322992,
+      "html_sha256": "1be199e2a9fa316309750a695418dd7ff195631a230b3249516e8e24939e0874",
+      "glb_sha256": "b69eec1ce4efcbddc1ec700e422ec0f8970616db04126dcc0364f16305228f09"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "e5a231a934132ae5832f5f2c65f00daea04a0570",
+      "path": "preview/palau-v1/browser-check.json",
+      "bytes": 2075,
+      "sha256": "33f700293cf0a919d8323e136b5439bb318fcd7e007f2eff9651df01f8ea5a3a"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 16056,
+          "meshes": 68,
+          "materials": 5,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.566999912261963,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1322992,
+          "open_projection_max_abs_ndc": 0.911881365690599
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 16056,
+          "meshes": 68,
+          "materials": 5,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.566999912261963,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1322992,
+          "open_projection_max_abs_ndc": 0.9118813656906027
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "e5a231a934132ae5832f5f2c65f00daea04a0570",
+      "path": "preview/palau-v1/delivery-check.json",
+      "bytes": 532,
+      "sha256": "7a17729b346fd1670d60c6a6af0fc9ce4aa20c12d2a11ec1b2a61495b2b0bc96"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "HTML_BYTES": 2532972,
+      "GLB_BYTES": 1322992,
+      "ZIP_BYTES": 7616687,
+      "ZIP_SHA256": "350110423c1a37913055326f6bec81e66587269afdc233d71591a8544a77967a",
+      "inventory_entries": 61,
+      "required_artifacts_present": true,
+      "archive_readback_verified": true,
+      "scope": "folder-local only; no external delivery copy or hosting",
+      "html_sha256": "1be199e2a9fa316309750a695418dd7ff195631a230b3249516e8e24939e0874",
+      "glb_sha256": "b69eec1ce4efcbddc1ec700e422ec0f8970616db04126dcc0364f16305228f09"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "e5a231a934132ae5832f5f2c65f00daea04a0570",
+      "path": "preview/palau-v1/extended-check.json",
+      "bytes": 917,
+      "sha256": "48dd9b259a75a2ebdb746d6622e7f930a9183aabbca56a7baf1bcccf241da2a7"
+    },
+    "reported_result": {
+      "poster_real_render_nonblank": true,
+      "features": {
+        "islands": 6,
+        "maps": [
+          {
+            "material": "Limestone / warm coralline",
+            "kind": "map",
+            "channel": 0,
+            "width": 384,
+            "height": 384,
+            "range": 102
+          },
+          {
+            "material": "Limestone / warm coralline",
+            "kind": "roughnessMap",
+            "channel": 1,
+            "width": 384,
+            "height": 384,
+            "range": 45
+          },
+          {
+            "material": "Forest / evergreen crowns",
+            "kind": "map",
+            "channel": 0,
+            "width": 384,
+            "height": 384,
+            "range": 23
+          },
+          {
+            "material": "Lagoon / turquoise enamel",
+            "kind": "map",
+            "channel": 0,
+            "width": 384,
+            "height": 384,
+            "range": 21
+          }
+        ],
+        "wrong": []
+      },
+      "noJS_poster": true,
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "e5a231a934132ae5832f5f2c65f00daea04a0570",
+      "path": "preview/palau-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "e5a231a934132ae5832f5f2c65f00daea04a0570",
+      "path": "preview/palau-v1/parity-check.json",
+      "bytes": 345,
+      "sha256": "0e36ea9ae20da86dc1b9aa55791fcf71193804fba3768af5ad01d8dda632689c"
+    },
+    "reported_result": {
+      "source_vertices": 8148,
+      "imported_vertices": 25138,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "forest-color.png",
+        "lagoon-color.png",
+        "limestone-color.png",
+        "limestone-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "e5a231a934132ae5832f5f2c65f00daea04a0570",
+      "path": "preview/palau-v1/source-check.json",
+      "bytes": 393,
+      "sha256": "9c6591ecf99b17b9bec7a96c19da2c9f5ed6c3b8a87823091df656697ca30680"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 23,
+      "static_meshes": 39,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 69
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "e5a231a934132ae5832f5f2c65f00daea04a0570",
+      "path": "preview/palau-v1/theme-check.json",
+      "bytes": 788,
+      "sha256": "864148ee9fca199cb218d7c03cebc9ed49898811dce317077a3ee9292b4e651c"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "islands": 6,
+      "inherited_pivots_equal": true,
+      "islands_lid_owned": true,
+      "terrain_height_max": 2.566999912261963,
+      "lagoon_clear_sampled_rays": [
+        [
+          -1.5,
+          0,
+          1.9994999170303345
+        ],
+        [
+          0,
+          0,
+          1.999500036239624
+        ],
+        [
+          1.5,
+          0,
+          1.9994999170303345
+        ],
+        [
+          0,
+          0.88,
+          1.999500036239624
+        ],
+        [
+          0,
+          -0.88,
+          1.999500036239624
+        ],
+        [
+          -0.6,
+          0.35,
+          1.9994999170303345
+        ],
+        [
+          0.23,
+          0.4,
+          1.999500036239624
+        ]
+      ],
+      "detached_island_negative_control_rejected": true,
+      "limits": "Original stylized island arrangement; sampled water rays, not a geographic survey."
+    },
+    "fresh_runtime_execution": false
+  }
+]

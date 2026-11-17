@@ -1,0 +1,272 @@
+[
+  {
+    "source": {
+      "commit": "c9aaee51b30714bf419c57ddee0a5322d1b2a3eb",
+      "path": "preview/atlantic-ocean-v1/browser-check.json",
+      "bytes": 2076,
+      "sha256": "116d4d5193217416719269e8fcbbcb7f530c6857e96f423f5b05d5ecda3deaec"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 14476,
+          "meshes": 58,
+          "materials": 5,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.3108558654785156,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 940488,
+          "open_projection_max_abs_ndc": 0.9269909588669878
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 14476,
+          "meshes": 58,
+          "materials": 5,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.3108558654785156,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 940488,
+          "open_projection_max_abs_ndc": 0.9269909588669881
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "c9aaee51b30714bf419c57ddee0a5322d1b2a3eb",
+      "path": "preview/atlantic-ocean-v1/delivery-check.json",
+      "bytes": 442,
+      "sha256": "691ecd410f237d4af26cc1d70809184ec3dd3b2b3fc102980eeda073d1f21ce8"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "HTML_BYTES": 2017782,
+      "GLB_BYTES": 940488,
+      "ZIP_BYTES": 4435526,
+      "ZIP_SHA256": "c32732a5c2690006bfc425dae518bbdac35318c20071b7deb3851cd13fb3fda7",
+      "archive_entries": 50,
+      "required_artifacts_verified": true,
+      "archive_readback_verified": true,
+      "checks_passed": [
+        "source",
+        "parity",
+        "motion-81",
+        "theme",
+        "browser-desktop-mobile",
+        "extended",
+        "delivery"
+      ]
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "c9aaee51b30714bf419c57ddee0a5322d1b2a3eb",
+      "path": "preview/atlantic-ocean-v1/extended-check.json",
+      "bytes": 546,
+      "sha256": "7b91e0696d37ffeb90555b13b4da5f0ed6e4abf59f3f7ec4dda07c8a6c2739d2"
+    },
+    "reported_result": {
+      "maps": [
+        {
+          "kind": "map",
+          "range": 14,
+          "width": 256,
+          "height": 256,
+          "blueGreaterRed": true
+        },
+        {
+          "kind": "roughnessMap",
+          "range": 41,
+          "width": 256,
+          "height": 256,
+          "blueGreaterRed": false
+        },
+        {
+          "kind": "normalMap",
+          "range": 10,
+          "width": 256,
+          "height": 256,
+          "blueGreaterRed": true
+        }
+      ],
+      "status": "PASS",
+      "source_poster_nonempty": true,
+      "no_js_poster": true,
+      "no_inherited_country_copy": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "c9aaee51b30714bf419c57ddee0a5322d1b2a3eb",
+      "path": "preview/atlantic-ocean-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "c9aaee51b30714bf419c57ddee0a5322d1b2a3eb",
+      "path": "preview/atlantic-ocean-v1/parity-check.json",
+      "bytes": 312,
+      "sha256": "bc3687e0a96c50f8e447ad95625dcf7e4e6ea3a1dda769c74aa445a45d343d45"
+    },
+    "reported_result": {
+      "source_vertices": 7432,
+      "imported_vertices": 24467,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "abyss-color.png",
+        "abyss-normal.png",
+        "abyss-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "c9aaee51b30714bf419c57ddee0a5322d1b2a3eb",
+      "path": "preview/atlantic-ocean-v1/source-check.json",
+      "bytes": 393,
+      "sha256": "03bfbcf156d965f479c4e21c41670e3f149b8197e22e2ba9781f3adf441aeb39"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 19,
+      "static_meshes": 39,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 65
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "c9aaee51b30714bf419c57ddee0a5322d1b2a3eb",
+      "path": "preview/atlantic-ocean-v1/theme-check.json",
+      "bytes": 232,
+      "sha256": "8c9694ad94d5591d282bd2ddf8783b17a03c5f0c3254713d2b0868bc6bd39dca"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "detached_ornament_negative_rejected": true,
+      "ridge_gap_min": 0.3799999877810478,
+      "channel_visible_downward_rays": 24,
+      "inherited_pivot_matrices_equal": true,
+      "relief_top": 2.3108558654785156
+    },
+    "fresh_runtime_execution": false
+  }
+]

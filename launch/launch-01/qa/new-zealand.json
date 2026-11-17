@@ -1,0 +1,892 @@
+[
+  {
+    "source": {
+      "commit": "6dcf506c5207f7ab5b01f642d129ddb7fba39a18",
+      "path": "preview/new-zealand-v1/acceptance-check.json",
+      "bytes": 749,
+      "sha256": "887bdf9522458c4322705d85e76059277b5cda48e2ff70f8949c787b807a4466"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "checks": [
+        {
+          "check": "build",
+          "status": "PASS",
+          "exit_code": 0
+        },
+        {
+          "check": "motion",
+          "status": "PASS",
+          "exit_code": 0
+        },
+        {
+          "check": "source",
+          "status": "PASS",
+          "exit_code": 0
+        },
+        {
+          "check": "parity",
+          "status": "PASS",
+          "exit_code": 0
+        },
+        {
+          "check": "theme",
+          "status": "PASS",
+          "exit_code": 0
+        },
+        {
+          "check": "pivots",
+          "status": "PASS",
+          "exit_code": 0
+        },
+        {
+          "check": "browser",
+          "status": "PASS",
+          "exit_code": 0
+        },
+        {
+          "check": "extended",
+          "status": "PASS",
+          "exit_code": 0
+        }
+      ]
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "6dcf506c5207f7ab5b01f642d129ddb7fba39a18",
+      "path": "preview/new-zealand-v1/browser-check.json",
+      "bytes": 2078,
+      "sha256": "0ff0ac1ffc21ddd8373af79c30c2cd152836f69ce3a9d11027d690eee608cef9"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 14572,
+          "meshes": 60,
+          "materials": 6,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.7749745845794678,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1745764,
+          "open_projection_max_abs_ndc": 0.9156477400818142
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 14572,
+          "meshes": 60,
+          "materials": 6,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.7749745845794678,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1745764,
+          "open_projection_max_abs_ndc": 0.9156477400818144
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "6dcf506c5207f7ab5b01f642d129ddb7fba39a18",
+      "path": "preview/new-zealand-v1/delivery-check.json",
+      "bytes": 477,
+      "sha256": "e33c24e8021d1f7c8232a12e899c4c49d23d4abcbaf4d8001e7778f5aba06029"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "html_bytes": 3135783,
+      "glb_bytes": 1745764,
+      "inventory_files": 60,
+      "required_files_present": true,
+      "zip_readback_all_hashes_match": true,
+      "zip_bytes": 8027762,
+      "zip_sha256": "7a87ee4f5f2d7fd7a978cd199686c6520c0787cfb5bb9e7086eb1102a64c9cac",
+      "inventory_sha256": "e950cc217902959a3b93be7a196bae4c8d81288acfc4dc06d2508ca539ae2bf4",
+      "exclusions": "node_modules, caches, blend1, packaging envelopes; no self-referential hashes"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "6dcf506c5207f7ab5b01f642d129ddb7fba39a18",
+      "path": "preview/new-zealand-v1/extended-check.json",
+      "bytes": 9929,
+      "sha256": "71212a34ce4d37b816e253470f340f2fa77bd3589fee817c27eaee45f5243269"
+    },
+    "reported_result": {
+      "poster_pixel_std": 44.73903641038796,
+      "maps": [
+        {
+          "material": "Gneiss / cool mineral foliation",
+          "slot": "map",
+          "channel": "red",
+          "width": 512,
+          "height": 512,
+          "range": 101
+        },
+        {
+          "material": "Gneiss / cool mineral foliation",
+          "slot": "roughnessMap",
+          "channel": "green",
+          "width": 512,
+          "height": 512,
+          "range": 61
+        },
+        {
+          "material": "Gneiss / cool mineral foliation",
+          "slot": "normalMap",
+          "channel": "red",
+          "width": 512,
+          "height": 512,
+          "range": 21
+        },
+        {
+          "material": "Gneiss / cool mineral foliation",
+          "slot": "map",
+          "channel": "red",
+          "width": 512,
+          "height": 512,
+          "range": 101
+        },
+        {
+          "material": "Gneiss / cool mineral foliation",
+          "slot": "roughnessMap",
+          "channel": "green",
+          "width": 512,
+          "height": 512,
+          "range": 61
+        },
+        {
+          "material": "Gneiss / cool mineral foliation",
+          "slot": "normalMap",
+          "channel": "red",
+          "width": 512,
+          "height": 512,
+          "range": 21
+        },
+        {
+          "material": "Gneiss / cool mineral foliation",
+          "slot": "map",
+          "channel": "red",
+          "width": 512,
+          "height": 512,
+          "range": 101
+        },
+        {
+          "material": "Gneiss / cool mineral foliation",
+          "slot": "roughnessMap",
+          "channel": "green",
+          "width": 512,
+          "height": 512,
+          "range": 61
+        },
+        {
+          "material": "Gneiss / cool mineral foliation",
+          "slot": "normalMap",
+          "channel": "red",
+          "width": 512,
+          "height": 512,
+          "range": 21
+        },
+        {
+          "material": "Gneiss / cool mineral foliation",
+          "slot": "map",
+          "channel": "red",
+          "width": 512,
+          "height": 512,
+          "range": 101
+        },
+        {
+          "material": "Gneiss / cool mineral foliation",
+          "slot": "roughnessMap",
+          "channel": "green",
+          "width": 512,
+          "height": 512,
+          "range": 61
+        },
+        {
+          "material": "Gneiss / cool mineral foliation",
+          "slot": "normalMap",
+          "channel": "red",
+          "width": 512,
+          "height": 512,
+          "range": 21
+        },
+        {
+          "material": "Gneiss / cool mineral foliation",
+          "slot": "map",
+          "channel": "red",
+          "width": 512,
+          "height": 512,
+          "range": 101
+        },
+        {
+          "material": "Gneiss / cool mineral foliation",
+          "slot": "roughnessMap",
+          "channel": "green",
+          "width": 512,
+          "height": 512,
+          "range": 61
+        },
+        {
+          "material": "Gneiss / cool mineral foliation",
+          "slot": "normalMap",
+          "channel": "red",
+          "width": 512,
+          "height": 512,
+          "range": 21
+        },
+        {
+          "material": "Gneiss / cool mineral foliation",
+          "slot": "map",
+          "channel": "red",
+          "width": 512,
+          "height": 512,
+          "range": 101
+        },
+        {
+          "material": "Gneiss / cool mineral foliation",
+          "slot": "roughnessMap",
+          "channel": "green",
+          "width": 512,
+          "height": 512,
+          "range": 61
+        },
+        {
+          "material": "Gneiss / cool mineral foliation",
+          "slot": "normalMap",
+          "channel": "red",
+          "width": 512,
+          "height": 512,
+          "range": 21
+        },
+        {
+          "material": "Gneiss / cool mineral foliation",
+          "slot": "map",
+          "channel": "red",
+          "width": 512,
+          "height": 512,
+          "range": 101
+        },
+        {
+          "material": "Gneiss / cool mineral foliation",
+          "slot": "roughnessMap",
+          "channel": "green",
+          "width": 512,
+          "height": 512,
+          "range": 61
+        },
+        {
+          "material": "Gneiss / cool mineral foliation",
+          "slot": "normalMap",
+          "channel": "red",
+          "width": 512,
+          "height": 512,
+          "range": 21
+        },
+        {
+          "material": "Gneiss / cool mineral foliation",
+          "slot": "map",
+          "channel": "red",
+          "width": 512,
+          "height": 512,
+          "range": 101
+        },
+        {
+          "material": "Gneiss / cool mineral foliation",
+          "slot": "roughnessMap",
+          "channel": "green",
+          "width": 512,
+          "height": 512,
+          "range": 61
+        },
+        {
+          "material": "Gneiss / cool mineral foliation",
+          "slot": "normalMap",
+          "channel": "red",
+          "width": 512,
+          "height": 512,
+          "range": 21
+        },
+        {
+          "material": "Gneiss / cool mineral foliation",
+          "slot": "map",
+          "channel": "red",
+          "width": 512,
+          "height": 512,
+          "range": 101
+        },
+        {
+          "material": "Gneiss / cool mineral foliation",
+          "slot": "roughnessMap",
+          "channel": "green",
+          "width": 512,
+          "height": 512,
+          "range": 61
+        },
+        {
+          "material": "Gneiss / cool mineral foliation",
+          "slot": "normalMap",
+          "channel": "red",
+          "width": 512,
+          "height": 512,
+          "range": 21
+        },
+        {
+          "material": "Rock / pale exposed crags",
+          "slot": "map",
+          "channel": "red",
+          "width": 256,
+          "height": 256,
+          "range": 132
+        },
+        {
+          "material": "Rock / pale exposed crags",
+          "slot": "map",
+          "channel": "red",
+          "width": 256,
+          "height": 256,
+          "range": 132
+        },
+        {
+          "material": "Rock / pale exposed crags",
+          "slot": "map",
+          "channel": "red",
+          "width": 256,
+          "height": 256,
+          "range": 132
+        },
+        {
+          "material": "Rock / pale exposed crags",
+          "slot": "map",
+          "channel": "red",
+          "width": 256,
+          "height": 256,
+          "range": 132
+        },
+        {
+          "material": "Gneiss / cool mineral foliation",
+          "slot": "map",
+          "channel": "red",
+          "width": 512,
+          "height": 512,
+          "range": 101
+        },
+        {
+          "material": "Gneiss / cool mineral foliation",
+          "slot": "roughnessMap",
+          "channel": "green",
+          "width": 512,
+          "height": 512,
+          "range": 61
+        },
+        {
+          "material": "Gneiss / cool mineral foliation",
+          "slot": "normalMap",
+          "channel": "red",
+          "width": 512,
+          "height": 512,
+          "range": 21
+        },
+        {
+          "material": "Gneiss / cool mineral foliation",
+          "slot": "map",
+          "channel": "red",
+          "width": 512,
+          "height": 512,
+          "range": 101
+        },
+        {
+          "material": "Gneiss / cool mineral foliation",
+          "slot": "roughnessMap",
+          "channel": "green",
+          "width": 512,
+          "height": 512,
+          "range": 61
+        },
+        {
+          "material": "Gneiss / cool mineral foliation",
+          "slot": "normalMap",
+          "channel": "red",
+          "width": 512,
+          "height": 512,
+          "range": 21
+        },
+        {
+          "material": "Gneiss / cool mineral foliation",
+          "slot": "map",
+          "channel": "red",
+          "width": 512,
+          "height": 512,
+          "range": 101
+        },
+        {
+          "material": "Gneiss / cool mineral foliation",
+          "slot": "roughnessMap",
+          "channel": "green",
+          "width": 512,
+          "height": 512,
+          "range": 61
+        },
+        {
+          "material": "Gneiss / cool mineral foliation",
+          "slot": "normalMap",
+          "channel": "red",
+          "width": 512,
+          "height": 512,
+          "range": 21
+        },
+        {
+          "material": "Gneiss / cool mineral foliation",
+          "slot": "map",
+          "channel": "red",
+          "width": 512,
+          "height": 512,
+          "range": 101
+        },
+        {
+          "material": "Gneiss / cool mineral foliation",
+          "slot": "roughnessMap",
+          "channel": "green",
+          "width": 512,
+          "height": 512,
+          "range": 61
+        },
+        {
+          "material": "Gneiss / cool mineral foliation",
+          "slot": "normalMap",
+          "channel": "red",
+          "width": 512,
+          "height": 512,
+          "range": 21
+        },
+        {
+          "material": "Gneiss / cool mineral foliation",
+          "slot": "map",
+          "channel": "red",
+          "width": 512,
+          "height": 512,
+          "range": 101
+        },
+        {
+          "material": "Gneiss / cool mineral foliation",
+          "slot": "roughnessMap",
+          "channel": "green",
+          "width": 512,
+          "height": 512,
+          "range": 61
+        },
+        {
+          "material": "Gneiss / cool mineral foliation",
+          "slot": "normalMap",
+          "channel": "red",
+          "width": 512,
+          "height": 512,
+          "range": 21
+        },
+        {
+          "material": "Gneiss / cool mineral foliation",
+          "slot": "map",
+          "channel": "red",
+          "width": 512,
+          "height": 512,
+          "range": 101
+        },
+        {
+          "material": "Gneiss / cool mineral foliation",
+          "slot": "roughnessMap",
+          "channel": "green",
+          "width": 512,
+          "height": 512,
+          "range": 61
+        },
+        {
+          "material": "Gneiss / cool mineral foliation",
+          "slot": "normalMap",
+          "channel": "red",
+          "width": 512,
+          "height": 512,
+          "range": 21
+        },
+        {
+          "material": "Rock / pale exposed crags",
+          "slot": "map",
+          "channel": "red",
+          "width": 256,
+          "height": 256,
+          "range": 132
+        },
+        {
+          "material": "Rock / pale exposed crags",
+          "slot": "map",
+          "channel": "red",
+          "width": 256,
+          "height": 256,
+          "range": 132
+        }
+      ],
+      "terrain": [
+        {
+          "name": "Fiord__continuous_water",
+          "owned": true
+        },
+        {
+          "name": "Ridge__east",
+          "owned": true
+        },
+        {
+          "name": "Ridge__east_1",
+          "owned": true
+        },
+        {
+          "name": "Ridge__east_2",
+          "owned": true
+        },
+        {
+          "name": "Ridge__west",
+          "owned": true
+        },
+        {
+          "name": "Ridge__west_1",
+          "owned": true
+        },
+        {
+          "name": "Ridge__west_2",
+          "owned": true
+        }
+      ],
+      "noJS_poster": true,
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "6dcf506c5207f7ab5b01f642d129ddb7fba39a18",
+      "path": "preview/new-zealand-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "6dcf506c5207f7ab5b01f642d129ddb7fba39a18",
+      "path": "preview/new-zealand-v1/parity-check.json",
+      "bytes": 332,
+      "sha256": "3282a79b2491ff9e062efb645d20e391239189d39431291ec210f509b5235525"
+    },
+    "reported_result": {
+      "source_vertices": 7524,
+      "imported_vertices": 24691,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "gneiss-color.png",
+        "gneiss-normal.png",
+        "gneiss-roughness.png",
+        "rock.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "6dcf506c5207f7ab5b01f642d129ddb7fba39a18",
+      "path": "preview/new-zealand-v1/pivot-check.json",
+      "bytes": 733,
+      "sha256": "8621cfdc44f6230155d966a22a078ab6657f6e3872a23f39e280432ddd75d8a2"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "exact_inherited_pivots": {
+        "Lid_Hinge": {
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.3200000524520874,
+            0.0,
+            0.0,
+            1.0,
+            1.6679999828338623,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "parent": null
+        },
+        "Latch_Pivot": {
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -1.290000081062317,
+            0.0,
+            0.0,
+            1.0,
+            1.8880000114440918,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "parent": "Lid_Hinge"
+        }
+      }
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "6dcf506c5207f7ab5b01f642d129ddb7fba39a18",
+      "path": "preview/new-zealand-v1/source-check.json",
+      "bytes": 393,
+      "sha256": "03bfbcf156d965f479c4e21c41670e3f149b8197e22e2ba9781f3adf441aeb39"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 19,
+      "static_meshes": 39,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 65
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "6dcf506c5207f7ab5b01f642d129ddb7fba39a18",
+      "path": "preview/new-zealand-v1/theme-check.json",
+      "bytes": 1949,
+      "sha256": "a3eda735c1fe62b7c3a93617df6afae7630e6bea3e084dd8ac87582b45a048cc"
+    },
+    "reported_result": {
+      "ridge_bounds": [
+        [
+          "Ridge / west",
+          1.975000023841858,
+          2.6251978874206543
+        ],
+        [
+          "Ridge / east",
+          1.975000023841858,
+          2.7749745845794678
+        ]
+      ],
+      "exposed_water_rays": [
+        [
+          -0.10080490079934276,
+          -0.82,
+          2.015000104904175
+        ],
+        [
+          -0.1336844452404557,
+          -0.7174999999999999,
+          2.015000343322754
+        ],
+        [
+          -0.15402258120847395,
+          -0.615,
+          2.0149998664855957
+        ],
+        [
+          -0.15991131656341842,
+          -0.5125,
+          2.015000343322754
+        ],
+        [
+          -0.1507982083090716,
+          -0.41,
+          2.015000343322754
+        ],
+        [
+          -0.12753818921544813,
+          -0.3075,
+          2.015000343322754
+        ],
+        [
+          -0.09231336356566347,
+          -0.20499999999999996,
+          2.015000343322754
+        ],
+        [
+          -0.04842829627056344,
+          -0.10250000000000004,
+          2.015000343322754
+        ],
+        [
+          0.0,
+          0.0,
+          2.015000104904175
+        ],
+        [
+          0.04842829627056344,
+          0.10250000000000004,
+          2.015000343322754
+        ],
+        [
+          0.09231336356566347,
+          0.20499999999999996,
+          2.015000343322754
+        ],
+        [
+          0.12753818921544813,
+          0.3075,
+          2.015000104904175
+        ],
+        [
+          0.1507982083090716,
+          0.41000000000000003,
+          2.015000343322754
+        ],
+        [
+          0.15991131656341842,
+          0.5125000000000001,
+          2.015000343322754
+        ],
+        [
+          0.15402258120847395,
+          0.6149999999999999,
+          2.015000343322754
+        ],
+        [
+          0.1336844452404557,
+          0.7174999999999999,
+          2.015000104904175
+        ],
+        [
+          0.10080490079934276,
+          0.82,
+          2.015000104904175
+        ]
+      ],
+      "connected_water_vertices": 82,
+      "lid_ancestry": true,
+      "status": "PASS",
+      "negative_control": {
+        "detached_ridge_rejected": true,
+        "failure": "Terrain must travel with lid"
+      }
+    },
+    "fresh_runtime_execution": false
+  }
+]

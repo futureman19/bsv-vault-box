@@ -1,0 +1,287 @@
+[
+  {
+    "source": {
+      "commit": "b67f171fa39c610b9fa40805452b2a84526b0301",
+      "path": "preview/timor-leste-v1/browser-check.json",
+      "bytes": 2076,
+      "sha256": "0efc289d00c9307f70e31c0f9ec474fc7bb4575cdea76ddb300c53a95e8a0d0b"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 27196,
+          "meshes": 116,
+          "materials": 5,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.25999999791383743,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.877000030130148,
+              2.049910545349121,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 2303284,
+          "open_projection_max_abs_ndc": 0.8923646516630186
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 27196,
+          "meshes": 116,
+          "materials": 5,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.25999999791383743,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.877000030130148,
+              2.049910545349121,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 2303284,
+          "open_projection_max_abs_ndc": 0.8923646516630209
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "b67f171fa39c610b9fa40805452b2a84526b0301",
+      "path": "preview/timor-leste-v1/delivery-check.json",
+      "bytes": 577,
+      "sha256": "e0bd2a9dee79117421b6b4bc4ad37e1521568faf608eb537772f70b4fdea412e"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "HTML_BYTES": 3911364,
+      "GLB_BYTES": 2303284,
+      "zip_bytes": 6505872,
+      "zip_sha256": "dfb51c03fe6ef0b00c65d903aedb816da3e555ce7bd8e86b315fe5b938ff06e7",
+      "inventory_sha256": "eb724770385fcca2fb22eccb66b93642c6a4ba7b0014a85aa0e62475fcd07ad7",
+      "archive_entries": 54,
+      "archive_readback": true,
+      "explicit_required_files_present": true,
+      "poster_pixel_check": true,
+      "checks_passed": [
+        "source",
+        "parity",
+        "theme",
+        "extended",
+        "browser",
+        "motion",
+        "negative-control rejection",
+        "delivery"
+      ]
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "b67f171fa39c610b9fa40805452b2a84526b0301",
+      "path": "preview/timor-leste-v1/extended-check.json",
+      "bytes": 711,
+      "sha256": "c7493d42959183754370520c074dec5575f52a3ca9fe6d067c01e7a569917c09"
+    },
+    "reported_result": {
+      "features": {
+        "runner": 1,
+        "fringe": 56,
+        "maps": [
+          {
+            "channel": "map",
+            "material": "Tais inspired / invented striped cotton",
+            "width": 512,
+            "height": 512,
+            "range": 210
+          },
+          {
+            "channel": "roughnessMap",
+            "material": "Tais inspired / invented striped cotton",
+            "width": 512,
+            "height": 512,
+            "range": 36
+          },
+          {
+            "channel": "map",
+            "material": "Timber / dark warm frame",
+            "width": 512,
+            "height": 512,
+            "range": 29
+          }
+        ],
+        "wrong": []
+      },
+      "copy_and_accessibility": true,
+      "noJS_poster": true,
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "b67f171fa39c610b9fa40805452b2a84526b0301",
+      "path": "preview/timor-leste-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "b67f171fa39c610b9fa40805452b2a84526b0301",
+      "path": "preview/timor-leste-v1/parity-check.json",
+      "bytes": 295,
+      "sha256": "f96fa12f591ab96955ed27b067cdf6817ba82bcc7530d63faeac07e3c9924645"
+    },
+    "reported_result": {
+      "source_vertices": 14041,
+      "imported_vertices": 51098,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "roughness.png",
+        "textile.png",
+        "wood.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "b67f171fa39c610b9fa40805452b2a84526b0301",
+      "path": "preview/timor-leste-v1/source-check.json",
+      "bytes": 394,
+      "sha256": "46cf3a4833818e72c79709d9f349913275139aa6fbf2eaaf5c309d0b46adaa7f"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 73,
+      "static_meshes": 43,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 123
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "b67f171fa39c610b9fa40805452b2a84526b0301",
+      "path": "preview/timor-leste-v1/theme-check.json",
+      "bytes": 401,
+      "sha256": "86700d9b9fe6aa13b6258d7694aa0f5d2cbd1cc0d39f742cd444f177296ffa69"
+    },
+    "reported_result": {
+      "checks": {
+        "runner_lid_parent": true,
+        "runner_top_height": true,
+        "runner_xy_contract": true,
+        "56_lid_fringe_strands": true,
+        "four_body_cloth_panels": true,
+        "original_pivots": true,
+        "packed_maps": true
+      },
+      "status": "PASS",
+      "runner_top_min": 2.01008939743042,
+      "runner_top_max": 2.049910545349121,
+      "fringe_count": 56,
+      "negative_control": null
+    },
+    "fresh_runtime_execution": false
+  }
+]

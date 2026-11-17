@@ -1,0 +1,484 @@
+[
+  {
+    "source": {
+      "commit": "4ba628e8aee53db399067ebe1e82f3d8d2b15feb",
+      "path": "preview/cabo-verde-v1/browser-check.json",
+      "bytes": 2076,
+      "sha256": "5ee148e1ccc9f7a54c5ae65437772a16910791c2966e458ba1383d416a66b2af"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 17808,
+          "meshes": 75,
+          "materials": 7,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.27000000327825546,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.753000020980835,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 2022488,
+          "open_projection_max_abs_ndc": 0.8923646516630215
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 17808,
+          "meshes": 75,
+          "materials": 7,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.27000000327825546,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.753000020980835,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 2022488,
+          "open_projection_max_abs_ndc": 0.8923646516630193
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "4ba628e8aee53db399067ebe1e82f3d8d2b15feb",
+      "path": "preview/cabo-verde-v1/delivery-check.json",
+      "bytes": 1786,
+      "sha256": "6b3a1704dd99e7c2d325da152c22bed2e640924535f2bb2770458325808032fa"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "html": {
+        "bytes": 3504236,
+        "sha256": "b1c0ac41441cba24ad9908d0a601fde510f77c7d2f4722282af706d3ce40c358"
+      },
+      "glb": {
+        "bytes": 2022488,
+        "sha256": "1d314e64ee211bd4c98bef84085a3fe3383960cbe92e8205bbb7ccb39d2bfa70"
+      },
+      "source_zip": {
+        "bytes": 10542159,
+        "sha256": "48b9ae291cb72fb254a3984c35619359dee506f6114aa4ec9642c4099fed97c0"
+      },
+      "required_artifacts": [
+        "README.md",
+        "author.py",
+        "browser-check.json",
+        "build.py",
+        "cabo-verde-v1.html",
+        "cabo-verde.blend",
+        "cabo-verde.glb",
+        "design-brief.md",
+        "extended-check.json",
+        "maps.py",
+        "maps/scoria-color.png",
+        "maps/scoria-normal.png",
+        "maps/scoria-roughness.png",
+        "mechanism.blend",
+        "motion.mjs",
+        "parity-check.json",
+        "poster.jpg",
+        "poster.png",
+        "source-check.json",
+        "template.html",
+        "theme-check.json",
+        "verify_browser.py",
+        "verify_extended.py",
+        "verify_parity.py",
+        "verify_source.py",
+        "verify_theme.py",
+        "viewer.js"
+      ],
+      "inventory_count": 54,
+      "zip_readback_all_entries": true,
+      "inventory_sha256": "3df5b4f675e48ad5072d01561ce9defc6ca0c7b635489e282904853816c0f84f",
+      "excluded_envelopes": [
+        "build-output.txt",
+        "cabo-verde-v1-source.zip",
+        "codex-lane.log",
+        "delivery-check.json",
+        "delivery-output.txt",
+        "inventory.json",
+        "lane-prompt.md"
+      ],
+      "checks_passed": [
+        "source",
+        "81-pose motion",
+        "hinge attachment",
+        "parity",
+        "theme and negative crater control",
+        "browser desktop/mobile",
+        "corrupt GLB fallback",
+        "no-JS fallback",
+        "decoded maps",
+        "motion unit tests",
+        "size cap",
+        "SHA256 inventory",
+        "ZIP readback"
+      ]
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "4ba628e8aee53db399067ebe1e82f3d8d2b15feb",
+      "path": "preview/cabo-verde-v1/extended-check.json",
+      "bytes": 1497,
+      "sha256": "98c9ed5e3be6a8e668e4735ffdf82a796b762c3d1214bc45c47f66ec480418d9"
+    },
+    "reported_result": {
+      "features": {
+        "terrain": [
+          "Caldera__open_east_horseshoe_1",
+          "Caldera__open_east_horseshoe_2",
+          "Caldera__open_east_horseshoe_3",
+          "Cultivation__low_green_patch",
+          "Cultivation__low_green_patch001",
+          "Cultivation__low_green_patch002",
+          "Cultivation__low_green_patch003",
+          "Cultivation__low_green_patch004",
+          "Cultivation__low_green_patch005",
+          "Cultivation__low_green_patch006",
+          "Cultivation__low_green_patch007",
+          "Cultivation__low_green_patch008",
+          "Cultivation__low_green_patch009",
+          "Cultivation__low_green_patch010",
+          "Cultivation__low_green_patch011",
+          "Cultivation__low_green_patch012",
+          "Cultivation__low_green_patch013",
+          "Cultivation__low_green_patch014",
+          "Fogo__cratered_cone_1",
+          "Fogo__cratered_cone_2",
+          "Fogo__cratered_cone_3"
+        ],
+        "maps": [
+          {
+            "channel": "map",
+            "material": "Fogo / porous volcanic stone",
+            "width": 512,
+            "height": 512,
+            "range": 73
+          },
+          {
+            "channel": "normalMap",
+            "material": "Fogo / porous volcanic stone",
+            "width": 512,
+            "height": 512,
+            "range": 50
+          },
+          {
+            "channel": "roughnessMap",
+            "material": "Fogo / porous volcanic stone",
+            "width": 512,
+            "height": 512,
+            "range": 41
+          }
+        ],
+        "wrong": []
+      },
+      "noJS_poster": true,
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "4ba628e8aee53db399067ebe1e82f3d8d2b15feb",
+      "path": "preview/cabo-verde-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "4ba628e8aee53db399067ebe1e82f3d8d2b15feb",
+      "path": "preview/cabo-verde-v1/parity-check.json",
+      "bytes": 315,
+      "sha256": "dbf6a334b7bf652455feaf83223788bcc0cec8830f3f132e475d39d9c6f5989c"
+    },
+    "reported_result": {
+      "source_vertices": 9198,
+      "imported_vertices": 32331,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "scoria-color.png",
+        "scoria-normal.png",
+        "scoria-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "4ba628e8aee53db399067ebe1e82f3d8d2b15feb",
+      "path": "preview/cabo-verde-v1/source-check.json",
+      "bytes": 2968,
+      "sha256": "99c71f4a9d369778b4d13166438f28d8f9721f450ca227b6254dfbb41192b5d6"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 33,
+      "static_meshes": 38,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 78,
+      "mesh_coverage": {
+        "moving": [
+          "Caldera / open east horseshoe",
+          "Corner hardware / edge",
+          "Corner hardware / edge.001",
+          "Corner hardware / edge.002",
+          "Corner hardware / edge.003",
+          "Corner hardware / top",
+          "Corner hardware / top.001",
+          "Corner hardware / top.002",
+          "Corner hardware / top.003",
+          "Cultivation / low green patch",
+          "Cultivation / low green patch.001",
+          "Cultivation / low green patch.002",
+          "Cultivation / low green patch.003",
+          "Cultivation / low green patch.004",
+          "Cultivation / low green patch.005",
+          "Cultivation / low green patch.006",
+          "Cultivation / low green patch.007",
+          "Cultivation / low green patch.008",
+          "Cultivation / low green patch.009",
+          "Cultivation / low green patch.010",
+          "Cultivation / low green patch.011",
+          "Cultivation / low green patch.012",
+          "Cultivation / low green patch.013",
+          "Cultivation / low green patch.014",
+          "Fogo / cratered cone",
+          "Hinge / moving leaf",
+          "Hinge / moving leaf.001",
+          "Latch / hinge bridge",
+          "Latch / lifting hasp",
+          "Latch / pin",
+          "Latch / raised face",
+          "Latch / rotating knuckle",
+          "Lid / polished slab"
+        ],
+        "static": [
+          "Atlantic seam / long",
+          "Atlantic seam / long.001",
+          "Atlantic seam / side",
+          "Atlantic seam / side.001",
+          "Clasp / keeper mounting ear",
+          "Clasp / keeper mounting ear.001",
+          "Clasp / keeper screw",
+          "Clasp / keeper screw.001",
+          "Hinge / bearing mounting stem",
+          "Hinge / bearing mounting stem.001",
+          "Hinge / body attachment bridge",
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed barrel",
+          "Hinge / fixed barrel.001",
+          "Hinge / fixed mount",
+          "Hinge / fixed mount.001",
+          "Interior floor",
+          "Interior wall / end",
+          "Interior wall / end.001",
+          "Interior wall / front",
+          "Interior wall / rear",
+          "Latch / keeper",
+          "Medallion / solid emblem",
+          "Scoria / clasp seat",
+          "Scoria / foot",
+          "Scoria / foot.001",
+          "Scoria / foot.002",
+          "Scoria / foot.003",
+          "Scoria / front",
+          "Scoria / rear",
+          "Scoria / rim corner",
+          "Scoria / rim corner.001",
+          "Scoria / rim corner.002",
+          "Scoria / rim corner.003",
+          "Scoria / side",
+          "Scoria / side.001",
+          "Side ring / hanging brass",
+          "Side ring / mount"
+        ]
+      },
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "4ba628e8aee53db399067ebe1e82f3d8d2b15feb",
+      "path": "preview/cabo-verde-v1/theme-check.json",
+      "bytes": 1308,
+      "sha256": "865eb9890e28df26b35a77736d55c74eec886d65409370f9ed166868d73307ac"
+    },
+    "reported_result": {
+      "crater_depth": 0.33377838134765625,
+      "cone_max_z": 2.753000020980835,
+      "east_gap": true,
+      "west_ridge": true,
+      "maps": [
+        {
+          "name": "scoria-color.png",
+          "size": [
+            512,
+            512
+          ],
+          "red_range_linear": 0.28627452068030834
+        },
+        {
+          "name": "scoria-normal.png",
+          "size": [
+            512,
+            512
+          ],
+          "red_range_linear": 0.19607841968536377
+        },
+        {
+          "name": "scoria-roughness.png",
+          "size": [
+            512,
+            512
+          ],
+          "red_range_linear": 0.1607843041419983
+        }
+      ],
+      "terrain_parentage": true,
+      "seam_height_max": 0.08799999952316284,
+      "negative_control": {
+        "mutation": "flattened every cone vertex to summit height in memory only",
+        "rejected": true,
+        "message": "crater must be a depressed bowl"
+      },
+      "exact_pivots": {
+        "Lid_Hinge": {
+          "location": [
+            0.0,
+            1.3200000524520874,
+            1.6679999828338623
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Latch_Pivot": {
+          "location": [
+            0.0,
+            -2.6100001335144043,
+            0.2200000286102295
+          ],
+          "rotation": [
+            0.0,
+            -0.0,
+            0.0
+          ]
+        }
+      },
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  }
+]

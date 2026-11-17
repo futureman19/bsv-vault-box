@@ -1,0 +1,451 @@
+[
+  {
+    "source": {
+      "commit": "46980940daf52b8072fa6893efa41a6763ab3beb",
+      "path": "preview/fiji-v1/acceptance-check.json",
+      "bytes": 2139,
+      "sha256": "8984be8bd15d7c2917f54c7fa75e8d895307540a0105c6f4271e8716d4062165"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "checks": [
+        {
+          "check": "build",
+          "exit_code": 0,
+          "owner": "hermes",
+          "command": [
+            "C:\\Users\\futur\\.hermes\\installs\\60215e25aec448c9\\environments\\b3c4bbda9be44f5cb17e68e2e2ba7648\\venv\\Scripts\\python.exe",
+            "build.py"
+          ]
+        },
+        {
+          "check": "motion",
+          "exit_code": 0,
+          "owner": "hermes",
+          "command": [
+            "C:/Program Files/nodejs/node.exe",
+            "--test",
+            "tests.mjs"
+          ]
+        },
+        {
+          "check": "source",
+          "exit_code": 0,
+          "owner": "hermes",
+          "command": [
+            "C:/Users/futur/AppData/Local/Programs/Blender-5.2.1/blender.exe",
+            "--background",
+            "--factory-startup",
+            "--python-exit-code",
+            "1",
+            "--python",
+            "verify_source.py"
+          ]
+        },
+        {
+          "check": "parity",
+          "exit_code": 0,
+          "owner": "hermes",
+          "command": [
+            "C:/Users/futur/AppData/Local/Programs/Blender-5.2.1/blender.exe",
+            "--background",
+            "--factory-startup",
+            "--python-exit-code",
+            "1",
+            "--python",
+            "verify_parity.py"
+          ]
+        },
+        {
+          "check": "theme",
+          "exit_code": 0,
+          "owner": "hermes",
+          "command": [
+            "C:/Users/futur/AppData/Local/Programs/Blender-5.2.1/blender.exe",
+            "--background",
+            "--factory-startup",
+            "--python-exit-code",
+            "1",
+            "--python",
+            "verify_theme.py"
+          ]
+        },
+        {
+          "check": "browser",
+          "exit_code": 0,
+          "owner": "hermes",
+          "command": [
+            "C:\\Users\\futur\\.hermes\\installs\\60215e25aec448c9\\environments\\b3c4bbda9be44f5cb17e68e2e2ba7648\\venv\\Scripts\\python.exe",
+            "verify_browser.py"
+          ]
+        },
+        {
+          "check": "extended",
+          "exit_code": 0,
+          "owner": "hermes",
+          "command": [
+            "C:\\Users\\futur\\.hermes\\installs\\60215e25aec448c9\\environments\\b3c4bbda9be44f5cb17e68e2e2ba7648\\venv\\Scripts\\python.exe",
+            "verify_extended.py"
+          ]
+        }
+      ]
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "46980940daf52b8072fa6893efa41a6763ab3beb",
+      "path": "preview/fiji-v1/browser-check.json",
+      "bytes": 2078,
+      "sha256": "2f5064be2f72691bcd461487b04c9a62095911056a8ebf0ebd92bf4e749e17b0"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 15682,
+          "meshes": 63,
+          "materials": 7,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.3949999809265137,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1387968,
+          "open_projection_max_abs_ndc": 0.8923646516630234
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 15682,
+          "meshes": 63,
+          "materials": 7,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.3949999809265137,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1387968,
+          "open_projection_max_abs_ndc": 0.8923646516630199
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "46980940daf52b8072fa6893efa41a6763ab3beb",
+      "path": "preview/fiji-v1/delivery-check.json",
+      "bytes": 564,
+      "sha256": "17892f7ca8fbc187c4bd97c78ebb71038aceff68a30c13f3afba5d07d51b3ae6"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "html_bytes": 2662852,
+      "glb_bytes": 1387968,
+      "inventory_count": 64,
+      "required_artifacts_present": true,
+      "archive_readback": true,
+      "zip": {
+        "bytes": 6450761,
+        "sha256": "83a9764e299a91f230d6309c6f2d25f8cbc380de91daf10e9b199d5418750e76"
+      },
+      "inventory": {
+        "bytes": 8551,
+        "sha256": "5f2dc9888b7dfdac22f1e769c6d607a3f1b792354aa02f1f237d206dd5ee0ca4"
+      },
+      "self_reference_exclusions": [
+        "delivery-check.json",
+        "fiji-v1-source.zip",
+        "git-verification.txt",
+        "inventory.json"
+      ]
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "46980940daf52b8072fa6893efa41a6763ab3beb",
+      "path": "preview/fiji-v1/extended-check.json",
+      "bytes": 826,
+      "sha256": "5605d6df02f8f9114527fa1444dc65b112bfe3d5d3a64fd28ece588094ffdc9f"
+    },
+    "reported_result": {
+      "poster_nonblank": true,
+      "maps": [
+        {
+          "material": "Wood / dark edge",
+          "key": "map",
+          "width": 256,
+          "height": 256,
+          "range": 41
+        },
+        {
+          "material": "Masi / fibrous cream and umber",
+          "key": "map",
+          "width": 512,
+          "height": 512,
+          "range": 181
+        },
+        {
+          "material": "Masi / fibrous cream and umber",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512,
+          "range": 58
+        }
+      ],
+      "lid_ancestry": {
+        "names": [
+          "Island__green_0",
+          "Island__green_1",
+          "Island__green_2",
+          "Island__sand_0",
+          "Island__sand_1",
+          "Island__sand_2",
+          "Lagoon__turquoise_inset",
+          "Reef__sand_perimeter"
+        ],
+        "bad": []
+      },
+      "noJS_poster": true,
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "46980940daf52b8072fa6893efa41a6763ab3beb",
+      "path": "preview/fiji-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "46980940daf52b8072fa6893efa41a6763ab3beb",
+      "path": "preview/fiji-v1/parity-check.json",
+      "bytes": 302,
+      "sha256": "57ae96399191fda016511f745144a666134904be97edda1162e23960229cf425"
+    },
+    "reported_result": {
+      "source_vertices": 7963,
+      "imported_vertices": 25551,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "masi-color.png",
+        "masi-roughness.png",
+        "wood.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "46980940daf52b8072fa6893efa41a6763ab3beb",
+      "path": "preview/fiji-v1/source-check.json",
+      "bytes": 393,
+      "sha256": "94fc7d49038cc16af13ee634cb2d6aae91e246c6c39ef9d1b7b06540a72e6a8f"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 24,
+      "static_meshes": 39,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 70
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "46980940daf52b8072fa6893efa41a6763ab3beb",
+      "path": "preview/fiji-v1/theme-check.json",
+      "bytes": 1588,
+      "sha256": "63ead6ae01ed87a4ab1bc54b467b9f9ed383bd71d72d799d297e3a1deb17e364"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "features": {
+        "Reef / sand perimeter": [
+          [
+            -1.479583978652954,
+            1.5154778957366943
+          ],
+          [
+            -0.8557279109954834,
+            0.7756808400154114
+          ],
+          [
+            1.9739999771118164,
+            2.0350000858306885
+          ]
+        ],
+        "Lagoon / turquoise inset": [
+          [
+            -1.3377059698104858,
+            1.3701581954956055
+          ],
+          [
+            -0.7273687124252319,
+            0.6593286991119385
+          ],
+          [
+            2.0299999713897705,
+            2.0480000972747803
+          ]
+        ],
+        "Island / green 0": [
+          [
+            -1.0194036960601807,
+            -0.32059624791145325
+          ],
+          [
+            -0.13773146271705627,
+            0.36500000953674316
+          ],
+          [
+            2.071000099182129,
+            2.325000047683716
+          ]
+        ],
+        "Island / green 1": [
+          [
+            0.006908875424414873,
+            0.8613038063049316
+          ],
+          [
+            0.02881740592420101,
+            0.5213798880577087
+          ],
+          [
+            2.071000099182129,
+            2.3949999809265137
+          ]
+        ],
+        "Island / green 2": [
+          [
+            0.48488348722457886,
+            0.8909115791320801
+          ],
+          [
+            -0.4761618375778198,
+            -0.18851785361766815
+          ],
+          [
+            2.071000099182129,
+            2.234999895095825
+          ]
+        ]
+      },
+      "lagoon_boundary_contained": true,
+      "negative_control": "('Detached', 'Island / green 0')",
+      "pivot_max_error": 0.0,
+      "negative_control_kind": "post-implementation mutation, not test-first history"
+    },
+    "fresh_runtime_execution": false
+  }
+]

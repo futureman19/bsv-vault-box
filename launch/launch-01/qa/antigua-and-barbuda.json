@@ -1,0 +1,289 @@
+[
+  {
+    "source": {
+      "commit": "59dec7bd8b9688aaa9e34ef60b71e0b659551229",
+      "path": "preview/antigua-and-barbuda-v1/browser-check.json",
+      "bytes": 2075,
+      "sha256": "16068901955c97eff1000832076fdf07f8773b1cbd110ead246b2661c20d2650"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 8720,
+          "meshes": 56,
+          "materials": 5,
+          "bounds": {
+            "min": [
+              -1.8600000143051147,
+              -0.24500000476837158,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.5510001182556152,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 793632,
+          "open_projection_max_abs_ndc": 0.8923646516630191
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 8720,
+          "meshes": 56,
+          "materials": 5,
+          "bounds": {
+            "min": [
+              -1.8600000143051147,
+              -0.24500000476837158,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.5510001182556152,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 793632,
+          "open_projection_max_abs_ndc": 0.892364651663019
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "59dec7bd8b9688aaa9e34ef60b71e0b659551229",
+      "path": "preview/antigua-and-barbuda-v1/delivery-check.json",
+      "bytes": 508,
+      "sha256": "0a66a1248c021bf09a11c3c9ab88f1976cbda40a3c6f99ed794ee0daa80783fa"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "html_bytes": 1861981,
+      "glb_bytes": 793632,
+      "inventory_entries": 51,
+      "archive_bytes": 5494444,
+      "archive_sha256": "047e105190f5a6edb139cfa4bba181930b37726d54677a0eb63230e2a59d9f74",
+      "required_artifacts_present": true,
+      "archive_readback": true,
+      "checks_passed": [
+        "source",
+        "parity",
+        "theme",
+        "browser-desktop",
+        "browser-mobile",
+        "corrupt-GLB",
+        "no-JS",
+        "decoded-maps",
+        "poster",
+        "motion",
+        "delivery"
+      ]
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "59dec7bd8b9688aaa9e34ef60b71e0b659551229",
+      "path": "preview/antigua-and-barbuda-v1/extended-check.json",
+      "bytes": 684,
+      "sha256": "d0d2b034060cfa5dda2c81270d5ce34859d98fd95895417909e20b0daa5755e1"
+    },
+    "reported_result": {
+      "poster_nonblank": true,
+      "features": {
+        "ornaments": [
+          "Bridge__limestone_abutment",
+          "Bridge__limestone_abutment001",
+          "Bridge__open_limestone_arch",
+          "Coast__lagoon",
+          "Coast__pink_barrier_shore"
+        ],
+        "maps": [
+          {
+            "slot": "map",
+            "width": 256,
+            "height": 256,
+            "range": 116
+          },
+          {
+            "slot": "roughnessMap",
+            "width": 256,
+            "height": 256,
+            "range": 112
+          },
+          {
+            "slot": "map",
+            "width": 256,
+            "height": 256,
+            "range": 60
+          }
+        ],
+        "wrong": []
+      },
+      "noJS_poster": true,
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "59dec7bd8b9688aaa9e34ef60b71e0b659551229",
+      "path": "preview/antigua-and-barbuda-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "59dec7bd8b9688aaa9e34ef60b71e0b659551229",
+      "path": "preview/antigua-and-barbuda-v1/parity-check.json",
+      "bytes": 318,
+      "sha256": "6b048571e084771aa83a9c51777fa41594d16811a8ec56dc770bbfecc499c25e"
+    },
+    "reported_result": {
+      "source_vertices": 4472,
+      "imported_vertices": 13914,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "limestone-color.png",
+        "limestone-roughness.png",
+        "shell-sand.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "59dec7bd8b9688aaa9e34ef60b71e0b659551229",
+      "path": "preview/antigua-and-barbuda-v1/source-check.json",
+      "bytes": 393,
+      "sha256": "2d4788f32dd46dfd87085df6391ea2d7a689f6b0e48a6f59c96a3c8f486d15ef"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 21,
+      "static_meshes": 35,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 63
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "59dec7bd8b9688aaa9e34ef60b71e0b659551229",
+      "path": "preview/antigua-and-barbuda-v1/theme-check.json",
+      "bytes": 259,
+      "sha256": "f27a71f6ff410df951cd4b3824a2361f077bc70f0b15abd7bd98f3de7a734701"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "ornaments": 5,
+      "all_lid_owned": true,
+      "detached_negative_rejected": true,
+      "arch_aperture_ray_heights": [
+        2.08,
+        2.16,
+        2.24,
+        2.32,
+        2.4
+      ],
+      "crown_ray_z": 2.5,
+      "pivots_match_mechanism": true
+    },
+    "fresh_runtime_execution": false
+  }
+]

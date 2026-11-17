@@ -1,0 +1,350 @@
+[
+  {
+    "source": {
+      "commit": "f716c829dead6778b060603b05f6fd5850477197",
+      "path": "preview/bhutan-v1/acceptance-check.json",
+      "bytes": 1138,
+      "sha256": "b0bf986c5054a0530416343ce60e7c290dc4ac5728a00547b945a3126b0a376d"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "checks": [
+        {
+          "name": "build",
+          "exit_code": 0,
+          "expected_exit_code": 0,
+          "status": "PASS"
+        },
+        {
+          "name": "motion",
+          "exit_code": 0,
+          "expected_exit_code": 0,
+          "status": "PASS"
+        },
+        {
+          "name": "source",
+          "exit_code": 0,
+          "expected_exit_code": 0,
+          "status": "PASS"
+        },
+        {
+          "name": "parity",
+          "exit_code": 0,
+          "expected_exit_code": 0,
+          "status": "PASS"
+        },
+        {
+          "name": "theme",
+          "exit_code": 0,
+          "expected_exit_code": 0,
+          "status": "PASS"
+        },
+        {
+          "name": "theme-negative",
+          "exit_code": 1,
+          "expected_exit_code": 1,
+          "status": "PASS"
+        },
+        {
+          "name": "browser",
+          "exit_code": 0,
+          "expected_exit_code": 0,
+          "status": "PASS"
+        },
+        {
+          "name": "extended",
+          "exit_code": 0,
+          "expected_exit_code": 0,
+          "status": "PASS"
+        }
+      ],
+      "negative_control": "Post-implementation in-memory detachment of mountain from lid is rejected; saved source is never modified."
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "f716c829dead6778b060603b05f6fd5850477197",
+      "path": "preview/bhutan-v1/browser-check.json",
+      "bytes": 2078,
+      "sha256": "9e1c2d2fa145f1c9e9a90acc1a8a2b6d91e96c7ae51936469c755ab8f42b305f"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 28076,
+          "meshes": 146,
+          "materials": 8,
+          "bounds": {
+            "min": [
+              -1.8844999792054296,
+              -0.3105585500597954,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8844999792054296,
+              2.558450222015381,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 2177608,
+          "open_projection_max_abs_ndc": 0.8923646516630207
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 28076,
+          "meshes": 146,
+          "materials": 8,
+          "bounds": {
+            "min": [
+              -1.8844999792054296,
+              -0.3105585500597954,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8844999792054296,
+              2.558450222015381,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 2177608,
+          "open_projection_max_abs_ndc": 0.8923646516630205
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "f716c829dead6778b060603b05f6fd5850477197",
+      "path": "preview/bhutan-v1/delivery-check.json",
+      "bytes": 589,
+      "sha256": "07725808a7f78b4f7eb5eb6d827414dfab377461dcf9f2b8bed3faf1504ba8b7"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "html_bytes": 3652860,
+      "glb_bytes": 2177608,
+      "required_artifacts_present": true,
+      "zip_entries": 55,
+      "zip_readback_all_hashes_match": true,
+      "zip_bytes": 5495923,
+      "zip_sha256": "78f7dc55abb2182e9009db59f9ec054b791549521fec6479f40a9246a92723ab",
+      "inventory_sha256": "ec5e5c94b81fe93e6ca507d5dfb581fc39ad2716b9d0567ac6fcfa53213d1d6c",
+      "exclusions": [
+        "bhutan-v1-source.zip",
+        "delivery-check.json",
+        "inventory.json"
+      ],
+      "note": "Delivery is the exact in-folder HTML exercised by browser tests; no untested external copy."
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "f716c829dead6778b060603b05f6fd5850477197",
+      "path": "preview/bhutan-v1/extended-check.json",
+      "bytes": 536,
+      "sha256": "3c5407efacd59e0b0b72ac54b2b1454d7327eff0c69245df301d758b9eecd037"
+    },
+    "reported_result": {
+      "features": {
+        "themed": 83,
+        "maps": [
+          {
+            "material": "Earth / warm chalk plaster",
+            "width": 256,
+            "height": 256,
+            "range": 75
+          },
+          {
+            "material": "Timber / dark fine grain",
+            "width": 256,
+            "height": 256,
+            "range": 24
+          },
+          {
+            "material": "Stone / mountain grey",
+            "width": 256,
+            "height": 256,
+            "range": 38
+          }
+        ],
+        "wrong": []
+      },
+      "noJS_poster": true,
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "f716c829dead6778b060603b05f6fd5850477197",
+      "path": "preview/bhutan-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "f716c829dead6778b060603b05f6fd5850477197",
+      "path": "preview/bhutan-v1/parity-check.json",
+      "bytes": 340,
+      "sha256": "fa3da6c814f55d6532248165e4bfc16120a1164d79a9ad94536d27d7d1f515b4"
+    },
+    "reported_result": {
+      "source_vertices": 14375,
+      "imported_vertices": 54366,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "plaster-color.png",
+        "stone-color.png",
+        "timber-color.png",
+        "timber-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "f716c829dead6778b060603b05f6fd5850477197",
+      "path": "preview/bhutan-v1/source-check.json",
+      "bytes": 394,
+      "sha256": "507db42248fe719a906db43a953ff8f8c8a2e2b30a185a3124da598bfc4f45bc"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 91,
+      "static_meshes": 55,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 153
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "f716c829dead6778b060603b05f6fd5850477197",
+      "path": "preview/bhutan-v1/theme-check.json",
+      "bytes": 549,
+      "sha256": "5a82cc83fbc2f48743709376f843fb4a59d1ef75bfcc0bda25b20d94e9871482"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "features": {
+        "Earth / body": 4,
+        "Timber / upright": 8,
+        "Cornice /": 8,
+        "Painted border /": 74,
+        "Mountain /": 1
+      },
+      "ridge_span": [
+        2.200000047683716,
+        1.0,
+        0.5764502286911011
+      ],
+      "pivots_match_trimmed_mechanism": true,
+      "moving_theme_parentage": true,
+      "collision_harness_parent_coverage": true,
+      "palette_linear_values_verified": true,
+      "packed_maps": [
+        "plaster-color.png",
+        "stone-color.png",
+        "timber-color.png",
+        "timber-roughness.png"
+      ]
+    },
+    "fresh_runtime_execution": false
+  }
+]

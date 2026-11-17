@@ -1,0 +1,288 @@
+[
+  {
+    "source": {
+      "commit": "3322ecc31cf4ff3507d289fe51867371ecd0f0c4",
+      "path": "preview/libya-v1/browser-check.json",
+      "bytes": 2077,
+      "sha256": "3e371bb95bf59f177c478ea8eb922b362d74c6a8539283656a890ddf46ed0e34"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 19040,
+          "meshes": 57,
+          "materials": 4,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.28999999910593033,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.8630223274230957,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1712132,
+          "open_projection_max_abs_ndc": 0.892364651663021
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 19040,
+          "meshes": 57,
+          "materials": 4,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.28999999910593033,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.8630223274230957,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1712132,
+          "open_projection_max_abs_ndc": 0.8923646516630201
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "3322ecc31cf4ff3507d289fe51867371ecd0f0c4",
+      "path": "preview/libya-v1/delivery-check.json",
+      "bytes": 788,
+      "sha256": "89350cc332852945a58f75b7d5911ec480dfe66c97e4c57eb64359294b43b8e7"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "HTML_BYTES": 3075051,
+      "GLB_BYTES": 1712132,
+      "inventory_count": 53,
+      "inventory_sha256": "6a2d17991c35354401971ef23dee30c82c019824e18ffa67817424af9fd6cec6",
+      "required_files": [
+        "libya-v1.html",
+        "libya.glb",
+        "libya.blend",
+        "mechanism.blend",
+        "poster.png",
+        "poster.jpg",
+        "design-brief.md",
+        "README.md",
+        "source-check.json",
+        "parity-check.json",
+        "theme-check.json",
+        "browser-check.json",
+        "extended-check.json",
+        "motion-output.txt",
+        "maps/ochre.png",
+        "maps/roughness.png",
+        "maps/sand.png"
+      ],
+      "inventory_readback_verified": true,
+      "exclusions": [
+        "inventory.json (self hash)",
+        "delivery-check.json (envelope)",
+        "__pycache__",
+        ".blend1"
+      ]
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "3322ecc31cf4ff3507d289fe51867371ecd0f0c4",
+      "path": "preview/libya-v1/extended-check.json",
+      "bytes": 378,
+      "sha256": "5fe5ca602a4c3401cb146decb9be48282c314d5611d0c73e64c8b875ec7df836"
+    },
+    "reported_result": {
+      "features": {
+        "terrain": 2,
+        "maps": [
+          {
+            "material": "Acacus / wind-weathered ochre",
+            "width": 512,
+            "height": 512,
+            "range": 86
+          },
+          {
+            "material": "Dunes / pale gold",
+            "width": 512,
+            "height": 512,
+            "range": 40
+          }
+        ],
+        "wrong": []
+      },
+      "noJS_poster": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "3322ecc31cf4ff3507d289fe51867371ecd0f0c4",
+      "path": "preview/libya-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "3322ecc31cf4ff3507d289fe51867371ecd0f0c4",
+      "path": "preview/libya-v1/parity-check.json",
+      "bytes": 292,
+      "sha256": "d396c800ed80f33fa1723b66763bbdb422649a77f5c18721cc38c5725c527601"
+    },
+    "reported_result": {
+      "source_vertices": 9733,
+      "imported_vertices": 26077,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "ochre.png",
+        "roughness.png",
+        "sand.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "3322ecc31cf4ff3507d289fe51867371ecd0f0c4",
+      "path": "preview/libya-v1/source-check.json",
+      "bytes": 393,
+      "sha256": "912b65ed7c28c7ec1aed0233f97b0dedc7cc1e932850d4a7073467060fbb52bd"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 18,
+      "static_meshes": 39,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 64
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "3322ecc31cf4ff3507d289fe51867371ecd0f0c4",
+      "path": "preview/libya-v1/theme-check.json",
+      "bytes": 405,
+      "sha256": "56239d46133b62386bffe545ddb5d9abadefcc2e73de4bfd8608ae675760183b"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "arch_aperture_clear": true,
+      "arch_crown_hit": true,
+      "negative_control_filled_aperture_rejected": true,
+      "terrain_lid_parentage": true,
+      "lid_dimensions": [
+        3.7200000286102295,
+        2.380000114440918,
+        0.30000001192092896
+      ],
+      "lid_pivot": [
+        0.0,
+        1.3200000524520874,
+        1.6679999828338623
+      ],
+      "arch_height_above_lid": 0.8850223274230957
+    },
+    "fresh_runtime_execution": false
+  }
+]

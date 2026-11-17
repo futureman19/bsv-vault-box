@@ -1,0 +1,334 @@
+[
+  {
+    "source": {
+      "commit": "8f91f250692e49de5f2953e6c6cded2612bf0af4",
+      "path": "preview/rwanda-v1/browser-check.json",
+      "bytes": 1995,
+      "sha256": "df32925ab59e2b628dbc6b85cee9186a57993401dced36c3c3e1e8b46a40ef55"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 11060,
+          "meshes": 88,
+          "materials": 6,
+          "bounds": {
+            "min": [
+              -1.8919999599456787,
+              -0.24000000208616257,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.009999990463257,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 811176,
+          "open_projection_max_abs_ndc": 0.8923646516630203
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 11060,
+          "meshes": 88,
+          "materials": 6,
+          "bounds": {
+            "min": [
+              -1.8919999599456787,
+              -0.24000000208616257,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.009999990463257,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 811176,
+          "open_projection_max_abs_ndc": 0.8923646516630199
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "8f91f250692e49de5f2953e6c6cded2612bf0af4",
+      "path": "preview/rwanda-v1/contract-check.json",
+      "bytes": 277,
+      "sha256": "14e8516202d0a22eb9c26ad942bb9e7ca883dc78e97efeefcee73f3db0afe46a"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "lid_dimensions": [
+        3.7200000286102295,
+        2.380000114440918,
+        0.30000001192092896
+      ],
+      "lid_pivot": [
+        0.0,
+        1.3200000524520874,
+        1.6679999828338623
+      ],
+      "lid_reliefs": 9,
+      "body_reliefs": 28,
+      "max_relief_z": 2.009999990463257
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "8f91f250692e49de5f2953e6c6cded2612bf0af4",
+      "path": "preview/rwanda-v1/delivery-check.json",
+      "bytes": 304,
+      "sha256": "2d6a0a87d05b31277a43d4ba436e1e423b01791d15ad07da5af580abef26d9fc"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "html_bytes": 1832459,
+      "glb_bytes": 811176,
+      "required_artifacts_present": true,
+      "archive_readback_verified": true,
+      "inventory_files": 45,
+      "archive": {
+        "bytes": 4375650,
+        "sha256": "addd7339f89c7bdec1a425cc72130821c30827039a79644d2878f1ad9e451b15"
+      }
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "8f91f250692e49de5f2953e6c6cded2612bf0af4",
+      "path": "preview/rwanda-v1/hinge-attachment-check.json",
+      "bytes": 926,
+      "sha256": "90d701287f5e70f0b0116ad7cdef1a9229c62907d86fdccc60e374ac14ca6e05"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "8f91f250692e49de5f2953e6c6cded2612bf0af4",
+      "path": "preview/rwanda-v1/motion-check.json",
+      "bytes": 127,
+      "sha256": "a7a507f3ff03304b7b54397c42916d50a5194e8b46cd745ce4e4fd9bd36c81e2"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "samples": 81,
+      "latch_degrees": 80,
+      "lid_degrees": 105,
+      "negative_invalid_asset_rejected": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "8f91f250692e49de5f2953e6c6cded2612bf0af4",
+      "path": "preview/rwanda-v1/parity-check.json",
+      "bytes": 277,
+      "sha256": "38ed314e07bc77e4b7cb8260981e68578ba02101acab83c3736e3a490f50af6e"
+    },
+    "reported_result": {
+      "source_vertices": 5632,
+      "imported_vertices": 18452,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "earth.png",
+        "ivory.png",
+        "wood.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "8f91f250692e49de5f2953e6c6cded2612bf0af4",
+      "path": "preview/rwanda-v1/source-check.json",
+      "bytes": 382,
+      "sha256": "d2d635fe195689c30b9b3b3cb61bd487e44cae0e1bcaa7bd8f1bdaecc43435db"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 25,
+      "static_meshes": 63,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 95
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "8f91f250692e49de5f2953e6c6cded2612bf0af4",
+      "path": "preview/rwanda-v1/theme-check.json",
+      "bytes": 1789,
+      "sha256": "24925ca62f90f711c68b2daaef47e501f16467454dec9958464b356ffca44c80"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "features": {
+        "lid": [
+          "Lid_relief__diamond",
+          "Lid_relief__diamond001",
+          "Lid_relief__diamond002",
+          "Lid_relief__diamond003",
+          "Lid_relief__diamond004",
+          "Lid_relief__diamond005",
+          "Lid_relief__diamond006",
+          "Lid_relief__diamond007",
+          "Lid_relief__diamond008"
+        ],
+        "body": [
+          "Body_relief__front",
+          "Body_relief__front001",
+          "Body_relief__front002",
+          "Body_relief__front003",
+          "Body_relief__front004",
+          "Body_relief__front005",
+          "Body_relief__front006",
+          "Body_relief__front007",
+          "Body_relief__inset",
+          "Body_relief__inset001",
+          "Body_relief__inset002",
+          "Body_relief__inset003",
+          "Body_relief__inset004",
+          "Body_relief__inset005",
+          "Body_relief__inset006",
+          "Body_relief__inset007",
+          "Body_relief__side",
+          "Body_relief__side_inset",
+          "Body_relief__side_inset001",
+          "Body_relief__side_inset002",
+          "Body_relief__side_inset003",
+          "Body_relief__side_inset004",
+          "Body_relief__side_inset005",
+          "Body_relief__side001",
+          "Body_relief__side002",
+          "Body_relief__side003",
+          "Body_relief__side004",
+          "Body_relief__side005"
+        ],
+        "maps": [
+          {
+            "width": 256,
+            "height": 256,
+            "range": 19
+          },
+          {
+            "width": 256,
+            "height": 256,
+            "range": 19
+          },
+          {
+            "width": 256,
+            "height": 256,
+            "range": 19
+          }
+        ],
+        "materials": [
+          "Kaolin / ivory",
+          "Charcoal / relief",
+          "Brass / warm satin",
+          "Wood / dark liner",
+          "Terracotta / pigment",
+          "Ochre / accent"
+        ],
+        "wrong": []
+      },
+      "negative_control": "Relief missing or detached",
+      "noJS_poster": true
+    },
+    "fresh_runtime_execution": false
+  }
+]

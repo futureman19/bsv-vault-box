@@ -1,0 +1,335 @@
+[
+  {
+    "source": {
+      "commit": "0622aef92beae5674b2cfb38848eaa73eafbb0b5",
+      "path": "preview/france-v1/browser-check.json",
+      "bytes": 2078,
+      "sha256": "682555ec81df7165411417b3f6831c0817f2e2c9daa50f1b641cbfe06e294bb1"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 44120,
+          "meshes": 216,
+          "materials": 9,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.037999887019396,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 3107424,
+          "open_projection_max_abs_ndc": 0.8923646516630201
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 44120,
+          "meshes": 216,
+          "materials": 9,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.037999887019396,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 3107424,
+          "open_projection_max_abs_ndc": 0.8923646516630197
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "0622aef92beae5674b2cfb38848eaa73eafbb0b5",
+      "path": "preview/france-v1/delivery-check.json",
+      "bytes": 619,
+      "sha256": "2cea74848663fa434b79a35be13a715aa51c823e3d47d9c3afd8be440a5f2bc9"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "HTML_BYTES": 4937632,
+      "GLB_BYTES": 3107424,
+      "ZIP_BYTES": 6379434,
+      "ZIP_ENTRIES": 56,
+      "zip_sha256": "700f9aecaaea4a4e5c85f14858378ac3959356bc983e8f822b753fc6d90e1e0c",
+      "archive_readback_verified": true,
+      "required_artifacts_present": true,
+      "checks_passed": [
+        "source",
+        "hinge-attachments",
+        "81-pose-motion-collisions",
+        "parity",
+        "theme",
+        "negative-control-rejection",
+        "motion-unit-tests",
+        "desktop-offline",
+        "mobile-offline",
+        "corrupt-GLB-fallback",
+        "no-JS-fallback",
+        "extended",
+        "delivery-inventory"
+      ]
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "0622aef92beae5674b2cfb38848eaa73eafbb0b5",
+      "path": "preview/france-v1/extended-check.json",
+      "bytes": 693,
+      "sha256": "acc0185f3770c92a6382ea62908690468e5daec554cae78f17597e22c0e1bd3a"
+    },
+    "reported_result": {
+      "stone_color_mean": [
+        197.77227783203125,
+        179.8384552001953,
+        143.9689483642578
+      ],
+      "poster_nonempty": true,
+      "features": {
+        "tiles": 160,
+        "wrong": [],
+        "maps": [
+          {
+            "key": "map",
+            "channel": 0,
+            "width": 256,
+            "height": 256,
+            "range": 59
+          },
+          {
+            "key": "map",
+            "channel": 0,
+            "width": 256,
+            "height": 256,
+            "range": 69
+          },
+          {
+            "key": "roughnessMap",
+            "channel": 1,
+            "width": 256,
+            "height": 256,
+            "range": 41
+          }
+        ]
+      },
+      "country_copy": true,
+      "noJS_poster": true,
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "0622aef92beae5674b2cfb38848eaa73eafbb0b5",
+      "path": "preview/france-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "0622aef92beae5674b2cfb38848eaa73eafbb0b5",
+      "path": "preview/france-v1/parity-check.json",
+      "bytes": 311,
+      "sha256": "f37ad45102b6c0eab2c267e562195ffd0f624719beb69b7003278dda7147f3ab"
+    },
+    "reported_result": {
+      "source_vertices": 22488,
+      "imported_vertices": 84513,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "feet-color.png",
+        "stone-color.png",
+        "stone-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "0622aef92beae5674b2cfb38848eaa73eafbb0b5",
+      "path": "preview/france-v1/source-check.json",
+      "bytes": 395,
+      "sha256": "1d19191587e8d5621673fbf59a5932273cf1226cd677b9b86a5c1db29ee7034e"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 177,
+      "static_meshes": 39,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 223
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "0622aef92beae5674b2cfb38848eaa73eafbb0b5",
+      "path": "preview/france-v1/theme-check.json",
+      "bytes": 1212,
+      "sha256": "c1bae842eb7e6b9ba5bd251bf7a981e7b4d519c874923a7327e45e8353cb008b"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "checks": {
+        "160_individual_tile_meshes": true,
+        "all_tiles_move_with_lid": true,
+        "tile_field_bounds": true,
+        "raised_tile_top": true,
+        "seated_tile_bottom": true,
+        "four_glaze_colors": true,
+        "glaze_roughness_metalness": true,
+        "original_lid_pivot": true,
+        "latch_owned_by_lid": true,
+        "inherited_pivots_exact": true
+      },
+      "tile_world_bounds": [
+        [
+          -1.5959999561309814,
+          1.5959999561309814
+        ],
+        [
+          -0.9360001087188721,
+          0.9359999895095825
+        ],
+        [
+          1.997999906539917,
+          2.0379998683929443
+        ]
+      ],
+      "glaze_colors_linear": {
+        "Glaze / bottle green": [
+          0.004999999888241291,
+          0.04500000178813934,
+          0.014000000432133675,
+          1.0
+        ],
+        "Glaze / ivory": [
+          0.7200000286102295,
+          0.6299999952316284,
+          0.4000000059604645,
+          1.0
+        ],
+        "Glaze / burgundy": [
+          0.11999999731779099,
+          0.004000000189989805,
+          0.00800000037997961,
+          1.0
+        ],
+        "Glaze / mustard": [
+          0.4000000059604645,
+          0.14000000059604645,
+          0.006000000052154064,
+          1.0
+        ]
+      },
+      "negative_control": false
+    },
+    "fresh_runtime_execution": false
+  }
+]

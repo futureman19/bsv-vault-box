@@ -1,0 +1,296 @@
+[
+  {
+    "source": {
+      "commit": "17a87af385364477bc7846027b17243d6bbf9a0a",
+      "path": "preview/south-sudan-v1/browser-check.json",
+      "bytes": 2077,
+      "sha256": "8e25c97112ab2c2f838b87c5673080ab45144d4d001ee9a7a99d4b6e348ba91f"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 30924,
+          "meshes": 320,
+          "materials": 8,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.865999988745898,
+              2.5555148124694824,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 2495892,
+          "open_projection_max_abs_ndc": 0.9232993533312412
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 30924,
+          "meshes": 320,
+          "materials": 8,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.865999988745898,
+              2.5555148124694824,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 2495892,
+          "open_projection_max_abs_ndc": 0.923299353331241
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "17a87af385364477bc7846027b17243d6bbf9a0a",
+      "path": "preview/south-sudan-v1/delivery-check.json",
+      "bytes": 608,
+      "sha256": "23de3c8200f9bf8a52e0e75ecdca2d38f5c9de5c6f7c46cda9da3fa17301c0c3"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "HTML_BYTES": 4121283,
+      "GLB_BYTES": 2495892,
+      "zip_bytes": 7049199,
+      "zip_sha256": "8f4900b0ef526cbbb2d9a4ea9545a39da52de680c0b7dea703f13b34e1e8c7ae",
+      "inventory_files": 54,
+      "explicit_required_set": [
+        "README.md",
+        "browser-check.json",
+        "design-brief.md",
+        "extended-check.json",
+        "motion-output.txt",
+        "parity-check.json",
+        "poster.png",
+        "source-check.json",
+        "south-sudan-v1.html",
+        "south-sudan.blend",
+        "south-sudan.glb",
+        "theme-check.json",
+        "theme-negative.txt"
+      ],
+      "archive_readback_verified": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "17a87af385364477bc7846027b17243d6bbf9a0a",
+      "path": "preview/south-sudan-v1/extended-check.json",
+      "bytes": 468,
+      "sha256": "9d3814f5ec9984ce01c1c915d0bbf24a133234e74b246a1d0837321ca8bba87c"
+    },
+    "reported_result": {
+      "maps": [
+        {
+          "key": "map",
+          "width": 512,
+          "height": 256,
+          "range": 41
+        },
+        {
+          "key": "map",
+          "width": 256,
+          "height": 256,
+          "range": 194
+        },
+        {
+          "key": "map",
+          "width": 512,
+          "height": 256,
+          "range": 59
+        },
+        {
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 256,
+          "range": 78
+        }
+      ],
+      "noJS_poster": true,
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "17a87af385364477bc7846027b17243d6bbf9a0a",
+      "path": "preview/south-sudan-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "17a87af385364477bc7846027b17243d6bbf9a0a",
+      "path": "preview/south-sudan-v1/parity-check.json",
+      "bytes": 330,
+      "sha256": "956c94d69159909dffee1534fed03600de203b478a8ff6d1c880fd9022645456"
+    },
+    "reported_result": {
+      "source_vertices": 16098,
+      "imported_vertices": 52639,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "cedar-color.png",
+        "cedar-end.png",
+        "cedar-roughness.png",
+        "granite.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "17a87af385364477bc7846027b17243d6bbf9a0a",
+      "path": "preview/south-sudan-v1/source-check.json",
+      "bytes": 395,
+      "sha256": "ecffa2dbbd0acbbe2e64e3e97cd7edfb84853a596999971d9cfcdbdf73e7d20c"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 221,
+      "static_meshes": 99,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 327
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "17a87af385364477bc7846027b17243d6bbf9a0a",
+      "path": "preview/south-sudan-v1/theme-check.json",
+      "bytes": 419,
+      "sha256": "c54e73b02268aa88a442111bb9a607e2722d4c146089243d106bb436ef2e8319"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "stems": 21,
+      "banks": 3,
+      "lid_owned_ornaments": 193,
+      "max_z": 2.5555148124694824,
+      "exposed_water_rays": [
+        [
+          -0.43,
+          -0.3,
+          2.0275001525878906
+        ],
+        [
+          0.55,
+          -0.4,
+          2.0275001525878906
+        ],
+        [
+          0,
+          -0.65,
+          2.0275001525878906
+        ]
+      ],
+      "negative_control": "--negative detaches one stem and must fail"
+    },
+    "fresh_runtime_execution": false
+  }
+]

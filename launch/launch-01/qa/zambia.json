@@ -1,0 +1,327 @@
+[
+  {
+    "source": {
+      "commit": "1e5b4f7b00541e4e20abff5feafc3b39a1ac50b6",
+      "path": "preview/zambia-v1/browser-check.json",
+      "bytes": 2076,
+      "sha256": "7f69874fc2f4f44cb71a836dfe1a6af9946fc5ef2aeee8bdf4c09b11ff0def93"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 17264,
+          "meshes": 96,
+          "materials": 6,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.557010769844055,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1898704,
+          "open_projection_max_abs_ndc": 0.8923646516630206
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 17264,
+          "meshes": 96,
+          "materials": 6,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.557010769844055,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1898704,
+          "open_projection_max_abs_ndc": 0.8923646516630205
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "1e5b4f7b00541e4e20abff5feafc3b39a1ac50b6",
+      "path": "preview/zambia-v1/delivery-check.json",
+      "bytes": 666,
+      "sha256": "6fc26f6dd9e45d751c649a85d322a072df854c6e262adcc3cbc8bf51d5534455"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "html_bytes": 3254642,
+      "glb_bytes": 1898704,
+      "required_artifacts_present": true,
+      "inventory_files": 54,
+      "zip_readback_verified": true,
+      "zip_bytes": 7673648,
+      "zip_sha256": "7d962759dca745fd4e030d15071fdc59890394b22b742a0153d54a2999beca32",
+      "inventory_sha256": "e556e2aa5f77e880ffe2cadd41c61f48f35046be6dcdd6c9402e99bc64f41a46",
+      "exclusions": [
+        "codex-lane.log",
+        "delivery-check.json",
+        "inventory.json",
+        "lane-prompt.txt",
+        "zambia-v1-source.zip"
+      ],
+      "note": "Inventory excludes its own hash and packaging envelopes to avoid recursion; optional rejected Codex log omitted from package."
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "1e5b4f7b00541e4e20abff5feafc3b39a1ac50b6",
+      "path": "preview/zambia-v1/geometry-check.json",
+      "bytes": 570,
+      "sha256": "782369e5c0b154ad7350878d8d9347b0d40eff47dc71c515ea2a98722cf8e16f"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "pivot_locations_identical_to_mechanism": {
+        "Lid_Hinge": [
+          0.0,
+          1.3200000524520874,
+          1.6679999828338623
+        ],
+        "Latch_Pivot": [
+          0.0,
+          -2.6100001335144043,
+          0.2200000286102295
+        ]
+      },
+      "lid_dimensions": [
+        3.7200000286102295,
+        2.380000114440918,
+        0.30000001192092896
+      ],
+      "ornament_meshes": 40,
+      "all_ornament_vertices_inside_declared_envelope": true,
+      "connected_river_vertices": 117,
+      "water_drop": 0.41393423080444336,
+      "seam_height_max": 0.09000000357627869
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "1e5b4f7b00541e4e20abff5feafc3b39a1ac50b6",
+      "path": "preview/zambia-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "1e5b4f7b00541e4e20abff5feafc3b39a1ac50b6",
+      "path": "preview/zambia-v1/parity-check.json",
+      "bytes": 315,
+      "sha256": "d9b8698680aa4d29842f2b889f322c900b3e1e42214ec137462fed138603f8a4"
+    },
+    "reported_result": {
+      "source_vertices": 8837,
+      "imported_vertices": 28907,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "basalt-color.png",
+        "basalt-normal.png",
+        "basalt-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "1e5b4f7b00541e4e20abff5feafc3b39a1ac50b6",
+      "path": "preview/zambia-v1/source-check.json",
+      "bytes": 394,
+      "sha256": "67e561d58c84a8967c5c63e6c13aa085920c6aeef756d32cc13d0d3fa4555d3b"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 56,
+      "static_meshes": 39,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 102
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "1e5b4f7b00541e4e20abff5feafc3b39a1ac50b6",
+      "path": "preview/zambia-v1/theme-check.json",
+      "bytes": 1988,
+      "sha256": "a5df087b58ceb802aef908254ed7c5ad258ff5f8a95534dc9de8b0c4be8905b3"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "features": {
+        "gorge": [
+          "Falls__foam_streak",
+          "Falls__foam_streak001",
+          "Falls__foam_streak002",
+          "Falls__foam_streak003",
+          "Falls__foam_streak004",
+          "Falls__foam_streak005",
+          "Falls__foam_streak006",
+          "Falls__foam_streak007",
+          "Falls__foam_streak008",
+          "Falls__foam_streak009",
+          "Falls__foam_streak010",
+          "Gorge__basalt_bank_1",
+          "Gorge__basalt_bank_-1",
+          "Gorge__lower_channel_bed",
+          "Gorge__olive_bank_accent",
+          "Gorge__olive_bank_accent001",
+          "Gorge__olive_bank_accent002",
+          "Gorge__olive_bank_accent003",
+          "Gorge__olive_bank_accent004",
+          "Gorge__olive_bank_accent005",
+          "Gorge__olive_bank_accent006",
+          "Gorge__olive_bank_accent007",
+          "Gorge__olive_bank_accent008",
+          "Gorge__olive_bank_accent009",
+          "Gorge__olive_bank_accent010",
+          "Gorge__olive_bank_accent011",
+          "Gorge__olive_bank_accent012",
+          "Gorge__olive_bank_accent013",
+          "Gorge__olive_bank_accent014",
+          "Gorge__olive_bank_accent015",
+          "Gorge__olive_bank_accent016",
+          "Gorge__olive_bank_accent017",
+          "Gorge__olive_bank_accent018",
+          "Gorge__olive_bank_accent019",
+          "Gorge__olive_bank_accent020",
+          "Gorge__olive_bank_accent021",
+          "Gorge__olive_bank_accent022",
+          "Gorge__olive_bank_accent023",
+          "Gorge__upper_channel_bed",
+          "Connected_river_and_waterfall",
+          "Connected_river_and_waterfall_1"
+        ],
+        "water": [
+          "Connected_river_and_waterfall",
+          "Connected_river_and_waterfall_1"
+        ],
+        "maps": [
+          {
+            "width": 512,
+            "height": 512,
+            "range": 52
+          }
+        ],
+        "wrong": [],
+        "stale": []
+      },
+      "negative_control": {
+        "rejected": true,
+        "reason": "wrong hierarchy or inherited theme",
+        "mutation": "actual loaded water detached from moving lid"
+      },
+      "no_js_poster": true
+    },
+    "fresh_runtime_execution": false
+  }
+]

@@ -1,0 +1,313 @@
+[
+  {
+    "source": {
+      "commit": "f1cdd3329330a60df82ca3f82eb827d73787ccaf",
+      "path": "preview/equatorial-guinea-v1/browser-check.json",
+      "bytes": 2082,
+      "sha256": "28f152747ccc1242ffbedd61934a6bf9d9349bd2a914cd1ef606bd848046aca5"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 22556,
+          "meshes": 134,
+          "materials": 9,
+          "bounds": {
+            "min": [
+              -1.8699999628588557,
+              -0.30356863886117935,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8699999628588557,
+              2.5005605220794678,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1519756,
+          "open_projection_max_abs_ndc": 0.8923646516630206
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 22556,
+          "meshes": 134,
+          "materials": 9,
+          "bounds": {
+            "min": [
+              -1.8699999628588557,
+              -0.30356863886117935,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8699999628588557,
+              2.5005605220794678,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1519756,
+          "open_projection_max_abs_ndc": 0.8923646516630204
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "f1cdd3329330a60df82ca3f82eb827d73787ccaf",
+      "path": "preview/equatorial-guinea-v1/delivery-check.json",
+      "bytes": 1096,
+      "sha256": "fe9e4bf5bfab7d57aa2d22202bd98608a524b4668ce5aaeff494bcc39bcc77f6"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "html_bytes": 2747578,
+      "glb_bytes": 1519756,
+      "html_sha256": "cebd9485fd0f8fb808a56b350fbf94e6ec0dd28de830a4bac2d8b053a3457fbf",
+      "glb_sha256": "526b8e42c49cb304809818e909b51b3a3be3a9470343646d3fcdd8284c7d16ec",
+      "checks_passed": [
+        "source",
+        "81-pose-motion",
+        "hinge-attachments",
+        "parity",
+        "theme-source",
+        "GLTFLoader",
+        "desktop-file-browser",
+        "mobile-touch-file-browser",
+        "corrupt-GLB-fallback",
+        "no-JS-fallback",
+        "portable-maps",
+        "motion-unit-negative-controls",
+        "embedded-payload-identity",
+        "strict-HTML-size",
+        "SHA256-inventory",
+        "ZIP-readback"
+      ],
+      "inventory_files": 54,
+      "zip_bytes": 7963573,
+      "zip_sha256": "7bcf49ad31acbda9f7c93a62f1e4f66a92bdd365cc73f2ff27b167e72d6d52ff",
+      "zip_readback_verified": true,
+      "inventory_sha256": "de0f5147b8771f17fcfb3df4487bbc0b931a38f91a9a3d00a611ff6581a91198",
+      "exclusions": "inventory and delivery envelopes excluded from recursive inventory; backups/caches/dependencies excluded; git-evidence is post-packaging audit"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "f1cdd3329330a60df82ca3f82eb827d73787ccaf",
+      "path": "preview/equatorial-guinea-v1/extended-check.json",
+      "bytes": 498,
+      "sha256": "df87e7dbac12501e4f613497d384eafbc3e231d318c9d42ef14bdb2a36386c5b"
+    },
+    "reported_result": {
+      "features": {
+        "canopies": 72,
+        "terrain": 1,
+        "maps": [
+          {
+            "kind": "map",
+            "width": 512,
+            "height": 256,
+            "range": 47
+          },
+          {
+            "kind": "roughnessMap",
+            "width": 512,
+            "height": 256,
+            "range": 51
+          },
+          {
+            "kind": "normalMap",
+            "width": 512,
+            "height": 256,
+            "range": 17
+          }
+        ],
+        "wrong": []
+      },
+      "noJS_poster": true,
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "f1cdd3329330a60df82ca3f82eb827d73787ccaf",
+      "path": "preview/equatorial-guinea-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "f1cdd3329330a60df82ca3f82eb827d73787ccaf",
+      "path": "preview/equatorial-guinea-v1/parity-check.json",
+      "bytes": 316,
+      "sha256": "54051d643691ec1a0f2c4ff5a338324ce057c390b7b744184b4527b04fd194f5"
+    },
+    "reported_result": {
+      "source_vertices": 11593,
+      "imported_vertices": 27857,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "basalt-color.png",
+        "basalt-normal.png",
+        "basalt-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "f1cdd3329330a60df82ca3f82eb827d73787ccaf",
+      "path": "preview/equatorial-guinea-v1/source-check.json",
+      "bytes": 394,
+      "sha256": "7ee93e3c91a389fe56f344d4464cc03311903a9b8751468d1f431ad83f69f03c"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 89,
+      "static_meshes": 45,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 141
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "f1cdd3329330a60df82ca3f82eb827d73787ccaf",
+      "path": "preview/equatorial-guinea-v1/theme-source-check.json",
+      "bytes": 807,
+      "sha256": "d01e1989042b14377965c8ae54f0d92a75f960c1e1dfb92314114d700659bc59"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "pivots_match_trimmed_baseline": {
+        "Lid_Hinge": [
+          0.0,
+          1.3200000524520874,
+          1.6679999828338623
+        ],
+        "Latch_Pivot": [
+          0.0,
+          -2.6100001335144043,
+          0.2200000286102295
+        ]
+      },
+      "lid_dimensions": [
+        3.7200000286102295,
+        2.380000114440918,
+        0.30000001192092896
+      ],
+      "canopy_meshes": 72,
+      "caldera_center_z": 2.020538568496704,
+      "rim_z": [
+        2.4702610969543457,
+        2.321086883544922,
+        2.3003556728363037,
+        2.2911901473999023
+      ],
+      "minimum_depression": 0.27065157890319824,
+      "canopy_surface_contacts": 72,
+      "unseated_canopies": [],
+      "packed_images": {
+        "basalt-color.png": 169532,
+        "basalt-normal.png": 130823,
+        "basalt-roughness.png": 77622
+      },
+      "lid_parentage": true
+    },
+    "fresh_runtime_execution": false
+  }
+]

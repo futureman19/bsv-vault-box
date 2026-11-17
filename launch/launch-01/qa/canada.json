@@ -1,0 +1,528 @@
+[
+  {
+    "source": {
+      "commit": "92cbab2167adcc4e557e843ee2fbc138f8735022",
+      "path": "preview/canada-v1/acceptance-check.json",
+      "bytes": 352,
+      "sha256": "c107ce4bcf2cbd87af12c755fb11772fc7907adb123bfd7d07cee40fac819140"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "checks_passed": [
+        "source",
+        "hinge-attachments",
+        "parity",
+        "theme",
+        "motion",
+        "browser-desktop",
+        "browser-mobile",
+        "corrupt-GLB-fallback",
+        "no-JS-fallback",
+        "runtime-maps",
+        "poster-pixels",
+        "payload-budget"
+      ],
+      "html_bytes": 4309123,
+      "glb_bytes": 2652076
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "92cbab2167adcc4e557e843ee2fbc138f8735022",
+      "path": "preview/canada-v1/browser-check.json",
+      "bytes": 2078,
+      "sha256": "e36b95cfc309e747c34b910948f3e11d199143eecfc41dbad9e34e8644d96387"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 39232,
+          "meshes": 161,
+          "materials": 11,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.865999988745898,
+              2.934014320373535,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 2652076,
+          "open_projection_max_abs_ndc": 0.8923646516630189
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 39232,
+          "meshes": 161,
+          "materials": 11,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.865999988745898,
+              2.934014320373535,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 2652076,
+          "open_projection_max_abs_ndc": 0.8923646516630193
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "92cbab2167adcc4e557e843ee2fbc138f8735022",
+      "path": "preview/canada-v1/delivery-check.json",
+      "bytes": 928,
+      "sha256": "2ee776d66a96af4d1bb0fc27bb943995f88a31de5c47ae05b0c9098e7b122658"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "html_bytes": 4309123,
+      "glb_bytes": 2652076,
+      "html_sha256": "bcbcf51e3b7c704a8f83cce3709cfdf9faf5144717ff0684e6a2a48fb61eb946",
+      "glb_sha256": "21d7e0501a60d5e6de7682c6cef04becd1940966a15e71d7ba50cd79030ddfd5",
+      "zip_bytes": 7239565,
+      "zip_sha256": "c6c6896b32b896e1147dd2415ffd57d8e05da7015f595f6a44929e352d169767",
+      "inventory_sha256": "bc6374ab957732eb8b8ebffbe82b36384a7d83f55a160ee04aec636986b1b190",
+      "payload_files": 53,
+      "zip_entries": 54,
+      "required_artifact_set_complete": true,
+      "all_archived_bytes_readback_match": true,
+      "extracted_html_offline_touch_open_reset": true,
+      "checks_passed": [
+        "source",
+        "hinge-attachments",
+        "parity",
+        "theme",
+        "motion",
+        "browser-desktop",
+        "browser-mobile",
+        "corrupt-GLB-fallback",
+        "no-JS-fallback",
+        "runtime-maps",
+        "poster-pixels",
+        "payload-budget",
+        "delivery"
+      ]
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "92cbab2167adcc4e557e843ee2fbc138f8735022",
+      "path": "preview/canada-v1/extended-check.json",
+      "bytes": 3705,
+      "sha256": "23c1caae14ac13213f2106c4f1a05460c9cb59b4e3350b17dd870be28624053c"
+    },
+    "reported_result": {
+      "poster_nonblack_alpha": true,
+      "visible_country_copy": true,
+      "features": {
+        "ornaments": [
+          {
+            "name": "Pine__branch",
+            "lidOwned": true
+          },
+          {
+            "name": "Pine__branch001",
+            "lidOwned": true
+          },
+          {
+            "name": "Pine__branch002",
+            "lidOwned": true
+          },
+          {
+            "name": "Pine__branch003",
+            "lidOwned": true
+          },
+          {
+            "name": "Pine__branch004",
+            "lidOwned": true
+          },
+          {
+            "name": "Pine__branch005",
+            "lidOwned": true
+          },
+          {
+            "name": "Pine__branch006",
+            "lidOwned": true
+          },
+          {
+            "name": "Pine__branch007",
+            "lidOwned": true
+          },
+          {
+            "name": "Pine__branch008",
+            "lidOwned": true
+          },
+          {
+            "name": "Pine__branch009",
+            "lidOwned": true
+          },
+          {
+            "name": "Pine__branch010",
+            "lidOwned": true
+          },
+          {
+            "name": "Pine__branch011",
+            "lidOwned": true
+          },
+          {
+            "name": "Pine__branch012",
+            "lidOwned": true
+          },
+          {
+            "name": "Pine__branch013",
+            "lidOwned": true
+          },
+          {
+            "name": "Pine__branch014",
+            "lidOwned": true
+          },
+          {
+            "name": "Pine__branch015",
+            "lidOwned": true
+          },
+          {
+            "name": "Pine__branch016",
+            "lidOwned": true
+          },
+          {
+            "name": "Pine__branch017",
+            "lidOwned": true
+          },
+          {
+            "name": "Pine__branch018",
+            "lidOwned": true
+          },
+          {
+            "name": "Pine__branch019",
+            "lidOwned": true
+          },
+          {
+            "name": "Pine__foliage_0",
+            "lidOwned": true
+          },
+          {
+            "name": "Pine__foliage_1",
+            "lidOwned": true
+          },
+          {
+            "name": "Pine__foliage_2",
+            "lidOwned": true
+          },
+          {
+            "name": "Pine__foliage_3",
+            "lidOwned": true
+          },
+          {
+            "name": "Pine__root",
+            "lidOwned": true
+          },
+          {
+            "name": "Pine__root001",
+            "lidOwned": true
+          },
+          {
+            "name": "Pine__root002",
+            "lidOwned": true
+          },
+          {
+            "name": "Pine__root003",
+            "lidOwned": true
+          },
+          {
+            "name": "Pine__root004",
+            "lidOwned": true
+          },
+          {
+            "name": "Pine__trunk",
+            "lidOwned": true
+          },
+          {
+            "name": "Shield_lake__inlay",
+            "lidOwned": true
+          },
+          {
+            "name": "Shield_shore__foreground",
+            "lidOwned": true
+          },
+          {
+            "name": "Shield_shore__left",
+            "lidOwned": true
+          },
+          {
+            "name": "Shield_shore__rear_right",
+            "lidOwned": true
+          }
+        ],
+        "maps": [
+          {
+            "material": "Maple / dark finger endgrain",
+            "slot": "map",
+            "channel": 0,
+            "width": 256,
+            "height": 256,
+            "range": 17
+          },
+          {
+            "material": "Granite / salt and pepper",
+            "slot": "map",
+            "channel": 0,
+            "width": 256,
+            "height": 256,
+            "range": 125
+          },
+          {
+            "material": "Maple / fine longitudinal grain",
+            "slot": "map",
+            "channel": 0,
+            "width": 512,
+            "height": 512,
+            "range": 31
+          },
+          {
+            "material": "Maple / fine longitudinal grain",
+            "slot": "roughnessMap",
+            "channel": 1,
+            "width": 512,
+            "height": 512,
+            "range": 31
+          }
+        ]
+      },
+      "noJS_poster": true,
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "92cbab2167adcc4e557e843ee2fbc138f8735022",
+      "path": "preview/canada-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "92cbab2167adcc4e557e843ee2fbc138f8735022",
+      "path": "preview/canada-v1/parity-check.json",
+      "bytes": 330,
+      "sha256": "1c77168c14148a4c768855d527ee20622032cb5f528c3f3c9717271be7d8f8dc"
+    },
+    "reported_result": {
+      "source_vertices": 27126,
+      "imported_vertices": 63887,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "granite.png",
+        "maple-color.png",
+        "maple-end.png",
+        "maple-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "92cbab2167adcc4e557e843ee2fbc138f8735022",
+      "path": "preview/canada-v1/source-check.json",
+      "bytes": 394,
+      "sha256": "cf70fcad25a58211d8b3c8c831e7e483ed91f39e0448a3c6f7c7a1cf5f0d630f"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 62,
+      "static_meshes": 99,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 168
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "92cbab2167adcc4e557e843ee2fbc138f8735022",
+      "path": "preview/canada-v1/theme-check.json",
+      "bytes": 1125,
+      "sha256": "67329dca56e4a147ab443ba6c7ea0f3bc38008318c2a177165dc7a625242be4b"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "ornament_count": 34,
+      "negative_control_rejected": "Ornament detached from lid",
+      "pine_root_surface_contacts": [
+        "Pine / root",
+        "Pine / root.001",
+        "Pine / root.002",
+        "Pine / root.003",
+        "Pine / root.004",
+        "Pine / trunk"
+      ],
+      "lid_dimensions": [
+        3.72,
+        2.38,
+        0.3
+      ],
+      "pine_max_z": 2.934014320373535,
+      "same_pivot_matrices": {
+        "Lid_Hinge": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            1.3200000524520874
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.6679999828338623
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Latch_Pivot": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.290000081062317
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.8880000114440918
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    "fresh_runtime_execution": false
+  }
+]

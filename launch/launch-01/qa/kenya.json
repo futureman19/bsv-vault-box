@@ -1,0 +1,283 @@
+[
+  {
+    "source": {
+      "commit": "ef1ca87305aa8a178eae1376b2b329d6ca09bbc1",
+      "path": "preview/kenya-v1/acceptance-check.json",
+      "bytes": 179,
+      "sha256": "35d1a653c2706fd078275b2f23c2bf740042ce2ee11e341756cb7a09cc9ed422"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "checks": [
+        "tests.mjs",
+        "build.py",
+        "verify_source.py",
+        "verify_parity.py",
+        "verify_browser.py",
+        "verify_theme.py"
+      ]
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "ef1ca87305aa8a178eae1376b2b329d6ca09bbc1",
+      "path": "preview/kenya-v1/browser-check.json",
+      "bytes": 2080,
+      "sha256": "4b7c8a05f8ae57e4baa9b1b620f46827e4e4ecba6de2998e7ac7af3c1071ba7c"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 14948,
+          "meshes": 83,
+          "materials": 6,
+          "bounds": {
+            "min": [
+              -1.8600000143051147,
+              -0.23999999463558197,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.4665117263793945,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1764820,
+          "open_projection_max_abs_ndc": 0.9156477400818147
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 14948,
+          "meshes": 83,
+          "materials": 6,
+          "bounds": {
+            "min": [
+              -1.8600000143051147,
+              -0.23999999463558197,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.4665117263793945,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1764820,
+          "open_projection_max_abs_ndc": 0.9156477400818144
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "ef1ca87305aa8a178eae1376b2b329d6ca09bbc1",
+      "path": "preview/kenya-v1/delivery-check.json",
+      "bytes": 728,
+      "sha256": "aa2dd17d7be94933ffc6978ec6cb0287f106646b98c95ed543e3de5a8c3ff776"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "required_artifacts": [
+        "README.md",
+        "acceptance-check.json",
+        "browser-check.json",
+        "design-brief.md",
+        "kenya-v1.html",
+        "kenya.blend",
+        "kenya.glb",
+        "mechanism.blend",
+        "motion-output.txt",
+        "parity-check.json",
+        "poster.png",
+        "source-check.json",
+        "theme-check.json"
+      ],
+      "payload_file_count": 56,
+      "html_bytes": 3086224,
+      "glb_bytes": 1764820,
+      "inventory": {
+        "bytes": 7487,
+        "sha256": "e58e16d962d441ed2276b477c3d6b67cf5cb0e16745fb06dd512f7f3bb2f4c44"
+      },
+      "archive": {
+        "bytes": 7766230,
+        "sha256": "148817a743be392e7a73621dd698460bc1b99fd603ab80156b2eb64fe740e11a"
+      },
+      "zip_readback_verified": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "ef1ca87305aa8a178eae1376b2b329d6ca09bbc1",
+      "path": "preview/kenya-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "ef1ca87305aa8a178eae1376b2b329d6ca09bbc1",
+      "path": "preview/kenya-v1/parity-check.json",
+      "bytes": 314,
+      "sha256": "11d1b20316b43d6b7eca8b94776f6a0d0ce12ed0cf139fe9919731bb583a0cd0"
+    },
+    "reported_result": {
+      "source_vertices": 7811,
+      "imported_vertices": 27013,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "ochre-color.png",
+        "stone-roughness.png",
+        "volcanic-color.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "ef1ca87305aa8a178eae1376b2b329d6ca09bbc1",
+      "path": "preview/kenya-v1/source-check.json",
+      "bytes": 393,
+      "sha256": "83d61ff531ac42777d88f515301cf7a876d64bd828ddf2fb01231f532d851098"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 24,
+      "static_meshes": 59,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 90
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "ef1ca87305aa8a178eae1376b2b329d6ca09bbc1",
+      "path": "preview/kenya-v1/theme-check.json",
+      "bytes": 466,
+      "sha256": "5b13e93c72b2543c4e8ee988607a88131cbb1f6a83b8b1781f6a163f55c310b6"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "features": {
+        "lakes": [
+          "Lake__1",
+          "Lake__2",
+          "Lake__3"
+        ],
+        "terrain_max": 2.4665117263793945,
+        "wrong": [],
+        "maps": [
+          {
+            "width": 512,
+            "height": 512,
+            "range": 62
+          },
+          {
+            "width": 512,
+            "height": 512,
+            "range": 62
+          }
+        ]
+      },
+      "negative_control_rejected": "three distinct lakes required",
+      "noJS_poster": true
+    },
+    "fresh_runtime_execution": false
+  }
+]

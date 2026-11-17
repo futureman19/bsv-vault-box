@@ -1,0 +1,424 @@
+[
+  {
+    "source": {
+      "commit": "8bfbd0883bebc78d10896040db72c8a85e900cc5",
+      "path": "preview/panama-v1/browser-check.json",
+      "bytes": 2077,
+      "sha256": "35013efe74fc06416b8fd2b08eff2fd03c8a5b8abb23728315889fc788bacff9"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 18886,
+          "meshes": 110,
+          "materials": 11,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.73954439163208,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1559000,
+          "open_projection_max_abs_ndc": 0.892364651663019
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 18886,
+          "meshes": 110,
+          "materials": 11,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.73954439163208,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1559000,
+          "open_projection_max_abs_ndc": 0.8923646516630215
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "8bfbd0883bebc78d10896040db72c8a85e900cc5",
+      "path": "preview/panama-v1/delivery-check.json",
+      "bytes": 843,
+      "sha256": "15da8f61f5729778f00324fb15bf09cb95f4c4cbb49dc23cc43149098d199132"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "HTML_BYTES": 2861782,
+      "GLB_BYTES": 1559000,
+      "ZIP_BYTES": 7183917,
+      "ZIP_SHA256": "84be091feb8a9f56d4303bb88be3f0f83f9a3c3d86f10ebab979f14674513869",
+      "inventory_entries": 55,
+      "archive_readback_verified": true,
+      "required_artifacts_verified": [
+        "README.md",
+        "THREE-LICENSE.txt",
+        "browser-check.json",
+        "design-brief.md",
+        "extended-check.json",
+        "mechanism.blend",
+        "panama-v1.html",
+        "panama.blend",
+        "panama.glb",
+        "parity-check.json",
+        "poster.jpg",
+        "poster.png",
+        "source-check.json",
+        "theme-check.json"
+      ],
+      "checks_passed": [
+        "source",
+        "81-pose-motion",
+        "hinge-attachment",
+        "parity",
+        "theme",
+        "negative-controls",
+        "browser-desktop",
+        "browser-mobile",
+        "extended",
+        "delivery"
+      ]
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "8bfbd0883bebc78d10896040db72c8a85e900cc5",
+      "path": "preview/panama-v1/extended-check.json",
+      "bytes": 834,
+      "sha256": "2afa8e000f4ad333c873e872446cee31cb2af840fb84d9f422a074463b28fe0c"
+    },
+    "reported_result": {
+      "poster_nonblank": true,
+      "poster_alpha_coverage": 1.0,
+      "runtime": {
+        "maps": [
+          {
+            "type": "map",
+            "material": "Granite / salt and pepper",
+            "width": 256,
+            "height": 256,
+            "range": 72
+          },
+          {
+            "type": "map",
+            "material": "Jade / mottled mineral",
+            "width": 384,
+            "height": 384,
+            "range": 29
+          },
+          {
+            "type": "roughnessMap",
+            "material": "Jade / mottled mineral",
+            "width": 384,
+            "height": 384,
+            "range": 75
+          },
+          {
+            "type": "map",
+            "material": "Sediment / warm silt",
+            "width": 384,
+            "height": 384,
+            "range": 83
+          }
+        ],
+        "ornaments": 55,
+        "wrong": []
+      },
+      "noJS_poster": true,
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "8bfbd0883bebc78d10896040db72c8a85e900cc5",
+      "path": "preview/panama-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "8bfbd0883bebc78d10896040db72c8a85e900cc5",
+      "path": "preview/panama-v1/parity-check.json",
+      "bytes": 327,
+      "sha256": "617e9fcf4b28cbc0064d12e7e714a1176c22f74980625fb18210fe828d72de2c"
+    },
+    "reported_result": {
+      "source_vertices": 11931,
+      "imported_vertices": 27551,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "granite.png",
+        "jade-color.png",
+        "jade-roughness.png",
+        "sediment.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "8bfbd0883bebc78d10896040db72c8a85e900cc5",
+      "path": "preview/panama-v1/source-check.json",
+      "bytes": 394,
+      "sha256": "0a642df8b94aa845207bcef75a836004edefdbb92879cff2716c7c44cdff4748"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 71,
+      "static_meshes": 39,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 117
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "8bfbd0883bebc78d10896040db72c8a85e900cc5",
+      "path": "preview/panama-v1/theme-check.json",
+      "bytes": 2871,
+      "sha256": "460e720ebe761cc62f753e627b7ab4073859d25a387b978e2fc1ccec0ec6eea9"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "ornaments": 55,
+      "water_quads_connected": 40,
+      "root_anchor_rays": [
+        {
+          "name": "Mangrove / stilt root 0 0",
+          "foot": [
+            -0.6700000166893005,
+            0.5699999928474426,
+            2.0420002937316895
+          ]
+        },
+        {
+          "name": "Mangrove / stilt root 0 1",
+          "foot": [
+            -0.7943770289421082,
+            0.7126584649085999,
+            2.0420000553131104
+          ]
+        },
+        {
+          "name": "Mangrove / stilt root 0 2",
+          "foot": [
+            -0.9956231117248535,
+            0.6581677794456482,
+            2.0420005321502686
+          ]
+        },
+        {
+          "name": "Mangrove / stilt root 0 3",
+          "foot": [
+            -0.9956231117248535,
+            0.4818321764469147,
+            2.0420002937316895
+          ]
+        },
+        {
+          "name": "Mangrove / stilt root 0 4",
+          "foot": [
+            -0.7943770289421082,
+            0.4273415207862854,
+            2.0420000553131104
+          ]
+        },
+        {
+          "name": "Mangrove / stilt root 1 0",
+          "foot": [
+            0.2800000309944153,
+            -0.5500000715255737,
+            2.0420002937316895
+          ]
+        },
+        {
+          "name": "Mangrove / stilt root 1 1",
+          "foot": [
+            0.15562306344509125,
+            -0.40734153985977173,
+            2.0420000553131104
+          ]
+        },
+        {
+          "name": "Mangrove / stilt root 1 2",
+          "foot": [
+            -0.0456230603158474,
+            -0.4618322253227234,
+            2.0420005321502686
+          ]
+        },
+        {
+          "name": "Mangrove / stilt root 1 3",
+          "foot": [
+            -0.0456230603158474,
+            -0.6381677985191345,
+            2.0420002937316895
+          ]
+        },
+        {
+          "name": "Mangrove / stilt root 1 4",
+          "foot": [
+            0.15562306344509125,
+            -0.692658543586731,
+            2.0420000553131104
+          ]
+        },
+        {
+          "name": "Mangrove / stilt root 2 0",
+          "foot": [
+            1.1299999952316284,
+            0.550000011920929,
+            2.0420002937316895
+          ]
+        },
+        {
+          "name": "Mangrove / stilt root 2 1",
+          "foot": [
+            1.0056231021881104,
+            0.6926584839820862,
+            2.0420000553131104
+          ]
+        },
+        {
+          "name": "Mangrove / stilt root 2 2",
+          "foot": [
+            0.8043769598007202,
+            0.6381677985191345,
+            2.0420005321502686
+          ]
+        },
+        {
+          "name": "Mangrove / stilt root 2 3",
+          "foot": [
+            0.8043769598007202,
+            0.461832195520401,
+            2.0420002937316895
+          ]
+        },
+        {
+          "name": "Mangrove / stilt root 2 4",
+          "foot": [
+            1.0056232213974,
+            0.40734151005744934,
+            2.0420000553131104
+          ]
+        }
+      ],
+      "detached_ornament_negative_rejected": true,
+      "pivot_matrix_max_error": 0.0,
+      "notes": "Root ring centers checked against sediment; sampled source geometry, not botanical accuracy."
+    },
+    "fresh_runtime_execution": false
+  }
+]

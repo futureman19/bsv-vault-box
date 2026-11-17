@@ -1,0 +1,347 @@
+[
+  {
+    "source": {
+      "commit": "c44acaa8c4446516b7217f4ba3e2d3cadfcdc7d9",
+      "path": "preview/philippines-v1/browser-check.json",
+      "bytes": 2078,
+      "sha256": "92ae007844d9b7b31570e63a0a8c5bcb0694550ad23b5201c0f86f19b26f078d"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 16876,
+          "meshes": 67,
+          "materials": 6,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.5859999656677246,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1193180,
+          "open_projection_max_abs_ndc": 0.8923646516630189
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 16876,
+          "meshes": 67,
+          "materials": 6,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.5859999656677246,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1193180,
+          "open_projection_max_abs_ndc": 0.8923646516630193
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "c44acaa8c4446516b7217f4ba3e2d3cadfcdc7d9",
+      "path": "preview/philippines-v1/delivery-check.json",
+      "bytes": 376,
+      "sha256": "1674bd754478f9862fcaad3cae67f49b5e726542afdefe0c4579ab05fee60139"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "HTML_BYTES": 2352039,
+      "GLB_BYTES": 1193180,
+      "ZIP_BYTES": 5044210,
+      "ZIP_entries": 52,
+      "archive_readback_verified": true,
+      "required_artifacts_verified": true,
+      "zip_sha256": "d3cd0fd131f96916799377b7b6cfd4f2d01af11197d1d12389d34b7001b5d253",
+      "inventory_sha256": "74ce20d5477c16b61a3c2dccefe7f51934ad55d714c9b9522bb04d33eea997e6"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "c44acaa8c4446516b7217f4ba3e2d3cadfcdc7d9",
+      "path": "preview/philippines-v1/extended-check.json",
+      "bytes": 2326,
+      "sha256": "e9b84f4ea4c8068af61fa219a945ffcfe54b6a0c3342f92822f430795829bc10"
+    },
+    "reported_result": {
+      "maps": [
+        {
+          "kind": "map",
+          "width": 256,
+          "height": 256,
+          "range": 51
+        },
+        {
+          "kind": "map",
+          "width": 256,
+          "height": 256,
+          "range": 66
+        },
+        {
+          "kind": "roughnessMap",
+          "width": 256,
+          "height": 256,
+          "range": 20
+        }
+      ],
+      "names": [
+        "Clasp__keeper_mounting_ear",
+        "Clasp__keeper_mounting_ear001",
+        "Clasp__keeper_screw",
+        "Clasp__keeper_screw001",
+        "Granite_foot",
+        "Granite_foot001",
+        "Granite_foot002",
+        "Granite_foot003",
+        "Hinge__bearing_mounting_stem",
+        "Hinge__bearing_mounting_stem001",
+        "Hinge__body_attachment_bridge",
+        "Hinge__body_attachment_bridge001",
+        "Hinge__fixed_barrel",
+        "Hinge__fixed_barrel001",
+        "Hinge__fixed_mount",
+        "Hinge__fixed_mount001",
+        "Interior_floor",
+        "Interior_wall__end",
+        "Interior_wall__end001",
+        "Interior_wall__front",
+        "Interior_wall__rear",
+        "Latch__keeper",
+        "Corner_hardware__edge",
+        "Corner_hardware__edge001",
+        "Corner_hardware__edge002",
+        "Corner_hardware__edge003",
+        "Corner_hardware__top",
+        "Corner_hardware__top001",
+        "Corner_hardware__top002",
+        "Corner_hardware__top003",
+        "Hinge__moving_leaf",
+        "Hinge__moving_leaf001",
+        "Latch__pin",
+        "Latch__hinge_bridge",
+        "Latch__lifting_hasp",
+        "Latch__raised_face",
+        "Latch__rotating_knuckle",
+        "Lid__polished_slab",
+        "Paddy__field_0",
+        "Paddy__field_1",
+        "Paddy__field_2",
+        "Paddy__field_3",
+        "Paddy__field_4",
+        "Paddy__field_5",
+        "Terrace__retaining_0",
+        "Terrace__retaining_1",
+        "Terrace__retaining_2",
+        "Terrace__retaining_3",
+        "Terrace__retaining_4",
+        "Terrace__retaining_5",
+        "Medallion__raised_rim",
+        "Medallion__solid_emblem",
+        "Mineral_seam__long",
+        "Mineral_seam__long001",
+        "Mineral_seam__side",
+        "Mineral_seam__side001",
+        "Side_ring__hanging_brass",
+        "Side_ring__mount",
+        "Stone__clasp_seat",
+        "Stone__front_rear",
+        "Stone__front_rear001",
+        "Stone__rim_corner",
+        "Stone__rim_corner001",
+        "Stone__rim_corner002",
+        "Stone__rim_corner003",
+        "Stone__side",
+        "Stone__side001"
+      ],
+      "status": "PASS",
+      "no_js_poster": true,
+      "copy_audit": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "c44acaa8c4446516b7217f4ba3e2d3cadfcdc7d9",
+      "path": "preview/philippines-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "c44acaa8c4446516b7217f4ba3e2d3cadfcdc7d9",
+      "path": "preview/philippines-v1/parity-check.json",
+      "bytes": 307,
+      "sha256": "01f2eb2e1fee8058690c70097e4e63a5a71a6f78ec6023a2c1c9b4a2731edfdd"
+    },
+    "reported_result": {
+      "source_vertices": 8568,
+      "imported_vertices": 27087,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "granite.png",
+        "stone-color.png",
+        "stone-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "c44acaa8c4446516b7217f4ba3e2d3cadfcdc7d9",
+      "path": "preview/philippines-v1/source-check.json",
+      "bytes": 393,
+      "sha256": "5d989b3a43a29bda33798760769fb0b2a05e6559c48a6df63be1487b563570d8"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 28,
+      "static_meshes": 39,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 74
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "c44acaa8c4446516b7217f4ba3e2d3cadfcdc7d9",
+      "path": "preview/philippines-v1/theme-check.json",
+      "bytes": 531,
+      "sha256": "604a61c6392968506af38adae21afe90e92060f0666bf083c85b709216639d90"
+    },
+    "reported_result": {
+      "tiers": 6,
+      "fields": 6,
+      "heights": [
+        2.0799999237060547,
+        2.180000066757202,
+        2.2799999713897705,
+        2.380000114440918,
+        2.4800000190734863,
+        2.5799999237060547
+      ],
+      "widths": [
+        2.8394219875335693,
+        2.5410770177841187,
+        2.2427319288253784,
+        1.9443868398666382,
+        1.6460418105125427,
+        1.3476966619491577
+      ],
+      "lid_ancestry": true,
+      "negative_control": {
+        "detached_field_rejected": true,
+        "error": "Ornament detached from lid"
+      },
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  }
+]

@@ -1,0 +1,238 @@
+[
+  {
+    "source": {
+      "commit": "fd422663c4ddca51779db75c92b354e93cb226dc",
+      "path": "preview/north-macedonia-v1/browser-check.json",
+      "bytes": 2074,
+      "sha256": "3387cbb91ff00c1ba542fbd10c40926520b74db60d9c9c9bf1aa3e565e93bff7"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 14220,
+          "meshes": 60,
+          "materials": 4,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.372226595878601,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 969576,
+          "open_projection_max_abs_ndc": 0.8923646516630226
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 14220,
+          "meshes": 60,
+          "materials": 4,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.372226595878601,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 969576,
+          "open_projection_max_abs_ndc": 0.8923646516630185
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "fd422663c4ddca51779db75c92b354e93cb226dc",
+      "path": "preview/north-macedonia-v1/delivery-check.json",
+      "bytes": 280,
+      "sha256": "9cc70c4d403f8e1cdb31b77988dd70c8d043174f7a402555446472791667d265"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "html_bytes": 2104548,
+      "glb_bytes": 969576,
+      "inventory_entries": 50,
+      "zip_bytes": 4976239,
+      "zip_sha256": "adb7f1e66a28c894b1f03224f322f731a8a1ad94bbf746235ae0b6b23a722906",
+      "archive_readback": true,
+      "required_artifacts_present": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "fd422663c4ddca51779db75c92b354e93cb226dc",
+      "path": "preview/north-macedonia-v1/extended-check.json",
+      "bytes": 100,
+      "sha256": "9067f92a06807155b7c6cc35422b1bbffca26100ccd20d04696271d0edd71f71"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "source_poster_nonempty": true,
+      "no_javascript_poster_visible": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "fd422663c4ddca51779db75c92b354e93cb226dc",
+      "path": "preview/north-macedonia-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "fd422663c4ddca51779db75c92b354e93cb226dc",
+      "path": "preview/north-macedonia-v1/parity-check.json",
+      "bytes": 310,
+      "sha256": "a4eac575c5022526759fd258113fee2a314fa561da793b6ca246d33e47832d0d"
+    },
+    "reported_result": {
+      "source_vertices": 7288,
+      "imported_vertices": 23049,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "lake-color.png",
+        "stone-color.png",
+        "stone-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "fd422663c4ddca51779db75c92b354e93cb226dc",
+      "path": "preview/north-macedonia-v1/source-check.json",
+      "bytes": 393,
+      "sha256": "07862d0a4129162908a1a6cec34a6f43993d0cb20b2892520dbd99c14a86bb86"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 21,
+      "static_meshes": 39,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 67
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "fd422663c4ddca51779db75c92b354e93cb226dc",
+      "path": "preview/north-macedonia-v1/theme-check.json",
+      "bytes": 198,
+      "sha256": "f41db888ba3055bf8a8f1139af5e6d8c586bf9a76226a4b24c89aa6f559989ac"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "lake_and_shore_lid_parented": true,
+      "ridge_parts": 3,
+      "detached_lake_negative_control_rejected": true,
+      "interpretation": "stylized lake, not geographic survey"
+    },
+    "fresh_runtime_execution": false
+  }
+]

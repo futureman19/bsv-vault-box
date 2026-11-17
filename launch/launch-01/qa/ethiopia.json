@@ -1,0 +1,343 @@
+[
+  {
+    "source": {
+      "commit": "50a1757d72b22961466d2471662fe0f42035318f",
+      "path": "preview/ethiopia-v1/browser-check.json",
+      "bytes": 2079,
+      "sha256": "6fc290f7831ab834f9832b4102054583085ec48eba18ccd6dc390586a4ca0e9d"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 10638,
+          "meshes": 57,
+          "materials": 6,
+          "bounds": {
+            "min": [
+              -1.8600000143051147,
+              -0.26500000804662704,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.8121352195739746,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1031440,
+          "open_projection_max_abs_ndc": 0.892364651663021
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 10638,
+          "meshes": 57,
+          "materials": 6,
+          "bounds": {
+            "min": [
+              -1.8600000143051147,
+              -0.26500000804662704,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.8121352195739746,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1031440,
+          "open_projection_max_abs_ndc": 0.8923646516630187
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "50a1757d72b22961466d2471662fe0f42035318f",
+      "path": "preview/ethiopia-v1/delivery-check.json",
+      "bytes": 605,
+      "sha256": "71d1c55ce59281a734fbdb91229b2c77e697369d5549a81a68a981640b518dec"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "HTML_BYTES": 2179859,
+      "GLB_BYTES": 1031440,
+      "ZIP_BYTES": 7496741,
+      "ZIP_SHA256": "21a2328237cac8e09ed4d94d0d931c9edbd6351864df887b912e2b90975b3226",
+      "inventory_entries": 58,
+      "zip_entries": 59,
+      "archive_readback_verified": true,
+      "required_set_verified": true,
+      "checks_passed": [
+        "source",
+        "hinge-attachment",
+        "81-pose-motion",
+        "parity",
+        "theme",
+        "negative-controls",
+        "browser-desktop",
+        "browser-mobile",
+        "corrupt-GLB-fallback",
+        "no-JS-fallback",
+        "material",
+        "motion-unit",
+        "delivery"
+      ]
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "50a1757d72b22961466d2471662fe0f42035318f",
+      "path": "preview/ethiopia-v1/extended-check.json",
+      "bytes": 27,
+      "sha256": "7f8fccb8f823335830a7cbe4d637610ea08fe69c64c077699c2060a0ca5522ac"
+    },
+    "reported_result": {
+      "noJS_poster": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "50a1757d72b22961466d2471662fe0f42035318f",
+      "path": "preview/ethiopia-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "50a1757d72b22961466d2471662fe0f42035318f",
+      "path": "preview/ethiopia-v1/material-check.json",
+      "bytes": 415,
+      "sha256": "2c826e9e2162fb71a2745848aedebb9026565cfd04a9e1211906be2e4bce3477"
+    },
+    "reported_result": {
+      "maps": [
+        {
+          "kind": "color",
+          "width": 512,
+          "height": 256,
+          "range": 90
+        },
+        {
+          "kind": "roughness",
+          "width": 512,
+          "height": 256,
+          "range": 81
+        },
+        {
+          "kind": "color",
+          "width": 256,
+          "height": 128,
+          "range": 31
+        }
+      ],
+      "wrong": [],
+      "terrainCount": 3,
+      "status": "PASS",
+      "poster_nonblank": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "50a1757d72b22961466d2471662fe0f42035318f",
+      "path": "preview/ethiopia-v1/parity-check.json",
+      "bytes": 310,
+      "sha256": "70bfd709053c25d202bd3f3be6a9d6ceb3370d140b3d99e66ede3bd48b0fe9a8"
+    },
+    "reported_result": {
+      "source_vertices": 5427,
+      "imported_vertices": 18250,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "stone-color.png",
+        "stone-dark.png",
+        "stone-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "50a1757d72b22961466d2471662fe0f42035318f",
+      "path": "preview/ethiopia-v1/source-check.json",
+      "bytes": 393,
+      "sha256": "7aeb15131c573c9a7d0662142cf6b99ec6d688544d1a7a4bb9ed94a1dd64fc67"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 19,
+      "static_meshes": 35,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 61
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "50a1757d72b22961466d2471662fe0f42035318f",
+      "path": "preview/ethiopia-v1/theme-check.json",
+      "bytes": 1299,
+      "sha256": "390bc795abd8342670d46d5ef45b6866b0e0d3ad333cb8292b6ddbc270c06889"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "terrain_count": 3,
+      "bounds": {
+        "Escarpment / east massif": {
+          "min": [
+            -0.14356452226638794,
+            -0.018641997128725052,
+            1.9780000448226929
+          ],
+          "max": [
+            1.2943227291107178,
+            0.8622499704360962,
+            2.8121352195739746
+          ]
+        },
+        "Escarpment / front buttress": {
+          "min": [
+            0.2676236629486084,
+            -0.8020758032798767,
+            1.9780000448226929
+          ],
+          "max": [
+            1.226215124130249,
+            -0.1875,
+            2.362135410308838
+          ]
+        },
+        "Escarpment / west plateau": {
+          "min": [
+            -1.4635645151138306,
+            -0.6730950474739075,
+            1.9780000448226929
+          ],
+          "max": [
+            -0.025677287951111794,
+            0.6380000114440918,
+            2.5621352195739746
+          ]
+        }
+      },
+      "valley_rays": [
+        {
+          "xy": [
+            0,
+            -0.4
+          ],
+          "hit": "Lid / polished slab",
+          "z": 1.9780000448226929
+        },
+        {
+          "xy": [
+            0.65,
+            -0.08
+          ],
+          "hit": "Lid / polished slab",
+          "z": 1.9780000448226929
+        }
+      ],
+      "all_terrain_lid_owned": true,
+      "detached_terrain_negative_control_rejected": true,
+      "original_pivot_matrices_preserved": true
+    },
+    "fresh_runtime_execution": false
+  }
+]

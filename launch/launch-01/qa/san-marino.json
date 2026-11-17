@@ -1,0 +1,278 @@
+[
+  {
+    "source": {
+      "commit": "792a0c5109f652a1d938855d0a290028f4a326a1",
+      "path": "preview/san-marino-v1/browser-check.json",
+      "bytes": 2076,
+      "sha256": "7e318ecc72598fce66b87d1b7afd481e0494e11e74270426f98b84499e44ac4e"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 9800,
+          "meshes": 102,
+          "materials": 5,
+          "bounds": {
+            "min": [
+              -1.9279999874783151,
+              -0.2800000086426735,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              3.1849999986588955,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 867572,
+          "open_projection_max_abs_ndc": 0.8923646516630188
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 9800,
+          "meshes": 102,
+          "materials": 5,
+          "bounds": {
+            "min": [
+              -1.9279999874783151,
+              -0.2800000086426735,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              3.1849999986588955,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 867572,
+          "open_projection_max_abs_ndc": 0.8923646516630209
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "792a0c5109f652a1d938855d0a290028f4a326a1",
+      "path": "preview/san-marino-v1/delivery-check.json",
+      "bytes": 468,
+      "sha256": "5b12915020bdf7a0c5a94ea368759c9aecc781e635b09cf054ccb4730109ed08"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "html_bytes": 1933034,
+      "glb_bytes": 867572,
+      "payload_files": 55,
+      "archive_readback_verified": true,
+      "zip_bytes": 5979175,
+      "zip_sha256": "4e95ca53d272546d98a7ab7fc601c8ccc1b504dd05aaa36e028643eb5d10c084",
+      "inventory_sha256": "3212dd88c3b821070f28c9f2ddefa072288f94bc0ed0a020c64fd98655545c4d",
+      "excluded": "inventory and delivery envelopes are outside payload hashes; archive excludes itself/dependencies/backups/caches"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "792a0c5109f652a1d938855d0a290028f4a326a1",
+      "path": "preview/san-marino-v1/extended-check.json",
+      "bytes": 451,
+      "sha256": "2cb2205fc80d3249c89ee17d9f4b93d2c867a1a1ac8b77291ae9f5b7bcf053d9"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "actual_loader_maps": [
+        {
+          "slot": "map",
+          "width": 256,
+          "height": 256,
+          "range": 41
+        },
+        {
+          "slot": "normalMap",
+          "width": 256,
+          "height": 256,
+          "range": 8
+        },
+        {
+          "slot": "roughnessMap",
+          "width": 256,
+          "height": 256,
+          "range": 41
+        }
+      ],
+      "noJS_poster": true,
+      "country_copy": true,
+      "source_poster_nonblack": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "792a0c5109f652a1d938855d0a290028f4a326a1",
+      "path": "preview/san-marino-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "792a0c5109f652a1d938855d0a290028f4a326a1",
+      "path": "preview/san-marino-v1/parity-check.json",
+      "bytes": 312,
+      "sha256": "05444e80cd49c7d39e7c9c7b674a59266f03c020f36804e26c98b565661eb2af"
+    },
+    "reported_result": {
+      "source_vertices": 5102,
+      "imported_vertices": 18616,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "stone-color.png",
+        "stone-normal.png",
+        "stone-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "792a0c5109f652a1d938855d0a290028f4a326a1",
+      "path": "preview/san-marino-v1/source-check.json",
+      "bytes": 394,
+      "sha256": "543f540dca4e2b4b25aef567b5148f81502696f992e82b2b9fb5db21a87fbdac"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 65,
+      "static_meshes": 37,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 109
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "792a0c5109f652a1d938855d0a290028f4a326a1",
+      "path": "preview/san-marino-v1/theme-check.json",
+      "bytes": 588,
+      "sha256": "cbf3f8b89d0e2191ed52a2ddca419f6cf65f4a61602bef6a1a79a8a6d42b20ec"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "three_towers": true,
+      "all_ornaments_lid_owned": true,
+      "missing_tower_negative_control_rejected": true,
+      "tower_root_surface_checks": [
+        {
+          "tower": "Tower 1 / keep",
+          "bottom": 2.25,
+          "surface": 2.3800578117370605
+        },
+        {
+          "tower": "Tower 2 / keep",
+          "bottom": 2.390000104904175,
+          "surface": 2.472881555557251
+        },
+        {
+          "tower": "Tower 3 / keep",
+          "bottom": 2.200000047683716,
+          "surface": 2.3007500171661377
+        }
+      ],
+      "baseline_pivots_unchanged": true,
+      "battlements": 12
+    },
+    "fresh_runtime_execution": false
+  }
+]

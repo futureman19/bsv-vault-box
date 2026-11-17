@@ -1,0 +1,779 @@
+[
+  {
+    "source": {
+      "commit": "102295e0f192dadc67f39ed4263a9fff8ce2629a",
+      "path": "preview/mauritania-v1/acceptance-check.json",
+      "bytes": 578,
+      "sha256": "1150bf4a4771f18cbe96280280243bb8295a1466876249bf2b833a3076fe2b77"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "steps": [
+        {
+          "check": "build",
+          "exit_code": 0
+        },
+        {
+          "check": "verify_source",
+          "exit_code": 0
+        },
+        {
+          "check": "verify_parity",
+          "exit_code": 0
+        },
+        {
+          "check": "verify_theme_source",
+          "exit_code": 0
+        },
+        {
+          "check": "motion",
+          "exit_code": 0
+        },
+        {
+          "check": "verify_browser",
+          "exit_code": 0
+        },
+        {
+          "check": "verify_extended",
+          "exit_code": 0
+        }
+      ],
+      "html_bytes": 2986118,
+      "glb_bytes": 1685824
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "102295e0f192dadc67f39ed4263a9fff8ce2629a",
+      "path": "preview/mauritania-v1/browser-check.json",
+      "bytes": 2075,
+      "sha256": "4cd5bf429b7388e7e9dbfc5b206c78c8fff39923894b459bd3a95c26ad605906"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 28048,
+          "meshes": 56,
+          "materials": 5,
+          "bounds": {
+            "min": [
+              -1.8600000143051147,
+              -0.26000000536441803,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.307666778564453,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1685824,
+          "open_projection_max_abs_ndc": 0.89236465166302
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 28048,
+          "meshes": 56,
+          "materials": 5,
+          "bounds": {
+            "min": [
+              -1.8600000143051147,
+              -0.26000000536441803,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.307666778564453,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1685824,
+          "open_projection_max_abs_ndc": 0.892364651663021
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "102295e0f192dadc67f39ed4263a9fff8ce2629a",
+      "path": "preview/mauritania-v1/delivery-check.json",
+      "bytes": 838,
+      "sha256": "e7b479e7085fd1f9ef3dc3e41e440e6f618eb9e1b8d4295e8f07f963da7dca04"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "html_bytes": 2986118,
+      "glb_bytes": 1685824,
+      "embedded_glb_exact": true,
+      "inventory_files": 60,
+      "required_artifacts_verified": [
+        "README.md",
+        "acceptance-check.json",
+        "author.py",
+        "browser-check.json",
+        "design-brief.md",
+        "extended-check.json",
+        "maps.py",
+        "mauritania-v1.html",
+        "mauritania.blend",
+        "mauritania.glb",
+        "motion-check.json",
+        "parity-check.json",
+        "poster.jpg",
+        "poster.png",
+        "source-check.json",
+        "theme-source-check.json"
+      ],
+      "zip_bytes": 7195199,
+      "zip_sha256": "f7a0d440bd30a20a92c3b1c8782bd04da1d92daa08aea50f7d70802068bd0015",
+      "archive_readback_all_hashes_match": true,
+      "self_referential_exclusions": [
+        "delivery-check.json",
+        "inventory.json",
+        "mauritania-v1-source.zip"
+      ]
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "102295e0f192dadc67f39ed4263a9fff8ce2629a",
+      "path": "preview/mauritania-v1/extended-check.json",
+      "bytes": 1024,
+      "sha256": "9bb289195c6500a27a8818b5dbd5bb2beb43f425df684659e0be85292203a61e"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "features": {
+        "terrain": [
+          "Richat_relief__eroded_concentric_strata",
+          "Richat_relief__eroded_concentric_strata_1",
+          "Richat_relief__eroded_concentric_strata_2"
+        ],
+        "maps": [
+          {
+            "material": "Ochre / mineral bedding",
+            "width": 512,
+            "height": 256,
+            "range": 62,
+            "mean": [
+              188.8096466064453,
+              143.5050277709961,
+              92.84500122070312
+            ]
+          },
+          {
+            "material": "Ochre / mineral bedding",
+            "width": 512,
+            "height": 256,
+            "range": 75,
+            "mean": [
+              255,
+              202.4475555419922,
+              255
+            ]
+          },
+          {
+            "material": "Slate / eroded cuesta",
+            "width": 512,
+            "height": 256,
+            "range": 77,
+            "mean": [
+              87.45210266113281,
+              96.45516204833984,
+              95.96224975585938
+            ]
+          }
+        ],
+        "wrong": []
+      },
+      "noJS_poster": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "102295e0f192dadc67f39ed4263a9fff8ce2629a",
+      "path": "preview/mauritania-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "102295e0f192dadc67f39ed4263a9fff8ce2629a",
+      "path": "preview/mauritania-v1/motion-check.json",
+      "bytes": 8357,
+      "sha256": "d7626ebcb59eeba048a4bdb76d7ef753b59e6de8d4afb60db2b844fb7fab84fb"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "samples": [
+        {
+          "progress": 0,
+          "lid": 0,
+          "latch": 0
+        },
+        {
+          "progress": 0.0125,
+          "lid": 0,
+          "latch": -0.06981317007977318
+        },
+        {
+          "progress": 0.025,
+          "lid": 0,
+          "latch": -0.13962634015954636
+        },
+        {
+          "progress": 0.0375,
+          "lid": 0,
+          "latch": -0.20943951023931953
+        },
+        {
+          "progress": 0.05,
+          "lid": 0,
+          "latch": -0.2792526803190927
+        },
+        {
+          "progress": 0.0625,
+          "lid": 0,
+          "latch": -0.3490658503988659
+        },
+        {
+          "progress": 0.075,
+          "lid": 0,
+          "latch": -0.41887902047863906
+        },
+        {
+          "progress": 0.0875,
+          "lid": 0,
+          "latch": -0.48869219055841223
+        },
+        {
+          "progress": 0.1,
+          "lid": 0,
+          "latch": -0.5585053606381855
+        },
+        {
+          "progress": 0.1125,
+          "lid": 0,
+          "latch": -0.6283185307179586
+        },
+        {
+          "progress": 0.125,
+          "lid": 0,
+          "latch": -0.6981317007977318
+        },
+        {
+          "progress": 0.1375,
+          "lid": 0,
+          "latch": -0.7679448708775051
+        },
+        {
+          "progress": 0.15,
+          "lid": 0,
+          "latch": -0.8377580409572781
+        },
+        {
+          "progress": 0.1625,
+          "lid": 0,
+          "latch": -0.9075712110370514
+        },
+        {
+          "progress": 0.175,
+          "lid": 0,
+          "latch": -0.9773843811168245
+        },
+        {
+          "progress": 0.1875,
+          "lid": 0,
+          "latch": -1.0471975511965976
+        },
+        {
+          "progress": 0.2,
+          "lid": 0,
+          "latch": -1.117010721276371
+        },
+        {
+          "progress": 0.2125,
+          "lid": 0,
+          "latch": -1.186823891356144
+        },
+        {
+          "progress": 0.225,
+          "lid": 0,
+          "latch": -1.2566370614359172
+        },
+        {
+          "progress": 0.2375,
+          "lid": 0,
+          "latch": -1.3264502315156903
+        },
+        {
+          "progress": 0.25,
+          "lid": 0,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.2625,
+          "lid": -0.030543261909900792,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.275,
+          "lid": -0.061086523819801584,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.2875,
+          "lid": -0.09162978572970225,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.3,
+          "lid": -0.12217304763960304,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.3125,
+          "lid": -0.15271630954950383,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.325,
+          "lid": -0.18325957145940464,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.3375,
+          "lid": -0.21380283336930545,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.35,
+          "lid": -0.2443460952792061,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.3625,
+          "lid": -0.2748893571891069,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.375,
+          "lid": -0.30543261909900765,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.3875,
+          "lid": -0.33597588100890846,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.4,
+          "lid": -0.36651914291880927,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.4125,
+          "lid": -0.39706240482870997,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.425,
+          "lid": -0.4276056667386107,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.4375,
+          "lid": -0.45814892864851153,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.45,
+          "lid": -0.4886921905584123,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.4625,
+          "lid": -0.5192354524683132,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.475,
+          "lid": -0.5497787143782138,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.4875,
+          "lid": -0.5803219762881145,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.5,
+          "lid": -0.6108652381980153,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.5125,
+          "lid": -0.6414085001079161,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.525,
+          "lid": -0.6719517620178169,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.5375,
+          "lid": -0.7024950239277177,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.55,
+          "lid": -0.7330382858376185,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.5625,
+          "lid": -0.7635815477475193,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.575,
+          "lid": -0.7941248096574199,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.5875,
+          "lid": -0.8246680715673208,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.6,
+          "lid": -0.8552113334772214,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.6125,
+          "lid": -0.8857545953871224,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.625,
+          "lid": -0.9162978572970231,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.6375,
+          "lid": -0.9468411192069237,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.65,
+          "lid": -0.9773843811168246,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.6625,
+          "lid": -1.0079276430267252,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.675,
+          "lid": -1.0384709049366263,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.6875,
+          "lid": -1.069014166846527,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.7,
+          "lid": -1.0995574287564276,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.7125,
+          "lid": -1.1301006906663285,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.725,
+          "lid": -1.160643952576229,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.7375,
+          "lid": -1.19118721448613,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.75,
+          "lid": -1.2217304763960306,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.7625,
+          "lid": -1.2522737383059312,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.775,
+          "lid": -1.2828170002158323,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.7875,
+          "lid": -1.313360262125733,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.8,
+          "lid": -1.3439035240356338,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.8125,
+          "lid": -1.3744467859455347,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.825,
+          "lid": -1.4049900478554354,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.8375,
+          "lid": -1.4355333097653362,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.85,
+          "lid": -1.4660765716752369,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.8625,
+          "lid": -1.496619833585138,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.875,
+          "lid": -1.5271630954950386,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.8875,
+          "lid": -1.5577063574049392,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.9,
+          "lid": -1.58824961931484,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.9125,
+          "lid": -1.6187928812247407,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.925,
+          "lid": -1.6493361431346416,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.9375,
+          "lid": -1.6798794050445423,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.95,
+          "lid": -1.710422666954443,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.9625,
+          "lid": -1.740965928864344,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.975,
+          "lid": -1.7715091907742446,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 0.9875,
+          "lid": -1.8020524526841455,
+          "latch": -1.3962634015954636
+        },
+        {
+          "progress": 1,
+          "lid": -1.8325957145940461,
+          "latch": -1.3962634015954636
+        }
+      ],
+      "invalid_asset_rejected": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "102295e0f192dadc67f39ed4263a9fff8ce2629a",
+      "path": "preview/mauritania-v1/parity-check.json",
+      "bytes": 314,
+      "sha256": "8a3e5e19b155f4e60d5bd3dcb6427ee0b3bf58b2b0b88c3105f3ddb7efe5175c"
+    },
+    "reported_result": {
+      "source_vertices": 14317,
+      "imported_vertices": 31283,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "mineral-roughness.png",
+        "ochre-color.png",
+        "slate-color.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "102295e0f192dadc67f39ed4263a9fff8ce2629a",
+      "path": "preview/mauritania-v1/source-check.json",
+      "bytes": 393,
+      "sha256": "5664f9397dbc49c66d03e2f1b44ffc83187a872eb339c4f9b6fe9a22759df2bc"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 17,
+      "static_meshes": 37,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 61
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "102295e0f192dadc67f39ed4263a9fff8ce2629a",
+      "path": "preview/mauritania-v1/theme-source-check.json",
+      "bytes": 524,
+      "sha256": "b82b38613dfdf2030b8ce1f02ddeb3c574c19e1217fbbe170de4a69a09853aaf"
+    },
+    "reported_result": {
+      "crest_heights": [
+        2.1275713443756104,
+        2.227989435195923,
+        2.241542339324951
+      ],
+      "valley_heights": [
+        1.9976547956466675,
+        2.0020523071289062,
+        2.029465675354004
+      ],
+      "max_relief": 0.32966677856445314,
+      "flattened_geometry_negative_control_rejected": true,
+      "status": "PASS",
+      "terrain_vertices": 8701,
+      "lid_parent": "Lid_Hinge",
+      "negative_control": "Post-implementation flattened-geometry control; not test-first TDD",
+      "source": "Saved blend reopened independently"
+    },
+    "fresh_runtime_execution": false
+  }
+]

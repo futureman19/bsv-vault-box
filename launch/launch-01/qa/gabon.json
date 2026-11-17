@@ -1,0 +1,263 @@
+[
+  {
+    "source": {
+      "commit": "b93f974fd1028c2c43e7070d6c483292609b3a30",
+      "path": "preview/gabon-v1/browser-check.json",
+      "bytes": 2077,
+      "sha256": "2dfc45671687c4eb73fbfbd21fc49106bd333a145d476ca1514db82b40fd022f"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 15962,
+          "meshes": 93,
+          "materials": 12,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.731213502585888,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1433992,
+          "open_projection_max_abs_ndc": 0.9156477400818142
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 15962,
+          "meshes": 93,
+          "materials": 12,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.731213502585888,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1433992,
+          "open_projection_max_abs_ndc": 0.915647740081815
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "b93f974fd1028c2c43e7070d6c483292609b3a30",
+      "path": "preview/gabon-v1/delivery-check.json",
+      "bytes": 290,
+      "sha256": "d32a0787e2487a49446ea788e650819031deab123a0d2cca8fcf8bf8aa2a3f4d"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "html_bytes": 2658948,
+      "glb_bytes": 1433992,
+      "payload_files": 49,
+      "required_artifacts_present": true,
+      "zip_readback": true,
+      "archive": {
+        "bytes": 6252422,
+        "sha256": "c5bb12e285ef5058fcbc3ef5dae279016419c63e52698c4b3d5628164f458498"
+      }
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "b93f974fd1028c2c43e7070d6c483292609b3a30",
+      "path": "preview/gabon-v1/extended-check.json",
+      "bytes": 411,
+      "sha256": "6ef459f2a95dfa53cfc69578a911a0c25757ad65acd99a131c5380a99277a79f"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "decoded_maps": [
+        {
+          "key": "map",
+          "width": 256,
+          "height": 256,
+          "range": 143
+        },
+        {
+          "key": "map",
+          "width": 512,
+          "height": 512,
+          "range": 96
+        },
+        {
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512,
+          "range": 53
+        }
+      ],
+      "nojs_poster": true,
+      "copy_country_correct": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "b93f974fd1028c2c43e7070d6c483292609b3a30",
+      "path": "preview/gabon-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "b93f974fd1028c2c43e7070d6c483292609b3a30",
+      "path": "preview/gabon-v1/parity-check.json",
+      "bytes": 309,
+      "sha256": "29c8e66fe68401105af82482fdb05788503500f7867c3cc759defcbb48dd7843"
+    },
+    "reported_result": {
+      "source_vertices": 8243,
+      "imported_vertices": 24100,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "granite.png",
+        "okoume-color.png",
+        "okoume-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "b93f974fd1028c2c43e7070d6c483292609b3a30",
+      "path": "preview/gabon-v1/source-check.json",
+      "bytes": 394,
+      "sha256": "262a8926684d2a5d1094a83d9c8309786a5117e63c0b7347e4f3866366f2b70b"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 54,
+      "static_meshes": 39,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 100
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "b93f974fd1028c2c43e7070d6c483292609b3a30",
+      "path": "preview/gabon-v1/theme-check.json",
+      "bytes": 226,
+      "sha256": "59acb717a7dceffaacc481624824471bf4b1590869c4ccd7ce2affb37194176a"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "canopy_meshes": 15,
+      "ornament_meshes": 38,
+      "lagoon_connected_vertices": 82,
+      "exposed_lagoon_face_rays": 40,
+      "pivots_unchanged": true,
+      "ornament_bounds": true,
+      "seam_height": 0.08
+    },
+    "fresh_runtime_execution": false
+  }
+]

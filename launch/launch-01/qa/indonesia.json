@@ -1,0 +1,341 @@
+[
+  {
+    "source": {
+      "commit": "85013017bf27cecdce27296536e425e019db0281",
+      "path": "preview/indonesia-v1/browser-check.json",
+      "bytes": 2078,
+      "sha256": "4680122546d30e9501f8d027969b315c5bc2256343cc518a1ecc343105d95358"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 21692,
+          "meshes": 75,
+          "materials": 5,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.0370001792907715,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1486092,
+          "open_projection_max_abs_ndc": 0.8923646516630193
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 21692,
+          "meshes": 75,
+          "materials": 5,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.0370001792907715,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1486092,
+          "open_projection_max_abs_ndc": 0.8923646516630196
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "85013017bf27cecdce27296536e425e019db0281",
+      "path": "preview/indonesia-v1/delivery-check.json",
+      "bytes": 451,
+      "sha256": "749bb0bbebf64f58df90d7ba78afad282e397a0740524ce8e014e130972f8b99"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "HTML_BYTES": 2799626,
+      "GLB_BYTES": 1486092,
+      "ZIP_BYTES": 6526481,
+      "ZIP_SHA256": "934ccb17ed2d25acefd94b4d2894a46c526f0009691670289d0535f5e785ba88",
+      "archive_entries": 55,
+      "required_artifacts_present": true,
+      "archive_exact_readback": true,
+      "checks_passed": [
+        "source",
+        "parity",
+        "theme",
+        "pivots",
+        "motion",
+        "browser desktop/mobile",
+        "extended",
+        "delivery"
+      ]
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "85013017bf27cecdce27296536e425e019db0281",
+      "path": "preview/indonesia-v1/extended-check.json",
+      "bytes": 424,
+      "sha256": "16b9bfc34651110355a30497c0798dc15f3967ff83cc26754ab312c7838aa0ae"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "noJS_poster": true,
+      "country_copy_and_accessibility": true,
+      "decoded_maps": [
+        {
+          "slot": "map",
+          "range": 207,
+          "width": 512,
+          "height": 512
+        },
+        {
+          "slot": "roughnessMap",
+          "range": 54,
+          "width": 512,
+          "height": 512
+        },
+        {
+          "slot": "map",
+          "range": 90,
+          "width": 256,
+          "height": 256
+        }
+      ]
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "85013017bf27cecdce27296536e425e019db0281",
+      "path": "preview/indonesia-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "85013017bf27cecdce27296536e425e019db0281",
+      "path": "preview/indonesia-v1/parity-check.json",
+      "bytes": 308,
+      "sha256": "90acba0c15213e054ba73ead1386d5baf0a9bb1cb4ae7e8ef09bd1f30034edaf"
+    },
+    "reported_result": {
+      "source_vertices": 10992,
+      "imported_vertices": 26439,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "batik-color.png",
+        "batik-roughness.png",
+        "granite.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "85013017bf27cecdce27296536e425e019db0281",
+      "path": "preview/indonesia-v1/pivot-check.json",
+      "bytes": 796,
+      "sha256": "257f5af7bfbf3fbfd3d017b9739f94fc7a243ee0f3659abab10f8edec6dd65d0"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "exact_baseline_pivot_matrices": true,
+      "matrices": {
+        "Lid_Hinge": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            1.3200000524520874
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.6679999828338623
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Latch_Pivot": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.290000081062317
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.8880000114440918
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "85013017bf27cecdce27296536e425e019db0281",
+      "path": "preview/indonesia-v1/source-check.json",
+      "bytes": 393,
+      "sha256": "23d3b0d90d828782aec751effcb3f40c039c10d345e48fab3bc02dc23cd70483"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 36,
+      "static_meshes": 39,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 82
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "85013017bf27cecdce27296536e425e019db0281",
+      "path": "preview/indonesia-v1/theme-check.json",
+      "bytes": 411,
+      "sha256": "10db26805c1a0abe5a606557d022f912d710ff8770460b19893a25e3f57ff37a"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "rosette_petals": 20,
+      "lid_owned": true,
+      "bounds_checked": true,
+      "gap_hit": "Lid / polished slab",
+      "palette_red_range": 0.811764769256115,
+      "negative_control": {
+        "detached_parent": "REJECTED",
+        "assertion": "('missing lid ownership', 'Copper rosette / 0 petal 0')"
+      },
+      "interpretation": "original invented motif, not an authenticated traditional pattern"
+    },
+    "fresh_runtime_execution": false
+  }
+]

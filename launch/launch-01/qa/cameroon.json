@@ -1,0 +1,336 @@
+[
+  {
+    "source": {
+      "commit": "f8ff17704371f960130f0d4cc358545446e6c81a",
+      "path": "preview/cameroon-v1/browser-check.json",
+      "bytes": 2077,
+      "sha256": "dfe8c777875bb0020b7558f079f37abfeff8bcf1f96261b0f9ace3804c436a10"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 24092,
+          "meshes": 157,
+          "materials": 7,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30833693593740463,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.564162015914917,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 2342852,
+          "open_projection_max_abs_ndc": 0.892364651663021
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 24092,
+          "meshes": 157,
+          "materials": 7,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30833693593740463,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.564162015914917,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 2342852,
+          "open_projection_max_abs_ndc": 0.8923646516630209
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "f8ff17704371f960130f0d4cc358545446e6c81a",
+      "path": "preview/cameroon-v1/delivery-check.json",
+      "bytes": 704,
+      "sha256": "f10c7c86b2f1562c8f2b14e7cf3dcd8999f9eb11e5d893dfa85aa4fc23d51fd5"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "HTML_BYTES": 3832994,
+      "GLB_BYTES": 2342852,
+      "html_sha256": "55e535bdcade4d0d757ca0e0ddb3d02591181b8b07ec2e81b8a4f3b38a791414",
+      "glb_sha256": "484955753e3e92c7ae4baf2be0d15239840dc42420dd06b414f37d718cbaf169",
+      "ZIP_BYTES": 8306664,
+      "zip_sha256": "4a2b4cb30b0b3966f6c2d9bf9acdbf9633ea2f20258eddc97d9d9d6db09903b3",
+      "ZIP_entries": 55,
+      "explicit_required_inventory_verified": true,
+      "archive_readback_verified": true,
+      "delivery_location": "this folder; exact tested HTML, no separate copied output",
+      "inventory_exclusions": "inventory itself, delivery envelope, source ZIP and implementation prompt to avoid recursion; no dependencies/backups/cache"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "f8ff17704371f960130f0d4cc358545446e6c81a",
+      "path": "preview/cameroon-v1/extended-check.json",
+      "bytes": 597,
+      "sha256": "09b84084315c1d574beeef5ca6d7013443503336d48081c770112d4a4ccfca01"
+    },
+    "reported_result": {
+      "features": {
+        "relief": 2,
+        "canopies": 100,
+        "maps": [
+          {
+            "key": "map",
+            "width": 512,
+            "height": 512,
+            "range": 62
+          },
+          {
+            "key": "roughnessMap",
+            "width": 512,
+            "height": 512,
+            "range": 52
+          },
+          {
+            "key": "normalMap",
+            "width": 512,
+            "height": 512,
+            "range": 42
+          }
+        ],
+        "wrong": [],
+        "span": [
+          2.836627721786499,
+          0.5891619920730591,
+          1.6034983396530151
+        ]
+      },
+      "noJS_poster": true,
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "f8ff17704371f960130f0d4cc358545446e6c81a",
+      "path": "preview/cameroon-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "f8ff17704371f960130f0d4cc358545446e6c81a",
+      "path": "preview/cameroon-v1/parity-check.json",
+      "bytes": 316,
+      "sha256": "25748283ac66f816b22f34f5ef9db81efa45a1261cdb2d17b6b3a5835d7ecaf8"
+    },
+    "reported_result": {
+      "source_vertices": 12354,
+      "imported_vertices": 37760,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "basalt-color.png",
+        "basalt-normal.png",
+        "basalt-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "f8ff17704371f960130f0d4cc358545446e6c81a",
+      "path": "preview/cameroon-v1/source-check.json",
+      "bytes": 395,
+      "sha256": "1a1eb5bc7f92eff9890d368005fd1f28551a6783bc489f24dd73d3bb5ee1bba1"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 117,
+      "static_meshes": 39,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 163
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "f8ff17704371f960130f0d4cc358545446e6c81a",
+      "path": "preview/cameroon-v1/source-contract-check.json",
+      "bytes": 957,
+      "sha256": "5f4675780f9ff528b927870359c71216817232486794607e417f57a467f6978d"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "same_pivots_as_trimmed_baseline": {
+        "Lid_Hinge": {
+          "location": [
+            0.0,
+            1.3200000524520874,
+            1.6679999828338623
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Latch_Pivot": {
+          "location": [
+            0.0,
+            -2.6100001335144043,
+            0.2200000286102295
+          ],
+          "rotation": [
+            0.0,
+            -0.0,
+            0.0
+          ]
+        }
+      },
+      "lid_dimensions": [
+        3.7200000286102295,
+        2.380000114440918,
+        0.30000001192092896
+      ],
+      "relief_span_xyz": [
+        2.836627721786499,
+        1.6034983396530151,
+        0.5891619920730591
+      ],
+      "green_lower_slope_polygons": 853,
+      "canopies": 100,
+      "shoulder_and_main_heights": [
+        2.3290553092956543,
+        2.2794668674468994,
+        2.564162015914917
+      ],
+      "packed_maps": [
+        "basalt-color.png",
+        "basalt-normal.png",
+        "basalt-roughness.png"
+      ]
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "f8ff17704371f960130f0d4cc358545446e6c81a",
+      "path": "preview/cameroon-v1/theme-check.json",
+      "bytes": 306,
+      "sha256": "16e60e4cae3a66a69c21a3a794ba88b50b3dd81614ded8ef562698b274b57483"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "required_features": true,
+      "portable_images": 3,
+      "no_old_theme_nodes": true,
+      "negative_control": {
+        "removed_feature": "Fako",
+        "rejected": true,
+        "reason": "Fako"
+      },
+      "negative_control_note": "Post-implementation mutation control, not test-first TDD"
+    },
+    "fresh_runtime_execution": false
+  }
+]

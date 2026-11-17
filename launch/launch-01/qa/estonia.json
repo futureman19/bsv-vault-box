@@ -1,0 +1,332 @@
+[
+  {
+    "source": {
+      "commit": "b45c891bf43e84a665b33a5847632daa791be40b",
+      "path": "preview/estonia-v1/acceptance-check.json",
+      "bytes": 331,
+      "sha256": "ee44d74465caaf4cfbb9b6d9e3af5a62fff85a7e270cd425fbddaa4866d6d45d"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "checks": {
+        "source": "PASS",
+        "parity": "PASS",
+        "theme": "PASS",
+        "browser-desktop": "PASS",
+        "browser-mobile": "PASS",
+        "extended": "PASS",
+        "motion": "PASS",
+        "negative-control": "PASS",
+        "byte-cap": "PASS"
+      },
+      "HTML_BYTES": 2104643,
+      "GLB_BYTES": 972956
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "b45c891bf43e84a665b33a5847632daa791be40b",
+      "path": "preview/estonia-v1/browser-check.json",
+      "bytes": 2080,
+      "sha256": "906fb2878e2aaacf6b179c6e9970e0c782d6883d5107acaeda3b58dc616f1aed"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 13008,
+          "meshes": 120,
+          "materials": 7,
+          "bounds": {
+            "min": [
+              -1.9279999874783151,
+              -0.25999999791383743,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.1579633988440037,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 972956,
+          "open_projection_max_abs_ndc": 0.9090053377692816
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 13008,
+          "meshes": 120,
+          "materials": 7,
+          "bounds": {
+            "min": [
+              -1.9279999874783151,
+              -0.25999999791383743,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.1579633988440037,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 972956,
+          "open_projection_max_abs_ndc": 0.9090053377692836
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "b45c891bf43e84a665b33a5847632daa791be40b",
+      "path": "preview/estonia-v1/delivery-check.json",
+      "bytes": 708,
+      "sha256": "021308fa49a9ceffd4560d2ed888ee7cda8e7e89e07839a8661c67243446bf07"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "checks": {
+        "source": "PASS",
+        "parity": "PASS",
+        "theme": "PASS",
+        "browser-desktop": "PASS",
+        "browser-mobile": "PASS",
+        "extended": "PASS",
+        "motion": "PASS",
+        "negative-control": "PASS",
+        "byte-cap": "PASS"
+      },
+      "HTML_BYTES": 2104643,
+      "GLB_BYTES": 972956,
+      "archive_readback_verified": true,
+      "required_artifacts_present": true,
+      "zip_entries": 54,
+      "zip_bytes": 4730766,
+      "zip_sha256": "c4c8179de1ac86c796babdb07c77085e7ee6c223e871336e4f0601d713117dd6",
+      "inventory_sha256": "ae06bebedfc41b77353e128c016454d42734d05b4847ceec2810568f25d6ad1f",
+      "delivery": "This same in-folder tested HTML; no untested external copy"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "b45c891bf43e84a665b33a5847632daa791be40b",
+      "path": "preview/estonia-v1/extended-check.json",
+      "bytes": 624,
+      "sha256": "892f91b126b56b10804b579d57db4c4f1035bb196b38260dca0cf22465942278"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "poster_actual_pixels": true,
+      "limestone_mean_rgb": [
+        173.678466796875,
+        176.678466796875,
+        163.678466796875
+      ],
+      "runtime": {
+        "water": 3,
+        "planks": 18,
+        "wrong": [],
+        "maps": [
+          {
+            "key": "map",
+            "range": 32,
+            "width": 256,
+            "height": 256
+          },
+          {
+            "key": "roughnessMap",
+            "range": 44,
+            "width": 256,
+            "height": 256
+          },
+          {
+            "key": "normalMap",
+            "range": 14,
+            "width": 256,
+            "height": 256
+          }
+        ]
+      },
+      "noJS_poster": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "b45c891bf43e84a665b33a5847632daa791be40b",
+      "path": "preview/estonia-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "b45c891bf43e84a665b33a5847632daa791be40b",
+      "path": "preview/estonia-v1/parity-check.json",
+      "bytes": 324,
+      "sha256": "b54986b428952d5c7ffd69b5a2fb6ddbcecb58beaa62cd59977b75679161cc59"
+    },
+    "reported_result": {
+      "source_vertices": 6823,
+      "imported_vertices": 21329,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "limestone-color.png",
+        "limestone-normal.png",
+        "limestone-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "b45c891bf43e84a665b33a5847632daa791be40b",
+      "path": "preview/estonia-v1/source-check.json",
+      "bytes": 394,
+      "sha256": "f5dceb394fe18e38f559cd13dd35fb63dcf41f84aef7a7cc1a0214973885905b"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 79,
+      "static_meshes": 38,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 124
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "b45c891bf43e84a665b33a5847632daa791be40b",
+      "path": "preview/estonia-v1/theme-check.json",
+      "bytes": 625,
+      "sha256": "666036b5dccc78a97a5f9e847ab5892d8df364bcea2b350a8a1ea800cc843639"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "lid_origin": [
+        0.0,
+        1.3200000524520874,
+        1.6679999828338623
+      ],
+      "ornament_meshes": 63,
+      "pool_count": 3,
+      "plank_count": 18,
+      "ornament_z": [
+        1.9730000495910645,
+        2.157963514328003
+      ],
+      "pool_center_rays": [
+        {
+          "pool": 0,
+          "first_hit": "Bog / water 0",
+          "height": 2.015000104904175
+        },
+        {
+          "pool": 1,
+          "first_hit": "Bog / water 1",
+          "height": 2.015000104904175
+        },
+        {
+          "pool": 2,
+          "first_hit": "Bog / water 2",
+          "height": 2.015000104904175
+        }
+      ],
+      "upward_rim_normals": true
+    },
+    "fresh_runtime_execution": false
+  }
+]

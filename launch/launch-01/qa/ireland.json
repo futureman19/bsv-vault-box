@@ -1,0 +1,429 @@
+[
+  {
+    "source": {
+      "commit": "022463189ae2f95fc1d610f679fcb8e118bc11ef",
+      "path": "preview/ireland-v1/browser-check.json",
+      "bytes": 2078,
+      "sha256": "c5517e35d4ca2b77d487aca911a53efb718eaee320771b86259e9263ea8aa582"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 18056,
+          "meshes": 76,
+          "materials": 4,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.2012462615966797,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1748608,
+          "open_projection_max_abs_ndc": 0.9127373079119255
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 18056,
+          "meshes": 76,
+          "materials": 4,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.2012462615966797,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1748608,
+          "open_projection_max_abs_ndc": 0.9127373079119276
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "022463189ae2f95fc1d610f679fcb8e118bc11ef",
+      "path": "preview/ireland-v1/delivery-check.json",
+      "bytes": 461,
+      "sha256": "4de20c5ec95d12cd8cd9ce2ed039732716442fc7b62e4478b5f4643b156a52a9"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "HTML_BYTES": 3179700,
+      "GLB_BYTES": 1748608,
+      "ZIP_BYTES": 9192400,
+      "zip_sha256": "f41025d33d1bca44e57123be68e03d0f009ababd6717f9c3b02c25f1d2cb800a",
+      "inventory_entries": 52,
+      "required_artifacts_present": true,
+      "archive_readback_verified": true,
+      "html_sha256": "fac51f3646f22db71bd0f2717f571e3d651b660e5d357b112ab70038510064db",
+      "glb_sha256": "a277a71b06a47ea1de07a2ec46728a098554ffac595d50b135c630fe28e51a3d"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "022463189ae2f95fc1d610f679fcb8e118bc11ef",
+      "path": "preview/ireland-v1/extended-check.json",
+      "bytes": 963,
+      "sha256": "9d340e604235414b27973bcdab1799769f7592e6667d794528893e7090f2114c"
+    },
+    "reported_result": {
+      "features": {
+        "clints": 20,
+        "wrong": [],
+        "maps": [
+          {
+            "material": "Connemara / folded green marble",
+            "kind": "map",
+            "width": 512,
+            "height": 512,
+            "range": 136,
+            "mean": [
+              80.16333389282227,
+              107.50074768066406,
+              72.7983169555664
+            ]
+          },
+          {
+            "material": "Connemara / folded green marble",
+            "kind": "roughnessMap",
+            "width": 512,
+            "height": 512,
+            "range": 48,
+            "mean": [
+              255,
+              96.4916000366211,
+              255
+            ]
+          },
+          {
+            "material": "Burren / pale limestone",
+            "kind": "map",
+            "width": 256,
+            "height": 256,
+            "range": 64,
+            "mean": [
+              174.92041015625,
+              174.07139587402344,
+              169.80935668945312
+            ]
+          }
+        ]
+      },
+      "noJS_poster": true,
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "022463189ae2f95fc1d610f679fcb8e118bc11ef",
+      "path": "preview/ireland-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "022463189ae2f95fc1d610f679fcb8e118bc11ef",
+      "path": "preview/ireland-v1/parity-check.json",
+      "bytes": 311,
+      "sha256": "dfe60caa0f16f01188ccd25e03ad6f5620b906fa6c5af31254126d0ebf1c2786"
+    },
+    "reported_result": {
+      "source_vertices": 9176,
+      "imported_vertices": 30908,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "limestone.png",
+        "marble-color.png",
+        "marble-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "022463189ae2f95fc1d610f679fcb8e118bc11ef",
+      "path": "preview/ireland-v1/source-check.json",
+      "bytes": 393,
+      "sha256": "cab408de3bfb28de3cb419e327406b71e7183de404931aa689923b011ce43948"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 37,
+      "static_meshes": 39,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 83
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "022463189ae2f95fc1d610f679fcb8e118bc11ef",
+      "path": "preview/ireland-v1/theme-check.json",
+      "bytes": 2795,
+      "sha256": "4d62a3cff0f625359a5956bd78ada8bfa13a2a30e586de4c948993754134e839"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "clints": 20,
+      "center_rays": [
+        [
+          "Pavement / clint 00",
+          2.1641921997070312
+        ],
+        [
+          "Pavement / clint 01",
+          2.0892534255981445
+        ],
+        [
+          "Pavement / clint 02",
+          2.1976146697998047
+        ],
+        [
+          "Pavement / clint 03",
+          2.0867795944213867
+        ],
+        [
+          "Pavement / clint 04",
+          2.1014842987060547
+        ],
+        [
+          "Pavement / clint 05",
+          2.118037700653076
+        ],
+        [
+          "Pavement / clint 06",
+          2.1119461059570312
+        ],
+        [
+          "Pavement / clint 07",
+          2.136714220046997
+        ],
+        [
+          "Pavement / clint 08",
+          2.1633687019348145
+        ],
+        [
+          "Pavement / clint 09",
+          2.1778934001922607
+        ],
+        [
+          "Pavement / clint 10",
+          2.1130337715148926
+        ],
+        [
+          "Pavement / clint 11",
+          2.1276321411132812
+        ],
+        [
+          "Pavement / clint 12",
+          2.181502342224121
+        ],
+        [
+          "Pavement / clint 13",
+          2.151677370071411
+        ],
+        [
+          "Pavement / clint 14",
+          2.1592836380004883
+        ],
+        [
+          "Pavement / clint 15",
+          2.174452066421509
+        ],
+        [
+          "Pavement / clint 16",
+          2.1212515830993652
+        ],
+        [
+          "Pavement / clint 17",
+          2.135194778442383
+        ],
+        [
+          "Pavement / clint 18",
+          2.126727342605591
+        ],
+        [
+          "Pavement / clint 19",
+          2.129002094268799
+        ]
+      ],
+      "grike_rays": [
+        [
+          "Pavement / grike bed",
+          2.009999990463257
+        ],
+        [
+          "Pavement / grike bed",
+          2.009999990463257
+        ],
+        [
+          "Pavement / grike bed",
+          2.009999990463257
+        ],
+        [
+          "Pavement / grike bed",
+          2.009999990463257
+        ],
+        [
+          "Pavement / grike bed",
+          2.009999990463257
+        ],
+        [
+          "Pavement / grike bed",
+          2.009999990463257
+        ],
+        [
+          "Pavement / grike bed",
+          2.009999990463257
+        ],
+        [
+          "Pavement / grike bed",
+          2.009999990463257
+        ],
+        [
+          "Pavement / grike bed",
+          2.009999990463257
+        ],
+        [
+          "Pavement / grike bed",
+          2.009999990463257
+        ],
+        [
+          "Pavement / grike bed",
+          2.009999990463257
+        ],
+        [
+          "Pavement / grike bed",
+          2.009999990463257
+        ],
+        [
+          "Pavement / grike bed",
+          2.0099997520446777
+        ],
+        [
+          "Pavement / grike bed",
+          2.0099997520446777
+        ],
+        [
+          "Pavement / grike bed",
+          2.0099997520446777
+        ],
+        [
+          "Pavement / grike bed",
+          2.009999990463257
+        ]
+      ],
+      "detached_ornament_negative_control": "('not lid owned', 'Pavement / clint 00')",
+      "original_pivots_preserved": true,
+      "relief_bounds_pass": true
+    },
+    "fresh_runtime_execution": false
+  }
+]

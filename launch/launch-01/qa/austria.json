@@ -1,0 +1,321 @@
+[
+  {
+    "source": {
+      "commit": "36855aa21be12e49e17a14d5593eea958fcdff21",
+      "path": "preview/austria-v1/acceptance-check.json",
+      "bytes": 387,
+      "sha256": "3bfa5c00473dd21307e91f5e995fc3554d320e20beb2e2b57e5825821d6cf056"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "checks_passed": [
+        "source",
+        "parity",
+        "theme",
+        "browser-desktop",
+        "browser-mobile",
+        "motion",
+        "extended",
+        "corrupt-GLB",
+        "no-JS",
+        "negative-control",
+        "byte-budget"
+      ],
+      "negative_control": "Detached in-memory crown rejected; saved asset unchanged",
+      "HTML_BYTES": 3009593,
+      "GLB_BYTES": 1643776
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "36855aa21be12e49e17a14d5593eea958fcdff21",
+      "path": "preview/austria-v1/browser-check.json",
+      "bytes": 2076,
+      "sha256": "8a81b211b2d37dc72ff666dca72f67176cf0bbd79e52f17305b5c52dab8a9223"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 16870,
+          "meshes": 58,
+          "materials": 7,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.920161247253418,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1643776,
+          "open_projection_max_abs_ndc": 0.9101578753167989
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 16870,
+          "meshes": 58,
+          "materials": 7,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.920161247253418,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1643776,
+          "open_projection_max_abs_ndc": 0.9101578753167989
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "36855aa21be12e49e17a14d5593eea958fcdff21",
+      "path": "preview/austria-v1/delivery-check.json",
+      "bytes": 400,
+      "sha256": "1d7b2eddce853674ddf13b2ff7f33142d08b1f1ecb17af91e6f7172771a3cf17"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "HTML_BYTES": 3009593,
+      "GLB_BYTES": 1643776,
+      "ZIP_BYTES": 8415035,
+      "ZIP_SHA256": "c69336ca008420d22917aa6e9f3929a132dae4506e635ec96950acc101885f99",
+      "entries": 55,
+      "required_artifacts_present": true,
+      "archive_exact_readback": true,
+      "inventory_exclusions": "inventory itself, ZIP and delivery-check avoid circular hashing; packaging/git logs excluded"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "36855aa21be12e49e17a14d5593eea958fcdff21",
+      "path": "preview/austria-v1/extended-check.json",
+      "bytes": 627,
+      "sha256": "bd196c72b92d350f2b100f485f5bda444acd66c7f48ea409d3d52e8212b75858"
+    },
+    "reported_result": {
+      "palette_median": [
+        152.0,
+        61.0,
+        59.0
+      ],
+      "ivory_fraction": 0.07822418212890625,
+      "poster_nontransparent_fraction": 1.0,
+      "runtime_features": {
+        "maps": [
+          {
+            "kind": "color",
+            "width": 512,
+            "height": 512,
+            "range": 109
+          },
+          {
+            "kind": "roughness",
+            "width": 512,
+            "height": 512,
+            "range": 44
+          },
+          {
+            "kind": "color",
+            "width": 256,
+            "height": 256,
+            "range": 99
+          }
+        ],
+        "wrong": [],
+        "terrain": 1
+      },
+      "noJS_poster": true,
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "36855aa21be12e49e17a14d5593eea958fcdff21",
+      "path": "preview/austria-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "36855aa21be12e49e17a14d5593eea958fcdff21",
+      "path": "preview/austria-v1/parity-check.json",
+      "bytes": 307,
+      "sha256": "a3cd2e404d2ea1d9af9025775ebe10d064393f70aece841c6480667c87a04cb7"
+    },
+    "reported_result": {
+      "source_vertices": 8543,
+      "imported_vertices": 31153,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "adnet-color.png",
+        "adnet-roughness.png",
+        "granite.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "36855aa21be12e49e17a14d5593eea958fcdff21",
+      "path": "preview/austria-v1/source-check.json",
+      "bytes": 393,
+      "sha256": "1d418a27f6913e97a136f528e332b76d482f6637c5a9f2f6df3c18371a0afc8a"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 17,
+      "static_meshes": 39,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 63
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "36855aa21be12e49e17a14d5593eea958fcdff21",
+      "path": "preview/austria-v1/theme-check.json",
+      "bytes": 628,
+      "sha256": "840a3270aa68fd23cb71b41825bb8d80fac6ce2a7291fb223ea71e76fed5e57f"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "crown_z_bounds": [
+        1.9700000286102295,
+        2.920161247253418
+      ],
+      "material_polygon_counts": {
+        "Alpine / cool grey rock": 942,
+        "Alpine / ivory snow": 428,
+        "Alpine / muted foothills": 1355
+      },
+      "summit_ray_hits": [
+        [
+          -0.6499999761581421,
+          0.11999999731779099,
+          2.681321144104004
+        ],
+        [
+          0.15000000596046448,
+          0.25999999046325684,
+          2.9111976623535156
+        ],
+        [
+          0.8600000143051147,
+          0.03999999910593033,
+          2.435023784637451
+        ]
+      ],
+      "pivot_matrix_max_error": 0.0,
+      "direct_lid_parent": true
+    },
+    "fresh_runtime_execution": false
+  }
+]

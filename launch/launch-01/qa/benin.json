@@ -1,0 +1,508 @@
+[
+  {
+    "source": {
+      "commit": "b4ad435e2ac897d24919786e984c2f47e730328d",
+      "path": "preview/benin-v1/acceptance-check.json",
+      "bytes": 1898,
+      "sha256": "636338c588098fc60e891cc0a3337bb3209d9e847d33c40aa2133f1d007ec781"
+    },
+    "reported_result": [
+      {
+        "gate": "motion",
+        "command": [
+          "node",
+          "--test",
+          "tests.mjs"
+        ],
+        "exit_code": 0,
+        "status": "PASS"
+      },
+      {
+        "gate": "build",
+        "command": [
+          "C:\\Users\\futur\\.hermes\\installs\\60215e25aec448c9\\environments\\b3c4bbda9be44f5cb17e68e2e2ba7648\\venv\\Scripts\\python.exe",
+          "build.py"
+        ],
+        "exit_code": 0,
+        "status": "PASS"
+      },
+      {
+        "gate": "source",
+        "command": [
+          "C:/Users/futur/AppData/Local/Programs/Blender-5.2.1/blender.exe",
+          "--background",
+          "--factory-startup",
+          "--python-exit-code",
+          "1",
+          "--python",
+          "verify_source.py"
+        ],
+        "exit_code": 0,
+        "status": "PASS"
+      },
+      {
+        "gate": "parity",
+        "command": [
+          "C:/Users/futur/AppData/Local/Programs/Blender-5.2.1/blender.exe",
+          "--background",
+          "--factory-startup",
+          "--python-exit-code",
+          "1",
+          "--python",
+          "verify_parity.py"
+        ],
+        "exit_code": 0,
+        "status": "PASS"
+      },
+      {
+        "gate": "theme",
+        "command": [
+          "C:/Users/futur/AppData/Local/Programs/Blender-5.2.1/blender.exe",
+          "--background",
+          "--factory-startup",
+          "--python-exit-code",
+          "1",
+          "--python",
+          "verify_theme.py"
+        ],
+        "exit_code": 0,
+        "status": "PASS"
+      },
+      {
+        "gate": "browser",
+        "command": [
+          "C:\\Users\\futur\\.hermes\\installs\\60215e25aec448c9\\environments\\b3c4bbda9be44f5cb17e68e2e2ba7648\\venv\\Scripts\\python.exe",
+          "verify_browser.py"
+        ],
+        "exit_code": 0,
+        "status": "PASS"
+      },
+      {
+        "gate": "extended",
+        "command": [
+          "C:\\Users\\futur\\.hermes\\installs\\60215e25aec448c9\\environments\\b3c4bbda9be44f5cb17e68e2e2ba7648\\venv\\Scripts\\python.exe",
+          "verify_extended.py"
+        ],
+        "exit_code": 0,
+        "status": "PASS"
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "b4ad435e2ac897d24919786e984c2f47e730328d",
+      "path": "preview/benin-v1/browser-check.json",
+      "bytes": 2082,
+      "sha256": "ed190ed47297d47493513aa8805860d90f94ed41f3bab330e726645e8fa18235"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 14392,
+          "meshes": 107,
+          "materials": 5,
+          "bounds": {
+            "min": [
+              -1.8700000494718552,
+              -0.23999999463558197,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8700000494718552,
+              2.7800001204013824,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1586600,
+          "open_projection_max_abs_ndc": 0.8923646516630207
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 14392,
+          "meshes": 107,
+          "materials": 5,
+          "bounds": {
+            "min": [
+              -1.8700000494718552,
+              -0.23999999463558197,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8700000494718552,
+              2.7800001204013824,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1586600,
+          "open_projection_max_abs_ndc": 0.8923646516630197
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "b4ad435e2ac897d24919786e984c2f47e730328d",
+      "path": "preview/benin-v1/delivery-check.json",
+      "bytes": 1824,
+      "sha256": "03a74c13e9bdc86f701614bcb2133824dadb69596577387d5bc114be75f97476"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "html_bytes": 2830775,
+      "glb_bytes": 1586600,
+      "html_sha256": "66807e04221c92c47821d91afc6bce09dedb9e648da5209598a8cef6741c0802",
+      "glb_sha256": "0d75eb502e548ec0148d89dddde02d844b223698faf25ff09d10e08b2effec95",
+      "embedded_glb_exact": true,
+      "embedded_poster_exact": true,
+      "required_artifacts": [
+        "README.md",
+        "THREE-LICENSE.txt",
+        "acceptance-check.json",
+        "author.py",
+        "benin-v1.html",
+        "benin.blend",
+        "benin.glb",
+        "browser-check.json",
+        "build.py",
+        "design-brief.md",
+        "desktop-closed.png",
+        "desktop-open-rear.png",
+        "desktop-open.png",
+        "extended-check.json",
+        "hinge-attachment-check.json",
+        "maps.py",
+        "maps/earth-color.png",
+        "maps/earth-roughness.png",
+        "maps/straw-color.png",
+        "mechanism.blend",
+        "mobile-closed.png",
+        "mobile-fallback.png",
+        "mobile-nojs.png",
+        "mobile-open.png",
+        "motion.mjs",
+        "package.json",
+        "package_delivery.py",
+        "parity-check.json",
+        "poster.jpg",
+        "poster.png",
+        "source-check.json",
+        "template.html",
+        "tests.mjs",
+        "theme-check.json",
+        "verify_all.py",
+        "verify_browser.py",
+        "verify_extended.py",
+        "verify_parity.py",
+        "verify_source.py",
+        "verify_theme.py",
+        "viewer.bundle.js",
+        "viewer.js"
+      ],
+      "inventory_entries": 55,
+      "zip_entries": 56,
+      "zip_bytes": 6830138,
+      "zip_sha256": "d4170c37cdc52328f29766d94ffdb0186e43845c0ae0cf493c96d4dc002f9f0a",
+      "inventory_sha256": "ac96d53ce1ef67d9784eb4ee82e016bc991d5d06fca788e924b422012f53723e",
+      "zip_readback_all_bytes_match": true,
+      "hash_exclusions": [
+        "inventory.json hashes payload but not itself",
+        "delivery-check.json and ZIP are envelopes excluded from inventory to avoid recursion"
+      ]
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "b4ad435e2ac897d24919786e984c2f47e730328d",
+      "path": "preview/benin-v1/extended-check.json",
+      "bytes": 638,
+      "sha256": "be9fe0e5b6f7a65022d6ad76ea914b73f8397019aec95e49e9c6ee4b323921f4"
+    },
+    "reported_result": {
+      "features": {
+        "ornament": 51,
+        "wrong": [],
+        "maps": [
+          {
+            "slot": "map",
+            "material": "Earth / warm hand-smoothed plaster",
+            "width": 512,
+            "height": 512,
+            "range": 35
+          },
+          {
+            "slot": "roughnessMap",
+            "material": "Earth / warm hand-smoothed plaster",
+            "width": 512,
+            "height": 512,
+            "range": 27
+          },
+          {
+            "slot": "map",
+            "material": "Straw / dry woven gold",
+            "width": 512,
+            "height": 512,
+            "range": 33
+          }
+        ]
+      },
+      "noJS_poster": true,
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "b4ad435e2ac897d24919786e984c2f47e730328d",
+      "path": "preview/benin-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "b4ad435e2ac897d24919786e984c2f47e730328d",
+      "path": "preview/benin-v1/parity-check.json",
+      "bytes": 313,
+      "sha256": "782cc06f0059100205d7bcf1585bf229956ffcbc806cef12c7d739ab1cebf726"
+    },
+    "reported_result": {
+      "source_vertices": 7408,
+      "imported_vertices": 23693,
+      "source_to_glb_max": 2.4575624024691933e-07,
+      "glb_to_source_max": 2.4575624024691933e-07,
+      "source_packed_images": [
+        "earth-color.png",
+        "earth-roughness.png",
+        "straw-color.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "b4ad435e2ac897d24919786e984c2f47e730328d",
+      "path": "preview/benin-v1/source-check.json",
+      "bytes": 394,
+      "sha256": "23c32df691a6706620dc728634074eb6b8e943d2f9e569a42d9d754dce640517"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 67,
+      "static_meshes": 40,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 114
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "b4ad435e2ac897d24919786e984c2f47e730328d",
+      "path": "preview/benin-v1/theme-check.json",
+      "bytes": 1928,
+      "sha256": "afb630a09f03b2d5316b61c650bfaa7b39394d9e0d520de3188fc28103094970"
+    },
+    "reported_result": {
+      "pivots": {
+        "Lid_Hinge": {
+          "location": [
+            0.0,
+            1.3200000524520874,
+            1.6679999828338623
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "parent": null
+        },
+        "Latch_Pivot": {
+          "location": [
+            0.0,
+            -2.6100001335144043,
+            0.2200000286102295
+          ],
+          "rotation": [
+            0.0,
+            -0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "parent": "Lid_Hinge"
+        }
+      },
+      "ornaments": 51,
+      "roofed_towers": 2,
+      "flat_towers": 1,
+      "roofs": 2,
+      "roof_ribs": 40,
+      "walls": 2,
+      "terrace": 1,
+      "wrong_parent": [],
+      "feet": 4,
+      "buttresses": 4,
+      "bounds": [
+        [
+          -1.1200000047683716,
+          1.1200000047683716
+        ],
+        [
+          -0.559999942779541,
+          0.6800000071525574
+        ],
+        [
+          1.9550000429153442,
+          2.7800002098083496
+        ]
+      ],
+      "earth_median_srgb": [
+        158.00000578165054,
+        88.00000235438347,
+        49.000004678964615
+      ],
+      "earth_range": 34.99999791383743,
+      "maps": {
+        "earth-color.png": [
+          512,
+          512
+        ],
+        "earth-roughness.png": [
+          512,
+          512
+        ],
+        "straw-color.png": [
+          512,
+          512
+        ]
+      },
+      "roughness_linked": true,
+      "status": "PASS",
+      "negative_controls": [
+        {
+          "mutation": "missing roof",
+          "rejected": true,
+          "assertion": "three tower / two roof contract"
+        },
+        {
+          "mutation": "detached ornament",
+          "rejected": true,
+          "assertion": "lid ornament parenting"
+        },
+        {
+          "mutation": "bad palette",
+          "rejected": true,
+          "assertion": "earth palette"
+        },
+        {
+          "mutation": "missing feet",
+          "rejected": true,
+          "assertion": "feet / buttresses"
+        }
+      ]
+    },
+    "fresh_runtime_execution": false
+  }
+]

@@ -1,0 +1,324 @@
+[
+  {
+    "source": {
+      "commit": "0002b3ceffb0e2ed60f7cd6b3c7238ac74ce6005",
+      "path": "preview/finland-v1/browser-check.json",
+      "bytes": 2078,
+      "sha256": "f3f99f6be8893910fa88bbddbae8953aeb3104c01bd96fa90415e6a23f256ec8"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 28396,
+          "meshes": 131,
+          "materials": 8,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.865999988745898,
+              2.1559998989105225,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 2711868,
+          "open_projection_max_abs_ndc": 0.9269909588669878
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 28396,
+          "meshes": 131,
+          "materials": 8,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.865999988745898,
+              2.1559998989105225,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 2711868,
+          "open_projection_max_abs_ndc": 0.9269909588669886
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "0002b3ceffb0e2ed60f7cd6b3c7238ac74ce6005",
+      "path": "preview/finland-v1/delivery-check.json",
+      "bytes": 656,
+      "sha256": "ffb0afed1d4623b122c1777016371154d2a6c167ffc3ceb2028d33962464619b"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "HTML_BYTES": 4409811,
+      "GLB_BYTES": 2711868,
+      "ZIP_BYTES": 7689383,
+      "zip_sha256": "857868258d7806bed7e95e7965e1f3edc289038ef8a8aa298c8f468fbbda8bb8",
+      "inventory_entries": 55,
+      "archive_entries": 56,
+      "archive_readback": true,
+      "required_artifacts": [
+        "README.md",
+        "browser-check.json",
+        "design-brief.md",
+        "extended-check.json",
+        "finland-v1.html",
+        "finland.blend",
+        "finland.glb",
+        "motion-output.txt",
+        "negative-control.txt",
+        "parity-check.json",
+        "poster.png",
+        "source-check.json",
+        "theme-check.json"
+      ],
+      "poster_nontransparent_fraction": 1.0
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "0002b3ceffb0e2ed60f7cd6b3c7238ac74ce6005",
+      "path": "preview/finland-v1/extended-check.json",
+      "bytes": 954,
+      "sha256": "58488f18075cdc49f1ce214e99c1e16630c0f0e051767223a6392b7dc3eca720"
+    },
+    "reported_result": {
+      "ornaments": [
+        {
+          "name": "Island__forest_relief_0",
+          "parent": "Lid_Hinge"
+        },
+        {
+          "name": "Island__forest_relief_1",
+          "parent": "Lid_Hinge"
+        },
+        {
+          "name": "Island__forest_relief_2",
+          "parent": "Lid_Hinge"
+        },
+        {
+          "name": "Lake__enamel_basin",
+          "parent": "Lid_Hinge"
+        }
+      ],
+      "maps": [
+        {
+          "key": "map",
+          "width": 512,
+          "height": 512,
+          "range": 32
+        },
+        {
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512,
+          "range": 60
+        },
+        {
+          "key": "map",
+          "width": 512,
+          "height": 512,
+          "range": 178
+        },
+        {
+          "key": "map",
+          "width": 512,
+          "height": 512,
+          "range": 63
+        },
+        {
+          "key": "map",
+          "width": 256,
+          "height": 256,
+          "range": 185
+        }
+      ],
+      "status": "PASS",
+      "noJS_poster": true,
+      "country_copy": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "0002b3ceffb0e2ed60f7cd6b3c7238ac74ce6005",
+      "path": "preview/finland-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "0002b3ceffb0e2ed60f7cd6b3c7238ac74ce6005",
+      "path": "preview/finland-v1/parity-check.json",
+      "bytes": 353,
+      "sha256": "268540d9d6abe47d89c063998f71cc8d2d830347481b77c8f6315a8b27cc58cd"
+    },
+    "reported_result": {
+      "source_vertices": 14456,
+      "imported_vertices": 51663,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "birch-color.png",
+        "birch-end.png",
+        "birch-roughness.png",
+        "granite.png",
+        "wood-color.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "0002b3ceffb0e2ed60f7cd6b3c7238ac74ce6005",
+      "path": "preview/finland-v1/source-check.json",
+      "bytes": 394,
+      "sha256": "c8c9b2428f9919982188a206678c14589a367879fa753abdccf3994f07efe2dc"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 32,
+      "static_meshes": 99,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 138
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "0002b3ceffb0e2ed60f7cd6b3c7238ac74ce6005",
+      "path": "preview/finland-v1/theme-check.json",
+      "bytes": 523,
+      "sha256": "b8ad9db422d4ddbf5b842ea60f2139292e43b134d8825c3befff93e692b5a83c"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "ornaments": 4,
+      "islands": 3,
+      "water_visibility_rays": [
+        "Lake / enamel basin",
+        "Lake / enamel basin",
+        "Lake / enamel basin",
+        "Lake / enamel basin",
+        "Lake / enamel basin"
+      ],
+      "original_pivots": {
+        "Lid_Hinge": [
+          0.0,
+          1.3200000524520874,
+          1.6679999828338623
+        ],
+        "Latch_Pivot": [
+          0.0,
+          -1.290000081062317,
+          1.8880000114440918
+        ]
+      },
+      "negative_control": "--negative detaches one island and must fail"
+    },
+    "fresh_runtime_execution": false
+  }
+]

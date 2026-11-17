@@ -1,0 +1,1085 @@
+[
+  {
+    "source": {
+      "commit": "1e6b1712959013285769a152b1d50bbf119f7729",
+      "path": "preview/united-states-flag-v9/author-check.json",
+      "bytes": 1073,
+      "sha256": "8b0bc768d06e22f5b896ad236c3144d0c8af51eed01e39f885a73fa6946bd116"
+    },
+    "reported_result": {
+      "lid_min_z": 1.6779999732971191,
+      "lid_max_z": 1.9779999256134033,
+      "lid_thickness": 0.2999999523162842,
+      "pigments": [
+        {
+          "material": "Flag / red feet",
+          "before": [
+            0.8307700157165527,
+            0.0024300001095980406,
+            0.006994999945163727,
+            1.0
+          ],
+          "after": [
+            0.4620769996544071,
+            0.0,
+            0.009134058702220787,
+            1
+          ]
+        },
+        {
+          "material": "Interior / navy velvet",
+          "before": [
+            0.008999999612569809,
+            0.01600000075995922,
+            0.03799999877810478,
+            1.0
+          ],
+          "after": [
+            0.000607053967097675,
+            0.013702083047289686,
+            0.052860647023180246,
+            1
+          ]
+        }
+      ],
+      "pivots": {
+        "Lid_Hinge": [
+          0.0,
+          1.3200000524520874,
+          1.6679999828338623
+        ],
+        "Latch_Pivot": [
+          0.0,
+          -1.290000081062317,
+          1.8880000114440918
+        ]
+      },
+      "restoration": "Exact packed V7 geometry, UVs, hardware and pivots; not a reverse deformation of V8"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "1e6b1712959013285769a152b1d50bbf119f7729",
+      "path": "preview/united-states-flag-v9/browser-check.json",
+      "bytes": 2075,
+      "sha256": "bffca42cefe0751c66b6681e8ab5fa292f39c0adcab73902ebb52e24b4d2c619"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 13324,
+          "meshes": 55,
+          "materials": 5,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.25999999791383743,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.0004999628290534,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 879648,
+          "open_projection_max_abs_ndc": 0.908713729901531
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 13324,
+          "meshes": 55,
+          "materials": 5,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.25999999791383743,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.0004999628290534,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 879648,
+          "open_projection_max_abs_ndc": 0.9087137299015314
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "1e6b1712959013285769a152b1d50bbf119f7729",
+      "path": "preview/united-states-flag-v9/comparison-check.json",
+      "bytes": 763,
+      "sha256": "5108141c7969fcc8c05a894dff3c2b862b04b015349db7de834353fff3fe5ef0"
+    },
+    "reported_result": {
+      "reference_crop": [
+        114,
+        301,
+        957,
+        905
+      ],
+      "reference_native_size": [
+        1072,
+        976
+      ],
+      "actual_model_bounds": [
+        {
+          "version": "v8",
+          "pixel_crop": [
+            500,
+            440,
+            940,
+            768
+          ],
+          "projected_ndc": [
+            -0.36137791104525163,
+            -0.869324908258928,
+            0.36128631280146395,
+            0.23767067119949098
+          ]
+        },
+        {
+          "version": "v9",
+          "pixel_crop": [
+            499,
+            412,
+            941,
+            768
+          ],
+          "projected_ndc": [
+            -0.3626375344184235,
+            -0.8693249140794096,
+            0.3624952048658944,
+            0.3315729775756401
+          ]
+        }
+      ],
+      "equal_width": 600,
+      "warped": false
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "1e6b1712959013285769a152b1d50bbf119f7729",
+      "path": "preview/united-states-flag-v9/delivery-check.json",
+      "bytes": 2579,
+      "sha256": "848f98a8fd43d57f0e17615f379b04f015bf43f441ff665956332c5ed7e76c24"
+    },
+    "reported_result": {
+      "PASS": true,
+      "zip_entries": 111,
+      "required_subset_verified": true,
+      "copied_html_offline_full_browser_test": "final-copied-browser-output.txt",
+      "copied_zip_readback": true,
+      "artifacts": [
+        {
+          "path": "C:\\Users\\futur\\.hermes\\profiles\\telegram2\\output\\boxsv-usa-flag-v9\\united-states-flag-v9.html",
+          "bytes": 1879515,
+          "sha256": "d385ef7e902b40242052d3187270c2582f467bf02cda68f15a970582ab4bc741"
+        },
+        {
+          "path": "C:\\Users\\futur\\.hermes\\profiles\\telegram2\\output\\boxsv-usa-flag-v9\\united-states.blend",
+          "bytes": 231950,
+          "sha256": "71708464cc29352ffe3abcdd47bc4cb2dd120d3fe0b9dfe354a666879f630ead"
+        },
+        {
+          "path": "C:\\Users\\futur\\.hermes\\profiles\\telegram2\\output\\boxsv-usa-flag-v9\\united-states.glb",
+          "bytes": 879648,
+          "sha256": "aa44e0b99baf1e354dd38a13826deaa0c848569e5d7bd92d37e9c295e8ebbb96"
+        },
+        {
+          "path": "C:\\Users\\futur\\.hermes\\profiles\\telegram2\\output\\boxsv-usa-flag-v9\\united-states-flag-v9-source.zip",
+          "bytes": 12815012,
+          "sha256": "75cdbeaa774376248872abaf301d89f1b49142698a21de7978d3018ae5284551"
+        },
+        {
+          "path": "C:\\Users\\futur\\.hermes\\profiles\\telegram2\\output\\boxsv-usa-flag-v9\\hero-fireworks.png",
+          "bytes": 308832,
+          "sha256": "04552c0d5457f5641adf9bc5513370cace79cdd58b7057f116fc3edc151dd35b"
+        },
+        {
+          "path": "C:\\Users\\futur\\.hermes\\profiles\\telegram2\\output\\boxsv-usa-flag-v9\\primary-v8-v9-comparison.jpg",
+          "bytes": 237573,
+          "sha256": "42b761de63bde4d699d51c2fa4e69be6581b75d2b8bf64212f756cfac4f4ec1a"
+        },
+        {
+          "path": "C:\\Users\\futur\\.hermes\\profiles\\telegram2\\output\\boxsv-usa-flag-v9\\mobile-closed.png",
+          "bytes": 116991,
+          "sha256": "3c81393d27799a762dfb0dda867f05ebc31ae28b46cca9e621a5fc08838bdb51"
+        },
+        {
+          "path": "C:\\Users\\futur\\.hermes\\profiles\\telegram2\\output\\boxsv-usa-flag-v9\\mobile-open.png",
+          "bytes": 106589,
+          "sha256": "a0d0fd51ea0ba0a7d6e985cb932878bdbde172bbca5531ff2720221c0eb22468"
+        },
+        {
+          "path": "C:\\Users\\futur\\.hermes\\profiles\\telegram2\\output\\boxsv-usa-flag-v9\\README.md",
+          "bytes": 5498,
+          "sha256": "a878a4366aab28a052ae2d3d24586fcc3c2e95ea7e795daf12eb886067fc313c"
+        },
+        {
+          "path": "C:\\Users\\futur\\.hermes\\profiles\\telegram2\\output\\boxsv-usa-flag-v9\\inventory.json",
+          "bytes": 18036,
+          "sha256": "12ea06eaddfe630f9afe02237ecd4626d9d30b229462ac417b2f8055e85d73ad"
+        }
+      ]
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "1e6b1712959013285769a152b1d50bbf119f7729",
+      "path": "preview/united-states-flag-v9/extended-check.json",
+      "bytes": 2096,
+      "sha256": "25d1e3e5ef8adec7ef64c5574c035ff98b839f4a0706a930c31be903fffdfbf6"
+    },
+    "reported_result": {
+      "poster_nonblank": true,
+      "devices": [
+        {
+          "width": 1440,
+          "maps": [
+            {
+              "key": "map",
+              "channel": "RED",
+              "range": 237,
+              "width": 2048,
+              "height": 256
+            },
+            {
+              "key": "roughnessMap",
+              "channel": "GREEN",
+              "range": 5,
+              "width": 256,
+              "height": 256
+            },
+            {
+              "key": "map",
+              "channel": "RED",
+              "range": 255,
+              "width": 1536,
+              "height": 1134
+            }
+          ],
+          "firework_framing": [
+            {
+              "max": 0.6870423854109999,
+              "depthRange": 2.1399201154708862,
+              "particles": 432,
+              "trailSegments": 1728
+            },
+            {
+              "max": 0.8595902318972988,
+              "depthRange": 2.1399201154708862,
+              "particles": 432,
+              "trailSegments": 1728
+            }
+          ],
+          "animated_3d": true,
+          "reduced_static": true,
+          "reduced_pose_endpoints": true
+        },
+        {
+          "width": 390,
+          "maps": [
+            {
+              "key": "map",
+              "channel": "RED",
+              "range": 237,
+              "width": 2048,
+              "height": 256
+            },
+            {
+              "key": "roughnessMap",
+              "channel": "GREEN",
+              "range": 5,
+              "width": 256,
+              "height": 256
+            },
+            {
+              "key": "map",
+              "channel": "RED",
+              "range": 255,
+              "width": 1536,
+              "height": 1134
+            }
+          ],
+          "firework_framing": [
+            {
+              "max": 0.7884657575342053,
+              "depthRange": 2.1399201154708862,
+              "particles": 432,
+              "trailSegments": 1728
+            },
+            {
+              "max": 0.9822709957883309,
+              "depthRange": 2.1399201154708862,
+              "particles": 432,
+              "trailSegments": 1728
+            }
+          ],
+          "animated_3d": true,
+          "reduced_static": true,
+          "reduced_pose_endpoints": true
+        }
+      ],
+      "noJS_poster": true,
+      "PASS": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "1e6b1712959013285769a152b1d50bbf119f7729",
+      "path": "preview/united-states-flag-v9/features-check.json",
+      "bytes": 3875,
+      "sha256": "470ec2355001ae04842b84613ec14f49e0fcaed94daa5e6e06702120f6e890fb"
+    },
+    "reported_result": {
+      "edge_wrap_PASS": true,
+      "negative_control_v6": {
+        "not_rerun": "V9 validates actual current export; V6 negative control belongs to historical V7 evidence"
+      },
+      "current": {
+        "left": {
+          "components": 4,
+          "parts": [
+            {
+              "samples": 2480,
+              "s_min": -0.9068659127625203,
+              "s_max": -0.687221324717286,
+              "unfolded_q_min": -0.10164429530201341,
+              "unfolded_q_max": 0.13110738255033558,
+              "touches_top": true,
+              "touches_vertical": true
+            },
+            {
+              "samples": 2480,
+              "s_min": -0.3677382875605816,
+              "s_max": -0.14809369951534734,
+              "unfolded_q_min": -0.10164429530201341,
+              "unfolded_q_max": 0.13110738255033558,
+              "touches_top": true,
+              "touches_vertical": true
+            },
+            {
+              "samples": 2485,
+              "s_min": 0.1713893376413571,
+              "s_max": 0.39103392568659134,
+              "unfolded_q_min": -0.10164429530201341,
+              "unfolded_q_max": 0.13110738255033558,
+              "touches_top": true,
+              "touches_vertical": true
+            },
+            {
+              "samples": 2485,
+              "s_min": 0.7105169628432957,
+              "s_max": 0.9301615508885299,
+              "unfolded_q_min": -0.10164429530201341,
+              "unfolded_q_max": 0.13110738255033558,
+              "touches_top": true,
+              "touches_vertical": true
+            }
+          ],
+          "actual_export_ray_samples": 93000,
+          "misses": 0,
+          "max_shared_metric_uv_error": 2.243174802851744e-07
+        },
+        "front": {
+          "components": 5,
+          "parts": [
+            {
+              "samples": 3683,
+              "s_min": -1.6563166397415185,
+              "s_max": -1.4250242326332794,
+              "unfolded_q_min": -0.10620805369127516,
+              "unfolded_q_max": 0.11285234899328858,
+              "touches_top": true,
+              "touches_vertical": true
+            },
+            {
+              "samples": 3682,
+              "s_min": -1.3846042003231018,
+              "s_max": -1.1555573505654282,
+              "unfolded_q_min": -0.10620805369127516,
+              "unfolded_q_max": 0.11285234899328858,
+              "touches_top": true,
+              "touches_vertical": true
+            },
+            {
+              "samples": 3672,
+              "s_min": -1.1151373182552504,
+              "s_max": -0.8838449111470114,
+              "unfolded_q_min": -0.10620805369127516,
+              "unfolded_q_max": 0.11285234899328858,
+              "touches_top": true,
+              "touches_vertical": true
+            },
+            {
+              "samples": 3678,
+              "s_min": -0.8456704361873991,
+              "s_max": -0.6143780290791601,
+              "unfolded_q_min": -0.10620805369127516,
+              "unfolded_q_max": 0.11285234899328858,
+              "touches_top": true,
+              "touches_vertical": true
+            },
+            {
+              "samples": 3679,
+              "s_min": -0.5762035541195478,
+              "s_max": -0.34491114701130865,
+              "unfolded_q_min": -0.10620805369127516,
+              "unfolded_q_max": 0.11285234899328858,
+              "touches_top": true,
+              "touches_vertical": true
+            }
+          ],
+          "actual_export_ray_samples": 93000,
+          "misses": 0,
+          "max_shared_metric_uv_error": 2.589164727340165e-07
+        },
+        "top_star_measured": {
+          "width": 0.23150837988826817,
+          "height": 0.22055865921787712,
+          "circumradius_authored": 0.125
+        },
+        "lower_bevel_no_duplicate_stars": {
+          "samples": 5940,
+          "white_samples": 0
+        }
+      },
+      "physical_scale": "All stars radius 0.125 world units; 300 isotropic texels/unit in new lid atlas",
+      "body_star_continuation": false,
+      "body_limitation": "0.30-thick lid exceeds 0.25 star diameter; glyphs cross top/bevel/vertical lid, not body seam. No floating mesh bridges.",
+      "v9_art_correction_iterations": 0
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "1e6b1712959013285769a152b1d50bbf119f7729",
+      "path": "preview/united-states-flag-v9/fireworks-pixels-check.json",
+      "bytes": 5353,
+      "sha256": "b14f3f3ca21dc63eac4fe4cc6abc3e494d6682d08bc14047629375b6c422eac0"
+    },
+    "reported_result": {
+      "PASS": true,
+      "threshold": 35,
+      "minimum_pixels": 100,
+      "cases": [
+        {
+          "width": 1440,
+          "opened": false,
+          "phases": [
+            {
+              "time": 0.0,
+              "visible_firework_pixels": 9542
+            },
+            {
+              "time": 0.3,
+              "visible_firework_pixels": 10086
+            },
+            {
+              "time": 0.6,
+              "visible_firework_pixels": 7568
+            },
+            {
+              "time": 0.8999999999999999,
+              "visible_firework_pixels": 8654
+            },
+            {
+              "time": 1.2,
+              "visible_firework_pixels": 9574
+            },
+            {
+              "time": 1.5,
+              "visible_firework_pixels": 6209
+            },
+            {
+              "time": 1.7999999999999998,
+              "visible_firework_pixels": 7519
+            },
+            {
+              "time": 2.1,
+              "visible_firework_pixels": 8670
+            },
+            {
+              "time": 2.4,
+              "visible_firework_pixels": 9533
+            },
+            {
+              "time": 2.6999999999999997,
+              "visible_firework_pixels": 9991
+            },
+            {
+              "time": 3.0,
+              "visible_firework_pixels": 7395
+            },
+            {
+              "time": 3.3,
+              "visible_firework_pixels": 8569
+            },
+            {
+              "time": 3.5999999999999996,
+              "visible_firework_pixels": 9542
+            }
+          ]
+        },
+        {
+          "width": 1440,
+          "opened": true,
+          "phases": [
+            {
+              "time": 0.0,
+              "visible_firework_pixels": 2976
+            },
+            {
+              "time": 0.3,
+              "visible_firework_pixels": 3166
+            },
+            {
+              "time": 0.6,
+              "visible_firework_pixels": 2412
+            },
+            {
+              "time": 0.8999999999999999,
+              "visible_firework_pixels": 2684
+            },
+            {
+              "time": 1.2,
+              "visible_firework_pixels": 2936
+            },
+            {
+              "time": 1.5,
+              "visible_firework_pixels": 1880
+            },
+            {
+              "time": 1.7999999999999998,
+              "visible_firework_pixels": 2693
+            },
+            {
+              "time": 2.1,
+              "visible_firework_pixels": 3390
+            },
+            {
+              "time": 2.4,
+              "visible_firework_pixels": 3921
+            },
+            {
+              "time": 2.6999999999999997,
+              "visible_firework_pixels": 4177
+            },
+            {
+              "time": 3.0,
+              "visible_firework_pixels": 2419
+            },
+            {
+              "time": 3.3,
+              "visible_firework_pixels": 2668
+            },
+            {
+              "time": 3.5999999999999996,
+              "visible_firework_pixels": 2976
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "opened": false,
+          "phases": [
+            {
+              "time": 0.0,
+              "visible_firework_pixels": 4785
+            },
+            {
+              "time": 0.3,
+              "visible_firework_pixels": 5191
+            },
+            {
+              "time": 0.6,
+              "visible_firework_pixels": 3798
+            },
+            {
+              "time": 0.8999999999999999,
+              "visible_firework_pixels": 4397
+            },
+            {
+              "time": 1.2,
+              "visible_firework_pixels": 4859
+            },
+            {
+              "time": 1.5,
+              "visible_firework_pixels": 3018
+            },
+            {
+              "time": 1.7999999999999998,
+              "visible_firework_pixels": 3708
+            },
+            {
+              "time": 2.1,
+              "visible_firework_pixels": 4327
+            },
+            {
+              "time": 2.4,
+              "visible_firework_pixels": 4800
+            },
+            {
+              "time": 2.6999999999999997,
+              "visible_firework_pixels": 5115
+            },
+            {
+              "time": 3.0,
+              "visible_firework_pixels": 3639
+            },
+            {
+              "time": 3.3,
+              "visible_firework_pixels": 4259
+            },
+            {
+              "time": 3.5999999999999996,
+              "visible_firework_pixels": 4785
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "opened": true,
+          "phases": [
+            {
+              "time": 0.0,
+              "visible_firework_pixels": 1622
+            },
+            {
+              "time": 0.3,
+              "visible_firework_pixels": 1712
+            },
+            {
+              "time": 0.6,
+              "visible_firework_pixels": 1312
+            },
+            {
+              "time": 0.8999999999999999,
+              "visible_firework_pixels": 1456
+            },
+            {
+              "time": 1.2,
+              "visible_firework_pixels": 1595
+            },
+            {
+              "time": 1.5,
+              "visible_firework_pixels": 969
+            },
+            {
+              "time": 1.7999999999999998,
+              "visible_firework_pixels": 1414
+            },
+            {
+              "time": 2.1,
+              "visible_firework_pixels": 1770
+            },
+            {
+              "time": 2.4,
+              "visible_firework_pixels": 2029
+            },
+            {
+              "time": 2.6999999999999997,
+              "visible_firework_pixels": 2203
+            },
+            {
+              "time": 3.0,
+              "visible_firework_pixels": 1216
+            },
+            {
+              "time": 3.3,
+              "visible_firework_pixels": 1401
+            },
+            {
+              "time": 3.5999999999999996,
+              "visible_firework_pixels": 1622
+            }
+          ]
+        }
+      ]
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "1e6b1712959013285769a152b1d50bbf119f7729",
+      "path": "preview/united-states-flag-v9/hinge-attachment-check.json",
+      "bytes": 973,
+      "sha256": "e8845f48ad806e9e7ddef0c4d6ca54ef2b45b15c998513fa71866ac7b9b882b8"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "restored V7 coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "1e6b1712959013285769a152b1d50bbf119f7729",
+      "path": "preview/united-states-flag-v9/palette-check.json",
+      "bytes": 1697,
+      "sha256": "a0740f31932f85f74178c4a1edd196bce123ddf67dae8dfd115eea606d970f3e"
+    },
+    "reported_result": {
+      "PASS": true,
+      "checks": [
+        {
+          "material": "Flag / lacquer",
+          "image": "flag-wall.png",
+          "dimensions": [
+            2048,
+            256
+          ],
+          "export_pixels_exact_authored": true,
+          "exact_palette_texels": {
+            "red": 283184,
+            "navy": 32208,
+            "white": 208896
+          },
+          "baseColorFactor": "identity"
+        },
+        {
+          "material": "Flag / navy star canton lid",
+          "image": "flag-lid.png",
+          "dimensions": [
+            1536,
+            1134
+          ],
+          "export_pixels_exact_authored": true,
+          "exact_palette_texels": {
+            "red": 678780,
+            "navy": 761649,
+            "white": 249153
+          },
+          "baseColorFactor": "identity"
+        },
+        {
+          "image": "flag-lid.png",
+          "unchanged_white_core_texels": 223210,
+          "antialias_white_mask_differences": 156
+        },
+        {
+          "image": "flag-wall.png",
+          "unchanged_white_core_texels": 184320,
+          "antialias_white_mask_differences": 0
+        }
+      ],
+      "feet": [
+        "Flag / stone foot",
+        "Flag / stone foot.001",
+        "Flag / stone foot.002",
+        "Flag / stone foot.003"
+      ],
+      "foot_linear_factor": [
+        0.46207699179649353,
+        0,
+        0.009134058840572834,
+        1
+      ],
+      "foot_srgb_bytes": [
+        181,
+        0,
+        24
+      ],
+      "navy_linear_factor": [
+        0.0006070539820939302,
+        0.013702083379030228,
+        0.052860647439956665,
+        1
+      ],
+      "white_solid_interiors_and_gold_unchanged": true,
+      "antialiasing": "Boundary texels interpolate pigments; solid regions exact. Rendered lighting changes displayed pixels.",
+      "glb_sha256": "aa44e0b99baf1e354dd38a13826deaa0c848569e5d7bd92d37e9c295e8ebbb96"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "1e6b1712959013285769a152b1d50bbf119f7729",
+      "path": "preview/united-states-flag-v9/parity-check.json",
+      "bytes": 308,
+      "sha256": "ff4c3b1fa85b7eec125124e0fd5f4cb076d8d7a44c99b3e3f1ceead1814645c7"
+    },
+    "reported_result": {
+      "source_vertices": 6768,
+      "imported_vertices": 23027,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "flag-lid.png",
+        "flag-wall.png",
+        "lacquer-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "1e6b1712959013285769a152b1d50bbf119f7729",
+      "path": "preview/united-states-flag-v9/restoration-check.json",
+      "bytes": 494,
+      "sha256": "8f823a18ad03415066b508b607d03509ae7530c921b4e94cb1d896328f1decd1"
+    },
+    "reported_result": {
+      "PASS": true,
+      "v7_v9_exact_source_meshes_uvs_pivots": true,
+      "objects": 57,
+      "source_packed_bytes_equal_maps": [
+        "flag-lid.png",
+        "flag-wall.png",
+        "lacquer-roughness.png"
+      ],
+      "actual_export_lids": {
+        "v8": {
+          "min": 1.5836000442504883,
+          "max": 1.6435999870300293,
+          "thickness": 0.059999942779541016
+        },
+        "v9": {
+          "min": 1.6779999732971191,
+          "max": 1.9779999256134033,
+          "thickness": 0.2999999523162842
+        }
+      }
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "1e6b1712959013285769a152b1d50bbf119f7729",
+      "path": "preview/united-states-flag-v9/source-check.json",
+      "bytes": 393,
+      "sha256": "b0cfcd097f272090af267487f3a2c5ff47739915eb5fb5f72c934abcaa654334"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 16,
+      "static_meshes": 39,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 62
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "1e6b1712959013285769a152b1d50bbf119f7729",
+      "path": "preview/united-states-flag-v9/wrap-layout.json",
+      "bytes": 1835,
+      "sha256": "0dac5c1340f4b03994230ecd331e84ed9eb0991a6fc5b262c12ab4e659d4ef36"
+    },
+    "reported_result": {
+      "radius": 0.125,
+      "diameter": 0.25,
+      "top_stars": [
+        [
+          -1.5180000000000002,
+          0.8925
+        ],
+        [
+          -1.1760000000000002,
+          0.8925
+        ],
+        [
+          -0.8340000000000001,
+          0.8925
+        ],
+        [
+          -0.4920000000000002,
+          0.8925
+        ],
+        [
+          -1.4325,
+          0.2975
+        ],
+        [
+          -1.0050000000000001,
+          0.2975
+        ],
+        [
+          -0.5775000000000001,
+          0.2975
+        ],
+        [
+          -1.5180000000000002,
+          -0.2974999999999999
+        ],
+        [
+          -1.1760000000000002,
+          -0.2974999999999999
+        ],
+        [
+          -0.8340000000000001,
+          -0.2974999999999999
+        ],
+        [
+          -0.4920000000000002,
+          -0.2974999999999999
+        ],
+        [
+          -1.4325,
+          -0.8925000000000001
+        ],
+        [
+          -1.0050000000000001,
+          -0.8925000000000001
+        ],
+        [
+          -0.5775000000000001,
+          -0.8925000000000001
+        ]
+      ],
+      "left_centers": [
+        [
+          -1.8299999999999998,
+          -0.81
+        ],
+        [
+          -1.8299999999999998,
+          -0.27
+        ],
+        [
+          -1.8299999999999998,
+          0.27
+        ],
+        [
+          -1.8299999999999998,
+          0.81
+        ]
+      ],
+      "front_centers": [
+        [
+          -1.54,
+          -1.16
+        ],
+        [
+          -1.27,
+          -1.16
+        ],
+        [
+          -1.0,
+          -1.16
+        ],
+        [
+          -0.73,
+          -1.16
+        ],
+        [
+          -0.46,
+          -1.16
+        ]
+      ],
+      "atlas_bounds": [
+        -2.56,
+        2.56,
+        -1.89,
+        1.89
+      ],
+      "texels_per_world_unit": 300,
+      "bevel_chord_length": 0.0698811421776806,
+      "top_z": 1.978,
+      "top_tangencies": [
+        1.815,
+        1.145
+      ],
+      "body_top_z": 1.56,
+      "limitation": "A 0.25 diameter star cannot span the 0.30 thick lid and reach the body. Continuous glyphs terminate on vertical lid; navy band alone continues below seam."
+    },
+    "fresh_runtime_execution": false
+  }
+]

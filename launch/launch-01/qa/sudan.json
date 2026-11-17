@@ -1,0 +1,350 @@
+[
+  {
+    "source": {
+      "commit": "6fa5681d8cfa8196e116512dc616dca9e298b31d",
+      "path": "preview/sudan-v1/browser-check.json",
+      "bytes": 2076,
+      "sha256": "b75aefdabb8af3ba3a82e9407ac2d76a0e54e87d18fa4fbd3d03e765a7c18085"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 15156,
+          "meshes": 75,
+          "materials": 4,
+          "bounds": {
+            "min": [
+              -1.8600000143051147,
+              -0.3105585500597954,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              3.115000009536743,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1909528,
+          "open_projection_max_abs_ndc": 0.8923646516630203
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 15156,
+          "meshes": 75,
+          "materials": 4,
+          "bounds": {
+            "min": [
+              -1.8600000143051147,
+              -0.3105585500597954,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              3.115000009536743,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1909528,
+          "open_projection_max_abs_ndc": 0.8923646516630206
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "6fa5681d8cfa8196e116512dc616dca9e298b31d",
+      "path": "preview/sudan-v1/delivery-check.json",
+      "bytes": 1238,
+      "sha256": "3782643d6e2f92e92d057610793f9e0a2258165789dca94e2626fd8a31b5f609"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "html_bytes": 3274491,
+      "glb_bytes": 1909528,
+      "html_sha256": "1bc43b53d69140af53764495ee97dac1e8c2af8f10486e173afd793feb207b3c",
+      "glb_sha256": "350cfeb97280fd38d2c3ca28c754c3e26249a3dc95532ad71aa2ddeb90a4ef2d",
+      "inventory_files": 54,
+      "required_artifacts_present": [
+        "README.md",
+        "THREE-LICENSE.txt",
+        "acceptance-summary.json",
+        "author.py",
+        "browser-check.json",
+        "design-brief.md",
+        "extended-check.json",
+        "maps.py",
+        "maps/sand-color.png",
+        "maps/sand-normal.png",
+        "maps/sand-roughness.png",
+        "mechanism.blend",
+        "motion-sampling.json",
+        "parity-check.json",
+        "poster.jpg",
+        "poster.png",
+        "source-check.json",
+        "sudan-v1.html",
+        "sudan.blend",
+        "sudan.glb",
+        "theme-check.json"
+      ],
+      "zip_entries": 55,
+      "zip_bytes": 8181175,
+      "zip_sha256": "844dba197311307bf9f2b75796d16734eadc68bd00c99b594e3b18d61c06c18f",
+      "every_zip_entry_hash_readback": true,
+      "extracted_html_offline_mobile_open_reset": true,
+      "external_requests": [],
+      "unhandled_errors": [],
+      "exclusions": "Inventory and delivery result excluded from self-hashing; ZIP includes inventory, excludes itself and delivery-check."
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "6fa5681d8cfa8196e116512dc616dca9e298b31d",
+      "path": "preview/sudan-v1/extended-check.json",
+      "bytes": 1165,
+      "sha256": "e3904ff4bef9e3a1efac631e7f1966b3b1cbbe5a3a7d36d4f4fa27fb0c407625"
+    },
+    "reported_result": {
+      "features": {
+        "pyramids": [
+          "Pyramid__1",
+          "Pyramid__2",
+          "Pyramid__3"
+        ],
+        "terrain": [
+          "Terrain__ochre_dunes"
+        ],
+        "maps": [
+          {
+            "material": "Sandstone / ochre porous",
+            "channel": "map",
+            "width": 512,
+            "height": 512,
+            "range": 78,
+            "mean": [
+              182.53643798828125,
+              130.75702667236328,
+              71.01529312133789
+            ]
+          },
+          {
+            "material": "Sandstone / ochre porous",
+            "channel": "normalMap",
+            "width": 512,
+            "height": 512,
+            "range": 55,
+            "mean": [
+              127.00033950805664,
+              127.00211334228516,
+              253.9964599609375
+            ]
+          },
+          {
+            "material": "Sandstone / ochre porous",
+            "channel": "roughnessMap",
+            "width": 512,
+            "height": 512,
+            "range": 68,
+            "mean": [
+              255,
+              205.01396560668945,
+              255
+            ]
+          }
+        ],
+        "wrong": []
+      },
+      "wrong_palette_negative_control": "PASS: green palette rejected",
+      "noJS_poster": true,
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "6fa5681d8cfa8196e116512dc616dca9e298b31d",
+      "path": "preview/sudan-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "6fa5681d8cfa8196e116512dc616dca9e298b31d",
+      "path": "preview/sudan-v1/parity-check.json",
+      "bytes": 309,
+      "sha256": "1763854cad3c7cf9e484e1af0e90dd720f64016dd688a527cc3101f1c9d5118d"
+    },
+    "reported_result": {
+      "source_vertices": 7833,
+      "imported_vertices": 24742,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "sand-color.png",
+        "sand-normal.png",
+        "sand-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "6fa5681d8cfa8196e116512dc616dca9e298b31d",
+      "path": "preview/sudan-v1/source-check.json",
+      "bytes": 393,
+      "sha256": "c748d6d93c239191353f32df69f93fd4ff8bc86b2982eee420ed4b56802057af"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 20,
+      "static_meshes": 55,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 82
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "6fa5681d8cfa8196e116512dc616dca9e298b31d",
+      "path": "preview/sudan-v1/theme-check.json",
+      "bytes": 897,
+      "sha256": "f6fee823c641b904d6bf9842ef1c5d6db4a4eb52b99c6894dc07d5b95a558344"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "theme": "Meroë / Desert Gold",
+      "pyramids": [
+        {
+          "name": "Pyramid / 1",
+          "height": 0.55,
+          "courses": 12
+        },
+        {
+          "name": "Pyramid / 2",
+          "height": 1.05,
+          "courses": 12
+        },
+        {
+          "name": "Pyramid / 3",
+          "height": 0.8,
+          "courses": 12
+        }
+      ],
+      "lid_dimensions": [
+        3.7200000286102295,
+        2.380000114440918,
+        0.30000001192092896
+      ],
+      "seam_max_height": 0.1080000028014183,
+      "pyramids_seated": true,
+      "negative_controls": [
+        {
+          "control": "missing pyramid",
+          "rejected": true,
+          "reason": "Exactly three pyramids required"
+        },
+        {
+          "control": "detached pyramid",
+          "rejected": true,
+          "reason": "Pyramid must travel with lid"
+        }
+      ],
+      "scope": "Saved-source shape/pivot/material contract, not archaeological accuracy"
+    },
+    "fresh_runtime_execution": false
+  }
+]

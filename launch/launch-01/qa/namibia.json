@@ -1,0 +1,583 @@
+[
+  {
+    "source": {
+      "commit": "bb790488e867f1bf8c57b3ea273ea737f9f61766",
+      "path": "preview/namibia-v1/acceptance-check.json",
+      "bytes": 3068,
+      "sha256": "dd11b774a35f187bd9b17a5b38117d78a8e72d29ced25558453ec242e365a49a"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "checks": [
+        {
+          "check": "build",
+          "exit_code": 0,
+          "command": [
+            "C:\\Users\\futur\\.hermes\\installs\\60215e25aec448c9\\environments\\b3c4bbda9be44f5cb17e68e2e2ba7648\\venv\\Scripts\\python.exe",
+            "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_b8d65bef\\preview\\namibia-v1\\build.py"
+          ]
+        },
+        {
+          "check": "motion",
+          "exit_code": 0,
+          "command": [
+            "node",
+            "--test",
+            "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_b8d65bef\\preview\\namibia-v1\\tests.mjs"
+          ]
+        },
+        {
+          "check": "source",
+          "exit_code": 0,
+          "command": [
+            "C:/Users/futur/AppData/Local/Programs/Blender-5.2.1/blender.exe",
+            "--background",
+            "--threads",
+            "2",
+            "--factory-startup",
+            "--python-exit-code",
+            "1",
+            "--python",
+            "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_b8d65bef\\preview\\namibia-v1\\verify_source.py"
+          ]
+        },
+        {
+          "check": "parity",
+          "exit_code": 0,
+          "command": [
+            "C:/Users/futur/AppData/Local/Programs/Blender-5.2.1/blender.exe",
+            "--background",
+            "--threads",
+            "2",
+            "--factory-startup",
+            "--python-exit-code",
+            "1",
+            "--python",
+            "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_b8d65bef\\preview\\namibia-v1\\verify_parity.py"
+          ]
+        },
+        {
+          "check": "theme_source",
+          "exit_code": 0,
+          "command": [
+            "C:/Users/futur/AppData/Local/Programs/Blender-5.2.1/blender.exe",
+            "--background",
+            "--threads",
+            "2",
+            "--factory-startup",
+            "--python-exit-code",
+            "1",
+            "--python",
+            "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_b8d65bef\\preview\\namibia-v1\\verify_theme_source.py"
+          ]
+        },
+        {
+          "check": "browser",
+          "exit_code": 0,
+          "command": [
+            "C:\\Users\\futur\\.hermes\\installs\\60215e25aec448c9\\environments\\b3c4bbda9be44f5cb17e68e2e2ba7648\\venv\\Scripts\\python.exe",
+            "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_b8d65bef\\preview\\namibia-v1\\verify_browser.py"
+          ]
+        },
+        {
+          "check": "extended",
+          "exit_code": 0,
+          "command": [
+            "C:\\Users\\futur\\.hermes\\installs\\60215e25aec448c9\\environments\\b3c4bbda9be44f5cb17e68e2e2ba7648\\venv\\Scripts\\python.exe",
+            "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_b8d65bef\\preview\\namibia-v1\\verify_extended.py"
+          ]
+        },
+        {
+          "check": "negative missing ridge",
+          "expected_nonzero": true,
+          "exit_code": 1
+        }
+      ],
+      "asset_sha256": {
+        "namibia.blend": "bbd7fe8614035fe2290ce9fe756e0d889b3a40404974f8d335046fcff6befa49",
+        "namibia.glb": "ebb34ccf155ada972d2d888e5d0ce757af7a682c7d9b8c07d9e357d5f6b3233a",
+        "namibia-v1.html": "3b46f80b8b4d8172af41b1d26d435475ae8d99c0e2d1449174a670d7ce88b20a"
+      }
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "bb790488e867f1bf8c57b3ea273ea737f9f61766",
+      "path": "preview/namibia-v1/browser-check.json",
+      "bytes": 2075,
+      "sha256": "a4578e3f9ec1a7fa8f849b0ac84996700631a0d8576314311c8c6427d5eac132"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 21800,
+          "meshes": 60,
+          "materials": 8,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.3011416867375374,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.5075371265411377,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1649960,
+          "open_projection_max_abs_ndc": 0.892364651663021
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 21800,
+          "meshes": 60,
+          "materials": 8,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.3011416867375374,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.5075371265411377,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1649960,
+          "open_projection_max_abs_ndc": 0.8923646516630201
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "bb790488e867f1bf8c57b3ea273ea737f9f61766",
+      "path": "preview/namibia-v1/delivery-check.json",
+      "bytes": 1601,
+      "sha256": "2ed750066da42c54646ff085fce19e9699aa90c24e2cb4e92faeaa39f57f2c2d"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "HTML_BYTES": 2922315,
+      "GLB_BYTES": 1649960,
+      "inventory_files": 59,
+      "ZIP_ENTRIES": 60,
+      "zip": {
+        "bytes": 8121539,
+        "sha256": "26c2b55f3a9d9d45cc0cfe7f24b7ae078665b2728a3dd1167698da5ecf726e01"
+      },
+      "inventory": {
+        "bytes": 8584,
+        "sha256": "8df4e5ea70d845b1c5e0af37ce6e6649934f9b800e36a937bc36a24315c8f91b"
+      },
+      "archive_readback_verified": true,
+      "required_artifacts_verified": [
+        ".gitattributes",
+        "README.md",
+        "THREE-LICENSE.txt",
+        "acceptance-check.json",
+        "author.py",
+        "browser-check.json",
+        "build.py",
+        "design-brief.md",
+        "desktop-closed.png",
+        "desktop-open-rear.png",
+        "desktop-open.png",
+        "extended-check.json",
+        "maps.py",
+        "maps/sand-color.png",
+        "maps/sand-normal.png",
+        "maps/sand-roughness.png",
+        "mechanism.blend",
+        "mobile-closed.png",
+        "mobile-open.png",
+        "motion.mjs",
+        "namibia-v1.html",
+        "namibia.blend",
+        "namibia.glb",
+        "negative-control-output.txt",
+        "package.json",
+        "package_delivery.py",
+        "parity-check.json",
+        "poster.jpg",
+        "poster.png",
+        "run_checks.py",
+        "source-check.json",
+        "template.html",
+        "tests.mjs",
+        "theme-source-check.json",
+        "verification-output.txt",
+        "verify_browser.py",
+        "verify_extended.py",
+        "verify_parity.py",
+        "verify_source.py",
+        "verify_theme_source.py",
+        "viewer.bundle.js",
+        "viewer.js",
+        "visual-check.json"
+      ],
+      "tested_delivery": "namibia-v1.html (same exact in-folder file tested over file://)"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "bb790488e867f1bf8c57b3ea273ea737f9f61766",
+      "path": "preview/namibia-v1/extended-check.json",
+      "bytes": 734,
+      "sha256": "3031d8b62e83fc362381aadee8c9386bb19824171f561259abddd1f44a351927"
+    },
+    "reported_result": {
+      "features": {
+        "ridges": [
+          "Dune_ridge__1",
+          "Dune_ridge__2",
+          "Dune_ridge__3"
+        ],
+        "pans": [
+          "Playa__ivory_basin"
+        ],
+        "maps": [
+          {
+            "key": "roughnessMap",
+            "material": "Dune / sunlit ochre",
+            "width": 512,
+            "height": 512,
+            "range": 32
+          },
+          {
+            "key": "normalMap",
+            "material": "Dune / sunlit ochre",
+            "width": 512,
+            "height": 512,
+            "range": 14
+          },
+          {
+            "key": "map",
+            "material": "Sand / wind ripples",
+            "width": 512,
+            "height": 512,
+            "range": 46
+          }
+        ],
+        "wrong": []
+      },
+      "noJS_poster": true,
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "bb790488e867f1bf8c57b3ea273ea737f9f61766",
+      "path": "preview/namibia-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "bb790488e867f1bf8c57b3ea273ea737f9f61766",
+      "path": "preview/namibia-v1/parity-check.json",
+      "bytes": 310,
+      "sha256": "c189c4c46c60f0e890f07e7ff7550ebb95be342b72b08b86ec288e9983ecfcd9"
+    },
+    "reported_result": {
+      "source_vertices": 11328,
+      "imported_vertices": 28030,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "sand-color.png",
+        "sand-normal.png",
+        "sand-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "bb790488e867f1bf8c57b3ea273ea737f9f61766",
+      "path": "preview/namibia-v1/scope-check.json",
+      "bytes": 220,
+      "sha256": "10a116bea21edeeb94d1d48a24ee3217a96cd8b3ed986f9022b83039374bfb3d"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "prestage_status": "?? preview/namibia-v1/\n",
+      "base_commit": "ff5d78f1e0d486af5c882c184fc08049996ebdc8",
+      "tracked_files_unchanged": true,
+      "new_directory_only": "preview/namibia-v1/"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "bb790488e867f1bf8c57b3ea273ea737f9f61766",
+      "path": "preview/namibia-v1/source-check.json",
+      "bytes": 2282,
+      "sha256": "2f11ead88bdf4e750c8e7778b07d794e6a643b2025737086a2c108478857ed2d"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "moving_names": [
+        "Corner hardware / edge",
+        "Corner hardware / edge.001",
+        "Corner hardware / edge.002",
+        "Corner hardware / edge.003",
+        "Corner hardware / top",
+        "Corner hardware / top.001",
+        "Corner hardware / top.002",
+        "Corner hardware / top.003",
+        "Dune ridge / 1",
+        "Dune ridge / 2",
+        "Dune ridge / 3",
+        "Hinge / moving leaf",
+        "Hinge / moving leaf.001",
+        "Latch / hinge bridge",
+        "Latch / lifting hasp",
+        "Latch / pin",
+        "Latch / raised face",
+        "Latch / rotating knuckle",
+        "Lid / polished slab",
+        "Lid / sand field",
+        "Playa / ivory basin"
+      ],
+      "static_names": [
+        "Clasp / keeper mounting ear",
+        "Clasp / keeper mounting ear.001",
+        "Clasp / keeper screw",
+        "Clasp / keeper screw.001",
+        "Hinge / bearing mounting stem",
+        "Hinge / bearing mounting stem.001",
+        "Hinge / body attachment bridge",
+        "Hinge / body attachment bridge.001",
+        "Hinge / fixed barrel",
+        "Hinge / fixed barrel.001",
+        "Hinge / fixed mount",
+        "Hinge / fixed mount.001",
+        "Interior floor",
+        "Interior wall / end",
+        "Interior wall / end.001",
+        "Interior wall / front",
+        "Interior wall / rear",
+        "Latch / keeper",
+        "Medallion / raised rim",
+        "Medallion / solid emblem",
+        "Mineral foot",
+        "Mineral foot.001",
+        "Mineral foot.002",
+        "Mineral foot.003",
+        "Mineral seam / long",
+        "Mineral seam / long.001",
+        "Mineral seam / side",
+        "Mineral seam / side.001",
+        "Sand body / clasp seat",
+        "Sand body / front",
+        "Sand body / rear",
+        "Sand body / rim corner",
+        "Sand body / rim corner.001",
+        "Sand body / rim corner.002",
+        "Sand body / rim corner.003",
+        "Sand body / side",
+        "Sand body / side.001",
+        "Side ring / hanging brass",
+        "Side ring / mount"
+      ],
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 21,
+      "static_meshes": 39,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 67
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "bb790488e867f1bf8c57b3ea273ea737f9f61766",
+      "path": "preview/namibia-v1/theme-source-check.json",
+      "bytes": 947,
+      "sha256": "40d766b663d89f81fdf02eadd2d8f061ccdb21723a02151b98667f24b6587695"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "pivots_unchanged": {
+        "Lid_Hinge": [
+          0.0,
+          1.3200000524520874,
+          1.6679999828338623
+        ],
+        "Latch_Pivot": [
+          0.0,
+          -2.6100001335144043,
+          0.2200000286102295
+        ]
+      },
+      "lid_dimensions": [
+        3.7200000286102295,
+        2.380000114440918,
+        0.30000001192092896
+      ],
+      "ridges": [
+        {
+          "name": "Dune ridge / 1",
+          "relief_height": 0.23960041999816895,
+          "crest_y_span": 0.19350630044937134
+        },
+        {
+          "name": "Dune ridge / 2",
+          "relief_height": 0.3833608627319336,
+          "crest_y_span": 0.19511163979768753
+        },
+        {
+          "name": "Dune ridge / 3",
+          "relief_height": 0.5175371170043945,
+          "crest_y_span": 0.19390636682510376
+        }
+      ],
+      "pan_faces": 80,
+      "pan_visible_rays": 7,
+      "packed_maps": [
+        "sand-color.png",
+        "sand-normal.png",
+        "sand-roughness.png"
+      ],
+      "negative_control": false
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "bb790488e867f1bf8c57b3ea273ea737f9f61766",
+      "path": "preview/namibia-v1/visual-check.json",
+      "bytes": 1243,
+      "sha256": "9b2bd7bc64d9d12a9acc98a7811faf6692f731a0174368269283299ba9f0b064"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "scope": "Bounded v1 visual contract, not photorealism or user approval",
+      "reviewed_actual_images": [
+        "poster.png",
+        "mobile-closed.png",
+        "desktop-open.png",
+        "desktop-open-rear.png"
+      ],
+      "initial_finding": "Pan reduced to an occluded sliver in initial/pan-occluded-poster.png",
+      "correction": "Shortened foreground dune, moved and enlarged pan into the exposed foreground-right gap",
+      "final_findings": {
+        "three_dune_forms_discernible": true,
+        "ivory_pan_readable_mobile": true,
+        "wide_box_and_brass_readable": true,
+        "closed_and_open_silhouettes_fit": true,
+        "no_visible_mobile_overflow": true,
+        "rear_open_relief_appears_attached": true,
+        "no_obvious_detached_pieces": true
+      },
+      "limitations": [
+        "Smooth simplified crests; lower dune less strongly separated",
+        "Mineral body's fine directional ripple texture can read as wood grain",
+        "Shallow pale inlay, not a deep geological basin",
+        "Visible dark seam, simplified feet and abrupt terrain margins",
+        "Still-image inspection is not motion or mechanical proof; see independent sampled source and browser checks",
+        "Mobile viewport emulation is not a physical-phone performance test"
+      ],
+      "visual_correction_passes": 1
+    },
+    "fresh_runtime_execution": false
+  }
+]

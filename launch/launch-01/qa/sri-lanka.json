@@ -1,0 +1,283 @@
+[
+  {
+    "source": {
+      "commit": "24deba4c06692507bfbc6ccbbecb32cb099fb473",
+      "path": "preview/sri-lanka-v1/browser-check.json",
+      "bytes": 2080,
+      "sha256": "591bd46de0b22494bf713068905feeea86dd73c098f91c0cf7f98dbba1a02f21"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 29336,
+          "meshes": 168,
+          "materials": 9,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8720000563189387,
+              2.0380001068115234,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 2549052,
+          "open_projection_max_abs_ndc": 0.9156477400818144
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 29336,
+          "meshes": 168,
+          "materials": 9,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8720000563189387,
+              2.0380001068115234,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 2549052,
+          "open_projection_max_abs_ndc": 0.9156477400818142
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "24deba4c06692507bfbc6ccbbecb32cb099fb473",
+      "path": "preview/sri-lanka-v1/delivery-check.json",
+      "bytes": 638,
+      "sha256": "8959e17a8d64df39cb792d37a84feeb8a79a66bff4e75843a6f613164d9664bd"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "html_bytes": 4209106,
+      "glb_bytes": 2549052,
+      "payload_count": 54,
+      "required_artifacts_present": true,
+      "zip_readback_all_hashes": true,
+      "zip_bytes": 7049018,
+      "zip_sha256": "aa2d0a03095b63032630146fd9ea4842f3247340c06d7c60636aced27834e7f0",
+      "inventory_sha256": "68a2272d214b009d1703ef850ce41bde0632d435ae53be028ebeb27ef5bba266",
+      "excluded_envelopes": [
+        "delivery-check.json",
+        "inventory.json",
+        "sri-lanka-v1-source.zip",
+        "verification-output.txt"
+      ],
+      "note": "inventory excludes itself, ZIP, delivery-check and active wrapper output to avoid circular identities"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "24deba4c06692507bfbc6ccbbecb32cb099fb473",
+      "path": "preview/sri-lanka-v1/extended-check.json",
+      "bytes": 555,
+      "sha256": "a7d80a902c40d41c58f86ba0186894139584c1c15e455bc14db685b843ac2deb"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "copy_and_aria": true,
+      "maps": [
+        {
+          "key": "map",
+          "material": "Timber / dark finger endgrain",
+          "width": 512,
+          "height": 512,
+          "range": 24
+        },
+        {
+          "key": "map",
+          "material": "Dumbara inspired / ivory weave",
+          "width": 512,
+          "height": 512,
+          "range": 192
+        },
+        {
+          "key": "roughnessMap",
+          "material": "Dumbara inspired / ivory weave",
+          "width": 512,
+          "height": 512,
+          "range": 16
+        }
+      ],
+      "no_js_poster": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "24deba4c06692507bfbc6ccbbecb32cb099fb473",
+      "path": "preview/sri-lanka-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "24deba4c06692507bfbc6ccbbecb32cb099fb473",
+      "path": "preview/sri-lanka-v1/parity-check.json",
+      "bytes": 307,
+      "sha256": "179edbb6dabc3b527e3fbe2b976112f5b3fa5ca77bd15fdaa66e07c3d2ae92c9"
+    },
+    "reported_result": {
+      "source_vertices": 15000,
+      "imported_vertices": 52623,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "timber.png",
+        "weave-color.png",
+        "weave-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "24deba4c06692507bfbc6ccbbecb32cb099fb473",
+      "path": "preview/sri-lanka-v1/source-check.json",
+      "bytes": 395,
+      "sha256": "bc16fbc8d003c69f82f1384b119b9f1a93c753895edfcfdb1dc5972cd1b78d58"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 65,
+      "static_meshes": 103,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 175
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "24deba4c06692507bfbc6ccbbecb32cb099fb473",
+      "path": "preview/sri-lanka-v1/theme-check.json",
+      "bytes": 458,
+      "sha256": "cacdbbc514c68692d4f52b88e65e719c5369baf2871ee32b288daa8a02184540"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "raised_segments": 36,
+      "ornament_bounds": [
+        [
+          -1.3395881652832031,
+          -0.6620542407035828,
+          1.9920001029968262
+        ],
+        [
+          1.3395881652832031,
+          0.6620542407035828,
+          2.0380001068115234
+        ]
+      ],
+      "three_open_centres": true,
+      "four_large_inset_panels": true,
+      "seam_max_height": 0.12,
+      "original_pivot_matrices": true,
+      "detached_ornament_negative_control_rejected": true
+    },
+    "fresh_runtime_execution": false
+  }
+]

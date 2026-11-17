@@ -1,0 +1,350 @@
+[
+  {
+    "source": {
+      "commit": "1bea25b0a16e66ea0b9e0db04d8483e2692adfb5",
+      "path": "preview/cyprus-v1/acceptance-check.json",
+      "bytes": 261,
+      "sha256": "a4d580657c99efba635fd77cd2c198d547d8a38f826dce2cafab6b6786639a20"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "checks_passed": [
+        "source",
+        "parity",
+        "theme",
+        "browser-desktop",
+        "browser-mobile",
+        "corrupt-glb",
+        "no-js",
+        "maps",
+        "poster",
+        "motion",
+        "negative-control",
+        "delivery"
+      ]
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "1bea25b0a16e66ea0b9e0db04d8483e2692adfb5",
+      "path": "preview/cyprus-v1/browser-check.json",
+      "bytes": 2080,
+      "sha256": "ea4fcf809a48b957d945c18eab8dcaafcedda974b5fe63b42acf0a9176b7adf2"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 33600,
+          "meshes": 170,
+          "materials": 5,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.25999999791383743,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.0510001182556152,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 2381956,
+          "open_projection_max_abs_ndc": 0.9123429964598888
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 33600,
+          "meshes": 170,
+          "materials": 5,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.25999999791383743,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.0510001182556152,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 2381956,
+          "open_projection_max_abs_ndc": 0.9123429964598907
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "1bea25b0a16e66ea0b9e0db04d8483e2692adfb5",
+      "path": "preview/cyprus-v1/delivery-check.json",
+      "bytes": 525,
+      "sha256": "7b3651d329e561c13ffcd2dd455d755fe04dfd88d9950f9b47c2f54a2b0f95d5"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "HTML_BYTES": 4011426,
+      "GLB_BYTES": 2381956,
+      "ZIP_BYTES": 5085777,
+      "ZIP_SHA256": "c77643342df863cfe1cdbf44eccb598cf49b33497b43032c3ae7505fa3b491fe",
+      "inventory_files": 52,
+      "required_artifacts_present": true,
+      "archive_readback_verified": true,
+      "checks_passed": [
+        "source",
+        "parity",
+        "theme",
+        "browser-desktop",
+        "browser-mobile",
+        "corrupt-glb",
+        "no-js",
+        "maps",
+        "poster",
+        "motion",
+        "negative-control",
+        "delivery"
+      ]
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "1bea25b0a16e66ea0b9e0db04d8483e2692adfb5",
+      "path": "preview/cyprus-v1/extended-check.json",
+      "bytes": 567,
+      "sha256": "e99a93ea7b61eaa121f6f9a9f61948a3de606cb946cc3150ce94b801f56ab621"
+    },
+    "reported_result": {
+      "poster_nonempty": true,
+      "color_median": [
+        113.0,
+        76.0,
+        45.0
+      ],
+      "features": {
+        "diamonds": 12,
+        "wrong": [],
+        "maps": [
+          {
+            "kind": "map",
+            "width": 512,
+            "height": 512,
+            "range": 30
+          },
+          {
+            "kind": "roughnessMap",
+            "width": 512,
+            "height": 512,
+            "range": 26
+          },
+          {
+            "kind": "normalMap",
+            "width": 512,
+            "height": 512,
+            "range": 36
+          }
+        ]
+      },
+      "noJS_poster": true,
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "1bea25b0a16e66ea0b9e0db04d8483e2692adfb5",
+      "path": "preview/cyprus-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "1bea25b0a16e66ea0b9e0db04d8483e2692adfb5",
+      "path": "preview/cyprus-v1/parity-check.json",
+      "bytes": 313,
+      "sha256": "a2dbf5601bb92e9bf9e49f8c3a91ee5aeddedaf363ebb491282f3c712a34bf01"
+    },
+    "reported_result": {
+      "source_vertices": 17136,
+      "imported_vertices": 63090,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "linen-color.png",
+        "linen-normal.png",
+        "linen-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "1bea25b0a16e66ea0b9e0db04d8483e2692adfb5",
+      "path": "preview/cyprus-v1/source-check.json",
+      "bytes": 395,
+      "sha256": "ed6fb4938049ca4d143366173b7d0ed5fd9ac8f047a5a046e607014231605afe"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 131,
+      "static_meshes": 39,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 177
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "1bea25b0a16e66ea0b9e0db04d8483e2692adfb5",
+      "path": "preview/cyprus-v1/theme-check.json",
+      "bytes": 864,
+      "sha256": "e66291834f25f4440ca63743ebe4571cdbfe7c342235f04e196112d00d1d4538"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "diamonds": 6,
+      "diamond_meshes": 12,
+      "relief_z": [
+        2.005000114440918,
+        2.0510001182556152
+      ],
+      "carrier_top": 2.00600004196167,
+      "open_center_rays": [
+        [
+          -1.02,
+          -0.43,
+          "Cutwork / inset carrier",
+          2.00600004196167
+        ],
+        [
+          -1.02,
+          0.43,
+          "Cutwork / inset carrier",
+          2.00600004196167
+        ],
+        [
+          0,
+          -0.43,
+          "Cutwork / inset carrier",
+          2.00600004196167
+        ],
+        [
+          0,
+          0.43,
+          "Cutwork / inset carrier",
+          2.00600004196167
+        ],
+        [
+          1.02,
+          -0.43,
+          "Cutwork / inset carrier",
+          2.00600004196167
+        ],
+        [
+          1.02,
+          0.43,
+          "Cutwork / inset carrier",
+          2.00600004196167
+        ]
+      ],
+      "original_pivots": true,
+      "all_ornaments_lid_parented": true
+    },
+    "fresh_runtime_execution": false
+  }
+]

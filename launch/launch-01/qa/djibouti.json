@@ -1,0 +1,290 @@
+[
+  {
+    "source": {
+      "commit": "a9583ca5e75a80967b546bd139aba0cb04d6d8d5",
+      "path": "preview/djibouti-v1/browser-check.json",
+      "bytes": 2076,
+      "sha256": "2d7fe8f65b436f1598147505d1ca7c029060978257787260c16c47fc9c63ed6a"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 14396,
+          "meshes": 89,
+          "materials": 5,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.3105585500597954,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.3398480862379074,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1226808,
+          "open_projection_max_abs_ndc": 0.8923646516630221
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 14396,
+          "meshes": 89,
+          "materials": 5,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.3105585500597954,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.3398480862379074,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1226808,
+          "open_projection_max_abs_ndc": 0.8923646516630186
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "a9583ca5e75a80967b546bd139aba0cb04d6d8d5",
+      "path": "preview/djibouti-v1/delivery-check.json",
+      "bytes": 282,
+      "sha256": "710d4ce16118370fc8a0a9893f06f3078774b832f74c88097c21af1cff0b9fee"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "html_bytes": 2376340,
+      "glb_bytes": 1226808,
+      "payload_files": 52,
+      "zip_bytes": 5083133,
+      "zip_sha256": "60a84c64d2cae1d3bc59100cd1e9b62d291d8625a93667def2c16475f05715f8",
+      "zip_readback_verified": true,
+      "required_artifacts_present": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "a9583ca5e75a80967b546bd139aba0cb04d6d8d5",
+      "path": "preview/djibouti-v1/extended-check.json",
+      "bytes": 519,
+      "sha256": "3e0470be901d28c119dba6ad449e8d0bc2fe433377a8b18b0a0b78f13dad4677"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "portable_map_variation": [
+        {
+          "name": "basalt-normal",
+          "channel": 0,
+          "range": 6
+        },
+        {
+          "name": "basalt-color",
+          "channel": 0,
+          "range": 26
+        },
+        {
+          "name": "basalt-roughness",
+          "channel": 1,
+          "range": 44
+        },
+        {
+          "name": "salt-color",
+          "channel": 0,
+          "range": 24
+        }
+      ],
+      "actual_source_poster_nonblank": true,
+      "no_js_poster": true,
+      "country_copy_and_accessible_label": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "a9583ca5e75a80967b546bd139aba0cb04d6d8d5",
+      "path": "preview/djibouti-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "a9583ca5e75a80967b546bd139aba0cb04d6d8d5",
+      "path": "preview/djibouti-v1/parity-check.json",
+      "bytes": 338,
+      "sha256": "5812a45654425a703d07a8c2785e4b4e399b5d1ca7f683a5791e1e8ec27b6301"
+    },
+    "reported_result": {
+      "source_vertices": 7417,
+      "imported_vertices": 24350,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "basalt-color.png",
+        "basalt-normal.png",
+        "basalt-roughness.png",
+        "salt-color.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "a9583ca5e75a80967b546bd139aba0cb04d6d8d5",
+      "path": "preview/djibouti-v1/source-check.json",
+      "bytes": 393,
+      "sha256": "afdc5696cc8a76797af24014aa96ea026a8fe23d5826020cde93cc0356f7ac9e"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 50,
+      "static_meshes": 39,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 96
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "a9583ca5e75a80967b546bd139aba0cb04d6d8d5",
+      "path": "preview/djibouti-v1/theme-check.json",
+      "bytes": 643,
+      "sha256": "197d4639121cf2f9a70c717c2f7efd1d82dc4a8f8c38da484e3b931f92718459"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "terrain_meshes": 34,
+      "max_terrain_z": 2.339848041534424,
+      "lake_visible_rays": [
+        [
+          -0.699999988079071,
+          0.0,
+          2.0139999389648438
+        ],
+        [
+          0.0,
+          0.0,
+          2.0139999389648438
+        ],
+        [
+          0.699999988079071,
+          0.0,
+          2.0139999389648438
+        ]
+      ],
+      "salt_top_normals_up": true,
+      "pivots_equal_baseline": true,
+      "slab_dimensions": [
+        3.7200000286102295,
+        2.380000114440918,
+        0.30000001192092896
+      ],
+      "packed_images": [
+        "basalt-color.png",
+        "basalt-normal.png",
+        "basalt-roughness.png",
+        "salt-color.png"
+      ]
+    },
+    "fresh_runtime_execution": false
+  }
+]

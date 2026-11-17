@@ -1,0 +1,374 @@
+[
+  {
+    "source": {
+      "commit": "f1a8ff0ca062bb5614acfe6de4c4c4c14e0a4eaf",
+      "path": "preview/bahamas-v1/browser-check.json",
+      "bytes": 2078,
+      "sha256": "f7214072e46555267a51855f527bf3e80b0ab6af3399e96e117b011eb38671ce"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 15172,
+          "meshes": 60,
+          "materials": 7,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.1740000247955322,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1114028,
+          "open_projection_max_abs_ndc": 0.8923646516630176
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 15172,
+          "meshes": 60,
+          "materials": 7,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.1740000247955322,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1114028,
+          "open_projection_max_abs_ndc": 0.8923646516630181
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "f1a8ff0ca062bb5614acfe6de4c4c4c14e0a4eaf",
+      "path": "preview/bahamas-v1/delivery-check.json",
+      "bytes": 602,
+      "sha256": "c94c9693297319552f0863429f9c200696fbd95d6a6971a8142e86424a738175"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "html_bytes": 2240611,
+      "glb_bytes": 1114028,
+      "checks_passed": [
+        "source",
+        "parity",
+        "motion",
+        "theme",
+        "desktop-browser",
+        "mobile-browser",
+        "corrupt-GLB-fallback",
+        "no-JS-fallback",
+        "runtime-maps",
+        "poster",
+        "delivery"
+      ],
+      "inventory_files": 53,
+      "archive_entries": 54,
+      "archive_bytes": 5068516,
+      "archive_sha256": "a832dcb89fd4e1d2d2bc975133b30bbc9d7070424e98d15feaa0300a01801f44",
+      "required_artifacts_present": true,
+      "archive_readback_verified": true,
+      "poster_nontransparent_fraction": 1.0
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "f1a8ff0ca062bb5614acfe6de4c4c4c14e0a4eaf",
+      "path": "preview/bahamas-v1/extended-check.json",
+      "bytes": 714,
+      "sha256": "c5bd15e200c2998f735f917126334e3f1537b6320530552fec1dbe5d00071641"
+    },
+    "reported_result": {
+      "features": {
+        "banks": 2,
+        "holes": 2,
+        "maps": [
+          {
+            "material": "Limestone / creamy shell grain",
+            "slot": "map",
+            "channel": 0,
+            "width": 256,
+            "height": 256,
+            "range": 50
+          },
+          {
+            "material": "Limestone / creamy shell grain",
+            "slot": "roughnessMap",
+            "channel": 1,
+            "width": 256,
+            "height": 256,
+            "range": 83
+          },
+          {
+            "material": "Pink sand / shell flecks",
+            "slot": "map",
+            "channel": 0,
+            "width": 256,
+            "height": 256,
+            "range": 50
+          }
+        ],
+        "wrong": []
+      },
+      "noJS_poster": true,
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "f1a8ff0ca062bb5614acfe6de4c4c4c14e0a4eaf",
+      "path": "preview/bahamas-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "f1a8ff0ca062bb5614acfe6de4c4c4c14e0a4eaf",
+      "path": "preview/bahamas-v1/parity-check.json",
+      "bytes": 296,
+      "sha256": "bbe1733bb3a3438b1812dc4f60c34e9e3cc7daa37a51b56d1862e346629918e0"
+    },
+    "reported_result": {
+      "source_vertices": 7881,
+      "imported_vertices": 24941,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "limestone.png",
+        "roughness.png",
+        "sand.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "f1a8ff0ca062bb5614acfe6de4c4c4c14e0a4eaf",
+      "path": "preview/bahamas-v1/source-check.json",
+      "bytes": 393,
+      "sha256": "07862d0a4129162908a1a6cec34a6f43993d0cb20b2892520dbd99c14a86bb86"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 21,
+      "static_meshes": 39,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 67
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "f1a8ff0ca062bb5614acfe6de4c4c4c14e0a4eaf",
+      "path": "preview/bahamas-v1/theme-check.json",
+      "bytes": 2078,
+      "sha256": "ad27855dbaeafdd4f5bc51ab6555bee3192c5778c722ea0a8dfddf3514db2cff"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "unchanged_mechanical_pivots": true,
+      "lid_ornaments": 5,
+      "bounds": {
+        "Blue hole / deep center": {
+          "min": [
+            0.25,
+            -0.18000000715255737,
+            2.00600004196167
+          ],
+          "max": [
+            0.8500000238418579,
+            0.41999998688697815,
+            2.00600004196167
+          ]
+        },
+        "Blue hole / rim": {
+          "min": [
+            0.1899999976158142,
+            -0.23999999463558197,
+            2.005000114440918
+          ],
+          "max": [
+            0.9100000262260437,
+            0.47999998927116394,
+            2.005000114440918
+          ]
+        },
+        "Lagoon / aquamarine inset": {
+          "min": [
+            -1.6100000143051147,
+            -0.9399999976158142,
+            1.9790000915527344
+          ],
+          "max": [
+            1.6100000143051147,
+            0.9399999976158142,
+            2.003000020980835
+          ]
+        },
+        "Pink shore / long bank": {
+          "min": [
+            -1.1312832832336426,
+            -0.8841109871864319,
+            2.003999948501587
+          ],
+          "max": [
+            -0.3024894595146179,
+            0.3615076243877411,
+            2.1740000247955322
+          ]
+        },
+        "Pink shore / northern cay": {
+          "min": [
+            -0.3683353066444397,
+            0.5158069729804993,
+            2.003999948501587
+          ],
+          "max": [
+            0.97845458984375,
+            0.8425266146659851,
+            2.1740000247955322
+          ]
+        }
+      },
+      "visible_surface_rays": [
+        {
+          "xy": [
+            0.55,
+            0.12
+          ],
+          "object": "Blue hole / deep center",
+          "height": 2.00600004196167
+        },
+        {
+          "xy": [
+            0.55,
+            -0.4
+          ],
+          "object": "Lagoon / aquamarine inset",
+          "height": 2.003000259399414
+        },
+        {
+          "xy": [
+            -0.72,
+            -0.22
+          ],
+          "object": "Pink shore / long bank",
+          "height": 2.1578474044799805
+        }
+      ],
+      "negative_control": {
+        "detached_ornament_rejected": true,
+        "message": "Detached lid ornament"
+      },
+      "note": "post-implementation negative control; not test-first TDD"
+    },
+    "fresh_runtime_execution": false
+  }
+]

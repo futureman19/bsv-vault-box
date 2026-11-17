@@ -1,0 +1,1640 @@
+[
+  {
+    "source": {
+      "commit": "ff5d78f1e0d486af5c882c184fc08049996ebdc8",
+      "path": "preview/iceland-backright-v10/browser-check.json",
+      "bytes": 2001,
+      "sha256": "6f458a62c854512e4adc53c20e2e1f06c8f7ac1deb430cff752dc09752bed45d"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 37433,
+          "meshes": 467,
+          "materials": 19,
+          "bounds": {
+            "min": [
+              -1.9160000085830688,
+              0.03500000387430191,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.9160000085830688,
+              2.2669999599456787,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 2530076,
+          "open_projection_max_abs_ndc": 0.8923646516630197
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 37433,
+          "meshes": 467,
+          "materials": 19,
+          "bounds": {
+            "min": [
+              -1.9160000085830688,
+              0.03500000387430191,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.9160000085830688,
+              2.2669999599456787,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 2530076,
+          "open_projection_max_abs_ndc": 0.8923646516630197
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "ff5d78f1e0d486af5c882c184fc08049996ebdc8",
+      "path": "preview/iceland-backright-v10/delivery-check.json",
+      "bytes": 944,
+      "sha256": "65d8c17e79c07b57fe327f1a674c12e47f7e698936c2fc5205db510bbe5253f8"
+    },
+    "reported_result": {
+      "html_bytes": 4126142,
+      "glb_bytes": 2530076,
+      "blend_bytes": 865672,
+      "source_zip_bytes": 9423947,
+      "zip_members": 43,
+      "zip_readback_hashes": true,
+      "delivery_readback_hashes": true,
+      "html_budget_remaining": 873858,
+      "delivery_directory": "C:\\Users\\futur\\.hermes\\profiles\\telegram2\\output\\boxsv-iceland-backright-v10",
+      "primary_hashes": {
+        "iceland-backright-v10.html": {
+          "bytes": 4126142,
+          "sha256": "234e395be1d0f000f68cce95d0a65686483c4d980198227a6cb7a30bf4c2bab7"
+        },
+        "iceland.glb": {
+          "bytes": 2530076,
+          "sha256": "8667bcf311ed6b5f8aff82dce3ced144241dbbeeafd9d0f1655ed372fca5641a"
+        },
+        "iceland.blend": {
+          "bytes": 865672,
+          "sha256": "88b0558b25b8c4a501d61394e93b8de96dc7a12e4df910d79ea9282bcdec205d"
+        },
+        "iceland-backright-v10-source.zip": {
+          "bytes": 9423947,
+          "sha256": "22e9bed25653cb1d38afb77da45eabf1a28562f8b7dbfabb328f13d13abb28a7"
+        }
+      }
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "ff5d78f1e0d486af5c882c184fc08049996ebdc8",
+      "path": "preview/iceland-backright-v10/hinge-attachment-check.json",
+      "bytes": 926,
+      "sha256": "90d701287f5e70f0b0116ad7cdef1a9229c62907d86fdccc60e374ac14ca6e05"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "ff5d78f1e0d486af5c882c184fc08049996ebdc8",
+      "path": "preview/iceland-backright-v10/parity-check.json",
+      "bytes": 306,
+      "sha256": "b23b84d3c156345f38d70d1adf3b239970c7348a38aa3351b06a47bbf141fa4e"
+    },
+    "reported_result": {
+      "source_vertices": 37219,
+      "imported_vertices": 59907,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "stone-color.jpg.001",
+        "stone-normal.jpg",
+        "stone-rough.jpg.001"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "ff5d78f1e0d486af5c882c184fc08049996ebdc8",
+      "path": "preview/iceland-backright-v10/physical-check.json",
+      "bytes": 785,
+      "sha256": "45373883e01e515e49e59e0fa1a1d86ac66fe9ff8c9f17aa0dca981ad0d16c68"
+    },
+    "reported_result": {
+      "physical_axes": "Blender front -Y (latch), rear +Y (hinge), right +X viewed head-on at latch",
+      "glacier_world_bounds": [
+        [
+          0.8600000143051147,
+          0.3799999952316284,
+          1.9769999980926514
+        ],
+        [
+          1.649999976158142,
+          0.9800000190734863,
+          2.2669999599456787
+        ]
+      ],
+      "upstream_river_endpoint": [
+        1.25,
+        0.6800000071525574,
+        1.9873571395874023
+      ],
+      "endpoint_inside_glacier_footprint": true,
+      "glacier_surface_over_endpoint": [
+        1.25,
+        0.6800000071525574,
+        2.2156708240509033
+      ],
+      "cap_hinge_no_intersections": true,
+      "sampled_ice_vertex_nearest_hardware_distance": 0.033720021819938474,
+      "unchanged_other_object_records": 425,
+      "unchanged_camera_and_transforms": true,
+      "only_two_connected_river_meshes": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "ff5d78f1e0d486af5c882c184fc08049996ebdc8",
+      "path": "preview/iceland-backright-v10/preservation-check.json",
+      "bytes": 95,
+      "sha256": "0b89a316a4ef95b4760a38b7023607d08f311d0c23b82350de77b67a80f520da"
+    },
+    "reported_result": {
+      "checked_paths": 128,
+      "changed_paths": [],
+      "motion_module_byte_identical_to_v4": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "ff5d78f1e0d486af5c882c184fc08049996ebdc8",
+      "path": "preview/iceland-backright-v10/runtime-physical-check.json",
+      "bytes": 26860,
+      "sha256": "e11d28d7b3f5d242e150bd12bc865943e82405615699f8979ae799c33e7120d9"
+    },
+    "reported_result": {
+      "iceBounds": [
+        [
+          0.8600000143051147,
+          1.649999976158142
+        ],
+        [
+          0.3799999952316284,
+          0.9800000190734863
+        ],
+        [
+          1.9769999980926514,
+          2.2669999599456787
+        ]
+      ],
+      "riverBounds": [
+        [
+          -1.8899999856948853,
+          1.25
+        ],
+        [
+          -0.2880566716194153,
+          0.7629470229148865
+        ],
+        [
+          1.9719048738479614,
+          1.9910000562667847
+        ]
+      ],
+      "maps": [
+        {
+          "mesh": "Basalt_fracture__front",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front001",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front001",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front001",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front002",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front002",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front002",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front003",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front003",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front003",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front004",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front004",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front004",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front005",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front005",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front005",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front006",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front006",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front006",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front007",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front007",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front007",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front008",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front008",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front008",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front009",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front009",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front009",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front010",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front010",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front010",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front011",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front011",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front011",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front012",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front012",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front012",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front013",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front013",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front013",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front014",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front014",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front014",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front015",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front015",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front015",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front016",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front016",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front016",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front017",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front017",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front017",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front018",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front018",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front018",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front019",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front019",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front019",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front020",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front020",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front020",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front021",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front021",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__front021",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__left",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__left",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__left",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__left001",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__left001",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__left001",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__left002",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__left002",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__left002",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__left003",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__left003",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__left003",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__left004",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__left004",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__left004",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__left005",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__left005",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__left005",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__left006",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__left006",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__left006",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__left007",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__left007",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__left007",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__left008",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__left008",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__left008",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__left009",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__left009",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__left009",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__left010",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__left010",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__left010",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__left011",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__left011",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__left011",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__left012",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__left012",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__left012",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__left013",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__left013",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__left013",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear001",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear001",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear001",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear002",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear002",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear002",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear003",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear003",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear003",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear004",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear004",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear004",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear005",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear005",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear005",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear006",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear006",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear006",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear007",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear007",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear007",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear008",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear008",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear008",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear009",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear009",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear009",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear010",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear010",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear010",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear011",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear011",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear011",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear012",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear012",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear012",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear013",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear013",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear013",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear014",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear014",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear014",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear015",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear015",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear015",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear016",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear016",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear016",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear017",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear017",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear017",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear018",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear018",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear018",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear019",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear019",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear019",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear020",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear020",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear020",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear021",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear021",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__rear021",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__right",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__right",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__right",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__right001",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__right001",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__right001",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__right002",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__right002",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__right002",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__right003",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__right003",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__right003",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__right004",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__right004",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__right004",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__right005",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__right005",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__right005",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__right006",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__right006",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__right006",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__right007",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__right007",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__right007",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__right008",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__right008",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__right008",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__right009",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__right009",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__right009",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__right010",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__right010",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__right010",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__right011",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__right011",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__right011",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__right012",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__right012",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__right012",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__right013",
+          "key": "map",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__right013",
+          "key": "normalMap",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "mesh": "Basalt_fracture__right013",
+          "key": "roughnessMap",
+          "width": 512,
+          "height": 512
+        }
+      ],
+      "asset": {
+        "triangles": 37433,
+        "meshes": 467,
+        "materials": 19,
+        "bounds": {
+          "min": [
+            -1.9160000085830688,
+            0.03500000387430191,
+            -1.3950000554323196
+          ],
+          "max": [
+            1.9160000085830688,
+            2.2669999599456787,
+            1.4875000286847353
+          ]
+        },
+        "lid": "Lid_Hinge",
+        "latch": "Latch_Pivot",
+        "nonfinite": 0,
+        "degenerate": 0,
+        "bytes": 2530076
+      }
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "ff5d78f1e0d486af5c882c184fc08049996ebdc8",
+      "path": "preview/iceland-backright-v10/source-check.json",
+      "bytes": 384,
+      "sha256": "1ccbc5b18be7e90afd16dc19255cfdbd2c4534bfc972fac9345a6d17411d8e7b"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 48,
+      "static_meshes": 374,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 429
+    },
+    "fresh_runtime_execution": false
+  }
+]

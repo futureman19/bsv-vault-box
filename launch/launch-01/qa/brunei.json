@@ -1,0 +1,269 @@
+[
+  {
+    "source": {
+      "commit": "d26f4dbb17fc82ad454bc6a8ec5d84c03468af35",
+      "path": "preview/brunei-v1/browser-check.json",
+      "bytes": 2078,
+      "sha256": "4a53b596f55e459263193dc536d5e4556b1ae632c2b1c1c6c2bf848afb1afabb"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 28528,
+          "meshes": 142,
+          "materials": 5,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.865999988745898,
+              2.0004999628290534,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 2584812,
+          "open_projection_max_abs_ndc": 0.8923646516630185
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 28528,
+          "meshes": 142,
+          "materials": 5,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.865999988745898,
+              2.0004999628290534,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 2584812,
+          "open_projection_max_abs_ndc": 0.8923646516630201
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "d26f4dbb17fc82ad454bc6a8ec5d84c03468af35",
+      "path": "preview/brunei-v1/delivery-check.json",
+      "bytes": 262,
+      "sha256": "d92eb8e70ce22aede98561f873f73de78a6b51b49554fd84444ba2e836b47939"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "HTML_BYTES": 4254310,
+      "GLB_BYTES": 2584812,
+      "ZIP_BYTES": 7618753,
+      "zip_sha256": "98f0cf8d19e988b0adad1b2480acdad822c6fa8fca68cff941d959cb2d1af22f",
+      "inventory_entries": 52,
+      "zip_entries": 53,
+      "exact_readback": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "d26f4dbb17fc82ad454bc6a8ec5d84c03468af35",
+      "path": "preview/brunei-v1/extended-check.json",
+      "bytes": 509,
+      "sha256": "5a25671c176ba906367d57ebb1506a331b9e93921ee29972225da60eb0a8afac"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "maps": [
+        {
+          "kind": "map",
+          "range": 77,
+          "width": 512,
+          "height": 512
+        },
+        {
+          "kind": "map",
+          "range": 73,
+          "width": 256,
+          "height": 256
+        },
+        {
+          "kind": "map",
+          "range": 128,
+          "width": 512,
+          "height": 512
+        },
+        {
+          "kind": "roughnessMap",
+          "range": 137,
+          "width": 512,
+          "height": 512
+        }
+      ],
+      "no_js_poster": true,
+      "copy_and_accessibility": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "d26f4dbb17fc82ad454bc6a8ec5d84c03468af35",
+      "path": "preview/brunei-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "d26f4dbb17fc82ad454bc6a8ec5d84c03468af35",
+      "path": "preview/brunei-v1/parity-check.json",
+      "bytes": 330,
+      "sha256": "ee2af2ae37aaaafbaa17850ed81cfc391bcde4806c0adaf0d9958a8292118d64"
+    },
+    "reported_result": {
+      "source_vertices": 14544,
+      "imported_vertices": 50727,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "cedar-color.png",
+        "cedar-end.png",
+        "cedar-roughness.png",
+        "granite.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "d26f4dbb17fc82ad454bc6a8ec5d84c03468af35",
+      "path": "preview/brunei-v1/source-check.json",
+      "bytes": 394,
+      "sha256": "28e3ad17cc544a7fdab456739ff89dd47f38c759745cebb762ec6e30d73b0c12"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 43,
+      "static_meshes": 99,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 149
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "d26f4dbb17fc82ad454bc6a8ec5d84c03468af35",
+      "path": "preview/brunei-v1/theme-check.json",
+      "bytes": 245,
+      "sha256": "940a872595fe17d4337f8bc56a6e9a5798774111cc09a166940841884285ecd9"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "diamond_count": 15,
+      "apertures_reach_solid_lid": true,
+      "all_lid_owned": true,
+      "height_envelope": [
+        1.972,
+        2.0
+      ],
+      "negative_control": "PASS: detached ornament rejected: Tenunan diamond / 0 0"
+    },
+    "fresh_runtime_execution": false
+  }
+]

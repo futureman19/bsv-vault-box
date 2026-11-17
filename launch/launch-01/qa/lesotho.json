@@ -1,0 +1,385 @@
+[
+  {
+    "source": {
+      "commit": "63bfeeb9b3f2d4dbbe94a66efb269ad957f7b9af",
+      "path": "preview/lesotho-v1/browser-check.json",
+      "bytes": 2084,
+      "sha256": "83c349ff83ee349a9870298dd0b96dc7d22da2d289225a9343763459162527d7"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 17958,
+          "meshes": 102,
+          "materials": 10,
+          "bounds": {
+            "min": [
+              -1.9279999874783151,
+              -0.23499999940395355,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.5015499591827393,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1802704,
+          "open_projection_max_abs_ndc": 0.8923646516630211
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 17958,
+          "meshes": 102,
+          "materials": 10,
+          "bounds": {
+            "min": [
+              -1.9279999874783151,
+              -0.23499999940395355,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.5015499591827393,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1802704,
+          "open_projection_max_abs_ndc": 0.8923646516630195
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "63bfeeb9b3f2d4dbbe94a66efb269ad957f7b9af",
+      "path": "preview/lesotho-v1/delivery-check.json",
+      "bytes": 525,
+      "sha256": "53cd9d2d118494d1435f318dcfc7a709d1d8962809b6313593cbfda82fd92771"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "html_bytes": 3136261,
+      "glb_bytes": 1802704,
+      "files": 61,
+      "required_artifacts_complete": true,
+      "archive_inventory_and_hashes_verified": true,
+      "zip": {
+        "bytes": 8164255,
+        "sha256": "06e4acff887cb7b9a565fbd2c77647b2259dc4d03040031ad43b3b3e0fdf6726"
+      },
+      "inventory": {
+        "bytes": 8191,
+        "sha256": "61d609d925e46fda1e117352dd402edd8396fdc855c03d6a7c11d596b77ebb68"
+      },
+      "copied_html_offline_mobile_open_reset": true,
+      "external_requests": [],
+      "errors": []
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "63bfeeb9b3f2d4dbbe94a66efb269ad957f7b9af",
+      "path": "preview/lesotho-v1/extended-check.json",
+      "bytes": 774,
+      "sha256": "db3711cba7ee989d4c9b0bbf057c8fc76474c46455f03e738abcad47fb8f0cfa"
+    },
+    "reported_result": {
+      "features": {
+        "ridge": 0,
+        "grass": 19,
+        "panel": 1,
+        "maps": [
+          {
+            "material": "Basalt / blue charcoal mineral",
+            "channel": "map",
+            "width": 512,
+            "height": 512,
+            "range": 52
+          },
+          {
+            "material": "Basalt / blue charcoal mineral",
+            "channel": "roughnessMap",
+            "width": 512,
+            "height": 512,
+            "range": 60
+          },
+          {
+            "material": "Textile / invented indigo weave",
+            "channel": "map",
+            "width": 512,
+            "height": 512,
+            "range": 174
+          }
+        ],
+        "wrong": [],
+        "uvBad": 0
+      },
+      "ridge_group": {
+        "parent": "Lid_Hinge",
+        "meshChildren": 4
+      },
+      "noJS_poster": true,
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "63bfeeb9b3f2d4dbbe94a66efb269ad957f7b9af",
+      "path": "preview/lesotho-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "63bfeeb9b3f2d4dbbe94a66efb269ad957f7b9af",
+      "path": "preview/lesotho-v1/parity-check.json",
+      "bytes": 314,
+      "sha256": "c8f5e5377eb5052b3158a30b022e14cae21836150be200f116ebdeed9867c3fd"
+    },
+    "reported_result": {
+      "source_vertices": 9173,
+      "imported_vertices": 34633,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "basalt-color.png",
+        "basalt-roughness.png",
+        "woven-indigo.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "63bfeeb9b3f2d4dbbe94a66efb269ad957f7b9af",
+      "path": "preview/lesotho-v1/source-check.json",
+      "bytes": 394,
+      "sha256": "cbc4db03d7ed6d5b5e625d0fe0e4fa1b716f15e08ced99d651b8d56572ff538a"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 37,
+      "static_meshes": 62,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 106
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "63bfeeb9b3f2d4dbbe94a66efb269ad957f7b9af",
+      "path": "preview/lesotho-v1/theme-check.json",
+      "bytes": 555,
+      "sha256": "789041b67471bf738d3967bf964f4bf6567a5e460e23546eca9576a9c58b4702"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "peak_count": 3,
+      "peaks": [
+        [
+          -0.85,
+          2.3305580615997314
+        ],
+        [
+          -0.0567,
+          2.5015499591827393
+        ],
+        [
+          0.7933,
+          2.3493921756744385
+        ]
+      ],
+      "ridge_top_z": 2.5015499591827393,
+      "ornament_count": 21,
+      "exact_inherited_pivots": true,
+      "packed_maps": [
+        "basalt-color.png",
+        "basalt-roughness.png",
+        "woven-indigo.png"
+      ],
+      "negative_control": {
+        "detached_ridge_rejected": true,
+        "failure": "All ornaments must travel with lid"
+      }
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "63bfeeb9b3f2d4dbbe94a66efb269ad957f7b9af",
+      "path": "preview/lesotho-v1/verification-check.json",
+      "bytes": 569,
+      "sha256": "b26c51fbaf9c3ecae17feb3f3e5e7aa4f35c6bc3c906b116dbbfeb34e4a7a96a"
+    },
+    "reported_result": [
+      {
+        "check": "build",
+        "exit_code": 0,
+        "status": "PASS"
+      },
+      {
+        "check": "verify_source",
+        "exit_code": 0,
+        "status": "PASS"
+      },
+      {
+        "check": "verify_parity",
+        "exit_code": 0,
+        "status": "PASS"
+      },
+      {
+        "check": "test_theme",
+        "exit_code": 0,
+        "status": "PASS"
+      },
+      {
+        "check": "motion",
+        "exit_code": 0,
+        "status": "PASS"
+      },
+      {
+        "check": "browser",
+        "exit_code": 0,
+        "status": "PASS"
+      },
+      {
+        "check": "extended",
+        "exit_code": 0,
+        "status": "PASS"
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "63bfeeb9b3f2d4dbbe94a66efb269ad957f7b9af",
+      "path": "preview/lesotho-v1/visual-check.json",
+      "bytes": 848,
+      "sha256": "691512504f339fdfdcc6eaa027ce5d872b95f08188f240d5f956bebee8ff1db3"
+    },
+    "reported_result": {
+      "status": "PASS_WITH_DISCLOSED_STYLIZATION",
+      "method": "Vision inspection of actual final file:// mobile-closed.png and desktop-open.png, after one bounded correction; source poster separately inspected",
+      "readable": [
+        "wide stone-like box",
+        "three unequal connected peaks",
+        "broad ivory and rust stripes on indigo",
+        "hollow open shell",
+        "fully framed open silhouette"
+      ],
+      "severe_visible_defects": [],
+      "limitations": [
+        "stone may read as painted/weathered material",
+        "pale ridge may suggest snow",
+        "woven microtexture weak at mobile scale",
+        "rear hinge attachments geometrically tested but visually subtle",
+        "dark seam may look slightly ajar"
+      ],
+      "not_claimed": [
+        "photorealism",
+        "surveyed summit reconstruction",
+        "traditional blanket pattern fidelity",
+        "user aesthetic approval",
+        "physical-phone performance",
+        "manufacturable hardware"
+      ]
+    },
+    "fresh_runtime_execution": false
+  }
+]

@@ -1,0 +1,264 @@
+[
+  {
+    "source": {
+      "commit": "457249b1e48b4fa48eb3b3faa830341048273c92",
+      "path": "preview/comoros-v1/browser-check.json",
+      "bytes": 2080,
+      "sha256": "dc96f1aca0c190fcdb7bd9c9cd16626a38bf1cef1f63f5dc996ff8aa30c472a7"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 17156,
+          "meshes": 103,
+          "materials": 5,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30234166234731674,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.4170899391174316,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1856292,
+          "open_projection_max_abs_ndc": 0.9503993458013077
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 17156,
+          "meshes": 103,
+          "materials": 5,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30234166234731674,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.4170899391174316,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1856292,
+          "open_projection_max_abs_ndc": 0.9503993458013067
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "457249b1e48b4fa48eb3b3faa830341048273c92",
+      "path": "preview/comoros-v1/delivery-check.json",
+      "bytes": 238,
+      "sha256": "5376e00ca270bc691bc419c3279a5791d898576316dbe7196156de76e22bd021"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "html_bytes": 3205552,
+      "glb_bytes": 1856292,
+      "inventory_entries": 51,
+      "zip_readback": true,
+      "zip_bytes": 7506580,
+      "zip_sha256": "6e1453cb307744ce04f9cb3b85b3b18f6aab94361928feb82f3e6789a7e7eb53"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "457249b1e48b4fa48eb3b3faa830341048273c92",
+      "path": "preview/comoros-v1/extended-check.json",
+      "bytes": 313,
+      "sha256": "f07f915253041d5144bcd9c183ea871db19f645f965070f5d4476a8a7098bcbd"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "map_ranges": {
+        "basalt-color.png": [
+          64,
+          68,
+          67
+        ],
+        "basalt-normal.png": [
+          37,
+          33,
+          1
+        ],
+        "basalt-roughness.png": [
+          96,
+          96,
+          96
+        ]
+      },
+      "source_poster_nonblank": true,
+      "no_js_poster": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "457249b1e48b4fa48eb3b3faa830341048273c92",
+      "path": "preview/comoros-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "457249b1e48b4fa48eb3b3faa830341048273c92",
+      "path": "preview/comoros-v1/parity-check.json",
+      "bytes": 315,
+      "sha256": "26bcbf846abed8dd8508a78b8aa9d585d7e72743e8b53166e067f6ee7e21d5e3"
+    },
+    "reported_result": {
+      "source_vertices": 8959,
+      "imported_vertices": 25363,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "basalt-color.png",
+        "basalt-normal.png",
+        "basalt-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "457249b1e48b4fa48eb3b3faa830341048273c92",
+      "path": "preview/comoros-v1/source-check.json",
+      "bytes": 394,
+      "sha256": "321cef694a9dbf566e68fd4d3f91598e411c8ab6421f90d97ed26e73d71e2a6a"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 64,
+      "static_meshes": 39,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 110
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "457249b1e48b4fa48eb3b3faa830341048273c92",
+      "path": "preview/comoros-v1/theme-check.json",
+      "bytes": 326,
+      "sha256": "c870b8647047e717856ff8ea41bf36cc53f42fbb719c2614dd38cda90689ffb5"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "ornaments_on_lid": 48,
+      "petals": 18,
+      "crater_center_z": 2.0950000286102295,
+      "crater_rim_z": 2.4170899391174316,
+      "maps": [
+        "basalt-color.png",
+        "basalt-normal.png",
+        "basalt-roughness.png"
+      ],
+      "pivot": [
+        0.0,
+        1.3200000524520874,
+        1.6679999828338623
+      ]
+    },
+    "fresh_runtime_execution": false
+  }
+]

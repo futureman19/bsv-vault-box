@@ -1,0 +1,395 @@
+[
+  {
+    "source": {
+      "commit": "1e277bbc49c606e7eb8c0724fc6fe0fb8c11cb6a",
+      "path": "preview/paraguay-v1/browser-check.json",
+      "bytes": 2078,
+      "sha256": "e3b22e1bdde1b3edb3dd2e3b1377cb55ae12df659bd1b864a84194e5099a9f94"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 59804,
+          "meshes": 279,
+          "materials": 7,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.865999988745898,
+              2.0310001373291016,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 2827460,
+          "open_projection_max_abs_ndc": 0.8923646516630209
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 59804,
+          "meshes": 279,
+          "materials": 7,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.30816949158906937,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.865999988745898,
+              2.0310001373291016,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 2827460,
+          "open_projection_max_abs_ndc": 0.8923646516630197
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "1e277bbc49c606e7eb8c0724fc6fe0fb8c11cb6a",
+      "path": "preview/paraguay-v1/delivery-check.json",
+      "bytes": 637,
+      "sha256": "a4372c0e0b609524a6cc989abd54c6ab3bb1c4f4ca247eb7d9e5b3683f7372e6"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "html_bytes": 4578699,
+      "glb_bytes": 2827460,
+      "payload_files": 56,
+      "required_files_present": true,
+      "archive_readback_all_hashes": true,
+      "zip_bytes": 7005266,
+      "zip_sha256": "f5398d783a0812c80ccfbdfb9e8319dfe55f0c0be22a0ec3faa29652eed6b326",
+      "inventory_sha256": "c68a755425ff31fb42330ade2c761d94c1ac2b22bd410cb9987dc6535c239c79",
+      "checks_passed": [
+        "build",
+        "motion",
+        "source",
+        "hinge-attachment",
+        "parity",
+        "theme",
+        "browser-desktop",
+        "browser-mobile",
+        "corrupt-GLB-fallback",
+        "noJS-fallback",
+        "extended-maps",
+        "delivery"
+      ]
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "1e277bbc49c606e7eb8c0724fc6fe0fb8c11cb6a",
+      "path": "preview/paraguay-v1/extended-check.json",
+      "bytes": 946,
+      "sha256": "7320a01ef5074178301673588ab57aad1fcf15531e4aae6dcf40cf3872187e85"
+    },
+    "reported_result": {
+      "poster_pixels_nonempty": true,
+      "runtime": {
+        "ornaments": 152,
+        "wrong": [],
+        "maps": [
+          {
+            "material": "Wine timber / dark finger endgrain",
+            "slot": "map",
+            "channel": 0,
+            "width": 256,
+            "height": 256,
+            "range": 29
+          },
+          {
+            "material": "Granite / salt and pepper",
+            "slot": "map",
+            "channel": 0,
+            "width": 256,
+            "height": 256,
+            "range": 143
+          },
+          {
+            "material": "Wine timber / fine longitudinal grain",
+            "slot": "map",
+            "channel": 0,
+            "width": 512,
+            "height": 512,
+            "range": 75
+          },
+          {
+            "material": "Wine timber / fine longitudinal grain",
+            "slot": "roughnessMap",
+            "channel": 1,
+            "width": 512,
+            "height": 512,
+            "range": 53
+          }
+        ]
+      },
+      "noJS_poster": true,
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "1e277bbc49c606e7eb8c0724fc6fe0fb8c11cb6a",
+      "path": "preview/paraguay-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "1e277bbc49c606e7eb8c0724fc6fe0fb8c11cb6a",
+      "path": "preview/paraguay-v1/parity-check.json",
+      "bytes": 327,
+      "sha256": "a37cf052bc207e1edce46fb2038b18454a601265cd92dc35a050856e8ee1469c"
+    },
+    "reported_result": {
+      "source_vertices": 30456,
+      "imported_vertices": 66639,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "granite.png",
+        "wine-color.png",
+        "wine-end.png",
+        "wine-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "1e277bbc49c606e7eb8c0724fc6fe0fb8c11cb6a",
+      "path": "preview/paraguay-v1/source-check.json",
+      "bytes": 395,
+      "sha256": "91fc5fb142f2176269c9f7ba30d393787f801ec9273d4bfeb986c18002265943"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 180,
+      "static_meshes": 99,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 286
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "1e277bbc49c606e7eb8c0724fc6fe0fb8c11cb6a",
+      "path": "preview/paraguay-v1/theme-check.json",
+      "bytes": 1503,
+      "sha256": "27982a5fc59045f8cb231a4c10f60cd184667a787634f28dcc796ffe70c47878"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "rosettes": {
+        "0": {
+          "ring": 4,
+          "spoke": 24,
+          "petal": 12
+        },
+        "1": {
+          "ring": 4,
+          "spoke": 16,
+          "petal": 8
+        },
+        "2": {
+          "ring": 4,
+          "spoke": 16,
+          "petal": 8
+        },
+        "3": {
+          "ring": 4,
+          "spoke": 16,
+          "petal": 8
+        },
+        "4": {
+          "ring": 4,
+          "spoke": 16,
+          "petal": 8
+        }
+      },
+      "ornament_meshes": 152,
+      "lid_ownership": true,
+      "detached_ornament_negative_control_rejected": true,
+      "openwork_centre_rays": [
+        {
+          "xy": [
+            0,
+            0
+          ],
+          "surface": "Lid / polished slab",
+          "z": 1.9779999256134033
+        },
+        {
+          "xy": [
+            -1.08,
+            -0.56
+          ],
+          "surface": "Lid / polished slab",
+          "z": 1.9779999256134033
+        },
+        {
+          "xy": [
+            1.08,
+            -0.56
+          ],
+          "surface": "Lid / polished slab",
+          "z": 1.9779999256134033
+        },
+        {
+          "xy": [
+            -1.08,
+            0.56
+          ],
+          "surface": "Lid / polished slab",
+          "z": 1.9779999256134033
+        },
+        {
+          "xy": [
+            1.08,
+            0.56
+          ],
+          "surface": "Lid / polished slab",
+          "z": 1.9779999256134033
+        }
+      ],
+      "ornament_z": [
+        1.9759999513626099,
+        2.0310001373291016
+      ],
+      "pivot_max_error": 0.0,
+      "limits": "Invented radial decoration, not a traditional pattern replica; sampled rays do not measure textile authenticity."
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "1e277bbc49c606e7eb8c0724fc6fe0fb8c11cb6a",
+      "path": "preview/paraguay-v1/visual-check.json",
+      "bytes": 802,
+      "sha256": "946780330436fcc780f864f77311035363df3030710616bdc9c50f5e0fa4fabf"
+    },
+    "reported_result": {
+      "status": "PASS_WITH_DISCLOSED_STYLIZATION",
+      "method": "Vision inspection of actual saved-source poster and offline browser mobile-closed / desktop-open screenshots",
+      "observed": [
+        "Five radial lid rosettes visible in closed source render",
+        "Wine/rose timber and brass palette reads coherently",
+        "Full model and controls fit mobile",
+        "Open view shows cavity and two rear hinge assemblies",
+        "No obvious large detached or broken component"
+      ],
+      "limitations": [
+        "Thread loops crowded at mobile scale",
+        "Wine timber appears dusty pink under highlights",
+        "Chunky inherited latch and irregular stone feet",
+        "Prominent dark seam",
+        "Mild source render noise",
+        "Not photorealistic or artisan-pattern fidelity"
+      ],
+      "approval": "Per-asset human review waived by batch directive, not user visual approval"
+    },
+    "fresh_runtime_execution": false
+  }
+]

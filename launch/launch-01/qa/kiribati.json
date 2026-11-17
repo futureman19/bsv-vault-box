@@ -1,0 +1,584 @@
+[
+  {
+    "source": {
+      "commit": "db958f043f086baf2d17432828a6df844c7da744",
+      "path": "preview/kiribati-v1/browser-check.json",
+      "bytes": 2080,
+      "sha256": "d77663722055f9ed32c1ed553db2dffc7e184d7d34d151f0f863d5827ab169e1"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 14912,
+          "meshes": 88,
+          "materials": 10,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.29945041984319687,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.1935959681868553,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1154512,
+          "open_projection_max_abs_ndc": 0.8923646516630187
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 14912,
+          "meshes": 88,
+          "materials": 10,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.29945041984319687,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.1935959681868553,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1154512,
+          "open_projection_max_abs_ndc": 0.8923646516630203
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "db958f043f086baf2d17432828a6df844c7da744",
+      "path": "preview/kiribati-v1/delivery-check.json",
+      "bytes": 1339,
+      "sha256": "b8d79f0da72d5e8b1d5fe2f68519bb26555487072dc1e27ee71853cfef67d31d"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "HTML_BYTES": 2372100,
+      "GLB_BYTES": 1154512,
+      "required_artifacts": [
+        ".gitattributes",
+        "README.md",
+        "browser-check.json",
+        "design-brief.md",
+        "extended-check.json",
+        "kiribati-v1.html",
+        "kiribati.blend",
+        "kiribati.glb",
+        "maps/pandanus-color.png",
+        "maps/pandanus-normal.png",
+        "maps/pandanus-roughness.png",
+        "maps/sand-color.png",
+        "mechanism.blend",
+        "motion-check.json",
+        "parity-check.json",
+        "poster.jpg",
+        "poster.png",
+        "source-check.json",
+        "theme-source-check.json",
+        "visual-check.json"
+      ],
+      "payload_file_count": 64,
+      "zip_entries": 65,
+      "zip_readback_all_hashes": true,
+      "html_sha256": "5124e39ad4756e92ebf92c92e9e7165c328cfbe68ebb69f486fa096e772bb01b",
+      "glb_sha256": "bf218514dac855bb56ea069bb977c0268d405df0ebfba3a3c57a87f71325e2aa",
+      "inventory_sha256": "051a1eeabf7c42439aac7273d491036e9003a8ee1130ceeafb216d2dcbd3c3eb",
+      "zip_bytes": 8003408,
+      "zip_sha256": "cd89e18ad22134e8fb11e25002c4422d5313e23d6f70022f9544a629725e8d26",
+      "excluded_self_references": [
+        "delivery-check.json",
+        "delivery-output.txt",
+        "git-output.txt",
+        "inventory.json",
+        "kiribati-v1-source.zip"
+      ],
+      "limitations": "Local archive, not hosted, minted, signed or permanently stored."
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "db958f043f086baf2d17432828a6df844c7da744",
+      "path": "preview/kiribati-v1/delivery-copy-check.json",
+      "bytes": 483,
+      "sha256": "3f94503a1e0140a48c08d8ab758cd276f421c44e8f2304171cd99fa8081a5c48"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "tested_html_sha256": "5124e39ad4756e92ebf92c92e9e7165c328cfbe68ebb69f486fa096e772bb01b",
+      "cases": [
+        {
+          "case": "desktop",
+          "file_protocol": true,
+          "offline": true,
+          "open_reset": true,
+          "errors": [],
+          "external_requests": []
+        },
+        {
+          "case": "mobile",
+          "file_protocol": true,
+          "offline": true,
+          "open_reset": true,
+          "errors": [],
+          "external_requests": []
+        }
+      ]
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "db958f043f086baf2d17432828a6df844c7da744",
+      "path": "preview/kiribati-v1/extended-check.json",
+      "bytes": 1090,
+      "sha256": "daa5f530c67f409c5eafb31925a69b9f74533b552dc2beb042bcc37d213976ad"
+    },
+    "reported_result": {
+      "visible_copy": "PASS",
+      "features": {
+        "maps": [
+          {
+            "material": "Coral sand / pale rim",
+            "slot": "map",
+            "channel": 0,
+            "width": 256,
+            "height": 128,
+            "range": 18
+          },
+          {
+            "material": "Pandanus / invented over-under weave",
+            "slot": "map",
+            "channel": 0,
+            "width": 512,
+            "height": 256,
+            "range": 73
+          },
+          {
+            "material": "Pandanus / invented over-under weave",
+            "slot": "roughnessMap",
+            "channel": 1,
+            "width": 512,
+            "height": 256,
+            "range": 50
+          },
+          {
+            "material": "Pandanus / invented over-under weave",
+            "slot": "normalMap",
+            "channel": 0,
+            "width": 512,
+            "height": 256,
+            "range": 75
+          }
+        ],
+        "wrong": [],
+        "ornaments": 21,
+        "panels": 4
+      },
+      "noJS_poster": "PASS",
+      "poster_pixels": {
+        "width": 1000,
+        "height": 900,
+        "alpha_coverage": 1.0,
+        "rgb_mean": 83.16701037037038
+      },
+      "status": "PASS"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "db958f043f086baf2d17432828a6df844c7da744",
+      "path": "preview/kiribati-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "db958f043f086baf2d17432828a6df844c7da744",
+      "path": "preview/kiribati-v1/motion-check.json",
+      "bytes": 267,
+      "sha256": "72c1dc30f904589f8baa16e0d50515910dc4ebdb0786be3e936d845bc339c461"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "command": "node --test preview/kiribati-v1/tests.mjs",
+      "exit_code": 0,
+      "tests": 2,
+      "includes_negative_asset_controls": true,
+      "sampled_pose_steps": 101,
+      "latch_degrees": 80,
+      "lid_degrees": 105,
+      "latch_phase_end": 0.25
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "db958f043f086baf2d17432828a6df844c7da744",
+      "path": "preview/kiribati-v1/parity-check.json",
+      "bytes": 344,
+      "sha256": "9776035f3f55186f16637d4d576a3a8303db2caa4c3c4d9293d481762ebbcd64"
+    },
+    "reported_result": {
+      "source_vertices": 7748,
+      "imported_vertices": 22697,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "pandanus-color.png",
+        "pandanus-normal.png",
+        "pandanus-roughness.png",
+        "sand-color.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "db958f043f086baf2d17432828a6df844c7da744",
+      "path": "preview/kiribati-v1/research-check.json",
+      "bytes": 3328,
+      "sha256": "0cb6d1b8d07c961c48c8e2512e3d74bed63fbb221e34aadb285a142a0a446397"
+    },
+    "reported_result": [
+      {
+        "url": "https://kiribatitourism.gov.ki/people-culture-heritage",
+        "http_status": 200,
+        "excerpts": [
+          "i Way of Life &amp; Culture Kiribati has developed a distinct way of life shaped by its geography – 32 low-lying atolls and one raised coral island scattered across vast stretches of the Pacific Ocean. Although part of the wider Pacific family, Kiribati maintains a unique culture, language, and identity that have been preserved through generations, largely thanks to its isolation and strong community values. As a traveller, taking time to learn a few local words and observe cultural customs is a",
+          ", toddy cutting, cultivation and harvesting of food crops (coconut, pandanus, breadfruit and taro), weaving mats, making roof thatch, rolling string, making fish traps and hooks, amongst others. Most of these activities are performed by the adult members of the family, whilst the younger members collect firewood, fetch water, clean the dishes, clean the compound, and assist the adult members in doing parts of their chores. Today, traditional subsistence living in Kiribati has become increasingly",
+          "community routines. Sustenance comes from the bounty of the sea and the land. Coconuts, breadfruit, pandanus, and taro provide nourishment and continuity for island life. The traditional subsistence economy of Kiribati is closely reflected in the social organisation of family life. Families come together to form clans, or te kaainga, which operate under shared customs, responsibilities, and mutual support. Daily tasks are traditionally divided by gender: men fish, collect toddy, and build, while",
+          "tence activities include fishing, toddy cutting, cultivation and harvesting of food crops (coconut, pandanus, breadfruit and taro), weaving mats, making roof thatch, rolling string, making fish traps and hooks, amongst others. Most of these activities are performed by the adult members of the family, whilst the younger members collect firewood, fetch water, clean the dishes, clean the compound, and assist the adult members in doing parts of their chores. Today, traditional subsistence living in ",
+          "o play an active role in fishing like gathering shellfish, net fishing or hunting sand worms on the lagoon or reef flats, while men venture into the open ocean to fish. There is a clear status of ranking in each household. Family households are usually led by the oldest male, unless he is too elderly or too sick to be active, in which case the next oldest male then leads the family. It is important for the survival of the group that each member fulfils the roles and responsibilities assigned to "
+        ]
+      },
+      {
+        "url": "https://kiribatitourism.gov.ki/gilbert-islands",
+        "http_status": 200,
+        "excerpts": [
+          "eauty &amp; Literary Ties Abemama offers a more secluded and idyllic escape, known for its tranquil lagoon and historical connections. Robert Louis Stevenson: The famous author of Treasure Island once called Abemama home, drawing inspiration from its serene beauty and peaceful environment. Traditional Living: Abemama is an excellent place to witness the simplicity of the traditional I-Kiribati lifestyle, including traditional canoe building and fishing methods. Cultural Immersion &amp; Community"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "db958f043f086baf2d17432828a6df844c7da744",
+      "path": "preview/kiribati-v1/source-check.json",
+      "bytes": 393,
+      "sha256": "6c5c2ec45b7e9242c6932f604fe43e1231a471d16af7f9f519beaa469c9c54b9"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 37,
+      "static_meshes": 51,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 95
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "db958f043f086baf2d17432828a6df844c7da744",
+      "path": "preview/kiribati-v1/theme-source-check.json",
+      "bytes": 4126,
+      "sha256": "1c2975e9890e1de99744bdb8d2334cdb99b6fbba4115f92088564100c2cd556e"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "pivot_matrix_max_errors": [
+        0.0,
+        0.0
+      ],
+      "theme_lid_meshes": 21,
+      "detached_ornament_negative_rejected": true,
+      "rim_ray_samples": [
+        {
+          "angle": 0,
+          "z": 2.1282830238342285
+        },
+        {
+          "angle": 45,
+          "z": 2.1424052715301514
+        },
+        {
+          "angle": 90,
+          "z": 2.1084980964660645
+        },
+        {
+          "angle": 135,
+          "z": 2.142062187194824
+        },
+        {
+          "angle": 180,
+          "z": 2.122478723526001
+        },
+        {
+          "angle": 270,
+          "z": 2.142319679260254
+        },
+        {
+          "angle": 315,
+          "z": 2.114075183868408
+        }
+      ],
+      "gap_rays_clear": 4,
+      "basin_center_z": 2.0,
+      "root_attachment_rays": [
+        {
+          "name": "Atoll vegetation / low coastal patch",
+          "bottom": 2.063000202178955,
+          "rim_z": 2.1454124450683594,
+          "top": 2.1934735774993896
+        },
+        {
+          "name": "Atoll vegetation / low coastal patch.001",
+          "bottom": 2.058718681335449,
+          "rim_z": 2.1478829383850098,
+          "top": 2.187445878982544
+        },
+        {
+          "name": "Atoll vegetation / low coastal patch.002",
+          "bottom": 2.060680627822876,
+          "rim_z": 2.147106885910034,
+          "top": 2.193408489227295
+        },
+        {
+          "name": "Atoll vegetation / low coastal patch.003",
+          "bottom": 2.0552825927734375,
+          "rim_z": 2.143049478530884,
+          "top": 2.1935958862304688
+        },
+        {
+          "name": "Atoll vegetation / low coastal patch.004",
+          "bottom": 2.059142589569092,
+          "rim_z": 2.136495590209961,
+          "top": 2.1848363876342773
+        },
+        {
+          "name": "Atoll vegetation / low coastal patch.005",
+          "bottom": 2.0631415843963623,
+          "rim_z": 2.1280860900878906,
+          "top": 2.1849188804626465
+        },
+        {
+          "name": "Atoll vegetation / low coastal patch.006",
+          "bottom": 2.054494857788086,
+          "rim_z": 2.1198840141296387,
+          "top": 2.186690330505371
+        },
+        {
+          "name": "Atoll vegetation / low coastal patch.007",
+          "bottom": 2.06132173538208,
+          "rim_z": 2.1135034561157227,
+          "top": 2.188652515411377
+        },
+        {
+          "name": "Atoll vegetation / low coastal patch.008",
+          "bottom": 2.055837392807007,
+          "rim_z": 2.1094658374786377,
+          "top": 2.1891963481903076
+        },
+        {
+          "name": "Atoll vegetation / low coastal patch.009",
+          "bottom": 2.0567078590393066,
+          "rim_z": 2.108250141143799,
+          "top": 2.191728115081787
+        },
+        {
+          "name": "Atoll vegetation / low coastal patch.010",
+          "bottom": 2.0647366046905518,
+          "rim_z": 2.111121654510498,
+          "top": 2.1874911785125732
+        },
+        {
+          "name": "Atoll vegetation / low coastal patch.011",
+          "bottom": 2.0574707984924316,
+          "rim_z": 2.116481065750122,
+          "top": 2.186769723892212
+        },
+        {
+          "name": "Atoll vegetation / low coastal patch.012",
+          "bottom": 2.0561094284057617,
+          "rim_z": 2.12398624420166,
+          "top": 2.1866235733032227
+        },
+        {
+          "name": "Atoll vegetation / low coastal patch.013",
+          "bottom": 2.0611939430236816,
+          "rim_z": 2.132352352142334,
+          "top": 2.1870288848876953
+        },
+        {
+          "name": "Atoll vegetation / low coastal patch.014",
+          "bottom": 2.060142993927002,
+          "rim_z": 2.139728546142578,
+          "top": 2.1917595863342285
+        },
+        {
+          "name": "Atoll vegetation / low coastal patch.015",
+          "bottom": 2.056816339492798,
+          "rim_z": 2.1451404094696045,
+          "top": 2.189495801925659
+        },
+        {
+          "name": "Atoll vegetation / low coastal patch.016",
+          "bottom": 2.0617141723632812,
+          "rim_z": 2.1453969478607178,
+          "top": 2.187980890274048
+        },
+        {
+          "name": "Atoll vegetation / low coastal patch.017",
+          "bottom": 2.059318780899048,
+          "rim_z": 2.1458001136779785,
+          "top": 2.1898155212402344
+        }
+      ],
+      "ornament_z_range": [
+        1.9820001125335693,
+        2.1935958862304688
+      ],
+      "woven_panels": 4,
+      "limitations": "sampled surface/root checks, not botanical or geographic accuracy"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "db958f043f086baf2d17432828a6df844c7da744",
+      "path": "preview/kiribati-v1/visual-check.json",
+      "bytes": 1205,
+      "sha256": "0aadac3392d232d363382122d1421872308526078a37f23019742834ac563b1e"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "scope": "Stylized brief-driven v1 visual acceptance, not photoreal equivalence or human approval",
+      "reviewed_final": [
+        "review-board.jpg",
+        "desktop-closed.png",
+        "desktop-open.png",
+        "mobile-closed.png",
+        "mobile-open.png"
+      ],
+      "observations": [
+        "Warm basket-weave body readable on desktop and mobile",
+        "Teal lid and pale C-shaped rim surround a visible turquoise lagoon",
+        "Open state clearly exposes hollow brown liner",
+        "Default open and closed views fit without obvious clipping",
+        "No visibly detached hardware in reviewed stills"
+      ],
+      "limitations": [
+        "Regular tile-like weave",
+        "Simple rounded vegetation",
+        "Lagoon is decorative opaque inlay, not realistic water",
+        "Inherited long released clasp prominent in open pose",
+        "Still-image review cannot prove all-angle or continuous motion behavior"
+      ],
+      "initial_review": "Initial source poster exposed angular rectangular water outlet and weak water/lid contrast",
+      "bounded_correction": "Replaced rectangle with curved passage; darker teal lid and stronger lagoon colour separation; regenerated source, GLB, poster and all browser evidence",
+      "human_review": "Waived per task until full collection; no assertion of user approval"
+    },
+    "fresh_runtime_execution": false
+  }
+]

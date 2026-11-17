@@ -1,0 +1,332 @@
+[
+  {
+    "source": {
+      "commit": "8e9c1f3c2c87b89e091e8fc2288b66f1813e800f",
+      "path": "preview/nigeria-v1/browser-check.json",
+      "bytes": 2078,
+      "sha256": "ae1c7d8ab459db96ee8c814e4ee4f876f214deef6edeb7f4c09ef990efb97b71"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 24436,
+          "meshes": 64,
+          "materials": 5,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.25999999791383743,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.0343147004023194,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1846528,
+          "open_projection_max_abs_ndc": 0.8923646516630197
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 24436,
+          "meshes": 64,
+          "materials": 5,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.25999999791383743,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.0343147004023194,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1846528,
+          "open_projection_max_abs_ndc": 0.8923646516630216
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "8e9c1f3c2c87b89e091e8fc2288b66f1813e800f",
+      "path": "preview/nigeria-v1/delivery-check.json",
+      "bytes": 248,
+      "sha256": "0a57995ce04957cb91ba6641b48473af1043202fff7ccdd9d9b8048b83e90bf6"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "html_bytes": 3261757,
+      "glb_bytes": 1846528,
+      "inventory_files": 50,
+      "archive_readback": true,
+      "archive_bytes": 7150520,
+      "archive_sha256": "f995d69c4e87e48b933f61cef8193d3ed37171568a49ffb777bdd21a42b960cc"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "8e9c1f3c2c87b89e091e8fc2288b66f1813e800f",
+      "path": "preview/nigeria-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "8e9c1f3c2c87b89e091e8fc2288b66f1813e800f",
+      "path": "preview/nigeria-v1/parity-check.json",
+      "bytes": 316,
+      "sha256": "5151bc62035b7ef2490f96a3d2889620444a475a72f157c87e1a2901dd86f500"
+    },
+    "reported_result": {
+      "source_vertices": 12336,
+      "imported_vertices": 35618,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "indigo-color.png",
+        "indigo-normal.png",
+        "indigo-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "8e9c1f3c2c87b89e091e8fc2288b66f1813e800f",
+      "path": "preview/nigeria-v1/source-check.json",
+      "bytes": 393,
+      "sha256": "b3d04a5520357ff2759e1444b3be632da5a5019bf904be1dde9e84e6bc9ce4e3"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 25,
+      "static_meshes": 39,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 71
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "8e9c1f3c2c87b89e091e8fc2288b66f1813e800f",
+      "path": "preview/nigeria-v1/source-theme-check.json",
+      "bytes": 1007,
+      "sha256": "e11a78c89f24f4afa8bb5f0221148ef2b143320f5a8bea908adce64ca65a62ba"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "original_pivot_matrices": {
+        "Lid_Hinge": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            1.3200000524520874
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.6679999828338623
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Latch_Pivot": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -2.6100001335144043
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.2200000286102295
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "three_discs_seated": true,
+      "lid_dimensions": [
+        3.72,
+        2.38,
+        0.3
+      ],
+      "brief_deviation": "Disc radius .32 rather than stated center radius .25; outer brass radius .29 retained. This broadens the enamel backing."
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "8e9c1f3c2c87b89e091e8fc2288b66f1813e800f",
+      "path": "preview/nigeria-v1/theme-check.json",
+      "bytes": 875,
+      "sha256": "0d7d181b7789b4d25fe191ce8460f25acb18daee0e03c2fda1434db20933a25a"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "runtime": {
+        "discs": [
+          "Resist__raised_indigo_disc_0",
+          "Resist__raised_indigo_disc_1",
+          "Resist__raised_indigo_disc_2"
+        ],
+        "rings": [
+          "Resist__brass_ring_0",
+          "Resist__brass_ring_1",
+          "Resist__brass_ring_2"
+        ],
+        "maps": [
+          {
+            "key": "map",
+            "width": 512,
+            "height": 512,
+            "range": 182,
+            "blue": 0.9308319091796875,
+            "pale": 0.069244384765625
+          },
+          {
+            "key": "roughnessMap",
+            "width": 512,
+            "height": 512,
+            "range": 42,
+            "blue": 0,
+            "pale": 1
+          },
+          {
+            "key": "normalMap",
+            "width": 512,
+            "height": 512,
+            "range": 20,
+            "blue": 1,
+            "pale": 0
+          }
+        ]
+      },
+      "no_js_poster": true,
+      "poster_nonblack": true
+    },
+    "fresh_runtime_execution": false
+  }
+]

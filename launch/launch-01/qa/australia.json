@@ -1,0 +1,386 @@
+[
+  {
+    "source": {
+      "commit": "eb6fa7b6ab6db27ba9f7a46585c0b612795c83e2",
+      "path": "preview/australia-v1/browser-check.json",
+      "bytes": 2078,
+      "sha256": "791105e88b87bb29070333be327cdd4b85116d12835f372d025dd6f8d348adf7"
+    },
+    "reported_result": [
+      {
+        "case": "desktop",
+        "asset": {
+          "triangles": 21314,
+          "meshes": 60,
+          "materials": 3,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.26500000804662704,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.8499999046325684,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1914724,
+          "open_projection_max_abs_ndc": 0.9718421436493756
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": false,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "mobile",
+        "asset": {
+          "triangles": 21314,
+          "meshes": 60,
+          "materials": 3,
+          "bounds": {
+            "min": [
+              -1.927119004633135,
+              -0.26500000804662704,
+              -1.3950000554323196
+            ],
+            "max": [
+              1.8600000143051147,
+              2.8499999046325684,
+              1.4875000286847353
+            ]
+          },
+          "lid": "Lid_Hinge",
+          "latch": "Latch_Pivot",
+          "nonfinite": 0,
+          "degenerate": 0,
+          "bytes": 1914724,
+          "open_projection_max_abs_ndc": 0.9718421436493782
+        },
+        "offline_file": true,
+        "external_requests": [],
+        "errors": [],
+        "rotation": true,
+        "touch_rotation": true,
+        "open_close": true,
+        "reset_mid_motion": true,
+        "reduced_motion": true,
+        "overflow": false,
+        "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "case": "corrupted GLB",
+        "fallback": true,
+        "unhandled_errors": [],
+        "caught_loader_errors": [
+          "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+        ]
+      }
+    ],
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "eb6fa7b6ab6db27ba9f7a46585c0b612795c83e2",
+      "path": "preview/australia-v1/delivery-check.json",
+      "bytes": 613,
+      "sha256": "3c2d56ad2d2589c7f798eceb85ef4b802a6ec82c33421d15ec98fa1ab0f6a075"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "html_bytes": 3361160,
+      "glb_bytes": 1914724,
+      "html_sha256": "12acf4f464b73603271f5ed432145e5d8efa478ed7f3e48e57ee64b16955b2f9",
+      "glb_sha256": "fa1563910a2b2e15bd01894e1b8ce36bc7ccc9d26549b6ee6454c528633ac242",
+      "payload_files": 55,
+      "zip_bytes": 8637070,
+      "zip_sha256": "e68b844472e585d40ee8ae15a7435f4c120856df961843b9f5061765e7dea188",
+      "zip_readback_all_hashes": true,
+      "required_artifact_subset": true,
+      "size_ceiling_negative_control": "REJECTED",
+      "inventory_excludes": "itself, ZIP, delivery check and post-package Git/log envelopes (no circular hashes)"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "eb6fa7b6ab6db27ba9f7a46585c0b612795c83e2",
+      "path": "preview/australia-v1/extended-check.json",
+      "bytes": 877,
+      "sha256": "f696e9e4c5c6f22c9ac79f80e4ac83525500ea0a597f29af0ab01f81c34df65b"
+    },
+    "reported_result": {
+      "domes": [
+        {
+          "name": "Dome__1",
+          "parent": "Lid_Hinge"
+        },
+        {
+          "name": "Dome__2",
+          "parent": "Lid_Hinge"
+        },
+        {
+          "name": "Dome__3",
+          "parent": "Lid_Hinge"
+        },
+        {
+          "name": "Dome__4",
+          "parent": "Lid_Hinge"
+        },
+        {
+          "name": "Dome__5",
+          "parent": "Lid_Hinge"
+        }
+      ],
+      "maps": [
+        {
+          "slot": "map",
+          "channel": 0,
+          "width": 512,
+          "height": 512,
+          "range": 155
+        },
+        {
+          "slot": "roughnessMap",
+          "channel": 1,
+          "width": 512,
+          "height": 512,
+          "range": 81
+        },
+        {
+          "slot": "normalMap",
+          "channel": 0,
+          "width": 512,
+          "height": 512,
+          "range": 86
+        }
+      ],
+      "status": "PASS",
+      "source_poster_pixels": true,
+      "noJS_poster": true,
+      "visible_copy_correct": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "eb6fa7b6ab6db27ba9f7a46585c0b612795c83e2",
+      "path": "preview/australia-v1/hinge-attachment-check.json",
+      "bytes": 970,
+      "sha256": "aa784daa672915c8f61396e0b97134ac4b0899cc2b1b1569fdf67d69c390c226"
+    },
+    "reported_result": {
+      "intersecting_attachment_pairs": [
+        [
+          "Hinge / body attachment bridge",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed mount"
+        ],
+        [
+          "Hinge / bearing mounting stem",
+          "Hinge / fixed barrel"
+        ],
+        [
+          "Hinge / moving leaf",
+          "Lid / polished slab"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Interior wall / rear"
+        ],
+        [
+          "Hinge / body attachment bridge.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed mount.001"
+        ],
+        [
+          "Hinge / bearing mounting stem.001",
+          "Hinge / fixed barrel.001"
+        ],
+        [
+          "Hinge / moving leaf.001",
+          "Lid / polished slab"
+        ]
+      ],
+      "bearing_axes": "original coaxial X axis at y=1.32 z=1.668"
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "eb6fa7b6ab6db27ba9f7a46585c0b612795c83e2",
+      "path": "preview/australia-v1/parity-check.json",
+      "bytes": 325,
+      "sha256": "8ded7bb753c170e34e177e29355005c6d55be60782a77de98c7c52db226cddb6"
+    },
+    "reported_result": {
+      "source_vertices": 10773,
+      "imported_vertices": 27063,
+      "source_to_glb_max": 1.712013073529306e-07,
+      "glb_to_source_max": 1.712013073529306e-07,
+      "source_packed_images": [
+        "sandstone-color.png",
+        "sandstone-normal.png",
+        "sandstone-roughness.png"
+      ],
+      "source_and_export_geometry_match": true
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "eb6fa7b6ab6db27ba9f7a46585c0b612795c83e2",
+      "path": "preview/australia-v1/source-check.json",
+      "bytes": 393,
+      "sha256": "07862d0a4129162908a1a6cec34a6f43993d0cb20b2892520dbd99c14a86bb86"
+    },
+    "reported_result": {
+      "saved_source_reopened": true,
+      "named_lid": "Lid_Hinge",
+      "latch_parent": "Lid_Hinge",
+      "moving_meshes": 21,
+      "static_meshes": 39,
+      "collision_samples": 81,
+      "collisions": [],
+      "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)",
+      "hollow_floor_ray_z": 0.26500001549720764,
+      "source_objects": 67
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "eb6fa7b6ab6db27ba9f7a46585c0b612795c83e2",
+      "path": "preview/australia-v1/theme-source-check.json",
+      "bytes": 1649,
+      "sha256": "ad3aa862445e232682736cff3451fbcc8c504ce9aeb22455f5a7b8f6c92c7182"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "same_mechanism_pivots": true,
+      "dome_count": 5,
+      "dome_bounds": [
+        {
+          "name": "Dome / 1",
+          "min": [
+            -1.3333888053894043,
+            0.024049999192357063,
+            1.9700000286102295
+          ],
+          "max": [
+            -0.5266112089157104,
+            0.724049985408783,
+            2.619999885559082
+          ]
+        },
+        {
+          "name": "Dome / 2",
+          "min": [
+            -0.4029252827167511,
+            0.10914330929517746,
+            1.9700000286102295
+          ],
+          "max": [
+            0.45401838421821594,
+            0.8396722078323364,
+            2.8499999046325684
+          ]
+        },
+        {
+          "name": "Dome / 3",
+          "min": [
+            0.6222556233406067,
+            0.03448445722460747,
+            1.9700000286102295
+          ],
+          "max": [
+            1.3725919723510742,
+            0.6904208660125732,
+            2.5799999237060547
+          ]
+        },
+        {
+          "name": "Dome / 4",
+          "min": [
+            -0.8300795555114746,
+            -0.6954459547996521,
+            1.9700000286102295
+          ],
+          "max": [
+            -0.14754906296730042,
+            -0.06367858499288559,
+            2.4200000762939453
+          ]
+        },
+        {
+          "name": "Dome / 5",
+          "min": [
+            0.12152381241321564,
+            -0.6929664015769958,
+            1.9700000286102295
+          ],
+          "max": [
+            0.7691410779953003,
+            -0.0981455147266388,
+            2.369999885559082
+          ]
+        }
+      ],
+      "separated_domes": true,
+      "detached_ornament_negative_control": "REJECTED as required",
+      "packed_maps": [
+        "sandstone-color.png",
+        "sandstone-normal.png",
+        "sandstone-roughness.png"
+      ]
+    },
+    "fresh_runtime_execution": false
+  },
+  {
+    "source": {
+      "commit": "eb6fa7b6ab6db27ba9f7a46585c0b612795c83e2",
+      "path": "preview/australia-v1/visual-check.json",
+      "bytes": 1439,
+      "sha256": "763223339c9bb2d7c30cfdf1ec951221fac215fdd1ede1588e76e1fa7a074e75"
+    },
+    "reported_result": {
+      "status": "PASS",
+      "basis": "Vision inspection of actual source poster, offline mobile closed and desktop open screenshots; not user approval or photoreal equivalence.",
+      "final_mobile": "Higher default camera makes all five domes separately identifiable: three rear, two front. Full chest and controls remain visible.",
+      "initial_failure": "Default inherited low camera merged/occluded one dome at mobile size. initial/mobile-four-visible.png retains the rejected presentation.",
+      "fix": "Changed only viewer camera from (-5,3.7,7) to (-4,5.8,7), rebuilt and reran complete offline browser and extended checks.",
+      "source_render": "Five domes present; source-rendered poster, not generated promotional art.",
+      "limitations": [
+        "Stylized simplified dome geometry, not a geographic reconstruction",
+        "Regular strong bands can read as painted wood in the source render; browser reads more like banded sandstone",
+        "Pronounced dark seam and blocky fittings are family-design abstractions",
+        "Some dome contours overlap in projection, though all five are now countable",
+        "Mobile is desktop-GPU touch emulation, not a physical phone",
+        "Front open view naturally hides lid-top domes; rear-open view is included"
+      ],
+      "brief_deviation": "Foreground dome footprint reaches y=-0.69545 rather than nominal -0.65. Kept for front-row separation; inside the lid and included in clearance tests. Source acceptance bounds explicitly allow -0.75."
+    },
+    "fresh_runtime_execution": false
+  }
+]
