@@ -92,6 +92,25 @@ function classify({
           (prior.transfer?.raw && prior.transfer.raw !== b.transfer?.raw))
       )
         throw Error("Changed durable intent");
+      // Snapshots may advance retries, but must never erase custody history or
+      // operator holds. Reject contradictions rather than guessing a safe merge.
+      if (
+        (b.reconciliationReasons !== undefined &&
+          (!Array.isArray(b.reconciliationReasons) ||
+            b.reconciliationReasons.some((r) => typeof r !== "string"))) ||
+        (prior &&
+          ((prior.transfer?.stage === "INCLUDED" &&
+            b.transfer?.stage !== "INCLUDED") ||
+            (prior.state === "TRANSFERRED" &&
+              !["TRANSFERRED", "OPENED"].includes(b.state)) ||
+            (prior.state === "OPENED" && b.state !== "OPENED") ||
+            (prior.openTxid && prior.openTxid !== b.openTxid) ||
+            (prior.reconciliationRequired && !b.reconciliationRequired) ||
+            (prior.reconciliationReasons || []).some(
+              (r) => !(b.reconciliationReasons || []).includes(r)
+            )))
+      )
+        throw Error("Regressed durable history");
       sales.set(b.id, b);
     }
     const claims = new Map();
@@ -199,6 +218,7 @@ function classify({
       fundingOutpoint: funding.id + ":0",
       capturedObservation: observed,
       reconciliationRequired: lost || !!b.reconciliationRequired,
+      reconciliationReasons: [...(b.reconciliationReasons || [])],
     };
   } catch {
     return {

@@ -1,0 +1,79 @@
+[
+  {
+    "name": "vm-final",
+    "command": [
+      "node",
+      "node_modules/mocha/bin/mocha",
+      "--no-config",
+      "tests/ordinal-pair.test.js",
+      "tests/ordinal-sponsored.test.js",
+      "tests/native-custody.test.js",
+      "tests/launch-record.test.js"
+    ],
+    "cwd": "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_31e30c41\\vault",
+    "exitCode": 0
+  },
+  {
+    "name": "mint-verified",
+    "command": [
+      "node",
+      "mint/test/run.js"
+    ],
+    "cwd": "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_31e30c41",
+    "exitCode": 0
+  },
+  {
+    "name": "typecheck",
+    "command": [
+      "node",
+      "node_modules/typescript/bin/tsc",
+      "--noEmit"
+    ],
+    "cwd": "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_31e30c41\\vault",
+    "exitCode": 0
+  },
+  {
+    "name": "pair-vectors",
+    "command": [
+      "node",
+      "scripts/ordinal-pair-vectors.js"
+    ],
+    "cwd": "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_31e30c41\\vault",
+    "exitCode": 0
+  },
+  {
+    "name": "sponsor-vectors",
+    "command": [
+      "node",
+      "scripts/ordinal-sponsored-vectors.js"
+    ],
+    "cwd": "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_31e30c41\\vault",
+    "exitCode": 0
+  },
+  {
+    "name": "proof-verified",
+    "command": [
+      "node",
+      "evidence/contracts/replay-proof.js",
+      "evidence/contracts/proof.json",
+      "evidence/contracts/fixture-trusted-policy.json"
+    ],
+    "cwd": "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_31e30c41",
+    "exitCode": 0
+  },
+  {
+    "name": "recovery-cli",
+    "command": [
+      "node",
+      "mint/scripts/recovery-inspect.js",
+      "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_31e30c41\\evidence\\contracts\\fixture-sales.jsonl",
+      "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_31e30c41\\evidence\\contracts\\fixture-pool.jsonl",
+      "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_31e30c41\\evidence\\contracts\\fixture-observations.json",
+      "box-1",
+      "02c6047f9441ed7d6d3045406e95c07cd85c778e4b8cef3ca7abac09b95c709ee5",
+      "2"
+    ],
+    "cwd": "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_31e30c41",
+    "exitCode": 0
+  }
+]

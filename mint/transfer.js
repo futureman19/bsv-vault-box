@@ -107,15 +107,37 @@ class TransferWorker {
       if (e.code === -5) return false;
       throw e;
     }
-    if (detail.hex !== raw) throw Error("Transaction bytes mismatch");
     if (
-      !Number.isSafeInteger(detail.confirmations) ||
-      detail.confirmations < this.depth ||
-      !detail.blockhash
+      !detail ||
+      typeof detail !== "object" ||
+      Array.isArray(detail) ||
+      detail.hex !== raw
     )
-      return false;
+      throw Error("Transaction bytes mismatch");
+    if (!Number.isSafeInteger(detail.confirmations) || detail.confirmations < 0)
+      throw Error("Invalid transaction depth");
+    if (detail.confirmations < this.depth) return false;
+    if (
+      typeof detail.blockhash !== "string" ||
+      !/^[0-9a-f]{64}$/.test(detail.blockhash)
+    )
+      throw Error("Invalid transaction block identity");
     const block = await this.rpc("getblock", [detail.blockhash]);
-    return block.confirmations > 0 && block.tx.includes(txid);
+    // Contradictory/malformed evidence is unavailable, not permission to retry.
+    if (
+      !block ||
+      typeof block !== "object" ||
+      Array.isArray(block) ||
+      block.hash !== detail.blockhash ||
+      !Number.isSafeInteger(block.confirmations) ||
+      block.confirmations < this.depth ||
+      !Array.isArray(block.tx) ||
+      block.tx.some(
+        (id) => typeof id !== "string" || !/^[0-9a-f]{64}$/.test(id)
+      )
+    )
+      throw Error("Invalid block finality evidence");
+    return block.tx.includes(txid);
   }
   // Observation is independent of custody history. Holds are monotonic and
   // require operator reconciliation; a healthy later read never clears one.

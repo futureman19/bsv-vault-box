@@ -1,0 +1,128 @@
+✔ CONTROL: authentic saved transfer is classified and always quarantined (50.943ms)
+✖ S-01: reject erased historical inclusion instead of reporting BUILT (53.9092ms)
+✖ S-01: reject erased monotonic reconciliation hold (49.2123ms)
+✔ CONTROL: consistent deep block membership accepted (0.2866ms)
+✖ S-02: reject block below required depth (0.8604ms)
+✖ S-02: reject mismatched block identity (0.1707ms)
+✖ S-02: reject noninteger block confirmation (0.1587ms)
+✔ CONTROL: absent block membership rejected (0.1075ms)
+✔ CONTROL: valid external-policy launch record accepted (210.2404ms)
+✖ S-03: exact envelope schema rejects inherited signature and unexpected own field (221.4021ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 4
+ℹ fail 6
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1284.7798
+
+✖ failing tests:
+
+test at evidence\security\challenges.test.js:25:1
+✖ S-01: reject erased historical inclusion instead of reporting BUILT (53.9092ms)
+  AssertionError [ERR_ASSERTION]: {"quarantined":true,"mayResume":false,"txid":"a09962f758747fee2e602fc5ee156ffca94390950f716d6c209781f6a122cd6c","fundingOutpoint":"7275ebe029a8a3de8682e62c26de78ec8cac0ed6bd89540cacee44c3746521f7:0","classification":"BUILT","persistedStage":"BUILT","capturedObservation":"BELOW_DEPTH","reconciliationRequired":false}
+      at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_31e30c41\evidence\security\challenges.test.js:30:9)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:788:18)
+      at Test.postRun (node:internal/test_runner/test:1235:19)
+      at Test.run (node:internal/test_runner/test:1163:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:358:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at evidence\security\challenges.test.js:32:1
+✖ S-01: reject erased monotonic reconciliation hold (49.2123ms)
+  AssertionError [ERR_ASSERTION]: {"quarantined":true,"mayResume":false,"txid":"a09962f758747fee2e602fc5ee156ffca94390950f716d6c209781f6a122cd6c","fundingOutpoint":"7275ebe029a8a3de8682e62c26de78ec8cac0ed6bd89540cacee44c3746521f7:0","classification":"UNCERTAIN_SEND","persistedStage":"UNCERTAIN","capturedObservation":"NOT_CAPTURED","reconciliationRequired":false}
+      at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_31e30c41\evidence\security\challenges.test.js:36:9)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:788:18)
+      at Test.postRun (node:internal/test_runner/test:1235:19)
+      at Test.run (node:internal/test_runner/test:1163:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at evidence\security\challenges.test.js:56:3
+✖ S-02: reject block below required depth (0.8604ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  true !== false
+  
+      at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_31e30c41\evidence\security\challenges.test.js:59:9)
+      at async Test.run (node:internal/test_runner/test:1113:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: true,
+    expected: false,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at evidence\security\challenges.test.js:56:3
+✖ S-02: reject mismatched block identity (0.1707ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  true !== false
+  
+      at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_31e30c41\evidence\security\challenges.test.js:59:9)
+      at async Test.run (node:internal/test_runner/test:1113:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: true,
+    expected: false,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at evidence\security\challenges.test.js:56:3
+✖ S-02: reject noninteger block confirmation (0.1587ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  true !== false
+  
+      at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_31e30c41\evidence\security\challenges.test.js:59:9)
+      at async Test.run (node:internal/test_runner/test:1113:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: true,
+    expected: false,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at evidence\security\challenges.test.js:68:1
+✖ S-03: exact envelope schema rejects inherited signature and unexpected own field (221.4021ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  true !== false
+  
+      at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_31e30c41\evidence\security\challenges.test.js:70:9)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:788:18)
+      at Test.postRun (node:internal/test_runner/test:1235:19)
+      at Test.run (node:internal/test_runner/test:1163:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: true,
+    expected: false,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

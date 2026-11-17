@@ -87,10 +87,10 @@ function setup(t) {
       return {
         hex: sent.tx.uncheckedSerialize(),
         confirmations: included ? 3 : 0,
-        blockhash: "fixture",
+        blockhash: "ab".repeat(32),
       };
     }
-    if (m === "getblock") return { confirmations: 3, tx: [sent.tx.id] };
+    if (m === "getblock") return { hash: "ab".repeat(32), confirmations: 3, tx: [sent.tx.id] };
     throw Error(m);
   };
   t.after(() => {
