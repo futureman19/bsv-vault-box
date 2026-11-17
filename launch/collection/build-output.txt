@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_752264ee\launch\collection\consolidate.py", line 68, in <module>
+    if __name__=='__main__': main()
+                             ~~~~^^
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_752264ee\launch\collection\consolidate.py", line 47, in main
+    manifest=json.loads((HERE/'upstream/candidate-manifest.json').read_bytes()); ledger=aggregate(manifest,ledgers); ledger['input_pins']=pins
+                                                                                        ~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_752264ee\launch\collection\consolidate.py", line 14, in aggregate
+    assert collections.Counter(ids)==collections.Counter(items), 'exact roster mismatch'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: exact roster mismatch

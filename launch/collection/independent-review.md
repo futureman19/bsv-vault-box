@@ -1,0 +1,13 @@
+# Independent consolidation review
+
+Reviewer: `deleg_eb629010`, isolated read-only context. Inspected actual consolidation/checker/tests/ledger, all eight input snapshots, manifest, README and both actual mobile screenshots. No art approval requested or granted.
+
+Verdict: bounded pass for current ledger/gallery. Fresh ten original regressions passed; all eight pinned Git snapshots matched; exact 201-ID/category roster, all 73 held IDs, unchanged raw reviews and 1,407 metadata role/hash/size references verified. Reviewer did not independently rehash all 2.46 GB of payloads or rerun full recovery; those are parent execution gates in package-report.json.
+
+Final bounded review: `deleg_54c59609` independently reran all 12 tests and additional malformed-manifest/path probes; PASS with no new blocking finding. Read actual archive central directory (1,624 members including inventory), hashed archive/delivered/recovered inventory copies, matched all 1,407 role references to metadata and confirmed recovered sizes. Checked packaged checker against hardened source and inspected recovered USA open screenshot. Did not independently rehash the entire archive or rerun full recovery/browser; those remain parent execution evidence. Confirmed 73 holds / 128 limited candidates / zero approvals. Nonblocking future compatibility warning: PurePath.is_reserved is deprecated for Python 3.15.
+
+Two hardening findings reproduced: duplicate upstream manifest slugs were collapsed before coverage checking; safe-path checker admitted normalized aliases and Windows reserved names. Parent added two failing regressions (review-hardening-red.txt), then rejected duplicate manifest IDs and noncanonical/reserved/casefold-colliding paths. Twelve final tests passed. Neither flaw affected the actual delivered roster or inventory. Full-package verification uses the corrected checker.
+
+Visual limitations: no clipped mobile layout observed, but comparison labels are small overview evidence with a full-comparison link. Minor singular-count copy remains `1 designs`. No new model renders, geometry changes or final art approvals. The original review completion did not claim final packaging finished; the final package report is separate actual execution evidence.
+
+Operational failure retained: initial long foreground packaging exceeded the tool's 420-second ceiling during recovery, leaving `recovered-verification/` partial. Process absence confirmed before rerun. The bounded retry uses tracked background execution and a new `recovered-final/` directory; no old evidence or source artifact was deleted. Build-output.txt also preserves the initial Counter(dict) harness error, corrected to count keys without altering coverage requirements.

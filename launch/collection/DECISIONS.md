@@ -1,0 +1,77 @@
+# Outstanding candidate decisions
+
+73 held IDs; other 128 also require final approval. Complete reasons remain in ledger.json and the offline gallery. No new art approved.
+
+- Afghanistan (`afghanistan`), QA batch 1
+- Algeria (`algeria`), QA batch 3
+- Arctic Ocean (`arctic-ocean`), QA batch 7
+- Atlantic Ocean (`atlantic-ocean`), QA batch 2
+- Australia (`australia`), QA batch 3
+- Azerbaijan (`azerbaijan`), QA batch 5
+- Belgium (`belgium`), QA batch 3
+- Bhutan (`bhutan`), QA batch 6
+- Bolivia (`bolivia`), QA batch 7
+- Bosnia and Herzegovina (`bosnia-and-herzegovina`), QA batch 8
+- Brazil (`brazil`), QA batch 2
+- Brunei (`brunei`), QA batch 3
+- Cabo Verde (`cabo-verde`), QA batch 7
+- Cameroon (`cameroon`), QA batch 1
+- Central African Republic (`central-african-republic`), QA batch 3
+- Chile (`chile`), QA batch 5
+- China (`china`), QA batch 6
+- Croatia (`croatia`), QA batch 3
+- Dominican Republic (`dominican-republic`), QA batch 2
+- France (`france`), QA batch 6
+- Georgia (`georgia`), QA batch 1
+- Germany (`germany`), QA batch 2
+- Ghana (`ghana`), QA batch 3
+- Guatemala (`guatemala`), QA batch 6
+- Guyana (`guyana`), QA batch 1
+- Haiti (`haiti`), QA batch 2
+- Iceland (`iceland`), QA batch 5
+- Indian Ocean (`indian-ocean`), QA batch 7
+- Indonesia (`indonesia`), QA batch 8
+- Ireland (`ireland`), QA batch 3
+- Jordan (`jordan`), QA batch 8
+- Lithuania (`lithuania`), QA batch 5
+- Malaysia (`malaysia`), QA batch 1
+- Malta (`malta`), QA batch 4
+- Micronesia (`micronesia`), QA batch 1
+- Monaco (`monaco`), QA batch 3
+- Morocco (`morocco`), QA batch 6
+- Mozambique (`mozambique`), QA batch 7
+- Namibia (`namibia`), QA batch 1
+- New Zealand (`new-zealand`), QA batch 5
+- Nicaragua (`nicaragua`), QA batch 6
+- North Korea (`north-korea`), QA batch 1
+- Pacific Ocean (`pacific-ocean`), QA batch 5
+- Pakistan (`pakistan`), QA batch 6
+- Panama (`panama`), QA batch 1
+- Poland (`poland`), QA batch 6
+- Republic of the Congo (`republic-of-the-congo`), QA batch 1
+- Rwanda (`rwanda`), QA batch 4
+- Saint Kitts and Nevis (`saint-kitts-and-nevis`), QA batch 5
+- Saint Lucia (`saint-lucia`), QA batch 6
+- Saint Vincent and the Grenadines (`saint-vincent-and-the-grenadines`), QA batch 7
+- San Marino (`san-marino`), QA batch 1
+- São Tomé and Príncipe (`sao-tome-and-principe`), QA batch 2
+- Seychelles (`seychelles`), QA batch 6
+- Sierra Leone (`sierra-leone`), QA batch 7
+- Singapore (`singapore`), QA batch 8
+- Slovakia (`slovakia`), QA batch 1
+- Solomon Islands (`solomon-islands`), QA batch 3
+- South Korea (`south-korea`), QA batch 6
+- Spain (`spain`), QA batch 1
+- Switzerland (`switzerland`), QA batch 6
+- Tanzania (`tanzania`), QA batch 1
+- Tonga (`tonga`), QA batch 6
+- Türkiye (`turkey`), QA batch 1
+- Tuvalu (`tuvalu`), QA batch 3
+- United Arab Emirates (`united-arab-emirates`), QA batch 6
+- United States (`united-states`), QA batch 8
+- Uruguay (`uruguay`), QA batch 1
+- Uzbekistan (`uzbekistan`), QA batch 2
+- Vanuatu (`vanuatu`), QA batch 3
+- Venezuela (`venezuela`), QA batch 5
+- Vietnam (`vietnam`), QA batch 6
+- Zimbabwe (`zimbabwe`), QA batch 1
