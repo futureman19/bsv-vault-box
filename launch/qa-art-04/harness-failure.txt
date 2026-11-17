@@ -1,0 +1,4 @@
+Initial audit execution failed at audit.py line 9:
+  inv=json.loads((P/'evidence-inventory.json').read_text())['files']
+KeyError: 'files'
+The parent's evidence inventory is a direct path mapping, not a files-list envelope. Corrected schema adapter without changing byte/hash assertions. Subsequent execution verified 304 parent entries, 25 designs and 1344 archive members. This was a reviewer harness assumption, not an asset defect.
