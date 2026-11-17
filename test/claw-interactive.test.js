@@ -20,6 +20,19 @@ test('inertia responds within one frame, clamps both axes, ignores duplicate dro
   assert.equal(g.arm({}),true);assert.equal(g.state.remaining,30);assert.equal(g.state.selected,-1);
   assert.equal(spots.length,6);g.disarm();assert.equal(g.state.phase,'idle');
 });
+test('off-target aim still retrieves nearest wrapping: demo has no miss or payout state',()=>{
+  const {game:g,tick,spots}=fixture();g.arm({});
+  g.move(1,1);for(let i=0;i<200;i++)tick(16);
+  assert.equal(g.state.x,.9);assert.equal(g.state.z,.5);
+  assert(Math.hypot(g.state.x-spots[2].x,g.state.z-spots[2].z)>.25);
+  g.drop();for(let i=0;i<400;i++)tick(16);
+  assert.equal(g.state.phase,'reveal');assert.equal(g.state.selected,2);
+});
+test('disarming cancels a pending retrieval callback and allows a clean round',()=>{
+  const {game:g,tick}=fixture();let calls=0;g.arm({onDrop:()=>calls++});g.drop();tick(500);g.disarm();
+  for(let i=0;i<400;i++)tick(16);assert.equal(calls,0);assert.equal(g.state.phase,'idle');
+  assert.equal(g.arm({onDrop:()=>calls++}),true);g.drop();for(let i=0;i<400;i++)tick(16);assert.equal(calls,1);
+});
 test('timeout is clock based, exactly once; reduced motion preserves thirty seconds',()=>{
   for(const reduced of [false,true]) {const {game:g,tick}=fixture(reduced);let calls=0;g.arm({onDrop:()=>calls++});tick(29999);assert.equal(g.state.phase,'armed');tick(1);assert.equal(g.state.phase,'descend');assert.equal(g.state.reason,'timeout');for(let i=0;i<400;i++)tick(20);assert.equal(calls,1);assert.equal(g.state.drops,1);}
 });

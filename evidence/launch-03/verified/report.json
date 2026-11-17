@@ -1,0 +1,199 @@
+{
+  "checks": [
+    {
+      "name": "authored ready",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "navigation Space does not drop",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "Try Box then return can play",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "no uncaught errors",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "input isolation duplicate drop reset and deadline",
+      "pass": true,
+      "data": {
+        "timeout": "real 30-second deadline",
+        "duplicate_drop": "one",
+        "interrupted_reveal": "no stale card"
+      }
+    },
+    {
+      "name": "desktop frame measurement (not phone certification)",
+      "pass": true,
+      "data": {
+        "samples": 120,
+        "median_ms": 17.59999999999991,
+        "p95_ms": 18.199999999999818,
+        "fps": 56.8585643212509,
+        "scene": {
+          "assets": {
+            "status": "ready",
+            "parts": 11
+          },
+          "drawCalls": 151,
+          "triangles": 46562,
+          "claw": [
+            0.05,
+            3.08,
+            0.04
+          ],
+          "fingers": [
+            {
+              "scale": [
+                1,
+                1,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0,
+                "XYZ"
+              ],
+              "authored": 1
+            },
+            {
+              "scale": [
+                1,
+                1,
+                1
+              ],
+              "rotation": [
+                0,
+                2.0943951023931953,
+                0,
+                "XYZ"
+              ],
+              "authored": 1
+            },
+            {
+              "scale": [
+                1,
+                1,
+                1
+              ],
+              "rotation": [
+                0,
+                4.1887902047863905,
+                0,
+                "XYZ"
+              ],
+              "authored": 1
+            }
+          ],
+          "prizes": [
+            {
+              "position": [
+                -0.67,
+                1.353021642890358,
+                0.35
+              ],
+              "visible": true,
+              "authored": 1
+            },
+            {
+              "position": [
+                0,
+                1.3465430839106938,
+                0.35
+              ],
+              "visible": true,
+              "authored": 1
+            },
+            {
+              "position": [
+                0.67,
+                1.3478397745824708,
+                0.35
+              ],
+              "visible": true,
+              "authored": 1
+            },
+            {
+              "position": [
+                -0.67,
+                1.3557195434820528,
+                -0.33
+              ],
+              "visible": true,
+              "authored": 1
+            },
+            {
+              "position": [
+                0,
+                1.3629377674225802,
+                -0.33
+              ],
+              "visible": true,
+              "authored": 1
+            },
+            {
+              "position": [
+                0.67,
+                1.3628580446016774,
+                -0.33
+              ],
+              "visible": true,
+              "authored": 1
+            }
+          ],
+          "primitiveCabinetVisible": false
+        }
+      }
+    },
+    {
+      "name": "mobile touch orientation reduced motion and context loss",
+      "pass": true,
+      "data": {
+        "touch": "native CDP",
+        "orientation": "viewport emulated",
+        "reduced_motion": true,
+        "context_loss": "playable CSS"
+      }
+    },
+    {
+      "name": "GLB-delayed",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "GLB-timeout-late",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "module-timeout-late",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "GLB-failure",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "module-failure",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "no WebGL playable fallback",
+      "pass": true,
+      "data": null
+    }
+  ],
+  "scope": "Headed Chrome, desktop and emulated mobile; no physical phone proof.",
+  "uncaught_page_errors": []
+}

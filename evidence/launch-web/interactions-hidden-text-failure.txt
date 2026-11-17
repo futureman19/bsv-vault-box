@@ -1,0 +1,10 @@
+PASS shareable combined search/category and selected design survive reload
+PASS full-image failure preserves disclosure and reopening retries successfully
+PASS thumbnail failure remains named, accessible and opens available full image
+PASS manifest failure has working retry
+PASS lazy initial mobile load: 10 thumbnails; no full art or model payloads
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_f12005a1\test\web-launch-browser.py", line 102, in <module>
+    assert 'Seal #1 · Star collectible · broken by Bob' in history
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
