@@ -1,0 +1,216 @@
+{
+  "review": "visual-3",
+  "review_complete": false,
+  "status_definition": {
+    "pass": "Candidate disposition only, not user approval.",
+    "needs-decision": "Incomplete required visual evidence or unresolved visual issue; not automatically an art failure."
+  },
+  "blocker": "vision_analyze returned HTTP 402 insufficient_balance_error on all four Italy original PNG requests after successful board and marketing inspections. Original PNG review could not be completed; board thumbnails do not substitute for original-image inspection.",
+  "findings": [
+    {
+      "id": "italy",
+      "status": "needs-decision",
+      "reason": "Required four original PNG inspections incomplete due to vision-provider credit exhaustion.",
+      "observations": [
+        "Ivory body, green lid/feet, floral inlay and brass layout remain recognizable.",
+        "Viewer green is flatter and more repetitive, especially inside the lid; brass and inlay lose source-render depth. Heavy seam and simplified clasp are finish/detail limitations, not demonstrated broken geometry."
+      ],
+      "visual_limitations": [
+        "Board-scale comparisons and differing cameras/lighting cannot establish exact dimensions or mesh defects.",
+        "Closed marketing reference does not validate the interior or open-state construction.",
+        "Front-open rear-joint gaps and raised clasp tabs are not proof of detachment; hinge attachment, motion clearance and hidden surfaces are unverified in this review.",
+        "source_readme.md verification claims were read for context, not independently rerun."
+      ],
+      "observed_defects": [],
+      "defect_scope": "No definite broken geometry established in the successfully inspected board/reference; this is not an original-PNG clearance.",
+      "images_inspected": [
+        "launch/art-05/boards/italy.jpg",
+        "launch/art-05/sources/italy/marketing.webp"
+      ],
+      "images_not_inspected": [
+        {
+          "path": "launch/art-05/smoke/italy/desktop-closed.png",
+          "reason": "Vision request failed: HTTP 402 insufficient balance"
+        },
+        {
+          "path": "launch/art-05/smoke/italy/desktop-open.png",
+          "reason": "Vision request failed: HTTP 402 insufficient balance"
+        },
+        {
+          "path": "launch/art-05/smoke/italy/mobile-closed.png",
+          "reason": "Vision request failed: HTTP 402 insufficient balance"
+        },
+        {
+          "path": "launch/art-05/smoke/italy/mobile-open.png",
+          "reason": "Vision request failed: HTTP 402 insufficient balance"
+        }
+      ],
+      "context_read": "launch/art-05/sources/italy/source_readme.md",
+      "next_action": "Resume vision review of all four original PNGs when credits are available; then assign candidate pass or a specific art decision."
+    },
+    {
+      "id": "kyrgyzstan",
+      "status": "needs-decision",
+      "reason": "Required four original PNG inspections incomplete due to vision-provider credit exhaustion.",
+      "observations": [
+        "Brown frame, pink/crimson panels, ivory scrollwork, stitched border and brass remain recognizable.",
+        "Viewer materials are smoother and flatter than the source; small applique joins and inherited clasp look simplified. Outside lid ornaments turn away in open views rather than demonstrably disappearing."
+      ],
+      "visual_limitations": [
+        "Board-scale comparisons and differing cameras/lighting cannot establish exact dimensions or mesh defects.",
+        "Closed marketing reference does not validate the interior or open-state construction.",
+        "Front-open rear-joint gaps and raised clasp tabs are not proof of detachment; hinge attachment, motion clearance and hidden surfaces are unverified in this review.",
+        "source_readme.md verification claims were read for context, not independently rerun."
+      ],
+      "observed_defects": [],
+      "defect_scope": "No definite broken geometry established in the successfully inspected board/reference; this is not an original-PNG clearance.",
+      "images_inspected": [
+        "launch/art-05/boards/kyrgyzstan.jpg",
+        "launch/art-05/sources/kyrgyzstan/marketing.webp"
+      ],
+      "images_not_inspected": [
+        {
+          "path": "launch/art-05/smoke/kyrgyzstan/desktop-closed.png",
+          "reason": "Not attempted after confirmed provider credit exhaustion"
+        },
+        {
+          "path": "launch/art-05/smoke/kyrgyzstan/desktop-open.png",
+          "reason": "Not attempted after confirmed provider credit exhaustion"
+        },
+        {
+          "path": "launch/art-05/smoke/kyrgyzstan/mobile-closed.png",
+          "reason": "Not attempted after confirmed provider credit exhaustion"
+        },
+        {
+          "path": "launch/art-05/smoke/kyrgyzstan/mobile-open.png",
+          "reason": "Not attempted after confirmed provider credit exhaustion"
+        }
+      ],
+      "context_read": "launch/art-05/sources/kyrgyzstan/source_readme.md",
+      "next_action": "Resume vision review of all four original PNGs when credits are available; then assign candidate pass or a specific art decision."
+    },
+    {
+      "id": "lithuania",
+      "status": "needs-decision",
+      "reason": "Required four original PNG inspections incomplete due to vision-provider credit exhaustion.",
+      "observations": [
+        "Pale body, turquoise inset/seam, dune relief, block feet and brass remain recognizable.",
+        "Source dark vertical corner accents are absent or less legible at board scale; dune appears flatter and more angular. Confirm in original PNGs before classifying a missing-detail defect. Grain and brass response are flatter than source."
+      ],
+      "visual_limitations": [
+        "Board-scale comparisons and differing cameras/lighting cannot establish exact dimensions or mesh defects.",
+        "Closed marketing reference does not validate the interior or open-state construction.",
+        "Front-open rear-joint gaps and raised clasp tabs are not proof of detachment; hinge attachment, motion clearance and hidden surfaces are unverified in this review.",
+        "source_readme.md verification claims were read for context, not independently rerun."
+      ],
+      "observed_defects": [],
+      "defect_scope": "No definite broken geometry established in the successfully inspected board/reference; this is not an original-PNG clearance.",
+      "images_inspected": [
+        "launch/art-05/boards/lithuania.jpg",
+        "launch/art-05/sources/lithuania/marketing.webp"
+      ],
+      "images_not_inspected": [
+        {
+          "path": "launch/art-05/smoke/lithuania/desktop-closed.png",
+          "reason": "Not attempted after confirmed provider credit exhaustion"
+        },
+        {
+          "path": "launch/art-05/smoke/lithuania/desktop-open.png",
+          "reason": "Not attempted after confirmed provider credit exhaustion"
+        },
+        {
+          "path": "launch/art-05/smoke/lithuania/mobile-closed.png",
+          "reason": "Not attempted after confirmed provider credit exhaustion"
+        },
+        {
+          "path": "launch/art-05/smoke/lithuania/mobile-open.png",
+          "reason": "Not attempted after confirmed provider credit exhaustion"
+        }
+      ],
+      "context_read": "launch/art-05/sources/lithuania/source_readme.md",
+      "next_action": "Resume vision review of all four original PNGs when credits are available; then assign candidate pass or a specific art decision."
+    },
+    {
+      "id": "marshall-islands",
+      "status": "needs-decision",
+      "reason": "Required four original PNG inspections incomplete due to vision-provider credit exhaustion.",
+      "observations": [
+        "Cream weave, corner blocks, teal seam, atoll inset and raised chart retain the source identity.",
+        "Viewer finish is flatter and less tactile; chart/hardware are small and less crisp. Regular weave grid and opaque lagoon are stylization limits, not broken geometry."
+      ],
+      "visual_limitations": [
+        "Board-scale comparisons and differing cameras/lighting cannot establish exact dimensions or mesh defects.",
+        "Closed marketing reference does not validate the interior or open-state construction.",
+        "Front-open rear-joint gaps and raised clasp tabs are not proof of detachment; hinge attachment, motion clearance and hidden surfaces are unverified in this review.",
+        "source_readme.md verification claims were read for context, not independently rerun."
+      ],
+      "observed_defects": [],
+      "defect_scope": "No definite broken geometry established in the successfully inspected board/reference; this is not an original-PNG clearance.",
+      "images_inspected": [
+        "launch/art-05/boards/marshall-islands.jpg",
+        "launch/art-05/sources/marshall-islands/marketing.webp"
+      ],
+      "images_not_inspected": [
+        {
+          "path": "launch/art-05/smoke/marshall-islands/desktop-closed.png",
+          "reason": "Not attempted after confirmed provider credit exhaustion"
+        },
+        {
+          "path": "launch/art-05/smoke/marshall-islands/desktop-open.png",
+          "reason": "Not attempted after confirmed provider credit exhaustion"
+        },
+        {
+          "path": "launch/art-05/smoke/marshall-islands/mobile-closed.png",
+          "reason": "Not attempted after confirmed provider credit exhaustion"
+        },
+        {
+          "path": "launch/art-05/smoke/marshall-islands/mobile-open.png",
+          "reason": "Not attempted after confirmed provider credit exhaustion"
+        }
+      ],
+      "context_read": "launch/art-05/sources/marshall-islands/source_readme.md",
+      "next_action": "Resume vision review of all four original PNGs when credits are available; then assign candidate pass or a specific art decision."
+    },
+    {
+      "id": "montenegro",
+      "status": "needs-decision",
+      "reason": "Required four original PNG inspections incomplete due to vision-provider credit exhaustion.",
+      "observations": [
+        "Pale mountain relief, turquoise river, green seam/ovals and brass retain the source identity.",
+        "Repeating diagonal/checkered surface shading is more conspicuous than the source. Faceted terrain, bead-like vegetation and ribbon-like river are finish/design limits, not proof of malformed surfaces."
+      ],
+      "visual_limitations": [
+        "Board-scale comparisons and differing cameras/lighting cannot establish exact dimensions or mesh defects.",
+        "Closed marketing reference does not validate the interior or open-state construction.",
+        "Front-open rear-joint gaps and raised clasp tabs are not proof of detachment; hinge attachment, motion clearance and hidden surfaces are unverified in this review.",
+        "source_readme.md verification claims were read for context, not independently rerun."
+      ],
+      "observed_defects": [],
+      "defect_scope": "No definite broken geometry established in the successfully inspected board/reference; this is not an original-PNG clearance.",
+      "images_inspected": [
+        "launch/art-05/boards/montenegro.jpg",
+        "launch/art-05/sources/montenegro/marketing.webp"
+      ],
+      "images_not_inspected": [
+        {
+          "path": "launch/art-05/smoke/montenegro/desktop-closed.png",
+          "reason": "Not attempted after confirmed provider credit exhaustion"
+        },
+        {
+          "path": "launch/art-05/smoke/montenegro/desktop-open.png",
+          "reason": "Not attempted after confirmed provider credit exhaustion"
+        },
+        {
+          "path": "launch/art-05/smoke/montenegro/mobile-closed.png",
+          "reason": "Not attempted after confirmed provider credit exhaustion"
+        },
+        {
+          "path": "launch/art-05/smoke/montenegro/mobile-open.png",
+          "reason": "Not attempted after confirmed provider credit exhaustion"
+        }
+      ],
+      "context_read": "launch/art-05/sources/montenegro/source_readme.md",
+      "next_action": "Resume vision review of all four original PNGs when credits are available; then assign candidate pass or a specific art decision."
+    }
+  ]
+}

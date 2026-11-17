@@ -1,0 +1,261 @@
+{
+  "review_scope": "Read-only visual candidate review; no art changes. Paths below are relative to launch/art-05.",
+  "review_complete": false,
+  "status_semantics": {
+    "pass": "Candidate disposition only, not user approval.",
+    "needs-decision": "Unresolved visual issue or incomplete required evidence; see per-ID reason."
+  },
+  "blocker": "Vision provider HTTP 402 insufficient_balance_error after all five boards were successfully inspected. Required original-image review remains incomplete.",
+  "findings": [
+    {
+      "id": "south-africa",
+      "status": "needs-decision",
+      "disposition_reason": "Required original-image visual review incomplete because vision provider returned HTTP 402 insufficient_balance_error. Board-only observations are provisional, not a rejection of the art.",
+      "reference_comparison": [
+        "Pale banded stone, flat mesa, green vegetation and brass placements broadly match the promotional board.",
+        "Viewer shading is flatter; cliffs and plants read less detailed. Stone can read as plaster/limestone; vegetation is stylized."
+      ],
+      "visual_limitations": [
+        "Only comparison board successfully inspected with vision; individual marketing reference and four original PNGs were not successfully inspected.",
+        "Board shows both desktop/mobile closed/open views but is insufficient to verify fine detail or original-resolution UI legibility.",
+        "Closed marketing reference does not establish intended interior or open-lid construction.",
+        "Still images cannot verify continuous motion, hidden attachments or collisions. An apparent hinge clearance is not proof of detachment.",
+        "Source README was read for stated limitations, not treated as independent verification of its technical claims."
+      ],
+      "observed_defects": [],
+      "geometry_assessment": "No definite broken geometry or major viewport clipping established at board resolution. Raised hasp and rear hinge region remain unresolved at original resolution; decorations can be occluded behind the open lid.",
+      "finish_assessment": "Viewer shading is flatter; cliffs and plants read less detailed. Stone can read as plaster/limestone; vegetation is stylized.",
+      "images_inspected": [
+        {
+          "path": "boards/south-africa.jpg",
+          "scope": "Comparison board including reduced promotional, desktop closed/open and mobile closed/open panels",
+          "method": "vision_analyze",
+          "result": "success"
+        }
+      ],
+      "images_not_inspected": [
+        {
+          "path": "sources/south-africa/marketing.webp",
+          "reason": "vision call failed with HTTP 402 insufficient balance"
+        },
+        {
+          "path": "smoke/south-africa/desktop-closed.png",
+          "reason": "vision call failed with HTTP 402 insufficient balance"
+        },
+        {
+          "path": "smoke/south-africa/desktop-open.png",
+          "reason": "vision call failed with HTTP 402 insufficient balance"
+        },
+        {
+          "path": "smoke/south-africa/mobile-closed.png",
+          "reason": "vision call failed with HTTP 402 insufficient balance"
+        },
+        {
+          "path": "smoke/south-africa/mobile-open.png",
+          "reason": "vision call failed with HTTP 402 insufficient balance"
+        }
+      ],
+      "supporting_text_read": "sources/south-africa/source_readme.md"
+    },
+    {
+      "id": "sweden",
+      "status": "needs-decision",
+      "disposition_reason": "Required original-image visual review incomplete because vision provider returned HTTP 402 insufficient_balance_error. Board-only observations are provisional, not a rejection of the art.",
+      "reference_comparison": [
+        "Red chest, cream finger joints, blue floral inset and brass placements broadly match.",
+        "Viewer wood and brass are smoother and more uniform; shallow floral detail loses legibility at mobile board scale."
+      ],
+      "visual_limitations": [
+        "Only comparison board successfully inspected with vision; individual marketing reference and four original PNGs were not successfully inspected.",
+        "Board shows both desktop/mobile closed/open views but is insufficient to verify fine detail or original-resolution UI legibility.",
+        "Closed marketing reference does not establish intended interior or open-lid construction.",
+        "Still images cannot verify continuous motion, hidden attachments or collisions. An apparent hinge clearance is not proof of detachment.",
+        "Source README was read for stated limitations, not treated as independent verification of its technical claims."
+      ],
+      "observed_defects": [],
+      "geometry_assessment": "No definite broken geometry or major viewport clipping established at board resolution. Raised hasp and rear hinge region remain unresolved at original resolution; decorations can be occluded behind the open lid.",
+      "finish_assessment": "Viewer wood and brass are smoother and more uniform; shallow floral detail loses legibility at mobile board scale.",
+      "images_inspected": [
+        {
+          "path": "boards/sweden.jpg",
+          "scope": "Comparison board including reduced promotional, desktop closed/open and mobile closed/open panels",
+          "method": "vision_analyze",
+          "result": "success"
+        }
+      ],
+      "images_not_inspected": [
+        {
+          "path": "sources/sweden/marketing.webp",
+          "reason": "not attempted after shared vision provider balance failure"
+        },
+        {
+          "path": "smoke/sweden/desktop-closed.png",
+          "reason": "not attempted after shared vision provider balance failure"
+        },
+        {
+          "path": "smoke/sweden/desktop-open.png",
+          "reason": "not attempted after shared vision provider balance failure"
+        },
+        {
+          "path": "smoke/sweden/mobile-closed.png",
+          "reason": "not attempted after shared vision provider balance failure"
+        },
+        {
+          "path": "smoke/sweden/mobile-open.png",
+          "reason": "not attempted after shared vision provider balance failure"
+        }
+      ],
+      "supporting_text_read": "sources/sweden/source_readme.md"
+    },
+    {
+      "id": "togo",
+      "status": "needs-decision",
+      "disposition_reason": "Required original-image visual review incomplete because vision provider returned HTTP 402 insufficient_balance_error. Board-only observations are provisional, not a rejection of the art.",
+      "reference_comparison": [
+        "Earth-tower silhouette, two pointed caps, chest and brass fittings broadly match.",
+        "Viewer is warmer and more regularly striped; earth can read as wood. Fortress appears more regular, but scale and lighting prevent a definite mesh discrepancy claim."
+      ],
+      "visual_limitations": [
+        "Only comparison board successfully inspected with vision; individual marketing reference and four original PNGs were not successfully inspected.",
+        "Board shows both desktop/mobile closed/open views but is insufficient to verify fine detail or original-resolution UI legibility.",
+        "Closed marketing reference does not establish intended interior or open-lid construction.",
+        "Still images cannot verify continuous motion, hidden attachments or collisions. An apparent hinge clearance is not proof of detachment.",
+        "Source README was read for stated limitations, not treated as independent verification of its technical claims."
+      ],
+      "observed_defects": [],
+      "geometry_assessment": "No definite broken geometry or major viewport clipping established at board resolution. Raised hasp and rear hinge region remain unresolved at original resolution; decorations can be occluded behind the open lid.",
+      "finish_assessment": "Viewer is warmer and more regularly striped; earth can read as wood. Fortress appears more regular, but scale and lighting prevent a definite mesh discrepancy claim.",
+      "images_inspected": [
+        {
+          "path": "boards/togo.jpg",
+          "scope": "Comparison board including reduced promotional, desktop closed/open and mobile closed/open panels",
+          "method": "vision_analyze",
+          "result": "success"
+        }
+      ],
+      "images_not_inspected": [
+        {
+          "path": "sources/togo/marketing.webp",
+          "reason": "not attempted after shared vision provider balance failure"
+        },
+        {
+          "path": "smoke/togo/desktop-closed.png",
+          "reason": "not attempted after shared vision provider balance failure"
+        },
+        {
+          "path": "smoke/togo/desktop-open.png",
+          "reason": "not attempted after shared vision provider balance failure"
+        },
+        {
+          "path": "smoke/togo/mobile-closed.png",
+          "reason": "not attempted after shared vision provider balance failure"
+        },
+        {
+          "path": "smoke/togo/mobile-open.png",
+          "reason": "not attempted after shared vision provider balance failure"
+        }
+      ],
+      "supporting_text_read": "sources/togo/source_readme.md"
+    },
+    {
+      "id": "ukraine",
+      "status": "needs-decision",
+      "disposition_reason": "Required original-image visual review incomplete because vision provider returned HTTP 402 insufficient_balance_error. Board-only observations are provisional, not a rejection of the art.",
+      "reference_comparison": [
+        "Dark green chest, red floral decoration and brass placements broadly match.",
+        "Viewer lacquer and brass look flatter; relief, feet and trim appear less substantial, but reduced board scale and shading prevent confirmation of geometric differences."
+      ],
+      "visual_limitations": [
+        "Only comparison board successfully inspected with vision; individual marketing reference and four original PNGs were not successfully inspected.",
+        "Board shows both desktop/mobile closed/open views but is insufficient to verify fine detail or original-resolution UI legibility.",
+        "Closed marketing reference does not establish intended interior or open-lid construction.",
+        "Still images cannot verify continuous motion, hidden attachments or collisions. An apparent hinge clearance is not proof of detachment.",
+        "Source README was read for stated limitations, not treated as independent verification of its technical claims."
+      ],
+      "observed_defects": [],
+      "geometry_assessment": "No definite broken geometry or major viewport clipping established at board resolution. Raised hasp and rear hinge region remain unresolved at original resolution; decorations can be occluded behind the open lid.",
+      "finish_assessment": "Viewer lacquer and brass look flatter; relief, feet and trim appear less substantial, but reduced board scale and shading prevent confirmation of geometric differences.",
+      "images_inspected": [
+        {
+          "path": "boards/ukraine.jpg",
+          "scope": "Comparison board including reduced promotional, desktop closed/open and mobile closed/open panels",
+          "method": "vision_analyze",
+          "result": "success"
+        }
+      ],
+      "images_not_inspected": [
+        {
+          "path": "sources/ukraine/marketing.webp",
+          "reason": "not attempted after shared vision provider balance failure"
+        },
+        {
+          "path": "smoke/ukraine/desktop-closed.png",
+          "reason": "not attempted after shared vision provider balance failure"
+        },
+        {
+          "path": "smoke/ukraine/desktop-open.png",
+          "reason": "not attempted after shared vision provider balance failure"
+        },
+        {
+          "path": "smoke/ukraine/mobile-closed.png",
+          "reason": "not attempted after shared vision provider balance failure"
+        },
+        {
+          "path": "smoke/ukraine/mobile-open.png",
+          "reason": "not attempted after shared vision provider balance failure"
+        }
+      ],
+      "supporting_text_read": "sources/ukraine/source_readme.md"
+    },
+    {
+      "id": "venezuela",
+      "status": "needs-decision",
+      "disposition_reason": "Required original-image visual review incomplete because vision provider returned HTTP 402 insufficient_balance_error. Board-only observations are provisional, not a rejection of the art.",
+      "reference_comparison": [
+        "Tepui, pale cascade, chest and hardware broadly match.",
+        "Viewer stone mottling is stronger and more repetitive; summit appears flatter. Material finish is the principal visible difference, not proven broken geometry."
+      ],
+      "visual_limitations": [
+        "Only comparison board successfully inspected with vision; individual marketing reference and four original PNGs were not successfully inspected.",
+        "Board shows both desktop/mobile closed/open views but is insufficient to verify fine detail or original-resolution UI legibility.",
+        "Closed marketing reference does not establish intended interior or open-lid construction.",
+        "Still images cannot verify continuous motion, hidden attachments or collisions. An apparent hinge clearance is not proof of detachment.",
+        "Source README was read for stated limitations, not treated as independent verification of its technical claims."
+      ],
+      "observed_defects": [],
+      "geometry_assessment": "No definite broken geometry or major viewport clipping established at board resolution. Raised hasp and rear hinge region remain unresolved at original resolution; decorations can be occluded behind the open lid.",
+      "finish_assessment": "Viewer stone mottling is stronger and more repetitive; summit appears flatter. Material finish is the principal visible difference, not proven broken geometry.",
+      "images_inspected": [
+        {
+          "path": "boards/venezuela.jpg",
+          "scope": "Comparison board including reduced promotional, desktop closed/open and mobile closed/open panels",
+          "method": "vision_analyze",
+          "result": "success"
+        }
+      ],
+      "images_not_inspected": [
+        {
+          "path": "sources/venezuela/marketing.webp",
+          "reason": "not attempted after shared vision provider balance failure"
+        },
+        {
+          "path": "smoke/venezuela/desktop-closed.png",
+          "reason": "not attempted after shared vision provider balance failure"
+        },
+        {
+          "path": "smoke/venezuela/desktop-open.png",
+          "reason": "not attempted after shared vision provider balance failure"
+        },
+        {
+          "path": "smoke/venezuela/mobile-closed.png",
+          "reason": "not attempted after shared vision provider balance failure"
+        },
+        {
+          "path": "smoke/venezuela/mobile-open.png",
+          "reason": "not attempted after shared vision provider balance failure"
+        }
+      ],
+      "supporting_text_read": "sources/venezuela/source_readme.md"
+    }
+  ]
+}

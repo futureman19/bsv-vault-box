@@ -1,0 +1,161 @@
+{
+  "review_scope": "Read-only visual candidate review; no art changes.",
+  "complete": false,
+  "status_meaning": {
+    "pass": "Candidate disposition only, never user approval.",
+    "needs-decision": "Further evidence or a decision required; does not itself assert broken geometry."
+  },
+  "blocker": "vision_analyze succeeded for all five comparison boards, then all five parallel New Zealand original-image calls failed with HTTP 402 insufficient_balance_error. Other original-image calls not attempted after explicit billing failure.",
+  "results": [
+    {
+      "id": "new-zealand",
+      "status": "needs-decision",
+      "reason": "Review incomplete: comparison board inspected, but required independent original-image vision inspections blocked by provider HTTP 402 insufficient_balance_error. Not a geometry rejection.",
+      "visual_limitations": [
+        "Pale faceted ridges and repeated flowing body striations are procedural; body can read as wood grain.",
+        "Runtime finish is flatter than promotional board panel; water is a shallow turquoise channel.",
+        "Board-scale desktop previews cannot resolve fine hardware or small text reliably.",
+        "Static front views do not prove hinge attachment or continuous-motion clearance; apparent gaps are not proven detachment."
+      ],
+      "observed_defects": [],
+      "board_observations": [
+        "Core silhouette, themed decoration and hardware remain recognizable across promotional and runtime panels.",
+        "No unmistakable major mesh breakage or object clipping visible at board resolution; original PNG confirmation remains outstanding.",
+        "Raised lid exposes cavity and underside; exterior ornament turning out of view is not evidence that it disappears."
+      ],
+      "images_inspected": [
+        "launch/art-05/boards/new-zealand.jpg"
+      ],
+      "images_not_inspected": [
+        "launch/art-05/sources/new-zealand/marketing.webp",
+        "launch/art-05/smoke/new-zealand/desktop-closed.png",
+        "launch/art-05/smoke/new-zealand/desktop-open.png",
+        "launch/art-05/smoke/new-zealand/mobile-closed.png",
+        "launch/art-05/smoke/new-zealand/mobile-open.png"
+      ],
+      "inspection_scope": "Comparison board only; embedded source/runtime panels do not substitute for original image inspection.",
+      "source_context_read": "launch/art-05/sources/new-zealand/source_readme.md",
+      "separate_hold": "Full historical inventory hold remains separate and unresolved by this visual review."
+    },
+    {
+      "id": "pacific-ocean",
+      "status": "needs-decision",
+      "reason": "Review incomplete: comparison board inspected, but required independent original-image vision inspections blocked by provider HTTP 402 insufficient_balance_error. Not a geometry rejection.",
+      "visual_limitations": [
+        "Stylized pale atoll, shallow lagoon and faceted dark crater; runtime surfaces read teal rather than deep navy.",
+        "Board suggests different pale-versus-blue lid surface coverage between promotional and runtime panels; requires original-image inspection before calling a mismatch.",
+        "Board-scale desktop previews cannot resolve fine hardware or small text reliably.",
+        "Static front views do not prove hinge attachment or continuous-motion clearance; apparent gaps are not proven detachment."
+      ],
+      "observed_defects": [],
+      "board_observations": [
+        "Core silhouette, themed decoration and hardware remain recognizable across promotional and runtime panels.",
+        "No unmistakable major mesh breakage or object clipping visible at board resolution; original PNG confirmation remains outstanding.",
+        "Raised lid exposes cavity and underside; exterior ornament turning out of view is not evidence that it disappears."
+      ],
+      "images_inspected": [
+        "launch/art-05/boards/pacific-ocean.jpg"
+      ],
+      "images_not_inspected": [
+        "launch/art-05/sources/pacific-ocean/marketing.webp",
+        "launch/art-05/smoke/pacific-ocean/desktop-closed.png",
+        "launch/art-05/smoke/pacific-ocean/desktop-open.png",
+        "launch/art-05/smoke/pacific-ocean/mobile-closed.png",
+        "launch/art-05/smoke/pacific-ocean/mobile-open.png"
+      ],
+      "inspection_scope": "Comparison board only; embedded source/runtime panels do not substitute for original image inspection.",
+      "source_context_read": "launch/art-05/sources/pacific-ocean/source_readme.md",
+      "separate_hold": null
+    },
+    {
+      "id": "philippines",
+      "status": "needs-decision",
+      "reason": "Review incomplete: comparison board inspected, but required independent original-image vision inspections blocked by provider HTTP 402 insufficient_balance_error. Not a geometry rejection.",
+      "visual_limitations": [
+        "Regular nested terraces read as a contour maquette, not a geographically specific planted landscape.",
+        "Repeated diagonal stone modulation is conspicuous on broad faces; cannot distinguish authored material from resampling at board resolution.",
+        "Board-scale desktop previews cannot resolve fine hardware or small text reliably.",
+        "Static front views do not prove hinge attachment or continuous-motion clearance; apparent gaps are not proven detachment."
+      ],
+      "observed_defects": [],
+      "board_observations": [
+        "Core silhouette, themed decoration and hardware remain recognizable across promotional and runtime panels.",
+        "No unmistakable major mesh breakage or object clipping visible at board resolution; original PNG confirmation remains outstanding.",
+        "Raised lid exposes cavity and underside; exterior ornament turning out of view is not evidence that it disappears."
+      ],
+      "images_inspected": [
+        "launch/art-05/boards/philippines.jpg"
+      ],
+      "images_not_inspected": [
+        "launch/art-05/sources/philippines/marketing.webp",
+        "launch/art-05/smoke/philippines/desktop-closed.png",
+        "launch/art-05/smoke/philippines/desktop-open.png",
+        "launch/art-05/smoke/philippines/mobile-closed.png",
+        "launch/art-05/smoke/philippines/mobile-open.png"
+      ],
+      "inspection_scope": "Comparison board only; embedded source/runtime panels do not substitute for original image inspection.",
+      "source_context_read": "launch/art-05/sources/philippines/source_readme.md",
+      "separate_hold": null
+    },
+    {
+      "id": "saint-kitts-and-nevis",
+      "status": "needs-decision",
+      "reason": "Review incomplete: comparison board inspected, but required independent original-image vision inspections blocked by provider HTTP 402 insufficient_balance_error. Not a geometry rejection.",
+      "visual_limitations": [
+        "Faceted green islands, angular shores and flat teal enamel water are deliberately stylized.",
+        "Streaked gray body may read as weathered metal rather than volcanic stone; runtime finish is flatter than promotional panel.",
+        "Board-scale desktop previews cannot resolve fine hardware or small text reliably.",
+        "Static front views do not prove hinge attachment or continuous-motion clearance; apparent gaps are not proven detachment."
+      ],
+      "observed_defects": [],
+      "board_observations": [
+        "Core silhouette, themed decoration and hardware remain recognizable across promotional and runtime panels.",
+        "No unmistakable major mesh breakage or object clipping visible at board resolution; original PNG confirmation remains outstanding.",
+        "Raised lid exposes cavity and underside; exterior ornament turning out of view is not evidence that it disappears."
+      ],
+      "images_inspected": [
+        "launch/art-05/boards/saint-kitts-and-nevis.jpg"
+      ],
+      "images_not_inspected": [
+        "launch/art-05/sources/saint-kitts-and-nevis/marketing.webp",
+        "launch/art-05/smoke/saint-kitts-and-nevis/desktop-closed.png",
+        "launch/art-05/smoke/saint-kitts-and-nevis/desktop-open.png",
+        "launch/art-05/smoke/saint-kitts-and-nevis/mobile-closed.png",
+        "launch/art-05/smoke/saint-kitts-and-nevis/mobile-open.png"
+      ],
+      "inspection_scope": "Comparison board only; embedded source/runtime panels do not substitute for original image inspection.",
+      "source_context_read": "launch/art-05/sources/saint-kitts-and-nevis/source_readme.md",
+      "separate_hold": null
+    },
+    {
+      "id": "serbia",
+      "status": "needs-decision",
+      "reason": "Review incomplete: comparison board inspected, but required independent original-image vision inspections blocked by provider HTTP 402 insufficient_balance_error. Not a geometry rejection.",
+      "visual_limitations": [
+        "Crimson textile motifs remain identifiable, but weave and shallow relief depth are weak at board scale.",
+        "Brown framing is uniform and brass comparatively flat; promotional/runtime color and shading differ without demonstrating geometry failure.",
+        "Board-scale desktop previews cannot resolve fine hardware or small text reliably.",
+        "Static front views do not prove hinge attachment or continuous-motion clearance; apparent gaps are not proven detachment."
+      ],
+      "observed_defects": [],
+      "board_observations": [
+        "Core silhouette, themed decoration and hardware remain recognizable across promotional and runtime panels.",
+        "No unmistakable major mesh breakage or object clipping visible at board resolution; original PNG confirmation remains outstanding.",
+        "Raised lid exposes cavity and underside; exterior ornament turning out of view is not evidence that it disappears."
+      ],
+      "images_inspected": [
+        "launch/art-05/boards/serbia.jpg"
+      ],
+      "images_not_inspected": [
+        "launch/art-05/sources/serbia/marketing.webp",
+        "launch/art-05/smoke/serbia/desktop-closed.png",
+        "launch/art-05/smoke/serbia/desktop-open.png",
+        "launch/art-05/smoke/serbia/mobile-closed.png",
+        "launch/art-05/smoke/serbia/mobile-open.png"
+      ],
+      "inspection_scope": "Comparison board only; embedded source/runtime panels do not substitute for original image inspection.",
+      "source_context_read": "launch/art-05/sources/serbia/source_readme.md",
+      "separate_hold": null
+    }
+  ]
+}

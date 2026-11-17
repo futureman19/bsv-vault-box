@@ -1,0 +1,161 @@
+{
+  "scope": "Read-only visual review; only this findings file written. No art changes.",
+  "status_semantics": {
+    "pass": "Bounded candidate disposition only, not user approval, publication approval or mechanical certification.",
+    "needs-decision": "Incomplete required evidence or visual question requiring follow-up; not necessarily broken art."
+  },
+  "completion": "partial-blocked",
+  "blocker": "vision_analyze succeeded for all five boards and all Cyprus originals, then all five Egypt source/original calls failed with HTTP 402 insufficient_balance_error. Remaining originals were not attempted after confirmed account-level failure.",
+  "findings": [
+    {
+      "id": "cyprus",
+      "status": "pass",
+      "review_complete": true,
+      "disposition_reason": "Bounded visual candidate pass; source identity retained and no definite gross geometry or framing defect observed in required images.",
+      "observations": [
+        "Tan body, ivory nested-diamond lid decoration, brass fittings and block feet preserve source identity.",
+        "Viewer is flatter and more regularly textured than marketing; linen can read as ribbed wood.",
+        "Complete desktop/mobile closed/open object is framed without obvious clipping. Raised lid attachment is visually ambiguous at hinges, not proven detached."
+      ],
+      "observed_defects": [],
+      "visual_limitations": [
+        "Static endpoints cannot prove motion clearance, hidden geometry, physical hinge contact or topology.",
+        "Closed marketing reference does not establish interior/rear fidelity.",
+        "Finish/lighting differences are not classified as geometry failures; uncertain hinge gaps are not proven detachment."
+      ],
+      "images_inspected": [
+        "launch/art-05/boards/cyprus.jpg",
+        "launch/art-05/sources/cyprus/marketing.webp",
+        "launch/art-05/smoke/cyprus/desktop-closed.png",
+        "launch/art-05/smoke/cyprus/desktop-open.png",
+        "launch/art-05/smoke/cyprus/mobile-closed.png",
+        "launch/art-05/smoke/cyprus/mobile-open.png"
+      ],
+      "images_not_inspected": [],
+      "supporting_text_read": "launch/art-05/sources/cyprus/source_readme.md"
+    },
+    {
+      "id": "egypt",
+      "status": "needs-decision",
+      "review_complete": false,
+      "disposition_reason": "Required individual-image review blocked by vision provider HTTP 402 insufficient balance; board-only observations cannot satisfy the requested original-image gate.",
+      "observations": [
+        "Board preserves ivory/honey stone, pyramid field, blue rim and brass hardware.",
+        "Board viewer has flatter lighting and more regular veining than marketing; no gross geometry failure established."
+      ],
+      "observed_defects": [],
+      "visual_limitations": [
+        "Static endpoints cannot prove motion clearance, hidden geometry, physical hinge contact or topology.",
+        "Closed marketing reference does not establish interior/rear fidelity.",
+        "Finish/lighting differences are not classified as geometry failures; uncertain hinge gaps are not proven detachment.",
+        "Board contains scaled promotional and four viewport images, but originals and standalone marketing file were not successfully inspected. Empty observed_defects is not a clean bill of health."
+      ],
+      "images_inspected": [
+        "launch/art-05/boards/egypt.jpg"
+      ],
+      "images_not_inspected": [
+        "launch/art-05/sources/egypt/marketing.webp",
+        "launch/art-05/smoke/egypt/desktop-closed.png",
+        "launch/art-05/smoke/egypt/desktop-open.png",
+        "launch/art-05/smoke/egypt/mobile-closed.png",
+        "launch/art-05/smoke/egypt/mobile-open.png"
+      ],
+      "supporting_text_read": "launch/art-05/sources/egypt/source_readme.md",
+      "failed_image_attempts": [
+        "launch/art-05/sources/egypt/marketing.webp",
+        "launch/art-05/smoke/egypt/desktop-closed.png",
+        "launch/art-05/smoke/egypt/desktop-open.png",
+        "launch/art-05/smoke/egypt/mobile-closed.png",
+        "launch/art-05/smoke/egypt/mobile-open.png"
+      ]
+    },
+    {
+      "id": "finland",
+      "status": "needs-decision",
+      "review_complete": false,
+      "disposition_reason": "Required individual-image review blocked by vision provider HTTP 402 insufficient balance; board-only observations cannot satisfy the requested original-image gate.",
+      "observations": [
+        "Board preserves pale bark sides, finger joints, blue lake with green island reliefs, brass and rounded feet.",
+        "Cleaner, more graphic viewer finish differs from marketing material richness; no gross geometry failure established."
+      ],
+      "observed_defects": [],
+      "visual_limitations": [
+        "Static endpoints cannot prove motion clearance, hidden geometry, physical hinge contact or topology.",
+        "Closed marketing reference does not establish interior/rear fidelity.",
+        "Finish/lighting differences are not classified as geometry failures; uncertain hinge gaps are not proven detachment.",
+        "Board contains scaled promotional and four viewport images, but originals and standalone marketing file were not successfully inspected. Empty observed_defects is not a clean bill of health."
+      ],
+      "images_inspected": [
+        "launch/art-05/boards/finland.jpg"
+      ],
+      "images_not_inspected": [
+        "launch/art-05/sources/finland/marketing.webp",
+        "launch/art-05/smoke/finland/desktop-closed.png",
+        "launch/art-05/smoke/finland/desktop-open.png",
+        "launch/art-05/smoke/finland/mobile-closed.png",
+        "launch/art-05/smoke/finland/mobile-open.png"
+      ],
+      "supporting_text_read": "launch/art-05/sources/finland/source_readme.md"
+    },
+    {
+      "id": "grenada",
+      "status": "needs-decision",
+      "review_complete": false,
+      "disposition_reason": "Required individual-image review blocked by vision provider HTTP 402 insufficient balance; board-only observations cannot satisfy the requested original-image gate.",
+      "observations": [
+        "Board preserves warm wood, scarlet seam, nutmeg/mace lid ornament, finger joints, brass and rounded gray feet.",
+        "Viewer wood appears more regularly striped and flatter than marketing; no gross geometry failure established."
+      ],
+      "observed_defects": [],
+      "visual_limitations": [
+        "Static endpoints cannot prove motion clearance, hidden geometry, physical hinge contact or topology.",
+        "Closed marketing reference does not establish interior/rear fidelity.",
+        "Finish/lighting differences are not classified as geometry failures; uncertain hinge gaps are not proven detachment.",
+        "Board contains scaled promotional and four viewport images, but originals and standalone marketing file were not successfully inspected. Empty observed_defects is not a clean bill of health."
+      ],
+      "images_inspected": [
+        "launch/art-05/boards/grenada.jpg"
+      ],
+      "images_not_inspected": [
+        "launch/art-05/sources/grenada/marketing.webp",
+        "launch/art-05/smoke/grenada/desktop-closed.png",
+        "launch/art-05/smoke/grenada/desktop-open.png",
+        "launch/art-05/smoke/grenada/mobile-closed.png",
+        "launch/art-05/smoke/grenada/mobile-open.png"
+      ],
+      "supporting_text_read": "launch/art-05/sources/grenada/source_readme.md"
+    },
+    {
+      "id": "iceland",
+      "status": "needs-decision",
+      "review_complete": false,
+      "disposition_reason": "Required individual-image review blocked by vision provider HTTP 402 insufficient balance; board-only observations cannot satisfy the requested original-image gate.",
+      "observations": [
+        "Board preserves basalt-like walls, moss, blue glacial river/ridge and brass hardware.",
+        "Basalt, moss and ice read more stylized and simplified than marketing illustration; reflective lid appearance differs. These are fidelity/finish differences, not proven broken geometry."
+      ],
+      "observed_defects": [],
+      "visual_limitations": [
+        "Static endpoints cannot prove motion clearance, hidden geometry, physical hinge contact or topology.",
+        "Closed marketing reference does not establish interior/rear fidelity.",
+        "Finish/lighting differences are not classified as geometry failures; uncertain hinge gaps are not proven detachment.",
+        "Board contains scaled promotional and four viewport images, but originals and standalone marketing file were not successfully inspected. Empty observed_defects is not a clean bill of health."
+      ],
+      "images_inspected": [
+        "launch/art-05/boards/iceland.jpg"
+      ],
+      "images_not_inspected": [
+        "launch/art-05/sources/iceland/marketing.webp",
+        "launch/art-05/smoke/iceland/desktop-closed.png",
+        "launch/art-05/smoke/iceland/desktop-open.png",
+        "launch/art-05/smoke/iceland/mobile-closed.png",
+        "launch/art-05/smoke/iceland/mobile-open.png"
+      ],
+      "supporting_text_read": "launch/art-05/sources/iceland/source_readme.md",
+      "independent_archive_hold": {
+        "held": true,
+        "note": "Existing archive hold is independent of this visual verdict; not reassessed or cleared."
+      }
+    }
+  ]
+}

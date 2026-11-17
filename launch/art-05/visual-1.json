@@ -1,0 +1,75 @@
+{
+  "review_scope": ["angola", "azerbaijan", "benin", "burkina-faso", "chile"],
+  "review_complete": false,
+  "disposition_definition": "pass means bounded candidate disposition only, never user approval. needs-decision may indicate incomplete evidence rather than defective art.",
+  "blocker": "vision_analyze returned HTTP 402 insufficient_balance_error. Four boards were successfully inspected before exhaustion. Burkina Faso board failed twice; all four Angola original PNGs and its marketing.webp failed. Remaining originals were not attempted after persistent provider failure. Board thumbnails do not substitute for required original-image inspection.",
+  "image_path_base": "launch/art-05/",
+  "art_changes": false,
+  "findings": [
+    {
+      "id": "angola",
+      "status": "needs-decision",
+      "reason": "Required original PNG and standalone marketing inspection blocked; board-only findings are provisional.",
+      "images_inspected": ["boards/angola.jpg"],
+      "images_failed": ["smoke/angola/desktop-closed.png", "smoke/angola/desktop-open.png", "smoke/angola/mobile-closed.png", "smoke/angola/mobile-open.png", "sources/angola/marketing.webp"],
+      "images_not_attempted": [],
+      "visual_limitations": ["Only comparison-board scale inspected; fine hardware and hinge contact cannot be resolved.", "Marketing panel shows closed state only. Static endpoints cannot establish animation clearance or mechanical attachment."],
+      "observed_defects": [],
+      "finish_and_fidelity_differences": ["Viewer has stronger orange repetitive banding and sharper-looking terrain than softer promotional treatment.", "Brass shading and lid corner trim are less distinct; display scale may account for some apparent detail loss."],
+      "geometry_observations": ["Body, terrain lid, cavity and feet remain coherent at board scale; no unequivocal major breakage visible.", "Dark closed seam also occurs in promotional panel, not proof of a mesh gap.", "Open-state brass tab is consistent with lid-mounted clasp rotation, not proven detachment."],
+      "next_decision": "Complete original-image inspection before candidate disposition. Do not classify finish differences as broken geometry."
+    },
+    {
+      "id": "azerbaijan",
+      "status": "needs-decision",
+      "reason": "Required original PNG and standalone marketing inspection blocked; board-only findings are provisional.",
+      "images_inspected": ["boards/azerbaijan.jpg"],
+      "images_failed": [],
+      "images_not_attempted": ["smoke/azerbaijan/desktop-closed.png", "smoke/azerbaijan/desktop-open.png", "smoke/azerbaijan/mobile-closed.png", "smoke/azerbaijan/mobile-open.png", "sources/azerbaijan/marketing.webp"],
+      "visual_limitations": ["Different object scales and camera framing prevent reliable proportion judgments.", "Board thumbnails do not resolve fine relief, hinge junctions or clasp articulation. No open marketing reference or animation inspected."],
+      "observed_defects": [],
+      "finish_and_fidelity_differences": ["Circular botanical lid ornament reads flatter and darker than promotional relief.", "Copper mottling looks more uniform and graphic; brass fittings look simplified and less reflective."],
+      "geometry_observations": ["Open cavity, wall thickness and raised lid appear coherent; no gross detachment or wall inversion evident.", "Projecting brass clasp tab deserves closer inspection but is not demonstrated to be detached or incorrectly parented."],
+      "next_decision": "Inspect originals and compare ornament/hardware at matched scale before deciding whether fidelity reduction is acceptable."
+    },
+    {
+      "id": "benin",
+      "status": "needs-decision",
+      "reason": "Required original PNG and standalone marketing inspection blocked; board-only findings are provisional.",
+      "images_inspected": ["boards/benin.jpg"],
+      "images_failed": [],
+      "images_not_attempted": ["smoke/benin/desktop-closed.png", "smoke/benin/desktop-open.png", "smoke/benin/mobile-closed.png", "smoke/benin/mobile-open.png", "sources/benin/marketing.webp"],
+      "visual_limitations": ["Fine roof texture and small architectural openings are difficult to distinguish at board scale.", "Desktop board framing omits the full header; cannot establish a page-layout defect without original PNGs.", "Static open pose cannot validate hinge movement or hidden exterior lid ornaments."],
+      "observed_defects": [],
+      "finish_and_fidelity_differences": ["Rooftop architecture reads more geometric, with smoother roofs and less pronounced openings than promotional panel.", "Terracotta shading is flatter and brass less metallic; weaker contact shading reduces grounding."],
+      "geometry_observations": ["Raised lid, cavity, rim and walls are broadly coherent with no obvious major missing face.", "Towers hidden behind raised lid are not evidence of missing geometry.", "Brass tab above open lid may be the rotating clasp; no proven separation."],
+      "next_decision": "Complete original-image review, especially architectural detail and open hardware; decide fidelity acceptability separately from structural validity."
+    },
+    {
+      "id": "burkina-faso",
+      "status": "needs-decision",
+      "reason": "No successful visual inspection: comparison board failed twice with provider HTTP 402.",
+      "images_inspected": [],
+      "images_failed": ["boards/burkina-faso.jpg"],
+      "images_not_attempted": ["smoke/burkina-faso/desktop-closed.png", "smoke/burkina-faso/desktop-open.png", "smoke/burkina-faso/mobile-closed.png", "smoke/burkina-faso/mobile-open.png", "sources/burkina-faso/marketing.webp"],
+      "visual_limitations": ["All visual evidence remains uninspected. Empty defect list is not a clean bill of health."],
+      "observed_defects": [],
+      "finish_and_fidelity_differences": [],
+      "geometry_observations": [],
+      "next_decision": "Inspect board, marketing reference and all four originals when vision service is available."
+    },
+    {
+      "id": "chile",
+      "status": "needs-decision",
+      "reason": "Required original PNG and standalone marketing inspection blocked; board-only findings are provisional.",
+      "images_inspected": ["boards/chile.jpg"],
+      "images_failed": [],
+      "images_not_attempted": ["smoke/chile/desktop-closed.png", "smoke/chile/desktop-open.png", "smoke/chile/mobile-closed.png", "smoke/chile/mobile-open.png", "sources/chile/marketing.webp"],
+      "visual_limitations": ["Board comparison uses unequal scales and views; small feet and hardware differences need original confirmation.", "Static endpoints do not prove hinge clearance, attachment or animation correctness; promotional panel is closed only."],
+      "observed_defects": [],
+      "finish_and_fidelity_differences": ["Terrain reads as more regular pointed peaks versus irregular promotional rock masses; salt basin fine detail is less evident.", "Wavy bands look more uniform; feet and fittings appear less pronounced, subject to scale/lighting differences.", "Promotional floor/contact shading is richer than the dark viewer presentation."],
+      "geometry_observations": ["Open cavity and rear hinges appear broadly plausible, without unmistakable broken faces or gross detachment.", "Dark lid seam may reflect clearance or shading; reference also has a seam, so no proven geometric gap.", "Raised clasp tab and obscured outer terrain are not by themselves defects."],
+      "next_decision": "Inspect originals, then decide whether terrain silhouette and finish differences meet candidate fidelity expectations."
+    }
+  ]
+}
