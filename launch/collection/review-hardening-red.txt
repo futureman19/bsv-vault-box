@@ -1,0 +1,35 @@
+test_all_raw_reviews_preserved (__main__.Tests.test_all_raw_reviews_preserved) ... ok
+test_approval_rejected (__main__.Tests.test_approval_rejected) ... ok
+test_changed_viewer_rejected (__main__.Tests.test_changed_viewer_rejected) ... ok
+test_deterministic (__main__.Tests.test_deterministic) ... ok
+test_duplicate_manifest_rejected (__main__.Tests.test_duplicate_manifest_rejected) ... FAIL
+test_duplicate_paths (__main__.Tests.test_duplicate_paths) ... ok
+test_duplicates_rejected (__main__.Tests.test_duplicates_rejected) ... ok
+test_known_holds_baseline (__main__.Tests.test_known_holds_baseline) ... ok
+test_missing_id_rejected (__main__.Tests.test_missing_id_rejected) ... ok
+test_path_aliases_rejected (__main__.Tests.test_path_aliases_rejected) ... FAIL
+test_roster (__main__.Tests.test_roster) ... ok
+test_unsafe_paths (__main__.Tests.test_unsafe_paths) ... ok
+
+======================================================================
+FAIL: test_duplicate_manifest_rejected (__main__.Tests.test_duplicate_manifest_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_752264ee\launch\collection\test_consolidation.py", line 11, in test_duplicate_manifest_rejected
+    m=copy.deepcopy(self.man);m['items'].append(m['items'][0]);self.assertRaises(AssertionError,c.aggregate,m,self.inputs)
+                                                               ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: AssertionError not raised by aggregate
+
+======================================================================
+FAIL: test_path_aliases_rejected (__main__.Tests.test_path_aliases_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_752264ee\launch\collection\test_consolidation.py", line 14, in test_path_aliases_rejected
+    self.assertRaises(ValueError,p.records,c.enc([{'path':path,'bytes':1}]))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised by records
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.110s
+
+FAILED (failures=2)
