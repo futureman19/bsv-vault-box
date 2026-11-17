@@ -1,0 +1,113 @@
+{
+  "schema": "boxsv-independent-visual-qa/1",
+  "qa_card": "t_8267b59b",
+  "reviewer": "visual-a",
+  "root": "C:/Users/futur/Desktop/bsv-vault-box/.worktrees/t_8267b59b/launch/qa-art-01/launch/art-01",
+  "method": "Individually inspected every original desktop-closed, desktop-open, mobile-closed and mobile-open PNG and each original marketing WEBP using vision_analyze. No comparison board used. Parent findings read after image inspection.",
+  "reviewed_ids": ["afghanistan", "armenia", "barbados", "botswana", "cameroon", "costa-rica", "dominica"],
+  "original_images_inspected": 35,
+  "capture_dimensions": {"desktop": [1440,1080], "mobile": [390,844]},
+  "evidence_path_rule": "For each entry: smoke/{id}/desktop-closed.png, smoke/{id}/desktop-open.png, smoke/{id}/mobile-closed.png, smoke/{id}/mobile-open.png, marketing/{id}.webp, relative to root.",
+  "scope": {
+    "existing_unchanged_art_captures": true,
+    "fresh_runtime_executed": false,
+    "art_modified": false,
+    "board_state_changed": false,
+    "user_approval_granted": false,
+    "all_existing_holds_preserved": true,
+    "limitation": "Still images establish appearance and framing, not collision-free motion, physical hinge contact, source parity or runtime reliability. Open views face the lid underside; hidden top ornaments are not evidence of missing geometry. Apparent hinge gaps are presentation concerns, not proven detached meshes. Pass means this bounded visual review only, never final approval or launch readiness."
+  },
+  "entries": [
+    {
+      "id": "afghanistan",
+      "parent_status": "needs-decision",
+      "recommended_status": "needs-decision",
+      "parent_status_justified": true,
+      "desktop_closed": "Cobalt mineral body, pale mountain peaks and gold fittings are legible and fully framed. Veins and flecks are conspicuous; terrain and feet remain coarse. Broad closed seam is visible.",
+      "desktop_open": "Empty blue-lined cavity and lid underside visible. Rear hinge/lid spacing and protruding latch silhouette look mechanically ambiguous, without proving detachment.",
+      "mobile_closed": "Country motif survives; peaks and feet look jagged. Model and both controls fit, with substantial upper whitespace.",
+      "mobile_open": "Interior and complete upright lid fit. Hinge seating remains visually ambiguous at this scale.",
+      "marketing_comparison": "Marketing retains the same mountains, stone feet and fittings but uses darker, finer-grained lapis and craggier peaks; runtime reads brighter and more stylized.",
+      "critical_visible_faults": [],
+      "caveats": ["Material and terrain fidelity hold remains justified.", "Visible seam/hinge spacing warrants close mechanical review before claiming realistic attachment; no confirmed critical fault from stills."]
+    },
+    {
+      "id": "armenia",
+      "parent_status": "pass",
+      "recommended_status": "pass",
+      "parent_status_justified": true,
+      "desktop_closed": "Three pink arcade arches, rose chest and brass fittings retain the defining silhouette. Broad streaky stone is smoother and less porous than a convincing tuff surface; closed seam is conspicuous.",
+      "desktop_open": "Pink-lined cavity and underside fit. Dark separation around rear hinges makes mechanical seating unclear. Top arches are hidden by the opened orientation, not demonstrated missing.",
+      "mobile_closed": "All three arches and primary fittings readable; entire model and controls fit.",
+      "mobile_open": "Interior and lid fit without clipping; small-scale hinge spacing and corner joins remain visually ambiguous.",
+      "marketing_comparison": "The blush-pink chest, three arches, dark feet and brass hardware match the promotional identity. Runtime banding is more obvious and less natural than the subtler promotional finish.",
+      "critical_visible_faults": [],
+      "caveats": ["Pass is reasonable for retained identity, not premium stone realism.", "Apparent open hinge gaps do not establish detached geometry; avoid certifying contact from these captures."]
+    },
+    {
+      "id": "barbados",
+      "parent_status": "pass",
+      "recommended_status": "pass",
+      "parent_status_justified": true,
+      "desktop_closed": "Ivory speckled chest, turquoise coast inset and stacked terraces clearly readable. Rounded feet and brass hardware retained; lid seam prominent.",
+      "desktop_open": "Pale empty cavity, turquoise rim and two rear hinges visible; complete lid and base in frame.",
+      "mobile_closed": "Terraces/coast remain distinct, though tiers read cake-like rather than naturally eroded. Chunky fittings remain readable.",
+      "mobile_open": "Open box and controls fit; no obvious missing panel or clipping. Hinge seating is not resolved at this scale.",
+      "marketing_comparison": "The same low ivory chest, blue-green inset, stepped island and brass fittings appear in marketing. Differences mainly concern richer surface/edge detail versus simplified regular tiers.",
+      "critical_visible_faults": [],
+      "caveats": ["Retain erosion/material realism caveat; no visible defect establishes a need to regenerate the model."]
+    },
+    {
+      "id": "botswana",
+      "parent_status": "pass",
+      "recommended_status": "pass",
+      "parent_status_justified": true,
+      "desktop_closed": "Cream/brown zigzag weave, delta miniature and brass clasp are clear. Weave reads graphic; vegetation is sparse and spike-like.",
+      "desktop_open": "Brown empty liner, patterned underside and rear hinges visible, with full framing. Dark rear seam does not establish failed attachment.",
+      "mobile_closed": "Pattern remains strong, but waterways and small vegetation become difficult to parse. Full model and controls fit.",
+      "mobile_open": "Empty brown cavity, patterned lid and hardware remain visible without obvious clipping.",
+      "marketing_comparison": "Marketing preserves woven zigzags, short block feet and branching blue waterways, with more tactile weave and clearer terrain details. Runtime retains identity but loses delta legibility at mobile scale.",
+      "critical_visible_faults": [],
+      "caveats": ["Conditional visual pass, with mobile delta readability and tactile-weave limitations retained."]
+    },
+    {
+      "id": "cameroon",
+      "parent_status": "needs-decision",
+      "recommended_status": "needs-decision",
+      "parent_status_justified": true,
+      "desktop_closed": "Volcanic peak and clustered green canopy recognizable. Gray/taupe streaked body and warm lid look softer and less granular than the marketing stone; foliage is blobby.",
+      "desktop_open": "Dark empty cavity and upright lid fully framed. Rear hinge gaps and projecting latch appear ambiguous, not a proven mechanism failure.",
+      "mobile_closed": "Peak reads clearly while canopy and texture blur; terrain seating is difficult to judge.",
+      "mobile_open": "Full silhouette and controls fit. Interior is dark and texture detail limited.",
+      "marketing_comparison": "Both retain Fako-like peak, clustered canopy, stone feet and brass fittings, but the marketing uses cooler mottled/granular stone and a more detailed landscape. Material/terrain acceptance remains a legitimate artistic decision.",
+      "critical_visible_faults": [],
+      "caveats": ["Preserve existing material/terrain hold; do not turn a functioning render into art approval.", "No source-level attachment conclusion is possible from these stills."]
+    },
+    {
+      "id": "costa-rica",
+      "parent_status": "pass",
+      "recommended_status": "pass",
+      "parent_status_justified": true,
+      "desktop_closed": "Faceted volcano, rounded rainforest canopy and green mottled chest are clearly framed. Stone texture is soft/repetitive and foliage resembles rocks.",
+      "desktop_open": "Empty textured cavity visible; raised lid and latch have visually ambiguous rear attachment spacing, without a demonstrated broken mesh.",
+      "mobile_closed": "Volcano identity holds; rounded foliage reads pebble-like and fine texture blurs. Model and controls fit.",
+      "mobile_open": "Entire open chest fits. Interior and hinge layout are visible, but precise contact cannot be judged.",
+      "marketing_comparison": "Marketing is also stylized: green-blue mottled chest, faceted cone and rounded pale-green canopy. Runtime is not photoreal, but preserves the defining composition and hardware.",
+      "critical_visible_faults": [],
+      "caveats": ["Pass justified for comparable stylized identity; keep texture, foliage and attachment-readability caveats."]
+    },
+    {
+      "id": "dominica",
+      "parent_status": "pass",
+      "recommended_status": "pass",
+      "parent_status_justified": true,
+      "desktop_closed": "Dark volcanic chest with green ridges and a pale lake basin reads clearly. Terrain is angular and basin flat; gold hardware intact in the visible view.",
+      "desktop_open": "Empty stone-lined cavity, green trim and rear hinges visible; full silhouette fits, with no obvious missing panels.",
+      "mobile_closed": "Ridges remain visible, but lake reads as a shallow bowl and rainforest detail is chunky. No geothermal activity is visually established, nor required by a still alone.",
+      "mobile_open": "Lid, interior, fittings and controls fit without obvious clipping; precise hardware contact is unresolved.",
+      "marketing_comparison": "Marketing has the same stone chest, green trim, mountainous foliage and pale basin, with softer terrain contours. The plain basin and stylization are shared limitations, not unique runtime failures.",
+      "critical_visible_faults": [],
+      "caveats": ["Pass justified for retained motif; preserve angular terrain, reduced mobile detail and lake-readability limitations."]
+    }
+  ]
+}

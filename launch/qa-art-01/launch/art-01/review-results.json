@@ -1,0 +1,3398 @@
+{
+  "schema": "boxsv-art-review/1",
+  "task": "t_e669e48c",
+  "parent_commit": "6db6388d04fee0da8e0324a640d5880a5813a39c",
+  "parent_ledger_sha256": "28e032084f6bddf80143fd3bfd0e5b06cbdf84dc2343937e7b9bc71734ac3c9c",
+  "assigned": [
+    "afghanistan",
+    "armenia",
+    "barbados",
+    "botswana",
+    "cameroon",
+    "costa-rica",
+    "dominica",
+    "estonia",
+    "georgia",
+    "guyana",
+    "iran",
+    "kazakhstan",
+    "lesotho",
+    "malaysia",
+    "micronesia",
+    "namibia",
+    "north-korea",
+    "panama",
+    "republic-of-the-congo",
+    "san-marino",
+    "slovakia",
+    "spain",
+    "tanzania",
+    "turkey",
+    "uruguay",
+    "zimbabwe"
+  ],
+  "reviewed": 26,
+  "unreviewed": [],
+  "counts": {
+    "needs-decision": 17,
+    "pass": 9
+  },
+  "changed_designs": [],
+  "entries": [
+    {
+      "id": "afghanistan",
+      "status": "needs-decision",
+      "user_final_approved": false,
+      "launch_ready": false,
+      "polish_iterations": 0,
+      "model_changed": false,
+      "selection": {
+        "remote_ref": "origin/art/afghanistan-v1",
+        "fetched_tip": "25514037b972afd2b44579ee35b7450d3faacb2f",
+        "commit": "25514037b972afd2b44579ee35b7450d3faacb2f",
+        "reachable_from_fetched_ref": true
+      },
+      "viewer": {
+        "commit": "25514037b972afd2b44579ee35b7450d3faacb2f",
+        "path": "preview/afghanistan-v1/afghanistan-v1.html",
+        "bytes": 3127732,
+        "sha256": "1b285cbf6725e89171ca146d7fe09a365177cdf5c95e4b7de8c7b86e6b87f66a",
+        "under_5000000": true
+      },
+      "glb_bytes": 1758768,
+      "source_archives": [
+        {
+          "path": "preview/afghanistan-v1/afghanistan-v1-source.zip",
+          "sha256": "dd221b653e5e8d102d1c5759ae8e472ab2235f2224156e6281b751f4a0c6f901",
+          "bytes": 8203376,
+          "crc_safe_paths_required_payloads": true,
+          "historical_full_inventory_checked": true
+        }
+      ],
+      "captures": [
+        "smoke/afghanistan/desktop-closed.png",
+        "smoke/afghanistan/desktop-open.png",
+        "smoke/afghanistan/mobile-closed.png",
+        "smoke/afghanistan/mobile-open.png"
+      ],
+      "comparison": "boards/afghanistan.jpg",
+      "visual_findings": "Smooth pale mountain peaks versus craggy promotional relief; bright cobalt winding veins versus dark granular lapis.",
+      "hardware": "Principal fittings retained. Open interiors/hinges visible; screenshots establish no collision or contact proof.",
+      "decision": "Accept stylized candidate or authorize scoped alignment; no automatic substantial redesign.",
+      "technical_scope": "Fresh exact-byte packaging/CRC/required payloads, motion unit checks and offline desktop/mobile controls; no fresh Blender source parity, sampled collision or corrupt/no-JS fallback rerun.",
+      "browser": [
+        {
+          "id": "afghanistan",
+          "mode": "desktop",
+          "sha256": "1b285cbf6725e89171ca146d7fe09a365177cdf5c95e4b7de8c7b86e6b87f66a",
+          "scope": "pilot smoke only",
+          "asset": {
+            "triangles": 16586,
+            "meshes": 56,
+            "materials": 4,
+            "bounds": {
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ],
+              "max": [
+                1.8600000143051147,
+                2.666875123977661,
+                1.4875000286847353
+              ]
+            },
+            "lid": "Lid_Hinge",
+            "latch": "Latch_Pivot",
+            "nonfinite": 0,
+            "degenerate": 0,
+            "bytes": 1758768
+          },
+          "result": "pass",
+          "drag": true,
+          "open_close": true,
+          "interrupted_reset": true,
+          "reduced_motion_endpoints": true,
+          "no_overflow": true,
+          "external_requests": [],
+          "page_errors": []
+        },
+        {
+          "id": "afghanistan",
+          "mode": "mobile",
+          "sha256": "1b285cbf6725e89171ca146d7fe09a365177cdf5c95e4b7de8c7b86e6b87f66a",
+          "scope": "pilot smoke only",
+          "asset": {
+            "triangles": 16586,
+            "meshes": 56,
+            "materials": 4,
+            "bounds": {
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ],
+              "max": [
+                1.8600000143051147,
+                2.666875123977661,
+                1.4875000286847353
+              ]
+            },
+            "lid": "Lid_Hinge",
+            "latch": "Latch_Pivot",
+            "nonfinite": 0,
+            "degenerate": 0,
+            "bytes": 1758768
+          },
+          "result": "pass",
+          "drag": true,
+          "open_close": true,
+          "interrupted_reset": true,
+          "reduced_motion_endpoints": true,
+          "no_overflow": true,
+          "external_requests": [],
+          "page_errors": []
+        }
+      ],
+      "motion": {
+        "id": "afghanistan",
+        "exit_code": 0,
+        "passed": true,
+        "scope": "original motion unit assertions; not fresh collision/source parity"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ]
+    },
+    {
+      "id": "armenia",
+      "status": "pass",
+      "user_final_approved": false,
+      "launch_ready": false,
+      "polish_iterations": 0,
+      "model_changed": false,
+      "selection": {
+        "remote_ref": "origin/art/armenia-v1",
+        "fetched_tip": "38f07f1fb16be6c833586e68ae84d6795b3a04ee",
+        "commit": "38f07f1fb16be6c833586e68ae84d6795b3a04ee",
+        "reachable_from_fetched_ref": true
+      },
+      "viewer": {
+        "commit": "38f07f1fb16be6c833586e68ae84d6795b3a04ee",
+        "path": "preview/armenia-v1/armenia-v1.html",
+        "bytes": 2233011,
+        "sha256": "440e8e8472902e222cf48a2a846b96b1fb270cf220da194bcec9513a493273c1",
+        "under_5000000": true
+      },
+      "glb_bytes": 1138116,
+      "source_archives": [
+        {
+          "path": "preview/armenia-v1/armenia-v1-source.zip",
+          "sha256": "4628199969ff12783c22c0c3430add493c1423f13b7874de4afb250e67aa91f5",
+          "bytes": 5161198,
+          "crc_safe_paths_required_payloads": true,
+          "historical_full_inventory_checked": true
+        }
+      ],
+      "captures": [
+        "smoke/armenia/desktop-closed.png",
+        "smoke/armenia/desktop-open.png",
+        "smoke/armenia/mobile-closed.png",
+        "smoke/armenia/mobile-open.png"
+      ],
+      "comparison": "boards/armenia.jpg",
+      "visual_findings": "Arches and hardware retained; broad banding and repeating interior stone mottling look less natural than promotion.",
+      "hardware": "Principal fittings retained. Open interiors/hinges visible; screenshots establish no collision or contact proof.",
+      "decision": "No observed defect warrants model regeneration; retain finish caveats and final approval hold.",
+      "technical_scope": "Fresh exact-byte packaging/CRC/required payloads, motion unit checks and offline desktop/mobile controls; no fresh Blender source parity, sampled collision or corrupt/no-JS fallback rerun.",
+      "browser": [
+        {
+          "id": "armenia",
+          "mode": "desktop",
+          "sha256": "440e8e8472902e222cf48a2a846b96b1fb270cf220da194bcec9513a493273c1",
+          "scope": "pilot smoke only",
+          "asset": {
+            "triangles": 15568,
+            "meshes": 64,
+            "materials": 4,
+            "bounds": {
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ],
+              "max": [
+                1.8600000143051147,
+                2.7100000381469727,
+                1.4875000286847353
+              ]
+            },
+            "lid": "Lid_Hinge",
+            "latch": "Latch_Pivot",
+            "nonfinite": 0,
+            "degenerate": 0,
+            "bytes": 1138116
+          },
+          "result": "pass",
+          "drag": true,
+          "open_close": true,
+          "interrupted_reset": true,
+          "reduced_motion_endpoints": true,
+          "no_overflow": true,
+          "external_requests": [],
+          "page_errors": []
+        },
+        {
+          "id": "armenia",
+          "mode": "mobile",
+          "sha256": "440e8e8472902e222cf48a2a846b96b1fb270cf220da194bcec9513a493273c1",
+          "scope": "pilot smoke only",
+          "asset": {
+            "triangles": 15568,
+            "meshes": 64,
+            "materials": 4,
+            "bounds": {
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ],
+              "max": [
+                1.8600000143051147,
+                2.7100000381469727,
+                1.4875000286847353
+              ]
+            },
+            "lid": "Lid_Hinge",
+            "latch": "Latch_Pivot",
+            "nonfinite": 0,
+            "degenerate": 0,
+            "bytes": 1138116
+          },
+          "result": "pass",
+          "drag": true,
+          "open_close": true,
+          "interrupted_reset": true,
+          "reduced_motion_endpoints": true,
+          "no_overflow": true,
+          "external_requests": [],
+          "page_errors": []
+        }
+      ],
+      "motion": {
+        "id": "armenia",
+        "exit_code": 0,
+        "passed": true,
+        "scope": "original motion unit assertions; not fresh collision/source parity"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ]
+    },
+    {
+      "id": "barbados",
+      "status": "pass",
+      "user_final_approved": false,
+      "launch_ready": false,
+      "polish_iterations": 0,
+      "model_changed": false,
+      "selection": {
+        "remote_ref": "origin/art/barbados-v1",
+        "fetched_tip": "1251c2891f359e1efd2454959801905d215a2c66",
+        "commit": "1251c2891f359e1efd2454959801905d215a2c66",
+        "reachable_from_fetched_ref": true
+      },
+      "viewer": {
+        "commit": "1251c2891f359e1efd2454959801905d215a2c66",
+        "path": "preview/barbados-v1/barbados-v1.html",
+        "bytes": 2171585,
+        "sha256": "52c58c833fba469afb99227a76f004bfa7260cd69d695474122578ac05698daa",
+        "under_5000000": true
+      },
+      "glb_bytes": 1038656,
+      "source_archives": [
+        {
+          "path": "preview/barbados-v1/barbados-v1-source.zip",
+          "sha256": "ccb961bec86af15464ac3979cf774e6d1e82e39fd916d25d57905ae926477717",
+          "bytes": 4916912,
+          "crc_safe_paths_required_payloads": true,
+          "historical_full_inventory_checked": true
+        }
+      ],
+      "captures": [
+        "smoke/barbados/desktop-closed.png",
+        "smoke/barbados/desktop-open.png",
+        "smoke/barbados/mobile-closed.png",
+        "smoke/barbados/mobile-open.png"
+      ],
+      "comparison": "boards/barbados.jpg",
+      "visual_findings": "Terraces and turquoise coast retained; regular tiers and simplified erosion versus richer promotional stone.",
+      "hardware": "Principal fittings retained. Open interiors/hinges visible; screenshots establish no collision or contact proof.",
+      "decision": "No observed defect warrants model regeneration; retain finish caveats and final approval hold.",
+      "technical_scope": "Fresh exact-byte packaging/CRC/required payloads, motion unit checks and offline desktop/mobile controls; no fresh Blender source parity, sampled collision or corrupt/no-JS fallback rerun.",
+      "browser": [
+        {
+          "id": "barbados",
+          "mode": "desktop",
+          "sha256": "52c58c833fba469afb99227a76f004bfa7260cd69d695474122578ac05698daa",
+          "scope": "pilot smoke only",
+          "asset": {
+            "triangles": 14476,
+            "meshes": 59,
+            "materials": 4,
+            "bounds": {
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ],
+              "max": [
+                1.8600000143051147,
+                2.490000009536743,
+                1.4875000286847353
+              ]
+            },
+            "lid": "Lid_Hinge",
+            "latch": "Latch_Pivot",
+            "nonfinite": 0,
+            "degenerate": 0,
+            "bytes": 1038656
+          },
+          "result": "pass",
+          "drag": true,
+          "open_close": true,
+          "interrupted_reset": true,
+          "reduced_motion_endpoints": true,
+          "no_overflow": true,
+          "external_requests": [],
+          "page_errors": []
+        },
+        {
+          "id": "barbados",
+          "mode": "mobile",
+          "sha256": "52c58c833fba469afb99227a76f004bfa7260cd69d695474122578ac05698daa",
+          "scope": "pilot smoke only",
+          "asset": {
+            "triangles": 14476,
+            "meshes": 59,
+            "materials": 4,
+            "bounds": {
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ],
+              "max": [
+                1.8600000143051147,
+                2.490000009536743,
+                1.4875000286847353
+              ]
+            },
+            "lid": "Lid_Hinge",
+            "latch": "Latch_Pivot",
+            "nonfinite": 0,
+            "degenerate": 0,
+            "bytes": 1038656
+          },
+          "result": "pass",
+          "drag": true,
+          "open_close": true,
+          "interrupted_reset": true,
+          "reduced_motion_endpoints": true,
+          "no_overflow": true,
+          "external_requests": [],
+          "page_errors": []
+        }
+      ],
+      "motion": {
+        "id": "barbados",
+        "exit_code": 0,
+        "passed": true,
+        "scope": "original motion unit assertions; not fresh collision/source parity"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ]
+    },
+    {
+      "id": "botswana",
+      "status": "pass",
+      "user_final_approved": false,
+      "launch_ready": false,
+      "polish_iterations": 0,
+      "model_changed": false,
+      "selection": {
+        "remote_ref": "origin/art/botswana-v1",
+        "fetched_tip": "0286a812f468b09ff426d903c14048d38085ffdd",
+        "commit": "0286a812f468b09ff426d903c14048d38085ffdd",
+        "reachable_from_fetched_ref": true
+      },
+      "viewer": {
+        "commit": "0286a812f468b09ff426d903c14048d38085ffdd",
+        "path": "preview/botswana-v1/botswana-v1.html",
+        "bytes": 4331574,
+        "sha256": "78b1f5934dbfcf526d9b567b9c52d00a74950a40b8f27e8ca402cb643cec25aa",
+        "under_5000000": true
+      },
+      "glb_bytes": 2640804,
+      "source_archives": [
+        {
+          "path": "preview/botswana-v1/botswana-v1-source.zip",
+          "sha256": "8fab3e53ff99e4c7217e96005b62840cb87afc88380358c02c2baa699f96f219",
+          "bytes": 8945907,
+          "crc_safe_paths_required_payloads": true,
+          "historical_full_inventory_checked": true
+        }
+      ],
+      "captures": [
+        "smoke/botswana/desktop-closed.png",
+        "smoke/botswana/desktop-open.png",
+        "smoke/botswana/mobile-closed.png",
+        "smoke/botswana/mobile-open.png"
+      ],
+      "comparison": "boards/botswana.jpg",
+      "visual_findings": "Delta channels become subtle on mobile; weave is graphic rather than tactile. No demonstrated structural failure.",
+      "hardware": "Principal fittings retained. Open interiors/hinges visible; screenshots establish no collision or contact proof.",
+      "decision": "No observed defect warrants model regeneration; retain finish caveats and final approval hold.",
+      "technical_scope": "Fresh exact-byte packaging/CRC/required payloads, motion unit checks and offline desktop/mobile controls; no fresh Blender source parity, sampled collision or corrupt/no-JS fallback rerun.",
+      "browser": [
+        {
+          "id": "botswana",
+          "mode": "desktop",
+          "sha256": "78b1f5934dbfcf526d9b567b9c52d00a74950a40b8f27e8ca402cb643cec25aa",
+          "scope": "pilot smoke only",
+          "asset": {
+            "triangles": 30280,
+            "meshes": 221,
+            "materials": 7,
+            "bounds": {
+              "min": [
+                -1.8749999841675162,
+                -0.2500000074505806,
+                -1.3950000554323196
+              ],
+              "max": [
+                1.8749999841675162,
+                2.2792866230010986,
+                1.4875000286847353
+              ]
+            },
+            "lid": "Lid_Hinge",
+            "latch": "Latch_Pivot",
+            "nonfinite": 0,
+            "degenerate": 0,
+            "bytes": 2640804
+          },
+          "result": "pass",
+          "drag": true,
+          "open_close": true,
+          "interrupted_reset": true,
+          "reduced_motion_endpoints": true,
+          "no_overflow": true,
+          "external_requests": [],
+          "page_errors": []
+        },
+        {
+          "id": "botswana",
+          "mode": "mobile",
+          "sha256": "78b1f5934dbfcf526d9b567b9c52d00a74950a40b8f27e8ca402cb643cec25aa",
+          "scope": "pilot smoke only",
+          "asset": {
+            "triangles": 30280,
+            "meshes": 221,
+            "materials": 7,
+            "bounds": {
+              "min": [
+                -1.8749999841675162,
+                -0.2500000074505806,
+                -1.3950000554323196
+              ],
+              "max": [
+                1.8749999841675162,
+                2.2792866230010986,
+                1.4875000286847353
+              ]
+            },
+            "lid": "Lid_Hinge",
+            "latch": "Latch_Pivot",
+            "nonfinite": 0,
+            "degenerate": 0,
+            "bytes": 2640804
+          },
+          "result": "pass",
+          "drag": true,
+          "open_close": true,
+          "interrupted_reset": true,
+          "reduced_motion_endpoints": true,
+          "no_overflow": true,
+          "external_requests": [],
+          "page_errors": []
+        }
+      ],
+      "motion": {
+        "id": "botswana",
+        "exit_code": 0,
+        "passed": true,
+        "scope": "original motion unit assertions; not fresh collision/source parity"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ]
+    },
+    {
+      "id": "cameroon",
+      "status": "needs-decision",
+      "user_final_approved": false,
+      "launch_ready": false,
+      "polish_iterations": 0,
+      "model_changed": false,
+      "selection": {
+        "remote_ref": "origin/art/cameroon-v1",
+        "fetched_tip": "f8ff17704371f960130f0d4cc358545446e6c81a",
+        "commit": "f8ff17704371f960130f0d4cc358545446e6c81a",
+        "reachable_from_fetched_ref": true
+      },
+      "viewer": {
+        "commit": "f8ff17704371f960130f0d4cc358545446e6c81a",
+        "path": "preview/cameroon-v1/cameroon-v1.html",
+        "bytes": 3832994,
+        "sha256": "55e535bdcade4d0d757ca0e0ddb3d02591181b8b07ec2e81b8a4f3b38a791414",
+        "under_5000000": true
+      },
+      "glb_bytes": 2342852,
+      "source_archives": [
+        {
+          "path": "preview/cameroon-v1/cameroon-v1-source.zip",
+          "sha256": "4a2b4cb30b0b3966f6c2d9bf9acdbf9633ea2f20258eddc97d9d9d6db09903b3",
+          "bytes": 8306664,
+          "crc_safe_paths_required_payloads": true,
+          "historical_full_inventory_checked": true
+        }
+      ],
+      "captures": [
+        "smoke/cameroon/desktop-closed.png",
+        "smoke/cameroon/desktop-open.png",
+        "smoke/cameroon/mobile-closed.png",
+        "smoke/cameroon/mobile-open.png"
+      ],
+      "comparison": "boards/cameroon.jpg",
+      "visual_findings": "Warm taupe diagonal streaks versus cool granular volcanic stone in marketing; rounded canopy and simplified rocky terrain.",
+      "hardware": "Principal fittings retained. Open interiors/hinges visible; screenshots establish no collision or contact proof.",
+      "decision": "Accept stylized candidate or authorize scoped alignment; no automatic substantial redesign.",
+      "technical_scope": "Fresh exact-byte packaging/CRC/required payloads, motion unit checks and offline desktop/mobile controls; no fresh Blender source parity, sampled collision or corrupt/no-JS fallback rerun.",
+      "browser": [
+        {
+          "id": "cameroon",
+          "mode": "desktop",
+          "sha256": "55e535bdcade4d0d757ca0e0ddb3d02591181b8b07ec2e81b8a4f3b38a791414",
+          "scope": "pilot smoke only",
+          "asset": {
+            "triangles": 24092,
+            "meshes": 157,
+            "materials": 7,
+            "bounds": {
+              "min": [
+                -1.927119004633135,
+                -0.30833693593740463,
+                -1.3950000554323196
+              ],
+              "max": [
+                1.8600000143051147,
+                2.564162015914917,
+                1.4875000286847353
+              ]
+            },
+            "lid": "Lid_Hinge",
+            "latch": "Latch_Pivot",
+            "nonfinite": 0,
+            "degenerate": 0,
+            "bytes": 2342852
+          },
+          "result": "pass",
+          "drag": true,
+          "open_close": true,
+          "interrupted_reset": true,
+          "reduced_motion_endpoints": true,
+          "no_overflow": true,
+          "external_requests": [],
+          "page_errors": []
+        },
+        {
+          "id": "cameroon",
+          "mode": "mobile",
+          "sha256": "55e535bdcade4d0d757ca0e0ddb3d02591181b8b07ec2e81b8a4f3b38a791414",
+          "scope": "pilot smoke only",
+          "asset": {
+            "triangles": 24092,
+            "meshes": 157,
+            "materials": 7,
+            "bounds": {
+              "min": [
+                -1.927119004633135,
+                -0.30833693593740463,
+                -1.3950000554323196
+              ],
+              "max": [
+                1.8600000143051147,
+                2.564162015914917,
+                1.4875000286847353
+              ]
+            },
+            "lid": "Lid_Hinge",
+            "latch": "Latch_Pivot",
+            "nonfinite": 0,
+            "degenerate": 0,
+            "bytes": 2342852
+          },
+          "result": "pass",
+          "drag": true,
+          "open_close": true,
+          "interrupted_reset": true,
+          "reduced_motion_endpoints": true,
+          "no_overflow": true,
+          "external_requests": [],
+          "page_errors": []
+        }
+      ],
+      "motion": {
+        "id": "cameroon",
+        "exit_code": 0,
+        "passed": true,
+        "scope": "original motion unit assertions; not fresh collision/source parity"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ]
+    },
+    {
+      "id": "costa-rica",
+      "status": "pass",
+      "user_final_approved": false,
+      "launch_ready": false,
+      "polish_iterations": 0,
+      "model_changed": false,
+      "selection": {
+        "remote_ref": "origin/art/costa-rica-v1",
+        "fetched_tip": "e95cf1313976ffb6ab3d10bcf0f6691bbfc8c2ee",
+        "commit": "e95cf1313976ffb6ab3d10bcf0f6691bbfc8c2ee",
+        "reachable_from_fetched_ref": true
+      },
+      "viewer": {
+        "commit": "e95cf1313976ffb6ab3d10bcf0f6691bbfc8c2ee",
+        "path": "preview/costa-rica-v1/costa-rica-v1.html",
+        "bytes": 3002581,
+        "sha256": "cf3a5d05f560328bd8a99c6d1c6cfa88b8b8169ea655c5687f1a24ab9c44a7c0",
+        "under_5000000": true
+      },
+      "glb_bytes": 1677396,
+      "source_archives": [
+        {
+          "path": "preview/costa-rica-v1/costa-rica-v1-source.zip",
+          "sha256": "ae5b22a27b0ae240855c4eef40ef3055300037c14f7f0d00f97e1ca86839aa13",
+          "bytes": 7475469,
+          "crc_safe_paths_required_payloads": true,
+          "historical_full_inventory_checked": true
+        }
+      ],
+      "captures": [
+        "smoke/costa-rica/desktop-closed.png",
+        "smoke/costa-rica/desktop-open.png",
+        "smoke/costa-rica/mobile-closed.png",
+        "smoke/costa-rica/mobile-open.png"
+      ],
+      "comparison": "boards/costa-rica.jpg",
+      "visual_findings": "Faceted volcano and rounded canopy retain identity; cloudy green-gray material is stylized in both representations.",
+      "hardware": "Principal fittings retained. Open interiors/hinges visible; screenshots establish no collision or contact proof.",
+      "decision": "No observed defect warrants model regeneration; retain finish caveats and final approval hold.",
+      "technical_scope": "Fresh exact-byte packaging/CRC/required payloads, motion unit checks and offline desktop/mobile controls; no fresh Blender source parity, sampled collision or corrupt/no-JS fallback rerun.",
+      "browser": [
+        {
+          "id": "costa-rica",
+          "mode": "desktop",
+          "sha256": "cf3a5d05f560328bd8a99c6d1c6cfa88b8b8169ea655c5687f1a24ab9c44a7c0",
+          "scope": "pilot smoke only",
+          "asset": {
+            "triangles": 16618,
+            "meshes": 81,
+            "materials": 10,
+            "bounds": {
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ],
+              "max": [
+                1.8600000143051147,
+                2.8812596797943115,
+                1.4875000286847353
+              ]
+            },
+            "lid": "Lid_Hinge",
+            "latch": "Latch_Pivot",
+            "nonfinite": 0,
+            "degenerate": 0,
+            "bytes": 1677396
+          },
+          "result": "pass",
+          "drag": true,
+          "open_close": true,
+          "interrupted_reset": true,
+          "reduced_motion_endpoints": true,
+          "no_overflow": true,
+          "external_requests": [],
+          "page_errors": []
+        },
+        {
+          "id": "costa-rica",
+          "mode": "mobile",
+          "sha256": "cf3a5d05f560328bd8a99c6d1c6cfa88b8b8169ea655c5687f1a24ab9c44a7c0",
+          "scope": "pilot smoke only",
+          "asset": {
+            "triangles": 16618,
+            "meshes": 81,
+            "materials": 10,
+            "bounds": {
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ],
+              "max": [
+                1.8600000143051147,
+                2.8812596797943115,
+                1.4875000286847353
+              ]
+            },
+            "lid": "Lid_Hinge",
+            "latch": "Latch_Pivot",
+            "nonfinite": 0,
+            "degenerate": 0,
+            "bytes": 1677396
+          },
+          "result": "pass",
+          "drag": true,
+          "open_close": true,
+          "interrupted_reset": true,
+          "reduced_motion_endpoints": true,
+          "no_overflow": true,
+          "external_requests": [],
+          "page_errors": []
+        }
+      ],
+      "motion": {
+        "id": "costa-rica",
+        "exit_code": 0,
+        "passed": true,
+        "scope": "Afghanistan contract assertions applied to unchanged Costa Rica motion module; not fresh collision/source parity"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ]
+    },
+    {
+      "id": "dominica",
+      "status": "pass",
+      "user_final_approved": false,
+      "launch_ready": false,
+      "polish_iterations": 0,
+      "model_changed": false,
+      "selection": {
+        "remote_ref": "origin/art/dominica-v1",
+        "fetched_tip": "bb412f5d0d3c64b4e5b3dd2f28623d669b08abc4",
+        "commit": "bb412f5d0d3c64b4e5b3dd2f28623d669b08abc4",
+        "reachable_from_fetched_ref": true
+      },
+      "viewer": {
+        "commit": "bb412f5d0d3c64b4e5b3dd2f28623d669b08abc4",
+        "path": "preview/dominica-v1/dominica-v1.html",
+        "bytes": 2616769,
+        "sha256": "d34e12152f1e4bcb5e3abc8cfc7ef6d2107253f0a85daadf7c816d2927e798b1",
+        "under_5000000": true
+      },
+      "glb_bytes": 1391576,
+      "source_archives": [
+        {
+          "path": "preview/dominica-v1/dominica-source.zip",
+          "sha256": "5262cdacb07264b3575c817141867cf445feae5735d1176e811cad8f64ed40a5",
+          "bytes": 7003190,
+          "crc_safe_paths_required_payloads": true,
+          "historical_full_inventory_checked": true
+        }
+      ],
+      "captures": [
+        "smoke/dominica/desktop-closed.png",
+        "smoke/dominica/desktop-open.png",
+        "smoke/dominica/mobile-closed.png",
+        "smoke/dominica/mobile-open.png"
+      ],
+      "comparison": "boards/dominica.jpg",
+      "visual_findings": "Angular ridges and stepped pale basin versus softened promotional terrain; reduced mobile detail.",
+      "hardware": "Principal fittings retained. Open interiors/hinges visible; screenshots establish no collision or contact proof.",
+      "decision": "No observed defect warrants model regeneration; retain finish caveats and final approval hold.",
+      "technical_scope": "Fresh exact-byte packaging/CRC/required payloads, motion unit checks and offline desktop/mobile controls; no fresh Blender source parity, sampled collision or corrupt/no-JS fallback rerun.",
+      "browser": [
+        {
+          "id": "dominica",
+          "mode": "desktop",
+          "sha256": "d34e12152f1e4bcb5e3abc8cfc7ef6d2107253f0a85daadf7c816d2927e798b1",
+          "scope": "pilot smoke only",
+          "asset": {
+            "triangles": 19988,
+            "meshes": 167,
+            "materials": 6,
+            "bounds": {
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ],
+              "max": [
+                1.8600000143051147,
+                2.596618413925171,
+                1.4875000286847353
+              ]
+            },
+            "lid": "Lid_Hinge",
+            "latch": "Latch_Pivot",
+            "nonfinite": 0,
+            "degenerate": 0,
+            "bytes": 1391576
+          },
+          "result": "pass",
+          "drag": true,
+          "open_close": true,
+          "interrupted_reset": true,
+          "reduced_motion_endpoints": true,
+          "no_overflow": true,
+          "external_requests": [],
+          "page_errors": []
+        },
+        {
+          "id": "dominica",
+          "mode": "mobile",
+          "sha256": "d34e12152f1e4bcb5e3abc8cfc7ef6d2107253f0a85daadf7c816d2927e798b1",
+          "scope": "pilot smoke only",
+          "asset": {
+            "triangles": 19988,
+            "meshes": 167,
+            "materials": 6,
+            "bounds": {
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ],
+              "max": [
+                1.8600000143051147,
+                2.596618413925171,
+                1.4875000286847353
+              ]
+            },
+            "lid": "Lid_Hinge",
+            "latch": "Latch_Pivot",
+            "nonfinite": 0,
+            "degenerate": 0,
+            "bytes": 1391576
+          },
+          "result": "pass",
+          "drag": true,
+          "open_close": true,
+          "interrupted_reset": true,
+          "reduced_motion_endpoints": true,
+          "no_overflow": true,
+          "external_requests": [],
+          "page_errors": []
+        }
+      ],
+      "motion": {
+        "id": "dominica",
+        "exit_code": 0,
+        "passed": true,
+        "scope": "original motion unit assertions; not fresh collision/source parity"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ]
+    },
+    {
+      "id": "estonia",
+      "status": "pass",
+      "user_final_approved": false,
+      "launch_ready": false,
+      "polish_iterations": 0,
+      "model_changed": false,
+      "selection": {
+        "remote_ref": "origin/art/estonia-v1",
+        "fetched_tip": "b45c891bf43e84a665b33a5847632daa791be40b",
+        "commit": "b45c891bf43e84a665b33a5847632daa791be40b",
+        "reachable_from_fetched_ref": true
+      },
+      "viewer": {
+        "commit": "b45c891bf43e84a665b33a5847632daa791be40b",
+        "path": "preview/estonia-v1/estonia-v1.html",
+        "bytes": 2104643,
+        "sha256": "0d273cc78a7ef0c0e9c7abdc09f2448d140ac533c27029f6ca37d9481987a33f",
+        "under_5000000": true
+      },
+      "glb_bytes": 972956,
+      "source_archives": [
+        {
+          "path": "preview/estonia-v1/estonia-v1-source.zip",
+          "sha256": "c4c8179de1ac86c796babdb07c77085e7ee6c223e871336e4f0601d713117dd6",
+          "bytes": 4730766,
+          "crc_safe_paths_required_payloads": true,
+          "historical_full_inventory_checked": true
+        }
+      ],
+      "captures": [
+        "smoke/estonia/desktop-closed.png",
+        "smoke/estonia/desktop-open.png",
+        "smoke/estonia/mobile-closed.png",
+        "smoke/estonia/mobile-open.png"
+      ],
+      "comparison": "boards/estonia.jpg",
+      "visual_findings": "Bog pools and path retained; flatter water and simpler banks than promotional moss and depth shading.",
+      "hardware": "Principal fittings retained. Open interiors/hinges visible; screenshots establish no collision or contact proof.",
+      "decision": "No observed defect warrants model regeneration; retain finish caveats and final approval hold.",
+      "technical_scope": "Fresh exact-byte packaging/CRC/required payloads, motion unit checks and offline desktop/mobile controls; no fresh Blender source parity, sampled collision or corrupt/no-JS fallback rerun.",
+      "browser": [
+        {
+          "id": "estonia",
+          "mode": "desktop",
+          "sha256": "0d273cc78a7ef0c0e9c7abdc09f2448d140ac533c27029f6ca37d9481987a33f",
+          "scope": "pilot smoke only",
+          "asset": {
+            "triangles": 13008,
+            "meshes": 120,
+            "materials": 7,
+            "bounds": {
+              "min": [
+                -1.9279999874783151,
+                -0.25999999791383743,
+                -1.3950000554323196
+              ],
+              "max": [
+                1.8600000143051147,
+                2.1579633988440037,
+                1.4875000286847353
+              ]
+            },
+            "lid": "Lid_Hinge",
+            "latch": "Latch_Pivot",
+            "nonfinite": 0,
+            "degenerate": 0,
+            "bytes": 972956
+          },
+          "result": "pass",
+          "drag": true,
+          "open_close": true,
+          "interrupted_reset": true,
+          "reduced_motion_endpoints": true,
+          "no_overflow": true,
+          "external_requests": [],
+          "page_errors": []
+        },
+        {
+          "id": "estonia",
+          "mode": "mobile",
+          "sha256": "0d273cc78a7ef0c0e9c7abdc09f2448d140ac533c27029f6ca37d9481987a33f",
+          "scope": "pilot smoke only",
+          "asset": {
+            "triangles": 13008,
+            "meshes": 120,
+            "materials": 7,
+            "bounds": {
+              "min": [
+                -1.9279999874783151,
+                -0.25999999791383743,
+                -1.3950000554323196
+              ],
+              "max": [
+                1.8600000143051147,
+                2.1579633988440037,
+                1.4875000286847353
+              ]
+            },
+            "lid": "Lid_Hinge",
+            "latch": "Latch_Pivot",
+            "nonfinite": 0,
+            "degenerate": 0,
+            "bytes": 972956
+          },
+          "result": "pass",
+          "drag": true,
+          "open_close": true,
+          "interrupted_reset": true,
+          "reduced_motion_endpoints": true,
+          "no_overflow": true,
+          "external_requests": [],
+          "page_errors": []
+        }
+      ],
+      "motion": {
+        "id": "estonia",
+        "exit_code": 0,
+        "passed": true,
+        "scope": "original motion unit assertions; not fresh collision/source parity"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ]
+    },
+    {
+      "id": "georgia",
+      "status": "needs-decision",
+      "user_final_approved": false,
+      "launch_ready": false,
+      "polish_iterations": 0,
+      "model_changed": false,
+      "selection": {
+        "remote_ref": "origin/art/georgia-v1",
+        "fetched_tip": "8f81cbb7f1e5022434bb72fb3f028c48f28ad88e",
+        "commit": "8f81cbb7f1e5022434bb72fb3f028c48f28ad88e",
+        "reachable_from_fetched_ref": true
+      },
+      "viewer": {
+        "commit": "8f81cbb7f1e5022434bb72fb3f028c48f28ad88e",
+        "path": "preview/georgia-v1/georgia-v1.html",
+        "bytes": 4258189,
+        "sha256": "ef31dc5903447ca8ed1a2b96391011d0f1ed09678dcad476e9c9239564126fdd",
+        "under_5000000": true
+      },
+      "glb_bytes": 2642344,
+      "source_archives": [
+        {
+          "path": "preview/georgia-v1/georgia-v1-source.zip",
+          "sha256": "45c5831cce11946118eebbf45432f1e9f90d40ee4b1deaf4242150140d0e11a1",
+          "bytes": 5263557,
+          "crc_safe_paths_required_payloads": true,
+          "historical_full_inventory_checked": true
+        }
+      ],
+      "captures": [
+        "smoke/georgia/desktop-closed.png",
+        "smoke/georgia/desktop-open.png",
+        "smoke/georgia/mobile-closed.png",
+        "smoke/georgia/mobile-open.png"
+      ],
+      "comparison": "boards/georgia.jpg",
+      "visual_findings": "Tower retained but broad faceted mountains and repeated geometric vegetation differ materially from craggy promotional landscape.",
+      "hardware": "Principal fittings retained. Open interiors/hinges visible; screenshots establish no collision or contact proof.",
+      "decision": "Accept stylized candidate or authorize scoped alignment; no automatic substantial redesign.",
+      "technical_scope": "Fresh exact-byte packaging/CRC/required payloads, motion unit checks and offline desktop/mobile controls; no fresh Blender source parity, sampled collision or corrupt/no-JS fallback rerun.",
+      "browser": [
+        {
+          "id": "georgia",
+          "mode": "desktop",
+          "sha256": "ef31dc5903447ca8ed1a2b96391011d0f1ed09678dcad476e9c9239564126fdd",
+          "scope": "pilot smoke only",
+          "asset": {
+            "triangles": 36676,
+            "meshes": 179,
+            "materials": 7,
+            "bounds": {
+              "min": [
+                -1.927119004633135,
+                -0.23000000417232513,
+                -1.3950000554323196
+              ],
+              "max": [
+                1.8600000143051147,
+                2.7699999809265137,
+                1.4875000286847353
+              ]
+            },
+            "lid": "Lid_Hinge",
+            "latch": "Latch_Pivot",
+            "nonfinite": 0,
+            "degenerate": 0,
+            "bytes": 2642344
+          },
+          "result": "pass",
+          "drag": true,
+          "open_close": true,
+          "interrupted_reset": true,
+          "reduced_motion_endpoints": true,
+          "no_overflow": true,
+          "external_requests": [],
+          "page_errors": []
+        },
+        {
+          "id": "georgia",
+          "mode": "mobile",
+          "sha256": "ef31dc5903447ca8ed1a2b96391011d0f1ed09678dcad476e9c9239564126fdd",
+          "scope": "pilot smoke only",
+          "asset": {
+            "triangles": 36676,
+            "meshes": 179,
+            "materials": 7,
+            "bounds": {
+              "min": [
+                -1.927119004633135,
+                -0.23000000417232513,
+                -1.3950000554323196
+              ],
+              "max": [
+                1.8600000143051147,
+                2.7699999809265137,
+                1.4875000286847353
+              ]
+            },
+            "lid": "Lid_Hinge",
+            "latch": "Latch_Pivot",
+            "nonfinite": 0,
+            "degenerate": 0,
+            "bytes": 2642344
+          },
+          "result": "pass",
+          "drag": true,
+          "open_close": true,
+          "interrupted_reset": true,
+          "reduced_motion_endpoints": true,
+          "no_overflow": true,
+          "external_requests": [],
+          "page_errors": []
+        }
+      ],
+      "motion": {
+        "id": "georgia",
+        "exit_code": 0,
+        "passed": true,
+        "scope": "original motion unit assertions; not fresh collision/source parity"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ]
+    },
+    {
+      "id": "guyana",
+      "status": "needs-decision",
+      "user_final_approved": false,
+      "launch_ready": false,
+      "polish_iterations": 0,
+      "model_changed": false,
+      "selection": {
+        "remote_ref": "origin/art/guyana-v1",
+        "fetched_tip": "c2a84cac11fd6c1d59c58f2c9bc2f3218052a351",
+        "commit": "c2a84cac11fd6c1d59c58f2c9bc2f3218052a351",
+        "reachable_from_fetched_ref": true
+      },
+      "viewer": {
+        "commit": "c2a84cac11fd6c1d59c58f2c9bc2f3218052a351",
+        "path": "preview/guyana-v1/guyana-v1.html",
+        "bytes": 2024172,
+        "sha256": "593c689902b93497a0c86522b9c1d6f86ab9d18518a21e6f2799d071f866d8fc",
+        "under_5000000": true
+      },
+      "glb_bytes": 932588,
+      "source_archives": [
+        {
+          "path": "preview/guyana-v1/guyana-v1-source.zip",
+          "sha256": "641d0006cbae1228fa3d9d4458a3e4394259d8d455f350cbc1c06d8c200a0ad5",
+          "bytes": 7471434,
+          "crc_safe_paths_required_payloads": true,
+          "historical_full_inventory_checked": true
+        }
+      ],
+      "captures": [
+        "smoke/guyana/desktop-closed.png",
+        "smoke/guyana/desktop-open.png",
+        "smoke/guyana/mobile-closed.png",
+        "smoke/guyana/mobile-open.png"
+      ],
+      "comparison": "boards/guyana.jpg",
+      "visual_findings": "Waterfall retained; block-like escarpment and rounded canopy versus irregular cliff and layered promotional rainforest.",
+      "hardware": "Principal fittings retained. Open interiors/hinges visible; screenshots establish no collision or contact proof.",
+      "decision": "Accept stylized candidate or authorize scoped alignment; no automatic substantial redesign.",
+      "technical_scope": "Fresh exact-byte packaging/CRC/required payloads, motion unit checks and offline desktop/mobile controls; no fresh Blender source parity, sampled collision or corrupt/no-JS fallback rerun.",
+      "browser": [
+        {
+          "id": "guyana",
+          "mode": "desktop",
+          "sha256": "593c689902b93497a0c86522b9c1d6f86ab9d18518a21e6f2799d071f866d8fc",
+          "scope": "pilot smoke only",
+          "asset": {
+            "triangles": 9216,
+            "meshes": 70,
+            "materials": 11,
+            "bounds": {
+              "min": [
+                -1.8600000143051147,
+                -0.2749999985098839,
+                -1.3950000554323196
+              ],
+              "max": [
+                1.8600000143051147,
+                2.875148117542267,
+                1.4875000286847353
+              ]
+            },
+            "lid": "Lid_Hinge",
+            "latch": "Latch_Pivot",
+            "nonfinite": 0,
+            "degenerate": 0,
+            "bytes": 932588
+          },
+          "result": "pass",
+          "drag": true,
+          "open_close": true,
+          "interrupted_reset": true,
+          "reduced_motion_endpoints": true,
+          "no_overflow": true,
+          "external_requests": [],
+          "page_errors": []
+        },
+        {
+          "id": "guyana",
+          "mode": "mobile",
+          "sha256": "593c689902b93497a0c86522b9c1d6f86ab9d18518a21e6f2799d071f866d8fc",
+          "scope": "pilot smoke only",
+          "asset": {
+            "triangles": 9216,
+            "meshes": 70,
+            "materials": 11,
+            "bounds": {
+              "min": [
+                -1.8600000143051147,
+                -0.2749999985098839,
+                -1.3950000554323196
+              ],
+              "max": [
+                1.8600000143051147,
+                2.875148117542267,
+                1.4875000286847353
+              ]
+            },
+            "lid": "Lid_Hinge",
+            "latch": "Latch_Pivot",
+            "nonfinite": 0,
+            "degenerate": 0,
+            "bytes": 932588
+          },
+          "result": "pass",
+          "drag": true,
+          "open_close": true,
+          "interrupted_reset": true,
+          "reduced_motion_endpoints": true,
+          "no_overflow": true,
+          "external_requests": [],
+          "page_errors": []
+        }
+      ],
+      "motion": {
+        "id": "guyana",
+        "exit_code": 0,
+        "passed": true,
+        "scope": "original motion unit assertions; not fresh collision/source parity"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ]
+    },
+    {
+      "id": "iran",
+      "status": "pass",
+      "user_final_approved": false,
+      "launch_ready": false,
+      "polish_iterations": 0,
+      "model_changed": false,
+      "selection": {
+        "remote_ref": "origin/art/iran-v1",
+        "fetched_tip": "046a18fef6f135a8ffdb7b180e5dae10a3e00996",
+        "commit": "046a18fef6f135a8ffdb7b180e5dae10a3e00996",
+        "reachable_from_fetched_ref": true
+      },
+      "viewer": {
+        "commit": "046a18fef6f135a8ffdb7b180e5dae10a3e00996",
+        "path": "preview/iran-v1/iran-v1.html",
+        "bytes": 2582271,
+        "sha256": "896d715518692de37bf90b6e76d97e869594d3f20151f646255e0a6474ca77bf",
+        "under_5000000": true
+      },
+      "glb_bytes": 1314276,
+      "source_archives": [
+        {
+          "path": "preview/iran-v1/iran-v1-source.zip",
+          "sha256": "c27e5f42f9710a35983c9a4a6cc221455f0ae2dad66155ec3be8bc55a7a091b2",
+          "bytes": 5631444,
+          "crc_safe_paths_required_payloads": true,
+          "historical_full_inventory_checked": true
+        }
+      ],
+      "captures": [
+        "smoke/iran/desktop-closed.png",
+        "smoke/iran/desktop-open.png",
+        "smoke/iran/mobile-closed.png",
+        "smoke/iran/mobile-open.png"
+      ],
+      "comparison": "boards/iran.jpg",
+      "visual_findings": "Star motifs and hardware retained; graphic blue/turquoise surfaces lack promotional glaze variation and apparent relief.",
+      "hardware": "Principal fittings retained. Open interiors/hinges visible; screenshots establish no collision or contact proof.",
+      "decision": "No observed defect warrants model regeneration; retain finish caveats and final approval hold.",
+      "technical_scope": "Fresh exact-byte packaging/CRC/required payloads, motion unit checks and offline desktop/mobile controls; no fresh Blender source parity, sampled collision or corrupt/no-JS fallback rerun.",
+      "browser": [
+        {
+          "id": "iran",
+          "mode": "desktop",
+          "sha256": "896d715518692de37bf90b6e76d97e869594d3f20151f646255e0a6474ca77bf",
+          "scope": "pilot smoke only",
+          "asset": {
+            "triangles": 14740,
+            "meshes": 93,
+            "materials": 6,
+            "bounds": {
+              "min": [
+                -1.927119004633135,
+                -0.23000000417232513,
+                -1.3950000554323196
+              ],
+              "max": [
+                1.8600000143051147,
+                2.0480000972747803,
+                1.4875000286847353
+              ]
+            },
+            "lid": "Lid_Hinge",
+            "latch": "Latch_Pivot",
+            "nonfinite": 0,
+            "degenerate": 0,
+            "bytes": 1314276
+          },
+          "result": "pass",
+          "drag": true,
+          "open_close": true,
+          "interrupted_reset": true,
+          "reduced_motion_endpoints": true,
+          "no_overflow": true,
+          "external_requests": [],
+          "page_errors": []
+        },
+        {
+          "id": "iran",
+          "mode": "mobile",
+          "sha256": "896d715518692de37bf90b6e76d97e869594d3f20151f646255e0a6474ca77bf",
+          "scope": "pilot smoke only",
+          "asset": {
+            "triangles": 14740,
+            "meshes": 93,
+            "materials": 6,
+            "bounds": {
+              "min": [
+                -1.927119004633135,
+                -0.23000000417232513,
+                -1.3950000554323196
+              ],
+              "max": [
+                1.8600000143051147,
+                2.0480000972747803,
+                1.4875000286847353
+              ]
+            },
+            "lid": "Lid_Hinge",
+            "latch": "Latch_Pivot",
+            "nonfinite": 0,
+            "degenerate": 0,
+            "bytes": 1314276
+          },
+          "result": "pass",
+          "drag": true,
+          "open_close": true,
+          "interrupted_reset": true,
+          "reduced_motion_endpoints": true,
+          "no_overflow": true,
+          "external_requests": [],
+          "page_errors": []
+        }
+      ],
+      "motion": {
+        "id": "iran",
+        "exit_code": 0,
+        "passed": true,
+        "scope": "original motion unit assertions; not fresh collision/source parity"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ]
+    },
+    {
+      "id": "kazakhstan",
+      "status": "pass",
+      "user_final_approved": false,
+      "launch_ready": false,
+      "polish_iterations": 0,
+      "model_changed": false,
+      "selection": {
+        "remote_ref": "origin/art/kazakhstan-v1",
+        "fetched_tip": "8266cf8c3f24208c413a10d6244a801e6ef50392",
+        "commit": "8266cf8c3f24208c413a10d6244a801e6ef50392",
+        "reachable_from_fetched_ref": true
+      },
+      "viewer": {
+        "commit": "8266cf8c3f24208c413a10d6244a801e6ef50392",
+        "path": "preview/kazakhstan-v1/kazakhstan-v1.html",
+        "bytes": 3196697,
+        "sha256": "a810420910f30b13be6674a8d5d1cd4e8657fbba79f447c2089960b1a1319fa7",
+        "under_5000000": true
+      },
+      "glb_bytes": 1840508,
+      "source_archives": [
+        {
+          "path": "preview/kazakhstan-v1/kazakhstan-v1-source.zip",
+          "sha256": "bb20c56b8d658dec2971f0256b274d6288872a0179d4945e4e914cb2f035a4cc",
+          "bytes": 7618297,
+          "crc_safe_paths_required_payloads": true,
+          "historical_full_inventory_checked": true
+        }
+      ],
+      "captures": [
+        "smoke/kazakhstan/desktop-closed.png",
+        "smoke/kazakhstan/desktop-open.png",
+        "smoke/kazakhstan/mobile-closed.png",
+        "smoke/kazakhstan/mobile-open.png"
+      ],
+      "comparison": "boards/kazakhstan.jpg",
+      "visual_findings": "Scrolls and circular ornament retained; cream panels do not resolve as fibrous felt and wood reads as regular stripes.",
+      "hardware": "Principal fittings retained. Open interiors/hinges visible; screenshots establish no collision or contact proof.",
+      "decision": "No observed defect warrants model regeneration; retain finish caveats and final approval hold.",
+      "technical_scope": "Fresh exact-byte packaging/CRC/required payloads, motion unit checks and offline desktop/mobile controls; no fresh Blender source parity, sampled collision or corrupt/no-JS fallback rerun.",
+      "browser": [
+        {
+          "id": "kazakhstan",
+          "mode": "desktop",
+          "sha256": "a810420910f30b13be6674a8d5d1cd4e8657fbba79f447c2089960b1a1319fa7",
+          "scope": "pilot smoke only",
+          "asset": {
+            "triangles": 36176,
+            "meshes": 99,
+            "materials": 6,
+            "bounds": {
+              "min": [
+                -1.927119004633135,
+                -0.25999999791383743,
+                -1.3950000554323196
+              ],
+              "max": [
+                1.8979500532150269,
+                2.1480000019073486,
+                1.4875000286847353
+              ]
+            },
+            "lid": "Lid_Hinge",
+            "latch": "Latch_Pivot",
+            "nonfinite": 0,
+            "degenerate": 0,
+            "bytes": 1840508
+          },
+          "result": "pass",
+          "drag": true,
+          "open_close": true,
+          "interrupted_reset": true,
+          "reduced_motion_endpoints": true,
+          "no_overflow": true,
+          "external_requests": [],
+          "page_errors": []
+        },
+        {
+          "id": "kazakhstan",
+          "mode": "mobile",
+          "sha256": "a810420910f30b13be6674a8d5d1cd4e8657fbba79f447c2089960b1a1319fa7",
+          "scope": "pilot smoke only",
+          "asset": {
+            "triangles": 36176,
+            "meshes": 99,
+            "materials": 6,
+            "bounds": {
+              "min": [
+                -1.927119004633135,
+                -0.25999999791383743,
+                -1.3950000554323196
+              ],
+              "max": [
+                1.8979500532150269,
+                2.1480000019073486,
+                1.4875000286847353
+              ]
+            },
+            "lid": "Lid_Hinge",
+            "latch": "Latch_Pivot",
+            "nonfinite": 0,
+            "degenerate": 0,
+            "bytes": 1840508
+          },
+          "result": "pass",
+          "drag": true,
+          "open_close": true,
+          "interrupted_reset": true,
+          "reduced_motion_endpoints": true,
+          "no_overflow": true,
+          "external_requests": [],
+          "page_errors": []
+        }
+      ],
+      "motion": {
+        "id": "kazakhstan",
+        "exit_code": 0,
+        "passed": true,
+        "scope": "original motion unit assertions; not fresh collision/source parity"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ]
+    },
+    {
+      "id": "lesotho",
+      "status": "pass",
+      "user_final_approved": false,
+      "launch_ready": false,
+      "polish_iterations": 0,
+      "model_changed": false,
+      "selection": {
+        "remote_ref": "origin/art/lesotho-v1",
+        "fetched_tip": "63bfeeb9b3f2d4dbbe94a66efb269ad957f7b9af",
+        "commit": "63bfeeb9b3f2d4dbbe94a66efb269ad957f7b9af",
+        "reachable_from_fetched_ref": true
+      },
+      "viewer": {
+        "commit": "63bfeeb9b3f2d4dbbe94a66efb269ad957f7b9af",
+        "path": "preview/lesotho-v1/lesotho-v1.html",
+        "bytes": 3136261,
+        "sha256": "09465039530d44cafb395ebb908208a8748630bbcbc0483a1487616a6086a3b6",
+        "under_5000000": true
+      },
+      "glb_bytes": 1802704,
+      "source_archives": [
+        {
+          "path": "preview/lesotho-v1/lesotho-v1-source.zip",
+          "sha256": "06e4acff887cb7b9a565fbd2c77647b2259dc4d03040031ad43b3b3e0fdf6726",
+          "bytes": 8164255,
+          "crc_safe_paths_required_payloads": true,
+          "historical_full_inventory_checked": true
+        }
+      ],
+      "captures": [
+        "smoke/lesotho/desktop-closed.png",
+        "smoke/lesotho/desktop-open.png",
+        "smoke/lesotho/mobile-closed.png",
+        "smoke/lesotho/mobile-open.png"
+      ],
+      "comparison": "boards/lesotho.jpg",
+      "visual_findings": "Compact mountain cluster; pale stone streaks and graphic indigo stripes rather than tactile textile. Framing affects perceived terrain size.",
+      "hardware": "Principal fittings retained. Open interiors/hinges visible; screenshots establish no collision or contact proof.",
+      "decision": "No observed defect warrants model regeneration; retain finish caveats and final approval hold.",
+      "technical_scope": "Fresh exact-byte packaging/CRC/required payloads, motion unit checks and offline desktop/mobile controls; no fresh Blender source parity, sampled collision or corrupt/no-JS fallback rerun.",
+      "browser": [
+        {
+          "id": "lesotho",
+          "mode": "desktop",
+          "sha256": "09465039530d44cafb395ebb908208a8748630bbcbc0483a1487616a6086a3b6",
+          "scope": "pilot smoke only",
+          "asset": {
+            "triangles": 17958,
+            "meshes": 102,
+            "materials": 10,
+            "bounds": {
+              "min": [
+                -1.9279999874783151,
+                -0.23499999940395355,
+                -1.3950000554323196
+              ],
+              "max": [
+                1.8600000143051147,
+                2.5015499591827393,
+                1.4875000286847353
+              ]
+            },
+            "lid": "Lid_Hinge",
+            "latch": "Latch_Pivot",
+            "nonfinite": 0,
+            "degenerate": 0,
+            "bytes": 1802704
+          },
+          "result": "pass",
+          "drag": true,
+          "open_close": true,
+          "interrupted_reset": true,
+          "reduced_motion_endpoints": true,
+          "no_overflow": true,
+          "external_requests": [],
+          "page_errors": []
+        },
+        {
+          "id": "lesotho",
+          "mode": "mobile",
+          "sha256": "09465039530d44cafb395ebb908208a8748630bbcbc0483a1487616a6086a3b6",
+          "scope": "pilot smoke only",
+          "asset": {
+            "triangles": 17958,
+            "meshes": 102,
+            "materials": 10,
+            "bounds": {
+              "min": [
+                -1.9279999874783151,
+                -0.23499999940395355,
+                -1.3950000554323196
+              ],
+              "max": [
+                1.8600000143051147,
+                2.5015499591827393,
+                1.4875000286847353
+              ]
+            },
+            "lid": "Lid_Hinge",
+            "latch": "Latch_Pivot",
+            "nonfinite": 0,
+            "degenerate": 0,
+            "bytes": 1802704
+          },
+          "result": "pass",
+          "drag": true,
+          "open_close": true,
+          "interrupted_reset": true,
+          "reduced_motion_endpoints": true,
+          "no_overflow": true,
+          "external_requests": [],
+          "page_errors": []
+        }
+      ],
+      "motion": {
+        "id": "lesotho",
+        "exit_code": 0,
+        "passed": true,
+        "scope": "original motion unit assertions; not fresh collision/source parity"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ]
+    },
+    {
+      "id": "malaysia",
+      "status": "needs-decision",
+      "user_final_approved": false,
+      "launch_ready": false,
+      "polish_iterations": 0,
+      "model_changed": false,
+      "selection": {
+        "remote_ref": "origin/art/malaysia-v1",
+        "fetched_tip": "0d34e1f35442caabdb809d1fb9b0ed76c2e6eaf5",
+        "commit": "0d34e1f35442caabdb809d1fb9b0ed76c2e6eaf5",
+        "reachable_from_fetched_ref": true
+      },
+      "viewer": {
+        "commit": "0d34e1f35442caabdb809d1fb9b0ed76c2e6eaf5",
+        "path": "preview/malaysia-v1/malaysia-v1.html",
+        "bytes": 2192602,
+        "sha256": "4dcef905bb994d17443675a28872365d95f6d9585c3d4cd2197390ee73ca0a7c",
+        "under_5000000": true
+      },
+      "glb_bytes": 1031644,
+      "source_archives": [
+        {
+          "path": "preview/malaysia-v1/malaysia-v1-source.zip",
+          "sha256": "d5ed3787d5b1bde93e49b9f427e9c596812ff711916a6591e4a3e29f1ec397e8",
+          "bytes": 4785200,
+          "crc_safe_paths_required_payloads": true,
+          "historical_full_inventory_checked": true
+        }
+      ],
+      "captures": [
+        "smoke/malaysia/desktop-closed.png",
+        "smoke/malaysia/desktop-open.png",
+        "smoke/malaysia/mobile-closed.png",
+        "smoke/malaysia/mobile-open.png"
+      ],
+      "comparison": "boards/malaysia.jpg",
+      "visual_findings": "Consistent crimson body and bronze-brown top versus marketing mauve and charcoal. Viewer copy explicitly says crimson; direction decision, not proven renderer bug.",
+      "hardware": "Principal fittings retained. Open interiors/hinges visible; screenshots establish no collision or contact proof.",
+      "decision": "Accept stylized candidate or authorize scoped alignment; no automatic substantial redesign.",
+      "technical_scope": "Fresh exact-byte packaging/CRC/required payloads, motion unit checks and offline desktop/mobile controls; no fresh Blender source parity, sampled collision or corrupt/no-JS fallback rerun.",
+      "browser": [
+        {
+          "id": "malaysia",
+          "mode": "desktop",
+          "sha256": "4dcef905bb994d17443675a28872365d95f6d9585c3d4cd2197390ee73ca0a7c",
+          "scope": "pilot smoke only",
+          "asset": {
+            "triangles": 15992,
+            "meshes": 120,
+            "materials": 5,
+            "bounds": {
+              "min": [
+                -1.927119004633135,
+                -0.3077426925301552,
+                -1.3950000554323196
+              ],
+              "max": [
+                1.8600000143051147,
+                2.0250000953674316,
+                1.4875000286847353
+              ]
+            },
+            "lid": "Lid_Hinge",
+            "latch": "Latch_Pivot",
+            "nonfinite": 0,
+            "degenerate": 0,
+            "bytes": 1031644
+          },
+          "result": "pass",
+          "drag": true,
+          "open_close": true,
+          "interrupted_reset": true,
+          "reduced_motion_endpoints": true,
+          "no_overflow": true,
+          "external_requests": [],
+          "page_errors": []
+        },
+        {
+          "id": "malaysia",
+          "mode": "mobile",
+          "sha256": "4dcef905bb994d17443675a28872365d95f6d9585c3d4cd2197390ee73ca0a7c",
+          "scope": "pilot smoke only",
+          "asset": {
+            "triangles": 15992,
+            "meshes": 120,
+            "materials": 5,
+            "bounds": {
+              "min": [
+                -1.927119004633135,
+                -0.3077426925301552,
+                -1.3950000554323196
+              ],
+              "max": [
+                1.8600000143051147,
+                2.0250000953674316,
+                1.4875000286847353
+              ]
+            },
+            "lid": "Lid_Hinge",
+            "latch": "Latch_Pivot",
+            "nonfinite": 0,
+            "degenerate": 0,
+            "bytes": 1031644
+          },
+          "result": "pass",
+          "drag": true,
+          "open_close": true,
+          "interrupted_reset": true,
+          "reduced_motion_endpoints": true,
+          "no_overflow": true,
+          "external_requests": [],
+          "page_errors": []
+        }
+      ],
+      "motion": {
+        "id": "malaysia",
+        "exit_code": 0,
+        "passed": true,
+        "scope": "original motion unit assertions; not fresh collision/source parity"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ]
+    },
+    {
+      "id": "micronesia",
+      "status": "needs-decision",
+      "user_final_approved": false,
+      "launch_ready": false,
+      "polish_iterations": 0,
+      "model_changed": false,
+      "selection": {
+        "remote_ref": "origin/art/micronesia-v1",
+        "fetched_tip": "0f43c625d328a91dd1da0279d016e59daa7e828a",
+        "commit": "0f43c625d328a91dd1da0279d016e59daa7e828a",
+        "reachable_from_fetched_ref": true
+      },
+      "viewer": {
+        "commit": "0f43c625d328a91dd1da0279d016e59daa7e828a",
+        "path": "preview/micronesia-v1/micronesia-v1.html",
+        "bytes": 2738484,
+        "sha256": "2582c53c5db154fc49d68f7917cc335d2a8b03f11c85c6fe8707784578db5d70",
+        "under_5000000": true
+      },
+      "glb_bytes": 1461776,
+      "source_archives": [
+        {
+          "path": "preview/micronesia-v1/micronesia-v1-source.zip",
+          "sha256": "c926d025e19866c8716ae23a369e504482a3a257aae4b73decf78768dc9ddcce",
+          "bytes": 5764943,
+          "crc_safe_paths_required_payloads": true,
+          "historical_full_inventory_checked": true
+        }
+      ],
+      "captures": [
+        "smoke/micronesia/desktop-closed.png",
+        "smoke/micronesia/desktop-open.png",
+        "smoke/micronesia/mobile-closed.png",
+        "smoke/micronesia/mobile-open.png"
+      ],
+      "comparison": "boards/micronesia.jpg",
+      "visual_findings": "Regular platforms and smooth masonry versus tactile basalt and stronger sculptural promotional relief.",
+      "hardware": "Principal fittings retained. Open interiors/hinges visible; screenshots establish no collision or contact proof.",
+      "decision": "Accept stylized candidate or authorize scoped alignment; no automatic substantial redesign.",
+      "technical_scope": "Fresh exact-byte packaging/CRC/required payloads, motion unit checks and offline desktop/mobile controls; no fresh Blender source parity, sampled collision or corrupt/no-JS fallback rerun.",
+      "browser": [
+        {
+          "id": "micronesia",
+          "mode": "desktop",
+          "sha256": "2582c53c5db154fc49d68f7917cc335d2a8b03f11c85c6fe8707784578db5d70",
+          "scope": "pilot smoke only",
+          "asset": {
+            "triangles": 17196,
+            "meshes": 203,
+            "materials": 5,
+            "bounds": {
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ],
+              "max": [
+                1.8600000143051147,
+                2.360999934375286,
+                1.4875000286847353
+              ]
+            },
+            "lid": "Lid_Hinge",
+            "latch": "Latch_Pivot",
+            "nonfinite": 0,
+            "degenerate": 0,
+            "bytes": 1461776
+          },
+          "result": "pass",
+          "drag": true,
+          "open_close": true,
+          "interrupted_reset": true,
+          "reduced_motion_endpoints": true,
+          "no_overflow": true,
+          "external_requests": [],
+          "page_errors": []
+        },
+        {
+          "id": "micronesia",
+          "mode": "mobile",
+          "sha256": "2582c53c5db154fc49d68f7917cc335d2a8b03f11c85c6fe8707784578db5d70",
+          "scope": "pilot smoke only",
+          "asset": {
+            "triangles": 17196,
+            "meshes": 203,
+            "materials": 5,
+            "bounds": {
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ],
+              "max": [
+                1.8600000143051147,
+                2.360999934375286,
+                1.4875000286847353
+              ]
+            },
+            "lid": "Lid_Hinge",
+            "latch": "Latch_Pivot",
+            "nonfinite": 0,
+            "degenerate": 0,
+            "bytes": 1461776
+          },
+          "result": "pass",
+          "drag": true,
+          "open_close": true,
+          "interrupted_reset": true,
+          "reduced_motion_endpoints": true,
+          "no_overflow": true,
+          "external_requests": [],
+          "page_errors": []
+        }
+      ],
+      "motion": {
+        "id": "micronesia",
+        "exit_code": 0,
+        "passed": true,
+        "scope": "original motion unit assertions; not fresh collision/source parity"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ]
+    },
+    {
+      "id": "namibia",
+      "status": "needs-decision",
+      "user_final_approved": false,
+      "launch_ready": false,
+      "polish_iterations": 0,
+      "model_changed": false,
+      "selection": {
+        "remote_ref": "origin/art/namibia-v1",
+        "fetched_tip": "bb790488e867f1bf8c57b3ea273ea737f9f61766",
+        "commit": "bb790488e867f1bf8c57b3ea273ea737f9f61766",
+        "reachable_from_fetched_ref": true
+      },
+      "viewer": {
+        "commit": "bb790488e867f1bf8c57b3ea273ea737f9f61766",
+        "path": "preview/namibia-v1/namibia-v1.html",
+        "bytes": 2922315,
+        "sha256": "3b46f80b8b4d8172af41b1d26d435475ae8d99c0e2d1449174a670d7ce88b20a",
+        "under_5000000": true
+      },
+      "glb_bytes": 1649960,
+      "source_archives": [
+        {
+          "path": "preview/namibia-v1/namibia-v1-source.zip",
+          "sha256": "26c2b55f3a9d9d45cc0cfe7f24b7ae078665b2728a3dd1167698da5ecf726e01",
+          "bytes": 8121539,
+          "crc_safe_paths_required_payloads": true,
+          "historical_full_inventory_checked": false
+        }
+      ],
+      "captures": [
+        "smoke/namibia/desktop-closed.png",
+        "smoke/namibia/desktop-open.png",
+        "smoke/namibia/mobile-closed.png",
+        "smoke/namibia/mobile-open.png"
+      ],
+      "comparison": "boards/namibia.jpg",
+      "visual_findings": "Compact yellow-gold dunes and narrower apparent playa versus elongated peach marketing ridges. Parent full archive inventory hold remains.",
+      "hardware": "Principal fittings retained. Open interiors/hinges visible; screenshots establish no collision or contact proof.",
+      "decision": "Accept stylized candidate or authorize scoped alignment; no automatic substantial redesign.",
+      "technical_scope": "Fresh exact-byte packaging/CRC/required payloads, motion unit checks and offline desktop/mobile controls; no fresh Blender source parity, sampled collision or corrupt/no-JS fallback rerun.",
+      "browser": [
+        {
+          "id": "namibia",
+          "mode": "desktop",
+          "sha256": "3b46f80b8b4d8172af41b1d26d435475ae8d99c0e2d1449174a670d7ce88b20a",
+          "scope": "pilot smoke only",
+          "asset": {
+            "triangles": 21800,
+            "meshes": 60,
+            "materials": 8,
+            "bounds": {
+              "min": [
+                -1.927119004633135,
+                -0.3011416867375374,
+                -1.3950000554323196
+              ],
+              "max": [
+                1.8600000143051147,
+                2.5075371265411377,
+                1.4875000286847353
+              ]
+            },
+            "lid": "Lid_Hinge",
+            "latch": "Latch_Pivot",
+            "nonfinite": 0,
+            "degenerate": 0,
+            "bytes": 1649960
+          },
+          "result": "pass",
+          "drag": true,
+          "open_close": true,
+          "interrupted_reset": true,
+          "reduced_motion_endpoints": true,
+          "no_overflow": true,
+          "external_requests": [],
+          "page_errors": []
+        },
+        {
+          "id": "namibia",
+          "mode": "mobile",
+          "sha256": "3b46f80b8b4d8172af41b1d26d435475ae8d99c0e2d1449174a670d7ce88b20a",
+          "scope": "pilot smoke only",
+          "asset": {
+            "triangles": 21800,
+            "meshes": 60,
+            "materials": 8,
+            "bounds": {
+              "min": [
+                -1.927119004633135,
+                -0.3011416867375374,
+                -1.3950000554323196
+              ],
+              "max": [
+                1.8600000143051147,
+                2.5075371265411377,
+                1.4875000286847353
+              ]
+            },
+            "lid": "Lid_Hinge",
+            "latch": "Latch_Pivot",
+            "nonfinite": 0,
+            "degenerate": 0,
+            "bytes": 1649960
+          },
+          "result": "pass",
+          "drag": true,
+          "open_close": true,
+          "interrupted_reset": true,
+          "reduced_motion_endpoints": true,
+          "no_overflow": true,
+          "external_requests": [],
+          "page_errors": []
+        }
+      ],
+      "motion": {
+        "id": "namibia",
+        "exit_code": 0,
+        "passed": true,
+        "scope": "original motion unit assertions; not fresh collision/source parity"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "complete-source-archive-inventory-not-verified"
+      ]
+    },
+    {
+      "id": "north-korea",
+      "status": "needs-decision",
+      "user_final_approved": false,
+      "launch_ready": false,
+      "polish_iterations": 0,
+      "model_changed": false,
+      "selection": {
+        "remote_ref": "origin/art/north-korea-v1",
+        "fetched_tip": "a5a30530e8770f18324d9960d79d9ef456fbc102",
+        "commit": "a5a30530e8770f18324d9960d79d9ef456fbc102",
+        "reachable_from_fetched_ref": true
+      },
+      "viewer": {
+        "commit": "a5a30530e8770f18324d9960d79d9ef456fbc102",
+        "path": "preview/north-korea-v1/north-korea-v1.html",
+        "bytes": 2193862,
+        "sha256": "7a642a87a20aa58bff197975f820834eb8d817251291e3e732784bfec88a3716",
+        "under_5000000": true
+      },
+      "glb_bytes": 1008932,
+      "source_archives": [
+        {
+          "path": "preview/north-korea-v1/north-korea-v1-source.zip",
+          "sha256": "7f2ee96161c7ba3550265fe77334bea6646e6fffe77ddada5ca1622bd2faa44d",
+          "bytes": 5213988,
+          "crc_safe_paths_required_payloads": true,
+          "historical_full_inventory_checked": true
+        }
+      ],
+      "captures": [
+        "smoke/north-korea/desktop-closed.png",
+        "smoke/north-korea/desktop-open.png",
+        "smoke/north-korea/mobile-closed.png",
+        "smoke/north-korea/mobile-open.png"
+      ],
+      "comparison": "boards/north-korea.jpg",
+      "visual_findings": "Compact caldera and smaller visible lake; regular diagonal/wavy stone texture versus subtler promotional finish.",
+      "hardware": "Principal fittings retained. Open interiors/hinges visible; screenshots establish no collision or contact proof.",
+      "decision": "Accept stylized candidate or authorize scoped alignment; no automatic substantial redesign.",
+      "technical_scope": "Fresh exact-byte packaging/CRC/required payloads, motion unit checks and offline desktop/mobile controls; no fresh Blender source parity, sampled collision or corrupt/no-JS fallback rerun.",
+      "browser": [
+        {
+          "id": "north-korea",
+          "mode": "desktop",
+          "sha256": "7a642a87a20aa58bff197975f820834eb8d817251291e3e732784bfec88a3716",
+          "scope": "pilot smoke only",
+          "asset": {
+            "triangles": 14808,
+            "meshes": 57,
+            "materials": 6,
+            "bounds": {
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ],
+              "max": [
+                1.8600000143051147,
+                2.567992925643921,
+                1.4875000286847353
+              ]
+            },
+            "lid": "Lid_Hinge",
+            "latch": "Latch_Pivot",
+            "nonfinite": 0,
+            "degenerate": 0,
+            "bytes": 1008932
+          },
+          "result": "pass",
+          "drag": true,
+          "open_close": true,
+          "interrupted_reset": true,
+          "reduced_motion_endpoints": true,
+          "no_overflow": true,
+          "external_requests": [],
+          "page_errors": []
+        },
+        {
+          "id": "north-korea",
+          "mode": "mobile",
+          "sha256": "7a642a87a20aa58bff197975f820834eb8d817251291e3e732784bfec88a3716",
+          "scope": "pilot smoke only",
+          "asset": {
+            "triangles": 14808,
+            "meshes": 57,
+            "materials": 6,
+            "bounds": {
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ],
+              "max": [
+                1.8600000143051147,
+                2.567992925643921,
+                1.4875000286847353
+              ]
+            },
+            "lid": "Lid_Hinge",
+            "latch": "Latch_Pivot",
+            "nonfinite": 0,
+            "degenerate": 0,
+            "bytes": 1008932
+          },
+          "result": "pass",
+          "drag": true,
+          "open_close": true,
+          "interrupted_reset": true,
+          "reduced_motion_endpoints": true,
+          "no_overflow": true,
+          "external_requests": [],
+          "page_errors": []
+        }
+      ],
+      "motion": {
+        "id": "north-korea",
+        "exit_code": 0,
+        "passed": true,
+        "scope": "original motion unit assertions; not fresh collision/source parity"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ]
+    },
+    {
+      "id": "panama",
+      "status": "needs-decision",
+      "user_final_approved": false,
+      "launch_ready": false,
+      "polish_iterations": 0,
+      "model_changed": false,
+      "selection": {
+        "remote_ref": "origin/art/panama-v1",
+        "fetched_tip": "8bfbd0883bebc78d10896040db72c8a85e900cc5",
+        "commit": "8bfbd0883bebc78d10896040db72c8a85e900cc5",
+        "reachable_from_fetched_ref": true
+      },
+      "viewer": {
+        "commit": "8bfbd0883bebc78d10896040db72c8a85e900cc5",
+        "path": "preview/panama-v1/panama-v1.html",
+        "bytes": 2861782,
+        "sha256": "b08e0b6d90219786fa8d846004f3826950829fc7877b5b82450d59ec130e448b",
+        "under_5000000": true
+      },
+      "glb_bytes": 1559000,
+      "source_archives": [
+        {
+          "path": "preview/panama-v1/panama-v1-source.zip",
+          "sha256": "84be091feb8a9f56d4303bb88be3f0f83f9a3c3d86f10ebab979f14674513869",
+          "bytes": 7183917,
+          "crc_safe_paths_required_payloads": true,
+          "historical_full_inventory_checked": true
+        }
+      ],
+      "captures": [
+        "smoke/panama/desktop-closed.png",
+        "smoke/panama/desktop-open.png",
+        "smoke/panama/mobile-closed.png",
+        "smoke/panama/mobile-open.png"
+      ],
+      "comparison": "boards/panama.jpg",
+      "visual_findings": "Three visible trees in promotion versus two in both closed runtime views. Sparser canopy, flatter banks and narrower channel; confirmed visual inconsistency, not proven functional bug.",
+      "hardware": "Principal fittings retained. Open interiors/hinges visible; screenshots establish no collision or contact proof.",
+      "decision": "Accept stylized candidate or authorize scoped alignment; no automatic substantial redesign.",
+      "technical_scope": "Fresh exact-byte packaging/CRC/required payloads, motion unit checks and offline desktop/mobile controls; no fresh Blender source parity, sampled collision or corrupt/no-JS fallback rerun.",
+      "browser": [
+        {
+          "id": "panama",
+          "mode": "desktop",
+          "sha256": "b08e0b6d90219786fa8d846004f3826950829fc7877b5b82450d59ec130e448b",
+          "scope": "pilot smoke only",
+          "asset": {
+            "triangles": 18886,
+            "meshes": 110,
+            "materials": 11,
+            "bounds": {
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ],
+              "max": [
+                1.8600000143051147,
+                2.73954439163208,
+                1.4875000286847353
+              ]
+            },
+            "lid": "Lid_Hinge",
+            "latch": "Latch_Pivot",
+            "nonfinite": 0,
+            "degenerate": 0,
+            "bytes": 1559000
+          },
+          "result": "pass",
+          "drag": true,
+          "open_close": true,
+          "interrupted_reset": true,
+          "reduced_motion_endpoints": true,
+          "no_overflow": true,
+          "external_requests": [],
+          "page_errors": []
+        },
+        {
+          "id": "panama",
+          "mode": "mobile",
+          "sha256": "b08e0b6d90219786fa8d846004f3826950829fc7877b5b82450d59ec130e448b",
+          "scope": "pilot smoke only",
+          "asset": {
+            "triangles": 18886,
+            "meshes": 110,
+            "materials": 11,
+            "bounds": {
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ],
+              "max": [
+                1.8600000143051147,
+                2.73954439163208,
+                1.4875000286847353
+              ]
+            },
+            "lid": "Lid_Hinge",
+            "latch": "Latch_Pivot",
+            "nonfinite": 0,
+            "degenerate": 0,
+            "bytes": 1559000
+          },
+          "result": "pass",
+          "drag": true,
+          "open_close": true,
+          "interrupted_reset": true,
+          "reduced_motion_endpoints": true,
+          "no_overflow": true,
+          "external_requests": [],
+          "page_errors": []
+        }
+      ],
+      "motion": {
+        "id": "panama",
+        "exit_code": 0,
+        "passed": true,
+        "scope": "original motion unit assertions; not fresh collision/source parity"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ]
+    },
+    {
+      "id": "republic-of-the-congo",
+      "status": "needs-decision",
+      "user_final_approved": false,
+      "launch_ready": false,
+      "polish_iterations": 0,
+      "model_changed": false,
+      "selection": {
+        "remote_ref": "origin/art/republic-of-the-congo-v1",
+        "fetched_tip": "f6bb506febf3f8e11252fd4888bbd0d7e3b13fab",
+        "commit": "f6bb506febf3f8e11252fd4888bbd0d7e3b13fab",
+        "reachable_from_fetched_ref": true
+      },
+      "viewer": {
+        "commit": "f6bb506febf3f8e11252fd4888bbd0d7e3b13fab",
+        "path": "preview/republic-of-the-congo-v1/republic-of-the-congo-v1.html",
+        "bytes": 2769789,
+        "sha256": "07b191c8a70c8ba751f3be67e144705c8f8f74bdef82c636e9c953d42a705ce7",
+        "under_5000000": true
+      },
+      "glb_bytes": 1529464,
+      "source_archives": [
+        {
+          "path": "preview/republic-of-the-congo-v1/source.zip",
+          "sha256": "cc8b79f7a833d0ec2e470391b1ef7680cc1304b1dcb704a69f07d117e9a701b3",
+          "bytes": 7904595,
+          "crc_safe_paths_required_payloads": true,
+          "historical_full_inventory_checked": true
+        }
+      ],
+      "captures": [
+        "smoke/republic-of-the-congo/desktop-closed.png",
+        "smoke/republic-of-the-congo/desktop-open.png",
+        "smoke/republic-of-the-congo/mobile-closed.png",
+        "smoke/republic-of-the-congo/mobile-open.png"
+      ],
+      "comparison": "boards/republic-of-the-congo.jpg",
+      "visual_findings": "Flatter shoreline and smaller segmented canopies versus fuller promotional wetland; darker warmer grain.",
+      "hardware": "Principal fittings retained. Open interiors/hinges visible; screenshots establish no collision or contact proof.",
+      "decision": "Accept stylized candidate or authorize scoped alignment; no automatic substantial redesign.",
+      "technical_scope": "Fresh exact-byte packaging/CRC/required payloads, motion unit checks and offline desktop/mobile controls; no fresh Blender source parity, sampled collision or corrupt/no-JS fallback rerun.",
+      "browser": [
+        {
+          "id": "republic-of-the-congo",
+          "mode": "desktop",
+          "sha256": "07b191c8a70c8ba751f3be67e144705c8f8f74bdef82c636e9c953d42a705ce7",
+          "scope": "pilot smoke only",
+          "asset": {
+            "triangles": 18184,
+            "meshes": 185,
+            "materials": 12,
+            "bounds": {
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ],
+              "max": [
+                1.8600000143051147,
+                2.6205299720168114,
+                1.4875000286847353
+              ]
+            },
+            "lid": "Lid_Hinge",
+            "latch": "Latch_Pivot",
+            "nonfinite": 0,
+            "degenerate": 0,
+            "bytes": 1529464
+          },
+          "result": "pass",
+          "drag": true,
+          "open_close": true,
+          "interrupted_reset": true,
+          "reduced_motion_endpoints": true,
+          "no_overflow": true,
+          "external_requests": [],
+          "page_errors": []
+        },
+        {
+          "id": "republic-of-the-congo",
+          "mode": "mobile",
+          "sha256": "07b191c8a70c8ba751f3be67e144705c8f8f74bdef82c636e9c953d42a705ce7",
+          "scope": "pilot smoke only",
+          "asset": {
+            "triangles": 18184,
+            "meshes": 185,
+            "materials": 12,
+            "bounds": {
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ],
+              "max": [
+                1.8600000143051147,
+                2.6205299720168114,
+                1.4875000286847353
+              ]
+            },
+            "lid": "Lid_Hinge",
+            "latch": "Latch_Pivot",
+            "nonfinite": 0,
+            "degenerate": 0,
+            "bytes": 1529464
+          },
+          "result": "pass",
+          "drag": true,
+          "open_close": true,
+          "interrupted_reset": true,
+          "reduced_motion_endpoints": true,
+          "no_overflow": true,
+          "external_requests": [],
+          "page_errors": []
+        }
+      ],
+      "motion": {
+        "id": "republic-of-the-congo",
+        "exit_code": 0,
+        "passed": true,
+        "scope": "original motion unit assertions; not fresh collision/source parity"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ]
+    },
+    {
+      "id": "san-marino",
+      "status": "needs-decision",
+      "user_final_approved": false,
+      "launch_ready": false,
+      "polish_iterations": 0,
+      "model_changed": false,
+      "selection": {
+        "remote_ref": "origin/art/san-marino-v1",
+        "fetched_tip": "792a0c5109f652a1d938855d0a290028f4a326a1",
+        "commit": "792a0c5109f652a1d938855d0a290028f4a326a1",
+        "reachable_from_fetched_ref": true
+      },
+      "viewer": {
+        "commit": "792a0c5109f652a1d938855d0a290028f4a326a1",
+        "path": "preview/san-marino-v1/san-marino-v1.html",
+        "bytes": 1933034,
+        "sha256": "8b2c2ac665b9daf4da269833d482df276cb07614956c6260cee665302bde616f",
+        "under_5000000": true
+      },
+      "glb_bytes": 867572,
+      "source_archives": [
+        {
+          "path": "preview/san-marino-v1/san-marino-v1-source.zip",
+          "sha256": "4e95ca53d272546d98a7ab7fc601c8ccc1b504dd05aaa36e028643eb5d10c084",
+          "bytes": 5979175,
+          "crc_safe_paths_required_payloads": true,
+          "historical_full_inventory_checked": true
+        }
+      ],
+      "captures": [
+        "smoke/san-marino/desktop-closed.png",
+        "smoke/san-marino/desktop-open.png",
+        "smoke/san-marino/mobile-closed.png",
+        "smoke/san-marino/mobile-open.png"
+      ],
+      "comparison": "boards/san-marino.jpg",
+      "visual_findings": "Low-severity hold from delegated review: three towers retained but compact ridge and brighter uniformly mottled stone. Minor illustration enhancement, not a mechanical correction.",
+      "hardware": "Principal fittings retained. Open interiors/hinges visible; screenshots establish no collision or contact proof.",
+      "decision": "Accept stylized candidate or authorize scoped alignment; no automatic substantial redesign.",
+      "technical_scope": "Fresh exact-byte packaging/CRC/required payloads, motion unit checks and offline desktop/mobile controls; no fresh Blender source parity, sampled collision or corrupt/no-JS fallback rerun.",
+      "browser": [
+        {
+          "id": "san-marino",
+          "mode": "desktop",
+          "sha256": "8b2c2ac665b9daf4da269833d482df276cb07614956c6260cee665302bde616f",
+          "scope": "pilot smoke only",
+          "asset": {
+            "triangles": 9800,
+            "meshes": 102,
+            "materials": 5,
+            "bounds": {
+              "min": [
+                -1.9279999874783151,
+                -0.2800000086426735,
+                -1.3950000554323196
+              ],
+              "max": [
+                1.8600000143051147,
+                3.1849999986588955,
+                1.4875000286847353
+              ]
+            },
+            "lid": "Lid_Hinge",
+            "latch": "Latch_Pivot",
+            "nonfinite": 0,
+            "degenerate": 0,
+            "bytes": 867572
+          },
+          "result": "pass",
+          "drag": true,
+          "open_close": true,
+          "interrupted_reset": true,
+          "reduced_motion_endpoints": true,
+          "no_overflow": true,
+          "external_requests": [],
+          "page_errors": []
+        },
+        {
+          "id": "san-marino",
+          "mode": "mobile",
+          "sha256": "8b2c2ac665b9daf4da269833d482df276cb07614956c6260cee665302bde616f",
+          "scope": "pilot smoke only",
+          "asset": {
+            "triangles": 9800,
+            "meshes": 102,
+            "materials": 5,
+            "bounds": {
+              "min": [
+                -1.9279999874783151,
+                -0.2800000086426735,
+                -1.3950000554323196
+              ],
+              "max": [
+                1.8600000143051147,
+                3.1849999986588955,
+                1.4875000286847353
+              ]
+            },
+            "lid": "Lid_Hinge",
+            "latch": "Latch_Pivot",
+            "nonfinite": 0,
+            "degenerate": 0,
+            "bytes": 867572
+          },
+          "result": "pass",
+          "drag": true,
+          "open_close": true,
+          "interrupted_reset": true,
+          "reduced_motion_endpoints": true,
+          "no_overflow": true,
+          "external_requests": [],
+          "page_errors": []
+        }
+      ],
+      "motion": {
+        "id": "san-marino",
+        "exit_code": 0,
+        "passed": true,
+        "scope": "original motion unit assertions; not fresh collision/source parity"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ]
+    },
+    {
+      "id": "slovakia",
+      "status": "needs-decision",
+      "user_final_approved": false,
+      "launch_ready": false,
+      "polish_iterations": 0,
+      "model_changed": false,
+      "selection": {
+        "remote_ref": "origin/art/slovakia-v1",
+        "fetched_tip": "8ab535cde9da94db88cc70fbe63451015568bbb2",
+        "commit": "8ab535cde9da94db88cc70fbe63451015568bbb2",
+        "reachable_from_fetched_ref": true
+      },
+      "viewer": {
+        "commit": "8ab535cde9da94db88cc70fbe63451015568bbb2",
+        "path": "preview/slovakia-v1/slovakia-v1.html",
+        "bytes": 4138711,
+        "sha256": "76930668af9de73cf6a161db307fdb47fa8db3added31cb11bd8cc61cad8cc2d",
+        "under_5000000": true
+      },
+      "glb_bytes": 2485936,
+      "source_archives": [
+        {
+          "path": "preview/slovakia-v1/slovakia-v1-source.zip",
+          "sha256": "4936e2d666ba7cb817c38727a2090f1a838bb953e5b0cdb690860a85eab12073",
+          "bytes": 8063709,
+          "crc_safe_paths_required_payloads": true,
+          "historical_full_inventory_checked": true
+        }
+      ],
+      "captures": [
+        "smoke/slovakia/desktop-closed.png",
+        "smoke/slovakia/desktop-open.png",
+        "smoke/slovakia/mobile-closed.png",
+        "smoke/slovakia/mobile-open.png"
+      ],
+      "comparison": "boards/slovakia.jpg",
+      "visual_findings": "Uniform timber and low apparent white ornament relief versus tactile promotional wood and raised decoration.",
+      "hardware": "Principal fittings retained. Open interiors/hinges visible; screenshots establish no collision or contact proof.",
+      "decision": "Accept stylized candidate or authorize scoped alignment; no automatic substantial redesign.",
+      "technical_scope": "Fresh exact-byte packaging/CRC/required payloads, motion unit checks and offline desktop/mobile controls; no fresh Blender source parity, sampled collision or corrupt/no-JS fallback rerun.",
+      "browser": [
+        {
+          "id": "slovakia",
+          "mode": "desktop",
+          "sha256": "76930668af9de73cf6a161db307fdb47fa8db3added31cb11bd8cc61cad8cc2d",
+          "scope": "pilot smoke only",
+          "asset": {
+            "triangles": 21244,
+            "meshes": 295,
+            "materials": 6,
+            "bounds": {
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ],
+              "max": [
+                1.8684999626129866,
+                2.0325001142919064,
+                1.4875000286847353
+              ]
+            },
+            "lid": "Lid_Hinge",
+            "latch": "Latch_Pivot",
+            "nonfinite": 0,
+            "degenerate": 0,
+            "bytes": 2485936
+          },
+          "result": "pass",
+          "drag": true,
+          "open_close": true,
+          "interrupted_reset": true,
+          "reduced_motion_endpoints": true,
+          "no_overflow": true,
+          "external_requests": [],
+          "page_errors": []
+        },
+        {
+          "id": "slovakia",
+          "mode": "mobile",
+          "sha256": "76930668af9de73cf6a161db307fdb47fa8db3added31cb11bd8cc61cad8cc2d",
+          "scope": "pilot smoke only",
+          "asset": {
+            "triangles": 21244,
+            "meshes": 295,
+            "materials": 6,
+            "bounds": {
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ],
+              "max": [
+                1.8684999626129866,
+                2.0325001142919064,
+                1.4875000286847353
+              ]
+            },
+            "lid": "Lid_Hinge",
+            "latch": "Latch_Pivot",
+            "nonfinite": 0,
+            "degenerate": 0,
+            "bytes": 2485936
+          },
+          "result": "pass",
+          "drag": true,
+          "open_close": true,
+          "interrupted_reset": true,
+          "reduced_motion_endpoints": true,
+          "no_overflow": true,
+          "external_requests": [],
+          "page_errors": []
+        }
+      ],
+      "motion": {
+        "id": "slovakia",
+        "exit_code": 0,
+        "passed": true,
+        "scope": "original motion unit assertions; not fresh collision/source parity"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ]
+    },
+    {
+      "id": "spain",
+      "status": "needs-decision",
+      "user_final_approved": false,
+      "launch_ready": false,
+      "polish_iterations": 0,
+      "model_changed": false,
+      "selection": {
+        "remote_ref": "origin/art/spain-v1",
+        "fetched_tip": "f7bf6f1def6ad258a16c4d8dc09171d29eb0e447",
+        "commit": "f7bf6f1def6ad258a16c4d8dc09171d29eb0e447",
+        "reachable_from_fetched_ref": true
+      },
+      "viewer": {
+        "commit": "f7bf6f1def6ad258a16c4d8dc09171d29eb0e447",
+        "path": "preview/spain-v1/spain-v1.html",
+        "bytes": 3677992,
+        "sha256": "1ab55eea64606505314a96e829596ea106089c5217c4bc0eebce6dd3c0638598",
+        "under_5000000": true
+      },
+      "glb_bytes": 2119264,
+      "source_archives": [
+        {
+          "path": "C:\\Users\\futur\\.hermes\\profiles\\telegram2\\output\\boxsv-collection-delivery-cleanup\\spain-v1-source.zip",
+          "sha256": "96e57e3f0f65f2c04a5e49287000effee37c5230a087d930fead36e47dfbdd39",
+          "bytes": 6524597,
+          "crc_safe_paths_required_payloads": true,
+          "historical_full_inventory_checked": true
+        }
+      ],
+      "captures": [
+        "smoke/spain/desktop-closed.png",
+        "smoke/spain/desktop-open.png",
+        "smoke/spain/mobile-closed.png",
+        "smoke/spain/mobile-open.png"
+      ],
+      "comparison": "boards/spain.jpg",
+      "visual_findings": "Recognizable cobalt/ivory motifs; smoother terracotta and ceramic finish versus granular clay and nuanced promotional glaze.",
+      "hardware": "Principal fittings retained. Open interiors/hinges visible; screenshots establish no collision or contact proof.",
+      "decision": "Accept stylized candidate or authorize scoped alignment; no automatic substantial redesign.",
+      "technical_scope": "Fresh exact-byte packaging/CRC/required payloads, motion unit checks and offline desktop/mobile controls; no fresh Blender source parity, sampled collision or corrupt/no-JS fallback rerun.",
+      "browser": [
+        {
+          "id": "spain",
+          "mode": "desktop",
+          "sha256": "1ab55eea64606505314a96e829596ea106089c5217c4bc0eebce6dd3c0638598",
+          "scope": "pilot smoke only",
+          "asset": {
+            "triangles": 24380,
+            "meshes": 105,
+            "materials": 7,
+            "bounds": {
+              "min": [
+                -1.875000030733645,
+                -0.23499999940395355,
+                -1.3950000554323196
+              ],
+              "max": [
+                1.875000030733645,
+                2.0899999123066664,
+                1.4875000286847353
+              ]
+            },
+            "lid": "Lid_Hinge",
+            "latch": "Latch_Pivot",
+            "nonfinite": 0,
+            "degenerate": 0,
+            "bytes": 2119264
+          },
+          "result": "pass",
+          "drag": true,
+          "open_close": true,
+          "interrupted_reset": true,
+          "reduced_motion_endpoints": true,
+          "no_overflow": true,
+          "external_requests": [],
+          "page_errors": []
+        },
+        {
+          "id": "spain",
+          "mode": "mobile",
+          "sha256": "1ab55eea64606505314a96e829596ea106089c5217c4bc0eebce6dd3c0638598",
+          "scope": "pilot smoke only",
+          "asset": {
+            "triangles": 24380,
+            "meshes": 105,
+            "materials": 7,
+            "bounds": {
+              "min": [
+                -1.875000030733645,
+                -0.23499999940395355,
+                -1.3950000554323196
+              ],
+              "max": [
+                1.875000030733645,
+                2.0899999123066664,
+                1.4875000286847353
+              ]
+            },
+            "lid": "Lid_Hinge",
+            "latch": "Latch_Pivot",
+            "nonfinite": 0,
+            "degenerate": 0,
+            "bytes": 2119264
+          },
+          "result": "pass",
+          "drag": true,
+          "open_close": true,
+          "interrupted_reset": true,
+          "reduced_motion_endpoints": true,
+          "no_overflow": true,
+          "external_requests": [],
+          "page_errors": []
+        }
+      ],
+      "motion": {
+        "id": "spain",
+        "exit_code": 0,
+        "passed": true,
+        "scope": "original motion unit assertions; not fresh collision/source parity"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ]
+    },
+    {
+      "id": "tanzania",
+      "status": "needs-decision",
+      "user_final_approved": false,
+      "launch_ready": false,
+      "polish_iterations": 0,
+      "model_changed": false,
+      "selection": {
+        "remote_ref": "origin/art/tanzania-v1",
+        "fetched_tip": "ba99eaaa22b4af8f0dabcfd694900f521ccf7510",
+        "commit": "ba99eaaa22b4af8f0dabcfd694900f521ccf7510",
+        "reachable_from_fetched_ref": true
+      },
+      "viewer": {
+        "commit": "ba99eaaa22b4af8f0dabcfd694900f521ccf7510",
+        "path": "preview/tanzania-v1/tanzania-v1.html",
+        "bytes": 2150649,
+        "sha256": "7599dc6f999e599b559d7a77ffc2fb0da6653efbd1b5f95714b67bca25696a8e",
+        "under_5000000": true
+      },
+      "glb_bytes": 1042676,
+      "source_archives": [
+        {
+          "path": "preview/tanzania-v1/tanzania-v1-source.zip",
+          "sha256": "263a56912a43b911886412ebaa4a5a79e154804e88dc4ef1c7f0f11297c02184",
+          "bytes": 6097569,
+          "crc_safe_paths_required_payloads": true,
+          "historical_full_inventory_checked": true
+        }
+      ],
+      "captures": [
+        "smoke/tanzania/desktop-closed.png",
+        "smoke/tanzania/desktop-open.png",
+        "smoke/tanzania/mobile-closed.png",
+        "smoke/tanzania/mobile-open.png"
+      ],
+      "comparison": "boards/tanzania.jpg",
+      "visual_findings": "Regular green mountain footprint and simplified summit; conspicuous repeated diagonal/crosshatched wood, especially open interior.",
+      "hardware": "Principal fittings retained. Open interiors/hinges visible; screenshots establish no collision or contact proof.",
+      "decision": "Accept stylized candidate or authorize scoped alignment; no automatic substantial redesign.",
+      "technical_scope": "Fresh exact-byte packaging/CRC/required payloads, motion unit checks and offline desktop/mobile controls; no fresh Blender source parity, sampled collision or corrupt/no-JS fallback rerun.",
+      "browser": [
+        {
+          "id": "tanzania",
+          "mode": "desktop",
+          "sha256": "7599dc6f999e599b559d7a77ffc2fb0da6653efbd1b5f95714b67bca25696a8e",
+          "scope": "pilot smoke only",
+          "asset": {
+            "triangles": 14746,
+            "meshes": 58,
+            "materials": 7,
+            "bounds": {
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ],
+              "max": [
+                1.8600000143051147,
+                2.861999988555908,
+                1.4875000286847353
+              ]
+            },
+            "lid": "Lid_Hinge",
+            "latch": "Latch_Pivot",
+            "nonfinite": 0,
+            "degenerate": 0,
+            "bytes": 1042676
+          },
+          "result": "pass",
+          "drag": true,
+          "open_close": true,
+          "interrupted_reset": true,
+          "reduced_motion_endpoints": true,
+          "no_overflow": true,
+          "external_requests": [],
+          "page_errors": []
+        },
+        {
+          "id": "tanzania",
+          "mode": "mobile",
+          "sha256": "7599dc6f999e599b559d7a77ffc2fb0da6653efbd1b5f95714b67bca25696a8e",
+          "scope": "pilot smoke only",
+          "asset": {
+            "triangles": 14746,
+            "meshes": 58,
+            "materials": 7,
+            "bounds": {
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ],
+              "max": [
+                1.8600000143051147,
+                2.861999988555908,
+                1.4875000286847353
+              ]
+            },
+            "lid": "Lid_Hinge",
+            "latch": "Latch_Pivot",
+            "nonfinite": 0,
+            "degenerate": 0,
+            "bytes": 1042676
+          },
+          "result": "pass",
+          "drag": true,
+          "open_close": true,
+          "interrupted_reset": true,
+          "reduced_motion_endpoints": true,
+          "no_overflow": true,
+          "external_requests": [],
+          "page_errors": []
+        }
+      ],
+      "motion": {
+        "id": "tanzania",
+        "exit_code": 0,
+        "passed": true,
+        "scope": "original motion unit assertions; not fresh collision/source parity"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ]
+    },
+    {
+      "id": "turkey",
+      "status": "needs-decision",
+      "user_final_approved": false,
+      "launch_ready": false,
+      "polish_iterations": 0,
+      "model_changed": false,
+      "selection": {
+        "remote_ref": "origin/art/turkey-v1",
+        "fetched_tip": "34e8ceab2f7548b1c4cfd212109458976a77fe5e",
+        "commit": "34e8ceab2f7548b1c4cfd212109458976a77fe5e",
+        "reachable_from_fetched_ref": true
+      },
+      "viewer": {
+        "commit": "34e8ceab2f7548b1c4cfd212109458976a77fe5e",
+        "path": "preview/turkey-v1/turkey-v1.html",
+        "bytes": 2351465,
+        "sha256": "1b4635dcc1f2ad0a4bd3b9a7b7b7ce875cfb007a34cf261643eb29ca8566e5be",
+        "under_5000000": true
+      },
+      "glb_bytes": 1108460,
+      "source_archives": [
+        {
+          "path": "preview/turkey-v1/turkey-v1-source.zip",
+          "sha256": "12d9e95672aacd78562a740eb4c272bd94f36b0db690389cfb7175c9199dee89",
+          "bytes": 6566492,
+          "crc_safe_paths_required_payloads": true,
+          "historical_full_inventory_checked": true
+        }
+      ],
+      "captures": [
+        "smoke/turkey/desktop-closed.png",
+        "smoke/turkey/desktop-open.png",
+        "smoke/turkey/mobile-closed.png",
+        "smoke/turkey/mobile-open.png"
+      ],
+      "comparison": "boards/turkey.jpg",
+      "visual_findings": "Tulip composition retained but graphic relief and uniform blue/ivory finish differ from richer promotional glaze and metal.",
+      "hardware": "Principal fittings retained. Open interiors/hinges visible; screenshots establish no collision or contact proof.",
+      "decision": "Accept stylized candidate or authorize scoped alignment; no automatic substantial redesign.",
+      "technical_scope": "Fresh exact-byte packaging/CRC/required payloads, motion unit checks and offline desktop/mobile controls; no fresh Blender source parity, sampled collision or corrupt/no-JS fallback rerun.",
+      "browser": [
+        {
+          "id": "turkey",
+          "mode": "desktop",
+          "sha256": "1b4635dcc1f2ad0a4bd3b9a7b7b7ce875cfb007a34cf261643eb29ca8566e5be",
+          "scope": "pilot smoke only",
+          "asset": {
+            "triangles": 16056,
+            "meshes": 114,
+            "materials": 7,
+            "bounds": {
+              "min": [
+                -1.927119004633135,
+                -0.22500000894069672,
+                -1.3950000554323196
+              ],
+              "max": [
+                1.8600000143051147,
+                2.065000057220459,
+                1.4875000286847353
+              ]
+            },
+            "lid": "Lid_Hinge",
+            "latch": "Latch_Pivot",
+            "nonfinite": 0,
+            "degenerate": 0,
+            "bytes": 1108460
+          },
+          "result": "pass",
+          "drag": true,
+          "open_close": true,
+          "interrupted_reset": true,
+          "reduced_motion_endpoints": true,
+          "no_overflow": true,
+          "external_requests": [],
+          "page_errors": []
+        },
+        {
+          "id": "turkey",
+          "mode": "mobile",
+          "sha256": "1b4635dcc1f2ad0a4bd3b9a7b7b7ce875cfb007a34cf261643eb29ca8566e5be",
+          "scope": "pilot smoke only",
+          "asset": {
+            "triangles": 16056,
+            "meshes": 114,
+            "materials": 7,
+            "bounds": {
+              "min": [
+                -1.927119004633135,
+                -0.22500000894069672,
+                -1.3950000554323196
+              ],
+              "max": [
+                1.8600000143051147,
+                2.065000057220459,
+                1.4875000286847353
+              ]
+            },
+            "lid": "Lid_Hinge",
+            "latch": "Latch_Pivot",
+            "nonfinite": 0,
+            "degenerate": 0,
+            "bytes": 1108460
+          },
+          "result": "pass",
+          "drag": true,
+          "open_close": true,
+          "interrupted_reset": true,
+          "reduced_motion_endpoints": true,
+          "no_overflow": true,
+          "external_requests": [],
+          "page_errors": []
+        }
+      ],
+      "motion": {
+        "id": "turkey",
+        "exit_code": 0,
+        "passed": true,
+        "scope": "original motion unit assertions; not fresh collision/source parity"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ]
+    },
+    {
+      "id": "uruguay",
+      "status": "needs-decision",
+      "user_final_approved": false,
+      "launch_ready": false,
+      "polish_iterations": 0,
+      "model_changed": false,
+      "selection": {
+        "remote_ref": "origin/art/uruguay-v1",
+        "fetched_tip": "825e1429528f18a1b619ffd4ede489a219582afd",
+        "commit": "825e1429528f18a1b619ffd4ede489a219582afd",
+        "reachable_from_fetched_ref": true
+      },
+      "viewer": {
+        "commit": "825e1429528f18a1b619ffd4ede489a219582afd",
+        "path": "preview/uruguay-v1/uruguay-v1.html",
+        "bytes": 2266525,
+        "sha256": "1cf49d8c9f970e2b5309b163c1ea1cbe790392741b80ed80c8ab38067d4967a8",
+        "under_5000000": true
+      },
+      "glb_bytes": 1116544,
+      "source_archives": [
+        {
+          "path": "preview/uruguay-v1/uruguay-v1-source.zip",
+          "sha256": "7062843be935c9a7bc9a5e3748ab71371335400eabe0e2bf980c07896e1c6b35",
+          "bytes": 5329820,
+          "crc_safe_paths_required_payloads": true,
+          "historical_full_inventory_checked": true
+        }
+      ],
+      "captures": [
+        "smoke/uruguay/desktop-closed.png",
+        "smoke/uruguay/desktop-open.png",
+        "smoke/uruguay/mobile-closed.png",
+        "smoke/uruguay/mobile-open.png"
+      ],
+      "comparison": "boards/uruguay.jpg",
+      "visual_findings": "Shallower landscape and less pronounced gorge impression; regular checked/diagonal shell texture versus stronger promotional terrain depth.",
+      "hardware": "Principal fittings retained. Open interiors/hinges visible; screenshots establish no collision or contact proof.",
+      "decision": "Accept stylized candidate or authorize scoped alignment; no automatic substantial redesign.",
+      "technical_scope": "Fresh exact-byte packaging/CRC/required payloads, motion unit checks and offline desktop/mobile controls; no fresh Blender source parity, sampled collision or corrupt/no-JS fallback rerun.",
+      "browser": [
+        {
+          "id": "uruguay",
+          "mode": "desktop",
+          "sha256": "1cf49d8c9f970e2b5309b163c1ea1cbe790392741b80ed80c8ab38067d4967a8",
+          "scope": "pilot smoke only",
+          "asset": {
+            "triangles": 17116,
+            "meshes": 78,
+            "materials": 8,
+            "bounds": {
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ],
+              "max": [
+                1.8600000143051147,
+                2.339756488800049,
+                1.4875000286847353
+              ]
+            },
+            "lid": "Lid_Hinge",
+            "latch": "Latch_Pivot",
+            "nonfinite": 0,
+            "degenerate": 0,
+            "bytes": 1116544
+          },
+          "result": "pass",
+          "drag": true,
+          "open_close": true,
+          "interrupted_reset": true,
+          "reduced_motion_endpoints": true,
+          "no_overflow": true,
+          "external_requests": [],
+          "page_errors": []
+        },
+        {
+          "id": "uruguay",
+          "mode": "mobile",
+          "sha256": "1cf49d8c9f970e2b5309b163c1ea1cbe790392741b80ed80c8ab38067d4967a8",
+          "scope": "pilot smoke only",
+          "asset": {
+            "triangles": 17116,
+            "meshes": 78,
+            "materials": 8,
+            "bounds": {
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ],
+              "max": [
+                1.8600000143051147,
+                2.339756488800049,
+                1.4875000286847353
+              ]
+            },
+            "lid": "Lid_Hinge",
+            "latch": "Latch_Pivot",
+            "nonfinite": 0,
+            "degenerate": 0,
+            "bytes": 1116544
+          },
+          "result": "pass",
+          "drag": true,
+          "open_close": true,
+          "interrupted_reset": true,
+          "reduced_motion_endpoints": true,
+          "no_overflow": true,
+          "external_requests": [],
+          "page_errors": []
+        }
+      ],
+      "motion": {
+        "id": "uruguay",
+        "exit_code": 0,
+        "passed": true,
+        "scope": "original motion unit assertions; not fresh collision/source parity"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ]
+    },
+    {
+      "id": "zimbabwe",
+      "status": "needs-decision",
+      "user_final_approved": false,
+      "launch_ready": false,
+      "polish_iterations": 0,
+      "model_changed": false,
+      "selection": {
+        "remote_ref": "origin/art/zimbabwe-v1",
+        "fetched_tip": "b300a6cc3b4527beaa587fae174de28281f64896",
+        "commit": "b300a6cc3b4527beaa587fae174de28281f64896",
+        "reachable_from_fetched_ref": true
+      },
+      "viewer": {
+        "commit": "b300a6cc3b4527beaa587fae174de28281f64896",
+        "path": "preview/zimbabwe-v1/zimbabwe-v1.html",
+        "bytes": 3281668,
+        "sha256": "1ba7c710d00e1af16df026265475c9f396d2c80c7172e16e816e777eb99ea350",
+        "under_5000000": true
+      },
+      "glb_bytes": 1859688,
+      "source_archives": [
+        {
+          "path": "preview/zimbabwe-v1/zimbabwe-v1-source.zip",
+          "sha256": "f33097b23b5e12d7251255cc90082beccacca1b8b68f8e1cf7d1dbf97e2c6c75",
+          "bytes": 5427936,
+          "crc_safe_paths_required_payloads": true,
+          "historical_full_inventory_checked": true
+        }
+      ],
+      "captures": [
+        "smoke/zimbabwe/desktop-closed.png",
+        "smoke/zimbabwe/desktop-open.png",
+        "smoke/zimbabwe/mobile-closed.png",
+        "smoke/zimbabwe/mobile-open.png"
+      ],
+      "comparison": "boards/zimbabwe.jpg",
+      "visual_findings": "Compact regularly tiered boulders and flatter tan base versus broad irregular promotional rocks; cleaner repetitive masonry.",
+      "hardware": "Principal fittings retained. Open interiors/hinges visible; screenshots establish no collision or contact proof.",
+      "decision": "Accept stylized candidate or authorize scoped alignment; no automatic substantial redesign.",
+      "technical_scope": "Fresh exact-byte packaging/CRC/required payloads, motion unit checks and offline desktop/mobile controls; no fresh Blender source parity, sampled collision or corrupt/no-JS fallback rerun.",
+      "browser": [
+        {
+          "id": "zimbabwe",
+          "mode": "desktop",
+          "sha256": "1ba7c710d00e1af16df026265475c9f396d2c80c7172e16e816e777eb99ea350",
+          "scope": "pilot smoke only",
+          "asset": {
+            "triangles": 27724,
+            "meshes": 280,
+            "materials": 5,
+            "bounds": {
+              "min": [
+                -1.927119004633135,
+                -0.28999999910593033,
+                -1.3950000554323196
+              ],
+              "max": [
+                1.8600000143051147,
+                3.0599998980760574,
+                1.4875000286847353
+              ]
+            },
+            "lid": "Lid_Hinge",
+            "latch": "Latch_Pivot",
+            "nonfinite": 0,
+            "degenerate": 0,
+            "bytes": 1859688
+          },
+          "result": "pass",
+          "drag": true,
+          "open_close": true,
+          "interrupted_reset": true,
+          "reduced_motion_endpoints": true,
+          "no_overflow": true,
+          "external_requests": [],
+          "page_errors": []
+        },
+        {
+          "id": "zimbabwe",
+          "mode": "mobile",
+          "sha256": "1ba7c710d00e1af16df026265475c9f396d2c80c7172e16e816e777eb99ea350",
+          "scope": "pilot smoke only",
+          "asset": {
+            "triangles": 27724,
+            "meshes": 280,
+            "materials": 5,
+            "bounds": {
+              "min": [
+                -1.927119004633135,
+                -0.28999999910593033,
+                -1.3950000554323196
+              ],
+              "max": [
+                1.8600000143051147,
+                3.0599998980760574,
+                1.4875000286847353
+              ]
+            },
+            "lid": "Lid_Hinge",
+            "latch": "Latch_Pivot",
+            "nonfinite": 0,
+            "degenerate": 0,
+            "bytes": 1859688
+          },
+          "result": "pass",
+          "drag": true,
+          "open_close": true,
+          "interrupted_reset": true,
+          "reduced_motion_endpoints": true,
+          "no_overflow": true,
+          "external_requests": [],
+          "page_errors": []
+        }
+      ],
+      "motion": {
+        "id": "zimbabwe",
+        "exit_code": 0,
+        "passed": true,
+        "scope": "original motion unit assertions; not fresh collision/source parity"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ]
+    }
+  ]
+}

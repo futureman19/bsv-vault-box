@@ -1,0 +1,125 @@
+{
+  "schema": "boxsv-independent-visual-qa/1",
+  "reviewer": "visual-b",
+  "root": "C:/Users/futur/Desktop/bsv-vault-box/.worktrees/t_8267b59b/launch/qa-art-01/launch/art-01",
+  "method": "Each original desktop-closed.png, desktop-open.png, mobile-closed.png and mobile-open.png under smoke/ID, and marketing/ID.webp was separately inspected through vision_analyze. No comparison boards used. Parent review-results.json read after image inspection.",
+  "scope": "Static visual review only; no fresh motion, collision, source parity, custody or user approval verification. Apparent hinge gaps are visual concerns, not proven disconnected geometry. Framing and lighting differences preclude calibrated color or dimension equivalence.",
+  "art_changed": false,
+  "board_transitions": false,
+  "user_final_approved": false,
+  "launch_ready": false,
+  "preserve_all_inherited_holds": true,
+  "entries": [
+    {
+      "id": "estonia",
+      "parent_status": "pass",
+      "parent_status_justified": "yes, as a bounded visual candidate pass with caveats, not final approval",
+      "recommended_status": "pass",
+      "observations": {
+        "desktop-closed": "Pale broad chest, three thick-rimmed bog pools and straight segmented path are readable and fully framed. Limestone is smooth and weakly stone-like; water is flat teal; dark green lid seam reads slightly ajar.",
+        "desktop-open": "Entire raised lid and empty lined cavity fit. Rim corner joins are conspicuous; rear lid/hinge relationship looks separated from this angle and needs contact evidence before mechanical-fidelity claims.",
+        "mobile-closed": "Pools and path remain readable. No clipping or UI overlap; fine detail and small secondary text are weak.",
+        "mobile-open": "Full silhouette and cavity fit; rim/hinge joins are jagged but no definite major missing faces.",
+        "marketing": "Same three-pool layout, path, pale chest and gold fittings. More mottled banks and surface shading, not a fundamentally different design."
+      },
+      "critical_visible_faults": [],
+      "caveats": ["Simplified water and molded-looking banks", "Apparent hinge spacing is unresolved by stills", "No automatic regeneration warranted"]
+    },
+    {
+      "id": "georgia",
+      "parent_status": "needs-decision",
+      "parent_status_justified": "yes as a conservative artistic hold; the supplied marketing image is itself faceted, so the parent's craggy-landscape contrast is stronger than this review can independently establish",
+      "recommended_status": "needs-decision",
+      "observations": {
+        "desktop-closed": "Tower, snowy angular peaks, green ground and masonry chest clearly communicate theme. Complete silhouette; repeated pale blocks and broad mountain facets remain stylized.",
+        "desktop-open": "Pale hollow interior and raised slab lid fully framed. Small hinges and exposed lid clasp have ambiguous seating; no definite major intersection.",
+        "mobile-closed": "Tower and snow remain legible. No clipping or control overlap; mountain/vegetation detail reduces to simple facets.",
+        "mobile-open": "Complete lid, cavity and feet visible. Mild aliasing and uncertain hinge connection, not demonstrated breakage.",
+        "marketing": "Retains tower, masonry, brass, angular snow mountains and green terrain. More speckled surface treatment and irregular joints; still visibly a stylized miniature."
+      },
+      "critical_visible_faults": [],
+      "caveats": ["Preserve artistic decision hold", "Do not describe marketing as unambiguously photoreal or entirely different geometry", "No fresh hinge contact proof"]
+    },
+    {
+      "id": "guyana",
+      "parent_status": "needs-decision",
+      "parent_status_justified": "yes for landscape/material acceptance; both model and supplied marketing retain simplified canopy and panel-like waterfall, so differences should not be overstated",
+      "recommended_status": "needs-decision",
+      "observations": {
+        "desktop-closed": "Kaieteur cascade, green canopy and sandstone escarpment readable. Waterfall looks like a ribbed white panel; mottled body is muddy and plants rounded. Full framing.",
+        "desktop-open": "Green lid underside and brown hollow cavity visible. Lid-to-hinge separation and discontinuous green corner trim are conspicuous visual concerns.",
+        "mobile-closed": "Landscape remains recognizable, but white strip waterfall and rounded shrubs read as a miniature toy rather than natural water/forest. No cropping.",
+        "mobile-open": "Complete object fits; uneven rim joins and loose-looking hinge attachment persist. No catastrophic rendering failure.",
+        "marketing": "Same green lid, tan cliff, lump-like canopy, white ribbed cascade and flat turquoise pool. Stronger surface treatment does not eliminate the shared water realism limitation."
+      },
+      "critical_visible_faults": [],
+      "caveats": ["Potentially important apparent hinge separation; static screenshots do not prove mechanical disconnect", "Water and rainforest realism need an artistic decision", "Preserve hold without art edits"]
+    },
+    {
+      "id": "iran",
+      "parent_status": "pass",
+      "parent_status_justified": "yes for motif and composition retention with finish and hardware caveats; not proof of convincing ceramic glaze",
+      "recommended_status": "pass",
+      "observations": {
+        "desktop-closed": "Turquoise body, ivory eight-point stars, blue/lavender lid and brass hardware retained. Full object fits; matte surfaces, abrupt motif cutoffs and dark lid seam reduce polish.",
+        "desktop-open": "Blue cavity and lid underside fully visible. Rear hinge pieces look separated across a dark gap; stepped rim corners are conspicuous.",
+        "mobile-closed": "Star pattern and palette recognizable with no clipped UI. Thin motif edges alias; headline has tight but intact right margin.",
+        "mobile-open": "Open cavity and complete lid fit. Small blue bottom projection can be a foot, not established stray geometry; pale corner caps and seams remain visible.",
+        "marketing": "Same stars, blue lid, turquoise walls and brass fittings. Surface reads textured or painted rather than unequivocally glazed ceramic; raised lid stars and richer texture are more apparent."
+      },
+      "critical_visible_faults": [],
+      "caveats": ["Material identity is not convincingly glazed in either representation", "Hinge contact unresolved", "Final approval hold remains"]
+    },
+    {
+      "id": "kazakhstan",
+      "parent_status": "pass",
+      "parent_status_justified": "yes for retained design with explicit felt and wood-finish limitations",
+      "recommended_status": "pass",
+      "observations": {
+        "desktop-closed": "Cream panels, pink/red paired scrolls, circular lid lattice, warm brown frame and brass retained. Felt is not fibrous; full silhouette fits.",
+        "desktop-open": "Brown hollow interior and lid show strong regular horizontal banding. Hinge seating looks loose across dark gaps; no definite absent walls.",
+        "mobile-closed": "Scrolls and central lid ornament remain legible; blocky edges and tiny secondary text. No cropping or overlap.",
+        "mobile-open": "Full lid, clasp projection, cavity and feet fit. Texture banding remains obvious; hinge relation mechanically ambiguous.",
+        "marketing": "Same cream inset panels, paired pink ornaments and wooden circular lattice. Cream finish resembles leather/paint more than clear felt; brown grain is richer and less uniform."
+      },
+      "critical_visible_faults": [],
+      "caveats": ["Do not claim tactile felt fidelity", "Regular wood stripes and angular scrolls remain", "Static images do not prove hinge attachment"]
+    },
+    {
+      "id": "lesotho",
+      "parent_status": "pass",
+      "parent_status_justified": "yes only as a limited visual candidate pass; apparent hinge separation in both open captures deserves an explicit unresolved note",
+      "recommended_status": "pass",
+      "observations": {
+        "desktop-closed": "Blue-gray chest, gold fittings, striped lid inset and pale mountain cluster retained. Fully framed; closed lid dark gap and subdued front details are conspicuous.",
+        "desktop-open": "Stone-blue cavity and lid fully framed. Lid/hinge assembly appears floating across rear gap; narrow rim strips have broken-looking corner joins.",
+        "mobile-closed": "Mountain cluster and striped inset remain readable. Fine front marks and dark feet lose contrast; no clipped object or controls.",
+        "mobile-open": "Entire open silhouette fits. Apparent lid separation and doubled/uneven rim edges persist at mobile scale.",
+        "marketing": "Same mottled blue body, pale faceted peaks, striped inset, brass and feet. More tactile surface appearance; mountain size difference cannot be inferred reliably across framing."
+      },
+      "critical_visible_faults": [],
+      "caveats": ["Highest-priority concern is apparent rear hinge/lid separation, not a confirmed mesh defect", "Graphic stripes are not tactile woven fabric", "Retain full source/physical-contact verification hold"]
+    },
+    {
+      "id": "malaysia",
+      "parent_status": "needs-decision",
+      "parent_status_justified": "yes; independently visible crimson-versus-mauve and dark-top presentation divergence warrants the existing direction hold",
+      "recommended_status": "needs-decision",
+      "observations": {
+        "desktop-closed": "Crimson chest with gold lattice, dark inset lid diamonds, brass fittings and rounded feet. Full framing. Gold lines have boundary breaks and uneven aliasing; body reads smooth coating rather than woven textile.",
+        "desktop-open": "Crimson lattice continues across lid underside and cavity. Full silhouette fits; dark rear hinge clearance and abrupt rim joins look unfinished.",
+        "mobile-closed": "Crimson/gold identity legible with no overlap or clipping. Thin lattice jagged; feet chunky and dark.",
+        "mobile-open": "Open state and cavity readable; front-left and rear-right rim corners show thin bright edges/protrusions. No definite major mesh failure.",
+        "marketing": "Body visibly mauve/pink with charcoal lid inset rather than model crimson treatment. Same lattice, diamond ornaments and hardware; irregular lines and soft feet remain."
+      },
+      "critical_visible_faults": [],
+      "caveats": ["Palette mismatch is an art-direction decision, not proven renderer malfunction", "Weak weave/raised-thread material readability", "Hinge and corner joins require closer technical evidence"]
+    }
+  ],
+  "global_findings": [
+    "All original states inspected show fully contained objects and no definite severe clipping, missing major panels or broken mobile layout.",
+    "Repeated apparent hinge gaps and uneven rim joins merit explicit follow-up; no critical mechanical failure can be confirmed from these static angles.",
+    "Small mobile secondary text and aliasing recur; these are presentation caveats, not proven control failures.",
+    "No final user art approval, launch authorization or hold removal is supplied by this review."
+  ]
+}

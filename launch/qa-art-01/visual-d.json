@@ -1,0 +1,101 @@
+{
+  "schema": "boxsv-independent-visual-qa/1",
+  "reviewer": "visual-d",
+  "root": "C:/Users/futur/Desktop/bsv-vault-box/.worktrees/t_8267b59b/launch/qa-art-01/launch/art-01",
+  "method": "Each original desktop-closed.png, desktop-open.png, mobile-closed.png and mobile-open.png under smoke/ID/ and each marketing/ID.webp was separately submitted to vision_analyze. No comparison boards were used. Parent findings were consulted only after independent image inspection.",
+  "scope": "Static visual review of supplied original files, not fresh browser execution, calibrated material comparison, hash provenance verification, collision testing or user approval.",
+  "original_screenshots_inspected": 24,
+  "marketing_images_inspected": 6,
+  "art_modified": false,
+  "board_transitions": false,
+  "user_final_approved": false,
+  "launch_ready": false,
+  "holds_preserved": true,
+  "common_findings": [
+    "All supplied desktop/mobile open/closed views contain the complete model and controls without obvious viewport clipping, horizontal overflow or overlapping text.",
+    "Mobile secondary labels and disclaimers are small; fine textures and edges soften or alias at phone scale.",
+    "Closed lid seams are conspicuous, but also occur in the marketing references; they do not independently establish a closure defect.",
+    "Open-state rear hinge clearances and projecting released latch tabs can look tenuously attached. Static images do not establish detached meshes, pivot errors or motion collisions; retain as mechanical-readability concerns rather than confirmed critical failures.",
+    "No definite critical visible fault was identified. None of these findings clears inherited approval, source acceptance, storage or release holds."
+  ],
+  "entries": [
+    {
+      "id": "slovakia",
+      "parent_status": "needs-decision",
+      "recommended_status": "needs-decision",
+      "parent_status_justified": true,
+      "qualification": "Conservative finish hold is justified, but the parent wording about low apparent ornament relief is too broad: the white lid ornaments visibly project above the top in the original desktop capture.",
+      "desktop_closed": "Timber courses, finger joints, white side diamonds, raised lid geometry, brass clasp/ring/caps and gray feet are readable. Top panel is noticeably lighter and flatter than the sides; grain is regular and striped. Entire silhouette fits.",
+      "desktop_open": "Empty timber cavity and raised lid are visible and uncropped. Rear attachment reads somewhat separated; no definite missing panel or severe intersection.",
+      "mobile_closed": "Country motif and hardware remain legible; complete chest and UI fit. Fine timber detail is less resolved.",
+      "mobile_open": "Interior and lid remain fully visible, with no blocking layout fault. Small supporting text persists.",
+      "marketing_comparison": "Same timber chest, hollow white lid squares, side diamonds, joinery and principal hardware. Marketing wood is more muted and evenly integrated; runtime top/body tonal split and uniform grain are stronger. No obvious identity substitution.",
+      "critical_visible_faults": []
+    },
+    {
+      "id": "spain",
+      "parent_status": "needs-decision",
+      "recommended_status": "needs-decision",
+      "parent_status_justified": true,
+      "qualification": "Visible palette/finish difference supports the hold; do not infer actual glaze composition from either image.",
+      "desktop_closed": "Cobalt/ivory floral panels, central raised flower, tiled border, gold hardware and square feet are intact. Runtime frame is smooth orange/terracotta. Dark lid seam is prominent but not a demonstrated defect.",
+      "desktop_open": "Ivory cavity and plain terracotta inner lid are exposed, all within frame. Rear hinge gaps and projecting tab warrant readability caution, not a confirmed failure.",
+      "mobile_closed": "Large flower remains recognizable; small side petals merge into patterned texture with aliasing. Model, buttons and title are contained.",
+      "mobile_open": "Complete open silhouette and pale cavity remain visible; no clipped controls or major visible penetration.",
+      "marketing_comparison": "Same floral medallion, small blue flowers, border, clasp and feet. Marketing frame is visibly coral/salmon and granular; runtime is more orange and smooth. This is more directly observable than a claim of nuanced glaze fidelity.",
+      "critical_visible_faults": []
+    },
+    {
+      "id": "tanzania",
+      "parent_status": "needs-decision",
+      "recommended_status": "needs-decision",
+      "parent_status_justified": true,
+      "qualification": "Repeated soft/checkered surface pattern, especially across the open lid/interior, is a clear quality concern. Mountain theme remains recognizable.",
+      "desktop_closed": "Green foothills, gray volcanic slopes and white summit sit on the ochre chest. Summit is simplified and chest texture looks soft/repetitive. No cropping or catastrophic geometry fault.",
+      "desktop_open": "Raised lid and hollow interior fit. Broad repeated texture is conspicuous across inner surfaces; rear hinges visually span an obvious gap.",
+      "mobile_closed": "Snowcap and mountain silhouette remain readable; chest and controls fully contained. Fine material detail is weak.",
+      "mobile_open": "Checkered/mottled interior and loose-looking rear attachment remain visible. No definite critical intersection or layout failure.",
+      "marketing_comparison": "Both retain honey/ochre body, brass fittings, green mountain base and white recessed summit. Marketing has softer integrated wood variation and a clearer summit/crater impression; runtime remains a simplified painted miniature rather than rugged volcanic terrain. Reference itself is stylized.",
+      "critical_visible_faults": []
+    },
+    {
+      "id": "turkey",
+      "parent_status": "needs-decision",
+      "recommended_status": "needs-decision",
+      "parent_status_justified": true,
+      "qualification": "Hold is reasonable for finish acceptance, not evidence of lost composition. Both images are visibly graphic/stylized; richer promotional glaze is not firmly established from these views.",
+      "desktop_closed": "Ivory floral-rosette panels, cobalt frame, raised scarlet tulips and turquoise foliage remain clear. Pattern ends abruptly at panel boundaries. No major missing geometry or cropping.",
+      "desktop_open": "Cobalt inner lid and pale empty cavity are intact. Hinge gap is visually conspicuous; no confirmed disconnection or penetration.",
+      "mobile_closed": "Tulip colors and broad floral identity survive at phone scale; rosette detail softens. No overflow or cropped model.",
+      "mobile_open": "Entire blue lid, cavity, clasp and feet are in frame. Broad patterned/checkered shading on the inner lid is noticeable.",
+      "marketing_comparison": "Same blue/ivory chest, three coral/mint tulips, repeating rosettes, corner caps and ring hardware. Runtime tulips are more saturated scarlet, foliage more turquoise and body pattern softer. Identity and ornament placement are substantially retained.",
+      "critical_visible_faults": []
+    },
+    {
+      "id": "uruguay",
+      "parent_status": "needs-decision",
+      "recommended_status": "needs-decision",
+      "parent_status_justified": true,
+      "qualification": "Material-pattern and shallow-gorge readability support a cautious hold. Different camera framing prevents a measured claim that the terrain is physically shallower.",
+      "desktop_closed": "Pale green-gray body, rolling hills, pale-blue winding channel and round vegetation are readable. Body mottling repeats; dark pointed terrain-edge seam at rear/right is ambiguous rather than proven clipping.",
+      "desktop_open": "Hollow cavity and raised lid fit entirely. Broad regular texture is obvious; rear hinge/lid junction can read disconnected, with no definite major fault.",
+      "mobile_closed": "Winding channel survives but reads more like a river between smooth banks than a deep gorge. Full box and UI remain visible.",
+      "mobile_open": "Interior is readable and complete; angular rim junctions and soft checked texture persist. No viewport clipping.",
+      "marketing_comparison": "Same pale stone-like chest, brass fittings, green hills and winding river with pale banks. Both are stylized. Marketing terrain edges and relief read more pronounced; runtime shell texture is more visibly regular and blurred. No confirmed missing river or landmark.",
+      "critical_visible_faults": []
+    },
+    {
+      "id": "zimbabwe",
+      "parent_status": "needs-decision",
+      "recommended_status": "needs-decision",
+      "parent_status_justified": true,
+      "qualification": "Keep the artistic hold, but qualify the parent claim of irregular promotional rocks: the inspected reference also has a compact smooth tiered stack. The stronger observable concern is masonry/material regularity and generic stacked-pebble readability.",
+      "desktop_closed": "Staggered pale masonry, thick slab lid, tan oval patch, stacked rounded stones, pebble feet and brass fittings are clear. Dark lid seam persists. No large mesh failure or cropped silhouette.",
+      "desktop_open": "Empty stone-lined cavity and thick inner lid are visible; broad angular mottling and uncertain rear attachment are noncritical visual concerns.",
+      "mobile_closed": "Masonry and stacked-stone silhouette remain readable. All controls and model fit; small labels remain small.",
+      "mobile_open": "Entire raised lid and feet remain contained. Dark cavity loses some contrast and small stone edges alias, without a demonstrated structural failure.",
+      "marketing_comparison": "Same pale brick-pattern chest, stacked smooth stones on oval base, pebble feet and gold hardware. Marketing reads smoother/marble-like and runtime masonry more repetitive. Both can read as a generic balanced-pebble ornament rather than distinctly weathered kopjes; reference does not establish cultural/geographic accuracy.",
+      "critical_visible_faults": []
+    }
+  ]
+}
