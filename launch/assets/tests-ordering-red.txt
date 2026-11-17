@@ -1,0 +1,19 @@
+test_manifest_deterministic_and_complete (__main__.PackagingTests.test_manifest_deterministic_and_complete) ... FAIL
+test_missing_duplicate_and_substituted_roster (__main__.PackagingTests.test_missing_duplicate_and_substituted_roster) ... ok
+test_missing_tampered_payload_and_recovery_offline (__main__.PackagingTests.test_missing_tampered_payload_and_recovery_offline) ... ok
+test_stable_identity_survives_art_change (__main__.PackagingTests.test_stable_identity_survives_art_change) ... ok
+test_supply_and_release_holds (__main__.PackagingTests.test_supply_and_release_holds) ... ok
+
+======================================================================
+FAIL: test_manifest_deterministic_and_complete (__main__.PackagingTests.test_manifest_deterministic_and_complete)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_0d5b6d10\launch\assets\test_packaging.py", line 27, in test_manifest_deterministic_and_complete
+    self.assertEqual(p.canonical(a), p.canonical(p.make_manifest(shuffled)))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: b'{"a[287 chars]56":"f7e7c7a924ffd2811b4ac29a5b94e37748b7d9a50[942574 chars]01}}' != b'{"a[287 chars]56":"2d981a93705ac74959e7bbc8ff01bf3dea0db62dd[942574 chars]01}}'
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.297s
+
+FAILED (failures=1)

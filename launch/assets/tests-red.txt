@@ -1,0 +1,65 @@
+test_manifest_deterministic_and_complete (__main__.PackagingTests.test_manifest_deterministic_and_complete) ... FAIL
+test_missing_duplicate_and_substituted_roster (__main__.PackagingTests.test_missing_duplicate_and_substituted_roster) ... FAIL
+test_missing_tampered_payload_and_recovery_offline (__main__.PackagingTests.test_missing_tampered_payload_and_recovery_offline) ... FAIL
+test_stable_identity_survives_art_change (__main__.PackagingTests.test_stable_identity_survives_art_change) ... FAIL
+test_supply_and_release_holds (__main__.PackagingTests.test_supply_and_release_holds) ... FAIL
+
+======================================================================
+FAIL: test_manifest_deterministic_and_complete (__main__.PackagingTests.test_manifest_deterministic_and_complete)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_0d5b6d10\launch\assets\test_packaging.py", line 23, in test_manifest_deterministic_and_complete
+    p = self.api()
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_0d5b6d10\launch\assets\test_packaging.py", line 16, in api
+    self.assertTrue((HERE / 'packaging.py').exists(), 'packaging pipeline is not implemented')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : packaging pipeline is not implemented
+
+======================================================================
+FAIL: test_missing_duplicate_and_substituted_roster (__main__.PackagingTests.test_missing_duplicate_and_substituted_roster)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_0d5b6d10\launch\assets\test_packaging.py", line 36, in test_missing_duplicate_and_substituted_roster
+    p = self.api()
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_0d5b6d10\launch\assets\test_packaging.py", line 16, in api
+    self.assertTrue((HERE / 'packaging.py').exists(), 'packaging pipeline is not implemented')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : packaging pipeline is not implemented
+
+======================================================================
+FAIL: test_missing_tampered_payload_and_recovery_offline (__main__.PackagingTests.test_missing_tampered_payload_and_recovery_offline)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_0d5b6d10\launch\assets\test_packaging.py", line 63, in test_missing_tampered_payload_and_recovery_offline
+    p = self.api()
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_0d5b6d10\launch\assets\test_packaging.py", line 16, in api
+    self.assertTrue((HERE / 'packaging.py').exists(), 'packaging pipeline is not implemented')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : packaging pipeline is not implemented
+
+======================================================================
+FAIL: test_stable_identity_survives_art_change (__main__.PackagingTests.test_stable_identity_survives_art_change)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_0d5b6d10\launch\assets\test_packaging.py", line 54, in test_stable_identity_survives_art_change
+    p = self.api()
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_0d5b6d10\launch\assets\test_packaging.py", line 16, in api
+    self.assertTrue((HERE / 'packaging.py').exists(), 'packaging pipeline is not implemented')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : packaging pipeline is not implemented
+
+======================================================================
+FAIL: test_supply_and_release_holds (__main__.PackagingTests.test_supply_and_release_holds)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_0d5b6d10\launch\assets\test_packaging.py", line 47, in test_supply_and_release_holds
+    p = self.api()
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_0d5b6d10\launch\assets\test_packaging.py", line 16, in api
+    self.assertTrue((HERE / 'packaging.py').exists(), 'packaging pipeline is not implemented')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : packaging pipeline is not implemented
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.011s
+
+FAILED (failures=5)
