@@ -1,0 +1,100 @@
+{
+  "review_method": "Independent cold inspection using vision_analyze on each of the 25 original images; review-ledger.json consulted only afterward to reconcile existing holds.",
+  "ledger": "launch/art-05/review-ledger.json",
+  "limitations": ["Static endpoint images do not establish animation clearance, hidden faces, hinge contact or topology.", "Marketing is promotional illustration, not exact-model or interior equivalence evidence.", "Mobile captures do not establish physical-phone behavior.", "No source inventory rerun, art changes, approval changes or kanban transitions."],
+  "entries": [
+    {
+      "id": "new-zealand",
+      "verdict": "needs-user-review",
+      "visual_candidate_verdict": "candidate-pass",
+      "user_final_approved": false,
+      "images_inspected": ["launch/art-05/smoke/new-zealand/desktop-closed.png", "launch/art-05/smoke/new-zealand/desktop-open.png", "launch/art-05/smoke/new-zealand/mobile-closed.png", "launch/art-05/smoke/new-zealand/mobile-open.png", "launch/art-05/sources/new-zealand/marketing.webp"],
+      "observations": {
+        "desktop_closed": "Two pale rocky mountain masses, green slopes and turquoise channel above a slate-blue striated chest; brass corner caps, clasp, plain round disc, side ring and irregular stone feet remain visible.",
+        "desktop_open": "Empty patterned cavity, green rim and striated lid underside are visible. Dark separation beneath the raised lid leaves rear attachment ambiguous.",
+        "mobile_closed": "Peaks, feet and hardware remain within frame; title wraps without colliding with model or controls.",
+        "mobile_open": "Complete open silhouette, readable cavity and separated controls; stepped rim joins and hinge contact cannot be resolved at this scale.",
+        "marketing": "Same twin-mountain/channel composition, slate flowing-line body, green seam, brass and stone feet. The green lid reveal is already present here."
+      },
+      "observed_defects": [],
+      "finish_and_fidelity_differences": ["Runtime green slopes are more visibly triangular and transitions to pale rock and water are abrupt.", "Dense regular wall striations read flatter and more laminated than the promotional surface; water is a simpler turquoise strip."],
+      "unresolved_visual_questions": ["Open rear hinge connection appears separated; no still proves detachment or an incorrect pivot.", "Crowded front clasp and stepped rim joins merit close-up inspection, not a confirmed collision finding."],
+      "holds_preserved": ["Full historical source inventory not verified; existing New Zealand decision hold retained."],
+      "historical_inventory_hold": true,
+      "reason": "Bounded visual candidate pass does not clear the inherited historical-source hold or constitute user approval."
+    },
+    {
+      "id": "pacific-ocean",
+      "verdict": "needs-user-review",
+      "user_final_approved": false,
+      "images_inspected": ["launch/art-05/smoke/pacific-ocean/desktop-closed.png", "launch/art-05/smoke/pacific-ocean/desktop-open.png", "launch/art-05/smoke/pacific-ocean/mobile-closed.png", "launch/art-05/smoke/pacific-ocean/mobile-open.png", "launch/art-05/sources/pacific-ocean/marketing.webp"],
+      "observations": {
+        "desktop_closed": "Blue watery body, ivory atoll ring, turquoise lagoon and jagged dark rock are legible; brass clasp/disc/caps, side ring and dark stone feet remain coherent.",
+        "desktop_open": "Empty blue-patterned interior and lid underside, pale rim and two rear hinges visible; pattern discontinuities at panel boundaries are conspicuous.",
+        "mobile_closed": "Whole chest, atoll and feet fit; title and controls do not overlap. Clasp components are visually crowded but no penetration is established.",
+        "mobile_open": "Full open silhouette and readable cavity; rim layers look uneven at corner joins, without definite missing surfaces or clipping.",
+        "marketing": "Broad pale blue-gray lid, ivory ring around cyan depression and small dark peak; watery teal body, gold fittings and dark rounded supports."
+      },
+      "observed_defects": [],
+      "finish_and_fidelity_differences": ["Runtime lid has stronger watery blue mottling and less uniform pale coverage than marketing.", "Runtime body ripples are high contrast; ring and rock are angular and simplified. These are finish/fidelity differences rather than demonstrated broken geometry."],
+      "unresolved_visual_questions": ["Acceptability of pale-lid coverage and terrain treatment requires user decision.", "Rear hinge/rim attachment and clasp clearance cannot be certified from endpoint views."],
+      "holds_preserved": ["Existing pale-lid coverage and terrain-treatment decision hold."],
+      "reason": "Theme and framing are intact, but inherited fidelity decision remains unresolved."
+    },
+    {
+      "id": "philippines",
+      "verdict": "candidate-pass",
+      "user_final_approved": false,
+      "images_inspected": ["launch/art-05/smoke/philippines/desktop-closed.png", "launch/art-05/smoke/philippines/desktop-open.png", "launch/art-05/smoke/philippines/mobile-closed.png", "launch/art-05/smoke/philippines/mobile-open.png", "launch/art-05/sources/philippines/marketing.webp"],
+      "observations": {
+        "desktop_closed": "Rounded stepped terrace mound, pale stone body and yellow-green terrace tops; green seam, brass clasp/disc/corner caps, side ring and gray irregular feet.",
+        "desktop_open": "Empty pale mottled cavity with green rim and patterned lid underside; two rear hinges visible, but their exact contact is unresolved.",
+        "mobile_closed": "Terraced silhouette remains complete; title, controls and disclaimer do not overlap the model.",
+        "mobile_open": "Cavity and green rim read coherently; front-right rim corner looks slightly protruding, not a proven mesh intersection. No viewport clipping.",
+        "marketing": "Same stepped oval mound and sage terrace tops, cloudy gray body, dark green seam, brass fittings and rounded gray feet."
+      },
+      "observed_defects": [],
+      "finish_and_fidelity_differences": ["Runtime has more repetitive wavy stone banding and slightly warmer/yellower terrace tops than the softly cloudy promotional surface.", "Tier edges and rock feet are more angular; this does not establish missing or broken geometry."],
+      "unresolved_visual_questions": ["Rear hinge contact and corner trim joins require other angles for mechanical certification; projecting free-edge tab is consistent with released front clasp."],
+      "holds_preserved": [],
+      "reason": "Required originals retain terrace identity, hardware and stone feet with complete framing and no unequivocal structural defect. Candidate only."
+    },
+    {
+      "id": "saint-kitts-and-nevis",
+      "verdict": "needs-user-review",
+      "user_final_approved": false,
+      "images_inspected": ["launch/art-05/smoke/saint-kitts-and-nevis/desktop-closed.png", "launch/art-05/smoke/saint-kitts-and-nevis/desktop-open.png", "launch/art-05/smoke/saint-kitts-and-nevis/mobile-closed.png", "launch/art-05/smoke/saint-kitts-and-nevis/mobile-open.png", "launch/art-05/sources/saint-kitts-and-nevis/marketing.webp"],
+      "observations": {
+        "desktop_closed": "Large crater-like island and smaller pointed green island on turquoise water with cream shores; charcoal streaked body, brass fittings and dark block feet.",
+        "desktop_open": "Empty gray-green cavity and turquoise rim remain readable. Dark gap below the raised slate lid makes the hinge/body connection visually ambiguous.",
+        "mobile_closed": "Both peaks, body and feet remain visible; long title wraps cleanly and does not collide with the viewer.",
+        "mobile_open": "Complete open chest with no UI overlap; rear-right rim looks stepped and small hinge joins cannot be resolved.",
+        "marketing": "Same two-island composition, cream shorelines, aqua water, slate body, gold clasp/plain disc/corner caps and chunky body-colored feet."
+      },
+      "observed_defects": [],
+      "finish_and_fidelity_differences": ["Runtime slopes and shorelines are more schematic and faceted, with flatter turquoise water.", "Diagonal body streaking resembles brushed material rather than rough volcanic rock; neither is established damage."],
+      "unresolved_visual_questions": ["Conspicuous desktop rear lid/hinge separation needs rear/side contact evidence or explicit acceptance; not a proven detached lid."],
+      "holds_preserved": ["Existing unresolved rear lid/hinge attachment appearance hold."],
+      "ledger_reconciliation": "Ledger reports rotated runtime follow-up did not demonstrate broken geometry; that is historical evidence, not a fresh inspection here, and does not clear hidden contact or the decision hold.",
+      "reason": "Identity and framing survive, but the independent open-view concern supports retaining the existing review hold."
+    },
+    {
+      "id": "serbia",
+      "verdict": "candidate-pass",
+      "user_final_approved": false,
+      "images_inspected": ["launch/art-05/smoke/serbia/desktop-closed.png", "launch/art-05/smoke/serbia/desktop-open.png", "launch/art-05/smoke/serbia/mobile-closed.png", "launch/art-05/smoke/serbia/mobile-open.png", "launch/art-05/sources/serbia/marketing.webp"],
+      "observations": {
+        "desktop_closed": "Crimson/pink panels with ivory/navy diamonds and stepped lid rosettes; brown framing, brass clasp/disc/corner caps, left ring and brown block feet.",
+        "desktop_open": "Plain brown empty cavity and lid underside; rear lid gap and dark rim joins look visually exposed, without conclusive evidence of failed attachment.",
+        "mobile_closed": "Patterned panels and full chest silhouette remain legible; no viewport clipping or UI collision.",
+        "mobile_open": "Cavity remains aligned in perspective and model stays clear of instructions and buttons; hinge details are too small for mechanical certification.",
+        "marketing": "Coral-pink panels, cream/navy diamond repeats and large stepped lid rosettes with warm brown frame, gold hardware and block feet. Border cropping also exists in this reference."
+      },
+      "observed_defects": [],
+      "finish_and_fidelity_differences": ["Runtime textile reads brighter crimson/magenta versus dusty coral marketing; brown frame and inner surfaces are flatter and more uniform.", "Cropped border motifs are shared design treatment, not established texture loss. Plain open underside is not disappearance of exterior ornament."],
+      "unresolved_visual_questions": ["Rear hinge contact appears open or offset in desktop view, but exact contact and motion clearance are unproven; a raised front-clasp tab alone is not detached rear hardware."],
+      "holds_preserved": [],
+      "reason": "Bounded candidate pass for identity, complete framing and intact visible cavity; no unequivocal structural defect established, no final approval."
+    }
+  ]
+}

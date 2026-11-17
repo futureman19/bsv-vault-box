@@ -1,0 +1,104 @@
+{
+  "reviewer": "visual-3",
+  "method": "Independent cold visual inspection of each original image using vision_analyze; relevant parent review-ledger entries read only after all original inspections.",
+  "parent_ledger": "launch/art-05/review-ledger.json",
+  "scope": "Static visual review only; no art edits, screenshot regeneration, or kanban transitions.",
+  "entries": [
+    {
+      "id": "italy",
+      "verdict": "candidate-pass",
+      "user_final_approved": false,
+      "review_complete": true,
+      "images_inspected": ["launch/art-05/smoke/italy/desktop-closed.png", "launch/art-05/smoke/italy/desktop-open.png", "launch/art-05/smoke/italy/mobile-closed.png", "launch/art-05/smoke/italy/mobile-open.png", "launch/art-05/sources/italy/marketing.webp"],
+      "observations": {
+        "desktop_closed": "Ivory veined body, green lid rim and block feet, coral/ivory raised floral ornament and scattered geometric inlays, brass corner caps and front clasp are intact and fully framed.",
+        "desktop_open": "Green patterned inner lid and empty recessed cavity are visible with rear hinges and released clasp. Dark separation at rear joint gives a floating impression but does not prove detached geometry.",
+        "mobile_closed": "Whole chest, ornaments and feet fit; title and both controls fit without overflow. Fine diagonal edges look somewhat aliased.",
+        "mobile_open": "Whole raised lid, projecting clasp and feet fit; green cavity and pale corner blocks remain coherent.",
+        "marketing": "Same ivory/green body, short green feet, raised coral/ivory motif and brass hardware; top reads softer sage/seafoam rather than the viewer's olive-beige."
+      },
+      "proven_defects": [],
+      "finish_and_fidelity_differences": ["Viewer lid field is more olive/beige and its rim darker than promotional green.", "Viewer veining and green lining pattern are more repetitive; relief and fittings are angular. Raised ornament itself is also present in marketing, not a proven inlay defect."],
+      "limitations": ["Hinge contact, cavity floor and motion not certified from stills; apparent rear clearance is not proof of broken attachment."],
+      "parent_reconciliation": "Parent candidate result agrees with cold review; no approval inferred.",
+      "reason": "Reference identity and complete framing preserved; no unequivocal structural defect observed."
+    },
+    {
+      "id": "kyrgyzstan",
+      "verdict": "candidate-pass",
+      "user_final_approved": false,
+      "review_complete": true,
+      "images_inspected": ["launch/art-05/smoke/kyrgyzstan/desktop-closed.png", "launch/art-05/smoke/kyrgyzstan/desktop-open.png", "launch/art-05/smoke/kyrgyzstan/mobile-closed.png", "launch/art-05/smoke/kyrgyzstan/mobile-open.png", "launch/art-05/sources/kyrgyzstan/marketing.webp"],
+      "observations": {
+        "desktop_closed": "Crimson felt-like panels, brown frame, ivory horn/loop scrolls and stitch borders, central diamond, brass clasp/caps and trimmed block feet are visible and uncropped.",
+        "desktop_open": "Plain brown underside and brown cavity show rear hinge fittings; rear separation is apparent but hardware disconnection is not established.",
+        "mobile_closed": "Full silhouette and controls fit. Ivory motifs and brass latch remain legible despite coarse small details.",
+        "mobile_open": "Raised lid and released tab fit; brown empty interior is coherent, without a demonstrated missing lining or panel.",
+        "marketing": "Dusty rose panels and matte leather-like brown frame carry the same ivory paired loops, stitch lines, diamond and brass-capped feet."
+      },
+      "proven_defects": [],
+      "finish_and_fidelity_differences": ["Viewer crimson is stronger than the muted rose promotional panels.", "Frame, felt, scrolls and brass are less tactile and more faceted; broken-looking loop openings are not independently established damage."],
+      "limitations": ["Closed marketing cannot establish intended interior lining; fine hinge and ornament attachments remain unresolved."],
+      "parent_reconciliation": "Parent candidate result agrees; no new approval.",
+      "reason": "Design identity and desktop/mobile framing remain coherent with color and finish differences only."
+    },
+    {
+      "id": "lithuania",
+      "verdict": "needs-user-review",
+      "user_final_approved": false,
+      "review_complete": true,
+      "images_inspected": ["launch/art-05/smoke/lithuania/desktop-closed.png", "launch/art-05/smoke/lithuania/desktop-open.png", "launch/art-05/smoke/lithuania/mobile-closed.png", "launch/art-05/smoke/lithuania/mobile-open.png", "launch/art-05/sources/lithuania/marketing.webp"],
+      "observations": {
+        "desktop_closed": "Pale rippled body and block feet, turquoise inset, elongated raised dune and brass fittings fit fully. Visible body corners are pale.",
+        "desktop_open": "Pale rippled underside and empty cavity, teal rim and rear hinge barrels are visible. Dark rear clearance does not independently prove detachment.",
+        "mobile_closed": "Dune, aqua field, pale corner framing and brass clasp are readable; object and UI remain uncropped.",
+        "mobile_open": "Pale interior and lid, interrupted teal rim and projecting clasp remain in frame with no unequivocal breakage.",
+        "marketing": "Ivory grained body, pale aqua panel, raised elongated motif and brass hardware include conspicuous black vertical corner strips, unlike the pale model corners. Motif edging is uneven-looking; adhesive or physical damage cannot be established from promotional imagery."
+      },
+      "proven_defects": [],
+      "fidelity_decisions": [{"issue": "Black vertical body-corner accents in marketing are not visibly reproduced on the model's pale corners.", "classification": "Concrete reference/model appearance discrepancy, not proven broken mesh.", "required_decision": "User must accept pale corners as an intentional variant or direct alignment. Preserve existing hold; do not invent geometry from promotional imagery."}],
+      "finish_and_fidelity_differences": ["Viewer has more regular horizontal ripples, a stronger turquoise seam and more angular dune relief than the softly grained promotional finish."],
+      "limitations": ["Promotional strips are not proof of separate physical components; hidden corners and hinge mechanics remain unverified."],
+      "parent_reconciliation": "Parent needs-decision hold explicitly retained. Cold inspection identified black promotional corner strips versus pale model framing; parent confirms this is the outstanding fidelity decision.",
+      "reason": "Complete image review does not resolve the existing corner-trim acceptance hold; user decision remains required."
+    },
+    {
+      "id": "marshall-islands",
+      "verdict": "candidate-pass",
+      "user_final_approved": false,
+      "review_complete": true,
+      "images_inspected": ["launch/art-05/smoke/marshall-islands/desktop-closed.png", "launch/art-05/smoke/marshall-islands/desktop-open.png", "launch/art-05/smoke/marshall-islands/mobile-closed.png", "launch/art-05/smoke/marshall-islands/mobile-open.png", "launch/art-05/sources/marshall-islands/marketing.webp"],
+      "observations": {
+        "desktop_closed": "Cream woven grid, alternating corner bands, turquoise seam, raised ivory lagoon ring and rod/node chart panel are present. Brass clasp, round front fitting, side ring and pale irregular feet remain visible.",
+        "desktop_open": "Woven lid underside and cavity walls, turquoise opening rim and hinge fittings are visible; floor is partly obscured. Complete silhouette fits.",
+        "mobile_closed": "Lid motifs and fittings remain recognizable with no clipping; organic feet are not proven broken or detached.",
+        "mobile_open": "Raised lid, hardware, feet and controls fit. Interior depth and fine hinge attachment are hard to resolve.",
+        "marketing": "Same grid body, turquoise oval ring and rectangular rod/node ornament, brass fittings and irregular pale feet with smoother sheen and clearer small details."
+      },
+      "proven_defects": [],
+      "finish_and_fidelity_differences": ["Viewer weave is more uniform, lagoon accents flatter and brass less polished.", "Fine chart rods/nodes are less legible on mobile; feet remain organic rather than conventional furniture supports in both reference and model."],
+      "limitations": ["Chart crossing attachment, cultural interpretation, cavity floor and hidden support geometry are not certified."],
+      "parent_reconciliation": "Parent candidate result agrees; no new approval.",
+      "reason": "Recognizable reference arrangement and complete open/closed framing, with no demonstrated structural failure."
+    },
+    {
+      "id": "montenegro",
+      "verdict": "candidate-pass",
+      "user_final_approved": false,
+      "review_complete": true,
+      "images_inspected": ["launch/art-05/smoke/montenegro/desktop-closed.png", "launch/art-05/smoke/montenegro/desktop-open.png", "launch/art-05/smoke/montenegro/mobile-closed.png", "launch/art-05/smoke/montenegro/mobile-open.png", "launch/art-05/sources/montenegro/marketing.webp"],
+      "observations": {
+        "desktop_closed": "Pale faceted peaks, turquoise gorge and green vegetation row sit above pale body and forest-green seam; brass clasp/disc/side ring/caps and pale rounded feet are intact and framed.",
+        "desktop_open": "Plain pale patterned inner lid and cavity with green rim and rear hinges fit fully. Rear hardware contacts and floor are partly hidden.",
+        "mobile_closed": "Full terrain silhouette and feet fit; title wraps naturally. Clasp and circular fitting look crowded but do not establish intersection.",
+        "mobile_open": "Open lid and projecting tab fit. Repeated diagonal/checkered shading is conspicuous across pale surfaces; not independently established mesh damage.",
+        "marketing": "Matching faceted white mountain ridge, winding turquoise river, green oval vegetation, gold fittings and rock-like feet, with smoother matte/satin pale surfaces."
+      },
+      "proven_defects": [],
+      "finish_and_fidelity_differences": ["Viewer pale surfaces show stronger repeating diagonal/ripple shading than smooth promotional finish.", "Terrain, vegetation, feet and metal reflections read coarser; foot-to-body transitions are less refined but no detached support is demonstrated."],
+      "limitations": ["Terrain is on the turned-away outer lid in open views, not demonstrated missing. Motion clearance, fine hinges and hidden feet are not validated."],
+      "parent_reconciliation": "Parent candidate result agrees; no new approval.",
+      "reason": "Landscape identity, hardware and desktop/mobile framing retained; visible polish differences do not establish structural defects."
+    }
+  ]
+}
