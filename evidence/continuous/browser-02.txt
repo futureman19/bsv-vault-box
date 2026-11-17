@@ -1,0 +1,42 @@
+{
+  "checks": [
+    "desktop: rejection leaves reservation unchanged",
+    "desktop: all five signed transitions, binding/provenance, reload and exact evidence download",
+    "desktop: no horizontal overflow; real candidate image decoded",
+    "mobile: rejection leaves reservation unchanged",
+    "mobile: all five signed transitions, binding/provenance, reload and exact evidence download",
+    "mobile: no horizontal overflow; real candidate image decoded",
+    "ambiguous: rejection leaves reservation unchanged",
+    "ambiguous: durable same-byte hold survives browser reload",
+    "ambiguous: no horizontal overflow; real candidate image decoded"
+  ],
+  "pages": [
+    {
+      "name": "desktop",
+      "url": "http://127.0.0.1:8791",
+      "viewport": {
+        "width": 1365,
+        "height": 1000
+      }
+    },
+    {
+      "name": "mobile",
+      "url": "http://127.0.0.1:8792",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "ambiguous",
+      "url": "http://127.0.0.1:8793",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    }
+  ],
+  "external_requests": [],
+  "page_errors": [],
+  "result": "PASS"
+}

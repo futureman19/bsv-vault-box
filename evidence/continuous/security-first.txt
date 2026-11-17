@@ -1,0 +1,47 @@
+(node:9804) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ wallet reject leaves reservation unallocated (175.8926ms)
+✔ wallet disconnect leaves reservation unallocated (92.7881ms)
+✔ wallet wrong-buyer leaves reservation unallocated (104.4926ms)
+✔ wallet wrong-network leaves reservation unallocated (103.8637ms)
+✔ wallet malicious leaves reservation unallocated (105.4674ms)
+✔ swapped designId rejected even with recomputed local journal hashes (108.521ms)
+✔ swapped metadataSha256 rejected even with recomputed local journal hashes (108.7767ms)
+✔ swapped origin rejected even with recomputed local journal hashes (111.3878ms)
+✔ swapped buyerPubkey rejected even with recomputed local journal hashes (108.342ms)
+✔ valid signature on different binding is rejected at application boundary (53.9823ms)
+✔ duplicate reservation and transition do not sign or dispense twice (894.0399ms)
+✔ restart at prepared handoff uses exact saved signed bytes without wallet or new funding (713.498ms)
+✔ crash after durable attempt never retries or replaces funding on restart (895.0688ms)
+✔ ambiguous send holds exact raw/funding bytes across restart with no retry (883.4744ms)
+✔ authentically signed wallet response with wrong transition fails before send (1152.0747ms)
+✖ overlapping and cross-instance requests cannot both reach send (2241.2566ms)
+✔ finality/excess holds preserve confirmed ownership history and cannot reopen allocation (9632.2705ms)
+ℹ tests 17
+ℹ suites 0
+ℹ pass 16
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 17721.2981
+
+✖ failing tests:
+
+test at launch\continuous\security.test.js:80:1
+✖ overlapping and cross-instance requests cannot both reach send (2241.2566ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  2 !== 1
+  
+      at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_cfc46f41\launch\continuous\security.test.js:86:63)
+      at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+      at async Test.run (node:internal/test_runner/test:1113:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 2,
+    expected: 1,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

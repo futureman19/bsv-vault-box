@@ -1,0 +1,34 @@
+(node:21984) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ wallet reject leaves reservation unallocated (312.8401ms)
+✔ wallet disconnect leaves reservation unallocated (167.2953ms)
+✔ wallet wrong-buyer leaves reservation unallocated (157.963ms)
+✔ wallet wrong-network leaves reservation unallocated (160.6457ms)
+✔ wallet malicious leaves reservation unallocated (166.0134ms)
+✔ swapped designId rejected even with recomputed local journal hashes (170.3736ms)
+✔ swapped metadataSha256 rejected even with recomputed local journal hashes (170.6219ms)
+✔ swapped origin rejected even with recomputed local journal hashes (175.6043ms)
+✔ swapped buyerPubkey rejected even with recomputed local journal hashes (167.7911ms)
+✔ valid signature on different binding is rejected at application boundary (71.5757ms)
+✔ duplicate reservation and transition do not sign or dispense twice (1358.1498ms)
+✔ restart at prepared handoff uses exact saved signed bytes without wallet or new funding (1138.2379ms)
+✔ crash after durable attempt never retries or replaces funding on restart (1169.3703ms)
+✔ ambiguous send holds exact raw/funding bytes across restart with no retry (1002.1498ms)
+✔ authentically signed wallet response with wrong transition fails before send (1401.0103ms)
+✔ explicit action prevents stale browser request from executing the next phase (1019.2288ms)
+✔ overlapping and cross-instance requests cannot both reach send (888.1449ms)
+✔ finality/excess holds preserve confirmed ownership history and cannot reopen allocation (9110.5077ms)
+(node:1968) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ local server serves manifest-pinned art and real state; blocks foreign origins and stale actions (734.9221ms)
+(node:11200) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ one buyer/design/origin remains bound from reservation to actual withdrawn ordinal (21637.896ms)
+ℹ tests 20
+ℹ suites 0
+ℹ pass 20
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 21761.6741

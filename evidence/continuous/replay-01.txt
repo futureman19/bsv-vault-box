@@ -1,0 +1,50 @@
+{
+  "mode": "SIMULATION",
+  "stage": "WITHDRAWN",
+  "binding": {
+    "designId": "iceland",
+    "designIdentity": "urn:boxsv:collection:impossible-places:v1:iceland",
+    "manifestSha256": "307598fa4fa9aa4a9abef8d14dbc8bf7ee54c1e22589beb3ea43ec051796b3cb",
+    "buyerPubkey": "02c6047f9441ed7d6d3045406e95c07cd85c778e4b8cef3ca7abac09b95c709ee5",
+    "metadataSha256": "45f26e3f26153fe3562949d7a98fc5ea023fa290cbdfecee0edab4bea58045ca",
+    "origin": "0580a374ee024525808f19b99f7dca91f3d86880207c3deb3ffa90bbd0206a36_0"
+  },
+  "transitions": [
+    {
+      "action": "Pack",
+      "txid": "40d3cbce0b96e723e2647f7088faf6d4c3aa9e0858d34b5be08bcb02f7ad88aa",
+      "vm": true
+    },
+    {
+      "action": "Seal",
+      "txid": "79f243966e9a3c4f6367b74245433956b22f1387d517ec9f4fdcf59c6960d259",
+      "vm": true
+    },
+    {
+      "action": "Transfer",
+      "txid": "a183c1cba9aa63295ca91c104a8ccdd1b6fdd1a1a85edd6dce130e9e23dec583",
+      "vm": true
+    },
+    {
+      "action": "Open",
+      "txid": "b1d75027394539f6e739e35ee2e1269116de6623c3c72d46573b0004e2fc8968",
+      "vm": true
+    },
+    {
+      "action": "Withdraw",
+      "txid": "a6a76545443ee590f86107fce49a52dedbccc209cb71e28deb777ec9b783e697",
+      "vm": true
+    }
+  ],
+  "events": 17,
+  "journalHead": "e0f3b157beab35a30b439d078f8ed4d1938c733072565a9de14c1142ee8b3c49",
+  "provenance": {
+    "originalIssuanceProvenance": true,
+    "originalManifestComplete": true,
+    "currentCustodyIntegrity": true
+  },
+  "chainInclusion": false,
+  "launchReady": false
+}
+(node:27724) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)

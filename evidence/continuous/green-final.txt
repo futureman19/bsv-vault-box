@@ -1,0 +1,38 @@
+(node:27520) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ actual child-process exit at afterPrepared replays safely in fresh process connection (1400.16ms)
+✔ actual child-process exit at afterAttempt replays safely in fresh process connection (1050.9865ms)
+(node:21676) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ wallet reject leaves reservation unallocated (219.0093ms)
+✔ wallet disconnect leaves reservation unallocated (128.0477ms)
+✔ wallet wrong-buyer leaves reservation unallocated (165.6191ms)
+✔ wallet wrong-network leaves reservation unallocated (110.35ms)
+✔ wallet malicious leaves reservation unallocated (178.5218ms)
+✔ swapped designId rejected even with recomputed local journal hashes (127.8491ms)
+✔ swapped metadataSha256 rejected even with recomputed local journal hashes (182.0854ms)
+✔ swapped origin rejected even with recomputed local journal hashes (114.5077ms)
+✔ swapped buyerPubkey rejected even with recomputed local journal hashes (104.0593ms)
+✔ valid signature on different binding is rejected at application boundary (52.6017ms)
+✔ duplicate reservation and transition do not sign or dispense twice (1060.7012ms)
+✔ restart at prepared handoff uses exact saved signed bytes without wallet or new funding (851.2862ms)
+✔ crash after durable attempt never retries or replaces funding on restart (1009.9678ms)
+✔ ambiguous send holds exact raw/funding bytes across restart with no retry (793.0096ms)
+✔ authentically signed wallet response with wrong transition fails before send (1336.9869ms)
+✔ explicit action prevents stale browser request from executing the next phase (1014.7555ms)
+✔ overlapping and cross-instance requests cannot both reach send (914.6267ms)
+✔ finality/excess holds preserve confirmed ownership history and cannot reopen allocation (10201.3938ms)
+(node:30676) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ local server serves manifest-pinned art and real state; blocks foreign origins and stale actions (518.3756ms)
+(node:30960) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ one buyer/design/origin remains bound from reservation to actual withdrawn ordinal (21305.2517ms)
+ℹ tests 22
+ℹ suites 0
+ℹ pass 22
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 21420.344
