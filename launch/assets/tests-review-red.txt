@@ -1,0 +1,62 @@
+test_manifest_deterministic_and_complete (__main__.PackagingTests.test_manifest_deterministic_and_complete) ... ok
+test_missing_duplicate_and_substituted_roster (__main__.PackagingTests.test_missing_duplicate_and_substituted_roster) ... ok
+test_missing_tampered_payload_and_recovery_offline (__main__.PackagingTests.test_missing_tampered_payload_and_recovery_offline) ... ok
+test_required_recovery_roles_and_category (__main__.PackagingTests.test_required_recovery_roles_and_category) ... ok
+test_reviewed_input_guards (__main__.PackagingTests.test_reviewed_input_guards) ... 
+  test_reviewed_input_guards (__main__.PackagingTests.test_reviewed_input_guards) (mode='duplicate-roster') ... FAIL
+  test_reviewed_input_guards (__main__.PackagingTests.test_reviewed_input_guards) (mode='duplicate-archive') ... FAIL
+  test_reviewed_input_guards (__main__.PackagingTests.test_reviewed_input_guards) (mode='missing-notice') ... FAIL
+  test_reviewed_input_guards (__main__.PackagingTests.test_reviewed_input_guards) (mode='bool-supply') ... FAIL
+  test_reviewed_input_guards (__main__.PackagingTests.test_reviewed_input_guards) (mode='false-approval') ... FAIL
+test_stable_identity_survives_art_change (__main__.PackagingTests.test_stable_identity_survives_art_change) ... ok
+test_supply_and_release_holds (__main__.PackagingTests.test_supply_and_release_holds) ... ok
+
+======================================================================
+FAIL: test_reviewed_input_guards (__main__.PackagingTests.test_reviewed_input_guards) (mode='duplicate-roster')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_0d5b6d10\launch\assets\test_packaging.py", line 71, in test_reviewed_input_guards
+    with self.assertRaises(ValueError): p.make_manifest(d)
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_reviewed_input_guards (__main__.PackagingTests.test_reviewed_input_guards) (mode='duplicate-archive')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_0d5b6d10\launch\assets\test_packaging.py", line 71, in test_reviewed_input_guards
+    with self.assertRaises(ValueError): p.make_manifest(d)
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_reviewed_input_guards (__main__.PackagingTests.test_reviewed_input_guards) (mode='missing-notice')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_0d5b6d10\launch\assets\test_packaging.py", line 71, in test_reviewed_input_guards
+    with self.assertRaises(ValueError): p.make_manifest(d)
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_reviewed_input_guards (__main__.PackagingTests.test_reviewed_input_guards) (mode='bool-supply')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_0d5b6d10\launch\assets\test_packaging.py", line 71, in test_reviewed_input_guards
+    with self.assertRaises(ValueError): p.make_manifest(d)
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_reviewed_input_guards (__main__.PackagingTests.test_reviewed_input_guards) (mode='false-approval')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_0d5b6d10\launch\assets\test_packaging.py", line 71, in test_reviewed_input_guards
+    with self.assertRaises(ValueError): p.make_manifest(d)
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.276s
+
+FAILED (failures=5)
