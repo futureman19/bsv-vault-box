@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "lifecycleTransactions": 5,
+  "sponsorPreparations": 6,
+  "custodyFeeSats": 2500,
+  "sponsorPreparationFeeSats": 3000,
+  "oldOwnerRejection": {
+    "code": -26,
+    "message": "16: mandatory-script-verify-flag-failed (Signature must be zero for failed CHECK(MULTI)SIG operation)"
+  },
+  "finalUTXOs": [
+    {
+      "outpoint": "308d87e060fa716abc7451c2b027fb336efdb0279da7f15d82b72388514728eb:0",
+      "satoshis": 1,
+      "script": "76a91406afd46bcdfd22ef94ac122aa11f241244a37ecc88ac"
+    },
+    {
+      "outpoint": "308d87e060fa716abc7451c2b027fb336efdb0279da7f15d82b72388514728eb:1",
+      "satoshis": 1,
+      "script": "76a91406afd46bcdfd22ef94ac122aa11f241244a37ecc88ac"
+    }
+  ],
+  "origin": "cba0434bda8c869bef408613a48541d3b2ac543dcc43d0f72ea48b48c31e1d21_0",
+  "scope": "Fresh node captures replayed offline; historical final unspent snapshot, not current public chain state."
+}

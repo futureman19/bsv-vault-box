@@ -1,0 +1,46 @@
+{
+  "mode": "LOCAL-NONSECRET-FIXTURE-ONLY",
+  "parent": "01225c6aa893122525116dcfa793ac1f3d6885ae",
+  "archiveSha256": "c9a94473b506de18b498fa1a57393053e1113ca40ebc562bd0f002388d52e635",
+  "files": 97,
+  "checks": [
+    "all parent committed evidence hashes matched",
+    "backup exact allowlist and verify",
+    "fresh restore every byte read back",
+    "existing archive refused",
+    "existing restore destination refused",
+    "untrusted source inventory refused",
+    "wrong external hash refused",
+    "archive corruption refused",
+    "traversal refused even with matching outer hash",
+    "extra-member refused even with matching outer hash",
+    "restored allocation replay and SQLite backup integrity/audit equivalence",
+    "local static candidate switch and rollback preserve ledger",
+    "corrupt release rejected before pointer change",
+    "failed candidate leaves known-good pointer intact"
+  ],
+  "checkCount": 14,
+  "elapsedSeconds": 5.291,
+  "releasePins": {
+    "known-good": "01225c6aa893122525116dcfa793ac1f3d6885ae",
+    "candidate": "606147d6a1521adf635d79a70785ba7f82dbbf77"
+  },
+  "releaseFileHashes": {
+    "known-good": {
+      "index.html": "8cc3137a4998716cbaff9b1ff0d7fcabbaf891260d7846002467f1b57322bece",
+      "box-demo.html": "c799509524fa50f258c3a2b477257557335d0c9aeb474c66c3b96fa19bfdedec",
+      "gallery.html": "0b72d05f59ec642146ed02c46926af02d6488e4be0f38e6f18dd7d8b4e556330"
+    },
+    "candidate": {
+      "index.html": "ebdfe7693c8d644cbbd082136e6c9ca5abe907c820ff70ac59e76148a72634fa",
+      "box-demo.html": "10a85ee512c2a57cd247e685cae14ec702aed1570e7e407c36295e2a459c6626",
+      "gallery.html": "a5fc326016da1e630e457e48046fb11f18c3a2b0abd474d90fd6299299cb5209"
+    }
+  },
+  "launchReady": false,
+  "limits": [
+    "Three real HTML entrypoints only, not full-site recovery or browser acceptance",
+    "Local atomic pointer is not GitHub Pages deployment rollback",
+    "No real ledger, signing key, chain RPC, monitoring service or external backup"
+  ]
+}

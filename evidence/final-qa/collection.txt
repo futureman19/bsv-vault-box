@@ -1,0 +1,19 @@
+test_all_raw_reviews_preserved (__main__.Tests.test_all_raw_reviews_preserved) ... ok
+test_approval_rejected (__main__.Tests.test_approval_rejected) ... ok
+test_changed_viewer_rejected (__main__.Tests.test_changed_viewer_rejected) ... ok
+test_deterministic (__main__.Tests.test_deterministic) ... ok
+test_duplicate_manifest_rejected (__main__.Tests.test_duplicate_manifest_rejected) ... ok
+test_duplicate_paths (__main__.Tests.test_duplicate_paths) ... ok
+test_duplicates_rejected (__main__.Tests.test_duplicates_rejected) ... ok
+test_known_holds_baseline (__main__.Tests.test_known_holds_baseline) ... ok
+test_missing_id_rejected (__main__.Tests.test_missing_id_rejected) ... ok
+test_path_aliases_rejected (__main__.Tests.test_path_aliases_rejected) ... C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_85a25a3c\launch\collection\check_package.py:11: DeprecationWarning: pathlib.PurePath.is_reserved() is deprecated and scheduled for removal in Python 3.15. Use os.path.isreserved() to detect reserved paths on Windows.
+  if p.as_posix()!=r['path'] or any(part.endswith((' ','.')) or pathlib.PureWindowsPath(part).is_reserved() for part in p.parts): raise ValueError('noncanonical or reserved path')
+ok
+test_roster (__main__.Tests.test_roster) ... ok
+test_unsafe_paths (__main__.Tests.test_unsafe_paths) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.157s
+
+OK
