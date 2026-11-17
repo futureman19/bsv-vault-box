@@ -1,0 +1,175 @@
+test_all_unique_and_202nd_rejected_across_restarts (__main__.AllocationTests.test_all_unique_and_202nd_rejected_across_restarts) ... ERROR
+test_ambiguous_broadcast_never_retries_or_refunds_automatically (__main__.AllocationTests.test_ambiguous_broadcast_never_retries_or_refunds_automatically) ... ERROR
+test_config_network_keys_unknowns_and_supply_rejected (__main__.AllocationTests.test_config_network_keys_unknowns_and_supply_rejected) ... FAIL
+test_excess_and_finality_loss_preserve_confirmed_ownership (__main__.AllocationTests.test_excess_and_finality_loss_preserve_confirmed_ownership) ... ERROR
+test_failed_write_rolls_back_allocation (__main__.AllocationTests.test_failed_write_rolls_back_allocation) ... FAIL
+test_fixture_payment_and_lifecycle_plan (__main__.AllocationTests.test_fixture_payment_and_lifecycle_plan) ... ERROR
+test_idempotence_and_changed_request_fail_closed (__main__.AllocationTests.test_idempotence_and_changed_request_fail_closed) ... FAIL
+test_initial_inventory_exact_and_locked (__main__.AllocationTests.test_initial_inventory_exact_and_locked) ... ERROR
+test_manifest_exact_pin_rejects_substitution (__main__.AllocationTests.test_manifest_exact_pin_rejects_substitution) ... FAIL
+test_no_network_or_signing_dependencies (__main__.AllocationTests.test_no_network_or_signing_dependencies) ... ERROR
+test_partial_expiry_late_payment_refund_hold_never_relist (__main__.AllocationTests.test_partial_expiry_late_payment_refund_hold_never_relist) ... ERROR
+test_receipt_reuse_and_invalid_amounts (__main__.AllocationTests.test_receipt_reuse_and_invalid_amounts) ... FAIL
+test_reserves_inside_cap_and_determinism (__main__.AllocationTests.test_reserves_inside_cap_and_determinism) ... ERROR
+test_tampered_materialized_state_and_history_rejected (__main__.AllocationTests.test_tampered_materialized_state_and_history_rejected) ... ERROR
+test_tampered_materialized_state_and_history_rejected (__main__.AllocationTests.test_tampered_materialized_state_and_history_rejected) ... ERROR
+
+======================================================================
+ERROR: test_all_unique_and_202nd_rejected_across_restarts (__main__.AllocationTests.test_all_unique_and_202nd_rejected_across_restarts)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_545a3a30\launch\mint\test_dry_run.py", line 49, in test_all_unique_and_202nd_rejected_across_restarts
+    draws = [self.reserve('r' + str(i))['design'] for i in range(201)]
+             ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+KeyError: 'design'
+
+======================================================================
+ERROR: test_ambiguous_broadcast_never_retries_or_refunds_automatically (__main__.AllocationTests.test_ambiguous_broadcast_never_retries_or_refunds_automatically)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_545a3a30\launch\mint\test_dry_run.py", line 101, in test_ambiguous_broadcast_never_retries_or_refunds_automatically
+    self.assertEqual(held['state'], 'AMBIGUOUS_HOLD')
+                     ~~~~^^^^^^^^^
+KeyError: 'state'
+
+======================================================================
+ERROR: test_excess_and_finality_loss_preserve_confirmed_ownership (__main__.AllocationTests.test_excess_and_finality_loss_preserve_confirmed_ownership)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_545a3a30\launch\mint\test_dry_run.py", line 113, in test_excess_and_finality_loss_preserve_confirmed_ownership
+    self.assertEqual(excess['state'], 'OPENED')
+                     ~~~~~~^^^^^^^^^
+KeyError: 'state'
+
+======================================================================
+ERROR: test_fixture_payment_and_lifecycle_plan (__main__.AllocationTests.test_fixture_payment_and_lifecycle_plan)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_545a3a30\launch\mint\test_dry_run.py", line 71, in test_fixture_payment_and_lifecycle_plan
+    self.assertEqual(self.pay()['state'], 'READY')
+                     ~~~~~~~~~~^^^^^^^^^
+KeyError: 'state'
+
+======================================================================
+ERROR: test_initial_inventory_exact_and_locked (__main__.AllocationTests.test_initial_inventory_exact_and_locked)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_545a3a30\launch\mint\test_dry_run.py", line 40, in test_initial_inventory_exact_and_locked
+    self.assertEqual(s['supply'], {'Country': 195, 'Ocean': 5, 'Moon': 1, 'total': 201})
+                     ~^^^^^^^^^^
+KeyError: 'supply'
+
+======================================================================
+ERROR: test_no_network_or_signing_dependencies (__main__.AllocationTests.test_no_network_or_signing_dependencies)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_545a3a30\launch\mint\test_dry_run.py", line 177, in test_no_network_or_signing_dependencies
+    self.assertEqual(d.audit(self.db)['mode'], 'SIMULATION-ONLY')
+                     ~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'mode'
+
+======================================================================
+ERROR: test_partial_expiry_late_payment_refund_hold_never_relist (__main__.AllocationTests.test_partial_expiry_late_payment_refund_hold_never_relist)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_545a3a30\launch\mint\test_dry_run.py", line 85, in test_partial_expiry_late_payment_refund_hold_never_relist
+    self.assertEqual(self.pay(amount=40)['state'], 'RESERVED')
+                     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+KeyError: 'state'
+
+======================================================================
+ERROR: test_reserves_inside_cap_and_determinism (__main__.AllocationTests.test_reserves_inside_cap_and_determinism)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_545a3a30\launch\mint\test_dry_run.py", line 150, in test_reserves_inside_cap_and_determinism
+    self.assertEqual(d.inspect(self.db)['available'], 200)
+                     ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+KeyError: 'available'
+
+======================================================================
+ERROR: test_tampered_materialized_state_and_history_rejected (__main__.AllocationTests.test_tampered_materialized_state_and_history_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_545a3a30\launch\mint\test_dry_run.py", line 160, in test_tampered_materialized_state_and_history_rejected
+    c.execute("UPDATE snapshot SET body = '{}' WHERE id=1")
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: snapshot
+
+======================================================================
+ERROR: test_tampered_materialized_state_and_history_rejected (__main__.AllocationTests.test_tampered_materialized_state_and_history_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\futur\.hermes\tools\python-3.14.9+20261021-win32-x64\Lib\shutil.py", line 701, in _rmtree_unsafe
+    os.unlink(fullname)
+    ~~~~~~~~~^^^^^^^^^^
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_545a3a30\\launch\\mint\\tmpp4ie31dj\\sim.sqlite'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\futur\.hermes\tools\python-3.14.9+20261021-win32-x64\Lib\tempfile.py", line 1055, in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\futur\.hermes\tools\python-3.14.9+20261021-win32-x64\Lib\tempfile.py", line 1035, in _rmtree
+    _shutil.rmtree(name, onexc=onexc, dir_fd=dir_fd, _onexc_kwargs=True)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\futur\.hermes\tools\python-3.14.9+20261021-win32-x64\Lib\shutil.py", line 859, in rmtree
+    _rmtree_impl(path, dir_fd, onexc)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\futur\.hermes\tools\python-3.14.9+20261021-win32-x64\Lib\shutil.py", line 705, in _rmtree_unsafe
+    onexc(os.unlink, fullname, err)
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\futur\.hermes\tools\python-3.14.9+20261021-win32-x64\Lib\tempfile.py", line 1002, in onexc
+    _os.unlink(base, dir_fd=dir_fd)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_545a3a30\\launch\\mint\\tmpp4ie31dj\\sim.sqlite'
+
+======================================================================
+FAIL: test_config_network_keys_unknowns_and_supply_rejected (__main__.AllocationTests.test_config_network_keys_unknowns_and_supply_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_545a3a30\launch\mint\test_dry_run.py", line 134, in test_config_network_keys_unknowns_and_supply_rejected
+    with self.assertRaises(ValueError): self.init(cfg)
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_failed_write_rolls_back_allocation (__main__.AllocationTests.test_failed_write_rolls_back_allocation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_545a3a30\launch\mint\test_dry_run.py", line 167, in test_failed_write_rolls_back_allocation
+    with self.assertRaises(OSError): self.reserve()
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^
+AssertionError: OSError not raised
+
+======================================================================
+FAIL: test_idempotence_and_changed_request_fail_closed (__main__.AllocationTests.test_idempotence_and_changed_request_fail_closed)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_545a3a30\launch\mint\test_dry_run.py", line 63, in test_idempotence_and_changed_request_fail_closed
+    with self.assertRaisesRegex(ValueError, 'idempotency'):
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_manifest_exact_pin_rejects_substitution (__main__.AllocationTests.test_manifest_exact_pin_rejects_substitution)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_545a3a30\launch\mint\test_dry_run.py", line 144, in test_manifest_exact_pin_rejects_substitution
+    with self.assertRaisesRegex(ValueError, 'manifest'):
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_receipt_reuse_and_invalid_amounts (__main__.AllocationTests.test_receipt_reuse_and_invalid_amounts)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_545a3a30\launch\mint\test_dry_run.py", line 124, in test_receipt_reuse_and_invalid_amounts
+    with self.assertRaisesRegex(ValueError, 'receipt'):
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.046s
+
+FAILED (failures=5, errors=10)

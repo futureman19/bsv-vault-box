@@ -1,0 +1,23 @@
+test_malformed_action_fails_controlled_without_mutation (__main__.AllocationTests.test_malformed_action_fails_controlled_without_mutation) ... ERROR
+
+======================================================================
+ERROR: test_malformed_action_fails_controlled_without_mutation (__main__.AllocationTests.test_malformed_action_fails_controlled_without_mutation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_545a3a30\launch\mint\test_dry_run.py", line 230, in test_malformed_action_fails_controlled_without_mutation
+    self.op('bad', action, reservation='r1')
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_545a3a30\launch\mint\test_dry_run.py", line 30, in op
+    return d.apply(self.db, {'key': key, 'action': action, **kw})
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_545a3a30\launch\mint\dry_run.py", line 227, in apply
+    result = transition(state, request)
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_545a3a30\launch\mint\dry_run.py", line 86, in transition
+    if action not in extras:
+       ^^^^^^^^^^^^^^^^^^^^
+TypeError: cannot use 'list' as a dict key (unhashable type: 'list')
+
+----------------------------------------------------------------------
+Ran 1 test in 0.043s
+
+FAILED (errors=1)

@@ -1,0 +1,124 @@
+
+
+  external one-ordinal paired custody (serialized Script VM)
+    ✔ deposits independently existing inscription and executes full lifecycle (146ms)
+    ✔ foreign asset substitution fails in the deposit BOX Script itself
+    ✔ sealed withdrawal is forbidden even with owner signature
+    ✔ seller cannot open transferred custody
+    ✔ seller cannot withdraw opened custody
+    ✔ wrong raw parent proof fails freshly signed VM
+    ✔ tampered raw parent bytes fail
+    ✔ wrong sibling outpoint fails VM
+    ✔ missing asset input fails
+    ✔ duplicated asset input fails
+    ✔ asset output omission fails
+    ✔ asset output substitution fails
+    ✔ asset output duplication fails
+    ✔ control output counterfeit code fails
+    ✔ one-sat principal cannot be diverted as fee
+    ✔ extra change destination fails
+    ✔ unsupported external fee input fails
+    ✔ withdrawal to seller fails with fresh buyer signature
+    ✔ copy of same-label box cannot replace original control sibling
+    ✔ a counterfeit same-label history is rejected at client origin boundary (41ms)
+    ✔ wrong initial origin rejected by history admission
+    ✔ wrong actual previous locking code cannot be overridden by witness
+    ✔ conflicting spends are rejected by ledger, not claimed as Script feature (177ms)
+    ✔ ordinal first-satoshi mapping stays unchanged at every step
+    ✔ actual primary-spec example transaction parses to the published txid
+
+  bounded sponsored external custody (serialized Script VM)
+    ✔ funds the full lifecycle without spending either principal sat (463ms)
+    ✔ keeps repeated transfer serialized witnesses bounded (1072ms)
+    ✔ uses a genuinely signed bounded P2PKH funding parent (87ms)
+    ✔ accepts exact positive fee boundaries and no-change funding (259ms)
+    ✔ rejects zero fee even with both signatures (75ms)
+    ✔ rejects fee above the 10000-sat cap even with both signatures (76ms)
+    ✔ rejects negative fee (53ms)
+    ✔ rejects change destination diversion with fresh owner and sponsor signatures (92ms)
+    ✔ rejects excess change with fresh signatures (61ms)
+    ✔ rejects missing change with fresh signatures (55ms)
+    ✔ rejects extra change outputs with fresh signatures (53ms)
+    ✔ rejects ordinal principal diversion (49ms)
+    ✔ rejects control principal diversion (87ms)
+    ✔ rejects fourth input (57ms)
+    ✔ rejects sponsor input relocation ahead of the ordinal
+    ✔ rejects wrong actual sponsor outpoint in covenant VM (51ms)
+    ✔ rejects wrong sponsor output index in covenant VM (49ms)
+    ✔ rejects tampered fundingValue witness in covenant VM (124ms)
+    ✔ rejects tampered change witness in covenant VM (82ms)
+    ✔ rejects tampered fundingLocktime witness in covenant VM (84ms)
+    ✔ rejects tampered parent witness in covenant VM (106ms)
+    ✔ rejects tampered sponsor witness in covenant VM (78ms)
+    ✔ rejects tampered sponsorSig witness in covenant VM (83ms)
+    ✔ rejects oversized parent digest (115ms)
+    ✔ rejects prefix input-count ambiguity (121ms)
+    ✔ rejects prefix output-count ambiguity (117ms)
+    ✔ rejects noncanonical/long scriptSig boundary (106ms)
+    ✔ rejects sig sighash 42 even if cryptographically signed (118ms)
+    ✔ rejects sig sighash c1 even if cryptographically signed (119ms)
+    ✔ rejects sponsorSig sighash 42 even if cryptographically signed (97ms)
+    ✔ rejects sponsorSig sighash c1 even if cryptographically signed (131ms)
+    ✔ requires the actual funding P2PKH authorization too (117ms)
+    ✔ rejects substituted sponsor locking script despite an asserted key (135ms)
+    ✔ rejects an actual two-output funding parent (141ms)
+    ✔ accepts canonical maximum 108-byte funding scriptSig and rejects 109 (328ms)
+    ✔ sponsorship does not let the former owner open or withdraw (96ms)
+    ✔ sponsorship cannot bypass sealed withdrawal or counterfeit companion code (101ms)
+    ✔ counterfeit copied-label spend is locally valid but not anchored NFT history (72ms)
+
+  BOX-NATIVE-1 actual Script VM
+    ✔ implements the native wrapper experiment
+    ✔ full lifecycle with anchored replay (168ms)
+    ✔ sealed remove bypass rejected by VM
+    ✔ sealed withdraw bypass rejected by VM
+    ✔ sealed pack bypass rejected by VM
+    ✔ old owner cannot open after transfer
+    ✔ wrong signature cannot transfer
+    ✔ open is irreversible
+    ✔ withdrawn wrapper cannot repack
+    ✔ asset substitution rejected with fresh signature/preimage
+    ✔ inventory removal rejected with fresh signature/preimage
+    ✔ duplicate asset rejected with fresh signature/preimage
+    ✔ fee diversion rejected with fresh signature/preimage
+    ✔ change diversion rejected with fresh signature/preimage
+    ✔ counterfeit box replacement rejected with fresh signature/preimage
+    ✔ sibling input injection rejected with fresh signature/preimage
+    ✔ counterfeit standalone genesis rejected by anchored validation
+    ✔ omitted ancestor rejected by history validator
+    ✔ forged sibling proof rejected by VM
+    ✔ decoder rejects unrelated scripts
+    ✔ local zero-fee prototype preserves principal at minimum balance (46ms)
+    ✔ old owner cannot transfer or withdraw after transfer (42ms)
+    ✔ same label on a different genesis is not the same asset
+    ✔ serialized transactions replay through VM without builder result metadata (153ms)
+    ✔ competing remove and seal cannot both enter local ledger (197ms)
+    ✔ one-satoshi principal remains spendable
+    ✔ local UTXO ledger rejects replay/double spend (72ms)
+
+  single collectible with detached signed launch record
+    ✔ accepts canonical detached record independently of serialized custody replay (318ms)
+    ✔ retains immutable origin, one-sat principals and fresh valid sponsor preparations through withdrawal (837ms)
+    ✔ rejects provenance: unknown issuer (217ms)
+    ✔ rejects provenance: forged signature (291ms)
+    ✔ rejects provenance: missing external policy (295ms)
+    ✔ rejects provenance: wrong collection policy (425ms)
+    ✔ rejects provenance: wrong design policy (304ms)
+    ✔ rejects provenance: extra envelope field (285ms)
+    ✔ rejects provenance: noncanonical statement (260ms)
+    ✔ rejects provenance: changed origin (293ms)
+    ✔ rejects provenance: uppercase digest (236ms)
+    ✔ rejects provenance: extra statement field (295ms)
+    ✔ rejects provenance: missing statement field (269ms)
+    ✔ rejects manifest: tampered metadata (364ms)
+    ✔ rejects manifest: noncanonical metadata (314ms)
+    ✔ rejects manifest: changed media bytes (240ms)
+    ✔ rejects manifest: missing art (353ms)
+    ✔ rejects copied current script presented as original independently of its label
+    ✔ rejects unsupported full-art grammar
+    ✔ rejects missing, duplicate and substituted principal serialized spends (333ms)
+    ✔ rejects sealed withdrawal, former owner open/withdraw and opened-to-seal reuse (111ms)
+
+
+  111 passing (13s)
+

@@ -1,0 +1,169 @@
+[
+  {
+    "name": "final-tests",
+    "command": [
+      "C:\\Users\\futur\\.hermes\\installs\\60215e25aec448c9\\environments\\6bbad3125f8846bda151fac3595e4336\\venv\\Scripts\\python.exe",
+      "launch/mint/test_dry_run.py"
+    ],
+    "cwd": "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_545a3a30",
+    "exitCode": 0
+  },
+  {
+    "name": "cli-init",
+    "command": [
+      "C:\\Users\\futur\\.hermes\\installs\\60215e25aec448c9\\environments\\6bbad3125f8846bda151fac3595e4336\\venv\\Scripts\\python.exe",
+      "launch/mint/dry_run.py",
+      "init",
+      "--db",
+      "evidence/mint-dry-run/operator.sqlite",
+      "--config",
+      "launch/mint/fixture-proposal.json",
+      "--manifest",
+      "launch/assets/candidate-manifest.json"
+    ],
+    "cwd": "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_545a3a30",
+    "exitCode": 0
+  },
+  {
+    "name": "cli-01-reserve",
+    "command": [
+      "C:\\Users\\futur\\.hermes\\installs\\60215e25aec448c9\\environments\\6bbad3125f8846bda151fac3595e4336\\venv\\Scripts\\python.exe",
+      "launch/mint/dry_run.py",
+      "apply",
+      "--db",
+      "evidence/mint-dry-run/operator.sqlite",
+      "--request",
+      "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_545a3a30\\launch\\mint\\fixtures\\01-reserve.json"
+    ],
+    "cwd": "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_545a3a30",
+    "exitCode": 0
+  },
+  {
+    "name": "cli-02-receipt",
+    "command": [
+      "C:\\Users\\futur\\.hermes\\installs\\60215e25aec448c9\\environments\\6bbad3125f8846bda151fac3595e4336\\venv\\Scripts\\python.exe",
+      "launch/mint/dry_run.py",
+      "apply",
+      "--db",
+      "evidence/mint-dry-run/operator.sqlite",
+      "--request",
+      "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_545a3a30\\launch\\mint\\fixtures\\02-receipt.json"
+    ],
+    "cwd": "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_545a3a30",
+    "exitCode": 0
+  },
+  {
+    "name": "cli-03-build",
+    "command": [
+      "C:\\Users\\futur\\.hermes\\installs\\60215e25aec448c9\\environments\\6bbad3125f8846bda151fac3595e4336\\venv\\Scripts\\python.exe",
+      "launch/mint/dry_run.py",
+      "apply",
+      "--db",
+      "evidence/mint-dry-run/operator.sqlite",
+      "--request",
+      "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_545a3a30\\launch\\mint\\fixtures\\03-build.json"
+    ],
+    "cwd": "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_545a3a30",
+    "exitCode": 0
+  },
+  {
+    "name": "cli-04-included",
+    "command": [
+      "C:\\Users\\futur\\.hermes\\installs\\60215e25aec448c9\\environments\\6bbad3125f8846bda151fac3595e4336\\venv\\Scripts\\python.exe",
+      "launch/mint/dry_run.py",
+      "apply",
+      "--db",
+      "evidence/mint-dry-run/operator.sqlite",
+      "--request",
+      "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_545a3a30\\launch\\mint\\fixtures\\04-included.json"
+    ],
+    "cwd": "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_545a3a30",
+    "exitCode": 0
+  },
+  {
+    "name": "cli-05-open",
+    "command": [
+      "C:\\Users\\futur\\.hermes\\installs\\60215e25aec448c9\\environments\\6bbad3125f8846bda151fac3595e4336\\venv\\Scripts\\python.exe",
+      "launch/mint/dry_run.py",
+      "apply",
+      "--db",
+      "evidence/mint-dry-run/operator.sqlite",
+      "--request",
+      "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_545a3a30\\launch\\mint\\fixtures\\05-open.json"
+    ],
+    "cwd": "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_545a3a30",
+    "exitCode": 0
+  },
+  {
+    "name": "cli-06-withdraw",
+    "command": [
+      "C:\\Users\\futur\\.hermes\\installs\\60215e25aec448c9\\environments\\6bbad3125f8846bda151fac3595e4336\\venv\\Scripts\\python.exe",
+      "launch/mint/dry_run.py",
+      "apply",
+      "--db",
+      "evidence/mint-dry-run/operator.sqlite",
+      "--request",
+      "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_545a3a30\\launch\\mint\\fixtures\\06-withdraw.json"
+    ],
+    "cwd": "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_545a3a30",
+    "exitCode": 0
+  },
+  {
+    "name": "cli-inspect",
+    "command": [
+      "C:\\Users\\futur\\.hermes\\installs\\60215e25aec448c9\\environments\\6bbad3125f8846bda151fac3595e4336\\venv\\Scripts\\python.exe",
+      "launch/mint/dry_run.py",
+      "inspect",
+      "--db",
+      "evidence/mint-dry-run/operator.sqlite"
+    ],
+    "cwd": "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_545a3a30",
+    "exitCode": 0
+  },
+  {
+    "name": "cli-audit",
+    "command": [
+      "C:\\Users\\futur\\.hermes\\installs\\60215e25aec448c9\\environments\\6bbad3125f8846bda151fac3595e4336\\venv\\Scripts\\python.exe",
+      "launch/mint/dry_run.py",
+      "audit",
+      "--db",
+      "evidence/mint-dry-run/operator.sqlite"
+    ],
+    "cwd": "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_545a3a30",
+    "exitCode": 0
+  },
+  {
+    "name": "vm",
+    "command": [
+      "node",
+      "node_modules/mocha/bin/mocha.js",
+      "--no-config",
+      "tests/ordinal-pair.test.js",
+      "tests/ordinal-sponsored.test.js",
+      "tests/native-custody.test.js",
+      "tests/launch-record.test.js"
+    ],
+    "cwd": "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_545a3a30\\vault",
+    "exitCode": 0
+  },
+  {
+    "name": "security-challenges",
+    "command": [
+      "node",
+      "--test",
+      "evidence/security/challenges.test.js"
+    ],
+    "cwd": "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_545a3a30",
+    "exitCode": 0
+  },
+  {
+    "name": "typecheck",
+    "command": [
+      "node",
+      "node_modules/typescript/bin/tsc",
+      "--noEmit"
+    ],
+    "cwd": "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_545a3a30\\vault",
+    "exitCode": 0
+  }
+]

@@ -1,0 +1,38 @@
+test_all_unique_and_202nd_rejected_across_restarts (__main__.AllocationTests.test_all_unique_and_202nd_rejected_across_restarts) ... ok
+test_ambiguous_broadcast_never_retries_or_refunds_automatically (__main__.AllocationTests.test_ambiguous_broadcast_never_retries_or_refunds_automatically) ... ok
+test_config_network_keys_unknowns_and_supply_rejected (__main__.AllocationTests.test_config_network_keys_unknowns_and_supply_rejected) ... ok
+test_excess_and_finality_loss_preserve_confirmed_ownership (__main__.AllocationTests.test_excess_and_finality_loss_preserve_confirmed_ownership) ... ok
+test_failed_write_rolls_back_allocation (__main__.AllocationTests.test_failed_write_rolls_back_allocation) ... ok
+test_fixture_payment_and_lifecycle_plan (__main__.AllocationTests.test_fixture_payment_and_lifecycle_plan) ... ok
+test_idempotence_and_changed_request_fail_closed (__main__.AllocationTests.test_idempotence_and_changed_request_fail_closed) ... ok
+test_initial_inventory_exact_and_locked (__main__.AllocationTests.test_initial_inventory_exact_and_locked) ... ok
+test_manifest_exact_pin_rejects_substitution (__main__.AllocationTests.test_manifest_exact_pin_rejects_substitution) ... ok
+test_no_network_or_signing_dependencies (__main__.AllocationTests.test_no_network_or_signing_dependencies) ... ok
+test_partial_expiry_late_payment_refund_hold_never_relist (__main__.AllocationTests.test_partial_expiry_late_payment_refund_hold_never_relist) ... ok
+test_receipt_reuse_and_invalid_amounts (__main__.AllocationTests.test_receipt_reuse_and_invalid_amounts) ... ok
+test_reserves_inside_cap_and_determinism (__main__.AllocationTests.test_reserves_inside_cap_and_determinism) ... ERROR
+test_tampered_materialized_state_and_history_rejected (__main__.AllocationTests.test_tampered_materialized_state_and_history_rejected) ... ok
+
+======================================================================
+ERROR: test_reserves_inside_cap_and_determinism (__main__.AllocationTests.test_reserves_inside_cap_and_determinism)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_545a3a30\launch\mint\test_dry_run.py", line 149, in test_reserves_inside_cap_and_determinism
+    self.init(cfg)
+    ~~~~~~~~~^^^^^
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_545a3a30\launch\mint\test_dry_run.py", line 27, in init
+    return d.initialize(self.db, config or self.config, self.manifest)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_545a3a30\launch\mint\dry_run.py", line 213, in initialize
+    state = genesis(config, roster)
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_545a3a30\launch\mint\dry_run.py", line 73, in genesis
+    validate_config(config, roster)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_545a3a30\launch\mint\dry_run.py", line 52, in validate_config
+    raise ValueError('invalid reserves')
+ValueError: invalid reserves
+
+----------------------------------------------------------------------
+Ran 14 tests in 2.601s
+
+FAILED (errors=1)

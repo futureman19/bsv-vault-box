@@ -1,0 +1,58 @@
+{
+  "mode": "SIMULATION-ONLY",
+  "mayBroadcast": false,
+  "launchReady": false,
+  "supply": {
+    "Country": 195,
+    "Ocean": 5,
+    "Moon": 1,
+    "total": 201
+  },
+  "proposal": {
+    "allocation": "COMMITTED-PERMUTATION-PROPOSAL-V1",
+    "mode": "SIMULATION-ONLY",
+    "network": "none",
+    "priceUnits": 100,
+    "reserves": [],
+    "saleTermsApproved": false,
+    "seed": "PUBLIC-DETERMINISTIC-FIXTURE-NOT-PRODUCTION-ENTROPY",
+    "unit": "FICTIONAL-UNITS-NOT-SATOSHIS"
+  },
+  "available": 200,
+  "conditionalOdds": {
+    "perDesign": "1/200",
+    "moon": "1/200",
+    "basis": "unallocated eligible designs only; theoretical unbiased hidden-seed proposal; fixture order PUBLIC"
+  },
+  "moonAllocated": false,
+  "permutationCommitment": "12caf493a09828bcab609c401fa290c38a41e8088e1358ebdb5386b5f83ec778",
+  "manifestSha": "307598fa4fa9aa4a9abef8d14dbc8bf7ee54c1e22589beb3ea43ec051796b3cb",
+  "reservations": [
+    {
+      "reservation": "fixture-buyer",
+      "design": "uganda",
+      "state": "WITHDRAWN",
+      "paidUnits": 100,
+      "refundUnits": 0,
+      "holds": [],
+      "plan": {
+        "profile": "BOXSV-LAUNCH-METADATA-1",
+        "design": "uganda",
+        "candidateCommitment": "sha256:b40df19920a85af2d8970b7b51cba7e79465c04b9173892d35c62ad4df9f9e6b",
+        "certificate": "DETACHED-UNSIGNED-NOT-NFT",
+        "lifecycle": [
+          "Pack",
+          "Seal",
+          "Transfer",
+          "Open",
+          "Withdraw"
+        ],
+        "reusableSealsSupported": false,
+        "serializedTransaction": null,
+        "custodyVerifiedByThisSimulation": false
+      }
+    }
+  ],
+  "eventCount": 7,
+  "eventTip": "594b0815bdfa1fabf514c6e01ce2e1add9bd856b04e22381a4d81a2d21e15181"
+}
