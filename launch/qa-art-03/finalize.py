@@ -1,0 +1,41 @@
+import pathlib,json,hashlib,collections,html,base64,zipfile,io
+from PIL import Image
+R=pathlib.Path(__file__).resolve().parent;P=R/'parent'
+parent=json.loads((P/'review-results.json').read_text()); pack=json.loads((R/'packaging-audit.json').read_text()); smoke=json.loads((R/'smoke-results.json').read_text());motion=json.loads((R/'motion-results.json').read_text())
+clarifications={
+'algeria':'Warmer streaked wood and more faceted towers; exact spacing/proportions cannot be measured from differing cameras. Hold retained; attachment not proven detached.',
+'australia':'Five domes retained; more regular strata but also visible faceting. More regular/less naturally sculpted is better supported than uniformly smoother. Hold retained.',
+'belgium':'Dense speckling and angular branching relief weaken individual fossil-ring readability; hold retained.',
+'brunei':'Saturated burgundy and repetitive diamonds versus muted tactile mauve/plum. Feet and finger-jointed corners occur in both, not new defects. Hold retained.',
+'central-african-republic':'Simplified foliage and clearing/water detail; pond poorly resolved, not proven absent. Hold retained.',
+'croatia':'Three pools and spillways retained. Marketing itself also has smooth stone and simplified water; differences modest. Preserve parent hinge-clarity hold, not proven detached.',
+'dr-congo':'Canopy/river identity retained; original images confirm side ring and feet. Fuller marketing foliage and bolder diamonds are disclosed finish differences.',
+'ethiopia':'Three plateau arrangement retained; faceted cliffs and repetitive stone underside remain disclosed finish limitations.',
+'ghana':'Marketing handle is a low-profile rectangular loop, not tall upright hardware. Viewer has a shallow brass rectangular feature but opening/relief unresolved. Retain handle-fidelity hold; missing geometry not proven.',
+'honduras':'Two tree clusters, terrain and river retained; dark forest-green lid versus sage/mint marketing and angular foliage disclosed.',
+'ireland':'Smaller tidier paving, broad cream waves and less substantial ring remain substantive fidelity hold.',
+'kiribati':'Interrupted near shore and lifted/sloping segment confirmed; not broken geometry. Weave and vegetation simplified.',
+'libya':'Arch aperture and pale inset retained. Saturated ochre and angular striations disclosed. Hidden arch in open pose is not disappearance.',
+'mali':'Three formations retained; harder stacked ledges and golden mottling versus muted softer rendering. Summit dimensions not certified.',
+'monaco':'More tightly clustered village on lower regular shelf. Both views expose water; hold concerns relative footprint and cliff sculpting, not missing land/buildings.',
+'nepal':'Three separate snowcapped peaks retained, not a missing connected range. Brighter snow and graphic bands disclosed.',
+'norway':'Two masses and fjord retained; flat cyan water, faceted slopes and repetitive bands disclosed.',
+'paraguay':'Five radial rosettes and hardware retained; brighter pink/stronger bands and noisy mobile lace. Full historical inventory unchecked hold retained.',
+'russia':'Six ice forms and fractures retained. Marketing also stylized/opaque, so lack of transparency alone not a fidelity defect.',
+'saudi-arabia':'Three asymmetric tiered formations retained. Marketing also somewhat carved/wood-like; regular strata disclosed. Focused second review did not substantiate floating-hardware allegation.',
+'solomon-islands':'Subdued charcoal gray marketing versus warm reddish-brown body/tan lid, repetitive grain and flat inlays. Substantive hold retained.',
+'sudan':'Three pyramids retained; broad bright ochre mottling and faceting versus finer muted finish disclosed.',
+'the-moon':'Three crater forms and highlands retained; smoother rims, cloudy pale surface and simpler metal disclosed.',
+ 'tuvalu':'Compact low faceted enclosing platform differs from broader irregular sandbank; stronger turquoise oval and regular weave. Substantive hold retained.',
+'vanuatu':'Recessed volcano retained; flat pale orange-yellow ember versus patterned molten material and coarser ash. Substantive hold retained.'}
+entries=[]
+for e in parent['entries']:
+ s=e['id'];status='needs-user-review' if e['status']=='needs-decision' else 'candidate-with-limitations'
+ entries.append({'id':s,'verdict':status,'parent_status':e['status'],'parent_visual_findings':e['visual_findings'],'independent_visual_findings':clarifications[s],'inspection':'Five read-only independent visual reviewers: all four original full-resolution captures and marketing image per ID; lead Ghana comparison and fresh Croatia open inspection. Delegation deleg_d31df2b3 tasks 0-4.','captures':['parent/'+p for p in e['captures']],'fresh_runtime_captures':['smoke/'+s+'/'+n+'.png' for n in ['desktop-closed','desktop-open','mobile-closed','mobile-open']],'marketing':'parent/marketing/'+s+'.webp','source_selection':e['selection'],'viewer':e['viewer'],'packaging':next(x for x in pack['entries'] if x['id']==s),'fresh_browser':[x for x in smoke if x['id']==s],'fresh_motion':next(x for x in motion if x['id']==s),'inherited_missing_gates':e['inherited_missing_gates'],'resolved_gate':'independent-current-model-visual-review performed; not final art approval','remaining_gates':[x for x in e['inherited_missing_gates'] if x!='independent-current-model-visual-review'],'user_final_approved':False,'launch_ready':False,'art_changed':False,'polish_iterations':0,'proven_runtime_defects':[],'hinge_assessment':'Small rear attachment continuity unresolved in stills, not proven detached. No fresh geometric contact/collision certification.'})
+d={'schema':'boxsv-independent-art-review/1','task':'t_f21e71cb','parent_task':'t_83adc6b5','parent_commit':'909d6d51429696193a106e5000c0a8c1b42a4b25','parent_ledger_sha256':hashlib.sha256((P/'review-results.json').read_bytes()).hexdigest(),'assigned':parent['assigned'],'reviewed':len(entries),'unreviewed_ids':[],'counts':dict(collections.Counter(x['verdict'] for x in entries)),'changed_art':[],'entries':entries,'limitations':['No final user art approvals; all release/storage gates preserved.','Paraguay full historical archive inventory remains unchecked. All current selected viewer/GLB/blend ZIP bytes checked exactly for all 25; not full internal inventories.','No fresh Blender reopen/source parity, sampled collisions, corrupt-GLB or no-JS fallback. Historical reports are not fresh execution.','Honduras uses explicitly labeled Algeria motion contract assertions against original module.','Mobile emulation is not physical-phone performance. Hinge readability uncertainty is not demonstrated mechanical failure.'],'tests':{'parent_evidence_hashes':pack['parent_inventory_verified'],'fresh_offline_cases':len(smoke),'fresh_motion_suites':len(motion),'source_archive_audits':len(pack['entries'])}}
+(R/'reviewed-ledger.json').write_text(json.dumps(d,indent=2)+'\n')
+text=['<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>QA ART 03</title><style>body{background:#151817;color:#eee;font:16px system-ui;max-width:1100px;margin:auto;padding:20px}img{width:100%;height:auto}article{border-top:1px solid #777;padding:20px 0}h1{font-size:30px}</style><h1>Batch 3 — independent candidate review</h1><p>25 reviewed: 13 candidates with limitations; 12 needs-user-review. No final approvals, art edits or release authorization. Illustrations are not actual-model screenshots.</p><p>All 50 fresh offline desktop/mobile cases and 25 motion suites passed. Archive selected payloads match exactly; Paraguay full historical inventory remains unchecked. Hinge clarity is not proved mechanical failure. No fresh Blender/collision or fallback revalidation.</p>']
+for e in entries:
+ im=Image.open(P/'boards'/f"{e['id']}.jpg");im.thumbnail((1100,1100));buf=io.BytesIO();im.save(buf,format='JPEG',quality=76,optimize=True);b=buf.getvalue();text.append('<article><h2>'+html.escape(e['id']+' — '+e['verdict'])+'</h2><p>'+html.escape(e['independent_visual_findings'])+'</p><img alt="Promotional illustration and original desktop/mobile closed/open captures" src="data:image/jpeg;base64,'+base64.b64encode(b).decode()+'"></article>')
+(R/'review.html').write_text(''.join(text),encoding='utf8')
+print(d['counts'])
