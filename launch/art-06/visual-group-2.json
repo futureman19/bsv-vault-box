@@ -1,0 +1,57 @@
+[
+  {
+    "id": "czechia",
+    "status": "pass",
+    "quality": "Candidate visual pass: coherent closed/open silhouette on desktop and mobile; complete model and controls fit. Exact marketing has richer lighting, brass highlights and contact shadows, but the opaque faceted ornament language and overall construction are retained. This is not photorealistic cut glass.",
+    "hardware": "Front strap, round disc, side ring, corner caps and gray irregular feet correspond to the reference. Open captures show hinges and a projecting lid-mounted strap; conspicuous simplified fittings are not evidence of detachment or failed mechanics.",
+    "terrain": "Not applicable: pale central faceted rosette and smaller satellites, not landscape. Exterior ornaments face away in the open front views; their invisibility there is expected.",
+    "texture": "Cobalt body is brighter and more uniformly shaded in runtime; subtle repetitive mottling is more apparent on the open inner lid. Original captures do not support calling the board's apparent checker pattern a missing-texture failure. Both marketing and runtime ornaments look opaque/frosted rather than transparent glass.",
+    "limitations": "Read source_readme.md: opaque enamel and pale faceted ornaments are intentional, not optical glass simulation. Fine detail is small on mobile. Static endpoint screenshots cannot certify movement or hidden contacts; mobile is desktop emulation, not a physical-device test. No clear clipping, missing surface or mobile-only failure observed.",
+    "decision": "Retain as a stylized candidate with the disclosed glass/material caveat. Promotional lighting/finish gap is not a proven model defect; pass is not user approval or mechanical certification.",
+    "inspected": ["boards/czechia.jpg", "sources/czechia/marketing.webp", "smoke/czechia/desktop-closed.png", "smoke/czechia/desktop-open.png", "smoke/czechia/mobile-closed.png", "smoke/czechia/mobile-open.png", "sources/czechia/source_readme.md"]
+  },
+  {
+    "id": "el-salvador",
+    "status": "pass",
+    "quality": "Candidate visual pass with material caveats: indigo chest, stone crater and small turquoise lagoon remain recognizable against the exact marketing. Both viewport sizes retain complete silhouettes and readable open/closed states. Runtime shading is flatter and more angular than the promotional finish.",
+    "hardware": "Gold corner fittings, front clasp and disc, side ring and gray feet retain the reference layout. Open-state hinges and projecting upper strap are visible; their simplified/blocky appearance is not a demonstrated attachment defect.",
+    "terrain": "Uneven faceted crater and exposed turquoise patch are present in both closed captures. Pale inner-rim sections contrast abruptly with dark slopes, and the lagoon is partly rim-occluded. These characteristics also occur in the exact marketing reference. Terrain faces away in the open views, not proven missing.",
+    "texture": "Bright cobalt/indigo panels have pale resist-like speckles. Dark lid has coarse stone mottling; the open underside shows conspicuous broad repetitive waves. Lagoon reads as opaque flat satin color, not natural fluid. Marketing supplies stronger material separation and grounding.",
+    "limitations": "Read source_readme.md: stylized crater, opaque satin lagoon, partial rim occlusion, brighter studio-lit indigo and invented dye accents are disclosed. No geographic or photorealistic equivalence. No clear whole-object clipping or missing surface observed; stills cannot establish continuous hinge/latch behavior or physical-phone performance.",
+    "decision": "Retain as a stylized candidate, keeping the stone-pattern and opaque-water limitations explicit. More natural underside texture would improve finish but is not established as a loading/UV defect. No art edit authorized; pass is not user approval or mechanism certification.",
+    "inspected": ["boards/el-salvador.jpg", "sources/el-salvador/marketing.webp", "smoke/el-salvador/desktop-closed.png", "smoke/el-salvador/desktop-open.png", "smoke/el-salvador/mobile-closed.png", "smoke/el-salvador/mobile-open.png", "sources/el-salvador/source_readme.md"]
+  },
+  {
+    "id": "france",
+    "status": "needs-decision",
+    "quality": "Coherent candidate and clean desktop/mobile framing, with no obvious missing tiles or gross geometry defect. Exact marketing is substantially softer/pastel in its tiled palette; runtime reads stronger green, red and ochre. This is a visible reference/finish difference, not a proven runtime fault.",
+    "hardware": "Brass front clasp, separate round disc, side ring, corner caps and pale rounded feet preserve the reference arrangement. Open hinges and raised clasp tab remain visible. Dark lid reveal gives a slightly lifted appearance in both reference and runtime; it does not prove incorrect closure.",
+    "terrain": "Not applicable: square tiles form a geometric decorative lid panel. No floating tiles are evident. The tiled exterior naturally turns away from the default camera when open.",
+    "texture": "Cream stone has soft diagonal/cloudy mottling, with restrained glaze and metallic response. Exact marketing shows muted sage/pink/peach tones; original closed captures show more saturated green/red/yellow accents. Fine grout and glaze detail are less readable on mobile.",
+    "limitations": "Read source_readme.md: a bounded palette correction deliberately deepened green, burgundy and mustard; pale procedural stone may read as marble rather than limestone. Square tiles form diamond motifs, not individually diamond-shaped tiles. Reference mismatch cause is not independently established from images. Stills do not certify motion, hidden joints or physical-phone performance.",
+    "decision": "Decide whether the more saturated final candidate palette is the intended public appearance, and whether the exact marketing should be reconciled with it. Hold visual-reference sign-off pending that choice; do not label this palette difference a structural defect. Candidate review only, not user approval.",
+    "inspected": ["boards/france.jpg", "sources/france/marketing.webp", "smoke/france/desktop-closed.png", "smoke/france/desktop-open.png", "smoke/france/mobile-closed.png", "smoke/france/mobile-open.png", "sources/france/source_readme.md"]
+  },
+  {
+    "id": "guatemala",
+    "status": "needs-decision",
+    "quality": "Complete, coherent candidate in all four original captures. Exact marketing is softer/lighter blue with a blue-gray lid and pale aqua lake; runtime has a distinctly charcoal stone lid, deeper indigo body and brighter cyan lake. Composition survives, but the material/palette difference merits an explicit reference-fidelity decision.",
+    "hardware": "Long front brass strap, blue mounting backing, lid corner caps and short block feet correspond to marketing. Open views expose rear hinges and upright lid strap. No obvious detached part or gross intersection is visible; the long latch is documented as intentional.",
+    "terrain": "Three unequal faceted green peaks and a raised irregular lake plaque are visible in closed desktop/mobile captures. The lake reads as an enamel appliqué, not recessed water, in both marketing and runtime. Open captures show the inner lid, so hidden landscape is expected.",
+    "texture": "Desktop original shows subtle grain/weave on indigo panels; mobile primarily communicates textile through crisp coral/cream stripes rather than fibers. Runtime lid is darker/coarser than exact marketing. Water is smooth opaque cyan and mountain facets are emphatic; lighting/grounding is less polished than promotional.",
+    "limitations": "Read source_readme.md: raised enamel lake, stylized geography, subtle weave on rigid panels and collection-family hardware are disclosed interpretations. No claim of authentic garment patterns or accurate topography. No obvious cropping, missing surfaces or mobile-only rendering failure observed. Stills cannot certify continuous motion or physical-phone performance.",
+    "decision": "Decide whether charcoal volcanic-stone runtime lid and saturated lake/body are acceptable against the lighter exact marketing, or whether promotional representation needs alignment. This is a finish/reference hold, not a proven terrain or mechanism defect. No art edits made; not user approval.",
+    "inspected": ["boards/guatemala.jpg", "sources/guatemala/marketing.webp", "smoke/guatemala/desktop-closed.png", "smoke/guatemala/desktop-open.png", "smoke/guatemala/mobile-closed.png", "smoke/guatemala/mobile-open.png", "sources/guatemala/source_readme.md"]
+  },
+  {
+    "id": "india",
+    "status": "pass",
+    "quality": "Candidate visual pass: exact marketing's ivory chest, floral lid, blue front ovals and green reveal remain recognizable and coherent on desktop/mobile. Promotional shot has richer small-scale shading and brass highlights; runtime is flatter/brighter but no obvious major art loss or clipping is visible.",
+    "hardware": "Front clasp and round disc, side ring, corner protectors and short pale feet retain the reference layout. Open captures show two rear hinges and projecting lid fitting. Green reveal makes the closed lid look slightly raised in both exact marketing and runtime, not a newly proven closure defect.",
+    "terrain": "Not applicable: raised floral ornament with central warm-colored blossom, four blue blossoms and green vines. Six blue front ovals persist in both states. Exterior lid flowers face away when open; not evidence of disappearance.",
+    "texture": "Pale regular wavy marble veins are visible in full originals, especially the open lid. Floral geometry is raised rather than flush artisan inlay. Central bloom appears pinker in exact marketing and peach/orange in runtime; the arrangement and jewel-colored palette are retained. Fine petals and reflective detail are modest on mobile.",
+    "limitations": "Read source_readme.md: repetitive procedural marble, raised intarsia-inspired geometry, simplified fittings and prominent green reveal are disclosed. This is not authentic hand inlay or photorealistic marble. Original desktop captures include intact headings; the comparison board's cropped text is not evidence of a page-layout defect. Stills cannot certify motion/hidden contacts or real-phone performance.",
+    "decision": "Retain as a stylized candidate with raised-ornament and procedural-marble caveats. Pink-to-peach lighting/palette difference and weaker promotional finish should not be presented as exact render equivalence, but do not establish a blocking defect. Pass is not user approval or mechanical certification.",
+    "inspected": ["boards/india.jpg", "sources/india/marketing.webp", "smoke/india/desktop-closed.png", "smoke/india/desktop-open.png", "smoke/india/mobile-closed.png", "smoke/india/mobile-open.png", "sources/india/source_readme.md"]
+  }
+]

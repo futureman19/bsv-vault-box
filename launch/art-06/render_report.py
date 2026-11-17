@@ -1,0 +1,8 @@
+import pathlib,json,base64,html
+R=pathlib.Path(__file__).resolve().parent
+d=json.loads((R/'review-results.json').read_text())
+parts=['<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>BoxSV ART-06 review</title><style>body{background:#191b22;color:#eee;font:16px system-ui;margin:20px auto;max-width:1400px;padding:12px}img{width:100%;height:auto}article{border-top:1px solid #777;padding:20px 0}p{max-width:90ch}code{overflow-wrap:anywhere}</style><h1>BoxSV · 25 candidate reviews</h1><p>Comparison report, not an interactive collectible. Left: promotional illustration. Remaining views: actual unchanged model, desktop closed/open and mobile closed/open. Pass means bounded candidate review only, never final art or launch approval.</p>']
+for e in d['entries']:
+ parts.append('<article><h2>'+html.escape(e['id'])+' · '+e['status']+'</h2><img alt="'+e['id']+' comparison" src="data:image/jpeg;base64,'+base64.b64encode((R/e['comparison']).read_bytes()).decode()+'"><p>HTML: '+str(e['viewer']['bytes'])+' bytes. Packaging: '+e['packaging']+'.</p><pre style="white-space:pre-wrap">'+html.escape(json.dumps({k:v for k,v in e.items() if k in ['quality','hardware','terrain','texture','limitations','decision','reason','findings','visual_notes']},indent=2))+'</pre><p>Viewer SHA-256: <code>'+e['viewer']['sha256']+'</code></p></article>')
+parts.append('<p>No model changes. Final user approval, full source/collision acceptance, preservation/storage and release gates remain. Mobile is emulation, not physical-phone performance.</p>')
+(R/'review.html').write_text(''.join(parts),encoding='utf-8')

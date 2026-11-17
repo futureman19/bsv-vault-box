@@ -1,0 +1,18 @@
+# Laos v1 — Bamboo & Karst
+
+## Research and interpretation (before modeling)
+Laos Tourism's Artisans & Handicrafts page describes intricately woven bamboo mats and domestic basketry: https://tourismlaos.org/welcome/authentic-culture/artisans-handicrafts . Best Regards From Far documents bamboo stripping and over/under weaving in Luang Prabang: https://bestregardsfromfar.com/2017/01/14/bamboo-weaving-laos . The landscape reference is Vang Vieng's limestone peaks and Nam Song River, described in https://globeaware.org/news/globe-aware-news/1973-10-of-the-best-places-to-visit-in-laos . Retrieved search excerpts support these limited factual connections; no source photography or patterns are copied. This is an original stylized composition, not an ethnographic replica, a sacred object, or an exact geographical model. No primary marketing illustration was supplied for Laos.
+
+## Measurable visual contract
+- Wide keepsake silhouette approximately 3.72 X by 2.38 Y, body height about 1.9 units, inherited hollow five-sided shell. Front is Blender -Y, rear hinges +Y; glTF conversion (X,Z,-Y).
+- Body uses warm honey bamboo basket-weave panels, framed by darker bamboo/wood rails. Generated portable color, roughness and normal maps <=512px each. Woven over/under structure must read at normal desktop size; geometric frame rails and narrow binding accents provide real depth. Target honey/tan albedo around #B78A4F with dark brown #67462A framing, not bright yellow or red cedar.
+- Satin bamboo lid with narrow muted green seam <=0.10 units. Small brass hardware retains family aesthetics and existing pivots; do not replace working fittings with a painted latch.
+- Three irregular pale gray limestone karst peaks clustered on rear half of lid, with dark moss/vegetation accents. Peaks range 0.3–0.8 units above lid; nonidentical jagged profiles, not repeated smooth cones. A thin curved muted jade Nam Song-inspired river inlay crosses the lid in front of the peaks. All terrain/inlay/vegetation belongs to Lid_Hinge, never static body. This miniature landscape is explicitly stylized.
+- Preserve exact reusable base hinge and latch pivots. Staged latch release 80 degrees, then lid 105 degrees; reset cancels movement; reduced motion snaps. Geometry near rear hinge must not obstruct opening.
+- Actual Blender source render supplies embedded poster. Offline classic bundled viewer, rotation, open/close, reset, fallback. Entire HTML strictly <5,000,000 bytes; no external runtime requests.
+
+## Acceptance gates
+Independent saved-source reopen: pivot ancestry, hollow floor, attachment checks, full 81-pose moving-vs-static and latch-vs-lid sampling; exemptions only explicit mating bearings. Source/export nearest-vertex parity <=1e-5. Actual GLTFLoader checks finite geometry, no degenerate triangles, texture decoding and lid ornament ancestry. Feature tests enforce three peaks, palette/texture variation, physical ornament positions and byte budget. Desktop and mobile-touch emulation under file:// must exercise controls, drag, interrupted reset, reduced motion, corrupt-GLB and no-JS fallback, no external HTTP requests/errors/overflow. Include exact SHA-256 inventory and delivery readback. Tests must fail on missing or wrong output; retain real failure evidence if encountered.
+
+## Honest limits
+No photoreal-equivalence promise, no physical-phone or continuous mechanical certification. Procedural art, not scans or hand sculpture. Cosmetic opening only; no blockchain access or deployment. Per-asset human review is waived by task; technical and bounded visual verification remain mandatory.
