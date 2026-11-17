@@ -1,0 +1,28 @@
+albania source/archive pass
+atlantic-ocean source/archive pass
+belarus source/archive pass
+brazil source/archive pass
+canada source/archive pass
+cote-d-ivoire source/archive pass
+dominican-republic source/archive pass
+eswatini source/archive pass
+germany source/archive pass
+haiti source/archive pass
+iraq source/archive pass
+kenya source/archive pass
+fatal: path 'C:\Users\futur\.hermes\profiles\telegram2\output\boxsv-collection-delivery-cleanup\liberia-v1-source.zip' exists on disk, but not in 'd86fd05f0b2070ce9974541020e712ea9560f82a'
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_5c96269b\launch\qa-art-02\verify.py", line 33, in <module>
+    b=blob(a,e['selection']['commit'])
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_5c96269b\launch\qa-art-02\verify.py", line 11, in blob
+    def blob(r,commit=None): return match(subprocess.check_output(['git','show',(r.get('commit') or commit)+':'+r['path']]),r)
+                                          ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\futur\.hermes\tools\python-3.14.9+20261021-win32-x64\Lib\subprocess.py", line 473, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+               **kwargs).stdout
+               ^^^^^^^^^
+  File "C:\Users\futur\.hermes\tools\python-3.14.9+20261021-win32-x64\Lib\subprocess.py", line 578, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['git', 'show', 'd86fd05f0b2070ce9974541020e712ea9560f82a:C:\\Users\\futur\\.hermes\\profiles\\telegram2\\output\\boxsv-collection-delivery-cleanup\\liberia-v1-source.zip']' returned non-zero exit status 128.
