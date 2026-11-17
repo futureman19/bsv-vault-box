@@ -1,0 +1,2709 @@
+{
+  "parent_commit": "431e51ffb5a8704b5f8f8b11694d28befae18402",
+  "parent_evidence_hashes": 315,
+  "parent_zips": [
+    {
+      "path": "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_33a49a6d\\launch\\art-08\\art-08-report.zip",
+      "bytes": 30834441,
+      "sha256": "35d9111db405e2776b5e23a88ecae6d1ffd866937ffbf49757dfa777f2c6931a",
+      "inventory_entries": 315,
+      "zip_readback": "pass",
+      "review_results_sha256": "aa405e3726554049a6dcb73b8a23d24f7b0d759d8cad3235ed40c1494846a979",
+      "delivery_parts": [
+        {
+          "path": "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_33a49a6d\\launch\\art-08\\art-08-evidence.zip",
+          "bytes": 7164663,
+          "sha256": "c3c16ed561747ebaee86d4af40477432768d7960f7c72429ba4b0314129f4c1f",
+          "entries": 215
+        },
+        {
+          "path": "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_33a49a6d\\launch\\art-08\\art-08-captures.zip",
+          "bytes": 23683630,
+          "sha256": "ccf2356fe5e043014f9af6e2b0c4f5cecef135317fdf7cf2c282bef5fee4f35c",
+          "entries": 100
+        }
+      ],
+      "members_verified": 316
+    },
+    {
+      "path": "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_33a49a6d\\launch\\art-08\\art-08-evidence.zip",
+      "bytes": 7164663,
+      "sha256": "c3c16ed561747ebaee86d4af40477432768d7960f7c72429ba4b0314129f4c1f",
+      "entries": 215,
+      "members_verified": 216
+    },
+    {
+      "path": "C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_33a49a6d\\launch\\art-08\\art-08-captures.zip",
+      "bytes": 23683630,
+      "sha256": "ccf2356fe5e043014f9af6e2b0c4f5cecef135317fdf7cf2c282bef5fee4f35c",
+      "entries": 100,
+      "members_verified": 101
+    }
+  ],
+  "source_checks": [
+    {
+      "id": "argentina",
+      "viewer": {
+        "commit": "2c0d38d67ea68cd7f89c067dadcb05fcc8c51df0",
+        "path": "preview/argentina-v1/argentina-v1.html",
+        "bytes": 2906138,
+        "sha256": "1465cc63fc8587b4fecc62e0ab33280c5731b888bc645b8137a4cc73da48d72d",
+        "under_5000000": true
+      },
+      "models": [
+        {
+          "commit": "2c0d38d67ea68cd7f89c067dadcb05fcc8c51df0",
+          "path": "preview/argentina-v1/argentina.blend",
+          "bytes": 730614,
+          "sha256": "a60d00e420b379a7c6398c751fda28bede09a004bdbafab674186e2cea326e22",
+          "role": "selected-model"
+        },
+        {
+          "commit": "2c0d38d67ea68cd7f89c067dadcb05fcc8c51df0",
+          "path": "preview/argentina-v1/argentina.glb",
+          "bytes": 1608988,
+          "sha256": "f9eca93f113d020312e99d7e4b8b03583d7dd78dc9d0c09025e5f3a021a34fa5",
+          "role": "selected-model",
+          "structural_probe": {
+            "glb_version": 2,
+            "declared_size_matches": true,
+            "meshes": 56,
+            "nodes": 58,
+            "embedded_buffers": true,
+            "embedded_in_html": true
+          }
+        }
+      ],
+      "archives": [
+        {
+          "kind": "git",
+          "path": "preview/argentina-v1/argentina-v1-source.zip",
+          "bytes": 6673884,
+          "sha256": "3e26e14b528cc760adddd9b4d4e327eb611dfc28e59c8e1ed9c988d04d2cc407",
+          "commit": "2c0d38d67ea68cd7f89c067dadcb05fcc8c51df0",
+          "entries": 55,
+          "safe_unique_paths": true,
+          "required_payloads": {
+            "argentina-v1.html": true,
+            "argentina.blend": true,
+            "argentina.glb": true
+          },
+          "inventory_checked": true,
+          "inventory_entries": 54,
+          "inventory_mismatches": [],
+          "crc_error": null,
+          "fresh_required_payloads": [
+            {
+              "path": "preview/argentina-v1/argentina-v1.html",
+              "member": "argentina-v1.html",
+              "sha256": "1465cc63fc8587b4fecc62e0ab33280c5731b888bc645b8137a4cc73da48d72d"
+            },
+            {
+              "path": "preview/argentina-v1/argentina.blend",
+              "member": "argentina.blend",
+              "sha256": "a60d00e420b379a7c6398c751fda28bede09a004bdbafab674186e2cea326e22"
+            },
+            {
+              "path": "preview/argentina-v1/argentina.glb",
+              "member": "argentina.glb",
+              "sha256": "f9eca93f113d020312e99d7e4b8b03583d7dd78dc9d0c09025e5f3a021a34fa5"
+            }
+          ],
+          "fresh_inner_inventory_entries": 54,
+          "fresh_crc_safe_unique": true
+        }
+      ],
+      "captures_bound_to_viewer": true,
+      "delivered_viewer_exact": true,
+      "marketing": {
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "path": "docs/assets/gallery/argentina.webp",
+        "bytes": 48652,
+        "sha256": "10ebb7017d17d7f468ed3cd567f3c852083cbb0223ab646c871c4bf33941479d",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "matches_gallery_inventory": true,
+        "provenance": {
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "provider": "xai",
+          "model": "grok-imagine-image",
+          "source": "assets/gallery/argentina.webp",
+          "sourceSha256": "adc94b40a6873dbee44cdf9dc8851a08dce9e6c3d0601b6bcd5cef524aaf5a66",
+          "sha256": "6863a9853978126f13cd30caccac9e2f490391af2410c2e003438494267c56a9",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "reviewStatus": "accepted",
+          "reviewNotes": "Pastel geological banding and terrain retained.",
+          "exactModelEquivalenceClaimed": false,
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "image_type": "Promotional art",
+        "not_model_approval": true
+      },
+      "result": "pass"
+    },
+    {
+      "id": "bangladesh",
+      "viewer": {
+        "commit": "6fee92f612638df1e4fef92d1b93f239b26b2b92",
+        "path": "preview/bangladesh-v1/bangladesh-v1.html",
+        "bytes": 3409417,
+        "sha256": "d8e1cf5bb8548b0246ba80d4b755931d63a2aa59cf4faf42041e05c4a52a269e",
+        "under_5000000": true
+      },
+      "models": [
+        {
+          "commit": "6fee92f612638df1e4fef92d1b93f239b26b2b92",
+          "path": "preview/bangladesh-v1/bangladesh.blend",
+          "bytes": 652228,
+          "sha256": "6d8a4d3b1eb9053b84152cc666578c6da903880a08ee2fbd7ea221d5ba226fb1",
+          "role": "selected-model"
+        },
+        {
+          "commit": "6fee92f612638df1e4fef92d1b93f239b26b2b92",
+          "path": "preview/bangladesh-v1/bangladesh.glb",
+          "bytes": 1975836,
+          "sha256": "55114be0381466fdc63607171d3758076f73de5d1f193953d4a2b2540ff6fe80",
+          "role": "selected-model",
+          "structural_probe": {
+            "glb_version": 2,
+            "declared_size_matches": true,
+            "meshes": 130,
+            "nodes": 132,
+            "embedded_buffers": true,
+            "embedded_in_html": true
+          }
+        }
+      ],
+      "archives": [
+        {
+          "kind": "git",
+          "path": "preview/bangladesh-v1/bangladesh-v1-source.zip",
+          "bytes": 7948676,
+          "sha256": "b1f1f486d75263d0cf0598c5258686075e781c3c149e593f81c3f86ce811c438",
+          "commit": "6fee92f612638df1e4fef92d1b93f239b26b2b92",
+          "entries": 59,
+          "safe_unique_paths": true,
+          "required_payloads": {
+            "bangladesh-v1.html": true,
+            "bangladesh.blend": true,
+            "bangladesh.glb": true
+          },
+          "inventory_checked": true,
+          "inventory_entries": 58,
+          "inventory_mismatches": [],
+          "crc_error": null,
+          "fresh_required_payloads": [
+            {
+              "path": "preview/bangladesh-v1/bangladesh-v1.html",
+              "member": "bangladesh-v1.html",
+              "sha256": "d8e1cf5bb8548b0246ba80d4b755931d63a2aa59cf4faf42041e05c4a52a269e"
+            },
+            {
+              "path": "preview/bangladesh-v1/bangladesh.blend",
+              "member": "bangladesh.blend",
+              "sha256": "6d8a4d3b1eb9053b84152cc666578c6da903880a08ee2fbd7ea221d5ba226fb1"
+            },
+            {
+              "path": "preview/bangladesh-v1/bangladesh.glb",
+              "member": "bangladesh.glb",
+              "sha256": "55114be0381466fdc63607171d3758076f73de5d1f193953d4a2b2540ff6fe80"
+            }
+          ],
+          "fresh_inner_inventory_entries": 58,
+          "fresh_crc_safe_unique": true
+        }
+      ],
+      "captures_bound_to_viewer": true,
+      "delivered_viewer_exact": true,
+      "marketing": {
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "path": "docs/assets/gallery/bangladesh.webp",
+        "bytes": 119192,
+        "sha256": "0d3ee5c71041ff34249755e88e651002afb5d7cb75bf2840f0b6d45760fc4ca8",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "matches_gallery_inventory": true,
+        "provenance": {
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "provider": "xai",
+          "model": "grok-imagine-image",
+          "source": "assets/gallery/bangladesh.webp",
+          "sourceSha256": "3724507069199eb45a614c76530e9806748e20aaaa24daed3425241475f87ea7",
+          "sha256": "2da459c636aec1f9bd9c57e0a82e4bab0d9f4eb8ddeb2ae33d07305549be3869",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "reviewStatus": "accepted",
+          "reviewNotes": "Minor landscape relief variation",
+          "exactModelEquivalenceClaimed": false,
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "image_type": "Promotional art",
+        "not_model_approval": true
+      },
+      "result": "pass"
+    },
+    {
+      "id": "bosnia-and-herzegovina",
+      "viewer": {
+        "commit": "178d0db7e02bcfaa153a9347adcf1236f5e5f322",
+        "path": "preview/bosnia-and-herzegovina-v1/bosnia-and-herzegovina-v1.html",
+        "bytes": 2420909,
+        "sha256": "c7b1b463a777949194160d35f7462e46ae09f353e63063e3142c140929fb859c",
+        "under_5000000": true
+      },
+      "models": [
+        {
+          "commit": "178d0db7e02bcfaa153a9347adcf1236f5e5f322",
+          "path": "preview/bosnia-and-herzegovina-v1/bosnia-and-herzegovina.blend",
+          "bytes": 329615,
+          "sha256": "f640a7991b87a148e7ab6e51832fe571b01b4bd1acfdee79eca9ba5f65140842",
+          "role": "selected-model"
+        },
+        {
+          "commit": "178d0db7e02bcfaa153a9347adcf1236f5e5f322",
+          "path": "preview/bosnia-and-herzegovina-v1/bosnia-and-herzegovina.glb",
+          "bytes": 1238300,
+          "sha256": "7a24bc5f4d08d88d8010f1b598810c422a7ab13c1b06bc840f7389fd95da1def",
+          "role": "selected-model",
+          "structural_probe": {
+            "glb_version": 2,
+            "declared_size_matches": true,
+            "meshes": 139,
+            "nodes": 141,
+            "embedded_buffers": true,
+            "embedded_in_html": true
+          }
+        }
+      ],
+      "archives": [
+        {
+          "kind": "git",
+          "path": "preview/bosnia-and-herzegovina-v1/bosnia-and-herzegovina-v1-source.zip",
+          "bytes": 4703659,
+          "sha256": "a96f2834806ddb9fd83b27ada5e6d3497e6f1bd7b40cb75170783bc1080d5ffc",
+          "commit": "178d0db7e02bcfaa153a9347adcf1236f5e5f322",
+          "entries": 53,
+          "safe_unique_paths": true,
+          "required_payloads": {
+            "bosnia-and-herzegovina-v1.html": true,
+            "bosnia-and-herzegovina.blend": true,
+            "bosnia-and-herzegovina.glb": true
+          },
+          "inventory_checked": true,
+          "inventory_entries": 52,
+          "inventory_mismatches": [],
+          "crc_error": null,
+          "fresh_required_payloads": [
+            {
+              "path": "preview/bosnia-and-herzegovina-v1/bosnia-and-herzegovina-v1.html",
+              "member": "bosnia-and-herzegovina-v1.html",
+              "sha256": "c7b1b463a777949194160d35f7462e46ae09f353e63063e3142c140929fb859c"
+            },
+            {
+              "path": "preview/bosnia-and-herzegovina-v1/bosnia-and-herzegovina.blend",
+              "member": "bosnia-and-herzegovina.blend",
+              "sha256": "f640a7991b87a148e7ab6e51832fe571b01b4bd1acfdee79eca9ba5f65140842"
+            },
+            {
+              "path": "preview/bosnia-and-herzegovina-v1/bosnia-and-herzegovina.glb",
+              "member": "bosnia-and-herzegovina.glb",
+              "sha256": "7a24bc5f4d08d88d8010f1b598810c422a7ab13c1b06bc840f7389fd95da1def"
+            }
+          ],
+          "fresh_inner_inventory_entries": 52,
+          "fresh_crc_safe_unique": true
+        }
+      ],
+      "captures_bound_to_viewer": true,
+      "delivered_viewer_exact": true,
+      "marketing": {
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "path": "docs/assets/gallery/bosnia-and-herzegovina.webp",
+        "bytes": 33450,
+        "sha256": "87854d6f53d8a32be2d0fca118c885a320bdb20b844b901423fd2fdb86995577",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "matches_gallery_inventory": true,
+        "provenance": {
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "provider": "xai",
+          "model": "grok-imagine-image",
+          "source": "assets/gallery/bosnia-and-herzegovina.webp",
+          "sourceSha256": "caf87bca1901c0e34bd22428a086e7dcc1b8838be2c547dbc80fd552550880e1",
+          "sha256": "03951d990ae4b822f3d52dfa0c9e88103b97d3f865701e252774270396d3b351",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "reviewStatus": "reviewed_pass",
+          "reviewNotes": "pass: smooth copper finish restored, no dark wood grain",
+          "exactModelEquivalenceClaimed": false,
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "image_type": "Promotional art",
+        "not_model_approval": true
+      },
+      "result": "pass"
+    },
+    {
+      "id": "cambodia",
+      "viewer": {
+        "commit": "44730fb2ae980db72880172c7803043cd3b36e6d",
+        "path": "preview/cambodia-v1/cambodia-v1.html",
+        "bytes": 4497154,
+        "sha256": "22c2454fda18326ecccbc33ccecb32505b653a6eeb29d025d570eebc3c692b00",
+        "under_5000000": true
+      },
+      "models": [
+        {
+          "commit": "44730fb2ae980db72880172c7803043cd3b36e6d",
+          "path": "preview/cambodia-v1/cambodia.blend",
+          "bytes": 479185,
+          "sha256": "4d6478d1f69786bc42f65dbb30b42eb298fb0fbc85ec87f9477150499ae515a6",
+          "role": "selected-model"
+        },
+        {
+          "commit": "44730fb2ae980db72880172c7803043cd3b36e6d",
+          "path": "preview/cambodia-v1/cambodia.glb",
+          "bytes": 2785720,
+          "sha256": "71e399b7880a4fad3a4b92d8976abb9354857128828f32f53922464fa1281fa4",
+          "role": "selected-model",
+          "structural_probe": {
+            "glb_version": 2,
+            "declared_size_matches": true,
+            "meshes": 193,
+            "nodes": 195,
+            "embedded_buffers": true,
+            "embedded_in_html": true
+          }
+        }
+      ],
+      "archives": [
+        {
+          "kind": "git",
+          "path": "preview/cambodia-v1/cambodia-v1-source.zip",
+          "bytes": 5508827,
+          "sha256": "39399a1e078eef3eae2e5eefb706aaa1ef05fc1aec2bdd54ea1bdc408950682f",
+          "commit": "44730fb2ae980db72880172c7803043cd3b36e6d",
+          "entries": 54,
+          "safe_unique_paths": true,
+          "required_payloads": {
+            "cambodia-v1.html": true,
+            "cambodia.blend": true,
+            "cambodia.glb": true
+          },
+          "inventory_checked": true,
+          "inventory_entries": 53,
+          "inventory_mismatches": [],
+          "crc_error": null,
+          "fresh_required_payloads": [
+            {
+              "path": "preview/cambodia-v1/cambodia-v1.html",
+              "member": "cambodia-v1.html",
+              "sha256": "22c2454fda18326ecccbc33ccecb32505b653a6eeb29d025d570eebc3c692b00"
+            },
+            {
+              "path": "preview/cambodia-v1/cambodia.blend",
+              "member": "cambodia.blend",
+              "sha256": "4d6478d1f69786bc42f65dbb30b42eb298fb0fbc85ec87f9477150499ae515a6"
+            },
+            {
+              "path": "preview/cambodia-v1/cambodia.glb",
+              "member": "cambodia.glb",
+              "sha256": "71e399b7880a4fad3a4b92d8976abb9354857128828f32f53922464fa1281fa4"
+            }
+          ],
+          "fresh_inner_inventory_entries": 53,
+          "fresh_crc_safe_unique": true
+        }
+      ],
+      "captures_bound_to_viewer": true,
+      "delivered_viewer_exact": true,
+      "marketing": {
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "path": "docs/assets/gallery/cambodia.webp",
+        "bytes": 78476,
+        "sha256": "f4eafdba61a092eebc2e2895197256bac41273dc3e5d5775650f499c5d542b2a",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "matches_gallery_inventory": true,
+        "provenance": {
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "provider": "xai",
+          "model": "grok-imagine-image",
+          "source": "assets/gallery/cambodia.webp",
+          "sourceSha256": "36c725e7f75909f0f247eda8a6ecf3189fb285f0ccd51e6e13933d442f647368",
+          "sha256": "f35d28205cb76bbb3b89352aa52dce3d2ece87b5544c09453494a8cd57501fae",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "reviewStatus": "reviewed_with_limitations",
+          "reviewNotes": "Temple/pool major layout retained; tier detail and water rim differ, corner hardware darker.",
+          "exactModelEquivalenceClaimed": false,
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "image_type": "Promotional art",
+        "not_model_approval": true
+      },
+      "result": "pass"
+    },
+    {
+      "id": "comoros",
+      "viewer": {
+        "commit": "457249b1e48b4fa48eb3b3faa830341048273c92",
+        "path": "preview/comoros-v1/comoros-v1.html",
+        "bytes": 3205552,
+        "sha256": "40ebf3ac91a510efdd9911643d51329a48dfbdcf1ef0ecc14616b5b41588d630",
+        "under_5000000": true
+      },
+      "models": [
+        {
+          "commit": "457249b1e48b4fa48eb3b3faa830341048273c92",
+          "path": "preview/comoros-v1/comoros.blend",
+          "bytes": 1057006,
+          "sha256": "0204a9738cf9ac8027366f370e803a729b6a645bd4bf9e80453612d6edd8e8b6",
+          "role": "selected-model"
+        },
+        {
+          "commit": "457249b1e48b4fa48eb3b3faa830341048273c92",
+          "path": "preview/comoros-v1/comoros.glb",
+          "bytes": 1856292,
+          "sha256": "ec36ecb20464382972c8d243f9506143320199d6ca6ff17ec6e419ff35b8d320",
+          "role": "selected-model",
+          "structural_probe": {
+            "glb_version": 2,
+            "declared_size_matches": true,
+            "meshes": 103,
+            "nodes": 105,
+            "embedded_buffers": true,
+            "embedded_in_html": true
+          }
+        }
+      ],
+      "archives": [
+        {
+          "kind": "git",
+          "path": "preview/comoros-v1/comoros-source.zip",
+          "bytes": 7506580,
+          "sha256": "6e1453cb307744ce04f9cb3b85b3b18f6aab94361928feb82f3e6789a7e7eb53",
+          "commit": "457249b1e48b4fa48eb3b3faa830341048273c92",
+          "entries": 52,
+          "safe_unique_paths": true,
+          "required_payloads": {
+            "comoros-v1.html": true,
+            "comoros.blend": true,
+            "comoros.glb": true
+          },
+          "inventory_checked": true,
+          "inventory_entries": 51,
+          "inventory_mismatches": [],
+          "crc_error": null,
+          "fresh_required_payloads": [
+            {
+              "path": "preview/comoros-v1/comoros-v1.html",
+              "member": "comoros-v1.html",
+              "sha256": "40ebf3ac91a510efdd9911643d51329a48dfbdcf1ef0ecc14616b5b41588d630"
+            },
+            {
+              "path": "preview/comoros-v1/comoros.blend",
+              "member": "comoros.blend",
+              "sha256": "0204a9738cf9ac8027366f370e803a729b6a645bd4bf9e80453612d6edd8e8b6"
+            },
+            {
+              "path": "preview/comoros-v1/comoros.glb",
+              "member": "comoros.glb",
+              "sha256": "ec36ecb20464382972c8d243f9506143320199d6ca6ff17ec6e419ff35b8d320"
+            }
+          ],
+          "fresh_inner_inventory_entries": 51,
+          "fresh_crc_safe_unique": true
+        }
+      ],
+      "captures_bound_to_viewer": true,
+      "delivered_viewer_exact": true,
+      "marketing": {
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "path": "docs/assets/gallery/comoros.webp",
+        "bytes": 40042,
+        "sha256": "bcdf2d304b92d8daad9ea6a4c588a70b2682419ff439e1d23285fdb360d8c387",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "matches_gallery_inventory": true,
+        "provenance": {
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "provider": "xai",
+          "model": "grok-imagine-image",
+          "source": "assets/gallery/comoros.webp",
+          "sourceSha256": "0dba34cf5c3aa45c69e4390c7e077de84f2be751e171b07126ad26cc8625c099",
+          "sha256": "d07919685789a8ba9477513c17e963c077893e1c4a29fd3ee346c8b548c7feea",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "reviewStatus": "reviewed",
+          "reviewNotes": "Source/output reviewed: broad silhouette hardware miniature counts retained. Stronger contrast and surface realism; small contour/pattern variations.",
+          "exactModelEquivalenceClaimed": false,
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "image_type": "Promotional art",
+        "not_model_approval": true
+      },
+      "result": "pass"
+    },
+    {
+      "id": "djibouti",
+      "viewer": {
+        "commit": "a9583ca5e75a80967b546bd139aba0cb04d6d8d5",
+        "path": "preview/djibouti-v1/djibouti-v1.html",
+        "bytes": 2376340,
+        "sha256": "08bc844d92c2792fe3277a5acfad0539fe83f9b7d7e2badffcc82db630e7c494",
+        "under_5000000": true
+      },
+      "models": [
+        {
+          "commit": "a9583ca5e75a80967b546bd139aba0cb04d6d8d5",
+          "path": "preview/djibouti-v1/djibouti.blend",
+          "bytes": 522704,
+          "sha256": "5055b25473d56314aa70b5beb59ea06167fdbbe7d08c4d1df676460cb3c316a3",
+          "role": "selected-model"
+        },
+        {
+          "commit": "a9583ca5e75a80967b546bd139aba0cb04d6d8d5",
+          "path": "preview/djibouti-v1/djibouti.glb",
+          "bytes": 1226808,
+          "sha256": "a5b4b2b86b30519e55d4484f80237bdbf816875084b578c23f5ea9b9b0fa0991",
+          "role": "selected-model",
+          "structural_probe": {
+            "glb_version": 2,
+            "declared_size_matches": true,
+            "meshes": 89,
+            "nodes": 91,
+            "embedded_buffers": true,
+            "embedded_in_html": true
+          }
+        }
+      ],
+      "archives": [
+        {
+          "kind": "git",
+          "path": "preview/djibouti-v1/djibouti-v1-source.zip",
+          "bytes": 5083133,
+          "sha256": "60a84c64d2cae1d3bc59100cd1e9b62d291d8625a93667def2c16475f05715f8",
+          "commit": "a9583ca5e75a80967b546bd139aba0cb04d6d8d5",
+          "entries": 53,
+          "safe_unique_paths": true,
+          "required_payloads": {
+            "djibouti-v1.html": true,
+            "djibouti.blend": true,
+            "djibouti.glb": true
+          },
+          "inventory_checked": true,
+          "inventory_entries": 52,
+          "inventory_mismatches": [],
+          "crc_error": null,
+          "fresh_required_payloads": [
+            {
+              "path": "preview/djibouti-v1/djibouti-v1.html",
+              "member": "djibouti-v1.html",
+              "sha256": "08bc844d92c2792fe3277a5acfad0539fe83f9b7d7e2badffcc82db630e7c494"
+            },
+            {
+              "path": "preview/djibouti-v1/djibouti.blend",
+              "member": "djibouti.blend",
+              "sha256": "5055b25473d56314aa70b5beb59ea06167fdbbe7d08c4d1df676460cb3c316a3"
+            },
+            {
+              "path": "preview/djibouti-v1/djibouti.glb",
+              "member": "djibouti.glb",
+              "sha256": "a5b4b2b86b30519e55d4484f80237bdbf816875084b578c23f5ea9b9b0fa0991"
+            }
+          ],
+          "fresh_inner_inventory_entries": 52,
+          "fresh_crc_safe_unique": true
+        }
+      ],
+      "captures_bound_to_viewer": true,
+      "delivered_viewer_exact": true,
+      "marketing": {
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "path": "docs/assets/gallery/djibouti.webp",
+        "bytes": 36900,
+        "sha256": "094df6bde5000aed55f7079639c97e9384641f37d4776dd9fc1e1d8fde6a8443",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "matches_gallery_inventory": true,
+        "provenance": {
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "provider": "xai",
+          "model": "grok-imagine-image",
+          "source": "assets/gallery/djibouti.webp",
+          "sourceSha256": "38b14874761aa8480ba258d9d02077e6bb568628ac31029594ee70369e250b04",
+          "sha256": "7572e56308b5759a46b3117b9ed6167496331d19ecfc80a5150717d06c40a980",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "reviewStatus": "accepted",
+          "reviewNotes": "Gray stone, oval pool, rear rocks and feet retained.",
+          "exactModelEquivalenceClaimed": false,
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "image_type": "Promotional art",
+        "not_model_approval": true
+      },
+      "result": "pass"
+    },
+    {
+      "id": "eritrea",
+      "viewer": {
+        "commit": "c2f4a5c9952cd2de909d0250770a38f012883469",
+        "path": "preview/eritrea-v1/eritrea-v1.html",
+        "bytes": 2612826,
+        "sha256": "dd572da36bfcc16505246e050f705de2f4c6d57924d904a60d3569edb08bc49b",
+        "under_5000000": true
+      },
+      "models": [
+        {
+          "commit": "c2f4a5c9952cd2de909d0250770a38f012883469",
+          "path": "preview/eritrea-v1/eritrea.blend",
+          "bytes": 584329,
+          "sha256": "f038a4cf2ac7736877aa67cca9dbc4f034f878058a7a3ddff33613e95ddae8f6",
+          "role": "selected-model"
+        },
+        {
+          "commit": "c2f4a5c9952cd2de909d0250770a38f012883469",
+          "path": "preview/eritrea-v1/eritrea.glb",
+          "bytes": 1403800,
+          "sha256": "157459742500aff6d6d587031f8eb507a011de4fba3853bd0a31f30c3882fae7",
+          "role": "selected-model",
+          "structural_probe": {
+            "glb_version": 2,
+            "declared_size_matches": true,
+            "meshes": 63,
+            "nodes": 65,
+            "embedded_buffers": true,
+            "embedded_in_html": true
+          }
+        }
+      ],
+      "archives": [
+        {
+          "kind": "git",
+          "path": "preview/eritrea-v1/eritrea-v1-source.zip",
+          "bytes": 5511752,
+          "sha256": "7b0fb3f97e547b020aeb76ce4f0e34e284d4ba1ec9f0716ffef4c5eeeb9bed79",
+          "commit": "c2f4a5c9952cd2de909d0250770a38f012883469",
+          "entries": 54,
+          "safe_unique_paths": true,
+          "required_payloads": {
+            "eritrea-v1.html": true,
+            "eritrea.blend": true,
+            "eritrea.glb": true
+          },
+          "inventory_checked": true,
+          "inventory_entries": 53,
+          "inventory_mismatches": [],
+          "crc_error": null,
+          "fresh_required_payloads": [
+            {
+              "path": "preview/eritrea-v1/eritrea-v1.html",
+              "member": "eritrea-v1.html",
+              "sha256": "dd572da36bfcc16505246e050f705de2f4c6d57924d904a60d3569edb08bc49b"
+            },
+            {
+              "path": "preview/eritrea-v1/eritrea.blend",
+              "member": "eritrea.blend",
+              "sha256": "f038a4cf2ac7736877aa67cca9dbc4f034f878058a7a3ddff33613e95ddae8f6"
+            },
+            {
+              "path": "preview/eritrea-v1/eritrea.glb",
+              "member": "eritrea.glb",
+              "sha256": "157459742500aff6d6d587031f8eb507a011de4fba3853bd0a31f30c3882fae7"
+            }
+          ],
+          "fresh_inner_inventory_entries": 53,
+          "fresh_crc_safe_unique": true
+        }
+      ],
+      "captures_bound_to_viewer": true,
+      "delivered_viewer_exact": true,
+      "marketing": {
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "path": "docs/assets/gallery/eritrea.webp",
+        "bytes": 52616,
+        "sha256": "26bb9efe95bd504c94439328c148ccb9c238ebd67e2588c2dde4930597001319",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "matches_gallery_inventory": true,
+        "provenance": {
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "provider": "xai",
+          "model": "grok-imagine-image",
+          "source": "assets/gallery/eritrea.webp",
+          "sourceSha256": "04466985c524beef3e5de6be14c19e3d12635ee047929cd56a179f2fe9e7918f",
+          "sha256": "4a5b8c4de5511ef30e5fdc9a25465e923763bb36b53fcd7fa0bda9402cfa1a5e",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "reviewStatus": "accepted",
+          "reviewNotes": "Principal silhouette, palette, hardware and lid count/placement retained; texture refinement allowed.",
+          "exactModelEquivalenceClaimed": false,
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "image_type": "Promotional art",
+        "not_model_approval": true
+      },
+      "result": "pass"
+    },
+    {
+      "id": "gambia",
+      "viewer": {
+        "commit": "20af220774ba241240da080f69636761e4850146",
+        "path": "preview/gambia-v1/gambia-v1.html",
+        "bytes": 2896762,
+        "sha256": "3f9b6bc115fff971f889518f5c79eb491668a5f5f183f0d35a23b551d8f1575a",
+        "under_5000000": true
+      },
+      "models": [
+        {
+          "commit": "20af220774ba241240da080f69636761e4850146",
+          "path": "preview/gambia-v1/gambia.blend",
+          "bytes": 734781,
+          "sha256": "fd87ed690c318b99693f099c54e812d980f41e4c5f8c120cb20b7a47699c4653",
+          "role": "selected-model"
+        },
+        {
+          "commit": "20af220774ba241240da080f69636761e4850146",
+          "path": "preview/gambia-v1/gambia.glb",
+          "bytes": 1552360,
+          "sha256": "d432f853ac1dc430fab48ee6815eafa31b7c7e472efb7beae8a5854609f3e14c",
+          "role": "selected-model",
+          "structural_probe": {
+            "glb_version": 2,
+            "declared_size_matches": true,
+            "meshes": 130,
+            "nodes": 132,
+            "embedded_buffers": true,
+            "embedded_in_html": true
+          }
+        }
+      ],
+      "archives": [
+        {
+          "kind": "git",
+          "path": "preview/gambia-v1/gambia-v1-source.zip",
+          "bytes": 7361321,
+          "sha256": "6637486f0fe31acec32bd6f3c7ce409e87cfb503a71ccd8ff5e27d044f14c07c",
+          "commit": "20af220774ba241240da080f69636761e4850146",
+          "entries": 50,
+          "safe_unique_paths": true,
+          "required_payloads": {
+            "gambia-v1.html": true,
+            "gambia.blend": true,
+            "gambia.glb": true
+          },
+          "inventory_checked": true,
+          "inventory_entries": 49,
+          "inventory_mismatches": [],
+          "crc_error": null,
+          "fresh_required_payloads": [
+            {
+              "path": "preview/gambia-v1/gambia-v1.html",
+              "member": "gambia-v1.html",
+              "sha256": "3f9b6bc115fff971f889518f5c79eb491668a5f5f183f0d35a23b551d8f1575a"
+            },
+            {
+              "path": "preview/gambia-v1/gambia.blend",
+              "member": "gambia.blend",
+              "sha256": "fd87ed690c318b99693f099c54e812d980f41e4c5f8c120cb20b7a47699c4653"
+            },
+            {
+              "path": "preview/gambia-v1/gambia.glb",
+              "member": "gambia.glb",
+              "sha256": "d432f853ac1dc430fab48ee6815eafa31b7c7e472efb7beae8a5854609f3e14c"
+            }
+          ],
+          "fresh_inner_inventory_entries": 49,
+          "fresh_crc_safe_unique": true
+        }
+      ],
+      "captures_bound_to_viewer": true,
+      "delivered_viewer_exact": true,
+      "marketing": {
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "path": "docs/assets/gallery/gambia.webp",
+        "bytes": 54090,
+        "sha256": "a324148b3e02c0c845444b92302b72e0723c8ebed88b0b07d11667fd425c2675",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "matches_gallery_inventory": true,
+        "provenance": {
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "provider": "xai",
+          "model": "grok-imagine-image",
+          "source": "assets/gallery/gambia.webp",
+          "sourceSha256": "60d9be42e3052b270ee7680f5dbfe8dfded777f44eb973e1f89e8c3327f87126",
+          "sha256": "7883eaa901bc7fbdaa95a4e923720dd316a3a34711fe3fe998621436f52b6632",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "reviewStatus": "reviewed_pass",
+          "reviewNotes": "pass: three trees river and banks preserved",
+          "exactModelEquivalenceClaimed": false,
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "image_type": "Promotional art",
+        "not_model_approval": true
+      },
+      "result": "pass"
+    },
+    {
+      "id": "guinea-bissau",
+      "viewer": {
+        "commit": "68e769df144b16d9ae82b0060f70090e912ea4bd",
+        "path": "preview/guinea-bissau-v1/guinea-bissau-v1.html",
+        "bytes": 2717070,
+        "sha256": "e387c139cfbf1b57231c1b955c154a44437623ef54eaa1a73fed53b462e07054",
+        "under_5000000": true
+      },
+      "models": [
+        {
+          "commit": "68e769df144b16d9ae82b0060f70090e912ea4bd",
+          "path": "preview/guinea-bissau-v1/guinea-bissau.blend",
+          "bytes": 752442,
+          "sha256": "a532475b7148b832e939f30fd76c76a003f3ea1d881b0ecee9158470e8b42392",
+          "role": "selected-model"
+        },
+        {
+          "commit": "68e769df144b16d9ae82b0060f70090e912ea4bd",
+          "path": "preview/guinea-bissau-v1/guinea-bissau.glb",
+          "bytes": 1492472,
+          "sha256": "9c6147fb68b7292de8a1a8ffa2bfebeab21472ceefac420121e454f4d7cf8c42",
+          "role": "selected-model",
+          "structural_probe": {
+            "glb_version": 2,
+            "declared_size_matches": true,
+            "meshes": 108,
+            "nodes": 110,
+            "embedded_buffers": true,
+            "embedded_in_html": true
+          }
+        }
+      ],
+      "archives": [
+        {
+          "kind": "git",
+          "path": "preview/guinea-bissau-v1/guinea-bissau-v1-source.zip",
+          "bytes": 6614883,
+          "sha256": "1532e7dd6f95876509429ba6baa5cf24ac3f9d36a64d58f3b0f54584df02bcb4",
+          "commit": "68e769df144b16d9ae82b0060f70090e912ea4bd",
+          "entries": 58,
+          "safe_unique_paths": true,
+          "required_payloads": {
+            "guinea-bissau-v1.html": true,
+            "guinea-bissau.blend": true,
+            "guinea-bissau.glb": true
+          },
+          "inventory_checked": true,
+          "inventory_entries": 57,
+          "inventory_mismatches": [],
+          "crc_error": null,
+          "fresh_required_payloads": [
+            {
+              "path": "preview/guinea-bissau-v1/guinea-bissau-v1.html",
+              "member": "guinea-bissau-v1.html",
+              "sha256": "e387c139cfbf1b57231c1b955c154a44437623ef54eaa1a73fed53b462e07054"
+            },
+            {
+              "path": "preview/guinea-bissau-v1/guinea-bissau.blend",
+              "member": "guinea-bissau.blend",
+              "sha256": "a532475b7148b832e939f30fd76c76a003f3ea1d881b0ecee9158470e8b42392"
+            },
+            {
+              "path": "preview/guinea-bissau-v1/guinea-bissau.glb",
+              "member": "guinea-bissau.glb",
+              "sha256": "9c6147fb68b7292de8a1a8ffa2bfebeab21472ceefac420121e454f4d7cf8c42"
+            }
+          ],
+          "fresh_inner_inventory_entries": 57,
+          "fresh_crc_safe_unique": true
+        }
+      ],
+      "captures_bound_to_viewer": true,
+      "delivered_viewer_exact": true,
+      "marketing": {
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "path": "docs/assets/gallery/guinea-bissau.webp",
+        "bytes": 72362,
+        "sha256": "02b15c156cbcc126d3de51b45b96dc9643bcd9ead73d8b15f61c88db13b6b242",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "matches_gallery_inventory": true,
+        "provenance": {
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "provider": "xai",
+          "model": "grok-imagine-image",
+          "source": "assets/gallery/guinea-bissau.webp",
+          "sourceSha256": "97b5428cbd96ef48d5fbbd28ac5d300922fe806afb1cff84f14bb4e895c70db7",
+          "sha256": "d78942a19c3ac8c76896b9f24279993d73789c08ebc62936c6405923a95bd700",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "reviewStatus": "reviewed_with_limitations",
+          "reviewNotes": "Island grouping retained; wood warmer and shoreline/tree shape differ.",
+          "exactModelEquivalenceClaimed": false,
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "image_type": "Promotional art",
+        "not_model_approval": true
+      },
+      "result": "pass"
+    },
+    {
+      "id": "indonesia",
+      "viewer": {
+        "commit": "85013017bf27cecdce27296536e425e019db0281",
+        "path": "preview/indonesia-v1/indonesia-v1.html",
+        "bytes": 2799626,
+        "sha256": "97fcb926ca5410c4f31ba63cc5fefd0eb9c8896fbbf79906b023f176afdef768",
+        "under_5000000": true
+      },
+      "models": [
+        {
+          "commit": "85013017bf27cecdce27296536e425e019db0281",
+          "path": "preview/indonesia-v1/indonesia.blend",
+          "bytes": 675987,
+          "sha256": "8d399aadb799c510db6011272921c863311f4e639eda0be7691904ae017b9d7a",
+          "role": "selected-model"
+        },
+        {
+          "commit": "85013017bf27cecdce27296536e425e019db0281",
+          "path": "preview/indonesia-v1/indonesia.glb",
+          "bytes": 1486092,
+          "sha256": "76080a015394750fee6361127fa0b481aaf320a0ffe634346ebc006ac1dfc9ab",
+          "role": "selected-model",
+          "structural_probe": {
+            "glb_version": 2,
+            "declared_size_matches": true,
+            "meshes": 75,
+            "nodes": 77,
+            "embedded_buffers": true,
+            "embedded_in_html": true
+          }
+        }
+      ],
+      "archives": [
+        {
+          "kind": "git",
+          "path": "preview/indonesia-v1/indonesia-v1-source.zip",
+          "bytes": 6526481,
+          "sha256": "934ccb17ed2d25acefd94b4d2894a46c526f0009691670289d0535f5e785ba88",
+          "commit": "85013017bf27cecdce27296536e425e019db0281",
+          "entries": 55,
+          "safe_unique_paths": true,
+          "required_payloads": {
+            "indonesia-v1.html": true,
+            "indonesia.blend": true,
+            "indonesia.glb": true
+          },
+          "inventory_checked": true,
+          "inventory_entries": 54,
+          "inventory_mismatches": [],
+          "crc_error": null,
+          "fresh_required_payloads": [
+            {
+              "path": "preview/indonesia-v1/indonesia-v1.html",
+              "member": "indonesia-v1.html",
+              "sha256": "97fcb926ca5410c4f31ba63cc5fefd0eb9c8896fbbf79906b023f176afdef768"
+            },
+            {
+              "path": "preview/indonesia-v1/indonesia.blend",
+              "member": "indonesia.blend",
+              "sha256": "8d399aadb799c510db6011272921c863311f4e639eda0be7691904ae017b9d7a"
+            },
+            {
+              "path": "preview/indonesia-v1/indonesia.glb",
+              "member": "indonesia.glb",
+              "sha256": "76080a015394750fee6361127fa0b481aaf320a0ffe634346ebc006ac1dfc9ab"
+            }
+          ],
+          "fresh_inner_inventory_entries": 54,
+          "fresh_crc_safe_unique": true
+        }
+      ],
+      "captures_bound_to_viewer": true,
+      "delivered_viewer_exact": true,
+      "marketing": {
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "path": "docs/assets/gallery/indonesia.webp",
+        "bytes": 118684,
+        "sha256": "49eda29296254694f102a2da8cbad62a55761bd95cc8cd6397d4e8f04eb1f069",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "matches_gallery_inventory": true,
+        "provenance": {
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "provider": "xai",
+          "model": "grok-imagine-image",
+          "source": "assets/gallery/indonesia.webp",
+          "sourceSha256": "9a536e834554d95e006243b262cb483a4ec73b4b9a29348f50e6606e096e1335",
+          "sha256": "791fda173c49e3c906662a54ebb9afcd01aa21000d1b93e80789849b6f52e45f",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "reviewStatus": "reviewed_pass_with_limitations",
+          "reviewNotes": "pass_with_limitations: island relief grouping preserved; small count unresolved",
+          "exactModelEquivalenceClaimed": false,
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "image_type": "Promotional art",
+        "not_model_approval": true
+      },
+      "result": "pass"
+    },
+    {
+      "id": "jordan",
+      "viewer": {
+        "commit": "08c0718ecc9a4c212859041604b93ee9c4ca4eac",
+        "path": "preview/jordan-v1/jordan-v1.html",
+        "bytes": 2689165,
+        "sha256": "a1ca5fd2b1c0957bc17a09d94993542e03a862d6c9ecdb0f307d8ba48d0352c5",
+        "under_5000000": true
+      },
+      "models": [
+        {
+          "commit": "08c0718ecc9a4c212859041604b93ee9c4ca4eac",
+          "path": "preview/jordan-v1/jordan.blend",
+          "bytes": 575450,
+          "sha256": "72ead882ce05a6cca06d8d39954111eb733f84d007ae02683a48cada91438e5d",
+          "role": "selected-model"
+        },
+        {
+          "commit": "08c0718ecc9a4c212859041604b93ee9c4ca4eac",
+          "path": "preview/jordan-v1/jordan.glb",
+          "bytes": 1461768,
+          "sha256": "576160d186bd883966cf24a224458cc7304bc2752560591287e175569aba4f84",
+          "role": "selected-model",
+          "structural_probe": {
+            "glb_version": 2,
+            "declared_size_matches": true,
+            "meshes": 60,
+            "nodes": 62,
+            "embedded_buffers": true,
+            "embedded_in_html": true
+          }
+        }
+      ],
+      "archives": [
+        {
+          "kind": "git",
+          "path": "preview/jordan-v1/jordan-v1-source.zip",
+          "bytes": 7434973,
+          "sha256": "1ae20e68830385dd5917e187d89ce571a3115ee3dd6c51bfbf5652c1adbe1bb5",
+          "commit": "08c0718ecc9a4c212859041604b93ee9c4ca4eac",
+          "entries": 57,
+          "safe_unique_paths": true,
+          "required_payloads": {
+            "jordan-v1.html": true,
+            "jordan.blend": true,
+            "jordan.glb": true
+          },
+          "inventory_checked": true,
+          "inventory_entries": 56,
+          "inventory_mismatches": [],
+          "crc_error": null,
+          "fresh_required_payloads": [
+            {
+              "path": "preview/jordan-v1/jordan-v1.html",
+              "member": "jordan-v1.html",
+              "sha256": "a1ca5fd2b1c0957bc17a09d94993542e03a862d6c9ecdb0f307d8ba48d0352c5"
+            },
+            {
+              "path": "preview/jordan-v1/jordan.blend",
+              "member": "jordan.blend",
+              "sha256": "72ead882ce05a6cca06d8d39954111eb733f84d007ae02683a48cada91438e5d"
+            },
+            {
+              "path": "preview/jordan-v1/jordan.glb",
+              "member": "jordan.glb",
+              "sha256": "576160d186bd883966cf24a224458cc7304bc2752560591287e175569aba4f84"
+            }
+          ],
+          "fresh_inner_inventory_entries": 56,
+          "fresh_crc_safe_unique": true
+        }
+      ],
+      "captures_bound_to_viewer": true,
+      "delivered_viewer_exact": true,
+      "marketing": {
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "path": "docs/assets/gallery/jordan.webp",
+        "bytes": 69440,
+        "sha256": "f201b777c7ce5314c9ef2ea9e48ac5e507c6ffd9e31081e42cfc089891d5fed6",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "matches_gallery_inventory": true,
+        "provenance": {
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "provider": "xai",
+          "model": "grok-imagine-image",
+          "source": "assets/gallery/jordan.webp",
+          "sourceSha256": "2b9906f68e65c9ce590a2d48a18a8eabffb1350aa9698c93355dea8fc2bf3e54",
+          "sha256": "ba32b07d13f10eade35f83d3512666333785b03ecffef6e805f0605d5dbe074b",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "reviewStatus": "accepted",
+          "reviewNotes": "Corrected pink layered stone; paler/desaturated versus source; added dark display slab. Three principal lid forms retained.",
+          "exactModelEquivalenceClaimed": false,
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "image_type": "Promotional art",
+        "not_model_approval": true
+      },
+      "result": "pass"
+    },
+    {
+      "id": "lebanon",
+      "viewer": {
+        "commit": "82aafc4c50685ec195a7b05c8da1b39815f1a0e8",
+        "path": "preview/lebanon-v1/lebanon-v1.html",
+        "bytes": 2729848,
+        "sha256": "544edaeba44737f6db32c1cc8e26363cb26aac0faab59c86b8791b765e5f3d67",
+        "under_5000000": true
+      },
+      "models": [
+        {
+          "commit": "82aafc4c50685ec195a7b05c8da1b39815f1a0e8",
+          "path": "preview/lebanon-v1/lebanon.blend",
+          "bytes": 635700,
+          "sha256": "a954e77bdee120911c8a2925f36f8d88c814f88a1aeb6e5a2d6443a35c7ca488",
+          "role": "selected-model"
+        },
+        {
+          "commit": "82aafc4c50685ec195a7b05c8da1b39815f1a0e8",
+          "path": "preview/lebanon-v1/lebanon.glb",
+          "bytes": 1483576,
+          "sha256": "21813202b2d077103b01fa92624fe239053754d24fcc3625252be626378ea799",
+          "role": "selected-model",
+          "structural_probe": {
+            "glb_version": 2,
+            "declared_size_matches": true,
+            "meshes": 106,
+            "nodes": 108,
+            "embedded_buffers": true,
+            "embedded_in_html": true
+          }
+        }
+      ],
+      "archives": [
+        {
+          "kind": "git",
+          "path": "preview/lebanon-v1/lebanon-v1-source.zip",
+          "bytes": 5586511,
+          "sha256": "19d50616bc428014c1a88e2ea75f5db167bec6601d6eee0aa4b501d17250591c",
+          "commit": "82aafc4c50685ec195a7b05c8da1b39815f1a0e8",
+          "entries": 57,
+          "safe_unique_paths": true,
+          "required_payloads": {
+            "lebanon-v1.html": true,
+            "lebanon.blend": true,
+            "lebanon.glb": true
+          },
+          "inventory_checked": true,
+          "inventory_entries": 56,
+          "inventory_mismatches": [],
+          "crc_error": null,
+          "fresh_required_payloads": [
+            {
+              "path": "preview/lebanon-v1/lebanon-v1.html",
+              "member": "lebanon-v1.html",
+              "sha256": "544edaeba44737f6db32c1cc8e26363cb26aac0faab59c86b8791b765e5f3d67"
+            },
+            {
+              "path": "preview/lebanon-v1/lebanon.blend",
+              "member": "lebanon.blend",
+              "sha256": "a954e77bdee120911c8a2925f36f8d88c814f88a1aeb6e5a2d6443a35c7ca488"
+            },
+            {
+              "path": "preview/lebanon-v1/lebanon.glb",
+              "member": "lebanon.glb",
+              "sha256": "21813202b2d077103b01fa92624fe239053754d24fcc3625252be626378ea799"
+            }
+          ],
+          "fresh_inner_inventory_entries": 56,
+          "fresh_crc_safe_unique": true
+        }
+      ],
+      "captures_bound_to_viewer": true,
+      "delivered_viewer_exact": true,
+      "marketing": {
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "path": "docs/assets/gallery/lebanon.webp",
+        "bytes": 47432,
+        "sha256": "1bb48d419d949c94fb3148e6f69dbc6b92c9a41ea6e16a27ff8c8edb6bc2ec01",
+        "dimensions": [
+          1120,
+          928
+        ],
+        "matches_gallery_inventory": true,
+        "provenance": {
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "provider": "xai",
+          "model": "grok-imagine-image",
+          "source": "assets/gallery/lebanon.webp",
+          "sourceSha256": "a601ceaed969c9f021aa04b7ea060798477d2cf59abb5110b104a8b2760f8e2e",
+          "sha256": "16aabec4d1c30921db2116738f37c67a2ac0baee3f2a1cc6b624c6aa07419dee",
+          "nativeDimensions": [
+            1120,
+            928
+          ],
+          "reviewStatus": "reviewed_pass",
+          "reviewNotes": "pass: single cedar preserved",
+          "exactModelEquivalenceClaimed": false,
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "image_type": "Promotional art",
+        "not_model_approval": true
+      },
+      "result": "pass"
+    },
+    {
+      "id": "malawi",
+      "viewer": {
+        "commit": "87139bbe4b2bb0ac14676f6cf0aeeba7f0135017",
+        "path": "preview/malawi-v1/malawi-v1.html",
+        "bytes": 2544716,
+        "sha256": "8f46b115c83700092071ee543cda76e33feee1ac6f4690d6a8800a8fee77e84d",
+        "under_5000000": true
+      },
+      "models": [
+        {
+          "commit": "87139bbe4b2bb0ac14676f6cf0aeeba7f0135017",
+          "path": "preview/malawi-v1/malawi.blend",
+          "bytes": 566535,
+          "sha256": "c455b5bbdeb73feb3c5c1682dd6e7084379457fe326152986659d26c956dc54a",
+          "role": "selected-model"
+        },
+        {
+          "commit": "87139bbe4b2bb0ac14676f6cf0aeeba7f0135017",
+          "path": "preview/malawi-v1/malawi.glb",
+          "bytes": 1378228,
+          "sha256": "dd6cca5c7aca09b70616fe53668c472754dd9b666f6218c2fa56659b4b9c1af5",
+          "role": "selected-model",
+          "structural_probe": {
+            "glb_version": 2,
+            "declared_size_matches": true,
+            "meshes": 79,
+            "nodes": 81,
+            "embedded_buffers": true,
+            "embedded_in_html": true
+          }
+        }
+      ],
+      "archives": [
+        {
+          "kind": "git",
+          "path": "preview/malawi-v1/malawi-source.zip",
+          "bytes": 6840380,
+          "sha256": "9a383ecb54be636b359896d930e296b96bd4d385968f06703afde7d57748e842",
+          "commit": "87139bbe4b2bb0ac14676f6cf0aeeba7f0135017",
+          "entries": 54,
+          "safe_unique_paths": true,
+          "required_payloads": {
+            "malawi-v1.html": true,
+            "malawi.blend": true,
+            "malawi.glb": true
+          },
+          "inventory_checked": true,
+          "inventory_entries": 53,
+          "inventory_mismatches": [],
+          "crc_error": null,
+          "fresh_required_payloads": [
+            {
+              "path": "preview/malawi-v1/malawi-v1.html",
+              "member": "malawi-v1.html",
+              "sha256": "8f46b115c83700092071ee543cda76e33feee1ac6f4690d6a8800a8fee77e84d"
+            },
+            {
+              "path": "preview/malawi-v1/malawi.blend",
+              "member": "malawi.blend",
+              "sha256": "c455b5bbdeb73feb3c5c1682dd6e7084379457fe326152986659d26c956dc54a"
+            },
+            {
+              "path": "preview/malawi-v1/malawi.glb",
+              "member": "malawi.glb",
+              "sha256": "dd6cca5c7aca09b70616fe53668c472754dd9b666f6218c2fa56659b4b9c1af5"
+            }
+          ],
+          "fresh_inner_inventory_entries": 53,
+          "fresh_crc_safe_unique": true
+        }
+      ],
+      "captures_bound_to_viewer": true,
+      "delivered_viewer_exact": true,
+      "marketing": {
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "path": "docs/assets/gallery/malawi.webp",
+        "bytes": 48384,
+        "sha256": "e5c38b0b7f29fd06ffd9c07984cb1fdc6a9bd09c81182ee595481efe7cfe7216",
+        "dimensions": [
+          1072,
+          960
+        ],
+        "matches_gallery_inventory": true,
+        "provenance": {
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "provider": "xai",
+          "model": "grok-imagine-image",
+          "source": "assets/gallery/malawi.webp",
+          "sourceSha256": "cb2f0cf9dd89a5257224f12af0e8e453e2ca69c21ffa8754bacf50ff5c589d06",
+          "sha256": "cfd23660d5d34d6a3b1980738630873ad5ab38ec2aad197d97aeade112ea43e0",
+          "nativeDimensions": [
+            1072,
+            960
+          ],
+          "reviewStatus": "reviewed_with_limitations",
+          "reviewNotes": "Three boats and two rear clusters retained; contours/orientations vary.",
+          "exactModelEquivalenceClaimed": false,
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "image_type": "Promotional art",
+        "not_model_approval": true
+      },
+      "result": "pass"
+    },
+    {
+      "id": "mexico",
+      "viewer": {
+        "commit": "5ed8b7b61f3dfd9ecb9cd4faa0894f30fbdd761c",
+        "path": "preview/mexico-v1/mexico-v1.html",
+        "bytes": 3886150,
+        "sha256": "583e6710f4db070cd6a2bafbbcd99c1b4a11ad6898adffa336e9854aa2d89e1f",
+        "under_5000000": true
+      },
+      "models": [
+        {
+          "commit": "5ed8b7b61f3dfd9ecb9cd4faa0894f30fbdd761c",
+          "path": "preview/mexico-v1/mexico.blend",
+          "bytes": 513729,
+          "sha256": "e610b42371087a88c083cb2c768680086edfeeb80875368bc474323e82d8a1f6",
+          "role": "selected-model"
+        },
+        {
+          "commit": "5ed8b7b61f3dfd9ecb9cd4faa0894f30fbdd761c",
+          "path": "preview/mexico-v1/mexico.glb",
+          "bytes": 2266880,
+          "sha256": "aad59e0c0bffd5ee98b59f6c404a7f48bcfcfabb0ce503b2c9ed49b0bf31dc12",
+          "role": "selected-model",
+          "structural_probe": {
+            "glb_version": 2,
+            "declared_size_matches": true,
+            "meshes": 172,
+            "nodes": 174,
+            "embedded_buffers": true,
+            "embedded_in_html": true
+          }
+        }
+      ],
+      "archives": [
+        {
+          "kind": "git",
+          "path": "preview/mexico-v1/mexico-v1-source.zip",
+          "bytes": 6227206,
+          "sha256": "037e880057af82467ccc0309d312c3c0c40ecacc30cad3d59a6b3e5eac497161",
+          "commit": "5ed8b7b61f3dfd9ecb9cd4faa0894f30fbdd761c",
+          "entries": 56,
+          "safe_unique_paths": true,
+          "required_payloads": {
+            "mexico-v1.html": true,
+            "mexico.blend": true,
+            "mexico.glb": true
+          },
+          "inventory_checked": true,
+          "inventory_entries": 55,
+          "inventory_mismatches": [],
+          "crc_error": null,
+          "fresh_required_payloads": [
+            {
+              "path": "preview/mexico-v1/mexico-v1.html",
+              "member": "mexico-v1.html",
+              "sha256": "583e6710f4db070cd6a2bafbbcd99c1b4a11ad6898adffa336e9854aa2d89e1f"
+            },
+            {
+              "path": "preview/mexico-v1/mexico.blend",
+              "member": "mexico.blend",
+              "sha256": "e610b42371087a88c083cb2c768680086edfeeb80875368bc474323e82d8a1f6"
+            },
+            {
+              "path": "preview/mexico-v1/mexico.glb",
+              "member": "mexico.glb",
+              "sha256": "aad59e0c0bffd5ee98b59f6c404a7f48bcfcfabb0ce503b2c9ed49b0bf31dc12"
+            }
+          ],
+          "fresh_inner_inventory_entries": 55,
+          "fresh_crc_safe_unique": true
+        }
+      ],
+      "captures_bound_to_viewer": true,
+      "delivered_viewer_exact": true,
+      "marketing": {
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "path": "docs/assets/gallery/mexico.webp",
+        "bytes": 109000,
+        "sha256": "d85b9e5a78d23481e4c2453241fb1956e9d19234f8f2fbdeb2498f2384786ccb",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "matches_gallery_inventory": true,
+        "provenance": {
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "provider": "xai",
+          "model": "grok-imagine-image",
+          "source": "assets/gallery/mexico.webp",
+          "sourceSha256": "c578ba7e868958d708a9ece78ecf67eb416c4ec736378d2ace4729efd453a1c5",
+          "sha256": "f854e9e5e2580aab7024508823c21a56e19f377bd71b5e3c9130552f423986d8",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "reviewStatus": "reviewed",
+          "reviewNotes": "High broad fidelity; original major miniature counts and hardware retained. Richer texture/color, minor pattern and contour changes.",
+          "exactModelEquivalenceClaimed": false,
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "image_type": "Promotional art",
+        "not_model_approval": true
+      },
+      "result": "pass"
+    },
+    {
+      "id": "myanmar",
+      "viewer": {
+        "commit": "3f797b71ad7d658f7b2e5907066173684d614b1e",
+        "path": "preview/myanmar-v1/myanmar-v1.html",
+        "bytes": 3040969,
+        "sha256": "35b7b40ff569c9cc50cc8fb2a429caa56356a5cea7e999a0381743a814a9ccc5",
+        "under_5000000": true
+      },
+      "models": [
+        {
+          "commit": "3f797b71ad7d658f7b2e5907066173684d614b1e",
+          "path": "preview/myanmar-v1/myanmar.blend",
+          "bytes": 632251,
+          "sha256": "ef9deb0d6f3fb506b1280d0d50f6a24eebea840766d4782b20407918894713df",
+          "role": "selected-model"
+        },
+        {
+          "commit": "3f797b71ad7d658f7b2e5907066173684d614b1e",
+          "path": "preview/myanmar-v1/myanmar.glb",
+          "bytes": 1672672,
+          "sha256": "5479059754e1bb767e4840c25bc8cb2b94bbb804abee4361b1e38067930ca20d",
+          "role": "selected-model",
+          "structural_probe": {
+            "glb_version": 2,
+            "declared_size_matches": true,
+            "meshes": 59,
+            "nodes": 61,
+            "embedded_buffers": true,
+            "embedded_in_html": true
+          }
+        }
+      ],
+      "archives": [
+        {
+          "kind": "git",
+          "path": "preview/myanmar-v1/myanmar-v1-source.zip",
+          "bytes": 6123548,
+          "sha256": "9b898485a46743bb9d11918df6584a57d56a0bd4739a271b798668070c9b7c08",
+          "commit": "3f797b71ad7d658f7b2e5907066173684d614b1e",
+          "entries": 56,
+          "safe_unique_paths": true,
+          "required_payloads": {
+            "myanmar-v1.html": true,
+            "myanmar.blend": true,
+            "myanmar.glb": true
+          },
+          "inventory_checked": true,
+          "inventory_entries": 55,
+          "inventory_mismatches": [],
+          "crc_error": null,
+          "fresh_required_payloads": [
+            {
+              "path": "preview/myanmar-v1/myanmar-v1.html",
+              "member": "myanmar-v1.html",
+              "sha256": "35b7b40ff569c9cc50cc8fb2a429caa56356a5cea7e999a0381743a814a9ccc5"
+            },
+            {
+              "path": "preview/myanmar-v1/myanmar.blend",
+              "member": "myanmar.blend",
+              "sha256": "ef9deb0d6f3fb506b1280d0d50f6a24eebea840766d4782b20407918894713df"
+            },
+            {
+              "path": "preview/myanmar-v1/myanmar.glb",
+              "member": "myanmar.glb",
+              "sha256": "5479059754e1bb767e4840c25bc8cb2b94bbb804abee4361b1e38067930ca20d"
+            }
+          ],
+          "fresh_inner_inventory_entries": 55,
+          "fresh_crc_safe_unique": true
+        }
+      ],
+      "captures_bound_to_viewer": true,
+      "delivered_viewer_exact": true,
+      "marketing": {
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "path": "docs/assets/gallery/myanmar.webp",
+        "bytes": 84850,
+        "sha256": "faa9f998e056bad0b510262ef2a99b2a32a5d083ceab78237e733bcacb5f1b4c",
+        "dimensions": [
+          1072,
+          960
+        ],
+        "matches_gallery_inventory": true,
+        "provenance": {
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "provider": "xai",
+          "model": "grok-imagine-image",
+          "source": "assets/gallery/myanmar.webp",
+          "sourceSha256": "00f9f372b478096b77de779ac8203af0cddf5ea56fcbe7e94a868e6b72c8a574",
+          "sha256": "cec26146235d329ed9633132c3d689e2b8cf486346fa28301233d4a6a0d22321",
+          "nativeDimensions": [
+            1072,
+            960
+          ],
+          "reviewStatus": "reviewed_with_limitations",
+          "reviewNotes": "Correction restores pale lid field; single medallion retained, red linework and relief differ.",
+          "exactModelEquivalenceClaimed": false,
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "image_type": "Promotional art",
+        "not_model_approval": true
+      },
+      "result": "pass"
+    },
+    {
+      "id": "nigeria",
+      "viewer": {
+        "commit": "8e9c1f3c2c87b89e091e8fc2288b66f1813e800f",
+        "path": "preview/nigeria-v1/nigeria-v1.html",
+        "bytes": 3261757,
+        "sha256": "7c389c90bd33ed8c5a657e3981770ab4ff20ecc5d8f3feff5cb27d96a03a55bb",
+        "under_5000000": true
+      },
+      "models": [
+        {
+          "commit": "8e9c1f3c2c87b89e091e8fc2288b66f1813e800f",
+          "path": "preview/nigeria-v1/nigeria.blend",
+          "bytes": 730084,
+          "sha256": "cdf4d6e11dbde1c183a586c42100454cf8b19a77156ca12f0c00b6d3371f317d",
+          "role": "selected-model"
+        },
+        {
+          "commit": "8e9c1f3c2c87b89e091e8fc2288b66f1813e800f",
+          "path": "preview/nigeria-v1/nigeria.glb",
+          "bytes": 1846528,
+          "sha256": "87ce567f3c34182d554294d925473211427c11e47de94f559b8dcf212951533d",
+          "role": "selected-model",
+          "structural_probe": {
+            "glb_version": 2,
+            "declared_size_matches": true,
+            "meshes": 64,
+            "nodes": 66,
+            "embedded_buffers": true,
+            "embedded_in_html": true
+          }
+        }
+      ],
+      "archives": [
+        {
+          "kind": "git",
+          "path": "preview/nigeria-v1/nigeria-v1-source.zip",
+          "bytes": 7150520,
+          "sha256": "f995d69c4e87e48b933f61cef8193d3ed37171568a49ffb777bdd21a42b960cc",
+          "commit": "8e9c1f3c2c87b89e091e8fc2288b66f1813e800f",
+          "entries": 51,
+          "safe_unique_paths": true,
+          "required_payloads": {
+            "nigeria-v1.html": true,
+            "nigeria.blend": true,
+            "nigeria.glb": true
+          },
+          "inventory_checked": true,
+          "inventory_entries": 50,
+          "inventory_mismatches": [],
+          "crc_error": null,
+          "fresh_required_payloads": [
+            {
+              "path": "preview/nigeria-v1/nigeria-v1.html",
+              "member": "nigeria-v1.html",
+              "sha256": "7c389c90bd33ed8c5a657e3981770ab4ff20ecc5d8f3feff5cb27d96a03a55bb"
+            },
+            {
+              "path": "preview/nigeria-v1/nigeria.blend",
+              "member": "nigeria.blend",
+              "sha256": "cdf4d6e11dbde1c183a586c42100454cf8b19a77156ca12f0c00b6d3371f317d"
+            },
+            {
+              "path": "preview/nigeria-v1/nigeria.glb",
+              "member": "nigeria.glb",
+              "sha256": "87ce567f3c34182d554294d925473211427c11e47de94f559b8dcf212951533d"
+            }
+          ],
+          "fresh_inner_inventory_entries": 50,
+          "fresh_crc_safe_unique": true
+        }
+      ],
+      "captures_bound_to_viewer": true,
+      "delivered_viewer_exact": true,
+      "marketing": {
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "path": "docs/assets/gallery/nigeria.webp",
+        "bytes": 143230,
+        "sha256": "abd608c04f6316f399b21a373ae7ff8bbb3c1558fda26331cfd16e56706826e5",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "matches_gallery_inventory": true,
+        "provenance": {
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "provider": "xai",
+          "model": "grok-imagine-image",
+          "source": "assets/gallery/nigeria.webp",
+          "sourceSha256": "998edd9db213bbdc5001393814184dfac4afedb87f3fef06949b07f06980b6ad",
+          "sha256": "827124f4cb2be4d412077211948a99c439a05579c2a8d907e848cd2a4b96929c",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "reviewStatus": "reviewed",
+          "reviewNotes": "High broad fidelity; original major miniature counts and hardware retained. Richer texture/color, minor pattern and contour changes.",
+          "exactModelEquivalenceClaimed": false,
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "image_type": "Promotional art",
+        "not_model_approval": true
+      },
+      "result": "pass"
+    },
+    {
+      "id": "palestine",
+      "viewer": {
+        "commit": "c651b11efa4be3158c1f4bed8a2b289f101f2398",
+        "path": "preview/palestine-v1/palestine-v1.html",
+        "bytes": 4439132,
+        "sha256": "84c142d467f6ccaeb13a2ffc48d41908cd285817e4440a4fe1e0cbc31e8dceec",
+        "under_5000000": true
+      },
+      "models": [
+        {
+          "commit": "c651b11efa4be3158c1f4bed8a2b289f101f2398",
+          "path": "preview/palestine-v1/palestine.blend",
+          "bytes": 1062970,
+          "sha256": "c1f063b367792b1d458463a0d8aa97d4bf1c263f61be4d845ed75c7515a0e58e",
+          "role": "selected-model"
+        },
+        {
+          "commit": "c651b11efa4be3158c1f4bed8a2b289f101f2398",
+          "path": "preview/palestine-v1/palestine.glb",
+          "bytes": 2732592,
+          "sha256": "75381d0cf2debba83816686ebd2b791c9d3c058f6af6bd3894cd6f35dd389156",
+          "role": "selected-model",
+          "structural_probe": {
+            "glb_version": 2,
+            "declared_size_matches": true,
+            "meshes": 228,
+            "nodes": 230,
+            "embedded_buffers": true,
+            "embedded_in_html": true
+          }
+        }
+      ],
+      "archives": [
+        {
+          "kind": "git",
+          "path": "preview/palestine-v1/palestine-v1-source.zip",
+          "bytes": 7556507,
+          "sha256": "0fa04df590650e24354747bef32b6c6bd683c82c684f009bdfb3780c8e216cf9",
+          "commit": "c651b11efa4be3158c1f4bed8a2b289f101f2398",
+          "entries": 54,
+          "safe_unique_paths": true,
+          "required_payloads": {
+            "palestine-v1.html": true,
+            "palestine.blend": true,
+            "palestine.glb": true
+          },
+          "inventory_checked": true,
+          "inventory_entries": 53,
+          "inventory_mismatches": [],
+          "crc_error": null,
+          "fresh_required_payloads": [
+            {
+              "path": "preview/palestine-v1/palestine-v1.html",
+              "member": "palestine-v1.html",
+              "sha256": "84c142d467f6ccaeb13a2ffc48d41908cd285817e4440a4fe1e0cbc31e8dceec"
+            },
+            {
+              "path": "preview/palestine-v1/palestine.blend",
+              "member": "palestine.blend",
+              "sha256": "c1f063b367792b1d458463a0d8aa97d4bf1c263f61be4d845ed75c7515a0e58e"
+            },
+            {
+              "path": "preview/palestine-v1/palestine.glb",
+              "member": "palestine.glb",
+              "sha256": "75381d0cf2debba83816686ebd2b791c9d3c058f6af6bd3894cd6f35dd389156"
+            }
+          ],
+          "fresh_inner_inventory_entries": 53,
+          "fresh_crc_safe_unique": true
+        }
+      ],
+      "captures_bound_to_viewer": true,
+      "delivered_viewer_exact": true,
+      "marketing": {
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "path": "docs/assets/gallery/palestine.webp",
+        "bytes": 44146,
+        "sha256": "527fe3b3d47af0ed251c51cbe1a9571493674102af58e05935aa9f2be3733c6e",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "matches_gallery_inventory": true,
+        "provenance": {
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "provider": "xai",
+          "model": "grok-imagine-image",
+          "source": "assets/gallery/palestine.webp",
+          "sourceSha256": "0ad3ba22268f9fb0331083c1270c31878201e21f1693bef12b4678b821cc5904",
+          "sha256": "ff821bee9e72a0e38392565f84cf14a5f9636723640f0117b265ab6bc4587a93",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "reviewStatus": "accepted",
+          "reviewNotes": "Geometric panel and wood joinery retained.",
+          "exactModelEquivalenceClaimed": false,
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "image_type": "Promotional art",
+        "not_model_approval": true
+      },
+      "result": "pass"
+    },
+    {
+      "id": "qatar",
+      "viewer": {
+        "commit": "19b21597e5faa964cfc1d48b97145d3015b2f8dd",
+        "path": "preview/qatar-v1/qatar-v1.html",
+        "bytes": 2360912,
+        "sha256": "f5d379771e1ce8a635b32fa8e492c4eb28d5e44232d6abe54e2712101e80c47e",
+        "under_5000000": true
+      },
+      "models": [
+        {
+          "commit": "19b21597e5faa964cfc1d48b97145d3015b2f8dd",
+          "path": "preview/qatar-v1/qatar.blend",
+          "bytes": 426720,
+          "sha256": "3333882c81445cd4fdef050b328d7a5eb7a612415e83cc31686498ad6332d6b8",
+          "role": "selected-model"
+        },
+        {
+          "commit": "19b21597e5faa964cfc1d48b97145d3015b2f8dd",
+          "path": "preview/qatar-v1/qatar.glb",
+          "bytes": 1196608,
+          "sha256": "f0db68f73b099fd26f066a4c979631d1230822546366331ca4125fcede4411df",
+          "role": "selected-model",
+          "structural_probe": {
+            "glb_version": 2,
+            "declared_size_matches": true,
+            "meshes": 59,
+            "nodes": 61,
+            "embedded_buffers": true,
+            "embedded_in_html": true
+          }
+        }
+      ],
+      "archives": [
+        {
+          "kind": "git",
+          "path": "preview/qatar-v1/qatar-v1-source.zip",
+          "bytes": 4990355,
+          "sha256": "a57edaeda9932ea343e4ca1f56f21d81d3e00804cc1ab60e8b87e7e3eec43009",
+          "commit": "19b21597e5faa964cfc1d48b97145d3015b2f8dd",
+          "entries": 54,
+          "safe_unique_paths": true,
+          "required_payloads": {
+            "qatar-v1.html": true,
+            "qatar.blend": true,
+            "qatar.glb": true
+          },
+          "inventory_checked": true,
+          "inventory_entries": 53,
+          "inventory_mismatches": [],
+          "crc_error": null,
+          "fresh_required_payloads": [
+            {
+              "path": "preview/qatar-v1/qatar-v1.html",
+              "member": "qatar-v1.html",
+              "sha256": "f5d379771e1ce8a635b32fa8e492c4eb28d5e44232d6abe54e2712101e80c47e"
+            },
+            {
+              "path": "preview/qatar-v1/qatar.blend",
+              "member": "qatar.blend",
+              "sha256": "3333882c81445cd4fdef050b328d7a5eb7a612415e83cc31686498ad6332d6b8"
+            },
+            {
+              "path": "preview/qatar-v1/qatar.glb",
+              "member": "qatar.glb",
+              "sha256": "f0db68f73b099fd26f066a4c979631d1230822546366331ca4125fcede4411df"
+            }
+          ],
+          "fresh_inner_inventory_entries": 53,
+          "fresh_crc_safe_unique": true
+        }
+      ],
+      "captures_bound_to_viewer": true,
+      "delivered_viewer_exact": true,
+      "marketing": {
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "path": "docs/assets/gallery/qatar.webp",
+        "bytes": 67424,
+        "sha256": "c598fbc6ed60a46908d721a1df85cbf80ac54fa7c2e09e013e146b26ae83617b",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "matches_gallery_inventory": true,
+        "provenance": {
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "provider": "xai",
+          "model": "grok-imagine-image",
+          "source": "assets/gallery/qatar.webp",
+          "sourceSha256": "9fe30463a1ce9c9e4c6d7ffb631ea0bd2353964ce643a38dbf2958cde6876c8d",
+          "sha256": "1ffa22f8011b11adc1324cfe656cec2c9e343674bfe5bc2d943ec96ed36b6764",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "reviewStatus": "accepted",
+          "reviewNotes": "Principal silhouette, palette, hardware and lid count/placement retained; texture refinement allowed.",
+          "exactModelEquivalenceClaimed": false,
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "image_type": "Promotional art",
+        "not_model_approval": true
+      },
+      "result": "pass"
+    },
+    {
+      "id": "samoa",
+      "viewer": {
+        "commit": "6e523fd55ef9218ee1a6c7ff7d9ade0991096ef6",
+        "path": "preview/samoa-v1/samoa-v1.html",
+        "bytes": 3418632,
+        "sha256": "d1599776336271c970ce2d164c79e49264af0a8e3a735fbff06c3bb8c60a8a26",
+        "under_5000000": true
+      },
+      "models": [
+        {
+          "commit": "6e523fd55ef9218ee1a6c7ff7d9ade0991096ef6",
+          "path": "preview/samoa-v1/samoa.blend",
+          "bytes": 1135386,
+          "sha256": "7aea3afdf6711daa895431ad0a1118669cce5a4c9412d28b7d53687249684501",
+          "role": "selected-model"
+        },
+        {
+          "commit": "6e523fd55ef9218ee1a6c7ff7d9ade0991096ef6",
+          "path": "preview/samoa-v1/samoa.glb",
+          "bytes": 1955748,
+          "sha256": "b34fff8759652aa03baf76add22357e145defffbbe1c3993f73c580e3f87d9a4",
+          "role": "selected-model",
+          "structural_probe": {
+            "glb_version": 2,
+            "declared_size_matches": true,
+            "meshes": 63,
+            "nodes": 65,
+            "embedded_buffers": true,
+            "embedded_in_html": true
+          }
+        }
+      ],
+      "archives": [
+        {
+          "kind": "git",
+          "path": "preview/samoa-v1/samoa-v1-source.zip",
+          "bytes": 8578481,
+          "sha256": "0d5b6e6f762e5f293786344031be7b22507a61d3ed9e3075a4b7ee4c55fde9f6",
+          "commit": "6e523fd55ef9218ee1a6c7ff7d9ade0991096ef6",
+          "entries": 61,
+          "safe_unique_paths": true,
+          "required_payloads": {
+            "samoa-v1.html": true,
+            "samoa.blend": true,
+            "samoa.glb": true
+          },
+          "inventory_checked": true,
+          "inventory_entries": 60,
+          "inventory_mismatches": [],
+          "crc_error": null,
+          "fresh_required_payloads": [
+            {
+              "path": "preview/samoa-v1/samoa-v1.html",
+              "member": "samoa-v1.html",
+              "sha256": "d1599776336271c970ce2d164c79e49264af0a8e3a735fbff06c3bb8c60a8a26"
+            },
+            {
+              "path": "preview/samoa-v1/samoa.blend",
+              "member": "samoa.blend",
+              "sha256": "7aea3afdf6711daa895431ad0a1118669cce5a4c9412d28b7d53687249684501"
+            },
+            {
+              "path": "preview/samoa-v1/samoa.glb",
+              "member": "samoa.glb",
+              "sha256": "b34fff8759652aa03baf76add22357e145defffbbe1c3993f73c580e3f87d9a4"
+            }
+          ],
+          "fresh_inner_inventory_entries": 60,
+          "fresh_crc_safe_unique": true
+        }
+      ],
+      "captures_bound_to_viewer": true,
+      "delivered_viewer_exact": true,
+      "marketing": {
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "path": "docs/assets/gallery/samoa.webp",
+        "bytes": 56800,
+        "sha256": "66129fb972d957a8de3f88ea94237cc042fe81fb046b9ffdaa445b62c7a9717b",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "matches_gallery_inventory": true,
+        "provenance": {
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "provider": "xai",
+          "model": "grok-imagine-image",
+          "source": "assets/gallery/samoa.webp",
+          "sourceSha256": "18c118d6cffb7e4a4c548dc75eaa091f75ef5031bc018864d78fbf8fe441bf71",
+          "sha256": "d2e9cd123e4a10750efd341b22aefeea4c4befceaaa7dfa21ed52c314a42e112",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "reviewStatus": "reviewed_pass",
+          "reviewNotes": "pass: patterned panels and rock cluster preserved",
+          "exactModelEquivalenceClaimed": false,
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "image_type": "Promotional art",
+        "not_model_approval": true
+      },
+      "result": "pass"
+    },
+    {
+      "id": "singapore",
+      "viewer": {
+        "commit": "dd22eba16e0476e12f4d42728630dd16e6d66eeb",
+        "path": "preview/singapore-v1/singapore-v1.html",
+        "bytes": 2224118,
+        "sha256": "62f85f3c29773585ba515ccfbe7e44f7f05b29063ea43373272a9ec6e0ca7316",
+        "under_5000000": true
+      },
+      "models": [
+        {
+          "commit": "dd22eba16e0476e12f4d42728630dd16e6d66eeb",
+          "path": "preview/singapore-v1/singapore.blend",
+          "bytes": 351502,
+          "sha256": "fb6b68cd9d5d003f6f880f5f02797fe3517d8460a6b9def436fec47af46f4f24",
+          "role": "selected-model"
+        },
+        {
+          "commit": "dd22eba16e0476e12f4d42728630dd16e6d66eeb",
+          "path": "preview/singapore-v1/singapore.glb",
+          "bytes": 1086740,
+          "sha256": "1837ad425384b7abac6e5c0ec335ee54a4607c18144b9319a2bd84d0a597cbce",
+          "role": "selected-model",
+          "structural_probe": {
+            "glb_version": 2,
+            "declared_size_matches": true,
+            "meshes": 89,
+            "nodes": 91,
+            "embedded_buffers": true,
+            "embedded_in_html": true
+          }
+        }
+      ],
+      "archives": [
+        {
+          "kind": "git",
+          "path": "preview/singapore-v1/singapore-v1-source.zip",
+          "bytes": 4583958,
+          "sha256": "3adfda728bf4e8be813a195dc74b1889ddb2ab89fc306ddf47db1adb4c4b9663",
+          "commit": "dd22eba16e0476e12f4d42728630dd16e6d66eeb",
+          "entries": 52,
+          "safe_unique_paths": true,
+          "required_payloads": {
+            "singapore-v1.html": true,
+            "singapore.blend": true,
+            "singapore.glb": true
+          },
+          "inventory_checked": true,
+          "inventory_entries": 51,
+          "inventory_mismatches": [],
+          "crc_error": null,
+          "fresh_required_payloads": [
+            {
+              "path": "preview/singapore-v1/singapore-v1.html",
+              "member": "singapore-v1.html",
+              "sha256": "62f85f3c29773585ba515ccfbe7e44f7f05b29063ea43373272a9ec6e0ca7316"
+            },
+            {
+              "path": "preview/singapore-v1/singapore.blend",
+              "member": "singapore.blend",
+              "sha256": "fb6b68cd9d5d003f6f880f5f02797fe3517d8460a6b9def436fec47af46f4f24"
+            },
+            {
+              "path": "preview/singapore-v1/singapore.glb",
+              "member": "singapore.glb",
+              "sha256": "1837ad425384b7abac6e5c0ec335ee54a4607c18144b9319a2bd84d0a597cbce"
+            }
+          ],
+          "fresh_inner_inventory_entries": 51,
+          "fresh_crc_safe_unique": true
+        }
+      ],
+      "captures_bound_to_viewer": true,
+      "delivered_viewer_exact": true,
+      "marketing": {
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "path": "docs/assets/gallery/singapore.webp",
+        "bytes": 36288,
+        "sha256": "756fc583f0376d8ed4d090edeaaf7aa8d24f0c2f7749a2542f84acdd585cb298",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "matches_gallery_inventory": true,
+        "provenance": {
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "provider": "xai",
+          "model": "grok-imagine-image",
+          "source": "assets/gallery/singapore.webp",
+          "sourceSha256": "ca451cd3022c95feb17576cab3666d53e89b23915d46d5d77b6001a105ee5a4e",
+          "sha256": "084fa3b27866c42bbebeb068ab345d18ca779f7e3244f8be0c5525fa6dac371a",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "reviewStatus": "reviewed_with_limitations",
+          "reviewNotes": "Correction restores teal feet and small ring; three flowers retained, petal/stem details differ.",
+          "exactModelEquivalenceClaimed": false,
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "image_type": "Promotional art",
+        "not_model_approval": true
+      },
+      "result": "pass"
+    },
+    {
+      "id": "southern-ocean",
+      "viewer": {
+        "commit": "c7237fea4bdde2d6758e70f428b76a4258f62399",
+        "path": "preview/southern-ocean-v1/southern-ocean-v1.html",
+        "bytes": 2119402,
+        "sha256": "b0b106de73d374389331b09fe9eeef9eed2c3927cc9daf4adab74f9fb6ccd6d6",
+        "under_5000000": true
+      },
+      "models": [
+        {
+          "commit": "c7237fea4bdde2d6758e70f428b76a4258f62399",
+          "path": "preview/southern-ocean-v1/southern-ocean.blend",
+          "bytes": 464849,
+          "sha256": "c8ede723a59bcb7e2943b1d1682d2029b1fd233e395b4939897e34d92c74cf42",
+          "role": "selected-model"
+        },
+        {
+          "commit": "c7237fea4bdde2d6758e70f428b76a4258f62399",
+          "path": "preview/southern-ocean-v1/southern-ocean.glb",
+          "bytes": 976760,
+          "sha256": "faa61dd0b325b46f1dbebad8f7b04320dd435cd1a2894f89dbb256b11e650dd9",
+          "role": "selected-model",
+          "structural_probe": {
+            "glb_version": 2,
+            "declared_size_matches": true,
+            "meshes": 61,
+            "nodes": 63,
+            "embedded_buffers": true,
+            "embedded_in_html": true
+          }
+        }
+      ],
+      "archives": [
+        {
+          "kind": "git",
+          "path": "preview/southern-ocean-v1/southern-ocean-v1-source.zip",
+          "bytes": 5577602,
+          "sha256": "9b1599a18facfe385ab028ab76f5d5d12b21f291d43f6aae9b8264e301f680c8",
+          "commit": "c7237fea4bdde2d6758e70f428b76a4258f62399",
+          "entries": 56,
+          "safe_unique_paths": true,
+          "required_payloads": {
+            "southern-ocean-v1.html": true,
+            "southern-ocean.blend": true,
+            "southern-ocean.glb": true
+          },
+          "inventory_checked": true,
+          "inventory_entries": 55,
+          "inventory_mismatches": [],
+          "crc_error": null,
+          "fresh_required_payloads": [
+            {
+              "path": "preview/southern-ocean-v1/southern-ocean-v1.html",
+              "member": "southern-ocean-v1.html",
+              "sha256": "b0b106de73d374389331b09fe9eeef9eed2c3927cc9daf4adab74f9fb6ccd6d6"
+            },
+            {
+              "path": "preview/southern-ocean-v1/southern-ocean.blend",
+              "member": "southern-ocean.blend",
+              "sha256": "c8ede723a59bcb7e2943b1d1682d2029b1fd233e395b4939897e34d92c74cf42"
+            },
+            {
+              "path": "preview/southern-ocean-v1/southern-ocean.glb",
+              "member": "southern-ocean.glb",
+              "sha256": "faa61dd0b325b46f1dbebad8f7b04320dd435cd1a2894f89dbb256b11e650dd9"
+            }
+          ],
+          "fresh_inner_inventory_entries": 55,
+          "fresh_crc_safe_unique": true
+        }
+      ],
+      "captures_bound_to_viewer": true,
+      "delivered_viewer_exact": true,
+      "marketing": {
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "path": "docs/assets/gallery/southern-ocean.webp",
+        "bytes": 87588,
+        "sha256": "f9159bd58e658e9ce2d7fd624355ebf47e34c11ecbc8ce6725d13f97f7b9e700",
+        "dimensions": [
+          1072,
+          960
+        ],
+        "matches_gallery_inventory": true,
+        "provenance": {
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "provider": "xai",
+          "model": "grok-imagine-image",
+          "source": "assets/gallery/southern-ocean.webp",
+          "sourceSha256": "ca55efdff950c3e7a4c1593d332d57581d4b88e440c3b07f1c6ee05eebe660ba",
+          "sha256": "fcdd7180cd929683b8a92a512ac9a635a16684c9690cabb66553ce4021254045",
+          "nativeDimensions": [
+            1072,
+            960
+          ],
+          "reviewStatus": "reviewed",
+          "reviewNotes": "Reviewed: ten ice pieces layout retained, ice more rounded and water glossier; fine contour drift.",
+          "exactModelEquivalenceClaimed": false,
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "image_type": "Promotional art",
+        "not_model_approval": true
+      },
+      "result": "pass"
+    },
+    {
+      "id": "tajikistan",
+      "viewer": {
+        "commit": "111078c3443c6a66d3a4a657662b227c91d3a707",
+        "path": "preview/tajikistan-v1/tajikistan-v1.html",
+        "bytes": 3193523,
+        "sha256": "794f37faf9bf9457c8cd759b2797f34a368ff6154be002d85dc46273fc4fc5b0",
+        "under_5000000": true
+      },
+      "models": [
+        {
+          "commit": "111078c3443c6a66d3a4a657662b227c91d3a707",
+          "path": "preview/tajikistan-v1/tajikistan.blend",
+          "bytes": 780946,
+          "sha256": "3d2a6a9c19228a5f8b364f8c25d6d0fd58fe7d3cd8386df69a884af703f1f2ad",
+          "role": "selected-model"
+        },
+        {
+          "commit": "111078c3443c6a66d3a4a657662b227c91d3a707",
+          "path": "preview/tajikistan-v1/tajikistan.glb",
+          "bytes": 1779636,
+          "sha256": "4a9bafed4e6d443b2f68e5de31047407e2b6a3d8e2015bc3947a83e5d09da2bc",
+          "role": "selected-model",
+          "structural_probe": {
+            "glb_version": 2,
+            "declared_size_matches": true,
+            "meshes": 57,
+            "nodes": 59,
+            "embedded_buffers": true,
+            "embedded_in_html": true
+          }
+        }
+      ],
+      "archives": [
+        {
+          "kind": "git",
+          "path": "preview/tajikistan-v1/tajikistan-v1-source.zip",
+          "bytes": 8811106,
+          "sha256": "9b1cbd13be3e0e4d8677d3a91d2d4b6d45df2dc8be8ae64e33f650e64487f760",
+          "commit": "111078c3443c6a66d3a4a657662b227c91d3a707",
+          "entries": 59,
+          "safe_unique_paths": true,
+          "required_payloads": {
+            "tajikistan-v1.html": true,
+            "tajikistan.blend": true,
+            "tajikistan.glb": true
+          },
+          "inventory_checked": true,
+          "inventory_entries": 58,
+          "inventory_mismatches": [],
+          "crc_error": null,
+          "fresh_required_payloads": [
+            {
+              "path": "preview/tajikistan-v1/tajikistan-v1.html",
+              "member": "tajikistan-v1.html",
+              "sha256": "794f37faf9bf9457c8cd759b2797f34a368ff6154be002d85dc46273fc4fc5b0"
+            },
+            {
+              "path": "preview/tajikistan-v1/tajikistan.blend",
+              "member": "tajikistan.blend",
+              "sha256": "3d2a6a9c19228a5f8b364f8c25d6d0fd58fe7d3cd8386df69a884af703f1f2ad"
+            },
+            {
+              "path": "preview/tajikistan-v1/tajikistan.glb",
+              "member": "tajikistan.glb",
+              "sha256": "4a9bafed4e6d443b2f68e5de31047407e2b6a3d8e2015bc3947a83e5d09da2bc"
+            }
+          ],
+          "fresh_inner_inventory_entries": 58,
+          "fresh_crc_safe_unique": true
+        }
+      ],
+      "captures_bound_to_viewer": true,
+      "delivered_viewer_exact": true,
+      "marketing": {
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "path": "docs/assets/gallery/tajikistan.webp",
+        "bytes": 58790,
+        "sha256": "46a512cd9983625f661003c75446aea9bcd345bf09d03f51d28109eddc19c467",
+        "dimensions": [
+          1072,
+          960
+        ],
+        "matches_gallery_inventory": true,
+        "provenance": {
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "provider": "xai",
+          "model": "grok-imagine-image",
+          "source": "assets/gallery/tajikistan.webp",
+          "sourceSha256": "cf46e7ee4d80ebc595149e95ed9c86415f1a2a0cbbc9039c5a70b56b155815b2",
+          "sha256": "44d02a4a7e8d229c212c42c25d1e1ce0ccfc1a18c9198011a1089c19dd3b0027",
+          "nativeDimensions": [
+            1072,
+            960
+          ],
+          "reviewStatus": "accepted",
+          "reviewNotes": "Snow peaks blue lake gray stone retained.",
+          "exactModelEquivalenceClaimed": false,
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "image_type": "Promotional art",
+        "not_model_approval": true
+      },
+      "result": "pass"
+    },
+    {
+      "id": "tunisia",
+      "viewer": {
+        "commit": "51f30182601479cd397d14f82cd654540475d469",
+        "path": "preview/tunisia-v1/tunisia-v1.html",
+        "bytes": 2889913,
+        "sha256": "fcf39b868fa85141c7249495bd95dd6524cd6a2029c7d83a3098d3af5a368215",
+        "under_5000000": true
+      },
+      "models": [
+        {
+          "commit": "51f30182601479cd397d14f82cd654540475d469",
+          "path": "preview/tunisia-v1/tunisia.blend",
+          "bytes": 746072,
+          "sha256": "c0a9edae9f2d86e231f7988cface21135584920da28dc75804f54146b3186d0c",
+          "role": "selected-model"
+        },
+        {
+          "commit": "51f30182601479cd397d14f82cd654540475d469",
+          "path": "preview/tunisia-v1/tunisia.glb",
+          "bytes": 1573396,
+          "sha256": "0a130d2ec243eab5d0f93c83dc1954c52fa850b292a38ac8380aba366553d4c6",
+          "role": "selected-model",
+          "structural_probe": {
+            "glb_version": 2,
+            "declared_size_matches": true,
+            "meshes": 68,
+            "nodes": 70,
+            "embedded_buffers": true,
+            "embedded_in_html": true
+          }
+        }
+      ],
+      "archives": [
+        {
+          "kind": "git",
+          "path": "preview/tunisia-v1/tunisia-v1-source.zip",
+          "bytes": 6226049,
+          "sha256": "77d401fab66486755ff4b6dfdcd1ab4576fd6c69579575cb17a0b84d842a599e",
+          "commit": "51f30182601479cd397d14f82cd654540475d469",
+          "entries": 51,
+          "safe_unique_paths": true,
+          "required_payloads": {
+            "tunisia-v1.html": true,
+            "tunisia.blend": true,
+            "tunisia.glb": true
+          },
+          "inventory_checked": true,
+          "inventory_entries": 50,
+          "inventory_mismatches": [],
+          "crc_error": null,
+          "fresh_required_payloads": [
+            {
+              "path": "preview/tunisia-v1/tunisia-v1.html",
+              "member": "tunisia-v1.html",
+              "sha256": "fcf39b868fa85141c7249495bd95dd6524cd6a2029c7d83a3098d3af5a368215"
+            },
+            {
+              "path": "preview/tunisia-v1/tunisia.blend",
+              "member": "tunisia.blend",
+              "sha256": "c0a9edae9f2d86e231f7988cface21135584920da28dc75804f54146b3186d0c"
+            },
+            {
+              "path": "preview/tunisia-v1/tunisia.glb",
+              "member": "tunisia.glb",
+              "sha256": "0a130d2ec243eab5d0f93c83dc1954c52fa850b292a38ac8380aba366553d4c6"
+            }
+          ],
+          "fresh_inner_inventory_entries": 50,
+          "fresh_crc_safe_unique": true
+        }
+      ],
+      "captures_bound_to_viewer": true,
+      "delivered_viewer_exact": true,
+      "marketing": {
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "path": "docs/assets/gallery/tunisia.webp",
+        "bytes": 91144,
+        "sha256": "b60a35cf44669716b4e2e2ea4afdc66f1ecd5c73abaa67dbe3c99536e95834bd",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "matches_gallery_inventory": true,
+        "provenance": {
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "provider": "xai",
+          "model": "grok-imagine-image",
+          "source": "assets/gallery/tunisia.webp",
+          "sourceSha256": "b3ee0d808a632356b5db4879d61aada910d273878ba99f0aa01193708279da78",
+          "sha256": "7f3ee458b8191397b819eacbd69108e319a14838c55487e286c2a19bb237ea36",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "reviewStatus": "reviewed",
+          "reviewNotes": "Reviewed source/output: high broad fidelity, original major counts/layout/hardware retained. Saturation, texture, ornament contours and pattern spacing differ slightly; not exact model evidence.",
+          "exactModelEquivalenceClaimed": false,
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "image_type": "Promotional art",
+        "not_model_approval": true
+      },
+      "result": "pass"
+    },
+    {
+      "id": "united-states",
+      "viewer": {
+        "commit": "1e6b1712959013285769a152b1d50bbf119f7729",
+        "path": "preview/united-states-flag-v9/united-states-flag-v9.html",
+        "bytes": 1879515,
+        "sha256": "d385ef7e902b40242052d3187270c2582f467bf02cda68f15a970582ab4bc741",
+        "under_5000000": true
+      },
+      "models": [
+        {
+          "commit": "1e6b1712959013285769a152b1d50bbf119f7729",
+          "path": "preview/united-states-flag-v9/baseline-v7.blend",
+          "bytes": 232083,
+          "sha256": "6c26462fd8bc836f6997b6759ef0f584b14c83c072099cca9168d29f9f21b2be",
+          "role": "historical-baseline"
+        },
+        {
+          "commit": "1e6b1712959013285769a152b1d50bbf119f7729",
+          "path": "preview/united-states-flag-v9/baseline-v8.glb",
+          "bytes": 949916,
+          "sha256": "ec59f0aea3ce447379b2eca4c37bea080c00e82bc9c6ca4696fb717c7dc20420",
+          "role": "historical-baseline",
+          "structural_probe": {
+            "glb_version": 2,
+            "declared_size_matches": true,
+            "meshes": 55,
+            "nodes": 57,
+            "embedded_buffers": true,
+            "embedded_in_html": false
+          }
+        },
+        {
+          "commit": "1e6b1712959013285769a152b1d50bbf119f7729",
+          "path": "preview/united-states-flag-v9/united-states.blend",
+          "bytes": 231950,
+          "sha256": "71708464cc29352ffe3abcdd47bc4cb2dd120d3fe0b9dfe354a666879f630ead",
+          "role": "selected-model"
+        },
+        {
+          "commit": "1e6b1712959013285769a152b1d50bbf119f7729",
+          "path": "preview/united-states-flag-v9/united-states.glb",
+          "bytes": 879648,
+          "sha256": "aa44e0b99baf1e354dd38a13826deaa0c848569e5d7bd92d37e9c295e8ebbb96",
+          "role": "selected-model",
+          "structural_probe": {
+            "glb_version": 2,
+            "declared_size_matches": true,
+            "meshes": 55,
+            "nodes": 57,
+            "embedded_buffers": true,
+            "embedded_in_html": true
+          }
+        }
+      ],
+      "archives": [
+        {
+          "kind": "local",
+          "path": "C:\\Users\\futur\\.hermes\\profiles\\telegram2\\output\\boxsv-usa-flag-v9\\united-states-flag-v9-source.zip",
+          "bytes": 12815012,
+          "sha256": "75cdbeaa774376248872abaf301d89f1b49142698a21de7978d3018ae5284551",
+          "entries": 111,
+          "safe_unique_paths": true,
+          "required_payloads": {
+            "united-states-flag-v9.html": true,
+            "baseline-v7.blend": true,
+            "baseline-v8.glb": true,
+            "united-states.blend": true,
+            "united-states.glb": true
+          },
+          "inventory_checked": true,
+          "inventory_entries": 110,
+          "inventory_mismatches": [],
+          "crc_error": null,
+          "fresh_required_payloads": [
+            {
+              "path": "preview/united-states-flag-v9/united-states-flag-v9.html",
+              "member": "united-states-flag-v9.html",
+              "sha256": "d385ef7e902b40242052d3187270c2582f467bf02cda68f15a970582ab4bc741"
+            },
+            {
+              "path": "preview/united-states-flag-v9/baseline-v7.blend",
+              "member": "baseline-v7.blend",
+              "sha256": "6c26462fd8bc836f6997b6759ef0f584b14c83c072099cca9168d29f9f21b2be"
+            },
+            {
+              "path": "preview/united-states-flag-v9/baseline-v8.glb",
+              "member": "baseline-v8.glb",
+              "sha256": "ec59f0aea3ce447379b2eca4c37bea080c00e82bc9c6ca4696fb717c7dc20420"
+            },
+            {
+              "path": "preview/united-states-flag-v9/united-states.blend",
+              "member": "united-states.blend",
+              "sha256": "71708464cc29352ffe3abcdd47bc4cb2dd120d3fe0b9dfe354a666879f630ead"
+            },
+            {
+              "path": "preview/united-states-flag-v9/united-states.glb",
+              "member": "united-states.glb",
+              "sha256": "aa44e0b99baf1e354dd38a13826deaa0c848569e5d7bd92d37e9c295e8ebbb96"
+            }
+          ],
+          "fresh_inner_inventory_entries": 110,
+          "fresh_crc_safe_unique": true
+        }
+      ],
+      "captures_bound_to_viewer": true,
+      "delivered_viewer_exact": true,
+      "marketing": {
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "path": "docs/assets/gallery/united-states.webp",
+        "bytes": 94462,
+        "sha256": "4bb4e0d8ab18d2bdfce5776121e8bbee41d3e1374b1f2455de5a001d920c8757",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "matches_gallery_inventory": true,
+        "provenance": {
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "provider": "xai",
+          "model": "grok-imagine-image",
+          "source": "assets/gallery/united-states.webp",
+          "sourceSha256": "1d54c3d3f1a065bc66e4a2e33d8a817d544dc05fd99f4bdc5daf6a2e49fc16d9",
+          "sha256": "dea369dda513f9c779d5b22b188abab583ff8d43adb1ae4374b5705777e52793",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "reviewStatus": "reviewed-intentional-redesign",
+          "reviewNotes": "Reviewed supplied native artwork: red, warm white and navy flag-inspired chest with gold fittings and fireworks above. Stylized stars and stripes, not exact official flag counts. Uppermost fireworks are naturally cropped in the supplied composition. Intentional departure from the canyon-inspired model; model unchanged. Derivatives preserve the complete supplied composition.",
+          "exactModelEquivalenceClaimed": false,
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding",
+          "intentionalRedesign": true,
+          "sourceRole": "Historical model reference only; intentionally not matched by this redesign"
+        },
+        "image_type": "Promotional art",
+        "not_model_approval": true
+      },
+      "result": "pass"
+    },
+    {
+      "id": "zambia",
+      "viewer": {
+        "commit": "1e5b4f7b00541e4e20abff5feafc3b39a1ac50b6",
+        "path": "preview/zambia-v1/zambia-v1.html",
+        "bytes": 3254642,
+        "sha256": "cb9e68557e7def955995026dc3dffba5202a744425df762ea9c86e9443faff54",
+        "under_5000000": true
+      },
+      "models": [
+        {
+          "commit": "1e5b4f7b00541e4e20abff5feafc3b39a1ac50b6",
+          "path": "preview/zambia-v1/zambia.blend",
+          "bytes": 974458,
+          "sha256": "0a2323f930fb414357631cfce0a9972f43feea234f445403f5ddf8f1cede1d95",
+          "role": "selected-model"
+        },
+        {
+          "commit": "1e5b4f7b00541e4e20abff5feafc3b39a1ac50b6",
+          "path": "preview/zambia-v1/zambia.glb",
+          "bytes": 1898704,
+          "sha256": "c24524dae985a40323cf17bd7feec6484dcd5dc35c1202880c89f125c67bb4e3",
+          "role": "selected-model",
+          "structural_probe": {
+            "glb_version": 2,
+            "declared_size_matches": true,
+            "meshes": 95,
+            "nodes": 97,
+            "embedded_buffers": true,
+            "embedded_in_html": true
+          }
+        }
+      ],
+      "archives": [
+        {
+          "kind": "git",
+          "path": "preview/zambia-v1/zambia-v1-source.zip",
+          "bytes": 7673648,
+          "sha256": "7d962759dca745fd4e030d15071fdc59890394b22b742a0153d54a2999beca32",
+          "commit": "1e5b4f7b00541e4e20abff5feafc3b39a1ac50b6",
+          "entries": 55,
+          "safe_unique_paths": true,
+          "required_payloads": {
+            "zambia-v1.html": true,
+            "zambia.blend": true,
+            "zambia.glb": true
+          },
+          "inventory_checked": true,
+          "inventory_entries": 54,
+          "inventory_mismatches": [],
+          "crc_error": null,
+          "fresh_required_payloads": [
+            {
+              "path": "preview/zambia-v1/zambia-v1.html",
+              "member": "zambia-v1.html",
+              "sha256": "cb9e68557e7def955995026dc3dffba5202a744425df762ea9c86e9443faff54"
+            },
+            {
+              "path": "preview/zambia-v1/zambia.blend",
+              "member": "zambia.blend",
+              "sha256": "0a2323f930fb414357631cfce0a9972f43feea234f445403f5ddf8f1cede1d95"
+            },
+            {
+              "path": "preview/zambia-v1/zambia.glb",
+              "member": "zambia.glb",
+              "sha256": "c24524dae985a40323cf17bd7feec6484dcd5dc35c1202880c89f125c67bb4e3"
+            }
+          ],
+          "fresh_inner_inventory_entries": 54,
+          "fresh_crc_safe_unique": true
+        }
+      ],
+      "captures_bound_to_viewer": true,
+      "delivered_viewer_exact": true,
+      "marketing": {
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "path": "docs/assets/gallery/zambia.webp",
+        "bytes": 99034,
+        "sha256": "ec5d5f5f4421254f5f39ab422ad0a53891b2b6dfab293958f7921184c49435dd",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "matches_gallery_inventory": true,
+        "provenance": {
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "provider": "xai",
+          "model": "grok-imagine-image",
+          "source": "assets/gallery/zambia.webp",
+          "sourceSha256": "7b4848886f317c11e7179635f480a7c0e36e4ebecf3c60efc2cca5992879c68d",
+          "sha256": "27c86746f6822eb55e454eba31cdd4cb16addde567563acf81562148015c3069",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "reviewStatus": "accepted",
+          "reviewNotes": "Principal silhouette, palette, hardware and lid count/placement retained; texture refinement allowed. Minor organic contour variation.",
+          "exactModelEquivalenceClaimed": false,
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "image_type": "Promotional art",
+        "not_model_approval": true
+      },
+      "result": "pass"
+    }
+  ],
+  "fresh_runtime": false,
+  "fresh_source_reopen": false,
+  "full_inner_inventories_fresh": true,
+  "inner_inventory_entries": 1402
+}
