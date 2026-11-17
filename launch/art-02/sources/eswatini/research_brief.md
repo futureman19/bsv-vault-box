@@ -1,0 +1,17 @@
+# Eswatini / Lutindzi Coil — pre-model visual contract
+
+## Research and interpretation
+Gone Rural, Eswatini's own craft producer, states its baskets use indigenous lutindzi grass harvested in rocky mountainous areas, with materials dyed at its Malkerns workshop and distributed to community groups: https://gonerural.co.sz/ourstory (retrieved for this brief). The Basket Room describes the grass preparation, dyeing and community weaving supply chain: https://thebasketroom.com/pages/eswatini . These sources establish material/craft inspiration, not endorsement or an exclusive national motif. No photographs, proprietary basket pattern or sacred/royal symbols will be reproduced. All maps and geometry are original procedural interpretations; this is not an artisan-made basket or real grass material.
+
+## Measurable visual contract, frozen before modeling
+- Theme: **Lutindzi Coil**. A wide keepsake vault clad in warm straw-colored woven-grass panels, dark umber structural edging, restrained brass family hardware. Not a stone reskin, cedar forest or flag box.
+- Retain the inherited wide box footprint approximately 3.72 × 2.38 units and original mechanical anchors. Five-sided hollow liner and continuous floor. Keep source names for hinge and latch pivots.
+- Body color target ochre/straw (#B88A4C to #D1AE70), dark umber binding (#493025), muted rust dyed accents (#99543A), antique brass. These are art targets, not calibrated physical pigment measurements.
+- Real raised horizontal coil bands on the body, at least eight distinguishable rows, with a portable procedural fine woven-fiber map. No claim every fiber is geometry. Raised concentric oval/rounded coils on lid, minimum eight loops, with alternating restrained natural/rust accents; a shallow central woven medallion rather than a tall landmark. Ornament maximum height 0.30 above lid; all ornaments parented to lid.
+- Body edge bindings cover joins; narrow seam no more than 0.10 height, with rear clearance for bearings. Existing brass latch, ring and seated hinge language retained; no new ungrounded ethnographic hardware claims.
+- Front = Blender -Y, rear = +Y, right = +X, up = +Z. glTF = (X,Z,-Y). Latch release 80 degrees in first quarter, then lid opens 105 degrees. Unchanged pivot locations; collision samples include ALL moving ornaments and static geometry, with only specifically named mating bearings exempt.
+- Standalone embedded-runtime HTML <5,000,000 bytes. Actual Blender source-render poster. No runtime network requests. Desktop and 390×844 touch-emulated mobile file:// controls, rotation, open/close, reset, reduced motion, corrupt-GLB fallback, no-JS fallback and overflow checks.
+- Independent saved-source reopen, source/export parity, actual GLTFLoader finite/degenerate geometry checks, 81 sampled collision poses, theme counts/ancestry/palette checks, exact bytes and SHA-256 inventory. Record failures honestly and never weaken physical/budget gates to pass.
+
+## Scope and visual limits
+Original stylized craft-inspired collectible, not photorealism, a literal functional basket, replica, or representation of all Eswatini culture. No mint, chain, wallet, production changes, deployment or external messaging. Automated art acceptance is authorized for this collection batch; no per-asset human review required. Mobile tests are emulation, not physical-phone performance. Collision sampling is not continuous engineering certification.
