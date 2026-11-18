@@ -1,0 +1,93 @@
+{
+  "reviewer": "reviewer-b",
+  "scope": "Independent visual inspection of baseline desktop/mobile closed/open captures and promotional images for ten assigned candidates. No models, viewers, sources or production files changed; no approvals.",
+  "method": "Native-pixel cropped comparison sheets from actual PNG captures, with promotional images separately labeled. Full native screenshots rechecked for disputed Mexico, Samoa, Tajikistan and Qatar findings. Input identities recorded in inspected-inputs.json. Desktop crops are not framing evidence.",
+  "limitations": ["Static endpoint inspection only: no new motion, collision, runtime, performance or source/UV tests.", "The supplied baseline identifies exact-hash captures; this review records current capture hashes but does not independently rerun viewer-to-capture provenance.", "No supersampling A/B was executed. Existing WebGL antialiasing and DPR1 are supplied context. Small raster roughness does not establish temporal shimmer.", "No final approval, package acceptance or prior hold resolution is inferred from no-edit dispositions."],
+  "overall": "No unambiguous ordinary finish defect warrants an immediate edit in this assigned set. Retain geometry and material identity. Limited sampling diagnostics may be useful for Southern Ocean and Tunisia fine edges, and Samoa's oblique lid pattern; these are conditional experiments, not required repairs or a blanket supersampling recommendation.",
+  "findings": [
+    {
+      "id": "mexico",
+      "disposition": "no-edit",
+      "observation": "Cobalt tile motifs remain coherent across closed/open and desktop/mobile. Open terracotta lid/interior have broad cloudy variation; agave leaves and mound are angular.",
+      "rationale": "Native mobile-open reinspection does not establish an isolated stain, seam, missing material or broken finish. Cloudiness is material taste; agave faceting is geometry. Promotional glaze, wear and leaf realism are not repair requirements.",
+      "bounded_recommendation": "Preserve existing materials and geometry. Do not attenuate terracotta mottling merely to make it smoother.",
+      "supersampling": "Not warranted by current evidence; no conspicuous repeated staircase problem.",
+      "adjudication": "Initial board-only suggestion to reduce mottling withdrawn after native-size inspection: aesthetic preference is not an ordinary defect."
+    },
+    {
+      "id": "myanmar",
+      "disposition": "no-edit",
+      "observation": "Dense red diamond/parallel-line ornament stays consistent in all states. Small fittings and circular ornaments are angular; lid-mounted latch projects upward when open.",
+      "rationale": "Neither geometry simplification nor dense intentional ornament establishes broken finish. Promotional gloss/reflections and finer detailing are separate art direction.",
+      "bounded_recommendation": "Keep model, lacquer materials and pattern. Investigate texture sampling only if native moving views reproduce distracting line crawl; none established here.",
+      "supersampling": "No permanent change recommended; would not repair polygonal fittings or reproduce promotional reflections."
+    },
+    {
+      "id": "nigeria",
+      "disposition": "no-edit",
+      "observation": "Pale irregular resist circles/flecks and blue surfaces are consistent in four states; top is paler/lavender relative to upright body. Open cavity and patterned underside are coherent.",
+      "rationale": "Pattern flecks, clipped motifs at separate panel boundaries, polygonal ornaments and lid/body brightness variation are not demonstrated UV or material defects.",
+      "bounded_recommendation": "Preserve palette, UV placement and geometry; do not darken lid or add promotional patina without an art-direction requirement.",
+      "supersampling": "Only a future conditional sampling test if native pattern crawl is demonstrated; no current repair justification."
+    },
+    {
+      "id": "palestine",
+      "disposition": "no-edit",
+      "observation": "Horizontal wood grain, crimson stitch panel, finger-jointed corners and faceted feet are stable across states. Grain and tiny stitching lose definition on mobile.",
+      "rationale": "Gold-toned wood versus subdued promotional wood is taste/lighting. Directional grain and intentional joints are not proof of stretching or broken seams.",
+      "bounded_recommendation": "Retain wood, stitch pattern and joins. A sampler-only check is justified only if actual rotation demonstrates grain/stitch shimmer.",
+      "supersampling": "Not a demonstrated need; filtering would be the first diagnostic for texture minification."
+    },
+    {
+      "id": "qatar",
+      "disposition": "no-edit",
+      "observation": "Cream body, turquoise dune channel and dark teal rim remain coherent. Pale corner interruptions match segmented construction; dunes and hardware are simplified geometry.",
+      "rationale": "No unambiguous finish flaw. Promotional rounding and richer shading are not a finish-repair specification.",
+      "bounded_recommendation": "Preserve geometry, finish and camera framing.",
+      "supersampling": "No global supersampling recommendation; mild edge roughness is not a demonstrated failure.",
+      "adjudication": "Comparison-board crop clipped raised latch, but full native desktop-open screenshot contains the complete latch with top margin. No viewer framing defect."
+    },
+    {
+      "id": "samoa",
+      "disposition": "no-edit-with-optional-diagnostic",
+      "observation": "Upright siapo-inspired motifs are legible; lid motif is faint and compressed at the shallow default angle on desktop/mobile. Gray underside has cloudy stone variation.",
+      "rationale": "Native closed reinspection finds no definite localized UV discontinuity or extreme stretch; foreshortening and pale material plausibly explain lid softness. Cloudy underside is compatible with lava styling.",
+      "bounded_recommendation": "Leave unchanged by default. If pursuing the readability concern, compare a face-on lid and identical shallow-camera captures with only anisotropic filtering varied within device support. Keep UVs, texture artwork, exposure and geometry fixed; retain a sampler change only for a clear native-size benefit.",
+      "supersampling": "Not the first remedy for oblique texture softness; do not globally supersample or remap based on the board.",
+      "adjudication": "Initial possible lid-smearing/UV issue downgraded to unconfirmed after full native screenshot review."
+    },
+    {
+      "id": "southern-ocean",
+      "disposition": "no-edit-with-optional-diagnostic",
+      "observation": "Thin metallic rim diagonals and small hardware show mild screen-space roughness; ice is intentionally polygonal, water/body treatment graphic and cyan wave lines conspicuous. All four states remain coherent.",
+      "rationale": "Fine-edge roughness is a plausible sampling limitation, not a proven broken asset. Rounded/textured promotional ice, deeper water and studio shadows require different art direction.",
+      "bounded_recommendation": "If testing finish, compare existing DPR1 AA against a modest increased internal render scale at identical CSS size, camera and lighting. Inspect native thin edges and slow rotation and measure performance. Keep only demonstrable improvement; do not change floes, wave pattern, water or hardware.",
+      "supersampling": "Reasonable bounded A/B candidate for fine edges only, not a required repair. No A/B result claimed."
+    },
+    {
+      "id": "tajikistan",
+      "disposition": "no-edit",
+      "observation": "Rectangular/stepped changes in cloudy stone mapping appear on the open lid and interior. Mountain snow edge is toothed, terrain grain dense, and lake a flat cyan insert.",
+      "rationale": "Full native inspection finds repeated segmented mapping compatible with separate panels/finger-joint-like construction, not a proven accidental UV reset. No boundary is established to violate an intended continuous surface. Lake and mountain stylization are not ordinary defects.",
+      "bounded_recommendation": "Preserve stone mapping and terrain. Only correct an individual UV/material boundary if source inspection independently proves it cuts an intended continuous surface; do not blanket-remap or blend joints.",
+      "supersampling": "Not a remedy for stone segmentation or terrain geometry; no demonstrated requirement.",
+      "adjudication": "Initial board-only recommendation to repair stone texture patches withdrawn after native full-resolution review. Intentional construction is unresolved, so repair is not justified."
+    },
+    {
+      "id": "tunisia",
+      "disposition": "no-edit-with-optional-diagnostic",
+      "observation": "Thin ochre/charcoal triangular bands are pale and uneven in visual weight, especially at mobile size and on the open underside; oblique small edges have mild stepping. Cream joints, dark rim and lid dish are coherent.",
+      "rationale": "Fine ornament readability is a legitimate sampling inspection target but the stills do not prove flicker, depth conflict or broken mapping. Darker promotional ornament and more tactile clay are not acceptance requirements.",
+      "bounded_recommendation": "Test native fine-line stability first. Isolate texture filtering versus geometry-edge sampling; optionally compare modest DPR1 supersampling without changing CSS size, pattern, palette or model. Do not thicken ornament or add contrast solely to match marketing.",
+      "supersampling": "Reasonable bounded diagnostic for tiny diagonals/hardware only. Retain only measured useful visual benefit at acceptable device cost; no blanket increase."
+    },
+    {
+      "id": "zambia",
+      "disposition": "no-edit",
+      "observation": "Broad wavy basalt bands cover exterior and interior consistently. Gorge is stepped, plants faceted, river opaque cyan and waterfall a ribbed white curtain; open hardware remains coherent.",
+      "rationale": "These are material and geometry choices, not random finish damage. Promotional finer stone and naturalistic water do not establish a broken runtime finish.",
+      "bounded_recommendation": "Preserve basalt pattern, terrain, water and mechanism. Only investigate specific joins or thin waterfall sampling if native interaction reproduces a fault.",
+      "supersampling": "No current justification for a permanent change; cannot fix broad material banding or intentional faceting."
+    }
+  ]
+}

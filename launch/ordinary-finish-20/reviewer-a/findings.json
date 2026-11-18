@@ -1,0 +1,78 @@
+{
+  "reviewer": "a",
+  "scope": "Independent visual-only review of ten baseline candidates; no approvals, model edits, runtime changes, or new execution tests.",
+  "evidence": "Each ID inspected on comparison board containing actual desktop/mobile closed/open captures plus baseline promotional WebP. Original native screenshots additionally inspected for Argentina desktop-closed, Bangladesh desktop-closed/mobile-closed, and Comoros desktop-closed. Input SHA-256 records are in inspected-inputs.json; boards are derived review aids, not replacement captures.",
+  "limits": ["Still screenshots establish appearance, not temporal shimmer, collision clearance, material configuration errors, or animation correctness.", "Boards crop desktop viewer and reduce images; cropped desktop controls are not a UI defect. Native captures remain authoritative.", "DPR1 and existing WebGL antialiasing are supplied capture conditions. Supersampling is a conditional renderer experiment, not a proven fix or blanket recommendation.", "Promotional lighting, floor shadows, richer microtexture and realism do not themselves establish ordinary finish defects."],
+  "findings": [
+    {
+      "id": "argentina",
+      "disposition": "no-edit",
+      "observation": "Pastel strata and faceted ridge remain consistent across closed desktop/mobile; open interior retains the layered finish. Dark closure seam and abrupt terrain facets also belong to the visible design language.",
+      "recommendation": "Preserve ridge facets, strata, corner blocks and lid clearance. No definite isolated texture failure is established; do not smooth the terrain or close the dark band to imitate promotional shading.",
+      "supersampling": "Not specifically justified: triangular color edges are predominantly modeled/stylized terrain, not demonstrated sampling failure."
+    },
+    {
+      "id": "bangladesh",
+      "disposition": "bounded-renderer-ab-test",
+      "observation": "Native desktop and mobile closed images show pixel-scale breakup in fine ivory textile edges, compressed side motifs and thin diagonal brass/patterned trim. Larger framing and fittings remain readable; open states remain coherent.",
+      "recommendation": "Trial a modest internal render scale such as 1.5 at DPR1 in an isolated viewer copy, retaining existing AA and every model/material/camera byte or setting. Compare same-size four-state captures, especially front/side motifs and trim. Retain only for visible continuity improvement without erasing intentional weave and with acceptable measured device cost. Otherwise no edit; investigate filtering separately rather than repainting motifs.",
+      "supersampling": "Targeted experiment justified, efficacy not proven. No motion-shimmer claim. Do not apply globally."
+    },
+    {
+      "id": "cambodia",
+      "disposition": "no-edit",
+      "observation": "Pale stone courses, stepped temple, green trim and coherent open cavity are visible. Cyan pool reads opaque and simpler than marketing; gold and stone have flatter viewer illumination.",
+      "recommendation": "Keep still pool, stone grid and stepped geometry unchanged. Water realism and weathering are art-direction differences, not demonstrated shader errors. Only a separately confirmed wrong material assignment would justify a local material correction.",
+      "supersampling": "No particular sampling defect established; cannot turn the flat-looking pool into realistic water."
+    },
+    {
+      "id": "comoros",
+      "disposition": "no-edit-art-direction-question",
+      "observation": "Broad soft waves are conspicuous on exterior panels, lid and open underside; native desktop confirms this appearance, not its technical cause. Promotional surfaces read calmer. Volcano, flowers, turquoise band and hardware remain coherent.",
+      "recommendation": "Do not automatically reduce normals or rebuild panels. Treat broad waviness as stylized stone unless an intended flat-cut-stone brief establishes otherwise. If later scoped, isolate base color/normal/roughness contributions before any material-only correction; no geometry change is justified here.",
+      "supersampling": "Not appropriate for low-frequency material waves."
+    },
+    {
+      "id": "djibouti",
+      "disposition": "no-edit",
+      "observation": "Broad stone rippling, ivory closure band, angular basalt and turquoise basin persist across views and occur in the promotional design. Viewer lid appears warmer and brine flatter than marketing.",
+      "recommendation": "Retain rippled stone, salt rim and rocks. Warm lid tint and flat brine do not prove a color-space or assignment error; do not recolor from differently lit marketing pixels. No bounded defect established.",
+      "supersampling": "No specific benefit established; material/lighting contrast dominates."
+    },
+    {
+      "id": "eritrea",
+      "disposition": "no-edit",
+      "observation": "Pale limestone, irregular low reef forms, blue top and dark teal opening rim read consistently on desktop/mobile. Open cavity is complete in the visible views; promotional lighting provides greater depth.",
+      "recommendation": "Preserve irregular reef relief, pale corner blocks and teal seam. Do not add photographic surface detail or stronger shadows as a purported repair; no localized missing finish or broken seam established.",
+      "supersampling": "No targeted sampling problem established."
+    },
+    {
+      "id": "gambia",
+      "disposition": "no-edit",
+      "observation": "Strong repeated sediment/wood-like waves appear on body and open interior, with related waviness in marketing. Mangrove roots and tidal channels are coherent; mobile loses fine detail through size.",
+      "recommendation": "Preserve tidal geometry, roots, teal rim and existing bands. The wood-like versus sediment-bronze reading is a material-style limitation, not evidence of corrupted texture. Do not replace the full material as ordinary polish.",
+      "supersampling": "Not a remedy for broad repetitive banding; no specific sampling repair established."
+    },
+    {
+      "id": "guinea-bissau",
+      "disposition": "no-edit",
+      "observation": "Warm flowing wood grain, turquoise islands and mangrove roots retain identity across desktop/mobile. Open underside is wood; exterior landscape is naturally hidden. Promotional grain and foliage are finer.",
+      "recommendation": "Preserve broad grain, irregular islands, roots and pale feet. Finer marketing wood/foliage is promotional finish disparity, not a localized defect; no repaint or geometry adjustment justified.",
+      "supersampling": "No established sampling-specific need."
+    },
+    {
+      "id": "lebanon",
+      "disposition": "no-edit",
+      "observation": "Cream limestone, orange cedar lid/interior, green rim and flattened cedar boughs are consistent in actual views. Promotional wood is more muted; tree is hidden by open-lid orientation, not demonstrably missing.",
+      "recommendation": "Preserve finger-joint-like edges, flattened foliage, rim corner blocks and warm wood. Do not mute the full palette to match studio illumination or treat the hidden ornament as lost geometry.",
+      "supersampling": "No targeted sampling issue established."
+    },
+    {
+      "id": "malawi",
+      "disposition": "no-edit",
+      "observation": "Bright lake-blue enamel, pale mottled granite, rounded rocks and gold fish ornaments remain coherent across four states. Marketing is more softly lit and grounded; open cavity and underside remain consistent.",
+      "recommendation": "Retain saturated enamel, pale mottling, irregular granite and dark closure band. No isolated texture failure or material spill demonstrated; do not convert enamel into realistic water or smooth the rocks.",
+      "supersampling": "No specifically demonstrated sampling issue."
+    }
+  ]
+}

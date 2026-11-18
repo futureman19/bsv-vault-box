@@ -1,0 +1,357 @@
+$ C:\Users\futur\.hermes\installs\60215e25aec448c9\environments\b3c4bbda9be44f5cb17e68e2e2ba7648\venv\Scripts\python.exe build.py
+
+  viewer.bundle.js  582.2kb
+
+Done in 77ms
+HTML_BYTES 3409417 GLB_BYTES 1975836
+
+EXIT_CODE 0
+
+$ node --test tests.mjs
+✔ latch releases before lid; reverses safely; endpoints clamp (1.1725ms)
+✔ asset contract rejects missing lid, nonfinite and empty geometry (0.2839ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 2
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 75.7212
+
+EXIT_CODE 0
+
+$ C:/Users/futur/AppData/Local/Programs/Blender-5.2.1/blender.exe --background --factory-startup --python-exit-code 1 --python verify_source.py
+00:00.469  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_7631aa71\preview\bangladesh-v1\bangladesh.blend"
+{"saved_source_reopened": true, "named_lid": "Lid_Hinge", "latch_parent": "Lid_Hinge", "moving_meshes": 83, "static_meshes": 47, "collision_samples": 81, "collisions": [], "bearing_contact_exclusion": "moving hinge leaf vs fixed barrel; latch knuckle/bridge vs latch pin (intentional bearings)", "hollow_floor_ray_z": 0.26500001549720764, "source_objects": 137}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
+
+EXIT_CODE 0
+
+$ C:/Users/futur/AppData/Local/Programs/Blender-5.2.1/blender.exe --background --factory-startup --python-exit-code 1 --python verify_parity.py
+00:00.921  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_7631aa71\preview\bangladesh-v1\bangladesh.blend"
+15:03:41 | INFO: Data are loaded, start creating Blender stuff
+15:03:41 | INFO: Blender create Mesh node Cube.020
+15:03:41 | INFO: Blender create Mesh node Cube.021
+15:03:41 | INFO: Blender create Mesh node Cylinder.041
+15:03:41 | INFO: Blender create Mesh node Cylinder.042
+15:03:41 | INFO: Blender create Mesh node Cube.033
+15:03:41 | INFO: Blender create Mesh node Cube.035
+15:03:41 | INFO: Blender create Mesh node Cube.037
+15:03:41 | INFO: Blender create Mesh node Cube.039
+15:03:41 | INFO: Blender create Mesh node Cube.040
+15:03:41 | INFO: Blender create Mesh node Cube.032
+15:03:41 | INFO: Blender create Mesh node Cube.034
+15:03:41 | INFO: Blender create Mesh node Cube.036
+15:03:41 | INFO: Blender create Mesh node Cube.038
+15:03:41 | INFO: Blender create Mesh node Cube.024
+15:03:41 | INFO: Blender create Mesh node Cube.025
+15:03:41 | INFO: Blender create Mesh node Cube.028
+15:03:41 | INFO: Blender create Mesh node Cube.029
+15:03:41 | INFO: Blender create Mesh node Cube.044
+15:03:41 | INFO: Blender create Mesh node Cube.045
+15:03:41 | INFO: Blender create Mesh node Cube.047
+15:03:41 | INFO: Blender create Mesh node Cube.048
+15:03:41 | INFO: Blender create Mesh node Cube.026
+15:03:41 | INFO: Blender create Mesh node Cube.027
+15:03:41 | INFO: Blender create Mesh node Cube.030
+15:03:41 | INFO: Blender create Mesh node Cube.031
+15:03:41 | INFO: Blender create Mesh node Cube.017
+15:03:41 | INFO: Blender create Mesh node Cube.019
+15:03:41 | INFO: Blender create Mesh node Cube.016
+15:03:41 | INFO: Blender create Mesh node Cube.018
+15:03:41 | INFO: Blender create Mesh node Cylinder.032
+15:03:41 | INFO: Blender create Mesh node Cylinder.033
+15:03:41 | INFO: Blender create Mesh node Cube.008
+15:03:41 | INFO: Blender create Mesh node Cube.010
+15:03:41 | INFO: Blender create Mesh node Cube.001
+15:03:41 | INFO: Blender create Mesh node Cube.004
+15:03:41 | INFO: Blender create Mesh node Cube.005
+15:03:41 | INFO: Blender create Mesh node Cube.002
+15:03:41 | INFO: Blender create Mesh node Cube.003
+15:03:41 | INFO: Blender create Mesh node Cube
+15:03:41 | INFO: Blender create Mesh node Cube.006
+15:03:41 | INFO: Blender create Mesh node Cube.007
+15:03:41 | INFO: Blender create Mesh node Cube.023
+15:03:41 | INFO: Blender create Mesh node Cube.012
+15:03:41 | INFO: Blender create Mesh node Cube.051
+15:03:41 | INFO: Blender create Mesh node Cube.053
+15:03:41 | INFO: Blender create Mesh node Cube.055
+15:03:41 | INFO: Blender create Mesh node Cube.057
+15:03:41 | INFO: Blender create Mesh node Cube.050
+15:03:41 | INFO: Blender create Mesh node Cube.052
+15:03:41 | INFO: Blender create Mesh node Cube.054
+15:03:41 | INFO: Blender create Mesh node Cube.056
+15:03:41 | INFO: Blender create Mesh node Icosphere
+15:03:41 | INFO: Blender create Mesh node Icosphere.001
+15:03:41 | INFO: Blender create Mesh node Icosphere.002
+15:03:41 | INFO: Blender create Mesh node Icosphere.003
+15:03:41 | INFO: Blender create Mesh node Icosphere.004
+15:03:41 | INFO: Blender create Mesh node Icosphere.005
+15:03:41 | INFO: Blender create Mesh node Icosphere.006
+15:03:41 | INFO: Blender create Mesh node Icosphere.007
+15:03:41 | INFO: Blender create Mesh node Icosphere.008
+15:03:41 | INFO: Blender create Mesh node Icosphere.009
+15:03:41 | INFO: Blender create Mesh node Icosphere.010
+15:03:41 | INFO: Blender create Mesh node Icosphere.011
+15:03:41 | INFO: Blender create Mesh node Icosphere.012
+15:03:41 | INFO: Blender create Mesh node Icosphere.013
+15:03:41 | INFO: Blender create Mesh node Icosphere.014
+15:03:41 | INFO: Blender create Mesh node Icosphere.015
+15:03:41 | INFO: Blender create Mesh node Icosphere.016
+15:03:41 | INFO: Blender create Mesh node Icosphere.017
+15:03:41 | INFO: Blender create Mesh node Icosphere.018
+15:03:41 | INFO: Blender create Mesh node Icosphere.019
+15:03:41 | INFO: Blender create Mesh node Cube.058
+15:03:41 | INFO: Blender create Mesh node Delta / island 1
+15:03:41 | INFO: Blender create Mesh node Delta / island 2
+15:03:41 | INFO: Blender create Mesh node Delta / island 3
+15:03:41 | INFO: Blender create Mesh node Delta / island 4
+15:03:41 | INFO: Blender create Mesh node Cube.009
+15:03:41 | INFO: Blender create Mesh node Cube.011
+15:03:41 | INFO: Blender create Mesh node Cylinder.035
+15:03:41 | INFO: Blender create Mesh node Cube.013
+15:03:41 | INFO: Blender create Mesh node Cube.014
+15:03:41 | INFO: Blender create Mesh node Cube.015
+15:03:41 | INFO: Blender create Mesh node Cylinder.034
+15:03:41 | INFO: Blender create Mesh node Cube.049
+15:03:41 | INFO: Blender create Mesh node Cube.059
+15:03:41 | INFO: Blender create Mesh node Cube.060
+15:03:41 | INFO: Blender create Mesh node Cube.061
+15:03:41 | INFO: Blender create Mesh node Cube.062
+15:03:41 | INFO: Blender create Mesh node Cube.063
+15:03:41 | INFO: Blender create Mesh node Cube.064
+15:03:41 | INFO: Blender create Mesh node Cube.065
+15:03:41 | INFO: Blender create Mesh node Cube.066
+15:03:41 | INFO: Blender create Mesh node Cube.067
+15:03:41 | INFO: Blender create Mesh node Cube.068
+15:03:41 | INFO: Blender create Mesh node Cube.069
+15:03:41 | INFO: Blender create Mesh node Cube.070
+15:03:41 | INFO: Blender create Mesh node Cube.071
+15:03:41 | INFO: Blender create Mesh node Cube.072
+15:03:41 | INFO: Blender create Mesh node Cube.073
+15:03:41 | INFO: Blender create Mesh node Cube.074
+15:03:41 | INFO: Blender create Mesh node Cube.075
+15:03:41 | INFO: Blender create Mesh node Cube.076
+15:03:41 | INFO: Blender create Mesh node Cube.077
+15:03:41 | INFO: Blender create Mesh node Cube.078
+15:03:41 | INFO: Blender create Mesh node Cube.079
+15:03:41 | INFO: Blender create Mesh node Cube.080
+15:03:42 | INFO: Blender create Mesh node Cube.081
+15:03:42 | INFO: Blender create Mesh node Cube.082
+15:03:42 | INFO: Blender create Mesh node Cube.083
+15:03:42 | INFO: Blender create Mesh node Cube.084
+15:03:42 | INFO: Blender create Mesh node Cube.085
+15:03:42 | INFO: Blender create Mesh node Cube.086
+15:03:42 | INFO: Blender create Mesh node Cube.087
+15:03:42 | INFO: Blender create Mesh node Cube.088
+15:03:42 | INFO: Blender create Mesh node Cube.089
+15:03:42 | INFO: Blender create Mesh node Cube.090
+15:03:42 | INFO: Blender create Mesh node Cube.091
+15:03:42 | INFO: Blender create Mesh node Cube.092
+15:03:42 | INFO: Blender create Mesh node Cube.093
+15:03:42 | INFO: Blender create Mesh node Cube.094
+15:03:42 | INFO: Blender create Mesh node Cube.095
+15:03:42 | INFO: Blender create Mesh node Cube.096
+15:03:42 | INFO: Blender create Mesh node Cube.097
+15:03:42 | INFO: Blender create Mesh node Cube.098
+15:03:42 | INFO: Blender create Mesh node Cube.099
+15:03:42 | INFO: Blender create Mesh node Cube.100
+15:03:42 | INFO: Blender create Mesh node Cube.041
+15:03:42 | INFO: Blender create Mesh node Cube.042
+15:03:42 | INFO: Blender create Mesh node Cube.043
+15:03:42 | INFO: Blender create Mesh node Cube.046
+15:03:42 | INFO: glTF import finished in 0.24s
+{'source_vertices': 10996, 'imported_vertices': 40731, 'source_to_glb_max': 1.712013073529306e-07, 'glb_to_source_max': 1.712013073529306e-07, 'source_packed_images': ['delta-green.png', 'jamdani-color.png', 'weave-normal.png', 'weave-roughness.png'], 'source_and_export_geometry_match': True}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
+
+EXIT_CODE 0
+
+$ C:/Users/futur/AppData/Local/Programs/Blender-5.2.1/blender.exe --background --factory-startup --python-exit-code 1 --python verify_theme_source.py
+00:00.718  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_7631aa71\preview\bangladesh-v1\mechanism.blend"
+00:00.734  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_7631aa71\preview\bangladesh-v1\bangladesh.blend"
+{
+  "result": "PASS",
+  "islands": 4,
+  "lid_ornament_meshes": 67,
+  "all_lid_parented": true,
+  "unchanged_mechanism_pivots": true,
+  "ray_grid": [
+    101,
+    61
+  ],
+  "visible_water_samples": 1517,
+  "connected_water_samples": 1517,
+  "water_fraction": 0.24622626197045935,
+  "connected_channel_reaches": {
+    "west": true,
+    "east": true,
+    "south": true,
+    "north": true
+  },
+  "limit": "sampled visible water continuity, not geographic fidelity"
+}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
+
+EXIT_CODE 0
+
+$ C:\Users\futur\.hermes\installs\60215e25aec448c9\environments\b3c4bbda9be44f5cb17e68e2e2ba7648\venv\Scripts\python.exe verify_browser.py
+[
+  {
+    "case": "desktop",
+    "asset": {
+      "triangles": 21472,
+      "meshes": 134,
+      "materials": 10,
+      "bounds": {
+        "min": [
+          -1.888500051572919,
+          -0.24500000476837158,
+          -1.3950000554323196
+        ],
+        "max": [
+          1.888500051572919,
+          2.164999894797802,
+          1.4875000286847353
+        ]
+      },
+      "lid": "Lid_Hinge",
+      "latch": "Latch_Pivot",
+      "nonfinite": 0,
+      "degenerate": 0,
+      "bytes": 1975836,
+      "open_projection_max_abs_ndc": 0.8923646516630208
+    },
+    "offline_file": true,
+    "external_requests": [],
+    "errors": [],
+    "rotation": true,
+    "touch_rotation": false,
+    "open_close": true,
+    "reset_mid_motion": true,
+    "reduced_motion": true,
+    "overflow": false,
+    "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+  },
+  {
+    "case": "mobile",
+    "asset": {
+      "triangles": 21472,
+      "meshes": 134,
+      "materials": 10,
+      "bounds": {
+        "min": [
+          -1.888500051572919,
+          -0.24500000476837158,
+          -1.3950000554323196
+        ],
+        "max": [
+          1.888500051572919,
+          2.164999894797802,
+          1.4875000286847353
+        ]
+      },
+      "lid": "Lid_Hinge",
+      "latch": "Latch_Pivot",
+      "nonfinite": 0,
+      "degenerate": 0,
+      "bytes": 1975836,
+      "open_projection_max_abs_ndc": 0.892364651663021
+    },
+    "offline_file": true,
+    "external_requests": [],
+    "errors": [],
+    "rotation": true,
+    "touch_rotation": true,
+    "open_close": true,
+    "reset_mid_motion": true,
+    "reduced_motion": true,
+    "overflow": false,
+    "webgl": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 (0x00002882) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+  },
+  {
+    "case": "corrupted GLB",
+    "fallback": true,
+    "unhandled_errors": [],
+    "caught_loader_errors": [
+      "SyntaxError: Unexpected token 'i', \"invalid glb bytes\" is not valid JSON"
+    ]
+  }
+]
+
+EXIT_CODE 0
+
+$ C:\Users\futur\.hermes\installs\60215e25aec448c9\environments\b3c4bbda9be44f5cb17e68e2e2ba7648\venv\Scripts\python.exe verify_theme.py
+{
+  "features": {
+    "islands": [
+      "Delta__island_1",
+      "Delta__island_2",
+      "Delta__island_3",
+      "Delta__island_4"
+    ],
+    "wrong": [],
+    "maps": [
+      {
+        "material": "Jamdani / original ivory repeats",
+        "slot": "map",
+        "width": 512,
+        "height": 512,
+        "range": 215,
+        "ivory": 19156,
+        "teal": 242988
+      },
+      {
+        "material": "Jamdani / original ivory repeats",
+        "slot": "roughnessMap",
+        "width": 512,
+        "height": 512,
+        "range": 26,
+        "ivory": 0,
+        "teal": 0
+      },
+      {
+        "material": "Jamdani / original ivory repeats",
+        "slot": "normalMap",
+        "width": 512,
+        "height": 512,
+        "range": 6,
+        "ivory": 0,
+        "teal": 0
+      },
+      {
+        "material": "Delta / green alluvial islands",
+        "slot": "map",
+        "width": 512,
+        "height": 512,
+        "range": 37,
+        "ivory": 0,
+        "teal": 106968
+      }
+    ],
+    "nonfiniteUV": 0
+  },
+  "negative_control": {
+    "result": "EXPECTED FAIL",
+    "mutation": "detach actual island 1 from lid in loaded scene",
+    "rejected": "['Delta__island_1', 'Delta__island_1_1', 'Delta__island_1_2']"
+  },
+  "restored": "PASS",
+  "no_js_poster": "PASS",
+  "result": "PASS"
+}
+
+EXIT_CODE 0
+
+$ C:\Users\futur\.hermes\installs\60215e25aec448c9\environments\b3c4bbda9be44f5cb17e68e2e2ba7648\venv\Scripts\python.exe verify_delivery.py
+DELIVERY PASS
+HTML_BYTES 3409417 GLB_BYTES 1975836
+INVENTORY_FILES 57 ZIP_BYTES 7948328
+
+EXIT_CODE 0
