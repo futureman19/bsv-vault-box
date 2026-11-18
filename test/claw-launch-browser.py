@@ -22,7 +22,11 @@ def arm(page):
  page.locator('#playBtn').click()
  if page.locator('#walletModal').is_visible():page.locator('#optDemo').click()
  phase(page,'armed')
-def snap(page,name):page.screenshot(path=str(OUT/(name+'.png')),full_page=True)
+def snap(page,name):
+ if name in ['desktop-reveal','mobile-reveal','mobile-landscape-settled']:
+  page.locator('#prizeCard.on').wait_for()
+  page.wait_for_function("getComputedStyle(document.getElementById('prizeCard')).opacity==='1'")
+ page.screenshot(path=str(OUT/(name+'.png')),full_page=name not in ['desktop-reveal','mobile-reveal','mobile-landscape-settled'])
 def assert_true(v):assert v
 try:
  with sync_playwright() as p:
@@ -47,6 +51,15 @@ try:
    page.locator('a[href="#claw-demo"]').last.click()
    assert page.locator('#playBtn').is_visible()
    arm(page)
+  def prize_isolation():
+   assert page.locator('#reveal').evaluate('(e)=>e.matches(":modal")')
+   for key in ['Tab']*8+['Shift+Tab']*8:
+    page.keyboard.press(key)
+    assert page.evaluate("document.getElementById('reveal').contains(document.activeElement)")
+   page.locator('#joystick').evaluate('(e)=>e.focus()')
+   assert page.evaluate("document.getElementById('reveal').contains(document.activeElement)")
+   assert page.evaluate('document.documentElement.scrollWidth<=innerWidth')
+  check('settled prize modal isolates background focus',prize_isolation)
   check('Try Box then return can play',return_play)
   check('no uncaught errors',lambda:assert_true(not errors))
   def input_and_races():
@@ -58,7 +71,7 @@ try:
    page.locator('#joystick').focus();page.keyboard.press('Space');page.keyboard.press('Space')
    assert page.evaluate('clawGame.state.drops===1')
    for name in ['grab','carry','reveal']:
-    phase(page,name);snap(page,'desktop-'+name)
+    phase(page,name);snap(page,'desktop-race-'+name)
    # Force the hidden action during the pending reveal to stress stale callbacks.
    page.evaluate("document.getElementById('againBtn').click()")
    phase(page,'armed');page.wait_for_timeout(2600)
@@ -87,7 +100,21 @@ try:
    snap(page,'mobile-landscape');page.set_viewport_size({'width':390,'height':844})
    page.locator('#dropBtn').click();phase(page,'reveal');page.wait_for_timeout(700);snap(page,'mobile-reveal')
    assert page.locator('#prizeCard').is_visible()
-   page.locator('#againBtn').click();phase(page,'armed')
+   prize_isolation()
+   # Native touch on blank overlay cannot activate underlying controls.
+   before=page.evaluate('({phase:clawGame.state.phase,scroll:scrollY})')
+   for kind,points in [('touchStart',[{'x':12,'y':100}]),('touchEnd',[])]:
+    cdp.send('Input.dispatchTouchEvent',{'type':kind,'touchPoints':points})
+   assert page.evaluate('({phase:clawGame.state.phase,scroll:scrollY})')==before
+   page.set_viewport_size({'width':844,'height':390})
+   page.locator('#againBtn').scroll_into_view_if_needed();snap(page,'mobile-landscape-settled')
+   page.keyboard.press('Escape')
+   assert not page.locator('#reveal').is_visible()
+   assert page.locator('#playBtn').evaluate('(e)=>e===document.activeElement')
+   arm(page);page.locator('#dropBtn').click();phase(page,'reveal')
+   page.keyboard.press('Escape');page.wait_for_timeout(700)
+   assert not page.locator('#reveal').is_visible()
+   page.set_viewport_size({'width':390,'height':844});arm(page)
    page.evaluate("document.querySelector('.claw3d-canvas').getContext('webgl2').getExtension('WEBGL_lose_context').loseContext()")
    page.wait_for_timeout(300);assert page.locator('#cabinet').is_visible()
    page.locator('#dropBtn').click();phase(page,'reveal')

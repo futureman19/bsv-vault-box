@@ -118,7 +118,10 @@
   .ghost:hover { color:var(--ink); border-color:#4a5d80; }
 
   /* ---------- prize reveal ---------- */
-  .reveal { position:fixed; inset:0; background:rgba(4,6,10,.88); display:none; align-items:center; justify-content:center; z-index:60; padding:1rem; }
+  .reveal { position:fixed; inset:0; margin:0; width:100%; height:100%; max-width:none; max-height:none; box-sizing:border-box; border:0; color:var(--ink); background:#080b12; display:none; align-items:center; justify-content:center; z-index:60; padding:1rem; overflow:auto; overscroll-behavior:contain; }
+  .reveal::backdrop { background:#080b12; }
+  body:has(.reveal[open]) { overflow:hidden; }
+  .reveal .stage { margin:auto; }
   .reveal.on { display:flex; }
   .stage { text-align:center; }
   .present { position:relative; width:190px; height:170px; margin:0 auto; }
@@ -268,7 +271,7 @@
 
   <section class="section" id="box-demo" aria-labelledby="boxDemoTitle">
     <p class="eyebrow">TRY THE BOX / HANDS-ON DEMO</p>
-    <h2 id="boxDemoTitle">Inspect the seal. Choose what comes next.</h2>
+    <h2 id="boxDemoTitle" tabindex="-1">Inspect the seal. Choose what comes next.</h2>
     <p class="body-copy">Tap the gold seal below. Open the Box to discover its contents, or send it on with the seal intact. This fictional example is separate from the claw prize; neither demo moves real assets.</p>
     <box-inspector></box-inspector>
     <p><a href="#claw-demo">↑ Back to the claw</a> · <a href="box-demo.html">Open the standalone Box demo</a></p>
@@ -299,7 +302,7 @@
     <h2 id="useTitle">Built for things you pass on.</h2>
     <ul class="tick-list">
       <li><b>A collectible inside a container.</b> The planned launch pairs one independent collectible Box NFT with an outer custody BoxSV container.</li>
-      <li><b>Signed authenticity.</b> A signed record documents provenance; it is not an extra collectible NFT or proof of current custody.</li>
+      <li><b>Signed authenticity.</b> Production provenance is planned as a detached signed record, not an extra NFT or proof of current custody. Collection records are unsigned candidates; a separate Iceland fixture tests signing.</li>
       <li><b>Transferable packages.</b> Sealed transfer is distinct from payment-versus-delivery. A seal alone does not make a sale atomic.</li>
       <li><b>Gifts &amp; drops.</b> A possible use for a package that travels intact. Sale and allocation rules are not set, and no checkout is active here.</li>
     </ul>
@@ -353,7 +356,7 @@
   </div>
 </div>
 
-<div class="reveal" id="reveal">
+<dialog class="reveal" id="reveal" aria-labelledby="prizeTitle" tabindex="-1">
   <div class="stage">
     <div class="burst" id="burst"></div>
     <div class="present" id="present">
@@ -364,8 +367,8 @@
     </div>
     <div class="prize-card" id="prizeCard">
       <div class="seal">DEMO PACKAGE</div>
-      <h3>YOUR DEMO BOX</h3>
-      <p id="prizeText">Caught it. This package is a demo souvenir — nothing was minted. The real product is below: a Box you can inspect, open, pass on, and reuse.</p>
+      <h3 id="prizeTitle">YOUR DEMO BOX</h3>
+      <p id="prizeText">Caught it. This package is a demo souvenir — nothing was minted. Explore a separate fictional Box below. Inspect, open, and transfer it in the simulation; repacking is a proposed lifecycle, not proven on-chain reuse.</p>
       <p id="prizeKey"></p>
       <div class="row">
         <a class="btn" id="tryBoxBtn" href="#box-demo">TRY THE BOX ↓</a>
@@ -373,7 +376,7 @@
       </div>
     </div>
   </div>
-</div>
+</dialog>
 
 <script src="claw-loading.js"></script>
 <script type="module" src="box-inspector.js"></script>

@@ -105,7 +105,7 @@
   function play () {
     if (state.busy || window.clawPresentation.state === 'loading') return
     revealGeneration++
-    reveal.className = 'reveal'
+    reveal.close(); reveal.className = 'reveal'
     machine = window.claw3dHandle && !window.claw3dHandle.disposed ? window.claw3dHandle : fallbackMachine
     clearInput(); spawnLoot(); cabinet.classList.add('interactive'); claw.classList.remove('sway', 'closed')
     state.busy = true; playBtn.hidden = true
@@ -188,7 +188,11 @@
     present.classList.remove('open', 'shake')
     burst.classList.remove('on')
     prizeCard.classList.remove('on')
+    clearInput()
+    prizeCard.inert = true
     reveal.className = 'reveal on'
+    if (!reveal.open) reveal.showModal()
+    reveal.focus({ preventScroll: true })
 
     await wait(400)
     if (generation !== revealGeneration) return
@@ -206,19 +210,35 @@
       prizeKey.textContent = 'Demo only. No wallet, payment, or real asset transfer.'
     }
     prizeCard.classList.add('on')
+    prizeCard.inert = false
+    $('tryBoxBtn').focus({ preventScroll: true })
   }
 
   $('againBtn').addEventListener('click', function () {
-    reveal.className = 'reveal'
+    reveal.close(); reveal.className = 'reveal'
     play() // mode already chosen; straight back into the machine
   })
 
-  $('tryBoxBtn').addEventListener('click', function () {
+  function leaveReveal () {
     revealGeneration++
-    reveal.className = 'reveal' // let the anchor scroll to the Box demo
+    reveal.close(); reveal.className = 'reveal' // let the anchor scroll to the Box demo
     clearInput(); machine.disarm(); state.busy = false
     $('aimControls').hidden = $('aimHint').hidden = clock.hidden = true
     playBtn.hidden = false
+  }
+  $('tryBoxBtn').addEventListener('click', function () {
+    leaveReveal()
+    document.getElementById('boxDemoTitle').focus({ preventScroll: true })
+  })
+  reveal.addEventListener('keydown', function (e) {
+    if (e.key !== 'Tab') return
+    e.preventDefault()
+    if (prizeCard.inert) { reveal.focus(); return }
+    var first = $('tryBoxBtn'), last = $('againBtn')
+    ;(document.activeElement === first ? last : first).focus()
+  })
+  reveal.addEventListener('cancel', function (e) {
+    e.preventDefault(); leaveReveal(); playBtn.focus({ preventScroll: true })
   })
 
   /* ---------- entry ---------- */
