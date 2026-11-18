@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\usa-flag-v9\preview\united-states-flag-v9\verify_palette.py", line 28, in <module>
+    old=np.asarray(Image.open(b/'maps'/name).convert('RGB'));new=np.asarray(Image.open(R/'maps'/name).convert('RGB'));assert np.array_equal(np.all(old==colors['white'],axis=2),np.all(new==colors['white'],axis=2))
+                                                                                                                             ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

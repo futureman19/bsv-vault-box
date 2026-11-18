@@ -1,0 +1,13 @@
+00:01.375  blend            | Read blend: "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_e78f7d10\preview\cabo-verde-v1\cabo-verde.blend"
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_e78f7d10\preview\cabo-verde-v1\verify_theme.py", line 38, in <module>
+    r=check()
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_e78f7d10\preview\cabo-verde-v1\verify_theme.py", line 21, in check
+    assert max(v.y for v in world(ridge))-min(v.y for v in world(ridge))<1.65
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+Error: script failed, file: 'preview/cabo-verde-v1/verify_theme.py', exiting.
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

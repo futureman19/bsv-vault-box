@@ -1,0 +1,71 @@
+{
+  "PASS": true,
+  "checks": [
+    {
+      "material": "Flag / lacquer",
+      "image": "flag-wall.png",
+      "dimensions": [
+        2048,
+        256
+      ],
+      "export_pixels_exact_authored": true,
+      "exact_palette_texels": {
+        "red": 283184,
+        "navy": 32208,
+        "white": 208896
+      },
+      "baseColorFactor": "identity"
+    },
+    {
+      "material": "Flag / navy star canton lid",
+      "image": "flag-lid.png",
+      "dimensions": [
+        1536,
+        1134
+      ],
+      "export_pixels_exact_authored": true,
+      "exact_palette_texels": {
+        "red": 678780,
+        "navy": 761649,
+        "white": 249153
+      },
+      "baseColorFactor": "identity"
+    },
+    {
+      "image": "flag-lid.png",
+      "unchanged_white_core_texels": 223210,
+      "antialias_white_mask_differences": 156
+    },
+    {
+      "image": "flag-wall.png",
+      "unchanged_white_core_texels": 184320,
+      "antialias_white_mask_differences": 0
+    }
+  ],
+  "feet": [
+    "Flag / stone foot",
+    "Flag / stone foot.001",
+    "Flag / stone foot.002",
+    "Flag / stone foot.003"
+  ],
+  "foot_linear_factor": [
+    0.46207699179649353,
+    0,
+    0.009134058840572834,
+    1
+  ],
+  "foot_srgb_bytes": [
+    181,
+    0,
+    24
+  ],
+  "navy_linear_factor": [
+    0.0006070539820939302,
+    0.013702083379030228,
+    0.052860647439956665,
+    1
+  ],
+  "white_solid_interiors_and_gold_unchanged": true,
+  "antialiasing": "Boundary texels interpolate pigments; solid regions exact. Rendered lighting changes displayed pixels.",
+  "glb_sha256": "aa44e0b99baf1e354dd38a13826deaa0c848569e5d7bd92d37e9c295e8ebbb96"
+}

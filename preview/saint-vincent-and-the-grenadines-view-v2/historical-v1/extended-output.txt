@@ -1,0 +1,41 @@
+C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_3317921d\preview\saint-vincent-and-the-grenadines-v1\verify_extended.py:7: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  pixels=list(im.getdata());assert sum(max(p[:3])>30 and p[3]>0 for p in pixels)>len(pixels)*.25
+EXTENDED PASS {
+  "poster_nonblack": true,
+  "features": {
+    "cays": 15,
+    "maps": [
+      {
+        "key": "map",
+        "channel": 0,
+        "width": 256,
+        "height": 256,
+        "range": 38
+      },
+      {
+        "key": "roughnessMap",
+        "channel": 1,
+        "width": 256,
+        "height": 256,
+        "range": 75
+      },
+      {
+        "key": "normalMap",
+        "channel": 0,
+        "width": 256,
+        "height": 256,
+        "range": 60
+      }
+    ],
+    "wrong": []
+  },
+  "cay_groups": [
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "noJS_poster": true,
+  "status": "PASS"
+}
