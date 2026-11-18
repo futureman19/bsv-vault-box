@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_70be1214\preview\algeria-v1\verify_theme.py", line 21, in <module>
+    f=p.evaluate(script);accept(f)
+                         ~~~~~~^^^
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_70be1214\preview\algeria-v1\verify_theme.py", line 14, in accept
+    assert -.001< t['max'][1]-t['min'][1]-.25 <.55, t
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'name': 'Tassili__tower_03', 'min': [0.15135632455348969, 2.015000104904175, -0.6913781762123108], 'max': [0.5968942046165466, 2.8337337970733643, -0.29684364795684814]}

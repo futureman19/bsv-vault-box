@@ -1,5 +1,12 @@
 # One consolidated owner decision packet — NOT final approvals
 
+## Checkpoint 2 update (supersedes remaining-count statements below)
+Algeria and Guyana now have bounded V2 repair candidates, original-scale reproduction and fresh source/export/81-pose/offline checks; see `CONTINUATION-2.md`. Algeria retains raised sandstone corners and woodlike/stylized material reading. Guyana retains stylized canopy/waterfall, mottled body and fine rim seams. Both have ten measured hinge contact pairs; this rejects a simple detached-hardware claim, not every visual-readability concern. No hinge redesign was performed or approved.
+
+**Exact unfinished IDs now:** `afghanistan`, `croatia`, `iceland`, `lithuania`, `malta`, `mozambique`, `panama`, `saint-kitts-and-nevis`, `tonga`, `venezuela`. Their original investigation and acceptance remain outstanding; no no-change pass is inferred. All substantive design questions below stay in this single packet.
+
+## Preserved checkpoint 1 packet
+
 This is a partial continuation, not collection completion. All original review records remain unchanged in the parent ledger and are copied in `continuation-ledger.json`. Technical source repairs do not approve art, sale, minting, preservation or release.
 
 ## Narrow repaired candidates

@@ -1,5 +1,7 @@
 # Attachment/rim repairs — bounded partial delivery
 
+**Latest checkpoint:** [Continuation 2](CONTINUATION-2.md) adds Algeria/Guyana candidates; four cumulative repairs, ten exact IDs still unfinished. `continuation-ledger-v2.json` is the latest bounded status. The checkpoint-1 report below is retained as history; its twelve-ID remaining list predates checkpoint 2.
+
 **Not collection completion. Two repair candidates; twelve exact IDs remain unfinished.** Parent baseline: `3952a4eb1c57ca921c21d0aa774ab8b8752e3df7`, independently read back from `feature/collection-repairs`. The original 201-record dispositions and all old assets remain unchanged.
 
 | Candidate | Complete offline HTML | GLB | Correction |
