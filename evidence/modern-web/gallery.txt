@@ -1,0 +1,10 @@
+PASS exact source roster: 201 unique designs / 195 countries / 5 oceans / 1 Moon; 402 image hashes and dimensions
+PASS browser decoded all 402 published images
+PASS categories, combined filters, normalized search, Moon aliases, empty/reset
+PASS dialog Enter, Tab/Shift+Tab containment, Escape, close button, backdrop, focus restoration
+PASS no overflow at 1440, 1024, 768, 390, 320; desktop/mobile screenshots
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box-modern-web\scripts\test-gallery.py", line 151, in <module>
+    assert page.evaluate('location.hash') == ''
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

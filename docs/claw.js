@@ -3,7 +3,9 @@
 (function () {
   'use strict'
 
-  var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches
+  var motionPreference = window.matchMedia('(prefers-reduced-motion: reduce)')
+  var reduced = motionPreference.matches, revealGeneration = 0
+  motionPreference.addEventListener('change', function (e) { reduced = e.matches })
   function wait (ms) { return new Promise(function (r) { setTimeout(r, reduced ? Math.min(ms * 0.3, 250) : ms) }) }
   function $(id) { return document.getElementById(id) }
 
@@ -26,7 +28,7 @@
   function clearInput () { keys = {}; pointer = null; axis.x = axis.z = 0; stick.style.transform = ''; if (machine) machine.move(0, 0) }
 
   function spawnLoot () {
-    pit.innerHTML = ''
+    pit.replaceChildren()
     var w = cabinet.clientWidth
     var spots = [0.10, 0.26, 0.42, 0.58, 0.74, 0.34]
     for (var i = 0; i < 6; i++) {
@@ -101,7 +103,9 @@
 
   /* Shared input and timing, independent of rendering. */
   function play () {
-    if (state.busy) return
+    if (state.busy || window.clawPresentation.state === 'loading') return
+    revealGeneration++
+    reveal.close(); reveal.className = 'reveal'
     machine = window.claw3dHandle && !window.claw3dHandle.disposed ? window.claw3dHandle : fallbackMachine
     clearInput(); spawnLoot(); cabinet.classList.add('interactive'); claw.classList.remove('sway', 'closed')
     state.busy = true; playBtn.hidden = true
@@ -113,13 +117,15 @@
   function requestDrop (reason) { if (machine && machine.drop(reason)) clearInput() }
   dropBtn.addEventListener('click', function () { requestDrop('button') })
   document.addEventListener('keydown', function (e) {
-    if (e.target instanceof Element && e.target.closest('#box-demo')) { clearInput(); return }
+    // Only the game surface owns shortcuts; links, Box controls and forms keep theirs.
+    if (!(e.target instanceof Element) || !e.target.closest('.machine-wrap, #aimControls')) { clearInput(); return }
     if (!machine || machine.state.phase !== 'armed' || e.altKey || e.ctrlKey || e.metaKey) return
     if (['ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown'].includes(e.key)) { e.preventDefault(); keys[e.key] = true }
     if (e.code === 'Space' || e.key === 'Enter') { e.preventDefault(); if (!e.repeat) requestDrop('keyboard') }
   })
   document.addEventListener('keyup', function (e) { delete keys[e.key] })
   window.addEventListener('blur', clearInput)
+  document.addEventListener('focusin', function (e) { if (!e.target.closest('.machine-wrap, #aimControls')) clearInput() })
   document.addEventListener('visibilitychange', function () { if (document.hidden) clearInput() })
   function bindDrag (element) {
     element.addEventListener('pointerdown', function (e) {
@@ -178,14 +184,21 @@
 
   /* ---------- prize reveal ---------- */
   async function showReveal () {
+    var generation = ++revealGeneration
     present.classList.remove('open', 'shake')
     burst.classList.remove('on')
     prizeCard.classList.remove('on')
+    clearInput()
+    prizeCard.inert = true
     reveal.className = 'reveal on'
+    if (!reveal.open) reveal.showModal()
+    reveal.focus({ preventScroll: true })
 
     await wait(400)
+    if (generation !== revealGeneration) return
     present.classList.add('shake')
     await wait(reduced ? 400 : 1900)
+    if (generation !== revealGeneration) return
 
     present.classList.add('open')
     burst.classList.add('on')
@@ -197,15 +210,35 @@
       prizeKey.textContent = 'Demo only. No wallet, payment, or real asset transfer.'
     }
     prizeCard.classList.add('on')
+    prizeCard.inert = false
+    $('tryBoxBtn').focus({ preventScroll: true })
   }
 
   $('againBtn').addEventListener('click', function () {
-    reveal.className = 'reveal'
+    reveal.close(); reveal.className = 'reveal'
     play() // mode already chosen; straight back into the machine
   })
 
+  function leaveReveal () {
+    revealGeneration++
+    reveal.close(); reveal.className = 'reveal' // let the anchor scroll to the Box demo
+    clearInput(); machine.disarm(); state.busy = false
+    $('aimControls').hidden = $('aimHint').hidden = clock.hidden = true
+    playBtn.hidden = false
+  }
   $('tryBoxBtn').addEventListener('click', function () {
-    reveal.className = 'reveal' // let the anchor scroll to the Box demo
+    leaveReveal()
+    document.getElementById('boxDemoTitle').focus({ preventScroll: true })
+  })
+  reveal.addEventListener('keydown', function (e) {
+    if (e.key !== 'Tab') return
+    e.preventDefault()
+    if (prizeCard.inert) { reveal.focus(); return }
+    var first = $('tryBoxBtn'), last = $('againBtn')
+    ;(document.activeElement === first ? last : first).focus()
+  })
+  reveal.addEventListener('cancel', function (e) {
+    e.preventDefault(); leaveReveal(); playBtn.focus({ preventScroll: true })
   })
 
   /* ---------- entry ---------- */

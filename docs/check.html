@@ -5,9 +5,9 @@
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>BoxSV · Seal Checker</title>
-<meta name="description" content="Verify a sealed BoxSV box from public BSV chain data. No trust in the seller, the issuer, or this page's operator — the proof is the chain itself.">
+<meta name="description" content="Inspect historical VAULT-0001 seal records using WhatsOnChain data. Indexer-backed checks, not independent full-node or SPV verification.">
 <meta property="og:title" content="BoxSV · Seal Checker">
-<meta property="og:description" content="Verify a sealed box from public BSV chain data — the proof is the chain itself.">
+<meta property="og:description" content="Inspect historical VAULT-0001 seals with indexer-backed chain data.">
 <meta property="og:image" content="https://boxsv.com/assets/og.png">
 <style>
   :root { color-scheme: dark; }
@@ -35,7 +35,7 @@
 <main>
   <a class="home" href="index.html">← boxsv.com</a>
   <h1>VAULT-0001 · SEAL CHECKER</h1>
-  <div class="sub">Verify a sealed vault box from public BSV chain data. No trust in the seller, the issuer, or this page's operator — the proof is the chain itself.</div>
+  <div class="sub">Inspect historical VAULT-0001 seal records using WhatsOnChain data. Indexer-backed checks, not independent full-node or SPV verification.</div>
 
   <input id="txid" type="text" placeholder="current holding txid of the box (64 hex chars)" spellcheck="false">
   <div>
@@ -51,12 +51,10 @@
   <div id="out"></div>
 
   <div class="explain">
-    <b>What this proves:</b> the box output carries the canonical VAULT-0001 covenant (the consensus-enforced state machine),
-    its on-chain state byte is SEALED or OPENED, and that exact UTXO is unspent. State can only move SEALED→OPENED and the
-    content commitment is immutable — both enforced by miners, not by any website.
+    <b>What this checks:</b> the supplied output matches the canonical VAULT-0001 covenant and carries a SEALED or OPENED state byte. WhatsOnChain supplies transaction, confirmation and unspent-status responses; this browser does not independently validate consensus or SPV proofs. The covenant fixes a content commitment, not custody of the referenced NFTs.
     <br><br>
     <b>v0.1 scope:</b> checks the exact UTXO you point at. Full lineage tracing (genesis → current) is indexer work tracked in the spec.
-    VAULT-0003 packs are drawn one block after opening. Supply the manifest transaction to recompute the pack; a presented mint must match it exactly. Pack checks use WoC chain data, not an independent full node.
+    Legacy VAULT-0003 research recomputes a proposed draw one block after opening; it does not establish fair production allocation or launch-NFT custody. Supply the manifest transaction to recompute the pack; a presented mint must match it exactly. Pack checks use WoC chain data, not an independent full node.
     <br><br>
     <a href="https://github.com/futureman19/bsv-vault-box/blob/master/VAULT-0001-sealed-boxes.md">Spec</a> · <a href="https://github.com/futureman19/bsv-vault-box">Repo</a> · Data: WhatsOnChain public API
   </div>

@@ -86,7 +86,11 @@ with sync_playwright() as p:
     assert page.locator('#close').evaluate('(e) => e === document.activeElement')
     for key in ['Tab', 'Shift+Tab']:
         page.keyboard.press(key)
-        assert page.evaluate("document.querySelector('#viewer').contains(document.activeElement)")
+        # Native modal navigation may visit browser chrome (activeElement=body),
+        # but must never focus an interactive element in the inert page.
+        assert page.evaluate("document.activeElement === document.body || document.querySelector('#viewer').contains(document.activeElement)")
+        page.locator('#search').evaluate('(e) => e.focus()')
+        assert not page.locator('#search').evaluate('(e) => e === document.activeElement')
     page.keyboard.press('Escape')
     assert not page.locator('#viewer').is_visible()
     assert card.evaluate('(e) => e === document.activeElement')
@@ -144,7 +148,7 @@ with sync_playwright() as p:
                     page.screenshot(path=str(args.output / f'usa-dialog-{width}.png'))
                 page.keyboard.press('Escape')
                 page.wait_for_function('(slug) => document.activeElement?.dataset.id === slug && !document.querySelector("#viewer").open', arg=slug)
-                assert page.evaluate('location.hash') == ''
+                page.wait_for_function("location.hash === ''")
                 page.go_back()
                 page.wait_for_selector('.showcase')
         page.locator('nav a[href="gallery.html"]').click()
