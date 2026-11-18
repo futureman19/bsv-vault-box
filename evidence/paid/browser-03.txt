@@ -1,0 +1,39 @@
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_bc4da8be\launch\paid\browser_qa.py", line 61, in <module>
+    if stage in ['OPENED','WITHDRAWN']:approve(3)
+                                       ~~~~~~~^^^
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_bc4da8be\launch\paid\browser_qa.py", line 31, in approve
+    expect(button).to_be_disabled(timeout=10000)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\futur\.hermes\installs\60215e25aec448c9\environments\6bbad3125f8846bda151fac3595e4336\venv\Lib\site-packages\playwright\sync_api\_generated.py", line 14583, in to_be_disabled
+    self._sync(self._impl_obj.to_be_disabled(timeout=to_milliseconds(timeout)))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\futur\.hermes\installs\60215e25aec448c9\environments\6bbad3125f8846bda151fac3595e4336\venv\Lib\site-packages\playwright\_impl\_sync_base.py", line 111, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\futur\.hermes\installs\60215e25aec448c9\environments\6bbad3125f8846bda151fac3595e4336\venv\Lib\site-packages\playwright\_impl\_assertions.py", line 738, in to_be_disabled
+    await self._expect_impl(
+    ...<5 lines>...
+    )
+  File "C:\Users\futur\.hermes\installs\60215e25aec448c9\environments\6bbad3125f8846bda151fac3595e4336\venv\Lib\site-packages\playwright\_impl\_assertions.py", line 128, in _expect_impl
+    _record_soft_or_raise(
+    ~~~~~~~~~~~~~~~~~~~~~^
+        AssertionError(
+        ^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        self._is_soft,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\futur\.hermes\installs\60215e25aec448c9\environments\6bbad3125f8846bda151fac3595e4336\venv\Lib\site-packages\playwright\_impl\_assertions.py", line 60, in _record_soft_or_raise
+    raise error
+AssertionError: Locator expected to be disabled
+Actual value: enabled 
+Call log:
+  - Expect "to_be_disabled" get_by_role("button", name="Approve pending signature") with timeout 10000ms
+  - waiting for get_by_role("button", name="Approve pending signature")
+    24 × locator resolved to <button>Approve pending signature</button>
+       - unexpected value "enabled"
+
+Aria snapshot:
+- button "Approve pending signature"

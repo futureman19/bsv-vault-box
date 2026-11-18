@@ -1,0 +1,33 @@
+(node:18520) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✖ backwards observer clock becomes durable unavailable hold (457.3555ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 0
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 866.4842
+
+✖ failing tests:
+
+test at launch\paid\payment.test.js:23:1
+✖ backwards observer clock becomes durable unavailable hold (457.3555ms)
+  AssertionError [ERR_ASSERTION]: payment clock moved backwards
+      at Object.paymentEvent (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_bc4da8be\launch\paid\payment.js:58:34)
+      at reduce (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_bc4da8be\launch\continuous\engine.js:72:98)
+      at Journal.append (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_bc4da8be\launch\continuous\engine.js:132:91)
+      at C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_bc4da8be\launch\paid\payment.js:85:82
+      at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+      at async Engine.exclusive (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_bc4da8be\launch\continuous\engine.js:145:89)
+      at async TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_bc4da8be\launch\paid\payment.test.js:24:101)
+      at async Test.run (node:internal/test_runner/test:1113:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:358:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

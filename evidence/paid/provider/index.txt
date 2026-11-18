@@ -1,0 +1,85 @@
+# Yours Wallet Provider API
+
+## Yours Wallet Provider API
+
+- [Introduction](https://yours-wallet.gitbook.io/provider-api/readme.md): Open-source non-custodial BSV wallet built on BRC-100. dApps integrate via @1sat/actions.
+- [For AI Agents](https://yours-wallet.gitbook.io/provider-api/ai-onboarding.md): Primer for AI agents using these docs to build against Yours Wallet.
+- [Quickstart](https://yours-wallet.gitbook.io/provider-api/quickstart.md): Install, connect, and send BSV in under 30 seconds.
+- [BRC-100](https://yours-wallet.gitbook.io/provider-api/concepts/brc-100.md): The BRC-100 wallet interface standard that Yours Wallet implements.
+- [BEEF](https://yours-wallet.gitbook.io/provider-api/concepts/beef.md): Background Evaluation Extended Format — required for operations that spend ordinal outputs.
+- [Actions & Context](https://yours-wallet.gitbook.io/provider-api/concepts/actions-and-context.md): The createContext + action.execute(ctx, input) pattern used by every @1sat/actions call.
+- [Baskets & Tags](https://yours-wallet.gitbook.io/provider-api/concepts/baskets-and-tags.md): How outputs are organized in BRC-100 wallets — basket buckets and string tags.
+- [Derivations](https://yours-wallet.gitbook.io/provider-api/concepts/derivations.md): P1SAT deposit-address derivation — the default prefix is '1sat' and is shared across 1Sat wallets.
+- [Permissions](https://yours-wallet.gitbook.io/provider-api/concepts/permissions.md): Every wallet operation may prompt the user. How to handle approval, denial, and account switches.
+- [sendBsv](https://yours-wallet.gitbook.io/provider-api/payments/send-bsv.md): Send BSV. Each request can target an address, paymail, custom script, or include OP\_RETURN data or an inscription.
+- [sendAllBsv](https://yours-wallet.gitbook.io/provider-api/payments/send-all-bsv.md): Drain all BSV in the default basket to a single destination address.
+- [listOutputs](https://yours-wallet.gitbook.io/provider-api/payments/list-outputs.md): List spendable outputs from a basket. Low-level BRC-100 method exposed via the wallet object.
+- [getOrdinals](https://yours-wallet.gitbook.io/provider-api/ordinals/get-ordinals.md): Fetch the wallet's ordinal outputs plus the BEEF ancestry required to spend them.
+- [transferOrdinals](https://yours-wallet.gitbook.io/provider-api/ordinals/transfer-ordinals.md): Transfer one or more ordinals to recipient addresses or identity pubkeys.
+- [inscribe](https://yours-wallet.gitbook.io/provider-api/ordinals/inscribe.md): Create a new 1Sat Ordinal inscription with arbitrary content. Optionally sign with BAP.
+- [burnOrdinals](https://yours-wallet.gitbook.io/provider-api/ordinals/burn-ordinals.md): Permanently destroy one or more ordinals. Available as both an action and a builder helper.
+- [listOrdinal (disabled)](https://yours-wallet.gitbook.io/provider-api/marketplace/list-ordinal.md): List an ordinal for sale via OrdLock at a fixed BSV price. Currently disabled in Yours Wallet.
+- [purchaseOrdinal](https://yours-wallet.gitbook.io/provider-api/marketplace/purchase-ordinal.md): Buy a listed ordinal at the listing's price.
+- [cancelListing](https://yours-wallet.gitbook.io/provider-api/marketplace/cancel-listing.md): Cancel an OrdLock listing and recover the ordinal.
+- [deriveCancelAddress](https://yours-wallet.gitbook.io/provider-api/marketplace/derive-cancel-address.md): Internal helper for deriving the cancel address of an OrdLock listing — not currently exposed as an action.
+- [mintCollection](https://yours-wallet.gitbook.io/provider-api/collections/mint-collection.md): Mint a new collection parent inscription with optional traits, rarity labels, and royalties.
+- [mintCollectionItem](https://yours-wallet.gitbook.io/provider-api/collections/mint-collection-item.md): Mint a single item into an existing collection, optionally with traits, rank, and attachments.
+- [getBsv21Balances](https://yours-wallet.gitbook.io/provider-api/bsv-21-tokens/get-bsv21-balances.md): Get the wallet's BSV-21 token balances across all held tokens.
+- [sendBsv21](https://yours-wallet.gitbook.io/provider-api/bsv-21-tokens/send-bsv21.md): Send a BSV-21 token to one or more recipients using the Destination type.
+- [listTokens](https://yours-wallet.gitbook.io/provider-api/bsv-21-tokens/list-tokens.md): List BSV-21 token outputs from the wallet.
+- [purchaseBsv21](https://yours-wallet.gitbook.io/provider-api/bsv-21-tokens/purchase-bsv21.md): Buy BSV-21 tokens from a listed OrdLock output.
+- [deployBsv21Mint](https://yours-wallet.gitbook.io/provider-api/bsv-21-tokens/deploy-bsv21-mint.md): Deploy a BSV-21 token with a fixed total supply in a single transaction.
+- [deployBsv21Auth](https://yours-wallet.gitbook.io/provider-api/bsv-21-tokens/deploy-bsv21-auth.md): Deploy a BSV-21 token with mintable supply — emits a deploy+auth UTXO that the auth holder can spend to mint.
+- [mintBsv21](https://yours-wallet.gitbook.io/provider-api/bsv-21-tokens/mint-bsv21.md): Spend a BSV-21 auth UTXO to mint new supply, transfer mint authority, or permanently end minting.
+- [deriveDepositAddresses](https://yours-wallet.gitbook.io/provider-api/mnee-stablecoin/derive-deposit-addresses.md): Derive P1SAT deposit addresses. Default prefix '1sat' is shared across 1Sat wallets.
+- [getMneeBalance](https://yours-wallet.gitbook.io/provider-api/mnee-stablecoin/get-mnee-balance.md): Get total MNEE balance across a set of derived addresses.
+- [sendMnee](https://yours-wallet.gitbook.io/provider-api/mnee-stablecoin/send-mnee.md): Send MNEE in decimal amounts. Requires derivations array from deriveDepositAddresses.
+- [getMneeHistory](https://yours-wallet.gitbook.io/provider-api/mnee-stablecoin/get-mnee-history.md): Get paginated MNEE transaction history for a set of derived addresses.
+- [getMneeTxStatus](https://yours-wallet.gitbook.io/provider-api/mnee-stablecoin/get-mnee-tx-status.md): Poll the status of an off-chain MNEE settlement by ticketId.
+- [getMneeConfig](https://yours-wallet.gitbook.io/provider-api/mnee-stablecoin/get-mnee-config.md): Get the active MNEE service configuration (cosigner, fees, etc).
+- [getMneeUtxos](https://yours-wallet.gitbook.io/provider-api/mnee-stablecoin/get-mnee-utxos.md): List MNEE UTXOs across a set of derived addresses.
+- [getProfile](https://yours-wallet.gitbook.io/provider-api/identity-bap/get-profile.md): Read the wallet's BAP identity profile.
+- [publishIdentity](https://yours-wallet.gitbook.io/provider-api/identity-bap/publish-identity.md): Publish the initial BAP identity record on-chain.
+- [updateProfile](https://yours-wallet.gitbook.io/provider-api/identity-bap/update-profile.md): Update the wallet's BAP profile. Auto-publishes if no identity has been published yet.
+- [rotateIdentity](https://yours-wallet.gitbook.io/provider-api/identity-bap/rotate-identity.md): Rotate the wallet's BAP identity key for forward security.
+- [attest](https://yours-wallet.gitbook.io/provider-api/identity-bap/attest.md): Publish a BAP attestation for a given URN hash.
+- [computeBapId / resolveBapId](https://yours-wallet.gitbook.io/provider-api/identity-bap/compute-resolve-bap-id.md): Compute the wallet's BAP ID locally or resolve it from on-chain state.
+- [getLockData](https://yours-wallet.gitbook.io/provider-api/locks-timelock/get-lock-data.md): Read the wallet's timelock summary — total locked, currently unlockable, next unlock height.
+- [lockBsv](https://yours-wallet.gitbook.io/provider-api/locks-timelock/lock-bsv.md): Lock BSV until a specified block height.
+- [unlockBsv](https://yours-wallet.gitbook.io/provider-api/locks-timelock/unlock-bsv.md): Unlock all currently-unlockable BSV from prior lockBsv calls.
+- [signBsm](https://yours-wallet.gitbook.io/provider-api/signing-and-encryption/sign-bsm.md): Sign a message using Bitcoin Signed Message (BSM). Supports utf8 / hex / base64 encodings and derivation tags.
+- [getAuthToken](https://yours-wallet.gitbook.io/provider-api/signing-and-encryption/get-auth-token.md): Get a request-scoped auth token signed by the wallet's identity.
+- [Encrypt / Decrypt](https://yours-wallet.gitbook.io/provider-api/signing-and-encryption/encrypt-decrypt.md): Encrypt or decrypt byte arrays to/from a counterparty using ECDH-derived keys.
+- [getFriendPublicKey](https://yours-wallet.gitbook.io/provider-api/signing-and-encryption/get-friend-public-key.md): Derive a per-protocol public key that a friend can compute identically — the basis for shared-secret crypto.
+- [createSocialPost](https://yours-wallet.gitbook.io/provider-api/social/create-social-post.md): Publish a social post on-chain via the wallet's identity.
+- [opnsRegister](https://yours-wallet.gitbook.io/provider-api/opns-names/opns-register.md): Register an OpNS name to the wallet's identity key.
+- [opnsDeregister](https://yours-wallet.gitbook.io/provider-api/opns-names/opns-deregister.md): Remove the identity binding from an OpNS name.
+- [getOpnsNames](https://yours-wallet.gitbook.io/provider-api/opns-names/get-opns-names.md): Get OpNS name ordinals from the wallet, with BEEF for spending.
+- [syncAddresses](https://yours-wallet.gitbook.io/provider-api/sync/sync-addresses.md): Derive P1SAT addresses, fetch new outputs from the indexer, and internalize them into the wallet.
+- [syncMessages](https://yours-wallet.gitbook.io/provider-api/sync/sync-messages.md): Poll the message box for incoming paymail payments and internalize them.
+- [syncCosignDeliveries](https://yours-wallet.gitbook.io/provider-api/sync/sync-cosign-deliveries.md): One-shot pull from a MessageBox slot used by cosign-wrapped BSV-21 mints and transfers.
+- [sweepBsv](https://yours-wallet.gitbook.io/provider-api/sweep-import/sweep-bsv.md): Sweep BSV from an external WIF private key into the wallet.
+- [sweepOrdinals](https://yours-wallet.gitbook.io/provider-api/sweep-import/sweep-ordinals.md): Sweep ordinals from an external WIF private key into the wallet.
+- [sweepBsv21](https://yours-wallet.gitbook.io/provider-api/sweep-import/sweep-bsv21.md): Sweep BSV-21 tokens from an external WIF private key into the wallet.
+- [sweepDeposit](https://yours-wallet.gitbook.io/provider-api/sweep-import/sweep-deposit.md): Rotate plain BSV out of the wallet's P1SAT deposit basket into a fresh BRC-29 funding output.
+- [Blockchain Queries](https://yours-wallet.gitbook.io/provider-api/low-level-brc-100/blockchain-queries.md): BRC-100 wallet methods for querying blockchain state — height, headers, network, version.
+- [Key Derivation](https://yours-wallet.gitbook.io/provider-api/low-level-brc-100/key-derivation.md): BRC-100 / BRC-42 key derivation via wallet.getPublicKey.
+- [Transaction Actions](https://yours-wallet.gitbook.io/provider-api/low-level-brc-100/transaction-actions.md): The core BRC-100 transaction lifecycle — createAction, signAction, abortAction, internalizeAction.
+- [Cryptography](https://yours-wallet.gitbook.io/provider-api/low-level-brc-100/cryptography.md): Wallet-managed cryptography — signatures, HMAC, encryption, decryption.
+- [Certificates](https://yours-wallet.gitbook.io/provider-api/low-level-brc-100/certificates.md): BRC-103 certificate operations — acquire, list, prove (selectively), relinquish.
+- [Discovery](https://yours-wallet.gitbook.io/provider-api/low-level-brc-100/discovery.md): Find users and certificates on overlay networks by identity key or attribute.
+- [Key Linkage](https://yours-wallet.gitbook.io/provider-api/low-level-brc-100/key-linkage.md): Privacy-preserving proofs that two derived keys belong to the same identity.
+- [Output Management](https://yours-wallet.gitbook.io/provider-api/low-level-brc-100/output-management.md): List and relinquish outputs from baskets.
+- [Action History](https://yours-wallet.gitbook.io/provider-api/low-level-brc-100/action-history.md): Query the wallet's history of past actions, filtered by label.
+- [Mint & List Ordinal](https://yours-wallet.gitbook.io/provider-api/cookbook/mint-and-list-ordinal.md): Full end-to-end flow — inscribe a new ordinal, then list it on the marketplace. Listing is currently disabled.
+- [Sweep Paper Wallet](https://yours-wallet.gitbook.io/provider-api/cookbook/sweep-paper-wallet.md): Import BSV, ordinals, and BSV-21 tokens from a WIF private key.
+- [MNEE Send Flow](https://yours-wallet.gitbook.io/provider-api/cookbook/mnee-send-flow.md): Complete MNEE send flow — derive (default prefix '1sat'), balance, send with derivations, poll status.
+- [BAP Identity Setup](https://yours-wallet.gitbook.io/provider-api/cookbook/bap-identity-setup.md): Publish a BAP identity profile with an inscribed avatar.
+- [Event Listening](https://yours-wallet.gitbook.io/provider-api/cookbook/event-listening.md): React to wallet-emitted events — signedOut and switchAccount.
+- [Multi-Account Handling](https://yours-wallet.gitbook.io/provider-api/cookbook/multi-account-handling.md): Handle users who switch between multiple accounts in the wallet without leaking state.
+- [Legacy Provider → @1sat/actions](https://yours-wallet.gitbook.io/provider-api/migration/legacy-provider.md): Map the legacy window.yours injected provider to the modern @1sat/actions API.
+- [Version History](https://yours-wallet.gitbook.io/provider-api/migration/version-history.md): Package versions, breaking changes, and migration notes between releases.
+- [Errors](https://yours-wallet.gitbook.io/provider-api/reference/errors.md): Catalog of error codes — what triggers them and how an agent should respond.
+- [Types](https://yours-wallet.gitbook.io/provider-api/reference/types.md): Type reference — WalletOutput, WalletStatus, BEEF, ordinal tags, common envelopes.
+- [Packages](https://yours-wallet.gitbook.io/provider-api/reference/packages.md): Install commands and package responsibilities for the Yours Wallet integration stack.
+- [Events](https://yours-wallet.gitbook.io/provider-api/reference/events.md): YoursEmitEvent reference — wallet-emitted custom events that the dApp can subscribe to.

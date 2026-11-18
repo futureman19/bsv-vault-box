@@ -1,0 +1,132 @@
+(node:7268) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ previously seen empty snapshot after payment still detects finality loss (405.7537ms)
+✔ backwards observer clock becomes durable unavailable hold (242.0292ms)
+✔ reducer rejects forged receipt binding (124.9406ms)
+✔ reducer rejects forged receipt address (130.5836ms)
+✔ reducer rejects forged receipt invoiceId (116.624ms)
+✔ reducer rejects forged receipt outpoint (117.5024ms)
+✔ reducer rejects forged receipt satoshis (116.485ms)
+✔ partial can complete; depth loss and later restoration remain held (346.2676ms)
+✔ settled receipt survives expiry and duplicate history rows without double counting (269.794ms)
+✖ actual unconfirmed transaction waits without manufacturing block evidence (167.5084ms)
+✖ Transfer freshly detects a vanished cached payment before signing (6388.0483ms)
+✖ payment loss during async signing retains PREPARED bytes without ATTEMPT (5591.0553ms)
+✖ resumed PREPARED requires runtime observer and retains exact bytes (7799.9587ms)
+✖ Reserve requires fresh complete zero-history including unconfirmed rows (218.4897ms)
+✔ configuration after unpaid Reserve is forbidden (202.56ms)
+✔ observer has no public network default (0.2808ms)
+✔ payment API is available (0.0626ms)
+✔ same journal signs invoice, blocks direct delivery, restarts read-only, completes once (33549.9916ms)
+✔ configuration rejects changed binding, invalid address/network and changes after reservation (461.6976ms)
+✔ zero cannot unlock Transfer (4131.8752ms)
+✔ partial cannot unlock Transfer (3804.6695ms)
+✔ unconfirmed depth cannot unlock Transfer (4042.1439ms)
+✔ excess cannot unlock Transfer (4164.4195ms)
+✔ expired cannot unlock Transfer (4268.3132ms)
+✔ reducer PREPARED and ATTEMPT cannot bypass payment gate (2440.595ms)
+✔ finality loss is monotonic without erasing TRANSFERRED (11857.032ms)
+✔ finality loss is monotonic without erasing OPENED (22406.9575ms)
+✔ finality loss is monotonic without erasing WITHDRAWN (32596.4416ms)
+✔ unavailable observation is durable and blocks subsequent happy observation (355.9214ms)
+✔ HTTP observer rejects inconsistent txid (254.1801ms)
+✔ HTTP observer rejects inconsistent raw (258.731ms)
+✔ HTTP observer rejects inconsistent script (246.3285ms)
+✔ HTTP observer rejects inconsistent amount (235.2174ms)
+✔ HTTP observer rejects inconsistent block (233.6487ms)
+✔ HTTP observer rejects inconsistent height (214.0752ms)
+✔ HTTP observer rejects inconsistent membership (215.0184ms)
+✔ HTTP observer rejects inconsistent history (231.5952ms)
+✔ HTTP observer rejects inconsistent network (185.8024ms)
+ℹ tests 38
+ℹ suites 0
+ℹ pass 33
+ℹ fail 5
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 148679.4842
+
+✖ failing tests:
+
+test at launch\paid\payment.test.js:40:1
+✖ actual unconfirmed transaction waits without manufacturing block evidence (167.5084ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+  + [
+  +   'PAYMENT_UNAVAILABLE'
+  + ]
+  - []
+  
+      at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_bc4da8be\launch\paid\payment.test.js:41:195)
+      at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+      at async Test.run (node:internal/test_runner/test:1113:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: [ 'PAYMENT_UNAVAILABLE' ],
+    expected: [],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at launch\paid\payment.test.js:43:1
+✖ Transfer freshly detects a vanished cached payment before signing (6388.0483ms)
+  AssertionError [ERR_ASSERTION]: Missing expected rejection.
+      at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+      at async TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_bc4da8be\launch\paid\payment.test.js:46:2)
+      at async Test.run (node:internal/test_runner/test:1113:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: /payment/i,
+    operator: 'rejects',
+    diff: 'simple'
+  }
+
+test at launch\paid\payment.test.js:48:1
+✖ payment loss during async signing retains PREPARED bytes without ATTEMPT (5591.0553ms)
+  AssertionError [ERR_ASSERTION]: Missing expected rejection.
+      at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+      at async TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_bc4da8be\launch\paid\payment.test.js:51:2)
+      at async Test.run (node:internal/test_runner/test:1113:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: /payment/i,
+    operator: 'rejects',
+    diff: 'simple'
+  }
+
+test at launch\paid\payment.test.js:53:1
+✖ resumed PREPARED requires runtime observer and retains exact bytes (7799.9587ms)
+  AssertionError [ERR_ASSERTION]: Missing expected rejection.
+      at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+      at async TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_bc4da8be\launch\paid\payment.test.js:55:53)
+      at async Test.run (node:internal/test_runner/test:1113:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: /payment/i,
+    operator: 'rejects',
+    diff: 'simple'
+  }
+
+test at launch\paid\payment.test.js:57:1
+✖ Reserve requires fresh complete zero-history including unconfirmed rows (218.4897ms)
+  AssertionError [ERR_ASSERTION]: Missing expected rejection.
+      at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+      at async TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_bc4da8be\launch\paid\payment.test.js:58:95)
+      at async Test.run (node:internal/test_runner/test:1113:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: /fresh|history|payment/i,
+    operator: 'rejects',
+    diff: 'simple'
+  }

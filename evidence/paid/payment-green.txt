@@ -1,0 +1,57 @@
+(node:28508) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ one buyer/design/origin remains bound from reservation to actual withdrawn ordinal (25912.2149ms)
+(node:13656) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ payment API is available (0.7072ms)
+✔ same journal signs invoice, blocks direct delivery, restarts read-only, completes once (32912.6643ms)
+✔ configuration rejects changed binding, invalid address/network and changes after reservation (549.7927ms)
+✔ zero cannot unlock Transfer (4214.077ms)
+✔ partial cannot unlock Transfer (3945.6836ms)
+✔ unconfirmed depth cannot unlock Transfer (3388.4289ms)
+✔ excess cannot unlock Transfer (3900.6161ms)
+✔ expired cannot unlock Transfer (3789.7381ms)
+✔ reducer PREPARED and ATTEMPT cannot bypass payment gate (2219.9261ms)
+✔ finality loss is monotonic without erasing TRANSFERRED (9489.4054ms)
+✔ finality loss is monotonic without erasing OPENED (16419.9425ms)
+✔ finality loss is monotonic without erasing WITHDRAWN (31672.946ms)
+✖ unavailable observation is durable and blocks subsequent happy observation (380.5747ms)
+✔ HTTP observer rejects inconsistent txid (301.1802ms)
+✔ HTTP observer rejects inconsistent raw (269.7791ms)
+✔ HTTP observer rejects inconsistent script (216.9081ms)
+✔ HTTP observer rejects inconsistent amount (204.732ms)
+✔ HTTP observer rejects inconsistent block (320.9883ms)
+✔ HTTP observer rejects inconsistent height (194.3507ms)
+✔ HTTP observer rejects inconsistent membership (211.5916ms)
+✔ HTTP observer rejects inconsistent history (296.7093ms)
+✔ HTTP observer rejects inconsistent network (247.5241ms)
+ℹ tests 23
+ℹ suites 0
+ℹ pass 22
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 115515.1101
+
+✖ failing tests:
+
+test at launch\paid\payment.test.js:53:1
+✖ unavailable observation is durable and blocks subsequent happy observation (380.5747ms)
+  AssertionError [ERR_ASSERTION]: payment clock moved backwards
+      at Object.paymentEvent (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_bc4da8be\launch\paid\payment.js:58:34)
+      at reduce (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_bc4da8be\launch\continuous\engine.js:72:98)
+      at Journal.append (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_bc4da8be\launch\continuous\engine.js:132:91)
+      at C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_bc4da8be\launch\paid\payment.js:85:82
+      at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+      at async Engine.exclusive (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_bc4da8be\launch\continuous\engine.js:145:89)
+      at async TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_bc4da8be\launch\paid\payment.test.js:54:236)
+      at async Test.run (node:internal/test_runner/test:1113:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

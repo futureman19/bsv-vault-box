@@ -1,0 +1,62 @@
+(node:32380) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✖ explicit testnet observer verifies matching read-only chain (176.8843ms)
+✖ explicit mainnet observer verifies matching read-only chain (87.3134ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 0
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 534.4068
+
+✖ failing tests:
+
+test at launch\paid\payment.test.js:63:44
+✖ explicit testnet observer verifies matching read-only chain (176.8843ms)
+  AssertionError [ERR_ASSERTION]: invoice network mismatch
+  + actual - expected
+  
+  + 'testnet'
+  - 'offline-fixture'
+  
+      at Object.validateInvoice (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_bc4da8be\launch\paid\payment.js:15:9)
+      at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_bc4da8be\launch\paid\payment.test.js:64:267)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.start (node:internal/test_runner/test:1003:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:358:17)
+      at process.processTicksAndRejections (node:internal/process/task_queues:103:5) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'testnet',
+    expected: 'offline-fixture',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at launch\paid\payment.test.js:63:44
+✖ explicit mainnet observer verifies matching read-only chain (87.3134ms)
+  AssertionError [ERR_ASSERTION]: invoice network mismatch
+  + actual - expected
+  
+  + 'mainnet'
+  - 'offline-fixture'
+  
+      at Object.validateInvoice (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_bc4da8be\launch\paid\payment.js:15:9)
+      at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_bc4da8be\launch\paid\payment.test.js:64:267)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:788:18)
+      at Test.postRun (node:internal/test_runner/test:1235:19)
+      at Test.run (node:internal/test_runner/test:1163:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:358:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'mainnet',
+    expected: 'offline-fixture',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

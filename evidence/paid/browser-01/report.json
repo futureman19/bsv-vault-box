@@ -1,0 +1,18 @@
+{
+  "checks": [
+    "desktop: reject, partial/depth gate, five transitions, immutable binding, reload, exact download, terminal excess",
+    "desktop: decoded image and no overflow",
+    "mobile: reject, partial/depth gate, five transitions, immutable binding, reload, exact download, terminal excess",
+    "mobile: decoded image and no overflow",
+    "ambiguous exact signed bytes persist across reload",
+    "ambiguous: decoded image and no overflow"
+  ],
+  "external": [],
+  "page_errors": [],
+  "ports_closed": [
+    8794,
+    8795,
+    8796
+  ],
+  "result": "PASS"
+}

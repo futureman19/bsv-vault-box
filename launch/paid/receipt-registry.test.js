@@ -1,0 +1,12 @@
+'use strict';
+const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path');
+const {DatabaseSync}=require('node:sqlite');
+const modulePath=path.join(__dirname,'receipt-registry.js');
+const Registry=fs.existsSync(modulePath)?require(modulePath).ReceiptRegistry:undefined;
+const root=path.join(process.env.TMPDIR||__dirname,'paid-registry-tests');fs.mkdirSync(root,{recursive:true});
+const invoice={id:'one',binding:{origin:'immutable'},address:'fixture-address',amount:1000,network:'offline-fixture',minimumDepth:2,expiresAt:2000};
+function setup(t){assert.equal(typeof Registry,'function','durable ReceiptRegistry required');const dir=fs.mkdtempSync(path.join(root,'run-')),file=path.join(dir,'shared.sqlite');const a=new Registry(file),b=new Registry(file);t.after(()=>{a.close();b.close();fs.rmSync(dir,{recursive:true,force:true});});return {a,b,file};}
+test('shared registry enforces unique address, invoice owner and all immutable terms',t=>{const {a,b}=setup(t);a.allocate(invoice,'journal-a');b.allocate(invoice,'journal-a');assert.throws(()=>b.allocate({...invoice,id:'two'},'journal-b'),/address|UNIQUE/i);assert.throws(()=>b.allocate(invoice,'journal-b'),/owner/i);for(const key of ['amount','binding','network','minimumDepth','expiresAt','address'])assert.throws(()=>b.allocate({...invoice,[key]:key==='binding'?{origin:'changed'}:key==='amount'?1001:'changed'},'journal-a'),/immutable/);});
+test('receipt outpoint attribution is unique and immutable across invoices',t=>{const {a,b}=setup(t);a.allocate(invoice,'a');const other={...invoice,id:'two',address:'different'};b.allocate(other,'b');const receipts=[{outpoint:'a'.repeat(64)+':0'}];a.claim(invoice,'a',receipts);b.claim(invoice,'a',receipts);assert.throws(()=>b.claim(other,'b',receipts),/attribution/);});
+test('allocation survives closing and reopening without journal commit or release',t=>{const {a,file}=setup(t);a.allocate(invoice,'a');const c=new Registry(file);try{assert.throws(()=>c.allocate({...invoice,id:'new'},'b'),/address|UNIQUE/i);}finally{c.close();}});
+test('production registry rejects memory-only allocation and borrowed DB requires explicit fixture scope',()=>{assert.equal(typeof Registry,'function');assert.throws(()=>new Registry(':memory:'),/durable/);const db=new DatabaseSync(':memory:');try{assert.throws(()=>new Registry(db),/fixture/);}finally{db.close();}});

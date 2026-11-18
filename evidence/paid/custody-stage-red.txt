@@ -1,0 +1,33 @@
+(node:32788) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ Reserve signs exact canonical response digest; full fixed custody lifecycle VM replays (1962.5203ms)
+✖ rejects inconsistent trusted stage before prompting (84.1313ms)
+✔ request mutations and disconnected session never prompt (697.2428ms)
+✔ bad DER, wrong-key and reversed-digest signatures are rejected (47.5503ms)
+✔ invalid independently supplied funding is rejected before buyer signing (1111.4491ms)
+✔ real YoursTransport BRC100 boundary and continuous Engine complete locally (25364.1387ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 5
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 30114.2388
+
+✖ failing tests:
+
+test at launch\paid\custody-wallet.test.js:50:1
+✖ rejects inconsistent trusted stage before prompting (84.1313ms)
+  AssertionError [ERR_ASSERTION]: Missing expected rejection.
+      at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+      at async TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_bc4da8be\launch\paid\custody-wallet.test.js:52:2)
+      at async Test.run (node:internal/test_runner/test:1113:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: /stage/,
+    operator: 'rejects',
+    diff: 'simple'
+  }

@@ -1,0 +1,115 @@
+(node:30172) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ actual child-process exit at afterPrepared replays safely in fresh process connection (1399.1524ms)
+✔ actual child-process exit at afterAttempt replays safely in fresh process connection (1226.0665ms)
+(node:27208) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ wallet reject leaves reservation unallocated (229.6001ms)
+✔ wallet disconnect leaves reservation unallocated (130.9979ms)
+✔ wallet wrong-buyer leaves reservation unallocated (136.8284ms)
+✔ wallet wrong-network leaves reservation unallocated (123.5034ms)
+✔ wallet malicious leaves reservation unallocated (136.0821ms)
+✔ swapped designId rejected even with recomputed local journal hashes (153.4202ms)
+✔ swapped metadataSha256 rejected even with recomputed local journal hashes (133.7515ms)
+✔ swapped origin rejected even with recomputed local journal hashes (133.3914ms)
+✔ swapped buyerPubkey rejected even with recomputed local journal hashes (143.8133ms)
+✔ valid signature on different binding is rejected at application boundary (59.8199ms)
+✔ duplicate reservation and transition do not sign or dispense twice (1229.0439ms)
+✔ restart at prepared handoff uses exact saved signed bytes without wallet or new funding (942.2256ms)
+✔ crash after durable attempt never retries or replaces funding on restart (1081.5212ms)
+✖ ambiguous send holds exact raw/funding bytes across restart with no retry (927.5693ms)
+✔ authentically signed wallet response with wrong transition fails before send (1177.5408ms)
+✔ explicit action prevents stale browser request from executing the next phase (1081.3958ms)
+✔ overlapping and cross-instance requests cannot both reach send (872.027ms)
+✔ finality/excess holds preserve confirmed ownership history and cannot reopen allocation (8708.9032ms)
+(node:30620) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ local server serves manifest-pinned art and real state; blocks foreign origins and stale actions (1256.5105ms)
+(node:10648) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ previously seen empty snapshot after payment still detects finality loss (601.1426ms)
+✔ backwards observer clock becomes durable unavailable hold (359.1616ms)
+✔ reducer rejects forged receipt binding (167.0205ms)
+✔ reducer rejects forged receipt address (157.9626ms)
+✔ reducer rejects forged receipt invoiceId (174.6117ms)
+✔ reducer rejects forged receipt outpoint (166.6743ms)
+✔ reducer rejects forged receipt satoshis (183.3059ms)
+✔ partial can complete; depth loss and later restoration remain held (573.0555ms)
+✔ settled receipt survives expiry and duplicate history rows without double counting (392.7541ms)
+✔ actual unconfirmed transaction waits without manufacturing block evidence (272.6465ms)
+✔ Transfer freshly detects a vanished cached payment before signing (4612.5642ms)
+✔ payment loss during async signing retains PREPARED bytes without ATTEMPT (7217.7149ms)
+✔ resumed PREPARED requires runtime observer and retains exact bytes (9290.0482ms)
+✔ Reserve requires fresh complete zero-history including unconfirmed rows (245.2858ms)
+✔ configuration after unpaid Reserve is forbidden (170.8427ms)
+✔ observer has no public network default (0.2113ms)
+✔ missing shared registry rejects live configuration even with matching policy (103.9683ms)
+✔ shared registry prevents address and same-invoice reuse across real journals (326.328ms)
+✔ unavailable post-sign read preserves exact bytes and no send (7040.6856ms)
+✔ resumed PREPARED with attached observer observes twice and sends identical bytes once (12605.2378ms)
+✔ after ATTEMPT restart never observes or sends again (10609.1812ms)
+✔ explicit testnet observer verifies matching read-only chain (91.0816ms)
+✔ explicit mainnet observer verifies matching read-only chain (115.2609ms)
+✔ payment API is available (0.1476ms)
+✔ same journal signs invoice, blocks direct delivery, restarts read-only, completes once (29753.3212ms)
+✔ configuration rejects changed binding, invalid address/network and changes after reservation (501.9971ms)
+✔ zero cannot unlock Transfer (4231.9897ms)
+✔ partial cannot unlock Transfer (4314.5169ms)
+✔ unconfirmed depth cannot unlock Transfer (4704.0147ms)
+✔ excess cannot unlock Transfer (5461.3043ms)
+✔ expired cannot unlock Transfer (5184.2909ms)
+✔ reducer PREPARED and ATTEMPT cannot bypass payment gate (2682.2828ms)
+✔ finality loss is monotonic without erasing TRANSFERRED (13765.2204ms)
+✔ finality loss is monotonic without erasing OPENED (22975.0696ms)
+✔ finality loss is monotonic without erasing WITHDRAWN (34428.1293ms)
+✔ unavailable observation is durable and blocks subsequent happy observation (372.8995ms)
+✔ HTTP observer rejects inconsistent txid (279.1116ms)
+✔ HTTP observer rejects inconsistent raw (275.3209ms)
+✔ HTTP observer rejects inconsistent script (307.5706ms)
+✔ HTTP observer rejects inconsistent amount (288.536ms)
+✔ HTTP observer rejects inconsistent block (270.6149ms)
+✔ HTTP observer rejects inconsistent height (312.9799ms)
+✔ HTTP observer rejects inconsistent membership (308.7891ms)
+✔ HTTP observer rejects inconsistent history (287.4125ms)
+✔ HTTP observer rejects inconsistent network (281.3553ms)
+(node:25876) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ shared registry enforces unique address, invoice owner and all immutable terms (30.3541ms)
+✔ receipt outpoint attribution is unique and immutable across invoices (26.0654ms)
+✔ allocation survives closing and reopening without journal commit or release (23.6147ms)
+✔ production registry rejects memory-only allocation and borrowed DB requires explicit fixture scope (0.4316ms)
+ℹ tests 70
+ℹ suites 0
+ℹ pass 69
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 187423.6549
+
+✖ failing tests:
+
+test at launch\continuous\security.test.js:55:1
+✖ ambiguous send holds exact raw/funding bytes across restart with no retry (927.5693ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /reconciliation hold/. Input:
+  
+  'Error: Interrupted send quarantined; same bytes retained, no retry'
+  
+      at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+      at async TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_bc4da8be\launch\continuous\security.test.js:60:7)
+      at async Test.run (node:internal/test_runner/test:1113:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: Interrupted send quarantined; same bytes retained, no retry
+        at C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_bc4da8be\launch\continuous\engine.js:164:13
+        at Engine.exclusive (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_bc4da8be\launch\continuous\engine.js:146:95)
+        at Engine.advance (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_bc4da8be\launch\continuous\engine.js:157:50)
+        at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_bc4da8be\launch\continuous\security.test.js:60:30)
+        at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+        at async Test.run (node:internal/test_runner/test:1113:7)
+        at async Test.processPendingSubtests (node:internal/test_runner/test:788:7),
+    expected: /reconciliation hold/,
+    operator: 'rejects',
+    diff: 'simple'
+  }

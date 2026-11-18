@@ -1,0 +1,18 @@
+✔ self-contained browser bundles -> real YoursTransport -> HTTP bridge -> local DER verification (151.733ms)
+✔ browser fails closed: malicious (33.9485ms)
+✔ browser fails closed: account-switch (27.8869ms)
+✔ browser fails closed: reject (28.192ms)
+✔ browser cancellation drops delayed signature and server rejects replay (145.7168ms)
+✔ HTTP origin and bearer sessions enforced (22.4431ms)
+✔ owner connection disabled by default and never runs on construction (1.1645ms)
+✔ uses pinned connect result shape and explicit auto-detect config (0.695ms)
+✔ late connect response is disconnected after cancellation (0.1584ms)
+✔ unexpected provider and identity mismatches fail closed (0.2979ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 510.5038

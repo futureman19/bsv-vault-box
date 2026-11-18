@@ -1,0 +1,16 @@
+{
+  "name": "boxsv-paid-browser-wallet",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build:wallet": "node browser-wallet-build.js",
+    "test:wallet": "node --test browser-wallet.test.js signing-bridge.test.js"
+  },
+  "dependencies": {
+    "@1sat/connect": "0.1.2",
+    "@bsv/sdk": "4.1.1"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2"
+  }
+}
