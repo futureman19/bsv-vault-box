@@ -1,0 +1,56 @@
+warning: `--full-auto` is deprecated; use `--sandbox workspace-write` instead.
+Reading additional input from stdin...
+2026-11-04T15:53:31.621005Z ERROR codex_login::auth::manager: Failed to refresh token: 401 Unauthorized: {
+  "error": {
+    "message": "Could not validate your refresh token. Please try signing in again.",
+    "type": "invalid_request_error",
+    "param": null,
+    "code": "invalid_refresh_token"
+  }
+}
+2026-11-04T15:53:31.621085Z ERROR codex_login::auth::manager: Failed to refresh token: Your access token could not be refreshed. Please log out and sign in again.
+2026-11-04T15:53:31.621585Z ERROR codex_login::auth::manager: Failed to refresh token: Your access token could not be refreshed. Please log out and sign in again.
+2026-11-04T15:53:31.901328Z ERROR codex_core::session: failed to load skill C:\Users\futur\.agents\skills\a-stock-analysis-1.0.0\SKILL.md: invalid YAML: mapping values are not allowed in this context at line 2 column 103
+2026-11-04T15:53:31.901359Z ERROR codex_core::session: failed to load skill C:\Users\futur\.agents\skills\debug-pro-1.0.0\SKILL.md: missing YAML frontmatter delimited by ---
+2026-11-04T15:53:31.901365Z ERROR codex_core::session: failed to load skill C:\Users\futur\.agents\skills\feishu-drive-1.0.0\SKILL.md: invalid YAML: could not find expected ':' at line 13 column 1, while scanning a simple key at line 12 column 1
+2026-11-04T15:53:31.901370Z ERROR codex_core::session: failed to load skill C:\Users\futur\.agents\skills\test-runner-1.0.0\SKILL.md: missing YAML frontmatter delimited by ---
+2026-11-04T15:53:31.905175Z ERROR codex_login::auth::manager: Failed to refresh token: Your access token could not be refreshed. Please log out and sign in again.
+2026-11-04T15:53:31.906319Z ERROR codex_login::auth::manager: Failed to refresh token: Your access token could not be refreshed. Please log out and sign in again.
+2026-11-04T15:53:32.035201Z ERROR codex_models_manager::manager: failed to refresh available models: unexpected status 401 Unauthorized: Could not find the appropriate key in your authentication token. Please try signing in again., url: https://chatgpt.com/backend-api/codex/models?client_version=0.128.0, cf-ray: a554cac6ada73d78-LAX, request id: req_d18f695be0ba43798b281db9c66aad7c, auth error: 401, auth error code: invalid_jwt
+2026-11-04T15:53:32.035885Z ERROR codex_login::auth::manager: Failed to refresh token: Your access token could not be refreshed. Please log out and sign in again.
+2026-11-04T15:53:32.230412Z ERROR codex_login::auth::manager: Failed to refresh token: Your access token could not be refreshed. Please log out and sign in again.
+2026-11-04T15:53:32.231257Z ERROR codex_login::auth::manager: Failed to refresh token: Your access token could not be refreshed. Please log out and sign in again.
+OpenAI Codex v0.128.0 (research preview)
+--------
+workdir: C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_f25b1e63
+model: gpt-6-astra
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR, C:\Users\futur\.codex\memories]
+reasoning effort: xhigh
+reasoning summaries: none
+session id: 01a1a743-f883-7f92-9285-24474c010a7c
+--------
+user
+Read preview/malta-v1/lane-prompt.md and implement the complete bounded task. Follow its scope strictly.
+2026-11-04T15:53:32.276233Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when UnexpectedContentType(Some("text/plain; body: {\n  \"error\": {\n    \"message\": \"Could not find the appropriate key in your authentication token. Please try signing in again.\",\n    \"type\": \"invalid_request_error\",\n    \"code\": \"invalid_jwt\",\n    \"param\": null\n  },\n  \"status\": 401\n}"))
+2026-11-04T15:53:32.303738Z ERROR codex_login::auth::manager: Failed to refresh token: Your access token could not be refreshed. Please log out and sign in again.
+2026-11-04T15:53:32.304185Z ERROR codex_login::auth::manager: Failed to refresh token: Your access token could not be refreshed. Please log out and sign in again.
+2026-11-04T15:53:32.304500Z ERROR codex_login::auth::manager: Failed to refresh token: Your access token could not be refreshed. Please log out and sign in again.
+2026-11-04T15:53:32.469546Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 401 Unauthorized, url: wss://chatgpt.com/backend-api/codex/responses
+2026-11-04T15:53:32.470594Z ERROR codex_login::auth::manager: Failed to refresh token: Your access token could not be refreshed. Please log out and sign in again.
+2026-11-04T15:53:32.470893Z ERROR codex_login::auth::manager: Failed to refresh token: Your access token could not be refreshed. Please log out and sign in again.
+2026-11-04T15:53:32.471184Z ERROR codex_login::auth::manager: Failed to refresh token: Your access token could not be refreshed. Please log out and sign in again.
+2026-11-04T15:53:32.720052Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 401 Unauthorized, url: wss://chatgpt.com/backend-api/codex/responses
+2026-11-04T15:53:33.004278Z ERROR codex_login::auth::manager: Failed to refresh token: Your access token could not be refreshed. Please log out and sign in again.
+2026-11-04T15:53:33.276772Z ERROR codex_login::auth::manager: Failed to refresh token: Your access token could not be refreshed. Please log out and sign in again.
+2026-11-04T15:53:33.277173Z ERROR codex_login::auth::manager: Failed to refresh token: Your access token could not be refreshed. Please log out and sign in again.
+2026-11-04T15:53:33.277496Z ERROR codex_login::auth::manager: Failed to refresh token: Your access token could not be refreshed. Please log out and sign in again.
+2026-11-04T15:53:33.511319Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 401 Unauthorized, url: wss://chatgpt.com/backend-api/codex/responses
+2026-11-04T15:53:33.512448Z ERROR codex_login::auth::manager: Failed to refresh token: Your access token could not be refreshed. Please log out and sign in again.
+2026-11-04T15:53:33.512799Z ERROR codex_login::auth::manager: Failed to refresh token: Your access token could not be refreshed. Please log out and sign in again.
+2026-11-04T15:53:33.513068Z ERROR codex_login::auth::manager: Failed to refresh token: Your access token could not be refreshed. Please log out and sign in again.
+2026-11-04T15:53:33.702175Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 401 Unauthorized, url: wss://chatgpt.com/backend-api/codex/responses
+ERROR: Your access token could not be refreshed. Please log out and sign in again.
+2026-11-04T15:53:33.763026Z ERROR codex_login::auth::manager: Failed to refresh token: Your access token could not be refreshed. Please log out and sign in again.
+ERROR: Your access token could not be refreshed. Please log out and sign in again.

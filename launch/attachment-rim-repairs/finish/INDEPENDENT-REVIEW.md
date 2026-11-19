@@ -1,0 +1,20 @@
+# Independent final visual review — retained findings
+
+Read-only delegation `deleg_08914d66`, tasks 0 and 1, reviewed frozen asset HEAD `06df57e38f1307524fc2570b34e28c5e79ec733e`. Both inspected actual full-resolution desktop/mobile closed/open originals and finals using vision, plus original review and technical evidence. Neither edited files nor reran captures/tests. No newly demonstrated regression in the ten candidates; no final art approval.
+
+Exact image scope: for each of afghanistan, croatia, iceland, lithuania, malta, mozambique, panama, saint-kitts-and-nevis, tonga, venezuela: `launch/attachment-rim-repairs/finish/<id>/before/{desktop-closed,desktop-open,mobile-closed,mobile-open}.png` and `preview/<id>-repair-v2/` with the same four names (Iceland final images instead in `finish/iceland/original/`). Reviewed `finish/<id>/original-review.json` and final repair/preservation/contact/parity/browser/hinge evidence. Additional Panama pass1 desktop-open/mobile-closed; supplemental rear views for Panama, Saint Kitts, Tonga, Venezuela and Iceland; Tonga desktop-open rim crop. Iceland pixel ownership and BVH support reports were read.
+
+| ID | Independent finding / retained limitation |
+|---|---|
+| Afghanistan | Four measured rim gaps repaired; no new regression. Rim still segmented/stepped, broad closed reveal, bright veined lapis and angular pale mountains remain stylized. Front stills alone do not establish hidden hinge contact. |
+| Croatia | Four measured rim gaps repaired; no regression. Green trim contrasts with pale corners; regular bowl-like pools, opaque water and angular spillway junctions remain. |
+| Lithuania | Four gaps repaired; no regression. Pale stepped corners, wood-like ripples, angular dune and turquoise seam remain. Black promotional corner accents versus pale model corners remains a substantive fidelity decision, not cleared by attachment repair. |
+| Malta | Four gaps repaired; no regression. Blocky joints, teal closed reveal, smooth limestone and simplified harbour remain. Narrow linear bastion versus broader promotional footprint remains a substantive landmark decision. |
+| Mozambique | Four gaps repaired; no regression. Abrupt straight/diagonal channel offsets remain visible in BEFORE and final open lid. Demonstrated pre-existing finish/mapping concern, not proven broken mesh. Pointed dunes and regular wood-like shell remain; preserve channel-finish decision, do not call water realism fixed. |
+| Panama | Four gaps repaired; final raised camera reveals three tree forms, two partly overlap. Same-camera pass1 separates geometry from presentation. Sparse flat foliage, planar banks, streaky jade and pre-existing horizontal lid texture transition remain. Two passes exhausted. |
+| Saint Kitts and Nevis | Four gaps repaired; both islands readable, no regression. Faceting/opaque water/brushed body remain. Rear capture and contact report do not establish a detached hinge despite suspended-lid impression from front. |
+| Tonga | Disconnected corner joins repaired; no regression. Strong dark closed seam looks slightly ajar, pre-existing. Flat clay-like brown, weak barkcloth and subtle diamonds remain. Rim crop shows layered stepped construction, not proven floating trim. |
+| Venezuela | Four gaps repaired; no regression. Soft sandstone, weak plateau/body separation, white-cord cascade and flat pool remain. Upper brass piece in open view is released front clasp, not broken rear hinge. |
+| Iceland | Unchanged geometry justified: pixel IDs identify basalt fractures/interior walls and sampled support intersections rebut detached-trim claim. Graphic greenery, thin cyan river, limited ice reflection/depth and title wrap remain. Historical archive holds are not cleared by visual review. |
+
+Read reports support source/export, sampled motion and preservation; reviewers did not independently execute those tests. Surface intersection is not welding/manufacturing certification. Static captures cannot establish flicker-free movement or all hidden contacts. The parent subsequently packages exact candidate bytes, not altered geometry.
