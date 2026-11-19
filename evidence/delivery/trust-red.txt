@@ -1,0 +1,42 @@
+(node:26452) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ selected Japan reservation reaches signed custody with durable replay and exact buyer (4895.6243ms)
+✔ no execution with missing terms or default disabled mode (661.8331ms)
+✔ partial and insufficient depth cannot sign; replay observations do not duplicate receipts (7118.6416ms)
+✔ immutable reservation buyer, design, origin and address bindings reject conflict (1475.5869ms)
+✔ ambiguous transport holds after restart without signing or replacement funding (6277.6003ms)
+✔ payment is revalidated after signing; loss prevents any send and survives restart (3330.9222ms)
+✔ terminal payment loss retains custody history and late excess is held (6707.9291ms)
+✖ external issuer trust is required again on restart (573.7379ms)
+✔ read-only recovery retains exact bytes without database writes (4953.1202ms)
+✔ confirmed exact bytes can reconcile ambiguity but never clear hold; later loss retains ownership (10659.8483ms)
+✔ receipt uniqueness spans reservations, processes and restarts (6440.8546ms)
+✔ prepared-only restart reuses signed bytes; attempted restart quarantines (14257.296ms)
+✔ expiry and excess never sign, refund or release allocation (2197.7349ms)
+✔ two SQLite connections cannot obtain two signing attempts (2627.4662ms)
+✔ modified detached metadata and wrong signed transaction are rejected (1851.7176ms)
+ℹ tests 15
+ℹ suites 0
+ℹ pass 14
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 74283.824
+
+✖ failing tests:
+
+test at mint\test\delivery.test.js:84:1
+✖ external issuer trust is required again on restart (573.7379ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_8cbaabe5\mint\test\delivery.test.js:86:10)
+      at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+      at async Test.run (node:internal/test_runner/test:1113:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: /policy|issuer/,
+    operator: 'throws',
+    diff: 'simple'
+  }

@@ -9,14 +9,14 @@ function provenance(s) {
   return verifyLaunch({f:{foreign:tx(s.inventory.foreign),box:tx(s.inventory.box)},entries:s.history.map(h=>tx(h.response.raw)),fundingParents:s.history.map(h=>tx(h.response.funding)),metadata:s.inventory.metadata,envelope:s.inventory.envelope,mediaHashes:{modelSha256:s.candidate.model.sha256,artSha256:s.candidate.art.sha256},policy:{issuer:s.policy.seller,collectionId:'boxes-from-impossible-places',designId:s.binding.designId}});
 }
 function requestFor(s,key,action) {
-  const request={protocol:'BOXSV-CONTINUOUS-REQUEST-1',network:NETWORK,key,action,binding:s.binding};
+  const request={protocol:'BOXSV-CONTINUOUS-REQUEST-1',network:s.policy.network||NETWORK,key,action,binding:s.binding};
   if(action!=='Reserve') Object.assign(request,{actionIndex:ACTIONS.indexOf(action),inventory:s.inventory,source:s.history.at(-1)?.response.raw||null});
   return request;
 }
-function verifyResponse(s,request,response) {
+function verifyResponse(s,request,response,fundingPolicy) {
   const signer=request.action==='Reserve'||request.action==='Open'||request.action==='Withdraw'?s.policy.buyer:s.policy.seller;
   const {signature,...signed}=response;
-  assert.equal(response.network,NETWORK,'wrong network');
+  assert.equal(response.network,s.policy.network||NETWORK,'wrong network');
   assert.equal(response.signer,signer,'wrong buyer/owner');
   assert.equal(response.requestHash,sha(canonical(request)),'signed response request mismatch');
   assert.ok(verifySignature(canonical(signed),signature,signer),'malicious wallet signed response');
@@ -24,18 +24,24 @@ function verifyResponse(s,request,response) {
   assert.deepEqual(Object.keys(response).sort(),['funding','fundingRoot','network','raw','requestHash','signature','signer']);
   const t=tx(response.raw), funding=tx(response.funding), root=tx(response.fundingRoot);
   assert.equal(raw(t),response.raw,'noncanonical transaction');
-  assert.equal(funding.outputs.length,1);assert.equal(funding.outputs[0].satoshis,100000);
+  assert.equal(funding.outputs.length,1);assert.equal(funding.outputs[0].satoshis,fundingPolicy?.amount??100000);
   assert.equal(funding.outputs[0].script.toHex(),M.pay(s.policy.sponsor).toHex());
   assert.ok(M.verify(funding,[root]).success,'funding preparation Script');
+  if(fundingPolicy) {
+    assert.equal(response.funding,fundingPolicy.raw,'pinned funding changed');
+    assert.equal(response.fundingRoot,fundingPolicy.root,'pinned funding root changed');
+    assert.ok(Number.isSafeInteger(fundingPolicy.amount)&&Number.isSafeInteger(fundingPolicy.change)&&fundingPolicy.change>0&&fundingPolicy.change<fundingPolicy.amount,'explicit fee policy required');
+  } else {
   assert.equal(root.outputs.length,1);assert.equal(root.outputs[0].satoshis,100500);
   assert.equal(root.outputs[0].script.toHex(),M.pay(s.policy.sponsor).toHex());
   // Synthetic root identity is deterministic and frozen per prior custody tip.
   const prior=request.source?tx(request.source):tx(s.inventory.box);
   assert.equal(root.inputs.length,1);
   assert.equal(root.inputs[0].prevTxId.toString('hex'),M.bsv.crypto.Hash.sha256(Buffer.from('BoxSV sponsor root:'+prior.id)).toString('hex'));
+  }
   assert.equal(t.inputs.length,3);assert.equal(t.outputs.length,3);
   assert.equal(t.inputs[2].prevTxId.toString('hex'),funding.id);assert.equal(t.inputs[2].outputIndex,0);
-  assert.equal(t.outputs[2].satoshis,99500);assert.equal(t.outputs[2].script.toHex(),M.pay(s.policy.sponsor).toHex());
+  assert.equal(t.outputs[2].satoshis,fundingPolicy?.change??99500);assert.equal(t.outputs[2].script.toHex(),M.pay(s.policy.sponsor).toHex());
   for(let i=0;i<2;i++) assert.equal(t.outputs[i].satoshis,1);
   const nextOwner=request.actionIndex>=2?s.policy.buyer:s.policy.seller;
   if(request.action==='Withdraw') {

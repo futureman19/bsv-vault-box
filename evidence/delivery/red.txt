@@ -1,0 +1,192 @@
+(node:35216) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✖ selected Japan reservation reaches signed custody with durable replay and exact buyer (2.6199ms)
+✖ no execution with missing terms or default disabled mode (0.3451ms)
+✖ partial and insufficient depth cannot sign; replay observations do not duplicate receipts (0.2997ms)
+✖ immutable reservation buyer, design, origin and address bindings reject conflict (0.2945ms)
+✖ ambiguous transport holds after restart without signing or replacement funding (0.6919ms)
+✖ payment is revalidated after signing; loss prevents any send and survives restart (0.2682ms)
+✖ terminal payment loss retains custody history and late excess is held (0.3341ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 0
+ℹ fail 7
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 318.966
+
+✖ failing tests:
+
+test at mint\test\delivery.test.js:36:1
+✖ selected Japan reservation reaches signed custody with durable replay and exact buyer (2.6199ms)
+  AssertionError [ERR_ASSERTION]: durable reservation delivery missing
+  + actual - expected
+  
+  + 'undefined'
+  - 'function'
+  
+      at setup (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_8cbaabe5\mint\test\delivery.test.js:25:10)
+      at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_8cbaabe5\mint\test\delivery.test.js:37:17)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.start (node:internal/test_runner/test:1003:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:358:17)
+      at process.processTicksAndRejections (node:internal/process/task_queues:103:5) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'undefined',
+    expected: 'function',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at mint\test\delivery.test.js:44:1
+✖ no execution with missing terms or default disabled mode (0.3451ms)
+  AssertionError [ERR_ASSERTION]: durable reservation delivery missing
+  + actual - expected
+  
+  + 'undefined'
+  - 'function'
+  
+      at setup (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_8cbaabe5\mint\test\delivery.test.js:25:10)
+      at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_8cbaabe5\mint\test\delivery.test.js:45:17)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:788:18)
+      at Test.postRun (node:internal/test_runner/test:1235:19)
+      at Test.run (node:internal/test_runner/test:1163:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:358:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'undefined',
+    expected: 'function',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at mint\test\delivery.test.js:50:1
+✖ partial and insufficient depth cannot sign; replay observations do not duplicate receipts (0.2997ms)
+  AssertionError [ERR_ASSERTION]: durable reservation delivery missing
+  + actual - expected
+  
+  + 'undefined'
+  - 'function'
+  
+      at setup (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_8cbaabe5\mint\test\delivery.test.js:25:10)
+      at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_8cbaabe5\mint\test\delivery.test.js:51:17)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:788:18)
+      at Test.postRun (node:internal/test_runner/test:1235:19)
+      at Test.run (node:internal/test_runner/test:1163:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'undefined',
+    expected: 'function',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at mint\test\delivery.test.js:58:1
+✖ immutable reservation buyer, design, origin and address bindings reject conflict (0.2945ms)
+  AssertionError [ERR_ASSERTION]: durable reservation delivery missing
+  + actual - expected
+  
+  + 'undefined'
+  - 'function'
+  
+      at setup (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_8cbaabe5\mint\test\delivery.test.js:25:10)
+      at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_8cbaabe5\mint\test\delivery.test.js:59:17)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:788:18)
+      at Test.postRun (node:internal/test_runner/test:1235:19)
+      at Test.run (node:internal/test_runner/test:1163:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'undefined',
+    expected: 'function',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at mint\test\delivery.test.js:65:1
+✖ ambiguous transport holds after restart without signing or replacement funding (0.6919ms)
+  AssertionError [ERR_ASSERTION]: durable reservation delivery missing
+  + actual - expected
+  
+  + 'undefined'
+  - 'function'
+  
+      at setup (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_8cbaabe5\mint\test\delivery.test.js:25:10)
+      at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_8cbaabe5\mint\test\delivery.test.js:66:17)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:788:18)
+      at Test.postRun (node:internal/test_runner/test:1235:19)
+      at Test.run (node:internal/test_runner/test:1163:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'undefined',
+    expected: 'function',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at mint\test\delivery.test.js:71:1
+✖ payment is revalidated after signing; loss prevents any send and survives restart (0.2682ms)
+  AssertionError [ERR_ASSERTION]: durable reservation delivery missing
+  + actual - expected
+  
+  + 'undefined'
+  - 'function'
+  
+      at setup (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_8cbaabe5\mint\test\delivery.test.js:25:10)
+      at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_8cbaabe5\mint\test\delivery.test.js:72:17)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:788:18)
+      at Test.postRun (node:internal/test_runner/test:1235:19)
+      at Test.run (node:internal/test_runner/test:1163:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'undefined',
+    expected: 'function',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at mint\test\delivery.test.js:77:1
+✖ terminal payment loss retains custody history and late excess is held (0.3341ms)
+  AssertionError [ERR_ASSERTION]: durable reservation delivery missing
+  + actual - expected
+  
+  + 'undefined'
+  - 'function'
+  
+      at setup (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_8cbaabe5\mint\test\delivery.test.js:25:10)
+      at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_8cbaabe5\mint\test\delivery.test.js:78:17)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:788:18)
+      at Test.postRun (node:internal/test_runner/test:1235:19)
+      at Test.run (node:internal/test_runner/test:1163:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'undefined',
+    expected: 'function',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

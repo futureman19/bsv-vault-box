@@ -1,0 +1,28 @@
+(node:20576) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ selected Japan reservation reaches signed custody with durable replay and exact buyer (4817.0055ms)
+✔ no execution with missing terms or default disabled mode (679.6475ms)
+✔ partial and insufficient depth cannot sign; replay observations do not duplicate receipts (6680.4747ms)
+✔ immutable reservation buyer, design, origin and address bindings reject conflict (1622.4282ms)
+✔ ambiguous transport holds after restart without signing or replacement funding (6925.5485ms)
+✔ payment is revalidated after signing; loss prevents any send and survives restart (3829.5748ms)
+✔ terminal payment loss retains custody history and late excess is held (7245.1222ms)
+✔ external issuer trust is required again on restart (463.15ms)
+✔ read-only recovery retains exact bytes without database writes (5534.2687ms)
+✔ confirmed exact bytes can reconcile ambiguity but never clear hold; later loss retains ownership (9919.1483ms)
+✔ receipt uniqueness spans reservations, processes and restarts (6935.2061ms)
+✔ prepared-only restart reuses signed bytes; attempted restart quarantines (14903.0044ms)
+✔ expiry and excess never sign, refund or release allocation (2187.8409ms)
+✔ two SQLite connections cannot obtain two signing attempts (2995.2379ms)
+✔ modified detached metadata and wrong signed transaction are rejected (2057.872ms)
+✔ existing SaleStore reservation and PaymentWatcher callback drive this same coordinator (5267.4776ms)
+✔ actual process exits after durable claim, prepare and attempt recover conservatively (14442.031ms)
+✔ configuration without explicit terms fails closed before database creation (0.875ms)
+ℹ tests 18
+ℹ suites 0
+ℹ pass 18
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 96783.1286

@@ -10,7 +10,7 @@ if (process.platform === "win32") {
   const r = spawnSync(
     "wsl.exe",
     ["-e", "bash", "-lc", 'exec node "$@"', "mint-tests", file],
-    { stdio: "inherit", timeout: 60000 }
+    { stdio: "inherit", timeout: 240000 }
   );
   process.exit(r.status ?? 1);
 }
@@ -25,7 +25,7 @@ try {
     .map((n) => path.join(__dirname, n));
   const r = spawnSync(process.execPath, ["--test", ...files], {
     stdio: "inherit",
-    timeout: 60000,
+    timeout: 240000,
     env: { ...process.env, TMPDIR: dir },
   });
   process.exitCode = r.status ?? 1;

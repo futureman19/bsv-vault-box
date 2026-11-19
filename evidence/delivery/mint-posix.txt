@@ -1,0 +1,1125 @@
+TAP version 13
+# Subtest: all mainnet constructors reject without literal canary true before resources
+ok 1 - all mainnet constructors reject without literal canary true before resources
+  ---
+  duration_ms: 5.054906
+  type: 'test'
+  ...
+# Subtest: WIF gates both directions, defaults unchanged, custody remains enforced
+ok 2 - WIF gates both directions, defaults unchanged, custody remains enforced
+  ---
+  duration_ms: 129.053572
+  type: 'test'
+  ...
+# Subtest: xpub gates both directions and derived address network
+ok 3 - xpub gates both directions and derived address network
+  ---
+  duration_ms: 332.382714
+  type: 'test'
+  ...
+# Subtest: sale caps apply to listing, updates, reads, inventory and replay
+ok 4 - sale caps apply to listing, updates, reads, inventory and replay
+  ---
+  duration_ms: 209.795428
+  type: 'test'
+  ...
+# Subtest: overpayments are durably quarantined, boundary 2x accepted
+ok 5 - overpayments are durably quarantined, boundary 2x accepted
+  ---
+  duration_ms: 185.177729
+  type: 'test'
+  ...
+# Subtest: late excess receipts cannot erase recorded ownership transfer
+ok 6 - late excess receipts cannot erase recorded ownership transfer
+  ---
+  duration_ms: 145.040072
+  type: 'test'
+  ...
+# Subtest: pool construction and each operation recheck immutable hard caps
+ok 7 - pool construction and each operation recheck immutable hard caps
+  ---
+  duration_ms: 16.053979
+  type: 'test'
+  ...
+# Subtest: prep amount bounded on pure builder; regtest bytes unchanged by explicit policy
+ok 8 - prep amount bounded on pure builder; regtest bytes unchanged by explicit policy
+  ---
+  duration_ms: 70.069937
+  type: 'test'
+  ...
+# Subtest: service validates inventory at construction and on requests
+ok 9 - service validates inventory at construction and on requests
+  ---
+  duration_ms: 74.86798
+  type: 'test'
+  ...
+# Subtest: mainnet pool prepare and worker run never sign, reserve or broadcast
+ok 10 - mainnet pool prepare and worker run never sign, reserve or broadcast
+  ---
+  duration_ms: 118.322205
+  type: 'test'
+  ...
+# Subtest: watcher caps rechecked on every watch and poll; overpay still delivered for refund
+ok 11 - watcher caps rechecked on every watch and poll; overpay still delivered for refund
+  ---
+  duration_ms: 16.196252
+  type: 'test'
+  ...
+# Subtest: pool replay rejects over-cap held sum and prep rows
+ok 12 - pool replay rejects over-cap held sum and prep rows
+  ---
+  duration_ms: 18.6169
+  type: 'test'
+  ...
+# Subtest: aggregate pool replay cannot exceed hard cap; constants cannot be configured
+ok 13 - aggregate pool replay cannot exceed hard cap; constants cannot be configured
+  ---
+  duration_ms: 85.783133
+  type: 'test'
+  ...
+# Subtest: HTTP chain route is explicit, no non-GET requests
+ok 14 - HTTP chain route is explicit, no non-GET requests
+  ---
+  duration_ms: 1.061427
+  type: 'test'
+  ...
+# (node:733) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: selected Japan reservation reaches signed custody with durable replay and exact buyer
+ok 15 - selected Japan reservation reaches signed custody with durable replay and exact buyer
+  ---
+  duration_ms: 7110.795102
+  type: 'test'
+  ...
+# Subtest: no execution with missing terms or default disabled mode
+ok 16 - no execution with missing terms or default disabled mode
+  ---
+  duration_ms: 2222.995858
+  type: 'test'
+  ...
+# Subtest: partial and insufficient depth cannot sign; replay observations do not duplicate receipts
+ok 17 - partial and insufficient depth cannot sign; replay observations do not duplicate receipts
+  ---
+  duration_ms: 10142.636619
+  type: 'test'
+  ...
+# Subtest: immutable reservation buyer, design, origin and address bindings reject conflict
+ok 18 - immutable reservation buyer, design, origin and address bindings reject conflict
+  ---
+  duration_ms: 2100.793062
+  type: 'test'
+  ...
+# Subtest: ambiguous transport holds after restart without signing or replacement funding
+ok 19 - ambiguous transport holds after restart without signing or replacement funding
+  ---
+  duration_ms: 6156.88861
+  type: 'test'
+  ...
+# Subtest: payment is revalidated after signing; loss prevents any send and survives restart
+ok 20 - payment is revalidated after signing; loss prevents any send and survives restart
+  ---
+  duration_ms: 2880.417826
+  type: 'test'
+  ...
+# Subtest: terminal payment loss retains custody history and late excess is held
+ok 21 - terminal payment loss retains custody history and late excess is held
+  ---
+  duration_ms: 6181.812928
+  type: 'test'
+  ...
+# Subtest: external issuer trust is required again on restart
+ok 22 - external issuer trust is required again on restart
+  ---
+  duration_ms: 1888.55562
+  type: 'test'
+  ...
+# Subtest: read-only recovery retains exact bytes without database writes
+ok 23 - read-only recovery retains exact bytes without database writes
+  ---
+  duration_ms: 4927.195539
+  type: 'test'
+  ...
+# Subtest: confirmed exact bytes can reconcile ambiguity but never clear hold; later loss retains ownership
+ok 24 - confirmed exact bytes can reconcile ambiguity but never clear hold; later loss retains ownership
+  ---
+  duration_ms: 5751.808114
+  type: 'test'
+  ...
+# Subtest: receipt uniqueness spans reservations, processes and restarts
+ok 25 - receipt uniqueness spans reservations, processes and restarts
+  ---
+  duration_ms: 3798.510279
+  type: 'test'
+  ...
+# Subtest: prepared-only restart reuses signed bytes; attempted restart quarantines
+ok 26 - prepared-only restart reuses signed bytes; attempted restart quarantines
+  ---
+  duration_ms: 8214.103131
+  type: 'test'
+  ...
+# Subtest: expiry and excess never sign, refund or release allocation
+ok 27 - expiry and excess never sign, refund or release allocation
+  ---
+  duration_ms: 1505.303911
+  type: 'test'
+  ...
+# Subtest: two SQLite connections cannot obtain two signing attempts
+ok 28 - two SQLite connections cannot obtain two signing attempts
+  ---
+  duration_ms: 1906.866437
+  type: 'test'
+  ...
+# Subtest: modified detached metadata and wrong signed transaction are rejected
+ok 29 - modified detached metadata and wrong signed transaction are rejected
+  ---
+  duration_ms: 1363.244284
+  type: 'test'
+  ...
+# Subtest: existing SaleStore reservation and PaymentWatcher callback drive this same coordinator
+ok 30 - existing SaleStore reservation and PaymentWatcher callback drive this same coordinator
+  ---
+  duration_ms: 3506.357856
+  type: 'test'
+  ...
+# Subtest: actual process exits after durable claim, prepare and attempt recover conservatively
+ok 31 - actual process exits after durable claim, prepare and attempt recover conservatively
+  ---
+  duration_ms: 16554.18553
+  type: 'test'
+  ...
+# Subtest: configuration without explicit terms fails closed before database creation
+ok 32 - configuration without explicit terms fails closed before database creation
+  ---
+  duration_ms: 2.502907
+  type: 'test'
+  ...
+# Subtest: included transfer revalidates missing payment, preserves buyer history and durable hold
+ok 33 - included transfer revalidates missing payment, preserves buyer history and durable hold
+  ---
+  duration_ms: 179.729589
+  type: 'test'
+  ...
+# Subtest: terminal transfer inclusion loss is monitored and never demotes OPENED ownership
+ok 34 - terminal transfer inclusion loss is monitored and never demotes OPENED ownership
+  ---
+  duration_ms: 66.186203
+  type: 'test'
+  ...
+# Subtest: read failures are uncertainty not proven loss and holds remain after healthy observation
+ok 35 - read failures are uncertainty not proven loss and holds remain after healthy observation
+  ---
+  duration_ms: 216.032665
+  type: 'test'
+  ...
+# Subtest: submitted payment loss is observed without replacement and read-only observation is idempotent
+ok 36 - submitted payment loss is observed without replacement and read-only observation is idempotent
+  ---
+  duration_ms: 37.275482
+  type: 'test'
+  ...
+# Subtest: chain-info outage durably records uncertainty without bypassing policy caps
+ok 37 - chain-info outage durably records uncertainty without bypassing policy caps
+  ---
+  duration_ms: 196.493302
+  type: 'test'
+  ...
+# Subtest: asynchronous finality observation retains the single-flight lock until durable write
+ok 38 - asynchronous finality observation retains the single-flight lock until durable write
+  ---
+  duration_ms: 123.701614
+  type: 'test'
+  ...
+# Subtest: late overpayment preserves TRANSFERRED with durable refund hold
+ok 39 - late overpayment preserves TRANSFERRED with durable refund hold
+  ---
+  duration_ms: 55.96467
+  type: 'test'
+  ...
+# Subtest: late overpayment preserves OPENED with durable refund hold
+ok 40 - late overpayment preserves OPENED with durable refund hold
+  ---
+  duration_ms: 108.862116
+  type: 'test'
+  ...
+# Subtest: incorrect interactive challenge refuses and closes the gate
+ok 41 - incorrect interactive challenge refuses and closes the gate
+  ---
+  duration_ms: 3.721409
+  type: 'test'
+  ...
+# Subtest: forged and wrong-chain grants cannot reach fetch
+ok 42 - forged and wrong-chain grants cannot reach fetch
+  ---
+  duration_ms: 1.1184
+  type: 'test'
+  ...
+# Subtest: owner gate arms only branded policies; adapter pins WoC POST and verifies txid
+ok 43 - owner gate arms only branded policies; adapter pins WoC POST and verifies txid
+  ---
+  duration_ms: 42.013797
+  type: 'test'
+  ...
+# Subtest: ambiguous submission has no fallback or retry: http
+ok 44 - ambiguous submission has no fallback or retry: http
+  ---
+  duration_ms: 43.614075
+  type: 'test'
+  ...
+# Subtest: ambiguous submission has no fallback or retry: id
+ok 45 - ambiguous submission has no fallback or retry: id
+  ---
+  duration_ms: 31.162059
+  type: 'test'
+  ...
+# Subtest: ambiguous submission has no fallback or retry: timeout
+ok 46 - ambiguous submission has no fallback or retry: timeout
+  ---
+  duration_ms: 30.725712
+  type: 'test'
+  ...
+# Subtest: offline buyer proves history, exact two fee sources, buyer ownership and both actions
+ok 47 - offline buyer proves history, exact two fee sources, buyer ownership and both actions
+  ---
+  duration_ms: 1639.549148
+  type: 'test'
+  ...
+# Subtest: separate signed-only publisher exercises adapter serially with MOCK HTTP, never real mainnet
+ok 48 - separate signed-only publisher exercises adapter serially with MOCK HTTP, never real mainnet
+  ---
+  duration_ms: 1067.051915
+  type: 'test'
+  ...
+# Subtest: runner refuses absent gate before opening config or chain
+ok 49 - runner refuses absent gate before opening config or chain
+  ---
+  duration_ms: 48.735059
+  type: 'test'
+  ...
+# Subtest: fresh report validation rejects shape, age, chain and address drift
+ok 50 - fresh report validation rejects shape, age, chain and address drift
+  ---
+  duration_ms: 6143.414743
+  type: 'test'
+  ...
+# Subtest: funded authorization is a deliberate gate, not a policy boolean
+ok 51 - funded authorization is a deliberate gate, not a policy boolean
+  ---
+  duration_ms: 2.006815
+  type: 'test'
+  ...
+# Subtest: transaction evidence matches raw bytes, outputs and exact confirmation arithmetic
+ok 52 - transaction evidence matches raw bytes, outputs and exact confirmation arithmetic
+  ---
+  duration_ms: 39.080517
+  type: 'test'
+  ...
+# Subtest: transaction evidence fails closed: script
+ok 53 - transaction evidence fails closed: script
+  ---
+  duration_ms: 33.40426
+  type: 'test'
+  ...
+# Subtest: transaction evidence fails closed: value
+ok 54 - transaction evidence fails closed: value
+  ---
+  duration_ms: 21.208368
+  type: 'test'
+  ...
+# Subtest: transaction evidence fails closed: txid
+ok 55 - transaction evidence fails closed: txid
+  ---
+  duration_ms: 27.530252
+  type: 'test'
+  ...
+# Subtest: transaction evidence fails closed: confirmation
+ok 56 - transaction evidence fails closed: confirmation
+  ---
+  duration_ms: 5.989838
+  type: 'test'
+  ...
+# Subtest: transaction evidence fails closed: height
+ok 57 - transaction evidence fails closed: height
+  ---
+  duration_ms: 14.459519
+  type: 'test'
+  ...
+# Subtest: transaction evidence fails closed: membership
+ok 58 - transaction evidence fails closed: membership
+  ---
+  duration_ms: 8.334108
+  type: 'test'
+  ...
+# Subtest: transaction evidence fails closed: reorg
+ok 59 - transaction evidence fails closed: reorg
+  ---
+  duration_ms: 10.026313
+  type: 'test'
+  ...
+# Subtest: transaction evidence fails closed: raw
+ok 60 - transaction evidence fails closed: raw
+  ---
+  duration_ms: 12.414605
+  type: 'test'
+  ...
+# Subtest: transaction evidence fails closed: block identity
+ok 61 - transaction evidence fails closed: block identity
+  ---
+  duration_ms: 4.002885
+  type: 'test'
+  ...
+# Subtest: transaction evidence fails closed: block confirmation
+ok 62 - transaction evidence fails closed: block confirmation
+  ---
+  duration_ms: 6.187508
+  type: 'test'
+  ...
+# Subtest: builds byte-exact bounded parents and valid signatures
+ok 63 - builds byte-exact bounded parents and valid signatures
+  ---
+  duration_ms: 920.487425
+  type: 'test'
+  ...
+# Subtest: rejects invalid fees, wrong source and malformed grammar
+ok 64 - rejects invalid fees, wrong source and malformed grammar
+  ---
+  duration_ms: 54.593792
+  type: 'test'
+  ...
+# Subtest: key custody rejects mainnet WIF and insecure files without echoing input
+ok 65 - key custody rejects mainnet WIF and insecure files without echoing input
+  ---
+  duration_ms: 64.227098
+  type: 'test'
+  ...
+# Subtest: pool waits five confirmations, rechecks unspentness, FIFO and durable ledger
+ok 66 - pool waits five confirmations, rechecks unspentness, FIFO and durable ledger
+  ---
+  duration_ms: 322.23847
+  type: 'test'
+  ...
+# Subtest: broadcast uncertainty stays reserved across restart and corrupt ledgers fail closed
+ok 67 - broadcast uncertainty stays reserved across restart and corrupt ledgers fail closed
+  ---
+  duration_ms: 127.648279
+  type: 'test'
+  ...
+# Subtest: missing or mismatched chain source is rejected before signing or ledger writes
+ok 68 - missing or mismatched chain source is rejected before signing or ledger writes
+  ---
+  duration_ms: 9.068625
+  type: 'test'
+  ...
+# Subtest: short ledger writes are completed before broadcasting
+ok 69 - short ledger writes are completed before broadcasting
+  ---
+  duration_ms: 15.73798
+  type: 'test'
+  ...
+# Subtest: ledger failure during prepare closes the writer without broadcast
+ok 70 - ledger failure during prepare closes the writer without broadcast
+  ---
+  duration_ms: 9.862997
+  type: 'test'
+  ...
+# Subtest: close rejects during prepare/getblockchaininfo and reopen cannot duplicate
+ok 71 - close rejects during prepare/getblockchaininfo and reopen cannot duplicate
+  ---
+  duration_ms: 82.133013
+  type: 'test'
+  ...
+# Subtest: close rejects during prepare/gettxout and reopen cannot duplicate
+ok 72 - close rejects during prepare/gettxout and reopen cannot duplicate
+  ---
+  duration_ms: 108.441138
+  type: 'test'
+  ...
+# Subtest: close rejects during prepare/sendrawtransaction and reopen cannot duplicate
+ok 73 - close rejects during prepare/sendrawtransaction and reopen cannot duplicate
+  ---
+  duration_ms: 107.902973
+  type: 'test'
+  ...
+# Subtest: close rejects during dispense/gettxout and reopen cannot duplicate
+ok 74 - close rejects during dispense/gettxout and reopen cannot duplicate
+  ---
+  duration_ms: 43.725576
+  type: 'test'
+  ...
+# Subtest: grammar accepts N=108 and rejects 109, extra inputs/outputs and huge amounts
+ok 75 - grammar accepts N=108 and rejects 109, extra inputs/outputs and huge amounts
+  ---
+  duration_ms: 6.742266
+  type: 'test'
+  ...
+# READ_ONLY_PREFLIGHT_PASS; broadcasts disabled; inspect local report
+# Usage: node mint/scripts/canary-preflight.js [--stage inspect|startup|payment] ABSOLUTE_CONFIG_JSON ABSOLUTE_NEW_REPORT_JSON
+# Read-only mainnet GETs and local report only; never generates keys or broadcasts.
+# Subtest: staged preflight includes mempool and rejects spent or incomplete UTXO sets
+ok 76 - staged preflight includes mempool and rejects spent or incomplete UTXO sets
+  ---
+  duration_ms: 309.381291
+  type: 'test'
+  ...
+# Subtest: startup stage refuses early payment and unfunded service roles
+ok 77 - startup stage refuses early payment and unfunded service roles
+  ---
+  duration_ms: 146.44866
+  type: 'test'
+  ...
+# Subtest: startup and payment stages enforce disjoint exact shapes
+ok 78 - startup and payment stages enforce disjoint exact shapes
+  ---
+  duration_ms: 107.739684
+  type: 'test'
+  ...
+# Subtest: preflight executes full confirmed funding shape using GETs only; never signs
+ok 79 - preflight executes full confirmed funding shape using GETs only; never signs
+  ---
+  duration_ms: 65.792277
+  type: 'test'
+  ...
+# Subtest: unfunded dry run labels absence honestly and cannot authorize payment
+ok 80 - unfunded dry run labels absence honestly and cannot authorize payment
+  ---
+  duration_ms: 52.349378
+  type: 'test'
+  ...
+# Subtest: preflight rejects wrongShape
+ok 81 - preflight rejects wrongShape
+  ---
+  duration_ms: 64.766936
+  type: 'test'
+  ...
+# Subtest: preflight rejects duplicate
+ok 82 - preflight rejects duplicate
+  ---
+  duration_ms: 37.336115
+  type: 'test'
+  ...
+# Subtest: preflight rejects changed
+ok 83 - preflight rejects changed
+  ---
+  duration_ms: 32.266542
+  type: 'test'
+  ...
+# Subtest: funding evidence fails closed: partial
+ok 84 - funding evidence fails closed: partial
+  ---
+  duration_ms: 40.481602
+  type: 'test'
+  ...
+# Subtest: funding evidence fails closed: extra
+ok 85 - funding evidence fails closed: extra
+  ---
+  duration_ms: 26.042951
+  type: 'test'
+  ...
+# Subtest: funding evidence fails closed: unconfirmed
+ok 86 - funding evidence fails closed: unconfirmed
+  ---
+  duration_ms: 36.025028
+  type: 'test'
+  ...
+# Subtest: funding evidence fails closed: wrong-value
+ok 87 - funding evidence fails closed: wrong-value
+  ---
+  duration_ms: 23.529454
+  type: 'test'
+  ...
+# Subtest: funding evidence fails closed: wrong-script
+ok 88 - funding evidence fails closed: wrong-script
+  ---
+  duration_ms: 79.044217
+  type: 'test'
+  ...
+# Subtest: funding evidence fails closed: http429
+ok 89 - funding evidence fails closed: http429
+  ---
+  duration_ms: 29.93142
+  type: 'test'
+  ...
+# Subtest: funding evidence fails closed: wrong-chain
+ok 90 - funding evidence fails closed: wrong-chain
+  ---
+  duration_ms: 11.436284
+  type: 'test'
+  ...
+# Subtest: custody, network and unsupported options fail before HTTP
+ok 91 - custody, network and unsupported options fail before HTTP
+  ---
+  duration_ms: 13.79076
+  type: 'test'
+  ...
+# Subtest: GET firewall rejects writes, redirects, alien origins, unexpected routes before fetch
+ok 92 - GET firewall rejects writes, redirects, alien origins, unexpected routes before fetch
+  ---
+  duration_ms: 58.496891
+  type: 'test'
+  ...
+# Subtest: CLI writes new report and keeps secrets out of it; failures are redacted
+ok 93 - CLI writes new report and keeps secrets out of it; failures are redacted
+  ---
+  duration_ms: 36.106568
+  type: 'test'
+  ...
+# Subtest: CLI help runs, refuses unsupported mode, never overwrites existing file
+ok 94 - CLI help runs, refuses unsupported mode, never overwrites existing file
+  ---
+  duration_ms: 13.413415
+  type: 'test'
+  ...
+# Subtest: POSIX injected crash boundary: before reservation fsync
+ok 95 - POSIX injected crash boundary: before reservation fsync
+  ---
+  duration_ms: 3437.506502
+  type: 'test'
+  ...
+# Subtest: POSIX injected crash boundary: after reservation fsync
+ok 96 - POSIX injected crash boundary: after reservation fsync
+  ---
+  duration_ms: 4300.837617
+  type: 'test'
+  ...
+# Subtest: POSIX injected crash boundary: after dispense
+ok 97 - POSIX injected crash boundary: after dispense
+  ---
+  duration_ms: 6013.021777
+  type: 'test'
+  ...
+# Subtest: POSIX injected crash boundary: after send before stage
+ok 98 - POSIX injected crash boundary: after send before stage
+  ---
+  duration_ms: 3902.486341
+  type: 'test'
+  ...
+# Subtest: POSIX injected crash boundary: short write
+ok 99 - POSIX injected crash boundary: short write
+  ---
+  duration_ms: 3353.910068
+  type: 'test'
+  ...
+# Subtest: read-only recovery identifies RESERVING and exact persisted transaction
+ok 100 - read-only recovery identifies RESERVING and exact persisted transaction
+  ---
+  duration_ms: 5.805431
+  type: 'test'
+  ...
+# Subtest: read-only recovery identifies BUILT and exact persisted transaction
+ok 101 - read-only recovery identifies BUILT and exact persisted transaction
+  ---
+  duration_ms: 124.010543
+  type: 'test'
+  ...
+# Subtest: read-only recovery identifies SUBMITTED and exact persisted transaction
+ok 102 - read-only recovery identifies SUBMITTED and exact persisted transaction
+  ---
+  duration_ms: 127.003474
+  type: 'test'
+  ...
+# Subtest: read-only recovery identifies INCLUDED and exact persisted transaction
+ok 103 - read-only recovery identifies INCLUDED and exact persisted transaction
+  ---
+  duration_ms: 134.138918
+  type: 'test'
+  ...
+# Subtest: read-only recovery identifies UNCERTAIN and exact persisted transaction
+ok 104 - read-only recovery identifies UNCERTAIN and exact persisted transaction
+  ---
+  duration_ms: 175.464791
+  type: 'test'
+  ...
+# Subtest: RESERVING before and after dispense never guesses funding assignment
+ok 105 - RESERVING before and after dispense never guesses funding assignment
+  ---
+  duration_ms: 1.349553
+  type: 'test'
+  ...
+# Subtest: send succeeded before stage persistence: matching captured inclusion resolves observation not auto-resume
+ok 106 - send succeeded before stage persistence: matching captured inclusion resolves observation not auto-resume
+  ---
+  duration_ms: 54.699725
+  type: 'test'
+  ...
+# Subtest: inconsistent evidence stays quarantined: truncated sale write
+ok 107 - inconsistent evidence stays quarantined: truncated sale write
+  ---
+  duration_ms: 2.148054
+  type: 'test'
+  ...
+# Subtest: inconsistent evidence stays quarantined: short pool write
+ok 108 - inconsistent evidence stays quarantined: short pool write
+  ---
+  duration_ms: 0.759559
+  type: 'test'
+  ...
+# Subtest: inconsistent evidence stays quarantined: missing dispense
+ok 109 - inconsistent evidence stays quarantined: missing dispense
+  ---
+  duration_ms: 4.462228
+  type: 'test'
+  ...
+# Subtest: inconsistent evidence stays quarantined: wrong txid
+ok 110 - inconsistent evidence stays quarantined: wrong txid
+  ---
+  duration_ms: 5.514641
+  type: 'test'
+  ...
+# Subtest: inconsistent evidence stays quarantined: wrong source bytes
+ok 111 - inconsistent evidence stays quarantined: wrong source bytes
+  ---
+  duration_ms: 3.060784
+  type: 'test'
+  ...
+# Subtest: inconsistent evidence stays quarantined: duplicate dispense
+ok 112 - inconsistent evidence stays quarantined: duplicate dispense
+  ---
+  duration_ms: 1.867767
+  type: 'test'
+  ...
+# Subtest: inconsistent evidence stays quarantined: ambiguous pool mapping
+ok 113 - inconsistent evidence stays quarantined: ambiguous pool mapping
+  ---
+  duration_ms: 3.219154
+  type: 'test'
+  ...
+# Subtest: inconsistent evidence stays quarantined: changed buyer on replay
+ok 114 - inconsistent evidence stays quarantined: changed buyer on replay
+  ---
+  duration_ms: 3.054432
+  type: 'test'
+  ...
+# Subtest: inconsistent evidence stays quarantined: contradictory captured bytes
+ok 115 - inconsistent evidence stays quarantined: contradictory captured bytes
+  ---
+  duration_ms: 111.746329
+  type: 'test'
+  ...
+# Subtest: inconsistent evidence stays quarantined: false captured block membership
+ok 116 - inconsistent evidence stays quarantined: false captured block membership
+  ---
+  duration_ms: 111.215116
+  type: 'test'
+  ...
+# Subtest: cross-sale claims on identical transfer and funding are inconsistent
+ok 117 - cross-sale claims on identical transfer and funding are inconsistent
+  ---
+  duration_ms: 1.665205
+  type: 'test'
+  ...
+# Subtest: captured inclusion loss is distinct from historical INCLUDED
+ok 118 - captured inclusion loss is distinct from historical INCLUDED
+  ---
+  duration_ms: 55.162247
+  type: 'test'
+  ...
+# Subtest: replay rejects historical inclusion regression
+ok 119 - replay rejects historical inclusion regression
+  ---
+  duration_ms: 2.140182
+  type: 'test'
+  ...
+# Subtest: replay rejects historical ownership regression
+ok 120 - replay rejects historical ownership regression
+  ---
+  duration_ms: 2.369755
+  type: 'test'
+  ...
+# Subtest: replay rejects historical open regression
+ok 121 - replay rejects historical open regression
+  ---
+  duration_ms: 1.925348
+  type: 'test'
+  ...
+# Subtest: replay rejects historical changed open identity
+ok 122 - replay rejects historical changed open identity
+  ---
+  duration_ms: 1.567738
+  type: 'test'
+  ...
+# Subtest: replay rejects historical cleared hold
+ok 123 - replay rejects historical cleared hold
+  ---
+  duration_ms: 1.623113
+  type: 'test'
+  ...
+# Subtest: replay rejects historical cleared reason with hold retained
+ok 124 - replay rejects historical cleared reason with hold retained
+  ---
+  duration_ms: 1.744489
+  type: 'test'
+  ...
+# Subtest: legitimate retry progression and accumulated reasons remain quarantined
+ok 125 - legitimate retry progression and accumulated reasons remain quarantined
+  ---
+  duration_ms: 49.139149
+  type: 'test'
+  ...
+# Subtest: RPC rejects remote URLs and nonabsolute cookie paths
+ok 126 - RPC rejects remote URLs and nonabsolute cookie paths
+  ---
+  duration_ms: 2.040783
+  type: 'test'
+  ...
+# Subtest: RPC uses cookie auth, captures only RPC data, propagates error and timeout
+ok 127 - RPC uses cookie auth, captures only RPC data, propagates error and timeout
+  ---
+  duration_ms: 165.503024
+  type: 'test'
+  ...
+# Subtest: allocations survive restart, keep buyer immutable and never recycle addresses
+ok 128 - allocations survive restart, keep buyer immutable and never recycle addresses
+  ---
+  duration_ms: 200.321654
+  type: 'test'
+  ...
+# Subtest: expiry flags late funds and underpayment never authorizes transfer
+ok 129 - expiry flags late funds and underpayment never authorizes transfer
+  ---
+  duration_ms: 52.87574
+  type: 'test'
+  ...
+# Subtest: payment binds reservation; durable transfer intent is immutable
+ok 130 - payment binds reservation; durable transfer intent is immutable
+  ---
+  duration_ms: 153.75248
+  type: 'test'
+  ...
+# Subtest: unassigned payments quarantine the address before any reservation
+ok 131 - unassigned payments quarantine the address before any reservation
+  ---
+  duration_ms: 34.370037
+  type: 'test'
+  ...
+# Subtest: exclusive writer, truncated journal and closed store fail closed
+ok 132 - exclusive writer, truncated journal and closed store fail closed
+  ---
+  duration_ms: 9.693596
+  type: 'test'
+  ...
+# Subtest: PAID_PENDING rejects shallow block without spend
+ok 133 - PAID_PENDING rejects shallow block without spend
+  ---
+  duration_ms: 99.65074
+  type: 'test'
+  ...
+# Subtest: TRANSFERRED rejects shallow block without spend
+ok 134 - TRANSFERRED rejects shallow block without spend
+  ---
+  duration_ms: 118.915204
+  type: 'test'
+  ...
+# Subtest: OPENED rejects shallow block without spend
+ok 135 - OPENED rejects shallow block without spend
+  ---
+  duration_ms: 103.961651
+  type: 'test'
+  ...
+# Subtest: observeOpen rejects shallow block without spend
+ok 136 - observeOpen rejects shallow block without spend
+  ---
+  duration_ms: 214.188686
+  type: 'test'
+  ...
+# Subtest: PAID_PENDING rejects wrong hash without spend
+ok 137 - PAID_PENDING rejects wrong hash without spend
+  ---
+  duration_ms: 67.073831
+  type: 'test'
+  ...
+# Subtest: TRANSFERRED rejects wrong hash without spend
+ok 138 - TRANSFERRED rejects wrong hash without spend
+  ---
+  duration_ms: 97.185393
+  type: 'test'
+  ...
+# Subtest: OPENED rejects wrong hash without spend
+ok 139 - OPENED rejects wrong hash without spend
+  ---
+  duration_ms: 22.421138
+  type: 'test'
+  ...
+# Subtest: observeOpen rejects wrong hash without spend
+ok 140 - observeOpen rejects wrong hash without spend
+  ---
+  duration_ms: 159.49098
+  type: 'test'
+  ...
+# Subtest: PAID_PENDING rejects fractional depth without spend
+ok 141 - PAID_PENDING rejects fractional depth without spend
+  ---
+  duration_ms: 105.819832
+  type: 'test'
+  ...
+# Subtest: TRANSFERRED rejects fractional depth without spend
+ok 142 - TRANSFERRED rejects fractional depth without spend
+  ---
+  duration_ms: 19.518959
+  type: 'test'
+  ...
+# Subtest: OPENED rejects fractional depth without spend
+ok 143 - OPENED rejects fractional depth without spend
+  ---
+  duration_ms: 19.70046
+  type: 'test'
+  ...
+# Subtest: observeOpen rejects fractional depth without spend
+ok 144 - observeOpen rejects fractional depth without spend
+  ---
+  duration_ms: 144.355728
+  type: 'test'
+  ...
+# Subtest: PAID_PENDING rejects unsafe depth without spend
+ok 145 - PAID_PENDING rejects unsafe depth without spend
+  ---
+  duration_ms: 93.748285
+  type: 'test'
+  ...
+# Subtest: TRANSFERRED rejects unsafe depth without spend
+ok 146 - TRANSFERRED rejects unsafe depth without spend
+  ---
+  duration_ms: 21.564652
+  type: 'test'
+  ...
+# Subtest: OPENED rejects unsafe depth without spend
+ok 147 - OPENED rejects unsafe depth without spend
+  ---
+  duration_ms: 93.308536
+  type: 'test'
+  ...
+# Subtest: observeOpen rejects unsafe depth without spend
+ok 148 - observeOpen rejects unsafe depth without spend
+  ---
+  duration_ms: 135.897837
+  type: 'test'
+  ...
+# Subtest: PAID_PENDING rejects missing membership without spend
+ok 149 - PAID_PENDING rejects missing membership without spend
+  ---
+  duration_ms: 17.273051
+  type: 'test'
+  ...
+# Subtest: TRANSFERRED rejects missing membership without spend
+ok 150 - TRANSFERRED rejects missing membership without spend
+  ---
+  duration_ms: 22.574782
+  type: 'test'
+  ...
+# Subtest: OPENED rejects missing membership without spend
+ok 151 - OPENED rejects missing membership without spend
+  ---
+  duration_ms: 20.368724
+  type: 'test'
+  ...
+# Subtest: observeOpen rejects missing membership without spend
+ok 152 - observeOpen rejects missing membership without spend
+  ---
+  duration_ms: 82.725069
+  type: 'test'
+  ...
+# Subtest: PAID_PENDING rejects malformed membership without spend
+ok 153 - PAID_PENDING rejects malformed membership without spend
+  ---
+  duration_ms: 90.428906
+  type: 'test'
+  ...
+# Subtest: TRANSFERRED rejects malformed membership without spend
+ok 154 - TRANSFERRED rejects malformed membership without spend
+  ---
+  duration_ms: 18.133617
+  type: 'test'
+  ...
+# Subtest: OPENED rejects malformed membership without spend
+ok 155 - OPENED rejects malformed membership without spend
+  ---
+  duration_ms: 25.145468
+  type: 'test'
+  ...
+# Subtest: observeOpen rejects malformed membership without spend
+ok 156 - observeOpen rejects malformed membership without spend
+  ---
+  duration_ms: 132.963652
+  type: 'test'
+  ...
+# Subtest: PAID_PENDING rejects missing block without spend
+ok 157 - PAID_PENDING rejects missing block without spend
+  ---
+  duration_ms: 21.088744
+  type: 'test'
+  ...
+# Subtest: TRANSFERRED rejects missing block without spend
+ok 158 - TRANSFERRED rejects missing block without spend
+  ---
+  duration_ms: 99.539998
+  type: 'test'
+  ...
+# Subtest: OPENED rejects missing block without spend
+ok 159 - OPENED rejects missing block without spend
+  ---
+  duration_ms: 21.448374
+  type: 'test'
+  ...
+# Subtest: observeOpen rejects missing block without spend
+ok 160 - observeOpen rejects missing block without spend
+  ---
+  duration_ms: 145.905994
+  type: 'test'
+  ...
+# Subtest: BUILT contradictory block evidence quarantines rather than retrying broadcast
+ok 161 - BUILT contradictory block evidence quarantines rather than retrying broadcast
+  ---
+  duration_ms: 21.761166
+  type: 'test'
+  ...
+# Subtest: observeOpen accepts consistent deep block membership
+ok 162 - observeOpen accepts consistent deep block membership
+  ---
+  duration_ms: 134.453345
+  type: 'test'
+  ...
+# Subtest: envelope rejects inherited statement
+ok 163 - envelope rejects inherited statement
+  ---
+  duration_ms: 242.147184
+  type: 'test'
+  ...
+# Subtest: envelope rejects inherited issuer
+ok 164 - envelope rejects inherited issuer
+  ---
+  duration_ms: 206.83461
+  type: 'test'
+  ...
+# Subtest: envelope rejects inherited signature
+ok 165 - envelope rejects inherited signature
+  ---
+  duration_ms: 197.824072
+  type: 'test'
+  ...
+# Subtest: policy rejects inherited issuer
+ok 166 - policy rejects inherited issuer
+  ---
+  duration_ms: 195.089488
+  type: 'test'
+  ...
+# Subtest: policy rejects inherited collectionId
+ok 167 - policy rejects inherited collectionId
+  ---
+  duration_ms: 198.804089
+  type: 'test'
+  ...
+# Subtest: policy rejects inherited designId
+ok 168 - policy rejects inherited designId
+  ---
+  duration_ms: 178.958957
+  type: 'test'
+  ...
+# Subtest: mediaHashes rejects inherited modelSha256
+ok 169 - mediaHashes rejects inherited modelSha256
+  ---
+  duration_ms: 179.73548
+  type: 'test'
+  ...
+# Subtest: mediaHashes rejects inherited artSha256
+ok 170 - mediaHashes rejects inherited artSha256
+  ---
+  duration_ms: 179.914177
+  type: 'test'
+  ...
+# Subtest: loopback binding enforced
+ok 171 - loopback binding enforced
+  ---
+  duration_ms: 1.113289
+  type: 'test'
+  ...
+# Subtest: API keeps skeleton envelopes; rejects invalid methods and client state
+ok 172 - API keeps skeleton envelopes; rejects invalid methods and client state
+  ---
+  duration_ms: 50.649056
+  type: 'test'
+  ...
+# Subtest: invalid payment evidence never dispenses
+ok 173 - invalid payment evidence never dispenses
+  ---
+  duration_ms: 936.185143
+  type: 'test'
+  ...
+# Subtest: retry revalidates payment finality
+ok 174 - retry revalidates payment finality
+  ---
+  duration_ms: 445.593828
+  type: 'test'
+  ...
+# Subtest: ambiguous reservation is held without second dispense
+ok 175 - ambiguous reservation is held without second dispense
+  ---
+  duration_ms: 212.058333
+  type: 'test'
+  ...
+# Subtest: fee cap rejected before key loading
+ok 176 - fee cap rejected before key loading
+  ---
+  duration_ms: 0.412582
+  type: 'test'
+  ...
+# Subtest: network gate prevents dispense and broadcast
+ok 177 - network gate prevents dispense and broadcast
+  ---
+  duration_ms: 236.054745
+  type: 'test'
+  ...
+# Subtest: parallel transfer calls dispense once; pending does not mean included
+ok 178 - parallel transfer calls dispense once; pending does not mean included
+  ---
+  duration_ms: 340.46529
+  type: 'test'
+  ...
+# Subtest: ambiguous broadcasts keep same bytes and stop at durable retry budget
+ok 179 - ambiguous broadcasts keep same bytes and stop at durable retry budget
+  ---
+  duration_ms: 213.531654
+  type: 'test'
+  ...
+# Subtest: confirmed threshold and dedup; overlapping polls do not emit twice
+ok 180 - confirmed threshold and dedup; overlapping polls do not emit twice
+  ---
+  duration_ms: 1.208353
+  type: 'test'
+  ...
+# Subtest: failed event handling can be retried
+ok 181 - failed event handling can be retried
+  ---
+  duration_ms: 0.552025
+  type: 'test'
+  ...
+# Subtest: HTTP balance alone is never finality evidence
+ok 182 - HTTP balance alone is never finality evidence
+  ---
+  duration_ms: 1.018141
+  type: 'test'
+  ...
+# Subtest: partial confirmed late funds still emit for refund accounting
+ok 183 - partial confirmed late funds still emit for refund accounting
+  ---
+  duration_ms: 0.317954
+  type: 'test'
+  ...
+# Subtest: HTTP detail transport validates output amount, address and block height
+ok 184 - HTTP detail transport validates output amount, address and block height
+  ---
+  duration_ms: 55.30174
+  type: 'test'
+  ...
+# Subtest: regtest transport refuses other chains
+ok 185 - regtest transport refuses other chains
+  ---
+  duration_ms: 0.700976
+  type: 'test'
+  ...
+1..185
+# tests 185
+# suites 0
+# pass 185
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 92573.121236
