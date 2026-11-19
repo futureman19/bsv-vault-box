@@ -1,0 +1,30 @@
+✖ paid composition refuses unpaid transfer and binds watcher delivery through restart (1.5163ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 0
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 282.2831
+
+✖ failing tests:
+
+test at launch\continuous\integrated.test.js:13:1
+✖ paid composition refuses unpaid transfer and binds watcher delivery through restart (1.5163ms)
+  Error: Cannot find module './paid'
+  Require stack:
+  - C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_31e507ba\launch\continuous\integrated.test.js
+      at Module._resolveFilename (node:internal/modules/cjs/loader:1421:15)
+      at defaultResolveImpl (node:internal/modules/cjs/loader:1059:19)
+      at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1064:22)
+      at Module._load (node:internal/modules/cjs/loader:1227:37)
+      at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+      at Module.require (node:internal/modules/cjs/loader:1504:12)
+      at require (node:internal/modules/helpers:152:16)
+      at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_31e507ba\launch\continuous\integrated.test.js:14:21)
+      at Test.runInAsyncScope (node:async_hooks:214:14) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [ 'C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_31e507ba\\launch\\continuous\\integrated.test.js' ]
+  }

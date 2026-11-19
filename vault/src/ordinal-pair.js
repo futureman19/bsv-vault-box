@@ -85,12 +85,12 @@ function transition(f, source, action, signer, recipient, mutate, proof, options
  for(let i=0;i<Math.min(2,tx.inputs.length);i++) {
   const o = deposit ? parents[i].outputs[0] : source.outputs[i]
   if(deposit && i===0) {
-   const sig=S.signTx(tx,signer,o.script,1,i)
+   const sig=options.ownerSignature ? options.ownerSignature(tx,o,i) : S.signTx(tx,signer,o.script,1,i)
    tx.inputs[i].setScript(bsv.Script.fromASM(sig+' '+signer.publicKey.toString()))
   } else {
    const instance=C.fromHex(o.script.toHex())
    const pre=S.getLowSPreimage(tx,o.script,1,i)
-   const sig=S.signTx(tx,signer,o.script,1,i)
+   const sig=options.ownerSignature ? options.ownerSignature(tx,o,i) : S.signTx(tx,signer,o.script,1,i)
    const parentHash=bsv.crypto.Hash.sha256(Buffer.from(proof ?? (deposit ? f.box : source).uncheckedSerialize(),'hex')).toString('hex')
    const sponsorSig=options.sponsor ? S.signTx(tx,options.sponsor,o.script,1,i) : ''
    const call=instance.move(sig,BigInt(action),recipient,parentHash,

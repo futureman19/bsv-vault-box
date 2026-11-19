@@ -1,0 +1,15 @@
+✖ transaction construction accepts external owner signatures without owner private key (35.3559ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 0
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 225.1329
+
+✖ failing tests:
+
+test at launch\continuous\integrated.test.js:4:1
+✖ transaction construction accepts external owner signatures without owner private key (35.3559ms)
+  { message: 'Invalid state: Error: invalid parameters', stack: 'Invalid state: Error: invalid parameters\nError\n    at new NodeError (C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_31e507ba\\vault\\node_modules\\@scrypt-inc\\bsv\\dist\\main.js:3008:44)\n    at Object.checkState (C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_31e507ba\\vault\\node_modules\\@scrypt-inc\\bsv\\dist\\main.js:2978:31)\n    at $1c0223906a91e974$var$ECDSA.sign (C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_31e507ba\\vault\\node_modules\\@scrypt-inc\\bsv\\dist\\main.js:3588:12)\n    at $1c0223906a91e974$var$ECDSA.sign (C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_31e507ba\\vault\\node_modules\\@scrypt-inc\\bsv\\dist\\main.js:3621:8)\n    at Object.$7efca64b016e45dc$var$sign [as sign] (C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_31e507ba\\vault\\node_modules\\@scrypt-inc\\bsv\\dist\\main.js:11068:22)\n    at Object.signTx (C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_31e507ba\\vault\\node_modules\\scryptlib\\dist\\utils.js:155:42)\n    at Object.transition (C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_31e507ba\\vault\\src\\ordinal-pair.js:88:16)\n    at TestContext.<anonymous> (C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_31e507ba\\launch\\continuous\\integrated.test.js:7:14)\n    at Test.runInAsyncScope (node:async_hooks:214:14)\n    at Test.run (node:internal/test_runner/test:1106:25)' }

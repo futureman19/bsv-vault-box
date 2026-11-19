@@ -1,0 +1,32 @@
+(node:29076) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✖ paid composition refuses unpaid transfer and binds watcher delivery through restart (15429.4708ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 0
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 15615.7295
+
+✖ failing tests:
+
+test at launch\continuous\integrated.test.js:13:1
+✖ paid composition refuses unpaid transfer and binds watcher delivery through restart (15429.4708ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'regtest'
+  - 'testnet'
+  
+      at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_31e507ba\launch\continuous\integrated.test.js:17:176)
+      at async Test.run (node:internal/test_runner/test:1113:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:358:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'regtest',
+    expected: 'testnet',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

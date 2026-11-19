@@ -15,13 +15,15 @@ function requestFor(s,key,action) {
 }
 function verifyResponse(s,request,response,fundingPolicy) {
   const signer=request.action==='Reserve'||request.action==='Open'||request.action==='Withdraw'?s.policy.buyer:s.policy.seller;
+  const brc=Object.hasOwn(response,'authorizations');
+  if(brc)require('./integrated-wallet').verifyAuthorizations(s,request,response);
   const {signature,...signed}=response;
   assert.equal(response.network,s.policy.network||NETWORK,'wrong network');
   assert.equal(response.signer,signer,'wrong buyer/owner');
   assert.equal(response.requestHash,sha(canonical(request)),'signed response request mismatch');
-  assert.ok(verifySignature(canonical(signed),signature,signer),'malicious wallet signed response');
-  if(request.action==='Reserve') {assert.deepEqual(Object.keys(response).sort(),['network','requestHash','signature','signer']);return;}
-  assert.deepEqual(Object.keys(response).sort(),['funding','fundingRoot','network','raw','requestHash','signature','signer']);
+  if(!brc)assert.ok(verifySignature(canonical(signed),signature,signer),'malicious wallet signed response');
+  if(request.action==='Reserve') {assert.deepEqual(Object.keys(response).sort(),(brc?['authorizations','network','requestHash','signer']:['network','requestHash','signature','signer']));return;}
+  assert.deepEqual(Object.keys(response).sort(),(brc?['authorizations','funding','fundingRoot','network','raw','requestHash','signer']:['funding','fundingRoot','network','raw','requestHash','signature','signer']));
   const t=tx(response.raw), funding=tx(response.funding), root=tx(response.fundingRoot);
   assert.equal(raw(t),response.raw,'noncanonical transaction');
   assert.equal(funding.outputs.length,1);assert.equal(funding.outputs[0].satoshis,fundingPolicy?.amount??100000);
@@ -58,11 +60,11 @@ function verifyResponse(s,request,response,fundingPolicy) {
   const result=M.verifyHistory(f,history,parents);
   assert.ok(result.valid,'anchored VM replay: '+result.error);
 }
-function reduce(s,e) {
+function reduce(s,e,policy=Fixture.policy) {
   if(e.type==='INIT') {
     assert.equal(s,null,'duplicate initialization');
     const c=candidate();
-    assert.deepEqual(e.candidate,c,'candidate changed');assert.deepEqual(e.policy,Fixture.policy,'fixture trust policy changed');
+    assert.deepEqual(e.candidate,c,'candidate changed');assert.deepEqual(e.policy,policy,'fixture trust policy changed');
     const i=e.inventory;
     assert.ok(M.verify(tx(i.foreign),[tx(i.originRoot)]).success,'independent issuance signature');
     assert.ok(M.verify(tx(i.box),[tx(i.boxRoot)]).success,'box issuance signature');
@@ -102,7 +104,8 @@ function reduce(s,e) {
   return s;
 }
 class Journal {
-  constructor(file,initial) {
+  constructor(file,initial,policy=Fixture.policy) {
+    this.reduce=(s,e)=>reduce(s,e,policy);
     const exists=fs.existsSync(file);
     fs.mkdirSync(path.dirname(path.resolve(file)),{recursive:true});
     this.db=new DatabaseSync(file);
@@ -110,7 +113,7 @@ class Journal {
       this.db.exec('PRAGMA synchronous=FULL; PRAGMA busy_timeout=3000;');
       if(!exists) {
         this.db.exec('BEGIN IMMEDIATE; CREATE TABLE events(seq INTEGER PRIMARY KEY, previous TEXT NOT NULL, digest TEXT NOT NULL, payload TEXT NOT NULL);');
-        try { const e=initial();reduce(null,e);const payload=canonical(e);this.db.prepare('INSERT INTO events VALUES(1,?,?,?)').run('',sha(payload),payload);this.db.exec('COMMIT'); }
+        try { const e=initial();this.reduce(null,e);const payload=canonical(e);this.db.prepare('INSERT INTO events VALUES(1,?,?,?)').run('',sha(payload),payload);this.db.exec('COMMIT'); }
         catch(error){this.db.exec('ROLLBACK');throw error;}
       }
       this.read();
@@ -123,14 +126,14 @@ class Journal {
       assert.equal(r.seq,index+1);assert.equal(r.previous,previous);
       assert.equal(r.digest,sha(previous+r.payload),'journal hash mismatch');
       const e=JSON.parse(r.payload);assert.equal(canonical(e),r.payload);
-      state=reduce(state,e);previous=r.digest;
+      state=this.reduce(state,e);previous=r.digest;
     }
     return {state,head:previous,events:rows.length};
   }
   append(e,head) {
     this.db.exec('BEGIN IMMEDIATE');
     try {
-      const current=this.read();assert.equal(current.head,head,'concurrent state change');reduce(current.state,e);
+      const current=this.read();assert.equal(current.head,head,'concurrent state change');this.reduce(current.state,e);
       const payload=canonical(e);this.db.prepare('INSERT INTO events VALUES(?,?,?,?)').run(current.events+1,head,sha(head+payload),payload);
       this.db.exec('COMMIT');
     } catch(error){this.db.exec('ROLLBACK');throw error;}
@@ -187,10 +190,10 @@ class Engine {
 }
 function createDemo(file,options={}) {
   const journal=new Journal(file,()=>{
-    const c=candidate(),inventory=Fixture.issue(c),policy=Fixture.policy;
+    const c=candidate(),inventory=Fixture.issue(c),policy=options.policy||Fixture.policy;
     const binding={designId:c.item.slug,designIdentity:c.item.id,manifestSha256:c.manifestSha256,buyerPubkey:policy.buyer,metadataSha256:c.metadataSha256,origin:tx(inventory.foreign).id+'_0'};
     return {type:'INIT',candidate:c,inventory,policy,binding};
-  });
+  },options.policy||Fixture.policy);
   return new Engine(journal,{wallet:options.wallet||new Fixture.FixtureWallet(),transport:options.transport||new Fixture.FixtureTransport(),hooks:options.hooks});
 }
 module.exports={createDemo,Engine,Journal,requestFor,verifyResponse,reduce,provenance};

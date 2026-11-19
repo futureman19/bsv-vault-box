@@ -1,0 +1,62 @@
+(node:16524) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+{
+  "stage": "WITHDRAWN",
+  "binding": {
+    "designId": "iceland",
+    "designIdentity": "urn:boxsv:collection:impossible-places:v1:iceland",
+    "manifestSha256": "307598fa4fa9aa4a9abef8d14dbc8bf7ee54c1e22589beb3ea43ec051796b3cb",
+    "buyerPubkey": "03d41be61c2f8b5a19f4c92e4a9c990351f27a1e5b7bc0ca1ef85a037311da437a",
+    "metadataSha256": "45f26e3f26153fe3562949d7a98fc5ea023fa290cbdfecee0edab4bea58045ca",
+    "origin": "0580a374ee024525808f19b99f7dca91f3d86880207c3deb3ffa90bbd0206a36_0"
+  },
+  "policy": {
+    "buyer": "03d41be61c2f8b5a19f4c92e4a9c990351f27a1e5b7bc0ca1ef85a037311da437a",
+    "network": "offline-fixture",
+    "seller": "0279be667ef9dcbbac55a06295ce870b07029bfcdb2dce28d959f2815b16f81798",
+    "sponsor": "02f9308a019258c31049344f85f89d5229b531c845836f99b08601f113bce036f9",
+    "wallet": {
+      "identityKey": "02c6047f9441ed7d6d3045406e95c07cd85c778e4b8cef3ca7abac09b95c709ee5",
+      "network": "testnet",
+      "signingKey": "03d41be61c2f8b5a19f4c92e4a9c990351f27a1e5b7bc0ca1ef85a037311da437a"
+    }
+  },
+  "deliveryStatus": "LOCAL_ACCEPTED",
+  "receipt": {
+    "kind": "LOCAL_VM_ACCEPTED_NOT_CHAIN_INCLUSION",
+    "network": "offline-fixture",
+    "rawSha256": "a3db47e4bc9f7d64e930d248990e7af115c90f8a1565f5a767734672b973b58d",
+    "txid": "49365a706279498e2bf0b2ed051a588a49aa5556bd299e6966dfc0a635afa45b"
+  },
+  "provenance": {
+    "originalIssuanceProvenance": true,
+    "originalManifestComplete": true,
+    "currentCustodyIntegrity": true
+  },
+  "transitions": [
+    {
+      "action": "Pack",
+      "txid": "5f913eefdc500275cd571e64b6dbdd4be3f5d802c75e324eb921dba19073b71f"
+    },
+    {
+      "action": "Seal",
+      "txid": "232461e3f835f110ec642997fef953233f6e03f3724675f1d3fa2b6fdfc2bb2a"
+    },
+    {
+      "action": "Transfer",
+      "txid": "49365a706279498e2bf0b2ed051a588a49aa5556bd299e6966dfc0a635afa45b"
+    },
+    {
+      "action": "Open",
+      "txid": "faf92781e03a484776e9cc28b18fd072729a908e086e8d2a93658868a35eed4f"
+    },
+    {
+      "action": "Withdraw",
+      "txid": "ce5351a8dfc3eacc5f46aaab474be10b951b6efad8273926b79e9f5d3e0e38a2"
+    }
+  ],
+  "authorizations": 5,
+  "realSendingEnabled": false,
+  "chainInclusion": false,
+  "launchReady": false
+}

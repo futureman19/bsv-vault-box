@@ -1,0 +1,31 @@
+{
+  "checks": [
+    "desktop: reject rejected before reservation",
+    "desktop: malicious rejected before reservation",
+    "desktop: wrong-buyer rejected before reservation",
+    "desktop: wrong-network rejected before reservation",
+    "desktop: disconnect rejected before reservation",
+    "desktop: browser BRC reservation + paid delivery + two-input covenant Open/Withdraw + exact download and reload",
+    "desktop: image decoded and no horizontal overflow",
+    "mobile: reject rejected before reservation",
+    "mobile: browser BRC reservation + paid delivery + two-input covenant Open/Withdraw + exact download and reload",
+    "mobile: image decoded and no horizontal overflow",
+    "ambiguous: reject rejected before reservation",
+    "ambiguous: exact signed delivery bytes held across reload; no ownership promotion",
+    "ambiguous: image decoded and no horizontal overflow"
+  ],
+  "external_requests": [],
+  "page_errors": [],
+  "console_errors": [
+    "Failed to load resource: the server responded with a status of 409 (Conflict)",
+    "Failed to load resource: the server responded with a status of 409 (Conflict)",
+    "Failed to load resource: the server responded with a status of 409 (Conflict)",
+    "Failed to load resource: the server responded with a status of 409 (Conflict)",
+    "Failed to load resource: the server responded with a status of 409 (Conflict)",
+    "Failed to load resource: the server responded with a status of 409 (Conflict)",
+    "Failed to load resource: the server responded with a status of 409 (Conflict)",
+    "Failed to load resource: the server responded with a status of 409 (Conflict)"
+  ],
+  "result": "PASS",
+  "console_note": "Retained expected HTTP 409 errors from explicit negative signature/payment tests; not hidden."
+}

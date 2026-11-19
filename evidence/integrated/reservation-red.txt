@@ -1,0 +1,31 @@
+✖ continuous demo pins enrolled derived buyer and verifies BRC reservation (0.8694ms)
+✔ transaction construction accepts external owner signatures without owner private key (110.0135ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 1
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 306.6707
+
+✖ failing tests:
+
+test at launch\continuous\integrated.test.js:5:1
+✖ continuous demo pins enrolled derived buyer and verifies BRC reservation (0.8694ms)
+  Error: Cannot find module './integrated-wallet'
+  Require stack:
+  - C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_31e507ba\launch\continuous\integrated.test.js
+      at Module._resolveFilename (node:internal/modules/cjs/loader:1421:15)
+      at defaultResolveImpl (node:internal/modules/cjs/loader:1059:19)
+      at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1064:22)
+      at Module._load (node:internal/modules/cjs/loader:1227:37)
+      at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+      at Module.require (node:internal/modules/cjs/loader:1504:12)
+      at require (node:internal/modules/helpers:152:16)
+      at TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_31e507ba\launch\continuous\integrated.test.js:6:10)
+      at Test.runInAsyncScope (node:async_hooks:214:14) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [ 'C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_31e507ba\\launch\\continuous\\integrated.test.js' ]
+  }

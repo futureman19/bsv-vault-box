@@ -1,0 +1,16 @@
+(node:1952) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ malicious responses, rejection, disconnect and cancellation cannot reserve; rejected IDs stay consumed after restart (1088.6965ms)
+✔ binding, identity and signed custody byte substitutions fail independent receiving boundary (5682.0068ms)
+✔ ambiguous paid send survives restart and reconciliation without replacement or ownership projection (24672.9392ms)
+✔ terminal payment loss blocks buyer signing and preserves transfer history across restart (22854.6253ms)
+✔ prepared buyer transaction survives restart without a second wallet request (33638.0598ms)
+✔ pending authorization persisted before callback; abrupt process exit blocks restart without signing (1140.5009ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 89364.7483

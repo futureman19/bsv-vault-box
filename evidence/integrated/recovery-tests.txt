@@ -1,0 +1,23 @@
+(node:30732) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ continuous demo pins enrolled derived buyer and verifies BRC reservation (24330.7984ms)
+✔ paid composition refuses unpaid transfer and binds watcher delivery through restart (54878.4645ms)
+✔ paid server serves the same journey with explicit browser fixture signing (493.8053ms)
+✔ transaction construction accepts external owner signatures without owner private key (61.5191ms)
+(node:35592) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ malicious responses, rejection, disconnect and cancellation cannot reserve; rejected IDs stay consumed after restart (1085.9598ms)
+✔ binding, identity and signed custody byte substitutions fail independent receiving boundary (6157.5881ms)
+✔ ambiguous paid send survives restart and reconciliation without replacement or ownership projection (27267.4652ms)
+✔ terminal payment loss blocks buyer signing and preserves transfer history across restart (22420.7086ms)
+✔ prepared buyer transaction survives restart without a second wallet request (35162.4957ms)
+✔ integrated ambiguous transport mode also holds the existing Pack action (1056.4666ms)
+✔ pending authorization persisted before callback; abrupt process exit blocks restart without signing (1428.3621ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 94805.4372

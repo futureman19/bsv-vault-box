@@ -1,0 +1,74 @@
+{
+  "final-tests": 11,
+  "parents-regression": 54,
+  "mint-posix": 187,
+  "security-regression": 10,
+  "vm": 111,
+  "allocation": 19,
+  "typecheck": "exit 0; empty output",
+  "browser_grouped_checks": 13,
+  "preserved_refs": [
+    [
+      "db4760ddcb33108da563b1df84a7e308205de3ec",
+      "evidence/final-qa"
+    ],
+    [
+      "d02b279d8ea41871c4f4af6760576a3926617fb6",
+      "evidence/continuous"
+    ],
+    [
+      "f0a54d9b3e80338fbe34c869987a45d6d23ae25c",
+      "launch/collection"
+    ]
+  ],
+  "read_only_delivery_sha256": "721efb9a3e17e01a930d2df31c6abc7079d2fcae671b07bebb2a33dfca58b1af",
+  "read_only_exit": 0,
+  "executed_browser_bundle": {
+    "bytes": 5070681,
+    "sha256": "c0689866f09024e2bac6e28d826c1a11206676391ff8e9eabdf5bf0900e1daec"
+  },
+  "executed_sources": {
+    "launch/continuous/app.js": "b6d673a49fd35731e33b2533682e0840d701c5e43005dbc9f5ca6d458b55f0a2",
+    "launch/continuous/browser-wallet.js": "654ba6aa177a65df0a9cfaea2c32d72259f969548bcf81179003c5ce68161e0a",
+    "launch/continuous/browser_qa.py": "bf562a148298b74e16e275a891b9e49829a346f1a83187afd0c7b9a486d48592",
+    "launch/continuous/cli.js": "37dce6245c0450e5437e232739a6584e37978c1a4f017de34844435403f9d8fe",
+    "launch/continuous/common.js": "4fee0a0a9572b434ea3ac90c81e5d09d0ad736902ad0abb3cf92cb83b329cbc2",
+    "launch/continuous/engine.js": "72359641c985be32d78e035e2c27171c280c620b7c389c51a2a31faf782c0a65",
+    "launch/continuous/fixture-wallet.js": "fe1172750eed16439db83409786fd2f4cd5c58e6e1670b74fe5f7cee48f4dcc3",
+    "launch/continuous/index.html": "be867d4aae44b00391608a109901ca0f4ceff6ae199bc4988cda3aca09d34f89",
+    "launch/continuous/integrated-wallet.js": "d248540dae0273d9ff135e1677fa2be6c209896b05054f91d4f608de3913ba3c",
+    "launch/continuous/integrated.test.js": "dbaab88e0ba51e093830af966cdb0ff4d68cb1e8a470626f967a5435784b2b65",
+    "launch/continuous/paid-cli.js": "249803688c7eaebd561376f7f21fb1917814ad3a49e408947c769584c87584c3",
+    "launch/continuous/paid-config.json": "0ad9d396597dc7c75143c1d9162d6b334ac0ab610b10924c681ce24a699a4de4",
+    "launch/continuous/paid-replay.js": "11ac1be59958c91990a5882e56e009dfb3c27c9698639fd7817e5141aeb075f4",
+    "launch/continuous/paid-security.test.js": "da990dff7852822aec924a173465a900481c1b40e7af091e5053ef84b7475995",
+    "launch/continuous/paid.js": "e85cb9d9a0a4661ac95387090e2c1c0e6c6582020164a44c28387fdcb2820bb8",
+    "launch/continuous/PAID.md": "e6aeda27404f921989ae0ca9dea9bef37b641f17338a1760af6a47b72647dfdf",
+    "launch/continuous/paid_browser_qa.py": "20a4adb3cfa3072601ffe3b787b9749e7faa4bb72cfbe506c0617936c21d3272",
+    "launch/continuous/process.test.js": "e94b8b1e3b30623167d9a81d5e26b09fd13311aec3f70fbc58f1f2ec46128e03",
+    "launch/continuous/README.md": "6153affb3ab2d557f9eacd58a8286194110d58b2cce6975c51fabce743e15c41",
+    "launch/continuous/security.test.js": "0a1aa64110313d51604b8b446533d766ee1544cebde4d3fce4cf70ed55ba5652",
+    "launch/continuous/server.js": "44df27c69b7830ea5dab55e0047b66bd554b0989bcd7e8e9a0106432d45a51aa",
+    "launch/continuous/server.test.js": "88e583a3777785a8fb974dfc820090bcd284c424385caa3ba1d799d743887233",
+    "launch/continuous/style.css": "f11cb574f7b428dddf081a7b6af5be4a65ab90736e3874ef2a4100191980a2e7",
+    "launch/continuous/test.js": "8ba375bd7cce6edaabcf3d31a1f0b6d83f4ac89d68f57065b66d1e7a74aaf628",
+    "vault/src/ordinal-pair.js": "d6d18f8ca48bd6bfc64d7f8eb79b98d20f4af4e6e9340a408844217b85588fd8",
+    "vault/src/launch-record.js": "01a2756dbd5979c425b554c0980465ff9f79dde98a3fa20af730307b5bad919c",
+    "vault/artifacts/ordinalPair.json": "36e436e97844dfcf60c912072447c5b1e03bcd0c5490f0e07dded3c81cedaccd",
+    "mint/delivery.js": "c49ac37b97a38cce819030602dd71e79422f7a9b2877cdc8d6d3f73f55476885",
+    "launch/wallet-transport/adapter.js": "52b7465280c46cb5050403cf9864d87b729e11e302db037fa9f2645c317c1a3d",
+    "launch/wallet-transport/package-lock.json": "151eb862ed9f8b3f2c2f5bbf1940981d3767b0f77b774e0834508be37c9abda5"
+  },
+  "checkout_newline_differences": {
+    "vault/src/launch-record.js": {
+      "executed_sha256": "01a2756dbd5979c425b554c0980465ff9f79dde98a3fa20af730307b5bad919c",
+      "git_sha256": "96de2bba8237359ec23eba511f6c82235a9edff2cfeb96b864556d64bbfcfebc",
+      "newline_only": true
+    },
+    "mint/delivery.js": {
+      "executed_sha256": "c49ac37b97a38cce819030602dd71e79422f7a9b2877cdc8d6d3f73f55476885",
+      "git_sha256": "11641f95e47b0b7ec1c17de5cd47f910833d911d06244e0c89ea99beba80cae6",
+      "newline_only": true
+    }
+  }
+}
