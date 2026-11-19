@@ -1,0 +1,538 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 1,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 1113880,
+        "role": "editable-source",
+        "sha256": "11bb6d0f4c32d2e8433f447798d6adf1621c91b638cc784f7a127786798ee863",
+        "source": {
+          "commit": "8ab535cde9da94db88cc70fbe63451015568bbb2",
+          "path": "preview/slovakia-v1/slovakia.blend"
+        },
+        "uri": "sha256:11bb6d0f4c32d2e8433f447798d6adf1621c91b638cc784f7a127786798ee863"
+      },
+      {
+        "bytes": 8063709,
+        "role": "historical-source-archive",
+        "sha256": "4936e2d666ba7cb817c38727a2090f1a838bb953e5b0cdb690860a85eab12073",
+        "source": {
+          "commit": "8ab535cde9da94db88cc70fbe63451015568bbb2",
+          "kind": "git",
+          "path": "preview/slovakia-v1/slovakia-v1-source.zip"
+        },
+        "uri": "sha256:4936e2d666ba7cb817c38727a2090f1a838bb953e5b0cdb690860a85eab12073"
+      },
+      {
+        "bytes": 2485936,
+        "role": "model",
+        "sha256": "a67f45dc10751de843915c1bb04d84606e2510a96c1af22b225436c3b96e0c4a",
+        "source": {
+          "commit": "8ab535cde9da94db88cc70fbe63451015568bbb2",
+          "path": "preview/slovakia-v1/slovakia.glb"
+        },
+        "uri": "sha256:a67f45dc10751de843915c1bb04d84606e2510a96c1af22b225436c3b96e0c4a"
+      },
+      {
+        "bytes": 56106,
+        "role": "promotional-illustration",
+        "sha256": "1b8820c6a8d6a4611d8d0a042a9010a0c9565f91a45e6b32c9b533fb3b2efc34",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/slovakia.webp"
+        },
+        "uri": "sha256:1b8820c6a8d6a4611d8d0a042a9010a0c9565f91a45e6b32c9b533fb3b2efc34"
+      },
+      {
+        "bytes": 3266,
+        "role": "research-brief",
+        "sha256": "c86deeccc3a5f67fa29404261038ab921ec125d858e659b55d6f1dc18c29bc96",
+        "source": {
+          "commit": "8ab535cde9da94db88cc70fbe63451015568bbb2",
+          "path": "preview/slovakia-v1/design-brief.md"
+        },
+        "uri": "sha256:c86deeccc3a5f67fa29404261038ab921ec125d858e659b55d6f1dc18c29bc96"
+      },
+      {
+        "bytes": 4142,
+        "role": "source-notice",
+        "sha256": "f7e170d8a2ec44a33a1c308eba57a59c9497f5d06c26dfa9669c8b0ff6a69f97",
+        "source": {
+          "commit": "8ab535cde9da94db88cc70fbe63451015568bbb2",
+          "path": "preview/slovakia-v1/README.md"
+        },
+        "uri": "sha256:f7e170d8a2ec44a33a1c308eba57a59c9497f5d06c26dfa9669c8b0ff6a69f97"
+      },
+      {
+        "bytes": 4138711,
+        "role": "viewer",
+        "sha256": "76930668af9de73cf6a161db307fdb47fa8db3added31cb11bd8cc61cad8cc2d",
+        "source": {
+          "commit": "8ab535cde9da94db88cc70fbe63451015568bbb2",
+          "path": "preview/slovakia-v1/slovakia-v1.html"
+        },
+        "uri": "sha256:76930668af9de73cf6a161db307fdb47fa8db3added31cb11bd8cc61cad8cc2d"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "slovakia",
+    "independent_review": {
+      "all_four_original_captures_inspected": true,
+      "captures": [
+        "launch/art-01/smoke/slovakia/desktop-closed.png",
+        "launch/art-01/smoke/slovakia/desktop-open.png",
+        "launch/art-01/smoke/slovakia/mobile-closed.png",
+        "launch/art-01/smoke/slovakia/mobile-open.png"
+      ],
+      "critical_defects": [],
+      "fresh_qa_runtime": [],
+      "id": "slovakia",
+      "launch_ready": false,
+      "marketing_inspected": true,
+      "model_changed": false,
+      "model_sources": [
+        {
+          "bytes": 1113880,
+          "commit": "8ab535cde9da94db88cc70fbe63451015568bbb2",
+          "path": "preview/slovakia-v1/slovakia.blend",
+          "role": "selected-model",
+          "sha256": "11bb6d0f4c32d2e8433f447798d6adf1621c91b638cc784f7a127786798ee863"
+        },
+        {
+          "bytes": 2485936,
+          "commit": "8ab535cde9da94db88cc70fbe63451015568bbb2",
+          "path": "preview/slovakia-v1/slovakia.glb",
+          "role": "selected-model",
+          "sha256": "a67f45dc10751de843915c1bb04d84606e2510a96c1af22b225436c3b96e0c4a",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 295,
+            "nodes": 297
+          }
+        }
+      ],
+      "parent_runtime": {
+        "cases": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8684999626129866,
+                  2.0325001142919064,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 2485936,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 6,
+              "meshes": 295,
+              "nonfinite": 0,
+              "triangles": 21244
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "slovakia",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "76930668af9de73cf6a161db307fdb47fa8db3added31cb11bd8cc61cad8cc2d"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8684999626129866,
+                  2.0325001142919064,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 2485936,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 6,
+              "meshes": 295,
+              "nonfinite": 0,
+              "triangles": 21244
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "slovakia",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "76930668af9de73cf6a161db307fdb47fa8db3added31cb11bd8cc61cad8cc2d"
+          }
+        ],
+        "independently_rerun": false,
+        "motion": {
+          "exit_code": 0,
+          "id": "slovakia",
+          "passed": true,
+          "scope": "original motion unit assertions; not fresh collision/source parity"
+        }
+      },
+      "parent_status": "needs-decision",
+      "remaining_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "art-direction-decision",
+        "hinge-attachment-clarity-not-proven-by-stills"
+      ],
+      "selection": {
+        "commit": "8ab535cde9da94db88cc70fbe63451015568bbb2",
+        "fetched_tip": "8ab535cde9da94db88cc70fbe63451015568bbb2",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/slovakia-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 8063709,
+          "commit": "8ab535cde9da94db88cc70fbe63451015568bbb2",
+          "crc_safe_unique": true,
+          "exact_selected_payloads": {
+            "slovakia-v1.html": [
+              "slovakia-v1.html"
+            ],
+            "slovakia.blend": [
+              "slovakia.blend"
+            ],
+            "slovakia.glb": [
+              "slovakia.glb"
+            ]
+          },
+          "full_inventory_rerun": false,
+          "inherited_full_inventory_checked": true,
+          "members": 55,
+          "path": "preview/slovakia-v1/slovakia-v1-source.zip",
+          "sha256": "4936e2d666ba7cb817c38727a2090f1a838bb953e5b0cdb690860a85eab12073"
+        }
+      ],
+      "user_final_approved": false,
+      "verdict": "needs-user-review",
+      "viewer": {
+        "bytes": 4138711,
+        "commit": "8ab535cde9da94db88cc70fbe63451015568bbb2",
+        "path": "preview/slovakia-v1/slovakia-v1.html",
+        "sha256": "76930668af9de73cf6a161db307fdb47fa8db3added31cb11bd8cc61cad8cc2d",
+        "under_5000000": true
+      },
+      "visual_review": {
+        "critical_visible_faults": [],
+        "desktop_closed": "Timber courses, finger joints, white side diamonds, raised lid geometry, brass clasp/ring/caps and gray feet are readable. Top panel is noticeably lighter and flatter than the sides; grain is regular and striped. Entire silhouette fits.",
+        "desktop_open": "Empty timber cavity and raised lid are visible and uncropped. Rear attachment reads somewhat separated; no definite missing panel or severe intersection.",
+        "file": "visual-d.json",
+        "id": "slovakia",
+        "marketing_comparison": "Same timber chest, hollow white lid squares, side diamonds, joinery and principal hardware. Marketing wood is more muted and evenly integrated; runtime top/body tonal split and uniform grain are stronger. No obvious identity substitution.",
+        "mobile_closed": "Country motif and hardware remain legible; complete chest and UI fit. Fine timber detail is less resolved.",
+        "mobile_open": "Interior and lid remain fully visible, with no blocking layout fault. Small supporting text persists.",
+        "parent_status": "needs-decision",
+        "parent_status_justified": true,
+        "qualification": "Conservative finish hold is justified, but the parent wording about low apparent ornament relief is too broad: the white lid ornaments visibly project above the top in the original desktop capture.",
+        "recommended_status": "needs-decision"
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Slovakia",
+    "package_history": [
+      {
+        "bytes": 8063709,
+        "commit": "8ab535cde9da94db88cc70fbe63451015568bbb2",
+        "crc_error": null,
+        "entries": 55,
+        "inventory_checked": true,
+        "inventory_entries": 54,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/slovakia-v1/slovakia-v1-source.zip",
+        "required_payloads": {
+          "slovakia-v1.html": true,
+          "slovakia.blend": true,
+          "slovakia.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "4936e2d666ba7cb817c38727a2090f1a838bb953e5b0cdb690860a85eab12073"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "8ab535cde9da94db88cc70fbe63451015568bbb2",
+      "fetched_tip": "8ab535cde9da94db88cc70fbe63451015568bbb2",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/slovakia-v1"
+    },
+    "verdict": "needs-user-review",
+    "viewer": {
+      "bytes": 4138711,
+      "commit": "8ab535cde9da94db88cc70fbe63451015568bbb2",
+      "path": "preview/slovakia-v1/slovakia-v1.html",
+      "sha256": "76930668af9de73cf6a161db307fdb47fa8db3added31cb11bd8cc61cad8cc2d",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "slovakia",
+    "baseline_verdict": "needs-user-review",
+    "actions": [
+      "owner art/finish acceptance; no proven runtime defect recorded; no autonomous redesign"
+    ],
+    "approval": false,
+    "original_review": {
+      "all_four_original_captures_inspected": true,
+      "captures": [
+        "launch/art-01/smoke/slovakia/desktop-closed.png",
+        "launch/art-01/smoke/slovakia/desktop-open.png",
+        "launch/art-01/smoke/slovakia/mobile-closed.png",
+        "launch/art-01/smoke/slovakia/mobile-open.png"
+      ],
+      "critical_defects": [],
+      "fresh_qa_runtime": [],
+      "id": "slovakia",
+      "launch_ready": false,
+      "marketing_inspected": true,
+      "model_changed": false,
+      "model_sources": [
+        {
+          "bytes": 1113880,
+          "commit": "8ab535cde9da94db88cc70fbe63451015568bbb2",
+          "path": "preview/slovakia-v1/slovakia.blend",
+          "role": "selected-model",
+          "sha256": "11bb6d0f4c32d2e8433f447798d6adf1621c91b638cc784f7a127786798ee863"
+        },
+        {
+          "bytes": 2485936,
+          "commit": "8ab535cde9da94db88cc70fbe63451015568bbb2",
+          "path": "preview/slovakia-v1/slovakia.glb",
+          "role": "selected-model",
+          "sha256": "a67f45dc10751de843915c1bb04d84606e2510a96c1af22b225436c3b96e0c4a",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 295,
+            "nodes": 297
+          }
+        }
+      ],
+      "parent_runtime": {
+        "cases": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8684999626129866,
+                  2.0325001142919064,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 2485936,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 6,
+              "meshes": 295,
+              "nonfinite": 0,
+              "triangles": 21244
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "slovakia",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "76930668af9de73cf6a161db307fdb47fa8db3added31cb11bd8cc61cad8cc2d"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8684999626129866,
+                  2.0325001142919064,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 2485936,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 6,
+              "meshes": 295,
+              "nonfinite": 0,
+              "triangles": 21244
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "slovakia",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "76930668af9de73cf6a161db307fdb47fa8db3added31cb11bd8cc61cad8cc2d"
+          }
+        ],
+        "independently_rerun": false,
+        "motion": {
+          "exit_code": 0,
+          "id": "slovakia",
+          "passed": true,
+          "scope": "original motion unit assertions; not fresh collision/source parity"
+        }
+      },
+      "parent_status": "needs-decision",
+      "remaining_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "art-direction-decision",
+        "hinge-attachment-clarity-not-proven-by-stills"
+      ],
+      "selection": {
+        "commit": "8ab535cde9da94db88cc70fbe63451015568bbb2",
+        "fetched_tip": "8ab535cde9da94db88cc70fbe63451015568bbb2",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/slovakia-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 8063709,
+          "commit": "8ab535cde9da94db88cc70fbe63451015568bbb2",
+          "crc_safe_unique": true,
+          "exact_selected_payloads": {
+            "slovakia-v1.html": [
+              "slovakia-v1.html"
+            ],
+            "slovakia.blend": [
+              "slovakia.blend"
+            ],
+            "slovakia.glb": [
+              "slovakia.glb"
+            ]
+          },
+          "full_inventory_rerun": false,
+          "inherited_full_inventory_checked": true,
+          "members": 55,
+          "path": "preview/slovakia-v1/slovakia-v1-source.zip",
+          "sha256": "4936e2d666ba7cb817c38727a2090f1a838bb953e5b0cdb690860a85eab12073"
+        }
+      ],
+      "user_final_approved": false,
+      "verdict": "needs-user-review",
+      "viewer": {
+        "bytes": 4138711,
+        "commit": "8ab535cde9da94db88cc70fbe63451015568bbb2",
+        "path": "preview/slovakia-v1/slovakia-v1.html",
+        "sha256": "76930668af9de73cf6a161db307fdb47fa8db3added31cb11bd8cc61cad8cc2d",
+        "under_5000000": true
+      },
+      "visual_review": {
+        "critical_visible_faults": [],
+        "desktop_closed": "Timber courses, finger joints, white side diamonds, raised lid geometry, brass clasp/ring/caps and gray feet are readable. Top panel is noticeably lighter and flatter than the sides; grain is regular and striped. Entire silhouette fits.",
+        "desktop_open": "Empty timber cavity and raised lid are visible and uncropped. Rear attachment reads somewhat separated; no definite missing panel or severe intersection.",
+        "file": "visual-d.json",
+        "id": "slovakia",
+        "marketing_comparison": "Same timber chest, hollow white lid squares, side diamonds, joinery and principal hardware. Marketing wood is more muted and evenly integrated; runtime top/body tonal split and uniform grain are stronger. No obvious identity substitution.",
+        "mobile_closed": "Country motif and hardware remain legible; complete chest and UI fit. Fine timber detail is less resolved.",
+        "mobile_open": "Interior and lid remain fully visible, with no blocking layout fault. Small supporting text persists.",
+        "parent_status": "needs-decision",
+        "parent_status_justified": true,
+        "qualification": "Conservative finish hold is justified, but the parent wording about low apparent ornament relief is too broad: the white lid ornaments visibly project above the top in the original desktop capture.",
+        "recommended_status": "needs-decision"
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 8063709,
+        "commit": "8ab535cde9da94db88cc70fbe63451015568bbb2",
+        "crc_error": null,
+        "entries": 55,
+        "inventory_checked": true,
+        "inventory_entries": 54,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/slovakia-v1/slovakia-v1-source.zip",
+        "required_payloads": {
+          "slovakia-v1.html": true,
+          "slovakia.blend": true,
+          "slovakia.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "4936e2d666ba7cb817c38727a2090f1a838bb953e5b0cdb690860a85eab12073"
+      }
+    ]
+  },
+  "visual_decision": {
+    "id": "slovakia",
+    "disposition": "preview-accepted-with-limitations",
+    "issue": "Regular wood grain and lighter lid/body tonal split.",
+    "rationale": "White diamonds, visibly raised lid ornaments, timber joinery and hardware remain. The independent correction that lid relief is present is supported by the board; accept tonal and grain simplification.",
+    "evidence": {
+      "commit": "45e69632c56c786dbf84ab6484d6b352f482c5c6",
+      "path": "launch/qa-art-01/launch/art-01/boards/slovakia.jpg",
+      "sha256": "c9582e9939a86bf8a7661987c769347cc6a5b253e2b0b92192fa4fbdd502dd90"
+    }
+  }
+}

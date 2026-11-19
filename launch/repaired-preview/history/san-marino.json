@@ -1,0 +1,552 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 1,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 318075,
+        "role": "editable-source",
+        "sha256": "bc29ffda2496b2941fc56ed00ede62f7b3c1ffbcc5b3468908938d9f416d2d80",
+        "source": {
+          "commit": "792a0c5109f652a1d938855d0a290028f4a326a1",
+          "path": "preview/san-marino-v1/san-marino.blend"
+        },
+        "uri": "sha256:bc29ffda2496b2941fc56ed00ede62f7b3c1ffbcc5b3468908938d9f416d2d80"
+      },
+      {
+        "bytes": 5979175,
+        "role": "historical-source-archive",
+        "sha256": "4e95ca53d272546d98a7ab7fc601c8ccc1b504dd05aaa36e028643eb5d10c084",
+        "source": {
+          "commit": "792a0c5109f652a1d938855d0a290028f4a326a1",
+          "kind": "git",
+          "path": "preview/san-marino-v1/san-marino-v1-source.zip"
+        },
+        "uri": "sha256:4e95ca53d272546d98a7ab7fc601c8ccc1b504dd05aaa36e028643eb5d10c084"
+      },
+      {
+        "bytes": 867572,
+        "role": "model",
+        "sha256": "8c9588e1422944c4e157d7d0b2a29b4cc32f878bb49f93a866e8533ad83ffe4b",
+        "source": {
+          "commit": "792a0c5109f652a1d938855d0a290028f4a326a1",
+          "path": "preview/san-marino-v1/san-marino.glb"
+        },
+        "uri": "sha256:8c9588e1422944c4e157d7d0b2a29b4cc32f878bb49f93a866e8533ad83ffe4b"
+      },
+      {
+        "bytes": 27064,
+        "role": "promotional-illustration",
+        "sha256": "2a368b6e753aef06aeb5a199e6f420695cc6aa9a5e77ca5c60c4e2c509098468",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/san-marino.webp"
+        },
+        "uri": "sha256:2a368b6e753aef06aeb5a199e6f420695cc6aa9a5e77ca5c60c4e2c509098468"
+      },
+      {
+        "bytes": 2641,
+        "role": "research-brief",
+        "sha256": "a1e3c3d489493e3da20d0430369c97d922fbf371964e7fb4a4ab82b74727be49",
+        "source": {
+          "commit": "792a0c5109f652a1d938855d0a290028f4a326a1",
+          "path": "preview/san-marino-v1/design-brief.md"
+        },
+        "uri": "sha256:a1e3c3d489493e3da20d0430369c97d922fbf371964e7fb4a4ab82b74727be49"
+      },
+      {
+        "bytes": 4828,
+        "role": "source-notice",
+        "sha256": "985f6c228655ee129ea25e56ef28aa5a03cbca515b3acd124f701ba90b482d0d",
+        "source": {
+          "commit": "792a0c5109f652a1d938855d0a290028f4a326a1",
+          "path": "preview/san-marino-v1/README.md"
+        },
+        "uri": "sha256:985f6c228655ee129ea25e56ef28aa5a03cbca515b3acd124f701ba90b482d0d"
+      },
+      {
+        "bytes": 1933034,
+        "role": "viewer",
+        "sha256": "8b2c2ac665b9daf4da269833d482df276cb07614956c6260cee665302bde616f",
+        "source": {
+          "commit": "792a0c5109f652a1d938855d0a290028f4a326a1",
+          "path": "preview/san-marino-v1/san-marino-v1.html"
+        },
+        "uri": "sha256:8b2c2ac665b9daf4da269833d482df276cb07614956c6260cee665302bde616f"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "san-marino",
+    "independent_review": {
+      "all_four_original_captures_inspected": true,
+      "captures": [
+        "launch/art-01/smoke/san-marino/desktop-closed.png",
+        "launch/art-01/smoke/san-marino/desktop-open.png",
+        "launch/art-01/smoke/san-marino/mobile-closed.png",
+        "launch/art-01/smoke/san-marino/mobile-open.png"
+      ],
+      "critical_defects": [],
+      "fresh_qa_runtime": [],
+      "id": "san-marino",
+      "launch_ready": false,
+      "marketing_inspected": true,
+      "model_changed": false,
+      "model_sources": [
+        {
+          "bytes": 318075,
+          "commit": "792a0c5109f652a1d938855d0a290028f4a326a1",
+          "path": "preview/san-marino-v1/san-marino.blend",
+          "role": "selected-model",
+          "sha256": "bc29ffda2496b2941fc56ed00ede62f7b3c1ffbcc5b3468908938d9f416d2d80"
+        },
+        {
+          "bytes": 867572,
+          "commit": "792a0c5109f652a1d938855d0a290028f4a326a1",
+          "path": "preview/san-marino-v1/san-marino.glb",
+          "role": "selected-model",
+          "sha256": "8c9588e1422944c4e157d7d0b2a29b4cc32f878bb49f93a866e8533ad83ffe4b",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 102,
+            "nodes": 104
+          }
+        }
+      ],
+      "parent_runtime": {
+        "cases": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  3.1849999986588955,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.9279999874783151,
+                  -0.2800000086426735,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 867572,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 5,
+              "meshes": 102,
+              "nonfinite": 0,
+              "triangles": 9800
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "san-marino",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "8b2c2ac665b9daf4da269833d482df276cb07614956c6260cee665302bde616f"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  3.1849999986588955,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.9279999874783151,
+                  -0.2800000086426735,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 867572,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 5,
+              "meshes": 102,
+              "nonfinite": 0,
+              "triangles": 9800
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "san-marino",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "8b2c2ac665b9daf4da269833d482df276cb07614956c6260cee665302bde616f"
+          }
+        ],
+        "independently_rerun": false,
+        "motion": {
+          "exit_code": 0,
+          "id": "san-marino",
+          "passed": true,
+          "scope": "original motion unit assertions; not fresh collision/source parity"
+        }
+      },
+      "parent_status": "needs-decision",
+      "remaining_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "art-direction-decision",
+        "hinge-attachment-clarity-not-proven-by-stills"
+      ],
+      "selection": {
+        "commit": "792a0c5109f652a1d938855d0a290028f4a326a1",
+        "fetched_tip": "792a0c5109f652a1d938855d0a290028f4a326a1",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/san-marino-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 5979175,
+          "commit": "792a0c5109f652a1d938855d0a290028f4a326a1",
+          "crc_safe_unique": true,
+          "exact_selected_payloads": {
+            "san-marino-v1.html": [
+              "san-marino-v1.html"
+            ],
+            "san-marino.blend": [
+              "san-marino.blend"
+            ],
+            "san-marino.glb": [
+              "san-marino.glb"
+            ]
+          },
+          "full_inventory_rerun": false,
+          "inherited_full_inventory_checked": true,
+          "members": 56,
+          "path": "preview/san-marino-v1/san-marino-v1-source.zip",
+          "sha256": "4e95ca53d272546d98a7ab7fc601c8ccc1b504dd05aaa36e028643eb5d10c084"
+        }
+      ],
+      "user_final_approved": false,
+      "verdict": "needs-user-review",
+      "viewer": {
+        "bytes": 1933034,
+        "commit": "792a0c5109f652a1d938855d0a290028f4a326a1",
+        "path": "preview/san-marino-v1/san-marino-v1.html",
+        "sha256": "8b2c2ac665b9daf4da269833d482df276cb07614956c6260cee665302bde616f",
+        "under_5000000": true
+      },
+      "visual_review": {
+        "critical_visible_faults": [],
+        "decision": "Parent hold is defensible as a conservative user art decision, not a technical fail. Preserve it; no final approval or automatic regeneration.",
+        "desktop_closed": "Three crenellated towers on pale rocky bases, blue seam and brass hardware are clearly retained. Bright stone loses surface definition.",
+        "desktop_open": "Empty pale cavity, blue rim and plain lid underside visible; complete object fits with no obvious severe intersection.",
+        "file": "visual-c.json",
+        "id": "san-marino",
+        "inspected": [
+          "smoke/san-marino/desktop-closed.png",
+          "smoke/san-marino/desktop-open.png",
+          "smoke/san-marino/mobile-closed.png",
+          "smoke/san-marino/mobile-open.png",
+          "marketing/san-marino.webp"
+        ],
+        "marketing_comparison": "Close identity match: three unequal-height towers, faceted rocks, pale body, blue seam and principal hardware persist. Marketing has more articulated rock edges and surface shading; runtime is brighter and more uniform. This is a low-severity polish discrepancy, not a demonstrated mechanical correction need.",
+        "mobile_closed": "All three towers remain readable; body and rock detail are simplified at phone scale. No crop or UI overlap.",
+        "mobile_open": "Full raised lid, hinges and cavity are visible; hinge/rim contact needs other views for a physical claim.",
+        "parent_status": "needs-decision",
+        "parent_status_justified": true,
+        "severity": "low-fidelity-caveat"
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "San Marino",
+    "package_history": [
+      {
+        "bytes": 5979175,
+        "commit": "792a0c5109f652a1d938855d0a290028f4a326a1",
+        "crc_error": null,
+        "entries": 56,
+        "inventory_checked": true,
+        "inventory_entries": 55,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/san-marino-v1/san-marino-v1-source.zip",
+        "required_payloads": {
+          "san-marino-v1.html": true,
+          "san-marino.blend": true,
+          "san-marino.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "4e95ca53d272546d98a7ab7fc601c8ccc1b504dd05aaa36e028643eb5d10c084"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "792a0c5109f652a1d938855d0a290028f4a326a1",
+      "fetched_tip": "792a0c5109f652a1d938855d0a290028f4a326a1",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/san-marino-v1"
+    },
+    "verdict": "needs-user-review",
+    "viewer": {
+      "bytes": 1933034,
+      "commit": "792a0c5109f652a1d938855d0a290028f4a326a1",
+      "path": "preview/san-marino-v1/san-marino-v1.html",
+      "sha256": "8b2c2ac665b9daf4da269833d482df276cb07614956c6260cee665302bde616f",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "san-marino",
+    "baseline_verdict": "needs-user-review",
+    "actions": [
+      "owner art/finish acceptance; no proven runtime defect recorded; no autonomous redesign"
+    ],
+    "approval": false,
+    "original_review": {
+      "all_four_original_captures_inspected": true,
+      "captures": [
+        "launch/art-01/smoke/san-marino/desktop-closed.png",
+        "launch/art-01/smoke/san-marino/desktop-open.png",
+        "launch/art-01/smoke/san-marino/mobile-closed.png",
+        "launch/art-01/smoke/san-marino/mobile-open.png"
+      ],
+      "critical_defects": [],
+      "fresh_qa_runtime": [],
+      "id": "san-marino",
+      "launch_ready": false,
+      "marketing_inspected": true,
+      "model_changed": false,
+      "model_sources": [
+        {
+          "bytes": 318075,
+          "commit": "792a0c5109f652a1d938855d0a290028f4a326a1",
+          "path": "preview/san-marino-v1/san-marino.blend",
+          "role": "selected-model",
+          "sha256": "bc29ffda2496b2941fc56ed00ede62f7b3c1ffbcc5b3468908938d9f416d2d80"
+        },
+        {
+          "bytes": 867572,
+          "commit": "792a0c5109f652a1d938855d0a290028f4a326a1",
+          "path": "preview/san-marino-v1/san-marino.glb",
+          "role": "selected-model",
+          "sha256": "8c9588e1422944c4e157d7d0b2a29b4cc32f878bb49f93a866e8533ad83ffe4b",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 102,
+            "nodes": 104
+          }
+        }
+      ],
+      "parent_runtime": {
+        "cases": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  3.1849999986588955,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.9279999874783151,
+                  -0.2800000086426735,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 867572,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 5,
+              "meshes": 102,
+              "nonfinite": 0,
+              "triangles": 9800
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "san-marino",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "8b2c2ac665b9daf4da269833d482df276cb07614956c6260cee665302bde616f"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  3.1849999986588955,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.9279999874783151,
+                  -0.2800000086426735,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 867572,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 5,
+              "meshes": 102,
+              "nonfinite": 0,
+              "triangles": 9800
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "san-marino",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "8b2c2ac665b9daf4da269833d482df276cb07614956c6260cee665302bde616f"
+          }
+        ],
+        "independently_rerun": false,
+        "motion": {
+          "exit_code": 0,
+          "id": "san-marino",
+          "passed": true,
+          "scope": "original motion unit assertions; not fresh collision/source parity"
+        }
+      },
+      "parent_status": "needs-decision",
+      "remaining_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "art-direction-decision",
+        "hinge-attachment-clarity-not-proven-by-stills"
+      ],
+      "selection": {
+        "commit": "792a0c5109f652a1d938855d0a290028f4a326a1",
+        "fetched_tip": "792a0c5109f652a1d938855d0a290028f4a326a1",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/san-marino-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 5979175,
+          "commit": "792a0c5109f652a1d938855d0a290028f4a326a1",
+          "crc_safe_unique": true,
+          "exact_selected_payloads": {
+            "san-marino-v1.html": [
+              "san-marino-v1.html"
+            ],
+            "san-marino.blend": [
+              "san-marino.blend"
+            ],
+            "san-marino.glb": [
+              "san-marino.glb"
+            ]
+          },
+          "full_inventory_rerun": false,
+          "inherited_full_inventory_checked": true,
+          "members": 56,
+          "path": "preview/san-marino-v1/san-marino-v1-source.zip",
+          "sha256": "4e95ca53d272546d98a7ab7fc601c8ccc1b504dd05aaa36e028643eb5d10c084"
+        }
+      ],
+      "user_final_approved": false,
+      "verdict": "needs-user-review",
+      "viewer": {
+        "bytes": 1933034,
+        "commit": "792a0c5109f652a1d938855d0a290028f4a326a1",
+        "path": "preview/san-marino-v1/san-marino-v1.html",
+        "sha256": "8b2c2ac665b9daf4da269833d482df276cb07614956c6260cee665302bde616f",
+        "under_5000000": true
+      },
+      "visual_review": {
+        "critical_visible_faults": [],
+        "decision": "Parent hold is defensible as a conservative user art decision, not a technical fail. Preserve it; no final approval or automatic regeneration.",
+        "desktop_closed": "Three crenellated towers on pale rocky bases, blue seam and brass hardware are clearly retained. Bright stone loses surface definition.",
+        "desktop_open": "Empty pale cavity, blue rim and plain lid underside visible; complete object fits with no obvious severe intersection.",
+        "file": "visual-c.json",
+        "id": "san-marino",
+        "inspected": [
+          "smoke/san-marino/desktop-closed.png",
+          "smoke/san-marino/desktop-open.png",
+          "smoke/san-marino/mobile-closed.png",
+          "smoke/san-marino/mobile-open.png",
+          "marketing/san-marino.webp"
+        ],
+        "marketing_comparison": "Close identity match: three unequal-height towers, faceted rocks, pale body, blue seam and principal hardware persist. Marketing has more articulated rock edges and surface shading; runtime is brighter and more uniform. This is a low-severity polish discrepancy, not a demonstrated mechanical correction need.",
+        "mobile_closed": "All three towers remain readable; body and rock detail are simplified at phone scale. No crop or UI overlap.",
+        "mobile_open": "Full raised lid, hinges and cavity are visible; hinge/rim contact needs other views for a physical claim.",
+        "parent_status": "needs-decision",
+        "parent_status_justified": true,
+        "severity": "low-fidelity-caveat"
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 5979175,
+        "commit": "792a0c5109f652a1d938855d0a290028f4a326a1",
+        "crc_error": null,
+        "entries": 56,
+        "inventory_checked": true,
+        "inventory_entries": 55,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/san-marino-v1/san-marino-v1-source.zip",
+        "required_payloads": {
+          "san-marino-v1.html": true,
+          "san-marino.blend": true,
+          "san-marino.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "4e95ca53d272546d98a7ab7fc601c8ccc1b504dd05aaa36e028643eb5d10c084"
+      }
+    ]
+  },
+  "visual_decision": {
+    "id": "san-marino",
+    "disposition": "preview-accepted-with-limitations",
+    "issue": "Bright uniform stone and simplified rock shading.",
+    "rationale": "All three unequal crenellated towers, rocky base, blue seam and main fittings remain. This is low-severity polish, not lost architecture or demonstrated mechanical failure.",
+    "evidence": {
+      "commit": "45e69632c56c786dbf84ab6484d6b352f482c5c6",
+      "path": "launch/qa-art-01/launch/art-01/boards/san-marino.jpg",
+      "sha256": "cefafcffc3eff8f56299c4466b3944bc15d9118fa9f11b484e871ef64a004ba1"
+    }
+  }
+}

@@ -1,0 +1,543 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 2,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 591815,
+        "role": "editable-source",
+        "sha256": "790814ca91787a55439aeaaa33fce419bc62f0dd90d08c001b40c6908693de7a",
+        "source": {
+          "commit": "97abf7f4a8c899e578afeb605be9170f81b3beb3",
+          "path": "preview/cote-d-ivoire-v1/cote-d-ivoire.blend"
+        },
+        "uri": "sha256:790814ca91787a55439aeaaa33fce419bc62f0dd90d08c001b40c6908693de7a"
+      },
+      {
+        "bytes": 5845720,
+        "role": "historical-source-archive",
+        "sha256": "0292fc92391cb1006d45f4269c64447f8570ff0289daccfe91522c058a7860ba",
+        "source": {
+          "commit": "97abf7f4a8c899e578afeb605be9170f81b3beb3",
+          "kind": "git",
+          "path": "preview/cote-d-ivoire-v1/cote-d-ivoire-v1-source.zip"
+        },
+        "uri": "sha256:0292fc92391cb1006d45f4269c64447f8570ff0289daccfe91522c058a7860ba"
+      },
+      {
+        "bytes": 1732976,
+        "role": "model",
+        "sha256": "471ccb13f2999a33352f2961a40a752f40b07f8889537e63d4e34500310bc0ea",
+        "source": {
+          "commit": "97abf7f4a8c899e578afeb605be9170f81b3beb3",
+          "path": "preview/cote-d-ivoire-v1/cote-d-ivoire.glb"
+        },
+        "uri": "sha256:471ccb13f2999a33352f2961a40a752f40b07f8889537e63d4e34500310bc0ea"
+      },
+      {
+        "bytes": 141052,
+        "role": "promotional-illustration",
+        "sha256": "ac96e6c25f901b64f3d4656e83d57f7753efbd24457a23065b696e3fb863f675",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/cote-d-ivoire.webp"
+        },
+        "uri": "sha256:ac96e6c25f901b64f3d4656e83d57f7753efbd24457a23065b696e3fb863f675"
+      },
+      {
+        "bytes": 3156,
+        "role": "research-brief",
+        "sha256": "835865aab4cde327cc524dff9b8dd578bc35b38e1740f405b3db9a58a3af6d89",
+        "source": {
+          "commit": "97abf7f4a8c899e578afeb605be9170f81b3beb3",
+          "path": "preview/cote-d-ivoire-v1/design-brief.md"
+        },
+        "uri": "sha256:835865aab4cde327cc524dff9b8dd578bc35b38e1740f405b3db9a58a3af6d89"
+      },
+      {
+        "bytes": 4886,
+        "role": "source-notice",
+        "sha256": "d197d0f35ec75c5e4d96d8bb906fae377ed0befa78e8ec743617ed3c51ce5385",
+        "source": {
+          "commit": "97abf7f4a8c899e578afeb605be9170f81b3beb3",
+          "path": "preview/cote-d-ivoire-v1/README.md"
+        },
+        "uri": "sha256:d197d0f35ec75c5e4d96d8bb906fae377ed0befa78e8ec743617ed3c51ce5385"
+      },
+      {
+        "bytes": 3148250,
+        "role": "viewer",
+        "sha256": "00947f6e0775e221ae0e7fe4f9c2e2a50a8e7d97b45bf9b4b27dd7d9390f3214",
+        "source": {
+          "commit": "97abf7f4a8c899e578afeb605be9170f81b3beb3",
+          "path": "preview/cote-d-ivoire-v1/cote-d-ivoire-v1.html"
+        },
+        "uri": "sha256:00947f6e0775e221ae0e7fe4f9c2e2a50a8e7d97b45bf9b4b27dd7d9390f3214"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "cote-d-ivoire",
+    "independent_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "archives": [
+        {
+          "bytes": 5845720,
+          "entries": 55,
+          "inventory_entries_checked": 54,
+          "path": "preview/cote-d-ivoire-v1/cote-d-ivoire-v1-source.zip",
+          "required_payloads": "pass",
+          "safe_paths_crc": "pass",
+          "sha256": "0292fc92391cb1006d45f4269c64447f8570ff0289daccfe91522c058a7860ba"
+        }
+      ],
+      "fresh_browser_cases": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8829999486915767,
+                2.043000064790249,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.2500000074505806,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1732976,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 6,
+            "meshes": 263,
+            "nonfinite": 0,
+            "triangles": 18732
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "cote-d-ivoire",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "00947f6e0775e221ae0e7fe4f9c2e2a50a8e7d97b45bf9b4b27dd7d9390f3214"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8829999486915767,
+                2.043000064790249,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.2500000074505806,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1732976,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 6,
+            "meshes": 263,
+            "nonfinite": 0,
+            "triangles": 18732
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "cote-d-ivoire",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "00947f6e0775e221ae0e7fe4f9c2e2a50a8e7d97b45bf9b4b27dd7d9390f3214"
+        }
+      ],
+      "fresh_motion_suite": {
+        "exit_code": 0,
+        "id": "cote-d-ivoire",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "97abf7f4a8c899e578afeb605be9170f81b3beb3",
+            "path": "preview/cote-d-ivoire-v1/motion.mjs",
+            "sha256": "f85b58705ee7d6fd7688ba0d301442b6f1ba85e58d0c03bcacebb4c6a13c8125"
+          }
+        ]
+      },
+      "fresh_runtime_captures": [
+        "smoke/cote-d-ivoire/desktop-closed.png",
+        "smoke/cote-d-ivoire/desktop-open.png",
+        "smoke/cote-d-ivoire/mobile-closed.png",
+        "smoke/cote-d-ivoire/mobile-open.png"
+      ],
+      "id": "cote-d-ivoire",
+      "independent_reviewer_recommendation": "candidate-pass",
+      "inspected_parent_images": [
+        "parent/boards/cote-d-ivoire.jpg",
+        "parent/smoke/cote-d-ivoire/desktop-closed.png",
+        "parent/smoke/cote-d-ivoire/desktop-open.png",
+        "parent/smoke/cote-d-ivoire/mobile-closed.png",
+        "parent/smoke/cote-d-ivoire/mobile-open.png"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 141052,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1136,
+          912
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/cote-d-ivoire.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1136,
+            912
+          ],
+          "provider": "xai",
+          "reviewNotes": "Structure and placement strong; warmer wood and stripe registration differs.",
+          "reviewStatus": "reviewed_with_limitations",
+          "sha256": "fa44eaaf3c617611c9c8ca1fe3996c90c03329cf8ef2cf4215090dfe6c8f6b8d",
+          "source": "assets/gallery/cote-d-ivoire.webp",
+          "sourceSha256": "709cc69fc6fb6da342416e69e2c4d60101b2edafe827d558af5ea3e8b61edb23",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "ac96e6c25f901b64f3d4656e83d57f7753efbd24457a23065b696e3fb863f675"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-Blender-reopen-parity-and-sampled-collisions",
+        "fresh-corrupt-GLB-fallback",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "models": [
+        {
+          "bytes": 591815,
+          "path": "preview/cote-d-ivoire-v1/cote-d-ivoire.blend",
+          "sha256": "790814ca91787a55439aeaaa33fce419bc62f0dd90d08c001b40c6908693de7a"
+        },
+        {
+          "bytes": 1732976,
+          "path": "preview/cote-d-ivoire-v1/cote-d-ivoire.glb",
+          "sha256": "471ccb13f2999a33352f2961a40a752f40b07f8889537e63d4e34500310bc0ea"
+        }
+      ],
+      "parent_hold_preserved": false,
+      "selection": {
+        "commit": "97abf7f4a8c899e578afeb605be9170f81b3beb3",
+        "fetched_tip": "97abf7f4a8c899e578afeb605be9170f81b3beb3",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/cote-d-ivoire-v1"
+      },
+      "technical_verdict": "pass-bounded-review",
+      "viewer": {
+        "bytes": 3148250,
+        "commit": "97abf7f4a8c899e578afeb605be9170f81b3beb3",
+        "path": "preview/cote-d-ivoire-v1/cote-d-ivoire-v1.html",
+        "sha256": "00947f6e0775e221ae0e7fe4f9c2e2a50a8e7d97b45bf9b4b27dd7d9390f3214",
+        "under_5000000": true
+      },
+      "visual_findings": "Indigo striping and chest identity retained; fine-stripe aliasing, regular framing bands and conspicuous lid seam.",
+      "visual_verdict": "candidate-with-limitations"
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Côte d’Ivoire",
+    "package_history": [
+      {
+        "bytes": 5845720,
+        "commit": "97abf7f4a8c899e578afeb605be9170f81b3beb3",
+        "crc_error": null,
+        "entries": 55,
+        "inventory_checked": true,
+        "inventory_entries": 54,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/cote-d-ivoire-v1/cote-d-ivoire-v1-source.zip",
+        "required_payloads": {
+          "cote-d-ivoire-v1.html": true,
+          "cote-d-ivoire.blend": true,
+          "cote-d-ivoire.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "0292fc92391cb1006d45f4269c64447f8570ff0289daccfe91522c058a7860ba"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "97abf7f4a8c899e578afeb605be9170f81b3beb3",
+      "fetched_tip": "97abf7f4a8c899e578afeb605be9170f81b3beb3",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/cote-d-ivoire-v1"
+    },
+    "verdict": "candidate-with-limitations",
+    "viewer": {
+      "bytes": 3148250,
+      "commit": "97abf7f4a8c899e578afeb605be9170f81b3beb3",
+      "path": "preview/cote-d-ivoire-v1/cote-d-ivoire-v1.html",
+      "sha256": "00947f6e0775e221ae0e7fe4f9c2e2a50a8e7d97b45bf9b4b27dd7d9390f3214",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "cote-d-ivoire",
+    "baseline_verdict": "candidate-with-limitations",
+    "actions": [
+      "owner art/finish acceptance; no proven runtime defect recorded; no autonomous redesign"
+    ],
+    "approval": false,
+    "original_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "archives": [
+        {
+          "bytes": 5845720,
+          "entries": 55,
+          "inventory_entries_checked": 54,
+          "path": "preview/cote-d-ivoire-v1/cote-d-ivoire-v1-source.zip",
+          "required_payloads": "pass",
+          "safe_paths_crc": "pass",
+          "sha256": "0292fc92391cb1006d45f4269c64447f8570ff0289daccfe91522c058a7860ba"
+        }
+      ],
+      "fresh_browser_cases": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8829999486915767,
+                2.043000064790249,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.2500000074505806,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1732976,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 6,
+            "meshes": 263,
+            "nonfinite": 0,
+            "triangles": 18732
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "cote-d-ivoire",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "00947f6e0775e221ae0e7fe4f9c2e2a50a8e7d97b45bf9b4b27dd7d9390f3214"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8829999486915767,
+                2.043000064790249,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.2500000074505806,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1732976,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 6,
+            "meshes": 263,
+            "nonfinite": 0,
+            "triangles": 18732
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "cote-d-ivoire",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "00947f6e0775e221ae0e7fe4f9c2e2a50a8e7d97b45bf9b4b27dd7d9390f3214"
+        }
+      ],
+      "fresh_motion_suite": {
+        "exit_code": 0,
+        "id": "cote-d-ivoire",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "97abf7f4a8c899e578afeb605be9170f81b3beb3",
+            "path": "preview/cote-d-ivoire-v1/motion.mjs",
+            "sha256": "f85b58705ee7d6fd7688ba0d301442b6f1ba85e58d0c03bcacebb4c6a13c8125"
+          }
+        ]
+      },
+      "fresh_runtime_captures": [
+        "smoke/cote-d-ivoire/desktop-closed.png",
+        "smoke/cote-d-ivoire/desktop-open.png",
+        "smoke/cote-d-ivoire/mobile-closed.png",
+        "smoke/cote-d-ivoire/mobile-open.png"
+      ],
+      "id": "cote-d-ivoire",
+      "independent_reviewer_recommendation": "candidate-pass",
+      "inspected_parent_images": [
+        "parent/boards/cote-d-ivoire.jpg",
+        "parent/smoke/cote-d-ivoire/desktop-closed.png",
+        "parent/smoke/cote-d-ivoire/desktop-open.png",
+        "parent/smoke/cote-d-ivoire/mobile-closed.png",
+        "parent/smoke/cote-d-ivoire/mobile-open.png"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 141052,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1136,
+          912
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/cote-d-ivoire.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1136,
+            912
+          ],
+          "provider": "xai",
+          "reviewNotes": "Structure and placement strong; warmer wood and stripe registration differs.",
+          "reviewStatus": "reviewed_with_limitations",
+          "sha256": "fa44eaaf3c617611c9c8ca1fe3996c90c03329cf8ef2cf4215090dfe6c8f6b8d",
+          "source": "assets/gallery/cote-d-ivoire.webp",
+          "sourceSha256": "709cc69fc6fb6da342416e69e2c4d60101b2edafe827d558af5ea3e8b61edb23",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "ac96e6c25f901b64f3d4656e83d57f7753efbd24457a23065b696e3fb863f675"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-Blender-reopen-parity-and-sampled-collisions",
+        "fresh-corrupt-GLB-fallback",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "models": [
+        {
+          "bytes": 591815,
+          "path": "preview/cote-d-ivoire-v1/cote-d-ivoire.blend",
+          "sha256": "790814ca91787a55439aeaaa33fce419bc62f0dd90d08c001b40c6908693de7a"
+        },
+        {
+          "bytes": 1732976,
+          "path": "preview/cote-d-ivoire-v1/cote-d-ivoire.glb",
+          "sha256": "471ccb13f2999a33352f2961a40a752f40b07f8889537e63d4e34500310bc0ea"
+        }
+      ],
+      "parent_hold_preserved": false,
+      "selection": {
+        "commit": "97abf7f4a8c899e578afeb605be9170f81b3beb3",
+        "fetched_tip": "97abf7f4a8c899e578afeb605be9170f81b3beb3",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/cote-d-ivoire-v1"
+      },
+      "technical_verdict": "pass-bounded-review",
+      "viewer": {
+        "bytes": 3148250,
+        "commit": "97abf7f4a8c899e578afeb605be9170f81b3beb3",
+        "path": "preview/cote-d-ivoire-v1/cote-d-ivoire-v1.html",
+        "sha256": "00947f6e0775e221ae0e7fe4f9c2e2a50a8e7d97b45bf9b4b27dd7d9390f3214",
+        "under_5000000": true
+      },
+      "visual_findings": "Indigo striping and chest identity retained; fine-stripe aliasing, regular framing bands and conspicuous lid seam.",
+      "visual_verdict": "candidate-with-limitations"
+    },
+    "package_history": [
+      {
+        "bytes": 5845720,
+        "commit": "97abf7f4a8c899e578afeb605be9170f81b3beb3",
+        "crc_error": null,
+        "entries": 55,
+        "inventory_checked": true,
+        "inventory_entries": 54,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/cote-d-ivoire-v1/cote-d-ivoire-v1-source.zip",
+        "required_payloads": {
+          "cote-d-ivoire-v1.html": true,
+          "cote-d-ivoire.blend": true,
+          "cote-d-ivoire.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "0292fc92391cb1006d45f4269c64447f8570ff0289daccfe91522c058a7860ba"
+      }
+    ]
+  }
+}

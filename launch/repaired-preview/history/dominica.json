@@ -1,0 +1,529 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 1,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 586881,
+        "role": "editable-source",
+        "sha256": "2073f18843c38767797d789930d286d4000dc3b40f8197b1d319fa2a1f799bf4",
+        "source": {
+          "commit": "bb412f5d0d3c64b4e5b3dd2f28623d669b08abc4",
+          "path": "preview/dominica-v1/dominica.blend"
+        },
+        "uri": "sha256:2073f18843c38767797d789930d286d4000dc3b40f8197b1d319fa2a1f799bf4"
+      },
+      {
+        "bytes": 7003190,
+        "role": "historical-source-archive",
+        "sha256": "5262cdacb07264b3575c817141867cf445feae5735d1176e811cad8f64ed40a5",
+        "source": {
+          "commit": "bb412f5d0d3c64b4e5b3dd2f28623d669b08abc4",
+          "kind": "git",
+          "path": "preview/dominica-v1/dominica-source.zip"
+        },
+        "uri": "sha256:5262cdacb07264b3575c817141867cf445feae5735d1176e811cad8f64ed40a5"
+      },
+      {
+        "bytes": 1391576,
+        "role": "model",
+        "sha256": "c443c9aa5802e670068528771e06cb30804f942b2ff62783ddd0166c725b5e7b",
+        "source": {
+          "commit": "bb412f5d0d3c64b4e5b3dd2f28623d669b08abc4",
+          "path": "preview/dominica-v1/dominica.glb"
+        },
+        "uri": "sha256:c443c9aa5802e670068528771e06cb30804f942b2ff62783ddd0166c725b5e7b"
+      },
+      {
+        "bytes": 44936,
+        "role": "promotional-illustration",
+        "sha256": "5ca26b95a0202ead1739e2eaacbd8f06f903a72ea6a109dac8fc9c41c150526c",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/dominica.webp"
+        },
+        "uri": "sha256:5ca26b95a0202ead1739e2eaacbd8f06f903a72ea6a109dac8fc9c41c150526c"
+      },
+      {
+        "bytes": 2962,
+        "role": "research-brief",
+        "sha256": "b9d1664445146ec36d366aa245628174842ce3225f503f2d205d86b5aa1d8f70",
+        "source": {
+          "commit": "bb412f5d0d3c64b4e5b3dd2f28623d669b08abc4",
+          "path": "preview/dominica-v1/design-brief.md"
+        },
+        "uri": "sha256:b9d1664445146ec36d366aa245628174842ce3225f503f2d205d86b5aa1d8f70"
+      },
+      {
+        "bytes": 5649,
+        "role": "source-notice",
+        "sha256": "64b6f1c110327013394d0c1a8ca32541378e139e30eea51bc6747616a64a54a5",
+        "source": {
+          "commit": "bb412f5d0d3c64b4e5b3dd2f28623d669b08abc4",
+          "path": "preview/dominica-v1/README.md"
+        },
+        "uri": "sha256:64b6f1c110327013394d0c1a8ca32541378e139e30eea51bc6747616a64a54a5"
+      },
+      {
+        "bytes": 2616769,
+        "role": "viewer",
+        "sha256": "d34e12152f1e4bcb5e3abc8cfc7ef6d2107253f0a85daadf7c816d2927e798b1",
+        "source": {
+          "commit": "bb412f5d0d3c64b4e5b3dd2f28623d669b08abc4",
+          "path": "preview/dominica-v1/dominica-v1.html"
+        },
+        "uri": "sha256:d34e12152f1e4bcb5e3abc8cfc7ef6d2107253f0a85daadf7c816d2927e798b1"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "dominica",
+    "independent_review": {
+      "all_four_original_captures_inspected": true,
+      "captures": [
+        "launch/art-01/smoke/dominica/desktop-closed.png",
+        "launch/art-01/smoke/dominica/desktop-open.png",
+        "launch/art-01/smoke/dominica/mobile-closed.png",
+        "launch/art-01/smoke/dominica/mobile-open.png"
+      ],
+      "critical_defects": [],
+      "fresh_qa_runtime": [],
+      "id": "dominica",
+      "launch_ready": false,
+      "marketing_inspected": true,
+      "model_changed": false,
+      "model_sources": [
+        {
+          "bytes": 586881,
+          "commit": "bb412f5d0d3c64b4e5b3dd2f28623d669b08abc4",
+          "path": "preview/dominica-v1/dominica.blend",
+          "role": "selected-model",
+          "sha256": "2073f18843c38767797d789930d286d4000dc3b40f8197b1d319fa2a1f799bf4"
+        },
+        {
+          "bytes": 1391576,
+          "commit": "bb412f5d0d3c64b4e5b3dd2f28623d669b08abc4",
+          "path": "preview/dominica-v1/dominica.glb",
+          "role": "selected-model",
+          "sha256": "c443c9aa5802e670068528771e06cb30804f942b2ff62783ddd0166c725b5e7b",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 167,
+            "nodes": 169
+          }
+        }
+      ],
+      "parent_runtime": {
+        "cases": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.596618413925171,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1391576,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 6,
+              "meshes": 167,
+              "nonfinite": 0,
+              "triangles": 19988
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "dominica",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "d34e12152f1e4bcb5e3abc8cfc7ef6d2107253f0a85daadf7c816d2927e798b1"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.596618413925171,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1391576,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 6,
+              "meshes": 167,
+              "nonfinite": 0,
+              "triangles": 19988
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "dominica",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "d34e12152f1e4bcb5e3abc8cfc7ef6d2107253f0a85daadf7c816d2927e798b1"
+          }
+        ],
+        "independently_rerun": false,
+        "motion": {
+          "exit_code": 0,
+          "id": "dominica",
+          "passed": true,
+          "scope": "original motion unit assertions; not fresh collision/source parity"
+        }
+      },
+      "parent_status": "pass",
+      "remaining_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "hinge-attachment-clarity-not-proven-by-stills"
+      ],
+      "selection": {
+        "commit": "bb412f5d0d3c64b4e5b3dd2f28623d669b08abc4",
+        "fetched_tip": "bb412f5d0d3c64b4e5b3dd2f28623d669b08abc4",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/dominica-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 7003190,
+          "commit": "bb412f5d0d3c64b4e5b3dd2f28623d669b08abc4",
+          "crc_safe_unique": true,
+          "exact_selected_payloads": {
+            "dominica-v1.html": [
+              "dominica-v1.html"
+            ],
+            "dominica.blend": [
+              "dominica.blend"
+            ],
+            "dominica.glb": [
+              "dominica.glb"
+            ]
+          },
+          "full_inventory_rerun": false,
+          "inherited_full_inventory_checked": true,
+          "members": 57,
+          "path": "preview/dominica-v1/dominica-source.zip",
+          "sha256": "5262cdacb07264b3575c817141867cf445feae5735d1176e811cad8f64ed40a5"
+        }
+      ],
+      "user_final_approved": false,
+      "verdict": "bounded-candidate-pass",
+      "viewer": {
+        "bytes": 2616769,
+        "commit": "bb412f5d0d3c64b4e5b3dd2f28623d669b08abc4",
+        "path": "preview/dominica-v1/dominica-v1.html",
+        "sha256": "d34e12152f1e4bcb5e3abc8cfc7ef6d2107253f0a85daadf7c816d2927e798b1",
+        "under_5000000": true
+      },
+      "visual_review": {
+        "caveats": [
+          "Pass justified for retained motif; preserve angular terrain, reduced mobile detail and lake-readability limitations."
+        ],
+        "critical_visible_faults": [],
+        "desktop_closed": "Dark volcanic chest with green ridges and a pale lake basin reads clearly. Terrain is angular and basin flat; gold hardware intact in the visible view.",
+        "desktop_open": "Empty stone-lined cavity, green trim and rear hinges visible; full silhouette fits, with no obvious missing panels.",
+        "file": "visual-a.json",
+        "id": "dominica",
+        "marketing_comparison": "Marketing has the same stone chest, green trim, mountainous foliage and pale basin, with softer terrain contours. The plain basin and stylization are shared limitations, not unique runtime failures.",
+        "mobile_closed": "Ridges remain visible, but lake reads as a shallow bowl and rainforest detail is chunky. No geothermal activity is visually established, nor required by a still alone.",
+        "mobile_open": "Lid, interior, fittings and controls fit without obvious clipping; precise hardware contact is unresolved.",
+        "parent_status": "pass",
+        "parent_status_justified": true,
+        "recommended_status": "pass"
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Dominica",
+    "package_history": [
+      {
+        "bytes": 7003190,
+        "commit": "bb412f5d0d3c64b4e5b3dd2f28623d669b08abc4",
+        "crc_error": null,
+        "entries": 57,
+        "inventory_checked": true,
+        "inventory_entries": 56,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/dominica-v1/dominica-source.zip",
+        "required_payloads": {
+          "dominica-v1.html": true,
+          "dominica.blend": true,
+          "dominica.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "5262cdacb07264b3575c817141867cf445feae5735d1176e811cad8f64ed40a5"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "bb412f5d0d3c64b4e5b3dd2f28623d669b08abc4",
+      "fetched_tip": "bb412f5d0d3c64b4e5b3dd2f28623d669b08abc4",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/dominica-v1"
+    },
+    "verdict": "candidate-with-limitations",
+    "viewer": {
+      "bytes": 2616769,
+      "commit": "bb412f5d0d3c64b4e5b3dd2f28623d669b08abc4",
+      "path": "preview/dominica-v1/dominica-v1.html",
+      "sha256": "d34e12152f1e4bcb5e3abc8cfc7ef6d2107253f0a85daadf7c816d2927e798b1",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "dominica",
+    "baseline_verdict": "candidate-with-limitations",
+    "actions": [
+      "owner art/finish acceptance; no proven runtime defect recorded; no autonomous redesign"
+    ],
+    "approval": false,
+    "original_review": {
+      "all_four_original_captures_inspected": true,
+      "captures": [
+        "launch/art-01/smoke/dominica/desktop-closed.png",
+        "launch/art-01/smoke/dominica/desktop-open.png",
+        "launch/art-01/smoke/dominica/mobile-closed.png",
+        "launch/art-01/smoke/dominica/mobile-open.png"
+      ],
+      "critical_defects": [],
+      "fresh_qa_runtime": [],
+      "id": "dominica",
+      "launch_ready": false,
+      "marketing_inspected": true,
+      "model_changed": false,
+      "model_sources": [
+        {
+          "bytes": 586881,
+          "commit": "bb412f5d0d3c64b4e5b3dd2f28623d669b08abc4",
+          "path": "preview/dominica-v1/dominica.blend",
+          "role": "selected-model",
+          "sha256": "2073f18843c38767797d789930d286d4000dc3b40f8197b1d319fa2a1f799bf4"
+        },
+        {
+          "bytes": 1391576,
+          "commit": "bb412f5d0d3c64b4e5b3dd2f28623d669b08abc4",
+          "path": "preview/dominica-v1/dominica.glb",
+          "role": "selected-model",
+          "sha256": "c443c9aa5802e670068528771e06cb30804f942b2ff62783ddd0166c725b5e7b",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 167,
+            "nodes": 169
+          }
+        }
+      ],
+      "parent_runtime": {
+        "cases": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.596618413925171,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1391576,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 6,
+              "meshes": 167,
+              "nonfinite": 0,
+              "triangles": 19988
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "dominica",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "d34e12152f1e4bcb5e3abc8cfc7ef6d2107253f0a85daadf7c816d2927e798b1"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.596618413925171,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1391576,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 6,
+              "meshes": 167,
+              "nonfinite": 0,
+              "triangles": 19988
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "dominica",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "d34e12152f1e4bcb5e3abc8cfc7ef6d2107253f0a85daadf7c816d2927e798b1"
+          }
+        ],
+        "independently_rerun": false,
+        "motion": {
+          "exit_code": 0,
+          "id": "dominica",
+          "passed": true,
+          "scope": "original motion unit assertions; not fresh collision/source parity"
+        }
+      },
+      "parent_status": "pass",
+      "remaining_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "hinge-attachment-clarity-not-proven-by-stills"
+      ],
+      "selection": {
+        "commit": "bb412f5d0d3c64b4e5b3dd2f28623d669b08abc4",
+        "fetched_tip": "bb412f5d0d3c64b4e5b3dd2f28623d669b08abc4",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/dominica-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 7003190,
+          "commit": "bb412f5d0d3c64b4e5b3dd2f28623d669b08abc4",
+          "crc_safe_unique": true,
+          "exact_selected_payloads": {
+            "dominica-v1.html": [
+              "dominica-v1.html"
+            ],
+            "dominica.blend": [
+              "dominica.blend"
+            ],
+            "dominica.glb": [
+              "dominica.glb"
+            ]
+          },
+          "full_inventory_rerun": false,
+          "inherited_full_inventory_checked": true,
+          "members": 57,
+          "path": "preview/dominica-v1/dominica-source.zip",
+          "sha256": "5262cdacb07264b3575c817141867cf445feae5735d1176e811cad8f64ed40a5"
+        }
+      ],
+      "user_final_approved": false,
+      "verdict": "bounded-candidate-pass",
+      "viewer": {
+        "bytes": 2616769,
+        "commit": "bb412f5d0d3c64b4e5b3dd2f28623d669b08abc4",
+        "path": "preview/dominica-v1/dominica-v1.html",
+        "sha256": "d34e12152f1e4bcb5e3abc8cfc7ef6d2107253f0a85daadf7c816d2927e798b1",
+        "under_5000000": true
+      },
+      "visual_review": {
+        "caveats": [
+          "Pass justified for retained motif; preserve angular terrain, reduced mobile detail and lake-readability limitations."
+        ],
+        "critical_visible_faults": [],
+        "desktop_closed": "Dark volcanic chest with green ridges and a pale lake basin reads clearly. Terrain is angular and basin flat; gold hardware intact in the visible view.",
+        "desktop_open": "Empty stone-lined cavity, green trim and rear hinges visible; full silhouette fits, with no obvious missing panels.",
+        "file": "visual-a.json",
+        "id": "dominica",
+        "marketing_comparison": "Marketing has the same stone chest, green trim, mountainous foliage and pale basin, with softer terrain contours. The plain basin and stylization are shared limitations, not unique runtime failures.",
+        "mobile_closed": "Ridges remain visible, but lake reads as a shallow bowl and rainforest detail is chunky. No geothermal activity is visually established, nor required by a still alone.",
+        "mobile_open": "Lid, interior, fittings and controls fit without obvious clipping; precise hardware contact is unresolved.",
+        "parent_status": "pass",
+        "parent_status_justified": true,
+        "recommended_status": "pass"
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 7003190,
+        "commit": "bb412f5d0d3c64b4e5b3dd2f28623d669b08abc4",
+        "crc_error": null,
+        "entries": 57,
+        "inventory_checked": true,
+        "inventory_entries": 56,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/dominica-v1/dominica-source.zip",
+        "required_payloads": {
+          "dominica-v1.html": true,
+          "dominica.blend": true,
+          "dominica.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "5262cdacb07264b3575c817141867cf445feae5735d1176e811cad8f64ed40a5"
+      }
+    ]
+  }
+}

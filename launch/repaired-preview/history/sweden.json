@@ -1,0 +1,731 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 5,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 529346,
+        "role": "editable-source",
+        "sha256": "54338e60a08bd6534e399eaaa2edefdebfa861d83b4663003ec8f49804a792bc",
+        "source": {
+          "commit": "baadbc1b34be89f204df784d7c7603adb050258e",
+          "path": "preview/sweden-v1/sweden.blend"
+        },
+        "uri": "sha256:54338e60a08bd6534e399eaaa2edefdebfa861d83b4663003ec8f49804a792bc"
+      },
+      {
+        "bytes": 5718224,
+        "role": "historical-source-archive",
+        "sha256": "9db3f8f20edb8a8ec6fd40da190f52b82637085005eeaca08943d3be74e4b691",
+        "source": {
+          "commit": "baadbc1b34be89f204df784d7c7603adb050258e",
+          "kind": "git",
+          "path": "preview/sweden-v1/sweden-v1-source.zip"
+        },
+        "uri": "sha256:9db3f8f20edb8a8ec6fd40da190f52b82637085005eeaca08943d3be74e4b691"
+      },
+      {
+        "bytes": 2202964,
+        "role": "model",
+        "sha256": "1e14079e3bd5ccaeb6a477c3e0b929bb09b3bbe9d96fb4433c8a92bf0d77965d",
+        "source": {
+          "commit": "baadbc1b34be89f204df784d7c7603adb050258e",
+          "path": "preview/sweden-v1/sweden.glb"
+        },
+        "uri": "sha256:1e14079e3bd5ccaeb6a477c3e0b929bb09b3bbe9d96fb4433c8a92bf0d77965d"
+      },
+      {
+        "bytes": 58368,
+        "role": "promotional-illustration",
+        "sha256": "829dd7130dbf653cb27a9455c0e3204ac1fc8986cfbf0376116fbddc7030baba",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/sweden.webp"
+        },
+        "uri": "sha256:829dd7130dbf653cb27a9455c0e3204ac1fc8986cfbf0376116fbddc7030baba"
+      },
+      {
+        "bytes": 3401,
+        "role": "research-brief",
+        "sha256": "0a38ce33226d43673b6618aa7f7099cdb1eaf55e2145e17bbc7e12332e12cc9f",
+        "source": {
+          "commit": "baadbc1b34be89f204df784d7c7603adb050258e",
+          "path": "preview/sweden-v1/design-brief.md"
+        },
+        "uri": "sha256:0a38ce33226d43673b6618aa7f7099cdb1eaf55e2145e17bbc7e12332e12cc9f"
+      },
+      {
+        "bytes": 5979,
+        "role": "source-notice",
+        "sha256": "10f985c7176dd03e8b439f558a424d6520a77ec21e16617db20b13703ddf071f",
+        "source": {
+          "commit": "baadbc1b34be89f204df784d7c7603adb050258e",
+          "path": "preview/sweden-v1/README.md"
+        },
+        "uri": "sha256:10f985c7176dd03e8b439f558a424d6520a77ec21e16617db20b13703ddf071f"
+      },
+      {
+        "bytes": 3709575,
+        "role": "viewer",
+        "sha256": "039ee272463836009304fc03865dd18abf9ba02f1fafe2fcf249f903e23c976e",
+        "source": {
+          "commit": "baadbc1b34be89f204df784d7c7603adb050258e",
+          "path": "preview/sweden-v1/sweden-v1.html"
+        },
+        "uri": "sha256:039ee272463836009304fc03865dd18abf9ba02f1fafe2fcf249f903e23c976e"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "sweden",
+    "independent_review": {
+      "art_changed": false,
+      "fresh_checks": {
+        "archives": [
+          {
+            "bytes": 5718224,
+            "crc_safe_unique": true,
+            "entries": 54,
+            "full_inner_inventory_rerun": false,
+            "path": "preview/sweden-v1/sweden-v1-source.zip",
+            "required_payloads": [
+              {
+                "archive_members": [
+                  "sweden-v1.html"
+                ],
+                "exact_match": true,
+                "path": "preview/sweden-v1/sweden-v1.html"
+              },
+              {
+                "archive_members": [
+                  "sweden.blend"
+                ],
+                "exact_match": true,
+                "path": "preview/sweden-v1/sweden.blend"
+              },
+              {
+                "archive_members": [
+                  "sweden.glb"
+                ],
+                "exact_match": true,
+                "path": "preview/sweden-v1/sweden.glb"
+              }
+            ],
+            "sha256": "9db3f8f20edb8a8ec6fd40da190f52b82637085005eeaca08943d3be74e4b691"
+          }
+        ],
+        "art_changed": false,
+        "id": "sweden",
+        "models": [
+          {
+            "bytes": 529346,
+            "commit": "baadbc1b34be89f204df784d7c7603adb050258e",
+            "path": "preview/sweden-v1/sweden.blend",
+            "role": "selected-model",
+            "sha256": "54338e60a08bd6534e399eaaa2edefdebfa861d83b4663003ec8f49804a792bc"
+          },
+          {
+            "bytes": 2202964,
+            "commit": "baadbc1b34be89f204df784d7c7603adb050258e",
+            "path": "preview/sweden-v1/sweden.glb",
+            "role": "selected-model",
+            "sha256": "1e14079e3bd5ccaeb6a477c3e0b929bb09b3bbe9d96fb4433c8a92bf0d77965d",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 178,
+              "nodes": 180
+            }
+          }
+        ],
+        "parent_package_holds": [],
+        "viewer": {
+          "bytes": 3709575,
+          "commit": "baadbc1b34be89f204df784d7c7603adb050258e",
+          "path": "preview/sweden-v1/sweden-v1.html",
+          "sha256": "039ee272463836009304fc03865dd18abf9ba02f1fafe2fcf249f903e23c976e",
+          "under_5000000": true
+        }
+      },
+      "historical_runtime_only": true,
+      "id": "sweden",
+      "inspected_images": [
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/sweden/desktop-closed.png",
+          "sha256": "54b803ac4531bd8ce2f3eef98a0d7bcf0c370cedba2f04667d33489959615d0b"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/sweden/desktop-open.png",
+          "sha256": "8db771661abbdf9c043ea36780356e0ece327e8f9296bf20c8d2ad5534d5b14d"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/sweden/mobile-closed.png",
+          "sha256": "15e8217801ffa7e724968b99e9a32ea1b58732f6e8ea29e0ea14e7e16637ec76"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/sweden/mobile-open.png",
+          "sha256": "07825005cfcbc5071589c9915b0649483e632414cde089f2b99c3a837973606a"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "sources/sweden/marketing.webp",
+          "sha256": "829dd7130dbf653cb27a9455c0e3204ac1fc8986cfbf0376116fbddc7030baba"
+        }
+      ],
+      "launch_ready": false,
+      "missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "package_holds": [],
+      "parent_reason": "Bounded visual candidate pass: all five required originals inspected; identity retained, no unequivocal major geometry or framing defect observed. Not final user approval.",
+      "review_complete": true,
+      "source_record": {
+        "approval": {
+          "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+          "prior_approved_baseline": null,
+          "status": "candidate-not-final-approved",
+          "user_final_approved": false
+        },
+        "category": "Country",
+        "delivered_viewer": {
+          "bytes": 3709575,
+          "exists": true,
+          "matches_selected_commit": true,
+          "path": "C:\\Users\\futur\\.hermes\\profiles\\telegram2\\output\\boxsv-collection-review\\viewers\\sweden.html",
+          "sha256": "039ee272463836009304fc03865dd18abf9ba02f1fafe2fcf249f903e23c976e"
+        },
+        "edition_supply": 1,
+        "id": "sweden",
+        "launch_ready": false,
+        "legacy_review_viewer": {
+          "bytes": 3709575,
+          "commit": "baadbc1b34be89f204df784d7c7603adb050258e",
+          "path": "viewers/sweden.html",
+          "sha256": "039ee272463836009304fc03865dd18abf9ba02f1fafe2fcf249f903e23c976e",
+          "source_path": "preview/sweden-v1/sweden-v1.html"
+        },
+        "marketing": {
+          "bytes": 58368,
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "dimensions": [
+            1072,
+            976
+          ],
+          "image_type": "Promotional art",
+          "matches_gallery_inventory": true,
+          "not_model_approval": true,
+          "path": "docs/assets/gallery/sweden.webp",
+          "provenance": {
+            "exactModelEquivalenceClaimed": false,
+            "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+            "model": "grok-imagine-image",
+            "nativeDimensions": [
+              1072,
+              976
+            ],
+            "provider": "xai",
+            "reviewNotes": "Reviewed source/output: high broad fidelity, original major counts/layout/hardware retained. Saturation, texture, ornament contours and pattern spacing differ slightly; not exact model evidence.",
+            "reviewStatus": "reviewed",
+            "sha256": "d55a831618a5c358c5d4169916ce63ac145bde71e462ef9452a247a489dacbfd",
+            "source": "assets/gallery/sweden.webp",
+            "sourceSha256": "c9e476219ed7c2a3db895e20c054281abab9b8e171f6ae54286f42da4b1b79fa",
+            "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+          },
+          "sha256": "829dd7130dbf653cb27a9455c0e3204ac1fc8986cfbf0376116fbddc7030baba"
+        },
+        "missing_gates": [
+          "independent-current-model-visual-review",
+          "explicit-final-user-art-approval",
+          "fresh-full-source-and-browser-acceptance",
+          "storage-and-preservation-policy",
+          "mint-and-release-authorization"
+        ],
+        "model_sources": [
+          {
+            "bytes": 529346,
+            "commit": "baadbc1b34be89f204df784d7c7603adb050258e",
+            "path": "preview/sweden-v1/sweden.blend",
+            "role": "selected-model",
+            "sha256": "54338e60a08bd6534e399eaaa2edefdebfa861d83b4663003ec8f49804a792bc"
+          },
+          {
+            "bytes": 2202964,
+            "commit": "baadbc1b34be89f204df784d7c7603adb050258e",
+            "path": "preview/sweden-v1/sweden.glb",
+            "role": "selected-model",
+            "sha256": "1e14079e3bd5ccaeb6a477c3e0b929bb09b3bbe9d96fb4433c8a92bf0d77965d",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 178,
+              "nodes": 180
+            }
+          }
+        ],
+        "name": "Sweden",
+        "provenance": {
+          "readme_snapshot": "source-notes/sweden.md",
+          "research_brief": {
+            "bytes": 3401,
+            "commit": "baadbc1b34be89f204df784d7c7603adb050258e",
+            "path": "preview/sweden-v1/design-brief.md",
+            "sha256": "0a38ce33226d43673b6618aa7f7099cdb1eaf55e2145e17bbc7e12332e12cc9f"
+          },
+          "source_readme": {
+            "bytes": 5979,
+            "commit": "baadbc1b34be89f204df784d7c7603adb050258e",
+            "path": "preview/sweden-v1/README.md",
+            "sha256": "10f985c7176dd03e8b439f558a424d6520a77ec21e16617db20b13703ddf071f"
+          }
+        },
+        "qa": {
+          "evidence_path": "qa/sweden.json",
+          "fresh_runtime_execution": false,
+          "historical_report_count": 7
+        },
+        "selection": {
+          "commit": "baadbc1b34be89f204df784d7c7603adb050258e",
+          "fetched_tip": "baadbc1b34be89f204df784d7c7603adb050258e",
+          "reachable_from_fetched_ref": true,
+          "remote_ref": "origin/art/sweden-v1"
+        },
+        "source_archives": [
+          {
+            "bytes": 5718224,
+            "commit": "baadbc1b34be89f204df784d7c7603adb050258e",
+            "crc_error": null,
+            "entries": 54,
+            "inventory_checked": true,
+            "inventory_entries": 53,
+            "inventory_mismatches": [],
+            "kind": "git",
+            "path": "preview/sweden-v1/sweden-v1-source.zip",
+            "required_payloads": {
+              "sweden-v1.html": true,
+              "sweden.blend": true,
+              "sweden.glb": true
+            },
+            "safe_unique_paths": true,
+            "sha256": "9db3f8f20edb8a8ec6fd40da190f52b82637085005eeaca08943d3be74e4b691"
+          }
+        ],
+        "version": "sweden-v1",
+        "viewer": {
+          "bytes": 3709575,
+          "commit": "baadbc1b34be89f204df784d7c7603adb050258e",
+          "path": "preview/sweden-v1/sweden-v1.html",
+          "sha256": "039ee272463836009304fc03865dd18abf9ba02f1fafe2fcf249f903e23c976e",
+          "under_5000000": true
+        },
+        "visual_limitations": []
+      },
+      "user_final_approved": false,
+      "verdict": "candidate-with-limitations",
+      "visual_review": {
+        "art_changed": false,
+        "decision_reason": "Motif, hardware identity and complete framing retained without demonstrated structural defect.",
+        "finish_differences": [
+          "Viewer wood and brass appear more uniform; floral detail is less legible at mobile scale than in marketing.",
+          "Decorated outer lid is visible when closed; its absence from the open inner face is expected occlusion, not missing ornament.",
+          "Dark closed seam and open hinge clearance do not alone prove a closure or attachment fault."
+        ],
+        "id": "sweden",
+        "images_inspected": [
+          "launch/art-05/smoke/sweden/desktop-closed.png",
+          "launch/art-05/smoke/sweden/desktop-open.png",
+          "launch/art-05/smoke/sweden/mobile-closed.png",
+          "launch/art-05/smoke/sweden/mobile-open.png",
+          "launch/art-05/sources/sweden/marketing.webp"
+        ],
+        "observations": {
+          "desktop_closed": "Red plank chest, cream alternating joints, blue floral lid panel, brass hardware and dark feet are fully visible.",
+          "desktop_open": "Plain red inner lid, pale wood cavity and two rear hinge fittings visible. Projecting free-edge tab is consistent with opened clasp.",
+          "marketing": "Coral-red chest with cream joints, blue panel bearing cream floral stems and coral centers, brass caps/clasp/disc/ring and dark block feet.",
+          "mobile_closed": "Whole chest and controls fit; small foreshortened floral relief has reduced legibility.",
+          "mobile_open": "Open cavity, lid tab and feet fit; small hinge attachments cannot be mechanically resolved."
+        },
+        "parent_reconciliation": "Parent pass agrees with cold inspection; no approval inferred.",
+        "proven_defects": [],
+        "review_complete": true,
+        "user_final_approved": false,
+        "verdict": "candidate-pass"
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Sweden",
+    "package_history": [
+      {
+        "bytes": 5718224,
+        "commit": "baadbc1b34be89f204df784d7c7603adb050258e",
+        "crc_error": null,
+        "entries": 54,
+        "inventory_checked": true,
+        "inventory_entries": 53,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/sweden-v1/sweden-v1-source.zip",
+        "required_payloads": {
+          "sweden-v1.html": true,
+          "sweden.blend": true,
+          "sweden.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "9db3f8f20edb8a8ec6fd40da190f52b82637085005eeaca08943d3be74e4b691"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "baadbc1b34be89f204df784d7c7603adb050258e",
+      "fetched_tip": "baadbc1b34be89f204df784d7c7603adb050258e",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/sweden-v1"
+    },
+    "verdict": "candidate-with-limitations",
+    "viewer": {
+      "bytes": 3709575,
+      "commit": "baadbc1b34be89f204df784d7c7603adb050258e",
+      "path": "preview/sweden-v1/sweden-v1.html",
+      "sha256": "039ee272463836009304fc03865dd18abf9ba02f1fafe2fcf249f903e23c976e",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "sweden",
+    "baseline_verdict": "candidate-with-limitations",
+    "actions": [
+      "owner art/finish acceptance; no proven runtime defect recorded; no autonomous redesign"
+    ],
+    "approval": false,
+    "original_review": {
+      "art_changed": false,
+      "fresh_checks": {
+        "archives": [
+          {
+            "bytes": 5718224,
+            "crc_safe_unique": true,
+            "entries": 54,
+            "full_inner_inventory_rerun": false,
+            "path": "preview/sweden-v1/sweden-v1-source.zip",
+            "required_payloads": [
+              {
+                "archive_members": [
+                  "sweden-v1.html"
+                ],
+                "exact_match": true,
+                "path": "preview/sweden-v1/sweden-v1.html"
+              },
+              {
+                "archive_members": [
+                  "sweden.blend"
+                ],
+                "exact_match": true,
+                "path": "preview/sweden-v1/sweden.blend"
+              },
+              {
+                "archive_members": [
+                  "sweden.glb"
+                ],
+                "exact_match": true,
+                "path": "preview/sweden-v1/sweden.glb"
+              }
+            ],
+            "sha256": "9db3f8f20edb8a8ec6fd40da190f52b82637085005eeaca08943d3be74e4b691"
+          }
+        ],
+        "art_changed": false,
+        "id": "sweden",
+        "models": [
+          {
+            "bytes": 529346,
+            "commit": "baadbc1b34be89f204df784d7c7603adb050258e",
+            "path": "preview/sweden-v1/sweden.blend",
+            "role": "selected-model",
+            "sha256": "54338e60a08bd6534e399eaaa2edefdebfa861d83b4663003ec8f49804a792bc"
+          },
+          {
+            "bytes": 2202964,
+            "commit": "baadbc1b34be89f204df784d7c7603adb050258e",
+            "path": "preview/sweden-v1/sweden.glb",
+            "role": "selected-model",
+            "sha256": "1e14079e3bd5ccaeb6a477c3e0b929bb09b3bbe9d96fb4433c8a92bf0d77965d",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 178,
+              "nodes": 180
+            }
+          }
+        ],
+        "parent_package_holds": [],
+        "viewer": {
+          "bytes": 3709575,
+          "commit": "baadbc1b34be89f204df784d7c7603adb050258e",
+          "path": "preview/sweden-v1/sweden-v1.html",
+          "sha256": "039ee272463836009304fc03865dd18abf9ba02f1fafe2fcf249f903e23c976e",
+          "under_5000000": true
+        }
+      },
+      "historical_runtime_only": true,
+      "id": "sweden",
+      "inspected_images": [
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/sweden/desktop-closed.png",
+          "sha256": "54b803ac4531bd8ce2f3eef98a0d7bcf0c370cedba2f04667d33489959615d0b"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/sweden/desktop-open.png",
+          "sha256": "8db771661abbdf9c043ea36780356e0ece327e8f9296bf20c8d2ad5534d5b14d"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/sweden/mobile-closed.png",
+          "sha256": "15e8217801ffa7e724968b99e9a32ea1b58732f6e8ea29e0ea14e7e16637ec76"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/sweden/mobile-open.png",
+          "sha256": "07825005cfcbc5071589c9915b0649483e632414cde089f2b99c3a837973606a"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "sources/sweden/marketing.webp",
+          "sha256": "829dd7130dbf653cb27a9455c0e3204ac1fc8986cfbf0376116fbddc7030baba"
+        }
+      ],
+      "launch_ready": false,
+      "missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "package_holds": [],
+      "parent_reason": "Bounded visual candidate pass: all five required originals inspected; identity retained, no unequivocal major geometry or framing defect observed. Not final user approval.",
+      "review_complete": true,
+      "source_record": {
+        "approval": {
+          "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+          "prior_approved_baseline": null,
+          "status": "candidate-not-final-approved",
+          "user_final_approved": false
+        },
+        "category": "Country",
+        "delivered_viewer": {
+          "bytes": 3709575,
+          "exists": true,
+          "matches_selected_commit": true,
+          "path": "C:\\Users\\futur\\.hermes\\profiles\\telegram2\\output\\boxsv-collection-review\\viewers\\sweden.html",
+          "sha256": "039ee272463836009304fc03865dd18abf9ba02f1fafe2fcf249f903e23c976e"
+        },
+        "edition_supply": 1,
+        "id": "sweden",
+        "launch_ready": false,
+        "legacy_review_viewer": {
+          "bytes": 3709575,
+          "commit": "baadbc1b34be89f204df784d7c7603adb050258e",
+          "path": "viewers/sweden.html",
+          "sha256": "039ee272463836009304fc03865dd18abf9ba02f1fafe2fcf249f903e23c976e",
+          "source_path": "preview/sweden-v1/sweden-v1.html"
+        },
+        "marketing": {
+          "bytes": 58368,
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "dimensions": [
+            1072,
+            976
+          ],
+          "image_type": "Promotional art",
+          "matches_gallery_inventory": true,
+          "not_model_approval": true,
+          "path": "docs/assets/gallery/sweden.webp",
+          "provenance": {
+            "exactModelEquivalenceClaimed": false,
+            "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+            "model": "grok-imagine-image",
+            "nativeDimensions": [
+              1072,
+              976
+            ],
+            "provider": "xai",
+            "reviewNotes": "Reviewed source/output: high broad fidelity, original major counts/layout/hardware retained. Saturation, texture, ornament contours and pattern spacing differ slightly; not exact model evidence.",
+            "reviewStatus": "reviewed",
+            "sha256": "d55a831618a5c358c5d4169916ce63ac145bde71e462ef9452a247a489dacbfd",
+            "source": "assets/gallery/sweden.webp",
+            "sourceSha256": "c9e476219ed7c2a3db895e20c054281abab9b8e171f6ae54286f42da4b1b79fa",
+            "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+          },
+          "sha256": "829dd7130dbf653cb27a9455c0e3204ac1fc8986cfbf0376116fbddc7030baba"
+        },
+        "missing_gates": [
+          "independent-current-model-visual-review",
+          "explicit-final-user-art-approval",
+          "fresh-full-source-and-browser-acceptance",
+          "storage-and-preservation-policy",
+          "mint-and-release-authorization"
+        ],
+        "model_sources": [
+          {
+            "bytes": 529346,
+            "commit": "baadbc1b34be89f204df784d7c7603adb050258e",
+            "path": "preview/sweden-v1/sweden.blend",
+            "role": "selected-model",
+            "sha256": "54338e60a08bd6534e399eaaa2edefdebfa861d83b4663003ec8f49804a792bc"
+          },
+          {
+            "bytes": 2202964,
+            "commit": "baadbc1b34be89f204df784d7c7603adb050258e",
+            "path": "preview/sweden-v1/sweden.glb",
+            "role": "selected-model",
+            "sha256": "1e14079e3bd5ccaeb6a477c3e0b929bb09b3bbe9d96fb4433c8a92bf0d77965d",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 178,
+              "nodes": 180
+            }
+          }
+        ],
+        "name": "Sweden",
+        "provenance": {
+          "readme_snapshot": "source-notes/sweden.md",
+          "research_brief": {
+            "bytes": 3401,
+            "commit": "baadbc1b34be89f204df784d7c7603adb050258e",
+            "path": "preview/sweden-v1/design-brief.md",
+            "sha256": "0a38ce33226d43673b6618aa7f7099cdb1eaf55e2145e17bbc7e12332e12cc9f"
+          },
+          "source_readme": {
+            "bytes": 5979,
+            "commit": "baadbc1b34be89f204df784d7c7603adb050258e",
+            "path": "preview/sweden-v1/README.md",
+            "sha256": "10f985c7176dd03e8b439f558a424d6520a77ec21e16617db20b13703ddf071f"
+          }
+        },
+        "qa": {
+          "evidence_path": "qa/sweden.json",
+          "fresh_runtime_execution": false,
+          "historical_report_count": 7
+        },
+        "selection": {
+          "commit": "baadbc1b34be89f204df784d7c7603adb050258e",
+          "fetched_tip": "baadbc1b34be89f204df784d7c7603adb050258e",
+          "reachable_from_fetched_ref": true,
+          "remote_ref": "origin/art/sweden-v1"
+        },
+        "source_archives": [
+          {
+            "bytes": 5718224,
+            "commit": "baadbc1b34be89f204df784d7c7603adb050258e",
+            "crc_error": null,
+            "entries": 54,
+            "inventory_checked": true,
+            "inventory_entries": 53,
+            "inventory_mismatches": [],
+            "kind": "git",
+            "path": "preview/sweden-v1/sweden-v1-source.zip",
+            "required_payloads": {
+              "sweden-v1.html": true,
+              "sweden.blend": true,
+              "sweden.glb": true
+            },
+            "safe_unique_paths": true,
+            "sha256": "9db3f8f20edb8a8ec6fd40da190f52b82637085005eeaca08943d3be74e4b691"
+          }
+        ],
+        "version": "sweden-v1",
+        "viewer": {
+          "bytes": 3709575,
+          "commit": "baadbc1b34be89f204df784d7c7603adb050258e",
+          "path": "preview/sweden-v1/sweden-v1.html",
+          "sha256": "039ee272463836009304fc03865dd18abf9ba02f1fafe2fcf249f903e23c976e",
+          "under_5000000": true
+        },
+        "visual_limitations": []
+      },
+      "user_final_approved": false,
+      "verdict": "candidate-with-limitations",
+      "visual_review": {
+        "art_changed": false,
+        "decision_reason": "Motif, hardware identity and complete framing retained without demonstrated structural defect.",
+        "finish_differences": [
+          "Viewer wood and brass appear more uniform; floral detail is less legible at mobile scale than in marketing.",
+          "Decorated outer lid is visible when closed; its absence from the open inner face is expected occlusion, not missing ornament.",
+          "Dark closed seam and open hinge clearance do not alone prove a closure or attachment fault."
+        ],
+        "id": "sweden",
+        "images_inspected": [
+          "launch/art-05/smoke/sweden/desktop-closed.png",
+          "launch/art-05/smoke/sweden/desktop-open.png",
+          "launch/art-05/smoke/sweden/mobile-closed.png",
+          "launch/art-05/smoke/sweden/mobile-open.png",
+          "launch/art-05/sources/sweden/marketing.webp"
+        ],
+        "observations": {
+          "desktop_closed": "Red plank chest, cream alternating joints, blue floral lid panel, brass hardware and dark feet are fully visible.",
+          "desktop_open": "Plain red inner lid, pale wood cavity and two rear hinge fittings visible. Projecting free-edge tab is consistent with opened clasp.",
+          "marketing": "Coral-red chest with cream joints, blue panel bearing cream floral stems and coral centers, brass caps/clasp/disc/ring and dark block feet.",
+          "mobile_closed": "Whole chest and controls fit; small foreshortened floral relief has reduced legibility.",
+          "mobile_open": "Open cavity, lid tab and feet fit; small hinge attachments cannot be mechanically resolved."
+        },
+        "parent_reconciliation": "Parent pass agrees with cold inspection; no approval inferred.",
+        "proven_defects": [],
+        "review_complete": true,
+        "user_final_approved": false,
+        "verdict": "candidate-pass"
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 5718224,
+        "commit": "baadbc1b34be89f204df784d7c7603adb050258e",
+        "crc_error": null,
+        "entries": 54,
+        "inventory_checked": true,
+        "inventory_entries": 53,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/sweden-v1/sweden-v1-source.zip",
+        "required_payloads": {
+          "sweden-v1.html": true,
+          "sweden.blend": true,
+          "sweden.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "9db3f8f20edb8a8ec6fd40da190f52b82637085005eeaca08943d3be74e4b691"
+      }
+    ]
+  }
+}

@@ -1,0 +1,561 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 3,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 465079,
+        "role": "editable-source",
+        "sha256": "075a8330c55ea64c0c0cb9313446dcb1e7c2a7afc31585b4555e0f9de8b8b11d",
+        "source": {
+          "commit": "4f035ea98fd44baf8fbe90344a360acf8923b9f2",
+          "path": "preview/mali-v1/mali.blend"
+        },
+        "uri": "sha256:075a8330c55ea64c0c0cb9313446dcb1e7c2a7afc31585b4555e0f9de8b8b11d"
+      },
+      {
+        "bytes": 7326090,
+        "role": "historical-source-archive",
+        "sha256": "3c6ab3a8e75dd6da0aaa29f2a6e56aaec9317cf1c0a0601dc4c0b9589746d3eb",
+        "source": {
+          "commit": "4f035ea98fd44baf8fbe90344a360acf8923b9f2",
+          "kind": "git",
+          "path": "preview/mali-v1/mali-v1-source.zip"
+        },
+        "uri": "sha256:3c6ab3a8e75dd6da0aaa29f2a6e56aaec9317cf1c0a0601dc4c0b9589746d3eb"
+      },
+      {
+        "bytes": 1249588,
+        "role": "model",
+        "sha256": "afe093ac10dbac603fd8820d82750ef027c3c6ffdefcaa191cea207edc7e6cd5",
+        "source": {
+          "commit": "4f035ea98fd44baf8fbe90344a360acf8923b9f2",
+          "path": "preview/mali-v1/mali.glb"
+        },
+        "uri": "sha256:afe093ac10dbac603fd8820d82750ef027c3c6ffdefcaa191cea207edc7e6cd5"
+      },
+      {
+        "bytes": 27440,
+        "role": "promotional-illustration",
+        "sha256": "48a2004765a9253f1650962c8cb00e5d6be728935c8fb4c6b2f4f9f819033a2c",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/mali.webp"
+        },
+        "uri": "sha256:48a2004765a9253f1650962c8cb00e5d6be728935c8fb4c6b2f4f9f819033a2c"
+      },
+      {
+        "bytes": 3783,
+        "role": "research-brief",
+        "sha256": "0da8246560c81eda56844088c7cb71a663209bd2a24ff5528269f0f5d2d4b046",
+        "source": {
+          "commit": "4f035ea98fd44baf8fbe90344a360acf8923b9f2",
+          "path": "preview/mali-v1/design-brief.md"
+        },
+        "uri": "sha256:0da8246560c81eda56844088c7cb71a663209bd2a24ff5528269f0f5d2d4b046"
+      },
+      {
+        "bytes": 6507,
+        "role": "source-notice",
+        "sha256": "85fbe4d2202bbc70a8e617fdcac4a81091f81b298aa2c97eee8b2a667ce269b0",
+        "source": {
+          "commit": "4f035ea98fd44baf8fbe90344a360acf8923b9f2",
+          "path": "preview/mali-v1/README.md"
+        },
+        "uri": "sha256:85fbe4d2202bbc70a8e617fdcac4a81091f81b298aa2c97eee8b2a667ce269b0"
+      },
+      {
+        "bytes": 2457564,
+        "role": "viewer",
+        "sha256": "a1036fc9d5ec891320d89b2d52d44d3fcf709eabd2c7b27bafd4cc286a9535f3",
+        "source": {
+          "commit": "4f035ea98fd44baf8fbe90344a360acf8923b9f2",
+          "path": "preview/mali-v1/mali-v1.html"
+        },
+        "uri": "sha256:a1036fc9d5ec891320d89b2d52d44d3fcf709eabd2c7b27bafd4cc286a9535f3"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "mali",
+    "independent_review": {
+      "art_changed": false,
+      "captures": [
+        "parent/smoke/mali/desktop-closed.png",
+        "parent/smoke/mali/desktop-open.png",
+        "parent/smoke/mali/mobile-closed.png",
+        "parent/smoke/mali/mobile-open.png"
+      ],
+      "fresh_browser": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.746692180633545,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.255000002682209,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1249588,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 4,
+            "meshes": 54,
+            "nonfinite": 0,
+            "triangles": 16126
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "mali",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "a1036fc9d5ec891320d89b2d52d44d3fcf709eabd2c7b27bafd4cc286a9535f3"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.746692180633545,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.255000002682209,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1249588,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 4,
+            "meshes": 54,
+            "nonfinite": 0,
+            "triangles": 16126
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "mali",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "a1036fc9d5ec891320d89b2d52d44d3fcf709eabd2c7b27bafd4cc286a9535f3"
+        }
+      ],
+      "fresh_motion": {
+        "exit_code": 0,
+        "id": "mali",
+        "passed": true,
+        "scope": "original motion unit assertions; not fresh collision/source parity"
+      },
+      "fresh_runtime_captures": [
+        "smoke/mali/desktop-closed.png",
+        "smoke/mali/desktop-open.png",
+        "smoke/mali/mobile-closed.png",
+        "smoke/mali/mobile-open.png"
+      ],
+      "hinge_assessment": "Small rear attachment continuity unresolved in stills, not proven detached. No fresh geometric contact/collision certification.",
+      "id": "mali",
+      "independent_visual_findings": "Three formations retained; harder stacked ledges and golden mottling versus muted softer rendering. Summit dimensions not certified.",
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "inspection": "Five read-only independent visual reviewers: all four original full-resolution captures and marketing image per ID; lead Ghana comparison and fresh Croatia open inspection. Delegation deleg_d31df2b3 tasks 0-4.",
+      "launch_ready": false,
+      "marketing": "parent/marketing/mali.webp",
+      "packaging": {
+        "archives": [
+          {
+            "bytes": 7326090,
+            "crc_and_safe_unique_paths": true,
+            "entries": 65,
+            "full_historical_inventory_freshly_checked": false,
+            "inherited_inventory_checked": true,
+            "kind": "git",
+            "path": "preview/mali-v1/mali-v1-source.zip",
+            "selected_payload_checks": [
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "mali-v1.html",
+                "sha256": "a1036fc9d5ec891320d89b2d52d44d3fcf709eabd2c7b27bafd4cc286a9535f3"
+              },
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "mali.blend",
+                "sha256": "075a8330c55ea64c0c0cb9313446dcb1e7c2a7afc31585b4555e0f9de8b8b11d"
+              },
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "mali.glb",
+                "sha256": "afe093ac10dbac603fd8820d82750ef027c3c6ffdefcaa191cea207edc7e6cd5"
+              }
+            ],
+            "sha256": "3c6ab3a8e75dd6da0aaa29f2a6e56aaec9317cf1c0a0601dc4c0b9589746d3eb"
+          }
+        ],
+        "id": "mali",
+        "source_hashes": [
+          {
+            "bytes": 465079,
+            "commit": "4f035ea98fd44baf8fbe90344a360acf8923b9f2",
+            "path": "preview/mali-v1/mali.blend",
+            "role": "selected-model",
+            "sha256": "075a8330c55ea64c0c0cb9313446dcb1e7c2a7afc31585b4555e0f9de8b8b11d"
+          },
+          {
+            "bytes": 1249588,
+            "commit": "4f035ea98fd44baf8fbe90344a360acf8923b9f2",
+            "path": "preview/mali-v1/mali.glb",
+            "role": "selected-model",
+            "sha256": "afe093ac10dbac603fd8820d82750ef027c3c6ffdefcaa191cea207edc7e6cd5",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 54,
+              "nodes": 56
+            }
+          }
+        ],
+        "viewer": {
+          "bytes": 2457564,
+          "commit": "4f035ea98fd44baf8fbe90344a360acf8923b9f2",
+          "path": "preview/mali-v1/mali-v1.html",
+          "sha256": "a1036fc9d5ec891320d89b2d52d44d3fcf709eabd2c7b27bafd4cc286a9535f3",
+          "under_5000000": true
+        }
+      },
+      "parent_status": "pass",
+      "parent_visual_findings": "Three formations retain arrangement; faceted stacked ledges and golden mottling versus rounded gullies and muted sand. Exact summit proportions not certified.",
+      "polish_iterations": 0,
+      "proven_runtime_defects": [],
+      "remaining_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "resolved_gate": "independent-current-model-visual-review performed; not final art approval",
+      "source_selection": {
+        "commit": "4f035ea98fd44baf8fbe90344a360acf8923b9f2",
+        "fetched_tip": "4f035ea98fd44baf8fbe90344a360acf8923b9f2",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/mali-v1"
+      },
+      "user_final_approved": false,
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 2457564,
+        "commit": "4f035ea98fd44baf8fbe90344a360acf8923b9f2",
+        "path": "preview/mali-v1/mali-v1.html",
+        "sha256": "a1036fc9d5ec891320d89b2d52d44d3fcf709eabd2c7b27bafd4cc286a9535f3",
+        "under_5000000": true
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Mali",
+    "package_history": [
+      {
+        "bytes": 7326090,
+        "commit": "4f035ea98fd44baf8fbe90344a360acf8923b9f2",
+        "crc_error": null,
+        "entries": 65,
+        "inventory_checked": true,
+        "inventory_entries": 64,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/mali-v1/mali-v1-source.zip",
+        "required_payloads": {
+          "mali-v1.html": true,
+          "mali.blend": true,
+          "mali.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "3c6ab3a8e75dd6da0aaa29f2a6e56aaec9317cf1c0a0601dc4c0b9589746d3eb"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "4f035ea98fd44baf8fbe90344a360acf8923b9f2",
+      "fetched_tip": "4f035ea98fd44baf8fbe90344a360acf8923b9f2",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/mali-v1"
+    },
+    "verdict": "candidate-with-limitations",
+    "viewer": {
+      "bytes": 2457564,
+      "commit": "4f035ea98fd44baf8fbe90344a360acf8923b9f2",
+      "path": "preview/mali-v1/mali-v1.html",
+      "sha256": "a1036fc9d5ec891320d89b2d52d44d3fcf709eabd2c7b27bafd4cc286a9535f3",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "mali",
+    "baseline_verdict": "candidate-with-limitations",
+    "actions": [
+      "owner art/finish acceptance; no proven runtime defect recorded; no autonomous redesign"
+    ],
+    "approval": false,
+    "original_review": {
+      "art_changed": false,
+      "captures": [
+        "parent/smoke/mali/desktop-closed.png",
+        "parent/smoke/mali/desktop-open.png",
+        "parent/smoke/mali/mobile-closed.png",
+        "parent/smoke/mali/mobile-open.png"
+      ],
+      "fresh_browser": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.746692180633545,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.255000002682209,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1249588,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 4,
+            "meshes": 54,
+            "nonfinite": 0,
+            "triangles": 16126
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "mali",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "a1036fc9d5ec891320d89b2d52d44d3fcf709eabd2c7b27bafd4cc286a9535f3"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.746692180633545,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.255000002682209,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1249588,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 4,
+            "meshes": 54,
+            "nonfinite": 0,
+            "triangles": 16126
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "mali",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "a1036fc9d5ec891320d89b2d52d44d3fcf709eabd2c7b27bafd4cc286a9535f3"
+        }
+      ],
+      "fresh_motion": {
+        "exit_code": 0,
+        "id": "mali",
+        "passed": true,
+        "scope": "original motion unit assertions; not fresh collision/source parity"
+      },
+      "fresh_runtime_captures": [
+        "smoke/mali/desktop-closed.png",
+        "smoke/mali/desktop-open.png",
+        "smoke/mali/mobile-closed.png",
+        "smoke/mali/mobile-open.png"
+      ],
+      "hinge_assessment": "Small rear attachment continuity unresolved in stills, not proven detached. No fresh geometric contact/collision certification.",
+      "id": "mali",
+      "independent_visual_findings": "Three formations retained; harder stacked ledges and golden mottling versus muted softer rendering. Summit dimensions not certified.",
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "inspection": "Five read-only independent visual reviewers: all four original full-resolution captures and marketing image per ID; lead Ghana comparison and fresh Croatia open inspection. Delegation deleg_d31df2b3 tasks 0-4.",
+      "launch_ready": false,
+      "marketing": "parent/marketing/mali.webp",
+      "packaging": {
+        "archives": [
+          {
+            "bytes": 7326090,
+            "crc_and_safe_unique_paths": true,
+            "entries": 65,
+            "full_historical_inventory_freshly_checked": false,
+            "inherited_inventory_checked": true,
+            "kind": "git",
+            "path": "preview/mali-v1/mali-v1-source.zip",
+            "selected_payload_checks": [
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "mali-v1.html",
+                "sha256": "a1036fc9d5ec891320d89b2d52d44d3fcf709eabd2c7b27bafd4cc286a9535f3"
+              },
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "mali.blend",
+                "sha256": "075a8330c55ea64c0c0cb9313446dcb1e7c2a7afc31585b4555e0f9de8b8b11d"
+              },
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "mali.glb",
+                "sha256": "afe093ac10dbac603fd8820d82750ef027c3c6ffdefcaa191cea207edc7e6cd5"
+              }
+            ],
+            "sha256": "3c6ab3a8e75dd6da0aaa29f2a6e56aaec9317cf1c0a0601dc4c0b9589746d3eb"
+          }
+        ],
+        "id": "mali",
+        "source_hashes": [
+          {
+            "bytes": 465079,
+            "commit": "4f035ea98fd44baf8fbe90344a360acf8923b9f2",
+            "path": "preview/mali-v1/mali.blend",
+            "role": "selected-model",
+            "sha256": "075a8330c55ea64c0c0cb9313446dcb1e7c2a7afc31585b4555e0f9de8b8b11d"
+          },
+          {
+            "bytes": 1249588,
+            "commit": "4f035ea98fd44baf8fbe90344a360acf8923b9f2",
+            "path": "preview/mali-v1/mali.glb",
+            "role": "selected-model",
+            "sha256": "afe093ac10dbac603fd8820d82750ef027c3c6ffdefcaa191cea207edc7e6cd5",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 54,
+              "nodes": 56
+            }
+          }
+        ],
+        "viewer": {
+          "bytes": 2457564,
+          "commit": "4f035ea98fd44baf8fbe90344a360acf8923b9f2",
+          "path": "preview/mali-v1/mali-v1.html",
+          "sha256": "a1036fc9d5ec891320d89b2d52d44d3fcf709eabd2c7b27bafd4cc286a9535f3",
+          "under_5000000": true
+        }
+      },
+      "parent_status": "pass",
+      "parent_visual_findings": "Three formations retain arrangement; faceted stacked ledges and golden mottling versus rounded gullies and muted sand. Exact summit proportions not certified.",
+      "polish_iterations": 0,
+      "proven_runtime_defects": [],
+      "remaining_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "resolved_gate": "independent-current-model-visual-review performed; not final art approval",
+      "source_selection": {
+        "commit": "4f035ea98fd44baf8fbe90344a360acf8923b9f2",
+        "fetched_tip": "4f035ea98fd44baf8fbe90344a360acf8923b9f2",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/mali-v1"
+      },
+      "user_final_approved": false,
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 2457564,
+        "commit": "4f035ea98fd44baf8fbe90344a360acf8923b9f2",
+        "path": "preview/mali-v1/mali-v1.html",
+        "sha256": "a1036fc9d5ec891320d89b2d52d44d3fcf709eabd2c7b27bafd4cc286a9535f3",
+        "under_5000000": true
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 7326090,
+        "commit": "4f035ea98fd44baf8fbe90344a360acf8923b9f2",
+        "crc_error": null,
+        "entries": 65,
+        "inventory_checked": true,
+        "inventory_entries": 64,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/mali-v1/mali-v1-source.zip",
+        "required_payloads": {
+          "mali-v1.html": true,
+          "mali.blend": true,
+          "mali.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "3c6ab3a8e75dd6da0aaa29f2a6e56aaec9317cf1c0a0601dc4c0b9589746d3eb"
+      }
+    ]
+  }
+}

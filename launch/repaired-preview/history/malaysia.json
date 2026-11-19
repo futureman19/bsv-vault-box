@@ -1,0 +1,696 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 1,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 277955,
+        "role": "editable-source",
+        "sha256": "bf755556910476692a995b36950b5c76d6ebd7d33bc42984c362e03671113ce4",
+        "source": {
+          "commit": "0d34e1f35442caabdb809d1fb9b0ed76c2e6eaf5",
+          "path": "preview/malaysia-v1/malaysia.blend"
+        },
+        "uri": "sha256:bf755556910476692a995b36950b5c76d6ebd7d33bc42984c362e03671113ce4"
+      },
+      {
+        "bytes": 4785200,
+        "role": "historical-source-archive",
+        "sha256": "d5ed3787d5b1bde93e49b9f427e9c596812ff711916a6591e4a3e29f1ec397e8",
+        "source": {
+          "commit": "0d34e1f35442caabdb809d1fb9b0ed76c2e6eaf5",
+          "kind": "git",
+          "path": "preview/malaysia-v1/malaysia-v1-source.zip"
+        },
+        "uri": "sha256:d5ed3787d5b1bde93e49b9f427e9c596812ff711916a6591e4a3e29f1ec397e8"
+      },
+      {
+        "bytes": 1031644,
+        "role": "model",
+        "sha256": "96da888a33ee2a0200d3d3f223ec4b5b4480a6a6db44c226685702c47b18092d",
+        "source": {
+          "commit": "0d34e1f35442caabdb809d1fb9b0ed76c2e6eaf5",
+          "path": "preview/malaysia-v1/malaysia.glb"
+        },
+        "uri": "sha256:96da888a33ee2a0200d3d3f223ec4b5b4480a6a6db44c226685702c47b18092d"
+      },
+      {
+        "bytes": 56206,
+        "role": "promotional-illustration",
+        "sha256": "47f32a517920bec9957e15d599a8841b6ff8ec0166259c819b9f4413a9265743",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/malaysia.webp"
+        },
+        "uri": "sha256:47f32a517920bec9957e15d599a8841b6ff8ec0166259c819b9f4413a9265743"
+      },
+      {
+        "bytes": 2763,
+        "role": "research-brief",
+        "sha256": "c221500195b2588733d45a4280042ff539db704c43adbb93d8c6d7ca6bc2651f",
+        "source": {
+          "commit": "0d34e1f35442caabdb809d1fb9b0ed76c2e6eaf5",
+          "path": "preview/malaysia-v1/design-brief.md"
+        },
+        "uri": "sha256:c221500195b2588733d45a4280042ff539db704c43adbb93d8c6d7ca6bc2651f"
+      },
+      {
+        "bytes": 4496,
+        "role": "source-notice",
+        "sha256": "eae1b7325af090cbd06240632f04ea6af8db98d10035c16694041d5134e9b898",
+        "source": {
+          "commit": "0d34e1f35442caabdb809d1fb9b0ed76c2e6eaf5",
+          "path": "preview/malaysia-v1/README.md"
+        },
+        "uri": "sha256:eae1b7325af090cbd06240632f04ea6af8db98d10035c16694041d5134e9b898"
+      },
+      {
+        "bytes": 2192602,
+        "role": "viewer",
+        "sha256": "4dcef905bb994d17443675a28872365d95f6d9585c3d4cd2197390ee73ca0a7c",
+        "source": {
+          "commit": "0d34e1f35442caabdb809d1fb9b0ed76c2e6eaf5",
+          "path": "preview/malaysia-v1/malaysia-v1.html"
+        },
+        "uri": "sha256:4dcef905bb994d17443675a28872365d95f6d9585c3d4cd2197390ee73ca0a7c"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "malaysia",
+    "independent_review": {
+      "all_four_original_captures_inspected": true,
+      "captures": [
+        "launch/art-01/smoke/malaysia/desktop-closed.png",
+        "launch/art-01/smoke/malaysia/desktop-open.png",
+        "launch/art-01/smoke/malaysia/mobile-closed.png",
+        "launch/art-01/smoke/malaysia/mobile-open.png"
+      ],
+      "critical_defects": [],
+      "fresh_qa_runtime": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.0250000953674316,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.3077426925301552,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1031644,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 5,
+            "meshes": 120,
+            "nonfinite": 0,
+            "triangles": 15992
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "malaysia",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "4dcef905bb994d17443675a28872365d95f6d9585c3d4cd2197390ee73ca0a7c"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.0250000953674316,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.3077426925301552,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1031644,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 5,
+            "meshes": 120,
+            "nonfinite": 0,
+            "triangles": 15992
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "malaysia",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "4dcef905bb994d17443675a28872365d95f6d9585c3d4cd2197390ee73ca0a7c"
+        }
+      ],
+      "id": "malaysia",
+      "launch_ready": false,
+      "marketing_inspected": true,
+      "model_changed": false,
+      "model_sources": [
+        {
+          "bytes": 277955,
+          "commit": "0d34e1f35442caabdb809d1fb9b0ed76c2e6eaf5",
+          "path": "preview/malaysia-v1/malaysia.blend",
+          "role": "selected-model",
+          "sha256": "bf755556910476692a995b36950b5c76d6ebd7d33bc42984c362e03671113ce4"
+        },
+        {
+          "bytes": 1031644,
+          "commit": "0d34e1f35442caabdb809d1fb9b0ed76c2e6eaf5",
+          "path": "preview/malaysia-v1/malaysia.glb",
+          "role": "selected-model",
+          "sha256": "96da888a33ee2a0200d3d3f223ec4b5b4480a6a6db44c226685702c47b18092d",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 120,
+            "nodes": 122
+          }
+        }
+      ],
+      "parent_runtime": {
+        "cases": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.0250000953674316,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.3077426925301552,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1031644,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 5,
+              "meshes": 120,
+              "nonfinite": 0,
+              "triangles": 15992
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "malaysia",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "4dcef905bb994d17443675a28872365d95f6d9585c3d4cd2197390ee73ca0a7c"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.0250000953674316,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.3077426925301552,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1031644,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 5,
+              "meshes": 120,
+              "nonfinite": 0,
+              "triangles": 15992
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "malaysia",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "4dcef905bb994d17443675a28872365d95f6d9585c3d4cd2197390ee73ca0a7c"
+          }
+        ],
+        "independently_rerun": false,
+        "motion": {
+          "exit_code": 0,
+          "id": "malaysia",
+          "passed": true,
+          "scope": "original motion unit assertions; not fresh collision/source parity"
+        }
+      },
+      "parent_status": "needs-decision",
+      "remaining_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "art-direction-decision",
+        "hinge-attachment-clarity-not-proven-by-stills"
+      ],
+      "selection": {
+        "commit": "0d34e1f35442caabdb809d1fb9b0ed76c2e6eaf5",
+        "fetched_tip": "0d34e1f35442caabdb809d1fb9b0ed76c2e6eaf5",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/malaysia-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 4785200,
+          "commit": "0d34e1f35442caabdb809d1fb9b0ed76c2e6eaf5",
+          "crc_safe_unique": true,
+          "exact_selected_payloads": {
+            "malaysia-v1.html": [
+              "malaysia-v1.html"
+            ],
+            "malaysia.blend": [
+              "malaysia.blend"
+            ],
+            "malaysia.glb": [
+              "malaysia.glb"
+            ]
+          },
+          "full_inventory_rerun": false,
+          "inherited_full_inventory_checked": true,
+          "members": 54,
+          "path": "preview/malaysia-v1/malaysia-v1-source.zip",
+          "sha256": "d5ed3787d5b1bde93e49b9f427e9c596812ff711916a6591e4a3e29f1ec397e8"
+        }
+      ],
+      "user_final_approved": false,
+      "verdict": "needs-user-review",
+      "viewer": {
+        "bytes": 2192602,
+        "commit": "0d34e1f35442caabdb809d1fb9b0ed76c2e6eaf5",
+        "path": "preview/malaysia-v1/malaysia-v1.html",
+        "sha256": "4dcef905bb994d17443675a28872365d95f6d9585c3d4cd2197390ee73ca0a7c",
+        "under_5000000": true
+      },
+      "visual_review": {
+        "caveats": [
+          "Palette mismatch is an art-direction decision, not proven renderer malfunction",
+          "Weak weave/raised-thread material readability",
+          "Hinge and corner joins require closer technical evidence"
+        ],
+        "critical_visible_faults": [],
+        "file": "visual-b.json",
+        "id": "malaysia",
+        "observations": {
+          "desktop-closed": "Crimson chest with gold lattice, dark inset lid diamonds, brass fittings and rounded feet. Full framing. Gold lines have boundary breaks and uneven aliasing; body reads smooth coating rather than woven textile.",
+          "desktop-open": "Crimson lattice continues across lid underside and cavity. Full silhouette fits; dark rear hinge clearance and abrupt rim joins look unfinished.",
+          "marketing": "Body visibly mauve/pink with charcoal lid inset rather than model crimson treatment. Same lattice, diamond ornaments and hardware; irregular lines and soft feet remain.",
+          "mobile-closed": "Crimson/gold identity legible with no overlap or clipping. Thin lattice jagged; feet chunky and dark.",
+          "mobile-open": "Open state and cavity readable; front-left and rear-right rim corners show thin bright edges/protrusions. No definite major mesh failure."
+        },
+        "parent_status": "needs-decision",
+        "parent_status_justified": "yes; independently visible crimson-versus-mauve and dark-top presentation divergence warrants the existing direction hold",
+        "recommended_status": "needs-decision"
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Malaysia",
+    "package_history": [
+      {
+        "bytes": 4785200,
+        "commit": "0d34e1f35442caabdb809d1fb9b0ed76c2e6eaf5",
+        "crc_error": null,
+        "entries": 54,
+        "inventory_checked": true,
+        "inventory_entries": 53,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/malaysia-v1/malaysia-v1-source.zip",
+        "required_payloads": {
+          "malaysia-v1.html": true,
+          "malaysia.blend": true,
+          "malaysia.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "d5ed3787d5b1bde93e49b9f427e9c596812ff711916a6591e4a3e29f1ec397e8"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "0d34e1f35442caabdb809d1fb9b0ed76c2e6eaf5",
+      "fetched_tip": "0d34e1f35442caabdb809d1fb9b0ed76c2e6eaf5",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/malaysia-v1"
+    },
+    "verdict": "needs-user-review",
+    "viewer": {
+      "bytes": 2192602,
+      "commit": "0d34e1f35442caabdb809d1fb9b0ed76c2e6eaf5",
+      "path": "preview/malaysia-v1/malaysia-v1.html",
+      "sha256": "4dcef905bb994d17443675a28872365d95f6d9585c3d4cd2197390ee73ca0a7c",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "malaysia",
+    "baseline_verdict": "needs-user-review",
+    "actions": [
+      "owner art/finish acceptance; no proven runtime defect recorded; no autonomous redesign"
+    ],
+    "approval": false,
+    "original_review": {
+      "all_four_original_captures_inspected": true,
+      "captures": [
+        "launch/art-01/smoke/malaysia/desktop-closed.png",
+        "launch/art-01/smoke/malaysia/desktop-open.png",
+        "launch/art-01/smoke/malaysia/mobile-closed.png",
+        "launch/art-01/smoke/malaysia/mobile-open.png"
+      ],
+      "critical_defects": [],
+      "fresh_qa_runtime": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.0250000953674316,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.3077426925301552,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1031644,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 5,
+            "meshes": 120,
+            "nonfinite": 0,
+            "triangles": 15992
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "malaysia",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "4dcef905bb994d17443675a28872365d95f6d9585c3d4cd2197390ee73ca0a7c"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.0250000953674316,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.3077426925301552,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1031644,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 5,
+            "meshes": 120,
+            "nonfinite": 0,
+            "triangles": 15992
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "malaysia",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "4dcef905bb994d17443675a28872365d95f6d9585c3d4cd2197390ee73ca0a7c"
+        }
+      ],
+      "id": "malaysia",
+      "launch_ready": false,
+      "marketing_inspected": true,
+      "model_changed": false,
+      "model_sources": [
+        {
+          "bytes": 277955,
+          "commit": "0d34e1f35442caabdb809d1fb9b0ed76c2e6eaf5",
+          "path": "preview/malaysia-v1/malaysia.blend",
+          "role": "selected-model",
+          "sha256": "bf755556910476692a995b36950b5c76d6ebd7d33bc42984c362e03671113ce4"
+        },
+        {
+          "bytes": 1031644,
+          "commit": "0d34e1f35442caabdb809d1fb9b0ed76c2e6eaf5",
+          "path": "preview/malaysia-v1/malaysia.glb",
+          "role": "selected-model",
+          "sha256": "96da888a33ee2a0200d3d3f223ec4b5b4480a6a6db44c226685702c47b18092d",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 120,
+            "nodes": 122
+          }
+        }
+      ],
+      "parent_runtime": {
+        "cases": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.0250000953674316,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.3077426925301552,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1031644,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 5,
+              "meshes": 120,
+              "nonfinite": 0,
+              "triangles": 15992
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "malaysia",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "4dcef905bb994d17443675a28872365d95f6d9585c3d4cd2197390ee73ca0a7c"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.0250000953674316,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.3077426925301552,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1031644,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 5,
+              "meshes": 120,
+              "nonfinite": 0,
+              "triangles": 15992
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "malaysia",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "4dcef905bb994d17443675a28872365d95f6d9585c3d4cd2197390ee73ca0a7c"
+          }
+        ],
+        "independently_rerun": false,
+        "motion": {
+          "exit_code": 0,
+          "id": "malaysia",
+          "passed": true,
+          "scope": "original motion unit assertions; not fresh collision/source parity"
+        }
+      },
+      "parent_status": "needs-decision",
+      "remaining_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "art-direction-decision",
+        "hinge-attachment-clarity-not-proven-by-stills"
+      ],
+      "selection": {
+        "commit": "0d34e1f35442caabdb809d1fb9b0ed76c2e6eaf5",
+        "fetched_tip": "0d34e1f35442caabdb809d1fb9b0ed76c2e6eaf5",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/malaysia-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 4785200,
+          "commit": "0d34e1f35442caabdb809d1fb9b0ed76c2e6eaf5",
+          "crc_safe_unique": true,
+          "exact_selected_payloads": {
+            "malaysia-v1.html": [
+              "malaysia-v1.html"
+            ],
+            "malaysia.blend": [
+              "malaysia.blend"
+            ],
+            "malaysia.glb": [
+              "malaysia.glb"
+            ]
+          },
+          "full_inventory_rerun": false,
+          "inherited_full_inventory_checked": true,
+          "members": 54,
+          "path": "preview/malaysia-v1/malaysia-v1-source.zip",
+          "sha256": "d5ed3787d5b1bde93e49b9f427e9c596812ff711916a6591e4a3e29f1ec397e8"
+        }
+      ],
+      "user_final_approved": false,
+      "verdict": "needs-user-review",
+      "viewer": {
+        "bytes": 2192602,
+        "commit": "0d34e1f35442caabdb809d1fb9b0ed76c2e6eaf5",
+        "path": "preview/malaysia-v1/malaysia-v1.html",
+        "sha256": "4dcef905bb994d17443675a28872365d95f6d9585c3d4cd2197390ee73ca0a7c",
+        "under_5000000": true
+      },
+      "visual_review": {
+        "caveats": [
+          "Palette mismatch is an art-direction decision, not proven renderer malfunction",
+          "Weak weave/raised-thread material readability",
+          "Hinge and corner joins require closer technical evidence"
+        ],
+        "critical_visible_faults": [],
+        "file": "visual-b.json",
+        "id": "malaysia",
+        "observations": {
+          "desktop-closed": "Crimson chest with gold lattice, dark inset lid diamonds, brass fittings and rounded feet. Full framing. Gold lines have boundary breaks and uneven aliasing; body reads smooth coating rather than woven textile.",
+          "desktop-open": "Crimson lattice continues across lid underside and cavity. Full silhouette fits; dark rear hinge clearance and abrupt rim joins look unfinished.",
+          "marketing": "Body visibly mauve/pink with charcoal lid inset rather than model crimson treatment. Same lattice, diamond ornaments and hardware; irregular lines and soft feet remain.",
+          "mobile-closed": "Crimson/gold identity legible with no overlap or clipping. Thin lattice jagged; feet chunky and dark.",
+          "mobile-open": "Open state and cavity readable; front-left and rear-right rim corners show thin bright edges/protrusions. No definite major mesh failure."
+        },
+        "parent_status": "needs-decision",
+        "parent_status_justified": "yes; independently visible crimson-versus-mauve and dark-top presentation divergence warrants the existing direction hold",
+        "recommended_status": "needs-decision"
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 4785200,
+        "commit": "0d34e1f35442caabdb809d1fb9b0ed76c2e6eaf5",
+        "crc_error": null,
+        "entries": 54,
+        "inventory_checked": true,
+        "inventory_entries": 53,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/malaysia-v1/malaysia-v1-source.zip",
+        "required_payloads": {
+          "malaysia-v1.html": true,
+          "malaysia.blend": true,
+          "malaysia.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "d5ed3787d5b1bde93e49b9f427e9c596812ff711916a6591e4a3e29f1ec397e8"
+      }
+    ]
+  },
+  "visual_decision": {
+    "id": "malaysia",
+    "disposition": "preview-accepted-with-limitations",
+    "issue": "Crimson versus mauve palette and weak woven-thread relief.",
+    "rationale": "Body lattice and distinct lid diamonds preserve Songket-inspired identity. Accept graphic gold patterning and altered inset contrast with aliasing disclosed; no authentic raised-thread material claim or hinge certification follows.",
+    "evidence": {
+      "commit": "45e69632c56c786dbf84ab6484d6b352f482c5c6",
+      "path": "launch/qa-art-01/launch/art-01/boards/malaysia.jpg",
+      "sha256": "dd8a4d8b45b321fcb435850f0b88860a1f4b9bc3b240886c415143b9394ae9c7"
+    }
+  }
+}

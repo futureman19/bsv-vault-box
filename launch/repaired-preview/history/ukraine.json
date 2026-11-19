@@ -1,0 +1,731 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 5,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 927685,
+        "role": "editable-source",
+        "sha256": "989cd7a18f5f4f33f4f508bda76493f1f38eee06e96634f63dcd72ef588cc8d4",
+        "source": {
+          "commit": "2a78dc5795b15c9d066678986b4422d764e1139c",
+          "path": "preview/ukraine-v1/ukraine.blend"
+        },
+        "uri": "sha256:989cd7a18f5f4f33f4f508bda76493f1f38eee06e96634f63dcd72ef588cc8d4"
+      },
+      {
+        "bytes": 8738655,
+        "role": "historical-source-archive",
+        "sha256": "254732e3606c838f82ad0e13701af79204f2daab18ef5bde02a7b03a69a8697e",
+        "source": {
+          "commit": "2a78dc5795b15c9d066678986b4422d764e1139c",
+          "kind": "git",
+          "path": "preview/ukraine-v1/ukraine-v1-source.zip"
+        },
+        "uri": "sha256:254732e3606c838f82ad0e13701af79204f2daab18ef5bde02a7b03a69a8697e"
+      },
+      {
+        "bytes": 2284784,
+        "role": "model",
+        "sha256": "9e6f8240515aa34e884ccd3d15fc955ae94ec149453b0156cf14169461850970",
+        "source": {
+          "commit": "2a78dc5795b15c9d066678986b4422d764e1139c",
+          "path": "preview/ukraine-v1/ukraine.glb"
+        },
+        "uri": "sha256:9e6f8240515aa34e884ccd3d15fc955ae94ec149453b0156cf14169461850970"
+      },
+      {
+        "bytes": 60356,
+        "role": "promotional-illustration",
+        "sha256": "148ad55940a483b46be6f166def5b09ee1c4b3ba659492a0e2b8f25ce76bb1e9",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/ukraine.webp"
+        },
+        "uri": "sha256:148ad55940a483b46be6f166def5b09ee1c4b3ba659492a0e2b8f25ce76bb1e9"
+      },
+      {
+        "bytes": 3776,
+        "role": "research-brief",
+        "sha256": "04f7f7996edc3c0f03a97bd59da06c7617c6ceec72ef832c37dca3b19aff1957",
+        "source": {
+          "commit": "2a78dc5795b15c9d066678986b4422d764e1139c",
+          "path": "preview/ukraine-v1/design-brief.md"
+        },
+        "uri": "sha256:04f7f7996edc3c0f03a97bd59da06c7617c6ceec72ef832c37dca3b19aff1957"
+      },
+      {
+        "bytes": 6466,
+        "role": "source-notice",
+        "sha256": "bd64e0f1336eeaba6b9f435f29ac746253ec8175861dd607ab42b5e1b8a492d3",
+        "source": {
+          "commit": "2a78dc5795b15c9d066678986b4422d764e1139c",
+          "path": "preview/ukraine-v1/README.md"
+        },
+        "uri": "sha256:bd64e0f1336eeaba6b9f435f29ac746253ec8175861dd607ab42b5e1b8a492d3"
+      },
+      {
+        "bytes": 3833953,
+        "role": "viewer",
+        "sha256": "c9b045e7e52fff045ab689dae1d66c10e4848f76dad26a8c0032f957e93aa18d",
+        "source": {
+          "commit": "2a78dc5795b15c9d066678986b4422d764e1139c",
+          "path": "preview/ukraine-v1/ukraine-v1.html"
+        },
+        "uri": "sha256:c9b045e7e52fff045ab689dae1d66c10e4848f76dad26a8c0032f957e93aa18d"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "ukraine",
+    "independent_review": {
+      "art_changed": false,
+      "fresh_checks": {
+        "archives": [
+          {
+            "bytes": 8738655,
+            "crc_safe_unique": true,
+            "entries": 58,
+            "full_inner_inventory_rerun": false,
+            "path": "preview/ukraine-v1/ukraine-v1-source.zip",
+            "required_payloads": [
+              {
+                "archive_members": [
+                  "ukraine-v1.html"
+                ],
+                "exact_match": true,
+                "path": "preview/ukraine-v1/ukraine-v1.html"
+              },
+              {
+                "archive_members": [
+                  "ukraine.blend"
+                ],
+                "exact_match": true,
+                "path": "preview/ukraine-v1/ukraine.blend"
+              },
+              {
+                "archive_members": [
+                  "ukraine.glb"
+                ],
+                "exact_match": true,
+                "path": "preview/ukraine-v1/ukraine.glb"
+              }
+            ],
+            "sha256": "254732e3606c838f82ad0e13701af79204f2daab18ef5bde02a7b03a69a8697e"
+          }
+        ],
+        "art_changed": false,
+        "id": "ukraine",
+        "models": [
+          {
+            "bytes": 927685,
+            "commit": "2a78dc5795b15c9d066678986b4422d764e1139c",
+            "path": "preview/ukraine-v1/ukraine.blend",
+            "role": "selected-model",
+            "sha256": "989cd7a18f5f4f33f4f508bda76493f1f38eee06e96634f63dcd72ef588cc8d4"
+          },
+          {
+            "bytes": 2284784,
+            "commit": "2a78dc5795b15c9d066678986b4422d764e1139c",
+            "path": "preview/ukraine-v1/ukraine.glb",
+            "role": "selected-model",
+            "sha256": "9e6f8240515aa34e884ccd3d15fc955ae94ec149453b0156cf14169461850970",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 189,
+              "nodes": 191
+            }
+          }
+        ],
+        "parent_package_holds": [],
+        "viewer": {
+          "bytes": 3833953,
+          "commit": "2a78dc5795b15c9d066678986b4422d764e1139c",
+          "path": "preview/ukraine-v1/ukraine-v1.html",
+          "sha256": "c9b045e7e52fff045ab689dae1d66c10e4848f76dad26a8c0032f957e93aa18d",
+          "under_5000000": true
+        }
+      },
+      "historical_runtime_only": true,
+      "id": "ukraine",
+      "inspected_images": [
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/ukraine/desktop-closed.png",
+          "sha256": "1ae9dd48fe8198b7038a73625c9ee6d46e62b53f897c0c8710bc3aca9467ed24"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/ukraine/desktop-open.png",
+          "sha256": "30d7662428aba231d778d22ebc8b8f85dbd0c6d9ebb7cfbfbff14fc0cc9a9fad"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/ukraine/mobile-closed.png",
+          "sha256": "4fca79cee24625ac0767c80033c3e7c21937fd753d3ca7bede2ab71ce0bbb225"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/ukraine/mobile-open.png",
+          "sha256": "da424ad43994b4416f1f29f4e84caf378f19688431ef4de0e13f29cb6da4d35f"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "sources/ukraine/marketing.webp",
+          "sha256": "148ad55940a483b46be6f166def5b09ee1c4b3ba659492a0e2b8f25ce76bb1e9"
+        }
+      ],
+      "launch_ready": false,
+      "missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "package_holds": [],
+      "parent_reason": "Bounded visual candidate pass: all five required originals inspected; identity retained, no unequivocal major geometry or framing defect observed. Not final user approval.",
+      "review_complete": true,
+      "source_record": {
+        "approval": {
+          "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+          "prior_approved_baseline": null,
+          "status": "candidate-not-final-approved",
+          "user_final_approved": false
+        },
+        "category": "Country",
+        "delivered_viewer": {
+          "bytes": 3833953,
+          "exists": true,
+          "matches_selected_commit": true,
+          "path": "C:\\Users\\futur\\.hermes\\profiles\\telegram2\\output\\boxsv-collection-review\\viewers\\ukraine.html",
+          "sha256": "c9b045e7e52fff045ab689dae1d66c10e4848f76dad26a8c0032f957e93aa18d"
+        },
+        "edition_supply": 1,
+        "id": "ukraine",
+        "launch_ready": false,
+        "legacy_review_viewer": {
+          "bytes": 3833953,
+          "commit": "2a78dc5795b15c9d066678986b4422d764e1139c",
+          "path": "viewers/ukraine.html",
+          "sha256": "c9b045e7e52fff045ab689dae1d66c10e4848f76dad26a8c0032f957e93aa18d",
+          "source_path": "preview/ukraine-v1/ukraine-v1.html"
+        },
+        "marketing": {
+          "bytes": 60356,
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "dimensions": [
+            1072,
+            960
+          ],
+          "image_type": "Promotional art",
+          "matches_gallery_inventory": true,
+          "not_model_approval": true,
+          "path": "docs/assets/gallery/ukraine.webp",
+          "provenance": {
+            "exactModelEquivalenceClaimed": false,
+            "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+            "model": "grok-imagine-image",
+            "nativeDimensions": [
+              1072,
+              960
+            ],
+            "provider": "xai",
+            "reviewNotes": "Reviewed source/output: high broad fidelity, original major counts/layout/hardware retained. Saturation, texture, ornament contours and pattern spacing differ slightly; not exact model evidence.",
+            "reviewStatus": "reviewed",
+            "sha256": "23c64b273dea5794b6cf8cab4dedba8e3ce6da1bdf11ceb384f80d59b38b948d",
+            "source": "assets/gallery/ukraine.webp",
+            "sourceSha256": "58e9fde8e19e1c275af3d069aa8db3d7c7359a8069b8b1e405dd9ff1ab2380c8",
+            "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+          },
+          "sha256": "148ad55940a483b46be6f166def5b09ee1c4b3ba659492a0e2b8f25ce76bb1e9"
+        },
+        "missing_gates": [
+          "independent-current-model-visual-review",
+          "explicit-final-user-art-approval",
+          "fresh-full-source-and-browser-acceptance",
+          "storage-and-preservation-policy",
+          "mint-and-release-authorization"
+        ],
+        "model_sources": [
+          {
+            "bytes": 927685,
+            "commit": "2a78dc5795b15c9d066678986b4422d764e1139c",
+            "path": "preview/ukraine-v1/ukraine.blend",
+            "role": "selected-model",
+            "sha256": "989cd7a18f5f4f33f4f508bda76493f1f38eee06e96634f63dcd72ef588cc8d4"
+          },
+          {
+            "bytes": 2284784,
+            "commit": "2a78dc5795b15c9d066678986b4422d764e1139c",
+            "path": "preview/ukraine-v1/ukraine.glb",
+            "role": "selected-model",
+            "sha256": "9e6f8240515aa34e884ccd3d15fc955ae94ec149453b0156cf14169461850970",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 189,
+              "nodes": 191
+            }
+          }
+        ],
+        "name": "Ukraine",
+        "provenance": {
+          "readme_snapshot": "source-notes/ukraine.md",
+          "research_brief": {
+            "bytes": 3776,
+            "commit": "2a78dc5795b15c9d066678986b4422d764e1139c",
+            "path": "preview/ukraine-v1/design-brief.md",
+            "sha256": "04f7f7996edc3c0f03a97bd59da06c7617c6ceec72ef832c37dca3b19aff1957"
+          },
+          "source_readme": {
+            "bytes": 6466,
+            "commit": "2a78dc5795b15c9d066678986b4422d764e1139c",
+            "path": "preview/ukraine-v1/README.md",
+            "sha256": "bd64e0f1336eeaba6b9f435f29ac746253ec8175861dd607ab42b5e1b8a492d3"
+          }
+        },
+        "qa": {
+          "evidence_path": "qa/ukraine.json",
+          "fresh_runtime_execution": false,
+          "historical_report_count": 8
+        },
+        "selection": {
+          "commit": "2a78dc5795b15c9d066678986b4422d764e1139c",
+          "fetched_tip": "2a78dc5795b15c9d066678986b4422d764e1139c",
+          "reachable_from_fetched_ref": true,
+          "remote_ref": "origin/art/ukraine-v1"
+        },
+        "source_archives": [
+          {
+            "bytes": 8738655,
+            "commit": "2a78dc5795b15c9d066678986b4422d764e1139c",
+            "crc_error": null,
+            "entries": 58,
+            "inventory_checked": true,
+            "inventory_entries": 57,
+            "inventory_mismatches": [],
+            "kind": "git",
+            "path": "preview/ukraine-v1/ukraine-v1-source.zip",
+            "required_payloads": {
+              "ukraine-v1.html": true,
+              "ukraine.blend": true,
+              "ukraine.glb": true
+            },
+            "safe_unique_paths": true,
+            "sha256": "254732e3606c838f82ad0e13701af79204f2daab18ef5bde02a7b03a69a8697e"
+          }
+        ],
+        "version": "ukraine-v1",
+        "viewer": {
+          "bytes": 3833953,
+          "commit": "2a78dc5795b15c9d066678986b4422d764e1139c",
+          "path": "preview/ukraine-v1/ukraine-v1.html",
+          "sha256": "c9b045e7e52fff045ab689dae1d66c10e4848f76dad26a8c0032f957e93aa18d",
+          "under_5000000": true
+        },
+        "visual_limitations": []
+      },
+      "user_final_approved": false,
+      "verdict": "candidate-with-limitations",
+      "visual_review": {
+        "art_changed": false,
+        "decision_reason": "Broad floral identity and framing retained; finish/readability limitations do not establish structural failure.",
+        "finish_differences": [
+          "Viewer lacquer reads flatter and darker than promotional surface; brass is less reflective.",
+          "Low interior contrast limits depth inspection but does not demonstrate a missing floor or mesh hole.",
+          "Rounded top flowers versus angular side ornament are present in both source and captures, not a newly introduced mismatch."
+        ],
+        "id": "ukraine",
+        "images_inspected": [
+          "launch/art-05/smoke/ukraine/desktop-closed.png",
+          "launch/art-05/smoke/ukraine/desktop-open.png",
+          "launch/art-05/smoke/ukraine/mobile-closed.png",
+          "launch/art-05/smoke/ukraine/mobile-open.png",
+          "launch/art-05/sources/ukraine/marketing.webp"
+        ],
+        "observations": {
+          "desktop_closed": "Dark green chest with red-orange/yellow flowers, green foliage, gold borders and brass fittings; rounded top relief and angular front/side vines visible.",
+          "desktop_open": "Plain dark inner lid, dark cavity and rear brass hinges visible; complete silhouette including tab and feet fits.",
+          "marketing": "Forest-green textured chest with rounded coral/salmon lid flowers, angular front/side vines, fine gold borders, brass clasp/disc/ring/caps and square feet.",
+          "mobile_closed": "Floral identity and control layout preserved without clipping; hardware detail and dark feet have limited contrast.",
+          "mobile_open": "Open lid and cavity are clear in silhouette, but deep interior surfaces and hinge attachment are difficult to inspect."
+        },
+        "parent_reconciliation": "Parent pass agrees with cold inspection; no approval inferred.",
+        "proven_defects": [],
+        "review_complete": true,
+        "user_final_approved": false,
+        "verdict": "candidate-pass"
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Ukraine",
+    "package_history": [
+      {
+        "bytes": 8738655,
+        "commit": "2a78dc5795b15c9d066678986b4422d764e1139c",
+        "crc_error": null,
+        "entries": 58,
+        "inventory_checked": true,
+        "inventory_entries": 57,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/ukraine-v1/ukraine-v1-source.zip",
+        "required_payloads": {
+          "ukraine-v1.html": true,
+          "ukraine.blend": true,
+          "ukraine.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "254732e3606c838f82ad0e13701af79204f2daab18ef5bde02a7b03a69a8697e"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "2a78dc5795b15c9d066678986b4422d764e1139c",
+      "fetched_tip": "2a78dc5795b15c9d066678986b4422d764e1139c",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/ukraine-v1"
+    },
+    "verdict": "candidate-with-limitations",
+    "viewer": {
+      "bytes": 3833953,
+      "commit": "2a78dc5795b15c9d066678986b4422d764e1139c",
+      "path": "preview/ukraine-v1/ukraine-v1.html",
+      "sha256": "c9b045e7e52fff045ab689dae1d66c10e4848f76dad26a8c0032f957e93aa18d",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "ukraine",
+    "baseline_verdict": "candidate-with-limitations",
+    "actions": [
+      "owner art/finish acceptance; no proven runtime defect recorded; no autonomous redesign"
+    ],
+    "approval": false,
+    "original_review": {
+      "art_changed": false,
+      "fresh_checks": {
+        "archives": [
+          {
+            "bytes": 8738655,
+            "crc_safe_unique": true,
+            "entries": 58,
+            "full_inner_inventory_rerun": false,
+            "path": "preview/ukraine-v1/ukraine-v1-source.zip",
+            "required_payloads": [
+              {
+                "archive_members": [
+                  "ukraine-v1.html"
+                ],
+                "exact_match": true,
+                "path": "preview/ukraine-v1/ukraine-v1.html"
+              },
+              {
+                "archive_members": [
+                  "ukraine.blend"
+                ],
+                "exact_match": true,
+                "path": "preview/ukraine-v1/ukraine.blend"
+              },
+              {
+                "archive_members": [
+                  "ukraine.glb"
+                ],
+                "exact_match": true,
+                "path": "preview/ukraine-v1/ukraine.glb"
+              }
+            ],
+            "sha256": "254732e3606c838f82ad0e13701af79204f2daab18ef5bde02a7b03a69a8697e"
+          }
+        ],
+        "art_changed": false,
+        "id": "ukraine",
+        "models": [
+          {
+            "bytes": 927685,
+            "commit": "2a78dc5795b15c9d066678986b4422d764e1139c",
+            "path": "preview/ukraine-v1/ukraine.blend",
+            "role": "selected-model",
+            "sha256": "989cd7a18f5f4f33f4f508bda76493f1f38eee06e96634f63dcd72ef588cc8d4"
+          },
+          {
+            "bytes": 2284784,
+            "commit": "2a78dc5795b15c9d066678986b4422d764e1139c",
+            "path": "preview/ukraine-v1/ukraine.glb",
+            "role": "selected-model",
+            "sha256": "9e6f8240515aa34e884ccd3d15fc955ae94ec149453b0156cf14169461850970",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 189,
+              "nodes": 191
+            }
+          }
+        ],
+        "parent_package_holds": [],
+        "viewer": {
+          "bytes": 3833953,
+          "commit": "2a78dc5795b15c9d066678986b4422d764e1139c",
+          "path": "preview/ukraine-v1/ukraine-v1.html",
+          "sha256": "c9b045e7e52fff045ab689dae1d66c10e4848f76dad26a8c0032f957e93aa18d",
+          "under_5000000": true
+        }
+      },
+      "historical_runtime_only": true,
+      "id": "ukraine",
+      "inspected_images": [
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/ukraine/desktop-closed.png",
+          "sha256": "1ae9dd48fe8198b7038a73625c9ee6d46e62b53f897c0c8710bc3aca9467ed24"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/ukraine/desktop-open.png",
+          "sha256": "30d7662428aba231d778d22ebc8b8f85dbd0c6d9ebb7cfbfbff14fc0cc9a9fad"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/ukraine/mobile-closed.png",
+          "sha256": "4fca79cee24625ac0767c80033c3e7c21937fd753d3ca7bede2ab71ce0bbb225"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/ukraine/mobile-open.png",
+          "sha256": "da424ad43994b4416f1f29f4e84caf378f19688431ef4de0e13f29cb6da4d35f"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "sources/ukraine/marketing.webp",
+          "sha256": "148ad55940a483b46be6f166def5b09ee1c4b3ba659492a0e2b8f25ce76bb1e9"
+        }
+      ],
+      "launch_ready": false,
+      "missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "package_holds": [],
+      "parent_reason": "Bounded visual candidate pass: all five required originals inspected; identity retained, no unequivocal major geometry or framing defect observed. Not final user approval.",
+      "review_complete": true,
+      "source_record": {
+        "approval": {
+          "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+          "prior_approved_baseline": null,
+          "status": "candidate-not-final-approved",
+          "user_final_approved": false
+        },
+        "category": "Country",
+        "delivered_viewer": {
+          "bytes": 3833953,
+          "exists": true,
+          "matches_selected_commit": true,
+          "path": "C:\\Users\\futur\\.hermes\\profiles\\telegram2\\output\\boxsv-collection-review\\viewers\\ukraine.html",
+          "sha256": "c9b045e7e52fff045ab689dae1d66c10e4848f76dad26a8c0032f957e93aa18d"
+        },
+        "edition_supply": 1,
+        "id": "ukraine",
+        "launch_ready": false,
+        "legacy_review_viewer": {
+          "bytes": 3833953,
+          "commit": "2a78dc5795b15c9d066678986b4422d764e1139c",
+          "path": "viewers/ukraine.html",
+          "sha256": "c9b045e7e52fff045ab689dae1d66c10e4848f76dad26a8c0032f957e93aa18d",
+          "source_path": "preview/ukraine-v1/ukraine-v1.html"
+        },
+        "marketing": {
+          "bytes": 60356,
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "dimensions": [
+            1072,
+            960
+          ],
+          "image_type": "Promotional art",
+          "matches_gallery_inventory": true,
+          "not_model_approval": true,
+          "path": "docs/assets/gallery/ukraine.webp",
+          "provenance": {
+            "exactModelEquivalenceClaimed": false,
+            "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+            "model": "grok-imagine-image",
+            "nativeDimensions": [
+              1072,
+              960
+            ],
+            "provider": "xai",
+            "reviewNotes": "Reviewed source/output: high broad fidelity, original major counts/layout/hardware retained. Saturation, texture, ornament contours and pattern spacing differ slightly; not exact model evidence.",
+            "reviewStatus": "reviewed",
+            "sha256": "23c64b273dea5794b6cf8cab4dedba8e3ce6da1bdf11ceb384f80d59b38b948d",
+            "source": "assets/gallery/ukraine.webp",
+            "sourceSha256": "58e9fde8e19e1c275af3d069aa8db3d7c7359a8069b8b1e405dd9ff1ab2380c8",
+            "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+          },
+          "sha256": "148ad55940a483b46be6f166def5b09ee1c4b3ba659492a0e2b8f25ce76bb1e9"
+        },
+        "missing_gates": [
+          "independent-current-model-visual-review",
+          "explicit-final-user-art-approval",
+          "fresh-full-source-and-browser-acceptance",
+          "storage-and-preservation-policy",
+          "mint-and-release-authorization"
+        ],
+        "model_sources": [
+          {
+            "bytes": 927685,
+            "commit": "2a78dc5795b15c9d066678986b4422d764e1139c",
+            "path": "preview/ukraine-v1/ukraine.blend",
+            "role": "selected-model",
+            "sha256": "989cd7a18f5f4f33f4f508bda76493f1f38eee06e96634f63dcd72ef588cc8d4"
+          },
+          {
+            "bytes": 2284784,
+            "commit": "2a78dc5795b15c9d066678986b4422d764e1139c",
+            "path": "preview/ukraine-v1/ukraine.glb",
+            "role": "selected-model",
+            "sha256": "9e6f8240515aa34e884ccd3d15fc955ae94ec149453b0156cf14169461850970",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 189,
+              "nodes": 191
+            }
+          }
+        ],
+        "name": "Ukraine",
+        "provenance": {
+          "readme_snapshot": "source-notes/ukraine.md",
+          "research_brief": {
+            "bytes": 3776,
+            "commit": "2a78dc5795b15c9d066678986b4422d764e1139c",
+            "path": "preview/ukraine-v1/design-brief.md",
+            "sha256": "04f7f7996edc3c0f03a97bd59da06c7617c6ceec72ef832c37dca3b19aff1957"
+          },
+          "source_readme": {
+            "bytes": 6466,
+            "commit": "2a78dc5795b15c9d066678986b4422d764e1139c",
+            "path": "preview/ukraine-v1/README.md",
+            "sha256": "bd64e0f1336eeaba6b9f435f29ac746253ec8175861dd607ab42b5e1b8a492d3"
+          }
+        },
+        "qa": {
+          "evidence_path": "qa/ukraine.json",
+          "fresh_runtime_execution": false,
+          "historical_report_count": 8
+        },
+        "selection": {
+          "commit": "2a78dc5795b15c9d066678986b4422d764e1139c",
+          "fetched_tip": "2a78dc5795b15c9d066678986b4422d764e1139c",
+          "reachable_from_fetched_ref": true,
+          "remote_ref": "origin/art/ukraine-v1"
+        },
+        "source_archives": [
+          {
+            "bytes": 8738655,
+            "commit": "2a78dc5795b15c9d066678986b4422d764e1139c",
+            "crc_error": null,
+            "entries": 58,
+            "inventory_checked": true,
+            "inventory_entries": 57,
+            "inventory_mismatches": [],
+            "kind": "git",
+            "path": "preview/ukraine-v1/ukraine-v1-source.zip",
+            "required_payloads": {
+              "ukraine-v1.html": true,
+              "ukraine.blend": true,
+              "ukraine.glb": true
+            },
+            "safe_unique_paths": true,
+            "sha256": "254732e3606c838f82ad0e13701af79204f2daab18ef5bde02a7b03a69a8697e"
+          }
+        ],
+        "version": "ukraine-v1",
+        "viewer": {
+          "bytes": 3833953,
+          "commit": "2a78dc5795b15c9d066678986b4422d764e1139c",
+          "path": "preview/ukraine-v1/ukraine-v1.html",
+          "sha256": "c9b045e7e52fff045ab689dae1d66c10e4848f76dad26a8c0032f957e93aa18d",
+          "under_5000000": true
+        },
+        "visual_limitations": []
+      },
+      "user_final_approved": false,
+      "verdict": "candidate-with-limitations",
+      "visual_review": {
+        "art_changed": false,
+        "decision_reason": "Broad floral identity and framing retained; finish/readability limitations do not establish structural failure.",
+        "finish_differences": [
+          "Viewer lacquer reads flatter and darker than promotional surface; brass is less reflective.",
+          "Low interior contrast limits depth inspection but does not demonstrate a missing floor or mesh hole.",
+          "Rounded top flowers versus angular side ornament are present in both source and captures, not a newly introduced mismatch."
+        ],
+        "id": "ukraine",
+        "images_inspected": [
+          "launch/art-05/smoke/ukraine/desktop-closed.png",
+          "launch/art-05/smoke/ukraine/desktop-open.png",
+          "launch/art-05/smoke/ukraine/mobile-closed.png",
+          "launch/art-05/smoke/ukraine/mobile-open.png",
+          "launch/art-05/sources/ukraine/marketing.webp"
+        ],
+        "observations": {
+          "desktop_closed": "Dark green chest with red-orange/yellow flowers, green foliage, gold borders and brass fittings; rounded top relief and angular front/side vines visible.",
+          "desktop_open": "Plain dark inner lid, dark cavity and rear brass hinges visible; complete silhouette including tab and feet fits.",
+          "marketing": "Forest-green textured chest with rounded coral/salmon lid flowers, angular front/side vines, fine gold borders, brass clasp/disc/ring/caps and square feet.",
+          "mobile_closed": "Floral identity and control layout preserved without clipping; hardware detail and dark feet have limited contrast.",
+          "mobile_open": "Open lid and cavity are clear in silhouette, but deep interior surfaces and hinge attachment are difficult to inspect."
+        },
+        "parent_reconciliation": "Parent pass agrees with cold inspection; no approval inferred.",
+        "proven_defects": [],
+        "review_complete": true,
+        "user_final_approved": false,
+        "verdict": "candidate-pass"
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 8738655,
+        "commit": "2a78dc5795b15c9d066678986b4422d764e1139c",
+        "crc_error": null,
+        "entries": 58,
+        "inventory_checked": true,
+        "inventory_entries": 57,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/ukraine-v1/ukraine-v1-source.zip",
+        "required_payloads": {
+          "ukraine-v1.html": true,
+          "ukraine.blend": true,
+          "ukraine.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "254732e3606c838f82ad0e13701af79204f2daab18ef5bde02a7b03a69a8697e"
+      }
+    ]
+  }
+}

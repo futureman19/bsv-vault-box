@@ -1,0 +1,660 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 6,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 413525,
+        "role": "editable-source",
+        "sha256": "942a532a0ab0982601ee43e4f1f07e5669e528a29d6b3c3bf0b4bfb5221ae398",
+        "source": {
+          "commit": "09d72ac0e07c80c0579e6b90face98563eb402e5",
+          "path": "preview/vietnam-v1/vietnam.blend"
+        },
+        "uri": "sha256:942a532a0ab0982601ee43e4f1f07e5669e528a29d6b3c3bf0b4bfb5221ae398"
+      },
+      {
+        "bytes": 4934593,
+        "role": "historical-source-archive",
+        "sha256": "5bcc325722e698cf449bc7f75acb22a66bc8e912d64204af873ccd07a2862599",
+        "source": {
+          "commit": "09d72ac0e07c80c0579e6b90face98563eb402e5",
+          "kind": "git",
+          "path": "preview/vietnam-v1/vietnam-v1-source.zip"
+        },
+        "uri": "sha256:5bcc325722e698cf449bc7f75acb22a66bc8e912d64204af873ccd07a2862599"
+      },
+      {
+        "bytes": 1120896,
+        "role": "model",
+        "sha256": "1152464bb730972f3049853da1f996940944fb53153ccb87ab3c2c796417b308",
+        "source": {
+          "commit": "09d72ac0e07c80c0579e6b90face98563eb402e5",
+          "path": "preview/vietnam-v1/vietnam.glb"
+        },
+        "uri": "sha256:1152464bb730972f3049853da1f996940944fb53153ccb87ab3c2c796417b308"
+      },
+      {
+        "bytes": 31838,
+        "role": "promotional-illustration",
+        "sha256": "4c6d682240120aa9aa929fe9f9ee7431e78303213a72b316b5a06b3412648ff8",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/vietnam.webp"
+        },
+        "uri": "sha256:4c6d682240120aa9aa929fe9f9ee7431e78303213a72b316b5a06b3412648ff8"
+      },
+      {
+        "bytes": 2572,
+        "role": "research-brief",
+        "sha256": "6b0381abc722f01d4226e70f2725afb2702d8bb27130542253566d7bf071f42c",
+        "source": {
+          "commit": "09d72ac0e07c80c0579e6b90face98563eb402e5",
+          "path": "preview/vietnam-v1/design-brief.md"
+        },
+        "uri": "sha256:6b0381abc722f01d4226e70f2725afb2702d8bb27130542253566d7bf071f42c"
+      },
+      {
+        "bytes": 5055,
+        "role": "source-notice",
+        "sha256": "27f9e658ef8a41d9143ab72d33095c4776fb4bbc01fc21fe27346f9a6c10e382",
+        "source": {
+          "commit": "09d72ac0e07c80c0579e6b90face98563eb402e5",
+          "path": "preview/vietnam-v1/README.md"
+        },
+        "uri": "sha256:27f9e658ef8a41d9143ab72d33095c4776fb4bbc01fc21fe27346f9a6c10e382"
+      },
+      {
+        "bytes": 2268101,
+        "role": "viewer",
+        "sha256": "762e1e582445c30dcd8321f854f8d7a29aa201bd21c9225018aa6fd1cb802f93",
+        "source": {
+          "commit": "09d72ac0e07c80c0579e6b90face98563eb402e5",
+          "path": "preview/vietnam-v1/vietnam-v1.html"
+        },
+        "uri": "sha256:762e1e582445c30dcd8321f854f8d7a29aa201bd21c9225018aa6fd1cb802f93"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "vietnam",
+    "independent_review": {
+      "adjudication": "Preserve substantive parent art-decision hold despite any more permissive independent recommendation; no user approval or changed art resolves it.",
+      "art_changed": false,
+      "critical_reproducible_defects": [],
+      "fresh_blender_reopen": false,
+      "fresh_browser": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.678724765777588,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1120896,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 6,
+            "meshes": 66,
+            "nonfinite": 0,
+            "triangles": 15220
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "vietnam",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "762e1e582445c30dcd8321f854f8d7a29aa201bd21c9225018aa6fd1cb802f93"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.678724765777588,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1120896,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 6,
+            "meshes": 66,
+            "nonfinite": 0,
+            "triangles": 15220
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "vietnam",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "762e1e582445c30dcd8321f854f8d7a29aa201bd21c9225018aa6fd1cb802f93"
+        }
+      ],
+      "fresh_collision_sampling": false,
+      "fresh_corrupt_glb_fallback": false,
+      "fresh_motion": {
+        "exit_code": 0,
+        "id": "vietnam",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "09d72ac0e07c80c0579e6b90face98563eb402e5",
+            "path": "preview/vietnam-v1/motion.mjs",
+            "sha256": "d61544de9b41521a7b14e81a5e9867ce0fcc387f8852ce57490031b84bf2150e"
+          }
+        ]
+      },
+      "fresh_nojs": false,
+      "id": "vietnam",
+      "independent_visual": {
+        "file": "visual-5.json",
+        "findings": {
+          "appearance": "Cloudy ivory stone-like chest with brass fittings, turquoise inset and seam, five angular pale karst islands with green summits and squat pale feet. Closed views retain all five formations; open views show a pale empty interior and underside edged by teal trim.",
+          "artistic_gaps": [
+            "Water reads as a flat colored panel; green summits look like caps rather than vegetation, also present in the reference.",
+            "Cloudy stone shading and stepped corner junctions reduce material refinement.",
+            "Mobile title isolates 'Karst' on its second line without clipping."
+          ],
+          "id": "vietnam",
+          "images": {
+            "desktop_closed": "parent/smoke/vietnam/desktop-closed.png",
+            "desktop_open": "parent/smoke/vietnam/desktop-open.png",
+            "marketing": "parent/sources/vietnam/marketing.webp",
+            "mobile_closed": "parent/smoke/vietnam/mobile-closed.png",
+            "mobile_open": "parent/smoke/vietnam/mobile-open.png"
+          },
+          "mechanism_concerns_unconfirmed": [
+            "Open hinge-to-lid clearance and interrupted teal rim strips make attachment visually unclear, without proving missing geometry.",
+            "Closed teal seam and layered clasp edges warrant angle/animation inspection only if closure behavior is in scope."
+          ],
+          "observed_defects": [],
+          "per_frame": {
+            "desktop_closed": "All five island forms and complete chest fit; opaque turquoise surface and chunky corner joints.",
+            "desktop_open": "Empty pale interior and plain underside; open lid hides its exterior landscape normally.",
+            "marketing": "Ivory marble-like chest with reflective turquoise inset, five green-capped formations and satin brass.",
+            "mobile_closed": "Five islands remain legible; no cropping, minor jagged seams and overlapping-looking latch pieces.",
+            "mobile_open": "Full lid and controls visible; small hinge contacts and dark clearance weaken connection reading."
+          },
+          "recommendation": "candidate-with-limitations",
+          "recommendation_reason": "Strong motif and palette correspondence, with water/material simplification and unverified hinge behavior. Not final approval.",
+          "reference_comparison": "Five-island arrangement, ivory/turquoise/green palette, marble-like body and hardware are recognizable matches. Reference inset has more reflective depth; runtime water appears flatter and opaque. Angular green caps and squat irregular feet are already source characteristics."
+        }
+      },
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 31838,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          960
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/vietnam.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            960
+          ],
+          "provider": "xai",
+          "reviewNotes": "pass_with_limitations: five karsts retained, darker teal water",
+          "reviewStatus": "reviewed_pass_with_limitations",
+          "sha256": "1ddf1ce4113d90e7a37a20e6250d9087f75b0c00561d60627b53bb6fff0d361f",
+          "source": "assets/gallery/vietnam.webp",
+          "sourceSha256": "c681e33112edf1745a2cbc00b60cb4a320b28906f20471dc0da4d3f85d3778bd",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "4c6d682240120aa9aa929fe9f9ee7431e78303213a72b316b5a06b3412648ff8"
+      },
+      "original_capture_paths": [
+        "parent/smoke/vietnam/desktop-closed.png",
+        "parent/smoke/vietnam/desktop-open.png",
+        "parent/smoke/vietnam/mobile-closed.png",
+        "parent/smoke/vietnam/mobile-open.png"
+      ],
+      "packaging_hold": false,
+      "parent_decision": "Accept the stylized karst candidate only with explicit agreement on flat water and streaky limestone finish versus promotional presentation, or request a separate finish pass. No proven major rendering/framing defect and no mechanism certification or user approval inferred.",
+      "parent_missing_gates_preserved": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_quality": "Five green-topped karst stacks, pale chest and teal inset preserve the exact marketing concept. All desktop/mobile closed/open views are completely framed. Runtime body banding is conspicuous and water/metal presentation is flatter; no clear missing geometry or platform-specific failure is visible.",
+      "parent_status": "needs-decision",
+      "remaining_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "user fidelity decision before substantial redesign",
+        "independent QA-ART-06 review"
+      ],
+      "selection": {
+        "commit": "09d72ac0e07c80c0579e6b90face98563eb402e5",
+        "fetched_tip": "09d72ac0e07c80c0579e6b90face98563eb402e5",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/vietnam-v1"
+      },
+      "source_archive_check": {
+        "archive": {
+          "bytes": 4934593,
+          "crc": "pass",
+          "entries": 54,
+          "mismatches": [],
+          "path": "preview/vietnam-v1/vietnam-v1-source.zip",
+          "required_payload_hashes": "pass",
+          "sha256": "5bcc325722e698cf449bc7f75acb22a66bc8e912d64204af873ccd07a2862599"
+        },
+        "id": "vietnam",
+        "internal_inventory": "pass",
+        "inventory_entries_checked": 53,
+        "selected_payload_match": "pass"
+      },
+      "source_archives": [
+        {
+          "bytes": 4934593,
+          "crc": "pass",
+          "entries": 54,
+          "mismatches": [],
+          "path": "preview/vietnam-v1/vietnam-v1-source.zip",
+          "required_payload_hashes": "pass",
+          "sha256": "5bcc325722e698cf449bc7f75acb22a66bc8e912d64204af873ccd07a2862599"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 413525,
+          "path": "preview/vietnam-v1/vietnam.blend",
+          "sha256": "942a532a0ab0982601ee43e4f1f07e5669e528a29d6b3c3bf0b4bfb5221ae398"
+        },
+        {
+          "bytes": 1120896,
+          "path": "preview/vietnam-v1/vietnam.glb",
+          "sha256": "1152464bb730972f3049853da1f996940944fb53153ccb87ab3c2c796417b308"
+        }
+      ],
+      "user_final_approved": false,
+      "verdict": "needs-user-review",
+      "viewer": {
+        "bytes": 2268101,
+        "commit": "09d72ac0e07c80c0579e6b90face98563eb402e5",
+        "path": "preview/vietnam-v1/vietnam-v1.html",
+        "sha256": "762e1e582445c30dcd8321f854f8d7a29aa201bd21c9225018aa6fd1cb802f93",
+        "under_5000000": true
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Vietnam",
+    "package_history": [
+      {
+        "bytes": 4934593,
+        "commit": "09d72ac0e07c80c0579e6b90face98563eb402e5",
+        "crc_error": null,
+        "entries": 54,
+        "inventory_checked": true,
+        "inventory_entries": 53,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/vietnam-v1/vietnam-v1-source.zip",
+        "required_payloads": {
+          "vietnam-v1.html": true,
+          "vietnam.blend": true,
+          "vietnam.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "5bcc325722e698cf449bc7f75acb22a66bc8e912d64204af873ccd07a2862599"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "09d72ac0e07c80c0579e6b90face98563eb402e5",
+      "fetched_tip": "09d72ac0e07c80c0579e6b90face98563eb402e5",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/vietnam-v1"
+    },
+    "verdict": "needs-user-review",
+    "viewer": {
+      "bytes": 2268101,
+      "commit": "09d72ac0e07c80c0579e6b90face98563eb402e5",
+      "path": "preview/vietnam-v1/vietnam-v1.html",
+      "sha256": "762e1e582445c30dcd8321f854f8d7a29aa201bd21c9225018aa6fd1cb802f93",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "vietnam",
+    "baseline_verdict": "needs-user-review",
+    "actions": [
+      "owner art/finish acceptance; no proven runtime defect recorded; no autonomous redesign"
+    ],
+    "approval": false,
+    "original_review": {
+      "adjudication": "Preserve substantive parent art-decision hold despite any more permissive independent recommendation; no user approval or changed art resolves it.",
+      "art_changed": false,
+      "critical_reproducible_defects": [],
+      "fresh_blender_reopen": false,
+      "fresh_browser": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.678724765777588,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1120896,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 6,
+            "meshes": 66,
+            "nonfinite": 0,
+            "triangles": 15220
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "vietnam",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "762e1e582445c30dcd8321f854f8d7a29aa201bd21c9225018aa6fd1cb802f93"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.678724765777588,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1120896,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 6,
+            "meshes": 66,
+            "nonfinite": 0,
+            "triangles": 15220
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "vietnam",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "762e1e582445c30dcd8321f854f8d7a29aa201bd21c9225018aa6fd1cb802f93"
+        }
+      ],
+      "fresh_collision_sampling": false,
+      "fresh_corrupt_glb_fallback": false,
+      "fresh_motion": {
+        "exit_code": 0,
+        "id": "vietnam",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "09d72ac0e07c80c0579e6b90face98563eb402e5",
+            "path": "preview/vietnam-v1/motion.mjs",
+            "sha256": "d61544de9b41521a7b14e81a5e9867ce0fcc387f8852ce57490031b84bf2150e"
+          }
+        ]
+      },
+      "fresh_nojs": false,
+      "id": "vietnam",
+      "independent_visual": {
+        "file": "visual-5.json",
+        "findings": {
+          "appearance": "Cloudy ivory stone-like chest with brass fittings, turquoise inset and seam, five angular pale karst islands with green summits and squat pale feet. Closed views retain all five formations; open views show a pale empty interior and underside edged by teal trim.",
+          "artistic_gaps": [
+            "Water reads as a flat colored panel; green summits look like caps rather than vegetation, also present in the reference.",
+            "Cloudy stone shading and stepped corner junctions reduce material refinement.",
+            "Mobile title isolates 'Karst' on its second line without clipping."
+          ],
+          "id": "vietnam",
+          "images": {
+            "desktop_closed": "parent/smoke/vietnam/desktop-closed.png",
+            "desktop_open": "parent/smoke/vietnam/desktop-open.png",
+            "marketing": "parent/sources/vietnam/marketing.webp",
+            "mobile_closed": "parent/smoke/vietnam/mobile-closed.png",
+            "mobile_open": "parent/smoke/vietnam/mobile-open.png"
+          },
+          "mechanism_concerns_unconfirmed": [
+            "Open hinge-to-lid clearance and interrupted teal rim strips make attachment visually unclear, without proving missing geometry.",
+            "Closed teal seam and layered clasp edges warrant angle/animation inspection only if closure behavior is in scope."
+          ],
+          "observed_defects": [],
+          "per_frame": {
+            "desktop_closed": "All five island forms and complete chest fit; opaque turquoise surface and chunky corner joints.",
+            "desktop_open": "Empty pale interior and plain underside; open lid hides its exterior landscape normally.",
+            "marketing": "Ivory marble-like chest with reflective turquoise inset, five green-capped formations and satin brass.",
+            "mobile_closed": "Five islands remain legible; no cropping, minor jagged seams and overlapping-looking latch pieces.",
+            "mobile_open": "Full lid and controls visible; small hinge contacts and dark clearance weaken connection reading."
+          },
+          "recommendation": "candidate-with-limitations",
+          "recommendation_reason": "Strong motif and palette correspondence, with water/material simplification and unverified hinge behavior. Not final approval.",
+          "reference_comparison": "Five-island arrangement, ivory/turquoise/green palette, marble-like body and hardware are recognizable matches. Reference inset has more reflective depth; runtime water appears flatter and opaque. Angular green caps and squat irregular feet are already source characteristics."
+        }
+      },
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 31838,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          960
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/vietnam.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            960
+          ],
+          "provider": "xai",
+          "reviewNotes": "pass_with_limitations: five karsts retained, darker teal water",
+          "reviewStatus": "reviewed_pass_with_limitations",
+          "sha256": "1ddf1ce4113d90e7a37a20e6250d9087f75b0c00561d60627b53bb6fff0d361f",
+          "source": "assets/gallery/vietnam.webp",
+          "sourceSha256": "c681e33112edf1745a2cbc00b60cb4a320b28906f20471dc0da4d3f85d3778bd",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "4c6d682240120aa9aa929fe9f9ee7431e78303213a72b316b5a06b3412648ff8"
+      },
+      "original_capture_paths": [
+        "parent/smoke/vietnam/desktop-closed.png",
+        "parent/smoke/vietnam/desktop-open.png",
+        "parent/smoke/vietnam/mobile-closed.png",
+        "parent/smoke/vietnam/mobile-open.png"
+      ],
+      "packaging_hold": false,
+      "parent_decision": "Accept the stylized karst candidate only with explicit agreement on flat water and streaky limestone finish versus promotional presentation, or request a separate finish pass. No proven major rendering/framing defect and no mechanism certification or user approval inferred.",
+      "parent_missing_gates_preserved": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_quality": "Five green-topped karst stacks, pale chest and teal inset preserve the exact marketing concept. All desktop/mobile closed/open views are completely framed. Runtime body banding is conspicuous and water/metal presentation is flatter; no clear missing geometry or platform-specific failure is visible.",
+      "parent_status": "needs-decision",
+      "remaining_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "user fidelity decision before substantial redesign",
+        "independent QA-ART-06 review"
+      ],
+      "selection": {
+        "commit": "09d72ac0e07c80c0579e6b90face98563eb402e5",
+        "fetched_tip": "09d72ac0e07c80c0579e6b90face98563eb402e5",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/vietnam-v1"
+      },
+      "source_archive_check": {
+        "archive": {
+          "bytes": 4934593,
+          "crc": "pass",
+          "entries": 54,
+          "mismatches": [],
+          "path": "preview/vietnam-v1/vietnam-v1-source.zip",
+          "required_payload_hashes": "pass",
+          "sha256": "5bcc325722e698cf449bc7f75acb22a66bc8e912d64204af873ccd07a2862599"
+        },
+        "id": "vietnam",
+        "internal_inventory": "pass",
+        "inventory_entries_checked": 53,
+        "selected_payload_match": "pass"
+      },
+      "source_archives": [
+        {
+          "bytes": 4934593,
+          "crc": "pass",
+          "entries": 54,
+          "mismatches": [],
+          "path": "preview/vietnam-v1/vietnam-v1-source.zip",
+          "required_payload_hashes": "pass",
+          "sha256": "5bcc325722e698cf449bc7f75acb22a66bc8e912d64204af873ccd07a2862599"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 413525,
+          "path": "preview/vietnam-v1/vietnam.blend",
+          "sha256": "942a532a0ab0982601ee43e4f1f07e5669e528a29d6b3c3bf0b4bfb5221ae398"
+        },
+        {
+          "bytes": 1120896,
+          "path": "preview/vietnam-v1/vietnam.glb",
+          "sha256": "1152464bb730972f3049853da1f996940944fb53153ccb87ab3c2c796417b308"
+        }
+      ],
+      "user_final_approved": false,
+      "verdict": "needs-user-review",
+      "viewer": {
+        "bytes": 2268101,
+        "commit": "09d72ac0e07c80c0579e6b90face98563eb402e5",
+        "path": "preview/vietnam-v1/vietnam-v1.html",
+        "sha256": "762e1e582445c30dcd8321f854f8d7a29aa201bd21c9225018aa6fd1cb802f93",
+        "under_5000000": true
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 4934593,
+        "commit": "09d72ac0e07c80c0579e6b90face98563eb402e5",
+        "crc_error": null,
+        "entries": 54,
+        "inventory_checked": true,
+        "inventory_entries": 53,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/vietnam-v1/vietnam-v1-source.zip",
+        "required_payloads": {
+          "vietnam-v1.html": true,
+          "vietnam.blend": true,
+          "vietnam.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "5bcc325722e698cf449bc7f75acb22a66bc8e912d64204af873ccd07a2862599"
+      }
+    ]
+  },
+  "visual_decision": {
+    "id": "vietnam",
+    "disposition": "preview-accepted-with-limitations",
+    "issue": "Opaque water, green cap-like summits and cloudy limestone body.",
+    "rationale": "Five karst stacks and turquoise water field remain. These graphic caps also occur in the reference; accept simplified material response and do not treat exterior terrain hidden in open views as absent.",
+    "evidence": {
+      "commit": "bb6301f93b47613838f53fbaba43f47b7b1d78c6",
+      "path": "launch/qa-art-06/parent/boards/vietnam.jpg",
+      "sha256": "0e4e0358a7ad478fabf271a3eff7ff0e986c7ea2ebddc9006ee14adf5e4e39d9"
+    }
+  }
+}

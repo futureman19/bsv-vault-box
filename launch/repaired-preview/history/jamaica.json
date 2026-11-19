@@ -1,0 +1,659 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 6,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 797012,
+        "role": "editable-source",
+        "sha256": "cd447b66334c7ae5b4d5652cf473bca7d0714c1c522300c1200dc99d4b23175a",
+        "source": {
+          "commit": "db50dd648c4def2a667c702fa879c692b4d6aeaa",
+          "path": "preview/jamaica-v1/jamaica.blend"
+        },
+        "uri": "sha256:cd447b66334c7ae5b4d5652cf473bca7d0714c1c522300c1200dc99d4b23175a"
+      },
+      {
+        "bytes": 9031799,
+        "role": "historical-source-archive",
+        "sha256": "565278b12fa9ac4dd36012d3464fcc4c6b887a9638640f662b87bf1e7a369995",
+        "source": {
+          "commit": "db50dd648c4def2a667c702fa879c692b4d6aeaa",
+          "kind": "git",
+          "path": "preview/jamaica-v1/jamaica-v1-source.zip"
+        },
+        "uri": "sha256:565278b12fa9ac4dd36012d3464fcc4c6b887a9638640f662b87bf1e7a369995"
+      },
+      {
+        "bytes": 1600388,
+        "role": "model",
+        "sha256": "5fea412d532ac21892421d686bfc2a264b1054b6b096989a90e8e25eefde4ff9",
+        "source": {
+          "commit": "db50dd648c4def2a667c702fa879c692b4d6aeaa",
+          "path": "preview/jamaica-v1/jamaica.glb"
+        },
+        "uri": "sha256:5fea412d532ac21892421d686bfc2a264b1054b6b096989a90e8e25eefde4ff9"
+      },
+      {
+        "bytes": 57988,
+        "role": "promotional-illustration",
+        "sha256": "9fac22478972773317f53520b1bfffe8134cced2c84c2c051704b13af4048888",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/jamaica.webp"
+        },
+        "uri": "sha256:9fac22478972773317f53520b1bfffe8134cced2c84c2c051704b13af4048888"
+      },
+      {
+        "bytes": 3274,
+        "role": "research-brief",
+        "sha256": "d61513b7744a43711eb6ffeca778792414d81b076a0e88aa0886fddda3c8fc0d",
+        "source": {
+          "commit": "db50dd648c4def2a667c702fa879c692b4d6aeaa",
+          "path": "preview/jamaica-v1/design-brief.md"
+        },
+        "uri": "sha256:d61513b7744a43711eb6ffeca778792414d81b076a0e88aa0886fddda3c8fc0d"
+      },
+      {
+        "bytes": 6196,
+        "role": "source-notice",
+        "sha256": "5ee90fc55f0b9988789bc07099ced1dd7632e1eaf4ed7126de3232ccf0befc4f",
+        "source": {
+          "commit": "db50dd648c4def2a667c702fa879c692b4d6aeaa",
+          "path": "preview/jamaica-v1/README.md"
+        },
+        "uri": "sha256:5ee90fc55f0b9988789bc07099ced1dd7632e1eaf4ed7126de3232ccf0befc4f"
+      },
+      {
+        "bytes": 2926486,
+        "role": "viewer",
+        "sha256": "d19407c48637f2bccfa70d7de65575dd7ae2f9a8776a9f26ec0e299929b5ae1e",
+        "source": {
+          "commit": "db50dd648c4def2a667c702fa879c692b4d6aeaa",
+          "path": "preview/jamaica-v1/jamaica-v1.html"
+        },
+        "uri": "sha256:d19407c48637f2bccfa70d7de65575dd7ae2f9a8776a9f26ec0e299929b5ae1e"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "jamaica",
+    "independent_review": {
+      "adjudication": "Candidate with disclosed finish limitations, not final user approval.",
+      "art_changed": false,
+      "critical_reproducible_defects": [],
+      "fresh_blender_reopen": false,
+      "fresh_browser": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.734325684607029,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.22500000149011612,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1600388,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 9,
+            "meshes": 154,
+            "nonfinite": 0,
+            "triangles": 20488
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "jamaica",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "d19407c48637f2bccfa70d7de65575dd7ae2f9a8776a9f26ec0e299929b5ae1e"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.734325684607029,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.22500000149011612,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1600388,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 9,
+            "meshes": 154,
+            "nonfinite": 0,
+            "triangles": 20488
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "jamaica",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "d19407c48637f2bccfa70d7de65575dd7ae2f9a8776a9f26ec0e299929b5ae1e"
+        }
+      ],
+      "fresh_collision_sampling": false,
+      "fresh_corrupt_glb_fallback": false,
+      "fresh_motion": {
+        "exit_code": 0,
+        "id": "jamaica",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "db50dd648c4def2a667c702fa879c692b4d6aeaa",
+            "path": "preview/jamaica-v1/motion.mjs",
+            "sha256": "57aa922066594a9a90cc22eb37891bc72080f603d1fdd29053ed5005e0df41f2"
+          }
+        ]
+      },
+      "fresh_nojs": false,
+      "id": "jamaica",
+      "independent_visual": {
+        "file": "visual-3.json",
+        "findings": {
+          "approved": false,
+          "artistic_gaps": [
+            "Stone's repeated diagonal pattern reads as decorative composite rather than natural limestone.",
+            "The reference's pebbled lid, granular terrain and restrained aged-brass response are softened into simpler surfaces.",
+            "Canopy blobs and broad facets retain the reference concept but do not establish realistic forest ecology or geography."
+          ],
+          "final_views": [
+            {
+              "file": "smoke/jamaica/desktop-closed.png",
+              "observations": "All primary source motifs and hardware positions remain readable. Pale mottled body, teal lid band, clustered green terrain and pale feet are fully framed. Flat muted lid top and simplified terrain have less tactile material separation than the reference."
+            },
+            {
+              "file": "smoke/jamaica/desktop-open.png",
+              "observations": "Broad plain teal underside, pale inner walls and green rim are exposed. Rear hinge gap, prominent upper clasp tab and stepped pale rim corners merit construction review; no unmistakable large missing face is visible."
+            },
+            {
+              "file": "smoke/jamaica/mobile-closed.png",
+              "observations": "Full mountain and feet fit. Title leaves Crow alone on a second line. Small terrain clusters and layered clasp lose definition; lid seam and front-left corner are visually busy."
+            },
+            {
+              "file": "smoke/jamaica/mobile-open.png",
+              "observations": "Raised lid and tab fit without control overlap. Green rim joins look segmented and the front wall masks much of the floor. Fine diagonals show edge stepping."
+            }
+          ],
+          "follow_up": "Candidate for user consideration with stylization disclosed; inspect hinge seating, clasp attachment and rim joins in a rotating close-up before any approval.",
+          "id": "jamaica",
+          "recommendation": "candidate-with-limitations",
+          "reference": {
+            "dimensions": [
+              1072,
+              960
+            ],
+            "file": "sources/jamaica/marketing.webp",
+            "observations": "Ivory patterned mineral body and pale block feet; pebbled dusty-teal lid, sage/mint mountain relief with lavender-gray exposed slopes, rounded canopy clusters, brass corner caps, long front clasp, round lower fitting and side ring."
+          }
+        }
+      },
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 57988,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          960
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/jamaica.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            960
+          ],
+          "provider": "xai",
+          "reviewNotes": "Reviewed source pair. High broad fidelity, minor contrast texture and contour differences; exact pixel/mini-detail match not claimed.",
+          "reviewStatus": "reviewed",
+          "sha256": "9f075d71c6aacfc7de20d0c5daa68de452ee7cd675bad43c9a99dd78d801be66",
+          "source": "assets/gallery/jamaica.webp",
+          "sourceSha256": "07900658daa856e8effbbefafe89f1c8df6f9989a7cfc1f4a4a36c2742c54f8c",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "9fac22478972773317f53520b1bfffe8134cced2c84c2c051704b13af4048888"
+      },
+      "original_capture_paths": [
+        "parent/smoke/jamaica/desktop-closed.png",
+        "parent/smoke/jamaica/desktop-open.png",
+        "parent/smoke/jamaica/mobile-closed.png",
+        "parent/smoke/jamaica/mobile-open.png"
+      ],
+      "packaging_hold": false,
+      "parent_decision": "Pass as a disclosed stylized review candidate, not approval or a photoreal marketing match. No blocking visual defect established in the inspected images.",
+      "parent_missing_gates_preserved": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_quality": "Coherent stylized candidate, consistent across desktop/mobile closed/open captures; full silhouette and controls fit. Marketing has richer lighting, surface detail and grounding, not a demonstrated missing-part or rendering defect.",
+      "parent_status": "pass",
+      "remaining_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-06 review"
+      ],
+      "selection": {
+        "commit": "db50dd648c4def2a667c702fa879c692b4d6aeaa",
+        "fetched_tip": "db50dd648c4def2a667c702fa879c692b4d6aeaa",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/jamaica-v1"
+      },
+      "source_archive_check": {
+        "archive": {
+          "bytes": 9031799,
+          "crc": "pass",
+          "entries": 56,
+          "mismatches": [],
+          "path": "preview/jamaica-v1/jamaica-v1-source.zip",
+          "required_payload_hashes": "pass",
+          "sha256": "565278b12fa9ac4dd36012d3464fcc4c6b887a9638640f662b87bf1e7a369995"
+        },
+        "id": "jamaica",
+        "internal_inventory": "pass",
+        "inventory_entries_checked": 55,
+        "selected_payload_match": "pass"
+      },
+      "source_archives": [
+        {
+          "bytes": 9031799,
+          "crc": "pass",
+          "entries": 56,
+          "mismatches": [],
+          "path": "preview/jamaica-v1/jamaica-v1-source.zip",
+          "required_payload_hashes": "pass",
+          "sha256": "565278b12fa9ac4dd36012d3464fcc4c6b887a9638640f662b87bf1e7a369995"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 797012,
+          "path": "preview/jamaica-v1/jamaica.blend",
+          "sha256": "cd447b66334c7ae5b4d5652cf473bca7d0714c1c522300c1200dc99d4b23175a"
+        },
+        {
+          "bytes": 1600388,
+          "path": "preview/jamaica-v1/jamaica.glb",
+          "sha256": "5fea412d532ac21892421d686bfc2a264b1054b6b096989a90e8e25eefde4ff9"
+        }
+      ],
+      "user_final_approved": false,
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 2926486,
+        "commit": "db50dd648c4def2a667c702fa879c692b4d6aeaa",
+        "path": "preview/jamaica-v1/jamaica-v1.html",
+        "sha256": "d19407c48637f2bccfa70d7de65575dd7ae2f9a8776a9f26ec0e299929b5ae1e",
+        "under_5000000": true
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Jamaica",
+    "package_history": [
+      {
+        "bytes": 9031799,
+        "commit": "db50dd648c4def2a667c702fa879c692b4d6aeaa",
+        "crc_error": null,
+        "entries": 56,
+        "inventory_checked": true,
+        "inventory_entries": 55,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/jamaica-v1/jamaica-v1-source.zip",
+        "required_payloads": {
+          "jamaica-v1.html": true,
+          "jamaica.blend": true,
+          "jamaica.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "565278b12fa9ac4dd36012d3464fcc4c6b887a9638640f662b87bf1e7a369995"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "db50dd648c4def2a667c702fa879c692b4d6aeaa",
+      "fetched_tip": "db50dd648c4def2a667c702fa879c692b4d6aeaa",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/jamaica-v1"
+    },
+    "verdict": "candidate-with-limitations",
+    "viewer": {
+      "bytes": 2926486,
+      "commit": "db50dd648c4def2a667c702fa879c692b4d6aeaa",
+      "path": "preview/jamaica-v1/jamaica-v1.html",
+      "sha256": "d19407c48637f2bccfa70d7de65575dd7ae2f9a8776a9f26ec0e299929b5ae1e",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "jamaica",
+    "baseline_verdict": "candidate-with-limitations",
+    "actions": [
+      "owner art/finish acceptance; no proven runtime defect recorded; no autonomous redesign"
+    ],
+    "approval": false,
+    "original_review": {
+      "adjudication": "Candidate with disclosed finish limitations, not final user approval.",
+      "art_changed": false,
+      "critical_reproducible_defects": [],
+      "fresh_blender_reopen": false,
+      "fresh_browser": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.734325684607029,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.22500000149011612,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1600388,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 9,
+            "meshes": 154,
+            "nonfinite": 0,
+            "triangles": 20488
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "jamaica",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "d19407c48637f2bccfa70d7de65575dd7ae2f9a8776a9f26ec0e299929b5ae1e"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.734325684607029,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.22500000149011612,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1600388,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 9,
+            "meshes": 154,
+            "nonfinite": 0,
+            "triangles": 20488
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "jamaica",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "d19407c48637f2bccfa70d7de65575dd7ae2f9a8776a9f26ec0e299929b5ae1e"
+        }
+      ],
+      "fresh_collision_sampling": false,
+      "fresh_corrupt_glb_fallback": false,
+      "fresh_motion": {
+        "exit_code": 0,
+        "id": "jamaica",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "db50dd648c4def2a667c702fa879c692b4d6aeaa",
+            "path": "preview/jamaica-v1/motion.mjs",
+            "sha256": "57aa922066594a9a90cc22eb37891bc72080f603d1fdd29053ed5005e0df41f2"
+          }
+        ]
+      },
+      "fresh_nojs": false,
+      "id": "jamaica",
+      "independent_visual": {
+        "file": "visual-3.json",
+        "findings": {
+          "approved": false,
+          "artistic_gaps": [
+            "Stone's repeated diagonal pattern reads as decorative composite rather than natural limestone.",
+            "The reference's pebbled lid, granular terrain and restrained aged-brass response are softened into simpler surfaces.",
+            "Canopy blobs and broad facets retain the reference concept but do not establish realistic forest ecology or geography."
+          ],
+          "final_views": [
+            {
+              "file": "smoke/jamaica/desktop-closed.png",
+              "observations": "All primary source motifs and hardware positions remain readable. Pale mottled body, teal lid band, clustered green terrain and pale feet are fully framed. Flat muted lid top and simplified terrain have less tactile material separation than the reference."
+            },
+            {
+              "file": "smoke/jamaica/desktop-open.png",
+              "observations": "Broad plain teal underside, pale inner walls and green rim are exposed. Rear hinge gap, prominent upper clasp tab and stepped pale rim corners merit construction review; no unmistakable large missing face is visible."
+            },
+            {
+              "file": "smoke/jamaica/mobile-closed.png",
+              "observations": "Full mountain and feet fit. Title leaves Crow alone on a second line. Small terrain clusters and layered clasp lose definition; lid seam and front-left corner are visually busy."
+            },
+            {
+              "file": "smoke/jamaica/mobile-open.png",
+              "observations": "Raised lid and tab fit without control overlap. Green rim joins look segmented and the front wall masks much of the floor. Fine diagonals show edge stepping."
+            }
+          ],
+          "follow_up": "Candidate for user consideration with stylization disclosed; inspect hinge seating, clasp attachment and rim joins in a rotating close-up before any approval.",
+          "id": "jamaica",
+          "recommendation": "candidate-with-limitations",
+          "reference": {
+            "dimensions": [
+              1072,
+              960
+            ],
+            "file": "sources/jamaica/marketing.webp",
+            "observations": "Ivory patterned mineral body and pale block feet; pebbled dusty-teal lid, sage/mint mountain relief with lavender-gray exposed slopes, rounded canopy clusters, brass corner caps, long front clasp, round lower fitting and side ring."
+          }
+        }
+      },
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 57988,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          960
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/jamaica.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            960
+          ],
+          "provider": "xai",
+          "reviewNotes": "Reviewed source pair. High broad fidelity, minor contrast texture and contour differences; exact pixel/mini-detail match not claimed.",
+          "reviewStatus": "reviewed",
+          "sha256": "9f075d71c6aacfc7de20d0c5daa68de452ee7cd675bad43c9a99dd78d801be66",
+          "source": "assets/gallery/jamaica.webp",
+          "sourceSha256": "07900658daa856e8effbbefafe89f1c8df6f9989a7cfc1f4a4a36c2742c54f8c",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "9fac22478972773317f53520b1bfffe8134cced2c84c2c051704b13af4048888"
+      },
+      "original_capture_paths": [
+        "parent/smoke/jamaica/desktop-closed.png",
+        "parent/smoke/jamaica/desktop-open.png",
+        "parent/smoke/jamaica/mobile-closed.png",
+        "parent/smoke/jamaica/mobile-open.png"
+      ],
+      "packaging_hold": false,
+      "parent_decision": "Pass as a disclosed stylized review candidate, not approval or a photoreal marketing match. No blocking visual defect established in the inspected images.",
+      "parent_missing_gates_preserved": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_quality": "Coherent stylized candidate, consistent across desktop/mobile closed/open captures; full silhouette and controls fit. Marketing has richer lighting, surface detail and grounding, not a demonstrated missing-part or rendering defect.",
+      "parent_status": "pass",
+      "remaining_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-06 review"
+      ],
+      "selection": {
+        "commit": "db50dd648c4def2a667c702fa879c692b4d6aeaa",
+        "fetched_tip": "db50dd648c4def2a667c702fa879c692b4d6aeaa",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/jamaica-v1"
+      },
+      "source_archive_check": {
+        "archive": {
+          "bytes": 9031799,
+          "crc": "pass",
+          "entries": 56,
+          "mismatches": [],
+          "path": "preview/jamaica-v1/jamaica-v1-source.zip",
+          "required_payload_hashes": "pass",
+          "sha256": "565278b12fa9ac4dd36012d3464fcc4c6b887a9638640f662b87bf1e7a369995"
+        },
+        "id": "jamaica",
+        "internal_inventory": "pass",
+        "inventory_entries_checked": 55,
+        "selected_payload_match": "pass"
+      },
+      "source_archives": [
+        {
+          "bytes": 9031799,
+          "crc": "pass",
+          "entries": 56,
+          "mismatches": [],
+          "path": "preview/jamaica-v1/jamaica-v1-source.zip",
+          "required_payload_hashes": "pass",
+          "sha256": "565278b12fa9ac4dd36012d3464fcc4c6b887a9638640f662b87bf1e7a369995"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 797012,
+          "path": "preview/jamaica-v1/jamaica.blend",
+          "sha256": "cd447b66334c7ae5b4d5652cf473bca7d0714c1c522300c1200dc99d4b23175a"
+        },
+        {
+          "bytes": 1600388,
+          "path": "preview/jamaica-v1/jamaica.glb",
+          "sha256": "5fea412d532ac21892421d686bfc2a264b1054b6b096989a90e8e25eefde4ff9"
+        }
+      ],
+      "user_final_approved": false,
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 2926486,
+        "commit": "db50dd648c4def2a667c702fa879c692b4d6aeaa",
+        "path": "preview/jamaica-v1/jamaica-v1.html",
+        "sha256": "d19407c48637f2bccfa70d7de65575dd7ae2f9a8776a9f26ec0e299929b5ae1e",
+        "under_5000000": true
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 9031799,
+        "commit": "db50dd648c4def2a667c702fa879c692b4d6aeaa",
+        "crc_error": null,
+        "entries": 56,
+        "inventory_checked": true,
+        "inventory_entries": 55,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/jamaica-v1/jamaica-v1-source.zip",
+        "required_payloads": {
+          "jamaica-v1.html": true,
+          "jamaica.blend": true,
+          "jamaica.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "565278b12fa9ac4dd36012d3464fcc4c6b887a9638640f662b87bf1e7a369995"
+      }
+    ]
+  }
+}

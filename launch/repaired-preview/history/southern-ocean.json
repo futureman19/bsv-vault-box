@@ -1,0 +1,940 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 8,
+    "category": "Ocean",
+    "files": [
+      {
+        "bytes": 464849,
+        "role": "editable-source",
+        "sha256": "c8ede723a59bcb7e2943b1d1682d2029b1fd233e395b4939897e34d92c74cf42",
+        "source": {
+          "commit": "c7237fea4bdde2d6758e70f428b76a4258f62399",
+          "path": "preview/southern-ocean-v1/southern-ocean.blend"
+        },
+        "uri": "sha256:c8ede723a59bcb7e2943b1d1682d2029b1fd233e395b4939897e34d92c74cf42"
+      },
+      {
+        "bytes": 5577602,
+        "role": "historical-source-archive",
+        "sha256": "9b1599a18facfe385ab028ab76f5d5d12b21f291d43f6aae9b8264e301f680c8",
+        "source": {
+          "commit": "c7237fea4bdde2d6758e70f428b76a4258f62399",
+          "kind": "git",
+          "path": "preview/southern-ocean-v1/southern-ocean-v1-source.zip"
+        },
+        "uri": "sha256:9b1599a18facfe385ab028ab76f5d5d12b21f291d43f6aae9b8264e301f680c8"
+      },
+      {
+        "bytes": 976760,
+        "role": "model",
+        "sha256": "faa61dd0b325b46f1dbebad8f7b04320dd435cd1a2894f89dbb256b11e650dd9",
+        "source": {
+          "commit": "c7237fea4bdde2d6758e70f428b76a4258f62399",
+          "path": "preview/southern-ocean-v1/southern-ocean.glb"
+        },
+        "uri": "sha256:faa61dd0b325b46f1dbebad8f7b04320dd435cd1a2894f89dbb256b11e650dd9"
+      },
+      {
+        "bytes": 87588,
+        "role": "promotional-illustration",
+        "sha256": "f9159bd58e658e9ce2d7fd624355ebf47e34c11ecbc8ce6725d13f97f7b9e700",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/southern-ocean.webp"
+        },
+        "uri": "sha256:f9159bd58e658e9ce2d7fd624355ebf47e34c11ecbc8ce6725d13f97f7b9e700"
+      },
+      {
+        "bytes": 3377,
+        "role": "research-brief",
+        "sha256": "cb622b5014fe77b86b0aaa2901a00247238074c7955e9bcf5a439bfee475c655",
+        "source": {
+          "commit": "c7237fea4bdde2d6758e70f428b76a4258f62399",
+          "path": "preview/southern-ocean-v1/design-brief.md"
+        },
+        "uri": "sha256:cb622b5014fe77b86b0aaa2901a00247238074c7955e9bcf5a439bfee475c655"
+      },
+      {
+        "bytes": 5798,
+        "role": "source-notice",
+        "sha256": "f57bc3f0729ce0744b92a8d773593afa3e7ea99525ca2deffd9ee7e5abd444db",
+        "source": {
+          "commit": "c7237fea4bdde2d6758e70f428b76a4258f62399",
+          "path": "preview/southern-ocean-v1/README.md"
+        },
+        "uri": "sha256:f57bc3f0729ce0744b92a8d773593afa3e7ea99525ca2deffd9ee7e5abd444db"
+      },
+      {
+        "bytes": 2119402,
+        "role": "viewer",
+        "sha256": "b0b106de73d374389331b09fe9eeef9eed2c3927cc9daf4adab74f9fb6ccd6d6",
+        "source": {
+          "commit": "c7237fea4bdde2d6758e70f428b76a4258f62399",
+          "path": "preview/southern-ocean-v1/southern-ocean-v1.html"
+        },
+        "uri": "sha256:b0b106de73d374389331b09fe9eeef9eed2c3927cc9daf4adab74f9fb6ccd6d6"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "southern-ocean",
+    "independent_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "capture_base": "parent/",
+      "captures": [
+        "smoke/southern-ocean/desktop-closed.png",
+        "smoke/southern-ocean/desktop-open.png",
+        "smoke/southern-ocean/mobile-closed.png",
+        "smoke/southern-ocean/mobile-open.png"
+      ],
+      "critical_reproducible_failures": [],
+      "final_approval": false,
+      "fresh_checks": {
+        "blender_parity_collision": false,
+        "fallback": false,
+        "full_inner_archive_inventories": true,
+        "motion": false,
+        "original_captures_and_marketing_inspected": true,
+        "runtime": false,
+        "source_and_delivered_viewer_hashes": true,
+        "source_archive_crc_safe_paths_required_payloads": true
+      },
+      "historical_runtime": {
+        "browser": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.4140000343322754,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.8600000143051147,
+                  -0.2149999961256981,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 976760,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 6,
+              "meshes": 71,
+              "nonfinite": 0,
+              "triangles": 10124
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "southern-ocean",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "b0b106de73d374389331b09fe9eeef9eed2c3927cc9daf4adab74f9fb6ccd6d6"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.4140000343322754,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.8600000143051147,
+                  -0.2149999961256981,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 976760,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 6,
+              "meshes": 71,
+              "nonfinite": 0,
+              "triangles": 10124
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "southern-ocean",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "b0b106de73d374389331b09fe9eeef9eed2c3927cc9daf4adab74f9fb6ccd6d6"
+          }
+        ],
+        "extended": {
+          "geometry": {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.4140000343322754,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.8600000143051147,
+                  -0.2149999961256981,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 976760,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 6,
+              "meshes": 71,
+              "nonfinite": 0,
+              "triangles": 10124
+            },
+            "meshes": 71,
+            "nonfinite": 0,
+            "triangles": 10124
+          },
+          "id": "southern-ocean",
+          "no_js_poster": true
+        },
+        "motion": {
+          "exit_code": 0,
+          "id": "southern-ocean",
+          "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+          "source": [
+            {
+              "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+              "path": "preview/albania-v1/tests.mjs",
+              "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+            },
+            {
+              "commit": "c7237fea4bdde2d6758e70f428b76a4258f62399",
+              "path": "preview/southern-ocean-v1/motion.mjs",
+              "sha256": "d61544de9b41521a7b14e81a5e9867ce0fcc387f8852ce57490031b84bf2150e"
+            }
+          ]
+        },
+        "parent_commit": "431e51ffb5a8704b5f8f8b11694d28befae18402"
+      },
+      "id": "southern-ocean",
+      "independent_visual": {
+        "assessment": {
+          "concrete_defects": [
+            "Visible cyan wave pattern changes abruptly at front-left panel/trim boundaries; stepped rim junctions are conspicuous in open and closed views.",
+            "Mobile diagonal edges, ice, hardware and feet show aliasing; dark underside obscures support separation.",
+            "Marketing's textured teal/slate finish reads more subdued than the smoother, brighter-blue viewer rendering; exact pigment mismatch is not established."
+          ],
+          "id": "southern-ocean",
+          "inspected_paths": [
+            "parent/smoke/southern-ocean/desktop-closed.png",
+            "parent/smoke/southern-ocean/desktop-open.png",
+            "parent/smoke/southern-ocean/mobile-closed.png",
+            "parent/smoke/southern-ocean/mobile-open.png",
+            "parent/sources/southern-ocean/marketing.webp"
+          ],
+          "limitations": [
+            "All five originals inspected individually via vision; no composite substituted. Paths relative to launch/qa-art-08.",
+            "Static frames cannot certify hidden contacts, hinge attachment, interior floor completeness, foot seating, collision-free animation, or control behavior.",
+            "Lighting and perspective prevent exact material/color and motif-count certification. Candidate is not art approval."
+          ],
+          "observations": [
+            "Ice-block/floe, ocean-wave, gold hardware and cool block-foot vocabulary is retained. Entire model and raised lid fit both viewport sizes; no major crop or broken panel observed."
+          ],
+          "verdict": "candidate-with-limitations"
+        },
+        "report": "visual-e.json"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-08 review"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 87588,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          960
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/southern-ocean.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            960
+          ],
+          "provider": "xai",
+          "reviewNotes": "Reviewed: ten ice pieces layout retained, ice more rounded and water glossier; fine contour drift.",
+          "reviewStatus": "reviewed",
+          "sha256": "fcdd7180cd929683b8a92a512ac9a635a16684c9690cabb66553ce4021254045",
+          "source": "assets/gallery/southern-ocean.webp",
+          "sourceSha256": "ca55efdff950c3e7a4c1593d332d57581d4b88e440c3b07f1c6ee05eebe660ba",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "f9159bd58e658e9ce2d7fd624355ebf47e34c11ecbc8ce6725d13f97f7b9e700"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_verdict": "pass",
+      "parent_visual": {
+        "decision": "Retain as bounded stylized candidate, not photoreal or exact marketing-equivalent approval. Preserve pale sea-field, smooth ice, seam and texture caveats.",
+        "hardware": "Brass latch and corner caps readable; long schematic latch and prominent dark closed seam retained. Open latch is intentionally released, not evidence of detached hardware. Small feet/hinge details lose definition on mobile.",
+        "limitations": "Reviewed original desktop/mobile closed/open captures and marketing.webp, plus supplied source notes/brief where available. Static images do not certify motion, hidden attachments, exact pigment, physical-phone performance or manufacture. Technical checks were supplied, not rerun. No final user visual approval. Written landscape contract, not supplied concept art; no scientific or geographic fidelity. Loosely spaced floes and solid enamel ocean are disclosed stylization.",
+        "quality": "Coherent stylized polar chest; complete closed/open silhouette fits desktop and mobile. Marketing has richer contact shading and surface detail; actual pale lid sea field is less convincingly ocean-blue.",
+        "terrain": "Dominant flat-topped faceted berg and separated low polygon floes read clearly. Opaque clean ice lacks erosion/translucency; exposed lid field looks pale gray under viewer lighting. Open front view hides exterior lid terrain as expected.",
+        "texture": "Saturated blue/teal panels with bright flowing cyan currents; actual finish is smoother and less tactile than marketing, with softened linework and panel-edge discontinuities."
+      },
+      "parent_visual_hold_preserved": false,
+      "reviewed_image_hashes": [
+        {
+          "bytes": 347760,
+          "path": "smoke/southern-ocean/desktop-closed.png",
+          "sha256": "bb4191933b62715a3fd066bda98ed33e23cebc7b8451dd9cc82be5ce1eed8670"
+        },
+        {
+          "bytes": 366402,
+          "path": "smoke/southern-ocean/desktop-open.png",
+          "sha256": "3266ee3d224eb357d9020744372d73b7f28db1862da96a603697831310aaae0a"
+        },
+        {
+          "bytes": 116235,
+          "path": "smoke/southern-ocean/mobile-closed.png",
+          "sha256": "dd66737075d2f686758b7ee1761d1f437bafda14040ee04f6eecb2d7c756a0f6"
+        },
+        {
+          "bytes": 122285,
+          "path": "smoke/southern-ocean/mobile-open.png",
+          "sha256": "bc15103d4bbbf4c7c1e5b1bd1c3aa36358340886fb829a8b3859cd002216b337"
+        },
+        {
+          "bytes": 87588,
+          "path": "sources/southern-ocean/marketing.webp",
+          "sha256": "f9159bd58e658e9ce2d7fd624355ebf47e34c11ecbc8ce6725d13f97f7b9e700"
+        }
+      ],
+      "selection": {
+        "commit": "c7237fea4bdde2d6758e70f428b76a4258f62399",
+        "fetched_tip": "c7237fea4bdde2d6758e70f428b76a4258f62399",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/southern-ocean-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 5577602,
+          "commit": "c7237fea4bdde2d6758e70f428b76a4258f62399",
+          "crc_error": null,
+          "entries": 56,
+          "fresh_crc_safe_unique": true,
+          "fresh_inner_inventory_entries": 55,
+          "fresh_required_payloads": [
+            {
+              "member": "southern-ocean-v1.html",
+              "path": "preview/southern-ocean-v1/southern-ocean-v1.html",
+              "sha256": "b0b106de73d374389331b09fe9eeef9eed2c3927cc9daf4adab74f9fb6ccd6d6"
+            },
+            {
+              "member": "southern-ocean.blend",
+              "path": "preview/southern-ocean-v1/southern-ocean.blend",
+              "sha256": "c8ede723a59bcb7e2943b1d1682d2029b1fd233e395b4939897e34d92c74cf42"
+            },
+            {
+              "member": "southern-ocean.glb",
+              "path": "preview/southern-ocean-v1/southern-ocean.glb",
+              "sha256": "faa61dd0b325b46f1dbebad8f7b04320dd435cd1a2894f89dbb256b11e650dd9"
+            }
+          ],
+          "inventory_checked": true,
+          "inventory_entries": 55,
+          "inventory_mismatches": [],
+          "kind": "git",
+          "path": "preview/southern-ocean-v1/southern-ocean-v1-source.zip",
+          "required_payloads": {
+            "southern-ocean-v1.html": true,
+            "southern-ocean.blend": true,
+            "southern-ocean.glb": true
+          },
+          "safe_unique_paths": true,
+          "sha256": "9b1599a18facfe385ab028ab76f5d5d12b21f291d43f6aae9b8264e301f680c8"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 464849,
+          "commit": "c7237fea4bdde2d6758e70f428b76a4258f62399",
+          "path": "preview/southern-ocean-v1/southern-ocean.blend",
+          "role": "selected-model",
+          "sha256": "c8ede723a59bcb7e2943b1d1682d2029b1fd233e395b4939897e34d92c74cf42"
+        },
+        {
+          "bytes": 976760,
+          "commit": "c7237fea4bdde2d6758e70f428b76a4258f62399",
+          "path": "preview/southern-ocean-v1/southern-ocean.glb",
+          "role": "selected-model",
+          "sha256": "faa61dd0b325b46f1dbebad8f7b04320dd435cd1a2894f89dbb256b11e650dd9",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 61,
+            "nodes": 63
+          }
+        }
+      ],
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 2119402,
+        "commit": "c7237fea4bdde2d6758e70f428b76a4258f62399",
+        "path": "preview/southern-ocean-v1/southern-ocean-v1.html",
+        "sha256": "b0b106de73d374389331b09fe9eeef9eed2c3927cc9daf4adab74f9fb6ccd6d6",
+        "under_5000000": true
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Southern Ocean",
+    "package_history": [
+      {
+        "bytes": 5577602,
+        "commit": "c7237fea4bdde2d6758e70f428b76a4258f62399",
+        "crc_error": null,
+        "entries": 56,
+        "inventory_checked": true,
+        "inventory_entries": 55,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/southern-ocean-v1/southern-ocean-v1-source.zip",
+        "required_payloads": {
+          "southern-ocean-v1.html": true,
+          "southern-ocean.blend": true,
+          "southern-ocean.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "9b1599a18facfe385ab028ab76f5d5d12b21f291d43f6aae9b8264e301f680c8"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "c7237fea4bdde2d6758e70f428b76a4258f62399",
+      "fetched_tip": "c7237fea4bdde2d6758e70f428b76a4258f62399",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/southern-ocean-v1"
+    },
+    "verdict": "candidate-with-limitations",
+    "viewer": {
+      "bytes": 2119402,
+      "commit": "c7237fea4bdde2d6758e70f428b76a4258f62399",
+      "path": "preview/southern-ocean-v1/southern-ocean-v1.html",
+      "sha256": "b0b106de73d374389331b09fe9eeef9eed2c3927cc9daf4adab74f9fb6ccd6d6",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "southern-ocean",
+    "baseline_verdict": "candidate-with-limitations",
+    "actions": [
+      "remaining ordinary finish inspection; do not edit promotional-only differences or infer broken model"
+    ],
+    "approval": false,
+    "original_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "capture_base": "parent/",
+      "captures": [
+        "smoke/southern-ocean/desktop-closed.png",
+        "smoke/southern-ocean/desktop-open.png",
+        "smoke/southern-ocean/mobile-closed.png",
+        "smoke/southern-ocean/mobile-open.png"
+      ],
+      "critical_reproducible_failures": [],
+      "final_approval": false,
+      "fresh_checks": {
+        "blender_parity_collision": false,
+        "fallback": false,
+        "full_inner_archive_inventories": true,
+        "motion": false,
+        "original_captures_and_marketing_inspected": true,
+        "runtime": false,
+        "source_and_delivered_viewer_hashes": true,
+        "source_archive_crc_safe_paths_required_payloads": true
+      },
+      "historical_runtime": {
+        "browser": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.4140000343322754,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.8600000143051147,
+                  -0.2149999961256981,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 976760,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 6,
+              "meshes": 71,
+              "nonfinite": 0,
+              "triangles": 10124
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "southern-ocean",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "b0b106de73d374389331b09fe9eeef9eed2c3927cc9daf4adab74f9fb6ccd6d6"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.4140000343322754,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.8600000143051147,
+                  -0.2149999961256981,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 976760,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 6,
+              "meshes": 71,
+              "nonfinite": 0,
+              "triangles": 10124
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "southern-ocean",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "b0b106de73d374389331b09fe9eeef9eed2c3927cc9daf4adab74f9fb6ccd6d6"
+          }
+        ],
+        "extended": {
+          "geometry": {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.4140000343322754,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.8600000143051147,
+                  -0.2149999961256981,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 976760,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 6,
+              "meshes": 71,
+              "nonfinite": 0,
+              "triangles": 10124
+            },
+            "meshes": 71,
+            "nonfinite": 0,
+            "triangles": 10124
+          },
+          "id": "southern-ocean",
+          "no_js_poster": true
+        },
+        "motion": {
+          "exit_code": 0,
+          "id": "southern-ocean",
+          "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+          "source": [
+            {
+              "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+              "path": "preview/albania-v1/tests.mjs",
+              "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+            },
+            {
+              "commit": "c7237fea4bdde2d6758e70f428b76a4258f62399",
+              "path": "preview/southern-ocean-v1/motion.mjs",
+              "sha256": "d61544de9b41521a7b14e81a5e9867ce0fcc387f8852ce57490031b84bf2150e"
+            }
+          ]
+        },
+        "parent_commit": "431e51ffb5a8704b5f8f8b11694d28befae18402"
+      },
+      "id": "southern-ocean",
+      "independent_visual": {
+        "assessment": {
+          "concrete_defects": [
+            "Visible cyan wave pattern changes abruptly at front-left panel/trim boundaries; stepped rim junctions are conspicuous in open and closed views.",
+            "Mobile diagonal edges, ice, hardware and feet show aliasing; dark underside obscures support separation.",
+            "Marketing's textured teal/slate finish reads more subdued than the smoother, brighter-blue viewer rendering; exact pigment mismatch is not established."
+          ],
+          "id": "southern-ocean",
+          "inspected_paths": [
+            "parent/smoke/southern-ocean/desktop-closed.png",
+            "parent/smoke/southern-ocean/desktop-open.png",
+            "parent/smoke/southern-ocean/mobile-closed.png",
+            "parent/smoke/southern-ocean/mobile-open.png",
+            "parent/sources/southern-ocean/marketing.webp"
+          ],
+          "limitations": [
+            "All five originals inspected individually via vision; no composite substituted. Paths relative to launch/qa-art-08.",
+            "Static frames cannot certify hidden contacts, hinge attachment, interior floor completeness, foot seating, collision-free animation, or control behavior.",
+            "Lighting and perspective prevent exact material/color and motif-count certification. Candidate is not art approval."
+          ],
+          "observations": [
+            "Ice-block/floe, ocean-wave, gold hardware and cool block-foot vocabulary is retained. Entire model and raised lid fit both viewport sizes; no major crop or broken panel observed."
+          ],
+          "verdict": "candidate-with-limitations"
+        },
+        "report": "visual-e.json"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-08 review"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 87588,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          960
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/southern-ocean.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            960
+          ],
+          "provider": "xai",
+          "reviewNotes": "Reviewed: ten ice pieces layout retained, ice more rounded and water glossier; fine contour drift.",
+          "reviewStatus": "reviewed",
+          "sha256": "fcdd7180cd929683b8a92a512ac9a635a16684c9690cabb66553ce4021254045",
+          "source": "assets/gallery/southern-ocean.webp",
+          "sourceSha256": "ca55efdff950c3e7a4c1593d332d57581d4b88e440c3b07f1c6ee05eebe660ba",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "f9159bd58e658e9ce2d7fd624355ebf47e34c11ecbc8ce6725d13f97f7b9e700"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_verdict": "pass",
+      "parent_visual": {
+        "decision": "Retain as bounded stylized candidate, not photoreal or exact marketing-equivalent approval. Preserve pale sea-field, smooth ice, seam and texture caveats.",
+        "hardware": "Brass latch and corner caps readable; long schematic latch and prominent dark closed seam retained. Open latch is intentionally released, not evidence of detached hardware. Small feet/hinge details lose definition on mobile.",
+        "limitations": "Reviewed original desktop/mobile closed/open captures and marketing.webp, plus supplied source notes/brief where available. Static images do not certify motion, hidden attachments, exact pigment, physical-phone performance or manufacture. Technical checks were supplied, not rerun. No final user visual approval. Written landscape contract, not supplied concept art; no scientific or geographic fidelity. Loosely spaced floes and solid enamel ocean are disclosed stylization.",
+        "quality": "Coherent stylized polar chest; complete closed/open silhouette fits desktop and mobile. Marketing has richer contact shading and surface detail; actual pale lid sea field is less convincingly ocean-blue.",
+        "terrain": "Dominant flat-topped faceted berg and separated low polygon floes read clearly. Opaque clean ice lacks erosion/translucency; exposed lid field looks pale gray under viewer lighting. Open front view hides exterior lid terrain as expected.",
+        "texture": "Saturated blue/teal panels with bright flowing cyan currents; actual finish is smoother and less tactile than marketing, with softened linework and panel-edge discontinuities."
+      },
+      "parent_visual_hold_preserved": false,
+      "reviewed_image_hashes": [
+        {
+          "bytes": 347760,
+          "path": "smoke/southern-ocean/desktop-closed.png",
+          "sha256": "bb4191933b62715a3fd066bda98ed33e23cebc7b8451dd9cc82be5ce1eed8670"
+        },
+        {
+          "bytes": 366402,
+          "path": "smoke/southern-ocean/desktop-open.png",
+          "sha256": "3266ee3d224eb357d9020744372d73b7f28db1862da96a603697831310aaae0a"
+        },
+        {
+          "bytes": 116235,
+          "path": "smoke/southern-ocean/mobile-closed.png",
+          "sha256": "dd66737075d2f686758b7ee1761d1f437bafda14040ee04f6eecb2d7c756a0f6"
+        },
+        {
+          "bytes": 122285,
+          "path": "smoke/southern-ocean/mobile-open.png",
+          "sha256": "bc15103d4bbbf4c7c1e5b1bd1c3aa36358340886fb829a8b3859cd002216b337"
+        },
+        {
+          "bytes": 87588,
+          "path": "sources/southern-ocean/marketing.webp",
+          "sha256": "f9159bd58e658e9ce2d7fd624355ebf47e34c11ecbc8ce6725d13f97f7b9e700"
+        }
+      ],
+      "selection": {
+        "commit": "c7237fea4bdde2d6758e70f428b76a4258f62399",
+        "fetched_tip": "c7237fea4bdde2d6758e70f428b76a4258f62399",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/southern-ocean-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 5577602,
+          "commit": "c7237fea4bdde2d6758e70f428b76a4258f62399",
+          "crc_error": null,
+          "entries": 56,
+          "fresh_crc_safe_unique": true,
+          "fresh_inner_inventory_entries": 55,
+          "fresh_required_payloads": [
+            {
+              "member": "southern-ocean-v1.html",
+              "path": "preview/southern-ocean-v1/southern-ocean-v1.html",
+              "sha256": "b0b106de73d374389331b09fe9eeef9eed2c3927cc9daf4adab74f9fb6ccd6d6"
+            },
+            {
+              "member": "southern-ocean.blend",
+              "path": "preview/southern-ocean-v1/southern-ocean.blend",
+              "sha256": "c8ede723a59bcb7e2943b1d1682d2029b1fd233e395b4939897e34d92c74cf42"
+            },
+            {
+              "member": "southern-ocean.glb",
+              "path": "preview/southern-ocean-v1/southern-ocean.glb",
+              "sha256": "faa61dd0b325b46f1dbebad8f7b04320dd435cd1a2894f89dbb256b11e650dd9"
+            }
+          ],
+          "inventory_checked": true,
+          "inventory_entries": 55,
+          "inventory_mismatches": [],
+          "kind": "git",
+          "path": "preview/southern-ocean-v1/southern-ocean-v1-source.zip",
+          "required_payloads": {
+            "southern-ocean-v1.html": true,
+            "southern-ocean.blend": true,
+            "southern-ocean.glb": true
+          },
+          "safe_unique_paths": true,
+          "sha256": "9b1599a18facfe385ab028ab76f5d5d12b21f291d43f6aae9b8264e301f680c8"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 464849,
+          "commit": "c7237fea4bdde2d6758e70f428b76a4258f62399",
+          "path": "preview/southern-ocean-v1/southern-ocean.blend",
+          "role": "selected-model",
+          "sha256": "c8ede723a59bcb7e2943b1d1682d2029b1fd233e395b4939897e34d92c74cf42"
+        },
+        {
+          "bytes": 976760,
+          "commit": "c7237fea4bdde2d6758e70f428b76a4258f62399",
+          "path": "preview/southern-ocean-v1/southern-ocean.glb",
+          "role": "selected-model",
+          "sha256": "faa61dd0b325b46f1dbebad8f7b04320dd435cd1a2894f89dbb256b11e650dd9",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 61,
+            "nodes": 63
+          }
+        }
+      ],
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 2119402,
+        "commit": "c7237fea4bdde2d6758e70f428b76a4258f62399",
+        "path": "preview/southern-ocean-v1/southern-ocean-v1.html",
+        "sha256": "b0b106de73d374389331b09fe9eeef9eed2c3927cc9daf4adab74f9fb6ccd6d6",
+        "under_5000000": true
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 5577602,
+        "commit": "c7237fea4bdde2d6758e70f428b76a4258f62399",
+        "crc_error": null,
+        "entries": 56,
+        "inventory_checked": true,
+        "inventory_entries": 55,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/southern-ocean-v1/southern-ocean-v1-source.zip",
+        "required_payloads": {
+          "southern-ocean-v1.html": true,
+          "southern-ocean.blend": true,
+          "southern-ocean.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "9b1599a18facfe385ab028ab76f5d5d12b21f291d43f6aae9b8264e301f680c8"
+      }
+    ]
+  },
+  "ordinary_record": {
+    "id": "southern-ocean",
+    "disposition": "unchanged-with-explicit-limitations",
+    "correction_passes": 0,
+    "model_geometry_changed": false,
+    "final_approved": false,
+    "launch_ready": false,
+    "original_observations": [
+      "Visible cyan wave pattern changes abruptly at front-left panel/trim boundaries; stepped rim junctions are conspicuous in open and closed views.",
+      "Mobile diagonal edges, ice, hardware and feet show aliasing; dark underside obscures support separation.",
+      "Marketing's textured teal/slate finish reads more subdued than the smoother, brighter-blue viewer rendering; exact pigment mismatch is not established."
+    ],
+    "independent_adjudication": {
+      "id": "southern-ocean",
+      "disposition": "no-edit-with-optional-diagnostic",
+      "observation": "Thin metallic rim diagonals and small hardware show mild screen-space roughness; ice is intentionally polygonal, water/body treatment graphic and cyan wave lines conspicuous. All four states remain coherent.",
+      "rationale": "Fine-edge roughness is a plausible sampling limitation, not a proven broken asset. Rounded/textured promotional ice, deeper water and studio shadows require different art direction.",
+      "bounded_recommendation": "If testing finish, compare existing DPR1 AA against a modest increased internal render scale at identical CSS size, camera and lighting. Inspect native thin edges and slow rotation and measure performance. Keep only demonstrable improvement; do not change floes, wave pattern, water or hardware.",
+      "supersampling": "Reasonable bounded A/B candidate for fine edges only, not a required repair. No A/B result claimed."
+    },
+    "unresolved_owner_holds": [
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "inherited_holds": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization",
+      "independent QA-ART-08 review"
+    ],
+    "original_review_preserved_in": "baseline.json",
+    "fresh_runtime": {
+      "id": "southern-ocean",
+      "exit_code": 0,
+      "shared_contract": "Bangladesh renderer-independent interaction assertions; no fresh source/collision claim",
+      "results": "launch\\ordinary-finish-20\\runtime\\southern-ocean\\browser-check.json"
+    },
+    "fresh_source_archive": {
+      "id": "southern-ocean",
+      "archives": [
+        {
+          "archive": {
+            "bytes": 5577602,
+            "commit": "c7237fea4bdde2d6758e70f428b76a4258f62399",
+            "crc_error": null,
+            "entries": 56,
+            "fresh_crc_safe_unique": true,
+            "fresh_inner_inventory_entries": 55,
+            "fresh_required_payloads": [
+              {
+                "member": "southern-ocean-v1.html",
+                "path": "preview/southern-ocean-v1/southern-ocean-v1.html",
+                "sha256": "b0b106de73d374389331b09fe9eeef9eed2c3927cc9daf4adab74f9fb6ccd6d6"
+              },
+              {
+                "member": "southern-ocean.blend",
+                "path": "preview/southern-ocean-v1/southern-ocean.blend",
+                "sha256": "c8ede723a59bcb7e2943b1d1682d2029b1fd233e395b4939897e34d92c74cf42"
+              },
+              {
+                "member": "southern-ocean.glb",
+                "path": "preview/southern-ocean-v1/southern-ocean.glb",
+                "sha256": "faa61dd0b325b46f1dbebad8f7b04320dd435cd1a2894f89dbb256b11e650dd9"
+              }
+            ],
+            "inventory_checked": true,
+            "inventory_entries": 55,
+            "inventory_mismatches": [],
+            "kind": "git",
+            "path": "preview/southern-ocean-v1/southern-ocean-v1-source.zip",
+            "required_payloads": {
+              "southern-ocean-v1.html": true,
+              "southern-ocean.blend": true,
+              "southern-ocean.glb": true
+            },
+            "safe_unique_paths": true,
+            "sha256": "9b1599a18facfe385ab028ab76f5d5d12b21f291d43f6aae9b8264e301f680c8"
+          },
+          "members": 56,
+          "fresh_inventory": {
+            "status": "pass",
+            "entries_checked": 55,
+            "uninventoried_members": [
+              "inventory.json"
+            ]
+          },
+          "exact_selected_payloads": [
+            "southern-ocean-v1.html",
+            "southern-ocean.blend",
+            "southern-ocean.glb"
+          ]
+        }
+      ],
+      "pass": true
+    },
+    "remaining_visual_limitations": "Fine-edge roughness is a plausible sampling limitation, not a proven broken asset. Rounded/textured promotional ice, deeper water and studio shadows require different art direction."
+  }
+}

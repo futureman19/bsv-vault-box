@@ -1,0 +1,953 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 8,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 1057006,
+        "role": "editable-source",
+        "sha256": "0204a9738cf9ac8027366f370e803a729b6a645bd4bf9e80453612d6edd8e8b6",
+        "source": {
+          "commit": "457249b1e48b4fa48eb3b3faa830341048273c92",
+          "path": "preview/comoros-v1/comoros.blend"
+        },
+        "uri": "sha256:0204a9738cf9ac8027366f370e803a729b6a645bd4bf9e80453612d6edd8e8b6"
+      },
+      {
+        "bytes": 7506580,
+        "role": "historical-source-archive",
+        "sha256": "6e1453cb307744ce04f9cb3b85b3b18f6aab94361928feb82f3e6789a7e7eb53",
+        "source": {
+          "commit": "457249b1e48b4fa48eb3b3faa830341048273c92",
+          "kind": "git",
+          "path": "preview/comoros-v1/comoros-source.zip"
+        },
+        "uri": "sha256:6e1453cb307744ce04f9cb3b85b3b18f6aab94361928feb82f3e6789a7e7eb53"
+      },
+      {
+        "bytes": 1856292,
+        "role": "model",
+        "sha256": "ec36ecb20464382972c8d243f9506143320199d6ca6ff17ec6e419ff35b8d320",
+        "source": {
+          "commit": "457249b1e48b4fa48eb3b3faa830341048273c92",
+          "path": "preview/comoros-v1/comoros.glb"
+        },
+        "uri": "sha256:ec36ecb20464382972c8d243f9506143320199d6ca6ff17ec6e419ff35b8d320"
+      },
+      {
+        "bytes": 40042,
+        "role": "promotional-illustration",
+        "sha256": "bcdf2d304b92d8daad9ea6a4c588a70b2682419ff439e1d23285fdb360d8c387",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/comoros.webp"
+        },
+        "uri": "sha256:bcdf2d304b92d8daad9ea6a4c588a70b2682419ff439e1d23285fdb360d8c387"
+      },
+      {
+        "bytes": 3107,
+        "role": "research-brief",
+        "sha256": "c9f65ee3aaaf9abe036f2f7e27ded742e76448c67c6dc36b87f08b2c2493aad4",
+        "source": {
+          "commit": "457249b1e48b4fa48eb3b3faa830341048273c92",
+          "path": "preview/comoros-v1/design-brief.md"
+        },
+        "uri": "sha256:c9f65ee3aaaf9abe036f2f7e27ded742e76448c67c6dc36b87f08b2c2493aad4"
+      },
+      {
+        "bytes": 3136,
+        "role": "source-notice",
+        "sha256": "add55cab354f7dcf0b2cabd86427310c04b179afb8ba46873490be13b8887a85",
+        "source": {
+          "commit": "457249b1e48b4fa48eb3b3faa830341048273c92",
+          "path": "preview/comoros-v1/README.md"
+        },
+        "uri": "sha256:add55cab354f7dcf0b2cabd86427310c04b179afb8ba46873490be13b8887a85"
+      },
+      {
+        "bytes": 3205552,
+        "role": "viewer",
+        "sha256": "40ebf3ac91a510efdd9911643d51329a48dfbdcf1ef0ecc14616b5b41588d630",
+        "source": {
+          "commit": "457249b1e48b4fa48eb3b3faa830341048273c92",
+          "path": "preview/comoros-v1/comoros-v1.html"
+        },
+        "uri": "sha256:40ebf3ac91a510efdd9911643d51329a48dfbdcf1ef0ecc14616b5b41588d630"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "comoros",
+    "independent_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "capture_base": "parent/",
+      "captures": [
+        "smoke/comoros/desktop-closed.png",
+        "smoke/comoros/desktop-open.png",
+        "smoke/comoros/mobile-closed.png",
+        "smoke/comoros/mobile-open.png"
+      ],
+      "critical_reproducible_failures": [],
+      "final_approval": false,
+      "fresh_checks": {
+        "blender_parity_collision": false,
+        "fallback": false,
+        "full_inner_archive_inventories": true,
+        "motion": false,
+        "original_captures_and_marketing_inspected": true,
+        "runtime": false,
+        "source_and_delivered_viewer_hashes": true,
+        "source_archive_crc_safe_paths_required_payloads": true
+      },
+      "historical_runtime": {
+        "browser": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.4170899391174316,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30234166234731674,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1856292,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 5,
+              "meshes": 103,
+              "nonfinite": 0,
+              "triangles": 17156
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "comoros",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "40ebf3ac91a510efdd9911643d51329a48dfbdcf1ef0ecc14616b5b41588d630"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.4170899391174316,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30234166234731674,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1856292,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 5,
+              "meshes": 103,
+              "nonfinite": 0,
+              "triangles": 17156
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "comoros",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "40ebf3ac91a510efdd9911643d51329a48dfbdcf1ef0ecc14616b5b41588d630"
+          }
+        ],
+        "extended": {
+          "geometry": {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.4170899391174316,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30234166234731674,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1856292,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 5,
+              "meshes": 103,
+              "nonfinite": 0,
+              "triangles": 17156
+            },
+            "meshes": 103,
+            "nonfinite": 0,
+            "triangles": 17156
+          },
+          "id": "comoros",
+          "no_js_poster": true
+        },
+        "motion": {
+          "exit_code": 0,
+          "id": "comoros",
+          "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+          "source": [
+            {
+              "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+              "path": "preview/albania-v1/tests.mjs",
+              "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+            },
+            {
+              "commit": "457249b1e48b4fa48eb3b3faa830341048273c92",
+              "path": "preview/comoros-v1/motion.mjs",
+              "sha256": "3edb64cdd9da4ee619dcb85047ef2c44e5e67b54b590267905b7e504e0f75461"
+            }
+          ]
+        },
+        "parent_commit": "431e51ffb5a8704b5f8f8b11694d28befae18402"
+      },
+      "id": "comoros",
+      "independent_visual": {
+        "assessment": {
+          "concrete_defects": [
+            "Mobile crater depth is difficult to read; dark lower edges/feet blend into background and fine brass hardware is crowded.",
+            "Cyan trim has abrupt stepped interruptions at gray corner blocks; open rim joins look chunky.",
+            "Broad wavy stone texture reads soft rather than granular; illustration shows a dark boundary around the ornament insert and crowded flower/stone contacts."
+          ],
+          "id": "comoros",
+          "inspected_paths": [
+            "parent/smoke/comoros/desktop-closed.png",
+            "parent/smoke/comoros/desktop-open.png",
+            "parent/smoke/comoros/mobile-closed.png",
+            "parent/smoke/comoros/mobile-open.png",
+            "parent/sources/comoros/marketing.webp"
+          ],
+          "limitations": [
+            "Subtle mobile crater, ribbon-like flowers, faceted vegetation, mottled basalt and invented turquoise seam are disclosed stylization. No botanical or topographic equivalence is claimed.",
+            "Unchanged lightweight model reviewed against promotional illustration for visual relationship, not equivalence. Rendering polish differences are not automatically model defects.",
+            "Only supplied static viewpoints inspected; no proof of continuous collision freedom, hinge attachment, hidden geometry integrity, controls, performance, or physical-phone behavior. Apparent attachment gaps are unresolved visual ambiguities, not confirmed detached meshes.",
+            "Mobile secondary/status/disclaimer text is small; screenshot inspection does not establish accessibility contrast compliance.",
+            "No major missing visible panel or viewport clipping established. Candidate status is not art approval; existing user decisions remain holds."
+          ],
+          "observations": [
+            "Blue-gray body, crater mound, pale pointed flowers, green accents, turquoise seam and brass hardware are recognizable across closed model and illustration.",
+            "All four model frames fit without cropping; open poses show cavity and underside, not the exterior ornament."
+          ],
+          "source_notice_path": "parent/sources/comoros/source_readme.md",
+          "verdict": "candidate-with-limitations"
+        },
+        "report": "visual-a.json"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-08 review"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 40042,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/comoros.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "Source/output reviewed: broad silhouette hardware miniature counts retained. Stronger contrast and surface realism; small contour/pattern variations.",
+          "reviewStatus": "reviewed",
+          "sha256": "d07919685789a8ba9477513c17e963c077893e1c4a29fd3ee346c8b548c7feea",
+          "source": "assets/gallery/comoros.webp",
+          "sourceSha256": "0dba34cf5c3aa45c69e4390c7e077de84f2be751e171b07126ad26cc8625c099",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "bcdf2d304b92d8daad9ea6a4c588a70b2682419ff439e1d23285fdb360d8c387"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_verdict": "pass",
+      "parent_visual": {
+        "decision": "pass",
+        "hardware": "Brass clasp, front disc, side ring, corner fittings and rounded feet retained. Open hinges/latch read consistently with released state; no observed missing parts or unintended gaps.",
+        "limitations": [
+          "Broad mottling, ribbon flowers, faceted vegetation and subtle mobile crater are disclosed. Front-open views hide exterior ornament; no physical-phone or continuous collision evidence from stills.",
+          "Review uses original full-size image files, not a composite. Static screenshots cannot verify hidden geometry, animation intersections, real material construction or performance. Promotional enhancements are not runtime-detail guarantees."
+        ],
+        "quality": "Slate basalt chest, turquoise reveal, crater and pale blossoms match promotional identity; full open/closed framing at both sizes.",
+        "terrain": "Low cratered mound with green patches and three simplified pale-yellow blossoms retained. Crater reads on desktop, subtler on mobile; not botanical/topographic reconstruction.",
+        "texture": "Runtime broad cloudy basalt is softer than fine promotional speckling; flowers/vegetation more faceted and schematic."
+      },
+      "parent_visual_hold_preserved": false,
+      "reviewed_image_hashes": [
+        {
+          "bytes": 40042,
+          "path": "sources/comoros/marketing.webp",
+          "sha256": "bcdf2d304b92d8daad9ea6a4c588a70b2682419ff439e1d23285fdb360d8c387"
+        },
+        {
+          "bytes": 330026,
+          "path": "smoke/comoros/desktop-closed.png",
+          "sha256": "30ebf9e6e5c93f5f60552240bcacbdd65fce77ad7baf69c7c2eac29a999e14ef"
+        },
+        {
+          "bytes": 350677,
+          "path": "smoke/comoros/desktop-open.png",
+          "sha256": "1d6052351d7fc0c3d22fe1cdb43cddd4cc7354d21b2fad556ae1b22a41c57d09"
+        },
+        {
+          "bytes": 109765,
+          "path": "smoke/comoros/mobile-closed.png",
+          "sha256": "a4179bfb01a381e33658b366ef6d49e6683920feae54f7add6b8883bdb8883fc"
+        },
+        {
+          "bytes": 116210,
+          "path": "smoke/comoros/mobile-open.png",
+          "sha256": "2ca5bf517379b49c39cf343fd254202ae99ddd63160992139e681ff27c554027"
+        }
+      ],
+      "selection": {
+        "commit": "457249b1e48b4fa48eb3b3faa830341048273c92",
+        "fetched_tip": "457249b1e48b4fa48eb3b3faa830341048273c92",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/comoros-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 7506580,
+          "commit": "457249b1e48b4fa48eb3b3faa830341048273c92",
+          "crc_error": null,
+          "entries": 52,
+          "fresh_crc_safe_unique": true,
+          "fresh_inner_inventory_entries": 51,
+          "fresh_required_payloads": [
+            {
+              "member": "comoros-v1.html",
+              "path": "preview/comoros-v1/comoros-v1.html",
+              "sha256": "40ebf3ac91a510efdd9911643d51329a48dfbdcf1ef0ecc14616b5b41588d630"
+            },
+            {
+              "member": "comoros.blend",
+              "path": "preview/comoros-v1/comoros.blend",
+              "sha256": "0204a9738cf9ac8027366f370e803a729b6a645bd4bf9e80453612d6edd8e8b6"
+            },
+            {
+              "member": "comoros.glb",
+              "path": "preview/comoros-v1/comoros.glb",
+              "sha256": "ec36ecb20464382972c8d243f9506143320199d6ca6ff17ec6e419ff35b8d320"
+            }
+          ],
+          "inventory_checked": true,
+          "inventory_entries": 51,
+          "inventory_mismatches": [],
+          "kind": "git",
+          "path": "preview/comoros-v1/comoros-source.zip",
+          "required_payloads": {
+            "comoros-v1.html": true,
+            "comoros.blend": true,
+            "comoros.glb": true
+          },
+          "safe_unique_paths": true,
+          "sha256": "6e1453cb307744ce04f9cb3b85b3b18f6aab94361928feb82f3e6789a7e7eb53"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 1057006,
+          "commit": "457249b1e48b4fa48eb3b3faa830341048273c92",
+          "path": "preview/comoros-v1/comoros.blend",
+          "role": "selected-model",
+          "sha256": "0204a9738cf9ac8027366f370e803a729b6a645bd4bf9e80453612d6edd8e8b6"
+        },
+        {
+          "bytes": 1856292,
+          "commit": "457249b1e48b4fa48eb3b3faa830341048273c92",
+          "path": "preview/comoros-v1/comoros.glb",
+          "role": "selected-model",
+          "sha256": "ec36ecb20464382972c8d243f9506143320199d6ca6ff17ec6e419ff35b8d320",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 103,
+            "nodes": 105
+          }
+        }
+      ],
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 3205552,
+        "commit": "457249b1e48b4fa48eb3b3faa830341048273c92",
+        "path": "preview/comoros-v1/comoros-v1.html",
+        "sha256": "40ebf3ac91a510efdd9911643d51329a48dfbdcf1ef0ecc14616b5b41588d630",
+        "under_5000000": true
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Comoros",
+    "package_history": [
+      {
+        "bytes": 7506580,
+        "commit": "457249b1e48b4fa48eb3b3faa830341048273c92",
+        "crc_error": null,
+        "entries": 52,
+        "inventory_checked": true,
+        "inventory_entries": 51,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/comoros-v1/comoros-source.zip",
+        "required_payloads": {
+          "comoros-v1.html": true,
+          "comoros.blend": true,
+          "comoros.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "6e1453cb307744ce04f9cb3b85b3b18f6aab94361928feb82f3e6789a7e7eb53"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "457249b1e48b4fa48eb3b3faa830341048273c92",
+      "fetched_tip": "457249b1e48b4fa48eb3b3faa830341048273c92",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/comoros-v1"
+    },
+    "verdict": "candidate-with-limitations",
+    "viewer": {
+      "bytes": 3205552,
+      "commit": "457249b1e48b4fa48eb3b3faa830341048273c92",
+      "path": "preview/comoros-v1/comoros-v1.html",
+      "sha256": "40ebf3ac91a510efdd9911643d51329a48dfbdcf1ef0ecc14616b5b41588d630",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "comoros",
+    "baseline_verdict": "candidate-with-limitations",
+    "actions": [
+      "remaining ordinary finish inspection; do not edit promotional-only differences or infer broken model"
+    ],
+    "approval": false,
+    "original_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "capture_base": "parent/",
+      "captures": [
+        "smoke/comoros/desktop-closed.png",
+        "smoke/comoros/desktop-open.png",
+        "smoke/comoros/mobile-closed.png",
+        "smoke/comoros/mobile-open.png"
+      ],
+      "critical_reproducible_failures": [],
+      "final_approval": false,
+      "fresh_checks": {
+        "blender_parity_collision": false,
+        "fallback": false,
+        "full_inner_archive_inventories": true,
+        "motion": false,
+        "original_captures_and_marketing_inspected": true,
+        "runtime": false,
+        "source_and_delivered_viewer_hashes": true,
+        "source_archive_crc_safe_paths_required_payloads": true
+      },
+      "historical_runtime": {
+        "browser": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.4170899391174316,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30234166234731674,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1856292,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 5,
+              "meshes": 103,
+              "nonfinite": 0,
+              "triangles": 17156
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "comoros",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "40ebf3ac91a510efdd9911643d51329a48dfbdcf1ef0ecc14616b5b41588d630"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.4170899391174316,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30234166234731674,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1856292,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 5,
+              "meshes": 103,
+              "nonfinite": 0,
+              "triangles": 17156
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "comoros",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "40ebf3ac91a510efdd9911643d51329a48dfbdcf1ef0ecc14616b5b41588d630"
+          }
+        ],
+        "extended": {
+          "geometry": {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.4170899391174316,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30234166234731674,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1856292,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 5,
+              "meshes": 103,
+              "nonfinite": 0,
+              "triangles": 17156
+            },
+            "meshes": 103,
+            "nonfinite": 0,
+            "triangles": 17156
+          },
+          "id": "comoros",
+          "no_js_poster": true
+        },
+        "motion": {
+          "exit_code": 0,
+          "id": "comoros",
+          "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+          "source": [
+            {
+              "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+              "path": "preview/albania-v1/tests.mjs",
+              "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+            },
+            {
+              "commit": "457249b1e48b4fa48eb3b3faa830341048273c92",
+              "path": "preview/comoros-v1/motion.mjs",
+              "sha256": "3edb64cdd9da4ee619dcb85047ef2c44e5e67b54b590267905b7e504e0f75461"
+            }
+          ]
+        },
+        "parent_commit": "431e51ffb5a8704b5f8f8b11694d28befae18402"
+      },
+      "id": "comoros",
+      "independent_visual": {
+        "assessment": {
+          "concrete_defects": [
+            "Mobile crater depth is difficult to read; dark lower edges/feet blend into background and fine brass hardware is crowded.",
+            "Cyan trim has abrupt stepped interruptions at gray corner blocks; open rim joins look chunky.",
+            "Broad wavy stone texture reads soft rather than granular; illustration shows a dark boundary around the ornament insert and crowded flower/stone contacts."
+          ],
+          "id": "comoros",
+          "inspected_paths": [
+            "parent/smoke/comoros/desktop-closed.png",
+            "parent/smoke/comoros/desktop-open.png",
+            "parent/smoke/comoros/mobile-closed.png",
+            "parent/smoke/comoros/mobile-open.png",
+            "parent/sources/comoros/marketing.webp"
+          ],
+          "limitations": [
+            "Subtle mobile crater, ribbon-like flowers, faceted vegetation, mottled basalt and invented turquoise seam are disclosed stylization. No botanical or topographic equivalence is claimed.",
+            "Unchanged lightweight model reviewed against promotional illustration for visual relationship, not equivalence. Rendering polish differences are not automatically model defects.",
+            "Only supplied static viewpoints inspected; no proof of continuous collision freedom, hinge attachment, hidden geometry integrity, controls, performance, or physical-phone behavior. Apparent attachment gaps are unresolved visual ambiguities, not confirmed detached meshes.",
+            "Mobile secondary/status/disclaimer text is small; screenshot inspection does not establish accessibility contrast compliance.",
+            "No major missing visible panel or viewport clipping established. Candidate status is not art approval; existing user decisions remain holds."
+          ],
+          "observations": [
+            "Blue-gray body, crater mound, pale pointed flowers, green accents, turquoise seam and brass hardware are recognizable across closed model and illustration.",
+            "All four model frames fit without cropping; open poses show cavity and underside, not the exterior ornament."
+          ],
+          "source_notice_path": "parent/sources/comoros/source_readme.md",
+          "verdict": "candidate-with-limitations"
+        },
+        "report": "visual-a.json"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-08 review"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 40042,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/comoros.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "Source/output reviewed: broad silhouette hardware miniature counts retained. Stronger contrast and surface realism; small contour/pattern variations.",
+          "reviewStatus": "reviewed",
+          "sha256": "d07919685789a8ba9477513c17e963c077893e1c4a29fd3ee346c8b548c7feea",
+          "source": "assets/gallery/comoros.webp",
+          "sourceSha256": "0dba34cf5c3aa45c69e4390c7e077de84f2be751e171b07126ad26cc8625c099",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "bcdf2d304b92d8daad9ea6a4c588a70b2682419ff439e1d23285fdb360d8c387"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_verdict": "pass",
+      "parent_visual": {
+        "decision": "pass",
+        "hardware": "Brass clasp, front disc, side ring, corner fittings and rounded feet retained. Open hinges/latch read consistently with released state; no observed missing parts or unintended gaps.",
+        "limitations": [
+          "Broad mottling, ribbon flowers, faceted vegetation and subtle mobile crater are disclosed. Front-open views hide exterior ornament; no physical-phone or continuous collision evidence from stills.",
+          "Review uses original full-size image files, not a composite. Static screenshots cannot verify hidden geometry, animation intersections, real material construction or performance. Promotional enhancements are not runtime-detail guarantees."
+        ],
+        "quality": "Slate basalt chest, turquoise reveal, crater and pale blossoms match promotional identity; full open/closed framing at both sizes.",
+        "terrain": "Low cratered mound with green patches and three simplified pale-yellow blossoms retained. Crater reads on desktop, subtler on mobile; not botanical/topographic reconstruction.",
+        "texture": "Runtime broad cloudy basalt is softer than fine promotional speckling; flowers/vegetation more faceted and schematic."
+      },
+      "parent_visual_hold_preserved": false,
+      "reviewed_image_hashes": [
+        {
+          "bytes": 40042,
+          "path": "sources/comoros/marketing.webp",
+          "sha256": "bcdf2d304b92d8daad9ea6a4c588a70b2682419ff439e1d23285fdb360d8c387"
+        },
+        {
+          "bytes": 330026,
+          "path": "smoke/comoros/desktop-closed.png",
+          "sha256": "30ebf9e6e5c93f5f60552240bcacbdd65fce77ad7baf69c7c2eac29a999e14ef"
+        },
+        {
+          "bytes": 350677,
+          "path": "smoke/comoros/desktop-open.png",
+          "sha256": "1d6052351d7fc0c3d22fe1cdb43cddd4cc7354d21b2fad556ae1b22a41c57d09"
+        },
+        {
+          "bytes": 109765,
+          "path": "smoke/comoros/mobile-closed.png",
+          "sha256": "a4179bfb01a381e33658b366ef6d49e6683920feae54f7add6b8883bdb8883fc"
+        },
+        {
+          "bytes": 116210,
+          "path": "smoke/comoros/mobile-open.png",
+          "sha256": "2ca5bf517379b49c39cf343fd254202ae99ddd63160992139e681ff27c554027"
+        }
+      ],
+      "selection": {
+        "commit": "457249b1e48b4fa48eb3b3faa830341048273c92",
+        "fetched_tip": "457249b1e48b4fa48eb3b3faa830341048273c92",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/comoros-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 7506580,
+          "commit": "457249b1e48b4fa48eb3b3faa830341048273c92",
+          "crc_error": null,
+          "entries": 52,
+          "fresh_crc_safe_unique": true,
+          "fresh_inner_inventory_entries": 51,
+          "fresh_required_payloads": [
+            {
+              "member": "comoros-v1.html",
+              "path": "preview/comoros-v1/comoros-v1.html",
+              "sha256": "40ebf3ac91a510efdd9911643d51329a48dfbdcf1ef0ecc14616b5b41588d630"
+            },
+            {
+              "member": "comoros.blend",
+              "path": "preview/comoros-v1/comoros.blend",
+              "sha256": "0204a9738cf9ac8027366f370e803a729b6a645bd4bf9e80453612d6edd8e8b6"
+            },
+            {
+              "member": "comoros.glb",
+              "path": "preview/comoros-v1/comoros.glb",
+              "sha256": "ec36ecb20464382972c8d243f9506143320199d6ca6ff17ec6e419ff35b8d320"
+            }
+          ],
+          "inventory_checked": true,
+          "inventory_entries": 51,
+          "inventory_mismatches": [],
+          "kind": "git",
+          "path": "preview/comoros-v1/comoros-source.zip",
+          "required_payloads": {
+            "comoros-v1.html": true,
+            "comoros.blend": true,
+            "comoros.glb": true
+          },
+          "safe_unique_paths": true,
+          "sha256": "6e1453cb307744ce04f9cb3b85b3b18f6aab94361928feb82f3e6789a7e7eb53"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 1057006,
+          "commit": "457249b1e48b4fa48eb3b3faa830341048273c92",
+          "path": "preview/comoros-v1/comoros.blend",
+          "role": "selected-model",
+          "sha256": "0204a9738cf9ac8027366f370e803a729b6a645bd4bf9e80453612d6edd8e8b6"
+        },
+        {
+          "bytes": 1856292,
+          "commit": "457249b1e48b4fa48eb3b3faa830341048273c92",
+          "path": "preview/comoros-v1/comoros.glb",
+          "role": "selected-model",
+          "sha256": "ec36ecb20464382972c8d243f9506143320199d6ca6ff17ec6e419ff35b8d320",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 103,
+            "nodes": 105
+          }
+        }
+      ],
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 3205552,
+        "commit": "457249b1e48b4fa48eb3b3faa830341048273c92",
+        "path": "preview/comoros-v1/comoros-v1.html",
+        "sha256": "40ebf3ac91a510efdd9911643d51329a48dfbdcf1ef0ecc14616b5b41588d630",
+        "under_5000000": true
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 7506580,
+        "commit": "457249b1e48b4fa48eb3b3faa830341048273c92",
+        "crc_error": null,
+        "entries": 52,
+        "inventory_checked": true,
+        "inventory_entries": 51,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/comoros-v1/comoros-source.zip",
+        "required_payloads": {
+          "comoros-v1.html": true,
+          "comoros.blend": true,
+          "comoros.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "6e1453cb307744ce04f9cb3b85b3b18f6aab94361928feb82f3e6789a7e7eb53"
+      }
+    ]
+  },
+  "ordinary_record": {
+    "id": "comoros",
+    "disposition": "unchanged-with-explicit-limitations",
+    "correction_passes": 0,
+    "model_geometry_changed": false,
+    "final_approved": false,
+    "launch_ready": false,
+    "original_observations": [
+      "Mobile crater depth is difficult to read; dark lower edges/feet blend into background and fine brass hardware is crowded.",
+      "Cyan trim has abrupt stepped interruptions at gray corner blocks; open rim joins look chunky.",
+      "Broad wavy stone texture reads soft rather than granular; illustration shows a dark boundary around the ornament insert and crowded flower/stone contacts."
+    ],
+    "independent_adjudication": {
+      "id": "comoros",
+      "disposition": "no-edit-art-direction-question",
+      "observation": "Broad soft waves are conspicuous on exterior panels, lid and open underside; native desktop confirms this appearance, not its technical cause. Promotional surfaces read calmer. Volcano, flowers, turquoise band and hardware remain coherent.",
+      "recommendation": "Do not automatically reduce normals or rebuild panels. Treat broad waviness as stylized stone unless an intended flat-cut-stone brief establishes otherwise. If later scoped, isolate base color/normal/roughness contributions before any material-only correction; no geometry change is justified here.",
+      "supersampling": "Not appropriate for low-frequency material waves."
+    },
+    "unresolved_owner_holds": [
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "inherited_holds": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization",
+      "independent QA-ART-08 review"
+    ],
+    "original_review_preserved_in": "baseline.json",
+    "fresh_runtime": {
+      "id": "comoros",
+      "exit_code": 0,
+      "shared_contract": "Bangladesh renderer-independent interaction assertions; no fresh source/collision claim",
+      "results": "launch\\ordinary-finish-20\\runtime\\comoros\\browser-check.json"
+    },
+    "fresh_source_archive": {
+      "id": "comoros",
+      "archives": [
+        {
+          "archive": {
+            "bytes": 7506580,
+            "commit": "457249b1e48b4fa48eb3b3faa830341048273c92",
+            "crc_error": null,
+            "entries": 52,
+            "fresh_crc_safe_unique": true,
+            "fresh_inner_inventory_entries": 51,
+            "fresh_required_payloads": [
+              {
+                "member": "comoros-v1.html",
+                "path": "preview/comoros-v1/comoros-v1.html",
+                "sha256": "40ebf3ac91a510efdd9911643d51329a48dfbdcf1ef0ecc14616b5b41588d630"
+              },
+              {
+                "member": "comoros.blend",
+                "path": "preview/comoros-v1/comoros.blend",
+                "sha256": "0204a9738cf9ac8027366f370e803a729b6a645bd4bf9e80453612d6edd8e8b6"
+              },
+              {
+                "member": "comoros.glb",
+                "path": "preview/comoros-v1/comoros.glb",
+                "sha256": "ec36ecb20464382972c8d243f9506143320199d6ca6ff17ec6e419ff35b8d320"
+              }
+            ],
+            "inventory_checked": true,
+            "inventory_entries": 51,
+            "inventory_mismatches": [],
+            "kind": "git",
+            "path": "preview/comoros-v1/comoros-source.zip",
+            "required_payloads": {
+              "comoros-v1.html": true,
+              "comoros.blend": true,
+              "comoros.glb": true
+            },
+            "safe_unique_paths": true,
+            "sha256": "6e1453cb307744ce04f9cb3b85b3b18f6aab94361928feb82f3e6789a7e7eb53"
+          },
+          "members": 52,
+          "fresh_inventory": {
+            "status": "pass",
+            "entries_checked": 51,
+            "uninventoried_members": [
+              "inventory.json"
+            ]
+          },
+          "exact_selected_payloads": [
+            "comoros-v1.html",
+            "comoros.blend",
+            "comoros.glb"
+          ]
+        }
+      ],
+      "pass": true
+    },
+    "remaining_visual_limitations": "Broad soft waves are conspicuous on exterior panels, lid and open underside; native desktop confirms this appearance, not its technical cause. Promotional surfaces read calmer. Volcano, flowers, turquoise band and hardware remain coherent."
+  }
+}

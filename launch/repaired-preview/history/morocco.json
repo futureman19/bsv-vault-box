@@ -1,0 +1,750 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": {
+        "artifacts": [
+          {
+            "bytes": 1816173,
+            "commit": "ff5d78f1e0d486af5c882c184fc08049996ebdc8",
+            "path": "preview/morocco-finish-v6/baseline/morocco.blend",
+            "sha256": "7038af7361d26aaec6c45e7f1ebef12f7d6ff6daebe513f334de0506706ee4c2"
+          },
+          {
+            "bytes": 2909040,
+            "commit": "ff5d78f1e0d486af5c882c184fc08049996ebdc8",
+            "path": "preview/morocco-finish-v6/baseline/morocco.glb",
+            "sha256": "7636595f8db0560387b2391cdbd5264509b3313e0decb839f269fd20d3a95417"
+          }
+        ],
+        "status": "Approved v5 identified by source README; preserved baseline source/export, not new approval"
+      },
+      "status": "needs-user-review",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 6,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 1603510,
+        "role": "editable-source",
+        "sha256": "573caae6ac8cfd863f4728f0da137211805edd1cc951cccfab9eda3204bfb864",
+        "source": {
+          "commit": "ff5d78f1e0d486af5c882c184fc08049996ebdc8",
+          "path": "preview/morocco-finish-v6/morocco.blend"
+        },
+        "uri": "sha256:573caae6ac8cfd863f4728f0da137211805edd1cc951cccfab9eda3204bfb864"
+      },
+      {
+        "bytes": 20598067,
+        "role": "historical-source-archive",
+        "sha256": "4f5a7625b780a4d41fe076488897b9fcbaa84d0fb8519f639ff2578a01166df8",
+        "source": {
+          "commit": "ff5d78f1e0d486af5c882c184fc08049996ebdc8",
+          "kind": "git",
+          "path": "preview/morocco-finish-v6/morocco-finish-v6-source.zip"
+        },
+        "uri": "sha256:4f5a7625b780a4d41fe076488897b9fcbaa84d0fb8519f639ff2578a01166df8"
+      },
+      {
+        "bytes": 2354896,
+        "role": "model",
+        "sha256": "ef0f949862bd0c6047b07c769102ee77c3f97ad140f59aae15e089fa3e48e4e4",
+        "source": {
+          "commit": "ff5d78f1e0d486af5c882c184fc08049996ebdc8",
+          "path": "preview/morocco-finish-v6/morocco.glb"
+        },
+        "uri": "sha256:ef0f949862bd0c6047b07c769102ee77c3f97ad140f59aae15e089fa3e48e4e4"
+      },
+      {
+        "bytes": 50918,
+        "role": "promotional-illustration",
+        "sha256": "8828a95ceaf684c7551ac8bf51f57b9ac5584fda509b6b5c685a333eaff6579c",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/morocco.webp"
+        },
+        "uri": "sha256:8828a95ceaf684c7551ac8bf51f57b9ac5584fda509b6b5c685a333eaff6579c"
+      },
+      {
+        "bytes": 5056,
+        "role": "source-notice",
+        "sha256": "fc8cb651b574c63e6e054319bdd44e3f38994ff2f95b6bda14bbc40399c93665",
+        "source": {
+          "commit": "ff5d78f1e0d486af5c882c184fc08049996ebdc8",
+          "path": "preview/morocco-finish-v6/README.md"
+        },
+        "uri": "sha256:fc8cb651b574c63e6e054319bdd44e3f38994ff2f95b6bda14bbc40399c93665"
+      },
+      {
+        "bytes": 3927231,
+        "role": "viewer",
+        "sha256": "eaa3f55aeca2c50fb9eeda270e45943d4354ad1015eae3577ef33079b2cb0dd5",
+        "source": {
+          "commit": "ff5d78f1e0d486af5c882c184fc08049996ebdc8",
+          "path": "preview/morocco-finish-v6/morocco-finish-v6.html"
+        },
+        "uri": "sha256:eaa3f55aeca2c50fb9eeda270e45943d4354ad1015eae3577ef33079b2cb0dd5"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "morocco",
+    "independent_review": {
+      "adjudication": "Preserve substantive parent art-decision hold despite any more permissive independent recommendation; no user approval or changed art resolves it.",
+      "art_changed": false,
+      "critical_reproducible_defects": [],
+      "fresh_blender_reopen": false,
+      "fresh_browser": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8795000305399299,
+                2.997462034225464,
+                1.6875000763684511
+              ],
+              "min": [
+                -1.8795000305399299,
+                0.03500000387430191,
+                -1.5950001031160355
+              ]
+            },
+            "bytes": 2354896,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 6,
+            "meshes": 63,
+            "nonfinite": 0,
+            "triangles": 18782
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "morocco",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "eaa3f55aeca2c50fb9eeda270e45943d4354ad1015eae3577ef33079b2cb0dd5"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8795000305399299,
+                2.997462034225464,
+                1.6875000763684511
+              ],
+              "min": [
+                -1.8795000305399299,
+                0.03500000387430191,
+                -1.5950001031160355
+              ]
+            },
+            "bytes": 2354896,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 6,
+            "meshes": 63,
+            "nonfinite": 0,
+            "triangles": 18782
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "morocco",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "eaa3f55aeca2c50fb9eeda270e45943d4354ad1015eae3577ef33079b2cb0dd5"
+        }
+      ],
+      "fresh_collision_sampling": false,
+      "fresh_corrupt_glb_fallback": false,
+      "fresh_motion": {
+        "exit_code": 0,
+        "id": "morocco",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "ff5d78f1e0d486af5c882c184fc08049996ebdc8",
+            "path": "preview/morocco-finish-v6/motion.mjs",
+            "sha256": "0387b9648715fcca51f3a3a389d13cb0101b46619f847ced2b6253f8eaeb4f10"
+          }
+        ]
+      },
+      "fresh_nojs": false,
+      "id": "morocco",
+      "independent_visual": {
+        "file": "visual-3.json",
+        "findings": {
+          "approved": false,
+          "archive_byte_hold": {
+            "cleared": false,
+            "note": "Existing archive-byte hold is retained exactly as a separate unresolved gate. This visual inspection did not test or resolve archive bytes.",
+            "retained": true,
+            "separate_from_visual_review": true
+          },
+          "artistic_gaps": [
+            "Material and palette drift is material to fidelity: warm rose/rust stone differs from the reference's predominantly pale cream/honey body, regardless of the page's Rose stone subtitle.",
+            "Intricate green-white reference inlay is reduced to a less legible tiled border; smooth satin center and polished stone response are less convincing.",
+            "Mountain-to-lid transition, abrupt veining direction changes, soft hardware and weak ground contact reduce crafted-object coherence."
+          ],
+          "final_views": [
+            {
+              "file": "smoke/morocco/desktop-closed.png",
+              "observations": "Body is substantially more salmon/rose, rust and ochre than the pale reference. Wood sides show strong stretched-looking grain. Green-white border is soft and difficult to resolve; mountain is small and abruptly seated. Uneven-looking dark lid seam, disconnected-looking small front fittings and weak grounding shadow merit review."
+            },
+            {
+              "file": "smoke/morocco/desktop-open.png",
+              "observations": "Dark brown underside and cavity obscure internal detail. Rear gap and layered/uneven rim strips at front-left and rear-right make attachment and join quality uncertain. Full model fits, slightly right-weighted."
+            },
+            {
+              "file": "smoke/morocco/mobile-closed.png",
+              "observations": "Complete chest and controls fit; title has little spare width. Tile pattern, mountain and metal edges look pixelated; small latch pieces merge. Dark front-left lid seam remains noticeable."
+            },
+            {
+              "file": "smoke/morocco/mobile-open.png",
+              "observations": "Full raised lid, upper hardware and lower corners fit without page overflow. Cavity remains very dark, ceramic motif is not discernible in this orientation, and rim/hinge edges are jagged."
+            }
+          ],
+          "follow_up": "User must decide whether the warmer rose recolor and simplified tile/material treatment are intended. Retain partial unapproved status and the independent archive-byte hold; do not promote on the basis of intact framing or readable open/closed states.",
+          "id": "morocco",
+          "recommendation": "needs-user-review",
+          "reference": {
+            "dimensions": [
+              1100,
+              1000
+            ],
+            "file": "sources/morocco/marketing.webp",
+            "observations": "Predominantly ivory/cream/honey horizontally banded polished stone body, chocolate lid, smooth gray-brown center, intricate green-white floral/geometric perimeter inlay with fine edging, small peach mountain ornament. Brass central clasp, round medallion, low front ring and bottom guards."
+          },
+          "retained_status": "partial unapproved"
+        }
+      },
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 50918,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1100,
+          1000
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/morocco.webp",
+        "provenance": {
+          "kind": "Existing promotional illustration; not a model screenshot",
+          "sha256": "fbd3f1abde84b6bb8cfe34a564c37528b14e2d61a77ddbc61b515e4e263b0fc0",
+          "source": "saturn-over-the-atlas.jpg"
+        },
+        "sha256": "8828a95ceaf684c7551ac8bf51f57b9ac5584fda509b6b5c685a333eaff6579c"
+      },
+      "original_capture_paths": [
+        "parent/smoke/morocco/desktop-closed.png",
+        "parent/smoke/morocco/desktop-open.png",
+        "parent/smoke/morocco/mobile-closed.png",
+        "parent/smoke/morocco/mobile-open.png"
+      ],
+      "packaging_hold": true,
+      "parent_decision": "Needs explicit decision on the remaining ceramic contrast/interlocking/corners and lid-edge grain before any promotion. Preserve unapproved v6/archive hold; no art edits or further iterations authorized by this review.",
+      "parent_missing_gates_preserved": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "source-archive-integrity-or-required-payload-mismatch",
+        "complete-source-archive-inventory-not-verified"
+      ],
+      "parent_quality": "Partial, explicitly unapproved v6 candidate; retain archive hold. Fully framed consistent desktop/mobile states do not resolve reference-finish gaps. Exact marketing has pale cream/gold body bands; runtime has stronger rose/rust/cream bands. This is a reference difference, not evidence of a new v6 preservation failure.",
+      "parent_status": "needs-decision",
+      "remaining_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "source-archive-integrity-or-required-payload-mismatch",
+        "complete-source-archive-inventory-not-verified",
+        "user fidelity decision before substantial redesign",
+        "independent QA-ART-06 review"
+      ],
+      "selection": {
+        "commit": "ff5d78f1e0d486af5c882c184fc08049996ebdc8",
+        "fetched_tip": "ff5d78f1e0d486af5c882c184fc08049996ebdc8",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/feature/four-item-custody-proof"
+      },
+      "source_archive_check": {
+        "archive": {
+          "bytes": 20598067,
+          "crc": "pass",
+          "entries": 93,
+          "mismatches": [
+            {
+              "candidate_members": [
+                "morocco-finish-v6.html"
+              ],
+              "exact_byte_match": false,
+              "path": "preview/morocco-finish-v6/morocco-finish-v6.html"
+            }
+          ],
+          "path": "preview/morocco-finish-v6/morocco-finish-v6-source.zip",
+          "required_payload_hashes": "hold",
+          "sha256": "4f5a7625b780a4d41fe076488897b9fcbaa84d0fb8519f639ff2578a01166df8"
+        },
+        "id": "morocco",
+        "internal_inventory": "pass",
+        "inventory_entries_checked": 92,
+        "selected_payload_match": "hold"
+      },
+      "source_archives": [
+        {
+          "bytes": 20598067,
+          "crc": "pass",
+          "entries": 93,
+          "mismatches": [
+            {
+              "candidate_members": [
+                "morocco-finish-v6.html"
+              ],
+              "exact_byte_match": false,
+              "path": "preview/morocco-finish-v6/morocco-finish-v6.html"
+            }
+          ],
+          "path": "preview/morocco-finish-v6/morocco-finish-v6-source.zip",
+          "required_payload_hashes": "hold",
+          "sha256": "4f5a7625b780a4d41fe076488897b9fcbaa84d0fb8519f639ff2578a01166df8"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 1603510,
+          "path": "preview/morocco-finish-v6/morocco.blend",
+          "sha256": "573caae6ac8cfd863f4728f0da137211805edd1cc951cccfab9eda3204bfb864"
+        },
+        {
+          "bytes": 2354896,
+          "path": "preview/morocco-finish-v6/morocco.glb",
+          "sha256": "ef0f949862bd0c6047b07c769102ee77c3f97ad140f59aae15e089fa3e48e4e4"
+        }
+      ],
+      "user_final_approved": false,
+      "verdict": "needs-user-review",
+      "viewer": {
+        "bytes": 3927231,
+        "commit": "ff5d78f1e0d486af5c882c184fc08049996ebdc8",
+        "path": "preview/morocco-finish-v6/morocco-finish-v6.html",
+        "sha256": "eaa3f55aeca2c50fb9eeda270e45943d4354ad1015eae3577ef33079b2cb0dd5",
+        "under_5000000": true
+      }
+    },
+    "last_approved_baseline": {
+      "artifacts": [
+        {
+          "bytes": 1816173,
+          "commit": "ff5d78f1e0d486af5c882c184fc08049996ebdc8",
+          "path": "preview/morocco-finish-v6/baseline/morocco.blend",
+          "sha256": "7038af7361d26aaec6c45e7f1ebef12f7d6ff6daebe513f334de0506706ee4c2"
+        },
+        {
+          "bytes": 2909040,
+          "commit": "ff5d78f1e0d486af5c882c184fc08049996ebdc8",
+          "path": "preview/morocco-finish-v6/baseline/morocco.glb",
+          "sha256": "7636595f8db0560387b2391cdbd5264509b3313e0decb839f269fd20d3a95417"
+        }
+      ],
+      "status": "Approved v5 identified by source README; preserved baseline source/export, not new approval"
+    },
+    "launch_ready": false,
+    "name": "Morocco",
+    "package_history": [
+      {
+        "bytes": 20598067,
+        "commit": "ff5d78f1e0d486af5c882c184fc08049996ebdc8",
+        "crc_error": null,
+        "entries": 93,
+        "inventory_checked": false,
+        "kind": "git",
+        "path": "preview/morocco-finish-v6/morocco-finish-v6-source.zip",
+        "payload_differences": {
+          "morocco-finish-v6.html": {
+            "archived": {
+              "bytes": 3931076,
+              "sha256": "9c9b8462b33e85e11433597607aa42e0abf1f1dc22c6cc7939a08d6dba0fc30c"
+            },
+            "committed": {
+              "bytes": 3927231,
+              "sha256": "eaa3f55aeca2c50fb9eeda270e45943d4354ad1015eae3577ef33079b2cb0dd5"
+            },
+            "newline_normalized_match": true
+          }
+        },
+        "required_payloads": {
+          "morocco-finish-v6.html": false,
+          "morocco.blend": true,
+          "morocco.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "4f5a7625b780a4d41fe076488897b9fcbaa84d0fb8519f639ff2578a01166df8"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization",
+      "source-archive-integrity-or-required-payload-mismatch",
+      "complete-source-archive-inventory-not-verified"
+    ],
+    "selected_candidate": {
+      "commit": "ff5d78f1e0d486af5c882c184fc08049996ebdc8",
+      "fetched_tip": "ff5d78f1e0d486af5c882c184fc08049996ebdc8",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/feature/four-item-custody-proof"
+    },
+    "verdict": "needs-user-review",
+    "viewer": {
+      "bytes": 3927231,
+      "commit": "ff5d78f1e0d486af5c882c184fc08049996ebdc8",
+      "path": "preview/morocco-finish-v6/morocco-finish-v6.html",
+      "sha256": "eaa3f55aeca2c50fb9eeda270e45943d4354ad1015eae3577ef33079b2cb0dd5",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "morocco",
+    "baseline_verdict": "needs-user-review",
+    "actions": [
+      "canonical-source-package repaired; history and visual approvals unchanged"
+    ],
+    "approval": false,
+    "original_review": {
+      "adjudication": "Preserve substantive parent art-decision hold despite any more permissive independent recommendation; no user approval or changed art resolves it.",
+      "art_changed": false,
+      "critical_reproducible_defects": [],
+      "fresh_blender_reopen": false,
+      "fresh_browser": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8795000305399299,
+                2.997462034225464,
+                1.6875000763684511
+              ],
+              "min": [
+                -1.8795000305399299,
+                0.03500000387430191,
+                -1.5950001031160355
+              ]
+            },
+            "bytes": 2354896,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 6,
+            "meshes": 63,
+            "nonfinite": 0,
+            "triangles": 18782
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "morocco",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "eaa3f55aeca2c50fb9eeda270e45943d4354ad1015eae3577ef33079b2cb0dd5"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8795000305399299,
+                2.997462034225464,
+                1.6875000763684511
+              ],
+              "min": [
+                -1.8795000305399299,
+                0.03500000387430191,
+                -1.5950001031160355
+              ]
+            },
+            "bytes": 2354896,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 6,
+            "meshes": 63,
+            "nonfinite": 0,
+            "triangles": 18782
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "morocco",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "eaa3f55aeca2c50fb9eeda270e45943d4354ad1015eae3577ef33079b2cb0dd5"
+        }
+      ],
+      "fresh_collision_sampling": false,
+      "fresh_corrupt_glb_fallback": false,
+      "fresh_motion": {
+        "exit_code": 0,
+        "id": "morocco",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "ff5d78f1e0d486af5c882c184fc08049996ebdc8",
+            "path": "preview/morocco-finish-v6/motion.mjs",
+            "sha256": "0387b9648715fcca51f3a3a389d13cb0101b46619f847ced2b6253f8eaeb4f10"
+          }
+        ]
+      },
+      "fresh_nojs": false,
+      "id": "morocco",
+      "independent_visual": {
+        "file": "visual-3.json",
+        "findings": {
+          "approved": false,
+          "archive_byte_hold": {
+            "cleared": false,
+            "note": "Existing archive-byte hold is retained exactly as a separate unresolved gate. This visual inspection did not test or resolve archive bytes.",
+            "retained": true,
+            "separate_from_visual_review": true
+          },
+          "artistic_gaps": [
+            "Material and palette drift is material to fidelity: warm rose/rust stone differs from the reference's predominantly pale cream/honey body, regardless of the page's Rose stone subtitle.",
+            "Intricate green-white reference inlay is reduced to a less legible tiled border; smooth satin center and polished stone response are less convincing.",
+            "Mountain-to-lid transition, abrupt veining direction changes, soft hardware and weak ground contact reduce crafted-object coherence."
+          ],
+          "final_views": [
+            {
+              "file": "smoke/morocco/desktop-closed.png",
+              "observations": "Body is substantially more salmon/rose, rust and ochre than the pale reference. Wood sides show strong stretched-looking grain. Green-white border is soft and difficult to resolve; mountain is small and abruptly seated. Uneven-looking dark lid seam, disconnected-looking small front fittings and weak grounding shadow merit review."
+            },
+            {
+              "file": "smoke/morocco/desktop-open.png",
+              "observations": "Dark brown underside and cavity obscure internal detail. Rear gap and layered/uneven rim strips at front-left and rear-right make attachment and join quality uncertain. Full model fits, slightly right-weighted."
+            },
+            {
+              "file": "smoke/morocco/mobile-closed.png",
+              "observations": "Complete chest and controls fit; title has little spare width. Tile pattern, mountain and metal edges look pixelated; small latch pieces merge. Dark front-left lid seam remains noticeable."
+            },
+            {
+              "file": "smoke/morocco/mobile-open.png",
+              "observations": "Full raised lid, upper hardware and lower corners fit without page overflow. Cavity remains very dark, ceramic motif is not discernible in this orientation, and rim/hinge edges are jagged."
+            }
+          ],
+          "follow_up": "User must decide whether the warmer rose recolor and simplified tile/material treatment are intended. Retain partial unapproved status and the independent archive-byte hold; do not promote on the basis of intact framing or readable open/closed states.",
+          "id": "morocco",
+          "recommendation": "needs-user-review",
+          "reference": {
+            "dimensions": [
+              1100,
+              1000
+            ],
+            "file": "sources/morocco/marketing.webp",
+            "observations": "Predominantly ivory/cream/honey horizontally banded polished stone body, chocolate lid, smooth gray-brown center, intricate green-white floral/geometric perimeter inlay with fine edging, small peach mountain ornament. Brass central clasp, round medallion, low front ring and bottom guards."
+          },
+          "retained_status": "partial unapproved"
+        }
+      },
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 50918,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1100,
+          1000
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/morocco.webp",
+        "provenance": {
+          "kind": "Existing promotional illustration; not a model screenshot",
+          "sha256": "fbd3f1abde84b6bb8cfe34a564c37528b14e2d61a77ddbc61b515e4e263b0fc0",
+          "source": "saturn-over-the-atlas.jpg"
+        },
+        "sha256": "8828a95ceaf684c7551ac8bf51f57b9ac5584fda509b6b5c685a333eaff6579c"
+      },
+      "original_capture_paths": [
+        "parent/smoke/morocco/desktop-closed.png",
+        "parent/smoke/morocco/desktop-open.png",
+        "parent/smoke/morocco/mobile-closed.png",
+        "parent/smoke/morocco/mobile-open.png"
+      ],
+      "packaging_hold": true,
+      "parent_decision": "Needs explicit decision on the remaining ceramic contrast/interlocking/corners and lid-edge grain before any promotion. Preserve unapproved v6/archive hold; no art edits or further iterations authorized by this review.",
+      "parent_missing_gates_preserved": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "source-archive-integrity-or-required-payload-mismatch",
+        "complete-source-archive-inventory-not-verified"
+      ],
+      "parent_quality": "Partial, explicitly unapproved v6 candidate; retain archive hold. Fully framed consistent desktop/mobile states do not resolve reference-finish gaps. Exact marketing has pale cream/gold body bands; runtime has stronger rose/rust/cream bands. This is a reference difference, not evidence of a new v6 preservation failure.",
+      "parent_status": "needs-decision",
+      "remaining_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "source-archive-integrity-or-required-payload-mismatch",
+        "complete-source-archive-inventory-not-verified",
+        "user fidelity decision before substantial redesign",
+        "independent QA-ART-06 review"
+      ],
+      "selection": {
+        "commit": "ff5d78f1e0d486af5c882c184fc08049996ebdc8",
+        "fetched_tip": "ff5d78f1e0d486af5c882c184fc08049996ebdc8",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/feature/four-item-custody-proof"
+      },
+      "source_archive_check": {
+        "archive": {
+          "bytes": 20598067,
+          "crc": "pass",
+          "entries": 93,
+          "mismatches": [
+            {
+              "candidate_members": [
+                "morocco-finish-v6.html"
+              ],
+              "exact_byte_match": false,
+              "path": "preview/morocco-finish-v6/morocco-finish-v6.html"
+            }
+          ],
+          "path": "preview/morocco-finish-v6/morocco-finish-v6-source.zip",
+          "required_payload_hashes": "hold",
+          "sha256": "4f5a7625b780a4d41fe076488897b9fcbaa84d0fb8519f639ff2578a01166df8"
+        },
+        "id": "morocco",
+        "internal_inventory": "pass",
+        "inventory_entries_checked": 92,
+        "selected_payload_match": "hold"
+      },
+      "source_archives": [
+        {
+          "bytes": 20598067,
+          "crc": "pass",
+          "entries": 93,
+          "mismatches": [
+            {
+              "candidate_members": [
+                "morocco-finish-v6.html"
+              ],
+              "exact_byte_match": false,
+              "path": "preview/morocco-finish-v6/morocco-finish-v6.html"
+            }
+          ],
+          "path": "preview/morocco-finish-v6/morocco-finish-v6-source.zip",
+          "required_payload_hashes": "hold",
+          "sha256": "4f5a7625b780a4d41fe076488897b9fcbaa84d0fb8519f639ff2578a01166df8"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 1603510,
+          "path": "preview/morocco-finish-v6/morocco.blend",
+          "sha256": "573caae6ac8cfd863f4728f0da137211805edd1cc951cccfab9eda3204bfb864"
+        },
+        {
+          "bytes": 2354896,
+          "path": "preview/morocco-finish-v6/morocco.glb",
+          "sha256": "ef0f949862bd0c6047b07c769102ee77c3f97ad140f59aae15e089fa3e48e4e4"
+        }
+      ],
+      "user_final_approved": false,
+      "verdict": "needs-user-review",
+      "viewer": {
+        "bytes": 3927231,
+        "commit": "ff5d78f1e0d486af5c882c184fc08049996ebdc8",
+        "path": "preview/morocco-finish-v6/morocco-finish-v6.html",
+        "sha256": "eaa3f55aeca2c50fb9eeda270e45943d4354ad1015eae3577ef33079b2cb0dd5",
+        "under_5000000": true
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 20598067,
+        "commit": "ff5d78f1e0d486af5c882c184fc08049996ebdc8",
+        "crc_error": null,
+        "entries": 93,
+        "inventory_checked": false,
+        "kind": "git",
+        "path": "preview/morocco-finish-v6/morocco-finish-v6-source.zip",
+        "payload_differences": {
+          "morocco-finish-v6.html": {
+            "archived": {
+              "bytes": 3931076,
+              "sha256": "9c9b8462b33e85e11433597607aa42e0abf1f1dc22c6cc7939a08d6dba0fc30c"
+            },
+            "committed": {
+              "bytes": 3927231,
+              "sha256": "eaa3f55aeca2c50fb9eeda270e45943d4354ad1015eae3577ef33079b2cb0dd5"
+            },
+            "newline_normalized_match": true
+          }
+        },
+        "required_payloads": {
+          "morocco-finish-v6.html": false,
+          "morocco.blend": true,
+          "morocco.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "4f5a7625b780a4d41fe076488897b9fcbaa84d0fb8519f639ff2578a01166df8"
+      }
+    ]
+  },
+  "visual_decision": {
+    "id": "morocco",
+    "disposition": "substantive-feature-hold",
+    "issue": "Unresolved ceramic interlocking/corner fidelity in explicitly partial v6.",
+    "rationale": "Atlas ornament, banded rose body and tile border survive, but the specifically requested ceramic contrast/interlocking/corner composition and lid-edge grain remain unresolved. This is a named fidelity obligation, not a generic demand for photorealism; the lighter promotional palette alone is not the reason for the hold.",
+    "evidence": {
+      "commit": "bb6301f93b47613838f53fbaba43f47b7b1d78c6",
+      "path": "launch/qa-art-06/parent/boards/morocco.jpg",
+      "sha256": "e1c20bac95e47d6d6be884a8348be7ca0684f126f051538770ba99c3e50b09b7"
+    }
+  }
+}

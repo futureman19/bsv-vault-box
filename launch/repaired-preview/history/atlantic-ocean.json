@@ -1,0 +1,554 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 2,
+    "category": "Ocean",
+    "files": [
+      {
+        "bytes": 276569,
+        "role": "editable-source",
+        "sha256": "de32925f8569a746ed462360afb4d079562ab8eef44de32581a44a5199adc336",
+        "source": {
+          "commit": "c9aaee51b30714bf419c57ddee0a5322d1b2a3eb",
+          "path": "preview/atlantic-ocean-v1/atlantic.blend"
+        },
+        "uri": "sha256:de32925f8569a746ed462360afb4d079562ab8eef44de32581a44a5199adc336"
+      },
+      {
+        "bytes": 4435526,
+        "role": "historical-source-archive",
+        "sha256": "c32732a5c2690006bfc425dae518bbdac35318c20071b7deb3851cd13fb3fda7",
+        "source": {
+          "commit": "c9aaee51b30714bf419c57ddee0a5322d1b2a3eb",
+          "kind": "git",
+          "path": "preview/atlantic-ocean-v1/atlantic-ocean-v1-source.zip"
+        },
+        "uri": "sha256:c32732a5c2690006bfc425dae518bbdac35318c20071b7deb3851cd13fb3fda7"
+      },
+      {
+        "bytes": 940488,
+        "role": "model",
+        "sha256": "ca00f5e12ea66c7e47b75876cf505d1f75473f88617d608b7ce27b7ff76a4627",
+        "source": {
+          "commit": "c9aaee51b30714bf419c57ddee0a5322d1b2a3eb",
+          "path": "preview/atlantic-ocean-v1/atlantic.glb"
+        },
+        "uri": "sha256:ca00f5e12ea66c7e47b75876cf505d1f75473f88617d608b7ce27b7ff76a4627"
+      },
+      {
+        "bytes": 64012,
+        "role": "promotional-illustration",
+        "sha256": "3ee246c991dc2511dafabfb58a1de5a69b204580629dfc12135004cfa1e12127",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/atlantic-ocean.webp"
+        },
+        "uri": "sha256:3ee246c991dc2511dafabfb58a1de5a69b204580629dfc12135004cfa1e12127"
+      },
+      {
+        "bytes": 2623,
+        "role": "research-brief",
+        "sha256": "0a82cffce78958dce0d3ecd05e680b105c6af2696e9aa1adbadf697cce552aa1",
+        "source": {
+          "commit": "c9aaee51b30714bf419c57ddee0a5322d1b2a3eb",
+          "path": "preview/atlantic-ocean-v1/design-brief.md"
+        },
+        "uri": "sha256:0a82cffce78958dce0d3ecd05e680b105c6af2696e9aa1adbadf697cce552aa1"
+      },
+      {
+        "bytes": 4507,
+        "role": "source-notice",
+        "sha256": "5915f8d3327f7e7c5de3fbd7c318d53d0622c47984713bf05148d9bf3d819b3d",
+        "source": {
+          "commit": "c9aaee51b30714bf419c57ddee0a5322d1b2a3eb",
+          "path": "preview/atlantic-ocean-v1/README.md"
+        },
+        "uri": "sha256:5915f8d3327f7e7c5de3fbd7c318d53d0622c47984713bf05148d9bf3d819b3d"
+      },
+      {
+        "bytes": 2017782,
+        "role": "viewer",
+        "sha256": "491e02a8b59b3404f4dc95afe38620e8ade41f47a44aebe72d74139346c76cad",
+        "source": {
+          "commit": "c9aaee51b30714bf419c57ddee0a5322d1b2a3eb",
+          "path": "preview/atlantic-ocean-v1/atlantic-ocean-v1.html"
+        },
+        "uri": "sha256:491e02a8b59b3404f4dc95afe38620e8ade41f47a44aebe72d74139346c76cad"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "atlantic-ocean",
+    "independent_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "archives": [
+        {
+          "bytes": 4435526,
+          "entries": 50,
+          "inventory_entries_checked": 49,
+          "path": "preview/atlantic-ocean-v1/atlantic-ocean-v1-source.zip",
+          "required_payloads": "pass",
+          "safe_paths_crc": "pass",
+          "sha256": "c32732a5c2690006bfc425dae518bbdac35318c20071b7deb3851cd13fb3fda7"
+        }
+      ],
+      "fresh_browser_cases": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.3108558654785156,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 940488,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 5,
+            "meshes": 58,
+            "nonfinite": 0,
+            "triangles": 14476
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "atlantic-ocean",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "491e02a8b59b3404f4dc95afe38620e8ade41f47a44aebe72d74139346c76cad"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.3108558654785156,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 940488,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 5,
+            "meshes": 58,
+            "nonfinite": 0,
+            "triangles": 14476
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "atlantic-ocean",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "491e02a8b59b3404f4dc95afe38620e8ade41f47a44aebe72d74139346c76cad"
+        }
+      ],
+      "fresh_motion_suite": {
+        "exit_code": 0,
+        "id": "atlantic-ocean",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "c9aaee51b30714bf419c57ddee0a5322d1b2a3eb",
+            "path": "preview/atlantic-ocean-v1/motion.mjs",
+            "sha256": "d61544de9b41521a7b14e81a5e9867ce0fcc387f8852ce57490031b84bf2150e"
+          }
+        ]
+      },
+      "fresh_runtime_captures": [
+        "smoke/atlantic-ocean/desktop-closed.png",
+        "smoke/atlantic-ocean/desktop-open.png",
+        "smoke/atlantic-ocean/mobile-closed.png",
+        "smoke/atlantic-ocean/mobile-open.png"
+      ],
+      "id": "atlantic-ocean",
+      "independent_reviewer_recommendation": "needs-user-review",
+      "inspected_parent_images": [
+        "parent/boards/atlantic-ocean.jpg",
+        "parent/smoke/atlantic-ocean/desktop-closed.png",
+        "parent/smoke/atlantic-ocean/desktop-open.png",
+        "parent/smoke/atlantic-ocean/mobile-closed.png",
+        "parent/smoke/atlantic-ocean/mobile-open.png"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 64012,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/atlantic-ocean.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "Source/output reviewed: broad silhouette hardware miniature counts retained. Stronger contrast and surface realism; small contour/pattern variations.",
+          "reviewStatus": "reviewed",
+          "sha256": "d6250fa40e03ef95bc0cf87cd3e9a2a6f9d1808befafab5ebd413fcdc1614f33",
+          "source": "assets/gallery/atlantic-ocean.webp",
+          "sourceSha256": "9253d7ea0205e184c4a0a96b614c897504ba8de970a339e6d3e373935ecba1d5",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "3ee246c991dc2511dafabfb58a1de5a69b204580629dfc12135004cfa1e12127"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-Blender-reopen-parity-and-sampled-collisions",
+        "fresh-corrupt-GLB-fallback",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "models": [
+        {
+          "bytes": 276569,
+          "path": "preview/atlantic-ocean-v1/atlantic.blend",
+          "sha256": "de32925f8569a746ed462360afb4d079562ab8eef44de32581a44a5199adc336"
+        },
+        {
+          "bytes": 940488,
+          "path": "preview/atlantic-ocean-v1/atlantic.glb",
+          "sha256": "ca00f5e12ea66c7e47b75876cf505d1f75473f88617d608b7ce27b7ff76a4627"
+        }
+      ],
+      "parent_hold_preserved": true,
+      "selection": {
+        "commit": "c9aaee51b30714bf419c57ddee0a5322d1b2a3eb",
+        "fetched_tip": "c9aaee51b30714bf419c57ddee0a5322d1b2a3eb",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/atlantic-ocean-v1"
+      },
+      "technical_verdict": "pass-bounded-review",
+      "viewer": {
+        "bytes": 2017782,
+        "commit": "c9aaee51b30714bf419c57ddee0a5322d1b2a3eb",
+        "path": "preview/atlantic-ocean-v1/atlantic-ocean-v1.html",
+        "sha256": "491e02a8b59b3404f4dc95afe38620e8ade41f47a44aebe72d74139346c76cad",
+        "under_5000000": true
+      },
+      "visual_findings": "Pale low faceted ridge and regular high-contrast zigzag ocean pattern differ substantially from promotional craggy ridge and enamel.",
+      "visual_verdict": "needs-user-review"
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Atlantic Ocean",
+    "package_history": [
+      {
+        "bytes": 4435526,
+        "commit": "c9aaee51b30714bf419c57ddee0a5322d1b2a3eb",
+        "crc_error": null,
+        "entries": 50,
+        "inventory_checked": true,
+        "inventory_entries": 49,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/atlantic-ocean-v1/atlantic-ocean-v1-source.zip",
+        "required_payloads": {
+          "atlantic-ocean-v1.html": true,
+          "atlantic.blend": true,
+          "atlantic.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "c32732a5c2690006bfc425dae518bbdac35318c20071b7deb3851cd13fb3fda7"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "c9aaee51b30714bf419c57ddee0a5322d1b2a3eb",
+      "fetched_tip": "c9aaee51b30714bf419c57ddee0a5322d1b2a3eb",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/atlantic-ocean-v1"
+    },
+    "verdict": "needs-user-review",
+    "viewer": {
+      "bytes": 2017782,
+      "commit": "c9aaee51b30714bf419c57ddee0a5322d1b2a3eb",
+      "path": "preview/atlantic-ocean-v1/atlantic-ocean-v1.html",
+      "sha256": "491e02a8b59b3404f4dc95afe38620e8ade41f47a44aebe72d74139346c76cad",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "atlantic-ocean",
+    "baseline_verdict": "needs-user-review",
+    "actions": [
+      "owner art/finish acceptance; no proven runtime defect recorded; no autonomous redesign"
+    ],
+    "approval": false,
+    "original_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "archives": [
+        {
+          "bytes": 4435526,
+          "entries": 50,
+          "inventory_entries_checked": 49,
+          "path": "preview/atlantic-ocean-v1/atlantic-ocean-v1-source.zip",
+          "required_payloads": "pass",
+          "safe_paths_crc": "pass",
+          "sha256": "c32732a5c2690006bfc425dae518bbdac35318c20071b7deb3851cd13fb3fda7"
+        }
+      ],
+      "fresh_browser_cases": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.3108558654785156,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 940488,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 5,
+            "meshes": 58,
+            "nonfinite": 0,
+            "triangles": 14476
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "atlantic-ocean",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "491e02a8b59b3404f4dc95afe38620e8ade41f47a44aebe72d74139346c76cad"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.3108558654785156,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 940488,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 5,
+            "meshes": 58,
+            "nonfinite": 0,
+            "triangles": 14476
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "atlantic-ocean",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "491e02a8b59b3404f4dc95afe38620e8ade41f47a44aebe72d74139346c76cad"
+        }
+      ],
+      "fresh_motion_suite": {
+        "exit_code": 0,
+        "id": "atlantic-ocean",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "c9aaee51b30714bf419c57ddee0a5322d1b2a3eb",
+            "path": "preview/atlantic-ocean-v1/motion.mjs",
+            "sha256": "d61544de9b41521a7b14e81a5e9867ce0fcc387f8852ce57490031b84bf2150e"
+          }
+        ]
+      },
+      "fresh_runtime_captures": [
+        "smoke/atlantic-ocean/desktop-closed.png",
+        "smoke/atlantic-ocean/desktop-open.png",
+        "smoke/atlantic-ocean/mobile-closed.png",
+        "smoke/atlantic-ocean/mobile-open.png"
+      ],
+      "id": "atlantic-ocean",
+      "independent_reviewer_recommendation": "needs-user-review",
+      "inspected_parent_images": [
+        "parent/boards/atlantic-ocean.jpg",
+        "parent/smoke/atlantic-ocean/desktop-closed.png",
+        "parent/smoke/atlantic-ocean/desktop-open.png",
+        "parent/smoke/atlantic-ocean/mobile-closed.png",
+        "parent/smoke/atlantic-ocean/mobile-open.png"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 64012,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/atlantic-ocean.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "Source/output reviewed: broad silhouette hardware miniature counts retained. Stronger contrast and surface realism; small contour/pattern variations.",
+          "reviewStatus": "reviewed",
+          "sha256": "d6250fa40e03ef95bc0cf87cd3e9a2a6f9d1808befafab5ebd413fcdc1614f33",
+          "source": "assets/gallery/atlantic-ocean.webp",
+          "sourceSha256": "9253d7ea0205e184c4a0a96b614c897504ba8de970a339e6d3e373935ecba1d5",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "3ee246c991dc2511dafabfb58a1de5a69b204580629dfc12135004cfa1e12127"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-Blender-reopen-parity-and-sampled-collisions",
+        "fresh-corrupt-GLB-fallback",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "models": [
+        {
+          "bytes": 276569,
+          "path": "preview/atlantic-ocean-v1/atlantic.blend",
+          "sha256": "de32925f8569a746ed462360afb4d079562ab8eef44de32581a44a5199adc336"
+        },
+        {
+          "bytes": 940488,
+          "path": "preview/atlantic-ocean-v1/atlantic.glb",
+          "sha256": "ca00f5e12ea66c7e47b75876cf505d1f75473f88617d608b7ce27b7ff76a4627"
+        }
+      ],
+      "parent_hold_preserved": true,
+      "selection": {
+        "commit": "c9aaee51b30714bf419c57ddee0a5322d1b2a3eb",
+        "fetched_tip": "c9aaee51b30714bf419c57ddee0a5322d1b2a3eb",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/atlantic-ocean-v1"
+      },
+      "technical_verdict": "pass-bounded-review",
+      "viewer": {
+        "bytes": 2017782,
+        "commit": "c9aaee51b30714bf419c57ddee0a5322d1b2a3eb",
+        "path": "preview/atlantic-ocean-v1/atlantic-ocean-v1.html",
+        "sha256": "491e02a8b59b3404f4dc95afe38620e8ade41f47a44aebe72d74139346c76cad",
+        "under_5000000": true
+      },
+      "visual_findings": "Pale low faceted ridge and regular high-contrast zigzag ocean pattern differ substantially from promotional craggy ridge and enamel.",
+      "visual_verdict": "needs-user-review"
+    },
+    "package_history": [
+      {
+        "bytes": 4435526,
+        "commit": "c9aaee51b30714bf419c57ddee0a5322d1b2a3eb",
+        "crc_error": null,
+        "entries": 50,
+        "inventory_checked": true,
+        "inventory_entries": 49,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/atlantic-ocean-v1/atlantic-ocean-v1-source.zip",
+        "required_payloads": {
+          "atlantic-ocean-v1.html": true,
+          "atlantic.blend": true,
+          "atlantic.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "c32732a5c2690006bfc425dae518bbdac35318c20071b7deb3851cd13fb3fda7"
+      }
+    ]
+  },
+  "visual_decision": {
+    "id": "atlantic-ocean",
+    "disposition": "preview-accepted-with-limitations",
+    "issue": "Low faceted ridge rather than craggy promotional relief.",
+    "rationale": "Individual-board inspection resolves two low angular banks around a crooked cyan rift. The split-ridge motif survives; reduced height, graphic waves and uncertain physical channel depth are disclosed rather than treated as missing terrain.",
+    "evidence": {
+      "commit": "d6a689fd19cfddcc5fef52606f4e581938a8a004",
+      "path": "launch/qa-art-02/parent/boards/atlantic-ocean.jpg",
+      "sha256": "72b5e8db59ef1aaf1db403e75e7a63c3c55d499fc586e62872b6c7870d31f156"
+    }
+  }
+}

@@ -1,0 +1,554 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 2,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 667293,
+        "role": "editable-source",
+        "sha256": "03abc7473aa5aca363e3c52d5e94a8a1e743ffb815ea9f8484c9d99db3492eef",
+        "source": {
+          "commit": "933ebc0c3e83da3f439786f1ddfa5f6427a6932e",
+          "path": "preview/dominican-republic-v1/dominican-republic.blend"
+        },
+        "uri": "sha256:03abc7473aa5aca363e3c52d5e94a8a1e743ffb815ea9f8484c9d99db3492eef"
+      },
+      {
+        "bytes": 8052312,
+        "role": "historical-source-archive",
+        "sha256": "d83c2eb8b4540038c06f9c0e9059dfe857b887001cc9400cab2aee341f8ba386",
+        "source": {
+          "commit": "933ebc0c3e83da3f439786f1ddfa5f6427a6932e",
+          "kind": "git",
+          "path": "preview/dominican-republic-v1/dominican-republic-v1-source.zip"
+        },
+        "uri": "sha256:d83c2eb8b4540038c06f9c0e9059dfe857b887001cc9400cab2aee341f8ba386"
+      },
+      {
+        "bytes": 1403740,
+        "role": "model",
+        "sha256": "b461bddf2921d57e830216e45dc6e83e57c787f186d9310d667c62816c5058ea",
+        "source": {
+          "commit": "933ebc0c3e83da3f439786f1ddfa5f6427a6932e",
+          "path": "preview/dominican-republic-v1/dominican-republic.glb"
+        },
+        "uri": "sha256:b461bddf2921d57e830216e45dc6e83e57c787f186d9310d667c62816c5058ea"
+      },
+      {
+        "bytes": 67268,
+        "role": "promotional-illustration",
+        "sha256": "62fb0b1cbe131574571cfdd5f547aa70de018a2b657f545bd93a27281471c9b3",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/dominican-republic.webp"
+        },
+        "uri": "sha256:62fb0b1cbe131574571cfdd5f547aa70de018a2b657f545bd93a27281471c9b3"
+      },
+      {
+        "bytes": 2629,
+        "role": "research-brief",
+        "sha256": "472bed7de1b31a2ca7e0ae8540ebc610a2c01409f2b025e3dcbab71fa8d9d606",
+        "source": {
+          "commit": "933ebc0c3e83da3f439786f1ddfa5f6427a6932e",
+          "path": "preview/dominican-republic-v1/design-brief.md"
+        },
+        "uri": "sha256:472bed7de1b31a2ca7e0ae8540ebc610a2c01409f2b025e3dcbab71fa8d9d606"
+      },
+      {
+        "bytes": 5007,
+        "role": "source-notice",
+        "sha256": "f0af199cefcc5f915ec8160ffbe28b8fe7f206a8be41d3c423e9ad252f97360e",
+        "source": {
+          "commit": "933ebc0c3e83da3f439786f1ddfa5f6427a6932e",
+          "path": "preview/dominican-republic-v1/README.md"
+        },
+        "uri": "sha256:f0af199cefcc5f915ec8160ffbe28b8fe7f206a8be41d3c423e9ad252f97360e"
+      },
+      {
+        "bytes": 2658887,
+        "role": "viewer",
+        "sha256": "e0f6d323c86cdd7f7169c0d1966c2ecd5f02806b2d197ed3392d150a7f576377",
+        "source": {
+          "commit": "933ebc0c3e83da3f439786f1ddfa5f6427a6932e",
+          "path": "preview/dominican-republic-v1/dominican-republic-v1.html"
+        },
+        "uri": "sha256:e0f6d323c86cdd7f7169c0d1966c2ecd5f02806b2d197ed3392d150a7f576377"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "dominican-republic",
+    "independent_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "archives": [
+        {
+          "bytes": 8052312,
+          "entries": 55,
+          "inventory_entries_checked": 54,
+          "path": "preview/dominican-republic-v1/dominican-republic-v1-source.zip",
+          "required_payloads": "pass",
+          "safe_paths_crc": "pass",
+          "sha256": "d83c2eb8b4540038c06f9c0e9059dfe857b887001cc9400cab2aee341f8ba386"
+        }
+      ],
+      "fresh_browser_cases": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.450000047683716,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1403740,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 4,
+            "meshes": 63,
+            "nonfinite": 0,
+            "triangles": 15884
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "dominican-republic",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "e0f6d323c86cdd7f7169c0d1966c2ecd5f02806b2d197ed3392d150a7f576377"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.450000047683716,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1403740,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 4,
+            "meshes": 63,
+            "nonfinite": 0,
+            "triangles": 15884
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "dominican-republic",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "e0f6d323c86cdd7f7169c0d1966c2ecd5f02806b2d197ed3392d150a7f576377"
+        }
+      ],
+      "fresh_motion_suite": {
+        "exit_code": 0,
+        "id": "dominican-republic",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "933ebc0c3e83da3f439786f1ddfa5f6427a6932e",
+            "path": "preview/dominican-republic-v1/motion.mjs",
+            "sha256": "d61544de9b41521a7b14e81a5e9867ce0fcc387f8852ce57490031b84bf2150e"
+          }
+        ]
+      },
+      "fresh_runtime_captures": [
+        "smoke/dominican-republic/desktop-closed.png",
+        "smoke/dominican-republic/desktop-open.png",
+        "smoke/dominican-republic/mobile-closed.png",
+        "smoke/dominican-republic/mobile-open.png"
+      ],
+      "id": "dominican-republic",
+      "independent_reviewer_recommendation": "needs-user-review",
+      "inspected_parent_images": [
+        "parent/boards/dominican-republic.jpg",
+        "parent/smoke/dominican-republic/desktop-closed.png",
+        "parent/smoke/dominican-republic/desktop-open.png",
+        "parent/smoke/dominican-republic/mobile-closed.png",
+        "parent/smoke/dominican-republic/mobile-open.png"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 67268,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1136,
+          912
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/dominican-republic.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1136,
+            912
+          ],
+          "provider": "xai",
+          "reviewNotes": "Source/output visually reviewed. Broad identity hardware and layout retained; richer contrast and fine contour/pattern changes.",
+          "reviewStatus": "reviewed",
+          "sha256": "6ff1d63e9d9d026f75e02eb883ce63c2c750e2bdbf84506ded4367394d682bd3",
+          "source": "assets/gallery/dominican-republic.webp",
+          "sourceSha256": "ac10d92dfd1bb6b87b9543bdcd483250cacd440a22cb1134e7e1b1369ed89842",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "62fb0b1cbe131574571cfdd5f547aa70de018a2b657f545bd93a27281471c9b3"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-Blender-reopen-parity-and-sampled-collisions",
+        "fresh-corrupt-GLB-fallback",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "models": [
+        {
+          "bytes": 667293,
+          "path": "preview/dominican-republic-v1/dominican-republic.blend",
+          "sha256": "03abc7473aa5aca363e3c52d5e94a8a1e743ffb815ea9f8484c9d99db3492eef"
+        },
+        {
+          "bytes": 1403740,
+          "path": "preview/dominican-republic-v1/dominican-republic.glb",
+          "sha256": "b461bddf2921d57e830216e45dc6e83e57c787f186d9310d667c62816c5058ea"
+        }
+      ],
+      "parent_hold_preserved": true,
+      "selection": {
+        "commit": "933ebc0c3e83da3f439786f1ddfa5f6427a6932e",
+        "fetched_tip": "933ebc0c3e83da3f439786f1ddfa5f6427a6932e",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/dominican-republic-v1"
+      },
+      "technical_verdict": "pass-bounded-review",
+      "viewer": {
+        "bytes": 2658887,
+        "commit": "933ebc0c3e83da3f439786f1ddfa5f6427a6932e",
+        "path": "preview/dominican-republic-v1/dominican-republic-v1.html",
+        "sha256": "e0f6d323c86cdd7f7169c0d1966c2ecd5f02806b2d197ed3392d150a7f576377",
+        "under_5000000": true
+      },
+      "visual_findings": "Bright dense caustic-like pattern replaces cloudy mineral impression; irregular pale base and blue stone depth reduced; angular pattern transitions.",
+      "visual_verdict": "needs-user-review"
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Dominican Republic",
+    "package_history": [
+      {
+        "bytes": 8052312,
+        "commit": "933ebc0c3e83da3f439786f1ddfa5f6427a6932e",
+        "crc_error": null,
+        "entries": 55,
+        "inventory_checked": true,
+        "inventory_entries": 54,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/dominican-republic-v1/dominican-republic-v1-source.zip",
+        "required_payloads": {
+          "dominican-republic-v1.html": true,
+          "dominican-republic.blend": true,
+          "dominican-republic.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "d83c2eb8b4540038c06f9c0e9059dfe857b887001cc9400cab2aee341f8ba386"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "933ebc0c3e83da3f439786f1ddfa5f6427a6932e",
+      "fetched_tip": "933ebc0c3e83da3f439786f1ddfa5f6427a6932e",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/dominican-republic-v1"
+    },
+    "verdict": "needs-user-review",
+    "viewer": {
+      "bytes": 2658887,
+      "commit": "933ebc0c3e83da3f439786f1ddfa5f6427a6932e",
+      "path": "preview/dominican-republic-v1/dominican-republic-v1.html",
+      "sha256": "e0f6d323c86cdd7f7169c0d1966c2ecd5f02806b2d197ed3392d150a7f576377",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "dominican-republic",
+    "baseline_verdict": "needs-user-review",
+    "actions": [
+      "owner art/finish acceptance; no proven runtime defect recorded; no autonomous redesign"
+    ],
+    "approval": false,
+    "original_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "archives": [
+        {
+          "bytes": 8052312,
+          "entries": 55,
+          "inventory_entries_checked": 54,
+          "path": "preview/dominican-republic-v1/dominican-republic-v1-source.zip",
+          "required_payloads": "pass",
+          "safe_paths_crc": "pass",
+          "sha256": "d83c2eb8b4540038c06f9c0e9059dfe857b887001cc9400cab2aee341f8ba386"
+        }
+      ],
+      "fresh_browser_cases": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.450000047683716,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1403740,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 4,
+            "meshes": 63,
+            "nonfinite": 0,
+            "triangles": 15884
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "dominican-republic",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "e0f6d323c86cdd7f7169c0d1966c2ecd5f02806b2d197ed3392d150a7f576377"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.450000047683716,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1403740,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 4,
+            "meshes": 63,
+            "nonfinite": 0,
+            "triangles": 15884
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "dominican-republic",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "e0f6d323c86cdd7f7169c0d1966c2ecd5f02806b2d197ed3392d150a7f576377"
+        }
+      ],
+      "fresh_motion_suite": {
+        "exit_code": 0,
+        "id": "dominican-republic",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "933ebc0c3e83da3f439786f1ddfa5f6427a6932e",
+            "path": "preview/dominican-republic-v1/motion.mjs",
+            "sha256": "d61544de9b41521a7b14e81a5e9867ce0fcc387f8852ce57490031b84bf2150e"
+          }
+        ]
+      },
+      "fresh_runtime_captures": [
+        "smoke/dominican-republic/desktop-closed.png",
+        "smoke/dominican-republic/desktop-open.png",
+        "smoke/dominican-republic/mobile-closed.png",
+        "smoke/dominican-republic/mobile-open.png"
+      ],
+      "id": "dominican-republic",
+      "independent_reviewer_recommendation": "needs-user-review",
+      "inspected_parent_images": [
+        "parent/boards/dominican-republic.jpg",
+        "parent/smoke/dominican-republic/desktop-closed.png",
+        "parent/smoke/dominican-republic/desktop-open.png",
+        "parent/smoke/dominican-republic/mobile-closed.png",
+        "parent/smoke/dominican-republic/mobile-open.png"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 67268,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1136,
+          912
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/dominican-republic.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1136,
+            912
+          ],
+          "provider": "xai",
+          "reviewNotes": "Source/output visually reviewed. Broad identity hardware and layout retained; richer contrast and fine contour/pattern changes.",
+          "reviewStatus": "reviewed",
+          "sha256": "6ff1d63e9d9d026f75e02eb883ce63c2c750e2bdbf84506ded4367394d682bd3",
+          "source": "assets/gallery/dominican-republic.webp",
+          "sourceSha256": "ac10d92dfd1bb6b87b9543bdcd483250cacd440a22cb1134e7e1b1369ed89842",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "62fb0b1cbe131574571cfdd5f547aa70de018a2b657f545bd93a27281471c9b3"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-Blender-reopen-parity-and-sampled-collisions",
+        "fresh-corrupt-GLB-fallback",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "models": [
+        {
+          "bytes": 667293,
+          "path": "preview/dominican-republic-v1/dominican-republic.blend",
+          "sha256": "03abc7473aa5aca363e3c52d5e94a8a1e743ffb815ea9f8484c9d99db3492eef"
+        },
+        {
+          "bytes": 1403740,
+          "path": "preview/dominican-republic-v1/dominican-republic.glb",
+          "sha256": "b461bddf2921d57e830216e45dc6e83e57c787f186d9310d667c62816c5058ea"
+        }
+      ],
+      "parent_hold_preserved": true,
+      "selection": {
+        "commit": "933ebc0c3e83da3f439786f1ddfa5f6427a6932e",
+        "fetched_tip": "933ebc0c3e83da3f439786f1ddfa5f6427a6932e",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/dominican-republic-v1"
+      },
+      "technical_verdict": "pass-bounded-review",
+      "viewer": {
+        "bytes": 2658887,
+        "commit": "933ebc0c3e83da3f439786f1ddfa5f6427a6932e",
+        "path": "preview/dominican-republic-v1/dominican-republic-v1.html",
+        "sha256": "e0f6d323c86cdd7f7169c0d1966c2ecd5f02806b2d197ed3392d150a7f576377",
+        "under_5000000": true
+      },
+      "visual_findings": "Bright dense caustic-like pattern replaces cloudy mineral impression; irregular pale base and blue stone depth reduced; angular pattern transitions.",
+      "visual_verdict": "needs-user-review"
+    },
+    "package_history": [
+      {
+        "bytes": 8052312,
+        "commit": "933ebc0c3e83da3f439786f1ddfa5f6427a6932e",
+        "crc_error": null,
+        "entries": 55,
+        "inventory_checked": true,
+        "inventory_entries": 54,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/dominican-republic-v1/dominican-republic-v1-source.zip",
+        "required_payloads": {
+          "dominican-republic-v1.html": true,
+          "dominican-republic.blend": true,
+          "dominican-republic.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "d83c2eb8b4540038c06f9c0e9059dfe857b887001cc9400cab2aee341f8ba386"
+      }
+    ]
+  },
+  "visual_decision": {
+    "id": "dominican-republic",
+    "disposition": "preview-accepted-with-limitations",
+    "issue": "Graphic caustic-like veining rather than cloudy mineral depth.",
+    "rationale": "Blue-white larimar palette, lid stones and pale feet remain distinct. Dense repeating veins and angular transitions are disclosed surface stylization, not missing stone ornament.",
+    "evidence": {
+      "commit": "d6a689fd19cfddcc5fef52606f4e581938a8a004",
+      "path": "launch/qa-art-02/parent/boards/dominican-republic.jpg",
+      "sha256": "878a2ae32a5398c38bd291fdb2b9e7b1c1daad930a6e631793c9eb24590ff55a"
+    }
+  }
+}

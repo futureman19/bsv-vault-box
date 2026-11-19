@@ -1,0 +1,538 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 1,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 409972,
+        "role": "editable-source",
+        "sha256": "8bcf85d313e525c129770dd8da268caecb8bb83da86dad396a67d34a138b0711",
+        "source": {
+          "commit": "825e1429528f18a1b619ffd4ede489a219582afd",
+          "path": "preview/uruguay-v1/uruguay.blend"
+        },
+        "uri": "sha256:8bcf85d313e525c129770dd8da268caecb8bb83da86dad396a67d34a138b0711"
+      },
+      {
+        "bytes": 5329820,
+        "role": "historical-source-archive",
+        "sha256": "7062843be935c9a7bc9a5e3748ab71371335400eabe0e2bf980c07896e1c6b35",
+        "source": {
+          "commit": "825e1429528f18a1b619ffd4ede489a219582afd",
+          "kind": "git",
+          "path": "preview/uruguay-v1/uruguay-v1-source.zip"
+        },
+        "uri": "sha256:7062843be935c9a7bc9a5e3748ab71371335400eabe0e2bf980c07896e1c6b35"
+      },
+      {
+        "bytes": 1116544,
+        "role": "model",
+        "sha256": "bccbed52e217917438a7bc435693bcfee0243e8402ad977c6bcba8fa166a3bdc",
+        "source": {
+          "commit": "825e1429528f18a1b619ffd4ede489a219582afd",
+          "path": "preview/uruguay-v1/uruguay.glb"
+        },
+        "uri": "sha256:bccbed52e217917438a7bc435693bcfee0243e8402ad977c6bcba8fa166a3bdc"
+      },
+      {
+        "bytes": 48804,
+        "role": "promotional-illustration",
+        "sha256": "a9239ef42cfdb62ead0dc475daa9433b5cab9e73c53bf8ebdbd959d27d301e99",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/uruguay.webp"
+        },
+        "uri": "sha256:a9239ef42cfdb62ead0dc475daa9433b5cab9e73c53bf8ebdbd959d27d301e99"
+      },
+      {
+        "bytes": 3662,
+        "role": "research-brief",
+        "sha256": "bda4d4780e01f3daf69e96d4a80d59eeb69dc18c3eb4ba7300345585e82b5b9b",
+        "source": {
+          "commit": "825e1429528f18a1b619ffd4ede489a219582afd",
+          "path": "preview/uruguay-v1/design-brief.md"
+        },
+        "uri": "sha256:bda4d4780e01f3daf69e96d4a80d59eeb69dc18c3eb4ba7300345585e82b5b9b"
+      },
+      {
+        "bytes": 6443,
+        "role": "source-notice",
+        "sha256": "d3663dad7ab28f816112d5282debb5821c28e9ec3e6c66236d716f3763d6b479",
+        "source": {
+          "commit": "825e1429528f18a1b619ffd4ede489a219582afd",
+          "path": "preview/uruguay-v1/README.md"
+        },
+        "uri": "sha256:d3663dad7ab28f816112d5282debb5821c28e9ec3e6c66236d716f3763d6b479"
+      },
+      {
+        "bytes": 2266525,
+        "role": "viewer",
+        "sha256": "1cf49d8c9f970e2b5309b163c1ea1cbe790392741b80ed80c8ab38067d4967a8",
+        "source": {
+          "commit": "825e1429528f18a1b619ffd4ede489a219582afd",
+          "path": "preview/uruguay-v1/uruguay-v1.html"
+        },
+        "uri": "sha256:1cf49d8c9f970e2b5309b163c1ea1cbe790392741b80ed80c8ab38067d4967a8"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "uruguay",
+    "independent_review": {
+      "all_four_original_captures_inspected": true,
+      "captures": [
+        "launch/art-01/smoke/uruguay/desktop-closed.png",
+        "launch/art-01/smoke/uruguay/desktop-open.png",
+        "launch/art-01/smoke/uruguay/mobile-closed.png",
+        "launch/art-01/smoke/uruguay/mobile-open.png"
+      ],
+      "critical_defects": [],
+      "fresh_qa_runtime": [],
+      "id": "uruguay",
+      "launch_ready": false,
+      "marketing_inspected": true,
+      "model_changed": false,
+      "model_sources": [
+        {
+          "bytes": 409972,
+          "commit": "825e1429528f18a1b619ffd4ede489a219582afd",
+          "path": "preview/uruguay-v1/uruguay.blend",
+          "role": "selected-model",
+          "sha256": "8bcf85d313e525c129770dd8da268caecb8bb83da86dad396a67d34a138b0711"
+        },
+        {
+          "bytes": 1116544,
+          "commit": "825e1429528f18a1b619ffd4ede489a219582afd",
+          "path": "preview/uruguay-v1/uruguay.glb",
+          "role": "selected-model",
+          "sha256": "bccbed52e217917438a7bc435693bcfee0243e8402ad977c6bcba8fa166a3bdc",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 76,
+            "nodes": 78
+          }
+        }
+      ],
+      "parent_runtime": {
+        "cases": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.339756488800049,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1116544,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 8,
+              "meshes": 78,
+              "nonfinite": 0,
+              "triangles": 17116
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "uruguay",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "1cf49d8c9f970e2b5309b163c1ea1cbe790392741b80ed80c8ab38067d4967a8"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.339756488800049,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1116544,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 8,
+              "meshes": 78,
+              "nonfinite": 0,
+              "triangles": 17116
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "uruguay",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "1cf49d8c9f970e2b5309b163c1ea1cbe790392741b80ed80c8ab38067d4967a8"
+          }
+        ],
+        "independently_rerun": false,
+        "motion": {
+          "exit_code": 0,
+          "id": "uruguay",
+          "passed": true,
+          "scope": "original motion unit assertions; not fresh collision/source parity"
+        }
+      },
+      "parent_status": "needs-decision",
+      "remaining_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "art-direction-decision",
+        "hinge-attachment-clarity-not-proven-by-stills"
+      ],
+      "selection": {
+        "commit": "825e1429528f18a1b619ffd4ede489a219582afd",
+        "fetched_tip": "825e1429528f18a1b619ffd4ede489a219582afd",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/uruguay-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 5329820,
+          "commit": "825e1429528f18a1b619ffd4ede489a219582afd",
+          "crc_safe_unique": true,
+          "exact_selected_payloads": {
+            "uruguay-v1.html": [
+              "uruguay-v1.html"
+            ],
+            "uruguay.blend": [
+              "uruguay.blend"
+            ],
+            "uruguay.glb": [
+              "uruguay.glb"
+            ]
+          },
+          "full_inventory_rerun": false,
+          "inherited_full_inventory_checked": true,
+          "members": 57,
+          "path": "preview/uruguay-v1/uruguay-v1-source.zip",
+          "sha256": "7062843be935c9a7bc9a5e3748ab71371335400eabe0e2bf980c07896e1c6b35"
+        }
+      ],
+      "user_final_approved": false,
+      "verdict": "needs-user-review",
+      "viewer": {
+        "bytes": 2266525,
+        "commit": "825e1429528f18a1b619ffd4ede489a219582afd",
+        "path": "preview/uruguay-v1/uruguay-v1.html",
+        "sha256": "1cf49d8c9f970e2b5309b163c1ea1cbe790392741b80ed80c8ab38067d4967a8",
+        "under_5000000": true
+      },
+      "visual_review": {
+        "critical_visible_faults": [],
+        "desktop_closed": "Pale green-gray body, rolling hills, pale-blue winding channel and round vegetation are readable. Body mottling repeats; dark pointed terrain-edge seam at rear/right is ambiguous rather than proven clipping.",
+        "desktop_open": "Hollow cavity and raised lid fit entirely. Broad regular texture is obvious; rear hinge/lid junction can read disconnected, with no definite major fault.",
+        "file": "visual-d.json",
+        "id": "uruguay",
+        "marketing_comparison": "Same pale stone-like chest, brass fittings, green hills and winding river with pale banks. Both are stylized. Marketing terrain edges and relief read more pronounced; runtime shell texture is more visibly regular and blurred. No confirmed missing river or landmark.",
+        "mobile_closed": "Winding channel survives but reads more like a river between smooth banks than a deep gorge. Full box and UI remain visible.",
+        "mobile_open": "Interior is readable and complete; angular rim junctions and soft checked texture persist. No viewport clipping.",
+        "parent_status": "needs-decision",
+        "parent_status_justified": true,
+        "qualification": "Material-pattern and shallow-gorge readability support a cautious hold. Different camera framing prevents a measured claim that the terrain is physically shallower.",
+        "recommended_status": "needs-decision"
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Uruguay",
+    "package_history": [
+      {
+        "bytes": 5329820,
+        "commit": "825e1429528f18a1b619ffd4ede489a219582afd",
+        "crc_error": null,
+        "entries": 57,
+        "inventory_checked": true,
+        "inventory_entries": 56,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/uruguay-v1/uruguay-v1-source.zip",
+        "required_payloads": {
+          "uruguay-v1.html": true,
+          "uruguay.blend": true,
+          "uruguay.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "7062843be935c9a7bc9a5e3748ab71371335400eabe0e2bf980c07896e1c6b35"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "825e1429528f18a1b619ffd4ede489a219582afd",
+      "fetched_tip": "825e1429528f18a1b619ffd4ede489a219582afd",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/uruguay-v1"
+    },
+    "verdict": "needs-user-review",
+    "viewer": {
+      "bytes": 2266525,
+      "commit": "825e1429528f18a1b619ffd4ede489a219582afd",
+      "path": "preview/uruguay-v1/uruguay-v1.html",
+      "sha256": "1cf49d8c9f970e2b5309b163c1ea1cbe790392741b80ed80c8ab38067d4967a8",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "uruguay",
+    "baseline_verdict": "needs-user-review",
+    "actions": [
+      "owner art/finish acceptance; no proven runtime defect recorded; no autonomous redesign"
+    ],
+    "approval": false,
+    "original_review": {
+      "all_four_original_captures_inspected": true,
+      "captures": [
+        "launch/art-01/smoke/uruguay/desktop-closed.png",
+        "launch/art-01/smoke/uruguay/desktop-open.png",
+        "launch/art-01/smoke/uruguay/mobile-closed.png",
+        "launch/art-01/smoke/uruguay/mobile-open.png"
+      ],
+      "critical_defects": [],
+      "fresh_qa_runtime": [],
+      "id": "uruguay",
+      "launch_ready": false,
+      "marketing_inspected": true,
+      "model_changed": false,
+      "model_sources": [
+        {
+          "bytes": 409972,
+          "commit": "825e1429528f18a1b619ffd4ede489a219582afd",
+          "path": "preview/uruguay-v1/uruguay.blend",
+          "role": "selected-model",
+          "sha256": "8bcf85d313e525c129770dd8da268caecb8bb83da86dad396a67d34a138b0711"
+        },
+        {
+          "bytes": 1116544,
+          "commit": "825e1429528f18a1b619ffd4ede489a219582afd",
+          "path": "preview/uruguay-v1/uruguay.glb",
+          "role": "selected-model",
+          "sha256": "bccbed52e217917438a7bc435693bcfee0243e8402ad977c6bcba8fa166a3bdc",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 76,
+            "nodes": 78
+          }
+        }
+      ],
+      "parent_runtime": {
+        "cases": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.339756488800049,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1116544,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 8,
+              "meshes": 78,
+              "nonfinite": 0,
+              "triangles": 17116
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "uruguay",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "1cf49d8c9f970e2b5309b163c1ea1cbe790392741b80ed80c8ab38067d4967a8"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.339756488800049,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1116544,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 8,
+              "meshes": 78,
+              "nonfinite": 0,
+              "triangles": 17116
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "uruguay",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "1cf49d8c9f970e2b5309b163c1ea1cbe790392741b80ed80c8ab38067d4967a8"
+          }
+        ],
+        "independently_rerun": false,
+        "motion": {
+          "exit_code": 0,
+          "id": "uruguay",
+          "passed": true,
+          "scope": "original motion unit assertions; not fresh collision/source parity"
+        }
+      },
+      "parent_status": "needs-decision",
+      "remaining_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "art-direction-decision",
+        "hinge-attachment-clarity-not-proven-by-stills"
+      ],
+      "selection": {
+        "commit": "825e1429528f18a1b619ffd4ede489a219582afd",
+        "fetched_tip": "825e1429528f18a1b619ffd4ede489a219582afd",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/uruguay-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 5329820,
+          "commit": "825e1429528f18a1b619ffd4ede489a219582afd",
+          "crc_safe_unique": true,
+          "exact_selected_payloads": {
+            "uruguay-v1.html": [
+              "uruguay-v1.html"
+            ],
+            "uruguay.blend": [
+              "uruguay.blend"
+            ],
+            "uruguay.glb": [
+              "uruguay.glb"
+            ]
+          },
+          "full_inventory_rerun": false,
+          "inherited_full_inventory_checked": true,
+          "members": 57,
+          "path": "preview/uruguay-v1/uruguay-v1-source.zip",
+          "sha256": "7062843be935c9a7bc9a5e3748ab71371335400eabe0e2bf980c07896e1c6b35"
+        }
+      ],
+      "user_final_approved": false,
+      "verdict": "needs-user-review",
+      "viewer": {
+        "bytes": 2266525,
+        "commit": "825e1429528f18a1b619ffd4ede489a219582afd",
+        "path": "preview/uruguay-v1/uruguay-v1.html",
+        "sha256": "1cf49d8c9f970e2b5309b163c1ea1cbe790392741b80ed80c8ab38067d4967a8",
+        "under_5000000": true
+      },
+      "visual_review": {
+        "critical_visible_faults": [],
+        "desktop_closed": "Pale green-gray body, rolling hills, pale-blue winding channel and round vegetation are readable. Body mottling repeats; dark pointed terrain-edge seam at rear/right is ambiguous rather than proven clipping.",
+        "desktop_open": "Hollow cavity and raised lid fit entirely. Broad regular texture is obvious; rear hinge/lid junction can read disconnected, with no definite major fault.",
+        "file": "visual-d.json",
+        "id": "uruguay",
+        "marketing_comparison": "Same pale stone-like chest, brass fittings, green hills and winding river with pale banks. Both are stylized. Marketing terrain edges and relief read more pronounced; runtime shell texture is more visibly regular and blurred. No confirmed missing river or landmark.",
+        "mobile_closed": "Winding channel survives but reads more like a river between smooth banks than a deep gorge. Full box and UI remain visible.",
+        "mobile_open": "Interior is readable and complete; angular rim junctions and soft checked texture persist. No viewport clipping.",
+        "parent_status": "needs-decision",
+        "parent_status_justified": true,
+        "qualification": "Material-pattern and shallow-gorge readability support a cautious hold. Different camera framing prevents a measured claim that the terrain is physically shallower.",
+        "recommended_status": "needs-decision"
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 5329820,
+        "commit": "825e1429528f18a1b619ffd4ede489a219582afd",
+        "crc_error": null,
+        "entries": 57,
+        "inventory_checked": true,
+        "inventory_entries": 56,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/uruguay-v1/uruguay-v1-source.zip",
+        "required_payloads": {
+          "uruguay-v1.html": true,
+          "uruguay.blend": true,
+          "uruguay.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "7062843be935c9a7bc9a5e3748ab71371335400eabe0e2bf980c07896e1c6b35"
+      }
+    ]
+  },
+  "visual_decision": {
+    "id": "uruguay",
+    "disposition": "preview-accepted-with-limitations",
+    "issue": "Shallow-looking winding channel and repetitive stone mottling.",
+    "rationale": "Raised green banks, winding pale-blue channel and round vegetation remain. Accept a stylized grassland/channel miniature, disclose weak gorge-depth readability, and do not infer measured terrain shallowness from unmatched views.",
+    "evidence": {
+      "commit": "45e69632c56c786dbf84ab6484d6b352f482c5c6",
+      "path": "launch/qa-art-01/launch/art-01/boards/uruguay.jpg",
+      "sha256": "7cb9fef0a2b26a950084d615dac2c3dbb067198e1604e5b76fa70e5537958278"
+    }
+  }
+}

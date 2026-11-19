@@ -1,0 +1,748 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 5,
+    "category": "Ocean",
+    "files": [
+      {
+        "bytes": 645585,
+        "role": "editable-source",
+        "sha256": "2446ec1ce9e853c8a7c2c630f6a43eb40cc7918abd58d048a48bccbd36fff186",
+        "source": {
+          "commit": "d0313824a26394a8e88fd6cefa15a60bb409d3cb",
+          "path": "preview/pacific-ocean-v1/pacific-ocean.blend"
+        },
+        "uri": "sha256:2446ec1ce9e853c8a7c2c630f6a43eb40cc7918abd58d048a48bccbd36fff186"
+      },
+      {
+        "bytes": 6308708,
+        "role": "historical-source-archive",
+        "sha256": "fd44831a75cc8e3b235c41d8b822ea1fe7795c70d7e04856c62cdcb60084f7be",
+        "source": {
+          "commit": "d0313824a26394a8e88fd6cefa15a60bb409d3cb",
+          "kind": "git",
+          "path": "preview/pacific-ocean-v1/pacific-ocean-v1-source.zip"
+        },
+        "uri": "sha256:fd44831a75cc8e3b235c41d8b822ea1fe7795c70d7e04856c62cdcb60084f7be"
+      },
+      {
+        "bytes": 1390032,
+        "role": "model",
+        "sha256": "687d4c96dc0a08220762b9b595e58ef7c7806fb31951af11b979b83b6a60729f",
+        "source": {
+          "commit": "d0313824a26394a8e88fd6cefa15a60bb409d3cb",
+          "path": "preview/pacific-ocean-v1/pacific-ocean.glb"
+        },
+        "uri": "sha256:687d4c96dc0a08220762b9b595e58ef7c7806fb31951af11b979b83b6a60729f"
+      },
+      {
+        "bytes": 57636,
+        "role": "promotional-illustration",
+        "sha256": "1f7c4a39a02ba7dba9648a758c3be23ab3a071707a51b18811bff612b81eb10e",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/pacific-ocean.webp"
+        },
+        "uri": "sha256:1f7c4a39a02ba7dba9648a758c3be23ab3a071707a51b18811bff612b81eb10e"
+      },
+      {
+        "bytes": 3290,
+        "role": "research-brief",
+        "sha256": "128778be8b60de5e5b42c9e422e7ca6b6f0a19a46b8762e9b8d966baf0dfe806",
+        "source": {
+          "commit": "d0313824a26394a8e88fd6cefa15a60bb409d3cb",
+          "path": "preview/pacific-ocean-v1/design-brief.md"
+        },
+        "uri": "sha256:128778be8b60de5e5b42c9e422e7ca6b6f0a19a46b8762e9b8d966baf0dfe806"
+      },
+      {
+        "bytes": 6148,
+        "role": "source-notice",
+        "sha256": "d26ed612f62d43e9465ddf3ca21b4bbae19efea7f0f2087d30e665627cb1dbec",
+        "source": {
+          "commit": "d0313824a26394a8e88fd6cefa15a60bb409d3cb",
+          "path": "preview/pacific-ocean-v1/README.md"
+        },
+        "uri": "sha256:d26ed612f62d43e9465ddf3ca21b4bbae19efea7f0f2087d30e665627cb1dbec"
+      },
+      {
+        "bytes": 2615340,
+        "role": "viewer",
+        "sha256": "8a30fd0e1540aa45d635b931e12e6b0e0c941e6e11bc6b6d76c4a4a5f9367a44",
+        "source": {
+          "commit": "d0313824a26394a8e88fd6cefa15a60bb409d3cb",
+          "path": "preview/pacific-ocean-v1/pacific-ocean-v1.html"
+        },
+        "uri": "sha256:8a30fd0e1540aa45d635b931e12e6b0e0c941e6e11bc6b6d76c4a4a5f9367a44"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "pacific-ocean",
+    "independent_review": {
+      "art_changed": false,
+      "fresh_checks": {
+        "archives": [
+          {
+            "bytes": 6308708,
+            "crc_safe_unique": true,
+            "entries": 54,
+            "full_inner_inventory_rerun": false,
+            "path": "preview/pacific-ocean-v1/pacific-ocean-v1-source.zip",
+            "required_payloads": [
+              {
+                "archive_members": [
+                  "pacific-ocean-v1.html"
+                ],
+                "exact_match": true,
+                "path": "preview/pacific-ocean-v1/pacific-ocean-v1.html"
+              },
+              {
+                "archive_members": [
+                  "pacific-ocean.blend"
+                ],
+                "exact_match": true,
+                "path": "preview/pacific-ocean-v1/pacific-ocean.blend"
+              },
+              {
+                "archive_members": [
+                  "pacific-ocean.glb"
+                ],
+                "exact_match": true,
+                "path": "preview/pacific-ocean-v1/pacific-ocean.glb"
+              }
+            ],
+            "sha256": "fd44831a75cc8e3b235c41d8b822ea1fe7795c70d7e04856c62cdcb60084f7be"
+          }
+        ],
+        "art_changed": false,
+        "id": "pacific-ocean",
+        "models": [
+          {
+            "bytes": 645585,
+            "commit": "d0313824a26394a8e88fd6cefa15a60bb409d3cb",
+            "path": "preview/pacific-ocean-v1/pacific-ocean.blend",
+            "role": "selected-model",
+            "sha256": "2446ec1ce9e853c8a7c2c630f6a43eb40cc7918abd58d048a48bccbd36fff186"
+          },
+          {
+            "bytes": 1390032,
+            "commit": "d0313824a26394a8e88fd6cefa15a60bb409d3cb",
+            "path": "preview/pacific-ocean-v1/pacific-ocean.glb",
+            "role": "selected-model",
+            "sha256": "687d4c96dc0a08220762b9b595e58ef7c7806fb31951af11b979b83b6a60729f",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 58,
+              "nodes": 60
+            }
+          }
+        ],
+        "parent_package_holds": [],
+        "viewer": {
+          "bytes": 2615340,
+          "commit": "d0313824a26394a8e88fd6cefa15a60bb409d3cb",
+          "path": "preview/pacific-ocean-v1/pacific-ocean-v1.html",
+          "sha256": "8a30fd0e1540aa45d635b931e12e6b0e0c941e6e11bc6b6d76c4a4a5f9367a44",
+          "under_5000000": true
+        }
+      },
+      "historical_runtime_only": true,
+      "id": "pacific-ocean",
+      "inspected_images": [
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/pacific-ocean/desktop-closed.png",
+          "sha256": "156618ed0a39edabaa187220f8d70bf99304e984d9a37a3ce68a84f5ae284a81"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/pacific-ocean/desktop-open.png",
+          "sha256": "6ce02b4e4102ec8de63d8850de6680bd0e67c4a5272c3fad964d695c01e4312c"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/pacific-ocean/mobile-closed.png",
+          "sha256": "bdd6572922ccb4a3442b53f5fba55df258047ad9bcf7c86797913d5eafe3cd4a"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/pacific-ocean/mobile-open.png",
+          "sha256": "39a7e881e6f2fb3e9d0821732b4ff23f3522f7757a7124847c31b6bbeb59bc87"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "sources/pacific-ocean/marketing.webp",
+          "sha256": "1f7c4a39a02ba7dba9648a758c3be23ab3a071707a51b18811bff612b81eb10e"
+        }
+      ],
+      "launch_ready": false,
+      "missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "package_holds": [],
+      "parent_reason": "Original-image review complete; decide acceptability of pale-lid coverage and terrain treatment differences from promotional art. No confirmed gross geometry failure.",
+      "review_complete": true,
+      "source_record": {
+        "approval": {
+          "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+          "prior_approved_baseline": null,
+          "status": "candidate-not-final-approved",
+          "user_final_approved": false
+        },
+        "category": "Ocean",
+        "delivered_viewer": {
+          "bytes": 2615340,
+          "exists": true,
+          "matches_selected_commit": true,
+          "path": "C:\\Users\\futur\\.hermes\\profiles\\telegram2\\output\\boxsv-collection-review\\viewers\\pacific-ocean.html",
+          "sha256": "8a30fd0e1540aa45d635b931e12e6b0e0c941e6e11bc6b6d76c4a4a5f9367a44"
+        },
+        "edition_supply": 1,
+        "id": "pacific-ocean",
+        "launch_ready": false,
+        "legacy_review_viewer": {
+          "bytes": 2615340,
+          "commit": "d0313824a26394a8e88fd6cefa15a60bb409d3cb",
+          "path": "viewers/pacific-ocean.html",
+          "sha256": "8a30fd0e1540aa45d635b931e12e6b0e0c941e6e11bc6b6d76c4a4a5f9367a44",
+          "source_path": "preview/pacific-ocean-v1/pacific-ocean-v1.html"
+        },
+        "marketing": {
+          "bytes": 57636,
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "dimensions": [
+            1072,
+            960
+          ],
+          "image_type": "Promotional art",
+          "matches_gallery_inventory": true,
+          "not_model_approval": true,
+          "path": "docs/assets/gallery/pacific-ocean.webp",
+          "provenance": {
+            "exactModelEquivalenceClaimed": false,
+            "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+            "model": "grok-imagine-image",
+            "nativeDimensions": [
+              1072,
+              960
+            ],
+            "provider": "xai",
+            "reviewNotes": "Correction limit reached: lid now too uniformly pale, missing original watery/pale transition. Not strict fidelity approval.",
+            "reviewStatus": "reviewed",
+            "sha256": "09dc882186555aa0c81b1318fd060fd0a4402fef134001f4d47866ede2551239",
+            "source": "assets/gallery/pacific-ocean.webp",
+            "sourceSha256": "e41f0e6600b91d86526147b4848eec166d1b6127373ad87e73dc8b138bad232f",
+            "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+          },
+          "sha256": "1f7c4a39a02ba7dba9648a758c3be23ab3a071707a51b18811bff612b81eb10e"
+        },
+        "missing_gates": [
+          "independent-current-model-visual-review",
+          "explicit-final-user-art-approval",
+          "fresh-full-source-and-browser-acceptance",
+          "storage-and-preservation-policy",
+          "mint-and-release-authorization"
+        ],
+        "model_sources": [
+          {
+            "bytes": 645585,
+            "commit": "d0313824a26394a8e88fd6cefa15a60bb409d3cb",
+            "path": "preview/pacific-ocean-v1/pacific-ocean.blend",
+            "role": "selected-model",
+            "sha256": "2446ec1ce9e853c8a7c2c630f6a43eb40cc7918abd58d048a48bccbd36fff186"
+          },
+          {
+            "bytes": 1390032,
+            "commit": "d0313824a26394a8e88fd6cefa15a60bb409d3cb",
+            "path": "preview/pacific-ocean-v1/pacific-ocean.glb",
+            "role": "selected-model",
+            "sha256": "687d4c96dc0a08220762b9b595e58ef7c7806fb31951af11b979b83b6a60729f",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 58,
+              "nodes": 60
+            }
+          }
+        ],
+        "name": "Pacific Ocean",
+        "provenance": {
+          "readme_snapshot": "source-notes/pacific-ocean.md",
+          "research_brief": {
+            "bytes": 3290,
+            "commit": "d0313824a26394a8e88fd6cefa15a60bb409d3cb",
+            "path": "preview/pacific-ocean-v1/design-brief.md",
+            "sha256": "128778be8b60de5e5b42c9e422e7ca6b6f0a19a46b8762e9b8d966baf0dfe806"
+          },
+          "source_readme": {
+            "bytes": 6148,
+            "commit": "d0313824a26394a8e88fd6cefa15a60bb409d3cb",
+            "path": "preview/pacific-ocean-v1/README.md",
+            "sha256": "d26ed612f62d43e9465ddf3ca21b4bbae19efea7f0f2087d30e665627cb1dbec"
+          }
+        },
+        "qa": {
+          "evidence_path": "qa/pacific-ocean.json",
+          "fresh_runtime_execution": false,
+          "historical_report_count": 7
+        },
+        "selection": {
+          "commit": "d0313824a26394a8e88fd6cefa15a60bb409d3cb",
+          "fetched_tip": "d0313824a26394a8e88fd6cefa15a60bb409d3cb",
+          "reachable_from_fetched_ref": true,
+          "remote_ref": "origin/art/pacific-ocean-v1"
+        },
+        "source_archives": [
+          {
+            "bytes": 6308708,
+            "commit": "d0313824a26394a8e88fd6cefa15a60bb409d3cb",
+            "crc_error": null,
+            "entries": 54,
+            "inventory_checked": true,
+            "inventory_entries": 53,
+            "inventory_mismatches": [],
+            "kind": "git",
+            "path": "preview/pacific-ocean-v1/pacific-ocean-v1-source.zip",
+            "required_payloads": {
+              "pacific-ocean-v1.html": true,
+              "pacific-ocean.blend": true,
+              "pacific-ocean.glb": true
+            },
+            "safe_unique_paths": true,
+            "sha256": "fd44831a75cc8e3b235c41d8b822ea1fe7795c70d7e04856c62cdcb60084f7be"
+          }
+        ],
+        "version": "pacific-ocean-v1",
+        "viewer": {
+          "bytes": 2615340,
+          "commit": "d0313824a26394a8e88fd6cefa15a60bb409d3cb",
+          "path": "preview/pacific-ocean-v1/pacific-ocean-v1.html",
+          "sha256": "8a30fd0e1540aa45d635b931e12e6b0e0c941e6e11bc6b6d76c4a4a5f9367a44",
+          "under_5000000": true
+        },
+        "visual_limitations": []
+      },
+      "user_final_approved": false,
+      "verdict": "needs-user-review",
+      "visual_review": {
+        "finish_and_fidelity_differences": [
+          "Runtime lid has stronger watery blue mottling and less uniform pale coverage than marketing.",
+          "Runtime body ripples are high contrast; ring and rock are angular and simplified. These are finish/fidelity differences rather than demonstrated broken geometry."
+        ],
+        "holds_preserved": [
+          "Existing pale-lid coverage and terrain-treatment decision hold."
+        ],
+        "id": "pacific-ocean",
+        "images_inspected": [
+          "launch/art-05/smoke/pacific-ocean/desktop-closed.png",
+          "launch/art-05/smoke/pacific-ocean/desktop-open.png",
+          "launch/art-05/smoke/pacific-ocean/mobile-closed.png",
+          "launch/art-05/smoke/pacific-ocean/mobile-open.png",
+          "launch/art-05/sources/pacific-ocean/marketing.webp"
+        ],
+        "observations": {
+          "desktop_closed": "Blue watery body, ivory atoll ring, turquoise lagoon and jagged dark rock are legible; brass clasp/disc/caps, side ring and dark stone feet remain coherent.",
+          "desktop_open": "Empty blue-patterned interior and lid underside, pale rim and two rear hinges visible; pattern discontinuities at panel boundaries are conspicuous.",
+          "marketing": "Broad pale blue-gray lid, ivory ring around cyan depression and small dark peak; watery teal body, gold fittings and dark rounded supports.",
+          "mobile_closed": "Whole chest, atoll and feet fit; title and controls do not overlap. Clasp components are visually crowded but no penetration is established.",
+          "mobile_open": "Full open silhouette and readable cavity; rim layers look uneven at corner joins, without definite missing surfaces or clipping."
+        },
+        "observed_defects": [],
+        "reason": "Theme and framing are intact, but inherited fidelity decision remains unresolved.",
+        "unresolved_visual_questions": [
+          "Acceptability of pale-lid coverage and terrain treatment requires user decision.",
+          "Rear hinge/rim attachment and clasp clearance cannot be certified from endpoint views."
+        ],
+        "user_final_approved": false,
+        "verdict": "needs-user-review"
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Pacific Ocean",
+    "package_history": [
+      {
+        "bytes": 6308708,
+        "commit": "d0313824a26394a8e88fd6cefa15a60bb409d3cb",
+        "crc_error": null,
+        "entries": 54,
+        "inventory_checked": true,
+        "inventory_entries": 53,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/pacific-ocean-v1/pacific-ocean-v1-source.zip",
+        "required_payloads": {
+          "pacific-ocean-v1.html": true,
+          "pacific-ocean.blend": true,
+          "pacific-ocean.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "fd44831a75cc8e3b235c41d8b822ea1fe7795c70d7e04856c62cdcb60084f7be"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "d0313824a26394a8e88fd6cefa15a60bb409d3cb",
+      "fetched_tip": "d0313824a26394a8e88fd6cefa15a60bb409d3cb",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/pacific-ocean-v1"
+    },
+    "verdict": "needs-user-review",
+    "viewer": {
+      "bytes": 2615340,
+      "commit": "d0313824a26394a8e88fd6cefa15a60bb409d3cb",
+      "path": "preview/pacific-ocean-v1/pacific-ocean-v1.html",
+      "sha256": "8a30fd0e1540aa45d635b931e12e6b0e0c941e6e11bc6b6d76c4a4a5f9367a44",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "pacific-ocean",
+    "baseline_verdict": "needs-user-review",
+    "actions": [
+      "owner art/finish acceptance; no proven runtime defect recorded; no autonomous redesign"
+    ],
+    "approval": false,
+    "original_review": {
+      "art_changed": false,
+      "fresh_checks": {
+        "archives": [
+          {
+            "bytes": 6308708,
+            "crc_safe_unique": true,
+            "entries": 54,
+            "full_inner_inventory_rerun": false,
+            "path": "preview/pacific-ocean-v1/pacific-ocean-v1-source.zip",
+            "required_payloads": [
+              {
+                "archive_members": [
+                  "pacific-ocean-v1.html"
+                ],
+                "exact_match": true,
+                "path": "preview/pacific-ocean-v1/pacific-ocean-v1.html"
+              },
+              {
+                "archive_members": [
+                  "pacific-ocean.blend"
+                ],
+                "exact_match": true,
+                "path": "preview/pacific-ocean-v1/pacific-ocean.blend"
+              },
+              {
+                "archive_members": [
+                  "pacific-ocean.glb"
+                ],
+                "exact_match": true,
+                "path": "preview/pacific-ocean-v1/pacific-ocean.glb"
+              }
+            ],
+            "sha256": "fd44831a75cc8e3b235c41d8b822ea1fe7795c70d7e04856c62cdcb60084f7be"
+          }
+        ],
+        "art_changed": false,
+        "id": "pacific-ocean",
+        "models": [
+          {
+            "bytes": 645585,
+            "commit": "d0313824a26394a8e88fd6cefa15a60bb409d3cb",
+            "path": "preview/pacific-ocean-v1/pacific-ocean.blend",
+            "role": "selected-model",
+            "sha256": "2446ec1ce9e853c8a7c2c630f6a43eb40cc7918abd58d048a48bccbd36fff186"
+          },
+          {
+            "bytes": 1390032,
+            "commit": "d0313824a26394a8e88fd6cefa15a60bb409d3cb",
+            "path": "preview/pacific-ocean-v1/pacific-ocean.glb",
+            "role": "selected-model",
+            "sha256": "687d4c96dc0a08220762b9b595e58ef7c7806fb31951af11b979b83b6a60729f",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 58,
+              "nodes": 60
+            }
+          }
+        ],
+        "parent_package_holds": [],
+        "viewer": {
+          "bytes": 2615340,
+          "commit": "d0313824a26394a8e88fd6cefa15a60bb409d3cb",
+          "path": "preview/pacific-ocean-v1/pacific-ocean-v1.html",
+          "sha256": "8a30fd0e1540aa45d635b931e12e6b0e0c941e6e11bc6b6d76c4a4a5f9367a44",
+          "under_5000000": true
+        }
+      },
+      "historical_runtime_only": true,
+      "id": "pacific-ocean",
+      "inspected_images": [
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/pacific-ocean/desktop-closed.png",
+          "sha256": "156618ed0a39edabaa187220f8d70bf99304e984d9a37a3ce68a84f5ae284a81"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/pacific-ocean/desktop-open.png",
+          "sha256": "6ce02b4e4102ec8de63d8850de6680bd0e67c4a5272c3fad964d695c01e4312c"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/pacific-ocean/mobile-closed.png",
+          "sha256": "bdd6572922ccb4a3442b53f5fba55df258047ad9bcf7c86797913d5eafe3cd4a"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/pacific-ocean/mobile-open.png",
+          "sha256": "39a7e881e6f2fb3e9d0821732b4ff23f3522f7757a7124847c31b6bbeb59bc87"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "sources/pacific-ocean/marketing.webp",
+          "sha256": "1f7c4a39a02ba7dba9648a758c3be23ab3a071707a51b18811bff612b81eb10e"
+        }
+      ],
+      "launch_ready": false,
+      "missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "package_holds": [],
+      "parent_reason": "Original-image review complete; decide acceptability of pale-lid coverage and terrain treatment differences from promotional art. No confirmed gross geometry failure.",
+      "review_complete": true,
+      "source_record": {
+        "approval": {
+          "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+          "prior_approved_baseline": null,
+          "status": "candidate-not-final-approved",
+          "user_final_approved": false
+        },
+        "category": "Ocean",
+        "delivered_viewer": {
+          "bytes": 2615340,
+          "exists": true,
+          "matches_selected_commit": true,
+          "path": "C:\\Users\\futur\\.hermes\\profiles\\telegram2\\output\\boxsv-collection-review\\viewers\\pacific-ocean.html",
+          "sha256": "8a30fd0e1540aa45d635b931e12e6b0e0c941e6e11bc6b6d76c4a4a5f9367a44"
+        },
+        "edition_supply": 1,
+        "id": "pacific-ocean",
+        "launch_ready": false,
+        "legacy_review_viewer": {
+          "bytes": 2615340,
+          "commit": "d0313824a26394a8e88fd6cefa15a60bb409d3cb",
+          "path": "viewers/pacific-ocean.html",
+          "sha256": "8a30fd0e1540aa45d635b931e12e6b0e0c941e6e11bc6b6d76c4a4a5f9367a44",
+          "source_path": "preview/pacific-ocean-v1/pacific-ocean-v1.html"
+        },
+        "marketing": {
+          "bytes": 57636,
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "dimensions": [
+            1072,
+            960
+          ],
+          "image_type": "Promotional art",
+          "matches_gallery_inventory": true,
+          "not_model_approval": true,
+          "path": "docs/assets/gallery/pacific-ocean.webp",
+          "provenance": {
+            "exactModelEquivalenceClaimed": false,
+            "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+            "model": "grok-imagine-image",
+            "nativeDimensions": [
+              1072,
+              960
+            ],
+            "provider": "xai",
+            "reviewNotes": "Correction limit reached: lid now too uniformly pale, missing original watery/pale transition. Not strict fidelity approval.",
+            "reviewStatus": "reviewed",
+            "sha256": "09dc882186555aa0c81b1318fd060fd0a4402fef134001f4d47866ede2551239",
+            "source": "assets/gallery/pacific-ocean.webp",
+            "sourceSha256": "e41f0e6600b91d86526147b4848eec166d1b6127373ad87e73dc8b138bad232f",
+            "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+          },
+          "sha256": "1f7c4a39a02ba7dba9648a758c3be23ab3a071707a51b18811bff612b81eb10e"
+        },
+        "missing_gates": [
+          "independent-current-model-visual-review",
+          "explicit-final-user-art-approval",
+          "fresh-full-source-and-browser-acceptance",
+          "storage-and-preservation-policy",
+          "mint-and-release-authorization"
+        ],
+        "model_sources": [
+          {
+            "bytes": 645585,
+            "commit": "d0313824a26394a8e88fd6cefa15a60bb409d3cb",
+            "path": "preview/pacific-ocean-v1/pacific-ocean.blend",
+            "role": "selected-model",
+            "sha256": "2446ec1ce9e853c8a7c2c630f6a43eb40cc7918abd58d048a48bccbd36fff186"
+          },
+          {
+            "bytes": 1390032,
+            "commit": "d0313824a26394a8e88fd6cefa15a60bb409d3cb",
+            "path": "preview/pacific-ocean-v1/pacific-ocean.glb",
+            "role": "selected-model",
+            "sha256": "687d4c96dc0a08220762b9b595e58ef7c7806fb31951af11b979b83b6a60729f",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 58,
+              "nodes": 60
+            }
+          }
+        ],
+        "name": "Pacific Ocean",
+        "provenance": {
+          "readme_snapshot": "source-notes/pacific-ocean.md",
+          "research_brief": {
+            "bytes": 3290,
+            "commit": "d0313824a26394a8e88fd6cefa15a60bb409d3cb",
+            "path": "preview/pacific-ocean-v1/design-brief.md",
+            "sha256": "128778be8b60de5e5b42c9e422e7ca6b6f0a19a46b8762e9b8d966baf0dfe806"
+          },
+          "source_readme": {
+            "bytes": 6148,
+            "commit": "d0313824a26394a8e88fd6cefa15a60bb409d3cb",
+            "path": "preview/pacific-ocean-v1/README.md",
+            "sha256": "d26ed612f62d43e9465ddf3ca21b4bbae19efea7f0f2087d30e665627cb1dbec"
+          }
+        },
+        "qa": {
+          "evidence_path": "qa/pacific-ocean.json",
+          "fresh_runtime_execution": false,
+          "historical_report_count": 7
+        },
+        "selection": {
+          "commit": "d0313824a26394a8e88fd6cefa15a60bb409d3cb",
+          "fetched_tip": "d0313824a26394a8e88fd6cefa15a60bb409d3cb",
+          "reachable_from_fetched_ref": true,
+          "remote_ref": "origin/art/pacific-ocean-v1"
+        },
+        "source_archives": [
+          {
+            "bytes": 6308708,
+            "commit": "d0313824a26394a8e88fd6cefa15a60bb409d3cb",
+            "crc_error": null,
+            "entries": 54,
+            "inventory_checked": true,
+            "inventory_entries": 53,
+            "inventory_mismatches": [],
+            "kind": "git",
+            "path": "preview/pacific-ocean-v1/pacific-ocean-v1-source.zip",
+            "required_payloads": {
+              "pacific-ocean-v1.html": true,
+              "pacific-ocean.blend": true,
+              "pacific-ocean.glb": true
+            },
+            "safe_unique_paths": true,
+            "sha256": "fd44831a75cc8e3b235c41d8b822ea1fe7795c70d7e04856c62cdcb60084f7be"
+          }
+        ],
+        "version": "pacific-ocean-v1",
+        "viewer": {
+          "bytes": 2615340,
+          "commit": "d0313824a26394a8e88fd6cefa15a60bb409d3cb",
+          "path": "preview/pacific-ocean-v1/pacific-ocean-v1.html",
+          "sha256": "8a30fd0e1540aa45d635b931e12e6b0e0c941e6e11bc6b6d76c4a4a5f9367a44",
+          "under_5000000": true
+        },
+        "visual_limitations": []
+      },
+      "user_final_approved": false,
+      "verdict": "needs-user-review",
+      "visual_review": {
+        "finish_and_fidelity_differences": [
+          "Runtime lid has stronger watery blue mottling and less uniform pale coverage than marketing.",
+          "Runtime body ripples are high contrast; ring and rock are angular and simplified. These are finish/fidelity differences rather than demonstrated broken geometry."
+        ],
+        "holds_preserved": [
+          "Existing pale-lid coverage and terrain-treatment decision hold."
+        ],
+        "id": "pacific-ocean",
+        "images_inspected": [
+          "launch/art-05/smoke/pacific-ocean/desktop-closed.png",
+          "launch/art-05/smoke/pacific-ocean/desktop-open.png",
+          "launch/art-05/smoke/pacific-ocean/mobile-closed.png",
+          "launch/art-05/smoke/pacific-ocean/mobile-open.png",
+          "launch/art-05/sources/pacific-ocean/marketing.webp"
+        ],
+        "observations": {
+          "desktop_closed": "Blue watery body, ivory atoll ring, turquoise lagoon and jagged dark rock are legible; brass clasp/disc/caps, side ring and dark stone feet remain coherent.",
+          "desktop_open": "Empty blue-patterned interior and lid underside, pale rim and two rear hinges visible; pattern discontinuities at panel boundaries are conspicuous.",
+          "marketing": "Broad pale blue-gray lid, ivory ring around cyan depression and small dark peak; watery teal body, gold fittings and dark rounded supports.",
+          "mobile_closed": "Whole chest, atoll and feet fit; title and controls do not overlap. Clasp components are visually crowded but no penetration is established.",
+          "mobile_open": "Full open silhouette and readable cavity; rim layers look uneven at corner joins, without definite missing surfaces or clipping."
+        },
+        "observed_defects": [],
+        "reason": "Theme and framing are intact, but inherited fidelity decision remains unresolved.",
+        "unresolved_visual_questions": [
+          "Acceptability of pale-lid coverage and terrain treatment requires user decision.",
+          "Rear hinge/rim attachment and clasp clearance cannot be certified from endpoint views."
+        ],
+        "user_final_approved": false,
+        "verdict": "needs-user-review"
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 6308708,
+        "commit": "d0313824a26394a8e88fd6cefa15a60bb409d3cb",
+        "crc_error": null,
+        "entries": 54,
+        "inventory_checked": true,
+        "inventory_entries": 53,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/pacific-ocean-v1/pacific-ocean-v1-source.zip",
+        "required_payloads": {
+          "pacific-ocean-v1.html": true,
+          "pacific-ocean.blend": true,
+          "pacific-ocean.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "fd44831a75cc8e3b235c41d8b822ea1fe7795c70d7e04856c62cdcb60084f7be"
+      }
+    ]
+  },
+  "visual_decision": {
+    "id": "pacific-ocean",
+    "disposition": "substantive-feature-hold",
+    "issue": "Broad pale lid field replaced by strongly blue-patterned coverage.",
+    "rationale": "Atoll ring, lagoon and dark peak survive, but the broad pale lid versus blue ocean body material boundary is substantially changed. Preserve the specific pale-lid-coverage fidelity hold; this is a large surface allocation difference, not merely reduced gloss or rocky faceting.",
+    "evidence": {
+      "commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+      "path": "launch/art-05/boards/pacific-ocean.jpg",
+      "sha256": "8555384629a697e375a70dae4adf6b5a03dc4283e3144825f9bfb62c17aabffa"
+    }
+  }
+}

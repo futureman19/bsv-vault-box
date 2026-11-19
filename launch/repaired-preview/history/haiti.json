@@ -1,0 +1,554 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 2,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 300145,
+        "role": "editable-source",
+        "sha256": "35c3693bf543d9d060216f84bd63300f60401edb1b58f2bfe2234a694331a091",
+        "source": {
+          "commit": "757fa87d11e181d54def8503c974fa31bb608dec",
+          "path": "preview/haiti-v1/haiti.blend"
+        },
+        "uri": "sha256:35c3693bf543d9d060216f84bd63300f60401edb1b58f2bfe2234a694331a091"
+      },
+      {
+        "bytes": 4229395,
+        "role": "historical-source-archive",
+        "sha256": "15e44220161eeb91a1d685307012a5b378d1c6666fa124c94241848a9708c1ac",
+        "source": {
+          "commit": "757fa87d11e181d54def8503c974fa31bb608dec",
+          "kind": "git",
+          "path": "preview/haiti-v1/haiti-v1-source.zip"
+        },
+        "uri": "sha256:15e44220161eeb91a1d685307012a5b378d1c6666fa124c94241848a9708c1ac"
+      },
+      {
+        "bytes": 997892,
+        "role": "model",
+        "sha256": "36fd2c84b8748886b9435b587a81cd8399f978fc8b846bed0831af44077c077c",
+        "source": {
+          "commit": "757fa87d11e181d54def8503c974fa31bb608dec",
+          "path": "preview/haiti-v1/haiti.glb"
+        },
+        "uri": "sha256:36fd2c84b8748886b9435b587a81cd8399f978fc8b846bed0831af44077c077c"
+      },
+      {
+        "bytes": 65842,
+        "role": "promotional-illustration",
+        "sha256": "0c1d66728a29cf7608a21112a7612fa982165590261e6b426c48917d3ca8883c",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/haiti.webp"
+        },
+        "uri": "sha256:0c1d66728a29cf7608a21112a7612fa982165590261e6b426c48917d3ca8883c"
+      },
+      {
+        "bytes": 3095,
+        "role": "research-brief",
+        "sha256": "8476ffa3bf8e718b576c3959af70b72c802104df036078b6e83700f23615dca9",
+        "source": {
+          "commit": "757fa87d11e181d54def8503c974fa31bb608dec",
+          "path": "preview/haiti-v1/design-brief.md"
+        },
+        "uri": "sha256:8476ffa3bf8e718b576c3959af70b72c802104df036078b6e83700f23615dca9"
+      },
+      {
+        "bytes": 5045,
+        "role": "source-notice",
+        "sha256": "d21304bc772ecc91031a088a41c2e4a3097c96dfb6d54c39cf95b3835c010b5b",
+        "source": {
+          "commit": "757fa87d11e181d54def8503c974fa31bb608dec",
+          "path": "preview/haiti-v1/README.md"
+        },
+        "uri": "sha256:d21304bc772ecc91031a088a41c2e4a3097c96dfb6d54c39cf95b3835c010b5b"
+      },
+      {
+        "bytes": 2090792,
+        "role": "viewer",
+        "sha256": "5c4caf93e822df20045cff584ecf0efc3b9e33a0191ae7d9d359f17960cec621",
+        "source": {
+          "commit": "757fa87d11e181d54def8503c974fa31bb608dec",
+          "path": "preview/haiti-v1/haiti-v1.html"
+        },
+        "uri": "sha256:5c4caf93e822df20045cff584ecf0efc3b9e33a0191ae7d9d359f17960cec621"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "haiti",
+    "independent_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "archives": [
+        {
+          "bytes": 4229395,
+          "entries": 53,
+          "inventory_entries_checked": 52,
+          "path": "preview/haiti-v1/haiti-v1-source.zip",
+          "required_payloads": "pass",
+          "safe_paths_crc": "pass",
+          "sha256": "15e44220161eeb91a1d685307012a5b378d1c6666fa124c94241848a9708c1ac"
+        }
+      ],
+      "fresh_browser_cases": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.0749833583831787,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.25,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 997892,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 4,
+            "meshes": 93,
+            "nonfinite": 0,
+            "triangles": 15500
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "haiti",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "5c4caf93e822df20045cff584ecf0efc3b9e33a0191ae7d9d359f17960cec621"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.0749833583831787,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.25,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 997892,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 4,
+            "meshes": 93,
+            "nonfinite": 0,
+            "triangles": 15500
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "haiti",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "5c4caf93e822df20045cff584ecf0efc3b9e33a0191ae7d9d359f17960cec621"
+        }
+      ],
+      "fresh_motion_suite": {
+        "exit_code": 0,
+        "id": "haiti",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "757fa87d11e181d54def8503c974fa31bb608dec",
+            "path": "preview/haiti-v1/motion.mjs",
+            "sha256": "189a7fb7b800f11cb8cee1c24b23a445b197e9e5f84446f2f0316bf59ee92bda"
+          }
+        ]
+      },
+      "fresh_runtime_captures": [
+        "smoke/haiti/desktop-closed.png",
+        "smoke/haiti/desktop-open.png",
+        "smoke/haiti/mobile-closed.png",
+        "smoke/haiti/mobile-open.png"
+      ],
+      "id": "haiti",
+      "independent_reviewer_recommendation": "needs-user-review",
+      "inspected_parent_images": [
+        "parent/boards/haiti.jpg",
+        "parent/smoke/haiti/desktop-closed.png",
+        "parent/smoke/haiti/desktop-open.png",
+        "parent/smoke/haiti/mobile-closed.png",
+        "parent/smoke/haiti/mobile-open.png"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 65842,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          960
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/haiti.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            960
+          ],
+          "provider": "xai",
+          "reviewNotes": "pass_with_limitations: sailboat arrangement preserved; tiny count unresolved",
+          "reviewStatus": "reviewed_pass_with_limitations",
+          "sha256": "16146332c14c2f317362a72288770b9391a6f28db2cb48c328d7689924731765",
+          "source": "assets/gallery/haiti.webp",
+          "sourceSha256": "b6186bb9e5ccb103db561404a33b58b366bae88ea123dad28e87d564965beed7",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "0c1d66728a29cf7608a21112a7612fa982165590261e6b426c48917d3ca8883c"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-Blender-reopen-parity-and-sampled-collisions",
+        "fresh-corrupt-GLB-fallback",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "models": [
+        {
+          "bytes": 300145,
+          "path": "preview/haiti-v1/haiti.blend",
+          "sha256": "35c3693bf543d9d060216f84bd63300f60401edb1b58f2bfe2234a694331a091"
+        },
+        {
+          "bytes": 997892,
+          "path": "preview/haiti-v1/haiti.glb",
+          "sha256": "36fd2c84b8748886b9435b587a81cd8399f978fc8b846bed0831af44077c077c"
+        }
+      ],
+      "parent_hold_preserved": true,
+      "selection": {
+        "commit": "757fa87d11e181d54def8503c974fa31bb608dec",
+        "fetched_tip": "757fa87d11e181d54def8503c974fa31bb608dec",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/haiti-v1"
+      },
+      "technical_verdict": "pass-bounded-review",
+      "viewer": {
+        "bytes": 2090792,
+        "commit": "757fa87d11e181d54def8503c974fa31bb608dec",
+        "path": "preview/haiti-v1/haiti-v1.html",
+        "sha256": "5c4caf93e822df20045cff584ecf0efc3b9e33a0191ae7d9d359f17960cec621",
+        "under_5000000": true
+      },
+      "visual_findings": "Angular crowded flat botanical ornament and repetitive blue mottling lack sculptural cut-steel richness; stepped-looking rim joints.",
+      "visual_verdict": "needs-user-review"
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Haiti",
+    "package_history": [
+      {
+        "bytes": 4229395,
+        "commit": "757fa87d11e181d54def8503c974fa31bb608dec",
+        "crc_error": null,
+        "entries": 53,
+        "inventory_checked": true,
+        "inventory_entries": 52,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/haiti-v1/haiti-v1-source.zip",
+        "required_payloads": {
+          "haiti-v1.html": true,
+          "haiti.blend": true,
+          "haiti.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "15e44220161eeb91a1d685307012a5b378d1c6666fa124c94241848a9708c1ac"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "757fa87d11e181d54def8503c974fa31bb608dec",
+      "fetched_tip": "757fa87d11e181d54def8503c974fa31bb608dec",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/haiti-v1"
+    },
+    "verdict": "needs-user-review",
+    "viewer": {
+      "bytes": 2090792,
+      "commit": "757fa87d11e181d54def8503c974fa31bb608dec",
+      "path": "preview/haiti-v1/haiti-v1.html",
+      "sha256": "5c4caf93e822df20045cff584ecf0efc3b9e33a0191ae7d9d359f17960cec621",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "haiti",
+    "baseline_verdict": "needs-user-review",
+    "actions": [
+      "owner art/finish acceptance; no proven runtime defect recorded; no autonomous redesign"
+    ],
+    "approval": false,
+    "original_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "archives": [
+        {
+          "bytes": 4229395,
+          "entries": 53,
+          "inventory_entries_checked": 52,
+          "path": "preview/haiti-v1/haiti-v1-source.zip",
+          "required_payloads": "pass",
+          "safe_paths_crc": "pass",
+          "sha256": "15e44220161eeb91a1d685307012a5b378d1c6666fa124c94241848a9708c1ac"
+        }
+      ],
+      "fresh_browser_cases": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.0749833583831787,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.25,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 997892,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 4,
+            "meshes": 93,
+            "nonfinite": 0,
+            "triangles": 15500
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "haiti",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "5c4caf93e822df20045cff584ecf0efc3b9e33a0191ae7d9d359f17960cec621"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.0749833583831787,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.25,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 997892,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 4,
+            "meshes": 93,
+            "nonfinite": 0,
+            "triangles": 15500
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "haiti",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "5c4caf93e822df20045cff584ecf0efc3b9e33a0191ae7d9d359f17960cec621"
+        }
+      ],
+      "fresh_motion_suite": {
+        "exit_code": 0,
+        "id": "haiti",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "757fa87d11e181d54def8503c974fa31bb608dec",
+            "path": "preview/haiti-v1/motion.mjs",
+            "sha256": "189a7fb7b800f11cb8cee1c24b23a445b197e9e5f84446f2f0316bf59ee92bda"
+          }
+        ]
+      },
+      "fresh_runtime_captures": [
+        "smoke/haiti/desktop-closed.png",
+        "smoke/haiti/desktop-open.png",
+        "smoke/haiti/mobile-closed.png",
+        "smoke/haiti/mobile-open.png"
+      ],
+      "id": "haiti",
+      "independent_reviewer_recommendation": "needs-user-review",
+      "inspected_parent_images": [
+        "parent/boards/haiti.jpg",
+        "parent/smoke/haiti/desktop-closed.png",
+        "parent/smoke/haiti/desktop-open.png",
+        "parent/smoke/haiti/mobile-closed.png",
+        "parent/smoke/haiti/mobile-open.png"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 65842,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          960
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/haiti.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            960
+          ],
+          "provider": "xai",
+          "reviewNotes": "pass_with_limitations: sailboat arrangement preserved; tiny count unresolved",
+          "reviewStatus": "reviewed_pass_with_limitations",
+          "sha256": "16146332c14c2f317362a72288770b9391a6f28db2cb48c328d7689924731765",
+          "source": "assets/gallery/haiti.webp",
+          "sourceSha256": "b6186bb9e5ccb103db561404a33b58b366bae88ea123dad28e87d564965beed7",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "0c1d66728a29cf7608a21112a7612fa982165590261e6b426c48917d3ca8883c"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-Blender-reopen-parity-and-sampled-collisions",
+        "fresh-corrupt-GLB-fallback",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "models": [
+        {
+          "bytes": 300145,
+          "path": "preview/haiti-v1/haiti.blend",
+          "sha256": "35c3693bf543d9d060216f84bd63300f60401edb1b58f2bfe2234a694331a091"
+        },
+        {
+          "bytes": 997892,
+          "path": "preview/haiti-v1/haiti.glb",
+          "sha256": "36fd2c84b8748886b9435b587a81cd8399f978fc8b846bed0831af44077c077c"
+        }
+      ],
+      "parent_hold_preserved": true,
+      "selection": {
+        "commit": "757fa87d11e181d54def8503c974fa31bb608dec",
+        "fetched_tip": "757fa87d11e181d54def8503c974fa31bb608dec",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/haiti-v1"
+      },
+      "technical_verdict": "pass-bounded-review",
+      "viewer": {
+        "bytes": 2090792,
+        "commit": "757fa87d11e181d54def8503c974fa31bb608dec",
+        "path": "preview/haiti-v1/haiti-v1.html",
+        "sha256": "5c4caf93e822df20045cff584ecf0efc3b9e33a0191ae7d9d359f17960cec621",
+        "under_5000000": true
+      },
+      "visual_findings": "Angular crowded flat botanical ornament and repetitive blue mottling lack sculptural cut-steel richness; stepped-looking rim joints.",
+      "visual_verdict": "needs-user-review"
+    },
+    "package_history": [
+      {
+        "bytes": 4229395,
+        "commit": "757fa87d11e181d54def8503c974fa31bb608dec",
+        "crc_error": null,
+        "entries": 53,
+        "inventory_checked": true,
+        "inventory_entries": 52,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/haiti-v1/haiti-v1-source.zip",
+        "required_payloads": {
+          "haiti-v1.html": true,
+          "haiti.blend": true,
+          "haiti.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "15e44220161eeb91a1d685307012a5b378d1c6666fa124c94241848a9708c1ac"
+      }
+    ]
+  },
+  "visual_decision": {
+    "id": "haiti",
+    "disposition": "preview-accepted-with-limitations",
+    "issue": "Flat crowded botanical relief and repetitive blue mottling.",
+    "rationale": "Oval garden foliage remains visible on the closed lid. Accept schematic cut-steel-inspired ornament, disclosing reduced depth and leaf readability rather than claiming sculptural promotional richness.",
+    "evidence": {
+      "commit": "d6a689fd19cfddcc5fef52606f4e581938a8a004",
+      "path": "launch/qa-art-02/parent/boards/haiti.jpg",
+      "sha256": "d081d3159ee1e708df944e80caef833c16ba2be1348d4a06f2a5bbce61b6782d"
+    }
+  }
+}

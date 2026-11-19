@@ -1,0 +1,945 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 8,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 734781,
+        "role": "editable-source",
+        "sha256": "fd87ed690c318b99693f099c54e812d980f41e4c5f8c120cb20b7a47699c4653",
+        "source": {
+          "commit": "20af220774ba241240da080f69636761e4850146",
+          "path": "preview/gambia-v1/gambia.blend"
+        },
+        "uri": "sha256:fd87ed690c318b99693f099c54e812d980f41e4c5f8c120cb20b7a47699c4653"
+      },
+      {
+        "bytes": 7361321,
+        "role": "historical-source-archive",
+        "sha256": "6637486f0fe31acec32bd6f3c7ce409e87cfb503a71ccd8ff5e27d044f14c07c",
+        "source": {
+          "commit": "20af220774ba241240da080f69636761e4850146",
+          "kind": "git",
+          "path": "preview/gambia-v1/gambia-v1-source.zip"
+        },
+        "uri": "sha256:6637486f0fe31acec32bd6f3c7ce409e87cfb503a71ccd8ff5e27d044f14c07c"
+      },
+      {
+        "bytes": 1552360,
+        "role": "model",
+        "sha256": "d432f853ac1dc430fab48ee6815eafa31b7c7e472efb7beae8a5854609f3e14c",
+        "source": {
+          "commit": "20af220774ba241240da080f69636761e4850146",
+          "path": "preview/gambia-v1/gambia.glb"
+        },
+        "uri": "sha256:d432f853ac1dc430fab48ee6815eafa31b7c7e472efb7beae8a5854609f3e14c"
+      },
+      {
+        "bytes": 54090,
+        "role": "promotional-illustration",
+        "sha256": "a324148b3e02c0c845444b92302b72e0723c8ebed88b0b07d11667fd425c2675",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/gambia.webp"
+        },
+        "uri": "sha256:a324148b3e02c0c845444b92302b72e0723c8ebed88b0b07d11667fd425c2675"
+      },
+      {
+        "bytes": 3194,
+        "role": "research-brief",
+        "sha256": "6c803bfaeaaa202293772be21cc593aa8c35b2a5914703a8139a0d728b03dbbb",
+        "source": {
+          "commit": "20af220774ba241240da080f69636761e4850146",
+          "path": "preview/gambia-v1/design-brief.md"
+        },
+        "uri": "sha256:6c803bfaeaaa202293772be21cc593aa8c35b2a5914703a8139a0d728b03dbbb"
+      },
+      {
+        "bytes": 6294,
+        "role": "source-notice",
+        "sha256": "1c9a6970da1e28e75931aba581ec461bb5abe6a608bb8da9a370c2f8413fbb19",
+        "source": {
+          "commit": "20af220774ba241240da080f69636761e4850146",
+          "path": "preview/gambia-v1/README.md"
+        },
+        "uri": "sha256:1c9a6970da1e28e75931aba581ec461bb5abe6a608bb8da9a370c2f8413fbb19"
+      },
+      {
+        "bytes": 2896762,
+        "role": "viewer",
+        "sha256": "3f9b6bc115fff971f889518f5c79eb491668a5f5f183f0d35a23b551d8f1575a",
+        "source": {
+          "commit": "20af220774ba241240da080f69636761e4850146",
+          "path": "preview/gambia-v1/gambia-v1.html"
+        },
+        "uri": "sha256:3f9b6bc115fff971f889518f5c79eb491668a5f5f183f0d35a23b551d8f1575a"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "gambia",
+    "independent_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "capture_base": "parent/",
+      "captures": [
+        "smoke/gambia/desktop-closed.png",
+        "smoke/gambia/desktop-open.png",
+        "smoke/gambia/mobile-closed.png",
+        "smoke/gambia/mobile-open.png"
+      ],
+      "critical_reproducible_failures": [],
+      "final_approval": false,
+      "fresh_checks": {
+        "blender_parity_collision": false,
+        "fallback": false,
+        "full_inner_archive_inventories": true,
+        "motion": false,
+        "original_captures_and_marketing_inspected": true,
+        "runtime": false,
+        "source_and_delivered_viewer_hashes": true,
+        "source_archive_crc_safe_paths_required_payloads": true
+      },
+      "historical_runtime": {
+        "browser": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.710108518600464,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.3105585500597954,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1552360,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 9,
+              "meshes": 130,
+              "nonfinite": 0,
+              "triangles": 19400
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "gambia",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "3f9b6bc115fff971f889518f5c79eb491668a5f5f183f0d35a23b551d8f1575a"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.710108518600464,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.3105585500597954,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1552360,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 9,
+              "meshes": 130,
+              "nonfinite": 0,
+              "triangles": 19400
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "gambia",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "3f9b6bc115fff971f889518f5c79eb491668a5f5f183f0d35a23b551d8f1575a"
+          }
+        ],
+        "extended": {
+          "geometry": {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.710108518600464,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.3105585500597954,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1552360,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 9,
+              "meshes": 130,
+              "nonfinite": 0,
+              "triangles": 19400
+            },
+            "meshes": 130,
+            "nonfinite": 0,
+            "triangles": 19400
+          },
+          "id": "gambia",
+          "no_js_poster": true
+        },
+        "motion": {
+          "exit_code": 0,
+          "id": "gambia",
+          "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+          "source": [
+            {
+              "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+              "path": "preview/albania-v1/tests.mjs",
+              "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+            },
+            {
+              "commit": "20af220774ba241240da080f69636761e4850146",
+              "path": "preview/gambia-v1/motion.mjs",
+              "sha256": "db759a203c5dbb3b2f77d4b197315fe8d702a2d6db0689bc76af79ba12c0f59e"
+            }
+          ]
+        },
+        "parent_commit": "431e51ffb5a8704b5f8f8b11694d28befae18402"
+      },
+      "id": "gambia",
+      "independent_visual": {
+        "assessment": {
+          "concrete_defects": [
+            "Promotional waterway ends expose abrupt straight/squared turquoise edges, particularly the thin rightward extension, which reads less finished than the stone-bordered banks.",
+            "Desktop closed foliage looks thin/flat and faceted; rounded feet have coarse uneven surfaces.",
+            "Mobile supporting metadata and disclaimer are small compared with primary content."
+          ],
+          "id": "gambia",
+          "inspected_paths": [
+            "parent/smoke/gambia/desktop-closed.png",
+            "parent/smoke/gambia/desktop-open.png",
+            "parent/smoke/gambia/mobile-closed.png",
+            "parent/smoke/gambia/mobile-open.png",
+            "parent/sources/gambia/marketing.webp"
+          ],
+          "limitations": [
+            "All five original images inspected individually with vision; paths relative to launch/qa-art-08.",
+            "Static views cannot prove hidden attachment, contact, collision clearance or motion; unseen faces are unassessed.",
+            "Promotional artwork is not an exact model reference or evidence of mechanics.",
+            "Candidate status is not art approval; low-poly foliage and the colored seam may be intentional."
+          ],
+          "observations": [
+            "Mangrove roots, turquoise tidal channels and warm sediment/wood-like bands are readable.",
+            "All four viewer states are fully framed without obvious clipping or overlap; mobile open has no clear layout defect.",
+            "Open tab and hinge connections are visually ambiguous at this scale, not proven loose or detached. The teal closed seam alone does not establish failed closure."
+          ],
+          "verdict": "candidate-with-limitations"
+        },
+        "report": "visual-b.json"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-08 review"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 54090,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/gambia.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "pass: three trees river and banks preserved",
+          "reviewStatus": "reviewed_pass",
+          "sha256": "7883eaa901bc7fbdaa95a4e923720dd316a3a34711fe3fe998621436f52b6632",
+          "source": "assets/gallery/gambia.webp",
+          "sourceSha256": "60d9be42e3052b270ee7680f5dbfe8dfded777f44eb973e1f89e8c3327f87126",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "a324148b3e02c0c845444b92302b72e0723c8ebed88b0b07d11667fd425c2675"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_verdict": "pass",
+      "parent_visual": {
+        "decision": "Candidate only with explicit wood-like sediment-bronze caveat and simplified mangrove/shoreline disclosure. Do not call the bronze material target achieved realistically merely because marketing agrees. No final user aesthetic approval.",
+        "hardware": "Large front clasp, round fitting, side ring, corner caps and rounded feet read consistently. Metal is clean and uniform rather than aged bronze. Open latch is intentionally released; small mobile attachment details and segmented-looking hinge/rim joints are not sufficient to infer mechanical failure.",
+        "limitations": "Read source_readme.md and research_brief.md. Bronze is an artistic choice, not a Gambian craft claim. No botanical or geographic reconstruction; render grain and mobile fine-detail limits remain. Static inspection cannot certify moving joints, physical phones or manufacturing.",
+        "quality": "Complete desktop/mobile framing in closed and open states. Marketing and runtime preserve the warm banded chest, turquoise channel, three-tree grouping and broad fittings. This is visually coherent as a stylized miniature, not convincing sediment bronze.",
+        "terrain": "Closed captures retain sinuous water and exposed prop-root forms. Banks resemble individual stones, tree bases small pads, and foliage sparse layered shapes. Blunt channel ends and shallow tributary remain disclosed limitations. Open views turn the terrain away.",
+        "texture": "Dense wavy ochre banding reads strongly as wood grain across exterior and interior rather than sediment bronze. Marketing also reads as pale wood, so broad image correspondence does not cure the brief/material-identity gap. Water is opaque flat turquoise; sand, leaves and metal have limited fine variation."
+      },
+      "parent_visual_hold_preserved": false,
+      "reviewed_image_hashes": [
+        {
+          "bytes": 370496,
+          "path": "smoke/gambia/desktop-closed.png",
+          "sha256": "872c3713ff34c1a28ff94b2941455d9b0b00c8f40bd0fadda57d5e0107f0edd6"
+        },
+        {
+          "bytes": 389602,
+          "path": "smoke/gambia/desktop-open.png",
+          "sha256": "d0a142ae40693f1017864b8f5e38866cea0a1cb3a0308dae5bb8ff0ddd042025"
+        },
+        {
+          "bytes": 120214,
+          "path": "smoke/gambia/mobile-closed.png",
+          "sha256": "1c1de03ababbeb7ed8e1b205791d006b6dd56cd04655cf6de87b247ec4abefbd"
+        },
+        {
+          "bytes": 120485,
+          "path": "smoke/gambia/mobile-open.png",
+          "sha256": "4e58ed1249c94689df13c35a28f83899f2058db374e18b82f00567874bd6d976"
+        },
+        {
+          "bytes": 54090,
+          "path": "sources/gambia/marketing.webp",
+          "sha256": "a324148b3e02c0c845444b92302b72e0723c8ebed88b0b07d11667fd425c2675"
+        }
+      ],
+      "selection": {
+        "commit": "20af220774ba241240da080f69636761e4850146",
+        "fetched_tip": "20af220774ba241240da080f69636761e4850146",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/gambia-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 7361321,
+          "commit": "20af220774ba241240da080f69636761e4850146",
+          "crc_error": null,
+          "entries": 50,
+          "fresh_crc_safe_unique": true,
+          "fresh_inner_inventory_entries": 49,
+          "fresh_required_payloads": [
+            {
+              "member": "gambia-v1.html",
+              "path": "preview/gambia-v1/gambia-v1.html",
+              "sha256": "3f9b6bc115fff971f889518f5c79eb491668a5f5f183f0d35a23b551d8f1575a"
+            },
+            {
+              "member": "gambia.blend",
+              "path": "preview/gambia-v1/gambia.blend",
+              "sha256": "fd87ed690c318b99693f099c54e812d980f41e4c5f8c120cb20b7a47699c4653"
+            },
+            {
+              "member": "gambia.glb",
+              "path": "preview/gambia-v1/gambia.glb",
+              "sha256": "d432f853ac1dc430fab48ee6815eafa31b7c7e472efb7beae8a5854609f3e14c"
+            }
+          ],
+          "inventory_checked": true,
+          "inventory_entries": 49,
+          "inventory_mismatches": [],
+          "kind": "git",
+          "path": "preview/gambia-v1/gambia-v1-source.zip",
+          "required_payloads": {
+            "gambia-v1.html": true,
+            "gambia.blend": true,
+            "gambia.glb": true
+          },
+          "safe_unique_paths": true,
+          "sha256": "6637486f0fe31acec32bd6f3c7ce409e87cfb503a71ccd8ff5e27d044f14c07c"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 734781,
+          "commit": "20af220774ba241240da080f69636761e4850146",
+          "path": "preview/gambia-v1/gambia.blend",
+          "role": "selected-model",
+          "sha256": "fd87ed690c318b99693f099c54e812d980f41e4c5f8c120cb20b7a47699c4653"
+        },
+        {
+          "bytes": 1552360,
+          "commit": "20af220774ba241240da080f69636761e4850146",
+          "path": "preview/gambia-v1/gambia.glb",
+          "role": "selected-model",
+          "sha256": "d432f853ac1dc430fab48ee6815eafa31b7c7e472efb7beae8a5854609f3e14c",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 130,
+            "nodes": 132
+          }
+        }
+      ],
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 2896762,
+        "commit": "20af220774ba241240da080f69636761e4850146",
+        "path": "preview/gambia-v1/gambia-v1.html",
+        "sha256": "3f9b6bc115fff971f889518f5c79eb491668a5f5f183f0d35a23b551d8f1575a",
+        "under_5000000": true
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Gambia",
+    "package_history": [
+      {
+        "bytes": 7361321,
+        "commit": "20af220774ba241240da080f69636761e4850146",
+        "crc_error": null,
+        "entries": 50,
+        "inventory_checked": true,
+        "inventory_entries": 49,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/gambia-v1/gambia-v1-source.zip",
+        "required_payloads": {
+          "gambia-v1.html": true,
+          "gambia.blend": true,
+          "gambia.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "6637486f0fe31acec32bd6f3c7ce409e87cfb503a71ccd8ff5e27d044f14c07c"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "20af220774ba241240da080f69636761e4850146",
+      "fetched_tip": "20af220774ba241240da080f69636761e4850146",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/gambia-v1"
+    },
+    "verdict": "candidate-with-limitations",
+    "viewer": {
+      "bytes": 2896762,
+      "commit": "20af220774ba241240da080f69636761e4850146",
+      "path": "preview/gambia-v1/gambia-v1.html",
+      "sha256": "3f9b6bc115fff971f889518f5c79eb491668a5f5f183f0d35a23b551d8f1575a",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "gambia",
+    "baseline_verdict": "candidate-with-limitations",
+    "actions": [
+      "remaining ordinary finish inspection; do not edit promotional-only differences or infer broken model"
+    ],
+    "approval": false,
+    "original_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "capture_base": "parent/",
+      "captures": [
+        "smoke/gambia/desktop-closed.png",
+        "smoke/gambia/desktop-open.png",
+        "smoke/gambia/mobile-closed.png",
+        "smoke/gambia/mobile-open.png"
+      ],
+      "critical_reproducible_failures": [],
+      "final_approval": false,
+      "fresh_checks": {
+        "blender_parity_collision": false,
+        "fallback": false,
+        "full_inner_archive_inventories": true,
+        "motion": false,
+        "original_captures_and_marketing_inspected": true,
+        "runtime": false,
+        "source_and_delivered_viewer_hashes": true,
+        "source_archive_crc_safe_paths_required_payloads": true
+      },
+      "historical_runtime": {
+        "browser": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.710108518600464,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.3105585500597954,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1552360,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 9,
+              "meshes": 130,
+              "nonfinite": 0,
+              "triangles": 19400
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "gambia",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "3f9b6bc115fff971f889518f5c79eb491668a5f5f183f0d35a23b551d8f1575a"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.710108518600464,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.3105585500597954,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1552360,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 9,
+              "meshes": 130,
+              "nonfinite": 0,
+              "triangles": 19400
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "gambia",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "3f9b6bc115fff971f889518f5c79eb491668a5f5f183f0d35a23b551d8f1575a"
+          }
+        ],
+        "extended": {
+          "geometry": {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.710108518600464,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.3105585500597954,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1552360,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 9,
+              "meshes": 130,
+              "nonfinite": 0,
+              "triangles": 19400
+            },
+            "meshes": 130,
+            "nonfinite": 0,
+            "triangles": 19400
+          },
+          "id": "gambia",
+          "no_js_poster": true
+        },
+        "motion": {
+          "exit_code": 0,
+          "id": "gambia",
+          "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+          "source": [
+            {
+              "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+              "path": "preview/albania-v1/tests.mjs",
+              "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+            },
+            {
+              "commit": "20af220774ba241240da080f69636761e4850146",
+              "path": "preview/gambia-v1/motion.mjs",
+              "sha256": "db759a203c5dbb3b2f77d4b197315fe8d702a2d6db0689bc76af79ba12c0f59e"
+            }
+          ]
+        },
+        "parent_commit": "431e51ffb5a8704b5f8f8b11694d28befae18402"
+      },
+      "id": "gambia",
+      "independent_visual": {
+        "assessment": {
+          "concrete_defects": [
+            "Promotional waterway ends expose abrupt straight/squared turquoise edges, particularly the thin rightward extension, which reads less finished than the stone-bordered banks.",
+            "Desktop closed foliage looks thin/flat and faceted; rounded feet have coarse uneven surfaces.",
+            "Mobile supporting metadata and disclaimer are small compared with primary content."
+          ],
+          "id": "gambia",
+          "inspected_paths": [
+            "parent/smoke/gambia/desktop-closed.png",
+            "parent/smoke/gambia/desktop-open.png",
+            "parent/smoke/gambia/mobile-closed.png",
+            "parent/smoke/gambia/mobile-open.png",
+            "parent/sources/gambia/marketing.webp"
+          ],
+          "limitations": [
+            "All five original images inspected individually with vision; paths relative to launch/qa-art-08.",
+            "Static views cannot prove hidden attachment, contact, collision clearance or motion; unseen faces are unassessed.",
+            "Promotional artwork is not an exact model reference or evidence of mechanics.",
+            "Candidate status is not art approval; low-poly foliage and the colored seam may be intentional."
+          ],
+          "observations": [
+            "Mangrove roots, turquoise tidal channels and warm sediment/wood-like bands are readable.",
+            "All four viewer states are fully framed without obvious clipping or overlap; mobile open has no clear layout defect.",
+            "Open tab and hinge connections are visually ambiguous at this scale, not proven loose or detached. The teal closed seam alone does not establish failed closure."
+          ],
+          "verdict": "candidate-with-limitations"
+        },
+        "report": "visual-b.json"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-08 review"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 54090,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/gambia.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "pass: three trees river and banks preserved",
+          "reviewStatus": "reviewed_pass",
+          "sha256": "7883eaa901bc7fbdaa95a4e923720dd316a3a34711fe3fe998621436f52b6632",
+          "source": "assets/gallery/gambia.webp",
+          "sourceSha256": "60d9be42e3052b270ee7680f5dbfe8dfded777f44eb973e1f89e8c3327f87126",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "a324148b3e02c0c845444b92302b72e0723c8ebed88b0b07d11667fd425c2675"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_verdict": "pass",
+      "parent_visual": {
+        "decision": "Candidate only with explicit wood-like sediment-bronze caveat and simplified mangrove/shoreline disclosure. Do not call the bronze material target achieved realistically merely because marketing agrees. No final user aesthetic approval.",
+        "hardware": "Large front clasp, round fitting, side ring, corner caps and rounded feet read consistently. Metal is clean and uniform rather than aged bronze. Open latch is intentionally released; small mobile attachment details and segmented-looking hinge/rim joints are not sufficient to infer mechanical failure.",
+        "limitations": "Read source_readme.md and research_brief.md. Bronze is an artistic choice, not a Gambian craft claim. No botanical or geographic reconstruction; render grain and mobile fine-detail limits remain. Static inspection cannot certify moving joints, physical phones or manufacturing.",
+        "quality": "Complete desktop/mobile framing in closed and open states. Marketing and runtime preserve the warm banded chest, turquoise channel, three-tree grouping and broad fittings. This is visually coherent as a stylized miniature, not convincing sediment bronze.",
+        "terrain": "Closed captures retain sinuous water and exposed prop-root forms. Banks resemble individual stones, tree bases small pads, and foliage sparse layered shapes. Blunt channel ends and shallow tributary remain disclosed limitations. Open views turn the terrain away.",
+        "texture": "Dense wavy ochre banding reads strongly as wood grain across exterior and interior rather than sediment bronze. Marketing also reads as pale wood, so broad image correspondence does not cure the brief/material-identity gap. Water is opaque flat turquoise; sand, leaves and metal have limited fine variation."
+      },
+      "parent_visual_hold_preserved": false,
+      "reviewed_image_hashes": [
+        {
+          "bytes": 370496,
+          "path": "smoke/gambia/desktop-closed.png",
+          "sha256": "872c3713ff34c1a28ff94b2941455d9b0b00c8f40bd0fadda57d5e0107f0edd6"
+        },
+        {
+          "bytes": 389602,
+          "path": "smoke/gambia/desktop-open.png",
+          "sha256": "d0a142ae40693f1017864b8f5e38866cea0a1cb3a0308dae5bb8ff0ddd042025"
+        },
+        {
+          "bytes": 120214,
+          "path": "smoke/gambia/mobile-closed.png",
+          "sha256": "1c1de03ababbeb7ed8e1b205791d006b6dd56cd04655cf6de87b247ec4abefbd"
+        },
+        {
+          "bytes": 120485,
+          "path": "smoke/gambia/mobile-open.png",
+          "sha256": "4e58ed1249c94689df13c35a28f83899f2058db374e18b82f00567874bd6d976"
+        },
+        {
+          "bytes": 54090,
+          "path": "sources/gambia/marketing.webp",
+          "sha256": "a324148b3e02c0c845444b92302b72e0723c8ebed88b0b07d11667fd425c2675"
+        }
+      ],
+      "selection": {
+        "commit": "20af220774ba241240da080f69636761e4850146",
+        "fetched_tip": "20af220774ba241240da080f69636761e4850146",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/gambia-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 7361321,
+          "commit": "20af220774ba241240da080f69636761e4850146",
+          "crc_error": null,
+          "entries": 50,
+          "fresh_crc_safe_unique": true,
+          "fresh_inner_inventory_entries": 49,
+          "fresh_required_payloads": [
+            {
+              "member": "gambia-v1.html",
+              "path": "preview/gambia-v1/gambia-v1.html",
+              "sha256": "3f9b6bc115fff971f889518f5c79eb491668a5f5f183f0d35a23b551d8f1575a"
+            },
+            {
+              "member": "gambia.blend",
+              "path": "preview/gambia-v1/gambia.blend",
+              "sha256": "fd87ed690c318b99693f099c54e812d980f41e4c5f8c120cb20b7a47699c4653"
+            },
+            {
+              "member": "gambia.glb",
+              "path": "preview/gambia-v1/gambia.glb",
+              "sha256": "d432f853ac1dc430fab48ee6815eafa31b7c7e472efb7beae8a5854609f3e14c"
+            }
+          ],
+          "inventory_checked": true,
+          "inventory_entries": 49,
+          "inventory_mismatches": [],
+          "kind": "git",
+          "path": "preview/gambia-v1/gambia-v1-source.zip",
+          "required_payloads": {
+            "gambia-v1.html": true,
+            "gambia.blend": true,
+            "gambia.glb": true
+          },
+          "safe_unique_paths": true,
+          "sha256": "6637486f0fe31acec32bd6f3c7ce409e87cfb503a71ccd8ff5e27d044f14c07c"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 734781,
+          "commit": "20af220774ba241240da080f69636761e4850146",
+          "path": "preview/gambia-v1/gambia.blend",
+          "role": "selected-model",
+          "sha256": "fd87ed690c318b99693f099c54e812d980f41e4c5f8c120cb20b7a47699c4653"
+        },
+        {
+          "bytes": 1552360,
+          "commit": "20af220774ba241240da080f69636761e4850146",
+          "path": "preview/gambia-v1/gambia.glb",
+          "role": "selected-model",
+          "sha256": "d432f853ac1dc430fab48ee6815eafa31b7c7e472efb7beae8a5854609f3e14c",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 130,
+            "nodes": 132
+          }
+        }
+      ],
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 2896762,
+        "commit": "20af220774ba241240da080f69636761e4850146",
+        "path": "preview/gambia-v1/gambia-v1.html",
+        "sha256": "3f9b6bc115fff971f889518f5c79eb491668a5f5f183f0d35a23b551d8f1575a",
+        "under_5000000": true
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 7361321,
+        "commit": "20af220774ba241240da080f69636761e4850146",
+        "crc_error": null,
+        "entries": 50,
+        "inventory_checked": true,
+        "inventory_entries": 49,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/gambia-v1/gambia-v1-source.zip",
+        "required_payloads": {
+          "gambia-v1.html": true,
+          "gambia.blend": true,
+          "gambia.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "6637486f0fe31acec32bd6f3c7ce409e87cfb503a71ccd8ff5e27d044f14c07c"
+      }
+    ]
+  },
+  "ordinary_record": {
+    "id": "gambia",
+    "disposition": "unchanged-with-explicit-limitations",
+    "correction_passes": 0,
+    "model_geometry_changed": false,
+    "final_approved": false,
+    "launch_ready": false,
+    "original_observations": [
+      "Promotional waterway ends expose abrupt straight/squared turquoise edges, particularly the thin rightward extension, which reads less finished than the stone-bordered banks.",
+      "Desktop closed foliage looks thin/flat and faceted; rounded feet have coarse uneven surfaces.",
+      "Mobile supporting metadata and disclaimer are small compared with primary content."
+    ],
+    "independent_adjudication": {
+      "id": "gambia",
+      "disposition": "no-edit",
+      "observation": "Strong repeated sediment/wood-like waves appear on body and open interior, with related waviness in marketing. Mangrove roots and tidal channels are coherent; mobile loses fine detail through size.",
+      "recommendation": "Preserve tidal geometry, roots, teal rim and existing bands. The wood-like versus sediment-bronze reading is a material-style limitation, not evidence of corrupted texture. Do not replace the full material as ordinary polish.",
+      "supersampling": "Not a remedy for broad repetitive banding; no specific sampling repair established."
+    },
+    "unresolved_owner_holds": [
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "inherited_holds": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization",
+      "independent QA-ART-08 review"
+    ],
+    "original_review_preserved_in": "baseline.json",
+    "fresh_runtime": {
+      "id": "gambia",
+      "exit_code": 0,
+      "shared_contract": "Bangladesh renderer-independent interaction assertions; no fresh source/collision claim",
+      "results": "launch\\ordinary-finish-20\\runtime\\gambia\\browser-check.json"
+    },
+    "fresh_source_archive": {
+      "id": "gambia",
+      "archives": [
+        {
+          "archive": {
+            "bytes": 7361321,
+            "commit": "20af220774ba241240da080f69636761e4850146",
+            "crc_error": null,
+            "entries": 50,
+            "fresh_crc_safe_unique": true,
+            "fresh_inner_inventory_entries": 49,
+            "fresh_required_payloads": [
+              {
+                "member": "gambia-v1.html",
+                "path": "preview/gambia-v1/gambia-v1.html",
+                "sha256": "3f9b6bc115fff971f889518f5c79eb491668a5f5f183f0d35a23b551d8f1575a"
+              },
+              {
+                "member": "gambia.blend",
+                "path": "preview/gambia-v1/gambia.blend",
+                "sha256": "fd87ed690c318b99693f099c54e812d980f41e4c5f8c120cb20b7a47699c4653"
+              },
+              {
+                "member": "gambia.glb",
+                "path": "preview/gambia-v1/gambia.glb",
+                "sha256": "d432f853ac1dc430fab48ee6815eafa31b7c7e472efb7beae8a5854609f3e14c"
+              }
+            ],
+            "inventory_checked": true,
+            "inventory_entries": 49,
+            "inventory_mismatches": [],
+            "kind": "git",
+            "path": "preview/gambia-v1/gambia-v1-source.zip",
+            "required_payloads": {
+              "gambia-v1.html": true,
+              "gambia.blend": true,
+              "gambia.glb": true
+            },
+            "safe_unique_paths": true,
+            "sha256": "6637486f0fe31acec32bd6f3c7ce409e87cfb503a71ccd8ff5e27d044f14c07c"
+          },
+          "members": 50,
+          "fresh_inventory": {
+            "status": "pass",
+            "entries_checked": 49,
+            "uninventoried_members": [
+              "inventory.json"
+            ]
+          },
+          "exact_selected_payloads": [
+            "gambia-v1.html",
+            "gambia.blend",
+            "gambia.glb"
+          ]
+        }
+      ],
+      "pass": true
+    },
+    "remaining_visual_limitations": "Strong repeated sediment/wood-like waves appear on body and open interior, with related waviness in marketing. Mangrove roots and tidal channels are coherent; mobile loses fine detail through size."
+  }
+}

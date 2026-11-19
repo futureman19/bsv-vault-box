@@ -1,0 +1,934 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 8,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 1135386,
+        "role": "editable-source",
+        "sha256": "7aea3afdf6711daa895431ad0a1118669cce5a4c9412d28b7d53687249684501",
+        "source": {
+          "commit": "6e523fd55ef9218ee1a6c7ff7d9ade0991096ef6",
+          "path": "preview/samoa-v1/samoa.blend"
+        },
+        "uri": "sha256:7aea3afdf6711daa895431ad0a1118669cce5a4c9412d28b7d53687249684501"
+      },
+      {
+        "bytes": 8578481,
+        "role": "historical-source-archive",
+        "sha256": "0d5b6e6f762e5f293786344031be7b22507a61d3ed9e3075a4b7ee4c55fde9f6",
+        "source": {
+          "commit": "6e523fd55ef9218ee1a6c7ff7d9ade0991096ef6",
+          "kind": "git",
+          "path": "preview/samoa-v1/samoa-v1-source.zip"
+        },
+        "uri": "sha256:0d5b6e6f762e5f293786344031be7b22507a61d3ed9e3075a4b7ee4c55fde9f6"
+      },
+      {
+        "bytes": 1955748,
+        "role": "model",
+        "sha256": "b34fff8759652aa03baf76add22357e145defffbbe1c3993f73c580e3f87d9a4",
+        "source": {
+          "commit": "6e523fd55ef9218ee1a6c7ff7d9ade0991096ef6",
+          "path": "preview/samoa-v1/samoa.glb"
+        },
+        "uri": "sha256:b34fff8759652aa03baf76add22357e145defffbbe1c3993f73c580e3f87d9a4"
+      },
+      {
+        "bytes": 56800,
+        "role": "promotional-illustration",
+        "sha256": "66129fb972d957a8de3f88ea94237cc042fe81fb046b9ffdaa445b62c7a9717b",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/samoa.webp"
+        },
+        "uri": "sha256:66129fb972d957a8de3f88ea94237cc042fe81fb046b9ffdaa445b62c7a9717b"
+      },
+      {
+        "bytes": 4390,
+        "role": "research-brief",
+        "sha256": "ccd4e38ea5fd46a33bb9253558ab303076ced97978c6dda0e93566cee7b59f8a",
+        "source": {
+          "commit": "6e523fd55ef9218ee1a6c7ff7d9ade0991096ef6",
+          "path": "preview/samoa-v1/design-brief.md"
+        },
+        "uri": "sha256:ccd4e38ea5fd46a33bb9253558ab303076ced97978c6dda0e93566cee7b59f8a"
+      },
+      {
+        "bytes": 6933,
+        "role": "source-notice",
+        "sha256": "14875bd41b2068bf7cf5da60144e0cba8c0c57db19c02da17ca754c8083fc975",
+        "source": {
+          "commit": "6e523fd55ef9218ee1a6c7ff7d9ade0991096ef6",
+          "path": "preview/samoa-v1/README.md"
+        },
+        "uri": "sha256:14875bd41b2068bf7cf5da60144e0cba8c0c57db19c02da17ca754c8083fc975"
+      },
+      {
+        "bytes": 3418632,
+        "role": "viewer",
+        "sha256": "d1599776336271c970ce2d164c79e49264af0a8e3a735fbff06c3bb8c60a8a26",
+        "source": {
+          "commit": "6e523fd55ef9218ee1a6c7ff7d9ade0991096ef6",
+          "path": "preview/samoa-v1/samoa-v1.html"
+        },
+        "uri": "sha256:d1599776336271c970ce2d164c79e49264af0a8e3a735fbff06c3bb8c60a8a26"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "samoa",
+    "independent_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "capture_base": "parent/",
+      "captures": [
+        "smoke/samoa/desktop-closed.png",
+        "smoke/samoa/desktop-open.png",
+        "smoke/samoa/mobile-closed.png",
+        "smoke/samoa/mobile-open.png"
+      ],
+      "critical_reproducible_failures": [],
+      "final_approval": false,
+      "fresh_checks": {
+        "blender_parity_collision": false,
+        "fallback": false,
+        "full_inner_archive_inventories": true,
+        "motion": false,
+        "original_captures_and_marketing_inspected": true,
+        "runtime": false,
+        "source_and_delivered_viewer_hashes": true,
+        "source_archive_crc_safe_paths_required_payloads": true
+      },
+      "historical_runtime": {
+        "browser": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8779999576508999,
+                  2.3576168417930603,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.3105585500597954,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1955748,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 5,
+              "meshes": 63,
+              "nonfinite": 0,
+              "triangles": 15474
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "samoa",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "d1599776336271c970ce2d164c79e49264af0a8e3a735fbff06c3bb8c60a8a26"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8779999576508999,
+                  2.3576168417930603,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.3105585500597954,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1955748,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 5,
+              "meshes": 63,
+              "nonfinite": 0,
+              "triangles": 15474
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "samoa",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "d1599776336271c970ce2d164c79e49264af0a8e3a735fbff06c3bb8c60a8a26"
+          }
+        ],
+        "extended": {
+          "geometry": {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8779999576508999,
+                  2.3576168417930603,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.3105585500597954,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1955748,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 5,
+              "meshes": 63,
+              "nonfinite": 0,
+              "triangles": 15474
+            },
+            "meshes": 63,
+            "nonfinite": 0,
+            "triangles": 15474
+          },
+          "id": "samoa",
+          "no_js_poster": true
+        },
+        "motion": {
+          "exit_code": 0,
+          "id": "samoa",
+          "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+          "source": [
+            {
+              "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+              "path": "preview/albania-v1/tests.mjs",
+              "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+            },
+            {
+              "commit": "6e523fd55ef9218ee1a6c7ff7d9ade0991096ef6",
+              "path": "preview/samoa-v1/motion.mjs",
+              "sha256": "501af33adb31e84e6713ce2a8dcc6f3b7dccd4eb9df118347e62744b34e9c0af"
+            }
+          ]
+        },
+        "parent_commit": "431e51ffb5a8704b5f8f8b11694d28befae18402"
+      },
+      "id": "samoa",
+      "independent_visual": {
+        "assessment": {
+          "concrete_defects": [
+            "Pattern borders and motifs end abruptly at panel boundaries in marketing and previews; closed-preview lid decoration is softer and paler than the front panels.",
+            "Broad brown closed-lid reveal, coarse frame/panel joins and uneven cap seating are visible; no mesh failure is established. Dark feet and lower rails lose separation against the background, especially on mobile."
+          ],
+          "framing": "Entire object, raised lid/latch in open views and visible feet remain in frame on desktop and mobile; no obvious UI overlap or asset cropping. Small presentation scale limits detailed hardware assessment.",
+          "id": "samoa",
+          "inspected_paths": [
+            "parent/smoke/samoa/desktop-closed.png",
+            "parent/smoke/samoa/desktop-open.png",
+            "parent/smoke/samoa/mobile-closed.png",
+            "parent/smoke/samoa/mobile-open.png",
+            "parent/sources/samoa/marketing.webp"
+          ],
+          "limitations": [
+            "All five original images inspected individually with vision; static endpoint screenshots do not establish motion, hinge/latch operation, clearance, physical buildability, or custody behavior. A released latch in an open view is not itself a defect.",
+            "Only the depicted angles and screenshot resolutions were reviewed; hidden faces and fine attachment details remain unverified. Stylized collectible imagery is not a mechanically validated product or authenticated traditional craft. No final approval or art changes.",
+            "Ivory terracotta/brown geometric panels, charcoal/slate lava-like frame, brass fittings, dark feet and a small lid-rock cluster correspond to marketing. This is barkcloth-inspired stylization, not authenticated siapo; the repeated bordered panels can read as tiles."
+          ],
+          "verdict": "candidate-with-limitations"
+        },
+        "report": "visual-d.json"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-08 review"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 56800,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/samoa.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "pass: patterned panels and rock cluster preserved",
+          "reviewStatus": "reviewed_pass",
+          "sha256": "d2e9cd123e4a10750efd341b22aefeea4c4befceaaa7dfa21ed52c314a42e112",
+          "source": "assets/gallery/samoa.webp",
+          "sourceSha256": "18c118d6cffb7e4a4c548dc75eaa091f75ef5031bc018864d78fbf8fe441bf71",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "66129fb972d957a8de3f88ea94237cc042fe81fb046b9ffdaa445b62c7a9717b"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_verdict": "pass",
+      "parent_visual": {
+        "decision": "Bounded pass for the consistent stylized decorative composition only. Do not elevate matching palette/pattern placement into barkcloth or volcanic-material realism.",
+        "hardware": "Family clasp, round front fitting, side ring and corner caps are visible; rear hinges appear positioned at the open rim. Expected upright released latch is not classified as detached.",
+        "limitations": "Frozen still-image review only; supplied technical passes were not rerun. No final user approval, photoreal equivalence, physical-phone performance, cultural authentication or continuous mechanical certification. Open disengaged latch is expected; hidden exterior lid ornament in open views is not missing. Invented siapo-inspired motifs are not authenticated traditional designs. Preserve cool cast, smoother-than-lava surfaces, subtle ripples and low mobile lid detail; warm brown cavity is visible in open captures.",
+        "quality": "Cream/rust patterned panels, cool charcoal frame and brass are coherent and legible; closed/open states fit desktop/mobile. Marketing shares the gridded angular rosettes and rear-left rock accents.",
+        "terrain": "Small generic angular lava-rock accents, not Saleaula terrain; subdued on mobile. The waved lid panel reads as a shallow rigid decorative insert rather than draped cloth.",
+        "texture": "Strongly repeated cream/rust grid is clearer on front than washed-out lid. Neither actual nor marketing establishes fibrous barkcloth; charcoal frame is mottled cool blue-gray stone, not unmistakably porous lava. Border crops are not fully continuous."
+      },
+      "parent_visual_hold_preserved": false,
+      "reviewed_image_hashes": [
+        {
+          "bytes": 388166,
+          "path": "smoke/samoa/desktop-closed.png",
+          "sha256": "8730187f0674a0a24cd19b696557ea8491ef8d7de4afe651492f2f99e463ca75"
+        },
+        {
+          "bytes": 399547,
+          "path": "smoke/samoa/desktop-open.png",
+          "sha256": "2a0bb29e3e661edd2e478964bf03b2eeeaefe9ace9a1f79d00c1ee1f79f4d160"
+        },
+        {
+          "bytes": 123420,
+          "path": "smoke/samoa/mobile-closed.png",
+          "sha256": "cf2f74bf3988a76d4cbead6e91a52f9cc8f7af687d344b2cd3bfd3ed4b20b943"
+        },
+        {
+          "bytes": 122373,
+          "path": "smoke/samoa/mobile-open.png",
+          "sha256": "9327da091bd9cdaa6aed76fb8d1d58edb09e92b526de2fedcde21ccd0c27e0d0"
+        },
+        {
+          "bytes": 56800,
+          "path": "sources/samoa/marketing.webp",
+          "sha256": "66129fb972d957a8de3f88ea94237cc042fe81fb046b9ffdaa445b62c7a9717b"
+        }
+      ],
+      "selection": {
+        "commit": "6e523fd55ef9218ee1a6c7ff7d9ade0991096ef6",
+        "fetched_tip": "6e523fd55ef9218ee1a6c7ff7d9ade0991096ef6",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/samoa-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 8578481,
+          "commit": "6e523fd55ef9218ee1a6c7ff7d9ade0991096ef6",
+          "crc_error": null,
+          "entries": 61,
+          "fresh_crc_safe_unique": true,
+          "fresh_inner_inventory_entries": 60,
+          "fresh_required_payloads": [
+            {
+              "member": "samoa-v1.html",
+              "path": "preview/samoa-v1/samoa-v1.html",
+              "sha256": "d1599776336271c970ce2d164c79e49264af0a8e3a735fbff06c3bb8c60a8a26"
+            },
+            {
+              "member": "samoa.blend",
+              "path": "preview/samoa-v1/samoa.blend",
+              "sha256": "7aea3afdf6711daa895431ad0a1118669cce5a4c9412d28b7d53687249684501"
+            },
+            {
+              "member": "samoa.glb",
+              "path": "preview/samoa-v1/samoa.glb",
+              "sha256": "b34fff8759652aa03baf76add22357e145defffbbe1c3993f73c580e3f87d9a4"
+            }
+          ],
+          "inventory_checked": true,
+          "inventory_entries": 60,
+          "inventory_mismatches": [],
+          "kind": "git",
+          "path": "preview/samoa-v1/samoa-v1-source.zip",
+          "required_payloads": {
+            "samoa-v1.html": true,
+            "samoa.blend": true,
+            "samoa.glb": true
+          },
+          "safe_unique_paths": true,
+          "sha256": "0d5b6e6f762e5f293786344031be7b22507a61d3ed9e3075a4b7ee4c55fde9f6"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 1135386,
+          "commit": "6e523fd55ef9218ee1a6c7ff7d9ade0991096ef6",
+          "path": "preview/samoa-v1/samoa.blend",
+          "role": "selected-model",
+          "sha256": "7aea3afdf6711daa895431ad0a1118669cce5a4c9412d28b7d53687249684501"
+        },
+        {
+          "bytes": 1955748,
+          "commit": "6e523fd55ef9218ee1a6c7ff7d9ade0991096ef6",
+          "path": "preview/samoa-v1/samoa.glb",
+          "role": "selected-model",
+          "sha256": "b34fff8759652aa03baf76add22357e145defffbbe1c3993f73c580e3f87d9a4",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 63,
+            "nodes": 65
+          }
+        }
+      ],
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 3418632,
+        "commit": "6e523fd55ef9218ee1a6c7ff7d9ade0991096ef6",
+        "path": "preview/samoa-v1/samoa-v1.html",
+        "sha256": "d1599776336271c970ce2d164c79e49264af0a8e3a735fbff06c3bb8c60a8a26",
+        "under_5000000": true
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Samoa",
+    "package_history": [
+      {
+        "bytes": 8578481,
+        "commit": "6e523fd55ef9218ee1a6c7ff7d9ade0991096ef6",
+        "crc_error": null,
+        "entries": 61,
+        "inventory_checked": true,
+        "inventory_entries": 60,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/samoa-v1/samoa-v1-source.zip",
+        "required_payloads": {
+          "samoa-v1.html": true,
+          "samoa.blend": true,
+          "samoa.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "0d5b6e6f762e5f293786344031be7b22507a61d3ed9e3075a4b7ee4c55fde9f6"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "6e523fd55ef9218ee1a6c7ff7d9ade0991096ef6",
+      "fetched_tip": "6e523fd55ef9218ee1a6c7ff7d9ade0991096ef6",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/samoa-v1"
+    },
+    "verdict": "candidate-with-limitations",
+    "viewer": {
+      "bytes": 3418632,
+      "commit": "6e523fd55ef9218ee1a6c7ff7d9ade0991096ef6",
+      "path": "preview/samoa-v1/samoa-v1.html",
+      "sha256": "d1599776336271c970ce2d164c79e49264af0a8e3a735fbff06c3bb8c60a8a26",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "samoa",
+    "baseline_verdict": "candidate-with-limitations",
+    "actions": [
+      "remaining ordinary finish inspection; do not edit promotional-only differences or infer broken model"
+    ],
+    "approval": false,
+    "original_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "capture_base": "parent/",
+      "captures": [
+        "smoke/samoa/desktop-closed.png",
+        "smoke/samoa/desktop-open.png",
+        "smoke/samoa/mobile-closed.png",
+        "smoke/samoa/mobile-open.png"
+      ],
+      "critical_reproducible_failures": [],
+      "final_approval": false,
+      "fresh_checks": {
+        "blender_parity_collision": false,
+        "fallback": false,
+        "full_inner_archive_inventories": true,
+        "motion": false,
+        "original_captures_and_marketing_inspected": true,
+        "runtime": false,
+        "source_and_delivered_viewer_hashes": true,
+        "source_archive_crc_safe_paths_required_payloads": true
+      },
+      "historical_runtime": {
+        "browser": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8779999576508999,
+                  2.3576168417930603,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.3105585500597954,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1955748,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 5,
+              "meshes": 63,
+              "nonfinite": 0,
+              "triangles": 15474
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "samoa",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "d1599776336271c970ce2d164c79e49264af0a8e3a735fbff06c3bb8c60a8a26"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8779999576508999,
+                  2.3576168417930603,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.3105585500597954,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1955748,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 5,
+              "meshes": 63,
+              "nonfinite": 0,
+              "triangles": 15474
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "samoa",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "d1599776336271c970ce2d164c79e49264af0a8e3a735fbff06c3bb8c60a8a26"
+          }
+        ],
+        "extended": {
+          "geometry": {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8779999576508999,
+                  2.3576168417930603,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.3105585500597954,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1955748,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 5,
+              "meshes": 63,
+              "nonfinite": 0,
+              "triangles": 15474
+            },
+            "meshes": 63,
+            "nonfinite": 0,
+            "triangles": 15474
+          },
+          "id": "samoa",
+          "no_js_poster": true
+        },
+        "motion": {
+          "exit_code": 0,
+          "id": "samoa",
+          "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+          "source": [
+            {
+              "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+              "path": "preview/albania-v1/tests.mjs",
+              "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+            },
+            {
+              "commit": "6e523fd55ef9218ee1a6c7ff7d9ade0991096ef6",
+              "path": "preview/samoa-v1/motion.mjs",
+              "sha256": "501af33adb31e84e6713ce2a8dcc6f3b7dccd4eb9df118347e62744b34e9c0af"
+            }
+          ]
+        },
+        "parent_commit": "431e51ffb5a8704b5f8f8b11694d28befae18402"
+      },
+      "id": "samoa",
+      "independent_visual": {
+        "assessment": {
+          "concrete_defects": [
+            "Pattern borders and motifs end abruptly at panel boundaries in marketing and previews; closed-preview lid decoration is softer and paler than the front panels.",
+            "Broad brown closed-lid reveal, coarse frame/panel joins and uneven cap seating are visible; no mesh failure is established. Dark feet and lower rails lose separation against the background, especially on mobile."
+          ],
+          "framing": "Entire object, raised lid/latch in open views and visible feet remain in frame on desktop and mobile; no obvious UI overlap or asset cropping. Small presentation scale limits detailed hardware assessment.",
+          "id": "samoa",
+          "inspected_paths": [
+            "parent/smoke/samoa/desktop-closed.png",
+            "parent/smoke/samoa/desktop-open.png",
+            "parent/smoke/samoa/mobile-closed.png",
+            "parent/smoke/samoa/mobile-open.png",
+            "parent/sources/samoa/marketing.webp"
+          ],
+          "limitations": [
+            "All five original images inspected individually with vision; static endpoint screenshots do not establish motion, hinge/latch operation, clearance, physical buildability, or custody behavior. A released latch in an open view is not itself a defect.",
+            "Only the depicted angles and screenshot resolutions were reviewed; hidden faces and fine attachment details remain unverified. Stylized collectible imagery is not a mechanically validated product or authenticated traditional craft. No final approval or art changes.",
+            "Ivory terracotta/brown geometric panels, charcoal/slate lava-like frame, brass fittings, dark feet and a small lid-rock cluster correspond to marketing. This is barkcloth-inspired stylization, not authenticated siapo; the repeated bordered panels can read as tiles."
+          ],
+          "verdict": "candidate-with-limitations"
+        },
+        "report": "visual-d.json"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-08 review"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 56800,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/samoa.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "pass: patterned panels and rock cluster preserved",
+          "reviewStatus": "reviewed_pass",
+          "sha256": "d2e9cd123e4a10750efd341b22aefeea4c4befceaaa7dfa21ed52c314a42e112",
+          "source": "assets/gallery/samoa.webp",
+          "sourceSha256": "18c118d6cffb7e4a4c548dc75eaa091f75ef5031bc018864d78fbf8fe441bf71",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "66129fb972d957a8de3f88ea94237cc042fe81fb046b9ffdaa445b62c7a9717b"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_verdict": "pass",
+      "parent_visual": {
+        "decision": "Bounded pass for the consistent stylized decorative composition only. Do not elevate matching palette/pattern placement into barkcloth or volcanic-material realism.",
+        "hardware": "Family clasp, round front fitting, side ring and corner caps are visible; rear hinges appear positioned at the open rim. Expected upright released latch is not classified as detached.",
+        "limitations": "Frozen still-image review only; supplied technical passes were not rerun. No final user approval, photoreal equivalence, physical-phone performance, cultural authentication or continuous mechanical certification. Open disengaged latch is expected; hidden exterior lid ornament in open views is not missing. Invented siapo-inspired motifs are not authenticated traditional designs. Preserve cool cast, smoother-than-lava surfaces, subtle ripples and low mobile lid detail; warm brown cavity is visible in open captures.",
+        "quality": "Cream/rust patterned panels, cool charcoal frame and brass are coherent and legible; closed/open states fit desktop/mobile. Marketing shares the gridded angular rosettes and rear-left rock accents.",
+        "terrain": "Small generic angular lava-rock accents, not Saleaula terrain; subdued on mobile. The waved lid panel reads as a shallow rigid decorative insert rather than draped cloth.",
+        "texture": "Strongly repeated cream/rust grid is clearer on front than washed-out lid. Neither actual nor marketing establishes fibrous barkcloth; charcoal frame is mottled cool blue-gray stone, not unmistakably porous lava. Border crops are not fully continuous."
+      },
+      "parent_visual_hold_preserved": false,
+      "reviewed_image_hashes": [
+        {
+          "bytes": 388166,
+          "path": "smoke/samoa/desktop-closed.png",
+          "sha256": "8730187f0674a0a24cd19b696557ea8491ef8d7de4afe651492f2f99e463ca75"
+        },
+        {
+          "bytes": 399547,
+          "path": "smoke/samoa/desktop-open.png",
+          "sha256": "2a0bb29e3e661edd2e478964bf03b2eeeaefe9ace9a1f79d00c1ee1f79f4d160"
+        },
+        {
+          "bytes": 123420,
+          "path": "smoke/samoa/mobile-closed.png",
+          "sha256": "cf2f74bf3988a76d4cbead6e91a52f9cc8f7af687d344b2cd3bfd3ed4b20b943"
+        },
+        {
+          "bytes": 122373,
+          "path": "smoke/samoa/mobile-open.png",
+          "sha256": "9327da091bd9cdaa6aed76fb8d1d58edb09e92b526de2fedcde21ccd0c27e0d0"
+        },
+        {
+          "bytes": 56800,
+          "path": "sources/samoa/marketing.webp",
+          "sha256": "66129fb972d957a8de3f88ea94237cc042fe81fb046b9ffdaa445b62c7a9717b"
+        }
+      ],
+      "selection": {
+        "commit": "6e523fd55ef9218ee1a6c7ff7d9ade0991096ef6",
+        "fetched_tip": "6e523fd55ef9218ee1a6c7ff7d9ade0991096ef6",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/samoa-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 8578481,
+          "commit": "6e523fd55ef9218ee1a6c7ff7d9ade0991096ef6",
+          "crc_error": null,
+          "entries": 61,
+          "fresh_crc_safe_unique": true,
+          "fresh_inner_inventory_entries": 60,
+          "fresh_required_payloads": [
+            {
+              "member": "samoa-v1.html",
+              "path": "preview/samoa-v1/samoa-v1.html",
+              "sha256": "d1599776336271c970ce2d164c79e49264af0a8e3a735fbff06c3bb8c60a8a26"
+            },
+            {
+              "member": "samoa.blend",
+              "path": "preview/samoa-v1/samoa.blend",
+              "sha256": "7aea3afdf6711daa895431ad0a1118669cce5a4c9412d28b7d53687249684501"
+            },
+            {
+              "member": "samoa.glb",
+              "path": "preview/samoa-v1/samoa.glb",
+              "sha256": "b34fff8759652aa03baf76add22357e145defffbbe1c3993f73c580e3f87d9a4"
+            }
+          ],
+          "inventory_checked": true,
+          "inventory_entries": 60,
+          "inventory_mismatches": [],
+          "kind": "git",
+          "path": "preview/samoa-v1/samoa-v1-source.zip",
+          "required_payloads": {
+            "samoa-v1.html": true,
+            "samoa.blend": true,
+            "samoa.glb": true
+          },
+          "safe_unique_paths": true,
+          "sha256": "0d5b6e6f762e5f293786344031be7b22507a61d3ed9e3075a4b7ee4c55fde9f6"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 1135386,
+          "commit": "6e523fd55ef9218ee1a6c7ff7d9ade0991096ef6",
+          "path": "preview/samoa-v1/samoa.blend",
+          "role": "selected-model",
+          "sha256": "7aea3afdf6711daa895431ad0a1118669cce5a4c9412d28b7d53687249684501"
+        },
+        {
+          "bytes": 1955748,
+          "commit": "6e523fd55ef9218ee1a6c7ff7d9ade0991096ef6",
+          "path": "preview/samoa-v1/samoa.glb",
+          "role": "selected-model",
+          "sha256": "b34fff8759652aa03baf76add22357e145defffbbe1c3993f73c580e3f87d9a4",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 63,
+            "nodes": 65
+          }
+        }
+      ],
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 3418632,
+        "commit": "6e523fd55ef9218ee1a6c7ff7d9ade0991096ef6",
+        "path": "preview/samoa-v1/samoa-v1.html",
+        "sha256": "d1599776336271c970ce2d164c79e49264af0a8e3a735fbff06c3bb8c60a8a26",
+        "under_5000000": true
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 8578481,
+        "commit": "6e523fd55ef9218ee1a6c7ff7d9ade0991096ef6",
+        "crc_error": null,
+        "entries": 61,
+        "inventory_checked": true,
+        "inventory_entries": 60,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/samoa-v1/samoa-v1-source.zip",
+        "required_payloads": {
+          "samoa-v1.html": true,
+          "samoa.blend": true,
+          "samoa.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "0d5b6e6f762e5f293786344031be7b22507a61d3ed9e3075a4b7ee4c55fde9f6"
+      }
+    ]
+  },
+  "ordinary_record": {
+    "id": "samoa",
+    "disposition": "unchanged-with-explicit-limitations",
+    "correction_passes": 0,
+    "model_geometry_changed": false,
+    "final_approved": false,
+    "launch_ready": false,
+    "original_observations": [
+      "Pattern borders and motifs end abruptly at panel boundaries in marketing and previews; closed-preview lid decoration is softer and paler than the front panels.",
+      "Broad brown closed-lid reveal, coarse frame/panel joins and uneven cap seating are visible; no mesh failure is established. Dark feet and lower rails lose separation against the background, especially on mobile."
+    ],
+    "independent_adjudication": {
+      "id": "samoa",
+      "disposition": "no-edit-with-optional-diagnostic",
+      "observation": "Upright siapo-inspired motifs are legible; lid motif is faint and compressed at the shallow default angle on desktop/mobile. Gray underside has cloudy stone variation.",
+      "rationale": "Native closed reinspection finds no definite localized UV discontinuity or extreme stretch; foreshortening and pale material plausibly explain lid softness. Cloudy underside is compatible with lava styling.",
+      "bounded_recommendation": "Leave unchanged by default. If pursuing the readability concern, compare a face-on lid and identical shallow-camera captures with only anisotropic filtering varied within device support. Keep UVs, texture artwork, exposure and geometry fixed; retain a sampler change only for a clear native-size benefit.",
+      "supersampling": "Not the first remedy for oblique texture softness; do not globally supersample or remap based on the board.",
+      "adjudication": "Initial possible lid-smearing/UV issue downgraded to unconfirmed after full native screenshot review."
+    },
+    "unresolved_owner_holds": [
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "inherited_holds": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization",
+      "independent QA-ART-08 review"
+    ],
+    "original_review_preserved_in": "baseline.json",
+    "fresh_runtime": {
+      "id": "samoa",
+      "exit_code": 0,
+      "shared_contract": "Bangladesh renderer-independent interaction assertions; no fresh source/collision claim",
+      "results": "launch\\ordinary-finish-20\\runtime\\samoa\\browser-check.json"
+    },
+    "fresh_source_archive": {
+      "id": "samoa",
+      "archives": [
+        {
+          "archive": {
+            "bytes": 8578481,
+            "commit": "6e523fd55ef9218ee1a6c7ff7d9ade0991096ef6",
+            "crc_error": null,
+            "entries": 61,
+            "fresh_crc_safe_unique": true,
+            "fresh_inner_inventory_entries": 60,
+            "fresh_required_payloads": [
+              {
+                "member": "samoa-v1.html",
+                "path": "preview/samoa-v1/samoa-v1.html",
+                "sha256": "d1599776336271c970ce2d164c79e49264af0a8e3a735fbff06c3bb8c60a8a26"
+              },
+              {
+                "member": "samoa.blend",
+                "path": "preview/samoa-v1/samoa.blend",
+                "sha256": "7aea3afdf6711daa895431ad0a1118669cce5a4c9412d28b7d53687249684501"
+              },
+              {
+                "member": "samoa.glb",
+                "path": "preview/samoa-v1/samoa.glb",
+                "sha256": "b34fff8759652aa03baf76add22357e145defffbbe1c3993f73c580e3f87d9a4"
+              }
+            ],
+            "inventory_checked": true,
+            "inventory_entries": 60,
+            "inventory_mismatches": [],
+            "kind": "git",
+            "path": "preview/samoa-v1/samoa-v1-source.zip",
+            "required_payloads": {
+              "samoa-v1.html": true,
+              "samoa.blend": true,
+              "samoa.glb": true
+            },
+            "safe_unique_paths": true,
+            "sha256": "0d5b6e6f762e5f293786344031be7b22507a61d3ed9e3075a4b7ee4c55fde9f6"
+          },
+          "members": 61,
+          "fresh_inventory": {
+            "status": "pass",
+            "entries_checked": 60,
+            "uninventoried_members": [
+              "inventory.json"
+            ]
+          },
+          "exact_selected_payloads": [
+            "samoa-v1.html",
+            "samoa.blend",
+            "samoa.glb"
+          ]
+        }
+      ],
+      "pass": true
+    },
+    "remaining_visual_limitations": "Native closed reinspection finds no definite localized UV discontinuity or extreme stretch; foreshortening and pale material plausibly explain lid softness. Cloudy underside is compatible with lava styling."
+  }
+}

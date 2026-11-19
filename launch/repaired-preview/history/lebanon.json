@@ -1,0 +1,935 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 8,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 635700,
+        "role": "editable-source",
+        "sha256": "a954e77bdee120911c8a2925f36f8d88c814f88a1aeb6e5a2d6443a35c7ca488",
+        "source": {
+          "commit": "82aafc4c50685ec195a7b05c8da1b39815f1a0e8",
+          "path": "preview/lebanon-v1/lebanon.blend"
+        },
+        "uri": "sha256:a954e77bdee120911c8a2925f36f8d88c814f88a1aeb6e5a2d6443a35c7ca488"
+      },
+      {
+        "bytes": 5586511,
+        "role": "historical-source-archive",
+        "sha256": "19d50616bc428014c1a88e2ea75f5db167bec6601d6eee0aa4b501d17250591c",
+        "source": {
+          "commit": "82aafc4c50685ec195a7b05c8da1b39815f1a0e8",
+          "kind": "git",
+          "path": "preview/lebanon-v1/lebanon-v1-source.zip"
+        },
+        "uri": "sha256:19d50616bc428014c1a88e2ea75f5db167bec6601d6eee0aa4b501d17250591c"
+      },
+      {
+        "bytes": 1483576,
+        "role": "model",
+        "sha256": "21813202b2d077103b01fa92624fe239053754d24fcc3625252be626378ea799",
+        "source": {
+          "commit": "82aafc4c50685ec195a7b05c8da1b39815f1a0e8",
+          "path": "preview/lebanon-v1/lebanon.glb"
+        },
+        "uri": "sha256:21813202b2d077103b01fa92624fe239053754d24fcc3625252be626378ea799"
+      },
+      {
+        "bytes": 47432,
+        "role": "promotional-illustration",
+        "sha256": "1bb48d419d949c94fb3148e6f69dbc6b92c9a41ea6e16a27ff8c8edb6bc2ec01",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/lebanon.webp"
+        },
+        "uri": "sha256:1bb48d419d949c94fb3148e6f69dbc6b92c9a41ea6e16a27ff8c8edb6bc2ec01"
+      },
+      {
+        "bytes": 2731,
+        "role": "research-brief",
+        "sha256": "1b39dd039f8658b9e5587ab4c95a38047600a1163e2ffa1e911c9b9f6c0f799e",
+        "source": {
+          "commit": "82aafc4c50685ec195a7b05c8da1b39815f1a0e8",
+          "path": "preview/lebanon-v1/design-brief.md"
+        },
+        "uri": "sha256:1b39dd039f8658b9e5587ab4c95a38047600a1163e2ffa1e911c9b9f6c0f799e"
+      },
+      {
+        "bytes": 5004,
+        "role": "source-notice",
+        "sha256": "415b47525a7a9aecfc4c8ad2802a00c173cd0c76af583ab7621bcab7589b8d51",
+        "source": {
+          "commit": "82aafc4c50685ec195a7b05c8da1b39815f1a0e8",
+          "path": "preview/lebanon-v1/README.md"
+        },
+        "uri": "sha256:415b47525a7a9aecfc4c8ad2802a00c173cd0c76af583ab7621bcab7589b8d51"
+      },
+      {
+        "bytes": 2729848,
+        "role": "viewer",
+        "sha256": "544edaeba44737f6db32c1cc8e26363cb26aac0faab59c86b8791b765e5f3d67",
+        "source": {
+          "commit": "82aafc4c50685ec195a7b05c8da1b39815f1a0e8",
+          "path": "preview/lebanon-v1/lebanon-v1.html"
+        },
+        "uri": "sha256:544edaeba44737f6db32c1cc8e26363cb26aac0faab59c86b8791b765e5f3d67"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "lebanon",
+    "independent_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "capture_base": "parent/",
+      "captures": [
+        "smoke/lebanon/desktop-closed.png",
+        "smoke/lebanon/desktop-open.png",
+        "smoke/lebanon/mobile-closed.png",
+        "smoke/lebanon/mobile-open.png"
+      ],
+      "critical_reproducible_failures": [],
+      "final_approval": false,
+      "fresh_checks": {
+        "blender_parity_collision": false,
+        "fallback": false,
+        "full_inner_archive_inventories": true,
+        "motion": false,
+        "original_captures_and_marketing_inspected": true,
+        "runtime": false,
+        "source_and_delivered_viewer_hashes": true,
+        "source_archive_crc_safe_paths_required_payloads": true
+      },
+      "historical_runtime": {
+        "browser": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8640000401064754,
+                  2.921192765235901,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1483576,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 11,
+              "meshes": 106,
+              "nonfinite": 0,
+              "triangles": 18826
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "lebanon",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "544edaeba44737f6db32c1cc8e26363cb26aac0faab59c86b8791b765e5f3d67"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8640000401064754,
+                  2.921192765235901,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1483576,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 11,
+              "meshes": 106,
+              "nonfinite": 0,
+              "triangles": 18826
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "lebanon",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "544edaeba44737f6db32c1cc8e26363cb26aac0faab59c86b8791b765e5f3d67"
+          }
+        ],
+        "extended": {
+          "geometry": {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8640000401064754,
+                  2.921192765235901,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1483576,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 11,
+              "meshes": 106,
+              "nonfinite": 0,
+              "triangles": 18826
+            },
+            "meshes": 106,
+            "nonfinite": 0,
+            "triangles": 18826
+          },
+          "id": "lebanon",
+          "no_js_poster": true
+        },
+        "motion": {
+          "exit_code": 0,
+          "id": "lebanon",
+          "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+          "source": [
+            {
+              "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+              "path": "preview/albania-v1/tests.mjs",
+              "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+            },
+            {
+              "commit": "82aafc4c50685ec195a7b05c8da1b39815f1a0e8",
+              "path": "preview/lebanon-v1/motion.mjs",
+              "sha256": "d61544de9b41521a7b14e81a5e9867ce0fcc387f8852ce57490031b84bf2150e"
+            }
+          ]
+        },
+        "parent_commit": "431e51ffb5a8704b5f8f8b11694d28befae18402"
+      },
+      "id": "lebanon",
+      "independent_visual": {
+        "assessment": {
+          "concrete_defects": [
+            "Candidate wood is more orange and densely striped than the illustration's softer peach-brown finish.",
+            "Cedar foliage and gray stone feet have more angular, faceted silhouettes than the softer rounded reference forms, especially noticeable in the closed desktop view.",
+            "Pale latch backing and segmented rim/corner joins are conspicuous in open views, but similar mounting/construction details exist in the illustration; no broken joint is established."
+          ],
+          "id": "lebanon",
+          "inspected_paths": [
+            "parent/smoke/lebanon/desktop-closed.png",
+            "parent/smoke/lebanon/desktop-open.png",
+            "parent/smoke/lebanon/mobile-closed.png",
+            "parent/smoke/lebanon/mobile-open.png",
+            "parent/sources/lebanon/marketing.webp"
+          ],
+          "limitations": [
+            "All five original images inspected at normal presentation size; illustration is a theme/material reference, not a hyperrealism requirement.",
+            "Static frames cannot establish hidden collisions, intermediate motion, physical material identity, or control operation.",
+            "Candidate recommendation only; no art approval or changes."
+          ],
+          "observations": "Pale limestone-like body, warm wood lid, green trim, broad cedar canopy and brass hardware retain the reference identity on desktop and mobile. Open poses fit entirely in frame; no obvious missing panel or UI overlap.",
+          "verdict": "candidate-with-limitations"
+        },
+        "report": "visual-c.json"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-08 review"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 47432,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1120,
+          928
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/lebanon.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1120,
+            928
+          ],
+          "provider": "xai",
+          "reviewNotes": "pass: single cedar preserved",
+          "reviewStatus": "reviewed_pass",
+          "sha256": "16aabec4d1c30921db2116738f37c67a2ac0baee3f2a1cc6b624c6aa07419dee",
+          "source": "assets/gallery/lebanon.webp",
+          "sourceSha256": "a601ceaed969c9f021aa04b7ea060798477d2cf59abb5110b104a8b2760f8e2e",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "1bb48d419d949c94fb3148e6f69dbc6b92c9a41ea6e16a27ff8c8edb6bc2ec01"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_verdict": "pass",
+      "parent_visual": {
+        "decision": "Pass only as the bounded stylized candidate with disclosed material and foliage limitations; no substantial silhouette/theme discrepancy found against supplied marketing. Not final user approval or photoreal/reference equivalence.",
+        "hardware": "Marketing and runtime retain long brass clasp, circular fitting, side ring and corner caps. Open rear hinges look seated at this view; raised released latch is expected, not detached hardware. Fine attachments remain small on mobile.",
+        "limitations": "README and brief identify independently procedural craft/landscape interpretation, not sourced image reconstruction, harvested cedar, botanical survey or user-approved art. Fine mobile branches and fasteners cannot be assessed confidently; static views do not verify motion.",
+        "quality": "Coherent wide stone/wood/brass chest, complete and readable across all four actual captures; open cavity and full raised lid stay framed.",
+        "terrain": "Broad flattened green canopy pads, exposed branching and pale rocky root bed closely retain marketing design. Rounded cushion-like foliage is an intentional stylized cedar reading, not resolved needles or botanical fidelity. Closed mobile silhouette remains legible.",
+        "texture": "Pale softly banded body and peach/orange-brown wood lid correspond to marketing material arrangement; browser is warmer and less tactile. Limestone can read as plaster/ceramic, lid grain regular, hardware uniform. Marketing itself retains simplified canopy geometry."
+      },
+      "parent_visual_hold_preserved": false,
+      "reviewed_image_hashes": [
+        {
+          "bytes": 332848,
+          "path": "smoke/lebanon/desktop-closed.png",
+          "sha256": "9b04347a573cc249684db8a3fdaf410f3923af2d6b951e28998d319f93429807"
+        },
+        {
+          "bytes": 361054,
+          "path": "smoke/lebanon/desktop-open.png",
+          "sha256": "464f934ea7fffe3b729f0403c01c7624a430da85321b86b9dd00c6154e9a55da"
+        },
+        {
+          "bytes": 104756,
+          "path": "smoke/lebanon/mobile-closed.png",
+          "sha256": "9ab9ed3e7cfd0271ec18769b669b50e99e7ed9e12f7ea46926f4fa34a07e4df1"
+        },
+        {
+          "bytes": 108183,
+          "path": "smoke/lebanon/mobile-open.png",
+          "sha256": "a0d286e2dfa2d1f897a29e82d0403d4f7b6b1baf9e599e0b7d46be1f4406b3b5"
+        },
+        {
+          "bytes": 47432,
+          "path": "sources/lebanon/marketing.webp",
+          "sha256": "1bb48d419d949c94fb3148e6f69dbc6b92c9a41ea6e16a27ff8c8edb6bc2ec01"
+        }
+      ],
+      "selection": {
+        "commit": "82aafc4c50685ec195a7b05c8da1b39815f1a0e8",
+        "fetched_tip": "82aafc4c50685ec195a7b05c8da1b39815f1a0e8",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/lebanon-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 5586511,
+          "commit": "82aafc4c50685ec195a7b05c8da1b39815f1a0e8",
+          "crc_error": null,
+          "entries": 57,
+          "fresh_crc_safe_unique": true,
+          "fresh_inner_inventory_entries": 56,
+          "fresh_required_payloads": [
+            {
+              "member": "lebanon-v1.html",
+              "path": "preview/lebanon-v1/lebanon-v1.html",
+              "sha256": "544edaeba44737f6db32c1cc8e26363cb26aac0faab59c86b8791b765e5f3d67"
+            },
+            {
+              "member": "lebanon.blend",
+              "path": "preview/lebanon-v1/lebanon.blend",
+              "sha256": "a954e77bdee120911c8a2925f36f8d88c814f88a1aeb6e5a2d6443a35c7ca488"
+            },
+            {
+              "member": "lebanon.glb",
+              "path": "preview/lebanon-v1/lebanon.glb",
+              "sha256": "21813202b2d077103b01fa92624fe239053754d24fcc3625252be626378ea799"
+            }
+          ],
+          "inventory_checked": true,
+          "inventory_entries": 56,
+          "inventory_mismatches": [],
+          "kind": "git",
+          "path": "preview/lebanon-v1/lebanon-v1-source.zip",
+          "required_payloads": {
+            "lebanon-v1.html": true,
+            "lebanon.blend": true,
+            "lebanon.glb": true
+          },
+          "safe_unique_paths": true,
+          "sha256": "19d50616bc428014c1a88e2ea75f5db167bec6601d6eee0aa4b501d17250591c"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 635700,
+          "commit": "82aafc4c50685ec195a7b05c8da1b39815f1a0e8",
+          "path": "preview/lebanon-v1/lebanon.blend",
+          "role": "selected-model",
+          "sha256": "a954e77bdee120911c8a2925f36f8d88c814f88a1aeb6e5a2d6443a35c7ca488"
+        },
+        {
+          "bytes": 1483576,
+          "commit": "82aafc4c50685ec195a7b05c8da1b39815f1a0e8",
+          "path": "preview/lebanon-v1/lebanon.glb",
+          "role": "selected-model",
+          "sha256": "21813202b2d077103b01fa92624fe239053754d24fcc3625252be626378ea799",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 106,
+            "nodes": 108
+          }
+        }
+      ],
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 2729848,
+        "commit": "82aafc4c50685ec195a7b05c8da1b39815f1a0e8",
+        "path": "preview/lebanon-v1/lebanon-v1.html",
+        "sha256": "544edaeba44737f6db32c1cc8e26363cb26aac0faab59c86b8791b765e5f3d67",
+        "under_5000000": true
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Lebanon",
+    "package_history": [
+      {
+        "bytes": 5586511,
+        "commit": "82aafc4c50685ec195a7b05c8da1b39815f1a0e8",
+        "crc_error": null,
+        "entries": 57,
+        "inventory_checked": true,
+        "inventory_entries": 56,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/lebanon-v1/lebanon-v1-source.zip",
+        "required_payloads": {
+          "lebanon-v1.html": true,
+          "lebanon.blend": true,
+          "lebanon.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "19d50616bc428014c1a88e2ea75f5db167bec6601d6eee0aa4b501d17250591c"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "82aafc4c50685ec195a7b05c8da1b39815f1a0e8",
+      "fetched_tip": "82aafc4c50685ec195a7b05c8da1b39815f1a0e8",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/lebanon-v1"
+    },
+    "verdict": "candidate-with-limitations",
+    "viewer": {
+      "bytes": 2729848,
+      "commit": "82aafc4c50685ec195a7b05c8da1b39815f1a0e8",
+      "path": "preview/lebanon-v1/lebanon-v1.html",
+      "sha256": "544edaeba44737f6db32c1cc8e26363cb26aac0faab59c86b8791b765e5f3d67",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "lebanon",
+    "baseline_verdict": "candidate-with-limitations",
+    "actions": [
+      "remaining ordinary finish inspection; do not edit promotional-only differences or infer broken model"
+    ],
+    "approval": false,
+    "original_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "capture_base": "parent/",
+      "captures": [
+        "smoke/lebanon/desktop-closed.png",
+        "smoke/lebanon/desktop-open.png",
+        "smoke/lebanon/mobile-closed.png",
+        "smoke/lebanon/mobile-open.png"
+      ],
+      "critical_reproducible_failures": [],
+      "final_approval": false,
+      "fresh_checks": {
+        "blender_parity_collision": false,
+        "fallback": false,
+        "full_inner_archive_inventories": true,
+        "motion": false,
+        "original_captures_and_marketing_inspected": true,
+        "runtime": false,
+        "source_and_delivered_viewer_hashes": true,
+        "source_archive_crc_safe_paths_required_payloads": true
+      },
+      "historical_runtime": {
+        "browser": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8640000401064754,
+                  2.921192765235901,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1483576,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 11,
+              "meshes": 106,
+              "nonfinite": 0,
+              "triangles": 18826
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "lebanon",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "544edaeba44737f6db32c1cc8e26363cb26aac0faab59c86b8791b765e5f3d67"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8640000401064754,
+                  2.921192765235901,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1483576,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 11,
+              "meshes": 106,
+              "nonfinite": 0,
+              "triangles": 18826
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "lebanon",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "544edaeba44737f6db32c1cc8e26363cb26aac0faab59c86b8791b765e5f3d67"
+          }
+        ],
+        "extended": {
+          "geometry": {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8640000401064754,
+                  2.921192765235901,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1483576,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 11,
+              "meshes": 106,
+              "nonfinite": 0,
+              "triangles": 18826
+            },
+            "meshes": 106,
+            "nonfinite": 0,
+            "triangles": 18826
+          },
+          "id": "lebanon",
+          "no_js_poster": true
+        },
+        "motion": {
+          "exit_code": 0,
+          "id": "lebanon",
+          "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+          "source": [
+            {
+              "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+              "path": "preview/albania-v1/tests.mjs",
+              "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+            },
+            {
+              "commit": "82aafc4c50685ec195a7b05c8da1b39815f1a0e8",
+              "path": "preview/lebanon-v1/motion.mjs",
+              "sha256": "d61544de9b41521a7b14e81a5e9867ce0fcc387f8852ce57490031b84bf2150e"
+            }
+          ]
+        },
+        "parent_commit": "431e51ffb5a8704b5f8f8b11694d28befae18402"
+      },
+      "id": "lebanon",
+      "independent_visual": {
+        "assessment": {
+          "concrete_defects": [
+            "Candidate wood is more orange and densely striped than the illustration's softer peach-brown finish.",
+            "Cedar foliage and gray stone feet have more angular, faceted silhouettes than the softer rounded reference forms, especially noticeable in the closed desktop view.",
+            "Pale latch backing and segmented rim/corner joins are conspicuous in open views, but similar mounting/construction details exist in the illustration; no broken joint is established."
+          ],
+          "id": "lebanon",
+          "inspected_paths": [
+            "parent/smoke/lebanon/desktop-closed.png",
+            "parent/smoke/lebanon/desktop-open.png",
+            "parent/smoke/lebanon/mobile-closed.png",
+            "parent/smoke/lebanon/mobile-open.png",
+            "parent/sources/lebanon/marketing.webp"
+          ],
+          "limitations": [
+            "All five original images inspected at normal presentation size; illustration is a theme/material reference, not a hyperrealism requirement.",
+            "Static frames cannot establish hidden collisions, intermediate motion, physical material identity, or control operation.",
+            "Candidate recommendation only; no art approval or changes."
+          ],
+          "observations": "Pale limestone-like body, warm wood lid, green trim, broad cedar canopy and brass hardware retain the reference identity on desktop and mobile. Open poses fit entirely in frame; no obvious missing panel or UI overlap.",
+          "verdict": "candidate-with-limitations"
+        },
+        "report": "visual-c.json"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-08 review"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 47432,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1120,
+          928
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/lebanon.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1120,
+            928
+          ],
+          "provider": "xai",
+          "reviewNotes": "pass: single cedar preserved",
+          "reviewStatus": "reviewed_pass",
+          "sha256": "16aabec4d1c30921db2116738f37c67a2ac0baee3f2a1cc6b624c6aa07419dee",
+          "source": "assets/gallery/lebanon.webp",
+          "sourceSha256": "a601ceaed969c9f021aa04b7ea060798477d2cf59abb5110b104a8b2760f8e2e",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "1bb48d419d949c94fb3148e6f69dbc6b92c9a41ea6e16a27ff8c8edb6bc2ec01"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_verdict": "pass",
+      "parent_visual": {
+        "decision": "Pass only as the bounded stylized candidate with disclosed material and foliage limitations; no substantial silhouette/theme discrepancy found against supplied marketing. Not final user approval or photoreal/reference equivalence.",
+        "hardware": "Marketing and runtime retain long brass clasp, circular fitting, side ring and corner caps. Open rear hinges look seated at this view; raised released latch is expected, not detached hardware. Fine attachments remain small on mobile.",
+        "limitations": "README and brief identify independently procedural craft/landscape interpretation, not sourced image reconstruction, harvested cedar, botanical survey or user-approved art. Fine mobile branches and fasteners cannot be assessed confidently; static views do not verify motion.",
+        "quality": "Coherent wide stone/wood/brass chest, complete and readable across all four actual captures; open cavity and full raised lid stay framed.",
+        "terrain": "Broad flattened green canopy pads, exposed branching and pale rocky root bed closely retain marketing design. Rounded cushion-like foliage is an intentional stylized cedar reading, not resolved needles or botanical fidelity. Closed mobile silhouette remains legible.",
+        "texture": "Pale softly banded body and peach/orange-brown wood lid correspond to marketing material arrangement; browser is warmer and less tactile. Limestone can read as plaster/ceramic, lid grain regular, hardware uniform. Marketing itself retains simplified canopy geometry."
+      },
+      "parent_visual_hold_preserved": false,
+      "reviewed_image_hashes": [
+        {
+          "bytes": 332848,
+          "path": "smoke/lebanon/desktop-closed.png",
+          "sha256": "9b04347a573cc249684db8a3fdaf410f3923af2d6b951e28998d319f93429807"
+        },
+        {
+          "bytes": 361054,
+          "path": "smoke/lebanon/desktop-open.png",
+          "sha256": "464f934ea7fffe3b729f0403c01c7624a430da85321b86b9dd00c6154e9a55da"
+        },
+        {
+          "bytes": 104756,
+          "path": "smoke/lebanon/mobile-closed.png",
+          "sha256": "9ab9ed3e7cfd0271ec18769b669b50e99e7ed9e12f7ea46926f4fa34a07e4df1"
+        },
+        {
+          "bytes": 108183,
+          "path": "smoke/lebanon/mobile-open.png",
+          "sha256": "a0d286e2dfa2d1f897a29e82d0403d4f7b6b1baf9e599e0b7d46be1f4406b3b5"
+        },
+        {
+          "bytes": 47432,
+          "path": "sources/lebanon/marketing.webp",
+          "sha256": "1bb48d419d949c94fb3148e6f69dbc6b92c9a41ea6e16a27ff8c8edb6bc2ec01"
+        }
+      ],
+      "selection": {
+        "commit": "82aafc4c50685ec195a7b05c8da1b39815f1a0e8",
+        "fetched_tip": "82aafc4c50685ec195a7b05c8da1b39815f1a0e8",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/lebanon-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 5586511,
+          "commit": "82aafc4c50685ec195a7b05c8da1b39815f1a0e8",
+          "crc_error": null,
+          "entries": 57,
+          "fresh_crc_safe_unique": true,
+          "fresh_inner_inventory_entries": 56,
+          "fresh_required_payloads": [
+            {
+              "member": "lebanon-v1.html",
+              "path": "preview/lebanon-v1/lebanon-v1.html",
+              "sha256": "544edaeba44737f6db32c1cc8e26363cb26aac0faab59c86b8791b765e5f3d67"
+            },
+            {
+              "member": "lebanon.blend",
+              "path": "preview/lebanon-v1/lebanon.blend",
+              "sha256": "a954e77bdee120911c8a2925f36f8d88c814f88a1aeb6e5a2d6443a35c7ca488"
+            },
+            {
+              "member": "lebanon.glb",
+              "path": "preview/lebanon-v1/lebanon.glb",
+              "sha256": "21813202b2d077103b01fa92624fe239053754d24fcc3625252be626378ea799"
+            }
+          ],
+          "inventory_checked": true,
+          "inventory_entries": 56,
+          "inventory_mismatches": [],
+          "kind": "git",
+          "path": "preview/lebanon-v1/lebanon-v1-source.zip",
+          "required_payloads": {
+            "lebanon-v1.html": true,
+            "lebanon.blend": true,
+            "lebanon.glb": true
+          },
+          "safe_unique_paths": true,
+          "sha256": "19d50616bc428014c1a88e2ea75f5db167bec6601d6eee0aa4b501d17250591c"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 635700,
+          "commit": "82aafc4c50685ec195a7b05c8da1b39815f1a0e8",
+          "path": "preview/lebanon-v1/lebanon.blend",
+          "role": "selected-model",
+          "sha256": "a954e77bdee120911c8a2925f36f8d88c814f88a1aeb6e5a2d6443a35c7ca488"
+        },
+        {
+          "bytes": 1483576,
+          "commit": "82aafc4c50685ec195a7b05c8da1b39815f1a0e8",
+          "path": "preview/lebanon-v1/lebanon.glb",
+          "role": "selected-model",
+          "sha256": "21813202b2d077103b01fa92624fe239053754d24fcc3625252be626378ea799",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 106,
+            "nodes": 108
+          }
+        }
+      ],
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 2729848,
+        "commit": "82aafc4c50685ec195a7b05c8da1b39815f1a0e8",
+        "path": "preview/lebanon-v1/lebanon-v1.html",
+        "sha256": "544edaeba44737f6db32c1cc8e26363cb26aac0faab59c86b8791b765e5f3d67",
+        "under_5000000": true
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 5586511,
+        "commit": "82aafc4c50685ec195a7b05c8da1b39815f1a0e8",
+        "crc_error": null,
+        "entries": 57,
+        "inventory_checked": true,
+        "inventory_entries": 56,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/lebanon-v1/lebanon-v1-source.zip",
+        "required_payloads": {
+          "lebanon-v1.html": true,
+          "lebanon.blend": true,
+          "lebanon.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "19d50616bc428014c1a88e2ea75f5db167bec6601d6eee0aa4b501d17250591c"
+      }
+    ]
+  },
+  "ordinary_record": {
+    "id": "lebanon",
+    "disposition": "unchanged-with-explicit-limitations",
+    "correction_passes": 0,
+    "model_geometry_changed": false,
+    "final_approved": false,
+    "launch_ready": false,
+    "original_observations": [
+      "Candidate wood is more orange and densely striped than the illustration's softer peach-brown finish.",
+      "Cedar foliage and gray stone feet have more angular, faceted silhouettes than the softer rounded reference forms, especially noticeable in the closed desktop view.",
+      "Pale latch backing and segmented rim/corner joins are conspicuous in open views, but similar mounting/construction details exist in the illustration; no broken joint is established."
+    ],
+    "independent_adjudication": {
+      "id": "lebanon",
+      "disposition": "no-edit",
+      "observation": "Cream limestone, orange cedar lid/interior, green rim and flattened cedar boughs are consistent in actual views. Promotional wood is more muted; tree is hidden by open-lid orientation, not demonstrably missing.",
+      "recommendation": "Preserve finger-joint-like edges, flattened foliage, rim corner blocks and warm wood. Do not mute the full palette to match studio illumination or treat the hidden ornament as lost geometry.",
+      "supersampling": "No targeted sampling issue established."
+    },
+    "unresolved_owner_holds": [
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "inherited_holds": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization",
+      "independent QA-ART-08 review"
+    ],
+    "original_review_preserved_in": "baseline.json",
+    "fresh_runtime": {
+      "id": "lebanon",
+      "exit_code": 0,
+      "shared_contract": "Bangladesh renderer-independent interaction assertions; no fresh source/collision claim",
+      "results": "launch\\ordinary-finish-20\\runtime\\lebanon\\browser-check.json"
+    },
+    "fresh_source_archive": {
+      "id": "lebanon",
+      "archives": [
+        {
+          "archive": {
+            "bytes": 5586511,
+            "commit": "82aafc4c50685ec195a7b05c8da1b39815f1a0e8",
+            "crc_error": null,
+            "entries": 57,
+            "fresh_crc_safe_unique": true,
+            "fresh_inner_inventory_entries": 56,
+            "fresh_required_payloads": [
+              {
+                "member": "lebanon-v1.html",
+                "path": "preview/lebanon-v1/lebanon-v1.html",
+                "sha256": "544edaeba44737f6db32c1cc8e26363cb26aac0faab59c86b8791b765e5f3d67"
+              },
+              {
+                "member": "lebanon.blend",
+                "path": "preview/lebanon-v1/lebanon.blend",
+                "sha256": "a954e77bdee120911c8a2925f36f8d88c814f88a1aeb6e5a2d6443a35c7ca488"
+              },
+              {
+                "member": "lebanon.glb",
+                "path": "preview/lebanon-v1/lebanon.glb",
+                "sha256": "21813202b2d077103b01fa92624fe239053754d24fcc3625252be626378ea799"
+              }
+            ],
+            "inventory_checked": true,
+            "inventory_entries": 56,
+            "inventory_mismatches": [],
+            "kind": "git",
+            "path": "preview/lebanon-v1/lebanon-v1-source.zip",
+            "required_payloads": {
+              "lebanon-v1.html": true,
+              "lebanon.blend": true,
+              "lebanon.glb": true
+            },
+            "safe_unique_paths": true,
+            "sha256": "19d50616bc428014c1a88e2ea75f5db167bec6601d6eee0aa4b501d17250591c"
+          },
+          "members": 57,
+          "fresh_inventory": {
+            "status": "pass",
+            "entries_checked": 56,
+            "uninventoried_members": [
+              "inventory.json"
+            ]
+          },
+          "exact_selected_payloads": [
+            "lebanon-v1.html",
+            "lebanon.blend",
+            "lebanon.glb"
+          ]
+        }
+      ],
+      "pass": true
+    },
+    "remaining_visual_limitations": "Cream limestone, orange cedar lid/interior, green rim and flattened cedar boughs are consistent in actual views. Promotional wood is more muted; tree is hidden by open-lid orientation, not demonstrably missing."
+  }
+}

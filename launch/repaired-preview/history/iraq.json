@@ -1,0 +1,543 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 2,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 449286,
+        "role": "editable-source",
+        "sha256": "26edf5f546d5e7dab050ccf00bedb92b9e5a4bf7bad5386f117d0a8b8ab5d957",
+        "source": {
+          "commit": "11175a8e65e619fd35bfdd5f9fb4758fa633b180",
+          "path": "preview/iraq-v1/iraq.blend"
+        },
+        "uri": "sha256:26edf5f546d5e7dab050ccf00bedb92b9e5a4bf7bad5386f117d0a8b8ab5d957"
+      },
+      {
+        "bytes": 5394297,
+        "role": "historical-source-archive",
+        "sha256": "a07aad164adabb62a969730e9608dbb37b483c48ec748eba7a5cd672f007be0d",
+        "source": {
+          "commit": "11175a8e65e619fd35bfdd5f9fb4758fa633b180",
+          "kind": "git",
+          "path": "preview/iraq-v1/iraq-v1-source.zip"
+        },
+        "uri": "sha256:a07aad164adabb62a969730e9608dbb37b483c48ec748eba7a5cd672f007be0d"
+      },
+      {
+        "bytes": 1512052,
+        "role": "model",
+        "sha256": "3504d2280ff9c0f6f73ef18ce083d2fd5cac4b2465aa40131c7a973c1533a1fd",
+        "source": {
+          "commit": "11175a8e65e619fd35bfdd5f9fb4758fa633b180",
+          "path": "preview/iraq-v1/iraq.glb"
+        },
+        "uri": "sha256:3504d2280ff9c0f6f73ef18ce083d2fd5cac4b2465aa40131c7a973c1533a1fd"
+      },
+      {
+        "bytes": 97484,
+        "role": "promotional-illustration",
+        "sha256": "e5e8615a80b1d13df0b5a7a07e176fca570e8e06bd92f16ddf4e0449ed9aa3ea",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/iraq.webp"
+        },
+        "uri": "sha256:e5e8615a80b1d13df0b5a7a07e176fca570e8e06bd92f16ddf4e0449ed9aa3ea"
+      },
+      {
+        "bytes": 3230,
+        "role": "research-brief",
+        "sha256": "f9d41ba6ac760b476e0e821e4e52cdbcba0e17cef86223ab1b76ae0d8969f952",
+        "source": {
+          "commit": "11175a8e65e619fd35bfdd5f9fb4758fa633b180",
+          "path": "preview/iraq-v1/design-brief.md"
+        },
+        "uri": "sha256:f9d41ba6ac760b476e0e821e4e52cdbcba0e17cef86223ab1b76ae0d8969f952"
+      },
+      {
+        "bytes": 5945,
+        "role": "source-notice",
+        "sha256": "9cf4fb40bfd2fd1e3ab201c01fd61c2bcfa145cf0bcc480250eebc082b785b23",
+        "source": {
+          "commit": "11175a8e65e619fd35bfdd5f9fb4758fa633b180",
+          "path": "preview/iraq-v1/README.md"
+        },
+        "uri": "sha256:9cf4fb40bfd2fd1e3ab201c01fd61c2bcfa145cf0bcc480250eebc082b785b23"
+      },
+      {
+        "bytes": 2768622,
+        "role": "viewer",
+        "sha256": "f6f52ac55a3ad96aede77ebac9ce69660fb705b7d71d2201008926ddb2389637",
+        "source": {
+          "commit": "11175a8e65e619fd35bfdd5f9fb4758fa633b180",
+          "path": "preview/iraq-v1/iraq-v1.html"
+        },
+        "uri": "sha256:f6f52ac55a3ad96aede77ebac9ce69660fb705b7d71d2201008926ddb2389637"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "iraq",
+    "independent_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "archives": [
+        {
+          "bytes": 5394297,
+          "entries": 56,
+          "inventory_entries_checked": 55,
+          "path": "preview/iraq-v1/iraq-v1-source.zip",
+          "required_payloads": "pass",
+          "safe_paths_crc": "pass",
+          "sha256": "a07aad164adabb62a969730e9608dbb37b483c48ec748eba7a5cd672f007be0d"
+        }
+      ],
+      "fresh_browser_cases": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.3700000643730164,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.8600000143051147,
+                -0.23000000417232513,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1512052,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 4,
+            "meshes": 274,
+            "nonfinite": 0,
+            "triangles": 15944
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "iraq",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "f6f52ac55a3ad96aede77ebac9ce69660fb705b7d71d2201008926ddb2389637"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.3700000643730164,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.8600000143051147,
+                -0.23000000417232513,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1512052,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 4,
+            "meshes": 274,
+            "nonfinite": 0,
+            "triangles": 15944
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "iraq",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "f6f52ac55a3ad96aede77ebac9ce69660fb705b7d71d2201008926ddb2389637"
+        }
+      ],
+      "fresh_motion_suite": {
+        "exit_code": 0,
+        "id": "iraq",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "11175a8e65e619fd35bfdd5f9fb4758fa633b180",
+            "path": "preview/iraq-v1/motion.mjs",
+            "sha256": "9d118549fcdc1ff1d1fd8ebb6c6eb8a7a0da7fef8f0ae65ca947335407e74f03"
+          }
+        ]
+      },
+      "fresh_runtime_captures": [
+        "smoke/iraq/desktop-closed.png",
+        "smoke/iraq/desktop-open.png",
+        "smoke/iraq/mobile-closed.png",
+        "smoke/iraq/mobile-open.png"
+      ],
+      "id": "iraq",
+      "independent_reviewer_recommendation": "needs-user-review",
+      "inspected_parent_images": [
+        "parent/boards/iraq.jpg",
+        "parent/smoke/iraq/desktop-closed.png",
+        "parent/smoke/iraq/desktop-open.png",
+        "parent/smoke/iraq/mobile-closed.png",
+        "parent/smoke/iraq/mobile-open.png"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 97484,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/iraq.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "Principal silhouette, palette, hardware and lid count/placement retained; texture refinement allowed.",
+          "reviewStatus": "accepted",
+          "sha256": "41151d703257765ac610a0030d4e3e25b8f31cdb02758840b6b1a41d014f675c",
+          "source": "assets/gallery/iraq.webp",
+          "sourceSha256": "3d3577adc94524128c0ddc92cd99649227957b8d3c23e3829d15e3174902e4b5",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "e5e8615a80b1d13df0b5a7a07e176fca570e8e06bd92f16ddf4e0449ed9aa3ea"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-Blender-reopen-parity-and-sampled-collisions",
+        "fresh-corrupt-GLB-fallback",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "models": [
+        {
+          "bytes": 449286,
+          "path": "preview/iraq-v1/iraq.blend",
+          "sha256": "26edf5f546d5e7dab050ccf00bedb92b9e5a4bf7bad5386f117d0a8b8ab5d957"
+        },
+        {
+          "bytes": 1512052,
+          "path": "preview/iraq-v1/iraq.glb",
+          "sha256": "3504d2280ff9c0f6f73ef18ce083d2fd5cac4b2465aa40131c7a973c1533a1fd"
+        }
+      ],
+      "parent_hold_preserved": false,
+      "selection": {
+        "commit": "11175a8e65e619fd35bfdd5f9fb4758fa633b180",
+        "fetched_tip": "11175a8e65e619fd35bfdd5f9fb4758fa633b180",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/iraq-v1"
+      },
+      "technical_verdict": "pass-bounded-review",
+      "viewer": {
+        "bytes": 2768622,
+        "commit": "11175a8e65e619fd35bfdd5f9fb4758fa633b180",
+        "path": "preview/iraq-v1/iraq-v1.html",
+        "sha256": "f6f52ac55a3ad96aede77ebac9ce69660fb705b7d71d2201008926ddb2389637",
+        "under_5000000": true
+      },
+      "visual_findings": "Core stepped architecture retained; finer uniform blue courses, simpler pale ornament and yellow hardware. Patterned underside is not established missing-texture error.",
+      "visual_verdict": "candidate-with-limitations"
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Iraq",
+    "package_history": [
+      {
+        "bytes": 5394297,
+        "commit": "11175a8e65e619fd35bfdd5f9fb4758fa633b180",
+        "crc_error": null,
+        "entries": 56,
+        "inventory_checked": true,
+        "inventory_entries": 55,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/iraq-v1/iraq-v1-source.zip",
+        "required_payloads": {
+          "iraq-v1.html": true,
+          "iraq.blend": true,
+          "iraq.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "a07aad164adabb62a969730e9608dbb37b483c48ec748eba7a5cd672f007be0d"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "11175a8e65e619fd35bfdd5f9fb4758fa633b180",
+      "fetched_tip": "11175a8e65e619fd35bfdd5f9fb4758fa633b180",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/iraq-v1"
+    },
+    "verdict": "candidate-with-limitations",
+    "viewer": {
+      "bytes": 2768622,
+      "commit": "11175a8e65e619fd35bfdd5f9fb4758fa633b180",
+      "path": "preview/iraq-v1/iraq-v1.html",
+      "sha256": "f6f52ac55a3ad96aede77ebac9ce69660fb705b7d71d2201008926ddb2389637",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "iraq",
+    "baseline_verdict": "candidate-with-limitations",
+    "actions": [
+      "owner art/finish acceptance; no proven runtime defect recorded; no autonomous redesign"
+    ],
+    "approval": false,
+    "original_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "archives": [
+        {
+          "bytes": 5394297,
+          "entries": 56,
+          "inventory_entries_checked": 55,
+          "path": "preview/iraq-v1/iraq-v1-source.zip",
+          "required_payloads": "pass",
+          "safe_paths_crc": "pass",
+          "sha256": "a07aad164adabb62a969730e9608dbb37b483c48ec748eba7a5cd672f007be0d"
+        }
+      ],
+      "fresh_browser_cases": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.3700000643730164,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.8600000143051147,
+                -0.23000000417232513,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1512052,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 4,
+            "meshes": 274,
+            "nonfinite": 0,
+            "triangles": 15944
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "iraq",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "f6f52ac55a3ad96aede77ebac9ce69660fb705b7d71d2201008926ddb2389637"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.3700000643730164,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.8600000143051147,
+                -0.23000000417232513,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1512052,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 4,
+            "meshes": 274,
+            "nonfinite": 0,
+            "triangles": 15944
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "iraq",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "f6f52ac55a3ad96aede77ebac9ce69660fb705b7d71d2201008926ddb2389637"
+        }
+      ],
+      "fresh_motion_suite": {
+        "exit_code": 0,
+        "id": "iraq",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "11175a8e65e619fd35bfdd5f9fb4758fa633b180",
+            "path": "preview/iraq-v1/motion.mjs",
+            "sha256": "9d118549fcdc1ff1d1fd8ebb6c6eb8a7a0da7fef8f0ae65ca947335407e74f03"
+          }
+        ]
+      },
+      "fresh_runtime_captures": [
+        "smoke/iraq/desktop-closed.png",
+        "smoke/iraq/desktop-open.png",
+        "smoke/iraq/mobile-closed.png",
+        "smoke/iraq/mobile-open.png"
+      ],
+      "id": "iraq",
+      "independent_reviewer_recommendation": "needs-user-review",
+      "inspected_parent_images": [
+        "parent/boards/iraq.jpg",
+        "parent/smoke/iraq/desktop-closed.png",
+        "parent/smoke/iraq/desktop-open.png",
+        "parent/smoke/iraq/mobile-closed.png",
+        "parent/smoke/iraq/mobile-open.png"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 97484,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/iraq.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "Principal silhouette, palette, hardware and lid count/placement retained; texture refinement allowed.",
+          "reviewStatus": "accepted",
+          "sha256": "41151d703257765ac610a0030d4e3e25b8f31cdb02758840b6b1a41d014f675c",
+          "source": "assets/gallery/iraq.webp",
+          "sourceSha256": "3d3577adc94524128c0ddc92cd99649227957b8d3c23e3829d15e3174902e4b5",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "e5e8615a80b1d13df0b5a7a07e176fca570e8e06bd92f16ddf4e0449ed9aa3ea"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-Blender-reopen-parity-and-sampled-collisions",
+        "fresh-corrupt-GLB-fallback",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "models": [
+        {
+          "bytes": 449286,
+          "path": "preview/iraq-v1/iraq.blend",
+          "sha256": "26edf5f546d5e7dab050ccf00bedb92b9e5a4bf7bad5386f117d0a8b8ab5d957"
+        },
+        {
+          "bytes": 1512052,
+          "path": "preview/iraq-v1/iraq.glb",
+          "sha256": "3504d2280ff9c0f6f73ef18ce083d2fd5cac4b2465aa40131c7a973c1533a1fd"
+        }
+      ],
+      "parent_hold_preserved": false,
+      "selection": {
+        "commit": "11175a8e65e619fd35bfdd5f9fb4758fa633b180",
+        "fetched_tip": "11175a8e65e619fd35bfdd5f9fb4758fa633b180",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/iraq-v1"
+      },
+      "technical_verdict": "pass-bounded-review",
+      "viewer": {
+        "bytes": 2768622,
+        "commit": "11175a8e65e619fd35bfdd5f9fb4758fa633b180",
+        "path": "preview/iraq-v1/iraq-v1.html",
+        "sha256": "f6f52ac55a3ad96aede77ebac9ce69660fb705b7d71d2201008926ddb2389637",
+        "under_5000000": true
+      },
+      "visual_findings": "Core stepped architecture retained; finer uniform blue courses, simpler pale ornament and yellow hardware. Patterned underside is not established missing-texture error.",
+      "visual_verdict": "candidate-with-limitations"
+    },
+    "package_history": [
+      {
+        "bytes": 5394297,
+        "commit": "11175a8e65e619fd35bfdd5f9fb4758fa633b180",
+        "crc_error": null,
+        "entries": 56,
+        "inventory_checked": true,
+        "inventory_entries": 55,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/iraq-v1/iraq-v1-source.zip",
+        "required_payloads": {
+          "iraq-v1.html": true,
+          "iraq.blend": true,
+          "iraq.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "a07aad164adabb62a969730e9608dbb37b483c48ec748eba7a5cd672f007be0d"
+      }
+    ]
+  }
+}

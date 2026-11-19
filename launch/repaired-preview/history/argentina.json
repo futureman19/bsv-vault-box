@@ -1,0 +1,950 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 8,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 730614,
+        "role": "editable-source",
+        "sha256": "a60d00e420b379a7c6398c751fda28bede09a004bdbafab674186e2cea326e22",
+        "source": {
+          "commit": "2c0d38d67ea68cd7f89c067dadcb05fcc8c51df0",
+          "path": "preview/argentina-v1/argentina.blend"
+        },
+        "uri": "sha256:a60d00e420b379a7c6398c751fda28bede09a004bdbafab674186e2cea326e22"
+      },
+      {
+        "bytes": 6673884,
+        "role": "historical-source-archive",
+        "sha256": "3e26e14b528cc760adddd9b4d4e327eb611dfc28e59c8e1ed9c988d04d2cc407",
+        "source": {
+          "commit": "2c0d38d67ea68cd7f89c067dadcb05fcc8c51df0",
+          "kind": "git",
+          "path": "preview/argentina-v1/argentina-v1-source.zip"
+        },
+        "uri": "sha256:3e26e14b528cc760adddd9b4d4e327eb611dfc28e59c8e1ed9c988d04d2cc407"
+      },
+      {
+        "bytes": 1608988,
+        "role": "model",
+        "sha256": "f9eca93f113d020312e99d7e4b8b03583d7dd78dc9d0c09025e5f3a021a34fa5",
+        "source": {
+          "commit": "2c0d38d67ea68cd7f89c067dadcb05fcc8c51df0",
+          "path": "preview/argentina-v1/argentina.glb"
+        },
+        "uri": "sha256:f9eca93f113d020312e99d7e4b8b03583d7dd78dc9d0c09025e5f3a021a34fa5"
+      },
+      {
+        "bytes": 48652,
+        "role": "promotional-illustration",
+        "sha256": "10ebb7017d17d7f468ed3cd567f3c852083cbb0223ab646c871c4bf33941479d",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/argentina.webp"
+        },
+        "uri": "sha256:10ebb7017d17d7f468ed3cd567f3c852083cbb0223ab646c871c4bf33941479d"
+      },
+      {
+        "bytes": 3343,
+        "role": "research-brief",
+        "sha256": "a8c4f827ca2fe39403328ecbb78f93df60cd4816b92026cb89dbc75a44b7445d",
+        "source": {
+          "commit": "2c0d38d67ea68cd7f89c067dadcb05fcc8c51df0",
+          "path": "preview/argentina-v1/design-brief.md"
+        },
+        "uri": "sha256:a8c4f827ca2fe39403328ecbb78f93df60cd4816b92026cb89dbc75a44b7445d"
+      },
+      {
+        "bytes": 5830,
+        "role": "source-notice",
+        "sha256": "51cab2238eed6264033af823baaf6b1097fcdd0d1abf1a45929c26c5ce8ecac4",
+        "source": {
+          "commit": "2c0d38d67ea68cd7f89c067dadcb05fcc8c51df0",
+          "path": "preview/argentina-v1/README.md"
+        },
+        "uri": "sha256:51cab2238eed6264033af823baaf6b1097fcdd0d1abf1a45929c26c5ce8ecac4"
+      },
+      {
+        "bytes": 2906138,
+        "role": "viewer",
+        "sha256": "1465cc63fc8587b4fecc62e0ab33280c5731b888bc645b8137a4cc73da48d72d",
+        "source": {
+          "commit": "2c0d38d67ea68cd7f89c067dadcb05fcc8c51df0",
+          "path": "preview/argentina-v1/argentina-v1.html"
+        },
+        "uri": "sha256:1465cc63fc8587b4fecc62e0ab33280c5731b888bc645b8137a4cc73da48d72d"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "argentina",
+    "independent_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "capture_base": "parent/",
+      "captures": [
+        "smoke/argentina/desktop-closed.png",
+        "smoke/argentina/desktop-open.png",
+        "smoke/argentina/mobile-closed.png",
+        "smoke/argentina/mobile-open.png"
+      ],
+      "critical_reproducible_failures": [],
+      "final_approval": false,
+      "fresh_checks": {
+        "blender_parity_collision": false,
+        "fallback": false,
+        "full_inner_archive_inventories": true,
+        "motion": false,
+        "original_captures_and_marketing_inspected": true,
+        "runtime": false,
+        "source_and_delivered_viewer_hashes": true,
+        "source_archive_crc_safe_paths_required_payloads": true
+      },
+      "historical_runtime": {
+        "browser": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.6380648612976074,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1608988,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 10,
+              "meshes": 61,
+              "nonfinite": 0,
+              "triangles": 16766
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "argentina",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "1465cc63fc8587b4fecc62e0ab33280c5731b888bc645b8137a4cc73da48d72d"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.6380648612976074,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1608988,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 10,
+              "meshes": 61,
+              "nonfinite": 0,
+              "triangles": 16766
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "argentina",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "1465cc63fc8587b4fecc62e0ab33280c5731b888bc645b8137a4cc73da48d72d"
+          }
+        ],
+        "extended": {
+          "geometry": {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.6380648612976074,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1608988,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 10,
+              "meshes": 61,
+              "nonfinite": 0,
+              "triangles": 16766
+            },
+            "meshes": 61,
+            "nonfinite": 0,
+            "triangles": 16766
+          },
+          "id": "argentina",
+          "no_js_poster": true
+        },
+        "motion": {
+          "exit_code": 0,
+          "id": "argentina",
+          "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+          "source": [
+            {
+              "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+              "path": "preview/albania-v1/tests.mjs",
+              "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+            },
+            {
+              "commit": "2c0d38d67ea68cd7f89c067dadcb05fcc8c51df0",
+              "path": "preview/argentina-v1/motion.mjs",
+              "sha256": "d61544de9b41521a7b14e81a5e9867ce0fcc387f8852ce57490031b84bf2150e"
+            }
+          ]
+        },
+        "parent_commit": "431e51ffb5a8704b5f8f8b11694d28befae18402"
+      },
+      "id": "argentina",
+      "independent_visual": {
+        "assessment": {
+          "concrete_defects": [
+            "Fine ridge bands and hardware edges appear jagged, especially on mobile.",
+            "Body-to-trim stripe joins are abrupt; dark seam and coarse stone feet reduce construction clarity."
+          ],
+          "id": "argentina",
+          "inspected_paths": [
+            "parent/smoke/argentina/desktop-closed.png",
+            "parent/smoke/argentina/desktop-open.png",
+            "parent/smoke/argentina/mobile-closed.png",
+            "parent/smoke/argentina/mobile-open.png",
+            "parent/sources/argentina/marketing.webp"
+          ],
+          "limitations": [
+            "Pastel coloration, applied relief, broad body bands versus finer terrain bands and prominent seam are disclosed stylization, not newly established defects.",
+            "Unchanged lightweight model reviewed against promotional illustration for visual relationship, not equivalence. Rendering polish differences are not automatically model defects.",
+            "Only supplied static viewpoints inspected; no proof of continuous collision freedom, hinge attachment, hidden geometry integrity, controls, performance, or physical-phone behavior. Apparent attachment gaps are unresolved visual ambiguities, not confirmed detached meshes.",
+            "Mobile secondary/status/disclaimer text is small; screenshot inspection does not establish accessibility contrast compliance.",
+            "No major missing visible panel or viewport clipping established. Candidate status is not art approval; existing user decisions remain holds."
+          ],
+          "observations": [
+            "Pastel geological bands, multi-peak relief, brass clasp/round disc/side ring and stone feet remain recognizable in model and illustration; the model uses more jagged, faceted strata.",
+            "All four viewer frames contain the full visible object and controls; open poses expose a hollow cavity."
+          ],
+          "source_notice_path": "parent/sources/argentina/source_readme.md",
+          "verdict": "candidate-with-limitations"
+        },
+        "report": "visual-a.json"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-08 review"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 48652,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/argentina.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "Pastel geological banding and terrain retained.",
+          "reviewStatus": "accepted",
+          "sha256": "6863a9853978126f13cd30caccac9e2f490391af2410c2e003438494267c56a9",
+          "source": "assets/gallery/argentina.webp",
+          "sourceSha256": "adc94b40a6873dbee44cdf9dc8851a08dce9e6c3d0601b6bcd5cef524aaf5a66",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "10ebb7017d17d7f468ed3cd567f3c852083cbb0223ab646c871c4bf33941479d"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_verdict": "pass",
+      "parent_visual": {
+        "decision": "pass",
+        "hardware": "Brass long clasp, round disc, side ring, corner caps and stone feet retained. Open latch is intentionally released; no observed detached part or unintended gap.",
+        "limitations": [
+          "Pale palette, schematic geology and applied relief boundary are disclosed. Interior lower corners partly occluded; screenshots do not certify mechanical clearance.",
+          "Review uses original full-size image files, not a composite. Static screenshots cannot verify hidden geometry, animation intersections, real material construction or performance. Promotional enhancements are not runtime-detail guarantees."
+        ],
+        "quality": "Coherent pastel mineral chest; complete closed/open desktop/mobile framing. Promotional composition and runtime silhouette agree.",
+        "terrain": "Rounded multi-peak applied relief with conspicuous sawtooth strata; same decorative treatment exists in promotion, not realistic erosion.",
+        "texture": "Broad body bands versus finer jagged terrain bands; runtime is flatter/softer than promotional grain and metal highlights."
+      },
+      "parent_visual_hold_preserved": false,
+      "reviewed_image_hashes": [
+        {
+          "bytes": 48652,
+          "path": "sources/argentina/marketing.webp",
+          "sha256": "10ebb7017d17d7f468ed3cd567f3c852083cbb0223ab646c871c4bf33941479d"
+        },
+        {
+          "bytes": 356741,
+          "path": "smoke/argentina/desktop-closed.png",
+          "sha256": "32bafb915a95c00bf699d5ebca95c86f6a74901aaedaa8e8e70f9229f490a6cb"
+        },
+        {
+          "bytes": 371764,
+          "path": "smoke/argentina/desktop-open.png",
+          "sha256": "61ad86c50c066fb491512184494941241b93547ff4bde00c954333425b44d110"
+        },
+        {
+          "bytes": 117881,
+          "path": "smoke/argentina/mobile-closed.png",
+          "sha256": "a862bd070f3a1699b10a634a4ad35d4a84b5f45dddf3c1c6168f62eb373dce83"
+        },
+        {
+          "bytes": 117310,
+          "path": "smoke/argentina/mobile-open.png",
+          "sha256": "674284d2b5ddd5dcf8ba101bb99d00df41593713e75d45c2d69dd3c85c66023e"
+        }
+      ],
+      "selection": {
+        "commit": "2c0d38d67ea68cd7f89c067dadcb05fcc8c51df0",
+        "fetched_tip": "2c0d38d67ea68cd7f89c067dadcb05fcc8c51df0",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/argentina-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 6673884,
+          "commit": "2c0d38d67ea68cd7f89c067dadcb05fcc8c51df0",
+          "crc_error": null,
+          "entries": 55,
+          "fresh_crc_safe_unique": true,
+          "fresh_inner_inventory_entries": 54,
+          "fresh_required_payloads": [
+            {
+              "member": "argentina-v1.html",
+              "path": "preview/argentina-v1/argentina-v1.html",
+              "sha256": "1465cc63fc8587b4fecc62e0ab33280c5731b888bc645b8137a4cc73da48d72d"
+            },
+            {
+              "member": "argentina.blend",
+              "path": "preview/argentina-v1/argentina.blend",
+              "sha256": "a60d00e420b379a7c6398c751fda28bede09a004bdbafab674186e2cea326e22"
+            },
+            {
+              "member": "argentina.glb",
+              "path": "preview/argentina-v1/argentina.glb",
+              "sha256": "f9eca93f113d020312e99d7e4b8b03583d7dd78dc9d0c09025e5f3a021a34fa5"
+            }
+          ],
+          "inventory_checked": true,
+          "inventory_entries": 54,
+          "inventory_mismatches": [],
+          "kind": "git",
+          "path": "preview/argentina-v1/argentina-v1-source.zip",
+          "required_payloads": {
+            "argentina-v1.html": true,
+            "argentina.blend": true,
+            "argentina.glb": true
+          },
+          "safe_unique_paths": true,
+          "sha256": "3e26e14b528cc760adddd9b4d4e327eb611dfc28e59c8e1ed9c988d04d2cc407"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 730614,
+          "commit": "2c0d38d67ea68cd7f89c067dadcb05fcc8c51df0",
+          "path": "preview/argentina-v1/argentina.blend",
+          "role": "selected-model",
+          "sha256": "a60d00e420b379a7c6398c751fda28bede09a004bdbafab674186e2cea326e22"
+        },
+        {
+          "bytes": 1608988,
+          "commit": "2c0d38d67ea68cd7f89c067dadcb05fcc8c51df0",
+          "path": "preview/argentina-v1/argentina.glb",
+          "role": "selected-model",
+          "sha256": "f9eca93f113d020312e99d7e4b8b03583d7dd78dc9d0c09025e5f3a021a34fa5",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 56,
+            "nodes": 58
+          }
+        }
+      ],
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 2906138,
+        "commit": "2c0d38d67ea68cd7f89c067dadcb05fcc8c51df0",
+        "path": "preview/argentina-v1/argentina-v1.html",
+        "sha256": "1465cc63fc8587b4fecc62e0ab33280c5731b888bc645b8137a4cc73da48d72d",
+        "under_5000000": true
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Argentina",
+    "package_history": [
+      {
+        "bytes": 6673884,
+        "commit": "2c0d38d67ea68cd7f89c067dadcb05fcc8c51df0",
+        "crc_error": null,
+        "entries": 55,
+        "inventory_checked": true,
+        "inventory_entries": 54,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/argentina-v1/argentina-v1-source.zip",
+        "required_payloads": {
+          "argentina-v1.html": true,
+          "argentina.blend": true,
+          "argentina.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "3e26e14b528cc760adddd9b4d4e327eb611dfc28e59c8e1ed9c988d04d2cc407"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "2c0d38d67ea68cd7f89c067dadcb05fcc8c51df0",
+      "fetched_tip": "2c0d38d67ea68cd7f89c067dadcb05fcc8c51df0",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/argentina-v1"
+    },
+    "verdict": "candidate-with-limitations",
+    "viewer": {
+      "bytes": 2906138,
+      "commit": "2c0d38d67ea68cd7f89c067dadcb05fcc8c51df0",
+      "path": "preview/argentina-v1/argentina-v1.html",
+      "sha256": "1465cc63fc8587b4fecc62e0ab33280c5731b888bc645b8137a4cc73da48d72d",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "argentina",
+    "baseline_verdict": "candidate-with-limitations",
+    "actions": [
+      "remaining ordinary finish inspection; do not edit promotional-only differences or infer broken model"
+    ],
+    "approval": false,
+    "original_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "capture_base": "parent/",
+      "captures": [
+        "smoke/argentina/desktop-closed.png",
+        "smoke/argentina/desktop-open.png",
+        "smoke/argentina/mobile-closed.png",
+        "smoke/argentina/mobile-open.png"
+      ],
+      "critical_reproducible_failures": [],
+      "final_approval": false,
+      "fresh_checks": {
+        "blender_parity_collision": false,
+        "fallback": false,
+        "full_inner_archive_inventories": true,
+        "motion": false,
+        "original_captures_and_marketing_inspected": true,
+        "runtime": false,
+        "source_and_delivered_viewer_hashes": true,
+        "source_archive_crc_safe_paths_required_payloads": true
+      },
+      "historical_runtime": {
+        "browser": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.6380648612976074,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1608988,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 10,
+              "meshes": 61,
+              "nonfinite": 0,
+              "triangles": 16766
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "argentina",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "1465cc63fc8587b4fecc62e0ab33280c5731b888bc645b8137a4cc73da48d72d"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.6380648612976074,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1608988,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 10,
+              "meshes": 61,
+              "nonfinite": 0,
+              "triangles": 16766
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "argentina",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "1465cc63fc8587b4fecc62e0ab33280c5731b888bc645b8137a4cc73da48d72d"
+          }
+        ],
+        "extended": {
+          "geometry": {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.6380648612976074,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1608988,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 10,
+              "meshes": 61,
+              "nonfinite": 0,
+              "triangles": 16766
+            },
+            "meshes": 61,
+            "nonfinite": 0,
+            "triangles": 16766
+          },
+          "id": "argentina",
+          "no_js_poster": true
+        },
+        "motion": {
+          "exit_code": 0,
+          "id": "argentina",
+          "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+          "source": [
+            {
+              "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+              "path": "preview/albania-v1/tests.mjs",
+              "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+            },
+            {
+              "commit": "2c0d38d67ea68cd7f89c067dadcb05fcc8c51df0",
+              "path": "preview/argentina-v1/motion.mjs",
+              "sha256": "d61544de9b41521a7b14e81a5e9867ce0fcc387f8852ce57490031b84bf2150e"
+            }
+          ]
+        },
+        "parent_commit": "431e51ffb5a8704b5f8f8b11694d28befae18402"
+      },
+      "id": "argentina",
+      "independent_visual": {
+        "assessment": {
+          "concrete_defects": [
+            "Fine ridge bands and hardware edges appear jagged, especially on mobile.",
+            "Body-to-trim stripe joins are abrupt; dark seam and coarse stone feet reduce construction clarity."
+          ],
+          "id": "argentina",
+          "inspected_paths": [
+            "parent/smoke/argentina/desktop-closed.png",
+            "parent/smoke/argentina/desktop-open.png",
+            "parent/smoke/argentina/mobile-closed.png",
+            "parent/smoke/argentina/mobile-open.png",
+            "parent/sources/argentina/marketing.webp"
+          ],
+          "limitations": [
+            "Pastel coloration, applied relief, broad body bands versus finer terrain bands and prominent seam are disclosed stylization, not newly established defects.",
+            "Unchanged lightweight model reviewed against promotional illustration for visual relationship, not equivalence. Rendering polish differences are not automatically model defects.",
+            "Only supplied static viewpoints inspected; no proof of continuous collision freedom, hinge attachment, hidden geometry integrity, controls, performance, or physical-phone behavior. Apparent attachment gaps are unresolved visual ambiguities, not confirmed detached meshes.",
+            "Mobile secondary/status/disclaimer text is small; screenshot inspection does not establish accessibility contrast compliance.",
+            "No major missing visible panel or viewport clipping established. Candidate status is not art approval; existing user decisions remain holds."
+          ],
+          "observations": [
+            "Pastel geological bands, multi-peak relief, brass clasp/round disc/side ring and stone feet remain recognizable in model and illustration; the model uses more jagged, faceted strata.",
+            "All four viewer frames contain the full visible object and controls; open poses expose a hollow cavity."
+          ],
+          "source_notice_path": "parent/sources/argentina/source_readme.md",
+          "verdict": "candidate-with-limitations"
+        },
+        "report": "visual-a.json"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-08 review"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 48652,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/argentina.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "Pastel geological banding and terrain retained.",
+          "reviewStatus": "accepted",
+          "sha256": "6863a9853978126f13cd30caccac9e2f490391af2410c2e003438494267c56a9",
+          "source": "assets/gallery/argentina.webp",
+          "sourceSha256": "adc94b40a6873dbee44cdf9dc8851a08dce9e6c3d0601b6bcd5cef524aaf5a66",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "10ebb7017d17d7f468ed3cd567f3c852083cbb0223ab646c871c4bf33941479d"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_verdict": "pass",
+      "parent_visual": {
+        "decision": "pass",
+        "hardware": "Brass long clasp, round disc, side ring, corner caps and stone feet retained. Open latch is intentionally released; no observed detached part or unintended gap.",
+        "limitations": [
+          "Pale palette, schematic geology and applied relief boundary are disclosed. Interior lower corners partly occluded; screenshots do not certify mechanical clearance.",
+          "Review uses original full-size image files, not a composite. Static screenshots cannot verify hidden geometry, animation intersections, real material construction or performance. Promotional enhancements are not runtime-detail guarantees."
+        ],
+        "quality": "Coherent pastel mineral chest; complete closed/open desktop/mobile framing. Promotional composition and runtime silhouette agree.",
+        "terrain": "Rounded multi-peak applied relief with conspicuous sawtooth strata; same decorative treatment exists in promotion, not realistic erosion.",
+        "texture": "Broad body bands versus finer jagged terrain bands; runtime is flatter/softer than promotional grain and metal highlights."
+      },
+      "parent_visual_hold_preserved": false,
+      "reviewed_image_hashes": [
+        {
+          "bytes": 48652,
+          "path": "sources/argentina/marketing.webp",
+          "sha256": "10ebb7017d17d7f468ed3cd567f3c852083cbb0223ab646c871c4bf33941479d"
+        },
+        {
+          "bytes": 356741,
+          "path": "smoke/argentina/desktop-closed.png",
+          "sha256": "32bafb915a95c00bf699d5ebca95c86f6a74901aaedaa8e8e70f9229f490a6cb"
+        },
+        {
+          "bytes": 371764,
+          "path": "smoke/argentina/desktop-open.png",
+          "sha256": "61ad86c50c066fb491512184494941241b93547ff4bde00c954333425b44d110"
+        },
+        {
+          "bytes": 117881,
+          "path": "smoke/argentina/mobile-closed.png",
+          "sha256": "a862bd070f3a1699b10a634a4ad35d4a84b5f45dddf3c1c6168f62eb373dce83"
+        },
+        {
+          "bytes": 117310,
+          "path": "smoke/argentina/mobile-open.png",
+          "sha256": "674284d2b5ddd5dcf8ba101bb99d00df41593713e75d45c2d69dd3c85c66023e"
+        }
+      ],
+      "selection": {
+        "commit": "2c0d38d67ea68cd7f89c067dadcb05fcc8c51df0",
+        "fetched_tip": "2c0d38d67ea68cd7f89c067dadcb05fcc8c51df0",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/argentina-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 6673884,
+          "commit": "2c0d38d67ea68cd7f89c067dadcb05fcc8c51df0",
+          "crc_error": null,
+          "entries": 55,
+          "fresh_crc_safe_unique": true,
+          "fresh_inner_inventory_entries": 54,
+          "fresh_required_payloads": [
+            {
+              "member": "argentina-v1.html",
+              "path": "preview/argentina-v1/argentina-v1.html",
+              "sha256": "1465cc63fc8587b4fecc62e0ab33280c5731b888bc645b8137a4cc73da48d72d"
+            },
+            {
+              "member": "argentina.blend",
+              "path": "preview/argentina-v1/argentina.blend",
+              "sha256": "a60d00e420b379a7c6398c751fda28bede09a004bdbafab674186e2cea326e22"
+            },
+            {
+              "member": "argentina.glb",
+              "path": "preview/argentina-v1/argentina.glb",
+              "sha256": "f9eca93f113d020312e99d7e4b8b03583d7dd78dc9d0c09025e5f3a021a34fa5"
+            }
+          ],
+          "inventory_checked": true,
+          "inventory_entries": 54,
+          "inventory_mismatches": [],
+          "kind": "git",
+          "path": "preview/argentina-v1/argentina-v1-source.zip",
+          "required_payloads": {
+            "argentina-v1.html": true,
+            "argentina.blend": true,
+            "argentina.glb": true
+          },
+          "safe_unique_paths": true,
+          "sha256": "3e26e14b528cc760adddd9b4d4e327eb611dfc28e59c8e1ed9c988d04d2cc407"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 730614,
+          "commit": "2c0d38d67ea68cd7f89c067dadcb05fcc8c51df0",
+          "path": "preview/argentina-v1/argentina.blend",
+          "role": "selected-model",
+          "sha256": "a60d00e420b379a7c6398c751fda28bede09a004bdbafab674186e2cea326e22"
+        },
+        {
+          "bytes": 1608988,
+          "commit": "2c0d38d67ea68cd7f89c067dadcb05fcc8c51df0",
+          "path": "preview/argentina-v1/argentina.glb",
+          "role": "selected-model",
+          "sha256": "f9eca93f113d020312e99d7e4b8b03583d7dd78dc9d0c09025e5f3a021a34fa5",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 56,
+            "nodes": 58
+          }
+        }
+      ],
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 2906138,
+        "commit": "2c0d38d67ea68cd7f89c067dadcb05fcc8c51df0",
+        "path": "preview/argentina-v1/argentina-v1.html",
+        "sha256": "1465cc63fc8587b4fecc62e0ab33280c5731b888bc645b8137a4cc73da48d72d",
+        "under_5000000": true
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 6673884,
+        "commit": "2c0d38d67ea68cd7f89c067dadcb05fcc8c51df0",
+        "crc_error": null,
+        "entries": 55,
+        "inventory_checked": true,
+        "inventory_entries": 54,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/argentina-v1/argentina-v1-source.zip",
+        "required_payloads": {
+          "argentina-v1.html": true,
+          "argentina.blend": true,
+          "argentina.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "3e26e14b528cc760adddd9b4d4e327eb611dfc28e59c8e1ed9c988d04d2cc407"
+      }
+    ]
+  },
+  "ordinary_record": {
+    "id": "argentina",
+    "disposition": "unchanged-with-explicit-limitations",
+    "correction_passes": 0,
+    "model_geometry_changed": false,
+    "final_approved": false,
+    "launch_ready": false,
+    "original_observations": [
+      "Fine ridge bands and hardware edges appear jagged, especially on mobile.",
+      "Body-to-trim stripe joins are abrupt; dark seam and coarse stone feet reduce construction clarity."
+    ],
+    "independent_adjudication": {
+      "id": "argentina",
+      "disposition": "no-edit",
+      "observation": "Pastel strata and faceted ridge remain consistent across closed desktop/mobile; open interior retains the layered finish. Dark closure seam and abrupt terrain facets also belong to the visible design language.",
+      "recommendation": "Preserve ridge facets, strata, corner blocks and lid clearance. No definite isolated texture failure is established; do not smooth the terrain or close the dark band to imitate promotional shading.",
+      "supersampling": "Not specifically justified: triangular color edges are predominantly modeled/stylized terrain, not demonstrated sampling failure."
+    },
+    "unresolved_owner_holds": [
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "inherited_holds": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization",
+      "independent QA-ART-08 review"
+    ],
+    "original_review_preserved_in": "baseline.json",
+    "fresh_runtime": {
+      "id": "argentina",
+      "exit_code": 0,
+      "shared_contract": "Bangladesh renderer-independent interaction assertions; no fresh source/collision claim",
+      "results": "launch\\ordinary-finish-20\\runtime\\argentina\\browser-check.json"
+    },
+    "fresh_source_archive": {
+      "id": "argentina",
+      "archives": [
+        {
+          "archive": {
+            "bytes": 6673884,
+            "commit": "2c0d38d67ea68cd7f89c067dadcb05fcc8c51df0",
+            "crc_error": null,
+            "entries": 55,
+            "fresh_crc_safe_unique": true,
+            "fresh_inner_inventory_entries": 54,
+            "fresh_required_payloads": [
+              {
+                "member": "argentina-v1.html",
+                "path": "preview/argentina-v1/argentina-v1.html",
+                "sha256": "1465cc63fc8587b4fecc62e0ab33280c5731b888bc645b8137a4cc73da48d72d"
+              },
+              {
+                "member": "argentina.blend",
+                "path": "preview/argentina-v1/argentina.blend",
+                "sha256": "a60d00e420b379a7c6398c751fda28bede09a004bdbafab674186e2cea326e22"
+              },
+              {
+                "member": "argentina.glb",
+                "path": "preview/argentina-v1/argentina.glb",
+                "sha256": "f9eca93f113d020312e99d7e4b8b03583d7dd78dc9d0c09025e5f3a021a34fa5"
+              }
+            ],
+            "inventory_checked": true,
+            "inventory_entries": 54,
+            "inventory_mismatches": [],
+            "kind": "git",
+            "path": "preview/argentina-v1/argentina-v1-source.zip",
+            "required_payloads": {
+              "argentina-v1.html": true,
+              "argentina.blend": true,
+              "argentina.glb": true
+            },
+            "safe_unique_paths": true,
+            "sha256": "3e26e14b528cc760adddd9b4d4e327eb611dfc28e59c8e1ed9c988d04d2cc407"
+          },
+          "members": 55,
+          "fresh_inventory": {
+            "status": "pass",
+            "entries_checked": 54,
+            "uninventoried_members": [
+              "inventory.json"
+            ]
+          },
+          "exact_selected_payloads": [
+            "argentina-v1.html",
+            "argentina.blend",
+            "argentina.glb"
+          ]
+        }
+      ],
+      "pass": true
+    },
+    "remaining_visual_limitations": "Pastel strata and faceted ridge remain consistent across closed desktop/mobile; open interior retains the layered finish. Dark closure seam and abrupt terrain facets also belong to the visible design language."
+  }
+}

@@ -1,0 +1,933 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 8,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 730084,
+        "role": "editable-source",
+        "sha256": "cdf4d6e11dbde1c183a586c42100454cf8b19a77156ca12f0c00b6d3371f317d",
+        "source": {
+          "commit": "8e9c1f3c2c87b89e091e8fc2288b66f1813e800f",
+          "path": "preview/nigeria-v1/nigeria.blend"
+        },
+        "uri": "sha256:cdf4d6e11dbde1c183a586c42100454cf8b19a77156ca12f0c00b6d3371f317d"
+      },
+      {
+        "bytes": 7150520,
+        "role": "historical-source-archive",
+        "sha256": "f995d69c4e87e48b933f61cef8193d3ed37171568a49ffb777bdd21a42b960cc",
+        "source": {
+          "commit": "8e9c1f3c2c87b89e091e8fc2288b66f1813e800f",
+          "kind": "git",
+          "path": "preview/nigeria-v1/nigeria-v1-source.zip"
+        },
+        "uri": "sha256:f995d69c4e87e48b933f61cef8193d3ed37171568a49ffb777bdd21a42b960cc"
+      },
+      {
+        "bytes": 1846528,
+        "role": "model",
+        "sha256": "87ce567f3c34182d554294d925473211427c11e47de94f559b8dcf212951533d",
+        "source": {
+          "commit": "8e9c1f3c2c87b89e091e8fc2288b66f1813e800f",
+          "path": "preview/nigeria-v1/nigeria.glb"
+        },
+        "uri": "sha256:87ce567f3c34182d554294d925473211427c11e47de94f559b8dcf212951533d"
+      },
+      {
+        "bytes": 143230,
+        "role": "promotional-illustration",
+        "sha256": "abd608c04f6316f399b21a373ae7ff8bbb3c1558fda26331cfd16e56706826e5",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/nigeria.webp"
+        },
+        "uri": "sha256:abd608c04f6316f399b21a373ae7ff8bbb3c1558fda26331cfd16e56706826e5"
+      },
+      {
+        "bytes": 4582,
+        "role": "research-brief",
+        "sha256": "c38f7934b7e1608aaf37fd1d8e73a053e43b380e2b9e8dc57d0530715e237e02",
+        "source": {
+          "commit": "8e9c1f3c2c87b89e091e8fc2288b66f1813e800f",
+          "path": "preview/nigeria-v1/design-brief.md"
+        },
+        "uri": "sha256:c38f7934b7e1608aaf37fd1d8e73a053e43b380e2b9e8dc57d0530715e237e02"
+      },
+      {
+        "bytes": 3925,
+        "role": "source-notice",
+        "sha256": "d8b0b1d19f95cc6cd5ee04f8031c1c0e9947d22f81f2b32cc4fc47c0e9577dbd",
+        "source": {
+          "commit": "8e9c1f3c2c87b89e091e8fc2288b66f1813e800f",
+          "path": "preview/nigeria-v1/README.md"
+        },
+        "uri": "sha256:d8b0b1d19f95cc6cd5ee04f8031c1c0e9947d22f81f2b32cc4fc47c0e9577dbd"
+      },
+      {
+        "bytes": 3261757,
+        "role": "viewer",
+        "sha256": "7c389c90bd33ed8c5a657e3981770ab4ff20ecc5d8f3feff5cb27d96a03a55bb",
+        "source": {
+          "commit": "8e9c1f3c2c87b89e091e8fc2288b66f1813e800f",
+          "path": "preview/nigeria-v1/nigeria-v1.html"
+        },
+        "uri": "sha256:7c389c90bd33ed8c5a657e3981770ab4ff20ecc5d8f3feff5cb27d96a03a55bb"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "nigeria",
+    "independent_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "capture_base": "parent/",
+      "captures": [
+        "smoke/nigeria/desktop-closed.png",
+        "smoke/nigeria/desktop-open.png",
+        "smoke/nigeria/mobile-closed.png",
+        "smoke/nigeria/mobile-open.png"
+      ],
+      "critical_reproducible_failures": [],
+      "final_approval": false,
+      "fresh_checks": {
+        "blender_parity_collision": false,
+        "fallback": false,
+        "full_inner_archive_inventories": true,
+        "motion": false,
+        "original_captures_and_marketing_inspected": true,
+        "runtime": false,
+        "source_and_delivered_viewer_hashes": true,
+        "source_archive_crc_safe_paths_required_payloads": true
+      },
+      "historical_runtime": {
+        "browser": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.0343147004023194,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.25999999791383743,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1846528,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 5,
+              "meshes": 64,
+              "nonfinite": 0,
+              "triangles": 24436
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "nigeria",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "7c389c90bd33ed8c5a657e3981770ab4ff20ecc5d8f3feff5cb27d96a03a55bb"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.0343147004023194,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.25999999791383743,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1846528,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 5,
+              "meshes": 64,
+              "nonfinite": 0,
+              "triangles": 24436
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "nigeria",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "7c389c90bd33ed8c5a657e3981770ab4ff20ecc5d8f3feff5cb27d96a03a55bb"
+          }
+        ],
+        "extended": {
+          "geometry": {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.0343147004023194,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.25999999791383743,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1846528,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 5,
+              "meshes": 64,
+              "nonfinite": 0,
+              "triangles": 24436
+            },
+            "meshes": 64,
+            "nonfinite": 0,
+            "triangles": 24436
+          },
+          "id": "nigeria",
+          "no_js_poster": true
+        },
+        "motion": {
+          "exit_code": 0,
+          "id": "nigeria",
+          "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+          "source": [
+            {
+              "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+              "path": "preview/albania-v1/tests.mjs",
+              "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+            },
+            {
+              "commit": "8e9c1f3c2c87b89e091e8fc2288b66f1813e800f",
+              "path": "preview/nigeria-v1/motion.mjs",
+              "sha256": "a37a5d26f90f462b02aa8ecee5e4aabb07ae66e89f71c51b69795e479df3a43c"
+            }
+          ]
+        },
+        "parent_commit": "431e51ffb5a8704b5f8f8b11694d28befae18402"
+      },
+      "id": "nigeria",
+      "independent_visual": {
+        "assessment": {
+          "concrete_defects": [
+            "Closed desktop/mobile views show a broad dark lid reveal and stepped front-left junction; marketing also contains the reveal, so this is not a newly established closure failure.",
+            "Mobile diagonals and small fittings show jagged edges; circular motifs soften and terminate abruptly at panel boundaries. Separate panel construction and deliberate resist irregularity remain plausible."
+          ],
+          "framing": "Entire object, raised lid/latch in open views and visible feet remain in frame on desktop and mobile; no obvious UI overlap or asset cropping. Small presentation scale limits detailed hardware assessment.",
+          "id": "nigeria",
+          "inspected_paths": [
+            "parent/smoke/nigeria/desktop-closed.png",
+            "parent/smoke/nigeria/desktop-open.png",
+            "parent/smoke/nigeria/mobile-closed.png",
+            "parent/smoke/nigeria/mobile-open.png",
+            "parent/sources/nigeria/marketing.webp"
+          ],
+          "limitations": [
+            "All five original images inspected individually with vision; static endpoint screenshots do not establish motion, hinge/latch operation, clearance, physical buildability, or custody behavior. A released latch in an open view is not itself a defect.",
+            "Only the depicted angles and screenshot resolutions were reviewed; hidden faces and fine attachment details remain unverified. Stylized collectible imagery is not a mechanically validated product or authenticated traditional craft. No final approval or art changes.",
+            "Indigo/ivory resist-like pattern, brass fittings, blue block feet and three lid discs remain recognizable between marketing and closed previews; previews have a noticeably lighter lavender-blue lid under their lighting."
+          ],
+          "verdict": "candidate-with-limitations"
+        },
+        "report": "visual-d.json"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-08 review"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 143230,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/nigeria.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "High broad fidelity; original major miniature counts and hardware retained. Richer texture/color, minor pattern and contour changes.",
+          "reviewStatus": "reviewed",
+          "sha256": "827124f4cb2be4d412077211948a99c439a05579c2a8d907e848cd2a4b96929c",
+          "source": "assets/gallery/nigeria.webp",
+          "sourceSha256": "998edd9db213bbdc5001393814184dfac4afedb87f3fef06949b07f06980b6ad",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "abd608c04f6316f399b21a373ae7ff8bbb3c1558fda26331cfd16e56706826e5"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_verdict": "pass",
+      "parent_visual": {
+        "decision": "Retain only as a bounded stylized candidate: identity and major fittings are consistent, but marketing tactile weave is not established in runtime captures. No approved-baseline promotion.",
+        "hardware": "Long family clasp, separate round front fitting, left ring and corner caps remain readable. Open rear hinges are visible without an obvious gross attachment defect; small contacts cannot be certified from these views.",
+        "limitations": "Frozen still-image review only; supplied technical passes were not rerun. No final user approval, photoreal equivalence, physical-phone performance, cultural authentication or continuous mechanical certification. Open disengaged latch is expected; hidden exterior lid ornament in open views is not missing. README also discloses conspicuous seam, blue lighting differences and enamel-disc radius deviation from the brief. Pattern edge crops and panel discontinuities remain visible.",
+        "quality": "Cohesive indigo/brass silhouette and readable pale resist motifs in desktop and mobile; complete open and closed framing. Marketing and actual share the three lid medallions and overall design.",
+        "terrain": "Not applicable: textile-inspired rigid panels and three raised circular enamel ornaments, not landscape relief.",
+        "texture": "Actual rings read softer and more repetitive on smooth rigid panels; marketing resolves a markedly finer woven covering and double-outline polygonal/dotted motifs. Do not advertise actual cloth microstructure at mobile scale."
+      },
+      "parent_visual_hold_preserved": false,
+      "reviewed_image_hashes": [
+        {
+          "bytes": 409111,
+          "path": "smoke/nigeria/desktop-closed.png",
+          "sha256": "93d95498e4fa08aa8d4975fa203f6998c2a22983f3ea5f115517457fffb0b42b"
+        },
+        {
+          "bytes": 442999,
+          "path": "smoke/nigeria/desktop-open.png",
+          "sha256": "435b77b8f435ec050858c2e4510602584bebb5130e64387e421e5d46e4995188"
+        },
+        {
+          "bytes": 134961,
+          "path": "smoke/nigeria/mobile-closed.png",
+          "sha256": "b8b80626ea3801607de0c1eb057d6de4075d3aa3dcb147fe954d2db68b26885d"
+        },
+        {
+          "bytes": 144266,
+          "path": "smoke/nigeria/mobile-open.png",
+          "sha256": "018615e62b02c858616982864b627e72c8ba7108b08f6c94cc10313e6ce5d79c"
+        },
+        {
+          "bytes": 143230,
+          "path": "sources/nigeria/marketing.webp",
+          "sha256": "abd608c04f6316f399b21a373ae7ff8bbb3c1558fda26331cfd16e56706826e5"
+        }
+      ],
+      "selection": {
+        "commit": "8e9c1f3c2c87b89e091e8fc2288b66f1813e800f",
+        "fetched_tip": "8e9c1f3c2c87b89e091e8fc2288b66f1813e800f",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/nigeria-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 7150520,
+          "commit": "8e9c1f3c2c87b89e091e8fc2288b66f1813e800f",
+          "crc_error": null,
+          "entries": 51,
+          "fresh_crc_safe_unique": true,
+          "fresh_inner_inventory_entries": 50,
+          "fresh_required_payloads": [
+            {
+              "member": "nigeria-v1.html",
+              "path": "preview/nigeria-v1/nigeria-v1.html",
+              "sha256": "7c389c90bd33ed8c5a657e3981770ab4ff20ecc5d8f3feff5cb27d96a03a55bb"
+            },
+            {
+              "member": "nigeria.blend",
+              "path": "preview/nigeria-v1/nigeria.blend",
+              "sha256": "cdf4d6e11dbde1c183a586c42100454cf8b19a77156ca12f0c00b6d3371f317d"
+            },
+            {
+              "member": "nigeria.glb",
+              "path": "preview/nigeria-v1/nigeria.glb",
+              "sha256": "87ce567f3c34182d554294d925473211427c11e47de94f559b8dcf212951533d"
+            }
+          ],
+          "inventory_checked": true,
+          "inventory_entries": 50,
+          "inventory_mismatches": [],
+          "kind": "git",
+          "path": "preview/nigeria-v1/nigeria-v1-source.zip",
+          "required_payloads": {
+            "nigeria-v1.html": true,
+            "nigeria.blend": true,
+            "nigeria.glb": true
+          },
+          "safe_unique_paths": true,
+          "sha256": "f995d69c4e87e48b933f61cef8193d3ed37171568a49ffb777bdd21a42b960cc"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 730084,
+          "commit": "8e9c1f3c2c87b89e091e8fc2288b66f1813e800f",
+          "path": "preview/nigeria-v1/nigeria.blend",
+          "role": "selected-model",
+          "sha256": "cdf4d6e11dbde1c183a586c42100454cf8b19a77156ca12f0c00b6d3371f317d"
+        },
+        {
+          "bytes": 1846528,
+          "commit": "8e9c1f3c2c87b89e091e8fc2288b66f1813e800f",
+          "path": "preview/nigeria-v1/nigeria.glb",
+          "role": "selected-model",
+          "sha256": "87ce567f3c34182d554294d925473211427c11e47de94f559b8dcf212951533d",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 64,
+            "nodes": 66
+          }
+        }
+      ],
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 3261757,
+        "commit": "8e9c1f3c2c87b89e091e8fc2288b66f1813e800f",
+        "path": "preview/nigeria-v1/nigeria-v1.html",
+        "sha256": "7c389c90bd33ed8c5a657e3981770ab4ff20ecc5d8f3feff5cb27d96a03a55bb",
+        "under_5000000": true
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Nigeria",
+    "package_history": [
+      {
+        "bytes": 7150520,
+        "commit": "8e9c1f3c2c87b89e091e8fc2288b66f1813e800f",
+        "crc_error": null,
+        "entries": 51,
+        "inventory_checked": true,
+        "inventory_entries": 50,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/nigeria-v1/nigeria-v1-source.zip",
+        "required_payloads": {
+          "nigeria-v1.html": true,
+          "nigeria.blend": true,
+          "nigeria.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "f995d69c4e87e48b933f61cef8193d3ed37171568a49ffb777bdd21a42b960cc"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "8e9c1f3c2c87b89e091e8fc2288b66f1813e800f",
+      "fetched_tip": "8e9c1f3c2c87b89e091e8fc2288b66f1813e800f",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/nigeria-v1"
+    },
+    "verdict": "candidate-with-limitations",
+    "viewer": {
+      "bytes": 3261757,
+      "commit": "8e9c1f3c2c87b89e091e8fc2288b66f1813e800f",
+      "path": "preview/nigeria-v1/nigeria-v1.html",
+      "sha256": "7c389c90bd33ed8c5a657e3981770ab4ff20ecc5d8f3feff5cb27d96a03a55bb",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "nigeria",
+    "baseline_verdict": "candidate-with-limitations",
+    "actions": [
+      "remaining ordinary finish inspection; do not edit promotional-only differences or infer broken model"
+    ],
+    "approval": false,
+    "original_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "capture_base": "parent/",
+      "captures": [
+        "smoke/nigeria/desktop-closed.png",
+        "smoke/nigeria/desktop-open.png",
+        "smoke/nigeria/mobile-closed.png",
+        "smoke/nigeria/mobile-open.png"
+      ],
+      "critical_reproducible_failures": [],
+      "final_approval": false,
+      "fresh_checks": {
+        "blender_parity_collision": false,
+        "fallback": false,
+        "full_inner_archive_inventories": true,
+        "motion": false,
+        "original_captures_and_marketing_inspected": true,
+        "runtime": false,
+        "source_and_delivered_viewer_hashes": true,
+        "source_archive_crc_safe_paths_required_payloads": true
+      },
+      "historical_runtime": {
+        "browser": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.0343147004023194,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.25999999791383743,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1846528,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 5,
+              "meshes": 64,
+              "nonfinite": 0,
+              "triangles": 24436
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "nigeria",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "7c389c90bd33ed8c5a657e3981770ab4ff20ecc5d8f3feff5cb27d96a03a55bb"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.0343147004023194,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.25999999791383743,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1846528,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 5,
+              "meshes": 64,
+              "nonfinite": 0,
+              "triangles": 24436
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "nigeria",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "7c389c90bd33ed8c5a657e3981770ab4ff20ecc5d8f3feff5cb27d96a03a55bb"
+          }
+        ],
+        "extended": {
+          "geometry": {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.0343147004023194,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.25999999791383743,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1846528,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 5,
+              "meshes": 64,
+              "nonfinite": 0,
+              "triangles": 24436
+            },
+            "meshes": 64,
+            "nonfinite": 0,
+            "triangles": 24436
+          },
+          "id": "nigeria",
+          "no_js_poster": true
+        },
+        "motion": {
+          "exit_code": 0,
+          "id": "nigeria",
+          "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+          "source": [
+            {
+              "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+              "path": "preview/albania-v1/tests.mjs",
+              "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+            },
+            {
+              "commit": "8e9c1f3c2c87b89e091e8fc2288b66f1813e800f",
+              "path": "preview/nigeria-v1/motion.mjs",
+              "sha256": "a37a5d26f90f462b02aa8ecee5e4aabb07ae66e89f71c51b69795e479df3a43c"
+            }
+          ]
+        },
+        "parent_commit": "431e51ffb5a8704b5f8f8b11694d28befae18402"
+      },
+      "id": "nigeria",
+      "independent_visual": {
+        "assessment": {
+          "concrete_defects": [
+            "Closed desktop/mobile views show a broad dark lid reveal and stepped front-left junction; marketing also contains the reveal, so this is not a newly established closure failure.",
+            "Mobile diagonals and small fittings show jagged edges; circular motifs soften and terminate abruptly at panel boundaries. Separate panel construction and deliberate resist irregularity remain plausible."
+          ],
+          "framing": "Entire object, raised lid/latch in open views and visible feet remain in frame on desktop and mobile; no obvious UI overlap or asset cropping. Small presentation scale limits detailed hardware assessment.",
+          "id": "nigeria",
+          "inspected_paths": [
+            "parent/smoke/nigeria/desktop-closed.png",
+            "parent/smoke/nigeria/desktop-open.png",
+            "parent/smoke/nigeria/mobile-closed.png",
+            "parent/smoke/nigeria/mobile-open.png",
+            "parent/sources/nigeria/marketing.webp"
+          ],
+          "limitations": [
+            "All five original images inspected individually with vision; static endpoint screenshots do not establish motion, hinge/latch operation, clearance, physical buildability, or custody behavior. A released latch in an open view is not itself a defect.",
+            "Only the depicted angles and screenshot resolutions were reviewed; hidden faces and fine attachment details remain unverified. Stylized collectible imagery is not a mechanically validated product or authenticated traditional craft. No final approval or art changes.",
+            "Indigo/ivory resist-like pattern, brass fittings, blue block feet and three lid discs remain recognizable between marketing and closed previews; previews have a noticeably lighter lavender-blue lid under their lighting."
+          ],
+          "verdict": "candidate-with-limitations"
+        },
+        "report": "visual-d.json"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-08 review"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 143230,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/nigeria.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "High broad fidelity; original major miniature counts and hardware retained. Richer texture/color, minor pattern and contour changes.",
+          "reviewStatus": "reviewed",
+          "sha256": "827124f4cb2be4d412077211948a99c439a05579c2a8d907e848cd2a4b96929c",
+          "source": "assets/gallery/nigeria.webp",
+          "sourceSha256": "998edd9db213bbdc5001393814184dfac4afedb87f3fef06949b07f06980b6ad",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "abd608c04f6316f399b21a373ae7ff8bbb3c1558fda26331cfd16e56706826e5"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_verdict": "pass",
+      "parent_visual": {
+        "decision": "Retain only as a bounded stylized candidate: identity and major fittings are consistent, but marketing tactile weave is not established in runtime captures. No approved-baseline promotion.",
+        "hardware": "Long family clasp, separate round front fitting, left ring and corner caps remain readable. Open rear hinges are visible without an obvious gross attachment defect; small contacts cannot be certified from these views.",
+        "limitations": "Frozen still-image review only; supplied technical passes were not rerun. No final user approval, photoreal equivalence, physical-phone performance, cultural authentication or continuous mechanical certification. Open disengaged latch is expected; hidden exterior lid ornament in open views is not missing. README also discloses conspicuous seam, blue lighting differences and enamel-disc radius deviation from the brief. Pattern edge crops and panel discontinuities remain visible.",
+        "quality": "Cohesive indigo/brass silhouette and readable pale resist motifs in desktop and mobile; complete open and closed framing. Marketing and actual share the three lid medallions and overall design.",
+        "terrain": "Not applicable: textile-inspired rigid panels and three raised circular enamel ornaments, not landscape relief.",
+        "texture": "Actual rings read softer and more repetitive on smooth rigid panels; marketing resolves a markedly finer woven covering and double-outline polygonal/dotted motifs. Do not advertise actual cloth microstructure at mobile scale."
+      },
+      "parent_visual_hold_preserved": false,
+      "reviewed_image_hashes": [
+        {
+          "bytes": 409111,
+          "path": "smoke/nigeria/desktop-closed.png",
+          "sha256": "93d95498e4fa08aa8d4975fa203f6998c2a22983f3ea5f115517457fffb0b42b"
+        },
+        {
+          "bytes": 442999,
+          "path": "smoke/nigeria/desktop-open.png",
+          "sha256": "435b77b8f435ec050858c2e4510602584bebb5130e64387e421e5d46e4995188"
+        },
+        {
+          "bytes": 134961,
+          "path": "smoke/nigeria/mobile-closed.png",
+          "sha256": "b8b80626ea3801607de0c1eb057d6de4075d3aa3dcb147fe954d2db68b26885d"
+        },
+        {
+          "bytes": 144266,
+          "path": "smoke/nigeria/mobile-open.png",
+          "sha256": "018615e62b02c858616982864b627e72c8ba7108b08f6c94cc10313e6ce5d79c"
+        },
+        {
+          "bytes": 143230,
+          "path": "sources/nigeria/marketing.webp",
+          "sha256": "abd608c04f6316f399b21a373ae7ff8bbb3c1558fda26331cfd16e56706826e5"
+        }
+      ],
+      "selection": {
+        "commit": "8e9c1f3c2c87b89e091e8fc2288b66f1813e800f",
+        "fetched_tip": "8e9c1f3c2c87b89e091e8fc2288b66f1813e800f",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/nigeria-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 7150520,
+          "commit": "8e9c1f3c2c87b89e091e8fc2288b66f1813e800f",
+          "crc_error": null,
+          "entries": 51,
+          "fresh_crc_safe_unique": true,
+          "fresh_inner_inventory_entries": 50,
+          "fresh_required_payloads": [
+            {
+              "member": "nigeria-v1.html",
+              "path": "preview/nigeria-v1/nigeria-v1.html",
+              "sha256": "7c389c90bd33ed8c5a657e3981770ab4ff20ecc5d8f3feff5cb27d96a03a55bb"
+            },
+            {
+              "member": "nigeria.blend",
+              "path": "preview/nigeria-v1/nigeria.blend",
+              "sha256": "cdf4d6e11dbde1c183a586c42100454cf8b19a77156ca12f0c00b6d3371f317d"
+            },
+            {
+              "member": "nigeria.glb",
+              "path": "preview/nigeria-v1/nigeria.glb",
+              "sha256": "87ce567f3c34182d554294d925473211427c11e47de94f559b8dcf212951533d"
+            }
+          ],
+          "inventory_checked": true,
+          "inventory_entries": 50,
+          "inventory_mismatches": [],
+          "kind": "git",
+          "path": "preview/nigeria-v1/nigeria-v1-source.zip",
+          "required_payloads": {
+            "nigeria-v1.html": true,
+            "nigeria.blend": true,
+            "nigeria.glb": true
+          },
+          "safe_unique_paths": true,
+          "sha256": "f995d69c4e87e48b933f61cef8193d3ed37171568a49ffb777bdd21a42b960cc"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 730084,
+          "commit": "8e9c1f3c2c87b89e091e8fc2288b66f1813e800f",
+          "path": "preview/nigeria-v1/nigeria.blend",
+          "role": "selected-model",
+          "sha256": "cdf4d6e11dbde1c183a586c42100454cf8b19a77156ca12f0c00b6d3371f317d"
+        },
+        {
+          "bytes": 1846528,
+          "commit": "8e9c1f3c2c87b89e091e8fc2288b66f1813e800f",
+          "path": "preview/nigeria-v1/nigeria.glb",
+          "role": "selected-model",
+          "sha256": "87ce567f3c34182d554294d925473211427c11e47de94f559b8dcf212951533d",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 64,
+            "nodes": 66
+          }
+        }
+      ],
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 3261757,
+        "commit": "8e9c1f3c2c87b89e091e8fc2288b66f1813e800f",
+        "path": "preview/nigeria-v1/nigeria-v1.html",
+        "sha256": "7c389c90bd33ed8c5a657e3981770ab4ff20ecc5d8f3feff5cb27d96a03a55bb",
+        "under_5000000": true
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 7150520,
+        "commit": "8e9c1f3c2c87b89e091e8fc2288b66f1813e800f",
+        "crc_error": null,
+        "entries": 51,
+        "inventory_checked": true,
+        "inventory_entries": 50,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/nigeria-v1/nigeria-v1-source.zip",
+        "required_payloads": {
+          "nigeria-v1.html": true,
+          "nigeria.blend": true,
+          "nigeria.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "f995d69c4e87e48b933f61cef8193d3ed37171568a49ffb777bdd21a42b960cc"
+      }
+    ]
+  },
+  "ordinary_record": {
+    "id": "nigeria",
+    "disposition": "unchanged-with-explicit-limitations",
+    "correction_passes": 0,
+    "model_geometry_changed": false,
+    "final_approved": false,
+    "launch_ready": false,
+    "original_observations": [
+      "Closed desktop/mobile views show a broad dark lid reveal and stepped front-left junction; marketing also contains the reveal, so this is not a newly established closure failure.",
+      "Mobile diagonals and small fittings show jagged edges; circular motifs soften and terminate abruptly at panel boundaries. Separate panel construction and deliberate resist irregularity remain plausible."
+    ],
+    "independent_adjudication": {
+      "id": "nigeria",
+      "disposition": "no-edit",
+      "observation": "Pale irregular resist circles/flecks and blue surfaces are consistent in four states; top is paler/lavender relative to upright body. Open cavity and patterned underside are coherent.",
+      "rationale": "Pattern flecks, clipped motifs at separate panel boundaries, polygonal ornaments and lid/body brightness variation are not demonstrated UV or material defects.",
+      "bounded_recommendation": "Preserve palette, UV placement and geometry; do not darken lid or add promotional patina without an art-direction requirement.",
+      "supersampling": "Only a future conditional sampling test if native pattern crawl is demonstrated; no current repair justification."
+    },
+    "unresolved_owner_holds": [
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "inherited_holds": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization",
+      "independent QA-ART-08 review"
+    ],
+    "original_review_preserved_in": "baseline.json",
+    "fresh_runtime": {
+      "id": "nigeria",
+      "exit_code": 0,
+      "shared_contract": "Bangladesh renderer-independent interaction assertions; no fresh source/collision claim",
+      "results": "launch\\ordinary-finish-20\\runtime\\nigeria\\browser-check.json"
+    },
+    "fresh_source_archive": {
+      "id": "nigeria",
+      "archives": [
+        {
+          "archive": {
+            "bytes": 7150520,
+            "commit": "8e9c1f3c2c87b89e091e8fc2288b66f1813e800f",
+            "crc_error": null,
+            "entries": 51,
+            "fresh_crc_safe_unique": true,
+            "fresh_inner_inventory_entries": 50,
+            "fresh_required_payloads": [
+              {
+                "member": "nigeria-v1.html",
+                "path": "preview/nigeria-v1/nigeria-v1.html",
+                "sha256": "7c389c90bd33ed8c5a657e3981770ab4ff20ecc5d8f3feff5cb27d96a03a55bb"
+              },
+              {
+                "member": "nigeria.blend",
+                "path": "preview/nigeria-v1/nigeria.blend",
+                "sha256": "cdf4d6e11dbde1c183a586c42100454cf8b19a77156ca12f0c00b6d3371f317d"
+              },
+              {
+                "member": "nigeria.glb",
+                "path": "preview/nigeria-v1/nigeria.glb",
+                "sha256": "87ce567f3c34182d554294d925473211427c11e47de94f559b8dcf212951533d"
+              }
+            ],
+            "inventory_checked": true,
+            "inventory_entries": 50,
+            "inventory_mismatches": [],
+            "kind": "git",
+            "path": "preview/nigeria-v1/nigeria-v1-source.zip",
+            "required_payloads": {
+              "nigeria-v1.html": true,
+              "nigeria.blend": true,
+              "nigeria.glb": true
+            },
+            "safe_unique_paths": true,
+            "sha256": "f995d69c4e87e48b933f61cef8193d3ed37171568a49ffb777bdd21a42b960cc"
+          },
+          "members": 51,
+          "fresh_inventory": {
+            "status": "pass",
+            "entries_checked": 50,
+            "uninventoried_members": [
+              "inventory.json"
+            ]
+          },
+          "exact_selected_payloads": [
+            "nigeria-v1.html",
+            "nigeria.blend",
+            "nigeria.glb"
+          ]
+        }
+      ],
+      "pass": true
+    },
+    "remaining_visual_limitations": "Pattern flecks, clipped motifs at separate panel boundaries, polygonal ornaments and lid/body brightness variation are not demonstrated UV or material defects."
+  }
+}

@@ -1,0 +1,553 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 1,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 843329,
+        "role": "editable-source",
+        "sha256": "bbd7fe8614035fe2290ce9fe756e0d889b3a40404974f8d335046fcff6befa49",
+        "source": {
+          "commit": "bb790488e867f1bf8c57b3ea273ea737f9f61766",
+          "path": "preview/namibia-v1/namibia.blend"
+        },
+        "uri": "sha256:bbd7fe8614035fe2290ce9fe756e0d889b3a40404974f8d335046fcff6befa49"
+      },
+      {
+        "bytes": 8121539,
+        "role": "historical-source-archive",
+        "sha256": "26c2b55f3a9d9d45cc0cfe7f24b7ae078665b2728a3dd1167698da5ecf726e01",
+        "source": {
+          "commit": "bb790488e867f1bf8c57b3ea273ea737f9f61766",
+          "kind": "git",
+          "path": "preview/namibia-v1/namibia-v1-source.zip"
+        },
+        "uri": "sha256:26c2b55f3a9d9d45cc0cfe7f24b7ae078665b2728a3dd1167698da5ecf726e01"
+      },
+      {
+        "bytes": 1649960,
+        "role": "model",
+        "sha256": "ebb34ccf155ada972d2d888e5d0ce757af7a682c7d9b8c07d9e357d5f6b3233a",
+        "source": {
+          "commit": "bb790488e867f1bf8c57b3ea273ea737f9f61766",
+          "path": "preview/namibia-v1/namibia.glb"
+        },
+        "uri": "sha256:ebb34ccf155ada972d2d888e5d0ce757af7a682c7d9b8c07d9e357d5f6b3233a"
+      },
+      {
+        "bytes": 31444,
+        "role": "promotional-illustration",
+        "sha256": "fe62dda555dfa88476a185c4857f5ee97410ba998ef473f43aa4fd96422136df",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/namibia.webp"
+        },
+        "uri": "sha256:fe62dda555dfa88476a185c4857f5ee97410ba998ef473f43aa4fd96422136df"
+      },
+      {
+        "bytes": 3793,
+        "role": "research-brief",
+        "sha256": "5c7d3f0cc30c7265ae8aa45d4051f755c401759b38b2be79ad4cd086aac81e26",
+        "source": {
+          "commit": "bb790488e867f1bf8c57b3ea273ea737f9f61766",
+          "path": "preview/namibia-v1/design-brief.md"
+        },
+        "uri": "sha256:5c7d3f0cc30c7265ae8aa45d4051f755c401759b38b2be79ad4cd086aac81e26"
+      },
+      {
+        "bytes": 7682,
+        "role": "source-notice",
+        "sha256": "b63f6d88ed2b19cd3f0a47fe7e9a03d726cb97bc4ef4fdfce5e61b86db67c3f8",
+        "source": {
+          "commit": "bb790488e867f1bf8c57b3ea273ea737f9f61766",
+          "path": "preview/namibia-v1/README.md"
+        },
+        "uri": "sha256:b63f6d88ed2b19cd3f0a47fe7e9a03d726cb97bc4ef4fdfce5e61b86db67c3f8"
+      },
+      {
+        "bytes": 2922315,
+        "role": "viewer",
+        "sha256": "3b46f80b8b4d8172af41b1d26d435475ae8d99c0e2d1449174a670d7ce88b20a",
+        "source": {
+          "commit": "bb790488e867f1bf8c57b3ea273ea737f9f61766",
+          "path": "preview/namibia-v1/namibia-v1.html"
+        },
+        "uri": "sha256:3b46f80b8b4d8172af41b1d26d435475ae8d99c0e2d1449174a670d7ce88b20a"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "namibia",
+    "independent_review": {
+      "all_four_original_captures_inspected": true,
+      "captures": [
+        "launch/art-01/smoke/namibia/desktop-closed.png",
+        "launch/art-01/smoke/namibia/desktop-open.png",
+        "launch/art-01/smoke/namibia/mobile-closed.png",
+        "launch/art-01/smoke/namibia/mobile-open.png"
+      ],
+      "critical_defects": [],
+      "fresh_qa_runtime": [],
+      "id": "namibia",
+      "launch_ready": false,
+      "marketing_inspected": true,
+      "model_changed": false,
+      "model_sources": [
+        {
+          "bytes": 843329,
+          "commit": "bb790488e867f1bf8c57b3ea273ea737f9f61766",
+          "path": "preview/namibia-v1/namibia.blend",
+          "role": "selected-model",
+          "sha256": "bbd7fe8614035fe2290ce9fe756e0d889b3a40404974f8d335046fcff6befa49"
+        },
+        {
+          "bytes": 1649960,
+          "commit": "bb790488e867f1bf8c57b3ea273ea737f9f61766",
+          "path": "preview/namibia-v1/namibia.glb",
+          "role": "selected-model",
+          "sha256": "ebb34ccf155ada972d2d888e5d0ce757af7a682c7d9b8c07d9e357d5f6b3233a",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 60,
+            "nodes": 62
+          }
+        }
+      ],
+      "parent_runtime": {
+        "cases": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.5075371265411377,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.3011416867375374,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1649960,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 8,
+              "meshes": 60,
+              "nonfinite": 0,
+              "triangles": 21800
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "namibia",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "3b46f80b8b4d8172af41b1d26d435475ae8d99c0e2d1449174a670d7ce88b20a"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.5075371265411377,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.3011416867375374,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1649960,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 8,
+              "meshes": 60,
+              "nonfinite": 0,
+              "triangles": 21800
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "namibia",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "3b46f80b8b4d8172af41b1d26d435475ae8d99c0e2d1449174a670d7ce88b20a"
+          }
+        ],
+        "independently_rerun": false,
+        "motion": {
+          "exit_code": 0,
+          "id": "namibia",
+          "passed": true,
+          "scope": "original motion unit assertions; not fresh collision/source parity"
+        }
+      },
+      "parent_status": "needs-decision",
+      "remaining_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "complete-source-archive-inventory-not-verified",
+        "art-direction-decision",
+        "hinge-attachment-clarity-not-proven-by-stills"
+      ],
+      "selection": {
+        "commit": "bb790488e867f1bf8c57b3ea273ea737f9f61766",
+        "fetched_tip": "bb790488e867f1bf8c57b3ea273ea737f9f61766",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/namibia-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 8121539,
+          "commit": "bb790488e867f1bf8c57b3ea273ea737f9f61766",
+          "crc_safe_unique": true,
+          "exact_selected_payloads": {
+            "namibia-v1.html": [
+              "namibia-v1.html"
+            ],
+            "namibia.blend": [
+              "namibia.blend"
+            ],
+            "namibia.glb": [
+              "namibia.glb"
+            ]
+          },
+          "full_inventory_rerun": false,
+          "inherited_full_inventory_checked": false,
+          "members": 60,
+          "path": "preview/namibia-v1/namibia-v1-source.zip",
+          "sha256": "26c2b55f3a9d9d45cc0cfe7f24b7ae078665b2728a3dd1167698da5ecf726e01"
+        }
+      ],
+      "user_final_approved": false,
+      "verdict": "needs-user-review",
+      "viewer": {
+        "bytes": 2922315,
+        "commit": "bb790488e867f1bf8c57b3ea273ea737f9f61766",
+        "path": "preview/namibia-v1/namibia-v1.html",
+        "sha256": "3b46f80b8b4d8172af41b1d26d435475ae8d99c0e2d1449174a670d7ce88b20a",
+        "under_5000000": true
+      },
+      "visual_review": {
+        "critical_visible_faults": [],
+        "decision": "Retain visual decision hold AND Namibia complete-source-archive inventory hold. Screenshot review cannot clear the archive gate.",
+        "desktop_closed": "Yellow-ochre dune chest, pale playa detail and brass fittings are coherent; pronounced dark seam reads partly open even in the closed pose.",
+        "desktop_open": "Dark brown hollow cavity, raised rim and two hinges visible. Rear gap warrants a contact caveat, not a confirmed detached-lid diagnosis.",
+        "file": "visual-c.json",
+        "id": "namibia",
+        "inspected": [
+          "smoke/namibia/desktop-closed.png",
+          "smoke/namibia/desktop-open.png",
+          "smoke/namibia/mobile-closed.png",
+          "smoke/namibia/mobile-open.png",
+          "marketing/namibia.webp"
+        ],
+        "marketing_comparison": "Marketing is substantially paler peach with elongated curled/warped-looking ridges and a conspicuous pale patch; runtime presents compact ochre dunes. Color and terrain reading differ enough to warrant a direction decision, rather than assuming exact equivalence.",
+        "mobile_closed": "Dune silhouette and orange/gold identity readable; complete box contained without overlap.",
+        "mobile_open": "Full open silhouette contained; cavity visible but bottom largely occluded by perspective.",
+        "parent_status": "needs-decision",
+        "parent_status_justified": true,
+        "preserved_nonvisual_hold": "complete-source-archive-inventory-not-verified",
+        "severity": "moderate-fidelity-plus-existing-archive-hold"
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Namibia",
+    "package_history": [
+      {
+        "bytes": 8121539,
+        "commit": "bb790488e867f1bf8c57b3ea273ea737f9f61766",
+        "crc_error": null,
+        "entries": 60,
+        "inventory_checked": false,
+        "kind": "git",
+        "path": "preview/namibia-v1/namibia-v1-source.zip",
+        "required_payloads": {
+          "namibia-v1.html": true,
+          "namibia.blend": true,
+          "namibia.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "26c2b55f3a9d9d45cc0cfe7f24b7ae078665b2728a3dd1167698da5ecf726e01"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization",
+      "complete-source-archive-inventory-not-verified"
+    ],
+    "selected_candidate": {
+      "commit": "bb790488e867f1bf8c57b3ea273ea737f9f61766",
+      "fetched_tip": "bb790488e867f1bf8c57b3ea273ea737f9f61766",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/namibia-v1"
+    },
+    "verdict": "needs-user-review",
+    "viewer": {
+      "bytes": 2922315,
+      "commit": "bb790488e867f1bf8c57b3ea273ea737f9f61766",
+      "path": "preview/namibia-v1/namibia-v1.html",
+      "sha256": "3b46f80b8b4d8172af41b1d26d435475ae8d99c0e2d1449174a670d7ce88b20a",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "namibia",
+    "baseline_verdict": "needs-user-review",
+    "actions": [
+      "canonical-source-package repaired; history and visual approvals unchanged"
+    ],
+    "approval": false,
+    "original_review": {
+      "all_four_original_captures_inspected": true,
+      "captures": [
+        "launch/art-01/smoke/namibia/desktop-closed.png",
+        "launch/art-01/smoke/namibia/desktop-open.png",
+        "launch/art-01/smoke/namibia/mobile-closed.png",
+        "launch/art-01/smoke/namibia/mobile-open.png"
+      ],
+      "critical_defects": [],
+      "fresh_qa_runtime": [],
+      "id": "namibia",
+      "launch_ready": false,
+      "marketing_inspected": true,
+      "model_changed": false,
+      "model_sources": [
+        {
+          "bytes": 843329,
+          "commit": "bb790488e867f1bf8c57b3ea273ea737f9f61766",
+          "path": "preview/namibia-v1/namibia.blend",
+          "role": "selected-model",
+          "sha256": "bbd7fe8614035fe2290ce9fe756e0d889b3a40404974f8d335046fcff6befa49"
+        },
+        {
+          "bytes": 1649960,
+          "commit": "bb790488e867f1bf8c57b3ea273ea737f9f61766",
+          "path": "preview/namibia-v1/namibia.glb",
+          "role": "selected-model",
+          "sha256": "ebb34ccf155ada972d2d888e5d0ce757af7a682c7d9b8c07d9e357d5f6b3233a",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 60,
+            "nodes": 62
+          }
+        }
+      ],
+      "parent_runtime": {
+        "cases": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.5075371265411377,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.3011416867375374,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1649960,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 8,
+              "meshes": 60,
+              "nonfinite": 0,
+              "triangles": 21800
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "namibia",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "3b46f80b8b4d8172af41b1d26d435475ae8d99c0e2d1449174a670d7ce88b20a"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.5075371265411377,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.3011416867375374,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1649960,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 8,
+              "meshes": 60,
+              "nonfinite": 0,
+              "triangles": 21800
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "namibia",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "3b46f80b8b4d8172af41b1d26d435475ae8d99c0e2d1449174a670d7ce88b20a"
+          }
+        ],
+        "independently_rerun": false,
+        "motion": {
+          "exit_code": 0,
+          "id": "namibia",
+          "passed": true,
+          "scope": "original motion unit assertions; not fresh collision/source parity"
+        }
+      },
+      "parent_status": "needs-decision",
+      "remaining_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "complete-source-archive-inventory-not-verified",
+        "art-direction-decision",
+        "hinge-attachment-clarity-not-proven-by-stills"
+      ],
+      "selection": {
+        "commit": "bb790488e867f1bf8c57b3ea273ea737f9f61766",
+        "fetched_tip": "bb790488e867f1bf8c57b3ea273ea737f9f61766",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/namibia-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 8121539,
+          "commit": "bb790488e867f1bf8c57b3ea273ea737f9f61766",
+          "crc_safe_unique": true,
+          "exact_selected_payloads": {
+            "namibia-v1.html": [
+              "namibia-v1.html"
+            ],
+            "namibia.blend": [
+              "namibia.blend"
+            ],
+            "namibia.glb": [
+              "namibia.glb"
+            ]
+          },
+          "full_inventory_rerun": false,
+          "inherited_full_inventory_checked": false,
+          "members": 60,
+          "path": "preview/namibia-v1/namibia-v1-source.zip",
+          "sha256": "26c2b55f3a9d9d45cc0cfe7f24b7ae078665b2728a3dd1167698da5ecf726e01"
+        }
+      ],
+      "user_final_approved": false,
+      "verdict": "needs-user-review",
+      "viewer": {
+        "bytes": 2922315,
+        "commit": "bb790488e867f1bf8c57b3ea273ea737f9f61766",
+        "path": "preview/namibia-v1/namibia-v1.html",
+        "sha256": "3b46f80b8b4d8172af41b1d26d435475ae8d99c0e2d1449174a670d7ce88b20a",
+        "under_5000000": true
+      },
+      "visual_review": {
+        "critical_visible_faults": [],
+        "decision": "Retain visual decision hold AND Namibia complete-source-archive inventory hold. Screenshot review cannot clear the archive gate.",
+        "desktop_closed": "Yellow-ochre dune chest, pale playa detail and brass fittings are coherent; pronounced dark seam reads partly open even in the closed pose.",
+        "desktop_open": "Dark brown hollow cavity, raised rim and two hinges visible. Rear gap warrants a contact caveat, not a confirmed detached-lid diagnosis.",
+        "file": "visual-c.json",
+        "id": "namibia",
+        "inspected": [
+          "smoke/namibia/desktop-closed.png",
+          "smoke/namibia/desktop-open.png",
+          "smoke/namibia/mobile-closed.png",
+          "smoke/namibia/mobile-open.png",
+          "marketing/namibia.webp"
+        ],
+        "marketing_comparison": "Marketing is substantially paler peach with elongated curled/warped-looking ridges and a conspicuous pale patch; runtime presents compact ochre dunes. Color and terrain reading differ enough to warrant a direction decision, rather than assuming exact equivalence.",
+        "mobile_closed": "Dune silhouette and orange/gold identity readable; complete box contained without overlap.",
+        "mobile_open": "Full open silhouette contained; cavity visible but bottom largely occluded by perspective.",
+        "parent_status": "needs-decision",
+        "parent_status_justified": true,
+        "preserved_nonvisual_hold": "complete-source-archive-inventory-not-verified",
+        "severity": "moderate-fidelity-plus-existing-archive-hold"
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 8121539,
+        "commit": "bb790488e867f1bf8c57b3ea273ea737f9f61766",
+        "crc_error": null,
+        "entries": 60,
+        "inventory_checked": false,
+        "kind": "git",
+        "path": "preview/namibia-v1/namibia-v1-source.zip",
+        "required_payloads": {
+          "namibia-v1.html": true,
+          "namibia.blend": true,
+          "namibia.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "26c2b55f3a9d9d45cc0cfe7f24b7ae078665b2728a3dd1167698da5ecf726e01"
+      }
+    ]
+  },
+  "visual_decision": {
+    "id": "namibia",
+    "disposition": "preview-accepted-with-limitations",
+    "issue": "Compact ochre dunes and subdued playa versus pale peach promotional terrain.",
+    "rationale": "Raised dunes and pale playa are visibly present. Accept their compact stylized treatment and warmer palette rather than demand promotional sculpting. Dark seam and endpoint hinge ambiguity do not demonstrate detachment; archive hold remains separate.",
+    "evidence": {
+      "commit": "45e69632c56c786dbf84ab6484d6b352f482c5c6",
+      "path": "launch/qa-art-01/launch/art-01/boards/namibia.jpg",
+      "sha256": "7ad577c9f3cfe344dfa1798363670bd2ba801b8f21ec732ac0e133a5ab7848b5"
+    }
+  }
+}

@@ -1,0 +1,561 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 3,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 675627,
+        "role": "editable-source",
+        "sha256": "247eda901880ce85e44dc457c1f89d577806ab3d845c53e1dd790ac66df934ff",
+        "source": {
+          "commit": "add9177bfcdd8a40825b61d0eff55ee4885ed132",
+          "path": "preview/russia-v1/russia.blend"
+        },
+        "uri": "sha256:247eda901880ce85e44dc457c1f89d577806ab3d845c53e1dd790ac66df934ff"
+      },
+      {
+        "bytes": 6238064,
+        "role": "historical-source-archive",
+        "sha256": "85e11c0c951a9e61f832d02e38b3c00f57ec92af66d0f35a5b95dd49cefe0634",
+        "source": {
+          "commit": "add9177bfcdd8a40825b61d0eff55ee4885ed132",
+          "kind": "git",
+          "path": "preview/russia-v1/source.zip"
+        },
+        "uri": "sha256:85e11c0c951a9e61f832d02e38b3c00f57ec92af66d0f35a5b95dd49cefe0634"
+      },
+      {
+        "bytes": 1394992,
+        "role": "model",
+        "sha256": "fe833794c14e766b374a3d8fad868fc62781b175d64d30dffe537637fc206975",
+        "source": {
+          "commit": "add9177bfcdd8a40825b61d0eff55ee4885ed132",
+          "path": "preview/russia-v1/russia.glb"
+        },
+        "uri": "sha256:fe833794c14e766b374a3d8fad868fc62781b175d64d30dffe537637fc206975"
+      },
+      {
+        "bytes": 64772,
+        "role": "promotional-illustration",
+        "sha256": "227ba95e4bfb04728ce412cc333d285094e0fe0c5cc544ef0e46dcab3893e782",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/russia.webp"
+        },
+        "uri": "sha256:227ba95e4bfb04728ce412cc333d285094e0fe0c5cc544ef0e46dcab3893e782"
+      },
+      {
+        "bytes": 2278,
+        "role": "research-brief",
+        "sha256": "4752f300c93c22de77c30615545780b6109333251c32c5f47364b970e3fef31c",
+        "source": {
+          "commit": "add9177bfcdd8a40825b61d0eff55ee4885ed132",
+          "path": "preview/russia-v1/design-brief.md"
+        },
+        "uri": "sha256:4752f300c93c22de77c30615545780b6109333251c32c5f47364b970e3fef31c"
+      },
+      {
+        "bytes": 3826,
+        "role": "source-notice",
+        "sha256": "4427ee0b996ffddeb7992c928ff1321e0a374bc69df2d5f3d6ed94e362bbaad4",
+        "source": {
+          "commit": "add9177bfcdd8a40825b61d0eff55ee4885ed132",
+          "path": "preview/russia-v1/README.md"
+        },
+        "uri": "sha256:4427ee0b996ffddeb7992c928ff1321e0a374bc69df2d5f3d6ed94e362bbaad4"
+      },
+      {
+        "bytes": 2645132,
+        "role": "viewer",
+        "sha256": "63f387b56dfe1fc89bca2220226a709c94c7b79c136d300b9d1e391bc43d98f8",
+        "source": {
+          "commit": "add9177bfcdd8a40825b61d0eff55ee4885ed132",
+          "path": "preview/russia-v1/russia-v1.html"
+        },
+        "uri": "sha256:63f387b56dfe1fc89bca2220226a709c94c7b79c136d300b9d1e391bc43d98f8"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "russia",
+    "independent_review": {
+      "art_changed": false,
+      "captures": [
+        "parent/smoke/russia/desktop-closed.png",
+        "parent/smoke/russia/desktop-open.png",
+        "parent/smoke/russia/mobile-closed.png",
+        "parent/smoke/russia/mobile-open.png"
+      ],
+      "fresh_browser": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.3455183506011963,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1394992,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 5,
+            "meshes": 62,
+            "nonfinite": 0,
+            "triangles": 13992
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "russia",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "63f387b56dfe1fc89bca2220226a709c94c7b79c136d300b9d1e391bc43d98f8"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.3455183506011963,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1394992,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 5,
+            "meshes": 62,
+            "nonfinite": 0,
+            "triangles": 13992
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "russia",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "63f387b56dfe1fc89bca2220226a709c94c7b79c136d300b9d1e391bc43d98f8"
+        }
+      ],
+      "fresh_motion": {
+        "exit_code": 0,
+        "id": "russia",
+        "passed": true,
+        "scope": "original motion unit assertions; not fresh collision/source parity"
+      },
+      "fresh_runtime_captures": [
+        "smoke/russia/desktop-closed.png",
+        "smoke/russia/desktop-open.png",
+        "smoke/russia/mobile-closed.png",
+        "smoke/russia/mobile-open.png"
+      ],
+      "hinge_assessment": "Small rear attachment continuity unresolved in stills, not proven detached. No fresh geometric contact/collision certification.",
+      "id": "russia",
+      "independent_visual_findings": "Six ice forms and fractures retained. Marketing also stylized/opaque, so lack of transparency alone not a fidelity defect.",
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "inspection": "Five read-only independent visual reviewers: all four original full-resolution captures and marketing image per ID; lead Ghana comparison and fresh Croatia open inspection. Delegation deleg_d31df2b3 tasks 0-4.",
+      "launch_ready": false,
+      "marketing": "parent/marketing/russia.webp",
+      "packaging": {
+        "archives": [
+          {
+            "bytes": 6238064,
+            "crc_and_safe_unique_paths": true,
+            "entries": 57,
+            "full_historical_inventory_freshly_checked": false,
+            "inherited_inventory_checked": true,
+            "kind": "git",
+            "path": "preview/russia-v1/source.zip",
+            "selected_payload_checks": [
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "russia-v1.html",
+                "sha256": "63f387b56dfe1fc89bca2220226a709c94c7b79c136d300b9d1e391bc43d98f8"
+              },
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "russia.blend",
+                "sha256": "247eda901880ce85e44dc457c1f89d577806ab3d845c53e1dd790ac66df934ff"
+              },
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "russia.glb",
+                "sha256": "fe833794c14e766b374a3d8fad868fc62781b175d64d30dffe537637fc206975"
+              }
+            ],
+            "sha256": "85e11c0c951a9e61f832d02e38b3c00f57ec92af66d0f35a5b95dd49cefe0634"
+          }
+        ],
+        "id": "russia",
+        "source_hashes": [
+          {
+            "bytes": 675627,
+            "commit": "add9177bfcdd8a40825b61d0eff55ee4885ed132",
+            "path": "preview/russia-v1/russia.blend",
+            "role": "selected-model",
+            "sha256": "247eda901880ce85e44dc457c1f89d577806ab3d845c53e1dd790ac66df934ff"
+          },
+          {
+            "bytes": 1394992,
+            "commit": "add9177bfcdd8a40825b61d0eff55ee4885ed132",
+            "path": "preview/russia-v1/russia.glb",
+            "role": "selected-model",
+            "sha256": "fe833794c14e766b374a3d8fad868fc62781b175d64d30dffe537637fc206975",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 62,
+              "nodes": 64
+            }
+          }
+        ],
+        "viewer": {
+          "bytes": 2645132,
+          "commit": "add9177bfcdd8a40825b61d0eff55ee4885ed132",
+          "path": "preview/russia-v1/russia-v1.html",
+          "sha256": "63f387b56dfe1fc89bca2220226a709c94c7b79c136d300b9d1e391bc43d98f8",
+          "under_5000000": true
+        }
+      },
+      "parent_status": "pass",
+      "parent_visual_findings": "Ice blocks and fracture identity retained; actual flatter polygonal blocks and graphic fractures versus sculpted ice and nuanced blue grain.",
+      "polish_iterations": 0,
+      "proven_runtime_defects": [],
+      "remaining_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "resolved_gate": "independent-current-model-visual-review performed; not final art approval",
+      "source_selection": {
+        "commit": "add9177bfcdd8a40825b61d0eff55ee4885ed132",
+        "fetched_tip": "add9177bfcdd8a40825b61d0eff55ee4885ed132",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/russia-v1"
+      },
+      "user_final_approved": false,
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 2645132,
+        "commit": "add9177bfcdd8a40825b61d0eff55ee4885ed132",
+        "path": "preview/russia-v1/russia-v1.html",
+        "sha256": "63f387b56dfe1fc89bca2220226a709c94c7b79c136d300b9d1e391bc43d98f8",
+        "under_5000000": true
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Russia",
+    "package_history": [
+      {
+        "bytes": 6238064,
+        "commit": "add9177bfcdd8a40825b61d0eff55ee4885ed132",
+        "crc_error": null,
+        "entries": 57,
+        "inventory_checked": true,
+        "inventory_entries": 56,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/russia-v1/source.zip",
+        "required_payloads": {
+          "russia-v1.html": true,
+          "russia.blend": true,
+          "russia.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "85e11c0c951a9e61f832d02e38b3c00f57ec92af66d0f35a5b95dd49cefe0634"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "add9177bfcdd8a40825b61d0eff55ee4885ed132",
+      "fetched_tip": "add9177bfcdd8a40825b61d0eff55ee4885ed132",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/russia-v1"
+    },
+    "verdict": "candidate-with-limitations",
+    "viewer": {
+      "bytes": 2645132,
+      "commit": "add9177bfcdd8a40825b61d0eff55ee4885ed132",
+      "path": "preview/russia-v1/russia-v1.html",
+      "sha256": "63f387b56dfe1fc89bca2220226a709c94c7b79c136d300b9d1e391bc43d98f8",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "russia",
+    "baseline_verdict": "candidate-with-limitations",
+    "actions": [
+      "owner art/finish acceptance; no proven runtime defect recorded; no autonomous redesign"
+    ],
+    "approval": false,
+    "original_review": {
+      "art_changed": false,
+      "captures": [
+        "parent/smoke/russia/desktop-closed.png",
+        "parent/smoke/russia/desktop-open.png",
+        "parent/smoke/russia/mobile-closed.png",
+        "parent/smoke/russia/mobile-open.png"
+      ],
+      "fresh_browser": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.3455183506011963,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1394992,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 5,
+            "meshes": 62,
+            "nonfinite": 0,
+            "triangles": 13992
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "russia",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "63f387b56dfe1fc89bca2220226a709c94c7b79c136d300b9d1e391bc43d98f8"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.3455183506011963,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1394992,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 5,
+            "meshes": 62,
+            "nonfinite": 0,
+            "triangles": 13992
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "russia",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "63f387b56dfe1fc89bca2220226a709c94c7b79c136d300b9d1e391bc43d98f8"
+        }
+      ],
+      "fresh_motion": {
+        "exit_code": 0,
+        "id": "russia",
+        "passed": true,
+        "scope": "original motion unit assertions; not fresh collision/source parity"
+      },
+      "fresh_runtime_captures": [
+        "smoke/russia/desktop-closed.png",
+        "smoke/russia/desktop-open.png",
+        "smoke/russia/mobile-closed.png",
+        "smoke/russia/mobile-open.png"
+      ],
+      "hinge_assessment": "Small rear attachment continuity unresolved in stills, not proven detached. No fresh geometric contact/collision certification.",
+      "id": "russia",
+      "independent_visual_findings": "Six ice forms and fractures retained. Marketing also stylized/opaque, so lack of transparency alone not a fidelity defect.",
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "inspection": "Five read-only independent visual reviewers: all four original full-resolution captures and marketing image per ID; lead Ghana comparison and fresh Croatia open inspection. Delegation deleg_d31df2b3 tasks 0-4.",
+      "launch_ready": false,
+      "marketing": "parent/marketing/russia.webp",
+      "packaging": {
+        "archives": [
+          {
+            "bytes": 6238064,
+            "crc_and_safe_unique_paths": true,
+            "entries": 57,
+            "full_historical_inventory_freshly_checked": false,
+            "inherited_inventory_checked": true,
+            "kind": "git",
+            "path": "preview/russia-v1/source.zip",
+            "selected_payload_checks": [
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "russia-v1.html",
+                "sha256": "63f387b56dfe1fc89bca2220226a709c94c7b79c136d300b9d1e391bc43d98f8"
+              },
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "russia.blend",
+                "sha256": "247eda901880ce85e44dc457c1f89d577806ab3d845c53e1dd790ac66df934ff"
+              },
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "russia.glb",
+                "sha256": "fe833794c14e766b374a3d8fad868fc62781b175d64d30dffe537637fc206975"
+              }
+            ],
+            "sha256": "85e11c0c951a9e61f832d02e38b3c00f57ec92af66d0f35a5b95dd49cefe0634"
+          }
+        ],
+        "id": "russia",
+        "source_hashes": [
+          {
+            "bytes": 675627,
+            "commit": "add9177bfcdd8a40825b61d0eff55ee4885ed132",
+            "path": "preview/russia-v1/russia.blend",
+            "role": "selected-model",
+            "sha256": "247eda901880ce85e44dc457c1f89d577806ab3d845c53e1dd790ac66df934ff"
+          },
+          {
+            "bytes": 1394992,
+            "commit": "add9177bfcdd8a40825b61d0eff55ee4885ed132",
+            "path": "preview/russia-v1/russia.glb",
+            "role": "selected-model",
+            "sha256": "fe833794c14e766b374a3d8fad868fc62781b175d64d30dffe537637fc206975",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 62,
+              "nodes": 64
+            }
+          }
+        ],
+        "viewer": {
+          "bytes": 2645132,
+          "commit": "add9177bfcdd8a40825b61d0eff55ee4885ed132",
+          "path": "preview/russia-v1/russia-v1.html",
+          "sha256": "63f387b56dfe1fc89bca2220226a709c94c7b79c136d300b9d1e391bc43d98f8",
+          "under_5000000": true
+        }
+      },
+      "parent_status": "pass",
+      "parent_visual_findings": "Ice blocks and fracture identity retained; actual flatter polygonal blocks and graphic fractures versus sculpted ice and nuanced blue grain.",
+      "polish_iterations": 0,
+      "proven_runtime_defects": [],
+      "remaining_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "resolved_gate": "independent-current-model-visual-review performed; not final art approval",
+      "source_selection": {
+        "commit": "add9177bfcdd8a40825b61d0eff55ee4885ed132",
+        "fetched_tip": "add9177bfcdd8a40825b61d0eff55ee4885ed132",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/russia-v1"
+      },
+      "user_final_approved": false,
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 2645132,
+        "commit": "add9177bfcdd8a40825b61d0eff55ee4885ed132",
+        "path": "preview/russia-v1/russia-v1.html",
+        "sha256": "63f387b56dfe1fc89bca2220226a709c94c7b79c136d300b9d1e391bc43d98f8",
+        "under_5000000": true
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 6238064,
+        "commit": "add9177bfcdd8a40825b61d0eff55ee4885ed132",
+        "crc_error": null,
+        "entries": 57,
+        "inventory_checked": true,
+        "inventory_entries": 56,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/russia-v1/source.zip",
+        "required_payloads": {
+          "russia-v1.html": true,
+          "russia.blend": true,
+          "russia.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "85e11c0c951a9e61f832d02e38b3c00f57ec92af66d0f35a5b95dd49cefe0634"
+      }
+    ]
+  }
+}

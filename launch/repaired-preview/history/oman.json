@@ -1,0 +1,627 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 4,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 415480,
+        "role": "editable-source",
+        "sha256": "d607869921819ce2996ad69923a5515db3aa437b29733ddb2863e0637c684722",
+        "source": {
+          "commit": "cb3cefd53df07820a8edd5f18ef4d64a3e3cab5b",
+          "path": "preview/oman-v1/oman.blend"
+        },
+        "uri": "sha256:d607869921819ce2996ad69923a5515db3aa437b29733ddb2863e0637c684722"
+      },
+      {
+        "bytes": 4901006,
+        "role": "historical-source-archive",
+        "sha256": "ad837f5a8df5863996eba684ab59f9306a4c90086b7e45a99254df8a84c503a6",
+        "source": {
+          "commit": "cb3cefd53df07820a8edd5f18ef4d64a3e3cab5b",
+          "kind": "git",
+          "path": "preview/oman-v1/oman-v1-source.zip"
+        },
+        "uri": "sha256:ad837f5a8df5863996eba684ab59f9306a4c90086b7e45a99254df8a84c503a6"
+      },
+      {
+        "bytes": 1241480,
+        "role": "model",
+        "sha256": "9f447b28f9f1c442e256f42951875b35160332d4535b2ff9e7a48b7acd97f907",
+        "source": {
+          "commit": "cb3cefd53df07820a8edd5f18ef4d64a3e3cab5b",
+          "path": "preview/oman-v1/oman.glb"
+        },
+        "uri": "sha256:9f447b28f9f1c442e256f42951875b35160332d4535b2ff9e7a48b7acd97f907"
+      },
+      {
+        "bytes": 29906,
+        "role": "promotional-illustration",
+        "sha256": "0abc5cd9c39f7a0d83926500c412deb5802c1998e963e947c71b2309b989e3c6",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/oman.webp"
+        },
+        "uri": "sha256:0abc5cd9c39f7a0d83926500c412deb5802c1998e963e947c71b2309b989e3c6"
+      },
+      {
+        "bytes": 2508,
+        "role": "research-brief",
+        "sha256": "176f90d062c46a699c8d3d8ca4e14cf1347a548da1dc5fefa26601325fb321e6",
+        "source": {
+          "commit": "cb3cefd53df07820a8edd5f18ef4d64a3e3cab5b",
+          "path": "preview/oman-v1/design-brief.md"
+        },
+        "uri": "sha256:176f90d062c46a699c8d3d8ca4e14cf1347a548da1dc5fefa26601325fb321e6"
+      },
+      {
+        "bytes": 5102,
+        "role": "source-notice",
+        "sha256": "13f8e4d541a7657b83a52581c6052b436ef7d06d7a45dd3330bea0300c7c0d7f",
+        "source": {
+          "commit": "cb3cefd53df07820a8edd5f18ef4d64a3e3cab5b",
+          "path": "preview/oman-v1/README.md"
+        },
+        "uri": "sha256:13f8e4d541a7657b83a52581c6052b436ef7d06d7a45dd3330bea0300c7c0d7f"
+      },
+      {
+        "bytes": 2428551,
+        "role": "viewer",
+        "sha256": "7c7d7da0ad2da5a2e9de5548537fa4d5bd70debe171689493f67d0f63b4ea285",
+        "source": {
+          "commit": "cb3cefd53df07820a8edd5f18ef4d64a3e3cab5b",
+          "path": "preview/oman-v1/oman-v1.html"
+        },
+        "uri": "sha256:7c7d7da0ad2da5a2e9de5548537fa4d5bd70debe171689493f67d0f63b4ea285"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "oman",
+    "independent_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "captures": [
+        "parent/smoke/oman/desktop-closed.png",
+        "parent/smoke/oman/desktop-open.png",
+        "parent/smoke/oman/mobile-closed.png",
+        "parent/smoke/oman/mobile-open.png"
+      ],
+      "fresh_browser": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.357999976724386,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1241480,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 6,
+            "meshes": 70,
+            "nonfinite": 0,
+            "triangles": 16672
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "oman",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "7c7d7da0ad2da5a2e9de5548537fa4d5bd70debe171689493f67d0f63b4ea285"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.357999976724386,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1241480,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 6,
+            "meshes": 70,
+            "nonfinite": 0,
+            "triangles": 16672
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "oman",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "7c7d7da0ad2da5a2e9de5548537fa4d5bd70debe171689493f67d0f63b4ea285"
+        }
+      ],
+      "fresh_motion": {
+        "exit_code": 0,
+        "id": "oman",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "cb3cefd53df07820a8edd5f18ef4d64a3e3cab5b",
+            "path": "preview/oman-v1/motion.mjs",
+            "sha256": "d61544de9b41521a7b14e81a5e9867ce0fcc387f8852ce57490031b84bf2150e"
+          }
+        ]
+      },
+      "fresh_runtime_captures": [
+        "smoke/oman/desktop-closed.png",
+        "smoke/oman/desktop-open.png",
+        "smoke/oman/mobile-closed.png",
+        "smoke/oman/mobile-open.png"
+      ],
+      "id": "oman",
+      "independent_visual_findings": "Paired terraces and water retained; block-like gardens, subtle mobile water and waxy stone shared partly with promotion.",
+      "inspection": "deleg_5910ddb9 tasks 0-4 inspected four original PNGs and promotional WebP per ID; lead Malta comparison reinspection",
+      "launch_ready": false,
+      "packaging_verdict": "pass",
+      "parent_findings": {
+        "hardware": "Bronze/brass fittings and pale feet retained.",
+        "terrain": "Paired garden beds and blue falaj retained, narrow channel understated and not fully traceable from default mobile camera.",
+        "texture": "Broad limestone mottling, flat green insets and simplified metal."
+      },
+      "parent_remaining_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-04 review"
+      ],
+      "parent_status": "pass",
+      "polish_iterations": 0,
+      "proven_runtime_defects": [],
+      "remaining_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "selection": {
+        "commit": "cb3cefd53df07820a8edd5f18ef4d64a3e3cab5b",
+        "fetched_tip": "cb3cefd53df07820a8edd5f18ef4d64a3e3cab5b",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/oman-v1"
+      },
+      "source_archive_audit": {
+        "archives": [
+          {
+            "internal_inventory_checked": 51,
+            "provenance": {
+              "bytes": 4901006,
+              "commit": "cb3cefd53df07820a8edd5f18ef4d64a3e3cab5b",
+              "crc_error": null,
+              "entries": 52,
+              "inventory_checked": true,
+              "inventory_entries": 51,
+              "inventory_mismatches": [],
+              "kind": "git",
+              "path": "preview/oman-v1/oman-v1-source.zip",
+              "required_payloads": {
+                "oman-v1.html": true,
+                "oman.blend": true,
+                "oman.glb": true
+              },
+              "safe_unique_paths": true,
+              "sha256": "ad837f5a8df5863996eba684ab59f9306a4c90086b7e45a99254df8a84c503a6"
+            },
+            "safe_unique_crc": true,
+            "selected_payload_checks": [
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "oman-v1.html",
+                "sha256": "7c7d7da0ad2da5a2e9de5548537fa4d5bd70debe171689493f67d0f63b4ea285"
+              },
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "oman.blend",
+                "sha256": "d607869921819ce2996ad69923a5515db3aa437b29733ddb2863e0637c684722"
+              },
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "oman.glb",
+                "sha256": "9f447b28f9f1c442e256f42951875b35160332d4535b2ff9e7a48b7acd97f907"
+              }
+            ]
+          }
+        ],
+        "id": "oman",
+        "sources": [
+          {
+            "bytes": 415480,
+            "commit": "cb3cefd53df07820a8edd5f18ef4d64a3e3cab5b",
+            "path": "preview/oman-v1/oman.blend",
+            "role": "selected-model",
+            "sha256": "d607869921819ce2996ad69923a5515db3aa437b29733ddb2863e0637c684722"
+          },
+          {
+            "bytes": 1241480,
+            "commit": "cb3cefd53df07820a8edd5f18ef4d64a3e3cab5b",
+            "path": "preview/oman-v1/oman.glb",
+            "role": "selected-model",
+            "sha256": "9f447b28f9f1c442e256f42951875b35160332d4535b2ff9e7a48b7acd97f907",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 70,
+              "nodes": 72
+            }
+          }
+        ],
+        "viewer": {
+          "bytes": 2428551,
+          "commit": "cb3cefd53df07820a8edd5f18ef4d64a3e3cab5b",
+          "path": "preview/oman-v1/oman-v1.html",
+          "sha256": "7c7d7da0ad2da5a2e9de5548537fa4d5bd70debe171689493f67d0f63b4ea285",
+          "under_5000000": true
+        }
+      },
+      "user_final_approved": false,
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 2428551,
+        "commit": "cb3cefd53df07820a8edd5f18ef4d64a3e3cab5b",
+        "path": "preview/oman-v1/oman-v1.html",
+        "sha256": "7c7d7da0ad2da5a2e9de5548537fa4d5bd70debe171689493f67d0f63b4ea285",
+        "under_5000000": true
+      },
+      "visual_verdict": "candidate-with-limitations"
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Oman",
+    "package_history": [
+      {
+        "bytes": 4901006,
+        "commit": "cb3cefd53df07820a8edd5f18ef4d64a3e3cab5b",
+        "crc_error": null,
+        "entries": 52,
+        "inventory_checked": true,
+        "inventory_entries": 51,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/oman-v1/oman-v1-source.zip",
+        "required_payloads": {
+          "oman-v1.html": true,
+          "oman.blend": true,
+          "oman.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "ad837f5a8df5863996eba684ab59f9306a4c90086b7e45a99254df8a84c503a6"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "cb3cefd53df07820a8edd5f18ef4d64a3e3cab5b",
+      "fetched_tip": "cb3cefd53df07820a8edd5f18ef4d64a3e3cab5b",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/oman-v1"
+    },
+    "verdict": "candidate-with-limitations",
+    "viewer": {
+      "bytes": 2428551,
+      "commit": "cb3cefd53df07820a8edd5f18ef4d64a3e3cab5b",
+      "path": "preview/oman-v1/oman-v1.html",
+      "sha256": "7c7d7da0ad2da5a2e9de5548537fa4d5bd70debe171689493f67d0f63b4ea285",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "oman",
+    "baseline_verdict": "candidate-with-limitations",
+    "actions": [
+      "owner art/finish acceptance; no proven runtime defect recorded; no autonomous redesign"
+    ],
+    "approval": false,
+    "original_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "captures": [
+        "parent/smoke/oman/desktop-closed.png",
+        "parent/smoke/oman/desktop-open.png",
+        "parent/smoke/oman/mobile-closed.png",
+        "parent/smoke/oman/mobile-open.png"
+      ],
+      "fresh_browser": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.357999976724386,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1241480,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 6,
+            "meshes": 70,
+            "nonfinite": 0,
+            "triangles": 16672
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "oman",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "7c7d7da0ad2da5a2e9de5548537fa4d5bd70debe171689493f67d0f63b4ea285"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.357999976724386,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1241480,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 6,
+            "meshes": 70,
+            "nonfinite": 0,
+            "triangles": 16672
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "oman",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "7c7d7da0ad2da5a2e9de5548537fa4d5bd70debe171689493f67d0f63b4ea285"
+        }
+      ],
+      "fresh_motion": {
+        "exit_code": 0,
+        "id": "oman",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "cb3cefd53df07820a8edd5f18ef4d64a3e3cab5b",
+            "path": "preview/oman-v1/motion.mjs",
+            "sha256": "d61544de9b41521a7b14e81a5e9867ce0fcc387f8852ce57490031b84bf2150e"
+          }
+        ]
+      },
+      "fresh_runtime_captures": [
+        "smoke/oman/desktop-closed.png",
+        "smoke/oman/desktop-open.png",
+        "smoke/oman/mobile-closed.png",
+        "smoke/oman/mobile-open.png"
+      ],
+      "id": "oman",
+      "independent_visual_findings": "Paired terraces and water retained; block-like gardens, subtle mobile water and waxy stone shared partly with promotion.",
+      "inspection": "deleg_5910ddb9 tasks 0-4 inspected four original PNGs and promotional WebP per ID; lead Malta comparison reinspection",
+      "launch_ready": false,
+      "packaging_verdict": "pass",
+      "parent_findings": {
+        "hardware": "Bronze/brass fittings and pale feet retained.",
+        "terrain": "Paired garden beds and blue falaj retained, narrow channel understated and not fully traceable from default mobile camera.",
+        "texture": "Broad limestone mottling, flat green insets and simplified metal."
+      },
+      "parent_remaining_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-04 review"
+      ],
+      "parent_status": "pass",
+      "polish_iterations": 0,
+      "proven_runtime_defects": [],
+      "remaining_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "selection": {
+        "commit": "cb3cefd53df07820a8edd5f18ef4d64a3e3cab5b",
+        "fetched_tip": "cb3cefd53df07820a8edd5f18ef4d64a3e3cab5b",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/oman-v1"
+      },
+      "source_archive_audit": {
+        "archives": [
+          {
+            "internal_inventory_checked": 51,
+            "provenance": {
+              "bytes": 4901006,
+              "commit": "cb3cefd53df07820a8edd5f18ef4d64a3e3cab5b",
+              "crc_error": null,
+              "entries": 52,
+              "inventory_checked": true,
+              "inventory_entries": 51,
+              "inventory_mismatches": [],
+              "kind": "git",
+              "path": "preview/oman-v1/oman-v1-source.zip",
+              "required_payloads": {
+                "oman-v1.html": true,
+                "oman.blend": true,
+                "oman.glb": true
+              },
+              "safe_unique_paths": true,
+              "sha256": "ad837f5a8df5863996eba684ab59f9306a4c90086b7e45a99254df8a84c503a6"
+            },
+            "safe_unique_crc": true,
+            "selected_payload_checks": [
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "oman-v1.html",
+                "sha256": "7c7d7da0ad2da5a2e9de5548537fa4d5bd70debe171689493f67d0f63b4ea285"
+              },
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "oman.blend",
+                "sha256": "d607869921819ce2996ad69923a5515db3aa437b29733ddb2863e0637c684722"
+              },
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "oman.glb",
+                "sha256": "9f447b28f9f1c442e256f42951875b35160332d4535b2ff9e7a48b7acd97f907"
+              }
+            ]
+          }
+        ],
+        "id": "oman",
+        "sources": [
+          {
+            "bytes": 415480,
+            "commit": "cb3cefd53df07820a8edd5f18ef4d64a3e3cab5b",
+            "path": "preview/oman-v1/oman.blend",
+            "role": "selected-model",
+            "sha256": "d607869921819ce2996ad69923a5515db3aa437b29733ddb2863e0637c684722"
+          },
+          {
+            "bytes": 1241480,
+            "commit": "cb3cefd53df07820a8edd5f18ef4d64a3e3cab5b",
+            "path": "preview/oman-v1/oman.glb",
+            "role": "selected-model",
+            "sha256": "9f447b28f9f1c442e256f42951875b35160332d4535b2ff9e7a48b7acd97f907",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 70,
+              "nodes": 72
+            }
+          }
+        ],
+        "viewer": {
+          "bytes": 2428551,
+          "commit": "cb3cefd53df07820a8edd5f18ef4d64a3e3cab5b",
+          "path": "preview/oman-v1/oman-v1.html",
+          "sha256": "7c7d7da0ad2da5a2e9de5548537fa4d5bd70debe171689493f67d0f63b4ea285",
+          "under_5000000": true
+        }
+      },
+      "user_final_approved": false,
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 2428551,
+        "commit": "cb3cefd53df07820a8edd5f18ef4d64a3e3cab5b",
+        "path": "preview/oman-v1/oman-v1.html",
+        "sha256": "7c7d7da0ad2da5a2e9de5548537fa4d5bd70debe171689493f67d0f63b4ea285",
+        "under_5000000": true
+      },
+      "visual_verdict": "candidate-with-limitations"
+    },
+    "package_history": [
+      {
+        "bytes": 4901006,
+        "commit": "cb3cefd53df07820a8edd5f18ef4d64a3e3cab5b",
+        "crc_error": null,
+        "entries": 52,
+        "inventory_checked": true,
+        "inventory_entries": 51,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/oman-v1/oman-v1-source.zip",
+        "required_payloads": {
+          "oman-v1.html": true,
+          "oman.blend": true,
+          "oman.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "ad837f5a8df5863996eba684ab59f9306a4c90086b7e45a99254df8a84c503a6"
+      }
+    ]
+  }
+}

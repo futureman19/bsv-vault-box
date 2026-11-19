@@ -1,0 +1,850 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 8,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 575450,
+        "role": "editable-source",
+        "sha256": "72ead882ce05a6cca06d8d39954111eb733f84d007ae02683a48cada91438e5d",
+        "source": {
+          "commit": "08c0718ecc9a4c212859041604b93ee9c4ca4eac",
+          "path": "preview/jordan-v1/jordan.blend"
+        },
+        "uri": "sha256:72ead882ce05a6cca06d8d39954111eb733f84d007ae02683a48cada91438e5d"
+      },
+      {
+        "bytes": 7434973,
+        "role": "historical-source-archive",
+        "sha256": "1ae20e68830385dd5917e187d89ce571a3115ee3dd6c51bfbf5652c1adbe1bb5",
+        "source": {
+          "commit": "08c0718ecc9a4c212859041604b93ee9c4ca4eac",
+          "kind": "git",
+          "path": "preview/jordan-v1/jordan-v1-source.zip"
+        },
+        "uri": "sha256:1ae20e68830385dd5917e187d89ce571a3115ee3dd6c51bfbf5652c1adbe1bb5"
+      },
+      {
+        "bytes": 1461768,
+        "role": "model",
+        "sha256": "576160d186bd883966cf24a224458cc7304bc2752560591287e175569aba4f84",
+        "source": {
+          "commit": "08c0718ecc9a4c212859041604b93ee9c4ca4eac",
+          "path": "preview/jordan-v1/jordan.glb"
+        },
+        "uri": "sha256:576160d186bd883966cf24a224458cc7304bc2752560591287e175569aba4f84"
+      },
+      {
+        "bytes": 69440,
+        "role": "promotional-illustration",
+        "sha256": "f201b777c7ce5314c9ef2ea9e48ac5e507c6ffd9e31081e42cfc089891d5fed6",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/jordan.webp"
+        },
+        "uri": "sha256:f201b777c7ce5314c9ef2ea9e48ac5e507c6ffd9e31081e42cfc089891d5fed6"
+      },
+      {
+        "bytes": 4006,
+        "role": "research-brief",
+        "sha256": "5c7915c41a0a835951e2c77825a35f7d1eb18ba9fcffddb8378b6aa7a9e076ae",
+        "source": {
+          "commit": "08c0718ecc9a4c212859041604b93ee9c4ca4eac",
+          "path": "preview/jordan-v1/design-brief.md"
+        },
+        "uri": "sha256:5c7915c41a0a835951e2c77825a35f7d1eb18ba9fcffddb8378b6aa7a9e076ae"
+      },
+      {
+        "bytes": 6869,
+        "role": "source-notice",
+        "sha256": "e577e574ffbc1a12ce4777427252849b12f6c7455cd1d146d6f8d1d0de15d3c0",
+        "source": {
+          "commit": "08c0718ecc9a4c212859041604b93ee9c4ca4eac",
+          "path": "preview/jordan-v1/README.md"
+        },
+        "uri": "sha256:e577e574ffbc1a12ce4777427252849b12f6c7455cd1d146d6f8d1d0de15d3c0"
+      },
+      {
+        "bytes": 2689165,
+        "role": "viewer",
+        "sha256": "a1ca5fd2b1c0957bc17a09d94993542e03a862d6c9ecdb0f307d8ba48d0352c5",
+        "source": {
+          "commit": "08c0718ecc9a4c212859041604b93ee9c4ca4eac",
+          "path": "preview/jordan-v1/jordan-v1.html"
+        },
+        "uri": "sha256:a1ca5fd2b1c0957bc17a09d94993542e03a862d6c9ecdb0f307d8ba48d0352c5"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "jordan",
+    "independent_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "capture_base": "parent/",
+      "captures": [
+        "smoke/jordan/desktop-closed.png",
+        "smoke/jordan/desktop-open.png",
+        "smoke/jordan/mobile-closed.png",
+        "smoke/jordan/mobile-open.png"
+      ],
+      "critical_reproducible_failures": [],
+      "final_approval": false,
+      "fresh_checks": {
+        "blender_parity_collision": false,
+        "fallback": false,
+        "full_inner_archive_inventories": true,
+        "motion": false,
+        "original_captures_and_marketing_inspected": true,
+        "runtime": false,
+        "source_and_delivered_viewer_hashes": true,
+        "source_archive_crc_safe_paths_required_payloads": true
+      },
+      "historical_runtime": {
+        "browser": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.7326807975769043,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.25,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1461768,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 6,
+              "meshes": 60,
+              "nonfinite": 0,
+              "triangles": 17092
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "jordan",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "a1ca5fd2b1c0957bc17a09d94993542e03a862d6c9ecdb0f307d8ba48d0352c5"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.7326807975769043,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.25,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1461768,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 6,
+              "meshes": 60,
+              "nonfinite": 0,
+              "triangles": 17092
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "jordan",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "a1ca5fd2b1c0957bc17a09d94993542e03a862d6c9ecdb0f307d8ba48d0352c5"
+          }
+        ],
+        "extended": {
+          "geometry": {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.7326807975769043,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.25,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1461768,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 6,
+              "meshes": 60,
+              "nonfinite": 0,
+              "triangles": 17092
+            },
+            "meshes": 60,
+            "nonfinite": 0,
+            "triangles": 17092
+          },
+          "id": "jordan",
+          "no_js_poster": true
+        },
+        "motion": {
+          "exit_code": 0,
+          "id": "jordan",
+          "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+          "source": [
+            {
+              "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+              "path": "preview/albania-v1/tests.mjs",
+              "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+            },
+            {
+              "commit": "08c0718ecc9a4c212859041604b93ee9c4ca4eac",
+              "path": "preview/jordan-v1/motion.mjs",
+              "sha256": "1a95b76cf10e2a1e88e29bdb2b531bb32ae467d186523b80cb56aacef887690e"
+            }
+          ]
+        },
+        "parent_commit": "431e51ffb5a8704b5f8f8b11694d28befae18402"
+      },
+      "id": "jordan",
+      "independent_visual": {
+        "assessment": {
+          "concrete_defects": [
+            "Material/palette mismatch: candidate body and rock relief are saturated rose-orange/ochre with dark reddish framing, versus the illustration's pale ivory/blush layered stone; visible on desktop and mobile.",
+            "Broad, smooth repeating body bands read partly as wood grain rather than the reference's delicate pale stone strata. Canyon/arch theme remains recognizable.",
+            "Closed front/left lid seam is conspicuously dark; its visibility is recorded, not classified as a proven seating or collision failure."
+          ],
+          "id": "jordan",
+          "inspected_paths": [
+            "parent/smoke/jordan/desktop-closed.png",
+            "parent/smoke/jordan/desktop-open.png",
+            "parent/smoke/jordan/mobile-closed.png",
+            "parent/smoke/jordan/mobile-open.png",
+            "parent/sources/jordan/marketing.webp"
+          ],
+          "limitations": [
+            "Independent inspection of all five original images; comparison concerns normal-size material/theme, not hyperrealism or calibrated color equivalence.",
+            "Static endpoint frames cannot establish hidden collisions, intermediate motion, attachment integrity, or control operation.",
+            "Inherited Jordan hold remains in force; this review does not approve art or release the hold."
+          ],
+          "observations": "Both open poses are fully framed with a readable cavity. No obvious major missing surface is visible. Inherited hold is preserved regardless of these endpoint observations.",
+          "verdict": "needs-user-review"
+        },
+        "report": "visual-c.json"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "user fidelity decision before substantial redesign",
+        "independent QA-ART-08 review"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 69440,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/jordan.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "Corrected pink layered stone; paler/desaturated versus source; added dark display slab. Three principal lid forms retained.",
+          "reviewStatus": "accepted",
+          "sha256": "ba32b07d13f10eade35f83d3512666333785b03ecffef6e805f0605d5dbe074b",
+          "source": "assets/gallery/jordan.webp",
+          "sourceSha256": "2b9906f68e65c9ce590a2d48a18a8eabffb1350aa9698c93355dea8fc2bf3e54",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "f201b777c7ce5314c9ef2ea9e48ac5e507c6ffd9e31081e42cfc089891d5fed6"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "user fidelity decision before substantial redesign"
+      ],
+      "parent_verdict": "needs-decision",
+      "parent_visual": {
+        "decision": "Hold for an explicit fidelity decision on pale marketing versus saturated wood-like runtime finish. Preserve this significant gap; do not silently downgrade it to ordinary polish. No art changes or final user approval.",
+        "hardware": "Front long clasp, circular fitting, side ring and corner caps retain marketing arrangement. Open views show rear hinges and expected released lid-side latch; no detached-hardware defect established.",
+        "limitations": "Read source README and research brief. Brief-led procedural landscape, not surveyed Wadi Rum or prior approved concept. Single-camera frozen captures do not establish calibrated material equivalence, continuous mechanics or physical-phone performance. Existing technical passes are contextual, not fresh visual approval.",
+        "quality": "Complete, coherently framed stylized asset in both desktop/mobile closed/open captures; no obvious gross missing geometry or clipping.",
+        "terrain": "Two fluted, banded massifs and open right-hand arch preserve the marketing layout. Arch is regular and handle-like on mobile; winding siq remains a thin inlay, not an excavated gorge. Flat sandy carrier and abrupt terrain transitions remain conspicuous.",
+        "texture": "Significant marketing/runtime palette gap: marketing is pale blush/cream with fine stone speckling; actual captures are saturated rose-orange/ochre with darker reddish lid frame and strong regular bands that can read as wood. Broad geometry matches do not resolve this finish difference."
+      },
+      "parent_visual_hold_preserved": true,
+      "reviewed_image_hashes": [
+        {
+          "bytes": 386701,
+          "path": "smoke/jordan/desktop-closed.png",
+          "sha256": "537d311bb805be1693849bc1f68a676d7bea44162cdfc2992353a9a9160e50a3"
+        },
+        {
+          "bytes": 380507,
+          "path": "smoke/jordan/desktop-open.png",
+          "sha256": "84a6818a2fb7322d6b2ce78b30af72153e2c0d1e293408b8f62c7f376df6b39d"
+        },
+        {
+          "bytes": 121991,
+          "path": "smoke/jordan/mobile-closed.png",
+          "sha256": "c07fb1c02ee615217cacafc609c6aa96f4b3de69582351f6b58c2fb617be1d8a"
+        },
+        {
+          "bytes": 115300,
+          "path": "smoke/jordan/mobile-open.png",
+          "sha256": "31a23f512a7c9d8c590abd08b6d07a2e3d22c72ae162140a1e0d143636b5df86"
+        },
+        {
+          "bytes": 69440,
+          "path": "sources/jordan/marketing.webp",
+          "sha256": "f201b777c7ce5314c9ef2ea9e48ac5e507c6ffd9e31081e42cfc089891d5fed6"
+        }
+      ],
+      "selection": {
+        "commit": "08c0718ecc9a4c212859041604b93ee9c4ca4eac",
+        "fetched_tip": "08c0718ecc9a4c212859041604b93ee9c4ca4eac",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/jordan-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 7434973,
+          "commit": "08c0718ecc9a4c212859041604b93ee9c4ca4eac",
+          "crc_error": null,
+          "entries": 57,
+          "fresh_crc_safe_unique": true,
+          "fresh_inner_inventory_entries": 56,
+          "fresh_required_payloads": [
+            {
+              "member": "jordan-v1.html",
+              "path": "preview/jordan-v1/jordan-v1.html",
+              "sha256": "a1ca5fd2b1c0957bc17a09d94993542e03a862d6c9ecdb0f307d8ba48d0352c5"
+            },
+            {
+              "member": "jordan.blend",
+              "path": "preview/jordan-v1/jordan.blend",
+              "sha256": "72ead882ce05a6cca06d8d39954111eb733f84d007ae02683a48cada91438e5d"
+            },
+            {
+              "member": "jordan.glb",
+              "path": "preview/jordan-v1/jordan.glb",
+              "sha256": "576160d186bd883966cf24a224458cc7304bc2752560591287e175569aba4f84"
+            }
+          ],
+          "inventory_checked": true,
+          "inventory_entries": 56,
+          "inventory_mismatches": [],
+          "kind": "git",
+          "path": "preview/jordan-v1/jordan-v1-source.zip",
+          "required_payloads": {
+            "jordan-v1.html": true,
+            "jordan.blend": true,
+            "jordan.glb": true
+          },
+          "safe_unique_paths": true,
+          "sha256": "1ae20e68830385dd5917e187d89ce571a3115ee3dd6c51bfbf5652c1adbe1bb5"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 575450,
+          "commit": "08c0718ecc9a4c212859041604b93ee9c4ca4eac",
+          "path": "preview/jordan-v1/jordan.blend",
+          "role": "selected-model",
+          "sha256": "72ead882ce05a6cca06d8d39954111eb733f84d007ae02683a48cada91438e5d"
+        },
+        {
+          "bytes": 1461768,
+          "commit": "08c0718ecc9a4c212859041604b93ee9c4ca4eac",
+          "path": "preview/jordan-v1/jordan.glb",
+          "role": "selected-model",
+          "sha256": "576160d186bd883966cf24a224458cc7304bc2752560591287e175569aba4f84",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 60,
+            "nodes": 62
+          }
+        }
+      ],
+      "verdict": "needs-user-review",
+      "viewer": {
+        "bytes": 2689165,
+        "commit": "08c0718ecc9a4c212859041604b93ee9c4ca4eac",
+        "path": "preview/jordan-v1/jordan-v1.html",
+        "sha256": "a1ca5fd2b1c0957bc17a09d94993542e03a862d6c9ecdb0f307d8ba48d0352c5",
+        "under_5000000": true
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Jordan",
+    "package_history": [
+      {
+        "bytes": 7434973,
+        "commit": "08c0718ecc9a4c212859041604b93ee9c4ca4eac",
+        "crc_error": null,
+        "entries": 57,
+        "inventory_checked": true,
+        "inventory_entries": 56,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/jordan-v1/jordan-v1-source.zip",
+        "required_payloads": {
+          "jordan-v1.html": true,
+          "jordan.blend": true,
+          "jordan.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "1ae20e68830385dd5917e187d89ce571a3115ee3dd6c51bfbf5652c1adbe1bb5"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "08c0718ecc9a4c212859041604b93ee9c4ca4eac",
+      "fetched_tip": "08c0718ecc9a4c212859041604b93ee9c4ca4eac",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/jordan-v1"
+    },
+    "verdict": "needs-user-review",
+    "viewer": {
+      "bytes": 2689165,
+      "commit": "08c0718ecc9a4c212859041604b93ee9c4ca4eac",
+      "path": "preview/jordan-v1/jordan-v1.html",
+      "sha256": "a1ca5fd2b1c0957bc17a09d94993542e03a862d6c9ecdb0f307d8ba48d0352c5",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "jordan",
+    "baseline_verdict": "needs-user-review",
+    "actions": [
+      "owner art/finish acceptance; no proven runtime defect recorded; no autonomous redesign"
+    ],
+    "approval": false,
+    "original_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "capture_base": "parent/",
+      "captures": [
+        "smoke/jordan/desktop-closed.png",
+        "smoke/jordan/desktop-open.png",
+        "smoke/jordan/mobile-closed.png",
+        "smoke/jordan/mobile-open.png"
+      ],
+      "critical_reproducible_failures": [],
+      "final_approval": false,
+      "fresh_checks": {
+        "blender_parity_collision": false,
+        "fallback": false,
+        "full_inner_archive_inventories": true,
+        "motion": false,
+        "original_captures_and_marketing_inspected": true,
+        "runtime": false,
+        "source_and_delivered_viewer_hashes": true,
+        "source_archive_crc_safe_paths_required_payloads": true
+      },
+      "historical_runtime": {
+        "browser": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.7326807975769043,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.25,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1461768,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 6,
+              "meshes": 60,
+              "nonfinite": 0,
+              "triangles": 17092
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "jordan",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "a1ca5fd2b1c0957bc17a09d94993542e03a862d6c9ecdb0f307d8ba48d0352c5"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.7326807975769043,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.25,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1461768,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 6,
+              "meshes": 60,
+              "nonfinite": 0,
+              "triangles": 17092
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "jordan",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "a1ca5fd2b1c0957bc17a09d94993542e03a862d6c9ecdb0f307d8ba48d0352c5"
+          }
+        ],
+        "extended": {
+          "geometry": {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.7326807975769043,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.25,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1461768,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 6,
+              "meshes": 60,
+              "nonfinite": 0,
+              "triangles": 17092
+            },
+            "meshes": 60,
+            "nonfinite": 0,
+            "triangles": 17092
+          },
+          "id": "jordan",
+          "no_js_poster": true
+        },
+        "motion": {
+          "exit_code": 0,
+          "id": "jordan",
+          "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+          "source": [
+            {
+              "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+              "path": "preview/albania-v1/tests.mjs",
+              "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+            },
+            {
+              "commit": "08c0718ecc9a4c212859041604b93ee9c4ca4eac",
+              "path": "preview/jordan-v1/motion.mjs",
+              "sha256": "1a95b76cf10e2a1e88e29bdb2b531bb32ae467d186523b80cb56aacef887690e"
+            }
+          ]
+        },
+        "parent_commit": "431e51ffb5a8704b5f8f8b11694d28befae18402"
+      },
+      "id": "jordan",
+      "independent_visual": {
+        "assessment": {
+          "concrete_defects": [
+            "Material/palette mismatch: candidate body and rock relief are saturated rose-orange/ochre with dark reddish framing, versus the illustration's pale ivory/blush layered stone; visible on desktop and mobile.",
+            "Broad, smooth repeating body bands read partly as wood grain rather than the reference's delicate pale stone strata. Canyon/arch theme remains recognizable.",
+            "Closed front/left lid seam is conspicuously dark; its visibility is recorded, not classified as a proven seating or collision failure."
+          ],
+          "id": "jordan",
+          "inspected_paths": [
+            "parent/smoke/jordan/desktop-closed.png",
+            "parent/smoke/jordan/desktop-open.png",
+            "parent/smoke/jordan/mobile-closed.png",
+            "parent/smoke/jordan/mobile-open.png",
+            "parent/sources/jordan/marketing.webp"
+          ],
+          "limitations": [
+            "Independent inspection of all five original images; comparison concerns normal-size material/theme, not hyperrealism or calibrated color equivalence.",
+            "Static endpoint frames cannot establish hidden collisions, intermediate motion, attachment integrity, or control operation.",
+            "Inherited Jordan hold remains in force; this review does not approve art or release the hold."
+          ],
+          "observations": "Both open poses are fully framed with a readable cavity. No obvious major missing surface is visible. Inherited hold is preserved regardless of these endpoint observations.",
+          "verdict": "needs-user-review"
+        },
+        "report": "visual-c.json"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "user fidelity decision before substantial redesign",
+        "independent QA-ART-08 review"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 69440,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/jordan.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "Corrected pink layered stone; paler/desaturated versus source; added dark display slab. Three principal lid forms retained.",
+          "reviewStatus": "accepted",
+          "sha256": "ba32b07d13f10eade35f83d3512666333785b03ecffef6e805f0605d5dbe074b",
+          "source": "assets/gallery/jordan.webp",
+          "sourceSha256": "2b9906f68e65c9ce590a2d48a18a8eabffb1350aa9698c93355dea8fc2bf3e54",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "f201b777c7ce5314c9ef2ea9e48ac5e507c6ffd9e31081e42cfc089891d5fed6"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "user fidelity decision before substantial redesign"
+      ],
+      "parent_verdict": "needs-decision",
+      "parent_visual": {
+        "decision": "Hold for an explicit fidelity decision on pale marketing versus saturated wood-like runtime finish. Preserve this significant gap; do not silently downgrade it to ordinary polish. No art changes or final user approval.",
+        "hardware": "Front long clasp, circular fitting, side ring and corner caps retain marketing arrangement. Open views show rear hinges and expected released lid-side latch; no detached-hardware defect established.",
+        "limitations": "Read source README and research brief. Brief-led procedural landscape, not surveyed Wadi Rum or prior approved concept. Single-camera frozen captures do not establish calibrated material equivalence, continuous mechanics or physical-phone performance. Existing technical passes are contextual, not fresh visual approval.",
+        "quality": "Complete, coherently framed stylized asset in both desktop/mobile closed/open captures; no obvious gross missing geometry or clipping.",
+        "terrain": "Two fluted, banded massifs and open right-hand arch preserve the marketing layout. Arch is regular and handle-like on mobile; winding siq remains a thin inlay, not an excavated gorge. Flat sandy carrier and abrupt terrain transitions remain conspicuous.",
+        "texture": "Significant marketing/runtime palette gap: marketing is pale blush/cream with fine stone speckling; actual captures are saturated rose-orange/ochre with darker reddish lid frame and strong regular bands that can read as wood. Broad geometry matches do not resolve this finish difference."
+      },
+      "parent_visual_hold_preserved": true,
+      "reviewed_image_hashes": [
+        {
+          "bytes": 386701,
+          "path": "smoke/jordan/desktop-closed.png",
+          "sha256": "537d311bb805be1693849bc1f68a676d7bea44162cdfc2992353a9a9160e50a3"
+        },
+        {
+          "bytes": 380507,
+          "path": "smoke/jordan/desktop-open.png",
+          "sha256": "84a6818a2fb7322d6b2ce78b30af72153e2c0d1e293408b8f62c7f376df6b39d"
+        },
+        {
+          "bytes": 121991,
+          "path": "smoke/jordan/mobile-closed.png",
+          "sha256": "c07fb1c02ee615217cacafc609c6aa96f4b3de69582351f6b58c2fb617be1d8a"
+        },
+        {
+          "bytes": 115300,
+          "path": "smoke/jordan/mobile-open.png",
+          "sha256": "31a23f512a7c9d8c590abd08b6d07a2e3d22c72ae162140a1e0d143636b5df86"
+        },
+        {
+          "bytes": 69440,
+          "path": "sources/jordan/marketing.webp",
+          "sha256": "f201b777c7ce5314c9ef2ea9e48ac5e507c6ffd9e31081e42cfc089891d5fed6"
+        }
+      ],
+      "selection": {
+        "commit": "08c0718ecc9a4c212859041604b93ee9c4ca4eac",
+        "fetched_tip": "08c0718ecc9a4c212859041604b93ee9c4ca4eac",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/jordan-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 7434973,
+          "commit": "08c0718ecc9a4c212859041604b93ee9c4ca4eac",
+          "crc_error": null,
+          "entries": 57,
+          "fresh_crc_safe_unique": true,
+          "fresh_inner_inventory_entries": 56,
+          "fresh_required_payloads": [
+            {
+              "member": "jordan-v1.html",
+              "path": "preview/jordan-v1/jordan-v1.html",
+              "sha256": "a1ca5fd2b1c0957bc17a09d94993542e03a862d6c9ecdb0f307d8ba48d0352c5"
+            },
+            {
+              "member": "jordan.blend",
+              "path": "preview/jordan-v1/jordan.blend",
+              "sha256": "72ead882ce05a6cca06d8d39954111eb733f84d007ae02683a48cada91438e5d"
+            },
+            {
+              "member": "jordan.glb",
+              "path": "preview/jordan-v1/jordan.glb",
+              "sha256": "576160d186bd883966cf24a224458cc7304bc2752560591287e175569aba4f84"
+            }
+          ],
+          "inventory_checked": true,
+          "inventory_entries": 56,
+          "inventory_mismatches": [],
+          "kind": "git",
+          "path": "preview/jordan-v1/jordan-v1-source.zip",
+          "required_payloads": {
+            "jordan-v1.html": true,
+            "jordan.blend": true,
+            "jordan.glb": true
+          },
+          "safe_unique_paths": true,
+          "sha256": "1ae20e68830385dd5917e187d89ce571a3115ee3dd6c51bfbf5652c1adbe1bb5"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 575450,
+          "commit": "08c0718ecc9a4c212859041604b93ee9c4ca4eac",
+          "path": "preview/jordan-v1/jordan.blend",
+          "role": "selected-model",
+          "sha256": "72ead882ce05a6cca06d8d39954111eb733f84d007ae02683a48cada91438e5d"
+        },
+        {
+          "bytes": 1461768,
+          "commit": "08c0718ecc9a4c212859041604b93ee9c4ca4eac",
+          "path": "preview/jordan-v1/jordan.glb",
+          "role": "selected-model",
+          "sha256": "576160d186bd883966cf24a224458cc7304bc2752560591287e175569aba4f84",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 60,
+            "nodes": 62
+          }
+        }
+      ],
+      "verdict": "needs-user-review",
+      "viewer": {
+        "bytes": 2689165,
+        "commit": "08c0718ecc9a4c212859041604b93ee9c4ca4eac",
+        "path": "preview/jordan-v1/jordan-v1.html",
+        "sha256": "a1ca5fd2b1c0957bc17a09d94993542e03a862d6c9ecdb0f307d8ba48d0352c5",
+        "under_5000000": true
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 7434973,
+        "commit": "08c0718ecc9a4c212859041604b93ee9c4ca4eac",
+        "crc_error": null,
+        "entries": 57,
+        "inventory_checked": true,
+        "inventory_entries": 56,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/jordan-v1/jordan-v1-source.zip",
+        "required_payloads": {
+          "jordan-v1.html": true,
+          "jordan.blend": true,
+          "jordan.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "1ae20e68830385dd5917e187d89ce571a3115ee3dd6c51bfbf5652c1adbe1bb5"
+      }
+    ]
+  },
+  "visual_decision": {
+    "id": "jordan",
+    "disposition": "preview-accepted-with-limitations",
+    "issue": "Saturated terracotta bands and schematic siq inlay.",
+    "rationale": "Two fluted massifs and open arch remain readable. Accept the warm rose/ochre stylization, broad wood-like strata and thin inlay rather than an excavated gorge; pale promotional stone is not the actual finish and must not be represented as equivalent.",
+    "evidence": {
+      "commit": "2b63e124d6131233cee9fb4c97c23cdb4bf91d52",
+      "path": "launch/qa-art-08/parent/boards/jordan.jpg",
+      "sha256": "ff06302c2bfb5c658a3063e91e7cbd8efc277ca366e815e420bbc3510c458bbb"
+    }
+  }
+}

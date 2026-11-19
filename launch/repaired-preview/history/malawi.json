@@ -1,0 +1,935 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 8,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 566535,
+        "role": "editable-source",
+        "sha256": "c455b5bbdeb73feb3c5c1682dd6e7084379457fe326152986659d26c956dc54a",
+        "source": {
+          "commit": "87139bbe4b2bb0ac14676f6cf0aeeba7f0135017",
+          "path": "preview/malawi-v1/malawi.blend"
+        },
+        "uri": "sha256:c455b5bbdeb73feb3c5c1682dd6e7084379457fe326152986659d26c956dc54a"
+      },
+      {
+        "bytes": 6840380,
+        "role": "historical-source-archive",
+        "sha256": "9a383ecb54be636b359896d930e296b96bd4d385968f06703afde7d57748e842",
+        "source": {
+          "commit": "87139bbe4b2bb0ac14676f6cf0aeeba7f0135017",
+          "kind": "git",
+          "path": "preview/malawi-v1/malawi-source.zip"
+        },
+        "uri": "sha256:9a383ecb54be636b359896d930e296b96bd4d385968f06703afde7d57748e842"
+      },
+      {
+        "bytes": 1378228,
+        "role": "model",
+        "sha256": "dd6cca5c7aca09b70616fe53668c472754dd9b666f6218c2fa56659b4b9c1af5",
+        "source": {
+          "commit": "87139bbe4b2bb0ac14676f6cf0aeeba7f0135017",
+          "path": "preview/malawi-v1/malawi.glb"
+        },
+        "uri": "sha256:dd6cca5c7aca09b70616fe53668c472754dd9b666f6218c2fa56659b4b9c1af5"
+      },
+      {
+        "bytes": 48384,
+        "role": "promotional-illustration",
+        "sha256": "e5c38b0b7f29fd06ffd9c07984cb1fdc6a9bd09c81182ee595481efe7cfe7216",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/malawi.webp"
+        },
+        "uri": "sha256:e5c38b0b7f29fd06ffd9c07984cb1fdc6a9bd09c81182ee595481efe7cfe7216"
+      },
+      {
+        "bytes": 3345,
+        "role": "research-brief",
+        "sha256": "8b986d25ef51fa88f4821cb1428ab6cd577fb21250c77c69c1f81acea3c4d09f",
+        "source": {
+          "commit": "87139bbe4b2bb0ac14676f6cf0aeeba7f0135017",
+          "path": "preview/malawi-v1/design-brief.md"
+        },
+        "uri": "sha256:8b986d25ef51fa88f4821cb1428ab6cd577fb21250c77c69c1f81acea3c4d09f"
+      },
+      {
+        "bytes": 5798,
+        "role": "source-notice",
+        "sha256": "b5912c5c3a86d75c72dad05ed9817077618fbea04d4dce042e8ee1b11b0c5ab8",
+        "source": {
+          "commit": "87139bbe4b2bb0ac14676f6cf0aeeba7f0135017",
+          "path": "preview/malawi-v1/README.md"
+        },
+        "uri": "sha256:b5912c5c3a86d75c72dad05ed9817077618fbea04d4dce042e8ee1b11b0c5ab8"
+      },
+      {
+        "bytes": 2544716,
+        "role": "viewer",
+        "sha256": "8f46b115c83700092071ee543cda76e33feee1ac6f4690d6a8800a8fee77e84d",
+        "source": {
+          "commit": "87139bbe4b2bb0ac14676f6cf0aeeba7f0135017",
+          "path": "preview/malawi-v1/malawi-v1.html"
+        },
+        "uri": "sha256:8f46b115c83700092071ee543cda76e33feee1ac6f4690d6a8800a8fee77e84d"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "malawi",
+    "independent_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "capture_base": "parent/",
+      "captures": [
+        "smoke/malawi/desktop-closed.png",
+        "smoke/malawi/desktop-open.png",
+        "smoke/malawi/mobile-closed.png",
+        "smoke/malawi/mobile-open.png"
+      ],
+      "critical_reproducible_failures": [],
+      "final_approval": false,
+      "fresh_checks": {
+        "blender_parity_collision": false,
+        "fallback": false,
+        "full_inner_archive_inventories": true,
+        "motion": false,
+        "original_captures_and_marketing_inspected": true,
+        "runtime": false,
+        "source_and_delivered_viewer_hashes": true,
+        "source_archive_crc_safe_paths_required_payloads": true
+      },
+      "historical_runtime": {
+        "browser": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.510069578886032,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1378228,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 6,
+              "meshes": 79,
+              "nonfinite": 0,
+              "triangles": 18496
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "malawi",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "8f46b115c83700092071ee543cda76e33feee1ac6f4690d6a8800a8fee77e84d"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.510069578886032,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1378228,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 6,
+              "meshes": 79,
+              "nonfinite": 0,
+              "triangles": 18496
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "malawi",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "8f46b115c83700092071ee543cda76e33feee1ac6f4690d6a8800a8fee77e84d"
+          }
+        ],
+        "extended": {
+          "geometry": {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.510069578886032,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1378228,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 6,
+              "meshes": 79,
+              "nonfinite": 0,
+              "triangles": 18496
+            },
+            "meshes": 79,
+            "nonfinite": 0,
+            "triangles": 18496
+          },
+          "id": "malawi",
+          "no_js_poster": true
+        },
+        "motion": {
+          "exit_code": 0,
+          "id": "malawi",
+          "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+          "source": [
+            {
+              "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+              "path": "preview/albania-v1/tests.mjs",
+              "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+            },
+            {
+              "commit": "87139bbe4b2bb0ac14676f6cf0aeeba7f0135017",
+              "path": "preview/malawi-v1/motion.mjs",
+              "sha256": "9d118549fcdc1ff1d1fd8ebb6c6eb8a7a0da7fef8f0ae65ca947335407e74f03"
+            }
+          ]
+        },
+        "parent_commit": "431e51ffb5a8704b5f8f8b11694d28befae18402"
+      },
+      "id": "malawi",
+      "independent_visual": {
+        "assessment": {
+          "concrete_defects": [
+            "Candidate pale stone is cloudier/softer in surface definition; rocks and feet show more faceted/lumpy silhouettes than the illustrated rounded forms.",
+            "Small gold fish lose body detail at mobile size and read as generic fish rather than specifically cichlids.",
+            "Closed lid seam and stepped pale corner blocks are conspicuous, particularly at the front-left junction. Open views also show interrupted rim trim; these are visible finish limitations, not demonstrated intersections."
+          ],
+          "id": "malawi",
+          "inspected_paths": [
+            "parent/smoke/malawi/desktop-closed.png",
+            "parent/smoke/malawi/desktop-open.png",
+            "parent/smoke/malawi/mobile-closed.png",
+            "parent/smoke/malawi/mobile-open.png",
+            "parent/sources/malawi/marketing.webp"
+          ],
+          "limitations": [
+            "All five original images inspected; comparison is normal-size material/theme, not hyperrealism.",
+            "The illustration also has a chalky ivory body and dark lid seam: neither is independently a mismatch merely because the subtitle says granite/enamel.",
+            "Static frames cannot establish hidden collisions, seating throughout motion, or control operation. No art approval or changes."
+          ],
+          "observations": "Turquoise inset, gold fish, pale shoreline rocks, ivory body and brass fittings preserve the illustration's lake theme. The relatively flat turquoise finish is compatible with the stylized reference. Both open endpoints are fully framed, with no obvious major missing surface.",
+          "verdict": "candidate-with-limitations"
+        },
+        "report": "visual-c.json"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-08 review"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 48384,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          960
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/malawi.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            960
+          ],
+          "provider": "xai",
+          "reviewNotes": "Three boats and two rear clusters retained; contours/orientations vary.",
+          "reviewStatus": "reviewed_with_limitations",
+          "sha256": "cfd23660d5d34d6a3b1980738630873ad5ab38ec2aad197d97aeade112ea43e0",
+          "source": "assets/gallery/malawi.webp",
+          "sourceSha256": "cb2f0cf9dd89a5257224f12af0e8e453e2ca69c21ffa8754bacf50ff5c589d06",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "e5c38b0b7f29fd06ffd9c07984cb1fdc6a9bd09c81182ee595481efe7cfe7216"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_verdict": "pass",
+      "parent_visual": {
+        "decision": "Pass bounded candidate while preserving small-fish readability and soft granite/enamel finish gaps. Marketing detail is not fully realized. No final user approval or exact reference-equivalence claim.",
+        "hardware": "Long front clasp, round front fitting, ring pull and corner plates track marketing. Rear hinges visible open; lid-side latch disengagement is expected. Hardware remains simplified and fine attachment detail is unresolved at mobile size.",
+        "limitations": "Read README/research brief: no surveyed lake, species illustration, authentic traditional craft or photorealism claims. Cichlid identity depends on context rather than resolved anatomy. Mobile emulation and static captures do not prove device performance or motion.",
+        "quality": "Clear turquoise/pale-stone/gold composition, comfortably framed on desktop and mobile in closed/open states. No gross construction break visible.",
+        "terrain": "Flat turquoise lake plaque, irregular rear shore, grouped rounded pale rocks and three small gold fish retain marketing arrangement. Fish read mainly as tiny gold marks on mobile; marketing has more evident dark fish detailing and rough rock surfaces. This is an ornamental enamel lake, not geographic terrain or simulated water.",
+        "texture": "Runtime pale mottled body/rocks have softer, chalkier mineral character than marketing fine speckle and pitting; enamel has less polished reflection. Important finish/detail difference remains but principal forms and palette agree."
+      },
+      "parent_visual_hold_preserved": false,
+      "reviewed_image_hashes": [
+        {
+          "bytes": 375829,
+          "path": "smoke/malawi/desktop-closed.png",
+          "sha256": "82888afa680acaa623b1cba4bae719ba9d6a0c20b9f68aafb48ea60aa1165266"
+        },
+        {
+          "bytes": 404841,
+          "path": "smoke/malawi/desktop-open.png",
+          "sha256": "754c0c114417e4f1dddfe4ca7639815ed19f36f886dac6aaeccc4424ad9fa353"
+        },
+        {
+          "bytes": 114020,
+          "path": "smoke/malawi/mobile-closed.png",
+          "sha256": "70c5cec2be6a3e55d47d5759f24fe136be687e81e0495e87c00762ab55001fa4"
+        },
+        {
+          "bytes": 117443,
+          "path": "smoke/malawi/mobile-open.png",
+          "sha256": "0c134c11e78fcd8e120892736fa6e9800db744b3e12339595a7b7791a555ce19"
+        },
+        {
+          "bytes": 48384,
+          "path": "sources/malawi/marketing.webp",
+          "sha256": "e5c38b0b7f29fd06ffd9c07984cb1fdc6a9bd09c81182ee595481efe7cfe7216"
+        }
+      ],
+      "selection": {
+        "commit": "87139bbe4b2bb0ac14676f6cf0aeeba7f0135017",
+        "fetched_tip": "87139bbe4b2bb0ac14676f6cf0aeeba7f0135017",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/malawi-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 6840380,
+          "commit": "87139bbe4b2bb0ac14676f6cf0aeeba7f0135017",
+          "crc_error": null,
+          "entries": 54,
+          "fresh_crc_safe_unique": true,
+          "fresh_inner_inventory_entries": 53,
+          "fresh_required_payloads": [
+            {
+              "member": "malawi-v1.html",
+              "path": "preview/malawi-v1/malawi-v1.html",
+              "sha256": "8f46b115c83700092071ee543cda76e33feee1ac6f4690d6a8800a8fee77e84d"
+            },
+            {
+              "member": "malawi.blend",
+              "path": "preview/malawi-v1/malawi.blend",
+              "sha256": "c455b5bbdeb73feb3c5c1682dd6e7084379457fe326152986659d26c956dc54a"
+            },
+            {
+              "member": "malawi.glb",
+              "path": "preview/malawi-v1/malawi.glb",
+              "sha256": "dd6cca5c7aca09b70616fe53668c472754dd9b666f6218c2fa56659b4b9c1af5"
+            }
+          ],
+          "inventory_checked": true,
+          "inventory_entries": 53,
+          "inventory_mismatches": [],
+          "kind": "git",
+          "path": "preview/malawi-v1/malawi-source.zip",
+          "required_payloads": {
+            "malawi-v1.html": true,
+            "malawi.blend": true,
+            "malawi.glb": true
+          },
+          "safe_unique_paths": true,
+          "sha256": "9a383ecb54be636b359896d930e296b96bd4d385968f06703afde7d57748e842"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 566535,
+          "commit": "87139bbe4b2bb0ac14676f6cf0aeeba7f0135017",
+          "path": "preview/malawi-v1/malawi.blend",
+          "role": "selected-model",
+          "sha256": "c455b5bbdeb73feb3c5c1682dd6e7084379457fe326152986659d26c956dc54a"
+        },
+        {
+          "bytes": 1378228,
+          "commit": "87139bbe4b2bb0ac14676f6cf0aeeba7f0135017",
+          "path": "preview/malawi-v1/malawi.glb",
+          "role": "selected-model",
+          "sha256": "dd6cca5c7aca09b70616fe53668c472754dd9b666f6218c2fa56659b4b9c1af5",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 79,
+            "nodes": 81
+          }
+        }
+      ],
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 2544716,
+        "commit": "87139bbe4b2bb0ac14676f6cf0aeeba7f0135017",
+        "path": "preview/malawi-v1/malawi-v1.html",
+        "sha256": "8f46b115c83700092071ee543cda76e33feee1ac6f4690d6a8800a8fee77e84d",
+        "under_5000000": true
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Malawi",
+    "package_history": [
+      {
+        "bytes": 6840380,
+        "commit": "87139bbe4b2bb0ac14676f6cf0aeeba7f0135017",
+        "crc_error": null,
+        "entries": 54,
+        "inventory_checked": true,
+        "inventory_entries": 53,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/malawi-v1/malawi-source.zip",
+        "required_payloads": {
+          "malawi-v1.html": true,
+          "malawi.blend": true,
+          "malawi.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "9a383ecb54be636b359896d930e296b96bd4d385968f06703afde7d57748e842"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "87139bbe4b2bb0ac14676f6cf0aeeba7f0135017",
+      "fetched_tip": "87139bbe4b2bb0ac14676f6cf0aeeba7f0135017",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/malawi-v1"
+    },
+    "verdict": "candidate-with-limitations",
+    "viewer": {
+      "bytes": 2544716,
+      "commit": "87139bbe4b2bb0ac14676f6cf0aeeba7f0135017",
+      "path": "preview/malawi-v1/malawi-v1.html",
+      "sha256": "8f46b115c83700092071ee543cda76e33feee1ac6f4690d6a8800a8fee77e84d",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "malawi",
+    "baseline_verdict": "candidate-with-limitations",
+    "actions": [
+      "remaining ordinary finish inspection; do not edit promotional-only differences or infer broken model"
+    ],
+    "approval": false,
+    "original_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "capture_base": "parent/",
+      "captures": [
+        "smoke/malawi/desktop-closed.png",
+        "smoke/malawi/desktop-open.png",
+        "smoke/malawi/mobile-closed.png",
+        "smoke/malawi/mobile-open.png"
+      ],
+      "critical_reproducible_failures": [],
+      "final_approval": false,
+      "fresh_checks": {
+        "blender_parity_collision": false,
+        "fallback": false,
+        "full_inner_archive_inventories": true,
+        "motion": false,
+        "original_captures_and_marketing_inspected": true,
+        "runtime": false,
+        "source_and_delivered_viewer_hashes": true,
+        "source_archive_crc_safe_paths_required_payloads": true
+      },
+      "historical_runtime": {
+        "browser": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.510069578886032,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1378228,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 6,
+              "meshes": 79,
+              "nonfinite": 0,
+              "triangles": 18496
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "malawi",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "8f46b115c83700092071ee543cda76e33feee1ac6f4690d6a8800a8fee77e84d"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.510069578886032,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1378228,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 6,
+              "meshes": 79,
+              "nonfinite": 0,
+              "triangles": 18496
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "malawi",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "8f46b115c83700092071ee543cda76e33feee1ac6f4690d6a8800a8fee77e84d"
+          }
+        ],
+        "extended": {
+          "geometry": {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.510069578886032,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1378228,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 6,
+              "meshes": 79,
+              "nonfinite": 0,
+              "triangles": 18496
+            },
+            "meshes": 79,
+            "nonfinite": 0,
+            "triangles": 18496
+          },
+          "id": "malawi",
+          "no_js_poster": true
+        },
+        "motion": {
+          "exit_code": 0,
+          "id": "malawi",
+          "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+          "source": [
+            {
+              "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+              "path": "preview/albania-v1/tests.mjs",
+              "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+            },
+            {
+              "commit": "87139bbe4b2bb0ac14676f6cf0aeeba7f0135017",
+              "path": "preview/malawi-v1/motion.mjs",
+              "sha256": "9d118549fcdc1ff1d1fd8ebb6c6eb8a7a0da7fef8f0ae65ca947335407e74f03"
+            }
+          ]
+        },
+        "parent_commit": "431e51ffb5a8704b5f8f8b11694d28befae18402"
+      },
+      "id": "malawi",
+      "independent_visual": {
+        "assessment": {
+          "concrete_defects": [
+            "Candidate pale stone is cloudier/softer in surface definition; rocks and feet show more faceted/lumpy silhouettes than the illustrated rounded forms.",
+            "Small gold fish lose body detail at mobile size and read as generic fish rather than specifically cichlids.",
+            "Closed lid seam and stepped pale corner blocks are conspicuous, particularly at the front-left junction. Open views also show interrupted rim trim; these are visible finish limitations, not demonstrated intersections."
+          ],
+          "id": "malawi",
+          "inspected_paths": [
+            "parent/smoke/malawi/desktop-closed.png",
+            "parent/smoke/malawi/desktop-open.png",
+            "parent/smoke/malawi/mobile-closed.png",
+            "parent/smoke/malawi/mobile-open.png",
+            "parent/sources/malawi/marketing.webp"
+          ],
+          "limitations": [
+            "All five original images inspected; comparison is normal-size material/theme, not hyperrealism.",
+            "The illustration also has a chalky ivory body and dark lid seam: neither is independently a mismatch merely because the subtitle says granite/enamel.",
+            "Static frames cannot establish hidden collisions, seating throughout motion, or control operation. No art approval or changes."
+          ],
+          "observations": "Turquoise inset, gold fish, pale shoreline rocks, ivory body and brass fittings preserve the illustration's lake theme. The relatively flat turquoise finish is compatible with the stylized reference. Both open endpoints are fully framed, with no obvious major missing surface.",
+          "verdict": "candidate-with-limitations"
+        },
+        "report": "visual-c.json"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-08 review"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 48384,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          960
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/malawi.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            960
+          ],
+          "provider": "xai",
+          "reviewNotes": "Three boats and two rear clusters retained; contours/orientations vary.",
+          "reviewStatus": "reviewed_with_limitations",
+          "sha256": "cfd23660d5d34d6a3b1980738630873ad5ab38ec2aad197d97aeade112ea43e0",
+          "source": "assets/gallery/malawi.webp",
+          "sourceSha256": "cb2f0cf9dd89a5257224f12af0e8e453e2ca69c21ffa8754bacf50ff5c589d06",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "e5c38b0b7f29fd06ffd9c07984cb1fdc6a9bd09c81182ee595481efe7cfe7216"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_verdict": "pass",
+      "parent_visual": {
+        "decision": "Pass bounded candidate while preserving small-fish readability and soft granite/enamel finish gaps. Marketing detail is not fully realized. No final user approval or exact reference-equivalence claim.",
+        "hardware": "Long front clasp, round front fitting, ring pull and corner plates track marketing. Rear hinges visible open; lid-side latch disengagement is expected. Hardware remains simplified and fine attachment detail is unresolved at mobile size.",
+        "limitations": "Read README/research brief: no surveyed lake, species illustration, authentic traditional craft or photorealism claims. Cichlid identity depends on context rather than resolved anatomy. Mobile emulation and static captures do not prove device performance or motion.",
+        "quality": "Clear turquoise/pale-stone/gold composition, comfortably framed on desktop and mobile in closed/open states. No gross construction break visible.",
+        "terrain": "Flat turquoise lake plaque, irregular rear shore, grouped rounded pale rocks and three small gold fish retain marketing arrangement. Fish read mainly as tiny gold marks on mobile; marketing has more evident dark fish detailing and rough rock surfaces. This is an ornamental enamel lake, not geographic terrain or simulated water.",
+        "texture": "Runtime pale mottled body/rocks have softer, chalkier mineral character than marketing fine speckle and pitting; enamel has less polished reflection. Important finish/detail difference remains but principal forms and palette agree."
+      },
+      "parent_visual_hold_preserved": false,
+      "reviewed_image_hashes": [
+        {
+          "bytes": 375829,
+          "path": "smoke/malawi/desktop-closed.png",
+          "sha256": "82888afa680acaa623b1cba4bae719ba9d6a0c20b9f68aafb48ea60aa1165266"
+        },
+        {
+          "bytes": 404841,
+          "path": "smoke/malawi/desktop-open.png",
+          "sha256": "754c0c114417e4f1dddfe4ca7639815ed19f36f886dac6aaeccc4424ad9fa353"
+        },
+        {
+          "bytes": 114020,
+          "path": "smoke/malawi/mobile-closed.png",
+          "sha256": "70c5cec2be6a3e55d47d5759f24fe136be687e81e0495e87c00762ab55001fa4"
+        },
+        {
+          "bytes": 117443,
+          "path": "smoke/malawi/mobile-open.png",
+          "sha256": "0c134c11e78fcd8e120892736fa6e9800db744b3e12339595a7b7791a555ce19"
+        },
+        {
+          "bytes": 48384,
+          "path": "sources/malawi/marketing.webp",
+          "sha256": "e5c38b0b7f29fd06ffd9c07984cb1fdc6a9bd09c81182ee595481efe7cfe7216"
+        }
+      ],
+      "selection": {
+        "commit": "87139bbe4b2bb0ac14676f6cf0aeeba7f0135017",
+        "fetched_tip": "87139bbe4b2bb0ac14676f6cf0aeeba7f0135017",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/malawi-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 6840380,
+          "commit": "87139bbe4b2bb0ac14676f6cf0aeeba7f0135017",
+          "crc_error": null,
+          "entries": 54,
+          "fresh_crc_safe_unique": true,
+          "fresh_inner_inventory_entries": 53,
+          "fresh_required_payloads": [
+            {
+              "member": "malawi-v1.html",
+              "path": "preview/malawi-v1/malawi-v1.html",
+              "sha256": "8f46b115c83700092071ee543cda76e33feee1ac6f4690d6a8800a8fee77e84d"
+            },
+            {
+              "member": "malawi.blend",
+              "path": "preview/malawi-v1/malawi.blend",
+              "sha256": "c455b5bbdeb73feb3c5c1682dd6e7084379457fe326152986659d26c956dc54a"
+            },
+            {
+              "member": "malawi.glb",
+              "path": "preview/malawi-v1/malawi.glb",
+              "sha256": "dd6cca5c7aca09b70616fe53668c472754dd9b666f6218c2fa56659b4b9c1af5"
+            }
+          ],
+          "inventory_checked": true,
+          "inventory_entries": 53,
+          "inventory_mismatches": [],
+          "kind": "git",
+          "path": "preview/malawi-v1/malawi-source.zip",
+          "required_payloads": {
+            "malawi-v1.html": true,
+            "malawi.blend": true,
+            "malawi.glb": true
+          },
+          "safe_unique_paths": true,
+          "sha256": "9a383ecb54be636b359896d930e296b96bd4d385968f06703afde7d57748e842"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 566535,
+          "commit": "87139bbe4b2bb0ac14676f6cf0aeeba7f0135017",
+          "path": "preview/malawi-v1/malawi.blend",
+          "role": "selected-model",
+          "sha256": "c455b5bbdeb73feb3c5c1682dd6e7084379457fe326152986659d26c956dc54a"
+        },
+        {
+          "bytes": 1378228,
+          "commit": "87139bbe4b2bb0ac14676f6cf0aeeba7f0135017",
+          "path": "preview/malawi-v1/malawi.glb",
+          "role": "selected-model",
+          "sha256": "dd6cca5c7aca09b70616fe53668c472754dd9b666f6218c2fa56659b4b9c1af5",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 79,
+            "nodes": 81
+          }
+        }
+      ],
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 2544716,
+        "commit": "87139bbe4b2bb0ac14676f6cf0aeeba7f0135017",
+        "path": "preview/malawi-v1/malawi-v1.html",
+        "sha256": "8f46b115c83700092071ee543cda76e33feee1ac6f4690d6a8800a8fee77e84d",
+        "under_5000000": true
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 6840380,
+        "commit": "87139bbe4b2bb0ac14676f6cf0aeeba7f0135017",
+        "crc_error": null,
+        "entries": 54,
+        "inventory_checked": true,
+        "inventory_entries": 53,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/malawi-v1/malawi-source.zip",
+        "required_payloads": {
+          "malawi-v1.html": true,
+          "malawi.blend": true,
+          "malawi.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "9a383ecb54be636b359896d930e296b96bd4d385968f06703afde7d57748e842"
+      }
+    ]
+  },
+  "ordinary_record": {
+    "id": "malawi",
+    "disposition": "unchanged-with-explicit-limitations",
+    "correction_passes": 0,
+    "model_geometry_changed": false,
+    "final_approved": false,
+    "launch_ready": false,
+    "original_observations": [
+      "Candidate pale stone is cloudier/softer in surface definition; rocks and feet show more faceted/lumpy silhouettes than the illustrated rounded forms.",
+      "Small gold fish lose body detail at mobile size and read as generic fish rather than specifically cichlids.",
+      "Closed lid seam and stepped pale corner blocks are conspicuous, particularly at the front-left junction. Open views also show interrupted rim trim; these are visible finish limitations, not demonstrated intersections."
+    ],
+    "independent_adjudication": {
+      "id": "malawi",
+      "disposition": "no-edit",
+      "observation": "Bright lake-blue enamel, pale mottled granite, rounded rocks and gold fish ornaments remain coherent across four states. Marketing is more softly lit and grounded; open cavity and underside remain consistent.",
+      "recommendation": "Retain saturated enamel, pale mottling, irregular granite and dark closure band. No isolated texture failure or material spill demonstrated; do not convert enamel into realistic water or smooth the rocks.",
+      "supersampling": "No specifically demonstrated sampling issue."
+    },
+    "unresolved_owner_holds": [
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "inherited_holds": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization",
+      "independent QA-ART-08 review"
+    ],
+    "original_review_preserved_in": "baseline.json",
+    "fresh_runtime": {
+      "id": "malawi",
+      "exit_code": 0,
+      "shared_contract": "Bangladesh renderer-independent interaction assertions; no fresh source/collision claim",
+      "results": "launch\\ordinary-finish-20\\runtime\\malawi\\browser-check.json"
+    },
+    "fresh_source_archive": {
+      "id": "malawi",
+      "archives": [
+        {
+          "archive": {
+            "bytes": 6840380,
+            "commit": "87139bbe4b2bb0ac14676f6cf0aeeba7f0135017",
+            "crc_error": null,
+            "entries": 54,
+            "fresh_crc_safe_unique": true,
+            "fresh_inner_inventory_entries": 53,
+            "fresh_required_payloads": [
+              {
+                "member": "malawi-v1.html",
+                "path": "preview/malawi-v1/malawi-v1.html",
+                "sha256": "8f46b115c83700092071ee543cda76e33feee1ac6f4690d6a8800a8fee77e84d"
+              },
+              {
+                "member": "malawi.blend",
+                "path": "preview/malawi-v1/malawi.blend",
+                "sha256": "c455b5bbdeb73feb3c5c1682dd6e7084379457fe326152986659d26c956dc54a"
+              },
+              {
+                "member": "malawi.glb",
+                "path": "preview/malawi-v1/malawi.glb",
+                "sha256": "dd6cca5c7aca09b70616fe53668c472754dd9b666f6218c2fa56659b4b9c1af5"
+              }
+            ],
+            "inventory_checked": true,
+            "inventory_entries": 53,
+            "inventory_mismatches": [],
+            "kind": "git",
+            "path": "preview/malawi-v1/malawi-source.zip",
+            "required_payloads": {
+              "malawi-v1.html": true,
+              "malawi.blend": true,
+              "malawi.glb": true
+            },
+            "safe_unique_paths": true,
+            "sha256": "9a383ecb54be636b359896d930e296b96bd4d385968f06703afde7d57748e842"
+          },
+          "members": 54,
+          "fresh_inventory": {
+            "status": "pass",
+            "entries_checked": 53,
+            "uninventoried_members": [
+              "inventory.json"
+            ]
+          },
+          "exact_selected_payloads": [
+            "malawi-v1.html",
+            "malawi.blend",
+            "malawi.glb"
+          ]
+        }
+      ],
+      "pass": true
+    },
+    "remaining_visual_limitations": "Bright lake-blue enamel, pale mottled granite, rounded rocks and gold fish ornaments remain coherent across four states. Marketing is more softly lit and grounded; open cavity and underside remain consistent."
+  }
+}

@@ -1,0 +1,643 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 6,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 399568,
+        "role": "editable-source",
+        "sha256": "8cd72eaa99e778609170147fbfb2fce314545a732e9c8111cd652b353d6c0964",
+        "source": {
+          "commit": "59dec7bd8b9688aaa9e34ef60b71e0b659551229",
+          "path": "preview/antigua-and-barbuda-v1/antigua-and-barbuda.blend"
+        },
+        "uri": "sha256:8cd72eaa99e778609170147fbfb2fce314545a732e9c8111cd652b353d6c0964"
+      },
+      {
+        "bytes": 5494444,
+        "role": "historical-source-archive",
+        "sha256": "047e105190f5a6edb139cfa4bba181930b37726d54677a0eb63230e2a59d9f74",
+        "source": {
+          "commit": "59dec7bd8b9688aaa9e34ef60b71e0b659551229",
+          "kind": "git",
+          "path": "preview/antigua-and-barbuda-v1/antigua-and-barbuda-v1-source.zip"
+        },
+        "uri": "sha256:047e105190f5a6edb139cfa4bba181930b37726d54677a0eb63230e2a59d9f74"
+      },
+      {
+        "bytes": 793632,
+        "role": "model",
+        "sha256": "dc6004a0d330daf9815da5d6e1a27e97e42af98aa5c1315a4003a403fdd8bd84",
+        "source": {
+          "commit": "59dec7bd8b9688aaa9e34ef60b71e0b659551229",
+          "path": "preview/antigua-and-barbuda-v1/antigua-and-barbuda.glb"
+        },
+        "uri": "sha256:dc6004a0d330daf9815da5d6e1a27e97e42af98aa5c1315a4003a403fdd8bd84"
+      },
+      {
+        "bytes": 46036,
+        "role": "promotional-illustration",
+        "sha256": "64dfdb31c735883d0a15cafa84bdfe4cff5f19666411fac7011e7ce2e7fa30f0",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/antigua-and-barbuda.webp"
+        },
+        "uri": "sha256:64dfdb31c735883d0a15cafa84bdfe4cff5f19666411fac7011e7ce2e7fa30f0"
+      },
+      {
+        "bytes": 2905,
+        "role": "research-brief",
+        "sha256": "8d40b53b4f999205988d471d0f37e9a4f8fce8d37dee7cf1359dbf6d16c2e1e8",
+        "source": {
+          "commit": "59dec7bd8b9688aaa9e34ef60b71e0b659551229",
+          "path": "preview/antigua-and-barbuda-v1/design-brief.md"
+        },
+        "uri": "sha256:8d40b53b4f999205988d471d0f37e9a4f8fce8d37dee7cf1359dbf6d16c2e1e8"
+      },
+      {
+        "bytes": 4860,
+        "role": "source-notice",
+        "sha256": "61730b0942399dd26953cf8f86fd6b0fc78f78c4bdc86ae0a11f61dd7ac9add4",
+        "source": {
+          "commit": "59dec7bd8b9688aaa9e34ef60b71e0b659551229",
+          "path": "preview/antigua-and-barbuda-v1/README.md"
+        },
+        "uri": "sha256:61730b0942399dd26953cf8f86fd6b0fc78f78c4bdc86ae0a11f61dd7ac9add4"
+      },
+      {
+        "bytes": 1861981,
+        "role": "viewer",
+        "sha256": "f9f887c052973e505e88e6a743cb0bb4b6af86ac8b2d4f1ef0cae6b72c2c76b0",
+        "source": {
+          "commit": "59dec7bd8b9688aaa9e34ef60b71e0b659551229",
+          "path": "preview/antigua-and-barbuda-v1/antigua-and-barbuda-v1.html"
+        },
+        "uri": "sha256:f9f887c052973e505e88e6a743cb0bb4b6af86ac8b2d4f1ef0cae6b72c2c76b0"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "antigua-and-barbuda",
+    "independent_review": {
+      "adjudication": "Candidate with disclosed finish limitations, not final user approval.",
+      "art_changed": false,
+      "critical_reproducible_defects": [],
+      "fresh_blender_reopen": false,
+      "fresh_browser": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.5510001182556152,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.8600000143051147,
+                -0.24500000476837158,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 793632,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 5,
+            "meshes": 56,
+            "nonfinite": 0,
+            "triangles": 8720
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "antigua-and-barbuda",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "f9f887c052973e505e88e6a743cb0bb4b6af86ac8b2d4f1ef0cae6b72c2c76b0"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.5510001182556152,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.8600000143051147,
+                -0.24500000476837158,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 793632,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 5,
+            "meshes": 56,
+            "nonfinite": 0,
+            "triangles": 8720
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "antigua-and-barbuda",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "f9f887c052973e505e88e6a743cb0bb4b6af86ac8b2d4f1ef0cae6b72c2c76b0"
+        }
+      ],
+      "fresh_collision_sampling": false,
+      "fresh_corrupt_glb_fallback": false,
+      "fresh_motion": {
+        "exit_code": 0,
+        "id": "antigua-and-barbuda",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "59dec7bd8b9688aaa9e34ef60b71e0b659551229",
+            "path": "preview/antigua-and-barbuda-v1/motion.mjs",
+            "sha256": "ffe41458f593ae5f3695d118928a0cfb5c23f879b2d40981d44059f7c09dcfd4"
+          }
+        ]
+      },
+      "fresh_nojs": false,
+      "id": "antigua-and-barbuda",
+      "independent_visual": {
+        "file": "visual-1.json",
+        "findings": {
+          "appearance": "Wide pale mottled chest with block feet, turquoise inset and seam, shallow pink C-shaped shore, thick upright pale arch and long gold clasp. Marketing preserves these same major forms; it does not show a naturalistic eroded coastal arch that the model has omitted.",
+          "approval": false,
+          "artistic_gaps": [
+            "Water reads as opaque colored inlay, pink shore as a smooth raised ribbon and arch as a sculptural handle-like form.",
+            "Marketing has richer contact shadows, smoother edge treatment and more convincing gold highlights; this is principally finish rather than changed silhouette."
+          ],
+          "confirmed_visual_defects": [],
+          "id": "antigua-and-barbuda",
+          "inspected": [
+            "parent/smoke/antigua-and-barbuda/desktop-closed.png",
+            "parent/smoke/antigua-and-barbuda/desktop-open.png",
+            "parent/smoke/antigua-and-barbuda/mobile-closed.png",
+            "parent/smoke/antigua-and-barbuda/mobile-open.png",
+            "parent/sources/antigua-and-barbuda/marketing.webp"
+          ],
+          "parent_hold_disposition": "Preserve disclosed abstract-coastal and promotional-finish limitations. No substantive parent needs-decision hold was present for this ID.",
+          "recommendation": "candidate-with-limitations",
+          "state_observations": {
+            "desktop-closed": "Entire chest visible. Arch curve and pink band have angular transitions; broad ivory faces show subtle cloudy mottling. Gold corner caps and clasp remain readable.",
+            "desktop-open": "Entire raised lid and projecting released tab fit. Pale empty cavity, turquoise rim, plain pale lid underside and two rear hinge pieces visible; deeper floor partly occluded by front wall.",
+            "mobile-closed": "Arch, pink shore and turquoise panel remain distinguishable. Complete object and controls fit; small details become faceted and less crisp.",
+            "mobile-open": "Complete open silhouette and pale cavity remain readable. Abrupt pale-corner/turquoise-rim joins and slight edge stair-stepping visible; no definite penetration."
+          },
+          "suggested_next_step": "Present as a stylized candidate with explicit material/finish limitations; do not advertise photographic coastal or promotional-render parity.",
+          "uncertain_inspection_points": [
+            "Open hinge mounting surfaces are partly hidden; separation at the rear cannot establish detached hardware."
+          ]
+        }
+      },
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 46036,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          960
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/antigua-and-barbuda.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            960
+          ],
+          "provider": "xai",
+          "reviewNotes": "Principal silhouette, palette, hardware and lid count/placement retained; texture refinement allowed.",
+          "reviewStatus": "accepted",
+          "sha256": "72f2479125cbe208c512bf11f77a041fb84462d48291fc56e35ebe2350d3e932",
+          "source": "assets/gallery/antigua-and-barbuda.webp",
+          "sourceSha256": "71a4889322de8fa2de22cacc6b33e2845aa22de6f65d3961d13eaa4273cc9a1c",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "64dfdb31c735883d0a15cafa84bdfe4cff5f19666411fac7011e7ce2e7fa30f0"
+      },
+      "original_capture_paths": [
+        "parent/smoke/antigua-and-barbuda/desktop-closed.png",
+        "parent/smoke/antigua-and-barbuda/desktop-open.png",
+        "parent/smoke/antigua-and-barbuda/mobile-closed.png",
+        "parent/smoke/antigua-and-barbuda/mobile-open.png"
+      ],
+      "packaging_hold": false,
+      "parent_decision": "Accept as a stylized candidate with disclosed real-time finish limitations; do not label as photoreal or exact promotional rendering parity.",
+      "parent_missing_gates_preserved": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_quality": "Candidate visual pass: coherent pale-stone coastal chest, fully framed in all four original captures, with consistent desktop/mobile appearance. The exact marketing retains the same broad silhouette and decorative forms; richer contact shadows and metal shading are a promotional finish gap, not demonstrated breakage.",
+      "parent_status": "pass",
+      "remaining_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-06 review"
+      ],
+      "selection": {
+        "commit": "59dec7bd8b9688aaa9e34ef60b71e0b659551229",
+        "fetched_tip": "59dec7bd8b9688aaa9e34ef60b71e0b659551229",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/antigua-and-barbuda-v1"
+      },
+      "source_archive_check": {
+        "archive": {
+          "bytes": 5494444,
+          "crc": "pass",
+          "entries": 52,
+          "mismatches": [],
+          "path": "preview/antigua-and-barbuda-v1/antigua-and-barbuda-v1-source.zip",
+          "required_payload_hashes": "pass",
+          "sha256": "047e105190f5a6edb139cfa4bba181930b37726d54677a0eb63230e2a59d9f74"
+        },
+        "id": "antigua-and-barbuda",
+        "internal_inventory": "pass",
+        "inventory_entries_checked": 51,
+        "selected_payload_match": "pass"
+      },
+      "source_archives": [
+        {
+          "bytes": 5494444,
+          "crc": "pass",
+          "entries": 52,
+          "mismatches": [],
+          "path": "preview/antigua-and-barbuda-v1/antigua-and-barbuda-v1-source.zip",
+          "required_payload_hashes": "pass",
+          "sha256": "047e105190f5a6edb139cfa4bba181930b37726d54677a0eb63230e2a59d9f74"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 399568,
+          "path": "preview/antigua-and-barbuda-v1/antigua-and-barbuda.blend",
+          "sha256": "8cd72eaa99e778609170147fbfb2fce314545a732e9c8111cd652b353d6c0964"
+        },
+        {
+          "bytes": 793632,
+          "path": "preview/antigua-and-barbuda-v1/antigua-and-barbuda.glb",
+          "sha256": "dc6004a0d330daf9815da5d6e1a27e97e42af98aa5c1315a4003a403fdd8bd84"
+        }
+      ],
+      "user_final_approved": false,
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 1861981,
+        "commit": "59dec7bd8b9688aaa9e34ef60b71e0b659551229",
+        "path": "preview/antigua-and-barbuda-v1/antigua-and-barbuda-v1.html",
+        "sha256": "f9f887c052973e505e88e6a743cb0bb4b6af86ac8b2d4f1ef0cae6b72c2c76b0",
+        "under_5000000": true
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Antigua and Barbuda",
+    "package_history": [
+      {
+        "bytes": 5494444,
+        "commit": "59dec7bd8b9688aaa9e34ef60b71e0b659551229",
+        "crc_error": null,
+        "entries": 52,
+        "inventory_checked": true,
+        "inventory_entries": 51,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/antigua-and-barbuda-v1/antigua-and-barbuda-v1-source.zip",
+        "required_payloads": {
+          "antigua-and-barbuda-v1.html": true,
+          "antigua-and-barbuda.blend": true,
+          "antigua-and-barbuda.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "047e105190f5a6edb139cfa4bba181930b37726d54677a0eb63230e2a59d9f74"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "59dec7bd8b9688aaa9e34ef60b71e0b659551229",
+      "fetched_tip": "59dec7bd8b9688aaa9e34ef60b71e0b659551229",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/antigua-and-barbuda-v1"
+    },
+    "verdict": "candidate-with-limitations",
+    "viewer": {
+      "bytes": 1861981,
+      "commit": "59dec7bd8b9688aaa9e34ef60b71e0b659551229",
+      "path": "preview/antigua-and-barbuda-v1/antigua-and-barbuda-v1.html",
+      "sha256": "f9f887c052973e505e88e6a743cb0bb4b6af86ac8b2d4f1ef0cae6b72c2c76b0",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "antigua-and-barbuda",
+    "baseline_verdict": "candidate-with-limitations",
+    "actions": [
+      "owner art/finish acceptance; no proven runtime defect recorded; no autonomous redesign"
+    ],
+    "approval": false,
+    "original_review": {
+      "adjudication": "Candidate with disclosed finish limitations, not final user approval.",
+      "art_changed": false,
+      "critical_reproducible_defects": [],
+      "fresh_blender_reopen": false,
+      "fresh_browser": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.5510001182556152,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.8600000143051147,
+                -0.24500000476837158,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 793632,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 5,
+            "meshes": 56,
+            "nonfinite": 0,
+            "triangles": 8720
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "antigua-and-barbuda",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "f9f887c052973e505e88e6a743cb0bb4b6af86ac8b2d4f1ef0cae6b72c2c76b0"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.5510001182556152,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.8600000143051147,
+                -0.24500000476837158,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 793632,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 5,
+            "meshes": 56,
+            "nonfinite": 0,
+            "triangles": 8720
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "antigua-and-barbuda",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "f9f887c052973e505e88e6a743cb0bb4b6af86ac8b2d4f1ef0cae6b72c2c76b0"
+        }
+      ],
+      "fresh_collision_sampling": false,
+      "fresh_corrupt_glb_fallback": false,
+      "fresh_motion": {
+        "exit_code": 0,
+        "id": "antigua-and-barbuda",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "59dec7bd8b9688aaa9e34ef60b71e0b659551229",
+            "path": "preview/antigua-and-barbuda-v1/motion.mjs",
+            "sha256": "ffe41458f593ae5f3695d118928a0cfb5c23f879b2d40981d44059f7c09dcfd4"
+          }
+        ]
+      },
+      "fresh_nojs": false,
+      "id": "antigua-and-barbuda",
+      "independent_visual": {
+        "file": "visual-1.json",
+        "findings": {
+          "appearance": "Wide pale mottled chest with block feet, turquoise inset and seam, shallow pink C-shaped shore, thick upright pale arch and long gold clasp. Marketing preserves these same major forms; it does not show a naturalistic eroded coastal arch that the model has omitted.",
+          "approval": false,
+          "artistic_gaps": [
+            "Water reads as opaque colored inlay, pink shore as a smooth raised ribbon and arch as a sculptural handle-like form.",
+            "Marketing has richer contact shadows, smoother edge treatment and more convincing gold highlights; this is principally finish rather than changed silhouette."
+          ],
+          "confirmed_visual_defects": [],
+          "id": "antigua-and-barbuda",
+          "inspected": [
+            "parent/smoke/antigua-and-barbuda/desktop-closed.png",
+            "parent/smoke/antigua-and-barbuda/desktop-open.png",
+            "parent/smoke/antigua-and-barbuda/mobile-closed.png",
+            "parent/smoke/antigua-and-barbuda/mobile-open.png",
+            "parent/sources/antigua-and-barbuda/marketing.webp"
+          ],
+          "parent_hold_disposition": "Preserve disclosed abstract-coastal and promotional-finish limitations. No substantive parent needs-decision hold was present for this ID.",
+          "recommendation": "candidate-with-limitations",
+          "state_observations": {
+            "desktop-closed": "Entire chest visible. Arch curve and pink band have angular transitions; broad ivory faces show subtle cloudy mottling. Gold corner caps and clasp remain readable.",
+            "desktop-open": "Entire raised lid and projecting released tab fit. Pale empty cavity, turquoise rim, plain pale lid underside and two rear hinge pieces visible; deeper floor partly occluded by front wall.",
+            "mobile-closed": "Arch, pink shore and turquoise panel remain distinguishable. Complete object and controls fit; small details become faceted and less crisp.",
+            "mobile-open": "Complete open silhouette and pale cavity remain readable. Abrupt pale-corner/turquoise-rim joins and slight edge stair-stepping visible; no definite penetration."
+          },
+          "suggested_next_step": "Present as a stylized candidate with explicit material/finish limitations; do not advertise photographic coastal or promotional-render parity.",
+          "uncertain_inspection_points": [
+            "Open hinge mounting surfaces are partly hidden; separation at the rear cannot establish detached hardware."
+          ]
+        }
+      },
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 46036,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          960
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/antigua-and-barbuda.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            960
+          ],
+          "provider": "xai",
+          "reviewNotes": "Principal silhouette, palette, hardware and lid count/placement retained; texture refinement allowed.",
+          "reviewStatus": "accepted",
+          "sha256": "72f2479125cbe208c512bf11f77a041fb84462d48291fc56e35ebe2350d3e932",
+          "source": "assets/gallery/antigua-and-barbuda.webp",
+          "sourceSha256": "71a4889322de8fa2de22cacc6b33e2845aa22de6f65d3961d13eaa4273cc9a1c",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "64dfdb31c735883d0a15cafa84bdfe4cff5f19666411fac7011e7ce2e7fa30f0"
+      },
+      "original_capture_paths": [
+        "parent/smoke/antigua-and-barbuda/desktop-closed.png",
+        "parent/smoke/antigua-and-barbuda/desktop-open.png",
+        "parent/smoke/antigua-and-barbuda/mobile-closed.png",
+        "parent/smoke/antigua-and-barbuda/mobile-open.png"
+      ],
+      "packaging_hold": false,
+      "parent_decision": "Accept as a stylized candidate with disclosed real-time finish limitations; do not label as photoreal or exact promotional rendering parity.",
+      "parent_missing_gates_preserved": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_quality": "Candidate visual pass: coherent pale-stone coastal chest, fully framed in all four original captures, with consistent desktop/mobile appearance. The exact marketing retains the same broad silhouette and decorative forms; richer contact shadows and metal shading are a promotional finish gap, not demonstrated breakage.",
+      "parent_status": "pass",
+      "remaining_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-06 review"
+      ],
+      "selection": {
+        "commit": "59dec7bd8b9688aaa9e34ef60b71e0b659551229",
+        "fetched_tip": "59dec7bd8b9688aaa9e34ef60b71e0b659551229",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/antigua-and-barbuda-v1"
+      },
+      "source_archive_check": {
+        "archive": {
+          "bytes": 5494444,
+          "crc": "pass",
+          "entries": 52,
+          "mismatches": [],
+          "path": "preview/antigua-and-barbuda-v1/antigua-and-barbuda-v1-source.zip",
+          "required_payload_hashes": "pass",
+          "sha256": "047e105190f5a6edb139cfa4bba181930b37726d54677a0eb63230e2a59d9f74"
+        },
+        "id": "antigua-and-barbuda",
+        "internal_inventory": "pass",
+        "inventory_entries_checked": 51,
+        "selected_payload_match": "pass"
+      },
+      "source_archives": [
+        {
+          "bytes": 5494444,
+          "crc": "pass",
+          "entries": 52,
+          "mismatches": [],
+          "path": "preview/antigua-and-barbuda-v1/antigua-and-barbuda-v1-source.zip",
+          "required_payload_hashes": "pass",
+          "sha256": "047e105190f5a6edb139cfa4bba181930b37726d54677a0eb63230e2a59d9f74"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 399568,
+          "path": "preview/antigua-and-barbuda-v1/antigua-and-barbuda.blend",
+          "sha256": "8cd72eaa99e778609170147fbfb2fce314545a732e9c8111cd652b353d6c0964"
+        },
+        {
+          "bytes": 793632,
+          "path": "preview/antigua-and-barbuda-v1/antigua-and-barbuda.glb",
+          "sha256": "dc6004a0d330daf9815da5d6e1a27e97e42af98aa5c1315a4003a403fdd8bd84"
+        }
+      ],
+      "user_final_approved": false,
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 1861981,
+        "commit": "59dec7bd8b9688aaa9e34ef60b71e0b659551229",
+        "path": "preview/antigua-and-barbuda-v1/antigua-and-barbuda-v1.html",
+        "sha256": "f9f887c052973e505e88e6a743cb0bb4b6af86ac8b2d4f1ef0cae6b72c2c76b0",
+        "under_5000000": true
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 5494444,
+        "commit": "59dec7bd8b9688aaa9e34ef60b71e0b659551229",
+        "crc_error": null,
+        "entries": 52,
+        "inventory_checked": true,
+        "inventory_entries": 51,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/antigua-and-barbuda-v1/antigua-and-barbuda-v1-source.zip",
+        "required_payloads": {
+          "antigua-and-barbuda-v1.html": true,
+          "antigua-and-barbuda.blend": true,
+          "antigua-and-barbuda.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "047e105190f5a6edb139cfa4bba181930b37726d54677a0eb63230e2a59d9f74"
+      }
+    ]
+  }
+}

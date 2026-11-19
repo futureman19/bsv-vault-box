@@ -1,0 +1,544 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 1,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 1209633,
+        "role": "editable-source",
+        "sha256": "d592247d63cf21d9980db23f0e1a561a584a198d72ba1a6ef99fd4e8c487ab91",
+        "source": {
+          "commit": "f8ff17704371f960130f0d4cc358545446e6c81a",
+          "path": "preview/cameroon-v1/cameroon.blend"
+        },
+        "uri": "sha256:d592247d63cf21d9980db23f0e1a561a584a198d72ba1a6ef99fd4e8c487ab91"
+      },
+      {
+        "bytes": 8306664,
+        "role": "historical-source-archive",
+        "sha256": "4a2b4cb30b0b3966f6c2d9bf9acdbf9633ea2f20258eddc97d9d9d6db09903b3",
+        "source": {
+          "commit": "f8ff17704371f960130f0d4cc358545446e6c81a",
+          "kind": "git",
+          "path": "preview/cameroon-v1/cameroon-v1-source.zip"
+        },
+        "uri": "sha256:4a2b4cb30b0b3966f6c2d9bf9acdbf9633ea2f20258eddc97d9d9d6db09903b3"
+      },
+      {
+        "bytes": 2342852,
+        "role": "model",
+        "sha256": "484955753e3e92c7ae4baf2be0d15239840dc42420dd06b414f37d718cbaf169",
+        "source": {
+          "commit": "f8ff17704371f960130f0d4cc358545446e6c81a",
+          "path": "preview/cameroon-v1/cameroon.glb"
+        },
+        "uri": "sha256:484955753e3e92c7ae4baf2be0d15239840dc42420dd06b414f37d718cbaf169"
+      },
+      {
+        "bytes": 55456,
+        "role": "promotional-illustration",
+        "sha256": "b9f23ba208ad3bec3adee71b82d4475944cbe49491dfa40be646eff6662f27fb",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/cameroon.webp"
+        },
+        "uri": "sha256:b9f23ba208ad3bec3adee71b82d4475944cbe49491dfa40be646eff6662f27fb"
+      },
+      {
+        "bytes": 4098,
+        "role": "research-brief",
+        "sha256": "fa309e3ae080e843f5ebd9694147f19c840be15a7ca7469d4677666bbda39cec",
+        "source": {
+          "commit": "f8ff17704371f960130f0d4cc358545446e6c81a",
+          "path": "preview/cameroon-v1/design-brief.md"
+        },
+        "uri": "sha256:fa309e3ae080e843f5ebd9694147f19c840be15a7ca7469d4677666bbda39cec"
+      },
+      {
+        "bytes": 6789,
+        "role": "source-notice",
+        "sha256": "df6ff946173c1dbc890bac6cbe2937f5b30eb37f1a553b836c337a90aef8acb5",
+        "source": {
+          "commit": "f8ff17704371f960130f0d4cc358545446e6c81a",
+          "path": "preview/cameroon-v1/README.md"
+        },
+        "uri": "sha256:df6ff946173c1dbc890bac6cbe2937f5b30eb37f1a553b836c337a90aef8acb5"
+      },
+      {
+        "bytes": 3832994,
+        "role": "viewer",
+        "sha256": "55e535bdcade4d0d757ca0e0ddb3d02591181b8b07ec2e81b8a4f3b38a791414",
+        "source": {
+          "commit": "f8ff17704371f960130f0d4cc358545446e6c81a",
+          "path": "preview/cameroon-v1/cameroon-v1.html"
+        },
+        "uri": "sha256:55e535bdcade4d0d757ca0e0ddb3d02591181b8b07ec2e81b8a4f3b38a791414"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "cameroon",
+    "independent_review": {
+      "all_four_original_captures_inspected": true,
+      "captures": [
+        "launch/art-01/smoke/cameroon/desktop-closed.png",
+        "launch/art-01/smoke/cameroon/desktop-open.png",
+        "launch/art-01/smoke/cameroon/mobile-closed.png",
+        "launch/art-01/smoke/cameroon/mobile-open.png"
+      ],
+      "critical_defects": [],
+      "fresh_qa_runtime": [],
+      "id": "cameroon",
+      "launch_ready": false,
+      "marketing_inspected": true,
+      "model_changed": false,
+      "model_sources": [
+        {
+          "bytes": 1209633,
+          "commit": "f8ff17704371f960130f0d4cc358545446e6c81a",
+          "path": "preview/cameroon-v1/cameroon.blend",
+          "role": "selected-model",
+          "sha256": "d592247d63cf21d9980db23f0e1a561a584a198d72ba1a6ef99fd4e8c487ab91"
+        },
+        {
+          "bytes": 2342852,
+          "commit": "f8ff17704371f960130f0d4cc358545446e6c81a",
+          "path": "preview/cameroon-v1/cameroon.glb",
+          "role": "selected-model",
+          "sha256": "484955753e3e92c7ae4baf2be0d15239840dc42420dd06b414f37d718cbaf169",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 156,
+            "nodes": 158
+          }
+        }
+      ],
+      "parent_runtime": {
+        "cases": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.564162015914917,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30833693593740463,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 2342852,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 7,
+              "meshes": 157,
+              "nonfinite": 0,
+              "triangles": 24092
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "cameroon",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "55e535bdcade4d0d757ca0e0ddb3d02591181b8b07ec2e81b8a4f3b38a791414"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.564162015914917,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30833693593740463,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 2342852,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 7,
+              "meshes": 157,
+              "nonfinite": 0,
+              "triangles": 24092
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "cameroon",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "55e535bdcade4d0d757ca0e0ddb3d02591181b8b07ec2e81b8a4f3b38a791414"
+          }
+        ],
+        "independently_rerun": false,
+        "motion": {
+          "exit_code": 0,
+          "id": "cameroon",
+          "passed": true,
+          "scope": "original motion unit assertions; not fresh collision/source parity"
+        }
+      },
+      "parent_status": "needs-decision",
+      "remaining_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "art-direction-decision",
+        "hinge-attachment-clarity-not-proven-by-stills"
+      ],
+      "selection": {
+        "commit": "f8ff17704371f960130f0d4cc358545446e6c81a",
+        "fetched_tip": "f8ff17704371f960130f0d4cc358545446e6c81a",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/cameroon-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 8306664,
+          "commit": "f8ff17704371f960130f0d4cc358545446e6c81a",
+          "crc_safe_unique": true,
+          "exact_selected_payloads": {
+            "cameroon-v1.html": [
+              "cameroon-v1.html"
+            ],
+            "cameroon.blend": [
+              "cameroon.blend"
+            ],
+            "cameroon.glb": [
+              "cameroon.glb"
+            ]
+          },
+          "full_inventory_rerun": false,
+          "inherited_full_inventory_checked": true,
+          "members": 55,
+          "path": "preview/cameroon-v1/cameroon-v1-source.zip",
+          "sha256": "4a2b4cb30b0b3966f6c2d9bf9acdbf9633ea2f20258eddc97d9d9d6db09903b3"
+        }
+      ],
+      "user_final_approved": false,
+      "verdict": "needs-user-review",
+      "viewer": {
+        "bytes": 3832994,
+        "commit": "f8ff17704371f960130f0d4cc358545446e6c81a",
+        "path": "preview/cameroon-v1/cameroon-v1.html",
+        "sha256": "55e535bdcade4d0d757ca0e0ddb3d02591181b8b07ec2e81b8a4f3b38a791414",
+        "under_5000000": true
+      },
+      "visual_review": {
+        "caveats": [
+          "Preserve existing material/terrain hold; do not turn a functioning render into art approval.",
+          "No source-level attachment conclusion is possible from these stills."
+        ],
+        "critical_visible_faults": [],
+        "desktop_closed": "Volcanic peak and clustered green canopy recognizable. Gray/taupe streaked body and warm lid look softer and less granular than the marketing stone; foliage is blobby.",
+        "desktop_open": "Dark empty cavity and upright lid fully framed. Rear hinge gaps and projecting latch appear ambiguous, not a proven mechanism failure.",
+        "file": "visual-a.json",
+        "id": "cameroon",
+        "marketing_comparison": "Both retain Fako-like peak, clustered canopy, stone feet and brass fittings, but the marketing uses cooler mottled/granular stone and a more detailed landscape. Material/terrain acceptance remains a legitimate artistic decision.",
+        "mobile_closed": "Peak reads clearly while canopy and texture blur; terrain seating is difficult to judge.",
+        "mobile_open": "Full silhouette and controls fit. Interior is dark and texture detail limited.",
+        "parent_status": "needs-decision",
+        "parent_status_justified": true,
+        "recommended_status": "needs-decision"
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Cameroon",
+    "package_history": [
+      {
+        "bytes": 8306664,
+        "commit": "f8ff17704371f960130f0d4cc358545446e6c81a",
+        "crc_error": null,
+        "entries": 55,
+        "inventory_checked": true,
+        "inventory_entries": 54,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/cameroon-v1/cameroon-v1-source.zip",
+        "required_payloads": {
+          "cameroon-v1.html": true,
+          "cameroon.blend": true,
+          "cameroon.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "4a2b4cb30b0b3966f6c2d9bf9acdbf9633ea2f20258eddc97d9d9d6db09903b3"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "f8ff17704371f960130f0d4cc358545446e6c81a",
+      "fetched_tip": "f8ff17704371f960130f0d4cc358545446e6c81a",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/cameroon-v1"
+    },
+    "verdict": "needs-user-review",
+    "viewer": {
+      "bytes": 3832994,
+      "commit": "f8ff17704371f960130f0d4cc358545446e6c81a",
+      "path": "preview/cameroon-v1/cameroon-v1.html",
+      "sha256": "55e535bdcade4d0d757ca0e0ddb3d02591181b8b07ec2e81b8a4f3b38a791414",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "cameroon",
+    "baseline_verdict": "needs-user-review",
+    "actions": [
+      "owner art/finish acceptance; no proven runtime defect recorded; no autonomous redesign"
+    ],
+    "approval": false,
+    "original_review": {
+      "all_four_original_captures_inspected": true,
+      "captures": [
+        "launch/art-01/smoke/cameroon/desktop-closed.png",
+        "launch/art-01/smoke/cameroon/desktop-open.png",
+        "launch/art-01/smoke/cameroon/mobile-closed.png",
+        "launch/art-01/smoke/cameroon/mobile-open.png"
+      ],
+      "critical_defects": [],
+      "fresh_qa_runtime": [],
+      "id": "cameroon",
+      "launch_ready": false,
+      "marketing_inspected": true,
+      "model_changed": false,
+      "model_sources": [
+        {
+          "bytes": 1209633,
+          "commit": "f8ff17704371f960130f0d4cc358545446e6c81a",
+          "path": "preview/cameroon-v1/cameroon.blend",
+          "role": "selected-model",
+          "sha256": "d592247d63cf21d9980db23f0e1a561a584a198d72ba1a6ef99fd4e8c487ab91"
+        },
+        {
+          "bytes": 2342852,
+          "commit": "f8ff17704371f960130f0d4cc358545446e6c81a",
+          "path": "preview/cameroon-v1/cameroon.glb",
+          "role": "selected-model",
+          "sha256": "484955753e3e92c7ae4baf2be0d15239840dc42420dd06b414f37d718cbaf169",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 156,
+            "nodes": 158
+          }
+        }
+      ],
+      "parent_runtime": {
+        "cases": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.564162015914917,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30833693593740463,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 2342852,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 7,
+              "meshes": 157,
+              "nonfinite": 0,
+              "triangles": 24092
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "cameroon",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "55e535bdcade4d0d757ca0e0ddb3d02591181b8b07ec2e81b8a4f3b38a791414"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.564162015914917,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30833693593740463,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 2342852,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 7,
+              "meshes": 157,
+              "nonfinite": 0,
+              "triangles": 24092
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "cameroon",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "55e535bdcade4d0d757ca0e0ddb3d02591181b8b07ec2e81b8a4f3b38a791414"
+          }
+        ],
+        "independently_rerun": false,
+        "motion": {
+          "exit_code": 0,
+          "id": "cameroon",
+          "passed": true,
+          "scope": "original motion unit assertions; not fresh collision/source parity"
+        }
+      },
+      "parent_status": "needs-decision",
+      "remaining_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "art-direction-decision",
+        "hinge-attachment-clarity-not-proven-by-stills"
+      ],
+      "selection": {
+        "commit": "f8ff17704371f960130f0d4cc358545446e6c81a",
+        "fetched_tip": "f8ff17704371f960130f0d4cc358545446e6c81a",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/cameroon-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 8306664,
+          "commit": "f8ff17704371f960130f0d4cc358545446e6c81a",
+          "crc_safe_unique": true,
+          "exact_selected_payloads": {
+            "cameroon-v1.html": [
+              "cameroon-v1.html"
+            ],
+            "cameroon.blend": [
+              "cameroon.blend"
+            ],
+            "cameroon.glb": [
+              "cameroon.glb"
+            ]
+          },
+          "full_inventory_rerun": false,
+          "inherited_full_inventory_checked": true,
+          "members": 55,
+          "path": "preview/cameroon-v1/cameroon-v1-source.zip",
+          "sha256": "4a2b4cb30b0b3966f6c2d9bf9acdbf9633ea2f20258eddc97d9d9d6db09903b3"
+        }
+      ],
+      "user_final_approved": false,
+      "verdict": "needs-user-review",
+      "viewer": {
+        "bytes": 3832994,
+        "commit": "f8ff17704371f960130f0d4cc358545446e6c81a",
+        "path": "preview/cameroon-v1/cameroon-v1.html",
+        "sha256": "55e535bdcade4d0d757ca0e0ddb3d02591181b8b07ec2e81b8a4f3b38a791414",
+        "under_5000000": true
+      },
+      "visual_review": {
+        "caveats": [
+          "Preserve existing material/terrain hold; do not turn a functioning render into art approval.",
+          "No source-level attachment conclusion is possible from these stills."
+        ],
+        "critical_visible_faults": [],
+        "desktop_closed": "Volcanic peak and clustered green canopy recognizable. Gray/taupe streaked body and warm lid look softer and less granular than the marketing stone; foliage is blobby.",
+        "desktop_open": "Dark empty cavity and upright lid fully framed. Rear hinge gaps and projecting latch appear ambiguous, not a proven mechanism failure.",
+        "file": "visual-a.json",
+        "id": "cameroon",
+        "marketing_comparison": "Both retain Fako-like peak, clustered canopy, stone feet and brass fittings, but the marketing uses cooler mottled/granular stone and a more detailed landscape. Material/terrain acceptance remains a legitimate artistic decision.",
+        "mobile_closed": "Peak reads clearly while canopy and texture blur; terrain seating is difficult to judge.",
+        "mobile_open": "Full silhouette and controls fit. Interior is dark and texture detail limited.",
+        "parent_status": "needs-decision",
+        "parent_status_justified": true,
+        "recommended_status": "needs-decision"
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 8306664,
+        "commit": "f8ff17704371f960130f0d4cc358545446e6c81a",
+        "crc_error": null,
+        "entries": 55,
+        "inventory_checked": true,
+        "inventory_entries": 54,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/cameroon-v1/cameroon-v1-source.zip",
+        "required_payloads": {
+          "cameroon-v1.html": true,
+          "cameroon.blend": true,
+          "cameroon.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "4a2b4cb30b0b3966f6c2d9bf9acdbf9633ea2f20258eddc97d9d9d6db09903b3"
+      }
+    ]
+  },
+  "visual_decision": {
+    "id": "cameroon",
+    "disposition": "preview-accepted-with-limitations",
+    "issue": "Soft streaked stone and rounded canopy.",
+    "rationale": "Fako peak and surrounding green vegetation remain recognizable. Cooler granular volcanic-stone realism is weaker, but the miniature terrain is coherent; apparent hinge spacing is not proof of detachment.",
+    "evidence": {
+      "commit": "45e69632c56c786dbf84ab6484d6b352f482c5c6",
+      "path": "launch/qa-art-01/launch/art-01/boards/cameroon.jpg",
+      "sha256": "168b6fbb51b15bacfa710553aa7b17da721e55c7c7dd3a2ac76806651751c103"
+    }
+  }
+}

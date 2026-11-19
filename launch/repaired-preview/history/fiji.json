@@ -1,0 +1,627 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 4,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 593585,
+        "role": "editable-source",
+        "sha256": "69b9873aa52ee22b4503b2f9dc3f83a1d36f956ecfd92e1b5e9a17659edcf29e",
+        "source": {
+          "commit": "46980940daf52b8072fa6893efa41a6763ab3beb",
+          "path": "preview/fiji-v1/fiji.blend"
+        },
+        "uri": "sha256:69b9873aa52ee22b4503b2f9dc3f83a1d36f956ecfd92e1b5e9a17659edcf29e"
+      },
+      {
+        "bytes": 6450761,
+        "role": "historical-source-archive",
+        "sha256": "83a9764e299a91f230d6309c6f2d25f8cbc380de91daf10e9b199d5418750e76",
+        "source": {
+          "commit": "46980940daf52b8072fa6893efa41a6763ab3beb",
+          "kind": "git",
+          "path": "preview/fiji-v1/fiji-v1-source.zip"
+        },
+        "uri": "sha256:83a9764e299a91f230d6309c6f2d25f8cbc380de91daf10e9b199d5418750e76"
+      },
+      {
+        "bytes": 1387968,
+        "role": "model",
+        "sha256": "5314ec3211b54e66aa5bf0cfb1ec85ca8dd541f6a689d44b0dcebc3afbc78411",
+        "source": {
+          "commit": "46980940daf52b8072fa6893efa41a6763ab3beb",
+          "path": "preview/fiji-v1/fiji.glb"
+        },
+        "uri": "sha256:5314ec3211b54e66aa5bf0cfb1ec85ca8dd541f6a689d44b0dcebc3afbc78411"
+      },
+      {
+        "bytes": 71334,
+        "role": "promotional-illustration",
+        "sha256": "b6695b2eaa2061a6e257ed1aa0019976c9ba42c282497416a3419947c5410800",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/fiji.webp"
+        },
+        "uri": "sha256:b6695b2eaa2061a6e257ed1aa0019976c9ba42c282497416a3419947c5410800"
+      },
+      {
+        "bytes": 3510,
+        "role": "research-brief",
+        "sha256": "ed69801ce027c8e6c370c5d9d5af12bbc81d2be1bf9dece8f54a3c593695c6e7",
+        "source": {
+          "commit": "46980940daf52b8072fa6893efa41a6763ab3beb",
+          "path": "preview/fiji-v1/design-brief.md"
+        },
+        "uri": "sha256:ed69801ce027c8e6c370c5d9d5af12bbc81d2be1bf9dece8f54a3c593695c6e7"
+      },
+      {
+        "bytes": 6019,
+        "role": "source-notice",
+        "sha256": "c10204c27e2b37cf5aee1ab6a3843796852f829bf9bf5380334890301fa68caa",
+        "source": {
+          "commit": "46980940daf52b8072fa6893efa41a6763ab3beb",
+          "path": "preview/fiji-v1/README.md"
+        },
+        "uri": "sha256:c10204c27e2b37cf5aee1ab6a3843796852f829bf9bf5380334890301fa68caa"
+      },
+      {
+        "bytes": 2662852,
+        "role": "viewer",
+        "sha256": "2610cf88e6a5edc40e3416c88c24af39b1b671e18276b8d079e140a23808ce48",
+        "source": {
+          "commit": "46980940daf52b8072fa6893efa41a6763ab3beb",
+          "path": "preview/fiji-v1/fiji-v1.html"
+        },
+        "uri": "sha256:2610cf88e6a5edc40e3416c88c24af39b1b671e18276b8d079e140a23808ce48"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "fiji",
+    "independent_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "captures": [
+        "parent/smoke/fiji/desktop-closed.png",
+        "parent/smoke/fiji/desktop-open.png",
+        "parent/smoke/fiji/mobile-closed.png",
+        "parent/smoke/fiji/mobile-open.png"
+      ],
+      "fresh_browser": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.3949999809265137,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1387968,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 7,
+            "meshes": 63,
+            "nonfinite": 0,
+            "triangles": 15682
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "fiji",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "2610cf88e6a5edc40e3416c88c24af39b1b671e18276b8d079e140a23808ce48"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.3949999809265137,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1387968,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 7,
+            "meshes": 63,
+            "nonfinite": 0,
+            "triangles": 15682
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "fiji",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "2610cf88e6a5edc40e3416c88c24af39b1b671e18276b8d079e140a23808ce48"
+        }
+      ],
+      "fresh_motion": {
+        "exit_code": 0,
+        "id": "fiji",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "46980940daf52b8072fa6893efa41a6763ab3beb",
+            "path": "preview/fiji-v1/motion.mjs",
+            "sha256": "dd2ae120aa7057ada484c11e38ff403aebe143bef7023dba6c2d861a01bce62b"
+          }
+        ]
+      },
+      "fresh_runtime_captures": [
+        "smoke/fiji/desktop-closed.png",
+        "smoke/fiji/desktop-open.png",
+        "smoke/fiji/mobile-closed.png",
+        "smoke/fiji/mobile-open.png"
+      ],
+      "id": "fiji",
+      "independent_visual_findings": "Masi bands and lagoon retained; lighter wood-grained lid, reduced rocky summit distinction and surf detail.",
+      "inspection": "deleg_5910ddb9 tasks 0-4 inspected four original PNGs and promotional WebP per ID; lead Malta comparison reinspection",
+      "launch_ready": false,
+      "packaging_verdict": "pass",
+      "parent_findings": {
+        "hardware": "Caps, clasp, disk and ring retained; coherent open hinge appearance.",
+        "terrain": "Pale reef, turquoise lagoon and three islands preserved.",
+        "texture": "Faceted terrain, enamel-like water and abrupt patterned panel joins; reduced fiber detail."
+      },
+      "parent_remaining_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-04 review"
+      ],
+      "parent_status": "pass",
+      "polish_iterations": 0,
+      "proven_runtime_defects": [],
+      "remaining_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "selection": {
+        "commit": "46980940daf52b8072fa6893efa41a6763ab3beb",
+        "fetched_tip": "46980940daf52b8072fa6893efa41a6763ab3beb",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/fiji-v1"
+      },
+      "source_archive_audit": {
+        "archives": [
+          {
+            "internal_inventory_checked": 64,
+            "provenance": {
+              "bytes": 6450761,
+              "commit": "46980940daf52b8072fa6893efa41a6763ab3beb",
+              "crc_error": null,
+              "entries": 65,
+              "inventory_checked": true,
+              "inventory_entries": 64,
+              "inventory_mismatches": [],
+              "kind": "git",
+              "path": "preview/fiji-v1/fiji-v1-source.zip",
+              "required_payloads": {
+                "fiji-v1.html": true,
+                "fiji.blend": true,
+                "fiji.glb": true
+              },
+              "safe_unique_paths": true,
+              "sha256": "83a9764e299a91f230d6309c6f2d25f8cbc380de91daf10e9b199d5418750e76"
+            },
+            "safe_unique_crc": true,
+            "selected_payload_checks": [
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "fiji-v1.html",
+                "sha256": "2610cf88e6a5edc40e3416c88c24af39b1b671e18276b8d079e140a23808ce48"
+              },
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "fiji.blend",
+                "sha256": "69b9873aa52ee22b4503b2f9dc3f83a1d36f956ecfd92e1b5e9a17659edcf29e"
+              },
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "fiji.glb",
+                "sha256": "5314ec3211b54e66aa5bf0cfb1ec85ca8dd541f6a689d44b0dcebc3afbc78411"
+              }
+            ]
+          }
+        ],
+        "id": "fiji",
+        "sources": [
+          {
+            "bytes": 593585,
+            "commit": "46980940daf52b8072fa6893efa41a6763ab3beb",
+            "path": "preview/fiji-v1/fiji.blend",
+            "role": "selected-model",
+            "sha256": "69b9873aa52ee22b4503b2f9dc3f83a1d36f956ecfd92e1b5e9a17659edcf29e"
+          },
+          {
+            "bytes": 1387968,
+            "commit": "46980940daf52b8072fa6893efa41a6763ab3beb",
+            "path": "preview/fiji-v1/fiji.glb",
+            "role": "selected-model",
+            "sha256": "5314ec3211b54e66aa5bf0cfb1ec85ca8dd541f6a689d44b0dcebc3afbc78411",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 63,
+              "nodes": 65
+            }
+          }
+        ],
+        "viewer": {
+          "bytes": 2662852,
+          "commit": "46980940daf52b8072fa6893efa41a6763ab3beb",
+          "path": "preview/fiji-v1/fiji-v1.html",
+          "sha256": "2610cf88e6a5edc40e3416c88c24af39b1b671e18276b8d079e140a23808ce48",
+          "under_5000000": true
+        }
+      },
+      "user_final_approved": false,
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 2662852,
+        "commit": "46980940daf52b8072fa6893efa41a6763ab3beb",
+        "path": "preview/fiji-v1/fiji-v1.html",
+        "sha256": "2610cf88e6a5edc40e3416c88c24af39b1b671e18276b8d079e140a23808ce48",
+        "under_5000000": true
+      },
+      "visual_verdict": "candidate-with-limitations"
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Fiji",
+    "package_history": [
+      {
+        "bytes": 6450761,
+        "commit": "46980940daf52b8072fa6893efa41a6763ab3beb",
+        "crc_error": null,
+        "entries": 65,
+        "inventory_checked": true,
+        "inventory_entries": 64,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/fiji-v1/fiji-v1-source.zip",
+        "required_payloads": {
+          "fiji-v1.html": true,
+          "fiji.blend": true,
+          "fiji.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "83a9764e299a91f230d6309c6f2d25f8cbc380de91daf10e9b199d5418750e76"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "46980940daf52b8072fa6893efa41a6763ab3beb",
+      "fetched_tip": "46980940daf52b8072fa6893efa41a6763ab3beb",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/fiji-v1"
+    },
+    "verdict": "candidate-with-limitations",
+    "viewer": {
+      "bytes": 2662852,
+      "commit": "46980940daf52b8072fa6893efa41a6763ab3beb",
+      "path": "preview/fiji-v1/fiji-v1.html",
+      "sha256": "2610cf88e6a5edc40e3416c88c24af39b1b671e18276b8d079e140a23808ce48",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "fiji",
+    "baseline_verdict": "candidate-with-limitations",
+    "actions": [
+      "owner art/finish acceptance; no proven runtime defect recorded; no autonomous redesign"
+    ],
+    "approval": false,
+    "original_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "captures": [
+        "parent/smoke/fiji/desktop-closed.png",
+        "parent/smoke/fiji/desktop-open.png",
+        "parent/smoke/fiji/mobile-closed.png",
+        "parent/smoke/fiji/mobile-open.png"
+      ],
+      "fresh_browser": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.3949999809265137,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1387968,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 7,
+            "meshes": 63,
+            "nonfinite": 0,
+            "triangles": 15682
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "fiji",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "2610cf88e6a5edc40e3416c88c24af39b1b671e18276b8d079e140a23808ce48"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.3949999809265137,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1387968,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 7,
+            "meshes": 63,
+            "nonfinite": 0,
+            "triangles": 15682
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "fiji",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "2610cf88e6a5edc40e3416c88c24af39b1b671e18276b8d079e140a23808ce48"
+        }
+      ],
+      "fresh_motion": {
+        "exit_code": 0,
+        "id": "fiji",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "46980940daf52b8072fa6893efa41a6763ab3beb",
+            "path": "preview/fiji-v1/motion.mjs",
+            "sha256": "dd2ae120aa7057ada484c11e38ff403aebe143bef7023dba6c2d861a01bce62b"
+          }
+        ]
+      },
+      "fresh_runtime_captures": [
+        "smoke/fiji/desktop-closed.png",
+        "smoke/fiji/desktop-open.png",
+        "smoke/fiji/mobile-closed.png",
+        "smoke/fiji/mobile-open.png"
+      ],
+      "id": "fiji",
+      "independent_visual_findings": "Masi bands and lagoon retained; lighter wood-grained lid, reduced rocky summit distinction and surf detail.",
+      "inspection": "deleg_5910ddb9 tasks 0-4 inspected four original PNGs and promotional WebP per ID; lead Malta comparison reinspection",
+      "launch_ready": false,
+      "packaging_verdict": "pass",
+      "parent_findings": {
+        "hardware": "Caps, clasp, disk and ring retained; coherent open hinge appearance.",
+        "terrain": "Pale reef, turquoise lagoon and three islands preserved.",
+        "texture": "Faceted terrain, enamel-like water and abrupt patterned panel joins; reduced fiber detail."
+      },
+      "parent_remaining_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-04 review"
+      ],
+      "parent_status": "pass",
+      "polish_iterations": 0,
+      "proven_runtime_defects": [],
+      "remaining_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "selection": {
+        "commit": "46980940daf52b8072fa6893efa41a6763ab3beb",
+        "fetched_tip": "46980940daf52b8072fa6893efa41a6763ab3beb",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/fiji-v1"
+      },
+      "source_archive_audit": {
+        "archives": [
+          {
+            "internal_inventory_checked": 64,
+            "provenance": {
+              "bytes": 6450761,
+              "commit": "46980940daf52b8072fa6893efa41a6763ab3beb",
+              "crc_error": null,
+              "entries": 65,
+              "inventory_checked": true,
+              "inventory_entries": 64,
+              "inventory_mismatches": [],
+              "kind": "git",
+              "path": "preview/fiji-v1/fiji-v1-source.zip",
+              "required_payloads": {
+                "fiji-v1.html": true,
+                "fiji.blend": true,
+                "fiji.glb": true
+              },
+              "safe_unique_paths": true,
+              "sha256": "83a9764e299a91f230d6309c6f2d25f8cbc380de91daf10e9b199d5418750e76"
+            },
+            "safe_unique_crc": true,
+            "selected_payload_checks": [
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "fiji-v1.html",
+                "sha256": "2610cf88e6a5edc40e3416c88c24af39b1b671e18276b8d079e140a23808ce48"
+              },
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "fiji.blend",
+                "sha256": "69b9873aa52ee22b4503b2f9dc3f83a1d36f956ecfd92e1b5e9a17659edcf29e"
+              },
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "fiji.glb",
+                "sha256": "5314ec3211b54e66aa5bf0cfb1ec85ca8dd541f6a689d44b0dcebc3afbc78411"
+              }
+            ]
+          }
+        ],
+        "id": "fiji",
+        "sources": [
+          {
+            "bytes": 593585,
+            "commit": "46980940daf52b8072fa6893efa41a6763ab3beb",
+            "path": "preview/fiji-v1/fiji.blend",
+            "role": "selected-model",
+            "sha256": "69b9873aa52ee22b4503b2f9dc3f83a1d36f956ecfd92e1b5e9a17659edcf29e"
+          },
+          {
+            "bytes": 1387968,
+            "commit": "46980940daf52b8072fa6893efa41a6763ab3beb",
+            "path": "preview/fiji-v1/fiji.glb",
+            "role": "selected-model",
+            "sha256": "5314ec3211b54e66aa5bf0cfb1ec85ca8dd541f6a689d44b0dcebc3afbc78411",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 63,
+              "nodes": 65
+            }
+          }
+        ],
+        "viewer": {
+          "bytes": 2662852,
+          "commit": "46980940daf52b8072fa6893efa41a6763ab3beb",
+          "path": "preview/fiji-v1/fiji-v1.html",
+          "sha256": "2610cf88e6a5edc40e3416c88c24af39b1b671e18276b8d079e140a23808ce48",
+          "under_5000000": true
+        }
+      },
+      "user_final_approved": false,
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 2662852,
+        "commit": "46980940daf52b8072fa6893efa41a6763ab3beb",
+        "path": "preview/fiji-v1/fiji-v1.html",
+        "sha256": "2610cf88e6a5edc40e3416c88c24af39b1b671e18276b8d079e140a23808ce48",
+        "under_5000000": true
+      },
+      "visual_verdict": "candidate-with-limitations"
+    },
+    "package_history": [
+      {
+        "bytes": 6450761,
+        "commit": "46980940daf52b8072fa6893efa41a6763ab3beb",
+        "crc_error": null,
+        "entries": 65,
+        "inventory_checked": true,
+        "inventory_entries": 64,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/fiji-v1/fiji-v1-source.zip",
+        "required_payloads": {
+          "fiji-v1.html": true,
+          "fiji.blend": true,
+          "fiji.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "83a9764e299a91f230d6309c6f2d25f8cbc380de91daf10e9b199d5418750e76"
+      }
+    ]
+  }
+}

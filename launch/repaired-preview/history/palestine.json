@@ -1,0 +1,933 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 8,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 1062970,
+        "role": "editable-source",
+        "sha256": "c1f063b367792b1d458463a0d8aa97d4bf1c263f61be4d845ed75c7515a0e58e",
+        "source": {
+          "commit": "c651b11efa4be3158c1f4bed8a2b289f101f2398",
+          "path": "preview/palestine-v1/palestine.blend"
+        },
+        "uri": "sha256:c1f063b367792b1d458463a0d8aa97d4bf1c263f61be4d845ed75c7515a0e58e"
+      },
+      {
+        "bytes": 7556507,
+        "role": "historical-source-archive",
+        "sha256": "0fa04df590650e24354747bef32b6c6bd683c82c684f009bdfb3780c8e216cf9",
+        "source": {
+          "commit": "c651b11efa4be3158c1f4bed8a2b289f101f2398",
+          "kind": "git",
+          "path": "preview/palestine-v1/palestine-v1-source.zip"
+        },
+        "uri": "sha256:0fa04df590650e24354747bef32b6c6bd683c82c684f009bdfb3780c8e216cf9"
+      },
+      {
+        "bytes": 2732592,
+        "role": "model",
+        "sha256": "75381d0cf2debba83816686ebd2b791c9d3c058f6af6bd3894cd6f35dd389156",
+        "source": {
+          "commit": "c651b11efa4be3158c1f4bed8a2b289f101f2398",
+          "path": "preview/palestine-v1/palestine.glb"
+        },
+        "uri": "sha256:75381d0cf2debba83816686ebd2b791c9d3c058f6af6bd3894cd6f35dd389156"
+      },
+      {
+        "bytes": 44146,
+        "role": "promotional-illustration",
+        "sha256": "527fe3b3d47af0ed251c51cbe1a9571493674102af58e05935aa9f2be3733c6e",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/palestine.webp"
+        },
+        "uri": "sha256:527fe3b3d47af0ed251c51cbe1a9571493674102af58e05935aa9f2be3733c6e"
+      },
+      {
+        "bytes": 2463,
+        "role": "research-brief",
+        "sha256": "742cbb6e514de1c0f482a8423062819313ef1931f9be1ef102d0d13f7035eabc",
+        "source": {
+          "commit": "c651b11efa4be3158c1f4bed8a2b289f101f2398",
+          "path": "preview/palestine-v1/design-brief.md"
+        },
+        "uri": "sha256:742cbb6e514de1c0f482a8423062819313ef1931f9be1ef102d0d13f7035eabc"
+      },
+      {
+        "bytes": 4298,
+        "role": "source-notice",
+        "sha256": "37aff420b968b944e7210597f2153ef7473ffc7681f01c9c84a2763b111d6cd8",
+        "source": {
+          "commit": "c651b11efa4be3158c1f4bed8a2b289f101f2398",
+          "path": "preview/palestine-v1/README.md"
+        },
+        "uri": "sha256:37aff420b968b944e7210597f2153ef7473ffc7681f01c9c84a2763b111d6cd8"
+      },
+      {
+        "bytes": 4439132,
+        "role": "viewer",
+        "sha256": "84c142d467f6ccaeb13a2ffc48d41908cd285817e4440a4fe1e0cbc31e8dceec",
+        "source": {
+          "commit": "c651b11efa4be3158c1f4bed8a2b289f101f2398",
+          "path": "preview/palestine-v1/palestine-v1.html"
+        },
+        "uri": "sha256:84c142d467f6ccaeb13a2ffc48d41908cd285817e4440a4fe1e0cbc31e8dceec"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "palestine",
+    "independent_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "capture_base": "parent/",
+      "captures": [
+        "smoke/palestine/desktop-closed.png",
+        "smoke/palestine/desktop-open.png",
+        "smoke/palestine/mobile-closed.png",
+        "smoke/palestine/mobile-open.png"
+      ],
+      "critical_reproducible_failures": [],
+      "final_approval": false,
+      "fresh_checks": {
+        "blender_parity_collision": false,
+        "fallback": false,
+        "full_inner_archive_inventories": true,
+        "motion": false,
+        "original_captures_and_marketing_inspected": true,
+        "runtime": false,
+        "source_and_delivered_viewer_hashes": true,
+        "source_archive_crc_safe_paths_required_payloads": true
+      },
+      "historical_runtime": {
+        "browser": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.865999988745898,
+                  2.049999952316284,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 2732592,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 8,
+              "meshes": 228,
+              "nonfinite": 0,
+              "triangles": 30248
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "palestine",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "84c142d467f6ccaeb13a2ffc48d41908cd285817e4440a4fe1e0cbc31e8dceec"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.865999988745898,
+                  2.049999952316284,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 2732592,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 8,
+              "meshes": 228,
+              "nonfinite": 0,
+              "triangles": 30248
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "palestine",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "84c142d467f6ccaeb13a2ffc48d41908cd285817e4440a4fe1e0cbc31e8dceec"
+          }
+        ],
+        "extended": {
+          "geometry": {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.865999988745898,
+                  2.049999952316284,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 2732592,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 8,
+              "meshes": 228,
+              "nonfinite": 0,
+              "triangles": 30248
+            },
+            "meshes": 228,
+            "nonfinite": 0,
+            "triangles": 30248
+          },
+          "id": "palestine",
+          "no_js_poster": true
+        },
+        "motion": {
+          "exit_code": 0,
+          "id": "palestine",
+          "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+          "source": [
+            {
+              "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+              "path": "preview/albania-v1/tests.mjs",
+              "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+            },
+            {
+              "commit": "c651b11efa4be3158c1f4bed8a2b289f101f2398",
+              "path": "preview/palestine-v1/motion.mjs",
+              "sha256": "dccb313644aadbbe20f3680324fb911dd90ce2b96a93e11eede7935f9ba41084"
+            }
+          ]
+        },
+        "parent_commit": "431e51ffb5a8704b5f8f8b11694d28befae18402"
+      },
+      "id": "palestine",
+      "independent_visual": {
+        "assessment": {
+          "concrete_defects": [
+            "Closed previews and marketing share a conspicuous dark lid reveal. Corner/joint transitions look coarse, especially on mobile; no failed closure is demonstrated.",
+            "Thin stitching and hardware edges lose definition at mobile scale; rough irregular feet contrast with the smooth body but are already present in marketing."
+          ],
+          "framing": "Entire object, raised lid/latch in open views and visible feet remain in frame on desktop and mobile; no obvious UI overlap or asset cropping. Small presentation scale limits detailed hardware assessment.",
+          "id": "palestine",
+          "inspected_paths": [
+            "parent/smoke/palestine/desktop-closed.png",
+            "parent/smoke/palestine/desktop-open.png",
+            "parent/smoke/palestine/mobile-closed.png",
+            "parent/smoke/palestine/mobile-open.png",
+            "parent/sources/palestine/marketing.webp"
+          ],
+          "limitations": [
+            "All five original images inspected individually with vision; static endpoint screenshots do not establish motion, hinge/latch operation, clearance, physical buildability, or custody behavior. A released latch in an open view is not itself a defect.",
+            "Only the depicted angles and screenshot resolutions were reviewed; hidden faces and fine attachment details remain unverified. Stylized collectible imagery is not a mechanically validated product or authenticated traditional craft. No final approval or art changes.",
+            "Honey-colored wooden body, charcoal lid panel, red geometric stitching, brass fittings and irregular gray stone-like feet correspond across marketing and closed views. The textile decoration is on the outer lid and naturally not visible in the open views; its absence there is not a missing-motif defect."
+          ],
+          "verdict": "candidate-with-limitations"
+        },
+        "report": "visual-d.json"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-08 review"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 44146,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/palestine.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "Geometric panel and wood joinery retained.",
+          "reviewStatus": "accepted",
+          "sha256": "ff821bee9e72a0e38392565f84cf14a5f9636723640f0117b265ab6bc4587a93",
+          "source": "assets/gallery/palestine.webp",
+          "sourceSha256": "0ad3ba22268f9fb0331083c1270c31878201e21f1693bef12b4678b821cc5904",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "527fe3b3d47af0ed251c51cbe1a9571493674102af58e05935aa9f2be3733c6e"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_verdict": "pass",
+      "parent_visual": {
+        "decision": "Bounded pass for an embroidery-inspired stylized candidate, explicitly retaining ambiguous diamond reading and weak mobile textile detail; not an authentic-pattern or thread-realism approval.",
+        "hardware": "Brass clasp/corner caps and side ring present; front metal blends somewhat with honey wood. Open latch separation is intentional; rear hinge details remain small. Gray irregular feet are visible.",
+        "limitations": "Frozen still-image review only; supplied technical passes were not rerun. No final user approval, photoreal equivalence, physical-phone performance, cultural authentication or continuous mechanical certification. Open disengaged latch is expected; hidden exterior lid ornament in open views is not missing. Invented arrangement is not authenticated regional embroidery; wood/brass are family choices. Surface-mounted rather than recessed panel and noisy historical source poster are documented limitations.",
+        "quality": "Warm wooden shell, dark bordered stitch panel and red geometric accents are clear; open cavity and full silhouette fit both viewports. Marketing broadly preserves the actual composition.",
+        "terrain": "Not applicable: raised stitch motif on a surface-mounted dark plaque. At oblique/mobile scale the three intended diamonds read as stepped or linked rectangular outlines rather than distinctly separated diamonds; marketing also reads as linked stepped rectangles.",
+        "texture": "Actual wood grain reads evenly patterned; charcoal weave and individual thread twist/penetration are unresolved. Crimson relief appears regular, relatively flat and sometimes coral. Marketing is cleaner and more tactile but not proof of real embroidery."
+      },
+      "parent_visual_hold_preserved": false,
+      "reviewed_image_hashes": [
+        {
+          "bytes": 351323,
+          "path": "smoke/palestine/desktop-closed.png",
+          "sha256": "030df383f7d6676a745f829f4871a18c145e695d5b97644c05ac75f69ca5ebfe"
+        },
+        {
+          "bytes": 367168,
+          "path": "smoke/palestine/desktop-open.png",
+          "sha256": "aed204d4ed8eaecf747dcb63e2837d32b751593a8fba8240296e5126e58e237f"
+        },
+        {
+          "bytes": 113773,
+          "path": "smoke/palestine/mobile-closed.png",
+          "sha256": "a4fa88fdb42db4ce672d57dc6795f0b7b0adbd397b2a0818c79787824521e6b7"
+        },
+        {
+          "bytes": 112367,
+          "path": "smoke/palestine/mobile-open.png",
+          "sha256": "3d8a5e7ead41a91aab2e1e30b919f76adf743ffb9741cc93bb09d9cba0811b36"
+        },
+        {
+          "bytes": 44146,
+          "path": "sources/palestine/marketing.webp",
+          "sha256": "527fe3b3d47af0ed251c51cbe1a9571493674102af58e05935aa9f2be3733c6e"
+        }
+      ],
+      "selection": {
+        "commit": "c651b11efa4be3158c1f4bed8a2b289f101f2398",
+        "fetched_tip": "c651b11efa4be3158c1f4bed8a2b289f101f2398",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/palestine-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 7556507,
+          "commit": "c651b11efa4be3158c1f4bed8a2b289f101f2398",
+          "crc_error": null,
+          "entries": 54,
+          "fresh_crc_safe_unique": true,
+          "fresh_inner_inventory_entries": 53,
+          "fresh_required_payloads": [
+            {
+              "member": "palestine-v1.html",
+              "path": "preview/palestine-v1/palestine-v1.html",
+              "sha256": "84c142d467f6ccaeb13a2ffc48d41908cd285817e4440a4fe1e0cbc31e8dceec"
+            },
+            {
+              "member": "palestine.blend",
+              "path": "preview/palestine-v1/palestine.blend",
+              "sha256": "c1f063b367792b1d458463a0d8aa97d4bf1c263f61be4d845ed75c7515a0e58e"
+            },
+            {
+              "member": "palestine.glb",
+              "path": "preview/palestine-v1/palestine.glb",
+              "sha256": "75381d0cf2debba83816686ebd2b791c9d3c058f6af6bd3894cd6f35dd389156"
+            }
+          ],
+          "inventory_checked": true,
+          "inventory_entries": 53,
+          "inventory_mismatches": [],
+          "kind": "git",
+          "path": "preview/palestine-v1/palestine-v1-source.zip",
+          "required_payloads": {
+            "palestine-v1.html": true,
+            "palestine.blend": true,
+            "palestine.glb": true
+          },
+          "safe_unique_paths": true,
+          "sha256": "0fa04df590650e24354747bef32b6c6bd683c82c684f009bdfb3780c8e216cf9"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 1062970,
+          "commit": "c651b11efa4be3158c1f4bed8a2b289f101f2398",
+          "path": "preview/palestine-v1/palestine.blend",
+          "role": "selected-model",
+          "sha256": "c1f063b367792b1d458463a0d8aa97d4bf1c263f61be4d845ed75c7515a0e58e"
+        },
+        {
+          "bytes": 2732592,
+          "commit": "c651b11efa4be3158c1f4bed8a2b289f101f2398",
+          "path": "preview/palestine-v1/palestine.glb",
+          "role": "selected-model",
+          "sha256": "75381d0cf2debba83816686ebd2b791c9d3c058f6af6bd3894cd6f35dd389156",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 228,
+            "nodes": 230
+          }
+        }
+      ],
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 4439132,
+        "commit": "c651b11efa4be3158c1f4bed8a2b289f101f2398",
+        "path": "preview/palestine-v1/palestine-v1.html",
+        "sha256": "84c142d467f6ccaeb13a2ffc48d41908cd285817e4440a4fe1e0cbc31e8dceec",
+        "under_5000000": true
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Palestine",
+    "package_history": [
+      {
+        "bytes": 7556507,
+        "commit": "c651b11efa4be3158c1f4bed8a2b289f101f2398",
+        "crc_error": null,
+        "entries": 54,
+        "inventory_checked": true,
+        "inventory_entries": 53,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/palestine-v1/palestine-v1-source.zip",
+        "required_payloads": {
+          "palestine-v1.html": true,
+          "palestine.blend": true,
+          "palestine.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "0fa04df590650e24354747bef32b6c6bd683c82c684f009bdfb3780c8e216cf9"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "c651b11efa4be3158c1f4bed8a2b289f101f2398",
+      "fetched_tip": "c651b11efa4be3158c1f4bed8a2b289f101f2398",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/palestine-v1"
+    },
+    "verdict": "candidate-with-limitations",
+    "viewer": {
+      "bytes": 4439132,
+      "commit": "c651b11efa4be3158c1f4bed8a2b289f101f2398",
+      "path": "preview/palestine-v1/palestine-v1.html",
+      "sha256": "84c142d467f6ccaeb13a2ffc48d41908cd285817e4440a4fe1e0cbc31e8dceec",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "palestine",
+    "baseline_verdict": "candidate-with-limitations",
+    "actions": [
+      "remaining ordinary finish inspection; do not edit promotional-only differences or infer broken model"
+    ],
+    "approval": false,
+    "original_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "capture_base": "parent/",
+      "captures": [
+        "smoke/palestine/desktop-closed.png",
+        "smoke/palestine/desktop-open.png",
+        "smoke/palestine/mobile-closed.png",
+        "smoke/palestine/mobile-open.png"
+      ],
+      "critical_reproducible_failures": [],
+      "final_approval": false,
+      "fresh_checks": {
+        "blender_parity_collision": false,
+        "fallback": false,
+        "full_inner_archive_inventories": true,
+        "motion": false,
+        "original_captures_and_marketing_inspected": true,
+        "runtime": false,
+        "source_and_delivered_viewer_hashes": true,
+        "source_archive_crc_safe_paths_required_payloads": true
+      },
+      "historical_runtime": {
+        "browser": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.865999988745898,
+                  2.049999952316284,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 2732592,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 8,
+              "meshes": 228,
+              "nonfinite": 0,
+              "triangles": 30248
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "palestine",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "84c142d467f6ccaeb13a2ffc48d41908cd285817e4440a4fe1e0cbc31e8dceec"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.865999988745898,
+                  2.049999952316284,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 2732592,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 8,
+              "meshes": 228,
+              "nonfinite": 0,
+              "triangles": 30248
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "palestine",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "84c142d467f6ccaeb13a2ffc48d41908cd285817e4440a4fe1e0cbc31e8dceec"
+          }
+        ],
+        "extended": {
+          "geometry": {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.865999988745898,
+                  2.049999952316284,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 2732592,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 8,
+              "meshes": 228,
+              "nonfinite": 0,
+              "triangles": 30248
+            },
+            "meshes": 228,
+            "nonfinite": 0,
+            "triangles": 30248
+          },
+          "id": "palestine",
+          "no_js_poster": true
+        },
+        "motion": {
+          "exit_code": 0,
+          "id": "palestine",
+          "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+          "source": [
+            {
+              "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+              "path": "preview/albania-v1/tests.mjs",
+              "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+            },
+            {
+              "commit": "c651b11efa4be3158c1f4bed8a2b289f101f2398",
+              "path": "preview/palestine-v1/motion.mjs",
+              "sha256": "dccb313644aadbbe20f3680324fb911dd90ce2b96a93e11eede7935f9ba41084"
+            }
+          ]
+        },
+        "parent_commit": "431e51ffb5a8704b5f8f8b11694d28befae18402"
+      },
+      "id": "palestine",
+      "independent_visual": {
+        "assessment": {
+          "concrete_defects": [
+            "Closed previews and marketing share a conspicuous dark lid reveal. Corner/joint transitions look coarse, especially on mobile; no failed closure is demonstrated.",
+            "Thin stitching and hardware edges lose definition at mobile scale; rough irregular feet contrast with the smooth body but are already present in marketing."
+          ],
+          "framing": "Entire object, raised lid/latch in open views and visible feet remain in frame on desktop and mobile; no obvious UI overlap or asset cropping. Small presentation scale limits detailed hardware assessment.",
+          "id": "palestine",
+          "inspected_paths": [
+            "parent/smoke/palestine/desktop-closed.png",
+            "parent/smoke/palestine/desktop-open.png",
+            "parent/smoke/palestine/mobile-closed.png",
+            "parent/smoke/palestine/mobile-open.png",
+            "parent/sources/palestine/marketing.webp"
+          ],
+          "limitations": [
+            "All five original images inspected individually with vision; static endpoint screenshots do not establish motion, hinge/latch operation, clearance, physical buildability, or custody behavior. A released latch in an open view is not itself a defect.",
+            "Only the depicted angles and screenshot resolutions were reviewed; hidden faces and fine attachment details remain unverified. Stylized collectible imagery is not a mechanically validated product or authenticated traditional craft. No final approval or art changes.",
+            "Honey-colored wooden body, charcoal lid panel, red geometric stitching, brass fittings and irregular gray stone-like feet correspond across marketing and closed views. The textile decoration is on the outer lid and naturally not visible in the open views; its absence there is not a missing-motif defect."
+          ],
+          "verdict": "candidate-with-limitations"
+        },
+        "report": "visual-d.json"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-08 review"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 44146,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/palestine.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "Geometric panel and wood joinery retained.",
+          "reviewStatus": "accepted",
+          "sha256": "ff821bee9e72a0e38392565f84cf14a5f9636723640f0117b265ab6bc4587a93",
+          "source": "assets/gallery/palestine.webp",
+          "sourceSha256": "0ad3ba22268f9fb0331083c1270c31878201e21f1693bef12b4678b821cc5904",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "527fe3b3d47af0ed251c51cbe1a9571493674102af58e05935aa9f2be3733c6e"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_verdict": "pass",
+      "parent_visual": {
+        "decision": "Bounded pass for an embroidery-inspired stylized candidate, explicitly retaining ambiguous diamond reading and weak mobile textile detail; not an authentic-pattern or thread-realism approval.",
+        "hardware": "Brass clasp/corner caps and side ring present; front metal blends somewhat with honey wood. Open latch separation is intentional; rear hinge details remain small. Gray irregular feet are visible.",
+        "limitations": "Frozen still-image review only; supplied technical passes were not rerun. No final user approval, photoreal equivalence, physical-phone performance, cultural authentication or continuous mechanical certification. Open disengaged latch is expected; hidden exterior lid ornament in open views is not missing. Invented arrangement is not authenticated regional embroidery; wood/brass are family choices. Surface-mounted rather than recessed panel and noisy historical source poster are documented limitations.",
+        "quality": "Warm wooden shell, dark bordered stitch panel and red geometric accents are clear; open cavity and full silhouette fit both viewports. Marketing broadly preserves the actual composition.",
+        "terrain": "Not applicable: raised stitch motif on a surface-mounted dark plaque. At oblique/mobile scale the three intended diamonds read as stepped or linked rectangular outlines rather than distinctly separated diamonds; marketing also reads as linked stepped rectangles.",
+        "texture": "Actual wood grain reads evenly patterned; charcoal weave and individual thread twist/penetration are unresolved. Crimson relief appears regular, relatively flat and sometimes coral. Marketing is cleaner and more tactile but not proof of real embroidery."
+      },
+      "parent_visual_hold_preserved": false,
+      "reviewed_image_hashes": [
+        {
+          "bytes": 351323,
+          "path": "smoke/palestine/desktop-closed.png",
+          "sha256": "030df383f7d6676a745f829f4871a18c145e695d5b97644c05ac75f69ca5ebfe"
+        },
+        {
+          "bytes": 367168,
+          "path": "smoke/palestine/desktop-open.png",
+          "sha256": "aed204d4ed8eaecf747dcb63e2837d32b751593a8fba8240296e5126e58e237f"
+        },
+        {
+          "bytes": 113773,
+          "path": "smoke/palestine/mobile-closed.png",
+          "sha256": "a4fa88fdb42db4ce672d57dc6795f0b7b0adbd397b2a0818c79787824521e6b7"
+        },
+        {
+          "bytes": 112367,
+          "path": "smoke/palestine/mobile-open.png",
+          "sha256": "3d8a5e7ead41a91aab2e1e30b919f76adf743ffb9741cc93bb09d9cba0811b36"
+        },
+        {
+          "bytes": 44146,
+          "path": "sources/palestine/marketing.webp",
+          "sha256": "527fe3b3d47af0ed251c51cbe1a9571493674102af58e05935aa9f2be3733c6e"
+        }
+      ],
+      "selection": {
+        "commit": "c651b11efa4be3158c1f4bed8a2b289f101f2398",
+        "fetched_tip": "c651b11efa4be3158c1f4bed8a2b289f101f2398",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/palestine-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 7556507,
+          "commit": "c651b11efa4be3158c1f4bed8a2b289f101f2398",
+          "crc_error": null,
+          "entries": 54,
+          "fresh_crc_safe_unique": true,
+          "fresh_inner_inventory_entries": 53,
+          "fresh_required_payloads": [
+            {
+              "member": "palestine-v1.html",
+              "path": "preview/palestine-v1/palestine-v1.html",
+              "sha256": "84c142d467f6ccaeb13a2ffc48d41908cd285817e4440a4fe1e0cbc31e8dceec"
+            },
+            {
+              "member": "palestine.blend",
+              "path": "preview/palestine-v1/palestine.blend",
+              "sha256": "c1f063b367792b1d458463a0d8aa97d4bf1c263f61be4d845ed75c7515a0e58e"
+            },
+            {
+              "member": "palestine.glb",
+              "path": "preview/palestine-v1/palestine.glb",
+              "sha256": "75381d0cf2debba83816686ebd2b791c9d3c058f6af6bd3894cd6f35dd389156"
+            }
+          ],
+          "inventory_checked": true,
+          "inventory_entries": 53,
+          "inventory_mismatches": [],
+          "kind": "git",
+          "path": "preview/palestine-v1/palestine-v1-source.zip",
+          "required_payloads": {
+            "palestine-v1.html": true,
+            "palestine.blend": true,
+            "palestine.glb": true
+          },
+          "safe_unique_paths": true,
+          "sha256": "0fa04df590650e24354747bef32b6c6bd683c82c684f009bdfb3780c8e216cf9"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 1062970,
+          "commit": "c651b11efa4be3158c1f4bed8a2b289f101f2398",
+          "path": "preview/palestine-v1/palestine.blend",
+          "role": "selected-model",
+          "sha256": "c1f063b367792b1d458463a0d8aa97d4bf1c263f61be4d845ed75c7515a0e58e"
+        },
+        {
+          "bytes": 2732592,
+          "commit": "c651b11efa4be3158c1f4bed8a2b289f101f2398",
+          "path": "preview/palestine-v1/palestine.glb",
+          "role": "selected-model",
+          "sha256": "75381d0cf2debba83816686ebd2b791c9d3c058f6af6bd3894cd6f35dd389156",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 228,
+            "nodes": 230
+          }
+        }
+      ],
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 4439132,
+        "commit": "c651b11efa4be3158c1f4bed8a2b289f101f2398",
+        "path": "preview/palestine-v1/palestine-v1.html",
+        "sha256": "84c142d467f6ccaeb13a2ffc48d41908cd285817e4440a4fe1e0cbc31e8dceec",
+        "under_5000000": true
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 7556507,
+        "commit": "c651b11efa4be3158c1f4bed8a2b289f101f2398",
+        "crc_error": null,
+        "entries": 54,
+        "inventory_checked": true,
+        "inventory_entries": 53,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/palestine-v1/palestine-v1-source.zip",
+        "required_payloads": {
+          "palestine-v1.html": true,
+          "palestine.blend": true,
+          "palestine.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "0fa04df590650e24354747bef32b6c6bd683c82c684f009bdfb3780c8e216cf9"
+      }
+    ]
+  },
+  "ordinary_record": {
+    "id": "palestine",
+    "disposition": "unchanged-with-explicit-limitations",
+    "correction_passes": 0,
+    "model_geometry_changed": false,
+    "final_approved": false,
+    "launch_ready": false,
+    "original_observations": [
+      "Closed previews and marketing share a conspicuous dark lid reveal. Corner/joint transitions look coarse, especially on mobile; no failed closure is demonstrated.",
+      "Thin stitching and hardware edges lose definition at mobile scale; rough irregular feet contrast with the smooth body but are already present in marketing."
+    ],
+    "independent_adjudication": {
+      "id": "palestine",
+      "disposition": "no-edit",
+      "observation": "Horizontal wood grain, crimson stitch panel, finger-jointed corners and faceted feet are stable across states. Grain and tiny stitching lose definition on mobile.",
+      "rationale": "Gold-toned wood versus subdued promotional wood is taste/lighting. Directional grain and intentional joints are not proof of stretching or broken seams.",
+      "bounded_recommendation": "Retain wood, stitch pattern and joins. A sampler-only check is justified only if actual rotation demonstrates grain/stitch shimmer.",
+      "supersampling": "Not a demonstrated need; filtering would be the first diagnostic for texture minification."
+    },
+    "unresolved_owner_holds": [
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "inherited_holds": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization",
+      "independent QA-ART-08 review"
+    ],
+    "original_review_preserved_in": "baseline.json",
+    "fresh_runtime": {
+      "id": "palestine",
+      "exit_code": 0,
+      "shared_contract": "Bangladesh renderer-independent interaction assertions; no fresh source/collision claim",
+      "results": "launch\\ordinary-finish-20\\runtime\\palestine\\browser-check.json"
+    },
+    "fresh_source_archive": {
+      "id": "palestine",
+      "archives": [
+        {
+          "archive": {
+            "bytes": 7556507,
+            "commit": "c651b11efa4be3158c1f4bed8a2b289f101f2398",
+            "crc_error": null,
+            "entries": 54,
+            "fresh_crc_safe_unique": true,
+            "fresh_inner_inventory_entries": 53,
+            "fresh_required_payloads": [
+              {
+                "member": "palestine-v1.html",
+                "path": "preview/palestine-v1/palestine-v1.html",
+                "sha256": "84c142d467f6ccaeb13a2ffc48d41908cd285817e4440a4fe1e0cbc31e8dceec"
+              },
+              {
+                "member": "palestine.blend",
+                "path": "preview/palestine-v1/palestine.blend",
+                "sha256": "c1f063b367792b1d458463a0d8aa97d4bf1c263f61be4d845ed75c7515a0e58e"
+              },
+              {
+                "member": "palestine.glb",
+                "path": "preview/palestine-v1/palestine.glb",
+                "sha256": "75381d0cf2debba83816686ebd2b791c9d3c058f6af6bd3894cd6f35dd389156"
+              }
+            ],
+            "inventory_checked": true,
+            "inventory_entries": 53,
+            "inventory_mismatches": [],
+            "kind": "git",
+            "path": "preview/palestine-v1/palestine-v1-source.zip",
+            "required_payloads": {
+              "palestine-v1.html": true,
+              "palestine.blend": true,
+              "palestine.glb": true
+            },
+            "safe_unique_paths": true,
+            "sha256": "0fa04df590650e24354747bef32b6c6bd683c82c684f009bdfb3780c8e216cf9"
+          },
+          "members": 54,
+          "fresh_inventory": {
+            "status": "pass",
+            "entries_checked": 53,
+            "uninventoried_members": [
+              "inventory.json"
+            ]
+          },
+          "exact_selected_payloads": [
+            "palestine-v1.html",
+            "palestine.blend",
+            "palestine.glb"
+          ]
+        }
+      ],
+      "pass": true
+    },
+    "remaining_visual_limitations": "Gold-toned wood versus subdued promotional wood is taste/lighting. Directional grain and intentional joints are not proof of stretching or broken seams."
+  }
+}

@@ -1,0 +1,940 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 8,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 746072,
+        "role": "editable-source",
+        "sha256": "c0a9edae9f2d86e231f7988cface21135584920da28dc75804f54146b3186d0c",
+        "source": {
+          "commit": "51f30182601479cd397d14f82cd654540475d469",
+          "path": "preview/tunisia-v1/tunisia.blend"
+        },
+        "uri": "sha256:c0a9edae9f2d86e231f7988cface21135584920da28dc75804f54146b3186d0c"
+      },
+      {
+        "bytes": 6226049,
+        "role": "historical-source-archive",
+        "sha256": "77d401fab66486755ff4b6dfdcd1ab4576fd6c69579575cb17a0b84d842a599e",
+        "source": {
+          "commit": "51f30182601479cd397d14f82cd654540475d469",
+          "kind": "git",
+          "path": "preview/tunisia-v1/tunisia-v1-source.zip"
+        },
+        "uri": "sha256:77d401fab66486755ff4b6dfdcd1ab4576fd6c69579575cb17a0b84d842a599e"
+      },
+      {
+        "bytes": 1573396,
+        "role": "model",
+        "sha256": "0a130d2ec243eab5d0f93c83dc1954c52fa850b292a38ac8380aba366553d4c6",
+        "source": {
+          "commit": "51f30182601479cd397d14f82cd654540475d469",
+          "path": "preview/tunisia-v1/tunisia.glb"
+        },
+        "uri": "sha256:0a130d2ec243eab5d0f93c83dc1954c52fa850b292a38ac8380aba366553d4c6"
+      },
+      {
+        "bytes": 91144,
+        "role": "promotional-illustration",
+        "sha256": "b60a35cf44669716b4e2e2ea4afdc66f1ecd5c73abaa67dbe3c99536e95834bd",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/tunisia.webp"
+        },
+        "uri": "sha256:b60a35cf44669716b4e2e2ea4afdc66f1ecd5c73abaa67dbe3c99536e95834bd"
+      },
+      {
+        "bytes": 2596,
+        "role": "research-brief",
+        "sha256": "c20fb7277edc7f73f2d68de395531cfe2009bcbc3b5adef47b2d63125a2c8d5d",
+        "source": {
+          "commit": "51f30182601479cd397d14f82cd654540475d469",
+          "path": "preview/tunisia-v1/design-brief.md"
+        },
+        "uri": "sha256:c20fb7277edc7f73f2d68de395531cfe2009bcbc3b5adef47b2d63125a2c8d5d"
+      },
+      {
+        "bytes": 5642,
+        "role": "source-notice",
+        "sha256": "c2cdf75df87305754112fb7326ccd28de06089a796eaedeb86af0f7bd938f3c9",
+        "source": {
+          "commit": "51f30182601479cd397d14f82cd654540475d469",
+          "path": "preview/tunisia-v1/README.md"
+        },
+        "uri": "sha256:c2cdf75df87305754112fb7326ccd28de06089a796eaedeb86af0f7bd938f3c9"
+      },
+      {
+        "bytes": 2889913,
+        "role": "viewer",
+        "sha256": "fcf39b868fa85141c7249495bd95dd6524cd6a2029c7d83a3098d3af5a368215",
+        "source": {
+          "commit": "51f30182601479cd397d14f82cd654540475d469",
+          "path": "preview/tunisia-v1/tunisia-v1.html"
+        },
+        "uri": "sha256:fcf39b868fa85141c7249495bd95dd6524cd6a2029c7d83a3098d3af5a368215"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "tunisia",
+    "independent_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "capture_base": "parent/",
+      "captures": [
+        "smoke/tunisia/desktop-closed.png",
+        "smoke/tunisia/desktop-open.png",
+        "smoke/tunisia/mobile-closed.png",
+        "smoke/tunisia/mobile-open.png"
+      ],
+      "critical_reproducible_failures": [],
+      "final_approval": false,
+      "fresh_checks": {
+        "blender_parity_collision": false,
+        "fallback": false,
+        "full_inner_archive_inventories": true,
+        "motion": false,
+        "original_captures_and_marketing_inspected": true,
+        "runtime": false,
+        "source_and_delivered_viewer_hashes": true,
+        "source_archive_crc_safe_paths_required_payloads": true
+      },
+      "historical_runtime": {
+        "browser": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.205818622120458,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1573396,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 7,
+              "meshes": 68,
+              "nonfinite": 0,
+              "triangles": 17644
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "tunisia",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "fcf39b868fa85141c7249495bd95dd6524cd6a2029c7d83a3098d3af5a368215"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.205818622120458,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1573396,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 7,
+              "meshes": 68,
+              "nonfinite": 0,
+              "triangles": 17644
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "tunisia",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "fcf39b868fa85141c7249495bd95dd6524cd6a2029c7d83a3098d3af5a368215"
+          }
+        ],
+        "extended": {
+          "geometry": {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.205818622120458,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1573396,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 7,
+              "meshes": 68,
+              "nonfinite": 0,
+              "triangles": 17644
+            },
+            "meshes": 68,
+            "nonfinite": 0,
+            "triangles": 17644
+          },
+          "id": "tunisia",
+          "no_js_poster": true
+        },
+        "motion": {
+          "exit_code": 0,
+          "id": "tunisia",
+          "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+          "source": [
+            {
+              "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+              "path": "preview/albania-v1/tests.mjs",
+              "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+            },
+            {
+              "commit": "51f30182601479cd397d14f82cd654540475d469",
+              "path": "preview/tunisia-v1/motion.mjs",
+              "sha256": "d61544de9b41521a7b14e81a5e9867ce0fcc387f8852ce57490031b84bf2150e"
+            }
+          ]
+        },
+        "parent_commit": "431e51ffb5a8704b5f8f8b11694d28befae18402"
+      },
+      "id": "tunisia",
+      "independent_visual": {
+        "assessment": {
+          "concrete_defects": [
+            "Fine red/charcoal border geometry loses contrast and becomes pixelated on mobile compared with the stronger zigzag reading in marketing; lines crowd at the front-left junction.",
+            "Broad dark closed-lid seam is conspicuous in both source and viewer, with uneven-looking corner transitions; a fit failure is not proven.",
+            "Mobile open lid tab and rear hinge/rim junction lack clear attachment separation; hardware and dish edges are jagged/faceted. Rounded clay feet partially merge visually with the base."
+          ],
+          "id": "tunisia",
+          "inspected_paths": [
+            "parent/smoke/tunisia/desktop-closed.png",
+            "parent/smoke/tunisia/desktop-open.png",
+            "parent/smoke/tunisia/mobile-closed.png",
+            "parent/smoke/tunisia/mobile-open.png",
+            "parent/sources/tunisia/marketing.webp"
+          ],
+          "limitations": [
+            "All five originals inspected individually via vision; paths relative to launch/qa-art-08.",
+            "Static frames cannot certify hinge engagement, tab attachment, concealed foot contacts, cavity completeness or collision-free lid motion.",
+            "Apparent hinge/tab isolation on mobile is a visibility concern, not confirmed detachment. No art approval."
+          ],
+          "observations": [
+            "Cream clay, red-ochre/charcoal borders, shallow dish, gold hardware and clay-colored feet are retained. Closed and open model, controls and titles are not visibly cropped."
+          ],
+          "verdict": "candidate-with-limitations"
+        },
+        "report": "visual-e.json"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-08 review"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 91144,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/tunisia.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "Reviewed source/output: high broad fidelity, original major counts/layout/hardware retained. Saturation, texture, ornament contours and pattern spacing differ slightly; not exact model evidence.",
+          "reviewStatus": "reviewed",
+          "sha256": "7f3ee458b8191397b819eacbd69108e319a14838c55487e286c2a19bb237ea36",
+          "source": "assets/gallery/tunisia.webp",
+          "sourceSha256": "b3ee0d808a632356b5db4879d61aada910d273878ba99f0aa01193708279da78",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "b60a35cf44669716b4e2e2ea4afdc66f1ecd5c73abaa67dbe3c99536e95834bd"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_verdict": "pass",
+      "parent_visual": {
+        "decision": "Retain bounded stylized craft-inspired candidate, explicitly preserving weak clay grain and mobile charcoal-pattern contrast; no authenticity or final user approval.",
+        "hardware": "Brass corner caps, clasp, circular front fitting and side ring readable but simplified; prominent dark seam can look slightly ajar. Released open latch is normal. Terracotta feet remain visible.",
+        "limitations": "Reviewed original desktop/mobile closed/open captures and marketing.webp, plus supplied source notes/brief where available. Static images do not certify motion, hidden attachments, exact pigment, physical-phone performance or manufacture. Technical checks were supplied, not rerun. No final user visual approval. Abstract invented decoration inspired by Sejnane, not authentic artisan work or traditional symbolic reproduction. Source notes disclose poster noise, smooth clay and subdued mobile pattern contrast.",
+        "quality": "Cohesive cream/ochre/charcoal chest with shallow dish; silhouette and open interior comfortably framed on desktop/mobile. Marketing resolves ornament and tactile grain more strongly.",
+        "terrain": "Shallow concave peach dish and radial rim marks visible in closed views. No landscape required. Dish exterior naturally concealed behind raised lid in open views.",
+        "texture": "Cream surface and dish look smooth, painted/plastic-like rather than handmade clay. Red/charcoal bands are thin and subdued, especially on mobile; marketing has stronger pattern and surface definition."
+      },
+      "parent_visual_hold_preserved": false,
+      "reviewed_image_hashes": [
+        {
+          "bytes": 301146,
+          "path": "smoke/tunisia/desktop-closed.png",
+          "sha256": "c7711c08777a0c64f41b1af30fb4a1bb4253e115cd219dd829d32302bc6bbe06"
+        },
+        {
+          "bytes": 317770,
+          "path": "smoke/tunisia/desktop-open.png",
+          "sha256": "41cfdcd746455cdc382517f3752116aa24148b684262d094f2901c61afb1b661"
+        },
+        {
+          "bytes": 100213,
+          "path": "smoke/tunisia/mobile-closed.png",
+          "sha256": "4e7d0dd9998e26c901c324a0706d420dae93a1f841d1c14c34b51b1e5ba3013f"
+        },
+        {
+          "bytes": 104579,
+          "path": "smoke/tunisia/mobile-open.png",
+          "sha256": "e59ede5ab2e2822c43ac882c2ce4f975134e2a8f77ff91d955cb49987d1e647c"
+        },
+        {
+          "bytes": 91144,
+          "path": "sources/tunisia/marketing.webp",
+          "sha256": "b60a35cf44669716b4e2e2ea4afdc66f1ecd5c73abaa67dbe3c99536e95834bd"
+        }
+      ],
+      "selection": {
+        "commit": "51f30182601479cd397d14f82cd654540475d469",
+        "fetched_tip": "51f30182601479cd397d14f82cd654540475d469",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/tunisia-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 6226049,
+          "commit": "51f30182601479cd397d14f82cd654540475d469",
+          "crc_error": null,
+          "entries": 51,
+          "fresh_crc_safe_unique": true,
+          "fresh_inner_inventory_entries": 50,
+          "fresh_required_payloads": [
+            {
+              "member": "tunisia-v1.html",
+              "path": "preview/tunisia-v1/tunisia-v1.html",
+              "sha256": "fcf39b868fa85141c7249495bd95dd6524cd6a2029c7d83a3098d3af5a368215"
+            },
+            {
+              "member": "tunisia.blend",
+              "path": "preview/tunisia-v1/tunisia.blend",
+              "sha256": "c0a9edae9f2d86e231f7988cface21135584920da28dc75804f54146b3186d0c"
+            },
+            {
+              "member": "tunisia.glb",
+              "path": "preview/tunisia-v1/tunisia.glb",
+              "sha256": "0a130d2ec243eab5d0f93c83dc1954c52fa850b292a38ac8380aba366553d4c6"
+            }
+          ],
+          "inventory_checked": true,
+          "inventory_entries": 50,
+          "inventory_mismatches": [],
+          "kind": "git",
+          "path": "preview/tunisia-v1/tunisia-v1-source.zip",
+          "required_payloads": {
+            "tunisia-v1.html": true,
+            "tunisia.blend": true,
+            "tunisia.glb": true
+          },
+          "safe_unique_paths": true,
+          "sha256": "77d401fab66486755ff4b6dfdcd1ab4576fd6c69579575cb17a0b84d842a599e"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 746072,
+          "commit": "51f30182601479cd397d14f82cd654540475d469",
+          "path": "preview/tunisia-v1/tunisia.blend",
+          "role": "selected-model",
+          "sha256": "c0a9edae9f2d86e231f7988cface21135584920da28dc75804f54146b3186d0c"
+        },
+        {
+          "bytes": 1573396,
+          "commit": "51f30182601479cd397d14f82cd654540475d469",
+          "path": "preview/tunisia-v1/tunisia.glb",
+          "role": "selected-model",
+          "sha256": "0a130d2ec243eab5d0f93c83dc1954c52fa850b292a38ac8380aba366553d4c6",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 68,
+            "nodes": 70
+          }
+        }
+      ],
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 2889913,
+        "commit": "51f30182601479cd397d14f82cd654540475d469",
+        "path": "preview/tunisia-v1/tunisia-v1.html",
+        "sha256": "fcf39b868fa85141c7249495bd95dd6524cd6a2029c7d83a3098d3af5a368215",
+        "under_5000000": true
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Tunisia",
+    "package_history": [
+      {
+        "bytes": 6226049,
+        "commit": "51f30182601479cd397d14f82cd654540475d469",
+        "crc_error": null,
+        "entries": 51,
+        "inventory_checked": true,
+        "inventory_entries": 50,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/tunisia-v1/tunisia-v1-source.zip",
+        "required_payloads": {
+          "tunisia-v1.html": true,
+          "tunisia.blend": true,
+          "tunisia.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "77d401fab66486755ff4b6dfdcd1ab4576fd6c69579575cb17a0b84d842a599e"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "51f30182601479cd397d14f82cd654540475d469",
+      "fetched_tip": "51f30182601479cd397d14f82cd654540475d469",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/tunisia-v1"
+    },
+    "verdict": "candidate-with-limitations",
+    "viewer": {
+      "bytes": 2889913,
+      "commit": "51f30182601479cd397d14f82cd654540475d469",
+      "path": "preview/tunisia-v1/tunisia-v1.html",
+      "sha256": "fcf39b868fa85141c7249495bd95dd6524cd6a2029c7d83a3098d3af5a368215",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "tunisia",
+    "baseline_verdict": "candidate-with-limitations",
+    "actions": [
+      "remaining ordinary finish inspection; do not edit promotional-only differences or infer broken model"
+    ],
+    "approval": false,
+    "original_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "capture_base": "parent/",
+      "captures": [
+        "smoke/tunisia/desktop-closed.png",
+        "smoke/tunisia/desktop-open.png",
+        "smoke/tunisia/mobile-closed.png",
+        "smoke/tunisia/mobile-open.png"
+      ],
+      "critical_reproducible_failures": [],
+      "final_approval": false,
+      "fresh_checks": {
+        "blender_parity_collision": false,
+        "fallback": false,
+        "full_inner_archive_inventories": true,
+        "motion": false,
+        "original_captures_and_marketing_inspected": true,
+        "runtime": false,
+        "source_and_delivered_viewer_hashes": true,
+        "source_archive_crc_safe_paths_required_payloads": true
+      },
+      "historical_runtime": {
+        "browser": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.205818622120458,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1573396,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 7,
+              "meshes": 68,
+              "nonfinite": 0,
+              "triangles": 17644
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "tunisia",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "fcf39b868fa85141c7249495bd95dd6524cd6a2029c7d83a3098d3af5a368215"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.205818622120458,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1573396,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 7,
+              "meshes": 68,
+              "nonfinite": 0,
+              "triangles": 17644
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "tunisia",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "fcf39b868fa85141c7249495bd95dd6524cd6a2029c7d83a3098d3af5a368215"
+          }
+        ],
+        "extended": {
+          "geometry": {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.205818622120458,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1573396,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 7,
+              "meshes": 68,
+              "nonfinite": 0,
+              "triangles": 17644
+            },
+            "meshes": 68,
+            "nonfinite": 0,
+            "triangles": 17644
+          },
+          "id": "tunisia",
+          "no_js_poster": true
+        },
+        "motion": {
+          "exit_code": 0,
+          "id": "tunisia",
+          "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+          "source": [
+            {
+              "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+              "path": "preview/albania-v1/tests.mjs",
+              "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+            },
+            {
+              "commit": "51f30182601479cd397d14f82cd654540475d469",
+              "path": "preview/tunisia-v1/motion.mjs",
+              "sha256": "d61544de9b41521a7b14e81a5e9867ce0fcc387f8852ce57490031b84bf2150e"
+            }
+          ]
+        },
+        "parent_commit": "431e51ffb5a8704b5f8f8b11694d28befae18402"
+      },
+      "id": "tunisia",
+      "independent_visual": {
+        "assessment": {
+          "concrete_defects": [
+            "Fine red/charcoal border geometry loses contrast and becomes pixelated on mobile compared with the stronger zigzag reading in marketing; lines crowd at the front-left junction.",
+            "Broad dark closed-lid seam is conspicuous in both source and viewer, with uneven-looking corner transitions; a fit failure is not proven.",
+            "Mobile open lid tab and rear hinge/rim junction lack clear attachment separation; hardware and dish edges are jagged/faceted. Rounded clay feet partially merge visually with the base."
+          ],
+          "id": "tunisia",
+          "inspected_paths": [
+            "parent/smoke/tunisia/desktop-closed.png",
+            "parent/smoke/tunisia/desktop-open.png",
+            "parent/smoke/tunisia/mobile-closed.png",
+            "parent/smoke/tunisia/mobile-open.png",
+            "parent/sources/tunisia/marketing.webp"
+          ],
+          "limitations": [
+            "All five originals inspected individually via vision; paths relative to launch/qa-art-08.",
+            "Static frames cannot certify hinge engagement, tab attachment, concealed foot contacts, cavity completeness or collision-free lid motion.",
+            "Apparent hinge/tab isolation on mobile is a visibility concern, not confirmed detachment. No art approval."
+          ],
+          "observations": [
+            "Cream clay, red-ochre/charcoal borders, shallow dish, gold hardware and clay-colored feet are retained. Closed and open model, controls and titles are not visibly cropped."
+          ],
+          "verdict": "candidate-with-limitations"
+        },
+        "report": "visual-e.json"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-08 review"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 91144,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/tunisia.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "Reviewed source/output: high broad fidelity, original major counts/layout/hardware retained. Saturation, texture, ornament contours and pattern spacing differ slightly; not exact model evidence.",
+          "reviewStatus": "reviewed",
+          "sha256": "7f3ee458b8191397b819eacbd69108e319a14838c55487e286c2a19bb237ea36",
+          "source": "assets/gallery/tunisia.webp",
+          "sourceSha256": "b3ee0d808a632356b5db4879d61aada910d273878ba99f0aa01193708279da78",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "b60a35cf44669716b4e2e2ea4afdc66f1ecd5c73abaa67dbe3c99536e95834bd"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_verdict": "pass",
+      "parent_visual": {
+        "decision": "Retain bounded stylized craft-inspired candidate, explicitly preserving weak clay grain and mobile charcoal-pattern contrast; no authenticity or final user approval.",
+        "hardware": "Brass corner caps, clasp, circular front fitting and side ring readable but simplified; prominent dark seam can look slightly ajar. Released open latch is normal. Terracotta feet remain visible.",
+        "limitations": "Reviewed original desktop/mobile closed/open captures and marketing.webp, plus supplied source notes/brief where available. Static images do not certify motion, hidden attachments, exact pigment, physical-phone performance or manufacture. Technical checks were supplied, not rerun. No final user visual approval. Abstract invented decoration inspired by Sejnane, not authentic artisan work or traditional symbolic reproduction. Source notes disclose poster noise, smooth clay and subdued mobile pattern contrast.",
+        "quality": "Cohesive cream/ochre/charcoal chest with shallow dish; silhouette and open interior comfortably framed on desktop/mobile. Marketing resolves ornament and tactile grain more strongly.",
+        "terrain": "Shallow concave peach dish and radial rim marks visible in closed views. No landscape required. Dish exterior naturally concealed behind raised lid in open views.",
+        "texture": "Cream surface and dish look smooth, painted/plastic-like rather than handmade clay. Red/charcoal bands are thin and subdued, especially on mobile; marketing has stronger pattern and surface definition."
+      },
+      "parent_visual_hold_preserved": false,
+      "reviewed_image_hashes": [
+        {
+          "bytes": 301146,
+          "path": "smoke/tunisia/desktop-closed.png",
+          "sha256": "c7711c08777a0c64f41b1af30fb4a1bb4253e115cd219dd829d32302bc6bbe06"
+        },
+        {
+          "bytes": 317770,
+          "path": "smoke/tunisia/desktop-open.png",
+          "sha256": "41cfdcd746455cdc382517f3752116aa24148b684262d094f2901c61afb1b661"
+        },
+        {
+          "bytes": 100213,
+          "path": "smoke/tunisia/mobile-closed.png",
+          "sha256": "4e7d0dd9998e26c901c324a0706d420dae93a1f841d1c14c34b51b1e5ba3013f"
+        },
+        {
+          "bytes": 104579,
+          "path": "smoke/tunisia/mobile-open.png",
+          "sha256": "e59ede5ab2e2822c43ac882c2ce4f975134e2a8f77ff91d955cb49987d1e647c"
+        },
+        {
+          "bytes": 91144,
+          "path": "sources/tunisia/marketing.webp",
+          "sha256": "b60a35cf44669716b4e2e2ea4afdc66f1ecd5c73abaa67dbe3c99536e95834bd"
+        }
+      ],
+      "selection": {
+        "commit": "51f30182601479cd397d14f82cd654540475d469",
+        "fetched_tip": "51f30182601479cd397d14f82cd654540475d469",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/tunisia-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 6226049,
+          "commit": "51f30182601479cd397d14f82cd654540475d469",
+          "crc_error": null,
+          "entries": 51,
+          "fresh_crc_safe_unique": true,
+          "fresh_inner_inventory_entries": 50,
+          "fresh_required_payloads": [
+            {
+              "member": "tunisia-v1.html",
+              "path": "preview/tunisia-v1/tunisia-v1.html",
+              "sha256": "fcf39b868fa85141c7249495bd95dd6524cd6a2029c7d83a3098d3af5a368215"
+            },
+            {
+              "member": "tunisia.blend",
+              "path": "preview/tunisia-v1/tunisia.blend",
+              "sha256": "c0a9edae9f2d86e231f7988cface21135584920da28dc75804f54146b3186d0c"
+            },
+            {
+              "member": "tunisia.glb",
+              "path": "preview/tunisia-v1/tunisia.glb",
+              "sha256": "0a130d2ec243eab5d0f93c83dc1954c52fa850b292a38ac8380aba366553d4c6"
+            }
+          ],
+          "inventory_checked": true,
+          "inventory_entries": 50,
+          "inventory_mismatches": [],
+          "kind": "git",
+          "path": "preview/tunisia-v1/tunisia-v1-source.zip",
+          "required_payloads": {
+            "tunisia-v1.html": true,
+            "tunisia.blend": true,
+            "tunisia.glb": true
+          },
+          "safe_unique_paths": true,
+          "sha256": "77d401fab66486755ff4b6dfdcd1ab4576fd6c69579575cb17a0b84d842a599e"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 746072,
+          "commit": "51f30182601479cd397d14f82cd654540475d469",
+          "path": "preview/tunisia-v1/tunisia.blend",
+          "role": "selected-model",
+          "sha256": "c0a9edae9f2d86e231f7988cface21135584920da28dc75804f54146b3186d0c"
+        },
+        {
+          "bytes": 1573396,
+          "commit": "51f30182601479cd397d14f82cd654540475d469",
+          "path": "preview/tunisia-v1/tunisia.glb",
+          "role": "selected-model",
+          "sha256": "0a130d2ec243eab5d0f93c83dc1954c52fa850b292a38ac8380aba366553d4c6",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 68,
+            "nodes": 70
+          }
+        }
+      ],
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 2889913,
+        "commit": "51f30182601479cd397d14f82cd654540475d469",
+        "path": "preview/tunisia-v1/tunisia-v1.html",
+        "sha256": "fcf39b868fa85141c7249495bd95dd6524cd6a2029c7d83a3098d3af5a368215",
+        "under_5000000": true
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 6226049,
+        "commit": "51f30182601479cd397d14f82cd654540475d469",
+        "crc_error": null,
+        "entries": 51,
+        "inventory_checked": true,
+        "inventory_entries": 50,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/tunisia-v1/tunisia-v1-source.zip",
+        "required_payloads": {
+          "tunisia-v1.html": true,
+          "tunisia.blend": true,
+          "tunisia.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "77d401fab66486755ff4b6dfdcd1ab4576fd6c69579575cb17a0b84d842a599e"
+      }
+    ]
+  },
+  "ordinary_record": {
+    "id": "tunisia",
+    "disposition": "unchanged-with-explicit-limitations",
+    "correction_passes": 0,
+    "model_geometry_changed": false,
+    "final_approved": false,
+    "launch_ready": false,
+    "original_observations": [
+      "Fine red/charcoal border geometry loses contrast and becomes pixelated on mobile compared with the stronger zigzag reading in marketing; lines crowd at the front-left junction.",
+      "Broad dark closed-lid seam is conspicuous in both source and viewer, with uneven-looking corner transitions; a fit failure is not proven.",
+      "Mobile open lid tab and rear hinge/rim junction lack clear attachment separation; hardware and dish edges are jagged/faceted. Rounded clay feet partially merge visually with the base."
+    ],
+    "independent_adjudication": {
+      "id": "tunisia",
+      "disposition": "no-edit-with-optional-diagnostic",
+      "observation": "Thin ochre/charcoal triangular bands are pale and uneven in visual weight, especially at mobile size and on the open underside; oblique small edges have mild stepping. Cream joints, dark rim and lid dish are coherent.",
+      "rationale": "Fine ornament readability is a legitimate sampling inspection target but the stills do not prove flicker, depth conflict or broken mapping. Darker promotional ornament and more tactile clay are not acceptance requirements.",
+      "bounded_recommendation": "Test native fine-line stability first. Isolate texture filtering versus geometry-edge sampling; optionally compare modest DPR1 supersampling without changing CSS size, pattern, palette or model. Do not thicken ornament or add contrast solely to match marketing.",
+      "supersampling": "Reasonable bounded diagnostic for tiny diagonals/hardware only. Retain only measured useful visual benefit at acceptable device cost; no blanket increase."
+    },
+    "unresolved_owner_holds": [
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "inherited_holds": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization",
+      "independent QA-ART-08 review"
+    ],
+    "original_review_preserved_in": "baseline.json",
+    "fresh_runtime": {
+      "id": "tunisia",
+      "exit_code": 0,
+      "shared_contract": "Bangladesh renderer-independent interaction assertions; no fresh source/collision claim",
+      "results": "launch\\ordinary-finish-20\\runtime\\tunisia\\browser-check.json"
+    },
+    "fresh_source_archive": {
+      "id": "tunisia",
+      "archives": [
+        {
+          "archive": {
+            "bytes": 6226049,
+            "commit": "51f30182601479cd397d14f82cd654540475d469",
+            "crc_error": null,
+            "entries": 51,
+            "fresh_crc_safe_unique": true,
+            "fresh_inner_inventory_entries": 50,
+            "fresh_required_payloads": [
+              {
+                "member": "tunisia-v1.html",
+                "path": "preview/tunisia-v1/tunisia-v1.html",
+                "sha256": "fcf39b868fa85141c7249495bd95dd6524cd6a2029c7d83a3098d3af5a368215"
+              },
+              {
+                "member": "tunisia.blend",
+                "path": "preview/tunisia-v1/tunisia.blend",
+                "sha256": "c0a9edae9f2d86e231f7988cface21135584920da28dc75804f54146b3186d0c"
+              },
+              {
+                "member": "tunisia.glb",
+                "path": "preview/tunisia-v1/tunisia.glb",
+                "sha256": "0a130d2ec243eab5d0f93c83dc1954c52fa850b292a38ac8380aba366553d4c6"
+              }
+            ],
+            "inventory_checked": true,
+            "inventory_entries": 50,
+            "inventory_mismatches": [],
+            "kind": "git",
+            "path": "preview/tunisia-v1/tunisia-v1-source.zip",
+            "required_payloads": {
+              "tunisia-v1.html": true,
+              "tunisia.blend": true,
+              "tunisia.glb": true
+            },
+            "safe_unique_paths": true,
+            "sha256": "77d401fab66486755ff4b6dfdcd1ab4576fd6c69579575cb17a0b84d842a599e"
+          },
+          "members": 51,
+          "fresh_inventory": {
+            "status": "pass",
+            "entries_checked": 50,
+            "uninventoried_members": [
+              "inventory.json"
+            ]
+          },
+          "exact_selected_payloads": [
+            "tunisia-v1.html",
+            "tunisia.blend",
+            "tunisia.glb"
+          ]
+        }
+      ],
+      "pass": true
+    },
+    "remaining_visual_limitations": "Fine ornament readability is a legitimate sampling inspection target but the stills do not prove flicker, depth conflict or broken mapping. Darker promotional ornament and more tactile clay are not acceptance requirements."
+  }
+}

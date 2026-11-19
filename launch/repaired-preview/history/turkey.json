@@ -1,0 +1,538 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 1,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 233468,
+        "role": "editable-source",
+        "sha256": "a4c84110f005e18fe7f4e3e44763caf87c7878669220c6d0082429ddf4c6b50d",
+        "source": {
+          "commit": "34e8ceab2f7548b1c4cfd212109458976a77fe5e",
+          "path": "preview/turkey-v1/turkey.blend"
+        },
+        "uri": "sha256:a4c84110f005e18fe7f4e3e44763caf87c7878669220c6d0082429ddf4c6b50d"
+      },
+      {
+        "bytes": 6566492,
+        "role": "historical-source-archive",
+        "sha256": "12d9e95672aacd78562a740eb4c272bd94f36b0db690389cfb7175c9199dee89",
+        "source": {
+          "commit": "34e8ceab2f7548b1c4cfd212109458976a77fe5e",
+          "kind": "git",
+          "path": "preview/turkey-v1/turkey-v1-source.zip"
+        },
+        "uri": "sha256:12d9e95672aacd78562a740eb4c272bd94f36b0db690389cfb7175c9199dee89"
+      },
+      {
+        "bytes": 1108460,
+        "role": "model",
+        "sha256": "444c4324237f2dd690faa1cadba9fc720f7832ecb56cf878dc2b56b6b07c2329",
+        "source": {
+          "commit": "34e8ceab2f7548b1c4cfd212109458976a77fe5e",
+          "path": "preview/turkey-v1/turkey.glb"
+        },
+        "uri": "sha256:444c4324237f2dd690faa1cadba9fc720f7832ecb56cf878dc2b56b6b07c2329"
+      },
+      {
+        "bytes": 127598,
+        "role": "promotional-illustration",
+        "sha256": "34ee5c3a436e11a1277c5db994c1688ab402fb88b090e62be699e40e13528306",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/turkey.webp"
+        },
+        "uri": "sha256:34ee5c3a436e11a1277c5db994c1688ab402fb88b090e62be699e40e13528306"
+      },
+      {
+        "bytes": 2891,
+        "role": "research-brief",
+        "sha256": "b8d2da184d1d0170f22da6c1789f8376a31a6bfd479ea307a9fb30ddadb353be",
+        "source": {
+          "commit": "34e8ceab2f7548b1c4cfd212109458976a77fe5e",
+          "path": "preview/turkey-v1/design-brief.md"
+        },
+        "uri": "sha256:b8d2da184d1d0170f22da6c1789f8376a31a6bfd479ea307a9fb30ddadb353be"
+      },
+      {
+        "bytes": 5499,
+        "role": "source-notice",
+        "sha256": "b497bacd04eb784ada503519822def0d9b3a7319e20ffb5e2bb7d401634c441f",
+        "source": {
+          "commit": "34e8ceab2f7548b1c4cfd212109458976a77fe5e",
+          "path": "preview/turkey-v1/README.md"
+        },
+        "uri": "sha256:b497bacd04eb784ada503519822def0d9b3a7319e20ffb5e2bb7d401634c441f"
+      },
+      {
+        "bytes": 2351465,
+        "role": "viewer",
+        "sha256": "1b4635dcc1f2ad0a4bd3b9a7b7b7ce875cfb007a34cf261643eb29ca8566e5be",
+        "source": {
+          "commit": "34e8ceab2f7548b1c4cfd212109458976a77fe5e",
+          "path": "preview/turkey-v1/turkey-v1.html"
+        },
+        "uri": "sha256:1b4635dcc1f2ad0a4bd3b9a7b7b7ce875cfb007a34cf261643eb29ca8566e5be"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "turkey",
+    "independent_review": {
+      "all_four_original_captures_inspected": true,
+      "captures": [
+        "launch/art-01/smoke/turkey/desktop-closed.png",
+        "launch/art-01/smoke/turkey/desktop-open.png",
+        "launch/art-01/smoke/turkey/mobile-closed.png",
+        "launch/art-01/smoke/turkey/mobile-open.png"
+      ],
+      "critical_defects": [],
+      "fresh_qa_runtime": [],
+      "id": "turkey",
+      "launch_ready": false,
+      "marketing_inspected": true,
+      "model_changed": false,
+      "model_sources": [
+        {
+          "bytes": 233468,
+          "commit": "34e8ceab2f7548b1c4cfd212109458976a77fe5e",
+          "path": "preview/turkey-v1/turkey.blend",
+          "role": "selected-model",
+          "sha256": "a4c84110f005e18fe7f4e3e44763caf87c7878669220c6d0082429ddf4c6b50d"
+        },
+        {
+          "bytes": 1108460,
+          "commit": "34e8ceab2f7548b1c4cfd212109458976a77fe5e",
+          "path": "preview/turkey-v1/turkey.glb",
+          "role": "selected-model",
+          "sha256": "444c4324237f2dd690faa1cadba9fc720f7832ecb56cf878dc2b56b6b07c2329",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 114,
+            "nodes": 116
+          }
+        }
+      ],
+      "parent_runtime": {
+        "cases": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.065000057220459,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.22500000894069672,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1108460,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 7,
+              "meshes": 114,
+              "nonfinite": 0,
+              "triangles": 16056
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "turkey",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "1b4635dcc1f2ad0a4bd3b9a7b7b7ce875cfb007a34cf261643eb29ca8566e5be"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.065000057220459,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.22500000894069672,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1108460,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 7,
+              "meshes": 114,
+              "nonfinite": 0,
+              "triangles": 16056
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "turkey",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "1b4635dcc1f2ad0a4bd3b9a7b7b7ce875cfb007a34cf261643eb29ca8566e5be"
+          }
+        ],
+        "independently_rerun": false,
+        "motion": {
+          "exit_code": 0,
+          "id": "turkey",
+          "passed": true,
+          "scope": "original motion unit assertions; not fresh collision/source parity"
+        }
+      },
+      "parent_status": "needs-decision",
+      "remaining_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "art-direction-decision",
+        "hinge-attachment-clarity-not-proven-by-stills"
+      ],
+      "selection": {
+        "commit": "34e8ceab2f7548b1c4cfd212109458976a77fe5e",
+        "fetched_tip": "34e8ceab2f7548b1c4cfd212109458976a77fe5e",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/turkey-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 6566492,
+          "commit": "34e8ceab2f7548b1c4cfd212109458976a77fe5e",
+          "crc_safe_unique": true,
+          "exact_selected_payloads": {
+            "turkey-v1.html": [
+              "turkey-v1.html"
+            ],
+            "turkey.blend": [
+              "turkey.blend"
+            ],
+            "turkey.glb": [
+              "turkey.glb"
+            ]
+          },
+          "full_inventory_rerun": false,
+          "inherited_full_inventory_checked": true,
+          "members": 58,
+          "path": "preview/turkey-v1/turkey-v1-source.zip",
+          "sha256": "12d9e95672aacd78562a740eb4c272bd94f36b0db690389cfb7175c9199dee89"
+        }
+      ],
+      "user_final_approved": false,
+      "verdict": "needs-user-review",
+      "viewer": {
+        "bytes": 2351465,
+        "commit": "34e8ceab2f7548b1c4cfd212109458976a77fe5e",
+        "path": "preview/turkey-v1/turkey-v1.html",
+        "sha256": "1b4635dcc1f2ad0a4bd3b9a7b7b7ce875cfb007a34cf261643eb29ca8566e5be",
+        "under_5000000": true
+      },
+      "visual_review": {
+        "critical_visible_faults": [],
+        "desktop_closed": "Ivory floral-rosette panels, cobalt frame, raised scarlet tulips and turquoise foliage remain clear. Pattern ends abruptly at panel boundaries. No major missing geometry or cropping.",
+        "desktop_open": "Cobalt inner lid and pale empty cavity are intact. Hinge gap is visually conspicuous; no confirmed disconnection or penetration.",
+        "file": "visual-d.json",
+        "id": "turkey",
+        "marketing_comparison": "Same blue/ivory chest, three coral/mint tulips, repeating rosettes, corner caps and ring hardware. Runtime tulips are more saturated scarlet, foliage more turquoise and body pattern softer. Identity and ornament placement are substantially retained.",
+        "mobile_closed": "Tulip colors and broad floral identity survive at phone scale; rosette detail softens. No overflow or cropped model.",
+        "mobile_open": "Entire blue lid, cavity, clasp and feet are in frame. Broad patterned/checkered shading on the inner lid is noticeable.",
+        "parent_status": "needs-decision",
+        "parent_status_justified": true,
+        "qualification": "Hold is reasonable for finish acceptance, not evidence of lost composition. Both images are visibly graphic/stylized; richer promotional glaze is not firmly established from these views.",
+        "recommended_status": "needs-decision"
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Türkiye",
+    "package_history": [
+      {
+        "bytes": 6566492,
+        "commit": "34e8ceab2f7548b1c4cfd212109458976a77fe5e",
+        "crc_error": null,
+        "entries": 58,
+        "inventory_checked": true,
+        "inventory_entries": 57,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/turkey-v1/turkey-v1-source.zip",
+        "required_payloads": {
+          "turkey-v1.html": true,
+          "turkey.blend": true,
+          "turkey.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "12d9e95672aacd78562a740eb4c272bd94f36b0db690389cfb7175c9199dee89"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "34e8ceab2f7548b1c4cfd212109458976a77fe5e",
+      "fetched_tip": "34e8ceab2f7548b1c4cfd212109458976a77fe5e",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/turkey-v1"
+    },
+    "verdict": "needs-user-review",
+    "viewer": {
+      "bytes": 2351465,
+      "commit": "34e8ceab2f7548b1c4cfd212109458976a77fe5e",
+      "path": "preview/turkey-v1/turkey-v1.html",
+      "sha256": "1b4635dcc1f2ad0a4bd3b9a7b7b7ce875cfb007a34cf261643eb29ca8566e5be",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "turkey",
+    "baseline_verdict": "needs-user-review",
+    "actions": [
+      "owner art/finish acceptance; no proven runtime defect recorded; no autonomous redesign"
+    ],
+    "approval": false,
+    "original_review": {
+      "all_four_original_captures_inspected": true,
+      "captures": [
+        "launch/art-01/smoke/turkey/desktop-closed.png",
+        "launch/art-01/smoke/turkey/desktop-open.png",
+        "launch/art-01/smoke/turkey/mobile-closed.png",
+        "launch/art-01/smoke/turkey/mobile-open.png"
+      ],
+      "critical_defects": [],
+      "fresh_qa_runtime": [],
+      "id": "turkey",
+      "launch_ready": false,
+      "marketing_inspected": true,
+      "model_changed": false,
+      "model_sources": [
+        {
+          "bytes": 233468,
+          "commit": "34e8ceab2f7548b1c4cfd212109458976a77fe5e",
+          "path": "preview/turkey-v1/turkey.blend",
+          "role": "selected-model",
+          "sha256": "a4c84110f005e18fe7f4e3e44763caf87c7878669220c6d0082429ddf4c6b50d"
+        },
+        {
+          "bytes": 1108460,
+          "commit": "34e8ceab2f7548b1c4cfd212109458976a77fe5e",
+          "path": "preview/turkey-v1/turkey.glb",
+          "role": "selected-model",
+          "sha256": "444c4324237f2dd690faa1cadba9fc720f7832ecb56cf878dc2b56b6b07c2329",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 114,
+            "nodes": 116
+          }
+        }
+      ],
+      "parent_runtime": {
+        "cases": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.065000057220459,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.22500000894069672,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1108460,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 7,
+              "meshes": 114,
+              "nonfinite": 0,
+              "triangles": 16056
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "turkey",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "1b4635dcc1f2ad0a4bd3b9a7b7b7ce875cfb007a34cf261643eb29ca8566e5be"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.065000057220459,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.22500000894069672,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1108460,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 7,
+              "meshes": 114,
+              "nonfinite": 0,
+              "triangles": 16056
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "turkey",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "1b4635dcc1f2ad0a4bd3b9a7b7b7ce875cfb007a34cf261643eb29ca8566e5be"
+          }
+        ],
+        "independently_rerun": false,
+        "motion": {
+          "exit_code": 0,
+          "id": "turkey",
+          "passed": true,
+          "scope": "original motion unit assertions; not fresh collision/source parity"
+        }
+      },
+      "parent_status": "needs-decision",
+      "remaining_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "art-direction-decision",
+        "hinge-attachment-clarity-not-proven-by-stills"
+      ],
+      "selection": {
+        "commit": "34e8ceab2f7548b1c4cfd212109458976a77fe5e",
+        "fetched_tip": "34e8ceab2f7548b1c4cfd212109458976a77fe5e",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/turkey-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 6566492,
+          "commit": "34e8ceab2f7548b1c4cfd212109458976a77fe5e",
+          "crc_safe_unique": true,
+          "exact_selected_payloads": {
+            "turkey-v1.html": [
+              "turkey-v1.html"
+            ],
+            "turkey.blend": [
+              "turkey.blend"
+            ],
+            "turkey.glb": [
+              "turkey.glb"
+            ]
+          },
+          "full_inventory_rerun": false,
+          "inherited_full_inventory_checked": true,
+          "members": 58,
+          "path": "preview/turkey-v1/turkey-v1-source.zip",
+          "sha256": "12d9e95672aacd78562a740eb4c272bd94f36b0db690389cfb7175c9199dee89"
+        }
+      ],
+      "user_final_approved": false,
+      "verdict": "needs-user-review",
+      "viewer": {
+        "bytes": 2351465,
+        "commit": "34e8ceab2f7548b1c4cfd212109458976a77fe5e",
+        "path": "preview/turkey-v1/turkey-v1.html",
+        "sha256": "1b4635dcc1f2ad0a4bd3b9a7b7b7ce875cfb007a34cf261643eb29ca8566e5be",
+        "under_5000000": true
+      },
+      "visual_review": {
+        "critical_visible_faults": [],
+        "desktop_closed": "Ivory floral-rosette panels, cobalt frame, raised scarlet tulips and turquoise foliage remain clear. Pattern ends abruptly at panel boundaries. No major missing geometry or cropping.",
+        "desktop_open": "Cobalt inner lid and pale empty cavity are intact. Hinge gap is visually conspicuous; no confirmed disconnection or penetration.",
+        "file": "visual-d.json",
+        "id": "turkey",
+        "marketing_comparison": "Same blue/ivory chest, three coral/mint tulips, repeating rosettes, corner caps and ring hardware. Runtime tulips are more saturated scarlet, foliage more turquoise and body pattern softer. Identity and ornament placement are substantially retained.",
+        "mobile_closed": "Tulip colors and broad floral identity survive at phone scale; rosette detail softens. No overflow or cropped model.",
+        "mobile_open": "Entire blue lid, cavity, clasp and feet are in frame. Broad patterned/checkered shading on the inner lid is noticeable.",
+        "parent_status": "needs-decision",
+        "parent_status_justified": true,
+        "qualification": "Hold is reasonable for finish acceptance, not evidence of lost composition. Both images are visibly graphic/stylized; richer promotional glaze is not firmly established from these views.",
+        "recommended_status": "needs-decision"
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 6566492,
+        "commit": "34e8ceab2f7548b1c4cfd212109458976a77fe5e",
+        "crc_error": null,
+        "entries": 58,
+        "inventory_checked": true,
+        "inventory_entries": 57,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/turkey-v1/turkey-v1-source.zip",
+        "required_payloads": {
+          "turkey-v1.html": true,
+          "turkey.blend": true,
+          "turkey.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "12d9e95672aacd78562a740eb4c272bd94f36b0db690389cfb7175c9199dee89"
+      }
+    ]
+  },
+  "visual_decision": {
+    "id": "turkey",
+    "disposition": "preview-accepted-with-limitations",
+    "issue": "Saturated scarlet tulips, turquoise foliage and soft panel repeats.",
+    "rationale": "Three tulip forms and the blue/ivory patterned chest retain the source composition. Accept graphic ornament and abrupt pattern boundaries; no lost composition or proven hinge failure.",
+    "evidence": {
+      "commit": "45e69632c56c786dbf84ab6484d6b352f482c5c6",
+      "path": "launch/qa-art-01/launch/art-01/boards/turkey.jpg",
+      "sha256": "18a33a44efae458ec84bcc4885fb3fb6d312d8a8b7981f2767de4aaf86d98feb"
+    }
+  }
+}

@@ -1,0 +1,863 @@
+[
+  {
+    "id": "arctic-ocean",
+    "review": {
+      "independent_visual": {
+        "assessment": {
+          "art_approved": false,
+          "artistic_limitations": [
+            "Opaque enamel-like ice rather than promotional translucency.",
+            "Quadrilateral floes, architectural rear blocks and competing body tracery weaken naturalistic ice/pond reading."
+          ],
+          "existing_hold_preserved": true,
+          "id": "arctic-ocean",
+          "images": [
+            {
+              "inspected_with": "vision_analyze",
+              "kind": "marketing",
+              "observation": "Blue contour-patterned chest, brass hardware and pale ice slabs; frosted/translucent-looking rear blocks and turquoise patches are richer than runtime.",
+              "path": "parent/sources/arctic-ocean/marketing.webp"
+            },
+            {
+              "inspected_with": "vision_analyze",
+              "kind": "desktop-closed",
+              "observation": "Whole model and UI contained. Floes read as flat tiles and rear ridges as cuboids; body tracery is busy; dark feet have weak separation.",
+              "path": "parent/smoke/arctic-ocean/desktop-closed.png"
+            },
+            {
+              "inspected_with": "vision_analyze",
+              "kind": "desktop-open",
+              "observation": "Whole open silhouette and projecting latch contained; cavity and two hinge locations visible. Plain turquoise underside obscures lid-top ice, as expected for this camera.",
+              "path": "parent/smoke/arctic-ocean/desktop-open.png"
+            },
+            {
+              "inspected_with": "vision_analyze",
+              "kind": "mobile-closed",
+              "observation": "Title wraps cleanly, controls and footer fit. Tile-like floes remain visible; pond identity and tiny fittings are weak at this scale.",
+              "path": "parent/smoke/arctic-ocean/mobile-closed.png"
+            },
+            {
+              "inspected_with": "vision_analyze",
+              "kind": "mobile-open",
+              "observation": "Open model and controls remain contained; body detail is smaller and hinge attachment hard to read. No unmistakable missing faces or overlap.",
+              "path": "parent/smoke/arctic-ocean/mobile-open.png"
+            }
+          ],
+          "presentation_limitations": [
+            "Small secondary UI text across desktop/mobile; accessibility contrast not measured.",
+            "Fine edges/hardware lose clarity at mobile screenshot scale."
+          ],
+          "reason": "Preserve existing hold; visual limitations require user judgment, not technical-failure inference.",
+          "recommendation": "needs-user-review",
+          "reproducible_looking_defects": [],
+          "source_readme": {
+            "path": "parent/sources/arctic-ocean/source_readme.md",
+            "read": true,
+            "relevant_disclosures": "Discloses stylized enamel/porcelain, tile-like floes, architectural ridges, weak pond readability and source/runtime lighting differences.",
+            "verification_claims_independently_rerun": false
+          },
+          "unconfirmed_inspection_points": [
+            "Open-view hinge/rail joins and projecting released latch are visually schematic; endpoint stills do not establish broken connectivity or collision. Side view and motion inspection would be required to escalate."
+          ]
+        },
+        "report": "visual-a.json"
+      },
+      "parent_visual": {
+        "context_path": "sources/arctic-ocean/source_readme.md",
+        "decision_needed": "Decide whether the promotional ice treatment overstates the intended porcelain-like runtime appearance and whether the front texture discontinuities are acceptable decorative panel treatment.",
+        "hardware": "Warm brass clasp, round front disc, left ring and lid corner caps remain recognizable across promotional and runtime closed views. Open views show two rear hinges and the released lid-mounted tab. No clear detached fitting or gross break is evidenced.",
+        "id": "arctic-ocean",
+        "inspected_paths": [
+          "sources/arctic-ocean/marketing.webp",
+          "smoke/arctic-ocean/desktop-closed.png",
+          "smoke/arctic-ocean/desktop-open.png",
+          "smoke/arctic-ocean/mobile-closed.png",
+          "smoke/arctic-ocean/mobile-open.png"
+        ],
+        "limitations": [
+          "No alternate rear/top inspection or animation examined.",
+          "Cannot infer transparent materials or exact attachment quality from promo highlights alone."
+        ],
+        "mobile_observations": "Closed ice silhouette and main clasp remain readable; fine ponds and seating contacts do not. Both mobile states fit fully without visible clipping or controls overlapping the model.",
+        "open_observations": "Flat teal inner lid, blue lined cavity, rim and rear hinges are visible. Full raised silhouette and projecting tab are framed. Lower cavity remains partly hidden; terrain is on the opposite lid face.",
+        "promotional_finish_vs_geometry": "Primary mismatch is icy/translucent promotional finish versus opaque stylized runtime shading, plus conspicuous runtime body repetition. No unequivocal geometry defect established.",
+        "terrain": "Pale separate rectangular floes and blue leads are readable. Rear upright blocks read partly architectural. Promo gives these blocks frosted/translucent ice-like depth; runtime reads as opaque pale blocks, consistent with the README's enamel/porcelain limitation. Small enclosed ponds are not clearly distinguished at mobile size.",
+        "texture": "Promo has richer frosted mottling and subtler body tracery. Runtime pale line motifs repeat conspicuously; desktop front has straight-bounded tonal/pattern discontinuities, and corner transitions are abrupt. These are visible surface-treatment concerns, not proof of broken mesh or an unintended UV error.",
+        "verdict": "needs-decision"
+      },
+      "parent_visual_hold_preserved": true
+    }
+  },
+  {
+    "id": "atlantic-ocean",
+    "review": {
+      "visual_findings": "Pale low faceted ridge and regular high-contrast zigzag ocean pattern differ substantially from promotional craggy ridge and enamel.",
+      "visual_verdict": "needs-user-review"
+    }
+  },
+  {
+    "id": "australia",
+    "review": {
+      "hinge_assessment": "Small rear attachment continuity unresolved in stills, not proven detached. No fresh geometric contact/collision certification.",
+      "independent_visual_findings": "Five domes retained; more regular strata but also visible faceting. More regular/less naturally sculpted is better supported than uniformly smoother. Hold retained.",
+      "parent_visual_findings": "Five domes retained but smoother/more regular; finer repetitive sandstone stripes versus broad irregular promotional bands. Open hinge connection ambiguous."
+    }
+  },
+  {
+    "id": "azerbaijan",
+    "review": {
+      "visual_review": {
+        "finish_limitations": [
+          "Viewer medallion reads as botanical relief, while marketing shows a more angular radial/petal ornament within concentric rings; exact equivalence is not demonstrated.",
+          "Copper reads orange and broadly mottled rather than distinct hammered depressions. Marketing is browner/woodlike with softer satin highlights; brass details are simplified."
+        ],
+        "framing": "All four original views frame the entire object and controls; no obvious mobile overflow. Fine joinery remains small.",
+        "geometry_observations": [
+          "Closed views show coherent copper-colored body, medallion, corner caps, front clasp and block feet; prominent dark seam also occurs in reference.",
+          "Open desktop/mobile show hollow cavity and two rear hinges; layered rim/corner joints are blocky, attachment obscured, with no proven missing face or detachment.",
+          "Botanical ornament is on the outward lid face; its absence from the visible inner lid in open views is not missing geometry."
+        ],
+        "id": "azerbaijan",
+        "images_inspected": [
+          "launch/art-05/smoke/azerbaijan/desktop-closed.png",
+          "launch/art-05/smoke/azerbaijan/desktop-open.png",
+          "launch/art-05/smoke/azerbaijan/mobile-closed.png",
+          "launch/art-05/smoke/azerbaijan/mobile-open.png",
+          "launch/art-05/sources/azerbaijan/marketing.webp"
+        ],
+        "observed_defects": [],
+        "parent_hold": "needs-decision: medallion ornament fidelity",
+        "parent_hold_preserved": true,
+        "reason": "Retain parent ornament-fidelity decision hold. No definite structural failure is established, but botanical versus radial ornament treatment needs an explicit acceptance decision.",
+        "review_complete": true,
+        "user_final_approved": false,
+        "verdict": "needs-user-review"
+      }
+    }
+  },
+  {
+    "id": "belgium",
+    "review": {
+      "hinge_assessment": "Small rear attachment continuity unresolved in stills, not proven detached. No fresh geometric contact/collision certification.",
+      "independent_visual_findings": "Dense speckling and angular branching relief weaken individual fossil-ring readability; hold retained.",
+      "parent_visual_findings": "Fossil stone reads densely speckled versus individual promotional rings; branching relief more angular, brass flatter. Open hinge connection ambiguous."
+    }
+  },
+  {
+    "id": "bhutan",
+    "review": {
+      "independent_visual": {
+        "file": "visual-1.json",
+        "findings": {
+          "appearance": "Cream paneled chest outlined in muted red, brown grained timber lid, small turquoise border accents, gold front clasp and pale stone-like feet. A raised pale faceted mountain rises from a rectangular lid inset.",
+          "approval": false,
+          "artistic_gaps": [
+            "Marketing mountain has rugged multi-ridge craggy surface relief; viewer mountain has broad smooth facets. This is a substantive form/detail expectation gap, not merely warmer lighting.",
+            "Marketing cream panels look woven and brown lid edging looks stitched/leather-like; viewer panels read plaster-like and lid edging as regularly grained timber. Perceived material language differs.",
+            "Basic paneled chest, inset mountain location and hardware remain recognizable; mismatch is not evidence of a rendering failure."
+          ],
+          "confirmed_visual_defects": [],
+          "id": "bhutan",
+          "inspected": [
+            "parent/smoke/bhutan/desktop-closed.png",
+            "parent/smoke/bhutan/desktop-open.png",
+            "parent/smoke/bhutan/mobile-closed.png",
+            "parent/smoke/bhutan/mobile-open.png",
+            "parent/sources/bhutan/marketing.webp"
+          ],
+          "parent_hold_disposition": "Preserved parent needs-decision hold for mountain relief and panel/lid material mismatch; not downgraded to an ordinary lighting-only caveat.",
+          "recommendation": "needs-user-review",
+          "state_observations": {
+            "desktop-closed": "Entire box visible. Mountain is a few broad angular planes with a dominant peak; tiny turquoise details and projecting red corner blocks are somewhat abrupt.",
+            "desktop-open": "Brown timber lid underside and empty wood-lined cavity visible. Complete lid/tab and feet fit; dark separation near rear hinges warrants caution, not a detachment claim.",
+            "mobile-closed": "Cream/red architecture and mountain silhouette survive. Fine cornice accents lose definition; no clipped object or text overlap.",
+            "mobile-open": "Brown empty cavity and plain wood underside read clearly; red caps project beyond rim, with blocky joins. No obvious major hole, missing face or viewport clipping."
+          },
+          "suggested_next_step": "User must choose whether to retain the stylized plaster/timber and faceted-mountain direction with aligned marketing, or authorize a separate fidelity revision. This report approves neither.",
+          "uncertain_inspection_points": [
+            "Rear hinge/body connection is not fully resolved; pictures cannot demonstrate its mechanics."
+          ]
+        }
+      },
+      "parent_decision": "Owner decision required: accept the intentionally stylized plaster/timber and faceted-mountain direction with appropriately aligned marketing, or request a separate fidelity revision. Do not claim exact promotional parity or classify this as proven broken geometry.",
+      "parent_quality": "Readable and fully framed candidate across all originals, but the exact supplied marketing establishes a materially more detailed mountain and different surface character. This is a visible fidelity/design-expectation gap, not a demonstrated runtime defect."
+    }
+  },
+  {
+    "id": "bolivia",
+    "review": {
+      "independent_visual": {
+        "assessment": {
+          "art_approved": false,
+          "artistic_limitations": [
+            "Coursed white body does not unmistakably read as crystalline halite.",
+            "Regularized polygons and faceted ochre mound are salt-flat abstractions, not surveyed Uyuni/Tunupa.",
+            "Fine ridge depth and hardware diminish at mobile scale."
+          ],
+          "existing_hold_preserved": true,
+          "id": "bolivia",
+          "images": [
+            {
+              "inspected_with": "vision_analyze",
+              "kind": "marketing",
+              "observation": "White horizontally coursed chest, pale blue polygon-lattice lid and ochre peak, brass fittings and irregular white feet; body reads plank-like.",
+              "path": "parent/sources/bolivia/marketing.webp"
+            },
+            {
+              "inspected_with": "vision_analyze",
+              "kind": "desktop-closed",
+              "observation": "Whole chest, relief and feet framed. Polygon lid readable; body remains plank/ceramic-like, ochre mound faceted, thin lines slightly aliased.",
+              "path": "parent/smoke/bolivia/desktop-closed.png"
+            },
+            {
+              "inspected_with": "vision_analyze",
+              "kind": "desktop-open",
+              "observation": "Whole open chest and controls fit; plain white lid underside hides landscape. Hinge gap is visually ambiguous, not evidence of disconnection.",
+              "path": "parent/smoke/bolivia/desktop-open.png"
+            },
+            {
+              "inspected_with": "vision_analyze",
+              "kind": "mobile-closed",
+              "observation": "Title wraps with Sky alone but is not clipped. Salt polygons remain apparent; mound and feet are simplified and tiny fittings rough.",
+              "path": "parent/smoke/bolivia/mobile-closed.png"
+            },
+            {
+              "inspected_with": "vision_analyze",
+              "kind": "mobile-open",
+              "observation": "Complete open silhouette and UI fit. Pale rim, walls and interior blend, reducing construction legibility; no demonstrated missing floor or broken mesh.",
+              "path": "parent/smoke/bolivia/mobile-open.png"
+            }
+          ],
+          "presentation_limitations": [
+            "Small secondary UI text across desktop/mobile; accessibility contrast not measured.",
+            "Fine edges/hardware lose clarity at mobile screenshot scale."
+          ],
+          "reason": "Preserve existing hold; visual limitations require user judgment, not technical-failure inference.",
+          "recommendation": "needs-user-review",
+          "reproducible_looking_defects": [],
+          "source_readme": {
+            "path": "parent/sources/bolivia/source_readme.md",
+            "read": true,
+            "relevant_disclosures": "Discloses ceramic/plank reading, invented honeycomb, stylized mound, deliberate wet-blue/dry-crust combination and front-open occlusion of landscape.",
+            "verification_claims_independently_rerun": false
+          },
+          "unconfirmed_inspection_points": [
+            "Open-view hinge/rail joins and projecting released latch are visually schematic; endpoint stills do not establish broken connectivity or collision. Side view and motion inspection would be required to escalate."
+          ]
+        },
+        "report": "visual-a.json"
+      },
+      "parent_visual": {
+        "context_path": "sources/bolivia/source_readme.md",
+        "decision_needed": "Decide whether the subtler runtime salt crust and plank-like body meet the visual promise of the more granular, strongly raised promo treatment.",
+        "hardware": "Brass corner caps, long front clasp, round disc and left ring are consistent visible features. Pale irregular stone-like feet remain present. Open views expose rear hinges and released tab; no demonstrated broken hardware.",
+        "id": "bolivia",
+        "inspected_paths": [
+          "sources/bolivia/marketing.webp",
+          "smoke/bolivia/desktop-closed.png",
+          "smoke/bolivia/desktop-open.png",
+          "smoke/bolivia/mobile-closed.png",
+          "smoke/bolivia/mobile-open.png"
+        ],
+        "limitations": [
+          "No close-up or alternate light to distinguish shallow physical relief from shading.",
+          "Pale interior depth and tiny mounting contacts cannot be established precisely."
+        ],
+        "mobile_observations": "Ochre peak and blue lid remain recognizable, but salt polygon relief becomes faint. Main clasp is readable; fine fittings merge. Full closed and open silhouettes fit without clipping.",
+        "open_observations": "Broad plain white underside and pale cavity are visible with blue-gray rim. Low contrast weakens wall/floor separation; no obvious intrusion or break. Landscape is hidden behind lid, not proven absent.",
+        "promotional_finish_vs_geometry": "Raised promotional salt lattice versus fine runtime lines is a relief/readability mismatch, not sufficient evidence that runtime geometry is absent. Readme reports physical loops; stills do not independently verify their depth.",
+        "terrain": "Blue inset with pale polygon loops and small ochre relief retains the Uyuni concept. Promo presents more strongly raised, regular lattice-like crust; runtime lines are finer and flatter-looking at default scale. Ochre relief is faceted and mound-like rather than geographically specific.",
+        "texture": "White horizontal body courses read as planks or ceramic/masonry more readily than crystalline salt in both treatments, consistent with README. Promo gives feet and crust stronger granular detail; runtime pale surfaces are smoother and lower contrast.",
+        "verdict": "needs-decision"
+      },
+      "parent_visual_hold_preserved": true
+    }
+  },
+  {
+    "id": "bosnia-and-herzegovina",
+    "review": {
+      "independent_visual": {
+        "assessment": {
+          "concrete_defects": [
+            "Broad cloudy brown-orange body finish reads ambiguously as wood/coating rather than convincingly hammered copper; promotional illustration especially strengthens the wood-like reading.",
+            "Thin rosette loops and perimeter beads lose definition at mobile scale; promotional petal spacing and center junctions look uneven/crowded.",
+            "Teal seam has stepped corner interruptions; open rim joins and hinge attachment silhouettes are hard to resolve."
+          ],
+          "id": "bosnia-and-herzegovina",
+          "inspected_paths": [
+            "parent/smoke/bosnia-and-herzegovina/desktop-closed.png",
+            "parent/smoke/bosnia-and-herzegovina/desktop-open.png",
+            "parent/smoke/bosnia-and-herzegovina/mobile-closed.png",
+            "parent/smoke/bosnia-and-herzegovina/mobile-open.png",
+            "parent/sources/bosnia-and-herzegovina/marketing.webp"
+          ],
+          "limitations": [
+            "Source explicitly discloses matte copper-colored coating and schematic wire-outline petals, plus intentional patina strip. Material-read ambiguity is a user aesthetic decision, not a confirmed regression or broken mesh.",
+            "Unchanged lightweight model reviewed against promotional illustration for visual relationship, not equivalence. Rendering polish differences are not automatically model defects.",
+            "Only supplied static viewpoints inspected; no proof of continuous collision freedom, hinge attachment, hidden geometry integrity, controls, performance, or physical-phone behavior. Apparent attachment gaps are unresolved visual ambiguities, not confirmed detached meshes.",
+            "Mobile secondary/status/disclaimer text is small; screenshot inspection does not establish accessibility contrast compliance.",
+            "No major missing visible panel or viewport clipping established. Candidate status is not art approval; existing user decisions remain holds."
+          ],
+          "observations": [
+            "Closed model and illustration show brass outlined rosette, bead border, warm body and cool seam; all four model frames are contained.",
+            "Open view shows the lid underside, so absence of exterior rosette there is not a defect."
+          ],
+          "source_notice_path": "parent/sources/bosnia-and-herzegovina/source_readme.md",
+          "verdict": "needs-user-review"
+        },
+        "report": "visual-a.json"
+      },
+      "parent_visual": {
+        "decision": "pass",
+        "hardware": "Simplified brass clasp/corner caps and dark feet retained; rear hinges visible open. No observed broken components; turquoise patina strip is intentional, not demonstrated lid-fit failure.",
+        "limitations": [
+          "Schematic wire-outline petals and copper-colored coating appearance explicitly disclosed; not authenticated artisan copperwork. Hidden hardware and motion not certified by stills.",
+          "Review uses original full-size image files, not a composite. Static screenshots cannot verify hidden geometry, animation intersections, real material construction or performance. Promotional enhancements are not runtime-detail guarantees."
+        ],
+        "quality": "Copper-colored chest, circular floral lid ornament and stud border correspond to promotion; complete desktop/mobile open/closed framing.",
+        "terrain": "No landscape terrain intended: shallow outlined radial flower on circular tray and perimeter beads are legible closed, hidden on exterior in front-open views.",
+        "texture": "Runtime copper is broadly mottled/matte, not finely hammered; promotion is smoother and more polished with wood-like ambiguity. Thin petal outlines alias at mobile scale."
+      },
+      "parent_visual_hold_preserved": false
+    }
+  },
+  {
+    "id": "brazil",
+    "review": {
+      "visual_findings": "Sparse repeated rounded crowns and flat tan bank lose dense forest identity; pale river weak at mobile size and may read as path.",
+      "visual_verdict": "needs-user-review"
+    }
+  },
+  {
+    "id": "brunei",
+    "review": {
+      "hinge_assessment": "Small rear attachment continuity unresolved in stills, not proven detached. No fresh geometric contact/collision certification.",
+      "independent_visual_findings": "Saturated burgundy and repetitive diamonds versus muted tactile mauve/plum. Feet and finger-jointed corners occur in both, not new defects. Hold retained.",
+      "parent_visual_findings": "Saturated burgundy and dense regular diamonds versus muted tactile promotional brocade; raised-thread impression weaker. Open lid appears floating but discrete hinge contact is unresolved, not proven absent."
+    }
+  },
+  {
+    "id": "cameroon",
+    "review": {
+      "visual_review": {
+        "caveats": [
+          "Preserve existing material/terrain hold; do not turn a functioning render into art approval.",
+          "No source-level attachment conclusion is possible from these stills."
+        ],
+        "critical_visible_faults": [],
+        "desktop_closed": "Volcanic peak and clustered green canopy recognizable. Gray/taupe streaked body and warm lid look softer and less granular than the marketing stone; foliage is blobby.",
+        "desktop_open": "Dark empty cavity and upright lid fully framed. Rear hinge gaps and projecting latch appear ambiguous, not a proven mechanism failure.",
+        "file": "visual-a.json",
+        "id": "cameroon",
+        "marketing_comparison": "Both retain Fako-like peak, clustered canopy, stone feet and brass fittings, but the marketing uses cooler mottled/granular stone and a more detailed landscape. Material/terrain acceptance remains a legitimate artistic decision.",
+        "mobile_closed": "Peak reads clearly while canopy and texture blur; terrain seating is difficult to judge.",
+        "mobile_open": "Full silhouette and controls fit. Interior is dark and texture detail limited.",
+        "parent_status": "needs-decision",
+        "parent_status_justified": true,
+        "recommended_status": "needs-decision"
+      }
+    }
+  },
+  {
+    "id": "central-african-republic",
+    "review": {
+      "hinge_assessment": "Small rear attachment continuity unresolved in stills, not proven detached. No fresh geometric contact/collision certification.",
+      "independent_visual_findings": "Simplified foliage and clearing/water detail; pond poorly resolved, not proven absent. Hold retained.",
+      "parent_visual_findings": "Smooth lobed trees, flatter clearing/water and simpler wood/stone versus detailed foliage. Open rear hinge connection visually ambiguous."
+    }
+  },
+  {
+    "id": "china",
+    "review": {
+      "independent_visual": {
+        "file": "visual-1.json",
+        "findings": {
+          "appearance": "Bright red rectangular chest with dark block feet, gold clasp/caps, round front fitting and side ring. Three raised rounded flower clusters on the lid and paired angular diamond groups on the front carry the floral identity.",
+          "approval": false,
+          "artistic_gaps": [
+            "Marketing flowers have more distinctly articulated centers, connecting stems and leaf accents; viewer florals read as simplified bulbous clusters. This is a meaningful ornamental readability gap.",
+            "Marketing is deeper red with finer irregular wood-like surface variation and a darker top inset. Viewer is brighter vermilion with broader, more regular banding, conspicuous on the open underside.",
+            "Hardware is flatter/yellower in the viewer. Lighting alone does not account for all relief/readability and pattern differences."
+          ],
+          "confirmed_visual_defects": [],
+          "id": "china",
+          "inspected": [
+            "parent/smoke/china/desktop-closed.png",
+            "parent/smoke/china/desktop-open.png",
+            "parent/smoke/china/mobile-closed.png",
+            "parent/smoke/china/mobile-open.png",
+            "parent/sources/china/marketing.webp"
+          ],
+          "parent_hold_disposition": "Preserved parent needs-decision hold for floral/lacquer fidelity. No claim that historical petal-seating issues persist in these stills.",
+          "recommendation": "needs-user-review",
+          "state_observations": {
+            "desktop-closed": "Complete model visible; flowers are thick rounded rosettes and surface shows broad horizontal tonal bands. Pronounced dark lid seam also occurs in marketing.",
+            "desktop-open": "Dark burgundy empty cavity, thin contrasting rim, plain red inner lid and two rear hinge pieces visible. Complete lid/tab/feet remain framed; cavity floor partially occluded.",
+            "mobile-closed": "Strong red/gold contrast and floral clusters remain legible, but petals are bead-like and tiny stems/leaves indistinct. No viewport clipping.",
+            "mobile-open": "Banded red lid underside and burgundy cavity remain visible. Angular front lozenges and abrupt corner/rim joins are evident, without definite intersection or missing geometry."
+          },
+          "suggested_next_step": "Ask the user to decide between retaining the simplified floral/material direction with aligned marketing and a separately authorized fidelity revision; do not claim promotional parity.",
+          "uncertain_inspection_points": [
+            "Dark seam and small apparent hinge gaps do not prove failed closure or detached components.",
+            "Reduced visibility of stems/leaves is not proof their meshes are absent."
+          ]
+        }
+      },
+      "parent_decision": "Owner decision required on accepting the simplified floral/lacquer direction versus tightening reference fidelity or aligning marketing. Keep the visible ornament/material gap distinct from unproven mechanical or loading defects.",
+      "parent_quality": "Strong recognizable red floral chest, completely framed in all originals, with no obvious catastrophic geometry or layout issue. Exact marketing nevertheless promises more defined floral composition and richer irregular surface finish than the softer real-time candidate."
+    }
+  },
+  {
+    "id": "dominican-republic",
+    "review": {
+      "visual_findings": "Bright dense caustic-like pattern replaces cloudy mineral impression; irregular pale base and blue stone depth reduced; angular pattern transitions.",
+      "visual_verdict": "needs-user-review"
+    }
+  },
+  {
+    "id": "france",
+    "review": {
+      "independent_visual": {
+        "file": "visual-2.json",
+        "findings": {
+          "artistic_fidelity_gaps": [
+            "Noticeable palette and motif-reading difference: reference's soft rose/peach flowers and sage accents become bolder geometric red/green/ochre patterning.",
+            "Tile relief, grout and glazed sheen are weak; pattern reads flatter than the reference mosaic.",
+            "Stone grain, satin-metal response, corner joinery and feet remain simplified."
+          ],
+          "demonstrated_malfunctions": [],
+          "id": "france",
+          "inspected_files": [
+            "parent/sources/france/marketing.webp",
+            "parent/smoke/france/desktop-closed.png",
+            "parent/smoke/france/desktop-open.png",
+            "parent/smoke/france/mobile-closed.png",
+            "parent/smoke/france/mobile-open.png"
+          ],
+          "marketing_dimensions": [
+            1056,
+            976
+          ],
+          "reference_appearance": "Ivory softly marbled chest with relief square-tile floral mosaic: muted rose petals, peach centers, sage foliage. Warm brass hardware, dark green lid seam and rounded irregular ivory feet.",
+          "suggested_disposition": "needs-user-review",
+          "user_review_focus": "Decide whether the stronger geometric tile palette is an acceptable interpretation of the softer floral marketing reference before any acceptance.",
+          "views": {
+            "desktop_closed": "Pale veined chest and brass fittings remain recognizable, but lid reads as a higher-contrast green/white/red/ochre geometric mosaic rather than the reference's soft pink floral composition. Dark seam and faceted feet are prominent.",
+            "desktop_open": "Pale lid underside, brown cavity and dark rim are visible with rear hinges and front fittings. Exterior mosaic is turned away, not demonstrably missing. No major mesh corruption or layout break.",
+            "mobile_closed": "Green/white/red tile pattern remains visible, though tile and brass edges are jagged at this scale. Pale body, hardware, and short feet fit the viewport with usable-looking separated controls.",
+            "mobile_open": "Cream underside and plain brown interior dominate; rim/corner seams and blocky feet are noticeable. Model, heading and controls are not visibly cropped."
+          },
+          "visible_concerns_not_proven_malfunctions": [
+            "Heavy closed seam and weak-looking open hinge connection warrant closer geometric inspection, but neither proves failed articulation.",
+            "Small tile and hardware edges show render roughness."
+          ]
+        }
+      },
+      "parent_decision": "Decide whether the more saturated final candidate palette is the intended public appearance, and whether the exact marketing should be reconciled with it. Hold visual-reference sign-off pending that choice; do not label this palette difference a structural defect. Candidate review only, not user approval.",
+      "parent_quality": "Coherent candidate and clean desktop/mobile framing, with no obvious missing tiles or gross geometry defect. Exact marketing is substantially softer/pastel in its tiled palette; runtime reads stronger green, red and ochre. This is a visible reference/finish difference, not a proven runtime fault."
+    }
+  },
+  {
+    "id": "georgia",
+    "review": {
+      "visual_review": {
+        "caveats": [
+          "Preserve artistic decision hold",
+          "Do not describe marketing as unambiguously photoreal or entirely different geometry",
+          "No fresh hinge contact proof"
+        ],
+        "critical_visible_faults": [],
+        "file": "visual-b.json",
+        "id": "georgia",
+        "observations": {
+          "desktop-closed": "Tower, snowy angular peaks, green ground and masonry chest clearly communicate theme. Complete silhouette; repeated pale blocks and broad mountain facets remain stylized.",
+          "desktop-open": "Pale hollow interior and raised slab lid fully framed. Small hinges and exposed lid clasp have ambiguous seating; no definite major intersection.",
+          "marketing": "Retains tower, masonry, brass, angular snow mountains and green terrain. More speckled surface treatment and irregular joints; still visibly a stylized miniature.",
+          "mobile-closed": "Tower and snow remain legible. No clipping or control overlap; mountain/vegetation detail reduces to simple facets.",
+          "mobile-open": "Complete lid, cavity and feet visible. Mild aliasing and uncertain hinge connection, not demonstrated breakage."
+        },
+        "parent_status": "needs-decision",
+        "parent_status_justified": "yes as a conservative artistic hold; the supplied marketing image is itself faceted, so the parent's craggy-landscape contrast is stronger than this review can independently establish",
+        "recommended_status": "needs-decision"
+      }
+    }
+  },
+  {
+    "id": "germany",
+    "review": {
+      "visual_findings": "Flat regular village platform and repetitive fine wood streaks; wood/brass weakly differentiated.",
+      "visual_verdict": "needs-user-review"
+    }
+  },
+  {
+    "id": "guatemala",
+    "review": {
+      "independent_visual": {
+        "file": "visual-2.json",
+        "findings": {
+          "artistic_fidelity_gaps": [
+            "Visible reference deviation in material allocation: gray stone lid and dark feet replace the reference's blue lid and blue squared feet; body is darker/more saturated.",
+            "Woven character is expressed chiefly through stripes rather than textile detail. The reference also has restrained surface texture, so lack of weave is not a demonstrated rendering failure.",
+            "Lake is flat and opaque; low-poly peaks match the stylized reference approach but material richness remains limited."
+          ],
+          "demonstrated_malfunctions": [],
+          "id": "guatemala",
+          "inspected_files": [
+            "parent/sources/guatemala/marketing.webp",
+            "parent/smoke/guatemala/desktop-closed.png",
+            "parent/smoke/guatemala/desktop-open.png",
+            "parent/smoke/guatemala/mobile-closed.png",
+            "parent/smoke/guatemala/mobile-open.png"
+          ],
+          "marketing_dimensions": [
+            1136,
+            912
+          ],
+          "reference_appearance": "Muted denim-blue chest and blue lid/feet, coral and pale-gold horizontal bands, gold clasp and corners, pale aqua lake and three mint-green faceted volcanic peaks, two with dark tips.",
+          "suggested_disposition": "needs-user-review",
+          "user_review_focus": "Whether the gray-stone lid/feet and darker indigo reinterpretation are acceptable despite preserving the lake/three-volcano composition.",
+          "views": {
+            "desktop_closed": "Three green peaks and turquoise lake preserve the central motif. Body is deeper indigo; lid slab and feet read gray volcanic stone rather than the reference blue. Fine multicolor bands and central gold clasp remain.",
+            "desktop_open": "Plain blue cavity and gray-blue textured underside are exposed; striped exterior, stone rim and rear hinges remain visible. Hinge continuity is visually ambiguous, not proven broken.",
+            "mobile_closed": "Three mountain silhouettes, flat lake and striped indigo body remain readable. Latch backing/shadow is dark and offset-looking; coarse trim seams do not establish penetration.",
+            "mobile_open": "Open indigo chest with narrow colored bands, gray rim and lid underside fits the phone layout. Broad panels are plain and dark trim blends into the background in places."
+          },
+          "visible_concerns_not_proven_malfunctions": [
+            "Blocky rim joints, exposed upright clasp and apparent hinge clearance need alternate views to assess mechanical continuity.",
+            "Small stripe and latch edges are jagged, especially on mobile."
+          ]
+        }
+      },
+      "parent_decision": "Decide whether charcoal volcanic-stone runtime lid and saturated lake/body are acceptable against the lighter exact marketing, or whether promotional representation needs alignment. This is a finish/reference hold, not a proven terrain or mechanism defect. No art edits made; not user approval.",
+      "parent_quality": "Complete, coherent candidate in all four original captures. Exact marketing is softer/lighter blue with a blue-gray lid and pale aqua lake; runtime has a distinctly charcoal stone lid, deeper indigo body and brighter cyan lake. Composition survives, but the material/palette difference merits an explicit reference-fidelity decision."
+    }
+  },
+  {
+    "id": "haiti",
+    "review": {
+      "visual_findings": "Angular crowded flat botanical ornament and repetitive blue mottling lack sculptural cut-steel richness; stepped-looking rim joints.",
+      "visual_verdict": "needs-user-review"
+    }
+  },
+  {
+    "id": "indian-ocean",
+    "review": {
+      "independent_visual": {
+        "assessment": {
+          "art_approval_granted": false,
+          "defects": [
+            {
+              "evidence": [
+                "desktop-open",
+                "mobile-open"
+              ],
+              "functional_defect_confirmed": false,
+              "observation": "Open lid/hinge connection looks floating/disconnected on both desktop and mobile.",
+              "severity": "review-required",
+              "type": "visual-presentation"
+            },
+            {
+              "evidence": [
+                "desktop-closed"
+              ],
+              "functional_defect_confirmed": false,
+              "observation": "Closed seam corner has interrupted/stepped trim appearance. Intended construction versus misalignment cannot be established from still.",
+              "severity": "minor-review-point",
+              "type": "visual-presentation"
+            }
+          ],
+          "hold_preserved": true,
+          "hold_reason": "Existing Indian Ocean hold retained; visual endpoint review cannot clear it or grant art approval.",
+          "id": "indian-ocean",
+          "images_inspected": [
+            "parent/sources/indian-ocean/marketing.webp",
+            "parent/smoke/indian-ocean/desktop-closed.png",
+            "parent/smoke/indian-ocean/desktop-open.png",
+            "parent/smoke/indian-ocean/mobile-closed.png",
+            "parent/smoke/indian-ocean/mobile-open.png"
+          ],
+          "limitations": [
+            "Four channels are documented as geometry-tested, but not equally legible in supplied views; this review does not contradict those checks.",
+            "Opaque shallow lagoon, brighter body/paler lid, irregular feet and floating-looking inherited hinge are expressly disclosed by source README.",
+            "Marketing-to-runtime material differences do not independently establish a functional failure.",
+            "Static endpoint images do not verify animation, continuous collision clearance, hidden geometry, input handling or physical-phone performance. Source README test claims are context, not independently rerun here.",
+            "Mobile secondary text and small hardware are difficult to resolve; main title/buttons remain readable. No obvious viewport clipping or UI overlap in the four supplied views.",
+            "Promotional lighting/material realism differs from runtime rendering; that difference alone is not a functional defect."
+          ],
+          "observations": {
+            "desktop-closed": "Ivory atoll and pale opaque lagoon preserved; brighter cyan-blue body and gray-beige lid depart from midnight palette. Cyan seam has conspicuous stepped corner transitions.",
+            "desktop-open": "Lid appears suspended above rear rim; hinge pieces do not read as a continuous connection. Watery interior texture obscures floor/depth; full model fits.",
+            "marketing": "Broken ivory reef ring around pale turquoise lagoon, muted slate-blue lid, flowing blue body pattern, brass hardware and pale rock feet; channels visible but stylized.",
+            "mobile-closed": "Atoll concept recognizable, but individual channel continuity is ambiguous at small scale; flat lagoon resembles inlay. Complete model and controls fit.",
+            "mobile-open": "Floating-lid/weak hinge-connection appearance persists; top fitting isolated against background. Cavity visible but floor detail weak; no viewport crop."
+          },
+          "recommendation": "needs-user-review",
+          "source_readme": "parent/sources/indian-ocean/source_readme.md",
+          "source_readme_read": true
+        },
+        "report": "visual-b.json"
+      },
+      "parent_visual": {
+        "confirmed_geometry_defects": [],
+        "context_read": "sources/indian-ocean/source_readme.md",
+        "decision": "Owner should decide whether the visible marketing/runtime lid-color gap is acceptable as lighting/material variation or needs presentation alignment. Do not reject on hidden hinges, released latch, irregular feet or intentional reef gaps alone.",
+        "final_approval": false,
+        "hardware": "Gold corner fittings, front clasp, separate round disc, left ring and pale irregular limestone feet persist. Open hinge region can look separated from this front angle; no detached hinge or collision is proved. Bright closed rim is conspicuous.",
+        "id": "indian-ocean",
+        "inspected_paths": [
+          "sources/indian-ocean/marketing.webp",
+          "smoke/indian-ocean/desktop-closed.png",
+          "smoke/indian-ocean/desktop-open.png",
+          "smoke/indian-ocean/mobile-closed.png",
+          "smoke/indian-ocean/mobile-open.png"
+        ],
+        "limitations": [
+          "Static endpoint images only; no independent runtime, collision, hinge-axis, rear/underside or continuous-motion verification in this review. Runtime checks were reported passed in task context, not rerun here.",
+          "Open views face the lid underside; concealed exterior terrain is not evidence of missing or detached ornament. Released latch and partly hidden hinges alone are not failures.",
+          "Mobile images are emulated screenshots, not physical-phone performance evidence; fine hardware and texture details are resolution-limited.",
+          "Promotional material/lighting polish is not proof of matching runtime geometry or physical manufacture. No final art, publication, mint or human approval is granted."
+        ],
+        "mobile_open": "Both states fit mobile and desktop framing. Open plain teal underside contrasts with patterned body; tiny pale interior strip is visible but cannot be diagnosed as penetration from these views. Exterior atoll is turned away, not proven absent.",
+        "summary": "Ocean/ivory-atoll geometry reads coherently, but marketing blue lid versus pale gray-beige runtime top merits an explicit presentation-fidelity decision.",
+        "terrain": "Ivory stepped atoll arcs surround a turquoise shallow inlay; breaks are intentional channels, not automatically holes or defects. Small desktop/mobile views do not resolve all four channels equally. Reef can read as icy formations without contextual copy.",
+        "texture": "Marketing lid is distinctly blue; closed runtime top is much paler gray-beige, while body is brighter cyan-blue than midnight target. Flowing marbling is consistent but can look fabric-like. Treat lid color/finish discrepancy as a promotional fidelity issue, not a confirmed geometry defect.",
+        "verdict": "needs-decision"
+      },
+      "parent_visual_hold_preserved": true
+    }
+  },
+  {
+    "id": "indonesia",
+    "review": {
+      "independent_visual": {
+        "assessment": {
+          "concrete_defects": [
+            "Closed viewer lid reads pale lavender/gray and streaky rather than clearly indigo with ivory resist loops; its ornament/pattern contrast is notably weaker than the patterned body and the promotional lid.",
+            "Small raised rosettes lose openwork/petal legibility in the mobile closed view; the defining craft detail becomes small yellow-gold marks.",
+            "Viewer body shows horizontal tonal banding, while panel borders create conspicuous abrupt pattern breaks; registration resets are intentional but remain visually prominent.",
+            "Mobile lid/rim/fittings have jagged edges and rough gray feet lose detail against the dark base."
+          ],
+          "id": "indonesia",
+          "inspected_paths": [
+            "parent/smoke/indonesia/desktop-closed.png",
+            "parent/smoke/indonesia/desktop-open.png",
+            "parent/smoke/indonesia/mobile-closed.png",
+            "parent/smoke/indonesia/mobile-open.png",
+            "parent/sources/indonesia/marketing.webp"
+          ],
+          "limitations": [
+            "All five original images inspected individually with vision; paths relative to launch/qa-art-08. Source readme and research brief also consulted for intended design.",
+            "Static views cannot prove hidden attachment, contact, collision clearance or motion; unseen faces are unassessed.",
+            "Promotional artwork is not an exact model reference or evidence of mechanics; differences are presentation observations, not geometry parity failures.",
+            "Inherited visual hold remains. This review neither changes artwork nor grants approval.",
+            "Panel pattern resets, dark stone feet, brass family hardware and a pronounced seam are documented design choices; terrain is not required for this craft-themed design."
+          ],
+          "observations": [
+            "Independent reason to preserve hold: the headline indigo/ivory and copper-openwork identity is unevenly communicated by the actual closed lid, especially at mobile scale. User review is warranted despite intact page framing.",
+            "All four viewer states fit without obvious cropping or controls overlap; open patterned interior and lid are readable.",
+            "Gold/brass-looking fittings alone are not a material defect because family brass hardware is explicitly retained. The exposed upper tab and pronounced seam are visually ambiguous, not proof of mechanical failure.",
+            "Promotion is fully framed and more clearly communicates the repeated loop motif, but has an uneven dark lid seam and irregular ornament contours. Its polish cannot clear the actual viewer hold."
+          ],
+          "verdict": "needs-user-review"
+        },
+        "report": "visual-b.json"
+      },
+      "parent_visual": {
+        "decision": "Needs an explicit fidelity decision before promotion: accept the pale runtime lid and reduced rosette readability as disclosed stylization, or require closer runtime evidence/presentation correction. No art edits authorized or made. Technical gates do not resolve this visual uncertainty; no final user approval.",
+        "hardware": "Family brass clasp, front disc, corner caps, side ring and dark rounded feet broadly agree. Brass-colored family fittings are intentional, not themselves a copper-spec failure. The separate lid rosettes also read yellow-gold at this scale, leaving their copper identity weak. Open latch release is expected; no detachment inferred.",
+        "limitations": "Read source_readme.md and research_brief.md. Invented batik-inspired motif, not authenticated traditional pattern, artisan textile, sacred symbol or functional stamp. Source acknowledges lighting-induced blue lightening, large clasp, pronounced seam, panel resets and weak mobile loops; those disclosures do not settle whether the marketing/runtime presentation gap is acceptable. Still images cannot distinguish all lighting, shading and source-detail causes.",
+        "quality": "Full model and controls fit in all four actual captures, but closed runtime lid is markedly pale/washed and its patterned surface and small raised ornaments are less legible than marketing. Marketing shows a more consistently muted-blue patterned lid with five clearly readable textured loop ornaments. This is a significant presentation-fidelity uncertainty, not a technical failure claim.",
+        "terrain": "No landscape terrain is intended. Five four-petal openwork rosettes are the lid feature; marketing resolves their textured loops, while actual closed desktop/mobile views reduce them to small, weakly separated shapes. Open views expose patterned underside/interior and cannot validate the external rosettes.",
+        "texture": "Ivory-on-indigo looping repeat is readable on body and interior, with conspicuous repetition and panel registration resets. Actual closed lid appears much lighter and softer than marketing; cloth grain and openwork definition are not confidently established at displayed scale. Marketing rosettes have granular/beaded-looking outlines not clearly resolved in runtime."
+      },
+      "parent_visual_hold_preserved": true
+    }
+  },
+  {
+    "id": "ireland",
+    "review": {
+      "hinge_assessment": "Small rear attachment continuity unresolved in stills, not proven detached. No fresh geometric contact/collision certification.",
+      "independent_visual_findings": "Smaller tidier paving, broad cream waves and less substantial ring remain substantive fidelity hold.",
+      "parent_visual_findings": "Marketing side ring reads larger/heavier; actual masonry is smaller/tidier and marble broad cream waves rather than fine green contour layering."
+    }
+  },
+  {
+    "id": "jordan",
+    "review": {
+      "independent_visual": {
+        "assessment": {
+          "concrete_defects": [
+            "Material/palette mismatch: candidate body and rock relief are saturated rose-orange/ochre with dark reddish framing, versus the illustration's pale ivory/blush layered stone; visible on desktop and mobile.",
+            "Broad, smooth repeating body bands read partly as wood grain rather than the reference's delicate pale stone strata. Canyon/arch theme remains recognizable.",
+            "Closed front/left lid seam is conspicuously dark; its visibility is recorded, not classified as a proven seating or collision failure."
+          ],
+          "id": "jordan",
+          "inspected_paths": [
+            "parent/smoke/jordan/desktop-closed.png",
+            "parent/smoke/jordan/desktop-open.png",
+            "parent/smoke/jordan/mobile-closed.png",
+            "parent/smoke/jordan/mobile-open.png",
+            "parent/sources/jordan/marketing.webp"
+          ],
+          "limitations": [
+            "Independent inspection of all five original images; comparison concerns normal-size material/theme, not hyperrealism or calibrated color equivalence.",
+            "Static endpoint frames cannot establish hidden collisions, intermediate motion, attachment integrity, or control operation.",
+            "Inherited Jordan hold remains in force; this review does not approve art or release the hold."
+          ],
+          "observations": "Both open poses are fully framed with a readable cavity. No obvious major missing surface is visible. Inherited hold is preserved regardless of these endpoint observations.",
+          "verdict": "needs-user-review"
+        },
+        "report": "visual-c.json"
+      },
+      "parent_visual": {
+        "decision": "Hold for an explicit fidelity decision on pale marketing versus saturated wood-like runtime finish. Preserve this significant gap; do not silently downgrade it to ordinary polish. No art changes or final user approval.",
+        "hardware": "Front long clasp, circular fitting, side ring and corner caps retain marketing arrangement. Open views show rear hinges and expected released lid-side latch; no detached-hardware defect established.",
+        "limitations": "Read source README and research brief. Brief-led procedural landscape, not surveyed Wadi Rum or prior approved concept. Single-camera frozen captures do not establish calibrated material equivalence, continuous mechanics or physical-phone performance. Existing technical passes are contextual, not fresh visual approval.",
+        "quality": "Complete, coherently framed stylized asset in both desktop/mobile closed/open captures; no obvious gross missing geometry or clipping.",
+        "terrain": "Two fluted, banded massifs and open right-hand arch preserve the marketing layout. Arch is regular and handle-like on mobile; winding siq remains a thin inlay, not an excavated gorge. Flat sandy carrier and abrupt terrain transitions remain conspicuous.",
+        "texture": "Significant marketing/runtime palette gap: marketing is pale blush/cream with fine stone speckling; actual captures are saturated rose-orange/ochre with darker reddish lid frame and strong regular bands that can read as wood. Broad geometry matches do not resolve this finish difference."
+      },
+      "parent_visual_hold_preserved": true
+    }
+  },
+  {
+    "id": "malaysia",
+    "review": {
+      "visual_review": {
+        "caveats": [
+          "Palette mismatch is an art-direction decision, not proven renderer malfunction",
+          "Weak weave/raised-thread material readability",
+          "Hinge and corner joins require closer technical evidence"
+        ],
+        "critical_visible_faults": [],
+        "file": "visual-b.json",
+        "id": "malaysia",
+        "observations": {
+          "desktop-closed": "Crimson chest with gold lattice, dark inset lid diamonds, brass fittings and rounded feet. Full framing. Gold lines have boundary breaks and uneven aliasing; body reads smooth coating rather than woven textile.",
+          "desktop-open": "Crimson lattice continues across lid underside and cavity. Full silhouette fits; dark rear hinge clearance and abrupt rim joins look unfinished.",
+          "marketing": "Body visibly mauve/pink with charcoal lid inset rather than model crimson treatment. Same lattice, diamond ornaments and hardware; irregular lines and soft feet remain.",
+          "mobile-closed": "Crimson/gold identity legible with no overlap or clipping. Thin lattice jagged; feet chunky and dark.",
+          "mobile-open": "Open state and cavity readable; front-left and rear-right rim corners show thin bright edges/protrusions. No definite major mesh failure."
+        },
+        "parent_status": "needs-decision",
+        "parent_status_justified": "yes; independently visible crimson-versus-mauve and dark-top presentation divergence warrants the existing direction hold",
+        "recommended_status": "needs-decision"
+      }
+    }
+  },
+  {
+    "id": "micronesia",
+    "review": {
+      "visual_review": {
+        "critical_visible_faults": [],
+        "decision": "Retain needs-decision for stylization/material fidelity; no demonstrated need for structural regeneration.",
+        "desktop_closed": "Gray coursed masonry, turquoise canal inset, pale platform bases and miniature stacked architecture are legible; strong seam and pale irregular feet draw attention.",
+        "desktop_open": "Empty gray cavity and plain lid underside visible, with rear hinges and released clasp; no conspicuous intersection or crop.",
+        "file": "visual-c.json",
+        "id": "micronesia",
+        "inspected": [
+          "smoke/micronesia/desktop-closed.png",
+          "smoke/micronesia/desktop-open.png",
+          "smoke/micronesia/mobile-closed.png",
+          "smoke/micronesia/mobile-open.png",
+          "marketing/micronesia.webp"
+        ],
+        "marketing_comparison": "Same principal chest, canal/platform arrangement and hardware language. Marketing has more tactile grain, softened pale bases and fuzzy-looking feet; runtime is smoother, harder-edged and more regular. Water remains an opaque turquoise insert rather than convincing tidal water.",
+        "mobile_closed": "Canal and architecture identity survives at phone size; coarse masonry and bright feet are more prominent than fine basalt texture.",
+        "mobile_open": "Full lid and feet fit; hollow interior reads clearly though dark lower surfaces lose detail.",
+        "parent_status": "needs-decision",
+        "parent_status_justified": true,
+        "severity": "moderate-fidelity"
+      }
+    }
+  },
+  {
+    "id": "monaco",
+    "review": {
+      "hinge_assessment": "Small rear attachment continuity unresolved in stills, not proven detached. No fresh geometric contact/collision certification.",
+      "independent_visual_findings": "More tightly clustered village on lower regular shelf. Both views expose water; hold concerns relative footprint and cliff sculpting, not missing land/buildings.",
+      "parent_visual_findings": "Marketing village occupies larger footprint on taller irregular stepped cliff; actual compact cluster on lower regular shelf exposes more blue lid."
+    }
+  },
+  {
+    "id": "morocco",
+    "review": {
+      "independent_visual": {
+        "file": "visual-3.json",
+        "findings": {
+          "approved": false,
+          "archive_byte_hold": {
+            "cleared": false,
+            "note": "Existing archive-byte hold is retained exactly as a separate unresolved gate. This visual inspection did not test or resolve archive bytes.",
+            "retained": true,
+            "separate_from_visual_review": true
+          },
+          "artistic_gaps": [
+            "Material and palette drift is material to fidelity: warm rose/rust stone differs from the reference's predominantly pale cream/honey body, regardless of the page's Rose stone subtitle.",
+            "Intricate green-white reference inlay is reduced to a less legible tiled border; smooth satin center and polished stone response are less convincing.",
+            "Mountain-to-lid transition, abrupt veining direction changes, soft hardware and weak ground contact reduce crafted-object coherence."
+          ],
+          "final_views": [
+            {
+              "file": "smoke/morocco/desktop-closed.png",
+              "observations": "Body is substantially more salmon/rose, rust and ochre than the pale reference. Wood sides show strong stretched-looking grain. Green-white border is soft and difficult to resolve; mountain is small and abruptly seated. Uneven-looking dark lid seam, disconnected-looking small front fittings and weak grounding shadow merit review."
+            },
+            {
+              "file": "smoke/morocco/desktop-open.png",
+              "observations": "Dark brown underside and cavity obscure internal detail. Rear gap and layered/uneven rim strips at front-left and rear-right make attachment and join quality uncertain. Full model fits, slightly right-weighted."
+            },
+            {
+              "file": "smoke/morocco/mobile-closed.png",
+              "observations": "Complete chest and controls fit; title has little spare width. Tile pattern, mountain and metal edges look pixelated; small latch pieces merge. Dark front-left lid seam remains noticeable."
+            },
+            {
+              "file": "smoke/morocco/mobile-open.png",
+              "observations": "Full raised lid, upper hardware and lower corners fit without page overflow. Cavity remains very dark, ceramic motif is not discernible in this orientation, and rim/hinge edges are jagged."
+            }
+          ],
+          "follow_up": "User must decide whether the warmer rose recolor and simplified tile/material treatment are intended. Retain partial unapproved status and the independent archive-byte hold; do not promote on the basis of intact framing or readable open/closed states.",
+          "id": "morocco",
+          "recommendation": "needs-user-review",
+          "reference": {
+            "dimensions": [
+              1100,
+              1000
+            ],
+            "file": "sources/morocco/marketing.webp",
+            "observations": "Predominantly ivory/cream/honey horizontally banded polished stone body, chocolate lid, smooth gray-brown center, intricate green-white floral/geometric perimeter inlay with fine edging, small peach mountain ornament. Brass central clasp, round medallion, low front ring and bottom guards."
+          },
+          "retained_status": "partial unapproved"
+        }
+      },
+      "parent_decision": "Needs explicit decision on the remaining ceramic contrast/interlocking/corners and lid-edge grain before any promotion. Preserve unapproved v6/archive hold; no art edits or further iterations authorized by this review.",
+      "parent_quality": "Partial, explicitly unapproved v6 candidate; retain archive hold. Fully framed consistent desktop/mobile states do not resolve reference-finish gaps. Exact marketing has pale cream/gold body bands; runtime has stronger rose/rust/cream bands. This is a reference difference, not evidence of a new v6 preservation failure."
+    }
+  },
+  {
+    "id": "namibia",
+    "review": {
+      "visual_review": {
+        "critical_visible_faults": [],
+        "decision": "Retain visual decision hold AND Namibia complete-source-archive inventory hold. Screenshot review cannot clear the archive gate.",
+        "desktop_closed": "Yellow-ochre dune chest, pale playa detail and brass fittings are coherent; pronounced dark seam reads partly open even in the closed pose.",
+        "desktop_open": "Dark brown hollow cavity, raised rim and two hinges visible. Rear gap warrants a contact caveat, not a confirmed detached-lid diagnosis.",
+        "file": "visual-c.json",
+        "id": "namibia",
+        "inspected": [
+          "smoke/namibia/desktop-closed.png",
+          "smoke/namibia/desktop-open.png",
+          "smoke/namibia/mobile-closed.png",
+          "smoke/namibia/mobile-open.png",
+          "marketing/namibia.webp"
+        ],
+        "marketing_comparison": "Marketing is substantially paler peach with elongated curled/warped-looking ridges and a conspicuous pale patch; runtime presents compact ochre dunes. Color and terrain reading differ enough to warrant a direction decision, rather than assuming exact equivalence.",
+        "mobile_closed": "Dune silhouette and orange/gold identity readable; complete box contained without overlap.",
+        "mobile_open": "Full open silhouette contained; cavity visible but bottom largely occluded by perspective.",
+        "parent_status": "needs-decision",
+        "parent_status_justified": true,
+        "preserved_nonvisual_hold": "complete-source-archive-inventory-not-verified",
+        "severity": "moderate-fidelity-plus-existing-archive-hold"
+      }
+    }
+  }
+]

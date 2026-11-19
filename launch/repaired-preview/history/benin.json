@@ -1,0 +1,725 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 5,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 814582,
+        "role": "editable-source",
+        "sha256": "75080de672c645e59334b140bcf3e0ceec292a9968b52733efa96f90928fec5e",
+        "source": {
+          "commit": "b4ad435e2ac897d24919786e984c2f47e730328d",
+          "path": "preview/benin-v1/benin.blend"
+        },
+        "uri": "sha256:75080de672c645e59334b140bcf3e0ceec292a9968b52733efa96f90928fec5e"
+      },
+      {
+        "bytes": 6830138,
+        "role": "historical-source-archive",
+        "sha256": "d4170c37cdc52328f29766d94ffdb0186e43845c0ae0cf493c96d4dc002f9f0a",
+        "source": {
+          "commit": "b4ad435e2ac897d24919786e984c2f47e730328d",
+          "kind": "git",
+          "path": "preview/benin-v1/benin-v1-source.zip"
+        },
+        "uri": "sha256:d4170c37cdc52328f29766d94ffdb0186e43845c0ae0cf493c96d4dc002f9f0a"
+      },
+      {
+        "bytes": 1586600,
+        "role": "model",
+        "sha256": "0d75eb502e548ec0148d89dddde02d844b223698faf25ff09d10e08b2effec95",
+        "source": {
+          "commit": "b4ad435e2ac897d24919786e984c2f47e730328d",
+          "path": "preview/benin-v1/benin.glb"
+        },
+        "uri": "sha256:0d75eb502e548ec0148d89dddde02d844b223698faf25ff09d10e08b2effec95"
+      },
+      {
+        "bytes": 110982,
+        "role": "promotional-illustration",
+        "sha256": "1cc7c5d2f1aa9af8f37c076877af3107fc43d07f4d0fc4fcbb79c60746d96e43",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/benin.webp"
+        },
+        "uri": "sha256:1cc7c5d2f1aa9af8f37c076877af3107fc43d07f4d0fc4fcbb79c60746d96e43"
+      },
+      {
+        "bytes": 4507,
+        "role": "research-brief",
+        "sha256": "72f97fb6704ab080d085dd0e71f93501384b5c5407884b99a2df9c81e2bcebb4",
+        "source": {
+          "commit": "b4ad435e2ac897d24919786e984c2f47e730328d",
+          "path": "preview/benin-v1/design-brief.md"
+        },
+        "uri": "sha256:72f97fb6704ab080d085dd0e71f93501384b5c5407884b99a2df9c81e2bcebb4"
+      },
+      {
+        "bytes": 6597,
+        "role": "source-notice",
+        "sha256": "1e0fa111b1d7d30519c29625ffa0dab02d747e7d1d8ddfddbe63e3b450284519",
+        "source": {
+          "commit": "b4ad435e2ac897d24919786e984c2f47e730328d",
+          "path": "preview/benin-v1/README.md"
+        },
+        "uri": "sha256:1e0fa111b1d7d30519c29625ffa0dab02d747e7d1d8ddfddbe63e3b450284519"
+      },
+      {
+        "bytes": 2830775,
+        "role": "viewer",
+        "sha256": "66807e04221c92c47821d91afc6bce09dedb9e648da5209598a8cef6741c0802",
+        "source": {
+          "commit": "b4ad435e2ac897d24919786e984c2f47e730328d",
+          "path": "preview/benin-v1/benin-v1.html"
+        },
+        "uri": "sha256:66807e04221c92c47821d91afc6bce09dedb9e648da5209598a8cef6741c0802"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "benin",
+    "independent_review": {
+      "art_changed": false,
+      "fresh_checks": {
+        "archives": [
+          {
+            "bytes": 6830138,
+            "crc_safe_unique": true,
+            "entries": 56,
+            "full_inner_inventory_rerun": false,
+            "path": "preview/benin-v1/benin-v1-source.zip",
+            "required_payloads": [
+              {
+                "archive_members": [
+                  "benin-v1.html"
+                ],
+                "exact_match": true,
+                "path": "preview/benin-v1/benin-v1.html"
+              },
+              {
+                "archive_members": [
+                  "benin.blend"
+                ],
+                "exact_match": true,
+                "path": "preview/benin-v1/benin.blend"
+              },
+              {
+                "archive_members": [
+                  "benin.glb"
+                ],
+                "exact_match": true,
+                "path": "preview/benin-v1/benin.glb"
+              }
+            ],
+            "sha256": "d4170c37cdc52328f29766d94ffdb0186e43845c0ae0cf493c96d4dc002f9f0a"
+          }
+        ],
+        "art_changed": false,
+        "id": "benin",
+        "models": [
+          {
+            "bytes": 814582,
+            "commit": "b4ad435e2ac897d24919786e984c2f47e730328d",
+            "path": "preview/benin-v1/benin.blend",
+            "role": "selected-model",
+            "sha256": "75080de672c645e59334b140bcf3e0ceec292a9968b52733efa96f90928fec5e"
+          },
+          {
+            "bytes": 1586600,
+            "commit": "b4ad435e2ac897d24919786e984c2f47e730328d",
+            "path": "preview/benin-v1/benin.glb",
+            "role": "selected-model",
+            "sha256": "0d75eb502e548ec0148d89dddde02d844b223698faf25ff09d10e08b2effec95",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 107,
+              "nodes": 109
+            }
+          }
+        ],
+        "parent_package_holds": [],
+        "viewer": {
+          "bytes": 2830775,
+          "commit": "b4ad435e2ac897d24919786e984c2f47e730328d",
+          "path": "preview/benin-v1/benin-v1.html",
+          "sha256": "66807e04221c92c47821d91afc6bce09dedb9e648da5209598a8cef6741c0802",
+          "under_5000000": true
+        }
+      },
+      "historical_runtime_only": true,
+      "id": "benin",
+      "inspected_images": [
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/benin/desktop-closed.png",
+          "sha256": "d9489b54734bf77b08036205bba58297424f1099a3d9856405d4c30403fcfc4e"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/benin/desktop-open.png",
+          "sha256": "1ae14215a4d726dd10161d72f81a0f98dce78b1bf6fa945be1d99ec00f95ad5b"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/benin/mobile-closed.png",
+          "sha256": "3181f6ee1bd275dab515fd6e7679b68a3fa097b2e9d314dfde482a68993d2a01"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/benin/mobile-open.png",
+          "sha256": "ad8b57fe40f6300ff106d3b1e22787b758526a9f3d97655551fd2525dc05d515"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "sources/benin/marketing.webp",
+          "sha256": "1cc7c5d2f1aa9af8f37c076877af3107fc43d07f4d0fc4fcbb79c60746d96e43"
+        }
+      ],
+      "launch_ready": false,
+      "missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "package_holds": [],
+      "parent_reason": "Bounded visual candidate pass: two roofed towers, smaller open cylindrical feature, connected architecture and earthen chest identity retained. No definite geometry or framing failure in the required views.",
+      "review_complete": true,
+      "source_record": {
+        "approval": {
+          "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+          "prior_approved_baseline": null,
+          "status": "candidate-not-final-approved",
+          "user_final_approved": false
+        },
+        "category": "Country",
+        "delivered_viewer": {
+          "bytes": 2830775,
+          "exists": true,
+          "matches_selected_commit": true,
+          "path": "C:\\Users\\futur\\.hermes\\profiles\\telegram2\\output\\boxsv-collection-review\\viewers\\benin.html",
+          "sha256": "66807e04221c92c47821d91afc6bce09dedb9e648da5209598a8cef6741c0802"
+        },
+        "edition_supply": 1,
+        "id": "benin",
+        "launch_ready": false,
+        "legacy_review_viewer": {
+          "bytes": 2830775,
+          "commit": "b4ad435e2ac897d24919786e984c2f47e730328d",
+          "path": "viewers/benin.html",
+          "sha256": "66807e04221c92c47821d91afc6bce09dedb9e648da5209598a8cef6741c0802",
+          "source_path": "preview/benin-v1/benin-v1.html"
+        },
+        "marketing": {
+          "bytes": 110982,
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "dimensions": [
+            1072,
+            976
+          ],
+          "image_type": "Promotional art",
+          "matches_gallery_inventory": true,
+          "not_model_approval": true,
+          "path": "docs/assets/gallery/benin.webp",
+          "provenance": {
+            "exactModelEquivalenceClaimed": false,
+            "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+            "model": "grok-imagine-image",
+            "nativeDimensions": [
+              1072,
+              976
+            ],
+            "provider": "xai",
+            "reviewNotes": "Principal silhouette, palette, hardware and lid count/placement retained; texture refinement allowed.",
+            "reviewStatus": "accepted",
+            "sha256": "1ea570b18cb0645af6b427b0c563c36e5848e252a7e77ea27de2b572a7ba129d",
+            "source": "assets/gallery/benin.webp",
+            "sourceSha256": "0eb8fa44006c3879b47a3bca0b42a195bb45ea83dc9096298083787de53b0c1e",
+            "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+          },
+          "sha256": "1cc7c5d2f1aa9af8f37c076877af3107fc43d07f4d0fc4fcbb79c60746d96e43"
+        },
+        "missing_gates": [
+          "independent-current-model-visual-review",
+          "explicit-final-user-art-approval",
+          "fresh-full-source-and-browser-acceptance",
+          "storage-and-preservation-policy",
+          "mint-and-release-authorization"
+        ],
+        "model_sources": [
+          {
+            "bytes": 814582,
+            "commit": "b4ad435e2ac897d24919786e984c2f47e730328d",
+            "path": "preview/benin-v1/benin.blend",
+            "role": "selected-model",
+            "sha256": "75080de672c645e59334b140bcf3e0ceec292a9968b52733efa96f90928fec5e"
+          },
+          {
+            "bytes": 1586600,
+            "commit": "b4ad435e2ac897d24919786e984c2f47e730328d",
+            "path": "preview/benin-v1/benin.glb",
+            "role": "selected-model",
+            "sha256": "0d75eb502e548ec0148d89dddde02d844b223698faf25ff09d10e08b2effec95",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 107,
+              "nodes": 109
+            }
+          }
+        ],
+        "name": "Benin",
+        "provenance": {
+          "readme_snapshot": "source-notes/benin.md",
+          "research_brief": {
+            "bytes": 4507,
+            "commit": "b4ad435e2ac897d24919786e984c2f47e730328d",
+            "path": "preview/benin-v1/design-brief.md",
+            "sha256": "72f97fb6704ab080d085dd0e71f93501384b5c5407884b99a2df9c81e2bcebb4"
+          },
+          "source_readme": {
+            "bytes": 6597,
+            "commit": "b4ad435e2ac897d24919786e984c2f47e730328d",
+            "path": "preview/benin-v1/README.md",
+            "sha256": "1e0fa111b1d7d30519c29625ffa0dab02d747e7d1d8ddfddbe63e3b450284519"
+          }
+        },
+        "qa": {
+          "evidence_path": "qa/benin.json",
+          "fresh_runtime_execution": false,
+          "historical_report_count": 8
+        },
+        "selection": {
+          "commit": "b4ad435e2ac897d24919786e984c2f47e730328d",
+          "fetched_tip": "b4ad435e2ac897d24919786e984c2f47e730328d",
+          "reachable_from_fetched_ref": true,
+          "remote_ref": "origin/art/benin-v1"
+        },
+        "source_archives": [
+          {
+            "bytes": 6830138,
+            "commit": "b4ad435e2ac897d24919786e984c2f47e730328d",
+            "crc_error": null,
+            "entries": 56,
+            "inventory_checked": true,
+            "inventory_entries": 55,
+            "inventory_mismatches": [],
+            "kind": "git",
+            "path": "preview/benin-v1/benin-v1-source.zip",
+            "required_payloads": {
+              "benin-v1.html": true,
+              "benin.blend": true,
+              "benin.glb": true
+            },
+            "safe_unique_paths": true,
+            "sha256": "d4170c37cdc52328f29766d94ffdb0186e43845c0ae0cf493c96d4dc002f9f0a"
+          }
+        ],
+        "version": "benin-v1",
+        "viewer": {
+          "bytes": 2830775,
+          "commit": "b4ad435e2ac897d24919786e984c2f47e730328d",
+          "path": "preview/benin-v1/benin-v1.html",
+          "sha256": "66807e04221c92c47821d91afc6bce09dedb9e648da5209598a8cef6741c0802",
+          "under_5000000": true
+        },
+        "visual_limitations": []
+      },
+      "user_final_approved": false,
+      "verdict": "candidate-with-limitations",
+      "visual_review": {
+        "finish_limitations": [
+          "Viewer earth texture is soft/mottled and roofs more angular/grainy; marketing has richer plaster grain and distinctly ribbed woven-looking roof detail.",
+          "Inner lid has subtle rectangular tonal patches; plain interior and relatively flat brass limit realism rather than establish damage."
+        ],
+        "framing": "Chest, architectural lid, feet and open-state tab fit both desktop and mobile; buttons fit side by side, with small secondary text.",
+        "geometry_observations": [
+          "Both closed captures retain joined tower architecture, pale conical roofs, open-topped cylinder, front clasp/disc, corner fittings and short feet.",
+          "Open views show raised lid and empty cavity with defined inner walls, stepped rim corners and visible hinges. No obvious broken face or hole; rear joins and hinge contacts remain uncertain.",
+          "Dark closed seam also exists in marketing and is not independently proof of misclosure."
+        ],
+        "id": "benin",
+        "images_inspected": [
+          "launch/art-05/smoke/benin/desktop-closed.png",
+          "launch/art-05/smoke/benin/desktop-open.png",
+          "launch/art-05/smoke/benin/mobile-closed.png",
+          "launch/art-05/smoke/benin/mobile-open.png",
+          "launch/art-05/sources/benin/marketing.webp"
+        ],
+        "observed_defects": [],
+        "parent_hold_preserved": false,
+        "reason": "Architectural identity and coherent visible open cavity preserved. No unequivocal geometry or framing failure; differences are primarily finish/detail fidelity.",
+        "review_complete": true,
+        "user_final_approved": false,
+        "verdict": "candidate-pass"
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Benin",
+    "package_history": [
+      {
+        "bytes": 6830138,
+        "commit": "b4ad435e2ac897d24919786e984c2f47e730328d",
+        "crc_error": null,
+        "entries": 56,
+        "inventory_checked": true,
+        "inventory_entries": 55,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/benin-v1/benin-v1-source.zip",
+        "required_payloads": {
+          "benin-v1.html": true,
+          "benin.blend": true,
+          "benin.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "d4170c37cdc52328f29766d94ffdb0186e43845c0ae0cf493c96d4dc002f9f0a"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "b4ad435e2ac897d24919786e984c2f47e730328d",
+      "fetched_tip": "b4ad435e2ac897d24919786e984c2f47e730328d",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/benin-v1"
+    },
+    "verdict": "candidate-with-limitations",
+    "viewer": {
+      "bytes": 2830775,
+      "commit": "b4ad435e2ac897d24919786e984c2f47e730328d",
+      "path": "preview/benin-v1/benin-v1.html",
+      "sha256": "66807e04221c92c47821d91afc6bce09dedb9e648da5209598a8cef6741c0802",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "benin",
+    "baseline_verdict": "candidate-with-limitations",
+    "actions": [
+      "owner art/finish acceptance; no proven runtime defect recorded; no autonomous redesign"
+    ],
+    "approval": false,
+    "original_review": {
+      "art_changed": false,
+      "fresh_checks": {
+        "archives": [
+          {
+            "bytes": 6830138,
+            "crc_safe_unique": true,
+            "entries": 56,
+            "full_inner_inventory_rerun": false,
+            "path": "preview/benin-v1/benin-v1-source.zip",
+            "required_payloads": [
+              {
+                "archive_members": [
+                  "benin-v1.html"
+                ],
+                "exact_match": true,
+                "path": "preview/benin-v1/benin-v1.html"
+              },
+              {
+                "archive_members": [
+                  "benin.blend"
+                ],
+                "exact_match": true,
+                "path": "preview/benin-v1/benin.blend"
+              },
+              {
+                "archive_members": [
+                  "benin.glb"
+                ],
+                "exact_match": true,
+                "path": "preview/benin-v1/benin.glb"
+              }
+            ],
+            "sha256": "d4170c37cdc52328f29766d94ffdb0186e43845c0ae0cf493c96d4dc002f9f0a"
+          }
+        ],
+        "art_changed": false,
+        "id": "benin",
+        "models": [
+          {
+            "bytes": 814582,
+            "commit": "b4ad435e2ac897d24919786e984c2f47e730328d",
+            "path": "preview/benin-v1/benin.blend",
+            "role": "selected-model",
+            "sha256": "75080de672c645e59334b140bcf3e0ceec292a9968b52733efa96f90928fec5e"
+          },
+          {
+            "bytes": 1586600,
+            "commit": "b4ad435e2ac897d24919786e984c2f47e730328d",
+            "path": "preview/benin-v1/benin.glb",
+            "role": "selected-model",
+            "sha256": "0d75eb502e548ec0148d89dddde02d844b223698faf25ff09d10e08b2effec95",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 107,
+              "nodes": 109
+            }
+          }
+        ],
+        "parent_package_holds": [],
+        "viewer": {
+          "bytes": 2830775,
+          "commit": "b4ad435e2ac897d24919786e984c2f47e730328d",
+          "path": "preview/benin-v1/benin-v1.html",
+          "sha256": "66807e04221c92c47821d91afc6bce09dedb9e648da5209598a8cef6741c0802",
+          "under_5000000": true
+        }
+      },
+      "historical_runtime_only": true,
+      "id": "benin",
+      "inspected_images": [
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/benin/desktop-closed.png",
+          "sha256": "d9489b54734bf77b08036205bba58297424f1099a3d9856405d4c30403fcfc4e"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/benin/desktop-open.png",
+          "sha256": "1ae14215a4d726dd10161d72f81a0f98dce78b1bf6fa945be1d99ec00f95ad5b"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/benin/mobile-closed.png",
+          "sha256": "3181f6ee1bd275dab515fd6e7679b68a3fa097b2e9d314dfde482a68993d2a01"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/benin/mobile-open.png",
+          "sha256": "ad8b57fe40f6300ff106d3b1e22787b758526a9f3d97655551fd2525dc05d515"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "sources/benin/marketing.webp",
+          "sha256": "1cc7c5d2f1aa9af8f37c076877af3107fc43d07f4d0fc4fcbb79c60746d96e43"
+        }
+      ],
+      "launch_ready": false,
+      "missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "package_holds": [],
+      "parent_reason": "Bounded visual candidate pass: two roofed towers, smaller open cylindrical feature, connected architecture and earthen chest identity retained. No definite geometry or framing failure in the required views.",
+      "review_complete": true,
+      "source_record": {
+        "approval": {
+          "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+          "prior_approved_baseline": null,
+          "status": "candidate-not-final-approved",
+          "user_final_approved": false
+        },
+        "category": "Country",
+        "delivered_viewer": {
+          "bytes": 2830775,
+          "exists": true,
+          "matches_selected_commit": true,
+          "path": "C:\\Users\\futur\\.hermes\\profiles\\telegram2\\output\\boxsv-collection-review\\viewers\\benin.html",
+          "sha256": "66807e04221c92c47821d91afc6bce09dedb9e648da5209598a8cef6741c0802"
+        },
+        "edition_supply": 1,
+        "id": "benin",
+        "launch_ready": false,
+        "legacy_review_viewer": {
+          "bytes": 2830775,
+          "commit": "b4ad435e2ac897d24919786e984c2f47e730328d",
+          "path": "viewers/benin.html",
+          "sha256": "66807e04221c92c47821d91afc6bce09dedb9e648da5209598a8cef6741c0802",
+          "source_path": "preview/benin-v1/benin-v1.html"
+        },
+        "marketing": {
+          "bytes": 110982,
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "dimensions": [
+            1072,
+            976
+          ],
+          "image_type": "Promotional art",
+          "matches_gallery_inventory": true,
+          "not_model_approval": true,
+          "path": "docs/assets/gallery/benin.webp",
+          "provenance": {
+            "exactModelEquivalenceClaimed": false,
+            "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+            "model": "grok-imagine-image",
+            "nativeDimensions": [
+              1072,
+              976
+            ],
+            "provider": "xai",
+            "reviewNotes": "Principal silhouette, palette, hardware and lid count/placement retained; texture refinement allowed.",
+            "reviewStatus": "accepted",
+            "sha256": "1ea570b18cb0645af6b427b0c563c36e5848e252a7e77ea27de2b572a7ba129d",
+            "source": "assets/gallery/benin.webp",
+            "sourceSha256": "0eb8fa44006c3879b47a3bca0b42a195bb45ea83dc9096298083787de53b0c1e",
+            "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+          },
+          "sha256": "1cc7c5d2f1aa9af8f37c076877af3107fc43d07f4d0fc4fcbb79c60746d96e43"
+        },
+        "missing_gates": [
+          "independent-current-model-visual-review",
+          "explicit-final-user-art-approval",
+          "fresh-full-source-and-browser-acceptance",
+          "storage-and-preservation-policy",
+          "mint-and-release-authorization"
+        ],
+        "model_sources": [
+          {
+            "bytes": 814582,
+            "commit": "b4ad435e2ac897d24919786e984c2f47e730328d",
+            "path": "preview/benin-v1/benin.blend",
+            "role": "selected-model",
+            "sha256": "75080de672c645e59334b140bcf3e0ceec292a9968b52733efa96f90928fec5e"
+          },
+          {
+            "bytes": 1586600,
+            "commit": "b4ad435e2ac897d24919786e984c2f47e730328d",
+            "path": "preview/benin-v1/benin.glb",
+            "role": "selected-model",
+            "sha256": "0d75eb502e548ec0148d89dddde02d844b223698faf25ff09d10e08b2effec95",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 107,
+              "nodes": 109
+            }
+          }
+        ],
+        "name": "Benin",
+        "provenance": {
+          "readme_snapshot": "source-notes/benin.md",
+          "research_brief": {
+            "bytes": 4507,
+            "commit": "b4ad435e2ac897d24919786e984c2f47e730328d",
+            "path": "preview/benin-v1/design-brief.md",
+            "sha256": "72f97fb6704ab080d085dd0e71f93501384b5c5407884b99a2df9c81e2bcebb4"
+          },
+          "source_readme": {
+            "bytes": 6597,
+            "commit": "b4ad435e2ac897d24919786e984c2f47e730328d",
+            "path": "preview/benin-v1/README.md",
+            "sha256": "1e0fa111b1d7d30519c29625ffa0dab02d747e7d1d8ddfddbe63e3b450284519"
+          }
+        },
+        "qa": {
+          "evidence_path": "qa/benin.json",
+          "fresh_runtime_execution": false,
+          "historical_report_count": 8
+        },
+        "selection": {
+          "commit": "b4ad435e2ac897d24919786e984c2f47e730328d",
+          "fetched_tip": "b4ad435e2ac897d24919786e984c2f47e730328d",
+          "reachable_from_fetched_ref": true,
+          "remote_ref": "origin/art/benin-v1"
+        },
+        "source_archives": [
+          {
+            "bytes": 6830138,
+            "commit": "b4ad435e2ac897d24919786e984c2f47e730328d",
+            "crc_error": null,
+            "entries": 56,
+            "inventory_checked": true,
+            "inventory_entries": 55,
+            "inventory_mismatches": [],
+            "kind": "git",
+            "path": "preview/benin-v1/benin-v1-source.zip",
+            "required_payloads": {
+              "benin-v1.html": true,
+              "benin.blend": true,
+              "benin.glb": true
+            },
+            "safe_unique_paths": true,
+            "sha256": "d4170c37cdc52328f29766d94ffdb0186e43845c0ae0cf493c96d4dc002f9f0a"
+          }
+        ],
+        "version": "benin-v1",
+        "viewer": {
+          "bytes": 2830775,
+          "commit": "b4ad435e2ac897d24919786e984c2f47e730328d",
+          "path": "preview/benin-v1/benin-v1.html",
+          "sha256": "66807e04221c92c47821d91afc6bce09dedb9e648da5209598a8cef6741c0802",
+          "under_5000000": true
+        },
+        "visual_limitations": []
+      },
+      "user_final_approved": false,
+      "verdict": "candidate-with-limitations",
+      "visual_review": {
+        "finish_limitations": [
+          "Viewer earth texture is soft/mottled and roofs more angular/grainy; marketing has richer plaster grain and distinctly ribbed woven-looking roof detail.",
+          "Inner lid has subtle rectangular tonal patches; plain interior and relatively flat brass limit realism rather than establish damage."
+        ],
+        "framing": "Chest, architectural lid, feet and open-state tab fit both desktop and mobile; buttons fit side by side, with small secondary text.",
+        "geometry_observations": [
+          "Both closed captures retain joined tower architecture, pale conical roofs, open-topped cylinder, front clasp/disc, corner fittings and short feet.",
+          "Open views show raised lid and empty cavity with defined inner walls, stepped rim corners and visible hinges. No obvious broken face or hole; rear joins and hinge contacts remain uncertain.",
+          "Dark closed seam also exists in marketing and is not independently proof of misclosure."
+        ],
+        "id": "benin",
+        "images_inspected": [
+          "launch/art-05/smoke/benin/desktop-closed.png",
+          "launch/art-05/smoke/benin/desktop-open.png",
+          "launch/art-05/smoke/benin/mobile-closed.png",
+          "launch/art-05/smoke/benin/mobile-open.png",
+          "launch/art-05/sources/benin/marketing.webp"
+        ],
+        "observed_defects": [],
+        "parent_hold_preserved": false,
+        "reason": "Architectural identity and coherent visible open cavity preserved. No unequivocal geometry or framing failure; differences are primarily finish/detail fidelity.",
+        "review_complete": true,
+        "user_final_approved": false,
+        "verdict": "candidate-pass"
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 6830138,
+        "commit": "b4ad435e2ac897d24919786e984c2f47e730328d",
+        "crc_error": null,
+        "entries": 56,
+        "inventory_checked": true,
+        "inventory_entries": 55,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/benin-v1/benin-v1-source.zip",
+        "required_payloads": {
+          "benin-v1.html": true,
+          "benin.blend": true,
+          "benin.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "d4170c37cdc52328f29766d94ffdb0186e43845c0ae0cf493c96d4dc002f9f0a"
+      }
+    ]
+  }
+}

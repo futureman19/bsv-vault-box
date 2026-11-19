@@ -1,0 +1,627 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 4,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 792260,
+        "role": "editable-source",
+        "sha256": "f88e3dd66aa6c5b3dc9f42ea37a1bd43f0280eff71f8ba9eb0eeb184769e91ec",
+        "source": {
+          "commit": "36855aa21be12e49e17a14d5593eea958fcdff21",
+          "path": "preview/austria-v1/austria.blend"
+        },
+        "uri": "sha256:f88e3dd66aa6c5b3dc9f42ea37a1bd43f0280eff71f8ba9eb0eeb184769e91ec"
+      },
+      {
+        "bytes": 8415035,
+        "role": "historical-source-archive",
+        "sha256": "c69336ca008420d22917aa6e9f3929a132dae4506e635ec96950acc101885f99",
+        "source": {
+          "commit": "36855aa21be12e49e17a14d5593eea958fcdff21",
+          "kind": "git",
+          "path": "preview/austria-v1/austria-v1-source.zip"
+        },
+        "uri": "sha256:c69336ca008420d22917aa6e9f3929a132dae4506e635ec96950acc101885f99"
+      },
+      {
+        "bytes": 1643776,
+        "role": "model",
+        "sha256": "51ea7423e8261b39786e33c9b0ffc79d242c0a58eccfd1a114296f6c93566612",
+        "source": {
+          "commit": "36855aa21be12e49e17a14d5593eea958fcdff21",
+          "path": "preview/austria-v1/austria.glb"
+        },
+        "uri": "sha256:51ea7423e8261b39786e33c9b0ffc79d242c0a58eccfd1a114296f6c93566612"
+      },
+      {
+        "bytes": 102138,
+        "role": "promotional-illustration",
+        "sha256": "3d90aa412a76a3ddc2dfe14d074014bbae8fa45ad0c977b2db689b38b45deae5",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/austria.webp"
+        },
+        "uri": "sha256:3d90aa412a76a3ddc2dfe14d074014bbae8fa45ad0c977b2db689b38b45deae5"
+      },
+      {
+        "bytes": 3363,
+        "role": "research-brief",
+        "sha256": "b49e11b6b2dfd129506fdca8ce8add6e5899520542c80fa7875836b4e940d5ff",
+        "source": {
+          "commit": "36855aa21be12e49e17a14d5593eea958fcdff21",
+          "path": "preview/austria-v1/design-brief.md"
+        },
+        "uri": "sha256:b49e11b6b2dfd129506fdca8ce8add6e5899520542c80fa7875836b4e940d5ff"
+      },
+      {
+        "bytes": 6484,
+        "role": "source-notice",
+        "sha256": "26a925e8e75bfc9513b4641d2e3fb96f1de094ce65e8a04aba3fd5118bf568e9",
+        "source": {
+          "commit": "36855aa21be12e49e17a14d5593eea958fcdff21",
+          "path": "preview/austria-v1/README.md"
+        },
+        "uri": "sha256:26a925e8e75bfc9513b4641d2e3fb96f1de094ce65e8a04aba3fd5118bf568e9"
+      },
+      {
+        "bytes": 3009593,
+        "role": "viewer",
+        "sha256": "969f09b712e51e7847e530b66e84d5df6680740d802b4d8222e5fd5f24ab1c29",
+        "source": {
+          "commit": "36855aa21be12e49e17a14d5593eea958fcdff21",
+          "path": "preview/austria-v1/austria-v1.html"
+        },
+        "uri": "sha256:969f09b712e51e7847e530b66e84d5df6680740d802b4d8222e5fd5f24ab1c29"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "austria",
+    "independent_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "captures": [
+        "parent/smoke/austria/desktop-closed.png",
+        "parent/smoke/austria/desktop-open.png",
+        "parent/smoke/austria/mobile-closed.png",
+        "parent/smoke/austria/mobile-open.png"
+      ],
+      "fresh_browser": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.920161247253418,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1643776,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 7,
+            "meshes": 58,
+            "nonfinite": 0,
+            "triangles": 16870
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "austria",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "969f09b712e51e7847e530b66e84d5df6680740d802b4d8222e5fd5f24ab1c29"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.920161247253418,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1643776,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 7,
+            "meshes": 58,
+            "nonfinite": 0,
+            "triangles": 16870
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "austria",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "969f09b712e51e7847e530b66e84d5df6680740d802b4d8222e5fd5f24ab1c29"
+        }
+      ],
+      "fresh_motion": {
+        "exit_code": 0,
+        "id": "austria",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "36855aa21be12e49e17a14d5593eea958fcdff21",
+            "path": "preview/austria-v1/motion.mjs",
+            "sha256": "d61544de9b41521a7b14e81a5e9867ce0fcc387f8852ce57490031b84bf2150e"
+          }
+        ]
+      },
+      "fresh_runtime_captures": [
+        "smoke/austria/desktop-closed.png",
+        "smoke/austria/desktop-open.png",
+        "smoke/austria/mobile-closed.png",
+        "smoke/austria/mobile-open.png"
+      ],
+      "id": "austria",
+      "independent_visual_findings": "Three snow peaks retained; graphic red/cream crackle, angular terrain and pronounced shared lid seam remain stylized.",
+      "inspection": "deleg_5910ddb9 tasks 0-4 inspected four original PNGs and promotional WebP per ID; lead Malta comparison reinspection",
+      "launch_ready": false,
+      "packaging_verdict": "pass",
+      "parent_findings": {
+        "hardware": "Original captures confirm side ring and front disk; no demonstrated attachment defect.",
+        "terrain": "Three connected peaks retain central/rear tallest summit and green base.",
+        "texture": "Brighter coral limestone and high-contrast veins; smoother snow and slopes."
+      },
+      "parent_remaining_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-04 review"
+      ],
+      "parent_status": "pass",
+      "polish_iterations": 0,
+      "proven_runtime_defects": [],
+      "remaining_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "selection": {
+        "commit": "36855aa21be12e49e17a14d5593eea958fcdff21",
+        "fetched_tip": "36855aa21be12e49e17a14d5593eea958fcdff21",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/austria-v1"
+      },
+      "source_archive_audit": {
+        "archives": [
+          {
+            "internal_inventory_checked": 54,
+            "provenance": {
+              "bytes": 8415035,
+              "commit": "36855aa21be12e49e17a14d5593eea958fcdff21",
+              "crc_error": null,
+              "entries": 55,
+              "inventory_checked": true,
+              "inventory_entries": 54,
+              "inventory_mismatches": [],
+              "kind": "git",
+              "path": "preview/austria-v1/austria-v1-source.zip",
+              "required_payloads": {
+                "austria-v1.html": true,
+                "austria.blend": true,
+                "austria.glb": true
+              },
+              "safe_unique_paths": true,
+              "sha256": "c69336ca008420d22917aa6e9f3929a132dae4506e635ec96950acc101885f99"
+            },
+            "safe_unique_crc": true,
+            "selected_payload_checks": [
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "austria-v1.html",
+                "sha256": "969f09b712e51e7847e530b66e84d5df6680740d802b4d8222e5fd5f24ab1c29"
+              },
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "austria.blend",
+                "sha256": "f88e3dd66aa6c5b3dc9f42ea37a1bd43f0280eff71f8ba9eb0eeb184769e91ec"
+              },
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "austria.glb",
+                "sha256": "51ea7423e8261b39786e33c9b0ffc79d242c0a58eccfd1a114296f6c93566612"
+              }
+            ]
+          }
+        ],
+        "id": "austria",
+        "sources": [
+          {
+            "bytes": 792260,
+            "commit": "36855aa21be12e49e17a14d5593eea958fcdff21",
+            "path": "preview/austria-v1/austria.blend",
+            "role": "selected-model",
+            "sha256": "f88e3dd66aa6c5b3dc9f42ea37a1bd43f0280eff71f8ba9eb0eeb184769e91ec"
+          },
+          {
+            "bytes": 1643776,
+            "commit": "36855aa21be12e49e17a14d5593eea958fcdff21",
+            "path": "preview/austria-v1/austria.glb",
+            "role": "selected-model",
+            "sha256": "51ea7423e8261b39786e33c9b0ffc79d242c0a58eccfd1a114296f6c93566612",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 56,
+              "nodes": 58
+            }
+          }
+        ],
+        "viewer": {
+          "bytes": 3009593,
+          "commit": "36855aa21be12e49e17a14d5593eea958fcdff21",
+          "path": "preview/austria-v1/austria-v1.html",
+          "sha256": "969f09b712e51e7847e530b66e84d5df6680740d802b4d8222e5fd5f24ab1c29",
+          "under_5000000": true
+        }
+      },
+      "user_final_approved": false,
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 3009593,
+        "commit": "36855aa21be12e49e17a14d5593eea958fcdff21",
+        "path": "preview/austria-v1/austria-v1.html",
+        "sha256": "969f09b712e51e7847e530b66e84d5df6680740d802b4d8222e5fd5f24ab1c29",
+        "under_5000000": true
+      },
+      "visual_verdict": "candidate-with-limitations"
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Austria",
+    "package_history": [
+      {
+        "bytes": 8415035,
+        "commit": "36855aa21be12e49e17a14d5593eea958fcdff21",
+        "crc_error": null,
+        "entries": 55,
+        "inventory_checked": true,
+        "inventory_entries": 54,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/austria-v1/austria-v1-source.zip",
+        "required_payloads": {
+          "austria-v1.html": true,
+          "austria.blend": true,
+          "austria.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "c69336ca008420d22917aa6e9f3929a132dae4506e635ec96950acc101885f99"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "36855aa21be12e49e17a14d5593eea958fcdff21",
+      "fetched_tip": "36855aa21be12e49e17a14d5593eea958fcdff21",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/austria-v1"
+    },
+    "verdict": "candidate-with-limitations",
+    "viewer": {
+      "bytes": 3009593,
+      "commit": "36855aa21be12e49e17a14d5593eea958fcdff21",
+      "path": "preview/austria-v1/austria-v1.html",
+      "sha256": "969f09b712e51e7847e530b66e84d5df6680740d802b4d8222e5fd5f24ab1c29",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "austria",
+    "baseline_verdict": "candidate-with-limitations",
+    "actions": [
+      "owner art/finish acceptance; no proven runtime defect recorded; no autonomous redesign"
+    ],
+    "approval": false,
+    "original_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "captures": [
+        "parent/smoke/austria/desktop-closed.png",
+        "parent/smoke/austria/desktop-open.png",
+        "parent/smoke/austria/mobile-closed.png",
+        "parent/smoke/austria/mobile-open.png"
+      ],
+      "fresh_browser": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.920161247253418,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1643776,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 7,
+            "meshes": 58,
+            "nonfinite": 0,
+            "triangles": 16870
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "austria",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "969f09b712e51e7847e530b66e84d5df6680740d802b4d8222e5fd5f24ab1c29"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.920161247253418,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1643776,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 7,
+            "meshes": 58,
+            "nonfinite": 0,
+            "triangles": 16870
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "austria",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "969f09b712e51e7847e530b66e84d5df6680740d802b4d8222e5fd5f24ab1c29"
+        }
+      ],
+      "fresh_motion": {
+        "exit_code": 0,
+        "id": "austria",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "36855aa21be12e49e17a14d5593eea958fcdff21",
+            "path": "preview/austria-v1/motion.mjs",
+            "sha256": "d61544de9b41521a7b14e81a5e9867ce0fcc387f8852ce57490031b84bf2150e"
+          }
+        ]
+      },
+      "fresh_runtime_captures": [
+        "smoke/austria/desktop-closed.png",
+        "smoke/austria/desktop-open.png",
+        "smoke/austria/mobile-closed.png",
+        "smoke/austria/mobile-open.png"
+      ],
+      "id": "austria",
+      "independent_visual_findings": "Three snow peaks retained; graphic red/cream crackle, angular terrain and pronounced shared lid seam remain stylized.",
+      "inspection": "deleg_5910ddb9 tasks 0-4 inspected four original PNGs and promotional WebP per ID; lead Malta comparison reinspection",
+      "launch_ready": false,
+      "packaging_verdict": "pass",
+      "parent_findings": {
+        "hardware": "Original captures confirm side ring and front disk; no demonstrated attachment defect.",
+        "terrain": "Three connected peaks retain central/rear tallest summit and green base.",
+        "texture": "Brighter coral limestone and high-contrast veins; smoother snow and slopes."
+      },
+      "parent_remaining_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-04 review"
+      ],
+      "parent_status": "pass",
+      "polish_iterations": 0,
+      "proven_runtime_defects": [],
+      "remaining_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "selection": {
+        "commit": "36855aa21be12e49e17a14d5593eea958fcdff21",
+        "fetched_tip": "36855aa21be12e49e17a14d5593eea958fcdff21",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/austria-v1"
+      },
+      "source_archive_audit": {
+        "archives": [
+          {
+            "internal_inventory_checked": 54,
+            "provenance": {
+              "bytes": 8415035,
+              "commit": "36855aa21be12e49e17a14d5593eea958fcdff21",
+              "crc_error": null,
+              "entries": 55,
+              "inventory_checked": true,
+              "inventory_entries": 54,
+              "inventory_mismatches": [],
+              "kind": "git",
+              "path": "preview/austria-v1/austria-v1-source.zip",
+              "required_payloads": {
+                "austria-v1.html": true,
+                "austria.blend": true,
+                "austria.glb": true
+              },
+              "safe_unique_paths": true,
+              "sha256": "c69336ca008420d22917aa6e9f3929a132dae4506e635ec96950acc101885f99"
+            },
+            "safe_unique_crc": true,
+            "selected_payload_checks": [
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "austria-v1.html",
+                "sha256": "969f09b712e51e7847e530b66e84d5df6680740d802b4d8222e5fd5f24ab1c29"
+              },
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "austria.blend",
+                "sha256": "f88e3dd66aa6c5b3dc9f42ea37a1bd43f0280eff71f8ba9eb0eeb184769e91ec"
+              },
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "austria.glb",
+                "sha256": "51ea7423e8261b39786e33c9b0ffc79d242c0a58eccfd1a114296f6c93566612"
+              }
+            ]
+          }
+        ],
+        "id": "austria",
+        "sources": [
+          {
+            "bytes": 792260,
+            "commit": "36855aa21be12e49e17a14d5593eea958fcdff21",
+            "path": "preview/austria-v1/austria.blend",
+            "role": "selected-model",
+            "sha256": "f88e3dd66aa6c5b3dc9f42ea37a1bd43f0280eff71f8ba9eb0eeb184769e91ec"
+          },
+          {
+            "bytes": 1643776,
+            "commit": "36855aa21be12e49e17a14d5593eea958fcdff21",
+            "path": "preview/austria-v1/austria.glb",
+            "role": "selected-model",
+            "sha256": "51ea7423e8261b39786e33c9b0ffc79d242c0a58eccfd1a114296f6c93566612",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 56,
+              "nodes": 58
+            }
+          }
+        ],
+        "viewer": {
+          "bytes": 3009593,
+          "commit": "36855aa21be12e49e17a14d5593eea958fcdff21",
+          "path": "preview/austria-v1/austria-v1.html",
+          "sha256": "969f09b712e51e7847e530b66e84d5df6680740d802b4d8222e5fd5f24ab1c29",
+          "under_5000000": true
+        }
+      },
+      "user_final_approved": false,
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 3009593,
+        "commit": "36855aa21be12e49e17a14d5593eea958fcdff21",
+        "path": "preview/austria-v1/austria-v1.html",
+        "sha256": "969f09b712e51e7847e530b66e84d5df6680740d802b4d8222e5fd5f24ab1c29",
+        "under_5000000": true
+      },
+      "visual_verdict": "candidate-with-limitations"
+    },
+    "package_history": [
+      {
+        "bytes": 8415035,
+        "commit": "36855aa21be12e49e17a14d5593eea958fcdff21",
+        "crc_error": null,
+        "entries": 55,
+        "inventory_checked": true,
+        "inventory_entries": 54,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/austria-v1/austria-v1-source.zip",
+        "required_payloads": {
+          "austria-v1.html": true,
+          "austria.blend": true,
+          "austria.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "c69336ca008420d22917aa6e9f3929a132dae4506e635ec96950acc101885f99"
+      }
+    ]
+  }
+}

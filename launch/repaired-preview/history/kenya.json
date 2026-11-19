@@ -1,0 +1,543 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 2,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 896750,
+        "role": "editable-source",
+        "sha256": "0e6164421dd911191fa821cfda560165fa296f40e38be42983e0dcedb00afa03",
+        "source": {
+          "commit": "ef1ca87305aa8a178eae1376b2b329d6ca09bbc1",
+          "path": "preview/kenya-v1/kenya.blend"
+        },
+        "uri": "sha256:0e6164421dd911191fa821cfda560165fa296f40e38be42983e0dcedb00afa03"
+      },
+      {
+        "bytes": 7766230,
+        "role": "historical-source-archive",
+        "sha256": "148817a743be392e7a73621dd698460bc1b99fd603ab80156b2eb64fe740e11a",
+        "source": {
+          "commit": "ef1ca87305aa8a178eae1376b2b329d6ca09bbc1",
+          "kind": "git",
+          "path": "preview/kenya-v1/kenya-v1-source.zip"
+        },
+        "uri": "sha256:148817a743be392e7a73621dd698460bc1b99fd603ab80156b2eb64fe740e11a"
+      },
+      {
+        "bytes": 1764820,
+        "role": "model",
+        "sha256": "52642f3c12c6a0fff93df8c9409d873142072769d3426ff187540d40661d53f4",
+        "source": {
+          "commit": "ef1ca87305aa8a178eae1376b2b329d6ca09bbc1",
+          "path": "preview/kenya-v1/kenya.glb"
+        },
+        "uri": "sha256:52642f3c12c6a0fff93df8c9409d873142072769d3426ff187540d40661d53f4"
+      },
+      {
+        "bytes": 30572,
+        "role": "promotional-illustration",
+        "sha256": "414056096035a06bea9b5413e7b4da49868846a21aae7373d7eda2d0a10da2f2",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/kenya.webp"
+        },
+        "uri": "sha256:414056096035a06bea9b5413e7b4da49868846a21aae7373d7eda2d0a10da2f2"
+      },
+      {
+        "bytes": 3286,
+        "role": "research-brief",
+        "sha256": "9237d1a81c78c5829eda35650e15d407a21b4817309d57ab789a7e4abb262184",
+        "source": {
+          "commit": "ef1ca87305aa8a178eae1376b2b329d6ca09bbc1",
+          "path": "preview/kenya-v1/design-brief.md"
+        },
+        "uri": "sha256:9237d1a81c78c5829eda35650e15d407a21b4817309d57ab789a7e4abb262184"
+      },
+      {
+        "bytes": 4987,
+        "role": "source-notice",
+        "sha256": "3f95b66a26767c0334d40559c84ed1f96ddb1c5009a20629153f9308ba45cee8",
+        "source": {
+          "commit": "ef1ca87305aa8a178eae1376b2b329d6ca09bbc1",
+          "path": "preview/kenya-v1/README.md"
+        },
+        "uri": "sha256:3f95b66a26767c0334d40559c84ed1f96ddb1c5009a20629153f9308ba45cee8"
+      },
+      {
+        "bytes": 3086224,
+        "role": "viewer",
+        "sha256": "d43a64744ba2a0a5d8f115c1e80eb26fde873444210aa9059d27bcd0fe46903d",
+        "source": {
+          "commit": "ef1ca87305aa8a178eae1376b2b329d6ca09bbc1",
+          "path": "preview/kenya-v1/kenya-v1.html"
+        },
+        "uri": "sha256:d43a64744ba2a0a5d8f115c1e80eb26fde873444210aa9059d27bcd0fe46903d"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "kenya",
+    "independent_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "archives": [
+        {
+          "bytes": 7766230,
+          "entries": 57,
+          "inventory_entries_checked": 56,
+          "path": "preview/kenya-v1/kenya-v1-source.zip",
+          "required_payloads": "pass",
+          "safe_paths_crc": "pass",
+          "sha256": "148817a743be392e7a73621dd698460bc1b99fd603ab80156b2eb64fe740e11a"
+        }
+      ],
+      "fresh_browser_cases": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.4665117263793945,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.8600000143051147,
+                -0.23999999463558197,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1764820,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 6,
+            "meshes": 83,
+            "nonfinite": 0,
+            "triangles": 14948
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "kenya",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "d43a64744ba2a0a5d8f115c1e80eb26fde873444210aa9059d27bcd0fe46903d"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.4665117263793945,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.8600000143051147,
+                -0.23999999463558197,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1764820,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 6,
+            "meshes": 83,
+            "nonfinite": 0,
+            "triangles": 14948
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "kenya",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "d43a64744ba2a0a5d8f115c1e80eb26fde873444210aa9059d27bcd0fe46903d"
+        }
+      ],
+      "fresh_motion_suite": {
+        "exit_code": 0,
+        "id": "kenya",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "ef1ca87305aa8a178eae1376b2b329d6ca09bbc1",
+            "path": "preview/kenya-v1/motion.mjs",
+            "sha256": "f251cfeb61c084e71bbfac72b7e8bcae6972f8bef4c4bbc8501e8cbe589224e4"
+          }
+        ]
+      },
+      "fresh_runtime_captures": [
+        "smoke/kenya/desktop-closed.png",
+        "smoke/kenya/desktop-open.png",
+        "smoke/kenya/mobile-closed.png",
+        "smoke/kenya/mobile-open.png"
+      ],
+      "id": "kenya",
+      "independent_reviewer_recommendation": "needs-user-review",
+      "inspected_parent_images": [
+        "parent/boards/kenya.jpg",
+        "parent/smoke/kenya/desktop-closed.png",
+        "parent/smoke/kenya/desktop-open.png",
+        "parent/smoke/kenya/mobile-closed.png",
+        "parent/smoke/kenya/mobile-open.png"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 30572,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/kenya.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "Gray block feet restored; ridge and three pools retained.",
+          "reviewStatus": "accepted",
+          "sha256": "3c848cf9aefbaf3674d51b00872114173654ba5381a16cb2b05aaa2fb4d3258e",
+          "source": "assets/gallery/kenya.webp",
+          "sourceSha256": "a4103414a3bcb06882b032a61e4562d800662d690ecf582ea752d1bb490cb411",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "414056096035a06bea9b5413e7b4da49868846a21aae7373d7eda2d0a10da2f2"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-Blender-reopen-parity-and-sampled-collisions",
+        "fresh-corrupt-GLB-fallback",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "models": [
+        {
+          "bytes": 896750,
+          "path": "preview/kenya-v1/kenya.blend",
+          "sha256": "0e6164421dd911191fa821cfda560165fa296f40e38be42983e0dcedb00afa03"
+        },
+        {
+          "bytes": 1764820,
+          "path": "preview/kenya-v1/kenya.glb",
+          "sha256": "52642f3c12c6a0fff93df8c9409d873142072769d3426ff187540d40661d53f4"
+        }
+      ],
+      "parent_hold_preserved": false,
+      "selection": {
+        "commit": "ef1ca87305aa8a178eae1376b2b329d6ca09bbc1",
+        "fetched_tip": "ef1ca87305aa8a178eae1376b2b329d6ca09bbc1",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/kenya-v1"
+      },
+      "technical_verdict": "pass-bounded-review",
+      "viewer": {
+        "bytes": 3086224,
+        "commit": "ef1ca87305aa8a178eae1376b2b329d6ca09bbc1",
+        "path": "preview/kenya-v1/kenya-v1.html",
+        "sha256": "d43a64744ba2a0a5d8f115c1e80eb26fde873444210aa9059d27bcd0fe46903d",
+        "under_5000000": true
+      },
+      "visual_findings": "Wavy brown surface can read wood/sediment rather than volcanic stone; opaque lakes and simplified relief. Mobile identifier visibility not proof of omitted content.",
+      "visual_verdict": "candidate-with-limitations"
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Kenya",
+    "package_history": [
+      {
+        "bytes": 7766230,
+        "commit": "ef1ca87305aa8a178eae1376b2b329d6ca09bbc1",
+        "crc_error": null,
+        "entries": 57,
+        "inventory_checked": true,
+        "inventory_entries": 56,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/kenya-v1/kenya-v1-source.zip",
+        "required_payloads": {
+          "kenya-v1.html": true,
+          "kenya.blend": true,
+          "kenya.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "148817a743be392e7a73621dd698460bc1b99fd603ab80156b2eb64fe740e11a"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "ef1ca87305aa8a178eae1376b2b329d6ca09bbc1",
+      "fetched_tip": "ef1ca87305aa8a178eae1376b2b329d6ca09bbc1",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/kenya-v1"
+    },
+    "verdict": "candidate-with-limitations",
+    "viewer": {
+      "bytes": 3086224,
+      "commit": "ef1ca87305aa8a178eae1376b2b329d6ca09bbc1",
+      "path": "preview/kenya-v1/kenya-v1.html",
+      "sha256": "d43a64744ba2a0a5d8f115c1e80eb26fde873444210aa9059d27bcd0fe46903d",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "kenya",
+    "baseline_verdict": "candidate-with-limitations",
+    "actions": [
+      "owner art/finish acceptance; no proven runtime defect recorded; no autonomous redesign"
+    ],
+    "approval": false,
+    "original_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "archives": [
+        {
+          "bytes": 7766230,
+          "entries": 57,
+          "inventory_entries_checked": 56,
+          "path": "preview/kenya-v1/kenya-v1-source.zip",
+          "required_payloads": "pass",
+          "safe_paths_crc": "pass",
+          "sha256": "148817a743be392e7a73621dd698460bc1b99fd603ab80156b2eb64fe740e11a"
+        }
+      ],
+      "fresh_browser_cases": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.4665117263793945,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.8600000143051147,
+                -0.23999999463558197,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1764820,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 6,
+            "meshes": 83,
+            "nonfinite": 0,
+            "triangles": 14948
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "kenya",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "d43a64744ba2a0a5d8f115c1e80eb26fde873444210aa9059d27bcd0fe46903d"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.4665117263793945,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.8600000143051147,
+                -0.23999999463558197,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1764820,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 6,
+            "meshes": 83,
+            "nonfinite": 0,
+            "triangles": 14948
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "kenya",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "d43a64744ba2a0a5d8f115c1e80eb26fde873444210aa9059d27bcd0fe46903d"
+        }
+      ],
+      "fresh_motion_suite": {
+        "exit_code": 0,
+        "id": "kenya",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "ef1ca87305aa8a178eae1376b2b329d6ca09bbc1",
+            "path": "preview/kenya-v1/motion.mjs",
+            "sha256": "f251cfeb61c084e71bbfac72b7e8bcae6972f8bef4c4bbc8501e8cbe589224e4"
+          }
+        ]
+      },
+      "fresh_runtime_captures": [
+        "smoke/kenya/desktop-closed.png",
+        "smoke/kenya/desktop-open.png",
+        "smoke/kenya/mobile-closed.png",
+        "smoke/kenya/mobile-open.png"
+      ],
+      "id": "kenya",
+      "independent_reviewer_recommendation": "needs-user-review",
+      "inspected_parent_images": [
+        "parent/boards/kenya.jpg",
+        "parent/smoke/kenya/desktop-closed.png",
+        "parent/smoke/kenya/desktop-open.png",
+        "parent/smoke/kenya/mobile-closed.png",
+        "parent/smoke/kenya/mobile-open.png"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 30572,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/kenya.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "Gray block feet restored; ridge and three pools retained.",
+          "reviewStatus": "accepted",
+          "sha256": "3c848cf9aefbaf3674d51b00872114173654ba5381a16cb2b05aaa2fb4d3258e",
+          "source": "assets/gallery/kenya.webp",
+          "sourceSha256": "a4103414a3bcb06882b032a61e4562d800662d690ecf582ea752d1bb490cb411",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "414056096035a06bea9b5413e7b4da49868846a21aae7373d7eda2d0a10da2f2"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-Blender-reopen-parity-and-sampled-collisions",
+        "fresh-corrupt-GLB-fallback",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "models": [
+        {
+          "bytes": 896750,
+          "path": "preview/kenya-v1/kenya.blend",
+          "sha256": "0e6164421dd911191fa821cfda560165fa296f40e38be42983e0dcedb00afa03"
+        },
+        {
+          "bytes": 1764820,
+          "path": "preview/kenya-v1/kenya.glb",
+          "sha256": "52642f3c12c6a0fff93df8c9409d873142072769d3426ff187540d40661d53f4"
+        }
+      ],
+      "parent_hold_preserved": false,
+      "selection": {
+        "commit": "ef1ca87305aa8a178eae1376b2b329d6ca09bbc1",
+        "fetched_tip": "ef1ca87305aa8a178eae1376b2b329d6ca09bbc1",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/kenya-v1"
+      },
+      "technical_verdict": "pass-bounded-review",
+      "viewer": {
+        "bytes": 3086224,
+        "commit": "ef1ca87305aa8a178eae1376b2b329d6ca09bbc1",
+        "path": "preview/kenya-v1/kenya-v1.html",
+        "sha256": "d43a64744ba2a0a5d8f115c1e80eb26fde873444210aa9059d27bcd0fe46903d",
+        "under_5000000": true
+      },
+      "visual_findings": "Wavy brown surface can read wood/sediment rather than volcanic stone; opaque lakes and simplified relief. Mobile identifier visibility not proof of omitted content.",
+      "visual_verdict": "candidate-with-limitations"
+    },
+    "package_history": [
+      {
+        "bytes": 7766230,
+        "commit": "ef1ca87305aa8a178eae1376b2b329d6ca09bbc1",
+        "crc_error": null,
+        "entries": 57,
+        "inventory_checked": true,
+        "inventory_entries": 56,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/kenya-v1/kenya-v1-source.zip",
+        "required_payloads": {
+          "kenya-v1.html": true,
+          "kenya.blend": true,
+          "kenya.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "148817a743be392e7a73621dd698460bc1b99fd603ab80156b2eb64fe740e11a"
+      }
+    ]
+  }
+}

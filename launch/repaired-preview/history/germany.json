@@ -1,0 +1,554 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 2,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 609938,
+        "role": "editable-source",
+        "sha256": "0fd6efc27a579f3434e952672494581f19368e2579af44716b7b01a78a079340",
+        "source": {
+          "commit": "f275fa878d47aba925ea079573762b41c74847f4",
+          "path": "preview/germany-v1/germany.blend"
+        },
+        "uri": "sha256:0fd6efc27a579f3434e952672494581f19368e2579af44716b7b01a78a079340"
+      },
+      {
+        "bytes": 6462838,
+        "role": "historical-source-archive",
+        "sha256": "759e1aba4adda270be14b8c0016665ee17e824d01079dcd7b41dee85ffb91f16",
+        "source": {
+          "commit": "f275fa878d47aba925ea079573762b41c74847f4",
+          "kind": "git",
+          "path": "preview/germany-v1/germany-v1-source.zip"
+        },
+        "uri": "sha256:759e1aba4adda270be14b8c0016665ee17e824d01079dcd7b41dee85ffb91f16"
+      },
+      {
+        "bytes": 2345748,
+        "role": "model",
+        "sha256": "9b3174817c14e9145b48767321450733e0dcc770d24d692e08688efc2cf54e83",
+        "source": {
+          "commit": "f275fa878d47aba925ea079573762b41c74847f4",
+          "path": "preview/germany-v1/germany.glb"
+        },
+        "uri": "sha256:9b3174817c14e9145b48767321450733e0dcc770d24d692e08688efc2cf54e83"
+      },
+      {
+        "bytes": 75808,
+        "role": "promotional-illustration",
+        "sha256": "3c25aacf8c3e2b9865bfab7549ae5c2fb749faa4067663db6d9d7fcb564f4c07",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/germany.webp"
+        },
+        "uri": "sha256:3c25aacf8c3e2b9865bfab7549ae5c2fb749faa4067663db6d9d7fcb564f4c07"
+      },
+      {
+        "bytes": 3544,
+        "role": "research-brief",
+        "sha256": "d2bbb7b255b956c81d20aee1fa16d07d5f48cae23dff43ca77299fc18119d3a2",
+        "source": {
+          "commit": "f275fa878d47aba925ea079573762b41c74847f4",
+          "path": "preview/germany-v1/design-brief.md"
+        },
+        "uri": "sha256:d2bbb7b255b956c81d20aee1fa16d07d5f48cae23dff43ca77299fc18119d3a2"
+      },
+      {
+        "bytes": 5922,
+        "role": "source-notice",
+        "sha256": "144f885e5ce74d84084f7a8228bbe20542aa1dac97afbf6110f9bdba7d92280f",
+        "source": {
+          "commit": "f275fa878d47aba925ea079573762b41c74847f4",
+          "path": "preview/germany-v1/README.md"
+        },
+        "uri": "sha256:144f885e5ce74d84084f7a8228bbe20542aa1dac97afbf6110f9bdba7d92280f"
+      },
+      {
+        "bytes": 3937345,
+        "role": "viewer",
+        "sha256": "04677c9fbea88accbbff8d54ae9949449971d46d88cc97c76e53c1e570983e44",
+        "source": {
+          "commit": "f275fa878d47aba925ea079573762b41c74847f4",
+          "path": "preview/germany-v1/germany-v1.html"
+        },
+        "uri": "sha256:04677c9fbea88accbbff8d54ae9949449971d46d88cc97c76e53c1e570983e44"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "germany",
+    "independent_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "archives": [
+        {
+          "bytes": 6462838,
+          "entries": 55,
+          "inventory_entries_checked": 54,
+          "path": "preview/germany-v1/germany-v1-source.zip",
+          "required_payloads": "pass",
+          "safe_paths_crc": "pass",
+          "sha256": "759e1aba4adda270be14b8c0016665ee17e824d01079dcd7b41dee85ffb91f16"
+        }
+      ],
+      "fresh_browser_cases": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.865999988745898,
+                2.9000000953674316,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.2500000074505806,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 2345748,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 6,
+            "meshes": 141,
+            "nonfinite": 0,
+            "triangles": 30156
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "germany",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "04677c9fbea88accbbff8d54ae9949449971d46d88cc97c76e53c1e570983e44"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.865999988745898,
+                2.9000000953674316,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.2500000074505806,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 2345748,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 6,
+            "meshes": 141,
+            "nonfinite": 0,
+            "triangles": 30156
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "germany",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "04677c9fbea88accbbff8d54ae9949449971d46d88cc97c76e53c1e570983e44"
+        }
+      ],
+      "fresh_motion_suite": {
+        "exit_code": 0,
+        "id": "germany",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "f275fa878d47aba925ea079573762b41c74847f4",
+            "path": "preview/germany-v1/motion.mjs",
+            "sha256": "d61544de9b41521a7b14e81a5e9867ce0fcc387f8852ce57490031b84bf2150e"
+          }
+        ]
+      },
+      "fresh_runtime_captures": [
+        "smoke/germany/desktop-closed.png",
+        "smoke/germany/desktop-open.png",
+        "smoke/germany/mobile-closed.png",
+        "smoke/germany/mobile-open.png"
+      ],
+      "id": "germany",
+      "independent_reviewer_recommendation": "needs-user-review",
+      "inspected_parent_images": [
+        "parent/boards/germany.jpg",
+        "parent/smoke/germany/desktop-closed.png",
+        "parent/smoke/germany/desktop-open.png",
+        "parent/smoke/germany/mobile-closed.png",
+        "parent/smoke/germany/mobile-open.png"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 75808,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1056,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/germany.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1056,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "Principal silhouette, palette, hardware and lid count/placement retained; texture refinement allowed.",
+          "reviewStatus": "accepted",
+          "sha256": "944f6358323c35fd52297710c230f880b9fdda9e7e03731e921ceaeebf79b079",
+          "source": "assets/gallery/germany.webp",
+          "sourceSha256": "9242d0ff64859b41f2cacf6c41db77f19367582f8091eedf702f2e3d92590708",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "3c25aacf8c3e2b9865bfab7549ae5c2fb749faa4067663db6d9d7fcb564f4c07"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-Blender-reopen-parity-and-sampled-collisions",
+        "fresh-corrupt-GLB-fallback",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "models": [
+        {
+          "bytes": 609938,
+          "path": "preview/germany-v1/germany.blend",
+          "sha256": "0fd6efc27a579f3434e952672494581f19368e2579af44716b7b01a78a079340"
+        },
+        {
+          "bytes": 2345748,
+          "path": "preview/germany-v1/germany.glb",
+          "sha256": "9b3174817c14e9145b48767321450733e0dcc770d24d692e08688efc2cf54e83"
+        }
+      ],
+      "parent_hold_preserved": true,
+      "selection": {
+        "commit": "f275fa878d47aba925ea079573762b41c74847f4",
+        "fetched_tip": "f275fa878d47aba925ea079573762b41c74847f4",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/germany-v1"
+      },
+      "technical_verdict": "pass-bounded-review",
+      "viewer": {
+        "bytes": 3937345,
+        "commit": "f275fa878d47aba925ea079573762b41c74847f4",
+        "path": "preview/germany-v1/germany-v1.html",
+        "sha256": "04677c9fbea88accbbff8d54ae9949449971d46d88cc97c76e53c1e570983e44",
+        "under_5000000": true
+      },
+      "visual_findings": "Flat regular village platform and repetitive fine wood streaks; wood/brass weakly differentiated.",
+      "visual_verdict": "needs-user-review"
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Germany",
+    "package_history": [
+      {
+        "bytes": 6462838,
+        "commit": "f275fa878d47aba925ea079573762b41c74847f4",
+        "crc_error": null,
+        "entries": 55,
+        "inventory_checked": true,
+        "inventory_entries": 54,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/germany-v1/germany-v1-source.zip",
+        "required_payloads": {
+          "germany-v1.html": true,
+          "germany.blend": true,
+          "germany.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "759e1aba4adda270be14b8c0016665ee17e824d01079dcd7b41dee85ffb91f16"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "f275fa878d47aba925ea079573762b41c74847f4",
+      "fetched_tip": "f275fa878d47aba925ea079573762b41c74847f4",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/germany-v1"
+    },
+    "verdict": "needs-user-review",
+    "viewer": {
+      "bytes": 3937345,
+      "commit": "f275fa878d47aba925ea079573762b41c74847f4",
+      "path": "preview/germany-v1/germany-v1.html",
+      "sha256": "04677c9fbea88accbbff8d54ae9949449971d46d88cc97c76e53c1e570983e44",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "germany",
+    "baseline_verdict": "needs-user-review",
+    "actions": [
+      "owner art/finish acceptance; no proven runtime defect recorded; no autonomous redesign"
+    ],
+    "approval": false,
+    "original_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "archives": [
+        {
+          "bytes": 6462838,
+          "entries": 55,
+          "inventory_entries_checked": 54,
+          "path": "preview/germany-v1/germany-v1-source.zip",
+          "required_payloads": "pass",
+          "safe_paths_crc": "pass",
+          "sha256": "759e1aba4adda270be14b8c0016665ee17e824d01079dcd7b41dee85ffb91f16"
+        }
+      ],
+      "fresh_browser_cases": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.865999988745898,
+                2.9000000953674316,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.2500000074505806,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 2345748,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 6,
+            "meshes": 141,
+            "nonfinite": 0,
+            "triangles": 30156
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "germany",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "04677c9fbea88accbbff8d54ae9949449971d46d88cc97c76e53c1e570983e44"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.865999988745898,
+                2.9000000953674316,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.2500000074505806,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 2345748,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 6,
+            "meshes": 141,
+            "nonfinite": 0,
+            "triangles": 30156
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "germany",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "04677c9fbea88accbbff8d54ae9949449971d46d88cc97c76e53c1e570983e44"
+        }
+      ],
+      "fresh_motion_suite": {
+        "exit_code": 0,
+        "id": "germany",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "f275fa878d47aba925ea079573762b41c74847f4",
+            "path": "preview/germany-v1/motion.mjs",
+            "sha256": "d61544de9b41521a7b14e81a5e9867ce0fcc387f8852ce57490031b84bf2150e"
+          }
+        ]
+      },
+      "fresh_runtime_captures": [
+        "smoke/germany/desktop-closed.png",
+        "smoke/germany/desktop-open.png",
+        "smoke/germany/mobile-closed.png",
+        "smoke/germany/mobile-open.png"
+      ],
+      "id": "germany",
+      "independent_reviewer_recommendation": "needs-user-review",
+      "inspected_parent_images": [
+        "parent/boards/germany.jpg",
+        "parent/smoke/germany/desktop-closed.png",
+        "parent/smoke/germany/desktop-open.png",
+        "parent/smoke/germany/mobile-closed.png",
+        "parent/smoke/germany/mobile-open.png"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 75808,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1056,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/germany.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1056,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "Principal silhouette, palette, hardware and lid count/placement retained; texture refinement allowed.",
+          "reviewStatus": "accepted",
+          "sha256": "944f6358323c35fd52297710c230f880b9fdda9e7e03731e921ceaeebf79b079",
+          "source": "assets/gallery/germany.webp",
+          "sourceSha256": "9242d0ff64859b41f2cacf6c41db77f19367582f8091eedf702f2e3d92590708",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "3c25aacf8c3e2b9865bfab7549ae5c2fb749faa4067663db6d9d7fcb564f4c07"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-Blender-reopen-parity-and-sampled-collisions",
+        "fresh-corrupt-GLB-fallback",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "models": [
+        {
+          "bytes": 609938,
+          "path": "preview/germany-v1/germany.blend",
+          "sha256": "0fd6efc27a579f3434e952672494581f19368e2579af44716b7b01a78a079340"
+        },
+        {
+          "bytes": 2345748,
+          "path": "preview/germany-v1/germany.glb",
+          "sha256": "9b3174817c14e9145b48767321450733e0dcc770d24d692e08688efc2cf54e83"
+        }
+      ],
+      "parent_hold_preserved": true,
+      "selection": {
+        "commit": "f275fa878d47aba925ea079573762b41c74847f4",
+        "fetched_tip": "f275fa878d47aba925ea079573762b41c74847f4",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/germany-v1"
+      },
+      "technical_verdict": "pass-bounded-review",
+      "viewer": {
+        "bytes": 3937345,
+        "commit": "f275fa878d47aba925ea079573762b41c74847f4",
+        "path": "preview/germany-v1/germany-v1.html",
+        "sha256": "04677c9fbea88accbbff8d54ae9949449971d46d88cc97c76e53c1e570983e44",
+        "under_5000000": true
+      },
+      "visual_findings": "Flat regular village platform and repetitive fine wood streaks; wood/brass weakly differentiated.",
+      "visual_verdict": "needs-user-review"
+    },
+    "package_history": [
+      {
+        "bytes": 6462838,
+        "commit": "f275fa878d47aba925ea079573762b41c74847f4",
+        "crc_error": null,
+        "entries": 55,
+        "inventory_checked": true,
+        "inventory_entries": 54,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/germany-v1/germany-v1-source.zip",
+        "required_payloads": {
+          "germany-v1.html": true,
+          "germany.blend": true,
+          "germany.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "759e1aba4adda270be14b8c0016665ee17e824d01079dcd7b41dee85ffb91f16"
+      }
+    ]
+  },
+  "visual_decision": {
+    "id": "germany",
+    "disposition": "preview-accepted-with-limitations",
+    "issue": "Regular village platform and fine repetitive wood grain.",
+    "rationale": "Red-roofed houses and turned trees retain the woodcraft miniature theme. Weak wood/brass separation and flat carrier are ordinary polish limitations, not absent architecture.",
+    "evidence": {
+      "commit": "d6a689fd19cfddcc5fef52606f4e581938a8a004",
+      "path": "launch/qa-art-02/parent/boards/germany.jpg",
+      "sha256": "0b318cf26ffbbc9f0b04e4b2df7ab89dcc0b2d93387d8aa964fd799123483043"
+    }
+  }
+}

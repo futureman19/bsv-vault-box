@@ -1,0 +1,627 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 4,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 350072,
+        "role": "editable-source",
+        "sha256": "0c798ac10741f0133380c65798db53ef11b2a20cbd4a152e7011ae47dfce5253",
+        "source": {
+          "commit": "d76b48e7f1d9e4efffaf6757efb59d26637a03bb",
+          "path": "preview/cuba-v1/cuba.blend"
+        },
+        "uri": "sha256:0c798ac10741f0133380c65798db53ef11b2a20cbd4a152e7011ae47dfce5253"
+      },
+      {
+        "bytes": 5417073,
+        "role": "historical-source-archive",
+        "sha256": "615cf8fe4ff242baf3599aabf191f773bb7e6eaa4737aeba5a720515dc7d1e84",
+        "source": {
+          "commit": "d76b48e7f1d9e4efffaf6757efb59d26637a03bb",
+          "kind": "git",
+          "path": "preview/cuba-v1/cuba-v1-source.zip"
+        },
+        "uri": "sha256:615cf8fe4ff242baf3599aabf191f773bb7e6eaa4737aeba5a720515dc7d1e84"
+      },
+      {
+        "bytes": 765548,
+        "role": "model",
+        "sha256": "2e9a4ed4f946fc8226bb1b4c56c82e1ae2631f1c22c31f99c7999c6ca836e239",
+        "source": {
+          "commit": "d76b48e7f1d9e4efffaf6757efb59d26637a03bb",
+          "path": "preview/cuba-v1/cuba.glb"
+        },
+        "uri": "sha256:2e9a4ed4f946fc8226bb1b4c56c82e1ae2631f1c22c31f99c7999c6ca836e239"
+      },
+      {
+        "bytes": 33762,
+        "role": "promotional-illustration",
+        "sha256": "c4a1674df5e25fabc1e9af5a1f51cd2a4bdb7ff967c11b835d9fa137c89eb280",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/cuba.webp"
+        },
+        "uri": "sha256:c4a1674df5e25fabc1e9af5a1f51cd2a4bdb7ff967c11b835d9fa137c89eb280"
+      },
+      {
+        "bytes": 2897,
+        "role": "research-brief",
+        "sha256": "5fa455beb91eadadd4218bc06cdee357a1d92760dbce2990431fd520a15c7b20",
+        "source": {
+          "commit": "d76b48e7f1d9e4efffaf6757efb59d26637a03bb",
+          "path": "preview/cuba-v1/design-brief.md"
+        },
+        "uri": "sha256:5fa455beb91eadadd4218bc06cdee357a1d92760dbce2990431fd520a15c7b20"
+      },
+      {
+        "bytes": 4899,
+        "role": "source-notice",
+        "sha256": "db6b30e9d63555e8c955140eced8182b158ec5c12d40f5acab0dda44597f56a9",
+        "source": {
+          "commit": "d76b48e7f1d9e4efffaf6757efb59d26637a03bb",
+          "path": "preview/cuba-v1/README.md"
+        },
+        "uri": "sha256:db6b30e9d63555e8c955140eced8182b158ec5c12d40f5acab0dda44597f56a9"
+      },
+      {
+        "bytes": 1822582,
+        "role": "viewer",
+        "sha256": "909bbee9defc1fca2ad8e2f3fcd546389cb7a39b1b1fcd42541b32612998eacf",
+        "source": {
+          "commit": "d76b48e7f1d9e4efffaf6757efb59d26637a03bb",
+          "path": "preview/cuba-v1/cuba-v1.html"
+        },
+        "uri": "sha256:909bbee9defc1fca2ad8e2f3fcd546389cb7a39b1b1fcd42541b32612998eacf"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "cuba",
+    "independent_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "captures": [
+        "parent/smoke/cuba/desktop-closed.png",
+        "parent/smoke/cuba/desktop-open.png",
+        "parent/smoke/cuba/mobile-closed.png",
+        "parent/smoke/cuba/mobile-open.png"
+      ],
+      "fresh_browser": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.8429999351501465,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.8600000143051147,
+                -0.23999999463558197,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 765548,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 5,
+            "meshes": 58,
+            "nonfinite": 0,
+            "triangles": 9044
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "cuba",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "909bbee9defc1fca2ad8e2f3fcd546389cb7a39b1b1fcd42541b32612998eacf"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.8429999351501465,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.8600000143051147,
+                -0.23999999463558197,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 765548,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 5,
+            "meshes": 58,
+            "nonfinite": 0,
+            "triangles": 9044
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "cuba",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "909bbee9defc1fca2ad8e2f3fcd546389cb7a39b1b1fcd42541b32612998eacf"
+        }
+      ],
+      "fresh_motion": {
+        "exit_code": 0,
+        "id": "cuba",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "d76b48e7f1d9e4efffaf6757efb59d26637a03bb",
+            "path": "preview/cuba-v1/motion.mjs",
+            "sha256": "9d118549fcdc1ff1d1fd8ebb6c6eb8a7a0da7fef8f0ae65ca947335407e74f03"
+          }
+        ]
+      },
+      "fresh_runtime_captures": [
+        "smoke/cuba/desktop-closed.png",
+        "smoke/cuba/desktop-open.png",
+        "smoke/cuba/mobile-closed.png",
+        "smoke/cuba/mobile-open.png"
+      ],
+      "id": "cuba",
+      "independent_visual_findings": "Three green-capped mogotes retained; angular forms and repetitive diagonal limestone striations versus softer marketing.",
+      "inspection": "deleg_5910ddb9 tasks 0-4 inspected four original PNGs and promotional WebP per ID; lead Malta comparison reinspection",
+      "launch_ready": false,
+      "packaging_verdict": "pass",
+      "parent_findings": {
+        "hardware": "Brass caps, long clasp, pale feet and green seam preserved.",
+        "terrain": "Three green-crowned mogotes retain arrangement over red earth.",
+        "texture": "Strong diagonal stone bands, faceted hills and simplified vegetation."
+      },
+      "parent_remaining_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-04 review"
+      ],
+      "parent_status": "pass",
+      "polish_iterations": 0,
+      "proven_runtime_defects": [],
+      "remaining_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "selection": {
+        "commit": "d76b48e7f1d9e4efffaf6757efb59d26637a03bb",
+        "fetched_tip": "d76b48e7f1d9e4efffaf6757efb59d26637a03bb",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/cuba-v1"
+      },
+      "source_archive_audit": {
+        "archives": [
+          {
+            "internal_inventory_checked": 47,
+            "provenance": {
+              "bytes": 5417073,
+              "commit": "d76b48e7f1d9e4efffaf6757efb59d26637a03bb",
+              "crc_error": null,
+              "entries": 48,
+              "inventory_checked": true,
+              "inventory_entries": 47,
+              "inventory_mismatches": [],
+              "kind": "git",
+              "path": "preview/cuba-v1/cuba-v1-source.zip",
+              "required_payloads": {
+                "cuba-v1.html": true,
+                "cuba.blend": true,
+                "cuba.glb": true
+              },
+              "safe_unique_paths": true,
+              "sha256": "615cf8fe4ff242baf3599aabf191f773bb7e6eaa4737aeba5a720515dc7d1e84"
+            },
+            "safe_unique_crc": true,
+            "selected_payload_checks": [
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "cuba-v1.html",
+                "sha256": "909bbee9defc1fca2ad8e2f3fcd546389cb7a39b1b1fcd42541b32612998eacf"
+              },
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "cuba.blend",
+                "sha256": "0c798ac10741f0133380c65798db53ef11b2a20cbd4a152e7011ae47dfce5253"
+              },
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "cuba.glb",
+                "sha256": "2e9a4ed4f946fc8226bb1b4c56c82e1ae2631f1c22c31f99c7999c6ca836e239"
+              }
+            ]
+          }
+        ],
+        "id": "cuba",
+        "sources": [
+          {
+            "bytes": 350072,
+            "commit": "d76b48e7f1d9e4efffaf6757efb59d26637a03bb",
+            "path": "preview/cuba-v1/cuba.blend",
+            "role": "selected-model",
+            "sha256": "0c798ac10741f0133380c65798db53ef11b2a20cbd4a152e7011ae47dfce5253"
+          },
+          {
+            "bytes": 765548,
+            "commit": "d76b48e7f1d9e4efffaf6757efb59d26637a03bb",
+            "path": "preview/cuba-v1/cuba.glb",
+            "role": "selected-model",
+            "sha256": "2e9a4ed4f946fc8226bb1b4c56c82e1ae2631f1c22c31f99c7999c6ca836e239",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 55,
+              "nodes": 57
+            }
+          }
+        ],
+        "viewer": {
+          "bytes": 1822582,
+          "commit": "d76b48e7f1d9e4efffaf6757efb59d26637a03bb",
+          "path": "preview/cuba-v1/cuba-v1.html",
+          "sha256": "909bbee9defc1fca2ad8e2f3fcd546389cb7a39b1b1fcd42541b32612998eacf",
+          "under_5000000": true
+        }
+      },
+      "user_final_approved": false,
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 1822582,
+        "commit": "d76b48e7f1d9e4efffaf6757efb59d26637a03bb",
+        "path": "preview/cuba-v1/cuba-v1.html",
+        "sha256": "909bbee9defc1fca2ad8e2f3fcd546389cb7a39b1b1fcd42541b32612998eacf",
+        "under_5000000": true
+      },
+      "visual_verdict": "candidate-with-limitations"
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Cuba",
+    "package_history": [
+      {
+        "bytes": 5417073,
+        "commit": "d76b48e7f1d9e4efffaf6757efb59d26637a03bb",
+        "crc_error": null,
+        "entries": 48,
+        "inventory_checked": true,
+        "inventory_entries": 47,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/cuba-v1/cuba-v1-source.zip",
+        "required_payloads": {
+          "cuba-v1.html": true,
+          "cuba.blend": true,
+          "cuba.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "615cf8fe4ff242baf3599aabf191f773bb7e6eaa4737aeba5a720515dc7d1e84"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "d76b48e7f1d9e4efffaf6757efb59d26637a03bb",
+      "fetched_tip": "d76b48e7f1d9e4efffaf6757efb59d26637a03bb",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/cuba-v1"
+    },
+    "verdict": "candidate-with-limitations",
+    "viewer": {
+      "bytes": 1822582,
+      "commit": "d76b48e7f1d9e4efffaf6757efb59d26637a03bb",
+      "path": "preview/cuba-v1/cuba-v1.html",
+      "sha256": "909bbee9defc1fca2ad8e2f3fcd546389cb7a39b1b1fcd42541b32612998eacf",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "cuba",
+    "baseline_verdict": "candidate-with-limitations",
+    "actions": [
+      "owner art/finish acceptance; no proven runtime defect recorded; no autonomous redesign"
+    ],
+    "approval": false,
+    "original_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "captures": [
+        "parent/smoke/cuba/desktop-closed.png",
+        "parent/smoke/cuba/desktop-open.png",
+        "parent/smoke/cuba/mobile-closed.png",
+        "parent/smoke/cuba/mobile-open.png"
+      ],
+      "fresh_browser": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.8429999351501465,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.8600000143051147,
+                -0.23999999463558197,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 765548,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 5,
+            "meshes": 58,
+            "nonfinite": 0,
+            "triangles": 9044
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "cuba",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "909bbee9defc1fca2ad8e2f3fcd546389cb7a39b1b1fcd42541b32612998eacf"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.8429999351501465,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.8600000143051147,
+                -0.23999999463558197,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 765548,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 5,
+            "meshes": 58,
+            "nonfinite": 0,
+            "triangles": 9044
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "cuba",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "909bbee9defc1fca2ad8e2f3fcd546389cb7a39b1b1fcd42541b32612998eacf"
+        }
+      ],
+      "fresh_motion": {
+        "exit_code": 0,
+        "id": "cuba",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "d76b48e7f1d9e4efffaf6757efb59d26637a03bb",
+            "path": "preview/cuba-v1/motion.mjs",
+            "sha256": "9d118549fcdc1ff1d1fd8ebb6c6eb8a7a0da7fef8f0ae65ca947335407e74f03"
+          }
+        ]
+      },
+      "fresh_runtime_captures": [
+        "smoke/cuba/desktop-closed.png",
+        "smoke/cuba/desktop-open.png",
+        "smoke/cuba/mobile-closed.png",
+        "smoke/cuba/mobile-open.png"
+      ],
+      "id": "cuba",
+      "independent_visual_findings": "Three green-capped mogotes retained; angular forms and repetitive diagonal limestone striations versus softer marketing.",
+      "inspection": "deleg_5910ddb9 tasks 0-4 inspected four original PNGs and promotional WebP per ID; lead Malta comparison reinspection",
+      "launch_ready": false,
+      "packaging_verdict": "pass",
+      "parent_findings": {
+        "hardware": "Brass caps, long clasp, pale feet and green seam preserved.",
+        "terrain": "Three green-crowned mogotes retain arrangement over red earth.",
+        "texture": "Strong diagonal stone bands, faceted hills and simplified vegetation."
+      },
+      "parent_remaining_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-04 review"
+      ],
+      "parent_status": "pass",
+      "polish_iterations": 0,
+      "proven_runtime_defects": [],
+      "remaining_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "selection": {
+        "commit": "d76b48e7f1d9e4efffaf6757efb59d26637a03bb",
+        "fetched_tip": "d76b48e7f1d9e4efffaf6757efb59d26637a03bb",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/cuba-v1"
+      },
+      "source_archive_audit": {
+        "archives": [
+          {
+            "internal_inventory_checked": 47,
+            "provenance": {
+              "bytes": 5417073,
+              "commit": "d76b48e7f1d9e4efffaf6757efb59d26637a03bb",
+              "crc_error": null,
+              "entries": 48,
+              "inventory_checked": true,
+              "inventory_entries": 47,
+              "inventory_mismatches": [],
+              "kind": "git",
+              "path": "preview/cuba-v1/cuba-v1-source.zip",
+              "required_payloads": {
+                "cuba-v1.html": true,
+                "cuba.blend": true,
+                "cuba.glb": true
+              },
+              "safe_unique_paths": true,
+              "sha256": "615cf8fe4ff242baf3599aabf191f773bb7e6eaa4737aeba5a720515dc7d1e84"
+            },
+            "safe_unique_crc": true,
+            "selected_payload_checks": [
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "cuba-v1.html",
+                "sha256": "909bbee9defc1fca2ad8e2f3fcd546389cb7a39b1b1fcd42541b32612998eacf"
+              },
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "cuba.blend",
+                "sha256": "0c798ac10741f0133380c65798db53ef11b2a20cbd4a152e7011ae47dfce5253"
+              },
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "cuba.glb",
+                "sha256": "2e9a4ed4f946fc8226bb1b4c56c82e1ae2631f1c22c31f99c7999c6ca836e239"
+              }
+            ]
+          }
+        ],
+        "id": "cuba",
+        "sources": [
+          {
+            "bytes": 350072,
+            "commit": "d76b48e7f1d9e4efffaf6757efb59d26637a03bb",
+            "path": "preview/cuba-v1/cuba.blend",
+            "role": "selected-model",
+            "sha256": "0c798ac10741f0133380c65798db53ef11b2a20cbd4a152e7011ae47dfce5253"
+          },
+          {
+            "bytes": 765548,
+            "commit": "d76b48e7f1d9e4efffaf6757efb59d26637a03bb",
+            "path": "preview/cuba-v1/cuba.glb",
+            "role": "selected-model",
+            "sha256": "2e9a4ed4f946fc8226bb1b4c56c82e1ae2631f1c22c31f99c7999c6ca836e239",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 55,
+              "nodes": 57
+            }
+          }
+        ],
+        "viewer": {
+          "bytes": 1822582,
+          "commit": "d76b48e7f1d9e4efffaf6757efb59d26637a03bb",
+          "path": "preview/cuba-v1/cuba-v1.html",
+          "sha256": "909bbee9defc1fca2ad8e2f3fcd546389cb7a39b1b1fcd42541b32612998eacf",
+          "under_5000000": true
+        }
+      },
+      "user_final_approved": false,
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 1822582,
+        "commit": "d76b48e7f1d9e4efffaf6757efb59d26637a03bb",
+        "path": "preview/cuba-v1/cuba-v1.html",
+        "sha256": "909bbee9defc1fca2ad8e2f3fcd546389cb7a39b1b1fcd42541b32612998eacf",
+        "under_5000000": true
+      },
+      "visual_verdict": "candidate-with-limitations"
+    },
+    "package_history": [
+      {
+        "bytes": 5417073,
+        "commit": "d76b48e7f1d9e4efffaf6757efb59d26637a03bb",
+        "crc_error": null,
+        "entries": 48,
+        "inventory_checked": true,
+        "inventory_entries": 47,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/cuba-v1/cuba-v1-source.zip",
+        "required_payloads": {
+          "cuba-v1.html": true,
+          "cuba.blend": true,
+          "cuba.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "615cf8fe4ff242baf3599aabf191f773bb7e6eaa4737aeba5a720515dc7d1e84"
+      }
+    ]
+  }
+}

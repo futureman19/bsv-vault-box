@@ -1,0 +1,664 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 6,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 438967,
+        "role": "editable-source",
+        "sha256": "493dbf1587a36fcc366756d8616dc6852221cd8b8d1ee620066314fa4c1ed07b",
+        "source": {
+          "commit": "0622aef92beae5674b2cfb38848eaa73eafbb0b5",
+          "path": "preview/france-v1/france.blend"
+        },
+        "uri": "sha256:493dbf1587a36fcc366756d8616dc6852221cd8b8d1ee620066314fa4c1ed07b"
+      },
+      {
+        "bytes": 6379434,
+        "role": "historical-source-archive",
+        "sha256": "700f9aecaaea4a4e5c85f14858378ac3959356bc983e8f822b753fc6d90e1e0c",
+        "source": {
+          "commit": "0622aef92beae5674b2cfb38848eaa73eafbb0b5",
+          "kind": "git",
+          "path": "preview/france-v1/france-v1-source.zip"
+        },
+        "uri": "sha256:700f9aecaaea4a4e5c85f14858378ac3959356bc983e8f822b753fc6d90e1e0c"
+      },
+      {
+        "bytes": 3107424,
+        "role": "model",
+        "sha256": "7d6ade858d792757aa88fb2d2f66e3cd6eeca2c86a093623698482518681b69a",
+        "source": {
+          "commit": "0622aef92beae5674b2cfb38848eaa73eafbb0b5",
+          "path": "preview/france-v1/france.glb"
+        },
+        "uri": "sha256:7d6ade858d792757aa88fb2d2f66e3cd6eeca2c86a093623698482518681b69a"
+      },
+      {
+        "bytes": 33410,
+        "role": "promotional-illustration",
+        "sha256": "cdc56ddc228f26668d82648e865f77e64fd6078bf33f8b4359f8b0b8abcbc4dd",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/france.webp"
+        },
+        "uri": "sha256:cdc56ddc228f26668d82648e865f77e64fd6078bf33f8b4359f8b0b8abcbc4dd"
+      },
+      {
+        "bytes": 3124,
+        "role": "research-brief",
+        "sha256": "935f792efb3a9ce4485d706ddeb1c9f2d7273df9eee3d2183089829859766acc",
+        "source": {
+          "commit": "0622aef92beae5674b2cfb38848eaa73eafbb0b5",
+          "path": "preview/france-v1/design-brief.md"
+        },
+        "uri": "sha256:935f792efb3a9ce4485d706ddeb1c9f2d7273df9eee3d2183089829859766acc"
+      },
+      {
+        "bytes": 6376,
+        "role": "source-notice",
+        "sha256": "c2040ee49f7ac7872135d1a934b26f3c888705bc6d8dab1102dd970b42ef546a",
+        "source": {
+          "commit": "0622aef92beae5674b2cfb38848eaa73eafbb0b5",
+          "path": "preview/france-v1/README.md"
+        },
+        "uri": "sha256:c2040ee49f7ac7872135d1a934b26f3c888705bc6d8dab1102dd970b42ef546a"
+      },
+      {
+        "bytes": 4937632,
+        "role": "viewer",
+        "sha256": "10b7bbd92bd698ea83e78b561148a47463ff0ddfabcfc558f3243bcb43280523",
+        "source": {
+          "commit": "0622aef92beae5674b2cfb38848eaa73eafbb0b5",
+          "path": "preview/france-v1/france-v1.html"
+        },
+        "uri": "sha256:10b7bbd92bd698ea83e78b561148a47463ff0ddfabcfc558f3243bcb43280523"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "france",
+    "independent_review": {
+      "adjudication": "Preserve substantive parent art-decision hold despite any more permissive independent recommendation; no user approval or changed art resolves it.",
+      "art_changed": false,
+      "critical_reproducible_defects": [],
+      "fresh_blender_reopen": false,
+      "fresh_browser": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.037999887019396,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 3107424,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 9,
+            "meshes": 216,
+            "nonfinite": 0,
+            "triangles": 44120
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "france",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "10b7bbd92bd698ea83e78b561148a47463ff0ddfabcfc558f3243bcb43280523"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.037999887019396,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 3107424,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 9,
+            "meshes": 216,
+            "nonfinite": 0,
+            "triangles": 44120
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "france",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "10b7bbd92bd698ea83e78b561148a47463ff0ddfabcfc558f3243bcb43280523"
+        }
+      ],
+      "fresh_collision_sampling": false,
+      "fresh_corrupt_glb_fallback": false,
+      "fresh_motion": {
+        "exit_code": 0,
+        "id": "france",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "0622aef92beae5674b2cfb38848eaa73eafbb0b5",
+            "path": "preview/france-v1/motion.mjs",
+            "sha256": "d61544de9b41521a7b14e81a5e9867ce0fcc387f8852ce57490031b84bf2150e"
+          }
+        ]
+      },
+      "fresh_nojs": false,
+      "id": "france",
+      "independent_visual": {
+        "file": "visual-2.json",
+        "findings": {
+          "artistic_fidelity_gaps": [
+            "Noticeable palette and motif-reading difference: reference's soft rose/peach flowers and sage accents become bolder geometric red/green/ochre patterning.",
+            "Tile relief, grout and glazed sheen are weak; pattern reads flatter than the reference mosaic.",
+            "Stone grain, satin-metal response, corner joinery and feet remain simplified."
+          ],
+          "demonstrated_malfunctions": [],
+          "id": "france",
+          "inspected_files": [
+            "parent/sources/france/marketing.webp",
+            "parent/smoke/france/desktop-closed.png",
+            "parent/smoke/france/desktop-open.png",
+            "parent/smoke/france/mobile-closed.png",
+            "parent/smoke/france/mobile-open.png"
+          ],
+          "marketing_dimensions": [
+            1056,
+            976
+          ],
+          "reference_appearance": "Ivory softly marbled chest with relief square-tile floral mosaic: muted rose petals, peach centers, sage foliage. Warm brass hardware, dark green lid seam and rounded irregular ivory feet.",
+          "suggested_disposition": "needs-user-review",
+          "user_review_focus": "Decide whether the stronger geometric tile palette is an acceptable interpretation of the softer floral marketing reference before any acceptance.",
+          "views": {
+            "desktop_closed": "Pale veined chest and brass fittings remain recognizable, but lid reads as a higher-contrast green/white/red/ochre geometric mosaic rather than the reference's soft pink floral composition. Dark seam and faceted feet are prominent.",
+            "desktop_open": "Pale lid underside, brown cavity and dark rim are visible with rear hinges and front fittings. Exterior mosaic is turned away, not demonstrably missing. No major mesh corruption or layout break.",
+            "mobile_closed": "Green/white/red tile pattern remains visible, though tile and brass edges are jagged at this scale. Pale body, hardware, and short feet fit the viewport with usable-looking separated controls.",
+            "mobile_open": "Cream underside and plain brown interior dominate; rim/corner seams and blocky feet are noticeable. Model, heading and controls are not visibly cropped."
+          },
+          "visible_concerns_not_proven_malfunctions": [
+            "Heavy closed seam and weak-looking open hinge connection warrant closer geometric inspection, but neither proves failed articulation.",
+            "Small tile and hardware edges show render roughness."
+          ]
+        }
+      },
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 33410,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1056,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/france.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1056,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "Accepted: cream mosaic ground, green patches, two muted rose/green floral motifs and peach centers retained. Slightly richer greens/peach and cleaner edges acceptable; original body and hardware retained.",
+          "reviewStatus": "accepted",
+          "sha256": "0d689bb1c40c5ff897a8b8ecfc4f57bbfe36354970a700a982debc7c8d934774",
+          "source": "assets/gallery/france.webp",
+          "sourceSha256": "2748488191783b46df97cb4643310541d4eed60d035797f634dc406a2795c8b4",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "cdc56ddc228f26668d82648e865f77e64fd6078bf33f8b4359f8b0b8abcbc4dd"
+      },
+      "original_capture_paths": [
+        "parent/smoke/france/desktop-closed.png",
+        "parent/smoke/france/desktop-open.png",
+        "parent/smoke/france/mobile-closed.png",
+        "parent/smoke/france/mobile-open.png"
+      ],
+      "packaging_hold": false,
+      "parent_decision": "Decide whether the more saturated final candidate palette is the intended public appearance, and whether the exact marketing should be reconciled with it. Hold visual-reference sign-off pending that choice; do not label this palette difference a structural defect. Candidate review only, not user approval.",
+      "parent_missing_gates_preserved": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_quality": "Coherent candidate and clean desktop/mobile framing, with no obvious missing tiles or gross geometry defect. Exact marketing is substantially softer/pastel in its tiled palette; runtime reads stronger green, red and ochre. This is a visible reference/finish difference, not a proven runtime fault.",
+      "parent_status": "needs-decision",
+      "remaining_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "user fidelity decision before substantial redesign",
+        "independent QA-ART-06 review"
+      ],
+      "selection": {
+        "commit": "0622aef92beae5674b2cfb38848eaa73eafbb0b5",
+        "fetched_tip": "0622aef92beae5674b2cfb38848eaa73eafbb0b5",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/france-v1"
+      },
+      "source_archive_check": {
+        "archive": {
+          "bytes": 6379434,
+          "crc": "pass",
+          "entries": 56,
+          "mismatches": [],
+          "path": "preview/france-v1/france-v1-source.zip",
+          "required_payload_hashes": "pass",
+          "sha256": "700f9aecaaea4a4e5c85f14858378ac3959356bc983e8f822b753fc6d90e1e0c"
+        },
+        "id": "france",
+        "internal_inventory": "pass",
+        "inventory_entries_checked": 55,
+        "selected_payload_match": "pass"
+      },
+      "source_archives": [
+        {
+          "bytes": 6379434,
+          "crc": "pass",
+          "entries": 56,
+          "mismatches": [],
+          "path": "preview/france-v1/france-v1-source.zip",
+          "required_payload_hashes": "pass",
+          "sha256": "700f9aecaaea4a4e5c85f14858378ac3959356bc983e8f822b753fc6d90e1e0c"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 438967,
+          "path": "preview/france-v1/france.blend",
+          "sha256": "493dbf1587a36fcc366756d8616dc6852221cd8b8d1ee620066314fa4c1ed07b"
+        },
+        {
+          "bytes": 3107424,
+          "path": "preview/france-v1/france.glb",
+          "sha256": "7d6ade858d792757aa88fb2d2f66e3cd6eeca2c86a093623698482518681b69a"
+        }
+      ],
+      "user_final_approved": false,
+      "verdict": "needs-user-review",
+      "viewer": {
+        "bytes": 4937632,
+        "commit": "0622aef92beae5674b2cfb38848eaa73eafbb0b5",
+        "path": "preview/france-v1/france-v1.html",
+        "sha256": "10b7bbd92bd698ea83e78b561148a47463ff0ddfabcfc558f3243bcb43280523",
+        "under_5000000": true
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "France",
+    "package_history": [
+      {
+        "bytes": 6379434,
+        "commit": "0622aef92beae5674b2cfb38848eaa73eafbb0b5",
+        "crc_error": null,
+        "entries": 56,
+        "inventory_checked": true,
+        "inventory_entries": 55,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/france-v1/france-v1-source.zip",
+        "required_payloads": {
+          "france-v1.html": true,
+          "france.blend": true,
+          "france.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "700f9aecaaea4a4e5c85f14858378ac3959356bc983e8f822b753fc6d90e1e0c"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "0622aef92beae5674b2cfb38848eaa73eafbb0b5",
+      "fetched_tip": "0622aef92beae5674b2cfb38848eaa73eafbb0b5",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/france-v1"
+    },
+    "verdict": "needs-user-review",
+    "viewer": {
+      "bytes": 4937632,
+      "commit": "0622aef92beae5674b2cfb38848eaa73eafbb0b5",
+      "path": "preview/france-v1/france-v1.html",
+      "sha256": "10b7bbd92bd698ea83e78b561148a47463ff0ddfabcfc558f3243bcb43280523",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "france",
+    "baseline_verdict": "needs-user-review",
+    "actions": [
+      "owner art/finish acceptance; no proven runtime defect recorded; no autonomous redesign"
+    ],
+    "approval": false,
+    "original_review": {
+      "adjudication": "Preserve substantive parent art-decision hold despite any more permissive independent recommendation; no user approval or changed art resolves it.",
+      "art_changed": false,
+      "critical_reproducible_defects": [],
+      "fresh_blender_reopen": false,
+      "fresh_browser": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.037999887019396,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 3107424,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 9,
+            "meshes": 216,
+            "nonfinite": 0,
+            "triangles": 44120
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "france",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "10b7bbd92bd698ea83e78b561148a47463ff0ddfabcfc558f3243bcb43280523"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.037999887019396,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 3107424,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 9,
+            "meshes": 216,
+            "nonfinite": 0,
+            "triangles": 44120
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "france",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "10b7bbd92bd698ea83e78b561148a47463ff0ddfabcfc558f3243bcb43280523"
+        }
+      ],
+      "fresh_collision_sampling": false,
+      "fresh_corrupt_glb_fallback": false,
+      "fresh_motion": {
+        "exit_code": 0,
+        "id": "france",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "0622aef92beae5674b2cfb38848eaa73eafbb0b5",
+            "path": "preview/france-v1/motion.mjs",
+            "sha256": "d61544de9b41521a7b14e81a5e9867ce0fcc387f8852ce57490031b84bf2150e"
+          }
+        ]
+      },
+      "fresh_nojs": false,
+      "id": "france",
+      "independent_visual": {
+        "file": "visual-2.json",
+        "findings": {
+          "artistic_fidelity_gaps": [
+            "Noticeable palette and motif-reading difference: reference's soft rose/peach flowers and sage accents become bolder geometric red/green/ochre patterning.",
+            "Tile relief, grout and glazed sheen are weak; pattern reads flatter than the reference mosaic.",
+            "Stone grain, satin-metal response, corner joinery and feet remain simplified."
+          ],
+          "demonstrated_malfunctions": [],
+          "id": "france",
+          "inspected_files": [
+            "parent/sources/france/marketing.webp",
+            "parent/smoke/france/desktop-closed.png",
+            "parent/smoke/france/desktop-open.png",
+            "parent/smoke/france/mobile-closed.png",
+            "parent/smoke/france/mobile-open.png"
+          ],
+          "marketing_dimensions": [
+            1056,
+            976
+          ],
+          "reference_appearance": "Ivory softly marbled chest with relief square-tile floral mosaic: muted rose petals, peach centers, sage foliage. Warm brass hardware, dark green lid seam and rounded irregular ivory feet.",
+          "suggested_disposition": "needs-user-review",
+          "user_review_focus": "Decide whether the stronger geometric tile palette is an acceptable interpretation of the softer floral marketing reference before any acceptance.",
+          "views": {
+            "desktop_closed": "Pale veined chest and brass fittings remain recognizable, but lid reads as a higher-contrast green/white/red/ochre geometric mosaic rather than the reference's soft pink floral composition. Dark seam and faceted feet are prominent.",
+            "desktop_open": "Pale lid underside, brown cavity and dark rim are visible with rear hinges and front fittings. Exterior mosaic is turned away, not demonstrably missing. No major mesh corruption or layout break.",
+            "mobile_closed": "Green/white/red tile pattern remains visible, though tile and brass edges are jagged at this scale. Pale body, hardware, and short feet fit the viewport with usable-looking separated controls.",
+            "mobile_open": "Cream underside and plain brown interior dominate; rim/corner seams and blocky feet are noticeable. Model, heading and controls are not visibly cropped."
+          },
+          "visible_concerns_not_proven_malfunctions": [
+            "Heavy closed seam and weak-looking open hinge connection warrant closer geometric inspection, but neither proves failed articulation.",
+            "Small tile and hardware edges show render roughness."
+          ]
+        }
+      },
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 33410,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1056,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/france.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1056,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "Accepted: cream mosaic ground, green patches, two muted rose/green floral motifs and peach centers retained. Slightly richer greens/peach and cleaner edges acceptable; original body and hardware retained.",
+          "reviewStatus": "accepted",
+          "sha256": "0d689bb1c40c5ff897a8b8ecfc4f57bbfe36354970a700a982debc7c8d934774",
+          "source": "assets/gallery/france.webp",
+          "sourceSha256": "2748488191783b46df97cb4643310541d4eed60d035797f634dc406a2795c8b4",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "cdc56ddc228f26668d82648e865f77e64fd6078bf33f8b4359f8b0b8abcbc4dd"
+      },
+      "original_capture_paths": [
+        "parent/smoke/france/desktop-closed.png",
+        "parent/smoke/france/desktop-open.png",
+        "parent/smoke/france/mobile-closed.png",
+        "parent/smoke/france/mobile-open.png"
+      ],
+      "packaging_hold": false,
+      "parent_decision": "Decide whether the more saturated final candidate palette is the intended public appearance, and whether the exact marketing should be reconciled with it. Hold visual-reference sign-off pending that choice; do not label this palette difference a structural defect. Candidate review only, not user approval.",
+      "parent_missing_gates_preserved": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_quality": "Coherent candidate and clean desktop/mobile framing, with no obvious missing tiles or gross geometry defect. Exact marketing is substantially softer/pastel in its tiled palette; runtime reads stronger green, red and ochre. This is a visible reference/finish difference, not a proven runtime fault.",
+      "parent_status": "needs-decision",
+      "remaining_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "user fidelity decision before substantial redesign",
+        "independent QA-ART-06 review"
+      ],
+      "selection": {
+        "commit": "0622aef92beae5674b2cfb38848eaa73eafbb0b5",
+        "fetched_tip": "0622aef92beae5674b2cfb38848eaa73eafbb0b5",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/france-v1"
+      },
+      "source_archive_check": {
+        "archive": {
+          "bytes": 6379434,
+          "crc": "pass",
+          "entries": 56,
+          "mismatches": [],
+          "path": "preview/france-v1/france-v1-source.zip",
+          "required_payload_hashes": "pass",
+          "sha256": "700f9aecaaea4a4e5c85f14858378ac3959356bc983e8f822b753fc6d90e1e0c"
+        },
+        "id": "france",
+        "internal_inventory": "pass",
+        "inventory_entries_checked": 55,
+        "selected_payload_match": "pass"
+      },
+      "source_archives": [
+        {
+          "bytes": 6379434,
+          "crc": "pass",
+          "entries": 56,
+          "mismatches": [],
+          "path": "preview/france-v1/france-v1-source.zip",
+          "required_payload_hashes": "pass",
+          "sha256": "700f9aecaaea4a4e5c85f14858378ac3959356bc983e8f822b753fc6d90e1e0c"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 438967,
+          "path": "preview/france-v1/france.blend",
+          "sha256": "493dbf1587a36fcc366756d8616dc6852221cd8b8d1ee620066314fa4c1ed07b"
+        },
+        {
+          "bytes": 3107424,
+          "path": "preview/france-v1/france.glb",
+          "sha256": "7d6ade858d792757aa88fb2d2f66e3cd6eeca2c86a093623698482518681b69a"
+        }
+      ],
+      "user_final_approved": false,
+      "verdict": "needs-user-review",
+      "viewer": {
+        "bytes": 4937632,
+        "commit": "0622aef92beae5674b2cfb38848eaa73eafbb0b5",
+        "path": "preview/france-v1/france-v1.html",
+        "sha256": "10b7bbd92bd698ea83e78b561148a47463ff0ddfabcfc558f3243bcb43280523",
+        "under_5000000": true
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 6379434,
+        "commit": "0622aef92beae5674b2cfb38848eaa73eafbb0b5",
+        "crc_error": null,
+        "entries": 56,
+        "inventory_checked": true,
+        "inventory_entries": 55,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/france-v1/france-v1-source.zip",
+        "required_payloads": {
+          "france-v1.html": true,
+          "france.blend": true,
+          "france.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "700f9aecaaea4a4e5c85f14858378ac3959356bc983e8f822b753fc6d90e1e0c"
+      }
+    ]
+  },
+  "visual_decision": {
+    "id": "france",
+    "disposition": "preview-accepted-with-limitations",
+    "issue": "Saturated geometric tile palette replaces softer floral treatment.",
+    "rationale": "Multicolor tiled lid remains a coherent focal point on the pale chest. Accept stronger green/red/ochre geometry with weak glaze and grout depth; do not describe it as an exact pastel floral replica.",
+    "evidence": {
+      "commit": "bb6301f93b47613838f53fbaba43f47b7b1d78c6",
+      "path": "launch/qa-art-06/parent/boards/france.jpg",
+      "sha256": "2f7c5087308b492747e194a76d164ff2c7c2fc8372cba45dcbb5fd077884faff"
+    }
+  }
+}

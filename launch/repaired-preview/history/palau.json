@@ -1,0 +1,885 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 7,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 599008,
+        "role": "editable-source",
+        "sha256": "12086d546a93798eefbdd76cc7233fe3262e422e5572b8248cd46b538ac709da",
+        "source": {
+          "commit": "e5a231a934132ae5832f5f2c65f00daea04a0570",
+          "path": "preview/palau-v1/palau.blend"
+        },
+        "uri": "sha256:12086d546a93798eefbdd76cc7233fe3262e422e5572b8248cd46b538ac709da"
+      },
+      {
+        "bytes": 7616687,
+        "role": "historical-source-archive",
+        "sha256": "350110423c1a37913055326f6bec81e66587269afdc233d71591a8544a77967a",
+        "source": {
+          "commit": "e5a231a934132ae5832f5f2c65f00daea04a0570",
+          "kind": "git",
+          "path": "preview/palau-v1/palau-v1-source.zip"
+        },
+        "uri": "sha256:350110423c1a37913055326f6bec81e66587269afdc233d71591a8544a77967a"
+      },
+      {
+        "bytes": 1322992,
+        "role": "model",
+        "sha256": "b69eec1ce4efcbddc1ec700e422ec0f8970616db04126dcc0364f16305228f09",
+        "source": {
+          "commit": "e5a231a934132ae5832f5f2c65f00daea04a0570",
+          "path": "preview/palau-v1/palau.glb"
+        },
+        "uri": "sha256:b69eec1ce4efcbddc1ec700e422ec0f8970616db04126dcc0364f16305228f09"
+      },
+      {
+        "bytes": 59324,
+        "role": "promotional-illustration",
+        "sha256": "c9988b216425df4125410e5322a1456e050e2fd2a75be903b567908db6efa6d0",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/palau.webp"
+        },
+        "uri": "sha256:c9988b216425df4125410e5322a1456e050e2fd2a75be903b567908db6efa6d0"
+      },
+      {
+        "bytes": 3403,
+        "role": "research-brief",
+        "sha256": "347c2cd3a2e238d145e9f9bc6d6453665379505c514062da01cfcd853c160093",
+        "source": {
+          "commit": "e5a231a934132ae5832f5f2c65f00daea04a0570",
+          "path": "preview/palau-v1/design-brief.md"
+        },
+        "uri": "sha256:347c2cd3a2e238d145e9f9bc6d6453665379505c514062da01cfcd853c160093"
+      },
+      {
+        "bytes": 7232,
+        "role": "source-notice",
+        "sha256": "aad478a518baf4cbbc03454667682b28a5508a8ce0b488f80a6300bfc580ab45",
+        "source": {
+          "commit": "e5a231a934132ae5832f5f2c65f00daea04a0570",
+          "path": "preview/palau-v1/README.md"
+        },
+        "uri": "sha256:aad478a518baf4cbbc03454667682b28a5508a8ce0b488f80a6300bfc580ab45"
+      },
+      {
+        "bytes": 2532972,
+        "role": "viewer",
+        "sha256": "1be199e2a9fa316309750a695418dd7ff195631a230b3249516e8e24939e0874",
+        "source": {
+          "commit": "e5a231a934132ae5832f5f2c65f00daea04a0570",
+          "path": "preview/palau-v1/palau-v1.html"
+        },
+        "uri": "sha256:1be199e2a9fa316309750a695418dd7ff195631a230b3249516e8e24939e0874"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "palau",
+    "independent_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "capture_base": "parent/",
+      "captures": [
+        {
+          "bytes": 356639,
+          "path": "smoke/palau/desktop-closed.png",
+          "sha256": "623d6ed0ac327a6e3b4e94736430b4c5cb19507fad82c6aab0bb6e3145766004",
+          "viewer_sha256": "1be199e2a9fa316309750a695418dd7ff195631a230b3249516e8e24939e0874"
+        },
+        {
+          "bytes": 363330,
+          "path": "smoke/palau/desktop-open.png",
+          "sha256": "5c66662b85663dc709f0a97373707edbd685a04a716f77d5b75d43144f512d40",
+          "viewer_sha256": "1be199e2a9fa316309750a695418dd7ff195631a230b3249516e8e24939e0874"
+        },
+        {
+          "bytes": 115221,
+          "path": "smoke/palau/mobile-closed.png",
+          "sha256": "718b6b374cebdf840991a8860dc6e128c9b9cd3cfddf34ba1f2a61184920e173",
+          "viewer_sha256": "1be199e2a9fa316309750a695418dd7ff195631a230b3249516e8e24939e0874"
+        },
+        {
+          "bytes": 113271,
+          "path": "smoke/palau/mobile-open.png",
+          "sha256": "e07fcb1336700b1c9d7e8bba03a52a253e1dfc0912798b6c7fe9f1b96babc344",
+          "viewer_sha256": "1be199e2a9fa316309750a695418dd7ff195631a230b3249516e8e24939e0874"
+        }
+      ],
+      "critical_reproducible_failures": [],
+      "final_approval": false,
+      "fresh_checks": {
+        "blender_parity_collision": false,
+        "fallback": false,
+        "full_inner_archive_inventories": false,
+        "motion": false,
+        "original_captures_and_marketing_inspected": true,
+        "runtime": false,
+        "source_and_delivered_viewer_hashes": true,
+        "source_archive_crc_safe_paths_required_payloads": true
+      },
+      "historical_runtime": {
+        "browser": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.566999912261963,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1322992,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 5,
+              "meshes": 68,
+              "nonfinite": 0,
+              "triangles": 16056
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "palau",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "1be199e2a9fa316309750a695418dd7ff195631a230b3249516e8e24939e0874"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.566999912261963,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1322992,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 5,
+              "meshes": 68,
+              "nonfinite": 0,
+              "triangles": 16056
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "palau",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "1be199e2a9fa316309750a695418dd7ff195631a230b3249516e8e24939e0874"
+          }
+        ],
+        "extended": {
+          "geometry": {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.566999912261963,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1322992,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 5,
+              "meshes": 68,
+              "nonfinite": 0,
+              "triangles": 16056
+            },
+            "meshes": 68,
+            "nonfinite": 0,
+            "triangles": 16056
+          },
+          "id": "palau",
+          "no_js_poster": true
+        },
+        "motion": {
+          "exit_code": 0,
+          "id": "palau",
+          "passed": true,
+          "scope": "original motion unit assertions; not fresh collision/source parity"
+        },
+        "parent_commit": "0a99711872c208041b6602f0462675cd1b1a0d0c"
+      },
+      "id": "palau",
+      "independent_visual": {
+        "assessment": {
+          "approval_granted": false,
+          "defect_assessment": "No unequivocal broken geometry, missing asset or clipped model demonstrated in the supplied stills. Apparent seams/attachment gaps are recorded as visual concerns, not confirmed mechanical defects.",
+          "defects": [],
+          "hold_preserved": false,
+          "id": "palau",
+          "images": [
+            {
+              "inspected": true,
+              "observations": "Original marketing: pale mottled stone/ceramic body, turquoise lagoon and six green mounds with pale shoreline bands are distinguishable. Brass family fittings retained; teal reveal beneath lid is conspicuous.",
+              "path": "parent/sources/palau/marketing.webp"
+            },
+            {
+              "inspected": true,
+              "observations": "Desktop closed: six islands and lagoon channels readable; low crowns read as miniature mounds rather than detailed forests. Full model fits; teal reveal can read as an incompletely closed lid.",
+              "path": "parent/smoke/palau/desktop-closed.png"
+            },
+            {
+              "inspected": true,
+              "observations": "Desktop open: pale inner lid and hollow pale cavity visible; teal rim interrupted by pale corner blocks. Hinges and projecting latch visible, full silhouette contained; lagoon terrain hidden by front-open view.",
+              "path": "parent/smoke/palau/desktop-open.png"
+            },
+            {
+              "inspected": true,
+              "observations": "Mobile closed: two-line title fits, island groups and turquoise surface remain readable. Complete silhouette and controls; shoreline detail and small hardware reduced at this scale.",
+              "path": "parent/smoke/palau/mobile-closed.png"
+            },
+            {
+              "inspected": true,
+              "observations": "Mobile open: raised lid, latch tab, cavity and feet fit. Brass connections are small but no clearly detached part or gross intersection is demonstrated.",
+              "path": "parent/smoke/palau/mobile-open.png"
+            }
+          ],
+          "limitations": [
+            "Mottled ceramic-like stone, sage-green mound forests and enamel/resin-like lagoon rather than realistic water or karst.",
+            "Teal seam can suggest raised lid; simple shoreline bands and long decorative clasp are disclosed."
+          ],
+          "rationale": "Coherent theme and complete desktop/mobile closed/open framing; retain disclosed material, detail and readability limitations. Candidate status is not approval.",
+          "recommendation": "candidate-with-limitations",
+          "source_readme": "parent/sources/palau/source_readme.md",
+          "source_readme_read": true
+        },
+        "report": "visual-d.json"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 59324,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1104,
+          928
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/palau.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1104,
+            928
+          ],
+          "provider": "xai",
+          "reviewNotes": "Six islands preserved; water saturation and island shapes differ slightly.",
+          "reviewStatus": "reviewed_with_limitations",
+          "sha256": "77b36b34a1348c9c1e938513f7d38fc2266f010a71b3ba7522e4f2dea079b8e4",
+          "source": "assets/gallery/palau.webp",
+          "sourceSha256": "6470a7b8218417a7a946376a4f75adb607aa506d55bc102e0aea49ca20c9a9b1",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "c9988b216425df4125410e5322a1456e050e2fd2a75be903b567908db6efa6d0"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_verdict": "pass",
+      "parent_visual": {
+        "concerns": [
+          "Teal reveal can make closed lid look raised; README explicitly identifies this treatment.",
+          "Water is opaque enamel/resin-like and islands are schematic rather than forest or cliff realism."
+        ],
+        "confirmed_geometry_defects": [],
+        "decision_required": null,
+        "final_approval": false,
+        "hardware": "Long front clasp, round fitting, side ring, brass corner caps and pale rounded feet match the promo vocabulary; small open hinge joints remain hard to resolve.",
+        "id": "palau",
+        "inspected_paths": [
+          "sources/palau/marketing.webp",
+          "smoke/palau/desktop-closed.png",
+          "smoke/palau/desktop-open.png",
+          "smoke/palau/mobile-closed.png",
+          "smoke/palau/mobile-open.png"
+        ],
+        "inspection_method": "Each of the five original images independently loaded through vision_analyze; no boards substituted.",
+        "limitations": [
+          "Static original-image inspection only; runtime checks were reported passing by the task context and were not rerun here.",
+          "No rear-open view, continuous animation, physical-phone test, manufacturing certification, or hidden-surface inspection in this review.",
+          "Hidden rear hinges and the released open-state latch are not independently evidence of failure. Lid-top ornament is naturally occluded in front-open views.",
+          "Promotional lighting and microtexture are not proof of corresponding modeled detail. This is a bounded visual review, not final approval."
+        ],
+        "mobile": "Six islands remain readable and the full closed/open silhouette fits; small rings and fine shoreline detail are reduced at phone size.",
+        "open": "Empty pale cavity, turquoise rim and raised pale lid underside are legible. Island decoration is behind the lid, not proven missing.",
+        "reason": "Six island forms, lagoon, pale body and characteristic hardware are retained with no obvious missing geometry or clipped framing.",
+        "source_context_path": "sources/palau/source_readme.md",
+        "terrain": "Six green island mounds with pale shoreline bands are distinguishable in promo and closed desktop/mobile captures. Turquoise lagoon lanes separate the forms.",
+        "texture": "Promo gives stronger stone mottling and softer natural surface detail; runtime remains pale stone/ceramic-like with simplified green crowns and enamel-like turquoise water. This is a finish difference, not demonstrated missing terrain.",
+        "verdict": "pass"
+      },
+      "parent_visual_hold_preserved": false,
+      "selection": {
+        "commit": "e5a231a934132ae5832f5f2c65f00daea04a0570",
+        "fetched_tip": "e5a231a934132ae5832f5f2c65f00daea04a0570",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/palau-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 7616687,
+          "commit": "e5a231a934132ae5832f5f2c65f00daea04a0570",
+          "crc_error": null,
+          "entries": 62,
+          "fresh_crc_safe_unique": true,
+          "fresh_required_payloads": [
+            {
+              "member": "palau-v1.html",
+              "path": "preview/palau-v1/palau-v1.html",
+              "sha256": "1be199e2a9fa316309750a695418dd7ff195631a230b3249516e8e24939e0874"
+            },
+            {
+              "member": "palau.blend",
+              "path": "preview/palau-v1/palau.blend",
+              "sha256": "12086d546a93798eefbdd76cc7233fe3262e422e5572b8248cd46b538ac709da"
+            },
+            {
+              "member": "palau.glb",
+              "path": "preview/palau-v1/palau.glb",
+              "sha256": "b69eec1ce4efcbddc1ec700e422ec0f8970616db04126dcc0364f16305228f09"
+            }
+          ],
+          "full_inner_inventory_fresh": false,
+          "inventory_checked": true,
+          "inventory_entries": 61,
+          "inventory_mismatches": [],
+          "kind": "git",
+          "path": "preview/palau-v1/palau-v1-source.zip",
+          "required_payloads": {
+            "palau-v1.html": true,
+            "palau.blend": true,
+            "palau.glb": true
+          },
+          "safe_unique_paths": true,
+          "sha256": "350110423c1a37913055326f6bec81e66587269afdc233d71591a8544a77967a"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 599008,
+          "commit": "e5a231a934132ae5832f5f2c65f00daea04a0570",
+          "path": "preview/palau-v1/palau.blend",
+          "role": "selected-model",
+          "sha256": "12086d546a93798eefbdd76cc7233fe3262e422e5572b8248cd46b538ac709da"
+        },
+        {
+          "bytes": 1322992,
+          "commit": "e5a231a934132ae5832f5f2c65f00daea04a0570",
+          "path": "preview/palau-v1/palau.glb",
+          "role": "selected-model",
+          "sha256": "b69eec1ce4efcbddc1ec700e422ec0f8970616db04126dcc0364f16305228f09",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 62,
+            "nodes": 64
+          }
+        }
+      ],
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 2532972,
+        "commit": "e5a231a934132ae5832f5f2c65f00daea04a0570",
+        "path": "preview/palau-v1/palau-v1.html",
+        "sha256": "1be199e2a9fa316309750a695418dd7ff195631a230b3249516e8e24939e0874",
+        "under_5000000": true
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Palau",
+    "package_history": [
+      {
+        "bytes": 7616687,
+        "commit": "e5a231a934132ae5832f5f2c65f00daea04a0570",
+        "crc_error": null,
+        "entries": 62,
+        "inventory_checked": true,
+        "inventory_entries": 61,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/palau-v1/palau-v1-source.zip",
+        "required_payloads": {
+          "palau-v1.html": true,
+          "palau.blend": true,
+          "palau.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "350110423c1a37913055326f6bec81e66587269afdc233d71591a8544a77967a"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "e5a231a934132ae5832f5f2c65f00daea04a0570",
+      "fetched_tip": "e5a231a934132ae5832f5f2c65f00daea04a0570",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/palau-v1"
+    },
+    "verdict": "candidate-with-limitations",
+    "viewer": {
+      "bytes": 2532972,
+      "commit": "e5a231a934132ae5832f5f2c65f00daea04a0570",
+      "path": "preview/palau-v1/palau-v1.html",
+      "sha256": "1be199e2a9fa316309750a695418dd7ff195631a230b3249516e8e24939e0874",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "palau",
+    "baseline_verdict": "candidate-with-limitations",
+    "actions": [
+      "owner art/finish acceptance; no proven runtime defect recorded; no autonomous redesign"
+    ],
+    "approval": false,
+    "original_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "capture_base": "parent/",
+      "captures": [
+        {
+          "bytes": 356639,
+          "path": "smoke/palau/desktop-closed.png",
+          "sha256": "623d6ed0ac327a6e3b4e94736430b4c5cb19507fad82c6aab0bb6e3145766004",
+          "viewer_sha256": "1be199e2a9fa316309750a695418dd7ff195631a230b3249516e8e24939e0874"
+        },
+        {
+          "bytes": 363330,
+          "path": "smoke/palau/desktop-open.png",
+          "sha256": "5c66662b85663dc709f0a97373707edbd685a04a716f77d5b75d43144f512d40",
+          "viewer_sha256": "1be199e2a9fa316309750a695418dd7ff195631a230b3249516e8e24939e0874"
+        },
+        {
+          "bytes": 115221,
+          "path": "smoke/palau/mobile-closed.png",
+          "sha256": "718b6b374cebdf840991a8860dc6e128c9b9cd3cfddf34ba1f2a61184920e173",
+          "viewer_sha256": "1be199e2a9fa316309750a695418dd7ff195631a230b3249516e8e24939e0874"
+        },
+        {
+          "bytes": 113271,
+          "path": "smoke/palau/mobile-open.png",
+          "sha256": "e07fcb1336700b1c9d7e8bba03a52a253e1dfc0912798b6c7fe9f1b96babc344",
+          "viewer_sha256": "1be199e2a9fa316309750a695418dd7ff195631a230b3249516e8e24939e0874"
+        }
+      ],
+      "critical_reproducible_failures": [],
+      "final_approval": false,
+      "fresh_checks": {
+        "blender_parity_collision": false,
+        "fallback": false,
+        "full_inner_archive_inventories": false,
+        "motion": false,
+        "original_captures_and_marketing_inspected": true,
+        "runtime": false,
+        "source_and_delivered_viewer_hashes": true,
+        "source_archive_crc_safe_paths_required_payloads": true
+      },
+      "historical_runtime": {
+        "browser": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.566999912261963,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1322992,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 5,
+              "meshes": 68,
+              "nonfinite": 0,
+              "triangles": 16056
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "palau",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "1be199e2a9fa316309750a695418dd7ff195631a230b3249516e8e24939e0874"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.566999912261963,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1322992,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 5,
+              "meshes": 68,
+              "nonfinite": 0,
+              "triangles": 16056
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "palau",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "1be199e2a9fa316309750a695418dd7ff195631a230b3249516e8e24939e0874"
+          }
+        ],
+        "extended": {
+          "geometry": {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.566999912261963,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1322992,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 5,
+              "meshes": 68,
+              "nonfinite": 0,
+              "triangles": 16056
+            },
+            "meshes": 68,
+            "nonfinite": 0,
+            "triangles": 16056
+          },
+          "id": "palau",
+          "no_js_poster": true
+        },
+        "motion": {
+          "exit_code": 0,
+          "id": "palau",
+          "passed": true,
+          "scope": "original motion unit assertions; not fresh collision/source parity"
+        },
+        "parent_commit": "0a99711872c208041b6602f0462675cd1b1a0d0c"
+      },
+      "id": "palau",
+      "independent_visual": {
+        "assessment": {
+          "approval_granted": false,
+          "defect_assessment": "No unequivocal broken geometry, missing asset or clipped model demonstrated in the supplied stills. Apparent seams/attachment gaps are recorded as visual concerns, not confirmed mechanical defects.",
+          "defects": [],
+          "hold_preserved": false,
+          "id": "palau",
+          "images": [
+            {
+              "inspected": true,
+              "observations": "Original marketing: pale mottled stone/ceramic body, turquoise lagoon and six green mounds with pale shoreline bands are distinguishable. Brass family fittings retained; teal reveal beneath lid is conspicuous.",
+              "path": "parent/sources/palau/marketing.webp"
+            },
+            {
+              "inspected": true,
+              "observations": "Desktop closed: six islands and lagoon channels readable; low crowns read as miniature mounds rather than detailed forests. Full model fits; teal reveal can read as an incompletely closed lid.",
+              "path": "parent/smoke/palau/desktop-closed.png"
+            },
+            {
+              "inspected": true,
+              "observations": "Desktop open: pale inner lid and hollow pale cavity visible; teal rim interrupted by pale corner blocks. Hinges and projecting latch visible, full silhouette contained; lagoon terrain hidden by front-open view.",
+              "path": "parent/smoke/palau/desktop-open.png"
+            },
+            {
+              "inspected": true,
+              "observations": "Mobile closed: two-line title fits, island groups and turquoise surface remain readable. Complete silhouette and controls; shoreline detail and small hardware reduced at this scale.",
+              "path": "parent/smoke/palau/mobile-closed.png"
+            },
+            {
+              "inspected": true,
+              "observations": "Mobile open: raised lid, latch tab, cavity and feet fit. Brass connections are small but no clearly detached part or gross intersection is demonstrated.",
+              "path": "parent/smoke/palau/mobile-open.png"
+            }
+          ],
+          "limitations": [
+            "Mottled ceramic-like stone, sage-green mound forests and enamel/resin-like lagoon rather than realistic water or karst.",
+            "Teal seam can suggest raised lid; simple shoreline bands and long decorative clasp are disclosed."
+          ],
+          "rationale": "Coherent theme and complete desktop/mobile closed/open framing; retain disclosed material, detail and readability limitations. Candidate status is not approval.",
+          "recommendation": "candidate-with-limitations",
+          "source_readme": "parent/sources/palau/source_readme.md",
+          "source_readme_read": true
+        },
+        "report": "visual-d.json"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 59324,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1104,
+          928
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/palau.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1104,
+            928
+          ],
+          "provider": "xai",
+          "reviewNotes": "Six islands preserved; water saturation and island shapes differ slightly.",
+          "reviewStatus": "reviewed_with_limitations",
+          "sha256": "77b36b34a1348c9c1e938513f7d38fc2266f010a71b3ba7522e4f2dea079b8e4",
+          "source": "assets/gallery/palau.webp",
+          "sourceSha256": "6470a7b8218417a7a946376a4f75adb607aa506d55bc102e0aea49ca20c9a9b1",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "c9988b216425df4125410e5322a1456e050e2fd2a75be903b567908db6efa6d0"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_verdict": "pass",
+      "parent_visual": {
+        "concerns": [
+          "Teal reveal can make closed lid look raised; README explicitly identifies this treatment.",
+          "Water is opaque enamel/resin-like and islands are schematic rather than forest or cliff realism."
+        ],
+        "confirmed_geometry_defects": [],
+        "decision_required": null,
+        "final_approval": false,
+        "hardware": "Long front clasp, round fitting, side ring, brass corner caps and pale rounded feet match the promo vocabulary; small open hinge joints remain hard to resolve.",
+        "id": "palau",
+        "inspected_paths": [
+          "sources/palau/marketing.webp",
+          "smoke/palau/desktop-closed.png",
+          "smoke/palau/desktop-open.png",
+          "smoke/palau/mobile-closed.png",
+          "smoke/palau/mobile-open.png"
+        ],
+        "inspection_method": "Each of the five original images independently loaded through vision_analyze; no boards substituted.",
+        "limitations": [
+          "Static original-image inspection only; runtime checks were reported passing by the task context and were not rerun here.",
+          "No rear-open view, continuous animation, physical-phone test, manufacturing certification, or hidden-surface inspection in this review.",
+          "Hidden rear hinges and the released open-state latch are not independently evidence of failure. Lid-top ornament is naturally occluded in front-open views.",
+          "Promotional lighting and microtexture are not proof of corresponding modeled detail. This is a bounded visual review, not final approval."
+        ],
+        "mobile": "Six islands remain readable and the full closed/open silhouette fits; small rings and fine shoreline detail are reduced at phone size.",
+        "open": "Empty pale cavity, turquoise rim and raised pale lid underside are legible. Island decoration is behind the lid, not proven missing.",
+        "reason": "Six island forms, lagoon, pale body and characteristic hardware are retained with no obvious missing geometry or clipped framing.",
+        "source_context_path": "sources/palau/source_readme.md",
+        "terrain": "Six green island mounds with pale shoreline bands are distinguishable in promo and closed desktop/mobile captures. Turquoise lagoon lanes separate the forms.",
+        "texture": "Promo gives stronger stone mottling and softer natural surface detail; runtime remains pale stone/ceramic-like with simplified green crowns and enamel-like turquoise water. This is a finish difference, not demonstrated missing terrain.",
+        "verdict": "pass"
+      },
+      "parent_visual_hold_preserved": false,
+      "selection": {
+        "commit": "e5a231a934132ae5832f5f2c65f00daea04a0570",
+        "fetched_tip": "e5a231a934132ae5832f5f2c65f00daea04a0570",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/palau-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 7616687,
+          "commit": "e5a231a934132ae5832f5f2c65f00daea04a0570",
+          "crc_error": null,
+          "entries": 62,
+          "fresh_crc_safe_unique": true,
+          "fresh_required_payloads": [
+            {
+              "member": "palau-v1.html",
+              "path": "preview/palau-v1/palau-v1.html",
+              "sha256": "1be199e2a9fa316309750a695418dd7ff195631a230b3249516e8e24939e0874"
+            },
+            {
+              "member": "palau.blend",
+              "path": "preview/palau-v1/palau.blend",
+              "sha256": "12086d546a93798eefbdd76cc7233fe3262e422e5572b8248cd46b538ac709da"
+            },
+            {
+              "member": "palau.glb",
+              "path": "preview/palau-v1/palau.glb",
+              "sha256": "b69eec1ce4efcbddc1ec700e422ec0f8970616db04126dcc0364f16305228f09"
+            }
+          ],
+          "full_inner_inventory_fresh": false,
+          "inventory_checked": true,
+          "inventory_entries": 61,
+          "inventory_mismatches": [],
+          "kind": "git",
+          "path": "preview/palau-v1/palau-v1-source.zip",
+          "required_payloads": {
+            "palau-v1.html": true,
+            "palau.blend": true,
+            "palau.glb": true
+          },
+          "safe_unique_paths": true,
+          "sha256": "350110423c1a37913055326f6bec81e66587269afdc233d71591a8544a77967a"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 599008,
+          "commit": "e5a231a934132ae5832f5f2c65f00daea04a0570",
+          "path": "preview/palau-v1/palau.blend",
+          "role": "selected-model",
+          "sha256": "12086d546a93798eefbdd76cc7233fe3262e422e5572b8248cd46b538ac709da"
+        },
+        {
+          "bytes": 1322992,
+          "commit": "e5a231a934132ae5832f5f2c65f00daea04a0570",
+          "path": "preview/palau-v1/palau.glb",
+          "role": "selected-model",
+          "sha256": "b69eec1ce4efcbddc1ec700e422ec0f8970616db04126dcc0364f16305228f09",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 62,
+            "nodes": 64
+          }
+        }
+      ],
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 2532972,
+        "commit": "e5a231a934132ae5832f5f2c65f00daea04a0570",
+        "path": "preview/palau-v1/palau-v1.html",
+        "sha256": "1be199e2a9fa316309750a695418dd7ff195631a230b3249516e8e24939e0874",
+        "under_5000000": true
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 7616687,
+        "commit": "e5a231a934132ae5832f5f2c65f00daea04a0570",
+        "crc_error": null,
+        "entries": 62,
+        "inventory_checked": true,
+        "inventory_entries": 61,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/palau-v1/palau-v1-source.zip",
+        "required_payloads": {
+          "palau-v1.html": true,
+          "palau.blend": true,
+          "palau.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "350110423c1a37913055326f6bec81e66587269afdc233d71591a8544a77967a"
+      }
+    ]
+  }
+}

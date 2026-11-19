@@ -1,0 +1,529 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 1,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 385521,
+        "role": "editable-source",
+        "sha256": "eae764a61f4eec7b6d6ab271cdf071bae0b3f831e17557f0e0d288501b93060a",
+        "source": {
+          "commit": "1251c2891f359e1efd2454959801905d215a2c66",
+          "path": "preview/barbados-v1/barbados.blend"
+        },
+        "uri": "sha256:eae764a61f4eec7b6d6ab271cdf071bae0b3f831e17557f0e0d288501b93060a"
+      },
+      {
+        "bytes": 4916912,
+        "role": "historical-source-archive",
+        "sha256": "ccb961bec86af15464ac3979cf774e6d1e82e39fd916d25d57905ae926477717",
+        "source": {
+          "commit": "1251c2891f359e1efd2454959801905d215a2c66",
+          "kind": "git",
+          "path": "preview/barbados-v1/barbados-v1-source.zip"
+        },
+        "uri": "sha256:ccb961bec86af15464ac3979cf774e6d1e82e39fd916d25d57905ae926477717"
+      },
+      {
+        "bytes": 1038656,
+        "role": "model",
+        "sha256": "e1c156f7d46b426c791dc732fa599a94d0c9f56fbac1ac9b1fafa110ea926f71",
+        "source": {
+          "commit": "1251c2891f359e1efd2454959801905d215a2c66",
+          "path": "preview/barbados-v1/barbados.glb"
+        },
+        "uri": "sha256:e1c156f7d46b426c791dc732fa599a94d0c9f56fbac1ac9b1fafa110ea926f71"
+      },
+      {
+        "bytes": 57532,
+        "role": "promotional-illustration",
+        "sha256": "fccb99c550ddb81ad3f7c7373c10467421d97938c3dfa0ca7a46cb98973889a9",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/barbados.webp"
+        },
+        "uri": "sha256:fccb99c550ddb81ad3f7c7373c10467421d97938c3dfa0ca7a46cb98973889a9"
+      },
+      {
+        "bytes": 2634,
+        "role": "research-brief",
+        "sha256": "0e0daa6a7a15b32b2ee1070898d272a108a789b12a50778fbc652a3a2dd707e7",
+        "source": {
+          "commit": "1251c2891f359e1efd2454959801905d215a2c66",
+          "path": "preview/barbados-v1/design-brief.md"
+        },
+        "uri": "sha256:0e0daa6a7a15b32b2ee1070898d272a108a789b12a50778fbc652a3a2dd707e7"
+      },
+      {
+        "bytes": 4659,
+        "role": "source-notice",
+        "sha256": "700215d96660ba506f8ca87a2b4b2f94c9e1ec8bd126b4a2832d0052bf2cacbd",
+        "source": {
+          "commit": "1251c2891f359e1efd2454959801905d215a2c66",
+          "path": "preview/barbados-v1/README.md"
+        },
+        "uri": "sha256:700215d96660ba506f8ca87a2b4b2f94c9e1ec8bd126b4a2832d0052bf2cacbd"
+      },
+      {
+        "bytes": 2171585,
+        "role": "viewer",
+        "sha256": "52c58c833fba469afb99227a76f004bfa7260cd69d695474122578ac05698daa",
+        "source": {
+          "commit": "1251c2891f359e1efd2454959801905d215a2c66",
+          "path": "preview/barbados-v1/barbados-v1.html"
+        },
+        "uri": "sha256:52c58c833fba469afb99227a76f004bfa7260cd69d695474122578ac05698daa"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "barbados",
+    "independent_review": {
+      "all_four_original_captures_inspected": true,
+      "captures": [
+        "launch/art-01/smoke/barbados/desktop-closed.png",
+        "launch/art-01/smoke/barbados/desktop-open.png",
+        "launch/art-01/smoke/barbados/mobile-closed.png",
+        "launch/art-01/smoke/barbados/mobile-open.png"
+      ],
+      "critical_defects": [],
+      "fresh_qa_runtime": [],
+      "id": "barbados",
+      "launch_ready": false,
+      "marketing_inspected": true,
+      "model_changed": false,
+      "model_sources": [
+        {
+          "bytes": 385521,
+          "commit": "1251c2891f359e1efd2454959801905d215a2c66",
+          "path": "preview/barbados-v1/barbados.blend",
+          "role": "selected-model",
+          "sha256": "eae764a61f4eec7b6d6ab271cdf071bae0b3f831e17557f0e0d288501b93060a"
+        },
+        {
+          "bytes": 1038656,
+          "commit": "1251c2891f359e1efd2454959801905d215a2c66",
+          "path": "preview/barbados-v1/barbados.glb",
+          "role": "selected-model",
+          "sha256": "e1c156f7d46b426c791dc732fa599a94d0c9f56fbac1ac9b1fafa110ea926f71",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 59,
+            "nodes": 61
+          }
+        }
+      ],
+      "parent_runtime": {
+        "cases": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.490000009536743,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1038656,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 4,
+              "meshes": 59,
+              "nonfinite": 0,
+              "triangles": 14476
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "barbados",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "52c58c833fba469afb99227a76f004bfa7260cd69d695474122578ac05698daa"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.490000009536743,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1038656,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 4,
+              "meshes": 59,
+              "nonfinite": 0,
+              "triangles": 14476
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "barbados",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "52c58c833fba469afb99227a76f004bfa7260cd69d695474122578ac05698daa"
+          }
+        ],
+        "independently_rerun": false,
+        "motion": {
+          "exit_code": 0,
+          "id": "barbados",
+          "passed": true,
+          "scope": "original motion unit assertions; not fresh collision/source parity"
+        }
+      },
+      "parent_status": "pass",
+      "remaining_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "hinge-attachment-clarity-not-proven-by-stills"
+      ],
+      "selection": {
+        "commit": "1251c2891f359e1efd2454959801905d215a2c66",
+        "fetched_tip": "1251c2891f359e1efd2454959801905d215a2c66",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/barbados-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 4916912,
+          "commit": "1251c2891f359e1efd2454959801905d215a2c66",
+          "crc_safe_unique": true,
+          "exact_selected_payloads": {
+            "barbados-v1.html": [
+              "barbados-v1.html"
+            ],
+            "barbados.blend": [
+              "barbados.blend"
+            ],
+            "barbados.glb": [
+              "barbados.glb"
+            ]
+          },
+          "full_inventory_rerun": false,
+          "inherited_full_inventory_checked": true,
+          "members": 54,
+          "path": "preview/barbados-v1/barbados-v1-source.zip",
+          "sha256": "ccb961bec86af15464ac3979cf774e6d1e82e39fd916d25d57905ae926477717"
+        }
+      ],
+      "user_final_approved": false,
+      "verdict": "bounded-candidate-pass",
+      "viewer": {
+        "bytes": 2171585,
+        "commit": "1251c2891f359e1efd2454959801905d215a2c66",
+        "path": "preview/barbados-v1/barbados-v1.html",
+        "sha256": "52c58c833fba469afb99227a76f004bfa7260cd69d695474122578ac05698daa",
+        "under_5000000": true
+      },
+      "visual_review": {
+        "caveats": [
+          "Retain erosion/material realism caveat; no visible defect establishes a need to regenerate the model."
+        ],
+        "critical_visible_faults": [],
+        "desktop_closed": "Ivory speckled chest, turquoise coast inset and stacked terraces clearly readable. Rounded feet and brass hardware retained; lid seam prominent.",
+        "desktop_open": "Pale empty cavity, turquoise rim and two rear hinges visible; complete lid and base in frame.",
+        "file": "visual-a.json",
+        "id": "barbados",
+        "marketing_comparison": "The same low ivory chest, blue-green inset, stepped island and brass fittings appear in marketing. Differences mainly concern richer surface/edge detail versus simplified regular tiers.",
+        "mobile_closed": "Terraces/coast remain distinct, though tiers read cake-like rather than naturally eroded. Chunky fittings remain readable.",
+        "mobile_open": "Open box and controls fit; no obvious missing panel or clipping. Hinge seating is not resolved at this scale.",
+        "parent_status": "pass",
+        "parent_status_justified": true,
+        "recommended_status": "pass"
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Barbados",
+    "package_history": [
+      {
+        "bytes": 4916912,
+        "commit": "1251c2891f359e1efd2454959801905d215a2c66",
+        "crc_error": null,
+        "entries": 54,
+        "inventory_checked": true,
+        "inventory_entries": 53,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/barbados-v1/barbados-v1-source.zip",
+        "required_payloads": {
+          "barbados-v1.html": true,
+          "barbados.blend": true,
+          "barbados.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "ccb961bec86af15464ac3979cf774e6d1e82e39fd916d25d57905ae926477717"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "1251c2891f359e1efd2454959801905d215a2c66",
+      "fetched_tip": "1251c2891f359e1efd2454959801905d215a2c66",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/barbados-v1"
+    },
+    "verdict": "candidate-with-limitations",
+    "viewer": {
+      "bytes": 2171585,
+      "commit": "1251c2891f359e1efd2454959801905d215a2c66",
+      "path": "preview/barbados-v1/barbados-v1.html",
+      "sha256": "52c58c833fba469afb99227a76f004bfa7260cd69d695474122578ac05698daa",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "barbados",
+    "baseline_verdict": "candidate-with-limitations",
+    "actions": [
+      "owner art/finish acceptance; no proven runtime defect recorded; no autonomous redesign"
+    ],
+    "approval": false,
+    "original_review": {
+      "all_four_original_captures_inspected": true,
+      "captures": [
+        "launch/art-01/smoke/barbados/desktop-closed.png",
+        "launch/art-01/smoke/barbados/desktop-open.png",
+        "launch/art-01/smoke/barbados/mobile-closed.png",
+        "launch/art-01/smoke/barbados/mobile-open.png"
+      ],
+      "critical_defects": [],
+      "fresh_qa_runtime": [],
+      "id": "barbados",
+      "launch_ready": false,
+      "marketing_inspected": true,
+      "model_changed": false,
+      "model_sources": [
+        {
+          "bytes": 385521,
+          "commit": "1251c2891f359e1efd2454959801905d215a2c66",
+          "path": "preview/barbados-v1/barbados.blend",
+          "role": "selected-model",
+          "sha256": "eae764a61f4eec7b6d6ab271cdf071bae0b3f831e17557f0e0d288501b93060a"
+        },
+        {
+          "bytes": 1038656,
+          "commit": "1251c2891f359e1efd2454959801905d215a2c66",
+          "path": "preview/barbados-v1/barbados.glb",
+          "role": "selected-model",
+          "sha256": "e1c156f7d46b426c791dc732fa599a94d0c9f56fbac1ac9b1fafa110ea926f71",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 59,
+            "nodes": 61
+          }
+        }
+      ],
+      "parent_runtime": {
+        "cases": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.490000009536743,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1038656,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 4,
+              "meshes": 59,
+              "nonfinite": 0,
+              "triangles": 14476
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "barbados",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "52c58c833fba469afb99227a76f004bfa7260cd69d695474122578ac05698daa"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.490000009536743,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1038656,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 4,
+              "meshes": 59,
+              "nonfinite": 0,
+              "triangles": 14476
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "barbados",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "52c58c833fba469afb99227a76f004bfa7260cd69d695474122578ac05698daa"
+          }
+        ],
+        "independently_rerun": false,
+        "motion": {
+          "exit_code": 0,
+          "id": "barbados",
+          "passed": true,
+          "scope": "original motion unit assertions; not fresh collision/source parity"
+        }
+      },
+      "parent_status": "pass",
+      "remaining_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "hinge-attachment-clarity-not-proven-by-stills"
+      ],
+      "selection": {
+        "commit": "1251c2891f359e1efd2454959801905d215a2c66",
+        "fetched_tip": "1251c2891f359e1efd2454959801905d215a2c66",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/barbados-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 4916912,
+          "commit": "1251c2891f359e1efd2454959801905d215a2c66",
+          "crc_safe_unique": true,
+          "exact_selected_payloads": {
+            "barbados-v1.html": [
+              "barbados-v1.html"
+            ],
+            "barbados.blend": [
+              "barbados.blend"
+            ],
+            "barbados.glb": [
+              "barbados.glb"
+            ]
+          },
+          "full_inventory_rerun": false,
+          "inherited_full_inventory_checked": true,
+          "members": 54,
+          "path": "preview/barbados-v1/barbados-v1-source.zip",
+          "sha256": "ccb961bec86af15464ac3979cf774e6d1e82e39fd916d25d57905ae926477717"
+        }
+      ],
+      "user_final_approved": false,
+      "verdict": "bounded-candidate-pass",
+      "viewer": {
+        "bytes": 2171585,
+        "commit": "1251c2891f359e1efd2454959801905d215a2c66",
+        "path": "preview/barbados-v1/barbados-v1.html",
+        "sha256": "52c58c833fba469afb99227a76f004bfa7260cd69d695474122578ac05698daa",
+        "under_5000000": true
+      },
+      "visual_review": {
+        "caveats": [
+          "Retain erosion/material realism caveat; no visible defect establishes a need to regenerate the model."
+        ],
+        "critical_visible_faults": [],
+        "desktop_closed": "Ivory speckled chest, turquoise coast inset and stacked terraces clearly readable. Rounded feet and brass hardware retained; lid seam prominent.",
+        "desktop_open": "Pale empty cavity, turquoise rim and two rear hinges visible; complete lid and base in frame.",
+        "file": "visual-a.json",
+        "id": "barbados",
+        "marketing_comparison": "The same low ivory chest, blue-green inset, stepped island and brass fittings appear in marketing. Differences mainly concern richer surface/edge detail versus simplified regular tiers.",
+        "mobile_closed": "Terraces/coast remain distinct, though tiers read cake-like rather than naturally eroded. Chunky fittings remain readable.",
+        "mobile_open": "Open box and controls fit; no obvious missing panel or clipping. Hinge seating is not resolved at this scale.",
+        "parent_status": "pass",
+        "parent_status_justified": true,
+        "recommended_status": "pass"
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 4916912,
+        "commit": "1251c2891f359e1efd2454959801905d215a2c66",
+        "crc_error": null,
+        "entries": 54,
+        "inventory_checked": true,
+        "inventory_entries": 53,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/barbados-v1/barbados-v1-source.zip",
+        "required_payloads": {
+          "barbados-v1.html": true,
+          "barbados.blend": true,
+          "barbados.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "ccb961bec86af15464ac3979cf774e6d1e82e39fd916d25d57905ae926477717"
+      }
+    ]
+  }
+}

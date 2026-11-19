@@ -1,0 +1,733 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 5,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 693035,
+        "role": "editable-source",
+        "sha256": "5d834767324fb251c9814475d7ca3a9cdead33a90f891707e60844741e12f3c8",
+        "source": {
+          "commit": "4433a08ee62550703c1c869cd8760eac8de7c981",
+          "path": "preview/italy-v1/italy.blend"
+        },
+        "uri": "sha256:5d834767324fb251c9814475d7ca3a9cdead33a90f891707e60844741e12f3c8"
+      },
+      {
+        "bytes": 6733914,
+        "role": "historical-source-archive",
+        "sha256": "f793bed80c9cf9520554a5e93f007eaa0231601954ecf73a7941c7f51fbc9d79",
+        "source": {
+          "commit": "4433a08ee62550703c1c869cd8760eac8de7c981",
+          "kind": "git",
+          "path": "preview/italy-v1/italy-v1-source.zip"
+        },
+        "uri": "sha256:f793bed80c9cf9520554a5e93f007eaa0231601954ecf73a7941c7f51fbc9d79"
+      },
+      {
+        "bytes": 1274028,
+        "role": "model",
+        "sha256": "882e2f4c36f346cdad16bbf04957ba385118f6adca3d57bf616a4d995e82388b",
+        "source": {
+          "commit": "4433a08ee62550703c1c869cd8760eac8de7c981",
+          "path": "preview/italy-v1/italy.glb"
+        },
+        "uri": "sha256:882e2f4c36f346cdad16bbf04957ba385118f6adca3d57bf616a4d995e82388b"
+      },
+      {
+        "bytes": 67820,
+        "role": "promotional-illustration",
+        "sha256": "a06ce44a774567f4839e47bd99dfafe04617c98af65adb4d191b4b0c97f078ec",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/italy.webp"
+        },
+        "uri": "sha256:a06ce44a774567f4839e47bd99dfafe04617c98af65adb4d191b4b0c97f078ec"
+      },
+      {
+        "bytes": 2994,
+        "role": "research-brief",
+        "sha256": "3ad568cf1dae92bd28f3c57e590303c33bdac7cc8418945077f3eb4f73fcfe99",
+        "source": {
+          "commit": "4433a08ee62550703c1c869cd8760eac8de7c981",
+          "path": "preview/italy-v1/design-brief.md"
+        },
+        "uri": "sha256:3ad568cf1dae92bd28f3c57e590303c33bdac7cc8418945077f3eb4f73fcfe99"
+      },
+      {
+        "bytes": 4839,
+        "role": "source-notice",
+        "sha256": "7f8fe87cf1ed7670a011c42b1c1c955b9d944409624b980c4dad752687cf0c7c",
+        "source": {
+          "commit": "4433a08ee62550703c1c869cd8760eac8de7c981",
+          "path": "preview/italy-v1/README.md"
+        },
+        "uri": "sha256:7f8fe87cf1ed7670a011c42b1c1c955b9d944409624b980c4dad752687cf0c7c"
+      },
+      {
+        "bytes": 2535880,
+        "role": "viewer",
+        "sha256": "c2fbd28e4cddae21e15246178a736bfce15eb6b13daf0150d2d388c688ed2f4e",
+        "source": {
+          "commit": "4433a08ee62550703c1c869cd8760eac8de7c981",
+          "path": "preview/italy-v1/italy-v1.html"
+        },
+        "uri": "sha256:c2fbd28e4cddae21e15246178a736bfce15eb6b13daf0150d2d388c688ed2f4e"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "italy",
+    "independent_review": {
+      "art_changed": false,
+      "fresh_checks": {
+        "archives": [
+          {
+            "bytes": 6733914,
+            "crc_safe_unique": true,
+            "entries": 55,
+            "full_inner_inventory_rerun": false,
+            "path": "preview/italy-v1/italy-v1-source.zip",
+            "required_payloads": [
+              {
+                "archive_members": [
+                  "italy-v1.html"
+                ],
+                "exact_match": true,
+                "path": "preview/italy-v1/italy-v1.html"
+              },
+              {
+                "archive_members": [
+                  "italy.blend"
+                ],
+                "exact_match": true,
+                "path": "preview/italy-v1/italy.blend"
+              },
+              {
+                "archive_members": [
+                  "italy.glb"
+                ],
+                "exact_match": true,
+                "path": "preview/italy-v1/italy.glb"
+              }
+            ],
+            "sha256": "f793bed80c9cf9520554a5e93f007eaa0231601954ecf73a7941c7f51fbc9d79"
+          }
+        ],
+        "art_changed": false,
+        "id": "italy",
+        "models": [
+          {
+            "bytes": 693035,
+            "commit": "4433a08ee62550703c1c869cd8760eac8de7c981",
+            "path": "preview/italy-v1/italy.blend",
+            "role": "selected-model",
+            "sha256": "5d834767324fb251c9814475d7ca3a9cdead33a90f891707e60844741e12f3c8"
+          },
+          {
+            "bytes": 1274028,
+            "commit": "4433a08ee62550703c1c869cd8760eac8de7c981",
+            "path": "preview/italy-v1/italy.glb",
+            "role": "selected-model",
+            "sha256": "882e2f4c36f346cdad16bbf04957ba385118f6adca3d57bf616a4d995e82388b",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 72,
+              "nodes": 74
+            }
+          }
+        ],
+        "parent_package_holds": [],
+        "viewer": {
+          "bytes": 2535880,
+          "commit": "4433a08ee62550703c1c869cd8760eac8de7c981",
+          "path": "preview/italy-v1/italy-v1.html",
+          "sha256": "c2fbd28e4cddae21e15246178a736bfce15eb6b13daf0150d2d388c688ed2f4e",
+          "under_5000000": true
+        }
+      },
+      "historical_runtime_only": true,
+      "id": "italy",
+      "inspected_images": [
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/italy/desktop-closed.png",
+          "sha256": "0e6892aa6a3b73188a18dddf7ea04c8b19b126c859491aad48f3cbe61b2e5c26"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/italy/desktop-open.png",
+          "sha256": "5ae66298765912d70a2cd16d6417780b30c381fc60b553ecbb06f1ebf101f42a"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/italy/mobile-closed.png",
+          "sha256": "241f35e67d4a32a5315f1f7a56c7ef752714d54da13b071515413a6cae4878f1"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/italy/mobile-open.png",
+          "sha256": "164c9fe97adec29f82e1c8f4ab6a08f0fc31100f42119e7ad0528c8f9afda898"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "sources/italy/marketing.webp",
+          "sha256": "a06ce44a774567f4839e47bd99dfafe04617c98af65adb4d191b4b0c97f078ec"
+        }
+      ],
+      "launch_ready": false,
+      "missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "package_holds": [],
+      "parent_reason": "Complete original-view review shows coherent closed and open presentation, with finish differences but no demonstrated structural or framing defect.",
+      "review_complete": true,
+      "source_record": {
+        "approval": {
+          "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+          "prior_approved_baseline": null,
+          "status": "candidate-not-final-approved",
+          "user_final_approved": false
+        },
+        "category": "Country",
+        "delivered_viewer": {
+          "bytes": 2535880,
+          "exists": true,
+          "matches_selected_commit": true,
+          "path": "C:\\Users\\futur\\.hermes\\profiles\\telegram2\\output\\boxsv-collection-review\\viewers\\italy.html",
+          "sha256": "c2fbd28e4cddae21e15246178a736bfce15eb6b13daf0150d2d388c688ed2f4e"
+        },
+        "edition_supply": 1,
+        "id": "italy",
+        "launch_ready": false,
+        "legacy_review_viewer": {
+          "bytes": 2535880,
+          "commit": "4433a08ee62550703c1c869cd8760eac8de7c981",
+          "path": "viewers/italy.html",
+          "sha256": "c2fbd28e4cddae21e15246178a736bfce15eb6b13daf0150d2d388c688ed2f4e",
+          "source_path": "preview/italy-v1/italy-v1.html"
+        },
+        "marketing": {
+          "bytes": 67820,
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "dimensions": [
+            1072,
+            960
+          ],
+          "image_type": "Promotional art",
+          "matches_gallery_inventory": true,
+          "not_model_approval": true,
+          "path": "docs/assets/gallery/italy.webp",
+          "provenance": {
+            "exactModelEquivalenceClaimed": false,
+            "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+            "model": "grok-imagine-image",
+            "nativeDimensions": [
+              1072,
+              960
+            ],
+            "provider": "xai",
+            "reviewNotes": "pass: mosaic material and hardware preserved",
+            "reviewStatus": "reviewed_pass",
+            "sha256": "93fee99c474def69e8657948d78384f219c71fe6799e5819dcbabc3e051daf0d",
+            "source": "assets/gallery/italy.webp",
+            "sourceSha256": "ce03d8ea266600a1d3bd2332b122ad634105338399beed43d3d2355d9c1b4529",
+            "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+          },
+          "sha256": "a06ce44a774567f4839e47bd99dfafe04617c98af65adb4d191b4b0c97f078ec"
+        },
+        "missing_gates": [
+          "independent-current-model-visual-review",
+          "explicit-final-user-art-approval",
+          "fresh-full-source-and-browser-acceptance",
+          "storage-and-preservation-policy",
+          "mint-and-release-authorization"
+        ],
+        "model_sources": [
+          {
+            "bytes": 693035,
+            "commit": "4433a08ee62550703c1c869cd8760eac8de7c981",
+            "path": "preview/italy-v1/italy.blend",
+            "role": "selected-model",
+            "sha256": "5d834767324fb251c9814475d7ca3a9cdead33a90f891707e60844741e12f3c8"
+          },
+          {
+            "bytes": 1274028,
+            "commit": "4433a08ee62550703c1c869cd8760eac8de7c981",
+            "path": "preview/italy-v1/italy.glb",
+            "role": "selected-model",
+            "sha256": "882e2f4c36f346cdad16bbf04957ba385118f6adca3d57bf616a4d995e82388b",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 72,
+              "nodes": 74
+            }
+          }
+        ],
+        "name": "Italy",
+        "provenance": {
+          "readme_snapshot": "source-notes/italy.md",
+          "research_brief": {
+            "bytes": 2994,
+            "commit": "4433a08ee62550703c1c869cd8760eac8de7c981",
+            "path": "preview/italy-v1/design-brief.md",
+            "sha256": "3ad568cf1dae92bd28f3c57e590303c33bdac7cc8418945077f3eb4f73fcfe99"
+          },
+          "source_readme": {
+            "bytes": 4839,
+            "commit": "4433a08ee62550703c1c869cd8760eac8de7c981",
+            "path": "preview/italy-v1/README.md",
+            "sha256": "7f8fe87cf1ed7670a011c42b1c1c955b9d944409624b980c4dad752687cf0c7c"
+          }
+        },
+        "qa": {
+          "evidence_path": "qa/italy.json",
+          "fresh_runtime_execution": false,
+          "historical_report_count": 7
+        },
+        "selection": {
+          "commit": "4433a08ee62550703c1c869cd8760eac8de7c981",
+          "fetched_tip": "4433a08ee62550703c1c869cd8760eac8de7c981",
+          "reachable_from_fetched_ref": true,
+          "remote_ref": "origin/art/italy-v1"
+        },
+        "source_archives": [
+          {
+            "bytes": 6733914,
+            "commit": "4433a08ee62550703c1c869cd8760eac8de7c981",
+            "crc_error": null,
+            "entries": 55,
+            "inventory_checked": true,
+            "inventory_entries": 54,
+            "inventory_mismatches": [],
+            "kind": "git",
+            "path": "preview/italy-v1/italy-v1-source.zip",
+            "required_payloads": {
+              "italy-v1.html": true,
+              "italy.blend": true,
+              "italy.glb": true
+            },
+            "safe_unique_paths": true,
+            "sha256": "f793bed80c9cf9520554a5e93f007eaa0231601954ecf73a7941c7f51fbc9d79"
+          }
+        ],
+        "version": "italy-v1",
+        "viewer": {
+          "bytes": 2535880,
+          "commit": "4433a08ee62550703c1c869cd8760eac8de7c981",
+          "path": "preview/italy-v1/italy-v1.html",
+          "sha256": "c2fbd28e4cddae21e15246178a736bfce15eb6b13daf0150d2d388c688ed2f4e",
+          "under_5000000": true
+        },
+        "visual_limitations": []
+      },
+      "user_final_approved": false,
+      "verdict": "candidate-with-limitations",
+      "visual_review": {
+        "finish_and_fidelity_differences": [
+          "Viewer lid field is more olive/beige and its rim darker than promotional green.",
+          "Viewer veining and green lining pattern are more repetitive; relief and fittings are angular. Raised ornament itself is also present in marketing, not a proven inlay defect."
+        ],
+        "id": "italy",
+        "images_inspected": [
+          "launch/art-05/smoke/italy/desktop-closed.png",
+          "launch/art-05/smoke/italy/desktop-open.png",
+          "launch/art-05/smoke/italy/mobile-closed.png",
+          "launch/art-05/smoke/italy/mobile-open.png",
+          "launch/art-05/sources/italy/marketing.webp"
+        ],
+        "limitations": [
+          "Hinge contact, cavity floor and motion not certified from stills; apparent rear clearance is not proof of broken attachment."
+        ],
+        "observations": {
+          "desktop_closed": "Ivory veined body, green lid rim and block feet, coral/ivory raised floral ornament and scattered geometric inlays, brass corner caps and front clasp are intact and fully framed.",
+          "desktop_open": "Green patterned inner lid and empty recessed cavity are visible with rear hinges and released clasp. Dark separation at rear joint gives a floating impression but does not prove detached geometry.",
+          "marketing": "Same ivory/green body, short green feet, raised coral/ivory motif and brass hardware; top reads softer sage/seafoam rather than the viewer's olive-beige.",
+          "mobile_closed": "Whole chest, ornaments and feet fit; title and both controls fit without overflow. Fine diagonal edges look somewhat aliased.",
+          "mobile_open": "Whole raised lid, projecting clasp and feet fit; green cavity and pale corner blocks remain coherent."
+        },
+        "parent_reconciliation": "Parent candidate result agrees with cold review; no approval inferred.",
+        "proven_defects": [],
+        "reason": "Reference identity and complete framing preserved; no unequivocal structural defect observed.",
+        "review_complete": true,
+        "user_final_approved": false,
+        "verdict": "candidate-pass"
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Italy",
+    "package_history": [
+      {
+        "bytes": 6733914,
+        "commit": "4433a08ee62550703c1c869cd8760eac8de7c981",
+        "crc_error": null,
+        "entries": 55,
+        "inventory_checked": true,
+        "inventory_entries": 54,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/italy-v1/italy-v1-source.zip",
+        "required_payloads": {
+          "italy-v1.html": true,
+          "italy.blend": true,
+          "italy.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "f793bed80c9cf9520554a5e93f007eaa0231601954ecf73a7941c7f51fbc9d79"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "4433a08ee62550703c1c869cd8760eac8de7c981",
+      "fetched_tip": "4433a08ee62550703c1c869cd8760eac8de7c981",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/italy-v1"
+    },
+    "verdict": "candidate-with-limitations",
+    "viewer": {
+      "bytes": 2535880,
+      "commit": "4433a08ee62550703c1c869cd8760eac8de7c981",
+      "path": "preview/italy-v1/italy-v1.html",
+      "sha256": "c2fbd28e4cddae21e15246178a736bfce15eb6b13daf0150d2d388c688ed2f4e",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "italy",
+    "baseline_verdict": "candidate-with-limitations",
+    "actions": [
+      "owner art/finish acceptance; no proven runtime defect recorded; no autonomous redesign"
+    ],
+    "approval": false,
+    "original_review": {
+      "art_changed": false,
+      "fresh_checks": {
+        "archives": [
+          {
+            "bytes": 6733914,
+            "crc_safe_unique": true,
+            "entries": 55,
+            "full_inner_inventory_rerun": false,
+            "path": "preview/italy-v1/italy-v1-source.zip",
+            "required_payloads": [
+              {
+                "archive_members": [
+                  "italy-v1.html"
+                ],
+                "exact_match": true,
+                "path": "preview/italy-v1/italy-v1.html"
+              },
+              {
+                "archive_members": [
+                  "italy.blend"
+                ],
+                "exact_match": true,
+                "path": "preview/italy-v1/italy.blend"
+              },
+              {
+                "archive_members": [
+                  "italy.glb"
+                ],
+                "exact_match": true,
+                "path": "preview/italy-v1/italy.glb"
+              }
+            ],
+            "sha256": "f793bed80c9cf9520554a5e93f007eaa0231601954ecf73a7941c7f51fbc9d79"
+          }
+        ],
+        "art_changed": false,
+        "id": "italy",
+        "models": [
+          {
+            "bytes": 693035,
+            "commit": "4433a08ee62550703c1c869cd8760eac8de7c981",
+            "path": "preview/italy-v1/italy.blend",
+            "role": "selected-model",
+            "sha256": "5d834767324fb251c9814475d7ca3a9cdead33a90f891707e60844741e12f3c8"
+          },
+          {
+            "bytes": 1274028,
+            "commit": "4433a08ee62550703c1c869cd8760eac8de7c981",
+            "path": "preview/italy-v1/italy.glb",
+            "role": "selected-model",
+            "sha256": "882e2f4c36f346cdad16bbf04957ba385118f6adca3d57bf616a4d995e82388b",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 72,
+              "nodes": 74
+            }
+          }
+        ],
+        "parent_package_holds": [],
+        "viewer": {
+          "bytes": 2535880,
+          "commit": "4433a08ee62550703c1c869cd8760eac8de7c981",
+          "path": "preview/italy-v1/italy-v1.html",
+          "sha256": "c2fbd28e4cddae21e15246178a736bfce15eb6b13daf0150d2d388c688ed2f4e",
+          "under_5000000": true
+        }
+      },
+      "historical_runtime_only": true,
+      "id": "italy",
+      "inspected_images": [
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/italy/desktop-closed.png",
+          "sha256": "0e6892aa6a3b73188a18dddf7ea04c8b19b126c859491aad48f3cbe61b2e5c26"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/italy/desktop-open.png",
+          "sha256": "5ae66298765912d70a2cd16d6417780b30c381fc60b553ecbb06f1ebf101f42a"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/italy/mobile-closed.png",
+          "sha256": "241f35e67d4a32a5315f1f7a56c7ef752714d54da13b071515413a6cae4878f1"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/italy/mobile-open.png",
+          "sha256": "164c9fe97adec29f82e1c8f4ab6a08f0fc31100f42119e7ad0528c8f9afda898"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "sources/italy/marketing.webp",
+          "sha256": "a06ce44a774567f4839e47bd99dfafe04617c98af65adb4d191b4b0c97f078ec"
+        }
+      ],
+      "launch_ready": false,
+      "missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "package_holds": [],
+      "parent_reason": "Complete original-view review shows coherent closed and open presentation, with finish differences but no demonstrated structural or framing defect.",
+      "review_complete": true,
+      "source_record": {
+        "approval": {
+          "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+          "prior_approved_baseline": null,
+          "status": "candidate-not-final-approved",
+          "user_final_approved": false
+        },
+        "category": "Country",
+        "delivered_viewer": {
+          "bytes": 2535880,
+          "exists": true,
+          "matches_selected_commit": true,
+          "path": "C:\\Users\\futur\\.hermes\\profiles\\telegram2\\output\\boxsv-collection-review\\viewers\\italy.html",
+          "sha256": "c2fbd28e4cddae21e15246178a736bfce15eb6b13daf0150d2d388c688ed2f4e"
+        },
+        "edition_supply": 1,
+        "id": "italy",
+        "launch_ready": false,
+        "legacy_review_viewer": {
+          "bytes": 2535880,
+          "commit": "4433a08ee62550703c1c869cd8760eac8de7c981",
+          "path": "viewers/italy.html",
+          "sha256": "c2fbd28e4cddae21e15246178a736bfce15eb6b13daf0150d2d388c688ed2f4e",
+          "source_path": "preview/italy-v1/italy-v1.html"
+        },
+        "marketing": {
+          "bytes": 67820,
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "dimensions": [
+            1072,
+            960
+          ],
+          "image_type": "Promotional art",
+          "matches_gallery_inventory": true,
+          "not_model_approval": true,
+          "path": "docs/assets/gallery/italy.webp",
+          "provenance": {
+            "exactModelEquivalenceClaimed": false,
+            "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+            "model": "grok-imagine-image",
+            "nativeDimensions": [
+              1072,
+              960
+            ],
+            "provider": "xai",
+            "reviewNotes": "pass: mosaic material and hardware preserved",
+            "reviewStatus": "reviewed_pass",
+            "sha256": "93fee99c474def69e8657948d78384f219c71fe6799e5819dcbabc3e051daf0d",
+            "source": "assets/gallery/italy.webp",
+            "sourceSha256": "ce03d8ea266600a1d3bd2332b122ad634105338399beed43d3d2355d9c1b4529",
+            "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+          },
+          "sha256": "a06ce44a774567f4839e47bd99dfafe04617c98af65adb4d191b4b0c97f078ec"
+        },
+        "missing_gates": [
+          "independent-current-model-visual-review",
+          "explicit-final-user-art-approval",
+          "fresh-full-source-and-browser-acceptance",
+          "storage-and-preservation-policy",
+          "mint-and-release-authorization"
+        ],
+        "model_sources": [
+          {
+            "bytes": 693035,
+            "commit": "4433a08ee62550703c1c869cd8760eac8de7c981",
+            "path": "preview/italy-v1/italy.blend",
+            "role": "selected-model",
+            "sha256": "5d834767324fb251c9814475d7ca3a9cdead33a90f891707e60844741e12f3c8"
+          },
+          {
+            "bytes": 1274028,
+            "commit": "4433a08ee62550703c1c869cd8760eac8de7c981",
+            "path": "preview/italy-v1/italy.glb",
+            "role": "selected-model",
+            "sha256": "882e2f4c36f346cdad16bbf04957ba385118f6adca3d57bf616a4d995e82388b",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 72,
+              "nodes": 74
+            }
+          }
+        ],
+        "name": "Italy",
+        "provenance": {
+          "readme_snapshot": "source-notes/italy.md",
+          "research_brief": {
+            "bytes": 2994,
+            "commit": "4433a08ee62550703c1c869cd8760eac8de7c981",
+            "path": "preview/italy-v1/design-brief.md",
+            "sha256": "3ad568cf1dae92bd28f3c57e590303c33bdac7cc8418945077f3eb4f73fcfe99"
+          },
+          "source_readme": {
+            "bytes": 4839,
+            "commit": "4433a08ee62550703c1c869cd8760eac8de7c981",
+            "path": "preview/italy-v1/README.md",
+            "sha256": "7f8fe87cf1ed7670a011c42b1c1c955b9d944409624b980c4dad752687cf0c7c"
+          }
+        },
+        "qa": {
+          "evidence_path": "qa/italy.json",
+          "fresh_runtime_execution": false,
+          "historical_report_count": 7
+        },
+        "selection": {
+          "commit": "4433a08ee62550703c1c869cd8760eac8de7c981",
+          "fetched_tip": "4433a08ee62550703c1c869cd8760eac8de7c981",
+          "reachable_from_fetched_ref": true,
+          "remote_ref": "origin/art/italy-v1"
+        },
+        "source_archives": [
+          {
+            "bytes": 6733914,
+            "commit": "4433a08ee62550703c1c869cd8760eac8de7c981",
+            "crc_error": null,
+            "entries": 55,
+            "inventory_checked": true,
+            "inventory_entries": 54,
+            "inventory_mismatches": [],
+            "kind": "git",
+            "path": "preview/italy-v1/italy-v1-source.zip",
+            "required_payloads": {
+              "italy-v1.html": true,
+              "italy.blend": true,
+              "italy.glb": true
+            },
+            "safe_unique_paths": true,
+            "sha256": "f793bed80c9cf9520554a5e93f007eaa0231601954ecf73a7941c7f51fbc9d79"
+          }
+        ],
+        "version": "italy-v1",
+        "viewer": {
+          "bytes": 2535880,
+          "commit": "4433a08ee62550703c1c869cd8760eac8de7c981",
+          "path": "preview/italy-v1/italy-v1.html",
+          "sha256": "c2fbd28e4cddae21e15246178a736bfce15eb6b13daf0150d2d388c688ed2f4e",
+          "under_5000000": true
+        },
+        "visual_limitations": []
+      },
+      "user_final_approved": false,
+      "verdict": "candidate-with-limitations",
+      "visual_review": {
+        "finish_and_fidelity_differences": [
+          "Viewer lid field is more olive/beige and its rim darker than promotional green.",
+          "Viewer veining and green lining pattern are more repetitive; relief and fittings are angular. Raised ornament itself is also present in marketing, not a proven inlay defect."
+        ],
+        "id": "italy",
+        "images_inspected": [
+          "launch/art-05/smoke/italy/desktop-closed.png",
+          "launch/art-05/smoke/italy/desktop-open.png",
+          "launch/art-05/smoke/italy/mobile-closed.png",
+          "launch/art-05/smoke/italy/mobile-open.png",
+          "launch/art-05/sources/italy/marketing.webp"
+        ],
+        "limitations": [
+          "Hinge contact, cavity floor and motion not certified from stills; apparent rear clearance is not proof of broken attachment."
+        ],
+        "observations": {
+          "desktop_closed": "Ivory veined body, green lid rim and block feet, coral/ivory raised floral ornament and scattered geometric inlays, brass corner caps and front clasp are intact and fully framed.",
+          "desktop_open": "Green patterned inner lid and empty recessed cavity are visible with rear hinges and released clasp. Dark separation at rear joint gives a floating impression but does not prove detached geometry.",
+          "marketing": "Same ivory/green body, short green feet, raised coral/ivory motif and brass hardware; top reads softer sage/seafoam rather than the viewer's olive-beige.",
+          "mobile_closed": "Whole chest, ornaments and feet fit; title and both controls fit without overflow. Fine diagonal edges look somewhat aliased.",
+          "mobile_open": "Whole raised lid, projecting clasp and feet fit; green cavity and pale corner blocks remain coherent."
+        },
+        "parent_reconciliation": "Parent candidate result agrees with cold review; no approval inferred.",
+        "proven_defects": [],
+        "reason": "Reference identity and complete framing preserved; no unequivocal structural defect observed.",
+        "review_complete": true,
+        "user_final_approved": false,
+        "verdict": "candidate-pass"
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 6733914,
+        "commit": "4433a08ee62550703c1c869cd8760eac8de7c981",
+        "crc_error": null,
+        "entries": 55,
+        "inventory_checked": true,
+        "inventory_entries": 54,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/italy-v1/italy-v1-source.zip",
+        "required_payloads": {
+          "italy-v1.html": true,
+          "italy.blend": true,
+          "italy.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "f793bed80c9cf9520554a5e93f007eaa0231601954ecf73a7941c7f51fbc9d79"
+      }
+    ]
+  }
+}

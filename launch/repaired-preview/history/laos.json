@@ -1,0 +1,659 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 6,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 696637,
+        "role": "editable-source",
+        "sha256": "fc89def0a6fd7801d45356d2e65cd6783925417a577d9955d6e256458777d9ff",
+        "source": {
+          "commit": "ee2af98d44aba33e49eb8ee106d1c1c075ac78ac",
+          "path": "preview/laos-v1/laos.blend"
+        },
+        "uri": "sha256:fc89def0a6fd7801d45356d2e65cd6783925417a577d9955d6e256458777d9ff"
+      },
+      {
+        "bytes": 6550722,
+        "role": "historical-source-archive",
+        "sha256": "b5113961a8331af85d06bcdda4dcaada86ed5521ce9b17d2ffc66e13aca3fcea",
+        "source": {
+          "commit": "ee2af98d44aba33e49eb8ee106d1c1c075ac78ac",
+          "kind": "git",
+          "path": "preview/laos-v1/laos-v1-source.zip"
+        },
+        "uri": "sha256:b5113961a8331af85d06bcdda4dcaada86ed5521ce9b17d2ffc66e13aca3fcea"
+      },
+      {
+        "bytes": 1668488,
+        "role": "model",
+        "sha256": "872a020a084a1bec3ae0e2e68170b00834403369d55df36b3012ba89adb6c69e",
+        "source": {
+          "commit": "ee2af98d44aba33e49eb8ee106d1c1c075ac78ac",
+          "path": "preview/laos-v1/laos.glb"
+        },
+        "uri": "sha256:872a020a084a1bec3ae0e2e68170b00834403369d55df36b3012ba89adb6c69e"
+      },
+      {
+        "bytes": 72168,
+        "role": "promotional-illustration",
+        "sha256": "b7956a2c9a53e2544ba38aff425b66649bbcde6e10e229565d732de5d5dae6bd",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/laos.webp"
+        },
+        "uri": "sha256:b7956a2c9a53e2544ba38aff425b66649bbcde6e10e229565d732de5d5dae6bd"
+      },
+      {
+        "bytes": 3615,
+        "role": "research-brief",
+        "sha256": "399aa325a4495513fb0ebec3281cbf1c235310d31be0c025e3af412702315a0b",
+        "source": {
+          "commit": "ee2af98d44aba33e49eb8ee106d1c1c075ac78ac",
+          "path": "preview/laos-v1/design-brief.md"
+        },
+        "uri": "sha256:399aa325a4495513fb0ebec3281cbf1c235310d31be0c025e3af412702315a0b"
+      },
+      {
+        "bytes": 6627,
+        "role": "source-notice",
+        "sha256": "6637ca9a518e01768f7ed4328fcde8705cac6ee08d66ee354b2a409d36974c58",
+        "source": {
+          "commit": "ee2af98d44aba33e49eb8ee106d1c1c075ac78ac",
+          "path": "preview/laos-v1/README.md"
+        },
+        "uri": "sha256:6637ca9a518e01768f7ed4328fcde8705cac6ee08d66ee354b2a409d36974c58"
+      },
+      {
+        "bytes": 2983046,
+        "role": "viewer",
+        "sha256": "564910fad1a87f98a04d40296a6960044ad920bf41bf1d5138e8409208879227",
+        "source": {
+          "commit": "ee2af98d44aba33e49eb8ee106d1c1c075ac78ac",
+          "path": "preview/laos-v1/laos-v1.html"
+        },
+        "uri": "sha256:564910fad1a87f98a04d40296a6960044ad920bf41bf1d5138e8409208879227"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "laos",
+    "independent_review": {
+      "adjudication": "Candidate with disclosed finish limitations, not final user approval.",
+      "art_changed": false,
+      "critical_reproducible_defects": [],
+      "fresh_blender_reopen": false,
+      "fresh_browser": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8894999790936708,
+                2.7949635982513428,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1668488,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 7,
+            "meshes": 110,
+            "nonfinite": 0,
+            "triangles": 19526
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "laos",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "564910fad1a87f98a04d40296a6960044ad920bf41bf1d5138e8409208879227"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8894999790936708,
+                2.7949635982513428,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1668488,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 7,
+            "meshes": 110,
+            "nonfinite": 0,
+            "triangles": 19526
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "laos",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "564910fad1a87f98a04d40296a6960044ad920bf41bf1d5138e8409208879227"
+        }
+      ],
+      "fresh_collision_sampling": false,
+      "fresh_corrupt_glb_fallback": false,
+      "fresh_motion": {
+        "exit_code": 0,
+        "id": "laos",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "ee2af98d44aba33e49eb8ee106d1c1c075ac78ac",
+            "path": "preview/laos-v1/motion.mjs",
+            "sha256": "d61544de9b41521a7b14e81a5e9867ce0fcc387f8852ce57490031b84bf2150e"
+          }
+        ]
+      },
+      "fresh_nojs": false,
+      "id": "laos",
+      "independent_visual": {
+        "file": "visual-3.json",
+        "findings": {
+          "approved": false,
+          "artistic_gaps": [
+            "Regular weave lacks the reference's fine tactile variation and clearly legible stitched borders.",
+            "Sparse peaks and green lumps sit abruptly on a flat lid; river lacks depth or water response.",
+            "Brass fittings are simplified; lower fitting details are less legible than in the marketing image."
+          ],
+          "final_views": [
+            {
+              "file": "smoke/laos/desktop-closed.png",
+              "observations": "Woven golden panels, brown frame, jade strip, white peaks, river and irregular stone feet all read clearly. Peaks are faceted and river is a flat stripe. Green lid seam is conspicuous but not proof of failed closure."
+            },
+            {
+              "file": "smoke/laos/desktop-open.png",
+              "observations": "Woven lid underside and visible inner walls repeat the exterior material. Green rim, pale corner caps, two hinges and upper tab are visible; rear gap requires attachment verification. Entire model fits."
+            },
+            {
+              "file": "smoke/laos/mobile-closed.png",
+              "observations": "Title, full closed chest and controls fit. Karst silhouette survives reduction; tiny weave and metal details soften. Fine text has slight color-fringed appearance in the capture."
+            },
+            {
+              "file": "smoke/laos/mobile-open.png",
+              "observations": "Open lid, tab and pale supports are fully contained. Fine weave and edges become stepped. Irregular feet look loosely integrated but are consistent with the source's stone-support idea."
+            }
+          ],
+          "follow_up": "Retain as a stylized candidate, not an approved final. User should evaluate simplified bamboo, river and terrain treatment; inspect hinge and support attachment separately.",
+          "id": "laos",
+          "recommendation": "candidate-with-limitations",
+          "reference": {
+            "dimensions": [
+              1072,
+              976
+            ],
+            "file": "sources/laos/marketing.webp",
+            "observations": "Cream segmented/woven panels, stitched brown edging, olive lid band, three rough white karst peaks, small green accents and thin turquoise river. Brass clasp, lower oval fitting, side ring and lid caps; irregular gray stone-like feet."
+          }
+        }
+      },
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 72168,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/laos.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "Three rock forms retained; darker framing and small hardware/detail differences.",
+          "reviewStatus": "reviewed_with_limitations",
+          "sha256": "57fd69af35f4984f9b1991873d1425ea6c9b0d8d5db04a840919360e6942712d",
+          "source": "assets/gallery/laos.webp",
+          "sourceSha256": "83c0138c2111361a3e4430c6b2f650b33d3e20ed74c92fff99b5e48b8bd64266",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "b7956a2c9a53e2544ba38aff425b66649bbcde6e10e229565d732de5d5dae6bd"
+      },
+      "original_capture_paths": [
+        "parent/smoke/laos/desktop-closed.png",
+        "parent/smoke/laos/desktop-open.png",
+        "parent/smoke/laos/mobile-closed.png",
+        "parent/smoke/laos/mobile-open.png"
+      ],
+      "packaging_hold": false,
+      "parent_decision": "Pass as a disclosed stylized candidate. Preserve the weave/terrain/finish caveats; no blocking visual defect established and no user approval implied.",
+      "parent_missing_gates_preserved": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_quality": "Recognizable bamboo/karst study with consistent desktop/mobile states and complete framing. Promotional relief, material irregularity and grounding are stronger; these are finish gaps rather than demonstrated functional defects.",
+      "parent_status": "pass",
+      "remaining_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-06 review"
+      ],
+      "selection": {
+        "commit": "ee2af98d44aba33e49eb8ee106d1c1c075ac78ac",
+        "fetched_tip": "ee2af98d44aba33e49eb8ee106d1c1c075ac78ac",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/laos-v1"
+      },
+      "source_archive_check": {
+        "archive": {
+          "bytes": 6550722,
+          "crc": "pass",
+          "entries": 55,
+          "mismatches": [],
+          "path": "preview/laos-v1/laos-v1-source.zip",
+          "required_payload_hashes": "pass",
+          "sha256": "b5113961a8331af85d06bcdda4dcaada86ed5521ce9b17d2ffc66e13aca3fcea"
+        },
+        "id": "laos",
+        "internal_inventory": "pass",
+        "inventory_entries_checked": 54,
+        "selected_payload_match": "pass"
+      },
+      "source_archives": [
+        {
+          "bytes": 6550722,
+          "crc": "pass",
+          "entries": 55,
+          "mismatches": [],
+          "path": "preview/laos-v1/laos-v1-source.zip",
+          "required_payload_hashes": "pass",
+          "sha256": "b5113961a8331af85d06bcdda4dcaada86ed5521ce9b17d2ffc66e13aca3fcea"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 696637,
+          "path": "preview/laos-v1/laos.blend",
+          "sha256": "fc89def0a6fd7801d45356d2e65cd6783925417a577d9955d6e256458777d9ff"
+        },
+        {
+          "bytes": 1668488,
+          "path": "preview/laos-v1/laos.glb",
+          "sha256": "872a020a084a1bec3ae0e2e68170b00834403369d55df36b3012ba89adb6c69e"
+        }
+      ],
+      "user_final_approved": false,
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 2983046,
+        "commit": "ee2af98d44aba33e49eb8ee106d1c1c075ac78ac",
+        "path": "preview/laos-v1/laos-v1.html",
+        "sha256": "564910fad1a87f98a04d40296a6960044ad920bf41bf1d5138e8409208879227",
+        "under_5000000": true
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Laos",
+    "package_history": [
+      {
+        "bytes": 6550722,
+        "commit": "ee2af98d44aba33e49eb8ee106d1c1c075ac78ac",
+        "crc_error": null,
+        "entries": 55,
+        "inventory_checked": true,
+        "inventory_entries": 54,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/laos-v1/laos-v1-source.zip",
+        "required_payloads": {
+          "laos-v1.html": true,
+          "laos.blend": true,
+          "laos.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "b5113961a8331af85d06bcdda4dcaada86ed5521ce9b17d2ffc66e13aca3fcea"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "ee2af98d44aba33e49eb8ee106d1c1c075ac78ac",
+      "fetched_tip": "ee2af98d44aba33e49eb8ee106d1c1c075ac78ac",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/laos-v1"
+    },
+    "verdict": "candidate-with-limitations",
+    "viewer": {
+      "bytes": 2983046,
+      "commit": "ee2af98d44aba33e49eb8ee106d1c1c075ac78ac",
+      "path": "preview/laos-v1/laos-v1.html",
+      "sha256": "564910fad1a87f98a04d40296a6960044ad920bf41bf1d5138e8409208879227",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "laos",
+    "baseline_verdict": "candidate-with-limitations",
+    "actions": [
+      "owner art/finish acceptance; no proven runtime defect recorded; no autonomous redesign"
+    ],
+    "approval": false,
+    "original_review": {
+      "adjudication": "Candidate with disclosed finish limitations, not final user approval.",
+      "art_changed": false,
+      "critical_reproducible_defects": [],
+      "fresh_blender_reopen": false,
+      "fresh_browser": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8894999790936708,
+                2.7949635982513428,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1668488,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 7,
+            "meshes": 110,
+            "nonfinite": 0,
+            "triangles": 19526
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "laos",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "564910fad1a87f98a04d40296a6960044ad920bf41bf1d5138e8409208879227"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8894999790936708,
+                2.7949635982513428,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1668488,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 7,
+            "meshes": 110,
+            "nonfinite": 0,
+            "triangles": 19526
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "laos",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "564910fad1a87f98a04d40296a6960044ad920bf41bf1d5138e8409208879227"
+        }
+      ],
+      "fresh_collision_sampling": false,
+      "fresh_corrupt_glb_fallback": false,
+      "fresh_motion": {
+        "exit_code": 0,
+        "id": "laos",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "ee2af98d44aba33e49eb8ee106d1c1c075ac78ac",
+            "path": "preview/laos-v1/motion.mjs",
+            "sha256": "d61544de9b41521a7b14e81a5e9867ce0fcc387f8852ce57490031b84bf2150e"
+          }
+        ]
+      },
+      "fresh_nojs": false,
+      "id": "laos",
+      "independent_visual": {
+        "file": "visual-3.json",
+        "findings": {
+          "approved": false,
+          "artistic_gaps": [
+            "Regular weave lacks the reference's fine tactile variation and clearly legible stitched borders.",
+            "Sparse peaks and green lumps sit abruptly on a flat lid; river lacks depth or water response.",
+            "Brass fittings are simplified; lower fitting details are less legible than in the marketing image."
+          ],
+          "final_views": [
+            {
+              "file": "smoke/laos/desktop-closed.png",
+              "observations": "Woven golden panels, brown frame, jade strip, white peaks, river and irregular stone feet all read clearly. Peaks are faceted and river is a flat stripe. Green lid seam is conspicuous but not proof of failed closure."
+            },
+            {
+              "file": "smoke/laos/desktop-open.png",
+              "observations": "Woven lid underside and visible inner walls repeat the exterior material. Green rim, pale corner caps, two hinges and upper tab are visible; rear gap requires attachment verification. Entire model fits."
+            },
+            {
+              "file": "smoke/laos/mobile-closed.png",
+              "observations": "Title, full closed chest and controls fit. Karst silhouette survives reduction; tiny weave and metal details soften. Fine text has slight color-fringed appearance in the capture."
+            },
+            {
+              "file": "smoke/laos/mobile-open.png",
+              "observations": "Open lid, tab and pale supports are fully contained. Fine weave and edges become stepped. Irregular feet look loosely integrated but are consistent with the source's stone-support idea."
+            }
+          ],
+          "follow_up": "Retain as a stylized candidate, not an approved final. User should evaluate simplified bamboo, river and terrain treatment; inspect hinge and support attachment separately.",
+          "id": "laos",
+          "recommendation": "candidate-with-limitations",
+          "reference": {
+            "dimensions": [
+              1072,
+              976
+            ],
+            "file": "sources/laos/marketing.webp",
+            "observations": "Cream segmented/woven panels, stitched brown edging, olive lid band, three rough white karst peaks, small green accents and thin turquoise river. Brass clasp, lower oval fitting, side ring and lid caps; irregular gray stone-like feet."
+          }
+        }
+      },
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 72168,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/laos.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "Three rock forms retained; darker framing and small hardware/detail differences.",
+          "reviewStatus": "reviewed_with_limitations",
+          "sha256": "57fd69af35f4984f9b1991873d1425ea6c9b0d8d5db04a840919360e6942712d",
+          "source": "assets/gallery/laos.webp",
+          "sourceSha256": "83c0138c2111361a3e4430c6b2f650b33d3e20ed74c92fff99b5e48b8bd64266",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "b7956a2c9a53e2544ba38aff425b66649bbcde6e10e229565d732de5d5dae6bd"
+      },
+      "original_capture_paths": [
+        "parent/smoke/laos/desktop-closed.png",
+        "parent/smoke/laos/desktop-open.png",
+        "parent/smoke/laos/mobile-closed.png",
+        "parent/smoke/laos/mobile-open.png"
+      ],
+      "packaging_hold": false,
+      "parent_decision": "Pass as a disclosed stylized candidate. Preserve the weave/terrain/finish caveats; no blocking visual defect established and no user approval implied.",
+      "parent_missing_gates_preserved": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_quality": "Recognizable bamboo/karst study with consistent desktop/mobile states and complete framing. Promotional relief, material irregularity and grounding are stronger; these are finish gaps rather than demonstrated functional defects.",
+      "parent_status": "pass",
+      "remaining_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-06 review"
+      ],
+      "selection": {
+        "commit": "ee2af98d44aba33e49eb8ee106d1c1c075ac78ac",
+        "fetched_tip": "ee2af98d44aba33e49eb8ee106d1c1c075ac78ac",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/laos-v1"
+      },
+      "source_archive_check": {
+        "archive": {
+          "bytes": 6550722,
+          "crc": "pass",
+          "entries": 55,
+          "mismatches": [],
+          "path": "preview/laos-v1/laos-v1-source.zip",
+          "required_payload_hashes": "pass",
+          "sha256": "b5113961a8331af85d06bcdda4dcaada86ed5521ce9b17d2ffc66e13aca3fcea"
+        },
+        "id": "laos",
+        "internal_inventory": "pass",
+        "inventory_entries_checked": 54,
+        "selected_payload_match": "pass"
+      },
+      "source_archives": [
+        {
+          "bytes": 6550722,
+          "crc": "pass",
+          "entries": 55,
+          "mismatches": [],
+          "path": "preview/laos-v1/laos-v1-source.zip",
+          "required_payload_hashes": "pass",
+          "sha256": "b5113961a8331af85d06bcdda4dcaada86ed5521ce9b17d2ffc66e13aca3fcea"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 696637,
+          "path": "preview/laos-v1/laos.blend",
+          "sha256": "fc89def0a6fd7801d45356d2e65cd6783925417a577d9955d6e256458777d9ff"
+        },
+        {
+          "bytes": 1668488,
+          "path": "preview/laos-v1/laos.glb",
+          "sha256": "872a020a084a1bec3ae0e2e68170b00834403369d55df36b3012ba89adb6c69e"
+        }
+      ],
+      "user_final_approved": false,
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 2983046,
+        "commit": "ee2af98d44aba33e49eb8ee106d1c1c075ac78ac",
+        "path": "preview/laos-v1/laos-v1.html",
+        "sha256": "564910fad1a87f98a04d40296a6960044ad920bf41bf1d5138e8409208879227",
+        "under_5000000": true
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 6550722,
+        "commit": "ee2af98d44aba33e49eb8ee106d1c1c075ac78ac",
+        "crc_error": null,
+        "entries": 55,
+        "inventory_checked": true,
+        "inventory_entries": 54,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/laos-v1/laos-v1-source.zip",
+        "required_payloads": {
+          "laos-v1.html": true,
+          "laos.blend": true,
+          "laos.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "b5113961a8331af85d06bcdda4dcaada86ed5521ce9b17d2ffc66e13aca3fcea"
+      }
+    ]
+  }
+}

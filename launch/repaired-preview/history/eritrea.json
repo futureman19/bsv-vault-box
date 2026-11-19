@@ -1,0 +1,945 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 8,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 584329,
+        "role": "editable-source",
+        "sha256": "f038a4cf2ac7736877aa67cca9dbc4f034f878058a7a3ddff33613e95ddae8f6",
+        "source": {
+          "commit": "c2f4a5c9952cd2de909d0250770a38f012883469",
+          "path": "preview/eritrea-v1/eritrea.blend"
+        },
+        "uri": "sha256:f038a4cf2ac7736877aa67cca9dbc4f034f878058a7a3ddff33613e95ddae8f6"
+      },
+      {
+        "bytes": 5511752,
+        "role": "historical-source-archive",
+        "sha256": "7b0fb3f97e547b020aeb76ce4f0e34e284d4ba1ec9f0716ffef4c5eeeb9bed79",
+        "source": {
+          "commit": "c2f4a5c9952cd2de909d0250770a38f012883469",
+          "kind": "git",
+          "path": "preview/eritrea-v1/eritrea-v1-source.zip"
+        },
+        "uri": "sha256:7b0fb3f97e547b020aeb76ce4f0e34e284d4ba1ec9f0716ffef4c5eeeb9bed79"
+      },
+      {
+        "bytes": 1403800,
+        "role": "model",
+        "sha256": "157459742500aff6d6d587031f8eb507a011de4fba3853bd0a31f30c3882fae7",
+        "source": {
+          "commit": "c2f4a5c9952cd2de909d0250770a38f012883469",
+          "path": "preview/eritrea-v1/eritrea.glb"
+        },
+        "uri": "sha256:157459742500aff6d6d587031f8eb507a011de4fba3853bd0a31f30c3882fae7"
+      },
+      {
+        "bytes": 52616,
+        "role": "promotional-illustration",
+        "sha256": "26bb9efe95bd504c94439328c148ccb9c238ebd67e2588c2dde4930597001319",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/eritrea.webp"
+        },
+        "uri": "sha256:26bb9efe95bd504c94439328c148ccb9c238ebd67e2588c2dde4930597001319"
+      },
+      {
+        "bytes": 3565,
+        "role": "research-brief",
+        "sha256": "ed04483a6592b379167d7b85615b74c46ce7789caf052682887e34efce5fc2f6",
+        "source": {
+          "commit": "c2f4a5c9952cd2de909d0250770a38f012883469",
+          "path": "preview/eritrea-v1/design-brief.md"
+        },
+        "uri": "sha256:ed04483a6592b379167d7b85615b74c46ce7789caf052682887e34efce5fc2f6"
+      },
+      {
+        "bytes": 5267,
+        "role": "source-notice",
+        "sha256": "952a2b7d71d5fad306eb86b12e1f486cf022ba20782deb4e7e4856e90c47bc61",
+        "source": {
+          "commit": "c2f4a5c9952cd2de909d0250770a38f012883469",
+          "path": "preview/eritrea-v1/README.md"
+        },
+        "uri": "sha256:952a2b7d71d5fad306eb86b12e1f486cf022ba20782deb4e7e4856e90c47bc61"
+      },
+      {
+        "bytes": 2612826,
+        "role": "viewer",
+        "sha256": "dd572da36bfcc16505246e050f705de2f4c6d57924d904a60d3569edb08bc49b",
+        "source": {
+          "commit": "c2f4a5c9952cd2de909d0250770a38f012883469",
+          "path": "preview/eritrea-v1/eritrea-v1.html"
+        },
+        "uri": "sha256:dd572da36bfcc16505246e050f705de2f4c6d57924d904a60d3569edb08bc49b"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "eritrea",
+    "independent_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "capture_base": "parent/",
+      "captures": [
+        "smoke/eritrea/desktop-closed.png",
+        "smoke/eritrea/desktop-open.png",
+        "smoke/eritrea/mobile-closed.png",
+        "smoke/eritrea/mobile-open.png"
+      ],
+      "critical_reproducible_failures": [],
+      "final_approval": false,
+      "fresh_checks": {
+        "blender_parity_collision": false,
+        "fallback": false,
+        "full_inner_archive_inventories": true,
+        "motion": false,
+        "original_captures_and_marketing_inspected": true,
+        "runtime": false,
+        "source_and_delivered_viewer_hashes": true,
+        "source_archive_crc_safe_paths_required_payloads": true
+      },
+      "historical_runtime": {
+        "browser": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.247756242752075,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.26000000536441803,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1403800,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 4,
+              "meshes": 63,
+              "nonfinite": 0,
+              "triangles": 14674
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "eritrea",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "dd572da36bfcc16505246e050f705de2f4c6d57924d904a60d3569edb08bc49b"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.247756242752075,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.26000000536441803,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1403800,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 4,
+              "meshes": 63,
+              "nonfinite": 0,
+              "triangles": 14674
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "eritrea",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "dd572da36bfcc16505246e050f705de2f4c6d57924d904a60d3569edb08bc49b"
+          }
+        ],
+        "extended": {
+          "geometry": {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.247756242752075,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.26000000536441803,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1403800,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 4,
+              "meshes": 63,
+              "nonfinite": 0,
+              "triangles": 14674
+            },
+            "meshes": 63,
+            "nonfinite": 0,
+            "triangles": 14674
+          },
+          "id": "eritrea",
+          "no_js_poster": true
+        },
+        "motion": {
+          "exit_code": 0,
+          "id": "eritrea",
+          "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+          "source": [
+            {
+              "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+              "path": "preview/albania-v1/tests.mjs",
+              "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+            },
+            {
+              "commit": "c2f4a5c9952cd2de909d0250770a38f012883469",
+              "path": "preview/eritrea-v1/motion.mjs",
+              "sha256": "082a7217abfe64baf35c6ef153b6180adf30dce0f485d67a8342443b0d95b1ea"
+            }
+          ]
+        },
+        "parent_commit": "431e51ffb5a8704b5f8f8b11694d28befae18402"
+      },
+      "id": "eritrea",
+      "independent_visual": {
+        "assessment": {
+          "concrete_defects": [
+            "Pale blocks meet dark teal rim strips with conspicuous stepped/protruding joins, visible in open viewer states and at the promotional front-left corner.",
+            "Promotional lower clasp mounting reads crowded and asymmetric; exact engagement is not established.",
+            "Small metal fittings have jagged/soft edges at mobile scale, and secondary status/disclaimer text is small."
+          ],
+          "id": "eritrea",
+          "inspected_paths": [
+            "parent/smoke/eritrea/desktop-closed.png",
+            "parent/smoke/eritrea/desktop-open.png",
+            "parent/smoke/eritrea/mobile-closed.png",
+            "parent/smoke/eritrea/mobile-open.png",
+            "parent/sources/eritrea/marketing.webp"
+          ],
+          "limitations": [
+            "All five original images inspected individually with vision; paths relative to launch/qa-art-08.",
+            "Static views cannot prove hidden attachment, contact, collision clearance or motion; unseen faces are unassessed.",
+            "Promotional artwork is not an exact model reference or evidence of mechanics.",
+            "Candidate status is not art approval. Pale faceted islands can be stylized reef limestone rather than ice."
+          ],
+          "observations": [
+            "Complete closed and raised-lid silhouettes fit desktop and mobile; no obvious overflow or controls overlap.",
+            "Pale limestone, turquoise top and low white island forms remain readable. The strong teal closed seam is a fit/readability caveat, not evidence of a collision.",
+            "Both open rear hinges are visible, but attachment continuity cannot be certified from these views."
+          ],
+          "verdict": "candidate-with-limitations"
+        },
+        "report": "visual-b.json"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-08 review"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 52616,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/eritrea.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "Principal silhouette, palette, hardware and lid count/placement retained; texture refinement allowed.",
+          "reviewStatus": "accepted",
+          "sha256": "4a5b8c4de5511ef30e5fdc9a25465e923763bb36b53fcd7fa0bda9402cfa1a5e",
+          "source": "assets/gallery/eritrea.webp",
+          "sourceSha256": "04466985c524beef3e5de6be14c19e3d12635ee047929cd56a179f2fe9e7918f",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "26bb9efe95bd504c94439328c148ccb9c238ebd67e2588c2dde4930597001319"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_verdict": "pass",
+      "parent_visual": {
+        "decision": "Bounded stylized candidate, not realistic reef-stone equivalence. Retain the iceberg/chalk reading and marketing-versus-runtime water-gloss gap. No final user approval.",
+        "hardware": "Chunky front clasp, round disc, side ring, corner caps and block feet remain coherent across views. Rear hinges are visible open; projecting released latch is expected, not evidence of detachment. Fine metal construction is unresolved at mobile scale.",
+        "limitations": "Read source_readme.md and research_brief.md. Brief-led invented island arrangement, not a geographic map, stone scan or harvested coral. Source acknowledges chalk/plaster appearance, chunky hardware and render noise. Technical checks and emulated captures do not establish physical-device performance, continuous mechanics or human art approval.",
+        "quality": "All four actual captures are fully framed and readable. Broad limestone-box silhouette, pale island arrangement, teal inset and brass fittings agree with marketing. Actual sea is less glossy and reflective than the marketing view.",
+        "terrain": "Low flat-topped irregular islands remain legible on teal water, but angular pale forms can read as chalk or ice rather than reef limestone. Open orientation hides the exterior landscape and is not evidence of missing terrain.",
+        "texture": "Warm pale shell has soft mottling with little resolved reef porosity/fossil detail. Islands are smooth/faceted, water is flat enamel, and the dark teal seam is conspicuous. Marketing lighting adds gloss without establishing richer actual material detail."
+      },
+      "parent_visual_hold_preserved": false,
+      "reviewed_image_hashes": [
+        {
+          "bytes": 337603,
+          "path": "smoke/eritrea/desktop-closed.png",
+          "sha256": "75ba836336e1a1ae63504c1eb4c1e0fb894305a5f40dbff10081b940d306bd72"
+        },
+        {
+          "bytes": 355822,
+          "path": "smoke/eritrea/desktop-open.png",
+          "sha256": "d8736f53ed21b2746abb06b3626f8e8cd9d9584c8ae2332d04f71f72bc87f468"
+        },
+        {
+          "bytes": 107632,
+          "path": "smoke/eritrea/mobile-closed.png",
+          "sha256": "6c44891dca7e7640ddf2938ff1e53fec3449ff305595311957663756331cef43"
+        },
+        {
+          "bytes": 110112,
+          "path": "smoke/eritrea/mobile-open.png",
+          "sha256": "58a65ab8c49f9e05190c45bc9a6b1b12803174c5c1c8657e56f7875e04f155f5"
+        },
+        {
+          "bytes": 52616,
+          "path": "sources/eritrea/marketing.webp",
+          "sha256": "26bb9efe95bd504c94439328c148ccb9c238ebd67e2588c2dde4930597001319"
+        }
+      ],
+      "selection": {
+        "commit": "c2f4a5c9952cd2de909d0250770a38f012883469",
+        "fetched_tip": "c2f4a5c9952cd2de909d0250770a38f012883469",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/eritrea-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 5511752,
+          "commit": "c2f4a5c9952cd2de909d0250770a38f012883469",
+          "crc_error": null,
+          "entries": 54,
+          "fresh_crc_safe_unique": true,
+          "fresh_inner_inventory_entries": 53,
+          "fresh_required_payloads": [
+            {
+              "member": "eritrea-v1.html",
+              "path": "preview/eritrea-v1/eritrea-v1.html",
+              "sha256": "dd572da36bfcc16505246e050f705de2f4c6d57924d904a60d3569edb08bc49b"
+            },
+            {
+              "member": "eritrea.blend",
+              "path": "preview/eritrea-v1/eritrea.blend",
+              "sha256": "f038a4cf2ac7736877aa67cca9dbc4f034f878058a7a3ddff33613e95ddae8f6"
+            },
+            {
+              "member": "eritrea.glb",
+              "path": "preview/eritrea-v1/eritrea.glb",
+              "sha256": "157459742500aff6d6d587031f8eb507a011de4fba3853bd0a31f30c3882fae7"
+            }
+          ],
+          "inventory_checked": true,
+          "inventory_entries": 53,
+          "inventory_mismatches": [],
+          "kind": "git",
+          "path": "preview/eritrea-v1/eritrea-v1-source.zip",
+          "required_payloads": {
+            "eritrea-v1.html": true,
+            "eritrea.blend": true,
+            "eritrea.glb": true
+          },
+          "safe_unique_paths": true,
+          "sha256": "7b0fb3f97e547b020aeb76ce4f0e34e284d4ba1ec9f0716ffef4c5eeeb9bed79"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 584329,
+          "commit": "c2f4a5c9952cd2de909d0250770a38f012883469",
+          "path": "preview/eritrea-v1/eritrea.blend",
+          "role": "selected-model",
+          "sha256": "f038a4cf2ac7736877aa67cca9dbc4f034f878058a7a3ddff33613e95ddae8f6"
+        },
+        {
+          "bytes": 1403800,
+          "commit": "c2f4a5c9952cd2de909d0250770a38f012883469",
+          "path": "preview/eritrea-v1/eritrea.glb",
+          "role": "selected-model",
+          "sha256": "157459742500aff6d6d587031f8eb507a011de4fba3853bd0a31f30c3882fae7",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 63,
+            "nodes": 65
+          }
+        }
+      ],
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 2612826,
+        "commit": "c2f4a5c9952cd2de909d0250770a38f012883469",
+        "path": "preview/eritrea-v1/eritrea-v1.html",
+        "sha256": "dd572da36bfcc16505246e050f705de2f4c6d57924d904a60d3569edb08bc49b",
+        "under_5000000": true
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Eritrea",
+    "package_history": [
+      {
+        "bytes": 5511752,
+        "commit": "c2f4a5c9952cd2de909d0250770a38f012883469",
+        "crc_error": null,
+        "entries": 54,
+        "inventory_checked": true,
+        "inventory_entries": 53,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/eritrea-v1/eritrea-v1-source.zip",
+        "required_payloads": {
+          "eritrea-v1.html": true,
+          "eritrea.blend": true,
+          "eritrea.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "7b0fb3f97e547b020aeb76ce4f0e34e284d4ba1ec9f0716ffef4c5eeeb9bed79"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "c2f4a5c9952cd2de909d0250770a38f012883469",
+      "fetched_tip": "c2f4a5c9952cd2de909d0250770a38f012883469",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/eritrea-v1"
+    },
+    "verdict": "candidate-with-limitations",
+    "viewer": {
+      "bytes": 2612826,
+      "commit": "c2f4a5c9952cd2de909d0250770a38f012883469",
+      "path": "preview/eritrea-v1/eritrea-v1.html",
+      "sha256": "dd572da36bfcc16505246e050f705de2f4c6d57924d904a60d3569edb08bc49b",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "eritrea",
+    "baseline_verdict": "candidate-with-limitations",
+    "actions": [
+      "remaining ordinary finish inspection; do not edit promotional-only differences or infer broken model"
+    ],
+    "approval": false,
+    "original_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "capture_base": "parent/",
+      "captures": [
+        "smoke/eritrea/desktop-closed.png",
+        "smoke/eritrea/desktop-open.png",
+        "smoke/eritrea/mobile-closed.png",
+        "smoke/eritrea/mobile-open.png"
+      ],
+      "critical_reproducible_failures": [],
+      "final_approval": false,
+      "fresh_checks": {
+        "blender_parity_collision": false,
+        "fallback": false,
+        "full_inner_archive_inventories": true,
+        "motion": false,
+        "original_captures_and_marketing_inspected": true,
+        "runtime": false,
+        "source_and_delivered_viewer_hashes": true,
+        "source_archive_crc_safe_paths_required_payloads": true
+      },
+      "historical_runtime": {
+        "browser": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.247756242752075,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.26000000536441803,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1403800,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 4,
+              "meshes": 63,
+              "nonfinite": 0,
+              "triangles": 14674
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "eritrea",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "dd572da36bfcc16505246e050f705de2f4c6d57924d904a60d3569edb08bc49b"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.247756242752075,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.26000000536441803,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1403800,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 4,
+              "meshes": 63,
+              "nonfinite": 0,
+              "triangles": 14674
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "eritrea",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "dd572da36bfcc16505246e050f705de2f4c6d57924d904a60d3569edb08bc49b"
+          }
+        ],
+        "extended": {
+          "geometry": {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.247756242752075,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.26000000536441803,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1403800,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 4,
+              "meshes": 63,
+              "nonfinite": 0,
+              "triangles": 14674
+            },
+            "meshes": 63,
+            "nonfinite": 0,
+            "triangles": 14674
+          },
+          "id": "eritrea",
+          "no_js_poster": true
+        },
+        "motion": {
+          "exit_code": 0,
+          "id": "eritrea",
+          "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+          "source": [
+            {
+              "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+              "path": "preview/albania-v1/tests.mjs",
+              "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+            },
+            {
+              "commit": "c2f4a5c9952cd2de909d0250770a38f012883469",
+              "path": "preview/eritrea-v1/motion.mjs",
+              "sha256": "082a7217abfe64baf35c6ef153b6180adf30dce0f485d67a8342443b0d95b1ea"
+            }
+          ]
+        },
+        "parent_commit": "431e51ffb5a8704b5f8f8b11694d28befae18402"
+      },
+      "id": "eritrea",
+      "independent_visual": {
+        "assessment": {
+          "concrete_defects": [
+            "Pale blocks meet dark teal rim strips with conspicuous stepped/protruding joins, visible in open viewer states and at the promotional front-left corner.",
+            "Promotional lower clasp mounting reads crowded and asymmetric; exact engagement is not established.",
+            "Small metal fittings have jagged/soft edges at mobile scale, and secondary status/disclaimer text is small."
+          ],
+          "id": "eritrea",
+          "inspected_paths": [
+            "parent/smoke/eritrea/desktop-closed.png",
+            "parent/smoke/eritrea/desktop-open.png",
+            "parent/smoke/eritrea/mobile-closed.png",
+            "parent/smoke/eritrea/mobile-open.png",
+            "parent/sources/eritrea/marketing.webp"
+          ],
+          "limitations": [
+            "All five original images inspected individually with vision; paths relative to launch/qa-art-08.",
+            "Static views cannot prove hidden attachment, contact, collision clearance or motion; unseen faces are unassessed.",
+            "Promotional artwork is not an exact model reference or evidence of mechanics.",
+            "Candidate status is not art approval. Pale faceted islands can be stylized reef limestone rather than ice."
+          ],
+          "observations": [
+            "Complete closed and raised-lid silhouettes fit desktop and mobile; no obvious overflow or controls overlap.",
+            "Pale limestone, turquoise top and low white island forms remain readable. The strong teal closed seam is a fit/readability caveat, not evidence of a collision.",
+            "Both open rear hinges are visible, but attachment continuity cannot be certified from these views."
+          ],
+          "verdict": "candidate-with-limitations"
+        },
+        "report": "visual-b.json"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-08 review"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 52616,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/eritrea.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "Principal silhouette, palette, hardware and lid count/placement retained; texture refinement allowed.",
+          "reviewStatus": "accepted",
+          "sha256": "4a5b8c4de5511ef30e5fdc9a25465e923763bb36b53fcd7fa0bda9402cfa1a5e",
+          "source": "assets/gallery/eritrea.webp",
+          "sourceSha256": "04466985c524beef3e5de6be14c19e3d12635ee047929cd56a179f2fe9e7918f",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "26bb9efe95bd504c94439328c148ccb9c238ebd67e2588c2dde4930597001319"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_verdict": "pass",
+      "parent_visual": {
+        "decision": "Bounded stylized candidate, not realistic reef-stone equivalence. Retain the iceberg/chalk reading and marketing-versus-runtime water-gloss gap. No final user approval.",
+        "hardware": "Chunky front clasp, round disc, side ring, corner caps and block feet remain coherent across views. Rear hinges are visible open; projecting released latch is expected, not evidence of detachment. Fine metal construction is unresolved at mobile scale.",
+        "limitations": "Read source_readme.md and research_brief.md. Brief-led invented island arrangement, not a geographic map, stone scan or harvested coral. Source acknowledges chalk/plaster appearance, chunky hardware and render noise. Technical checks and emulated captures do not establish physical-device performance, continuous mechanics or human art approval.",
+        "quality": "All four actual captures are fully framed and readable. Broad limestone-box silhouette, pale island arrangement, teal inset and brass fittings agree with marketing. Actual sea is less glossy and reflective than the marketing view.",
+        "terrain": "Low flat-topped irregular islands remain legible on teal water, but angular pale forms can read as chalk or ice rather than reef limestone. Open orientation hides the exterior landscape and is not evidence of missing terrain.",
+        "texture": "Warm pale shell has soft mottling with little resolved reef porosity/fossil detail. Islands are smooth/faceted, water is flat enamel, and the dark teal seam is conspicuous. Marketing lighting adds gloss without establishing richer actual material detail."
+      },
+      "parent_visual_hold_preserved": false,
+      "reviewed_image_hashes": [
+        {
+          "bytes": 337603,
+          "path": "smoke/eritrea/desktop-closed.png",
+          "sha256": "75ba836336e1a1ae63504c1eb4c1e0fb894305a5f40dbff10081b940d306bd72"
+        },
+        {
+          "bytes": 355822,
+          "path": "smoke/eritrea/desktop-open.png",
+          "sha256": "d8736f53ed21b2746abb06b3626f8e8cd9d9584c8ae2332d04f71f72bc87f468"
+        },
+        {
+          "bytes": 107632,
+          "path": "smoke/eritrea/mobile-closed.png",
+          "sha256": "6c44891dca7e7640ddf2938ff1e53fec3449ff305595311957663756331cef43"
+        },
+        {
+          "bytes": 110112,
+          "path": "smoke/eritrea/mobile-open.png",
+          "sha256": "58a65ab8c49f9e05190c45bc9a6b1b12803174c5c1c8657e56f7875e04f155f5"
+        },
+        {
+          "bytes": 52616,
+          "path": "sources/eritrea/marketing.webp",
+          "sha256": "26bb9efe95bd504c94439328c148ccb9c238ebd67e2588c2dde4930597001319"
+        }
+      ],
+      "selection": {
+        "commit": "c2f4a5c9952cd2de909d0250770a38f012883469",
+        "fetched_tip": "c2f4a5c9952cd2de909d0250770a38f012883469",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/eritrea-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 5511752,
+          "commit": "c2f4a5c9952cd2de909d0250770a38f012883469",
+          "crc_error": null,
+          "entries": 54,
+          "fresh_crc_safe_unique": true,
+          "fresh_inner_inventory_entries": 53,
+          "fresh_required_payloads": [
+            {
+              "member": "eritrea-v1.html",
+              "path": "preview/eritrea-v1/eritrea-v1.html",
+              "sha256": "dd572da36bfcc16505246e050f705de2f4c6d57924d904a60d3569edb08bc49b"
+            },
+            {
+              "member": "eritrea.blend",
+              "path": "preview/eritrea-v1/eritrea.blend",
+              "sha256": "f038a4cf2ac7736877aa67cca9dbc4f034f878058a7a3ddff33613e95ddae8f6"
+            },
+            {
+              "member": "eritrea.glb",
+              "path": "preview/eritrea-v1/eritrea.glb",
+              "sha256": "157459742500aff6d6d587031f8eb507a011de4fba3853bd0a31f30c3882fae7"
+            }
+          ],
+          "inventory_checked": true,
+          "inventory_entries": 53,
+          "inventory_mismatches": [],
+          "kind": "git",
+          "path": "preview/eritrea-v1/eritrea-v1-source.zip",
+          "required_payloads": {
+            "eritrea-v1.html": true,
+            "eritrea.blend": true,
+            "eritrea.glb": true
+          },
+          "safe_unique_paths": true,
+          "sha256": "7b0fb3f97e547b020aeb76ce4f0e34e284d4ba1ec9f0716ffef4c5eeeb9bed79"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 584329,
+          "commit": "c2f4a5c9952cd2de909d0250770a38f012883469",
+          "path": "preview/eritrea-v1/eritrea.blend",
+          "role": "selected-model",
+          "sha256": "f038a4cf2ac7736877aa67cca9dbc4f034f878058a7a3ddff33613e95ddae8f6"
+        },
+        {
+          "bytes": 1403800,
+          "commit": "c2f4a5c9952cd2de909d0250770a38f012883469",
+          "path": "preview/eritrea-v1/eritrea.glb",
+          "role": "selected-model",
+          "sha256": "157459742500aff6d6d587031f8eb507a011de4fba3853bd0a31f30c3882fae7",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 63,
+            "nodes": 65
+          }
+        }
+      ],
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 2612826,
+        "commit": "c2f4a5c9952cd2de909d0250770a38f012883469",
+        "path": "preview/eritrea-v1/eritrea-v1.html",
+        "sha256": "dd572da36bfcc16505246e050f705de2f4c6d57924d904a60d3569edb08bc49b",
+        "under_5000000": true
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 5511752,
+        "commit": "c2f4a5c9952cd2de909d0250770a38f012883469",
+        "crc_error": null,
+        "entries": 54,
+        "inventory_checked": true,
+        "inventory_entries": 53,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/eritrea-v1/eritrea-v1-source.zip",
+        "required_payloads": {
+          "eritrea-v1.html": true,
+          "eritrea.blend": true,
+          "eritrea.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "7b0fb3f97e547b020aeb76ce4f0e34e284d4ba1ec9f0716ffef4c5eeeb9bed79"
+      }
+    ]
+  },
+  "ordinary_record": {
+    "id": "eritrea",
+    "disposition": "unchanged-with-explicit-limitations",
+    "correction_passes": 0,
+    "model_geometry_changed": false,
+    "final_approved": false,
+    "launch_ready": false,
+    "original_observations": [
+      "Pale blocks meet dark teal rim strips with conspicuous stepped/protruding joins, visible in open viewer states and at the promotional front-left corner.",
+      "Promotional lower clasp mounting reads crowded and asymmetric; exact engagement is not established.",
+      "Small metal fittings have jagged/soft edges at mobile scale, and secondary status/disclaimer text is small."
+    ],
+    "independent_adjudication": {
+      "id": "eritrea",
+      "disposition": "no-edit",
+      "observation": "Pale limestone, irregular low reef forms, blue top and dark teal opening rim read consistently on desktop/mobile. Open cavity is complete in the visible views; promotional lighting provides greater depth.",
+      "recommendation": "Preserve irregular reef relief, pale corner blocks and teal seam. Do not add photographic surface detail or stronger shadows as a purported repair; no localized missing finish or broken seam established.",
+      "supersampling": "No targeted sampling problem established."
+    },
+    "unresolved_owner_holds": [
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "inherited_holds": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization",
+      "independent QA-ART-08 review"
+    ],
+    "original_review_preserved_in": "baseline.json",
+    "fresh_runtime": {
+      "id": "eritrea",
+      "exit_code": 0,
+      "shared_contract": "Bangladesh renderer-independent interaction assertions; no fresh source/collision claim",
+      "results": "launch\\ordinary-finish-20\\runtime\\eritrea\\browser-check.json"
+    },
+    "fresh_source_archive": {
+      "id": "eritrea",
+      "archives": [
+        {
+          "archive": {
+            "bytes": 5511752,
+            "commit": "c2f4a5c9952cd2de909d0250770a38f012883469",
+            "crc_error": null,
+            "entries": 54,
+            "fresh_crc_safe_unique": true,
+            "fresh_inner_inventory_entries": 53,
+            "fresh_required_payloads": [
+              {
+                "member": "eritrea-v1.html",
+                "path": "preview/eritrea-v1/eritrea-v1.html",
+                "sha256": "dd572da36bfcc16505246e050f705de2f4c6d57924d904a60d3569edb08bc49b"
+              },
+              {
+                "member": "eritrea.blend",
+                "path": "preview/eritrea-v1/eritrea.blend",
+                "sha256": "f038a4cf2ac7736877aa67cca9dbc4f034f878058a7a3ddff33613e95ddae8f6"
+              },
+              {
+                "member": "eritrea.glb",
+                "path": "preview/eritrea-v1/eritrea.glb",
+                "sha256": "157459742500aff6d6d587031f8eb507a011de4fba3853bd0a31f30c3882fae7"
+              }
+            ],
+            "inventory_checked": true,
+            "inventory_entries": 53,
+            "inventory_mismatches": [],
+            "kind": "git",
+            "path": "preview/eritrea-v1/eritrea-v1-source.zip",
+            "required_payloads": {
+              "eritrea-v1.html": true,
+              "eritrea.blend": true,
+              "eritrea.glb": true
+            },
+            "safe_unique_paths": true,
+            "sha256": "7b0fb3f97e547b020aeb76ce4f0e34e284d4ba1ec9f0716ffef4c5eeeb9bed79"
+          },
+          "members": 54,
+          "fresh_inventory": {
+            "status": "pass",
+            "entries_checked": 53,
+            "uninventoried_members": [
+              "inventory.json"
+            ]
+          },
+          "exact_selected_payloads": [
+            "eritrea-v1.html",
+            "eritrea.blend",
+            "eritrea.glb"
+          ]
+        }
+      ],
+      "pass": true
+    },
+    "remaining_visual_limitations": "Pale limestone, irregular low reef forms, blue top and dark teal opening rim read consistently on desktop/mobile. Open cavity is complete in the visible views; promotional lighting provides greater depth."
+  }
+}

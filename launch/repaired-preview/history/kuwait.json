@@ -1,0 +1,627 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 4,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 707010,
+        "role": "editable-source",
+        "sha256": "e8f3dd57ac6f146d7c5cb8c4db7578e00376d4cf9c4145de064801f5489b4357",
+        "source": {
+          "commit": "7542a8d990ede5f508170ec910f741f1d8b68188",
+          "path": "preview/kuwait-v1/kuwait.blend"
+        },
+        "uri": "sha256:e8f3dd57ac6f146d7c5cb8c4db7578e00376d4cf9c4145de064801f5489b4357"
+      },
+      {
+        "bytes": 6105850,
+        "role": "historical-source-archive",
+        "sha256": "e46a5473a60c84dc517c517ba71f7a64b745f6b9d1623c85a886edf7affdff73",
+        "source": {
+          "commit": "7542a8d990ede5f508170ec910f741f1d8b68188",
+          "kind": "git",
+          "path": "preview/kuwait-v1/kuwait-v1-source.zip"
+        },
+        "uri": "sha256:e46a5473a60c84dc517c517ba71f7a64b745f6b9d1623c85a886edf7affdff73"
+      },
+      {
+        "bytes": 1590904,
+        "role": "model",
+        "sha256": "0e79c7d4c79d87d79287a48ec362f1c5e5dd783d8f12cbdf35c47ef0e9c95ec9",
+        "source": {
+          "commit": "7542a8d990ede5f508170ec910f741f1d8b68188",
+          "path": "preview/kuwait-v1/kuwait.glb"
+        },
+        "uri": "sha256:0e79c7d4c79d87d79287a48ec362f1c5e5dd783d8f12cbdf35c47ef0e9c95ec9"
+      },
+      {
+        "bytes": 90562,
+        "role": "promotional-illustration",
+        "sha256": "2b4379beb446a1e5047d8b409b9882113342af8a675d4e6f50df79573404cc22",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/kuwait.webp"
+        },
+        "uri": "sha256:2b4379beb446a1e5047d8b409b9882113342af8a675d4e6f50df79573404cc22"
+      },
+      {
+        "bytes": 3620,
+        "role": "research-brief",
+        "sha256": "5c606f436976a99c4168bac67284b806f6c992ed29d55b741be61b3fc8037add",
+        "source": {
+          "commit": "7542a8d990ede5f508170ec910f741f1d8b68188",
+          "path": "preview/kuwait-v1/design-brief.md"
+        },
+        "uri": "sha256:5c606f436976a99c4168bac67284b806f6c992ed29d55b741be61b3fc8037add"
+      },
+      {
+        "bytes": 6604,
+        "role": "source-notice",
+        "sha256": "6e63b76d3fcb84020e4ca600b4f733e8d980f0aedbac5c9f53897404b5c4eb23",
+        "source": {
+          "commit": "7542a8d990ede5f508170ec910f741f1d8b68188",
+          "path": "preview/kuwait-v1/README.md"
+        },
+        "uri": "sha256:6e63b76d3fcb84020e4ca600b4f733e8d980f0aedbac5c9f53897404b5c4eb23"
+      },
+      {
+        "bytes": 2822646,
+        "role": "viewer",
+        "sha256": "7b65399e6790f6d0d2d3f453ae699d9b18aa9af71a72450f02b37c52bacce305",
+        "source": {
+          "commit": "7542a8d990ede5f508170ec910f741f1d8b68188",
+          "path": "preview/kuwait-v1/kuwait-v1.html"
+        },
+        "uri": "sha256:7b65399e6790f6d0d2d3f453ae699d9b18aa9af71a72450f02b37c52bacce305"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "kuwait",
+    "independent_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "captures": [
+        "parent/smoke/kuwait/desktop-closed.png",
+        "parent/smoke/kuwait/desktop-open.png",
+        "parent/smoke/kuwait/mobile-closed.png",
+        "parent/smoke/kuwait/mobile-open.png"
+      ],
+      "fresh_browser": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.917499989271164,
+                2.3057665824890137,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.917499989271164,
+                -0.27000000327825546,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1590904,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 5,
+            "meshes": 76,
+            "nonfinite": 0,
+            "triangles": 19594
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "kuwait",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "7b65399e6790f6d0d2d3f453ae699d9b18aa9af71a72450f02b37c52bacce305"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.917499989271164,
+                2.3057665824890137,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.917499989271164,
+                -0.27000000327825546,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1590904,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 5,
+            "meshes": 76,
+            "nonfinite": 0,
+            "triangles": 19594
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "kuwait",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "7b65399e6790f6d0d2d3f453ae699d9b18aa9af71a72450f02b37c52bacce305"
+        }
+      ],
+      "fresh_motion": {
+        "exit_code": 0,
+        "id": "kuwait",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "7542a8d990ede5f508170ec910f741f1d8b68188",
+            "path": "preview/kuwait-v1/motion.mjs",
+            "sha256": "d6563e7be9424607dddc2f9146e72f46230fc3323b93a0e34569aa3b56e24996"
+          }
+        ]
+      },
+      "fresh_runtime_captures": [
+        "smoke/kuwait/desktop-closed.png",
+        "smoke/kuwait/desktop-open.png",
+        "smoke/kuwait/mobile-closed.png",
+        "smoke/kuwait/mobile-open.png"
+      ],
+      "id": "kuwait",
+      "independent_visual_findings": "Sadu diamonds and dune retained; uniform wood ridging, softer textile, chunky trim joins and strong seam.",
+      "inspection": "deleg_5910ddb9 tasks 0-4 inspected four original PNGs and promotional WebP per ID; lead Malta comparison reinspection",
+      "launch_ready": false,
+      "packaging_verdict": "pass",
+      "parent_findings": {
+        "hardware": "Clasp, caps and feet retained with simplified construction.",
+        "terrain": "Framed dune inset and Sadu identity clear; smoother dominant mound.",
+        "texture": "Diamond spacing differs; less tactile weave, wood and metal. Not exact pattern reproduction."
+      },
+      "parent_remaining_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-04 review"
+      ],
+      "parent_status": "pass",
+      "polish_iterations": 0,
+      "proven_runtime_defects": [],
+      "remaining_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "selection": {
+        "commit": "7542a8d990ede5f508170ec910f741f1d8b68188",
+        "fetched_tip": "7542a8d990ede5f508170ec910f741f1d8b68188",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/kuwait-v1"
+      },
+      "source_archive_audit": {
+        "archives": [
+          {
+            "internal_inventory_checked": 62,
+            "provenance": {
+              "bytes": 6105850,
+              "commit": "7542a8d990ede5f508170ec910f741f1d8b68188",
+              "crc_error": null,
+              "entries": 63,
+              "inventory_checked": true,
+              "inventory_entries": 62,
+              "inventory_mismatches": [],
+              "kind": "git",
+              "path": "preview/kuwait-v1/kuwait-v1-source.zip",
+              "required_payloads": {
+                "kuwait-v1.html": true,
+                "kuwait.blend": true,
+                "kuwait.glb": true
+              },
+              "safe_unique_paths": true,
+              "sha256": "e46a5473a60c84dc517c517ba71f7a64b745f6b9d1623c85a886edf7affdff73"
+            },
+            "safe_unique_crc": true,
+            "selected_payload_checks": [
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "kuwait-v1.html",
+                "sha256": "7b65399e6790f6d0d2d3f453ae699d9b18aa9af71a72450f02b37c52bacce305"
+              },
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "kuwait.blend",
+                "sha256": "e8f3dd57ac6f146d7c5cb8c4db7578e00376d4cf9c4145de064801f5489b4357"
+              },
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "kuwait.glb",
+                "sha256": "0e79c7d4c79d87d79287a48ec362f1c5e5dd783d8f12cbdf35c47ef0e9c95ec9"
+              }
+            ]
+          }
+        ],
+        "id": "kuwait",
+        "sources": [
+          {
+            "bytes": 707010,
+            "commit": "7542a8d990ede5f508170ec910f741f1d8b68188",
+            "path": "preview/kuwait-v1/kuwait.blend",
+            "role": "selected-model",
+            "sha256": "e8f3dd57ac6f146d7c5cb8c4db7578e00376d4cf9c4145de064801f5489b4357"
+          },
+          {
+            "bytes": 1590904,
+            "commit": "7542a8d990ede5f508170ec910f741f1d8b68188",
+            "path": "preview/kuwait-v1/kuwait.glb",
+            "role": "selected-model",
+            "sha256": "0e79c7d4c79d87d79287a48ec362f1c5e5dd783d8f12cbdf35c47ef0e9c95ec9",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 76,
+              "nodes": 78
+            }
+          }
+        ],
+        "viewer": {
+          "bytes": 2822646,
+          "commit": "7542a8d990ede5f508170ec910f741f1d8b68188",
+          "path": "preview/kuwait-v1/kuwait-v1.html",
+          "sha256": "7b65399e6790f6d0d2d3f453ae699d9b18aa9af71a72450f02b37c52bacce305",
+          "under_5000000": true
+        }
+      },
+      "user_final_approved": false,
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 2822646,
+        "commit": "7542a8d990ede5f508170ec910f741f1d8b68188",
+        "path": "preview/kuwait-v1/kuwait-v1.html",
+        "sha256": "7b65399e6790f6d0d2d3f453ae699d9b18aa9af71a72450f02b37c52bacce305",
+        "under_5000000": true
+      },
+      "visual_verdict": "candidate-with-limitations"
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Kuwait",
+    "package_history": [
+      {
+        "bytes": 6105850,
+        "commit": "7542a8d990ede5f508170ec910f741f1d8b68188",
+        "crc_error": null,
+        "entries": 63,
+        "inventory_checked": true,
+        "inventory_entries": 62,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/kuwait-v1/kuwait-v1-source.zip",
+        "required_payloads": {
+          "kuwait-v1.html": true,
+          "kuwait.blend": true,
+          "kuwait.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "e46a5473a60c84dc517c517ba71f7a64b745f6b9d1623c85a886edf7affdff73"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "7542a8d990ede5f508170ec910f741f1d8b68188",
+      "fetched_tip": "7542a8d990ede5f508170ec910f741f1d8b68188",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/kuwait-v1"
+    },
+    "verdict": "candidate-with-limitations",
+    "viewer": {
+      "bytes": 2822646,
+      "commit": "7542a8d990ede5f508170ec910f741f1d8b68188",
+      "path": "preview/kuwait-v1/kuwait-v1.html",
+      "sha256": "7b65399e6790f6d0d2d3f453ae699d9b18aa9af71a72450f02b37c52bacce305",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "kuwait",
+    "baseline_verdict": "candidate-with-limitations",
+    "actions": [
+      "owner art/finish acceptance; no proven runtime defect recorded; no autonomous redesign"
+    ],
+    "approval": false,
+    "original_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "captures": [
+        "parent/smoke/kuwait/desktop-closed.png",
+        "parent/smoke/kuwait/desktop-open.png",
+        "parent/smoke/kuwait/mobile-closed.png",
+        "parent/smoke/kuwait/mobile-open.png"
+      ],
+      "fresh_browser": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.917499989271164,
+                2.3057665824890137,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.917499989271164,
+                -0.27000000327825546,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1590904,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 5,
+            "meshes": 76,
+            "nonfinite": 0,
+            "triangles": 19594
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "kuwait",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "7b65399e6790f6d0d2d3f453ae699d9b18aa9af71a72450f02b37c52bacce305"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.917499989271164,
+                2.3057665824890137,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.917499989271164,
+                -0.27000000327825546,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1590904,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 5,
+            "meshes": 76,
+            "nonfinite": 0,
+            "triangles": 19594
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "kuwait",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "7b65399e6790f6d0d2d3f453ae699d9b18aa9af71a72450f02b37c52bacce305"
+        }
+      ],
+      "fresh_motion": {
+        "exit_code": 0,
+        "id": "kuwait",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "7542a8d990ede5f508170ec910f741f1d8b68188",
+            "path": "preview/kuwait-v1/motion.mjs",
+            "sha256": "d6563e7be9424607dddc2f9146e72f46230fc3323b93a0e34569aa3b56e24996"
+          }
+        ]
+      },
+      "fresh_runtime_captures": [
+        "smoke/kuwait/desktop-closed.png",
+        "smoke/kuwait/desktop-open.png",
+        "smoke/kuwait/mobile-closed.png",
+        "smoke/kuwait/mobile-open.png"
+      ],
+      "id": "kuwait",
+      "independent_visual_findings": "Sadu diamonds and dune retained; uniform wood ridging, softer textile, chunky trim joins and strong seam.",
+      "inspection": "deleg_5910ddb9 tasks 0-4 inspected four original PNGs and promotional WebP per ID; lead Malta comparison reinspection",
+      "launch_ready": false,
+      "packaging_verdict": "pass",
+      "parent_findings": {
+        "hardware": "Clasp, caps and feet retained with simplified construction.",
+        "terrain": "Framed dune inset and Sadu identity clear; smoother dominant mound.",
+        "texture": "Diamond spacing differs; less tactile weave, wood and metal. Not exact pattern reproduction."
+      },
+      "parent_remaining_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-04 review"
+      ],
+      "parent_status": "pass",
+      "polish_iterations": 0,
+      "proven_runtime_defects": [],
+      "remaining_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "selection": {
+        "commit": "7542a8d990ede5f508170ec910f741f1d8b68188",
+        "fetched_tip": "7542a8d990ede5f508170ec910f741f1d8b68188",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/kuwait-v1"
+      },
+      "source_archive_audit": {
+        "archives": [
+          {
+            "internal_inventory_checked": 62,
+            "provenance": {
+              "bytes": 6105850,
+              "commit": "7542a8d990ede5f508170ec910f741f1d8b68188",
+              "crc_error": null,
+              "entries": 63,
+              "inventory_checked": true,
+              "inventory_entries": 62,
+              "inventory_mismatches": [],
+              "kind": "git",
+              "path": "preview/kuwait-v1/kuwait-v1-source.zip",
+              "required_payloads": {
+                "kuwait-v1.html": true,
+                "kuwait.blend": true,
+                "kuwait.glb": true
+              },
+              "safe_unique_paths": true,
+              "sha256": "e46a5473a60c84dc517c517ba71f7a64b745f6b9d1623c85a886edf7affdff73"
+            },
+            "safe_unique_crc": true,
+            "selected_payload_checks": [
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "kuwait-v1.html",
+                "sha256": "7b65399e6790f6d0d2d3f453ae699d9b18aa9af71a72450f02b37c52bacce305"
+              },
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "kuwait.blend",
+                "sha256": "e8f3dd57ac6f146d7c5cb8c4db7578e00376d4cf9c4145de064801f5489b4357"
+              },
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "kuwait.glb",
+                "sha256": "0e79c7d4c79d87d79287a48ec362f1c5e5dd783d8f12cbdf35c47ef0e9c95ec9"
+              }
+            ]
+          }
+        ],
+        "id": "kuwait",
+        "sources": [
+          {
+            "bytes": 707010,
+            "commit": "7542a8d990ede5f508170ec910f741f1d8b68188",
+            "path": "preview/kuwait-v1/kuwait.blend",
+            "role": "selected-model",
+            "sha256": "e8f3dd57ac6f146d7c5cb8c4db7578e00376d4cf9c4145de064801f5489b4357"
+          },
+          {
+            "bytes": 1590904,
+            "commit": "7542a8d990ede5f508170ec910f741f1d8b68188",
+            "path": "preview/kuwait-v1/kuwait.glb",
+            "role": "selected-model",
+            "sha256": "0e79c7d4c79d87d79287a48ec362f1c5e5dd783d8f12cbdf35c47ef0e9c95ec9",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 76,
+              "nodes": 78
+            }
+          }
+        ],
+        "viewer": {
+          "bytes": 2822646,
+          "commit": "7542a8d990ede5f508170ec910f741f1d8b68188",
+          "path": "preview/kuwait-v1/kuwait-v1.html",
+          "sha256": "7b65399e6790f6d0d2d3f453ae699d9b18aa9af71a72450f02b37c52bacce305",
+          "under_5000000": true
+        }
+      },
+      "user_final_approved": false,
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 2822646,
+        "commit": "7542a8d990ede5f508170ec910f741f1d8b68188",
+        "path": "preview/kuwait-v1/kuwait-v1.html",
+        "sha256": "7b65399e6790f6d0d2d3f453ae699d9b18aa9af71a72450f02b37c52bacce305",
+        "under_5000000": true
+      },
+      "visual_verdict": "candidate-with-limitations"
+    },
+    "package_history": [
+      {
+        "bytes": 6105850,
+        "commit": "7542a8d990ede5f508170ec910f741f1d8b68188",
+        "crc_error": null,
+        "entries": 63,
+        "inventory_checked": true,
+        "inventory_entries": 62,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/kuwait-v1/kuwait-v1-source.zip",
+        "required_payloads": {
+          "kuwait-v1.html": true,
+          "kuwait.blend": true,
+          "kuwait.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "e46a5473a60c84dc517c517ba71f7a64b745f6b9d1623c85a886edf7affdff73"
+      }
+    ]
+  }
+}

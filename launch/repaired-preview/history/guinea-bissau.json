@@ -1,0 +1,945 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 8,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 752442,
+        "role": "editable-source",
+        "sha256": "a532475b7148b832e939f30fd76c76a003f3ea1d881b0ecee9158470e8b42392",
+        "source": {
+          "commit": "68e769df144b16d9ae82b0060f70090e912ea4bd",
+          "path": "preview/guinea-bissau-v1/guinea-bissau.blend"
+        },
+        "uri": "sha256:a532475b7148b832e939f30fd76c76a003f3ea1d881b0ecee9158470e8b42392"
+      },
+      {
+        "bytes": 6614883,
+        "role": "historical-source-archive",
+        "sha256": "1532e7dd6f95876509429ba6baa5cf24ac3f9d36a64d58f3b0f54584df02bcb4",
+        "source": {
+          "commit": "68e769df144b16d9ae82b0060f70090e912ea4bd",
+          "kind": "git",
+          "path": "preview/guinea-bissau-v1/guinea-bissau-v1-source.zip"
+        },
+        "uri": "sha256:1532e7dd6f95876509429ba6baa5cf24ac3f9d36a64d58f3b0f54584df02bcb4"
+      },
+      {
+        "bytes": 1492472,
+        "role": "model",
+        "sha256": "9c6147fb68b7292de8a1a8ffa2bfebeab21472ceefac420121e454f4d7cf8c42",
+        "source": {
+          "commit": "68e769df144b16d9ae82b0060f70090e912ea4bd",
+          "path": "preview/guinea-bissau-v1/guinea-bissau.glb"
+        },
+        "uri": "sha256:9c6147fb68b7292de8a1a8ffa2bfebeab21472ceefac420121e454f4d7cf8c42"
+      },
+      {
+        "bytes": 72362,
+        "role": "promotional-illustration",
+        "sha256": "02b15c156cbcc126d3de51b45b96dc9643bcd9ead73d8b15f61c88db13b6b242",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/guinea-bissau.webp"
+        },
+        "uri": "sha256:02b15c156cbcc126d3de51b45b96dc9643bcd9ead73d8b15f61c88db13b6b242"
+      },
+      {
+        "bytes": 3306,
+        "role": "research-brief",
+        "sha256": "d2900227a8d989822e683d2e87b7f0c69dc2b7367f035971819390e3f53c5a6d",
+        "source": {
+          "commit": "68e769df144b16d9ae82b0060f70090e912ea4bd",
+          "path": "preview/guinea-bissau-v1/design-brief.md"
+        },
+        "uri": "sha256:d2900227a8d989822e683d2e87b7f0c69dc2b7367f035971819390e3f53c5a6d"
+      },
+      {
+        "bytes": 5726,
+        "role": "source-notice",
+        "sha256": "aa36653127b805ced785bc6ff66f9b2f18f72e54cad7355bb506574171c7249f",
+        "source": {
+          "commit": "68e769df144b16d9ae82b0060f70090e912ea4bd",
+          "path": "preview/guinea-bissau-v1/README.md"
+        },
+        "uri": "sha256:aa36653127b805ced785bc6ff66f9b2f18f72e54cad7355bb506574171c7249f"
+      },
+      {
+        "bytes": 2717070,
+        "role": "viewer",
+        "sha256": "e387c139cfbf1b57231c1b955c154a44437623ef54eaa1a73fed53b462e07054",
+        "source": {
+          "commit": "68e769df144b16d9ae82b0060f70090e912ea4bd",
+          "path": "preview/guinea-bissau-v1/guinea-bissau-v1.html"
+        },
+        "uri": "sha256:e387c139cfbf1b57231c1b955c154a44437623ef54eaa1a73fed53b462e07054"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "guinea-bissau",
+    "independent_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "capture_base": "parent/",
+      "captures": [
+        "smoke/guinea-bissau/desktop-closed.png",
+        "smoke/guinea-bissau/desktop-open.png",
+        "smoke/guinea-bissau/mobile-closed.png",
+        "smoke/guinea-bissau/mobile-open.png"
+      ],
+      "critical_reproducible_failures": [],
+      "final_approval": false,
+      "fresh_checks": {
+        "blender_parity_collision": false,
+        "fallback": false,
+        "full_inner_archive_inventories": true,
+        "motion": false,
+        "original_captures_and_marketing_inspected": true,
+        "runtime": false,
+        "source_and_delivered_viewer_hashes": true,
+        "source_archive_crc_safe_paths_required_payloads": true
+      },
+      "historical_runtime": {
+        "browser": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.89390666782856,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1492472,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 11,
+              "meshes": 108,
+              "nonfinite": 0,
+              "triangles": 17780
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "guinea-bissau",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "e387c139cfbf1b57231c1b955c154a44437623ef54eaa1a73fed53b462e07054"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.89390666782856,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1492472,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 11,
+              "meshes": 108,
+              "nonfinite": 0,
+              "triangles": 17780
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "guinea-bissau",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "e387c139cfbf1b57231c1b955c154a44437623ef54eaa1a73fed53b462e07054"
+          }
+        ],
+        "extended": {
+          "geometry": {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.89390666782856,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1492472,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 11,
+              "meshes": 108,
+              "nonfinite": 0,
+              "triangles": 17780
+            },
+            "meshes": 108,
+            "nonfinite": 0,
+            "triangles": 17780
+          },
+          "id": "guinea-bissau",
+          "no_js_poster": true
+        },
+        "motion": {
+          "exit_code": 0,
+          "id": "guinea-bissau",
+          "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+          "source": [
+            {
+              "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+              "path": "preview/albania-v1/tests.mjs",
+              "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+            },
+            {
+              "commit": "68e769df144b16d9ae82b0060f70090e912ea4bd",
+              "path": "preview/guinea-bissau-v1/motion.mjs",
+              "sha256": "d61544de9b41521a7b14e81a5e9867ce0fcc387f8852ce57490031b84bf2150e"
+            }
+          ]
+        },
+        "parent_commit": "431e51ffb5a8704b5f8f8b11694d28befae18402"
+      },
+      "id": "guinea-bissau",
+      "independent_visual": {
+        "assessment": {
+          "concrete_defects": [
+            "Promotional foreground islands meet at an awkward pinched junction and have pointed/ragged edge protrusions; canopy is coarse and roots look crowded.",
+            "Viewer island edges, foliage and feet are visibly angular, with a slightly jagged turquoise lid perimeter.",
+            "Promotional lower clasp mounting detail is indistinct; mobile metadata/disclaimer are small."
+          ],
+          "id": "guinea-bissau",
+          "inspected_paths": [
+            "parent/smoke/guinea-bissau/desktop-closed.png",
+            "parent/smoke/guinea-bissau/desktop-open.png",
+            "parent/smoke/guinea-bissau/mobile-closed.png",
+            "parent/smoke/guinea-bissau/mobile-open.png",
+            "parent/sources/guinea-bissau/marketing.webp"
+          ],
+          "limitations": [
+            "All five original images inspected individually with vision; paths relative to launch/qa-art-08.",
+            "Static views cannot prove hidden attachment, contact, collision clearance or motion; unseen faces are unassessed.",
+            "Promotional artwork is not an exact model reference or evidence of mechanics.",
+            "Candidate status is not art approval; irregular sandy feet and low-poly islands may be intended stylization."
+          ],
+          "observations": [
+            "Wood, turquoise tidal water, sand islands and mangrove identity remain clear.",
+            "Full chest and raised lid fit desktop/mobile; no obvious text overlap, horizontal overflow or cut-off buttons.",
+            "Prominent turquoise closed seam gives a slightly unseated appearance, but does not prove a closure fault. Open hinge bridging and exposed upper tab require other views for attachment assessment."
+          ],
+          "verdict": "candidate-with-limitations"
+        },
+        "report": "visual-b.json"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-08 review"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 72362,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/guinea-bissau.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "Island grouping retained; wood warmer and shoreline/tree shape differ.",
+          "reviewStatus": "reviewed_with_limitations",
+          "sha256": "d78942a19c3ac8c76896b9f24279993d73789c08ebc62936c6405923a95bd700",
+          "source": "assets/gallery/guinea-bissau.webp",
+          "sourceSha256": "97b5428cbd96ef48d5fbbd28ac5d300922fe806afb1cff84f14bb4e895c70db7",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "02b15c156cbcc126d3de51b45b96dc9643bcd9ead73d8b15f61c88db13b6b242"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_verdict": "pass",
+      "parent_visual": {
+        "decision": "Bounded stylized candidate with wood-like sediment, simplified foliage/water and foot-shading mismatch retained. Do not promote to photoreal marketing equivalence or final user approval.",
+        "hardware": "Brass front clasp/disc, side ring and corner caps retain their layout. Rounded pale feet read more uniformly sandy in captures than mottled gray in marketing. Open rear hinge/rim separation is visible but does not establish detachment; the released latch is expected. Mobile is insufficient for fine attachment judgments.",
+        "limitations": "Read source_readme.md and research_brief.md. Brief-led abstract archipelago, no original country concept image, no surveyed geography or cultural-artifact replication. Source explicitly discloses wood-like sediment and resin water. Emulated captures and technical checks are not physical-phone, continuous-mechanics or user-approval evidence.",
+        "quality": "All four actual views preserve full framing and clear silhouette. Closed marketing/runtime composition agrees broadly on brown chest, pale islands, teal water and mangrove cluster. Marketing foliage is more textured and water more tonally varied than the small runtime presentation.",
+        "terrain": "Raised sandy islands and exposed-root grove remain recognizable in closed views. Smooth shores, rounded/flattened canopy masses and near-featureless water simplify the tidal landscape. Terrain is hidden behind the raised lid in open views, not demonstrably absent.",
+        "texture": "Brown sediment/ripple surface strongly reads as repetitive horizontal wood grain, including interior and lid underside. Marketing has finer wood/foliage texture and richer shading; actual sand and leaves are smoother. Resin-like water remains a substantial realism limitation rather than natural tidal water."
+      },
+      "parent_visual_hold_preserved": false,
+      "reviewed_image_hashes": [
+        {
+          "bytes": 361172,
+          "path": "smoke/guinea-bissau/desktop-closed.png",
+          "sha256": "fdaea41e9697dd6f596c9357330b63396c1cae4d9ec7d5d8b481b21d2a358133"
+        },
+        {
+          "bytes": 391573,
+          "path": "smoke/guinea-bissau/desktop-open.png",
+          "sha256": "bc0739cbcd02c296bfc2522b8e3b82784e8406fa3e36589ef905680a02ee6fd9"
+        },
+        {
+          "bytes": 118549,
+          "path": "smoke/guinea-bissau/mobile-closed.png",
+          "sha256": "6d5e7ae0928a1b928ea35fd7c0c99c1677ad2c3f810834212df4e435ab5ac7c8"
+        },
+        {
+          "bytes": 121829,
+          "path": "smoke/guinea-bissau/mobile-open.png",
+          "sha256": "56c98135839c7e3d4d9a57f4dea8b9fdb3497030aae67f6efa5336193c2ac0b8"
+        },
+        {
+          "bytes": 72362,
+          "path": "sources/guinea-bissau/marketing.webp",
+          "sha256": "02b15c156cbcc126d3de51b45b96dc9643bcd9ead73d8b15f61c88db13b6b242"
+        }
+      ],
+      "selection": {
+        "commit": "68e769df144b16d9ae82b0060f70090e912ea4bd",
+        "fetched_tip": "68e769df144b16d9ae82b0060f70090e912ea4bd",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/guinea-bissau-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 6614883,
+          "commit": "68e769df144b16d9ae82b0060f70090e912ea4bd",
+          "crc_error": null,
+          "entries": 58,
+          "fresh_crc_safe_unique": true,
+          "fresh_inner_inventory_entries": 57,
+          "fresh_required_payloads": [
+            {
+              "member": "guinea-bissau-v1.html",
+              "path": "preview/guinea-bissau-v1/guinea-bissau-v1.html",
+              "sha256": "e387c139cfbf1b57231c1b955c154a44437623ef54eaa1a73fed53b462e07054"
+            },
+            {
+              "member": "guinea-bissau.blend",
+              "path": "preview/guinea-bissau-v1/guinea-bissau.blend",
+              "sha256": "a532475b7148b832e939f30fd76c76a003f3ea1d881b0ecee9158470e8b42392"
+            },
+            {
+              "member": "guinea-bissau.glb",
+              "path": "preview/guinea-bissau-v1/guinea-bissau.glb",
+              "sha256": "9c6147fb68b7292de8a1a8ffa2bfebeab21472ceefac420121e454f4d7cf8c42"
+            }
+          ],
+          "inventory_checked": true,
+          "inventory_entries": 57,
+          "inventory_mismatches": [],
+          "kind": "git",
+          "path": "preview/guinea-bissau-v1/guinea-bissau-v1-source.zip",
+          "required_payloads": {
+            "guinea-bissau-v1.html": true,
+            "guinea-bissau.blend": true,
+            "guinea-bissau.glb": true
+          },
+          "safe_unique_paths": true,
+          "sha256": "1532e7dd6f95876509429ba6baa5cf24ac3f9d36a64d58f3b0f54584df02bcb4"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 752442,
+          "commit": "68e769df144b16d9ae82b0060f70090e912ea4bd",
+          "path": "preview/guinea-bissau-v1/guinea-bissau.blend",
+          "role": "selected-model",
+          "sha256": "a532475b7148b832e939f30fd76c76a003f3ea1d881b0ecee9158470e8b42392"
+        },
+        {
+          "bytes": 1492472,
+          "commit": "68e769df144b16d9ae82b0060f70090e912ea4bd",
+          "path": "preview/guinea-bissau-v1/guinea-bissau.glb",
+          "role": "selected-model",
+          "sha256": "9c6147fb68b7292de8a1a8ffa2bfebeab21472ceefac420121e454f4d7cf8c42",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 108,
+            "nodes": 110
+          }
+        }
+      ],
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 2717070,
+        "commit": "68e769df144b16d9ae82b0060f70090e912ea4bd",
+        "path": "preview/guinea-bissau-v1/guinea-bissau-v1.html",
+        "sha256": "e387c139cfbf1b57231c1b955c154a44437623ef54eaa1a73fed53b462e07054",
+        "under_5000000": true
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Guinea Bissau",
+    "package_history": [
+      {
+        "bytes": 6614883,
+        "commit": "68e769df144b16d9ae82b0060f70090e912ea4bd",
+        "crc_error": null,
+        "entries": 58,
+        "inventory_checked": true,
+        "inventory_entries": 57,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/guinea-bissau-v1/guinea-bissau-v1-source.zip",
+        "required_payloads": {
+          "guinea-bissau-v1.html": true,
+          "guinea-bissau.blend": true,
+          "guinea-bissau.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "1532e7dd6f95876509429ba6baa5cf24ac3f9d36a64d58f3b0f54584df02bcb4"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "68e769df144b16d9ae82b0060f70090e912ea4bd",
+      "fetched_tip": "68e769df144b16d9ae82b0060f70090e912ea4bd",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/guinea-bissau-v1"
+    },
+    "verdict": "candidate-with-limitations",
+    "viewer": {
+      "bytes": 2717070,
+      "commit": "68e769df144b16d9ae82b0060f70090e912ea4bd",
+      "path": "preview/guinea-bissau-v1/guinea-bissau-v1.html",
+      "sha256": "e387c139cfbf1b57231c1b955c154a44437623ef54eaa1a73fed53b462e07054",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "guinea-bissau",
+    "baseline_verdict": "candidate-with-limitations",
+    "actions": [
+      "remaining ordinary finish inspection; do not edit promotional-only differences or infer broken model"
+    ],
+    "approval": false,
+    "original_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "capture_base": "parent/",
+      "captures": [
+        "smoke/guinea-bissau/desktop-closed.png",
+        "smoke/guinea-bissau/desktop-open.png",
+        "smoke/guinea-bissau/mobile-closed.png",
+        "smoke/guinea-bissau/mobile-open.png"
+      ],
+      "critical_reproducible_failures": [],
+      "final_approval": false,
+      "fresh_checks": {
+        "blender_parity_collision": false,
+        "fallback": false,
+        "full_inner_archive_inventories": true,
+        "motion": false,
+        "original_captures_and_marketing_inspected": true,
+        "runtime": false,
+        "source_and_delivered_viewer_hashes": true,
+        "source_archive_crc_safe_paths_required_payloads": true
+      },
+      "historical_runtime": {
+        "browser": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.89390666782856,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1492472,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 11,
+              "meshes": 108,
+              "nonfinite": 0,
+              "triangles": 17780
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "guinea-bissau",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "e387c139cfbf1b57231c1b955c154a44437623ef54eaa1a73fed53b462e07054"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.89390666782856,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1492472,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 11,
+              "meshes": 108,
+              "nonfinite": 0,
+              "triangles": 17780
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "guinea-bissau",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "e387c139cfbf1b57231c1b955c154a44437623ef54eaa1a73fed53b462e07054"
+          }
+        ],
+        "extended": {
+          "geometry": {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.89390666782856,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1492472,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 11,
+              "meshes": 108,
+              "nonfinite": 0,
+              "triangles": 17780
+            },
+            "meshes": 108,
+            "nonfinite": 0,
+            "triangles": 17780
+          },
+          "id": "guinea-bissau",
+          "no_js_poster": true
+        },
+        "motion": {
+          "exit_code": 0,
+          "id": "guinea-bissau",
+          "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+          "source": [
+            {
+              "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+              "path": "preview/albania-v1/tests.mjs",
+              "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+            },
+            {
+              "commit": "68e769df144b16d9ae82b0060f70090e912ea4bd",
+              "path": "preview/guinea-bissau-v1/motion.mjs",
+              "sha256": "d61544de9b41521a7b14e81a5e9867ce0fcc387f8852ce57490031b84bf2150e"
+            }
+          ]
+        },
+        "parent_commit": "431e51ffb5a8704b5f8f8b11694d28befae18402"
+      },
+      "id": "guinea-bissau",
+      "independent_visual": {
+        "assessment": {
+          "concrete_defects": [
+            "Promotional foreground islands meet at an awkward pinched junction and have pointed/ragged edge protrusions; canopy is coarse and roots look crowded.",
+            "Viewer island edges, foliage and feet are visibly angular, with a slightly jagged turquoise lid perimeter.",
+            "Promotional lower clasp mounting detail is indistinct; mobile metadata/disclaimer are small."
+          ],
+          "id": "guinea-bissau",
+          "inspected_paths": [
+            "parent/smoke/guinea-bissau/desktop-closed.png",
+            "parent/smoke/guinea-bissau/desktop-open.png",
+            "parent/smoke/guinea-bissau/mobile-closed.png",
+            "parent/smoke/guinea-bissau/mobile-open.png",
+            "parent/sources/guinea-bissau/marketing.webp"
+          ],
+          "limitations": [
+            "All five original images inspected individually with vision; paths relative to launch/qa-art-08.",
+            "Static views cannot prove hidden attachment, contact, collision clearance or motion; unseen faces are unassessed.",
+            "Promotional artwork is not an exact model reference or evidence of mechanics.",
+            "Candidate status is not art approval; irregular sandy feet and low-poly islands may be intended stylization."
+          ],
+          "observations": [
+            "Wood, turquoise tidal water, sand islands and mangrove identity remain clear.",
+            "Full chest and raised lid fit desktop/mobile; no obvious text overlap, horizontal overflow or cut-off buttons.",
+            "Prominent turquoise closed seam gives a slightly unseated appearance, but does not prove a closure fault. Open hinge bridging and exposed upper tab require other views for attachment assessment."
+          ],
+          "verdict": "candidate-with-limitations"
+        },
+        "report": "visual-b.json"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-08 review"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 72362,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/guinea-bissau.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "Island grouping retained; wood warmer and shoreline/tree shape differ.",
+          "reviewStatus": "reviewed_with_limitations",
+          "sha256": "d78942a19c3ac8c76896b9f24279993d73789c08ebc62936c6405923a95bd700",
+          "source": "assets/gallery/guinea-bissau.webp",
+          "sourceSha256": "97b5428cbd96ef48d5fbbd28ac5d300922fe806afb1cff84f14bb4e895c70db7",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "02b15c156cbcc126d3de51b45b96dc9643bcd9ead73d8b15f61c88db13b6b242"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_verdict": "pass",
+      "parent_visual": {
+        "decision": "Bounded stylized candidate with wood-like sediment, simplified foliage/water and foot-shading mismatch retained. Do not promote to photoreal marketing equivalence or final user approval.",
+        "hardware": "Brass front clasp/disc, side ring and corner caps retain their layout. Rounded pale feet read more uniformly sandy in captures than mottled gray in marketing. Open rear hinge/rim separation is visible but does not establish detachment; the released latch is expected. Mobile is insufficient for fine attachment judgments.",
+        "limitations": "Read source_readme.md and research_brief.md. Brief-led abstract archipelago, no original country concept image, no surveyed geography or cultural-artifact replication. Source explicitly discloses wood-like sediment and resin water. Emulated captures and technical checks are not physical-phone, continuous-mechanics or user-approval evidence.",
+        "quality": "All four actual views preserve full framing and clear silhouette. Closed marketing/runtime composition agrees broadly on brown chest, pale islands, teal water and mangrove cluster. Marketing foliage is more textured and water more tonally varied than the small runtime presentation.",
+        "terrain": "Raised sandy islands and exposed-root grove remain recognizable in closed views. Smooth shores, rounded/flattened canopy masses and near-featureless water simplify the tidal landscape. Terrain is hidden behind the raised lid in open views, not demonstrably absent.",
+        "texture": "Brown sediment/ripple surface strongly reads as repetitive horizontal wood grain, including interior and lid underside. Marketing has finer wood/foliage texture and richer shading; actual sand and leaves are smoother. Resin-like water remains a substantial realism limitation rather than natural tidal water."
+      },
+      "parent_visual_hold_preserved": false,
+      "reviewed_image_hashes": [
+        {
+          "bytes": 361172,
+          "path": "smoke/guinea-bissau/desktop-closed.png",
+          "sha256": "fdaea41e9697dd6f596c9357330b63396c1cae4d9ec7d5d8b481b21d2a358133"
+        },
+        {
+          "bytes": 391573,
+          "path": "smoke/guinea-bissau/desktop-open.png",
+          "sha256": "bc0739cbcd02c296bfc2522b8e3b82784e8406fa3e36589ef905680a02ee6fd9"
+        },
+        {
+          "bytes": 118549,
+          "path": "smoke/guinea-bissau/mobile-closed.png",
+          "sha256": "6d5e7ae0928a1b928ea35fd7c0c99c1677ad2c3f810834212df4e435ab5ac7c8"
+        },
+        {
+          "bytes": 121829,
+          "path": "smoke/guinea-bissau/mobile-open.png",
+          "sha256": "56c98135839c7e3d4d9a57f4dea8b9fdb3497030aae67f6efa5336193c2ac0b8"
+        },
+        {
+          "bytes": 72362,
+          "path": "sources/guinea-bissau/marketing.webp",
+          "sha256": "02b15c156cbcc126d3de51b45b96dc9643bcd9ead73d8b15f61c88db13b6b242"
+        }
+      ],
+      "selection": {
+        "commit": "68e769df144b16d9ae82b0060f70090e912ea4bd",
+        "fetched_tip": "68e769df144b16d9ae82b0060f70090e912ea4bd",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/guinea-bissau-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 6614883,
+          "commit": "68e769df144b16d9ae82b0060f70090e912ea4bd",
+          "crc_error": null,
+          "entries": 58,
+          "fresh_crc_safe_unique": true,
+          "fresh_inner_inventory_entries": 57,
+          "fresh_required_payloads": [
+            {
+              "member": "guinea-bissau-v1.html",
+              "path": "preview/guinea-bissau-v1/guinea-bissau-v1.html",
+              "sha256": "e387c139cfbf1b57231c1b955c154a44437623ef54eaa1a73fed53b462e07054"
+            },
+            {
+              "member": "guinea-bissau.blend",
+              "path": "preview/guinea-bissau-v1/guinea-bissau.blend",
+              "sha256": "a532475b7148b832e939f30fd76c76a003f3ea1d881b0ecee9158470e8b42392"
+            },
+            {
+              "member": "guinea-bissau.glb",
+              "path": "preview/guinea-bissau-v1/guinea-bissau.glb",
+              "sha256": "9c6147fb68b7292de8a1a8ffa2bfebeab21472ceefac420121e454f4d7cf8c42"
+            }
+          ],
+          "inventory_checked": true,
+          "inventory_entries": 57,
+          "inventory_mismatches": [],
+          "kind": "git",
+          "path": "preview/guinea-bissau-v1/guinea-bissau-v1-source.zip",
+          "required_payloads": {
+            "guinea-bissau-v1.html": true,
+            "guinea-bissau.blend": true,
+            "guinea-bissau.glb": true
+          },
+          "safe_unique_paths": true,
+          "sha256": "1532e7dd6f95876509429ba6baa5cf24ac3f9d36a64d58f3b0f54584df02bcb4"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 752442,
+          "commit": "68e769df144b16d9ae82b0060f70090e912ea4bd",
+          "path": "preview/guinea-bissau-v1/guinea-bissau.blend",
+          "role": "selected-model",
+          "sha256": "a532475b7148b832e939f30fd76c76a003f3ea1d881b0ecee9158470e8b42392"
+        },
+        {
+          "bytes": 1492472,
+          "commit": "68e769df144b16d9ae82b0060f70090e912ea4bd",
+          "path": "preview/guinea-bissau-v1/guinea-bissau.glb",
+          "role": "selected-model",
+          "sha256": "9c6147fb68b7292de8a1a8ffa2bfebeab21472ceefac420121e454f4d7cf8c42",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 108,
+            "nodes": 110
+          }
+        }
+      ],
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 2717070,
+        "commit": "68e769df144b16d9ae82b0060f70090e912ea4bd",
+        "path": "preview/guinea-bissau-v1/guinea-bissau-v1.html",
+        "sha256": "e387c139cfbf1b57231c1b955c154a44437623ef54eaa1a73fed53b462e07054",
+        "under_5000000": true
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 6614883,
+        "commit": "68e769df144b16d9ae82b0060f70090e912ea4bd",
+        "crc_error": null,
+        "entries": 58,
+        "inventory_checked": true,
+        "inventory_entries": 57,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/guinea-bissau-v1/guinea-bissau-v1-source.zip",
+        "required_payloads": {
+          "guinea-bissau-v1.html": true,
+          "guinea-bissau.blend": true,
+          "guinea-bissau.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "1532e7dd6f95876509429ba6baa5cf24ac3f9d36a64d58f3b0f54584df02bcb4"
+      }
+    ]
+  },
+  "ordinary_record": {
+    "id": "guinea-bissau",
+    "disposition": "unchanged-with-explicit-limitations",
+    "correction_passes": 0,
+    "model_geometry_changed": false,
+    "final_approved": false,
+    "launch_ready": false,
+    "original_observations": [
+      "Promotional foreground islands meet at an awkward pinched junction and have pointed/ragged edge protrusions; canopy is coarse and roots look crowded.",
+      "Viewer island edges, foliage and feet are visibly angular, with a slightly jagged turquoise lid perimeter.",
+      "Promotional lower clasp mounting detail is indistinct; mobile metadata/disclaimer are small."
+    ],
+    "independent_adjudication": {
+      "id": "guinea-bissau",
+      "disposition": "no-edit",
+      "observation": "Warm flowing wood grain, turquoise islands and mangrove roots retain identity across desktop/mobile. Open underside is wood; exterior landscape is naturally hidden. Promotional grain and foliage are finer.",
+      "recommendation": "Preserve broad grain, irregular islands, roots and pale feet. Finer marketing wood/foliage is promotional finish disparity, not a localized defect; no repaint or geometry adjustment justified.",
+      "supersampling": "No established sampling-specific need."
+    },
+    "unresolved_owner_holds": [
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "inherited_holds": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization",
+      "independent QA-ART-08 review"
+    ],
+    "original_review_preserved_in": "baseline.json",
+    "fresh_runtime": {
+      "id": "guinea-bissau",
+      "exit_code": 0,
+      "shared_contract": "Bangladesh renderer-independent interaction assertions; no fresh source/collision claim",
+      "results": "launch\\ordinary-finish-20\\runtime\\guinea-bissau\\browser-check.json"
+    },
+    "fresh_source_archive": {
+      "id": "guinea-bissau",
+      "archives": [
+        {
+          "archive": {
+            "bytes": 6614883,
+            "commit": "68e769df144b16d9ae82b0060f70090e912ea4bd",
+            "crc_error": null,
+            "entries": 58,
+            "fresh_crc_safe_unique": true,
+            "fresh_inner_inventory_entries": 57,
+            "fresh_required_payloads": [
+              {
+                "member": "guinea-bissau-v1.html",
+                "path": "preview/guinea-bissau-v1/guinea-bissau-v1.html",
+                "sha256": "e387c139cfbf1b57231c1b955c154a44437623ef54eaa1a73fed53b462e07054"
+              },
+              {
+                "member": "guinea-bissau.blend",
+                "path": "preview/guinea-bissau-v1/guinea-bissau.blend",
+                "sha256": "a532475b7148b832e939f30fd76c76a003f3ea1d881b0ecee9158470e8b42392"
+              },
+              {
+                "member": "guinea-bissau.glb",
+                "path": "preview/guinea-bissau-v1/guinea-bissau.glb",
+                "sha256": "9c6147fb68b7292de8a1a8ffa2bfebeab21472ceefac420121e454f4d7cf8c42"
+              }
+            ],
+            "inventory_checked": true,
+            "inventory_entries": 57,
+            "inventory_mismatches": [],
+            "kind": "git",
+            "path": "preview/guinea-bissau-v1/guinea-bissau-v1-source.zip",
+            "required_payloads": {
+              "guinea-bissau-v1.html": true,
+              "guinea-bissau.blend": true,
+              "guinea-bissau.glb": true
+            },
+            "safe_unique_paths": true,
+            "sha256": "1532e7dd6f95876509429ba6baa5cf24ac3f9d36a64d58f3b0f54584df02bcb4"
+          },
+          "members": 58,
+          "fresh_inventory": {
+            "status": "pass",
+            "entries_checked": 57,
+            "uninventoried_members": [
+              "inventory.json"
+            ]
+          },
+          "exact_selected_payloads": [
+            "guinea-bissau-v1.html",
+            "guinea-bissau.blend",
+            "guinea-bissau.glb"
+          ]
+        }
+      ],
+      "pass": true
+    },
+    "remaining_visual_limitations": "Warm flowing wood grain, turquoise islands and mangrove roots retain identity across desktop/mobile. Open underside is wood; exterior landscape is naturally hidden. Promotional grain and foliage are finer."
+  }
+}

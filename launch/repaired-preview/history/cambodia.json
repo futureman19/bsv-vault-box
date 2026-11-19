@@ -1,0 +1,953 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 8,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 479185,
+        "role": "editable-source",
+        "sha256": "4d6478d1f69786bc42f65dbb30b42eb298fb0fbc85ec87f9477150499ae515a6",
+        "source": {
+          "commit": "44730fb2ae980db72880172c7803043cd3b36e6d",
+          "path": "preview/cambodia-v1/cambodia.blend"
+        },
+        "uri": "sha256:4d6478d1f69786bc42f65dbb30b42eb298fb0fbc85ec87f9477150499ae515a6"
+      },
+      {
+        "bytes": 5508827,
+        "role": "historical-source-archive",
+        "sha256": "39399a1e078eef3eae2e5eefb706aaa1ef05fc1aec2bdd54ea1bdc408950682f",
+        "source": {
+          "commit": "44730fb2ae980db72880172c7803043cd3b36e6d",
+          "kind": "git",
+          "path": "preview/cambodia-v1/cambodia-v1-source.zip"
+        },
+        "uri": "sha256:39399a1e078eef3eae2e5eefb706aaa1ef05fc1aec2bdd54ea1bdc408950682f"
+      },
+      {
+        "bytes": 2785720,
+        "role": "model",
+        "sha256": "71e399b7880a4fad3a4b92d8976abb9354857128828f32f53922464fa1281fa4",
+        "source": {
+          "commit": "44730fb2ae980db72880172c7803043cd3b36e6d",
+          "path": "preview/cambodia-v1/cambodia.glb"
+        },
+        "uri": "sha256:71e399b7880a4fad3a4b92d8976abb9354857128828f32f53922464fa1281fa4"
+      },
+      {
+        "bytes": 78476,
+        "role": "promotional-illustration",
+        "sha256": "f4eafdba61a092eebc2e2895197256bac41273dc3e5d5775650f499c5d542b2a",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/cambodia.webp"
+        },
+        "uri": "sha256:f4eafdba61a092eebc2e2895197256bac41273dc3e5d5775650f499c5d542b2a"
+      },
+      {
+        "bytes": 3099,
+        "role": "research-brief",
+        "sha256": "08becdc53f6bbb37836cbc16b977652a40759a99d38e9c2d5a7d5f46704355be",
+        "source": {
+          "commit": "44730fb2ae980db72880172c7803043cd3b36e6d",
+          "path": "preview/cambodia-v1/design-brief.md"
+        },
+        "uri": "sha256:08becdc53f6bbb37836cbc16b977652a40759a99d38e9c2d5a7d5f46704355be"
+      },
+      {
+        "bytes": 5424,
+        "role": "source-notice",
+        "sha256": "858cac06ff3fc5bb58b6ff6445b42e39f54207dd6ba17564b116f6a5610ded4d",
+        "source": {
+          "commit": "44730fb2ae980db72880172c7803043cd3b36e6d",
+          "path": "preview/cambodia-v1/README.md"
+        },
+        "uri": "sha256:858cac06ff3fc5bb58b6ff6445b42e39f54207dd6ba17564b116f6a5610ded4d"
+      },
+      {
+        "bytes": 4497154,
+        "role": "viewer",
+        "sha256": "22c2454fda18326ecccbc33ccecb32505b653a6eeb29d025d570eebc3c692b00",
+        "source": {
+          "commit": "44730fb2ae980db72880172c7803043cd3b36e6d",
+          "path": "preview/cambodia-v1/cambodia-v1.html"
+        },
+        "uri": "sha256:22c2454fda18326ecccbc33ccecb32505b653a6eeb29d025d570eebc3c692b00"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "cambodia",
+    "independent_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "capture_base": "parent/",
+      "captures": [
+        "smoke/cambodia/desktop-closed.png",
+        "smoke/cambodia/desktop-open.png",
+        "smoke/cambodia/mobile-closed.png",
+        "smoke/cambodia/mobile-open.png"
+      ],
+      "critical_reproducible_failures": [],
+      "final_approval": false,
+      "fresh_checks": {
+        "blender_parity_collision": false,
+        "fallback": false,
+        "full_inner_archive_inventories": true,
+        "motion": false,
+        "original_captures_and_marketing_inspected": true,
+        "runtime": false,
+        "source_and_delivered_viewer_hashes": true,
+        "source_archive_crc_safe_paths_required_payloads": true
+      },
+      "historical_runtime": {
+        "browser": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8729999624192715,
+                  2.8614999316632748,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 2785720,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 6,
+              "meshes": 193,
+              "nonfinite": 0,
+              "triangles": 39256
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "cambodia",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "22c2454fda18326ecccbc33ccecb32505b653a6eeb29d025d570eebc3c692b00"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8729999624192715,
+                  2.8614999316632748,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 2785720,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 6,
+              "meshes": 193,
+              "nonfinite": 0,
+              "triangles": 39256
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "cambodia",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "22c2454fda18326ecccbc33ccecb32505b653a6eeb29d025d570eebc3c692b00"
+          }
+        ],
+        "extended": {
+          "geometry": {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8729999624192715,
+                  2.8614999316632748,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 2785720,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 6,
+              "meshes": 193,
+              "nonfinite": 0,
+              "triangles": 39256
+            },
+            "meshes": 193,
+            "nonfinite": 0,
+            "triangles": 39256
+          },
+          "id": "cambodia",
+          "no_js_poster": true
+        },
+        "motion": {
+          "exit_code": 0,
+          "id": "cambodia",
+          "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+          "source": [
+            {
+              "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+              "path": "preview/albania-v1/tests.mjs",
+              "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+            },
+            {
+              "commit": "44730fb2ae980db72880172c7803043cd3b36e6d",
+              "path": "preview/cambodia-v1/motion.mjs",
+              "sha256": "9d118549fcdc1ff1d1fd8ebb6c6eb8a7a0da7fef8f0ae65ca947335407e74f03"
+            }
+          ]
+        },
+        "parent_commit": "431e51ffb5a8704b5f8f8b11694d28befae18402"
+      },
+      "id": "cambodia",
+      "independent_visual": {
+        "assessment": {
+          "concrete_defects": [
+            "Pool surround has uneven-looking narrow corner joins, clearest in the illustration and mobile closed view.",
+            "Green seam interrupts at pale corner blocks; front clasp lower fittings are visually crowded.",
+            "Fine masonry edges alias at mobile scale; cloudy stone and coarse feet limit material realism."
+          ],
+          "id": "cambodia",
+          "inspected_paths": [
+            "parent/smoke/cambodia/desktop-closed.png",
+            "parent/smoke/cambodia/desktop-open.png",
+            "parent/smoke/cambodia/mobile-closed.png",
+            "parent/smoke/cambodia/mobile-open.png",
+            "parent/sources/cambodia/marketing.webp"
+          ],
+          "limitations": [
+            "Cream stone, opaque decorative water, generic architecture, flattened green details and olive seam are disclosed choices. Brighter/rippled promotional water is illustration treatment, not model water simulation.",
+            "Unchanged lightweight model reviewed against promotional illustration for visual relationship, not equivalence. Rendering polish differences are not automatically model defects.",
+            "Only supplied static viewpoints inspected; no proof of continuous collision freedom, hinge attachment, hidden geometry integrity, controls, performance, or physical-phone behavior. Apparent attachment gaps are unresolved visual ambiguities, not confirmed detached meshes.",
+            "Mobile secondary/status/disclaimer text is small; screenshot inspection does not establish accessibility contrast compliance.",
+            "No major missing visible panel or viewport clipping established. Candidate status is not art approval; existing user decisions remain holds."
+          ],
+          "observations": [
+            "Sandstone-colored masonry, stepped miniature, turquoise reservoir, brass round disc/ring/clasp and pebble feet are recognizable in model and illustration.",
+            "All desktop/mobile open/closed frames contain object and controls; open cavity is visible."
+          ],
+          "source_notice_path": "parent/sources/cambodia/source_readme.md",
+          "verdict": "candidate-with-limitations"
+        },
+        "report": "visual-a.json"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-08 review"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 78476,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/cambodia.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "Temple/pool major layout retained; tier detail and water rim differ, corner hardware darker.",
+          "reviewStatus": "reviewed_with_limitations",
+          "sha256": "f35d28205cb76bbb3b89352aa52dce3d2ece87b5544c09453494a8cd57501fae",
+          "source": "assets/gallery/cambodia.webp",
+          "sourceSha256": "36c725e7f75909f0f247eda8a6ecf3189fb285f0ccd51e6e13933d442f647368",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "f4eafdba61a092eebc2e2895197256bac41273dc3e5d5775650f499c5d542b2a"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_verdict": "pass",
+      "parent_visual": {
+        "decision": "pass",
+        "hardware": "Long brass clasp, round fitting, side ring, caps and stone feet present. Released latch expected open; no visible detached fittings or demonstrated structural gap.",
+        "limitations": [
+          "Opaque decorative water, flattened moss cushions, creamy palette and generic nonhistorical architecture explicitly disclosed. Pass is not promotional photoreal equivalence or water-simulation approval.",
+          "Review uses original full-size image files, not a composite. Static screenshots cannot verify hidden geometry, animation intersections, real material construction or performance. Promotional enhancements are not runtime-detail guarantees."
+        ],
+        "quality": "Cream sandstone masonry chest, stepped miniature and rectangular pool agree with promotional layout; complete desktop/mobile framing in both states.",
+        "terrain": "Generic stepped architecture and oval green cushions retained. Promotional rippling water becomes flat opaque turquoise inlay in runtime; substantial realism reduction but not a missing feature.",
+        "texture": "Cloudy cream mottling and ashlar joints visible; promotional weathering and pool highlights are enhanced, runtime lacks fine pores/water optics."
+      },
+      "parent_visual_hold_preserved": false,
+      "reviewed_image_hashes": [
+        {
+          "bytes": 78476,
+          "path": "sources/cambodia/marketing.webp",
+          "sha256": "f4eafdba61a092eebc2e2895197256bac41273dc3e5d5775650f499c5d542b2a"
+        },
+        {
+          "bytes": 366472,
+          "path": "smoke/cambodia/desktop-closed.png",
+          "sha256": "4cbe6ec37d3d23eba42edf3e404b08fd26fd8608e72537d582a6606b857d4fb4"
+        },
+        {
+          "bytes": 389914,
+          "path": "smoke/cambodia/desktop-open.png",
+          "sha256": "804e0aa033100dd0c7cdbd240cd6da5608b0f1629abb696f2afa85c5071ef28e"
+        },
+        {
+          "bytes": 119231,
+          "path": "smoke/cambodia/mobile-closed.png",
+          "sha256": "a4d4bf9d1f17891a70309b572bc6f3059d89d68fa7e745851d06ddb016b54f3d"
+        },
+        {
+          "bytes": 123664,
+          "path": "smoke/cambodia/mobile-open.png",
+          "sha256": "3d50d4ef54bf91237472d3f0611c0e75b1503bc2eb4619ba6e3d9e3f1bd79dc0"
+        }
+      ],
+      "selection": {
+        "commit": "44730fb2ae980db72880172c7803043cd3b36e6d",
+        "fetched_tip": "44730fb2ae980db72880172c7803043cd3b36e6d",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/cambodia-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 5508827,
+          "commit": "44730fb2ae980db72880172c7803043cd3b36e6d",
+          "crc_error": null,
+          "entries": 54,
+          "fresh_crc_safe_unique": true,
+          "fresh_inner_inventory_entries": 53,
+          "fresh_required_payloads": [
+            {
+              "member": "cambodia-v1.html",
+              "path": "preview/cambodia-v1/cambodia-v1.html",
+              "sha256": "22c2454fda18326ecccbc33ccecb32505b653a6eeb29d025d570eebc3c692b00"
+            },
+            {
+              "member": "cambodia.blend",
+              "path": "preview/cambodia-v1/cambodia.blend",
+              "sha256": "4d6478d1f69786bc42f65dbb30b42eb298fb0fbc85ec87f9477150499ae515a6"
+            },
+            {
+              "member": "cambodia.glb",
+              "path": "preview/cambodia-v1/cambodia.glb",
+              "sha256": "71e399b7880a4fad3a4b92d8976abb9354857128828f32f53922464fa1281fa4"
+            }
+          ],
+          "inventory_checked": true,
+          "inventory_entries": 53,
+          "inventory_mismatches": [],
+          "kind": "git",
+          "path": "preview/cambodia-v1/cambodia-v1-source.zip",
+          "required_payloads": {
+            "cambodia-v1.html": true,
+            "cambodia.blend": true,
+            "cambodia.glb": true
+          },
+          "safe_unique_paths": true,
+          "sha256": "39399a1e078eef3eae2e5eefb706aaa1ef05fc1aec2bdd54ea1bdc408950682f"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 479185,
+          "commit": "44730fb2ae980db72880172c7803043cd3b36e6d",
+          "path": "preview/cambodia-v1/cambodia.blend",
+          "role": "selected-model",
+          "sha256": "4d6478d1f69786bc42f65dbb30b42eb298fb0fbc85ec87f9477150499ae515a6"
+        },
+        {
+          "bytes": 2785720,
+          "commit": "44730fb2ae980db72880172c7803043cd3b36e6d",
+          "path": "preview/cambodia-v1/cambodia.glb",
+          "role": "selected-model",
+          "sha256": "71e399b7880a4fad3a4b92d8976abb9354857128828f32f53922464fa1281fa4",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 193,
+            "nodes": 195
+          }
+        }
+      ],
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 4497154,
+        "commit": "44730fb2ae980db72880172c7803043cd3b36e6d",
+        "path": "preview/cambodia-v1/cambodia-v1.html",
+        "sha256": "22c2454fda18326ecccbc33ccecb32505b653a6eeb29d025d570eebc3c692b00",
+        "under_5000000": true
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Cambodia",
+    "package_history": [
+      {
+        "bytes": 5508827,
+        "commit": "44730fb2ae980db72880172c7803043cd3b36e6d",
+        "crc_error": null,
+        "entries": 54,
+        "inventory_checked": true,
+        "inventory_entries": 53,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/cambodia-v1/cambodia-v1-source.zip",
+        "required_payloads": {
+          "cambodia-v1.html": true,
+          "cambodia.blend": true,
+          "cambodia.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "39399a1e078eef3eae2e5eefb706aaa1ef05fc1aec2bdd54ea1bdc408950682f"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "44730fb2ae980db72880172c7803043cd3b36e6d",
+      "fetched_tip": "44730fb2ae980db72880172c7803043cd3b36e6d",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/cambodia-v1"
+    },
+    "verdict": "candidate-with-limitations",
+    "viewer": {
+      "bytes": 4497154,
+      "commit": "44730fb2ae980db72880172c7803043cd3b36e6d",
+      "path": "preview/cambodia-v1/cambodia-v1.html",
+      "sha256": "22c2454fda18326ecccbc33ccecb32505b653a6eeb29d025d570eebc3c692b00",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "cambodia",
+    "baseline_verdict": "candidate-with-limitations",
+    "actions": [
+      "remaining ordinary finish inspection; do not edit promotional-only differences or infer broken model"
+    ],
+    "approval": false,
+    "original_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "capture_base": "parent/",
+      "captures": [
+        "smoke/cambodia/desktop-closed.png",
+        "smoke/cambodia/desktop-open.png",
+        "smoke/cambodia/mobile-closed.png",
+        "smoke/cambodia/mobile-open.png"
+      ],
+      "critical_reproducible_failures": [],
+      "final_approval": false,
+      "fresh_checks": {
+        "blender_parity_collision": false,
+        "fallback": false,
+        "full_inner_archive_inventories": true,
+        "motion": false,
+        "original_captures_and_marketing_inspected": true,
+        "runtime": false,
+        "source_and_delivered_viewer_hashes": true,
+        "source_archive_crc_safe_paths_required_payloads": true
+      },
+      "historical_runtime": {
+        "browser": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8729999624192715,
+                  2.8614999316632748,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 2785720,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 6,
+              "meshes": 193,
+              "nonfinite": 0,
+              "triangles": 39256
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "cambodia",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "22c2454fda18326ecccbc33ccecb32505b653a6eeb29d025d570eebc3c692b00"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8729999624192715,
+                  2.8614999316632748,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 2785720,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 6,
+              "meshes": 193,
+              "nonfinite": 0,
+              "triangles": 39256
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "cambodia",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "22c2454fda18326ecccbc33ccecb32505b653a6eeb29d025d570eebc3c692b00"
+          }
+        ],
+        "extended": {
+          "geometry": {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8729999624192715,
+                  2.8614999316632748,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 2785720,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 6,
+              "meshes": 193,
+              "nonfinite": 0,
+              "triangles": 39256
+            },
+            "meshes": 193,
+            "nonfinite": 0,
+            "triangles": 39256
+          },
+          "id": "cambodia",
+          "no_js_poster": true
+        },
+        "motion": {
+          "exit_code": 0,
+          "id": "cambodia",
+          "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+          "source": [
+            {
+              "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+              "path": "preview/albania-v1/tests.mjs",
+              "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+            },
+            {
+              "commit": "44730fb2ae980db72880172c7803043cd3b36e6d",
+              "path": "preview/cambodia-v1/motion.mjs",
+              "sha256": "9d118549fcdc1ff1d1fd8ebb6c6eb8a7a0da7fef8f0ae65ca947335407e74f03"
+            }
+          ]
+        },
+        "parent_commit": "431e51ffb5a8704b5f8f8b11694d28befae18402"
+      },
+      "id": "cambodia",
+      "independent_visual": {
+        "assessment": {
+          "concrete_defects": [
+            "Pool surround has uneven-looking narrow corner joins, clearest in the illustration and mobile closed view.",
+            "Green seam interrupts at pale corner blocks; front clasp lower fittings are visually crowded.",
+            "Fine masonry edges alias at mobile scale; cloudy stone and coarse feet limit material realism."
+          ],
+          "id": "cambodia",
+          "inspected_paths": [
+            "parent/smoke/cambodia/desktop-closed.png",
+            "parent/smoke/cambodia/desktop-open.png",
+            "parent/smoke/cambodia/mobile-closed.png",
+            "parent/smoke/cambodia/mobile-open.png",
+            "parent/sources/cambodia/marketing.webp"
+          ],
+          "limitations": [
+            "Cream stone, opaque decorative water, generic architecture, flattened green details and olive seam are disclosed choices. Brighter/rippled promotional water is illustration treatment, not model water simulation.",
+            "Unchanged lightweight model reviewed against promotional illustration for visual relationship, not equivalence. Rendering polish differences are not automatically model defects.",
+            "Only supplied static viewpoints inspected; no proof of continuous collision freedom, hinge attachment, hidden geometry integrity, controls, performance, or physical-phone behavior. Apparent attachment gaps are unresolved visual ambiguities, not confirmed detached meshes.",
+            "Mobile secondary/status/disclaimer text is small; screenshot inspection does not establish accessibility contrast compliance.",
+            "No major missing visible panel or viewport clipping established. Candidate status is not art approval; existing user decisions remain holds."
+          ],
+          "observations": [
+            "Sandstone-colored masonry, stepped miniature, turquoise reservoir, brass round disc/ring/clasp and pebble feet are recognizable in model and illustration.",
+            "All desktop/mobile open/closed frames contain object and controls; open cavity is visible."
+          ],
+          "source_notice_path": "parent/sources/cambodia/source_readme.md",
+          "verdict": "candidate-with-limitations"
+        },
+        "report": "visual-a.json"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-08 review"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 78476,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/cambodia.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "Temple/pool major layout retained; tier detail and water rim differ, corner hardware darker.",
+          "reviewStatus": "reviewed_with_limitations",
+          "sha256": "f35d28205cb76bbb3b89352aa52dce3d2ece87b5544c09453494a8cd57501fae",
+          "source": "assets/gallery/cambodia.webp",
+          "sourceSha256": "36c725e7f75909f0f247eda8a6ecf3189fb285f0ccd51e6e13933d442f647368",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "f4eafdba61a092eebc2e2895197256bac41273dc3e5d5775650f499c5d542b2a"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_verdict": "pass",
+      "parent_visual": {
+        "decision": "pass",
+        "hardware": "Long brass clasp, round fitting, side ring, caps and stone feet present. Released latch expected open; no visible detached fittings or demonstrated structural gap.",
+        "limitations": [
+          "Opaque decorative water, flattened moss cushions, creamy palette and generic nonhistorical architecture explicitly disclosed. Pass is not promotional photoreal equivalence or water-simulation approval.",
+          "Review uses original full-size image files, not a composite. Static screenshots cannot verify hidden geometry, animation intersections, real material construction or performance. Promotional enhancements are not runtime-detail guarantees."
+        ],
+        "quality": "Cream sandstone masonry chest, stepped miniature and rectangular pool agree with promotional layout; complete desktop/mobile framing in both states.",
+        "terrain": "Generic stepped architecture and oval green cushions retained. Promotional rippling water becomes flat opaque turquoise inlay in runtime; substantial realism reduction but not a missing feature.",
+        "texture": "Cloudy cream mottling and ashlar joints visible; promotional weathering and pool highlights are enhanced, runtime lacks fine pores/water optics."
+      },
+      "parent_visual_hold_preserved": false,
+      "reviewed_image_hashes": [
+        {
+          "bytes": 78476,
+          "path": "sources/cambodia/marketing.webp",
+          "sha256": "f4eafdba61a092eebc2e2895197256bac41273dc3e5d5775650f499c5d542b2a"
+        },
+        {
+          "bytes": 366472,
+          "path": "smoke/cambodia/desktop-closed.png",
+          "sha256": "4cbe6ec37d3d23eba42edf3e404b08fd26fd8608e72537d582a6606b857d4fb4"
+        },
+        {
+          "bytes": 389914,
+          "path": "smoke/cambodia/desktop-open.png",
+          "sha256": "804e0aa033100dd0c7cdbd240cd6da5608b0f1629abb696f2afa85c5071ef28e"
+        },
+        {
+          "bytes": 119231,
+          "path": "smoke/cambodia/mobile-closed.png",
+          "sha256": "a4d4bf9d1f17891a70309b572bc6f3059d89d68fa7e745851d06ddb016b54f3d"
+        },
+        {
+          "bytes": 123664,
+          "path": "smoke/cambodia/mobile-open.png",
+          "sha256": "3d50d4ef54bf91237472d3f0611c0e75b1503bc2eb4619ba6e3d9e3f1bd79dc0"
+        }
+      ],
+      "selection": {
+        "commit": "44730fb2ae980db72880172c7803043cd3b36e6d",
+        "fetched_tip": "44730fb2ae980db72880172c7803043cd3b36e6d",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/cambodia-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 5508827,
+          "commit": "44730fb2ae980db72880172c7803043cd3b36e6d",
+          "crc_error": null,
+          "entries": 54,
+          "fresh_crc_safe_unique": true,
+          "fresh_inner_inventory_entries": 53,
+          "fresh_required_payloads": [
+            {
+              "member": "cambodia-v1.html",
+              "path": "preview/cambodia-v1/cambodia-v1.html",
+              "sha256": "22c2454fda18326ecccbc33ccecb32505b653a6eeb29d025d570eebc3c692b00"
+            },
+            {
+              "member": "cambodia.blend",
+              "path": "preview/cambodia-v1/cambodia.blend",
+              "sha256": "4d6478d1f69786bc42f65dbb30b42eb298fb0fbc85ec87f9477150499ae515a6"
+            },
+            {
+              "member": "cambodia.glb",
+              "path": "preview/cambodia-v1/cambodia.glb",
+              "sha256": "71e399b7880a4fad3a4b92d8976abb9354857128828f32f53922464fa1281fa4"
+            }
+          ],
+          "inventory_checked": true,
+          "inventory_entries": 53,
+          "inventory_mismatches": [],
+          "kind": "git",
+          "path": "preview/cambodia-v1/cambodia-v1-source.zip",
+          "required_payloads": {
+            "cambodia-v1.html": true,
+            "cambodia.blend": true,
+            "cambodia.glb": true
+          },
+          "safe_unique_paths": true,
+          "sha256": "39399a1e078eef3eae2e5eefb706aaa1ef05fc1aec2bdd54ea1bdc408950682f"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 479185,
+          "commit": "44730fb2ae980db72880172c7803043cd3b36e6d",
+          "path": "preview/cambodia-v1/cambodia.blend",
+          "role": "selected-model",
+          "sha256": "4d6478d1f69786bc42f65dbb30b42eb298fb0fbc85ec87f9477150499ae515a6"
+        },
+        {
+          "bytes": 2785720,
+          "commit": "44730fb2ae980db72880172c7803043cd3b36e6d",
+          "path": "preview/cambodia-v1/cambodia.glb",
+          "role": "selected-model",
+          "sha256": "71e399b7880a4fad3a4b92d8976abb9354857128828f32f53922464fa1281fa4",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 193,
+            "nodes": 195
+          }
+        }
+      ],
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 4497154,
+        "commit": "44730fb2ae980db72880172c7803043cd3b36e6d",
+        "path": "preview/cambodia-v1/cambodia-v1.html",
+        "sha256": "22c2454fda18326ecccbc33ccecb32505b653a6eeb29d025d570eebc3c692b00",
+        "under_5000000": true
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 5508827,
+        "commit": "44730fb2ae980db72880172c7803043cd3b36e6d",
+        "crc_error": null,
+        "entries": 54,
+        "inventory_checked": true,
+        "inventory_entries": 53,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/cambodia-v1/cambodia-v1-source.zip",
+        "required_payloads": {
+          "cambodia-v1.html": true,
+          "cambodia.blend": true,
+          "cambodia.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "39399a1e078eef3eae2e5eefb706aaa1ef05fc1aec2bdd54ea1bdc408950682f"
+      }
+    ]
+  },
+  "ordinary_record": {
+    "id": "cambodia",
+    "disposition": "unchanged-with-explicit-limitations",
+    "correction_passes": 0,
+    "model_geometry_changed": false,
+    "final_approved": false,
+    "launch_ready": false,
+    "original_observations": [
+      "Pool surround has uneven-looking narrow corner joins, clearest in the illustration and mobile closed view.",
+      "Green seam interrupts at pale corner blocks; front clasp lower fittings are visually crowded.",
+      "Fine masonry edges alias at mobile scale; cloudy stone and coarse feet limit material realism."
+    ],
+    "independent_adjudication": {
+      "id": "cambodia",
+      "disposition": "no-edit",
+      "observation": "Pale stone courses, stepped temple, green trim and coherent open cavity are visible. Cyan pool reads opaque and simpler than marketing; gold and stone have flatter viewer illumination.",
+      "recommendation": "Keep still pool, stone grid and stepped geometry unchanged. Water realism and weathering are art-direction differences, not demonstrated shader errors. Only a separately confirmed wrong material assignment would justify a local material correction.",
+      "supersampling": "No particular sampling defect established; cannot turn the flat-looking pool into realistic water."
+    },
+    "unresolved_owner_holds": [
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "inherited_holds": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization",
+      "independent QA-ART-08 review"
+    ],
+    "original_review_preserved_in": "baseline.json",
+    "fresh_runtime": {
+      "id": "cambodia",
+      "exit_code": 0,
+      "shared_contract": "Bangladesh renderer-independent interaction assertions; no fresh source/collision claim",
+      "results": "launch\\ordinary-finish-20\\runtime\\cambodia\\browser-check.json"
+    },
+    "fresh_source_archive": {
+      "id": "cambodia",
+      "archives": [
+        {
+          "archive": {
+            "bytes": 5508827,
+            "commit": "44730fb2ae980db72880172c7803043cd3b36e6d",
+            "crc_error": null,
+            "entries": 54,
+            "fresh_crc_safe_unique": true,
+            "fresh_inner_inventory_entries": 53,
+            "fresh_required_payloads": [
+              {
+                "member": "cambodia-v1.html",
+                "path": "preview/cambodia-v1/cambodia-v1.html",
+                "sha256": "22c2454fda18326ecccbc33ccecb32505b653a6eeb29d025d570eebc3c692b00"
+              },
+              {
+                "member": "cambodia.blend",
+                "path": "preview/cambodia-v1/cambodia.blend",
+                "sha256": "4d6478d1f69786bc42f65dbb30b42eb298fb0fbc85ec87f9477150499ae515a6"
+              },
+              {
+                "member": "cambodia.glb",
+                "path": "preview/cambodia-v1/cambodia.glb",
+                "sha256": "71e399b7880a4fad3a4b92d8976abb9354857128828f32f53922464fa1281fa4"
+              }
+            ],
+            "inventory_checked": true,
+            "inventory_entries": 53,
+            "inventory_mismatches": [],
+            "kind": "git",
+            "path": "preview/cambodia-v1/cambodia-v1-source.zip",
+            "required_payloads": {
+              "cambodia-v1.html": true,
+              "cambodia.blend": true,
+              "cambodia.glb": true
+            },
+            "safe_unique_paths": true,
+            "sha256": "39399a1e078eef3eae2e5eefb706aaa1ef05fc1aec2bdd54ea1bdc408950682f"
+          },
+          "members": 54,
+          "fresh_inventory": {
+            "status": "pass",
+            "entries_checked": 53,
+            "uninventoried_members": [
+              "inventory.json"
+            ]
+          },
+          "exact_selected_payloads": [
+            "cambodia-v1.html",
+            "cambodia.blend",
+            "cambodia.glb"
+          ]
+        }
+      ],
+      "pass": true
+    },
+    "remaining_visual_limitations": "Pale stone courses, stepped temple, green trim and coherent open cavity are visible. Cyan pool reads opaque and simpler than marketing; gold and stone have flatter viewer illumination."
+  }
+}

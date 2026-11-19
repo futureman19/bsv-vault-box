@@ -1,0 +1,659 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 6,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 917872,
+        "role": "editable-source",
+        "sha256": "95e2d751fe6fb8f1c2b68ff1997556b922f83f11f19a4e7c97d85d63e0d47144",
+        "source": {
+          "commit": "01596c091dbc1890a3147ff8af1a1cfa4a713899",
+          "path": "preview/luxembourg-v1/luxembourg.blend"
+        },
+        "uri": "sha256:95e2d751fe6fb8f1c2b68ff1997556b922f83f11f19a4e7c97d85d63e0d47144"
+      },
+      {
+        "bytes": 8419491,
+        "role": "historical-source-archive",
+        "sha256": "40a79e4a929cbb414fa1ebb77300b48ea73a74a0a8a25a7d5f6fc549ad935691",
+        "source": {
+          "commit": "01596c091dbc1890a3147ff8af1a1cfa4a713899",
+          "kind": "git",
+          "path": "preview/luxembourg-v1/luxembourg-v1-source.zip"
+        },
+        "uri": "sha256:40a79e4a929cbb414fa1ebb77300b48ea73a74a0a8a25a7d5f6fc549ad935691"
+      },
+      {
+        "bytes": 1761164,
+        "role": "model",
+        "sha256": "f2766ec492e6e915f1df6c0b660b1cbcab362ef198205c28ff526bc299118ead",
+        "source": {
+          "commit": "01596c091dbc1890a3147ff8af1a1cfa4a713899",
+          "path": "preview/luxembourg-v1/luxembourg.glb"
+        },
+        "uri": "sha256:f2766ec492e6e915f1df6c0b660b1cbcab362ef198205c28ff526bc299118ead"
+      },
+      {
+        "bytes": 61876,
+        "role": "promotional-illustration",
+        "sha256": "ebecac4001545b3fbbb24f53030601425893effe579c18ae115eccc46c0a6e2a",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/luxembourg.webp"
+        },
+        "uri": "sha256:ebecac4001545b3fbbb24f53030601425893effe579c18ae115eccc46c0a6e2a"
+      },
+      {
+        "bytes": 3259,
+        "role": "research-brief",
+        "sha256": "a4f3fd763d8bb232684a2a5c840d969b22a2208d78e567ecdbfcaa4c37586de4",
+        "source": {
+          "commit": "01596c091dbc1890a3147ff8af1a1cfa4a713899",
+          "path": "preview/luxembourg-v1/design-brief.md"
+        },
+        "uri": "sha256:a4f3fd763d8bb232684a2a5c840d969b22a2208d78e567ecdbfcaa4c37586de4"
+      },
+      {
+        "bytes": 5863,
+        "role": "source-notice",
+        "sha256": "5c90ba2900f16688d8bc2ab8d83bdc39fd920667ee9218a6cd0d1c7103d2a0a7",
+        "source": {
+          "commit": "01596c091dbc1890a3147ff8af1a1cfa4a713899",
+          "path": "preview/luxembourg-v1/README.md"
+        },
+        "uri": "sha256:5c90ba2900f16688d8bc2ab8d83bdc39fd920667ee9218a6cd0d1c7103d2a0a7"
+      },
+      {
+        "bytes": 3123852,
+        "role": "viewer",
+        "sha256": "07e578dec606189bc56d3cba7d13b626defd7ee944c8cfd6a6802440dd49b06a",
+        "source": {
+          "commit": "01596c091dbc1890a3147ff8af1a1cfa4a713899",
+          "path": "preview/luxembourg-v1/luxembourg-v1.html"
+        },
+        "uri": "sha256:07e578dec606189bc56d3cba7d13b626defd7ee944c8cfd6a6802440dd49b06a"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "luxembourg",
+    "independent_review": {
+      "adjudication": "Candidate with disclosed finish limitations, not final user approval.",
+      "art_changed": false,
+      "critical_reproducible_defects": [],
+      "fresh_blender_reopen": false,
+      "fresh_browser": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.604963541030884,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.2200000062584877,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1761164,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 5,
+            "meshes": 76,
+            "nonfinite": 0,
+            "triangles": 15656
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "luxembourg",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "07e578dec606189bc56d3cba7d13b626defd7ee944c8cfd6a6802440dd49b06a"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.604963541030884,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.2200000062584877,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1761164,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 5,
+            "meshes": 76,
+            "nonfinite": 0,
+            "triangles": 15656
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "luxembourg",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "07e578dec606189bc56d3cba7d13b626defd7ee944c8cfd6a6802440dd49b06a"
+        }
+      ],
+      "fresh_collision_sampling": false,
+      "fresh_corrupt_glb_fallback": false,
+      "fresh_motion": {
+        "exit_code": 0,
+        "id": "luxembourg",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "01596c091dbc1890a3147ff8af1a1cfa4a713899",
+            "path": "preview/luxembourg-v1/motion.mjs",
+            "sha256": "d61544de9b41521a7b14e81a5e9867ce0fcc387f8852ce57490031b84bf2150e"
+          }
+        ]
+      },
+      "fresh_nojs": false,
+      "id": "luxembourg",
+      "independent_visual": {
+        "file": "visual-3.json",
+        "findings": {
+          "approved": false,
+          "artistic_gaps": [
+            "Fern-lined ravine concept remains sparse and emblematic, with weak plant density and no convincing fine frond structure.",
+            "Repeated bands and angular formations limit geological realism, though some material ambiguity is already present in the source.",
+            "Uniform stone and clean brass lack fine erosion and surface variation."
+          ],
+          "final_views": [
+            {
+              "file": "smoke/luxembourg/desktop-closed.png",
+              "observations": "Two layered formations, small turquoise accent and sparse plants remain visible. Uniform pale horizontal bands resemble stacked sheets or wood grain. Wiry plants do not convincingly read as fern fronds; all parts fit."
+            },
+            {
+              "file": "smoke/luxembourg/desktop-open.png",
+              "observations": "Pale banded underside and empty cream cavity with green trim are visible. Upper brass tab appears detached from this angle and lower lid gap makes hinge connection visually weak; attachment remains unconfirmed, not a proven mesh failure."
+            },
+            {
+              "file": "smoke/luxembourg/mobile-closed.png",
+              "observations": "Complete chest, wrapped title and buttons fit. Viewer has ample vertical whitespace; small fern and water details are difficult to resolve. Secondary text is fine."
+            },
+            {
+              "file": "smoke/luxembourg/mobile-open.png",
+              "observations": "Lid, projecting tab, cavity and feet remain framed. Repeating wavy bands are conspicuous and diagonal edges slightly jagged. Close lid state label matches the open view."
+            }
+          ],
+          "follow_up": "Candidate with explicit material/vegetation limitations. Resolve apparent upper-tab detachment and hinge seating in close-up before approval; static views alone cannot settle attachment.",
+          "id": "luxembourg",
+          "recommendation": "candidate-with-limitations",
+          "reference": {
+            "dimensions": [
+              1072,
+              976
+            ],
+            "file": "sources/luxembourg/marketing.webp",
+            "observations": "Warm ivory fine-grained chest, pale block feet, emerald seam, brass clasp/disc/ring/caps. Two pale stepped formations, delicate green sprigs and turquoise water-like inset; even the reference can read as wood or architectural miniature rather than sandstone."
+          }
+        }
+      },
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 61876,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/luxembourg.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "Reviewed source pair. High broad fidelity, minor contrast texture and contour differences; exact pixel/mini-detail match not claimed.",
+          "reviewStatus": "reviewed",
+          "sha256": "931047d57369ff5700348ec23a83a2a1e335fa025d4cde6747f0a5fdb3a1a56c",
+          "source": "assets/gallery/luxembourg.webp",
+          "sourceSha256": "25533029872352ecabbacec8bf9cabf667038264d8c454f14f9df4fe842a0014",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "ebecac4001545b3fbbb24f53030601425893effe579c18ae115eccc46c0a6e2a"
+      },
+      "original_capture_paths": [
+        "parent/smoke/luxembourg/desktop-closed.png",
+        "parent/smoke/luxembourg/desktop-open.png",
+        "parent/smoke/luxembourg/mobile-closed.png",
+        "parent/smoke/luxembourg/mobile-open.png"
+      ],
+      "packaging_hold": false,
+      "parent_decision": "Pass as a disclosed stylized candidate, with fern and sandstone readability caveats. No blocking visible geometry or cross-device mismatch established; not user approval or marketing-equivalence certification.",
+      "parent_missing_gates_preserved": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_quality": "Consistent, fully framed pale landscape chest in all four original captures. The exact marketing reference is itself stylized and stepped; runtime simplification should not be mistaken for loss of a photoreal reference terrain.",
+      "parent_status": "pass",
+      "remaining_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-06 review"
+      ],
+      "selection": {
+        "commit": "01596c091dbc1890a3147ff8af1a1cfa4a713899",
+        "fetched_tip": "01596c091dbc1890a3147ff8af1a1cfa4a713899",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/luxembourg-v1"
+      },
+      "source_archive_check": {
+        "archive": {
+          "bytes": 8419491,
+          "crc": "pass",
+          "entries": 56,
+          "mismatches": [],
+          "path": "preview/luxembourg-v1/luxembourg-v1-source.zip",
+          "required_payload_hashes": "pass",
+          "sha256": "40a79e4a929cbb414fa1ebb77300b48ea73a74a0a8a25a7d5f6fc549ad935691"
+        },
+        "id": "luxembourg",
+        "internal_inventory": "pass",
+        "inventory_entries_checked": 55,
+        "selected_payload_match": "pass"
+      },
+      "source_archives": [
+        {
+          "bytes": 8419491,
+          "crc": "pass",
+          "entries": 56,
+          "mismatches": [],
+          "path": "preview/luxembourg-v1/luxembourg-v1-source.zip",
+          "required_payload_hashes": "pass",
+          "sha256": "40a79e4a929cbb414fa1ebb77300b48ea73a74a0a8a25a7d5f6fc549ad935691"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 917872,
+          "path": "preview/luxembourg-v1/luxembourg.blend",
+          "sha256": "95e2d751fe6fb8f1c2b68ff1997556b922f83f11f19a4e7c97d85d63e0d47144"
+        },
+        {
+          "bytes": 1761164,
+          "path": "preview/luxembourg-v1/luxembourg.glb",
+          "sha256": "f2766ec492e6e915f1df6c0b660b1cbcab362ef198205c28ff526bc299118ead"
+        }
+      ],
+      "user_final_approved": false,
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 3123852,
+        "commit": "01596c091dbc1890a3147ff8af1a1cfa4a713899",
+        "path": "preview/luxembourg-v1/luxembourg-v1.html",
+        "sha256": "07e578dec606189bc56d3cba7d13b626defd7ee944c8cfd6a6802440dd49b06a",
+        "under_5000000": true
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Luxembourg",
+    "package_history": [
+      {
+        "bytes": 8419491,
+        "commit": "01596c091dbc1890a3147ff8af1a1cfa4a713899",
+        "crc_error": null,
+        "entries": 56,
+        "inventory_checked": true,
+        "inventory_entries": 55,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/luxembourg-v1/luxembourg-v1-source.zip",
+        "required_payloads": {
+          "luxembourg-v1.html": true,
+          "luxembourg.blend": true,
+          "luxembourg.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "40a79e4a929cbb414fa1ebb77300b48ea73a74a0a8a25a7d5f6fc549ad935691"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "01596c091dbc1890a3147ff8af1a1cfa4a713899",
+      "fetched_tip": "01596c091dbc1890a3147ff8af1a1cfa4a713899",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/luxembourg-v1"
+    },
+    "verdict": "candidate-with-limitations",
+    "viewer": {
+      "bytes": 3123852,
+      "commit": "01596c091dbc1890a3147ff8af1a1cfa4a713899",
+      "path": "preview/luxembourg-v1/luxembourg-v1.html",
+      "sha256": "07e578dec606189bc56d3cba7d13b626defd7ee944c8cfd6a6802440dd49b06a",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "luxembourg",
+    "baseline_verdict": "candidate-with-limitations",
+    "actions": [
+      "owner art/finish acceptance; no proven runtime defect recorded; no autonomous redesign"
+    ],
+    "approval": false,
+    "original_review": {
+      "adjudication": "Candidate with disclosed finish limitations, not final user approval.",
+      "art_changed": false,
+      "critical_reproducible_defects": [],
+      "fresh_blender_reopen": false,
+      "fresh_browser": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.604963541030884,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.2200000062584877,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1761164,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 5,
+            "meshes": 76,
+            "nonfinite": 0,
+            "triangles": 15656
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "luxembourg",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "07e578dec606189bc56d3cba7d13b626defd7ee944c8cfd6a6802440dd49b06a"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.604963541030884,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.2200000062584877,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1761164,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 5,
+            "meshes": 76,
+            "nonfinite": 0,
+            "triangles": 15656
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "luxembourg",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "07e578dec606189bc56d3cba7d13b626defd7ee944c8cfd6a6802440dd49b06a"
+        }
+      ],
+      "fresh_collision_sampling": false,
+      "fresh_corrupt_glb_fallback": false,
+      "fresh_motion": {
+        "exit_code": 0,
+        "id": "luxembourg",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "01596c091dbc1890a3147ff8af1a1cfa4a713899",
+            "path": "preview/luxembourg-v1/motion.mjs",
+            "sha256": "d61544de9b41521a7b14e81a5e9867ce0fcc387f8852ce57490031b84bf2150e"
+          }
+        ]
+      },
+      "fresh_nojs": false,
+      "id": "luxembourg",
+      "independent_visual": {
+        "file": "visual-3.json",
+        "findings": {
+          "approved": false,
+          "artistic_gaps": [
+            "Fern-lined ravine concept remains sparse and emblematic, with weak plant density and no convincing fine frond structure.",
+            "Repeated bands and angular formations limit geological realism, though some material ambiguity is already present in the source.",
+            "Uniform stone and clean brass lack fine erosion and surface variation."
+          ],
+          "final_views": [
+            {
+              "file": "smoke/luxembourg/desktop-closed.png",
+              "observations": "Two layered formations, small turquoise accent and sparse plants remain visible. Uniform pale horizontal bands resemble stacked sheets or wood grain. Wiry plants do not convincingly read as fern fronds; all parts fit."
+            },
+            {
+              "file": "smoke/luxembourg/desktop-open.png",
+              "observations": "Pale banded underside and empty cream cavity with green trim are visible. Upper brass tab appears detached from this angle and lower lid gap makes hinge connection visually weak; attachment remains unconfirmed, not a proven mesh failure."
+            },
+            {
+              "file": "smoke/luxembourg/mobile-closed.png",
+              "observations": "Complete chest, wrapped title and buttons fit. Viewer has ample vertical whitespace; small fern and water details are difficult to resolve. Secondary text is fine."
+            },
+            {
+              "file": "smoke/luxembourg/mobile-open.png",
+              "observations": "Lid, projecting tab, cavity and feet remain framed. Repeating wavy bands are conspicuous and diagonal edges slightly jagged. Close lid state label matches the open view."
+            }
+          ],
+          "follow_up": "Candidate with explicit material/vegetation limitations. Resolve apparent upper-tab detachment and hinge seating in close-up before approval; static views alone cannot settle attachment.",
+          "id": "luxembourg",
+          "recommendation": "candidate-with-limitations",
+          "reference": {
+            "dimensions": [
+              1072,
+              976
+            ],
+            "file": "sources/luxembourg/marketing.webp",
+            "observations": "Warm ivory fine-grained chest, pale block feet, emerald seam, brass clasp/disc/ring/caps. Two pale stepped formations, delicate green sprigs and turquoise water-like inset; even the reference can read as wood or architectural miniature rather than sandstone."
+          }
+        }
+      },
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 61876,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/luxembourg.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "Reviewed source pair. High broad fidelity, minor contrast texture and contour differences; exact pixel/mini-detail match not claimed.",
+          "reviewStatus": "reviewed",
+          "sha256": "931047d57369ff5700348ec23a83a2a1e335fa025d4cde6747f0a5fdb3a1a56c",
+          "source": "assets/gallery/luxembourg.webp",
+          "sourceSha256": "25533029872352ecabbacec8bf9cabf667038264d8c454f14f9df4fe842a0014",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "ebecac4001545b3fbbb24f53030601425893effe579c18ae115eccc46c0a6e2a"
+      },
+      "original_capture_paths": [
+        "parent/smoke/luxembourg/desktop-closed.png",
+        "parent/smoke/luxembourg/desktop-open.png",
+        "parent/smoke/luxembourg/mobile-closed.png",
+        "parent/smoke/luxembourg/mobile-open.png"
+      ],
+      "packaging_hold": false,
+      "parent_decision": "Pass as a disclosed stylized candidate, with fern and sandstone readability caveats. No blocking visible geometry or cross-device mismatch established; not user approval or marketing-equivalence certification.",
+      "parent_missing_gates_preserved": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_quality": "Consistent, fully framed pale landscape chest in all four original captures. The exact marketing reference is itself stylized and stepped; runtime simplification should not be mistaken for loss of a photoreal reference terrain.",
+      "parent_status": "pass",
+      "remaining_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-06 review"
+      ],
+      "selection": {
+        "commit": "01596c091dbc1890a3147ff8af1a1cfa4a713899",
+        "fetched_tip": "01596c091dbc1890a3147ff8af1a1cfa4a713899",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/luxembourg-v1"
+      },
+      "source_archive_check": {
+        "archive": {
+          "bytes": 8419491,
+          "crc": "pass",
+          "entries": 56,
+          "mismatches": [],
+          "path": "preview/luxembourg-v1/luxembourg-v1-source.zip",
+          "required_payload_hashes": "pass",
+          "sha256": "40a79e4a929cbb414fa1ebb77300b48ea73a74a0a8a25a7d5f6fc549ad935691"
+        },
+        "id": "luxembourg",
+        "internal_inventory": "pass",
+        "inventory_entries_checked": 55,
+        "selected_payload_match": "pass"
+      },
+      "source_archives": [
+        {
+          "bytes": 8419491,
+          "crc": "pass",
+          "entries": 56,
+          "mismatches": [],
+          "path": "preview/luxembourg-v1/luxembourg-v1-source.zip",
+          "required_payload_hashes": "pass",
+          "sha256": "40a79e4a929cbb414fa1ebb77300b48ea73a74a0a8a25a7d5f6fc549ad935691"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 917872,
+          "path": "preview/luxembourg-v1/luxembourg.blend",
+          "sha256": "95e2d751fe6fb8f1c2b68ff1997556b922f83f11f19a4e7c97d85d63e0d47144"
+        },
+        {
+          "bytes": 1761164,
+          "path": "preview/luxembourg-v1/luxembourg.glb",
+          "sha256": "f2766ec492e6e915f1df6c0b660b1cbcab362ef198205c28ff526bc299118ead"
+        }
+      ],
+      "user_final_approved": false,
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 3123852,
+        "commit": "01596c091dbc1890a3147ff8af1a1cfa4a713899",
+        "path": "preview/luxembourg-v1/luxembourg-v1.html",
+        "sha256": "07e578dec606189bc56d3cba7d13b626defd7ee944c8cfd6a6802440dd49b06a",
+        "under_5000000": true
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 8419491,
+        "commit": "01596c091dbc1890a3147ff8af1a1cfa4a713899",
+        "crc_error": null,
+        "entries": 56,
+        "inventory_checked": true,
+        "inventory_entries": 55,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/luxembourg-v1/luxembourg-v1-source.zip",
+        "required_payloads": {
+          "luxembourg-v1.html": true,
+          "luxembourg.blend": true,
+          "luxembourg.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "40a79e4a929cbb414fa1ebb77300b48ea73a74a0a8a25a7d5f6fc549ad935691"
+      }
+    ]
+  }
+}

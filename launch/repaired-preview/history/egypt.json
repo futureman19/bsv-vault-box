@@ -1,0 +1,735 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 5,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 708649,
+        "role": "editable-source",
+        "sha256": "9a19df585a660ea57d97af9474d59eb6061571157d700f06ebbbf7764007a302",
+        "source": {
+          "commit": "5c9180bf5f4c6d49e3238bc3134eccaa614b0dc6",
+          "path": "preview/egypt-v1/egypt.blend"
+        },
+        "uri": "sha256:9a19df585a660ea57d97af9474d59eb6061571157d700f06ebbbf7764007a302"
+      },
+      {
+        "bytes": 6652024,
+        "role": "historical-source-archive",
+        "sha256": "6c1a6bfe2dcb99774ae7a92a5408aa598ad54871788e7c65650c82b37ae970e0",
+        "source": {
+          "commit": "5c9180bf5f4c6d49e3238bc3134eccaa614b0dc6",
+          "kind": "git",
+          "path": "preview/egypt-v1/egypt-v1-source.zip"
+        },
+        "uri": "sha256:6c1a6bfe2dcb99774ae7a92a5408aa598ad54871788e7c65650c82b37ae970e0"
+      },
+      {
+        "bytes": 1467052,
+        "role": "model",
+        "sha256": "8ac8debb206f12277a50b536410ccee64e83616626f404d40aff27a9b875356f",
+        "source": {
+          "commit": "5c9180bf5f4c6d49e3238bc3134eccaa614b0dc6",
+          "path": "preview/egypt-v1/egypt.glb"
+        },
+        "uri": "sha256:8ac8debb206f12277a50b536410ccee64e83616626f404d40aff27a9b875356f"
+      },
+      {
+        "bytes": 57110,
+        "role": "promotional-illustration",
+        "sha256": "4d5a52fdbb2e4e87c2821ba22a48407026e1f5e64647f44aec23819dcd87a996",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/egypt.webp"
+        },
+        "uri": "sha256:4d5a52fdbb2e4e87c2821ba22a48407026e1f5e64647f44aec23819dcd87a996"
+      },
+      {
+        "bytes": 3554,
+        "role": "research-brief",
+        "sha256": "3893ce9e4b3b9ca5ccb4e07b8d49ebca68480f3209f5fb40271af7c7d9bed5a9",
+        "source": {
+          "commit": "5c9180bf5f4c6d49e3238bc3134eccaa614b0dc6",
+          "path": "preview/egypt-v1/design-brief.md"
+        },
+        "uri": "sha256:3893ce9e4b3b9ca5ccb4e07b8d49ebca68480f3209f5fb40271af7c7d9bed5a9"
+      },
+      {
+        "bytes": 3608,
+        "role": "source-notice",
+        "sha256": "b155c79d7c967f8ec0350835531eb17e3ba06e69cb877123c10c755bb370c4d5",
+        "source": {
+          "commit": "5c9180bf5f4c6d49e3238bc3134eccaa614b0dc6",
+          "path": "preview/egypt-v1/README.md"
+        },
+        "uri": "sha256:b155c79d7c967f8ec0350835531eb17e3ba06e69cb877123c10c755bb370c4d5"
+      },
+      {
+        "bytes": 2693785,
+        "role": "viewer",
+        "sha256": "0e6d4f04bc516c347c204639a2f801a07009d47aa6b14f4890c5fb990a2b1717",
+        "source": {
+          "commit": "5c9180bf5f4c6d49e3238bc3134eccaa614b0dc6",
+          "path": "preview/egypt-v1/egypt-v1.html"
+        },
+        "uri": "sha256:0e6d4f04bc516c347c204639a2f801a07009d47aa6b14f4890c5fb990a2b1717"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "egypt",
+    "independent_review": {
+      "art_changed": false,
+      "fresh_checks": {
+        "archives": [
+          {
+            "bytes": 6652024,
+            "crc_safe_unique": true,
+            "entries": 50,
+            "full_inner_inventory_rerun": false,
+            "path": "preview/egypt-v1/egypt-v1-source.zip",
+            "required_payloads": [
+              {
+                "archive_members": [
+                  "egypt-v1.html"
+                ],
+                "exact_match": true,
+                "path": "preview/egypt-v1/egypt-v1.html"
+              },
+              {
+                "archive_members": [
+                  "egypt.blend"
+                ],
+                "exact_match": true,
+                "path": "preview/egypt-v1/egypt.blend"
+              },
+              {
+                "archive_members": [
+                  "egypt.glb"
+                ],
+                "exact_match": true,
+                "path": "preview/egypt-v1/egypt.glb"
+              }
+            ],
+            "sha256": "6c1a6bfe2dcb99774ae7a92a5408aa598ad54871788e7c65650c82b37ae970e0"
+          }
+        ],
+        "art_changed": false,
+        "id": "egypt",
+        "models": [
+          {
+            "bytes": 708649,
+            "commit": "5c9180bf5f4c6d49e3238bc3134eccaa614b0dc6",
+            "path": "preview/egypt-v1/egypt.blend",
+            "role": "selected-model",
+            "sha256": "9a19df585a660ea57d97af9474d59eb6061571157d700f06ebbbf7764007a302"
+          },
+          {
+            "bytes": 1467052,
+            "commit": "5c9180bf5f4c6d49e3238bc3134eccaa614b0dc6",
+            "path": "preview/egypt-v1/egypt.glb",
+            "role": "selected-model",
+            "sha256": "8ac8debb206f12277a50b536410ccee64e83616626f404d40aff27a9b875356f",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 63,
+              "nodes": 65
+            }
+          }
+        ],
+        "parent_package_holds": [],
+        "viewer": {
+          "bytes": 2693785,
+          "commit": "5c9180bf5f4c6d49e3238bc3134eccaa614b0dc6",
+          "path": "preview/egypt-v1/egypt-v1.html",
+          "sha256": "0e6d4f04bc516c347c204639a2f801a07009d47aa6b14f4890c5fb990a2b1717",
+          "under_5000000": true
+        }
+      },
+      "historical_runtime_only": true,
+      "id": "egypt",
+      "inspected_images": [
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/egypt/desktop-closed.png",
+          "sha256": "2ef31ef01b1b6fa409c5c16ef8e496903abad44482a1bd90d40afe1f5926ec6c"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/egypt/desktop-open.png",
+          "sha256": "9773d945c63dcb49406f9a83fef21a6d50397188a735015b2e5f4c5448c03d2b"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/egypt/mobile-closed.png",
+          "sha256": "6c52ccadef6c7960332c1300db3c5181f03992a663960266083df9dacd67a102"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/egypt/mobile-open.png",
+          "sha256": "d95fd267553041cdb02539f22252217aebf5e5b5939650f3671977b405967d28"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "sources/egypt/marketing.webp",
+          "sha256": "4d5a52fdbb2e4e87c2821ba22a48407026e1f5e64647f44aec23819dcd87a996"
+        }
+      ],
+      "launch_ready": false,
+      "missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "package_holds": [],
+      "parent_reason": "Original captures retain the three-pyramid identity and coherent closed/open chest; visible rim junctions do not establish a broken mesh or justify treating finish differences as structural failure.",
+      "review_complete": true,
+      "source_record": {
+        "approval": {
+          "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+          "prior_approved_baseline": null,
+          "status": "candidate-not-final-approved",
+          "user_final_approved": false
+        },
+        "category": "Country",
+        "delivered_viewer": {
+          "bytes": 2693785,
+          "exists": true,
+          "matches_selected_commit": true,
+          "path": "C:\\Users\\futur\\.hermes\\profiles\\telegram2\\output\\boxsv-collection-review\\viewers\\egypt.html",
+          "sha256": "0e6d4f04bc516c347c204639a2f801a07009d47aa6b14f4890c5fb990a2b1717"
+        },
+        "edition_supply": 1,
+        "id": "egypt",
+        "launch_ready": false,
+        "legacy_review_viewer": {
+          "bytes": 2693785,
+          "commit": "5c9180bf5f4c6d49e3238bc3134eccaa614b0dc6",
+          "path": "viewers/egypt.html",
+          "sha256": "0e6d4f04bc516c347c204639a2f801a07009d47aa6b14f4890c5fb990a2b1717",
+          "source_path": "preview/egypt-v1/egypt-v1.html"
+        },
+        "marketing": {
+          "bytes": 57110,
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "dimensions": [
+            1072,
+            976
+          ],
+          "image_type": "Promotional art",
+          "matches_gallery_inventory": true,
+          "not_model_approval": true,
+          "path": "docs/assets/gallery/egypt.webp",
+          "provenance": {
+            "exactModelEquivalenceClaimed": false,
+            "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+            "model": "grok-imagine-image",
+            "nativeDimensions": [
+              1072,
+              976
+            ],
+            "provider": "xai",
+            "reviewNotes": "Three pyramids, cream strata and blue trim retained.",
+            "reviewStatus": "accepted",
+            "sha256": "7353f1a03bc970048afbcb195b421698f47363b38b442dbbd63fcbd1eaeafa97",
+            "source": "assets/gallery/egypt.webp",
+            "sourceSha256": "2814acb53fbfebc0c14334eed10432f40a48de52aabcee6606fa52a50841c065",
+            "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+          },
+          "sha256": "4d5a52fdbb2e4e87c2821ba22a48407026e1f5e64647f44aec23819dcd87a996"
+        },
+        "missing_gates": [
+          "independent-current-model-visual-review",
+          "explicit-final-user-art-approval",
+          "fresh-full-source-and-browser-acceptance",
+          "storage-and-preservation-policy",
+          "mint-and-release-authorization"
+        ],
+        "model_sources": [
+          {
+            "bytes": 708649,
+            "commit": "5c9180bf5f4c6d49e3238bc3134eccaa614b0dc6",
+            "path": "preview/egypt-v1/egypt.blend",
+            "role": "selected-model",
+            "sha256": "9a19df585a660ea57d97af9474d59eb6061571157d700f06ebbbf7764007a302"
+          },
+          {
+            "bytes": 1467052,
+            "commit": "5c9180bf5f4c6d49e3238bc3134eccaa614b0dc6",
+            "path": "preview/egypt-v1/egypt.glb",
+            "role": "selected-model",
+            "sha256": "8ac8debb206f12277a50b536410ccee64e83616626f404d40aff27a9b875356f",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 63,
+              "nodes": 65
+            }
+          }
+        ],
+        "name": "Egypt",
+        "provenance": {
+          "readme_snapshot": "source-notes/egypt.md",
+          "research_brief": {
+            "bytes": 3554,
+            "commit": "5c9180bf5f4c6d49e3238bc3134eccaa614b0dc6",
+            "path": "preview/egypt-v1/design-brief.md",
+            "sha256": "3893ce9e4b3b9ca5ccb4e07b8d49ebca68480f3209f5fb40271af7c7d9bed5a9"
+          },
+          "source_readme": {
+            "bytes": 3608,
+            "commit": "5c9180bf5f4c6d49e3238bc3134eccaa614b0dc6",
+            "path": "preview/egypt-v1/README.md",
+            "sha256": "b155c79d7c967f8ec0350835531eb17e3ba06e69cb877123c10c755bb370c4d5"
+          }
+        },
+        "qa": {
+          "evidence_path": "qa/egypt.json",
+          "fresh_runtime_execution": false,
+          "historical_report_count": 7
+        },
+        "selection": {
+          "commit": "5c9180bf5f4c6d49e3238bc3134eccaa614b0dc6",
+          "fetched_tip": "5c9180bf5f4c6d49e3238bc3134eccaa614b0dc6",
+          "reachable_from_fetched_ref": true,
+          "remote_ref": "origin/art/egypt-v1"
+        },
+        "source_archives": [
+          {
+            "bytes": 6652024,
+            "commit": "5c9180bf5f4c6d49e3238bc3134eccaa614b0dc6",
+            "crc_error": null,
+            "entries": 50,
+            "inventory_checked": true,
+            "inventory_entries": 49,
+            "inventory_mismatches": [],
+            "kind": "git",
+            "path": "preview/egypt-v1/egypt-v1-source.zip",
+            "required_payloads": {
+              "egypt-v1.html": true,
+              "egypt.blend": true,
+              "egypt.glb": true
+            },
+            "safe_unique_paths": true,
+            "sha256": "6c1a6bfe2dcb99774ae7a92a5408aa598ad54871788e7c65650c82b37ae970e0"
+          }
+        ],
+        "version": "egypt-v1",
+        "viewer": {
+          "bytes": 2693785,
+          "commit": "5c9180bf5f4c6d49e3238bc3134eccaa614b0dc6",
+          "path": "preview/egypt-v1/egypt-v1.html",
+          "sha256": "0e6d4f04bc516c347c204639a2f801a07009d47aa6b14f4890c5fb990a2b1717",
+          "under_5000000": true
+        },
+        "visual_limitations": []
+      },
+      "user_final_approved": false,
+      "verdict": "candidate-with-limitations",
+      "visual_review": {
+        "confirmed_visual_defects": [],
+        "finish_limitations": [
+          "Viewer veining is more regular and contrasty than the promotional stone finish.",
+          "Pale corner blocks interrupt dark rim strips; feet and fittings are more faceted than marketing."
+        ],
+        "id": "egypt",
+        "inspected_paths": [
+          "launch/art-05/smoke/egypt/desktop-closed.png",
+          "launch/art-05/smoke/egypt/desktop-open.png",
+          "launch/art-05/smoke/egypt/mobile-closed.png",
+          "launch/art-05/smoke/egypt/mobile-open.png",
+          "launch/art-05/sources/egypt/marketing.webp"
+        ],
+        "observations": {
+          "desktop_closed": "Three differently sized pyramids on dune-like relief, ivory/honey strata, blue lid borders, brass clasp and side ring, and rounded pale feet preserve the reference identity.",
+          "desktop_open": "Empty stone-lined cavity and veined lid underside are visible; dark rim strips meet pale corner blocks abruptly, with a conspicuous rear-right notch/junction.",
+          "marketing": "Three pyramids, thin blue lid outline and broad blue seam band, flowing tan strata, brass fittings and squat rounded feet match the principal model features.",
+          "mobile_closed": "Complete pyramids, feet and body fit; title wraps cleanly. Dark under-lid seam looks pronounced but matches a blue band in the reference.",
+          "mobile_open": "Full raised lid and body are visible without clipping; small rim joins and metal details are jagged, and veining is repetitive."
+        },
+        "package_holds": [],
+        "parent_reconciliation": "Consistent with parent's bounded pass; conspicuous trim joins remain finish observations, not established cracks.",
+        "reason": "Three-pyramid identity and coherent closed/open construction survive both layouts; no definite gross breakage or clipping.",
+        "uncertainties": [
+          "Fine rim continuity and hinge/tab contact need other angles or source inspection.",
+          "Pyramids are exterior lid ornament, hidden behind the raised lid in open views; their absence from that view is not missing geometry."
+        ],
+        "user_final_approved": false,
+        "verdict": "candidate-pass"
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Egypt",
+    "package_history": [
+      {
+        "bytes": 6652024,
+        "commit": "5c9180bf5f4c6d49e3238bc3134eccaa614b0dc6",
+        "crc_error": null,
+        "entries": 50,
+        "inventory_checked": true,
+        "inventory_entries": 49,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/egypt-v1/egypt-v1-source.zip",
+        "required_payloads": {
+          "egypt-v1.html": true,
+          "egypt.blend": true,
+          "egypt.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "6c1a6bfe2dcb99774ae7a92a5408aa598ad54871788e7c65650c82b37ae970e0"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "5c9180bf5f4c6d49e3238bc3134eccaa614b0dc6",
+      "fetched_tip": "5c9180bf5f4c6d49e3238bc3134eccaa614b0dc6",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/egypt-v1"
+    },
+    "verdict": "candidate-with-limitations",
+    "viewer": {
+      "bytes": 2693785,
+      "commit": "5c9180bf5f4c6d49e3238bc3134eccaa614b0dc6",
+      "path": "preview/egypt-v1/egypt-v1.html",
+      "sha256": "0e6d4f04bc516c347c204639a2f801a07009d47aa6b14f4890c5fb990a2b1717",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "egypt",
+    "baseline_verdict": "candidate-with-limitations",
+    "actions": [
+      "owner art/finish acceptance; no proven runtime defect recorded; no autonomous redesign"
+    ],
+    "approval": false,
+    "original_review": {
+      "art_changed": false,
+      "fresh_checks": {
+        "archives": [
+          {
+            "bytes": 6652024,
+            "crc_safe_unique": true,
+            "entries": 50,
+            "full_inner_inventory_rerun": false,
+            "path": "preview/egypt-v1/egypt-v1-source.zip",
+            "required_payloads": [
+              {
+                "archive_members": [
+                  "egypt-v1.html"
+                ],
+                "exact_match": true,
+                "path": "preview/egypt-v1/egypt-v1.html"
+              },
+              {
+                "archive_members": [
+                  "egypt.blend"
+                ],
+                "exact_match": true,
+                "path": "preview/egypt-v1/egypt.blend"
+              },
+              {
+                "archive_members": [
+                  "egypt.glb"
+                ],
+                "exact_match": true,
+                "path": "preview/egypt-v1/egypt.glb"
+              }
+            ],
+            "sha256": "6c1a6bfe2dcb99774ae7a92a5408aa598ad54871788e7c65650c82b37ae970e0"
+          }
+        ],
+        "art_changed": false,
+        "id": "egypt",
+        "models": [
+          {
+            "bytes": 708649,
+            "commit": "5c9180bf5f4c6d49e3238bc3134eccaa614b0dc6",
+            "path": "preview/egypt-v1/egypt.blend",
+            "role": "selected-model",
+            "sha256": "9a19df585a660ea57d97af9474d59eb6061571157d700f06ebbbf7764007a302"
+          },
+          {
+            "bytes": 1467052,
+            "commit": "5c9180bf5f4c6d49e3238bc3134eccaa614b0dc6",
+            "path": "preview/egypt-v1/egypt.glb",
+            "role": "selected-model",
+            "sha256": "8ac8debb206f12277a50b536410ccee64e83616626f404d40aff27a9b875356f",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 63,
+              "nodes": 65
+            }
+          }
+        ],
+        "parent_package_holds": [],
+        "viewer": {
+          "bytes": 2693785,
+          "commit": "5c9180bf5f4c6d49e3238bc3134eccaa614b0dc6",
+          "path": "preview/egypt-v1/egypt-v1.html",
+          "sha256": "0e6d4f04bc516c347c204639a2f801a07009d47aa6b14f4890c5fb990a2b1717",
+          "under_5000000": true
+        }
+      },
+      "historical_runtime_only": true,
+      "id": "egypt",
+      "inspected_images": [
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/egypt/desktop-closed.png",
+          "sha256": "2ef31ef01b1b6fa409c5c16ef8e496903abad44482a1bd90d40afe1f5926ec6c"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/egypt/desktop-open.png",
+          "sha256": "9773d945c63dcb49406f9a83fef21a6d50397188a735015b2e5f4c5448c03d2b"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/egypt/mobile-closed.png",
+          "sha256": "6c52ccadef6c7960332c1300db3c5181f03992a663960266083df9dacd67a102"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/egypt/mobile-open.png",
+          "sha256": "d95fd267553041cdb02539f22252217aebf5e5b5939650f3671977b405967d28"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "sources/egypt/marketing.webp",
+          "sha256": "4d5a52fdbb2e4e87c2821ba22a48407026e1f5e64647f44aec23819dcd87a996"
+        }
+      ],
+      "launch_ready": false,
+      "missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "package_holds": [],
+      "parent_reason": "Original captures retain the three-pyramid identity and coherent closed/open chest; visible rim junctions do not establish a broken mesh or justify treating finish differences as structural failure.",
+      "review_complete": true,
+      "source_record": {
+        "approval": {
+          "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+          "prior_approved_baseline": null,
+          "status": "candidate-not-final-approved",
+          "user_final_approved": false
+        },
+        "category": "Country",
+        "delivered_viewer": {
+          "bytes": 2693785,
+          "exists": true,
+          "matches_selected_commit": true,
+          "path": "C:\\Users\\futur\\.hermes\\profiles\\telegram2\\output\\boxsv-collection-review\\viewers\\egypt.html",
+          "sha256": "0e6d4f04bc516c347c204639a2f801a07009d47aa6b14f4890c5fb990a2b1717"
+        },
+        "edition_supply": 1,
+        "id": "egypt",
+        "launch_ready": false,
+        "legacy_review_viewer": {
+          "bytes": 2693785,
+          "commit": "5c9180bf5f4c6d49e3238bc3134eccaa614b0dc6",
+          "path": "viewers/egypt.html",
+          "sha256": "0e6d4f04bc516c347c204639a2f801a07009d47aa6b14f4890c5fb990a2b1717",
+          "source_path": "preview/egypt-v1/egypt-v1.html"
+        },
+        "marketing": {
+          "bytes": 57110,
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "dimensions": [
+            1072,
+            976
+          ],
+          "image_type": "Promotional art",
+          "matches_gallery_inventory": true,
+          "not_model_approval": true,
+          "path": "docs/assets/gallery/egypt.webp",
+          "provenance": {
+            "exactModelEquivalenceClaimed": false,
+            "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+            "model": "grok-imagine-image",
+            "nativeDimensions": [
+              1072,
+              976
+            ],
+            "provider": "xai",
+            "reviewNotes": "Three pyramids, cream strata and blue trim retained.",
+            "reviewStatus": "accepted",
+            "sha256": "7353f1a03bc970048afbcb195b421698f47363b38b442dbbd63fcbd1eaeafa97",
+            "source": "assets/gallery/egypt.webp",
+            "sourceSha256": "2814acb53fbfebc0c14334eed10432f40a48de52aabcee6606fa52a50841c065",
+            "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+          },
+          "sha256": "4d5a52fdbb2e4e87c2821ba22a48407026e1f5e64647f44aec23819dcd87a996"
+        },
+        "missing_gates": [
+          "independent-current-model-visual-review",
+          "explicit-final-user-art-approval",
+          "fresh-full-source-and-browser-acceptance",
+          "storage-and-preservation-policy",
+          "mint-and-release-authorization"
+        ],
+        "model_sources": [
+          {
+            "bytes": 708649,
+            "commit": "5c9180bf5f4c6d49e3238bc3134eccaa614b0dc6",
+            "path": "preview/egypt-v1/egypt.blend",
+            "role": "selected-model",
+            "sha256": "9a19df585a660ea57d97af9474d59eb6061571157d700f06ebbbf7764007a302"
+          },
+          {
+            "bytes": 1467052,
+            "commit": "5c9180bf5f4c6d49e3238bc3134eccaa614b0dc6",
+            "path": "preview/egypt-v1/egypt.glb",
+            "role": "selected-model",
+            "sha256": "8ac8debb206f12277a50b536410ccee64e83616626f404d40aff27a9b875356f",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 63,
+              "nodes": 65
+            }
+          }
+        ],
+        "name": "Egypt",
+        "provenance": {
+          "readme_snapshot": "source-notes/egypt.md",
+          "research_brief": {
+            "bytes": 3554,
+            "commit": "5c9180bf5f4c6d49e3238bc3134eccaa614b0dc6",
+            "path": "preview/egypt-v1/design-brief.md",
+            "sha256": "3893ce9e4b3b9ca5ccb4e07b8d49ebca68480f3209f5fb40271af7c7d9bed5a9"
+          },
+          "source_readme": {
+            "bytes": 3608,
+            "commit": "5c9180bf5f4c6d49e3238bc3134eccaa614b0dc6",
+            "path": "preview/egypt-v1/README.md",
+            "sha256": "b155c79d7c967f8ec0350835531eb17e3ba06e69cb877123c10c755bb370c4d5"
+          }
+        },
+        "qa": {
+          "evidence_path": "qa/egypt.json",
+          "fresh_runtime_execution": false,
+          "historical_report_count": 7
+        },
+        "selection": {
+          "commit": "5c9180bf5f4c6d49e3238bc3134eccaa614b0dc6",
+          "fetched_tip": "5c9180bf5f4c6d49e3238bc3134eccaa614b0dc6",
+          "reachable_from_fetched_ref": true,
+          "remote_ref": "origin/art/egypt-v1"
+        },
+        "source_archives": [
+          {
+            "bytes": 6652024,
+            "commit": "5c9180bf5f4c6d49e3238bc3134eccaa614b0dc6",
+            "crc_error": null,
+            "entries": 50,
+            "inventory_checked": true,
+            "inventory_entries": 49,
+            "inventory_mismatches": [],
+            "kind": "git",
+            "path": "preview/egypt-v1/egypt-v1-source.zip",
+            "required_payloads": {
+              "egypt-v1.html": true,
+              "egypt.blend": true,
+              "egypt.glb": true
+            },
+            "safe_unique_paths": true,
+            "sha256": "6c1a6bfe2dcb99774ae7a92a5408aa598ad54871788e7c65650c82b37ae970e0"
+          }
+        ],
+        "version": "egypt-v1",
+        "viewer": {
+          "bytes": 2693785,
+          "commit": "5c9180bf5f4c6d49e3238bc3134eccaa614b0dc6",
+          "path": "preview/egypt-v1/egypt-v1.html",
+          "sha256": "0e6d4f04bc516c347c204639a2f801a07009d47aa6b14f4890c5fb990a2b1717",
+          "under_5000000": true
+        },
+        "visual_limitations": []
+      },
+      "user_final_approved": false,
+      "verdict": "candidate-with-limitations",
+      "visual_review": {
+        "confirmed_visual_defects": [],
+        "finish_limitations": [
+          "Viewer veining is more regular and contrasty than the promotional stone finish.",
+          "Pale corner blocks interrupt dark rim strips; feet and fittings are more faceted than marketing."
+        ],
+        "id": "egypt",
+        "inspected_paths": [
+          "launch/art-05/smoke/egypt/desktop-closed.png",
+          "launch/art-05/smoke/egypt/desktop-open.png",
+          "launch/art-05/smoke/egypt/mobile-closed.png",
+          "launch/art-05/smoke/egypt/mobile-open.png",
+          "launch/art-05/sources/egypt/marketing.webp"
+        ],
+        "observations": {
+          "desktop_closed": "Three differently sized pyramids on dune-like relief, ivory/honey strata, blue lid borders, brass clasp and side ring, and rounded pale feet preserve the reference identity.",
+          "desktop_open": "Empty stone-lined cavity and veined lid underside are visible; dark rim strips meet pale corner blocks abruptly, with a conspicuous rear-right notch/junction.",
+          "marketing": "Three pyramids, thin blue lid outline and broad blue seam band, flowing tan strata, brass fittings and squat rounded feet match the principal model features.",
+          "mobile_closed": "Complete pyramids, feet and body fit; title wraps cleanly. Dark under-lid seam looks pronounced but matches a blue band in the reference.",
+          "mobile_open": "Full raised lid and body are visible without clipping; small rim joins and metal details are jagged, and veining is repetitive."
+        },
+        "package_holds": [],
+        "parent_reconciliation": "Consistent with parent's bounded pass; conspicuous trim joins remain finish observations, not established cracks.",
+        "reason": "Three-pyramid identity and coherent closed/open construction survive both layouts; no definite gross breakage or clipping.",
+        "uncertainties": [
+          "Fine rim continuity and hinge/tab contact need other angles or source inspection.",
+          "Pyramids are exterior lid ornament, hidden behind the raised lid in open views; their absence from that view is not missing geometry."
+        ],
+        "user_final_approved": false,
+        "verdict": "candidate-pass"
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 6652024,
+        "commit": "5c9180bf5f4c6d49e3238bc3134eccaa614b0dc6",
+        "crc_error": null,
+        "entries": 50,
+        "inventory_checked": true,
+        "inventory_entries": 49,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/egypt-v1/egypt-v1-source.zip",
+        "required_payloads": {
+          "egypt-v1.html": true,
+          "egypt.blend": true,
+          "egypt.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "6c1a6bfe2dcb99774ae7a92a5408aa598ad54871788e7c65650c82b37ae970e0"
+      }
+    ]
+  }
+}

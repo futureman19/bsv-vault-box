@@ -1,0 +1,757 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 5,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 1043270,
+        "role": "editable-source",
+        "sha256": "a13364787ee587f712491853b92f7bf51438e900254e5d4fe00658ac8480b8a2",
+        "source": {
+          "commit": "6dcf506c5207f7ab5b01f642d129ddb7fba39a18",
+          "path": "preview/new-zealand-v1/new-zealand.blend"
+        },
+        "uri": "sha256:a13364787ee587f712491853b92f7bf51438e900254e5d4fe00658ac8480b8a2"
+      },
+      {
+        "bytes": 8027762,
+        "role": "historical-source-archive",
+        "sha256": "7a87ee4f5f2d7fd7a978cd199686c6520c0787cfb5bb9e7086eb1102a64c9cac",
+        "source": {
+          "commit": "6dcf506c5207f7ab5b01f642d129ddb7fba39a18",
+          "kind": "git",
+          "path": "preview/new-zealand-v1/new-zealand-v1-source.zip"
+        },
+        "uri": "sha256:7a87ee4f5f2d7fd7a978cd199686c6520c0787cfb5bb9e7086eb1102a64c9cac"
+      },
+      {
+        "bytes": 1745764,
+        "role": "model",
+        "sha256": "d30be3ea2035c2de7fb57d68e6e215b56cd04f5d5b5f3e28b6a675eb64668d02",
+        "source": {
+          "commit": "6dcf506c5207f7ab5b01f642d129ddb7fba39a18",
+          "path": "preview/new-zealand-v1/new-zealand.glb"
+        },
+        "uri": "sha256:d30be3ea2035c2de7fb57d68e6e215b56cd04f5d5b5f3e28b6a675eb64668d02"
+      },
+      {
+        "bytes": 74788,
+        "role": "promotional-illustration",
+        "sha256": "646a457eae1518c2c9cea795400ff42e2ed40e505d6e4cf75b6ff51b34e23209",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/new-zealand.webp"
+        },
+        "uri": "sha256:646a457eae1518c2c9cea795400ff42e2ed40e505d6e4cf75b6ff51b34e23209"
+      },
+      {
+        "bytes": 3320,
+        "role": "research-brief",
+        "sha256": "07f37013dd10aee087e00703dc7d78f34ffd25c8c69e82e248a18108235d06b7",
+        "source": {
+          "commit": "6dcf506c5207f7ab5b01f642d129ddb7fba39a18",
+          "path": "preview/new-zealand-v1/design-brief.md"
+        },
+        "uri": "sha256:07f37013dd10aee087e00703dc7d78f34ffd25c8c69e82e248a18108235d06b7"
+      },
+      {
+        "bytes": 5262,
+        "role": "source-notice",
+        "sha256": "e3f25af60f4c897c1962b7cf15e6450d5884605692021b571aa3d949344a8733",
+        "source": {
+          "commit": "6dcf506c5207f7ab5b01f642d129ddb7fba39a18",
+          "path": "preview/new-zealand-v1/README.md"
+        },
+        "uri": "sha256:e3f25af60f4c897c1962b7cf15e6450d5884605692021b571aa3d949344a8733"
+      },
+      {
+        "bytes": 3135783,
+        "role": "viewer",
+        "sha256": "fa44d6216ccc62abfa9478d86bec1a9db5fd20ef142f676f6bcb946f334b497e",
+        "source": {
+          "commit": "6dcf506c5207f7ab5b01f642d129ddb7fba39a18",
+          "path": "preview/new-zealand-v1/new-zealand-v1.html"
+        },
+        "uri": "sha256:fa44d6216ccc62abfa9478d86bec1a9db5fd20ef142f676f6bcb946f334b497e"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "new-zealand",
+    "independent_review": {
+      "art_changed": false,
+      "fresh_checks": {
+        "archives": [
+          {
+            "bytes": 8027762,
+            "crc_safe_unique": true,
+            "entries": 61,
+            "full_inner_inventory_rerun": false,
+            "path": "preview/new-zealand-v1/new-zealand-v1-source.zip",
+            "required_payloads": [
+              {
+                "archive_members": [
+                  "new-zealand-v1.html"
+                ],
+                "exact_match": true,
+                "path": "preview/new-zealand-v1/new-zealand-v1.html"
+              },
+              {
+                "archive_members": [
+                  "new-zealand.blend"
+                ],
+                "exact_match": true,
+                "path": "preview/new-zealand-v1/new-zealand.blend"
+              },
+              {
+                "archive_members": [
+                  "new-zealand.glb"
+                ],
+                "exact_match": true,
+                "path": "preview/new-zealand-v1/new-zealand.glb"
+              }
+            ],
+            "sha256": "7a87ee4f5f2d7fd7a978cd199686c6520c0787cfb5bb9e7086eb1102a64c9cac"
+          }
+        ],
+        "art_changed": false,
+        "id": "new-zealand",
+        "models": [
+          {
+            "bytes": 1043270,
+            "commit": "6dcf506c5207f7ab5b01f642d129ddb7fba39a18",
+            "path": "preview/new-zealand-v1/new-zealand.blend",
+            "role": "selected-model",
+            "sha256": "a13364787ee587f712491853b92f7bf51438e900254e5d4fe00658ac8480b8a2"
+          },
+          {
+            "bytes": 1745764,
+            "commit": "6dcf506c5207f7ab5b01f642d129ddb7fba39a18",
+            "path": "preview/new-zealand-v1/new-zealand.glb",
+            "role": "selected-model",
+            "sha256": "d30be3ea2035c2de7fb57d68e6e215b56cd04f5d5b5f3e28b6a675eb64668d02",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 58,
+              "nodes": 60
+            }
+          }
+        ],
+        "parent_package_holds": [
+          "Full historical source inventory not verified"
+        ],
+        "viewer": {
+          "bytes": 3135783,
+          "commit": "6dcf506c5207f7ab5b01f642d129ddb7fba39a18",
+          "path": "preview/new-zealand-v1/new-zealand-v1.html",
+          "sha256": "fa44d6216ccc62abfa9478d86bec1a9db5fd20ef142f676f6bcb946f334b497e",
+          "under_5000000": true
+        }
+      },
+      "historical_runtime_only": true,
+      "id": "new-zealand",
+      "inspected_images": [
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/new-zealand/desktop-closed.png",
+          "sha256": "771edcc3eafd490e04081eba904b4cd5a157928aefe10d9a8058e1e4541b66e4"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/new-zealand/desktop-open.png",
+          "sha256": "f416275864dd3346a50adf2aac201395721b2589145e0666da7c3762d4a0857d"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/new-zealand/mobile-closed.png",
+          "sha256": "29f3cff7ff367bcb64716a44ff2fc646349d0f0c40f93d30dd233c4229fa44e0"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/new-zealand/mobile-open.png",
+          "sha256": "1fc339526cb501f0da4a223a3f2315468a73eaeeb0d9d8b98112cb9abf5f4bb9"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "sources/new-zealand/marketing.webp",
+          "sha256": "646a457eae1518c2c9cea795400ff42e2ed40e505d6e4cf75b6ff51b34e23209"
+        }
+      ],
+      "launch_ready": false,
+      "missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "complete-source-archive-inventory-not-verified"
+      ],
+      "package_holds": [
+        "Full historical source inventory not verified"
+      ],
+      "parent_reason": "Package holds: Full historical source inventory not verified. Bounded visual candidate pass: required originals inspected, core identity retained, and no definite gross geometry or framing defect observed. Not final user approval.",
+      "review_complete": true,
+      "source_record": {
+        "approval": {
+          "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+          "prior_approved_baseline": null,
+          "status": "candidate-not-final-approved",
+          "user_final_approved": false
+        },
+        "category": "Country",
+        "delivered_viewer": {
+          "bytes": 3135783,
+          "exists": true,
+          "matches_selected_commit": true,
+          "path": "C:\\Users\\futur\\.hermes\\profiles\\telegram2\\output\\boxsv-collection-review\\viewers\\new-zealand.html",
+          "sha256": "fa44d6216ccc62abfa9478d86bec1a9db5fd20ef142f676f6bcb946f334b497e"
+        },
+        "edition_supply": 1,
+        "id": "new-zealand",
+        "launch_ready": false,
+        "legacy_review_viewer": {
+          "bytes": 3135783,
+          "commit": "6dcf506c5207f7ab5b01f642d129ddb7fba39a18",
+          "path": "viewers/new-zealand.html",
+          "sha256": "fa44d6216ccc62abfa9478d86bec1a9db5fd20ef142f676f6bcb946f334b497e",
+          "source_path": "preview/new-zealand-v1/new-zealand-v1.html"
+        },
+        "marketing": {
+          "bytes": 74788,
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "dimensions": [
+            1072,
+            960
+          ],
+          "image_type": "Promotional art",
+          "matches_gallery_inventory": true,
+          "not_model_approval": true,
+          "path": "docs/assets/gallery/new-zealand.webp",
+          "provenance": {
+            "exactModelEquivalenceClaimed": false,
+            "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+            "model": "grok-imagine-image",
+            "nativeDimensions": [
+              1072,
+              960
+            ],
+            "provider": "xai",
+            "reviewNotes": "Twin mountain masses retained; darker surface and valley/ridge detail differ.",
+            "reviewStatus": "reviewed_with_limitations",
+            "sha256": "976ab69495e0bb8c2c3661344eb0bc642076957cf7cd199bc21bea9d1806d47c",
+            "source": "assets/gallery/new-zealand.webp",
+            "sourceSha256": "cd0a715b0222fa3ecb4d94c211e5bad1af0cba54473a21074fb87b1630dc78a4",
+            "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+          },
+          "sha256": "646a457eae1518c2c9cea795400ff42e2ed40e505d6e4cf75b6ff51b34e23209"
+        },
+        "missing_gates": [
+          "independent-current-model-visual-review",
+          "explicit-final-user-art-approval",
+          "fresh-full-source-and-browser-acceptance",
+          "storage-and-preservation-policy",
+          "mint-and-release-authorization",
+          "complete-source-archive-inventory-not-verified"
+        ],
+        "model_sources": [
+          {
+            "bytes": 1043270,
+            "commit": "6dcf506c5207f7ab5b01f642d129ddb7fba39a18",
+            "path": "preview/new-zealand-v1/new-zealand.blend",
+            "role": "selected-model",
+            "sha256": "a13364787ee587f712491853b92f7bf51438e900254e5d4fe00658ac8480b8a2"
+          },
+          {
+            "bytes": 1745764,
+            "commit": "6dcf506c5207f7ab5b01f642d129ddb7fba39a18",
+            "path": "preview/new-zealand-v1/new-zealand.glb",
+            "role": "selected-model",
+            "sha256": "d30be3ea2035c2de7fb57d68e6e215b56cd04f5d5b5f3e28b6a675eb64668d02",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 58,
+              "nodes": 60
+            }
+          }
+        ],
+        "name": "New Zealand",
+        "provenance": {
+          "readme_snapshot": "source-notes/new-zealand.md",
+          "research_brief": {
+            "bytes": 3320,
+            "commit": "6dcf506c5207f7ab5b01f642d129ddb7fba39a18",
+            "path": "preview/new-zealand-v1/design-brief.md",
+            "sha256": "07f37013dd10aee087e00703dc7d78f34ffd25c8c69e82e248a18108235d06b7"
+          },
+          "source_readme": {
+            "bytes": 5262,
+            "commit": "6dcf506c5207f7ab5b01f642d129ddb7fba39a18",
+            "path": "preview/new-zealand-v1/README.md",
+            "sha256": "e3f25af60f4c897c1962b7cf15e6450d5884605692021b571aa3d949344a8733"
+          }
+        },
+        "qa": {
+          "evidence_path": "qa/new-zealand.json",
+          "fresh_runtime_execution": false,
+          "historical_report_count": 9
+        },
+        "selection": {
+          "commit": "6dcf506c5207f7ab5b01f642d129ddb7fba39a18",
+          "fetched_tip": "6dcf506c5207f7ab5b01f642d129ddb7fba39a18",
+          "reachable_from_fetched_ref": true,
+          "remote_ref": "origin/art/new-zealand-v1"
+        },
+        "source_archives": [
+          {
+            "bytes": 8027762,
+            "commit": "6dcf506c5207f7ab5b01f642d129ddb7fba39a18",
+            "crc_error": null,
+            "entries": 61,
+            "inventory_checked": false,
+            "kind": "git",
+            "path": "preview/new-zealand-v1/new-zealand-v1-source.zip",
+            "required_payloads": {
+              "new-zealand-v1.html": true,
+              "new-zealand.blend": true,
+              "new-zealand.glb": true
+            },
+            "safe_unique_paths": true,
+            "sha256": "7a87ee4f5f2d7fd7a978cd199686c6520c0787cfb5bb9e7086eb1102a64c9cac"
+          }
+        ],
+        "version": "new-zealand-v1",
+        "viewer": {
+          "bytes": 3135783,
+          "commit": "6dcf506c5207f7ab5b01f642d129ddb7fba39a18",
+          "path": "preview/new-zealand-v1/new-zealand-v1.html",
+          "sha256": "fa44d6216ccc62abfa9478d86bec1a9db5fd20ef142f676f6bcb946f334b497e",
+          "under_5000000": true
+        },
+        "visual_limitations": []
+      },
+      "user_final_approved": false,
+      "verdict": "needs-user-review",
+      "visual_review": {
+        "finish_and_fidelity_differences": [
+          "Runtime green slopes are more visibly triangular and transitions to pale rock and water are abrupt.",
+          "Dense regular wall striations read flatter and more laminated than the promotional surface; water is a simpler turquoise strip."
+        ],
+        "historical_inventory_hold": true,
+        "holds_preserved": [
+          "Full historical source inventory not verified; existing New Zealand decision hold retained."
+        ],
+        "id": "new-zealand",
+        "images_inspected": [
+          "launch/art-05/smoke/new-zealand/desktop-closed.png",
+          "launch/art-05/smoke/new-zealand/desktop-open.png",
+          "launch/art-05/smoke/new-zealand/mobile-closed.png",
+          "launch/art-05/smoke/new-zealand/mobile-open.png",
+          "launch/art-05/sources/new-zealand/marketing.webp"
+        ],
+        "observations": {
+          "desktop_closed": "Two pale rocky mountain masses, green slopes and turquoise channel above a slate-blue striated chest; brass corner caps, clasp, plain round disc, side ring and irregular stone feet remain visible.",
+          "desktop_open": "Empty patterned cavity, green rim and striated lid underside are visible. Dark separation beneath the raised lid leaves rear attachment ambiguous.",
+          "marketing": "Same twin-mountain/channel composition, slate flowing-line body, green seam, brass and stone feet. The green lid reveal is already present here.",
+          "mobile_closed": "Peaks, feet and hardware remain within frame; title wraps without colliding with model or controls.",
+          "mobile_open": "Complete open silhouette, readable cavity and separated controls; stepped rim joins and hinge contact cannot be resolved at this scale."
+        },
+        "observed_defects": [],
+        "reason": "Bounded visual candidate pass does not clear the inherited historical-source hold or constitute user approval.",
+        "unresolved_visual_questions": [
+          "Open rear hinge connection appears separated; no still proves detachment or an incorrect pivot.",
+          "Crowded front clasp and stepped rim joins merit close-up inspection, not a confirmed collision finding."
+        ],
+        "user_final_approved": false,
+        "verdict": "needs-user-review",
+        "visual_candidate_verdict": "candidate-pass"
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "New Zealand",
+    "package_history": [
+      {
+        "bytes": 8027762,
+        "commit": "6dcf506c5207f7ab5b01f642d129ddb7fba39a18",
+        "crc_error": null,
+        "entries": 61,
+        "inventory_checked": false,
+        "kind": "git",
+        "path": "preview/new-zealand-v1/new-zealand-v1-source.zip",
+        "required_payloads": {
+          "new-zealand-v1.html": true,
+          "new-zealand.blend": true,
+          "new-zealand.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "7a87ee4f5f2d7fd7a978cd199686c6520c0787cfb5bb9e7086eb1102a64c9cac"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization",
+      "complete-source-archive-inventory-not-verified"
+    ],
+    "selected_candidate": {
+      "commit": "6dcf506c5207f7ab5b01f642d129ddb7fba39a18",
+      "fetched_tip": "6dcf506c5207f7ab5b01f642d129ddb7fba39a18",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/new-zealand-v1"
+    },
+    "verdict": "needs-user-review",
+    "viewer": {
+      "bytes": 3135783,
+      "commit": "6dcf506c5207f7ab5b01f642d129ddb7fba39a18",
+      "path": "preview/new-zealand-v1/new-zealand-v1.html",
+      "sha256": "fa44d6216ccc62abfa9478d86bec1a9db5fd20ef142f676f6bcb946f334b497e",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "new-zealand",
+    "baseline_verdict": "needs-user-review",
+    "actions": [
+      "canonical-source-package repaired; history and visual approvals unchanged"
+    ],
+    "approval": false,
+    "original_review": {
+      "art_changed": false,
+      "fresh_checks": {
+        "archives": [
+          {
+            "bytes": 8027762,
+            "crc_safe_unique": true,
+            "entries": 61,
+            "full_inner_inventory_rerun": false,
+            "path": "preview/new-zealand-v1/new-zealand-v1-source.zip",
+            "required_payloads": [
+              {
+                "archive_members": [
+                  "new-zealand-v1.html"
+                ],
+                "exact_match": true,
+                "path": "preview/new-zealand-v1/new-zealand-v1.html"
+              },
+              {
+                "archive_members": [
+                  "new-zealand.blend"
+                ],
+                "exact_match": true,
+                "path": "preview/new-zealand-v1/new-zealand.blend"
+              },
+              {
+                "archive_members": [
+                  "new-zealand.glb"
+                ],
+                "exact_match": true,
+                "path": "preview/new-zealand-v1/new-zealand.glb"
+              }
+            ],
+            "sha256": "7a87ee4f5f2d7fd7a978cd199686c6520c0787cfb5bb9e7086eb1102a64c9cac"
+          }
+        ],
+        "art_changed": false,
+        "id": "new-zealand",
+        "models": [
+          {
+            "bytes": 1043270,
+            "commit": "6dcf506c5207f7ab5b01f642d129ddb7fba39a18",
+            "path": "preview/new-zealand-v1/new-zealand.blend",
+            "role": "selected-model",
+            "sha256": "a13364787ee587f712491853b92f7bf51438e900254e5d4fe00658ac8480b8a2"
+          },
+          {
+            "bytes": 1745764,
+            "commit": "6dcf506c5207f7ab5b01f642d129ddb7fba39a18",
+            "path": "preview/new-zealand-v1/new-zealand.glb",
+            "role": "selected-model",
+            "sha256": "d30be3ea2035c2de7fb57d68e6e215b56cd04f5d5b5f3e28b6a675eb64668d02",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 58,
+              "nodes": 60
+            }
+          }
+        ],
+        "parent_package_holds": [
+          "Full historical source inventory not verified"
+        ],
+        "viewer": {
+          "bytes": 3135783,
+          "commit": "6dcf506c5207f7ab5b01f642d129ddb7fba39a18",
+          "path": "preview/new-zealand-v1/new-zealand-v1.html",
+          "sha256": "fa44d6216ccc62abfa9478d86bec1a9db5fd20ef142f676f6bcb946f334b497e",
+          "under_5000000": true
+        }
+      },
+      "historical_runtime_only": true,
+      "id": "new-zealand",
+      "inspected_images": [
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/new-zealand/desktop-closed.png",
+          "sha256": "771edcc3eafd490e04081eba904b4cd5a157928aefe10d9a8058e1e4541b66e4"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/new-zealand/desktop-open.png",
+          "sha256": "f416275864dd3346a50adf2aac201395721b2589145e0666da7c3762d4a0857d"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/new-zealand/mobile-closed.png",
+          "sha256": "29f3cff7ff367bcb64716a44ff2fc646349d0f0c40f93d30dd233c4229fa44e0"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/new-zealand/mobile-open.png",
+          "sha256": "1fc339526cb501f0da4a223a3f2315468a73eaeeb0d9d8b98112cb9abf5f4bb9"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "sources/new-zealand/marketing.webp",
+          "sha256": "646a457eae1518c2c9cea795400ff42e2ed40e505d6e4cf75b6ff51b34e23209"
+        }
+      ],
+      "launch_ready": false,
+      "missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "complete-source-archive-inventory-not-verified"
+      ],
+      "package_holds": [
+        "Full historical source inventory not verified"
+      ],
+      "parent_reason": "Package holds: Full historical source inventory not verified. Bounded visual candidate pass: required originals inspected, core identity retained, and no definite gross geometry or framing defect observed. Not final user approval.",
+      "review_complete": true,
+      "source_record": {
+        "approval": {
+          "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+          "prior_approved_baseline": null,
+          "status": "candidate-not-final-approved",
+          "user_final_approved": false
+        },
+        "category": "Country",
+        "delivered_viewer": {
+          "bytes": 3135783,
+          "exists": true,
+          "matches_selected_commit": true,
+          "path": "C:\\Users\\futur\\.hermes\\profiles\\telegram2\\output\\boxsv-collection-review\\viewers\\new-zealand.html",
+          "sha256": "fa44d6216ccc62abfa9478d86bec1a9db5fd20ef142f676f6bcb946f334b497e"
+        },
+        "edition_supply": 1,
+        "id": "new-zealand",
+        "launch_ready": false,
+        "legacy_review_viewer": {
+          "bytes": 3135783,
+          "commit": "6dcf506c5207f7ab5b01f642d129ddb7fba39a18",
+          "path": "viewers/new-zealand.html",
+          "sha256": "fa44d6216ccc62abfa9478d86bec1a9db5fd20ef142f676f6bcb946f334b497e",
+          "source_path": "preview/new-zealand-v1/new-zealand-v1.html"
+        },
+        "marketing": {
+          "bytes": 74788,
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "dimensions": [
+            1072,
+            960
+          ],
+          "image_type": "Promotional art",
+          "matches_gallery_inventory": true,
+          "not_model_approval": true,
+          "path": "docs/assets/gallery/new-zealand.webp",
+          "provenance": {
+            "exactModelEquivalenceClaimed": false,
+            "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+            "model": "grok-imagine-image",
+            "nativeDimensions": [
+              1072,
+              960
+            ],
+            "provider": "xai",
+            "reviewNotes": "Twin mountain masses retained; darker surface and valley/ridge detail differ.",
+            "reviewStatus": "reviewed_with_limitations",
+            "sha256": "976ab69495e0bb8c2c3661344eb0bc642076957cf7cd199bc21bea9d1806d47c",
+            "source": "assets/gallery/new-zealand.webp",
+            "sourceSha256": "cd0a715b0222fa3ecb4d94c211e5bad1af0cba54473a21074fb87b1630dc78a4",
+            "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+          },
+          "sha256": "646a457eae1518c2c9cea795400ff42e2ed40e505d6e4cf75b6ff51b34e23209"
+        },
+        "missing_gates": [
+          "independent-current-model-visual-review",
+          "explicit-final-user-art-approval",
+          "fresh-full-source-and-browser-acceptance",
+          "storage-and-preservation-policy",
+          "mint-and-release-authorization",
+          "complete-source-archive-inventory-not-verified"
+        ],
+        "model_sources": [
+          {
+            "bytes": 1043270,
+            "commit": "6dcf506c5207f7ab5b01f642d129ddb7fba39a18",
+            "path": "preview/new-zealand-v1/new-zealand.blend",
+            "role": "selected-model",
+            "sha256": "a13364787ee587f712491853b92f7bf51438e900254e5d4fe00658ac8480b8a2"
+          },
+          {
+            "bytes": 1745764,
+            "commit": "6dcf506c5207f7ab5b01f642d129ddb7fba39a18",
+            "path": "preview/new-zealand-v1/new-zealand.glb",
+            "role": "selected-model",
+            "sha256": "d30be3ea2035c2de7fb57d68e6e215b56cd04f5d5b5f3e28b6a675eb64668d02",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 58,
+              "nodes": 60
+            }
+          }
+        ],
+        "name": "New Zealand",
+        "provenance": {
+          "readme_snapshot": "source-notes/new-zealand.md",
+          "research_brief": {
+            "bytes": 3320,
+            "commit": "6dcf506c5207f7ab5b01f642d129ddb7fba39a18",
+            "path": "preview/new-zealand-v1/design-brief.md",
+            "sha256": "07f37013dd10aee087e00703dc7d78f34ffd25c8c69e82e248a18108235d06b7"
+          },
+          "source_readme": {
+            "bytes": 5262,
+            "commit": "6dcf506c5207f7ab5b01f642d129ddb7fba39a18",
+            "path": "preview/new-zealand-v1/README.md",
+            "sha256": "e3f25af60f4c897c1962b7cf15e6450d5884605692021b571aa3d949344a8733"
+          }
+        },
+        "qa": {
+          "evidence_path": "qa/new-zealand.json",
+          "fresh_runtime_execution": false,
+          "historical_report_count": 9
+        },
+        "selection": {
+          "commit": "6dcf506c5207f7ab5b01f642d129ddb7fba39a18",
+          "fetched_tip": "6dcf506c5207f7ab5b01f642d129ddb7fba39a18",
+          "reachable_from_fetched_ref": true,
+          "remote_ref": "origin/art/new-zealand-v1"
+        },
+        "source_archives": [
+          {
+            "bytes": 8027762,
+            "commit": "6dcf506c5207f7ab5b01f642d129ddb7fba39a18",
+            "crc_error": null,
+            "entries": 61,
+            "inventory_checked": false,
+            "kind": "git",
+            "path": "preview/new-zealand-v1/new-zealand-v1-source.zip",
+            "required_payloads": {
+              "new-zealand-v1.html": true,
+              "new-zealand.blend": true,
+              "new-zealand.glb": true
+            },
+            "safe_unique_paths": true,
+            "sha256": "7a87ee4f5f2d7fd7a978cd199686c6520c0787cfb5bb9e7086eb1102a64c9cac"
+          }
+        ],
+        "version": "new-zealand-v1",
+        "viewer": {
+          "bytes": 3135783,
+          "commit": "6dcf506c5207f7ab5b01f642d129ddb7fba39a18",
+          "path": "preview/new-zealand-v1/new-zealand-v1.html",
+          "sha256": "fa44d6216ccc62abfa9478d86bec1a9db5fd20ef142f676f6bcb946f334b497e",
+          "under_5000000": true
+        },
+        "visual_limitations": []
+      },
+      "user_final_approved": false,
+      "verdict": "needs-user-review",
+      "visual_review": {
+        "finish_and_fidelity_differences": [
+          "Runtime green slopes are more visibly triangular and transitions to pale rock and water are abrupt.",
+          "Dense regular wall striations read flatter and more laminated than the promotional surface; water is a simpler turquoise strip."
+        ],
+        "historical_inventory_hold": true,
+        "holds_preserved": [
+          "Full historical source inventory not verified; existing New Zealand decision hold retained."
+        ],
+        "id": "new-zealand",
+        "images_inspected": [
+          "launch/art-05/smoke/new-zealand/desktop-closed.png",
+          "launch/art-05/smoke/new-zealand/desktop-open.png",
+          "launch/art-05/smoke/new-zealand/mobile-closed.png",
+          "launch/art-05/smoke/new-zealand/mobile-open.png",
+          "launch/art-05/sources/new-zealand/marketing.webp"
+        ],
+        "observations": {
+          "desktop_closed": "Two pale rocky mountain masses, green slopes and turquoise channel above a slate-blue striated chest; brass corner caps, clasp, plain round disc, side ring and irregular stone feet remain visible.",
+          "desktop_open": "Empty patterned cavity, green rim and striated lid underside are visible. Dark separation beneath the raised lid leaves rear attachment ambiguous.",
+          "marketing": "Same twin-mountain/channel composition, slate flowing-line body, green seam, brass and stone feet. The green lid reveal is already present here.",
+          "mobile_closed": "Peaks, feet and hardware remain within frame; title wraps without colliding with model or controls.",
+          "mobile_open": "Complete open silhouette, readable cavity and separated controls; stepped rim joins and hinge contact cannot be resolved at this scale."
+        },
+        "observed_defects": [],
+        "reason": "Bounded visual candidate pass does not clear the inherited historical-source hold or constitute user approval.",
+        "unresolved_visual_questions": [
+          "Open rear hinge connection appears separated; no still proves detachment or an incorrect pivot.",
+          "Crowded front clasp and stepped rim joins merit close-up inspection, not a confirmed collision finding."
+        ],
+        "user_final_approved": false,
+        "verdict": "needs-user-review",
+        "visual_candidate_verdict": "candidate-pass"
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 8027762,
+        "commit": "6dcf506c5207f7ab5b01f642d129ddb7fba39a18",
+        "crc_error": null,
+        "entries": 61,
+        "inventory_checked": false,
+        "kind": "git",
+        "path": "preview/new-zealand-v1/new-zealand-v1-source.zip",
+        "required_payloads": {
+          "new-zealand-v1.html": true,
+          "new-zealand.blend": true,
+          "new-zealand.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "7a87ee4f5f2d7fd7a978cd199686c6520c0787cfb5bb9e7086eb1102a64c9cac"
+      }
+    ]
+  },
+  "visual_decision": {
+    "id": "new-zealand",
+    "disposition": "preview-accepted-with-limitations",
+    "issue": "Triangular slopes, regular striations and flat turquoise channel.",
+    "rationale": "Twin rocky masses, green slopes, water and slate layered body remain coherent. These finish differences do not erase the terrain motif. Preserve the historical inventory hold and unverified mechanical-contact caveats.",
+    "evidence": {
+      "commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+      "path": "launch/art-05/boards/new-zealand.jpg",
+      "sha256": "524f34f7507f0c22d623bf5363e8796f2280d27ee030ecaee8dd4ba05f8b44f7"
+    }
+  }
+}

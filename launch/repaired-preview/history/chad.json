@@ -1,0 +1,627 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 4,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 1067540,
+        "role": "editable-source",
+        "sha256": "6bc12ae926f3531620fe607f01e6a2d96b814e878825fb33e6e4265d8fe072c8",
+        "source": {
+          "commit": "be01d2206bcf3df94bb53c9ab420c4a5dbdc8390",
+          "path": "preview/chad-v1/chad.blend"
+        },
+        "uri": "sha256:6bc12ae926f3531620fe607f01e6a2d96b814e878825fb33e6e4265d8fe072c8"
+      },
+      {
+        "bytes": 8967232,
+        "role": "historical-source-archive",
+        "sha256": "582b78af4ba42b779729b10badf7622d3dc8c48460999d9ba02cf0b2c63186f1",
+        "source": {
+          "commit": "be01d2206bcf3df94bb53c9ab420c4a5dbdc8390",
+          "kind": "git",
+          "path": "preview/chad-v1/chad-v1-source.zip"
+        },
+        "uri": "sha256:582b78af4ba42b779729b10badf7622d3dc8c48460999d9ba02cf0b2c63186f1"
+      },
+      {
+        "bytes": 1748940,
+        "role": "model",
+        "sha256": "02a1584f3be3dac85b74a1b837f286bdce2f02588c0c0cf10516fe8107800a39",
+        "source": {
+          "commit": "be01d2206bcf3df94bb53c9ab420c4a5dbdc8390",
+          "path": "preview/chad-v1/chad.glb"
+        },
+        "uri": "sha256:02a1584f3be3dac85b74a1b837f286bdce2f02588c0c0cf10516fe8107800a39"
+      },
+      {
+        "bytes": 100764,
+        "role": "promotional-illustration",
+        "sha256": "0737d9b46c55a618b20ae037eefa58a346858fdf4179535671885a007e5798fc",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/chad.webp"
+        },
+        "uri": "sha256:0737d9b46c55a618b20ae037eefa58a346858fdf4179535671885a007e5798fc"
+      },
+      {
+        "bytes": 2820,
+        "role": "research-brief",
+        "sha256": "fb4e805b39efc091e8472f95e90351debb30dc12346bf10fda7aee638eb48f98",
+        "source": {
+          "commit": "be01d2206bcf3df94bb53c9ab420c4a5dbdc8390",
+          "path": "preview/chad-v1/design-brief.md"
+        },
+        "uri": "sha256:fb4e805b39efc091e8472f95e90351debb30dc12346bf10fda7aee638eb48f98"
+      },
+      {
+        "bytes": 5019,
+        "role": "source-notice",
+        "sha256": "e2e37b21361de01a32ea86558ff37e277a7592c914b92ff6d4b7080f099bae58",
+        "source": {
+          "commit": "be01d2206bcf3df94bb53c9ab420c4a5dbdc8390",
+          "path": "preview/chad-v1/README.md"
+        },
+        "uri": "sha256:e2e37b21361de01a32ea86558ff37e277a7592c914b92ff6d4b7080f099bae58"
+      },
+      {
+        "bytes": 3067251,
+        "role": "viewer",
+        "sha256": "7da735fb863ffae03e95f5cf9afc4e65178f8233660e7d48b490600a3f0d74a6",
+        "source": {
+          "commit": "be01d2206bcf3df94bb53c9ab420c4a5dbdc8390",
+          "path": "preview/chad-v1/chad-v1.html"
+        },
+        "uri": "sha256:7da735fb863ffae03e95f5cf9afc4e65178f8233660e7d48b490600a3f0d74a6"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "chad",
+    "independent_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "captures": [
+        "parent/smoke/chad/desktop-closed.png",
+        "parent/smoke/chad/desktop-open.png",
+        "parent/smoke/chad/mobile-closed.png",
+        "parent/smoke/chad/mobile-open.png"
+      ],
+      "fresh_browser": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.8399999141693115,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1748940,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 4,
+            "meshes": 61,
+            "nonfinite": 0,
+            "triangles": 14448
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "chad",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "7da735fb863ffae03e95f5cf9afc4e65178f8233660e7d48b490600a3f0d74a6"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.8399999141693115,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1748940,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 4,
+            "meshes": 61,
+            "nonfinite": 0,
+            "triangles": 14448
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "chad",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "7da735fb863ffae03e95f5cf9afc4e65178f8233660e7d48b490600a3f0d74a6"
+        }
+      ],
+      "fresh_motion": {
+        "exit_code": 0,
+        "id": "chad",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "be01d2206bcf3df94bb53c9ab420c4a5dbdc8390",
+            "path": "preview/chad-v1/motion.mjs",
+            "sha256": "aaa0836b674391c1e15eaa394cd4e4e9b29fff07e7a29b835f1a12841966b45b"
+          }
+        ]
+      },
+      "fresh_runtime_captures": [
+        "smoke/chad/desktop-closed.png",
+        "smoke/chad/desktop-open.png",
+        "smoke/chad/mobile-closed.png",
+        "smoke/chad/mobile-open.png"
+      ],
+      "id": "chad",
+      "independent_visual_findings": "Open arch retained and readable on mobile; regular sandstone bands can read as wood, also in promotion.",
+      "inspection": "deleg_5910ddb9 tasks 0-4 inspected four original PNGs and promotional WebP per ID; lead Malta comparison reinspection",
+      "launch_ready": false,
+      "packaging_verdict": "pass",
+      "parent_findings": {
+        "hardware": "Clasp, disk, ring and caps retained; released latch expected.",
+        "terrain": "Asymmetric arch with open aperture and sparse surrounding rocks preserved.",
+        "texture": "Regular orange bands can read as wood; stronger facets and weaker weathering."
+      },
+      "parent_remaining_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-04 review"
+      ],
+      "parent_status": "pass",
+      "polish_iterations": 0,
+      "proven_runtime_defects": [],
+      "remaining_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "selection": {
+        "commit": "be01d2206bcf3df94bb53c9ab420c4a5dbdc8390",
+        "fetched_tip": "be01d2206bcf3df94bb53c9ab420c4a5dbdc8390",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/chad-v1"
+      },
+      "source_archive_audit": {
+        "archives": [
+          {
+            "internal_inventory_checked": 50,
+            "provenance": {
+              "bytes": 8967232,
+              "commit": "be01d2206bcf3df94bb53c9ab420c4a5dbdc8390",
+              "crc_error": null,
+              "entries": 51,
+              "inventory_checked": true,
+              "inventory_entries": 50,
+              "inventory_mismatches": [],
+              "kind": "git",
+              "path": "preview/chad-v1/chad-v1-source.zip",
+              "required_payloads": {
+                "chad-v1.html": true,
+                "chad.blend": true,
+                "chad.glb": true
+              },
+              "safe_unique_paths": true,
+              "sha256": "582b78af4ba42b779729b10badf7622d3dc8c48460999d9ba02cf0b2c63186f1"
+            },
+            "safe_unique_crc": true,
+            "selected_payload_checks": [
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "chad-v1.html",
+                "sha256": "7da735fb863ffae03e95f5cf9afc4e65178f8233660e7d48b490600a3f0d74a6"
+              },
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "chad.blend",
+                "sha256": "6bc12ae926f3531620fe607f01e6a2d96b814e878825fb33e6e4265d8fe072c8"
+              },
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "chad.glb",
+                "sha256": "02a1584f3be3dac85b74a1b837f286bdce2f02588c0c0cf10516fe8107800a39"
+              }
+            ]
+          }
+        ],
+        "id": "chad",
+        "sources": [
+          {
+            "bytes": 1067540,
+            "commit": "be01d2206bcf3df94bb53c9ab420c4a5dbdc8390",
+            "path": "preview/chad-v1/chad.blend",
+            "role": "selected-model",
+            "sha256": "6bc12ae926f3531620fe607f01e6a2d96b814e878825fb33e6e4265d8fe072c8"
+          },
+          {
+            "bytes": 1748940,
+            "commit": "be01d2206bcf3df94bb53c9ab420c4a5dbdc8390",
+            "path": "preview/chad-v1/chad.glb",
+            "role": "selected-model",
+            "sha256": "02a1584f3be3dac85b74a1b837f286bdce2f02588c0c0cf10516fe8107800a39",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 61,
+              "nodes": 63
+            }
+          }
+        ],
+        "viewer": {
+          "bytes": 3067251,
+          "commit": "be01d2206bcf3df94bb53c9ab420c4a5dbdc8390",
+          "path": "preview/chad-v1/chad-v1.html",
+          "sha256": "7da735fb863ffae03e95f5cf9afc4e65178f8233660e7d48b490600a3f0d74a6",
+          "under_5000000": true
+        }
+      },
+      "user_final_approved": false,
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 3067251,
+        "commit": "be01d2206bcf3df94bb53c9ab420c4a5dbdc8390",
+        "path": "preview/chad-v1/chad-v1.html",
+        "sha256": "7da735fb863ffae03e95f5cf9afc4e65178f8233660e7d48b490600a3f0d74a6",
+        "under_5000000": true
+      },
+      "visual_verdict": "candidate-with-limitations"
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Chad",
+    "package_history": [
+      {
+        "bytes": 8967232,
+        "commit": "be01d2206bcf3df94bb53c9ab420c4a5dbdc8390",
+        "crc_error": null,
+        "entries": 51,
+        "inventory_checked": true,
+        "inventory_entries": 50,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/chad-v1/chad-v1-source.zip",
+        "required_payloads": {
+          "chad-v1.html": true,
+          "chad.blend": true,
+          "chad.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "582b78af4ba42b779729b10badf7622d3dc8c48460999d9ba02cf0b2c63186f1"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "be01d2206bcf3df94bb53c9ab420c4a5dbdc8390",
+      "fetched_tip": "be01d2206bcf3df94bb53c9ab420c4a5dbdc8390",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/chad-v1"
+    },
+    "verdict": "candidate-with-limitations",
+    "viewer": {
+      "bytes": 3067251,
+      "commit": "be01d2206bcf3df94bb53c9ab420c4a5dbdc8390",
+      "path": "preview/chad-v1/chad-v1.html",
+      "sha256": "7da735fb863ffae03e95f5cf9afc4e65178f8233660e7d48b490600a3f0d74a6",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "chad",
+    "baseline_verdict": "candidate-with-limitations",
+    "actions": [
+      "owner art/finish acceptance; no proven runtime defect recorded; no autonomous redesign"
+    ],
+    "approval": false,
+    "original_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "captures": [
+        "parent/smoke/chad/desktop-closed.png",
+        "parent/smoke/chad/desktop-open.png",
+        "parent/smoke/chad/mobile-closed.png",
+        "parent/smoke/chad/mobile-open.png"
+      ],
+      "fresh_browser": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.8399999141693115,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1748940,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 4,
+            "meshes": 61,
+            "nonfinite": 0,
+            "triangles": 14448
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "chad",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "7da735fb863ffae03e95f5cf9afc4e65178f8233660e7d48b490600a3f0d74a6"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.8399999141693115,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1748940,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 4,
+            "meshes": 61,
+            "nonfinite": 0,
+            "triangles": 14448
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "chad",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "7da735fb863ffae03e95f5cf9afc4e65178f8233660e7d48b490600a3f0d74a6"
+        }
+      ],
+      "fresh_motion": {
+        "exit_code": 0,
+        "id": "chad",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "be01d2206bcf3df94bb53c9ab420c4a5dbdc8390",
+            "path": "preview/chad-v1/motion.mjs",
+            "sha256": "aaa0836b674391c1e15eaa394cd4e4e9b29fff07e7a29b835f1a12841966b45b"
+          }
+        ]
+      },
+      "fresh_runtime_captures": [
+        "smoke/chad/desktop-closed.png",
+        "smoke/chad/desktop-open.png",
+        "smoke/chad/mobile-closed.png",
+        "smoke/chad/mobile-open.png"
+      ],
+      "id": "chad",
+      "independent_visual_findings": "Open arch retained and readable on mobile; regular sandstone bands can read as wood, also in promotion.",
+      "inspection": "deleg_5910ddb9 tasks 0-4 inspected four original PNGs and promotional WebP per ID; lead Malta comparison reinspection",
+      "launch_ready": false,
+      "packaging_verdict": "pass",
+      "parent_findings": {
+        "hardware": "Clasp, disk, ring and caps retained; released latch expected.",
+        "terrain": "Asymmetric arch with open aperture and sparse surrounding rocks preserved.",
+        "texture": "Regular orange bands can read as wood; stronger facets and weaker weathering."
+      },
+      "parent_remaining_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-04 review"
+      ],
+      "parent_status": "pass",
+      "polish_iterations": 0,
+      "proven_runtime_defects": [],
+      "remaining_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "selection": {
+        "commit": "be01d2206bcf3df94bb53c9ab420c4a5dbdc8390",
+        "fetched_tip": "be01d2206bcf3df94bb53c9ab420c4a5dbdc8390",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/chad-v1"
+      },
+      "source_archive_audit": {
+        "archives": [
+          {
+            "internal_inventory_checked": 50,
+            "provenance": {
+              "bytes": 8967232,
+              "commit": "be01d2206bcf3df94bb53c9ab420c4a5dbdc8390",
+              "crc_error": null,
+              "entries": 51,
+              "inventory_checked": true,
+              "inventory_entries": 50,
+              "inventory_mismatches": [],
+              "kind": "git",
+              "path": "preview/chad-v1/chad-v1-source.zip",
+              "required_payloads": {
+                "chad-v1.html": true,
+                "chad.blend": true,
+                "chad.glb": true
+              },
+              "safe_unique_paths": true,
+              "sha256": "582b78af4ba42b779729b10badf7622d3dc8c48460999d9ba02cf0b2c63186f1"
+            },
+            "safe_unique_crc": true,
+            "selected_payload_checks": [
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "chad-v1.html",
+                "sha256": "7da735fb863ffae03e95f5cf9afc4e65178f8233660e7d48b490600a3f0d74a6"
+              },
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "chad.blend",
+                "sha256": "6bc12ae926f3531620fe607f01e6a2d96b814e878825fb33e6e4265d8fe072c8"
+              },
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "chad.glb",
+                "sha256": "02a1584f3be3dac85b74a1b837f286bdce2f02588c0c0cf10516fe8107800a39"
+              }
+            ]
+          }
+        ],
+        "id": "chad",
+        "sources": [
+          {
+            "bytes": 1067540,
+            "commit": "be01d2206bcf3df94bb53c9ab420c4a5dbdc8390",
+            "path": "preview/chad-v1/chad.blend",
+            "role": "selected-model",
+            "sha256": "6bc12ae926f3531620fe607f01e6a2d96b814e878825fb33e6e4265d8fe072c8"
+          },
+          {
+            "bytes": 1748940,
+            "commit": "be01d2206bcf3df94bb53c9ab420c4a5dbdc8390",
+            "path": "preview/chad-v1/chad.glb",
+            "role": "selected-model",
+            "sha256": "02a1584f3be3dac85b74a1b837f286bdce2f02588c0c0cf10516fe8107800a39",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 61,
+              "nodes": 63
+            }
+          }
+        ],
+        "viewer": {
+          "bytes": 3067251,
+          "commit": "be01d2206bcf3df94bb53c9ab420c4a5dbdc8390",
+          "path": "preview/chad-v1/chad-v1.html",
+          "sha256": "7da735fb863ffae03e95f5cf9afc4e65178f8233660e7d48b490600a3f0d74a6",
+          "under_5000000": true
+        }
+      },
+      "user_final_approved": false,
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 3067251,
+        "commit": "be01d2206bcf3df94bb53c9ab420c4a5dbdc8390",
+        "path": "preview/chad-v1/chad-v1.html",
+        "sha256": "7da735fb863ffae03e95f5cf9afc4e65178f8233660e7d48b490600a3f0d74a6",
+        "under_5000000": true
+      },
+      "visual_verdict": "candidate-with-limitations"
+    },
+    "package_history": [
+      {
+        "bytes": 8967232,
+        "commit": "be01d2206bcf3df94bb53c9ab420c4a5dbdc8390",
+        "crc_error": null,
+        "entries": 51,
+        "inventory_checked": true,
+        "inventory_entries": 50,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/chad-v1/chad-v1-source.zip",
+        "required_payloads": {
+          "chad-v1.html": true,
+          "chad.blend": true,
+          "chad.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "582b78af4ba42b779729b10badf7622d3dc8c48460999d9ba02cf0b2c63186f1"
+      }
+    ]
+  }
+}

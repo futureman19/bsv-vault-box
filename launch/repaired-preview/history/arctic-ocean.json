@@ -1,0 +1,908 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 7,
+    "category": "Ocean",
+    "files": [
+      {
+        "bytes": 654954,
+        "role": "editable-source",
+        "sha256": "b6f2959115340f1c4f4381ef99c56e4df312b37138eef0694ee37f406a0b6ba0",
+        "source": {
+          "commit": "7907da77dcb40aaf2b21eca485406f054251a3f2",
+          "path": "preview/arctic-ocean-v1/arctic.blend"
+        },
+        "uri": "sha256:b6f2959115340f1c4f4381ef99c56e4df312b37138eef0694ee37f406a0b6ba0"
+      },
+      {
+        "bytes": 6014697,
+        "role": "historical-source-archive",
+        "sha256": "b2a59a029151c1031abfe77c5685dea584762c1779602623fb9d2b33c293c551",
+        "source": {
+          "commit": "7907da77dcb40aaf2b21eca485406f054251a3f2",
+          "kind": "git",
+          "path": "preview/arctic-ocean-v1/arctic-ocean-v1-source.zip"
+        },
+        "uri": "sha256:b2a59a029151c1031abfe77c5685dea584762c1779602623fb9d2b33c293c551"
+      },
+      {
+        "bytes": 1402140,
+        "role": "model",
+        "sha256": "bde73bed57cd8cf122443f3191ef854138a165786ca87f5c625a4b6995415f9b",
+        "source": {
+          "commit": "7907da77dcb40aaf2b21eca485406f054251a3f2",
+          "path": "preview/arctic-ocean-v1/arctic.glb"
+        },
+        "uri": "sha256:bde73bed57cd8cf122443f3191ef854138a165786ca87f5c625a4b6995415f9b"
+      },
+      {
+        "bytes": 51038,
+        "role": "promotional-illustration",
+        "sha256": "f605de98c04e857a10b511032dc2ac506fe83aa4c802b07d15021873b4216286",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/arctic-ocean.webp"
+        },
+        "uri": "sha256:f605de98c04e857a10b511032dc2ac506fe83aa4c802b07d15021873b4216286"
+      },
+      {
+        "bytes": 2620,
+        "role": "research-brief",
+        "sha256": "b2d15e61a1660b0b0b2f70309eec250406f717cf648ca4d9450af5069e1e2ca4",
+        "source": {
+          "commit": "7907da77dcb40aaf2b21eca485406f054251a3f2",
+          "path": "preview/arctic-ocean-v1/design-brief.md"
+        },
+        "uri": "sha256:b2d15e61a1660b0b0b2f70309eec250406f717cf648ca4d9450af5069e1e2ca4"
+      },
+      {
+        "bytes": 5231,
+        "role": "source-notice",
+        "sha256": "ec244d67cd61a8265675ad44e331e535f435d323d70269b08bb5953e8a2ab074",
+        "source": {
+          "commit": "7907da77dcb40aaf2b21eca485406f054251a3f2",
+          "path": "preview/arctic-ocean-v1/README.md"
+        },
+        "uri": "sha256:ec244d67cd61a8265675ad44e331e535f435d323d70269b08bb5953e8a2ab074"
+      },
+      {
+        "bytes": 2647487,
+        "role": "viewer",
+        "sha256": "6a1a70aadb1d7d294f7d63da01295460c247d294aa21330fa20d2a3b539b60a5",
+        "source": {
+          "commit": "7907da77dcb40aaf2b21eca485406f054251a3f2",
+          "path": "preview/arctic-ocean-v1/arctic-ocean-v1.html"
+        },
+        "uri": "sha256:6a1a70aadb1d7d294f7d63da01295460c247d294aa21330fa20d2a3b539b60a5"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "arctic-ocean",
+    "independent_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "capture_base": "parent/",
+      "captures": [
+        {
+          "bytes": 351563,
+          "path": "smoke/arctic-ocean/desktop-closed.png",
+          "sha256": "bd5edc2918771c407ddc1a4e1f154a46180b0aa5e1b597c206b2d4acfc78ba81",
+          "viewer_sha256": "6a1a70aadb1d7d294f7d63da01295460c247d294aa21330fa20d2a3b539b60a5"
+        },
+        {
+          "bytes": 358109,
+          "path": "smoke/arctic-ocean/desktop-open.png",
+          "sha256": "ed027a35cd927ceb7eefd6836e9521c6f3fc3b8f00a5a24692b8bdd3a376f7e0",
+          "viewer_sha256": "6a1a70aadb1d7d294f7d63da01295460c247d294aa21330fa20d2a3b539b60a5"
+        },
+        {
+          "bytes": 113179,
+          "path": "smoke/arctic-ocean/mobile-closed.png",
+          "sha256": "42ca54584ebed20bf0393b432eac7c79bbf6d4d2d9d22181b03a3c8bc216585e",
+          "viewer_sha256": "6a1a70aadb1d7d294f7d63da01295460c247d294aa21330fa20d2a3b539b60a5"
+        },
+        {
+          "bytes": 111117,
+          "path": "smoke/arctic-ocean/mobile-open.png",
+          "sha256": "2631a6b0a590a8685c90f58a20456541a0b0236e1a7e815ecc6bcaf049d5df67",
+          "viewer_sha256": "6a1a70aadb1d7d294f7d63da01295460c247d294aa21330fa20d2a3b539b60a5"
+        }
+      ],
+      "critical_reproducible_failures": [],
+      "final_approval": false,
+      "fresh_checks": {
+        "blender_parity_collision": false,
+        "fallback": false,
+        "full_inner_archive_inventories": false,
+        "motion": false,
+        "original_captures_and_marketing_inspected": true,
+        "runtime": false,
+        "source_and_delivered_viewer_hashes": true,
+        "source_archive_crc_safe_paths_required_payloads": true
+      },
+      "historical_runtime": {
+        "browser": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.391125202178955,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.2800000086426735,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1402140,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 7,
+              "meshes": 101,
+              "nonfinite": 0,
+              "triangles": 13600
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "arctic-ocean",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "6a1a70aadb1d7d294f7d63da01295460c247d294aa21330fa20d2a3b539b60a5"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.391125202178955,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.2800000086426735,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1402140,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 7,
+              "meshes": 101,
+              "nonfinite": 0,
+              "triangles": 13600
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "arctic-ocean",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "6a1a70aadb1d7d294f7d63da01295460c247d294aa21330fa20d2a3b539b60a5"
+          }
+        ],
+        "extended": {
+          "geometry": {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.391125202178955,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.2800000086426735,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1402140,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 7,
+              "meshes": 101,
+              "nonfinite": 0,
+              "triangles": 13600
+            },
+            "meshes": 101,
+            "nonfinite": 0,
+            "triangles": 13600
+          },
+          "id": "arctic-ocean",
+          "no_js_poster": true
+        },
+        "motion": {
+          "exit_code": 0,
+          "id": "arctic-ocean",
+          "passed": true,
+          "scope": "original motion unit assertions; not fresh collision/source parity"
+        },
+        "parent_commit": "0a99711872c208041b6602f0462675cd1b1a0d0c"
+      },
+      "id": "arctic-ocean",
+      "independent_visual": {
+        "assessment": {
+          "art_approved": false,
+          "artistic_limitations": [
+            "Opaque enamel-like ice rather than promotional translucency.",
+            "Quadrilateral floes, architectural rear blocks and competing body tracery weaken naturalistic ice/pond reading."
+          ],
+          "existing_hold_preserved": true,
+          "id": "arctic-ocean",
+          "images": [
+            {
+              "inspected_with": "vision_analyze",
+              "kind": "marketing",
+              "observation": "Blue contour-patterned chest, brass hardware and pale ice slabs; frosted/translucent-looking rear blocks and turquoise patches are richer than runtime.",
+              "path": "parent/sources/arctic-ocean/marketing.webp"
+            },
+            {
+              "inspected_with": "vision_analyze",
+              "kind": "desktop-closed",
+              "observation": "Whole model and UI contained. Floes read as flat tiles and rear ridges as cuboids; body tracery is busy; dark feet have weak separation.",
+              "path": "parent/smoke/arctic-ocean/desktop-closed.png"
+            },
+            {
+              "inspected_with": "vision_analyze",
+              "kind": "desktop-open",
+              "observation": "Whole open silhouette and projecting latch contained; cavity and two hinge locations visible. Plain turquoise underside obscures lid-top ice, as expected for this camera.",
+              "path": "parent/smoke/arctic-ocean/desktop-open.png"
+            },
+            {
+              "inspected_with": "vision_analyze",
+              "kind": "mobile-closed",
+              "observation": "Title wraps cleanly, controls and footer fit. Tile-like floes remain visible; pond identity and tiny fittings are weak at this scale.",
+              "path": "parent/smoke/arctic-ocean/mobile-closed.png"
+            },
+            {
+              "inspected_with": "vision_analyze",
+              "kind": "mobile-open",
+              "observation": "Open model and controls remain contained; body detail is smaller and hinge attachment hard to read. No unmistakable missing faces or overlap.",
+              "path": "parent/smoke/arctic-ocean/mobile-open.png"
+            }
+          ],
+          "presentation_limitations": [
+            "Small secondary UI text across desktop/mobile; accessibility contrast not measured.",
+            "Fine edges/hardware lose clarity at mobile screenshot scale."
+          ],
+          "reason": "Preserve existing hold; visual limitations require user judgment, not technical-failure inference.",
+          "recommendation": "needs-user-review",
+          "reproducible_looking_defects": [],
+          "source_readme": {
+            "path": "parent/sources/arctic-ocean/source_readme.md",
+            "read": true,
+            "relevant_disclosures": "Discloses stylized enamel/porcelain, tile-like floes, architectural ridges, weak pond readability and source/runtime lighting differences.",
+            "verification_claims_independently_rerun": false
+          },
+          "unconfirmed_inspection_points": [
+            "Open-view hinge/rail joins and projecting released latch are visually schematic; endpoint stills do not establish broken connectivity or collision. Side view and motion inspection would be required to escalate."
+          ]
+        },
+        "report": "visual-a.json"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 51038,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/arctic-ocean.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "Accepted: ice-tile segmentation, seams and raised rear block positions retained. More translucent frosted ice is acceptable material refinement; blue body, feet and hardware retained.",
+          "reviewStatus": "accepted",
+          "sha256": "0a0ad4f0ed53a7c6fb800219bf4fa57df5271e755544989684bf57d2bd4317ef",
+          "source": "assets/gallery/arctic-ocean.webp",
+          "sourceSha256": "7a7f6f34d338e34d1f19c3f68a2c310e1837187aa3775b8ed18698fbb66af123",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "f605de98c04e857a10b511032dc2ac506fe83aa4c802b07d15021873b4216286"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_verdict": "needs-decision",
+      "parent_visual": {
+        "context_path": "sources/arctic-ocean/source_readme.md",
+        "decision_needed": "Decide whether the promotional ice treatment overstates the intended porcelain-like runtime appearance and whether the front texture discontinuities are acceptable decorative panel treatment.",
+        "hardware": "Warm brass clasp, round front disc, left ring and lid corner caps remain recognizable across promotional and runtime closed views. Open views show two rear hinges and the released lid-mounted tab. No clear detached fitting or gross break is evidenced.",
+        "id": "arctic-ocean",
+        "inspected_paths": [
+          "sources/arctic-ocean/marketing.webp",
+          "smoke/arctic-ocean/desktop-closed.png",
+          "smoke/arctic-ocean/desktop-open.png",
+          "smoke/arctic-ocean/mobile-closed.png",
+          "smoke/arctic-ocean/mobile-open.png"
+        ],
+        "limitations": [
+          "No alternate rear/top inspection or animation examined.",
+          "Cannot infer transparent materials or exact attachment quality from promo highlights alone."
+        ],
+        "mobile_observations": "Closed ice silhouette and main clasp remain readable; fine ponds and seating contacts do not. Both mobile states fit fully without visible clipping or controls overlapping the model.",
+        "open_observations": "Flat teal inner lid, blue lined cavity, rim and rear hinges are visible. Full raised silhouette and projecting tab are framed. Lower cavity remains partly hidden; terrain is on the opposite lid face.",
+        "promotional_finish_vs_geometry": "Primary mismatch is icy/translucent promotional finish versus opaque stylized runtime shading, plus conspicuous runtime body repetition. No unequivocal geometry defect established.",
+        "terrain": "Pale separate rectangular floes and blue leads are readable. Rear upright blocks read partly architectural. Promo gives these blocks frosted/translucent ice-like depth; runtime reads as opaque pale blocks, consistent with the README's enamel/porcelain limitation. Small enclosed ponds are not clearly distinguished at mobile size.",
+        "texture": "Promo has richer frosted mottling and subtler body tracery. Runtime pale line motifs repeat conspicuously; desktop front has straight-bounded tonal/pattern discontinuities, and corner transitions are abrupt. These are visible surface-treatment concerns, not proof of broken mesh or an unintended UV error.",
+        "verdict": "needs-decision"
+      },
+      "parent_visual_hold_preserved": true,
+      "selection": {
+        "commit": "7907da77dcb40aaf2b21eca485406f054251a3f2",
+        "fetched_tip": "7907da77dcb40aaf2b21eca485406f054251a3f2",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/arctic-ocean-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 6014697,
+          "commit": "7907da77dcb40aaf2b21eca485406f054251a3f2",
+          "crc_error": null,
+          "entries": 54,
+          "fresh_crc_safe_unique": true,
+          "fresh_required_payloads": [
+            {
+              "member": "arctic-ocean-v1.html",
+              "path": "preview/arctic-ocean-v1/arctic-ocean-v1.html",
+              "sha256": "6a1a70aadb1d7d294f7d63da01295460c247d294aa21330fa20d2a3b539b60a5"
+            },
+            {
+              "member": "arctic.blend",
+              "path": "preview/arctic-ocean-v1/arctic.blend",
+              "sha256": "b6f2959115340f1c4f4381ef99c56e4df312b37138eef0694ee37f406a0b6ba0"
+            },
+            {
+              "member": "arctic.glb",
+              "path": "preview/arctic-ocean-v1/arctic.glb",
+              "sha256": "bde73bed57cd8cf122443f3191ef854138a165786ca87f5c625a4b6995415f9b"
+            }
+          ],
+          "full_inner_inventory_fresh": false,
+          "inventory_checked": true,
+          "inventory_entries": 53,
+          "inventory_mismatches": [],
+          "kind": "git",
+          "path": "preview/arctic-ocean-v1/arctic-ocean-v1-source.zip",
+          "required_payloads": {
+            "arctic-ocean-v1.html": true,
+            "arctic.blend": true,
+            "arctic.glb": true
+          },
+          "safe_unique_paths": true,
+          "sha256": "b2a59a029151c1031abfe77c5685dea584762c1779602623fb9d2b33c293c551"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 654954,
+          "commit": "7907da77dcb40aaf2b21eca485406f054251a3f2",
+          "path": "preview/arctic-ocean-v1/arctic.blend",
+          "role": "selected-model",
+          "sha256": "b6f2959115340f1c4f4381ef99c56e4df312b37138eef0694ee37f406a0b6ba0"
+        },
+        {
+          "bytes": 1402140,
+          "commit": "7907da77dcb40aaf2b21eca485406f054251a3f2",
+          "path": "preview/arctic-ocean-v1/arctic.glb",
+          "role": "selected-model",
+          "sha256": "bde73bed57cd8cf122443f3191ef854138a165786ca87f5c625a4b6995415f9b",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 78,
+            "nodes": 80
+          }
+        }
+      ],
+      "verdict": "needs-user-review",
+      "viewer": {
+        "bytes": 2647487,
+        "commit": "7907da77dcb40aaf2b21eca485406f054251a3f2",
+        "path": "preview/arctic-ocean-v1/arctic-ocean-v1.html",
+        "sha256": "6a1a70aadb1d7d294f7d63da01295460c247d294aa21330fa20d2a3b539b60a5",
+        "under_5000000": true
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Arctic Ocean",
+    "package_history": [
+      {
+        "bytes": 6014697,
+        "commit": "7907da77dcb40aaf2b21eca485406f054251a3f2",
+        "crc_error": null,
+        "entries": 54,
+        "inventory_checked": true,
+        "inventory_entries": 53,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/arctic-ocean-v1/arctic-ocean-v1-source.zip",
+        "required_payloads": {
+          "arctic-ocean-v1.html": true,
+          "arctic.blend": true,
+          "arctic.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "b2a59a029151c1031abfe77c5685dea584762c1779602623fb9d2b33c293c551"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "7907da77dcb40aaf2b21eca485406f054251a3f2",
+      "fetched_tip": "7907da77dcb40aaf2b21eca485406f054251a3f2",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/arctic-ocean-v1"
+    },
+    "verdict": "needs-user-review",
+    "viewer": {
+      "bytes": 2647487,
+      "commit": "7907da77dcb40aaf2b21eca485406f054251a3f2",
+      "path": "preview/arctic-ocean-v1/arctic-ocean-v1.html",
+      "sha256": "6a1a70aadb1d7d294f7d63da01295460c247d294aa21330fa20d2a3b539b60a5",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "arctic-ocean",
+    "baseline_verdict": "needs-user-review",
+    "actions": [
+      "owner art/finish acceptance; no proven runtime defect recorded; no autonomous redesign"
+    ],
+    "approval": false,
+    "original_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "capture_base": "parent/",
+      "captures": [
+        {
+          "bytes": 351563,
+          "path": "smoke/arctic-ocean/desktop-closed.png",
+          "sha256": "bd5edc2918771c407ddc1a4e1f154a46180b0aa5e1b597c206b2d4acfc78ba81",
+          "viewer_sha256": "6a1a70aadb1d7d294f7d63da01295460c247d294aa21330fa20d2a3b539b60a5"
+        },
+        {
+          "bytes": 358109,
+          "path": "smoke/arctic-ocean/desktop-open.png",
+          "sha256": "ed027a35cd927ceb7eefd6836e9521c6f3fc3b8f00a5a24692b8bdd3a376f7e0",
+          "viewer_sha256": "6a1a70aadb1d7d294f7d63da01295460c247d294aa21330fa20d2a3b539b60a5"
+        },
+        {
+          "bytes": 113179,
+          "path": "smoke/arctic-ocean/mobile-closed.png",
+          "sha256": "42ca54584ebed20bf0393b432eac7c79bbf6d4d2d9d22181b03a3c8bc216585e",
+          "viewer_sha256": "6a1a70aadb1d7d294f7d63da01295460c247d294aa21330fa20d2a3b539b60a5"
+        },
+        {
+          "bytes": 111117,
+          "path": "smoke/arctic-ocean/mobile-open.png",
+          "sha256": "2631a6b0a590a8685c90f58a20456541a0b0236e1a7e815ecc6bcaf049d5df67",
+          "viewer_sha256": "6a1a70aadb1d7d294f7d63da01295460c247d294aa21330fa20d2a3b539b60a5"
+        }
+      ],
+      "critical_reproducible_failures": [],
+      "final_approval": false,
+      "fresh_checks": {
+        "blender_parity_collision": false,
+        "fallback": false,
+        "full_inner_archive_inventories": false,
+        "motion": false,
+        "original_captures_and_marketing_inspected": true,
+        "runtime": false,
+        "source_and_delivered_viewer_hashes": true,
+        "source_archive_crc_safe_paths_required_payloads": true
+      },
+      "historical_runtime": {
+        "browser": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.391125202178955,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.2800000086426735,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1402140,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 7,
+              "meshes": 101,
+              "nonfinite": 0,
+              "triangles": 13600
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "arctic-ocean",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "6a1a70aadb1d7d294f7d63da01295460c247d294aa21330fa20d2a3b539b60a5"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.391125202178955,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.2800000086426735,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1402140,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 7,
+              "meshes": 101,
+              "nonfinite": 0,
+              "triangles": 13600
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "arctic-ocean",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "6a1a70aadb1d7d294f7d63da01295460c247d294aa21330fa20d2a3b539b60a5"
+          }
+        ],
+        "extended": {
+          "geometry": {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.391125202178955,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.2800000086426735,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1402140,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 7,
+              "meshes": 101,
+              "nonfinite": 0,
+              "triangles": 13600
+            },
+            "meshes": 101,
+            "nonfinite": 0,
+            "triangles": 13600
+          },
+          "id": "arctic-ocean",
+          "no_js_poster": true
+        },
+        "motion": {
+          "exit_code": 0,
+          "id": "arctic-ocean",
+          "passed": true,
+          "scope": "original motion unit assertions; not fresh collision/source parity"
+        },
+        "parent_commit": "0a99711872c208041b6602f0462675cd1b1a0d0c"
+      },
+      "id": "arctic-ocean",
+      "independent_visual": {
+        "assessment": {
+          "art_approved": false,
+          "artistic_limitations": [
+            "Opaque enamel-like ice rather than promotional translucency.",
+            "Quadrilateral floes, architectural rear blocks and competing body tracery weaken naturalistic ice/pond reading."
+          ],
+          "existing_hold_preserved": true,
+          "id": "arctic-ocean",
+          "images": [
+            {
+              "inspected_with": "vision_analyze",
+              "kind": "marketing",
+              "observation": "Blue contour-patterned chest, brass hardware and pale ice slabs; frosted/translucent-looking rear blocks and turquoise patches are richer than runtime.",
+              "path": "parent/sources/arctic-ocean/marketing.webp"
+            },
+            {
+              "inspected_with": "vision_analyze",
+              "kind": "desktop-closed",
+              "observation": "Whole model and UI contained. Floes read as flat tiles and rear ridges as cuboids; body tracery is busy; dark feet have weak separation.",
+              "path": "parent/smoke/arctic-ocean/desktop-closed.png"
+            },
+            {
+              "inspected_with": "vision_analyze",
+              "kind": "desktop-open",
+              "observation": "Whole open silhouette and projecting latch contained; cavity and two hinge locations visible. Plain turquoise underside obscures lid-top ice, as expected for this camera.",
+              "path": "parent/smoke/arctic-ocean/desktop-open.png"
+            },
+            {
+              "inspected_with": "vision_analyze",
+              "kind": "mobile-closed",
+              "observation": "Title wraps cleanly, controls and footer fit. Tile-like floes remain visible; pond identity and tiny fittings are weak at this scale.",
+              "path": "parent/smoke/arctic-ocean/mobile-closed.png"
+            },
+            {
+              "inspected_with": "vision_analyze",
+              "kind": "mobile-open",
+              "observation": "Open model and controls remain contained; body detail is smaller and hinge attachment hard to read. No unmistakable missing faces or overlap.",
+              "path": "parent/smoke/arctic-ocean/mobile-open.png"
+            }
+          ],
+          "presentation_limitations": [
+            "Small secondary UI text across desktop/mobile; accessibility contrast not measured.",
+            "Fine edges/hardware lose clarity at mobile screenshot scale."
+          ],
+          "reason": "Preserve existing hold; visual limitations require user judgment, not technical-failure inference.",
+          "recommendation": "needs-user-review",
+          "reproducible_looking_defects": [],
+          "source_readme": {
+            "path": "parent/sources/arctic-ocean/source_readme.md",
+            "read": true,
+            "relevant_disclosures": "Discloses stylized enamel/porcelain, tile-like floes, architectural ridges, weak pond readability and source/runtime lighting differences.",
+            "verification_claims_independently_rerun": false
+          },
+          "unconfirmed_inspection_points": [
+            "Open-view hinge/rail joins and projecting released latch are visually schematic; endpoint stills do not establish broken connectivity or collision. Side view and motion inspection would be required to escalate."
+          ]
+        },
+        "report": "visual-a.json"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 51038,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/arctic-ocean.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "Accepted: ice-tile segmentation, seams and raised rear block positions retained. More translucent frosted ice is acceptable material refinement; blue body, feet and hardware retained.",
+          "reviewStatus": "accepted",
+          "sha256": "0a0ad4f0ed53a7c6fb800219bf4fa57df5271e755544989684bf57d2bd4317ef",
+          "source": "assets/gallery/arctic-ocean.webp",
+          "sourceSha256": "7a7f6f34d338e34d1f19c3f68a2c310e1837187aa3775b8ed18698fbb66af123",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "f605de98c04e857a10b511032dc2ac506fe83aa4c802b07d15021873b4216286"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_verdict": "needs-decision",
+      "parent_visual": {
+        "context_path": "sources/arctic-ocean/source_readme.md",
+        "decision_needed": "Decide whether the promotional ice treatment overstates the intended porcelain-like runtime appearance and whether the front texture discontinuities are acceptable decorative panel treatment.",
+        "hardware": "Warm brass clasp, round front disc, left ring and lid corner caps remain recognizable across promotional and runtime closed views. Open views show two rear hinges and the released lid-mounted tab. No clear detached fitting or gross break is evidenced.",
+        "id": "arctic-ocean",
+        "inspected_paths": [
+          "sources/arctic-ocean/marketing.webp",
+          "smoke/arctic-ocean/desktop-closed.png",
+          "smoke/arctic-ocean/desktop-open.png",
+          "smoke/arctic-ocean/mobile-closed.png",
+          "smoke/arctic-ocean/mobile-open.png"
+        ],
+        "limitations": [
+          "No alternate rear/top inspection or animation examined.",
+          "Cannot infer transparent materials or exact attachment quality from promo highlights alone."
+        ],
+        "mobile_observations": "Closed ice silhouette and main clasp remain readable; fine ponds and seating contacts do not. Both mobile states fit fully without visible clipping or controls overlapping the model.",
+        "open_observations": "Flat teal inner lid, blue lined cavity, rim and rear hinges are visible. Full raised silhouette and projecting tab are framed. Lower cavity remains partly hidden; terrain is on the opposite lid face.",
+        "promotional_finish_vs_geometry": "Primary mismatch is icy/translucent promotional finish versus opaque stylized runtime shading, plus conspicuous runtime body repetition. No unequivocal geometry defect established.",
+        "terrain": "Pale separate rectangular floes and blue leads are readable. Rear upright blocks read partly architectural. Promo gives these blocks frosted/translucent ice-like depth; runtime reads as opaque pale blocks, consistent with the README's enamel/porcelain limitation. Small enclosed ponds are not clearly distinguished at mobile size.",
+        "texture": "Promo has richer frosted mottling and subtler body tracery. Runtime pale line motifs repeat conspicuously; desktop front has straight-bounded tonal/pattern discontinuities, and corner transitions are abrupt. These are visible surface-treatment concerns, not proof of broken mesh or an unintended UV error.",
+        "verdict": "needs-decision"
+      },
+      "parent_visual_hold_preserved": true,
+      "selection": {
+        "commit": "7907da77dcb40aaf2b21eca485406f054251a3f2",
+        "fetched_tip": "7907da77dcb40aaf2b21eca485406f054251a3f2",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/arctic-ocean-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 6014697,
+          "commit": "7907da77dcb40aaf2b21eca485406f054251a3f2",
+          "crc_error": null,
+          "entries": 54,
+          "fresh_crc_safe_unique": true,
+          "fresh_required_payloads": [
+            {
+              "member": "arctic-ocean-v1.html",
+              "path": "preview/arctic-ocean-v1/arctic-ocean-v1.html",
+              "sha256": "6a1a70aadb1d7d294f7d63da01295460c247d294aa21330fa20d2a3b539b60a5"
+            },
+            {
+              "member": "arctic.blend",
+              "path": "preview/arctic-ocean-v1/arctic.blend",
+              "sha256": "b6f2959115340f1c4f4381ef99c56e4df312b37138eef0694ee37f406a0b6ba0"
+            },
+            {
+              "member": "arctic.glb",
+              "path": "preview/arctic-ocean-v1/arctic.glb",
+              "sha256": "bde73bed57cd8cf122443f3191ef854138a165786ca87f5c625a4b6995415f9b"
+            }
+          ],
+          "full_inner_inventory_fresh": false,
+          "inventory_checked": true,
+          "inventory_entries": 53,
+          "inventory_mismatches": [],
+          "kind": "git",
+          "path": "preview/arctic-ocean-v1/arctic-ocean-v1-source.zip",
+          "required_payloads": {
+            "arctic-ocean-v1.html": true,
+            "arctic.blend": true,
+            "arctic.glb": true
+          },
+          "safe_unique_paths": true,
+          "sha256": "b2a59a029151c1031abfe77c5685dea584762c1779602623fb9d2b33c293c551"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 654954,
+          "commit": "7907da77dcb40aaf2b21eca485406f054251a3f2",
+          "path": "preview/arctic-ocean-v1/arctic.blend",
+          "role": "selected-model",
+          "sha256": "b6f2959115340f1c4f4381ef99c56e4df312b37138eef0694ee37f406a0b6ba0"
+        },
+        {
+          "bytes": 1402140,
+          "commit": "7907da77dcb40aaf2b21eca485406f054251a3f2",
+          "path": "preview/arctic-ocean-v1/arctic.glb",
+          "role": "selected-model",
+          "sha256": "bde73bed57cd8cf122443f3191ef854138a165786ca87f5c625a4b6995415f9b",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 78,
+            "nodes": 80
+          }
+        }
+      ],
+      "verdict": "needs-user-review",
+      "viewer": {
+        "bytes": 2647487,
+        "commit": "7907da77dcb40aaf2b21eca485406f054251a3f2",
+        "path": "preview/arctic-ocean-v1/arctic-ocean-v1.html",
+        "sha256": "6a1a70aadb1d7d294f7d63da01295460c247d294aa21330fa20d2a3b539b60a5",
+        "under_5000000": true
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 6014697,
+        "commit": "7907da77dcb40aaf2b21eca485406f054251a3f2",
+        "crc_error": null,
+        "entries": 54,
+        "inventory_checked": true,
+        "inventory_entries": 53,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/arctic-ocean-v1/arctic-ocean-v1-source.zip",
+        "required_payloads": {
+          "arctic-ocean-v1.html": true,
+          "arctic.blend": true,
+          "arctic.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "b2a59a029151c1031abfe77c5685dea584762c1779602623fb9d2b33c293c551"
+      }
+    ]
+  },
+  "visual_decision": {
+    "id": "arctic-ocean",
+    "disposition": "preview-accepted-with-limitations",
+    "issue": "Opaque tile-like ice and busy body tracery.",
+    "rationale": "Raised floes, blue leads and rear ice blocks remain readable. Accept the enamel-like miniature interpretation, not promotional translucency; tiny ponds and hinge seating remain unresolved at this scale.",
+    "evidence": {
+      "commit": "bbb25bbe647887c394be8f28794b53e8b5a07454",
+      "path": "launch/qa-art-07/parent/boards/arctic-ocean.jpg",
+      "sha256": "522b3346e9c5ea756150d6cfe00bd6048f43c2dbc46ed8db1166a8873fa1fe0f"
+    }
+  }
+}

@@ -1,0 +1,950 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 8,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 652228,
+        "role": "editable-source",
+        "sha256": "6d8a4d3b1eb9053b84152cc666578c6da903880a08ee2fbd7ea221d5ba226fb1",
+        "source": {
+          "commit": "6fee92f612638df1e4fef92d1b93f239b26b2b92",
+          "path": "preview/bangladesh-v1/bangladesh.blend"
+        },
+        "uri": "sha256:6d8a4d3b1eb9053b84152cc666578c6da903880a08ee2fbd7ea221d5ba226fb1"
+      },
+      {
+        "bytes": 7948676,
+        "role": "historical-source-archive",
+        "sha256": "b1f1f486d75263d0cf0598c5258686075e781c3c149e593f81c3f86ce811c438",
+        "source": {
+          "commit": "6fee92f612638df1e4fef92d1b93f239b26b2b92",
+          "kind": "git",
+          "path": "preview/bangladesh-v1/bangladesh-v1-source.zip"
+        },
+        "uri": "sha256:b1f1f486d75263d0cf0598c5258686075e781c3c149e593f81c3f86ce811c438"
+      },
+      {
+        "bytes": 1975836,
+        "role": "model",
+        "sha256": "55114be0381466fdc63607171d3758076f73de5d1f193953d4a2b2540ff6fe80",
+        "source": {
+          "commit": "6fee92f612638df1e4fef92d1b93f239b26b2b92",
+          "path": "preview/bangladesh-v1/bangladesh.glb"
+        },
+        "uri": "sha256:55114be0381466fdc63607171d3758076f73de5d1f193953d4a2b2540ff6fe80"
+      },
+      {
+        "bytes": 119192,
+        "role": "promotional-illustration",
+        "sha256": "0d3ee5c71041ff34249755e88e651002afb5d7cb75bf2840f0b6d45760fc4ca8",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/bangladesh.webp"
+        },
+        "uri": "sha256:0d3ee5c71041ff34249755e88e651002afb5d7cb75bf2840f0b6d45760fc4ca8"
+      },
+      {
+        "bytes": 4733,
+        "role": "research-brief",
+        "sha256": "fdff684a6de90f837e0b52008639dc57a70c190c073e0c3c089ff7cd26075852",
+        "source": {
+          "commit": "6fee92f612638df1e4fef92d1b93f239b26b2b92",
+          "path": "preview/bangladesh-v1/design-brief.md"
+        },
+        "uri": "sha256:fdff684a6de90f837e0b52008639dc57a70c190c073e0c3c089ff7cd26075852"
+      },
+      {
+        "bytes": 8652,
+        "role": "source-notice",
+        "sha256": "a4a3c7e6a1c90e9ecc17f4db892ea7bd83ef1c378fe3cfb26140e141bc9037a6",
+        "source": {
+          "commit": "6fee92f612638df1e4fef92d1b93f239b26b2b92",
+          "path": "preview/bangladesh-v1/README.md"
+        },
+        "uri": "sha256:a4a3c7e6a1c90e9ecc17f4db892ea7bd83ef1c378fe3cfb26140e141bc9037a6"
+      },
+      {
+        "bytes": 3409417,
+        "role": "viewer",
+        "sha256": "d8e1cf5bb8548b0246ba80d4b755931d63a2aa59cf4faf42041e05c4a52a269e",
+        "source": {
+          "commit": "6fee92f612638df1e4fef92d1b93f239b26b2b92",
+          "path": "preview/bangladesh-v1/bangladesh-v1.html"
+        },
+        "uri": "sha256:d8e1cf5bb8548b0246ba80d4b755931d63a2aa59cf4faf42041e05c4a52a269e"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "bangladesh",
+    "independent_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "capture_base": "parent/",
+      "captures": [
+        "smoke/bangladesh/desktop-closed.png",
+        "smoke/bangladesh/desktop-open.png",
+        "smoke/bangladesh/mobile-closed.png",
+        "smoke/bangladesh/mobile-open.png"
+      ],
+      "critical_reproducible_failures": [],
+      "final_approval": false,
+      "fresh_checks": {
+        "blender_parity_collision": false,
+        "fallback": false,
+        "full_inner_archive_inventories": true,
+        "motion": false,
+        "original_captures_and_marketing_inspected": true,
+        "runtime": false,
+        "source_and_delivered_viewer_hashes": true,
+        "source_archive_crc_safe_paths_required_payloads": true
+      },
+      "historical_runtime": {
+        "browser": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.888500051572919,
+                  2.164999894797802,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.888500051572919,
+                  -0.24500000476837158,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1975836,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 10,
+              "meshes": 134,
+              "nonfinite": 0,
+              "triangles": 21472
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "bangladesh",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "d8e1cf5bb8548b0246ba80d4b755931d63a2aa59cf4faf42041e05c4a52a269e"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.888500051572919,
+                  2.164999894797802,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.888500051572919,
+                  -0.24500000476837158,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1975836,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 10,
+              "meshes": 134,
+              "nonfinite": 0,
+              "triangles": 21472
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "bangladesh",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "d8e1cf5bb8548b0246ba80d4b755931d63a2aa59cf4faf42041e05c4a52a269e"
+          }
+        ],
+        "extended": {
+          "geometry": {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.888500051572919,
+                  2.164999894797802,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.888500051572919,
+                  -0.24500000476837158,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1975836,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 10,
+              "meshes": 134,
+              "nonfinite": 0,
+              "triangles": 21472
+            },
+            "meshes": 134,
+            "nonfinite": 0,
+            "triangles": 21472
+          },
+          "id": "bangladesh",
+          "no_js_poster": true
+        },
+        "motion": {
+          "exit_code": 0,
+          "id": "bangladesh",
+          "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+          "source": [
+            {
+              "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+              "path": "preview/albania-v1/tests.mjs",
+              "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+            },
+            {
+              "commit": "6fee92f612638df1e4fef92d1b93f239b26b2b92",
+              "path": "preview/bangladesh-v1/motion.mjs",
+              "sha256": "34fe3c258ff6d653ef8a793ad9c50cfeac1b1677af25ca3ee5e4a1eea42fd283"
+            }
+          ]
+        },
+        "parent_commit": "431e51ffb5a8704b5f8f8b11694d28befae18402"
+      },
+      "id": "bangladesh",
+      "independent_visual": {
+        "assessment": {
+          "concrete_defects": [
+            "Fine ivory pattern and gold trim appear speckled/jagged on the angled mobile panels; motifs terminate at panel borders.",
+            "Upper decorative band and corner trim have uneven-looking segmented joins; promotional ivory lid accents vary in shape/spacing."
+          ],
+          "id": "bangladesh",
+          "inspected_paths": [
+            "parent/smoke/bangladesh/desktop-closed.png",
+            "parent/smoke/bangladesh/desktop-open.png",
+            "parent/smoke/bangladesh/mobile-closed.png",
+            "parent/smoke/bangladesh/mobile-open.png",
+            "parent/sources/bangladesh/marketing.webp"
+          ],
+          "limitations": [
+            "Cropped motifs, angular canopies, decorative water and substantial clasp are disclosed limits. Plain interior and hidden exterior landscape in open front view are not missing ornament.",
+            "Unchanged lightweight model reviewed against promotional illustration for visual relationship, not equivalence. Rendering polish differences are not automatically model defects.",
+            "Only supplied static viewpoints inspected; no proof of continuous collision freedom, hinge attachment, hidden geometry integrity, controls, performance, or physical-phone behavior. Apparent attachment gaps are unresolved visual ambiguities, not confirmed detached meshes.",
+            "Mobile secondary/status/disclaimer text is small; screenshot inspection does not establish accessibility contrast compliance.",
+            "No major missing visible panel or viewport clipping established. Candidate status is not art approval; existing user decisions remain holds."
+          ],
+          "observations": [
+            "Teal/ivory textile repeat and delta islands/channels are recognizable in closed model and promotional illustration; model vegetation and water are visibly simplified.",
+            "Desktop/mobile open and closed silhouettes and controls fit without visible cropping."
+          ],
+          "source_notice_path": "parent/sources/bangladesh/source_readme.md",
+          "verdict": "candidate-with-limitations"
+        },
+        "report": "visual-a.json"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-08 review"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 119192,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/bangladesh.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "Minor landscape relief variation",
+          "reviewStatus": "accepted",
+          "sha256": "2da459c636aec1f9bd9c57e0a82e4bab0d9f4eb8ddeb2ae33d07305549be3869",
+          "source": "assets/gallery/bangladesh.webp",
+          "sourceSha256": "3724507069199eb45a614c76530e9806748e20aaaa24daed3425241475f87ea7",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "0d3ee5c71041ff34249755e88e651002afb5d7cb75bf2840f0b6d45760fc4ca8"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_verdict": "pass",
+      "parent_visual": {
+        "decision": "pass",
+        "hardware": "Gold-tone clasp, caps, edging and block feet correspond to promotion. Released latch and rear hinges visible in open views; no demonstrated hardware fault.",
+        "limitations": [
+          "Stylized textile-inlay, not authentic woven construction; faceted canopies and cropped motifs disclosed. Open viewpoint naturally hides exterior delta; no hydrology or phone-performance claim.",
+          "Review uses original full-size image files, not a composite. Static screenshots cannot verify hidden geometry, animation intersections, real material construction or performance. Promotional enhancements are not runtime-detail guarantees."
+        ],
+        "quality": "Teal/ivory chest and branching delta remain recognizable on desktop/mobile; all open and closed framing complete.",
+        "terrain": "Shallow irregular islands and connected-looking channels retained; angular vegetation and flat enamel-like water replace promotional surface detail.",
+        "texture": "Ivory repeated motifs retained; runtime side pattern is softer and mobile weave detail unresolved compared with textured promotional panels."
+      },
+      "parent_visual_hold_preserved": false,
+      "reviewed_image_hashes": [
+        {
+          "bytes": 119192,
+          "path": "sources/bangladesh/marketing.webp",
+          "sha256": "0d3ee5c71041ff34249755e88e651002afb5d7cb75bf2840f0b6d45760fc4ca8"
+        },
+        {
+          "bytes": 354776,
+          "path": "smoke/bangladesh/desktop-closed.png",
+          "sha256": "5d8b8ee37ddc3c1bbfa8688a9fd3a6cfa89b910ad20158fedc3abd0b3db3f00a"
+        },
+        {
+          "bytes": 325564,
+          "path": "smoke/bangladesh/desktop-open.png",
+          "sha256": "f4034fbb822c4d64b34a57804e5618416511bed62d4c6cd9f4476d8d23364113"
+        },
+        {
+          "bytes": 118299,
+          "path": "smoke/bangladesh/mobile-closed.png",
+          "sha256": "1da52227c5a9b81c77ac0c267a9c6f5a06b50fda20cabb0532e47051dc50de9d"
+        },
+        {
+          "bytes": 104419,
+          "path": "smoke/bangladesh/mobile-open.png",
+          "sha256": "bb48cd33db41cf6255802680a2a214fc19d061edba3080733415503448aca263"
+        }
+      ],
+      "selection": {
+        "commit": "6fee92f612638df1e4fef92d1b93f239b26b2b92",
+        "fetched_tip": "6fee92f612638df1e4fef92d1b93f239b26b2b92",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/bangladesh-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 7948676,
+          "commit": "6fee92f612638df1e4fef92d1b93f239b26b2b92",
+          "crc_error": null,
+          "entries": 59,
+          "fresh_crc_safe_unique": true,
+          "fresh_inner_inventory_entries": 58,
+          "fresh_required_payloads": [
+            {
+              "member": "bangladesh-v1.html",
+              "path": "preview/bangladesh-v1/bangladesh-v1.html",
+              "sha256": "d8e1cf5bb8548b0246ba80d4b755931d63a2aa59cf4faf42041e05c4a52a269e"
+            },
+            {
+              "member": "bangladesh.blend",
+              "path": "preview/bangladesh-v1/bangladesh.blend",
+              "sha256": "6d8a4d3b1eb9053b84152cc666578c6da903880a08ee2fbd7ea221d5ba226fb1"
+            },
+            {
+              "member": "bangladesh.glb",
+              "path": "preview/bangladesh-v1/bangladesh.glb",
+              "sha256": "55114be0381466fdc63607171d3758076f73de5d1f193953d4a2b2540ff6fe80"
+            }
+          ],
+          "inventory_checked": true,
+          "inventory_entries": 58,
+          "inventory_mismatches": [],
+          "kind": "git",
+          "path": "preview/bangladesh-v1/bangladesh-v1-source.zip",
+          "required_payloads": {
+            "bangladesh-v1.html": true,
+            "bangladesh.blend": true,
+            "bangladesh.glb": true
+          },
+          "safe_unique_paths": true,
+          "sha256": "b1f1f486d75263d0cf0598c5258686075e781c3c149e593f81c3f86ce811c438"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 652228,
+          "commit": "6fee92f612638df1e4fef92d1b93f239b26b2b92",
+          "path": "preview/bangladesh-v1/bangladesh.blend",
+          "role": "selected-model",
+          "sha256": "6d8a4d3b1eb9053b84152cc666578c6da903880a08ee2fbd7ea221d5ba226fb1"
+        },
+        {
+          "bytes": 1975836,
+          "commit": "6fee92f612638df1e4fef92d1b93f239b26b2b92",
+          "path": "preview/bangladesh-v1/bangladesh.glb",
+          "role": "selected-model",
+          "sha256": "55114be0381466fdc63607171d3758076f73de5d1f193953d4a2b2540ff6fe80",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 130,
+            "nodes": 132
+          }
+        }
+      ],
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 3409417,
+        "commit": "6fee92f612638df1e4fef92d1b93f239b26b2b92",
+        "path": "preview/bangladesh-v1/bangladesh-v1.html",
+        "sha256": "d8e1cf5bb8548b0246ba80d4b755931d63a2aa59cf4faf42041e05c4a52a269e",
+        "under_5000000": true
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Bangladesh",
+    "package_history": [
+      {
+        "bytes": 7948676,
+        "commit": "6fee92f612638df1e4fef92d1b93f239b26b2b92",
+        "crc_error": null,
+        "entries": 59,
+        "inventory_checked": true,
+        "inventory_entries": 58,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/bangladesh-v1/bangladesh-v1-source.zip",
+        "required_payloads": {
+          "bangladesh-v1.html": true,
+          "bangladesh.blend": true,
+          "bangladesh.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "b1f1f486d75263d0cf0598c5258686075e781c3c149e593f81c3f86ce811c438"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "6fee92f612638df1e4fef92d1b93f239b26b2b92",
+      "fetched_tip": "6fee92f612638df1e4fef92d1b93f239b26b2b92",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/bangladesh-v1"
+    },
+    "verdict": "candidate-with-limitations",
+    "viewer": {
+      "bytes": 3409417,
+      "commit": "6fee92f612638df1e4fef92d1b93f239b26b2b92",
+      "path": "preview/bangladesh-v1/bangladesh-v1.html",
+      "sha256": "d8e1cf5bb8548b0246ba80d4b755931d63a2aa59cf4faf42041e05c4a52a269e",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "bangladesh",
+    "baseline_verdict": "candidate-with-limitations",
+    "actions": [
+      "remaining ordinary finish inspection; do not edit promotional-only differences or infer broken model"
+    ],
+    "approval": false,
+    "original_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "capture_base": "parent/",
+      "captures": [
+        "smoke/bangladesh/desktop-closed.png",
+        "smoke/bangladesh/desktop-open.png",
+        "smoke/bangladesh/mobile-closed.png",
+        "smoke/bangladesh/mobile-open.png"
+      ],
+      "critical_reproducible_failures": [],
+      "final_approval": false,
+      "fresh_checks": {
+        "blender_parity_collision": false,
+        "fallback": false,
+        "full_inner_archive_inventories": true,
+        "motion": false,
+        "original_captures_and_marketing_inspected": true,
+        "runtime": false,
+        "source_and_delivered_viewer_hashes": true,
+        "source_archive_crc_safe_paths_required_payloads": true
+      },
+      "historical_runtime": {
+        "browser": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.888500051572919,
+                  2.164999894797802,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.888500051572919,
+                  -0.24500000476837158,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1975836,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 10,
+              "meshes": 134,
+              "nonfinite": 0,
+              "triangles": 21472
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "bangladesh",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "d8e1cf5bb8548b0246ba80d4b755931d63a2aa59cf4faf42041e05c4a52a269e"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.888500051572919,
+                  2.164999894797802,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.888500051572919,
+                  -0.24500000476837158,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1975836,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 10,
+              "meshes": 134,
+              "nonfinite": 0,
+              "triangles": 21472
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "bangladesh",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "d8e1cf5bb8548b0246ba80d4b755931d63a2aa59cf4faf42041e05c4a52a269e"
+          }
+        ],
+        "extended": {
+          "geometry": {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.888500051572919,
+                  2.164999894797802,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.888500051572919,
+                  -0.24500000476837158,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1975836,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 10,
+              "meshes": 134,
+              "nonfinite": 0,
+              "triangles": 21472
+            },
+            "meshes": 134,
+            "nonfinite": 0,
+            "triangles": 21472
+          },
+          "id": "bangladesh",
+          "no_js_poster": true
+        },
+        "motion": {
+          "exit_code": 0,
+          "id": "bangladesh",
+          "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+          "source": [
+            {
+              "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+              "path": "preview/albania-v1/tests.mjs",
+              "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+            },
+            {
+              "commit": "6fee92f612638df1e4fef92d1b93f239b26b2b92",
+              "path": "preview/bangladesh-v1/motion.mjs",
+              "sha256": "34fe3c258ff6d653ef8a793ad9c50cfeac1b1677af25ca3ee5e4a1eea42fd283"
+            }
+          ]
+        },
+        "parent_commit": "431e51ffb5a8704b5f8f8b11694d28befae18402"
+      },
+      "id": "bangladesh",
+      "independent_visual": {
+        "assessment": {
+          "concrete_defects": [
+            "Fine ivory pattern and gold trim appear speckled/jagged on the angled mobile panels; motifs terminate at panel borders.",
+            "Upper decorative band and corner trim have uneven-looking segmented joins; promotional ivory lid accents vary in shape/spacing."
+          ],
+          "id": "bangladesh",
+          "inspected_paths": [
+            "parent/smoke/bangladesh/desktop-closed.png",
+            "parent/smoke/bangladesh/desktop-open.png",
+            "parent/smoke/bangladesh/mobile-closed.png",
+            "parent/smoke/bangladesh/mobile-open.png",
+            "parent/sources/bangladesh/marketing.webp"
+          ],
+          "limitations": [
+            "Cropped motifs, angular canopies, decorative water and substantial clasp are disclosed limits. Plain interior and hidden exterior landscape in open front view are not missing ornament.",
+            "Unchanged lightweight model reviewed against promotional illustration for visual relationship, not equivalence. Rendering polish differences are not automatically model defects.",
+            "Only supplied static viewpoints inspected; no proof of continuous collision freedom, hinge attachment, hidden geometry integrity, controls, performance, or physical-phone behavior. Apparent attachment gaps are unresolved visual ambiguities, not confirmed detached meshes.",
+            "Mobile secondary/status/disclaimer text is small; screenshot inspection does not establish accessibility contrast compliance.",
+            "No major missing visible panel or viewport clipping established. Candidate status is not art approval; existing user decisions remain holds."
+          ],
+          "observations": [
+            "Teal/ivory textile repeat and delta islands/channels are recognizable in closed model and promotional illustration; model vegetation and water are visibly simplified.",
+            "Desktop/mobile open and closed silhouettes and controls fit without visible cropping."
+          ],
+          "source_notice_path": "parent/sources/bangladesh/source_readme.md",
+          "verdict": "candidate-with-limitations"
+        },
+        "report": "visual-a.json"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-08 review"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 119192,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/bangladesh.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "Minor landscape relief variation",
+          "reviewStatus": "accepted",
+          "sha256": "2da459c636aec1f9bd9c57e0a82e4bab0d9f4eb8ddeb2ae33d07305549be3869",
+          "source": "assets/gallery/bangladesh.webp",
+          "sourceSha256": "3724507069199eb45a614c76530e9806748e20aaaa24daed3425241475f87ea7",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "0d3ee5c71041ff34249755e88e651002afb5d7cb75bf2840f0b6d45760fc4ca8"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_verdict": "pass",
+      "parent_visual": {
+        "decision": "pass",
+        "hardware": "Gold-tone clasp, caps, edging and block feet correspond to promotion. Released latch and rear hinges visible in open views; no demonstrated hardware fault.",
+        "limitations": [
+          "Stylized textile-inlay, not authentic woven construction; faceted canopies and cropped motifs disclosed. Open viewpoint naturally hides exterior delta; no hydrology or phone-performance claim.",
+          "Review uses original full-size image files, not a composite. Static screenshots cannot verify hidden geometry, animation intersections, real material construction or performance. Promotional enhancements are not runtime-detail guarantees."
+        ],
+        "quality": "Teal/ivory chest and branching delta remain recognizable on desktop/mobile; all open and closed framing complete.",
+        "terrain": "Shallow irregular islands and connected-looking channels retained; angular vegetation and flat enamel-like water replace promotional surface detail.",
+        "texture": "Ivory repeated motifs retained; runtime side pattern is softer and mobile weave detail unresolved compared with textured promotional panels."
+      },
+      "parent_visual_hold_preserved": false,
+      "reviewed_image_hashes": [
+        {
+          "bytes": 119192,
+          "path": "sources/bangladesh/marketing.webp",
+          "sha256": "0d3ee5c71041ff34249755e88e651002afb5d7cb75bf2840f0b6d45760fc4ca8"
+        },
+        {
+          "bytes": 354776,
+          "path": "smoke/bangladesh/desktop-closed.png",
+          "sha256": "5d8b8ee37ddc3c1bbfa8688a9fd3a6cfa89b910ad20158fedc3abd0b3db3f00a"
+        },
+        {
+          "bytes": 325564,
+          "path": "smoke/bangladesh/desktop-open.png",
+          "sha256": "f4034fbb822c4d64b34a57804e5618416511bed62d4c6cd9f4476d8d23364113"
+        },
+        {
+          "bytes": 118299,
+          "path": "smoke/bangladesh/mobile-closed.png",
+          "sha256": "1da52227c5a9b81c77ac0c267a9c6f5a06b50fda20cabb0532e47051dc50de9d"
+        },
+        {
+          "bytes": 104419,
+          "path": "smoke/bangladesh/mobile-open.png",
+          "sha256": "bb48cd33db41cf6255802680a2a214fc19d061edba3080733415503448aca263"
+        }
+      ],
+      "selection": {
+        "commit": "6fee92f612638df1e4fef92d1b93f239b26b2b92",
+        "fetched_tip": "6fee92f612638df1e4fef92d1b93f239b26b2b92",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/bangladesh-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 7948676,
+          "commit": "6fee92f612638df1e4fef92d1b93f239b26b2b92",
+          "crc_error": null,
+          "entries": 59,
+          "fresh_crc_safe_unique": true,
+          "fresh_inner_inventory_entries": 58,
+          "fresh_required_payloads": [
+            {
+              "member": "bangladesh-v1.html",
+              "path": "preview/bangladesh-v1/bangladesh-v1.html",
+              "sha256": "d8e1cf5bb8548b0246ba80d4b755931d63a2aa59cf4faf42041e05c4a52a269e"
+            },
+            {
+              "member": "bangladesh.blend",
+              "path": "preview/bangladesh-v1/bangladesh.blend",
+              "sha256": "6d8a4d3b1eb9053b84152cc666578c6da903880a08ee2fbd7ea221d5ba226fb1"
+            },
+            {
+              "member": "bangladesh.glb",
+              "path": "preview/bangladesh-v1/bangladesh.glb",
+              "sha256": "55114be0381466fdc63607171d3758076f73de5d1f193953d4a2b2540ff6fe80"
+            }
+          ],
+          "inventory_checked": true,
+          "inventory_entries": 58,
+          "inventory_mismatches": [],
+          "kind": "git",
+          "path": "preview/bangladesh-v1/bangladesh-v1-source.zip",
+          "required_payloads": {
+            "bangladesh-v1.html": true,
+            "bangladesh.blend": true,
+            "bangladesh.glb": true
+          },
+          "safe_unique_paths": true,
+          "sha256": "b1f1f486d75263d0cf0598c5258686075e781c3c149e593f81c3f86ce811c438"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 652228,
+          "commit": "6fee92f612638df1e4fef92d1b93f239b26b2b92",
+          "path": "preview/bangladesh-v1/bangladesh.blend",
+          "role": "selected-model",
+          "sha256": "6d8a4d3b1eb9053b84152cc666578c6da903880a08ee2fbd7ea221d5ba226fb1"
+        },
+        {
+          "bytes": 1975836,
+          "commit": "6fee92f612638df1e4fef92d1b93f239b26b2b92",
+          "path": "preview/bangladesh-v1/bangladesh.glb",
+          "role": "selected-model",
+          "sha256": "55114be0381466fdc63607171d3758076f73de5d1f193953d4a2b2540ff6fe80",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 130,
+            "nodes": 132
+          }
+        }
+      ],
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 3409417,
+        "commit": "6fee92f612638df1e4fef92d1b93f239b26b2b92",
+        "path": "preview/bangladesh-v1/bangladesh-v1.html",
+        "sha256": "d8e1cf5bb8548b0246ba80d4b755931d63a2aa59cf4faf42041e05c4a52a269e",
+        "under_5000000": true
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 7948676,
+        "commit": "6fee92f612638df1e4fef92d1b93f239b26b2b92",
+        "crc_error": null,
+        "entries": 59,
+        "inventory_checked": true,
+        "inventory_entries": 58,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/bangladesh-v1/bangladesh-v1-source.zip",
+        "required_payloads": {
+          "bangladesh-v1.html": true,
+          "bangladesh.blend": true,
+          "bangladesh.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "b1f1f486d75263d0cf0598c5258686075e781c3c149e593f81c3f86ce811c438"
+      }
+    ]
+  },
+  "ordinary_record": {
+    "id": "bangladesh",
+    "disposition": "presentation-correction-candidate",
+    "correction_passes": 1,
+    "model_geometry_changed": false,
+    "final_approved": false,
+    "launch_ready": false,
+    "original_observations": [
+      "Fine ivory pattern and gold trim appear speckled/jagged on the angled mobile panels; motifs terminate at panel borders.",
+      "Upper decorative band and corner trim have uneven-looking segmented joins; promotional ivory lid accents vary in shape/spacing."
+    ],
+    "independent_adjudication": {
+      "id": "bangladesh",
+      "disposition": "bounded-renderer-ab-test",
+      "observation": "Native desktop and mobile closed images show pixel-scale breakup in fine ivory textile edges, compressed side motifs and thin diagonal brass/patterned trim. Larger framing and fittings remain readable; open states remain coherent.",
+      "recommendation": "Trial a modest internal render scale such as 1.5 at DPR1 in an isolated viewer copy, retaining existing AA and every model/material/camera byte or setting. Compare same-size four-state captures, especially front/side motifs and trim. Retain only for visible continuity improvement without erasing intentional weave and with acceptable measured device cost. Otherwise no edit; investigate filtering separately rather than repainting motifs.",
+      "supersampling": "Targeted experiment justified, efficacy not proven. No motion-shimmer claim. Do not apply globally."
+    },
+    "unresolved_owner_holds": [
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "inherited_holds": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization",
+      "independent QA-ART-08 review"
+    ],
+    "original_review_preserved_in": "baseline.json",
+    "fresh_runtime": {
+      "id": "bangladesh",
+      "exit_code": 0,
+      "shared_contract": "Bangladesh renderer-independent interaction assertions; no fresh source/collision claim",
+      "results": "launch\\ordinary-finish-20\\runtime\\bangladesh\\browser-check.json"
+    },
+    "fresh_source_archive": {
+      "id": "bangladesh",
+      "archives": [
+        {
+          "archive": {
+            "bytes": 7948676,
+            "commit": "6fee92f612638df1e4fef92d1b93f239b26b2b92",
+            "crc_error": null,
+            "entries": 59,
+            "fresh_crc_safe_unique": true,
+            "fresh_inner_inventory_entries": 58,
+            "fresh_required_payloads": [
+              {
+                "member": "bangladesh-v1.html",
+                "path": "preview/bangladesh-v1/bangladesh-v1.html",
+                "sha256": "d8e1cf5bb8548b0246ba80d4b755931d63a2aa59cf4faf42041e05c4a52a269e"
+              },
+              {
+                "member": "bangladesh.blend",
+                "path": "preview/bangladesh-v1/bangladesh.blend",
+                "sha256": "6d8a4d3b1eb9053b84152cc666578c6da903880a08ee2fbd7ea221d5ba226fb1"
+              },
+              {
+                "member": "bangladesh.glb",
+                "path": "preview/bangladesh-v1/bangladesh.glb",
+                "sha256": "55114be0381466fdc63607171d3758076f73de5d1f193953d4a2b2540ff6fe80"
+              }
+            ],
+            "inventory_checked": true,
+            "inventory_entries": 58,
+            "inventory_mismatches": [],
+            "kind": "git",
+            "path": "preview/bangladesh-v1/bangladesh-v1-source.zip",
+            "required_payloads": {
+              "bangladesh-v1.html": true,
+              "bangladesh.blend": true,
+              "bangladesh.glb": true
+            },
+            "safe_unique_paths": true,
+            "sha256": "b1f1f486d75263d0cf0598c5258686075e781c3c149e593f81c3f86ce811c438"
+          },
+          "members": 59,
+          "fresh_inventory": {
+            "status": "pass",
+            "entries_checked": 58,
+            "uninventoried_members": [
+              "inventory.json"
+            ]
+          },
+          "exact_selected_payloads": [
+            "bangladesh-v1.html",
+            "bangladesh.blend",
+            "bangladesh.glb"
+          ]
+        }
+      ],
+      "pass": true
+    },
+    "remaining_visual_limitations": "Very small oblique motifs still lose detail; intentional segmented joins unchanged; physical-device performance unverified."
+  }
+}

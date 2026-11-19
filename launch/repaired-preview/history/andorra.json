@@ -1,0 +1,627 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 4,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 460539,
+        "role": "editable-source",
+        "sha256": "6afb5042f6352cff4d3d0937bade0d38f5f17b8b074c7e594217bc56ff8fda8a",
+        "source": {
+          "commit": "868200fc2e906e670de330a9704bea3eb72ebb4b",
+          "path": "preview/andorra-v1/andorra.blend"
+        },
+        "uri": "sha256:6afb5042f6352cff4d3d0937bade0d38f5f17b8b074c7e594217bc56ff8fda8a"
+      },
+      {
+        "bytes": 6515605,
+        "role": "historical-source-archive",
+        "sha256": "b91eaf836a20d7ee91f5124be0292c805aae8c42099201fe88d4c5a5f7284eea",
+        "source": {
+          "commit": "868200fc2e906e670de330a9704bea3eb72ebb4b",
+          "kind": "git",
+          "path": "preview/andorra-v1/andorra-v1-source.zip"
+        },
+        "uri": "sha256:b91eaf836a20d7ee91f5124be0292c805aae8c42099201fe88d4c5a5f7284eea"
+      },
+      {
+        "bytes": 2311640,
+        "role": "model",
+        "sha256": "aafd41116bd7cbc7a4dee7ee16c239751cd3c931993939f167afb8124e3db2b1",
+        "source": {
+          "commit": "868200fc2e906e670de330a9704bea3eb72ebb4b",
+          "path": "preview/andorra-v1/andorra.glb"
+        },
+        "uri": "sha256:aafd41116bd7cbc7a4dee7ee16c239751cd3c931993939f167afb8124e3db2b1"
+      },
+      {
+        "bytes": 48198,
+        "role": "promotional-illustration",
+        "sha256": "9d075ecd9664c400d09cdc9c0b890da37b502824ec1ab8b23b075beee6908c03",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/andorra.webp"
+        },
+        "uri": "sha256:9d075ecd9664c400d09cdc9c0b890da37b502824ec1ab8b23b075beee6908c03"
+      },
+      {
+        "bytes": 3113,
+        "role": "research-brief",
+        "sha256": "eb8d009426392fac97d6f882881adc81b4260ec0120505700e81e85914c7f159",
+        "source": {
+          "commit": "868200fc2e906e670de330a9704bea3eb72ebb4b",
+          "path": "preview/andorra-v1/design-brief.md"
+        },
+        "uri": "sha256:eb8d009426392fac97d6f882881adc81b4260ec0120505700e81e85914c7f159"
+      },
+      {
+        "bytes": 5923,
+        "role": "source-notice",
+        "sha256": "75f6e0e9c94246f29a59e4dc76f5629328d3e3d9a2f39074a32aa0e5c8cea698",
+        "source": {
+          "commit": "868200fc2e906e670de330a9704bea3eb72ebb4b",
+          "path": "preview/andorra-v1/README.md"
+        },
+        "uri": "sha256:75f6e0e9c94246f29a59e4dc76f5629328d3e3d9a2f39074a32aa0e5c8cea698"
+      },
+      {
+        "bytes": 3891932,
+        "role": "viewer",
+        "sha256": "a000ffdb70e1a2ef26dfc2e88d980c6011e5fd494e4bdb0139c4d5370d1dae2d",
+        "source": {
+          "commit": "868200fc2e906e670de330a9704bea3eb72ebb4b",
+          "path": "preview/andorra-v1/andorra-v1.html"
+        },
+        "uri": "sha256:a000ffdb70e1a2ef26dfc2e88d980c6011e5fd494e4bdb0139c4d5370d1dae2d"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "andorra",
+    "independent_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "captures": [
+        "parent/smoke/andorra/desktop-closed.png",
+        "parent/smoke/andorra/desktop-open.png",
+        "parent/smoke/andorra/mobile-closed.png",
+        "parent/smoke/andorra/mobile-open.png"
+      ],
+      "fresh_browser": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.564422130584717,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 2311640,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 6,
+            "meshes": 151,
+            "nonfinite": 0,
+            "triangles": 32156
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "andorra",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "a000ffdb70e1a2ef26dfc2e88d980c6011e5fd494e4bdb0139c4d5370d1dae2d"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.564422130584717,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 2311640,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 6,
+            "meshes": 151,
+            "nonfinite": 0,
+            "triangles": 32156
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "andorra",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "a000ffdb70e1a2ef26dfc2e88d980c6011e5fd494e4bdb0139c4d5370d1dae2d"
+        }
+      ],
+      "fresh_motion": {
+        "exit_code": 0,
+        "id": "andorra",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "868200fc2e906e670de330a9704bea3eb72ebb4b",
+            "path": "preview/andorra-v1/motion.mjs",
+            "sha256": "7eb5616b165533974e294d9d8da81562464d3b02b978ac1156fdc4695b5567f0"
+          }
+        ]
+      },
+      "fresh_runtime_captures": [
+        "smoke/andorra/desktop-closed.png",
+        "smoke/andorra/desktop-open.png",
+        "smoke/andorra/mobile-closed.png",
+        "smoke/andorra/mobile-open.png"
+      ],
+      "id": "andorra",
+      "independent_visual_findings": "Paired mountain groups and valley/path retained; faceted terrain, repetitive stone streaking and simplified brass remain disclosed.",
+      "inspection": "deleg_5910ddb9 tasks 0-4 inspected four original PNGs and promotional WebP per ID; lead Malta comparison reinspection",
+      "launch_ready": false,
+      "packaging_verdict": "pass",
+      "parent_findings": {
+        "hardware": "Clasp, disk, ring and corner caps retained; hidden hinge interfaces not proven detached.",
+        "terrain": "Paired smaller front-left peaks and larger rear-right massif retain valley composition.",
+        "texture": "Bright regular masonry joints, faceted terrain and striped underside; less geological richness than marketing."
+      },
+      "parent_remaining_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-04 review"
+      ],
+      "parent_status": "pass",
+      "polish_iterations": 0,
+      "proven_runtime_defects": [],
+      "remaining_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "selection": {
+        "commit": "868200fc2e906e670de330a9704bea3eb72ebb4b",
+        "fetched_tip": "868200fc2e906e670de330a9704bea3eb72ebb4b",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/andorra-v1"
+      },
+      "source_archive_audit": {
+        "archives": [
+          {
+            "internal_inventory_checked": 54,
+            "provenance": {
+              "bytes": 6515605,
+              "commit": "868200fc2e906e670de330a9704bea3eb72ebb4b",
+              "crc_error": null,
+              "entries": 55,
+              "inventory_checked": true,
+              "inventory_entries": 54,
+              "inventory_mismatches": [],
+              "kind": "git",
+              "path": "preview/andorra-v1/andorra-v1-source.zip",
+              "required_payloads": {
+                "andorra-v1.html": true,
+                "andorra.blend": true,
+                "andorra.glb": true
+              },
+              "safe_unique_paths": true,
+              "sha256": "b91eaf836a20d7ee91f5124be0292c805aae8c42099201fe88d4c5a5f7284eea"
+            },
+            "safe_unique_crc": true,
+            "selected_payload_checks": [
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "andorra-v1.html",
+                "sha256": "a000ffdb70e1a2ef26dfc2e88d980c6011e5fd494e4bdb0139c4d5370d1dae2d"
+              },
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "andorra.blend",
+                "sha256": "6afb5042f6352cff4d3d0937bade0d38f5f17b8b074c7e594217bc56ff8fda8a"
+              },
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "andorra.glb",
+                "sha256": "aafd41116bd7cbc7a4dee7ee16c239751cd3c931993939f167afb8124e3db2b1"
+              }
+            ]
+          }
+        ],
+        "id": "andorra",
+        "sources": [
+          {
+            "bytes": 460539,
+            "commit": "868200fc2e906e670de330a9704bea3eb72ebb4b",
+            "path": "preview/andorra-v1/andorra.blend",
+            "role": "selected-model",
+            "sha256": "6afb5042f6352cff4d3d0937bade0d38f5f17b8b074c7e594217bc56ff8fda8a"
+          },
+          {
+            "bytes": 2311640,
+            "commit": "868200fc2e906e670de330a9704bea3eb72ebb4b",
+            "path": "preview/andorra-v1/andorra.glb",
+            "role": "selected-model",
+            "sha256": "aafd41116bd7cbc7a4dee7ee16c239751cd3c931993939f167afb8124e3db2b1",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 149,
+              "nodes": 151
+            }
+          }
+        ],
+        "viewer": {
+          "bytes": 3891932,
+          "commit": "868200fc2e906e670de330a9704bea3eb72ebb4b",
+          "path": "preview/andorra-v1/andorra-v1.html",
+          "sha256": "a000ffdb70e1a2ef26dfc2e88d980c6011e5fd494e4bdb0139c4d5370d1dae2d",
+          "under_5000000": true
+        }
+      },
+      "user_final_approved": false,
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 3891932,
+        "commit": "868200fc2e906e670de330a9704bea3eb72ebb4b",
+        "path": "preview/andorra-v1/andorra-v1.html",
+        "sha256": "a000ffdb70e1a2ef26dfc2e88d980c6011e5fd494e4bdb0139c4d5370d1dae2d",
+        "under_5000000": true
+      },
+      "visual_verdict": "candidate-with-limitations"
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Andorra",
+    "package_history": [
+      {
+        "bytes": 6515605,
+        "commit": "868200fc2e906e670de330a9704bea3eb72ebb4b",
+        "crc_error": null,
+        "entries": 55,
+        "inventory_checked": true,
+        "inventory_entries": 54,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/andorra-v1/andorra-v1-source.zip",
+        "required_payloads": {
+          "andorra-v1.html": true,
+          "andorra.blend": true,
+          "andorra.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "b91eaf836a20d7ee91f5124be0292c805aae8c42099201fe88d4c5a5f7284eea"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "868200fc2e906e670de330a9704bea3eb72ebb4b",
+      "fetched_tip": "868200fc2e906e670de330a9704bea3eb72ebb4b",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/andorra-v1"
+    },
+    "verdict": "candidate-with-limitations",
+    "viewer": {
+      "bytes": 3891932,
+      "commit": "868200fc2e906e670de330a9704bea3eb72ebb4b",
+      "path": "preview/andorra-v1/andorra-v1.html",
+      "sha256": "a000ffdb70e1a2ef26dfc2e88d980c6011e5fd494e4bdb0139c4d5370d1dae2d",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "andorra",
+    "baseline_verdict": "candidate-with-limitations",
+    "actions": [
+      "owner art/finish acceptance; no proven runtime defect recorded; no autonomous redesign"
+    ],
+    "approval": false,
+    "original_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "captures": [
+        "parent/smoke/andorra/desktop-closed.png",
+        "parent/smoke/andorra/desktop-open.png",
+        "parent/smoke/andorra/mobile-closed.png",
+        "parent/smoke/andorra/mobile-open.png"
+      ],
+      "fresh_browser": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.564422130584717,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 2311640,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 6,
+            "meshes": 151,
+            "nonfinite": 0,
+            "triangles": 32156
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "andorra",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "a000ffdb70e1a2ef26dfc2e88d980c6011e5fd494e4bdb0139c4d5370d1dae2d"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.564422130584717,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 2311640,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 6,
+            "meshes": 151,
+            "nonfinite": 0,
+            "triangles": 32156
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "andorra",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "a000ffdb70e1a2ef26dfc2e88d980c6011e5fd494e4bdb0139c4d5370d1dae2d"
+        }
+      ],
+      "fresh_motion": {
+        "exit_code": 0,
+        "id": "andorra",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "868200fc2e906e670de330a9704bea3eb72ebb4b",
+            "path": "preview/andorra-v1/motion.mjs",
+            "sha256": "7eb5616b165533974e294d9d8da81562464d3b02b978ac1156fdc4695b5567f0"
+          }
+        ]
+      },
+      "fresh_runtime_captures": [
+        "smoke/andorra/desktop-closed.png",
+        "smoke/andorra/desktop-open.png",
+        "smoke/andorra/mobile-closed.png",
+        "smoke/andorra/mobile-open.png"
+      ],
+      "id": "andorra",
+      "independent_visual_findings": "Paired mountain groups and valley/path retained; faceted terrain, repetitive stone streaking and simplified brass remain disclosed.",
+      "inspection": "deleg_5910ddb9 tasks 0-4 inspected four original PNGs and promotional WebP per ID; lead Malta comparison reinspection",
+      "launch_ready": false,
+      "packaging_verdict": "pass",
+      "parent_findings": {
+        "hardware": "Clasp, disk, ring and corner caps retained; hidden hinge interfaces not proven detached.",
+        "terrain": "Paired smaller front-left peaks and larger rear-right massif retain valley composition.",
+        "texture": "Bright regular masonry joints, faceted terrain and striped underside; less geological richness than marketing."
+      },
+      "parent_remaining_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-04 review"
+      ],
+      "parent_status": "pass",
+      "polish_iterations": 0,
+      "proven_runtime_defects": [],
+      "remaining_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "selection": {
+        "commit": "868200fc2e906e670de330a9704bea3eb72ebb4b",
+        "fetched_tip": "868200fc2e906e670de330a9704bea3eb72ebb4b",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/andorra-v1"
+      },
+      "source_archive_audit": {
+        "archives": [
+          {
+            "internal_inventory_checked": 54,
+            "provenance": {
+              "bytes": 6515605,
+              "commit": "868200fc2e906e670de330a9704bea3eb72ebb4b",
+              "crc_error": null,
+              "entries": 55,
+              "inventory_checked": true,
+              "inventory_entries": 54,
+              "inventory_mismatches": [],
+              "kind": "git",
+              "path": "preview/andorra-v1/andorra-v1-source.zip",
+              "required_payloads": {
+                "andorra-v1.html": true,
+                "andorra.blend": true,
+                "andorra.glb": true
+              },
+              "safe_unique_paths": true,
+              "sha256": "b91eaf836a20d7ee91f5124be0292c805aae8c42099201fe88d4c5a5f7284eea"
+            },
+            "safe_unique_crc": true,
+            "selected_payload_checks": [
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "andorra-v1.html",
+                "sha256": "a000ffdb70e1a2ef26dfc2e88d980c6011e5fd494e4bdb0139c4d5370d1dae2d"
+              },
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "andorra.blend",
+                "sha256": "6afb5042f6352cff4d3d0937bade0d38f5f17b8b074c7e594217bc56ff8fda8a"
+              },
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "andorra.glb",
+                "sha256": "aafd41116bd7cbc7a4dee7ee16c239751cd3c931993939f167afb8124e3db2b1"
+              }
+            ]
+          }
+        ],
+        "id": "andorra",
+        "sources": [
+          {
+            "bytes": 460539,
+            "commit": "868200fc2e906e670de330a9704bea3eb72ebb4b",
+            "path": "preview/andorra-v1/andorra.blend",
+            "role": "selected-model",
+            "sha256": "6afb5042f6352cff4d3d0937bade0d38f5f17b8b074c7e594217bc56ff8fda8a"
+          },
+          {
+            "bytes": 2311640,
+            "commit": "868200fc2e906e670de330a9704bea3eb72ebb4b",
+            "path": "preview/andorra-v1/andorra.glb",
+            "role": "selected-model",
+            "sha256": "aafd41116bd7cbc7a4dee7ee16c239751cd3c931993939f167afb8124e3db2b1",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 149,
+              "nodes": 151
+            }
+          }
+        ],
+        "viewer": {
+          "bytes": 3891932,
+          "commit": "868200fc2e906e670de330a9704bea3eb72ebb4b",
+          "path": "preview/andorra-v1/andorra-v1.html",
+          "sha256": "a000ffdb70e1a2ef26dfc2e88d980c6011e5fd494e4bdb0139c4d5370d1dae2d",
+          "under_5000000": true
+        }
+      },
+      "user_final_approved": false,
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 3891932,
+        "commit": "868200fc2e906e670de330a9704bea3eb72ebb4b",
+        "path": "preview/andorra-v1/andorra-v1.html",
+        "sha256": "a000ffdb70e1a2ef26dfc2e88d980c6011e5fd494e4bdb0139c4d5370d1dae2d",
+        "under_5000000": true
+      },
+      "visual_verdict": "candidate-with-limitations"
+    },
+    "package_history": [
+      {
+        "bytes": 6515605,
+        "commit": "868200fc2e906e670de330a9704bea3eb72ebb4b",
+        "crc_error": null,
+        "entries": 55,
+        "inventory_checked": true,
+        "inventory_entries": 54,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/andorra-v1/andorra-v1-source.zip",
+        "required_payloads": {
+          "andorra-v1.html": true,
+          "andorra.blend": true,
+          "andorra.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "b91eaf836a20d7ee91f5124be0292c805aae8c42099201fe88d4c5a5f7284eea"
+      }
+    ]
+  }
+}

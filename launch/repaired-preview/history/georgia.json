@@ -1,0 +1,550 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 1,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 420656,
+        "role": "editable-source",
+        "sha256": "72233ec15ac89b3a7c449e5639c3e315b148ca2b5814ff402e0e1129692cebd1",
+        "source": {
+          "commit": "8f81cbb7f1e5022434bb72fb3f028c48f28ad88e",
+          "path": "preview/georgia-v1/georgia.blend"
+        },
+        "uri": "sha256:72233ec15ac89b3a7c449e5639c3e315b148ca2b5814ff402e0e1129692cebd1"
+      },
+      {
+        "bytes": 5263557,
+        "role": "historical-source-archive",
+        "sha256": "45c5831cce11946118eebbf45432f1e9f90d40ee4b1deaf4242150140d0e11a1",
+        "source": {
+          "commit": "8f81cbb7f1e5022434bb72fb3f028c48f28ad88e",
+          "kind": "git",
+          "path": "preview/georgia-v1/georgia-v1-source.zip"
+        },
+        "uri": "sha256:45c5831cce11946118eebbf45432f1e9f90d40ee4b1deaf4242150140d0e11a1"
+      },
+      {
+        "bytes": 2642344,
+        "role": "model",
+        "sha256": "40f21a380c521db9c297c3770bc2ca1aeff63adbe80f97d26fd87d3e3319d64d",
+        "source": {
+          "commit": "8f81cbb7f1e5022434bb72fb3f028c48f28ad88e",
+          "path": "preview/georgia-v1/georgia.glb"
+        },
+        "uri": "sha256:40f21a380c521db9c297c3770bc2ca1aeff63adbe80f97d26fd87d3e3319d64d"
+      },
+      {
+        "bytes": 65858,
+        "role": "promotional-illustration",
+        "sha256": "25da4892c932ea15dfe10d38a4bd7ff9e4dd89375c0bf07d604c41368dfb0090",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/georgia.webp"
+        },
+        "uri": "sha256:25da4892c932ea15dfe10d38a4bd7ff9e4dd89375c0bf07d604c41368dfb0090"
+      },
+      {
+        "bytes": 3427,
+        "role": "research-brief",
+        "sha256": "29c3c59eb702c0fc39324ee17e28d305d8ce62d99ff83104f91044ccc545b6b6",
+        "source": {
+          "commit": "8f81cbb7f1e5022434bb72fb3f028c48f28ad88e",
+          "path": "preview/georgia-v1/design-brief.md"
+        },
+        "uri": "sha256:29c3c59eb702c0fc39324ee17e28d305d8ce62d99ff83104f91044ccc545b6b6"
+      },
+      {
+        "bytes": 5470,
+        "role": "source-notice",
+        "sha256": "f82f8f0b57122304d05ced262a149bda0be49975195e0ada0d466e1b68484606",
+        "source": {
+          "commit": "8f81cbb7f1e5022434bb72fb3f028c48f28ad88e",
+          "path": "preview/georgia-v1/README.md"
+        },
+        "uri": "sha256:f82f8f0b57122304d05ced262a149bda0be49975195e0ada0d466e1b68484606"
+      },
+      {
+        "bytes": 4258189,
+        "role": "viewer",
+        "sha256": "ef31dc5903447ca8ed1a2b96391011d0f1ed09678dcad476e9c9239564126fdd",
+        "source": {
+          "commit": "8f81cbb7f1e5022434bb72fb3f028c48f28ad88e",
+          "path": "preview/georgia-v1/georgia-v1.html"
+        },
+        "uri": "sha256:ef31dc5903447ca8ed1a2b96391011d0f1ed09678dcad476e9c9239564126fdd"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "georgia",
+    "independent_review": {
+      "all_four_original_captures_inspected": true,
+      "captures": [
+        "launch/art-01/smoke/georgia/desktop-closed.png",
+        "launch/art-01/smoke/georgia/desktop-open.png",
+        "launch/art-01/smoke/georgia/mobile-closed.png",
+        "launch/art-01/smoke/georgia/mobile-open.png"
+      ],
+      "critical_defects": [],
+      "fresh_qa_runtime": [],
+      "id": "georgia",
+      "launch_ready": false,
+      "marketing_inspected": true,
+      "model_changed": false,
+      "model_sources": [
+        {
+          "bytes": 420656,
+          "commit": "8f81cbb7f1e5022434bb72fb3f028c48f28ad88e",
+          "path": "preview/georgia-v1/georgia.blend",
+          "role": "selected-model",
+          "sha256": "72233ec15ac89b3a7c449e5639c3e315b148ca2b5814ff402e0e1129692cebd1"
+        },
+        {
+          "bytes": 2642344,
+          "commit": "8f81cbb7f1e5022434bb72fb3f028c48f28ad88e",
+          "path": "preview/georgia-v1/georgia.glb",
+          "role": "selected-model",
+          "sha256": "40f21a380c521db9c297c3770bc2ca1aeff63adbe80f97d26fd87d3e3319d64d",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 177,
+            "nodes": 179
+          }
+        }
+      ],
+      "parent_runtime": {
+        "cases": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.7699999809265137,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.23000000417232513,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 2642344,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 7,
+              "meshes": 179,
+              "nonfinite": 0,
+              "triangles": 36676
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "georgia",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "ef31dc5903447ca8ed1a2b96391011d0f1ed09678dcad476e9c9239564126fdd"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.7699999809265137,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.23000000417232513,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 2642344,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 7,
+              "meshes": 179,
+              "nonfinite": 0,
+              "triangles": 36676
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "georgia",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "ef31dc5903447ca8ed1a2b96391011d0f1ed09678dcad476e9c9239564126fdd"
+          }
+        ],
+        "independently_rerun": false,
+        "motion": {
+          "exit_code": 0,
+          "id": "georgia",
+          "passed": true,
+          "scope": "original motion unit assertions; not fresh collision/source parity"
+        }
+      },
+      "parent_status": "needs-decision",
+      "remaining_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "art-direction-decision",
+        "hinge-attachment-clarity-not-proven-by-stills"
+      ],
+      "selection": {
+        "commit": "8f81cbb7f1e5022434bb72fb3f028c48f28ad88e",
+        "fetched_tip": "8f81cbb7f1e5022434bb72fb3f028c48f28ad88e",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/georgia-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 5263557,
+          "commit": "8f81cbb7f1e5022434bb72fb3f028c48f28ad88e",
+          "crc_safe_unique": true,
+          "exact_selected_payloads": {
+            "georgia-v1.html": [
+              "georgia-v1.html"
+            ],
+            "georgia.blend": [
+              "georgia.blend"
+            ],
+            "georgia.glb": [
+              "georgia.glb"
+            ]
+          },
+          "full_inventory_rerun": false,
+          "inherited_full_inventory_checked": true,
+          "members": 50,
+          "path": "preview/georgia-v1/georgia-v1-source.zip",
+          "sha256": "45c5831cce11946118eebbf45432f1e9f90d40ee4b1deaf4242150140d0e11a1"
+        }
+      ],
+      "user_final_approved": false,
+      "verdict": "needs-user-review",
+      "viewer": {
+        "bytes": 4258189,
+        "commit": "8f81cbb7f1e5022434bb72fb3f028c48f28ad88e",
+        "path": "preview/georgia-v1/georgia-v1.html",
+        "sha256": "ef31dc5903447ca8ed1a2b96391011d0f1ed09678dcad476e9c9239564126fdd",
+        "under_5000000": true
+      },
+      "visual_review": {
+        "caveats": [
+          "Preserve artistic decision hold",
+          "Do not describe marketing as unambiguously photoreal or entirely different geometry",
+          "No fresh hinge contact proof"
+        ],
+        "critical_visible_faults": [],
+        "file": "visual-b.json",
+        "id": "georgia",
+        "observations": {
+          "desktop-closed": "Tower, snowy angular peaks, green ground and masonry chest clearly communicate theme. Complete silhouette; repeated pale blocks and broad mountain facets remain stylized.",
+          "desktop-open": "Pale hollow interior and raised slab lid fully framed. Small hinges and exposed lid clasp have ambiguous seating; no definite major intersection.",
+          "marketing": "Retains tower, masonry, brass, angular snow mountains and green terrain. More speckled surface treatment and irregular joints; still visibly a stylized miniature.",
+          "mobile-closed": "Tower and snow remain legible. No clipping or control overlap; mountain/vegetation detail reduces to simple facets.",
+          "mobile-open": "Complete lid, cavity and feet visible. Mild aliasing and uncertain hinge connection, not demonstrated breakage."
+        },
+        "parent_status": "needs-decision",
+        "parent_status_justified": "yes as a conservative artistic hold; the supplied marketing image is itself faceted, so the parent's craggy-landscape contrast is stronger than this review can independently establish",
+        "recommended_status": "needs-decision"
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Georgia",
+    "package_history": [
+      {
+        "bytes": 5263557,
+        "commit": "8f81cbb7f1e5022434bb72fb3f028c48f28ad88e",
+        "crc_error": null,
+        "entries": 50,
+        "inventory_checked": true,
+        "inventory_entries": 49,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/georgia-v1/georgia-v1-source.zip",
+        "required_payloads": {
+          "georgia-v1.html": true,
+          "georgia.blend": true,
+          "georgia.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "45c5831cce11946118eebbf45432f1e9f90d40ee4b1deaf4242150140d0e11a1"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "8f81cbb7f1e5022434bb72fb3f028c48f28ad88e",
+      "fetched_tip": "8f81cbb7f1e5022434bb72fb3f028c48f28ad88e",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/georgia-v1"
+    },
+    "verdict": "needs-user-review",
+    "viewer": {
+      "bytes": 4258189,
+      "commit": "8f81cbb7f1e5022434bb72fb3f028c48f28ad88e",
+      "path": "preview/georgia-v1/georgia-v1.html",
+      "sha256": "ef31dc5903447ca8ed1a2b96391011d0f1ed09678dcad476e9c9239564126fdd",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "georgia",
+    "baseline_verdict": "needs-user-review",
+    "actions": [
+      "owner art/finish acceptance; no proven runtime defect recorded; no autonomous redesign"
+    ],
+    "approval": false,
+    "original_review": {
+      "all_four_original_captures_inspected": true,
+      "captures": [
+        "launch/art-01/smoke/georgia/desktop-closed.png",
+        "launch/art-01/smoke/georgia/desktop-open.png",
+        "launch/art-01/smoke/georgia/mobile-closed.png",
+        "launch/art-01/smoke/georgia/mobile-open.png"
+      ],
+      "critical_defects": [],
+      "fresh_qa_runtime": [],
+      "id": "georgia",
+      "launch_ready": false,
+      "marketing_inspected": true,
+      "model_changed": false,
+      "model_sources": [
+        {
+          "bytes": 420656,
+          "commit": "8f81cbb7f1e5022434bb72fb3f028c48f28ad88e",
+          "path": "preview/georgia-v1/georgia.blend",
+          "role": "selected-model",
+          "sha256": "72233ec15ac89b3a7c449e5639c3e315b148ca2b5814ff402e0e1129692cebd1"
+        },
+        {
+          "bytes": 2642344,
+          "commit": "8f81cbb7f1e5022434bb72fb3f028c48f28ad88e",
+          "path": "preview/georgia-v1/georgia.glb",
+          "role": "selected-model",
+          "sha256": "40f21a380c521db9c297c3770bc2ca1aeff63adbe80f97d26fd87d3e3319d64d",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 177,
+            "nodes": 179
+          }
+        }
+      ],
+      "parent_runtime": {
+        "cases": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.7699999809265137,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.23000000417232513,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 2642344,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 7,
+              "meshes": 179,
+              "nonfinite": 0,
+              "triangles": 36676
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "georgia",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "ef31dc5903447ca8ed1a2b96391011d0f1ed09678dcad476e9c9239564126fdd"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.7699999809265137,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.23000000417232513,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 2642344,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 7,
+              "meshes": 179,
+              "nonfinite": 0,
+              "triangles": 36676
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "georgia",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "ef31dc5903447ca8ed1a2b96391011d0f1ed09678dcad476e9c9239564126fdd"
+          }
+        ],
+        "independently_rerun": false,
+        "motion": {
+          "exit_code": 0,
+          "id": "georgia",
+          "passed": true,
+          "scope": "original motion unit assertions; not fresh collision/source parity"
+        }
+      },
+      "parent_status": "needs-decision",
+      "remaining_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "art-direction-decision",
+        "hinge-attachment-clarity-not-proven-by-stills"
+      ],
+      "selection": {
+        "commit": "8f81cbb7f1e5022434bb72fb3f028c48f28ad88e",
+        "fetched_tip": "8f81cbb7f1e5022434bb72fb3f028c48f28ad88e",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/georgia-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 5263557,
+          "commit": "8f81cbb7f1e5022434bb72fb3f028c48f28ad88e",
+          "crc_safe_unique": true,
+          "exact_selected_payloads": {
+            "georgia-v1.html": [
+              "georgia-v1.html"
+            ],
+            "georgia.blend": [
+              "georgia.blend"
+            ],
+            "georgia.glb": [
+              "georgia.glb"
+            ]
+          },
+          "full_inventory_rerun": false,
+          "inherited_full_inventory_checked": true,
+          "members": 50,
+          "path": "preview/georgia-v1/georgia-v1-source.zip",
+          "sha256": "45c5831cce11946118eebbf45432f1e9f90d40ee4b1deaf4242150140d0e11a1"
+        }
+      ],
+      "user_final_approved": false,
+      "verdict": "needs-user-review",
+      "viewer": {
+        "bytes": 4258189,
+        "commit": "8f81cbb7f1e5022434bb72fb3f028c48f28ad88e",
+        "path": "preview/georgia-v1/georgia-v1.html",
+        "sha256": "ef31dc5903447ca8ed1a2b96391011d0f1ed09678dcad476e9c9239564126fdd",
+        "under_5000000": true
+      },
+      "visual_review": {
+        "caveats": [
+          "Preserve artistic decision hold",
+          "Do not describe marketing as unambiguously photoreal or entirely different geometry",
+          "No fresh hinge contact proof"
+        ],
+        "critical_visible_faults": [],
+        "file": "visual-b.json",
+        "id": "georgia",
+        "observations": {
+          "desktop-closed": "Tower, snowy angular peaks, green ground and masonry chest clearly communicate theme. Complete silhouette; repeated pale blocks and broad mountain facets remain stylized.",
+          "desktop-open": "Pale hollow interior and raised slab lid fully framed. Small hinges and exposed lid clasp have ambiguous seating; no definite major intersection.",
+          "marketing": "Retains tower, masonry, brass, angular snow mountains and green terrain. More speckled surface treatment and irregular joints; still visibly a stylized miniature.",
+          "mobile-closed": "Tower and snow remain legible. No clipping or control overlap; mountain/vegetation detail reduces to simple facets.",
+          "mobile-open": "Complete lid, cavity and feet visible. Mild aliasing and uncertain hinge connection, not demonstrated breakage."
+        },
+        "parent_status": "needs-decision",
+        "parent_status_justified": "yes as a conservative artistic hold; the supplied marketing image is itself faceted, so the parent's craggy-landscape contrast is stronger than this review can independently establish",
+        "recommended_status": "needs-decision"
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 5263557,
+        "commit": "8f81cbb7f1e5022434bb72fb3f028c48f28ad88e",
+        "crc_error": null,
+        "entries": 50,
+        "inventory_checked": true,
+        "inventory_entries": 49,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/georgia-v1/georgia-v1-source.zip",
+        "required_payloads": {
+          "georgia-v1.html": true,
+          "georgia.blend": true,
+          "georgia.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "45c5831cce11946118eebbf45432f1e9f90d40ee4b1deaf4242150140d0e11a1"
+      }
+    ]
+  },
+  "visual_decision": {
+    "id": "georgia",
+    "disposition": "preview-accepted-with-limitations",
+    "issue": "Coarse snow facets and regular masonry.",
+    "rationale": "Tower, snow peaks and green ground are legible in closed views. Marketing is itself stylized; reduced speckling and irregular joints do not establish missing terrain or justify a photorealism gate.",
+    "evidence": {
+      "commit": "45e69632c56c786dbf84ab6484d6b352f482c5c6",
+      "path": "launch/qa-art-01/launch/art-01/boards/georgia.jpg",
+      "sha256": "dc3bd0e297d43c62a5defda2494724e2c7f3b1f58a57dca5acd351d15b84d42b"
+    }
+  }
+}

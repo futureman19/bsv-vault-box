@@ -1,0 +1,658 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 6,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 815339,
+        "role": "editable-source",
+        "sha256": "e65ca7d28cdd0516e6da56a63af653c65f57e82ace7a1f0517737fadea33263a",
+        "source": {
+          "commit": "e05b6a5502e22b9dc090d98ac836ebabccd19d65",
+          "path": "preview/switzerland-v1/switzerland.blend"
+        },
+        "uri": "sha256:e65ca7d28cdd0516e6da56a63af653c65f57e82ace7a1f0517737fadea33263a"
+      },
+      {
+        "bytes": 8092250,
+        "role": "historical-source-archive",
+        "sha256": "93d32c5b05e20c311ca0e657bed332c655beabd0e05936dd90f4be00090df087",
+        "source": {
+          "commit": "e05b6a5502e22b9dc090d98ac836ebabccd19d65",
+          "kind": "git",
+          "path": "preview/switzerland-v1/switzerland-v1-source.zip"
+        },
+        "uri": "sha256:93d32c5b05e20c311ca0e657bed332c655beabd0e05936dd90f4be00090df087"
+      },
+      {
+        "bytes": 2391704,
+        "role": "model",
+        "sha256": "389bd596e038f25ceea9e4e897f223501d4d3e839a349f6afed9b6ff880619f4",
+        "source": {
+          "commit": "e05b6a5502e22b9dc090d98ac836ebabccd19d65",
+          "path": "preview/switzerland-v1/switzerland.glb"
+        },
+        "uri": "sha256:389bd596e038f25ceea9e4e897f223501d4d3e839a349f6afed9b6ff880619f4"
+      },
+      {
+        "bytes": 67526,
+        "role": "promotional-illustration",
+        "sha256": "fad4b383bfad51ce9e5334776b092576a57134889ebfa04bf01d0eaad8d3335b",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/switzerland.webp"
+        },
+        "uri": "sha256:fad4b383bfad51ce9e5334776b092576a57134889ebfa04bf01d0eaad8d3335b"
+      },
+      {
+        "bytes": 2807,
+        "role": "research-brief",
+        "sha256": "4753a534700122a70ffa3276843cbf071d0da958d9d7b94fe3ce178e2a39aba6",
+        "source": {
+          "commit": "e05b6a5502e22b9dc090d98ac836ebabccd19d65",
+          "path": "preview/switzerland-v1/design-brief.md"
+        },
+        "uri": "sha256:4753a534700122a70ffa3276843cbf071d0da958d9d7b94fe3ce178e2a39aba6"
+      },
+      {
+        "bytes": 5538,
+        "role": "source-notice",
+        "sha256": "c0cc1e8f8ecbee2bacf5fa8f252d997985528f7c0a1916b3fb5df43f1eb8ec27",
+        "source": {
+          "commit": "e05b6a5502e22b9dc090d98ac836ebabccd19d65",
+          "path": "preview/switzerland-v1/README.md"
+        },
+        "uri": "sha256:c0cc1e8f8ecbee2bacf5fa8f252d997985528f7c0a1916b3fb5df43f1eb8ec27"
+      },
+      {
+        "bytes": 3950712,
+        "role": "viewer",
+        "sha256": "7865e383e44a849364377fc760095e9da0b89ee19c3dbc4ed8d038536efc2f4a",
+        "source": {
+          "commit": "e05b6a5502e22b9dc090d98ac836ebabccd19d65",
+          "path": "preview/switzerland-v1/switzerland-v1.html"
+        },
+        "uri": "sha256:7865e383e44a849364377fc760095e9da0b89ee19c3dbc4ed8d038536efc2f4a"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "switzerland",
+    "independent_review": {
+      "adjudication": "Preserve substantive parent art-decision hold despite any more permissive independent recommendation; no user approval or changed art resolves it.",
+      "art_changed": false,
+      "critical_reproducible_defects": [],
+      "fresh_blender_reopen": false,
+      "fresh_browser": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.865999988745898,
+                2.940000057220459,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 2391704,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 7,
+            "meshes": 132,
+            "nonfinite": 0,
+            "triangles": 27818
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "switzerland",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "7865e383e44a849364377fc760095e9da0b89ee19c3dbc4ed8d038536efc2f4a"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.865999988745898,
+                2.940000057220459,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 2391704,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 7,
+            "meshes": 132,
+            "nonfinite": 0,
+            "triangles": 27818
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "switzerland",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "7865e383e44a849364377fc760095e9da0b89ee19c3dbc4ed8d038536efc2f4a"
+        }
+      ],
+      "fresh_collision_sampling": false,
+      "fresh_corrupt_glb_fallback": false,
+      "fresh_motion": {
+        "exit_code": 0,
+        "id": "switzerland",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "e05b6a5502e22b9dc090d98ac836ebabccd19d65",
+            "path": "preview/switzerland-v1/motion.mjs",
+            "sha256": "0c805953c57de2d6ae930c58940c6f70b33213ed2eb49285e6ec57f7782f60e3"
+          }
+        ]
+      },
+      "fresh_nojs": false,
+      "id": "switzerland",
+      "independent_visual": {
+        "file": "visual-5.json",
+        "findings": {
+          "appearance": "Warm horizontal-grain wooden chest with contrasting corner joinery, green lid seam, brass hardware and rough stone feet. Closed views show a gray mountain with pointed white snow streaks and basal boulders. Open views reveal a wood-lined cavity and plain wood underside.",
+          "artistic_gaps": [
+            "Snow transition is conspicuously spiky; mountain silhouette is not strongly Matterhorn-specific.",
+            "Uniform brass and repetitive grain remain stylized rather than premium material rendering."
+          ],
+          "id": "switzerland",
+          "images": {
+            "desktop_closed": "parent/smoke/switzerland/desktop-closed.png",
+            "desktop_open": "parent/smoke/switzerland/desktop-open.png",
+            "marketing": "parent/sources/switzerland/marketing.webp",
+            "mobile_closed": "parent/smoke/switzerland/mobile-closed.png",
+            "mobile_open": "parent/smoke/switzerland/mobile-open.png"
+          },
+          "mechanism_concerns_unconfirmed": [
+            "Green/dark separation in closed views can read as an unseated lid beneath the clasp, but the reference also has the green seam.",
+            "Open views have ambiguous hinge contact and segmented rim joins; static evidence does not prove detachment."
+          ],
+          "observed_defects": [],
+          "per_frame": {
+            "desktop_closed": "Mountain and all feet fit; snowy starburst and green seam are prominent.",
+            "desktop_open": "Wood interior visible; green strips terminate at corner blocks; lid contact looks sparse.",
+            "marketing": "Same warm wood, green band, box joints, snow-streaked pyramidal mountain and rock supports.",
+            "mobile_closed": "Two-line title fits, complete mountain silhouette; rough stone supports remain visible.",
+            "mobile_open": "No cropping; layered lid edge and uneven rim terminations more apparent at small scale."
+          },
+          "recommendation": "candidate-with-limitations",
+          "recommendation_reason": "Good correspondence to existing art. Mountain identity and material polish are artistic limitations; runtime hinge/closed-seat verification remains outside this review. Not final approval.",
+          "reference_comparison": "Warm wood, exposed joints, jade band, stone feet and simplified snow mountain closely follow the reference. The reference already looks warmer than 'dark walnut' and has a generic pyramidal mountain, so limited Matterhorn specificity is inherited rather than a new modeling failure."
+        }
+      },
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 67526,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/switzerland.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "Corrected wooden rim and joinery; narrow green seam retained. Minor mountain contour changes.",
+          "reviewStatus": "accepted",
+          "sha256": "07ca22919ace829e63794f7ab794e499fa995deaa56aa7636b8dcf6d5ff83c22",
+          "source": "assets/gallery/switzerland.webp",
+          "sourceSha256": "25806d375cbd6302d681ed6a21d7b5ea60586afd82e7a8474fd2f6f1ba613dab",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "fad4b383bfad51ce9e5334776b092576a57134889ebfa04bf01d0eaad8d3335b"
+      },
+      "original_capture_paths": [
+        "parent/smoke/switzerland/desktop-closed.png",
+        "parent/smoke/switzerland/desktop-open.png",
+        "parent/smoke/switzerland/mobile-closed.png",
+        "parent/smoke/switzerland/mobile-open.png"
+      ],
+      "packaging_hold": false,
+      "parent_decision": "Approve the simplified Alpine interpretation explicitly or request a separate terrain/material fidelity pass. This is a visible marketing-to-runtime fidelity decision, not a proven collision or missing-terrain defect.",
+      "parent_missing_gates_preserved": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_quality": "All four original captures are fully framed and mutually consistent. Broad walnut/mountain/brass identity matches, but runtime terrain is smoother and less sculpturally distinct, wood more regular, and hardware less dimensional than exact marketing. No obvious missing mesh or broken texture patch.",
+      "parent_status": "needs-decision",
+      "remaining_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "user fidelity decision before substantial redesign",
+        "independent QA-ART-06 review"
+      ],
+      "selection": {
+        "commit": "e05b6a5502e22b9dc090d98ac836ebabccd19d65",
+        "fetched_tip": "e05b6a5502e22b9dc090d98ac836ebabccd19d65",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/switzerland-v1"
+      },
+      "source_archive_check": {
+        "archive": {
+          "bytes": 8092250,
+          "crc": "pass",
+          "entries": 62,
+          "mismatches": [],
+          "path": "preview/switzerland-v1/switzerland-v1-source.zip",
+          "required_payload_hashes": "pass",
+          "sha256": "93d32c5b05e20c311ca0e657bed332c655beabd0e05936dd90f4be00090df087"
+        },
+        "id": "switzerland",
+        "internal_inventory": "pass",
+        "inventory_entries_checked": 61,
+        "selected_payload_match": "pass"
+      },
+      "source_archives": [
+        {
+          "bytes": 8092250,
+          "crc": "pass",
+          "entries": 62,
+          "mismatches": [],
+          "path": "preview/switzerland-v1/switzerland-v1-source.zip",
+          "required_payload_hashes": "pass",
+          "sha256": "93d32c5b05e20c311ca0e657bed332c655beabd0e05936dd90f4be00090df087"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 815339,
+          "path": "preview/switzerland-v1/switzerland.blend",
+          "sha256": "e65ca7d28cdd0516e6da56a63af653c65f57e82ace7a1f0517737fadea33263a"
+        },
+        {
+          "bytes": 2391704,
+          "path": "preview/switzerland-v1/switzerland.glb",
+          "sha256": "389bd596e038f25ceea9e4e897f223501d4d3e839a349f6afed9b6ff880619f4"
+        }
+      ],
+      "user_final_approved": false,
+      "verdict": "needs-user-review",
+      "viewer": {
+        "bytes": 3950712,
+        "commit": "e05b6a5502e22b9dc090d98ac836ebabccd19d65",
+        "path": "preview/switzerland-v1/switzerland-v1.html",
+        "sha256": "7865e383e44a849364377fc760095e9da0b89ee19c3dbc4ed8d038536efc2f4a",
+        "under_5000000": true
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Switzerland",
+    "package_history": [
+      {
+        "bytes": 8092250,
+        "commit": "e05b6a5502e22b9dc090d98ac836ebabccd19d65",
+        "crc_error": null,
+        "entries": 62,
+        "inventory_checked": true,
+        "inventory_entries": 61,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/switzerland-v1/switzerland-v1-source.zip",
+        "required_payloads": {
+          "switzerland-v1.html": true,
+          "switzerland.blend": true,
+          "switzerland.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "93d32c5b05e20c311ca0e657bed332c655beabd0e05936dd90f4be00090df087"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "e05b6a5502e22b9dc090d98ac836ebabccd19d65",
+      "fetched_tip": "e05b6a5502e22b9dc090d98ac836ebabccd19d65",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/switzerland-v1"
+    },
+    "verdict": "needs-user-review",
+    "viewer": {
+      "bytes": 3950712,
+      "commit": "e05b6a5502e22b9dc090d98ac836ebabccd19d65",
+      "path": "preview/switzerland-v1/switzerland-v1.html",
+      "sha256": "7865e383e44a849364377fc760095e9da0b89ee19c3dbc4ed8d038536efc2f4a",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "switzerland",
+    "baseline_verdict": "needs-user-review",
+    "actions": [
+      "owner art/finish acceptance; no proven runtime defect recorded; no autonomous redesign"
+    ],
+    "approval": false,
+    "original_review": {
+      "adjudication": "Preserve substantive parent art-decision hold despite any more permissive independent recommendation; no user approval or changed art resolves it.",
+      "art_changed": false,
+      "critical_reproducible_defects": [],
+      "fresh_blender_reopen": false,
+      "fresh_browser": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.865999988745898,
+                2.940000057220459,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 2391704,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 7,
+            "meshes": 132,
+            "nonfinite": 0,
+            "triangles": 27818
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "switzerland",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "7865e383e44a849364377fc760095e9da0b89ee19c3dbc4ed8d038536efc2f4a"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.865999988745898,
+                2.940000057220459,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 2391704,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 7,
+            "meshes": 132,
+            "nonfinite": 0,
+            "triangles": 27818
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "switzerland",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "7865e383e44a849364377fc760095e9da0b89ee19c3dbc4ed8d038536efc2f4a"
+        }
+      ],
+      "fresh_collision_sampling": false,
+      "fresh_corrupt_glb_fallback": false,
+      "fresh_motion": {
+        "exit_code": 0,
+        "id": "switzerland",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "e05b6a5502e22b9dc090d98ac836ebabccd19d65",
+            "path": "preview/switzerland-v1/motion.mjs",
+            "sha256": "0c805953c57de2d6ae930c58940c6f70b33213ed2eb49285e6ec57f7782f60e3"
+          }
+        ]
+      },
+      "fresh_nojs": false,
+      "id": "switzerland",
+      "independent_visual": {
+        "file": "visual-5.json",
+        "findings": {
+          "appearance": "Warm horizontal-grain wooden chest with contrasting corner joinery, green lid seam, brass hardware and rough stone feet. Closed views show a gray mountain with pointed white snow streaks and basal boulders. Open views reveal a wood-lined cavity and plain wood underside.",
+          "artistic_gaps": [
+            "Snow transition is conspicuously spiky; mountain silhouette is not strongly Matterhorn-specific.",
+            "Uniform brass and repetitive grain remain stylized rather than premium material rendering."
+          ],
+          "id": "switzerland",
+          "images": {
+            "desktop_closed": "parent/smoke/switzerland/desktop-closed.png",
+            "desktop_open": "parent/smoke/switzerland/desktop-open.png",
+            "marketing": "parent/sources/switzerland/marketing.webp",
+            "mobile_closed": "parent/smoke/switzerland/mobile-closed.png",
+            "mobile_open": "parent/smoke/switzerland/mobile-open.png"
+          },
+          "mechanism_concerns_unconfirmed": [
+            "Green/dark separation in closed views can read as an unseated lid beneath the clasp, but the reference also has the green seam.",
+            "Open views have ambiguous hinge contact and segmented rim joins; static evidence does not prove detachment."
+          ],
+          "observed_defects": [],
+          "per_frame": {
+            "desktop_closed": "Mountain and all feet fit; snowy starburst and green seam are prominent.",
+            "desktop_open": "Wood interior visible; green strips terminate at corner blocks; lid contact looks sparse.",
+            "marketing": "Same warm wood, green band, box joints, snow-streaked pyramidal mountain and rock supports.",
+            "mobile_closed": "Two-line title fits, complete mountain silhouette; rough stone supports remain visible.",
+            "mobile_open": "No cropping; layered lid edge and uneven rim terminations more apparent at small scale."
+          },
+          "recommendation": "candidate-with-limitations",
+          "recommendation_reason": "Good correspondence to existing art. Mountain identity and material polish are artistic limitations; runtime hinge/closed-seat verification remains outside this review. Not final approval.",
+          "reference_comparison": "Warm wood, exposed joints, jade band, stone feet and simplified snow mountain closely follow the reference. The reference already looks warmer than 'dark walnut' and has a generic pyramidal mountain, so limited Matterhorn specificity is inherited rather than a new modeling failure."
+        }
+      },
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 67526,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/switzerland.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "Corrected wooden rim and joinery; narrow green seam retained. Minor mountain contour changes.",
+          "reviewStatus": "accepted",
+          "sha256": "07ca22919ace829e63794f7ab794e499fa995deaa56aa7636b8dcf6d5ff83c22",
+          "source": "assets/gallery/switzerland.webp",
+          "sourceSha256": "25806d375cbd6302d681ed6a21d7b5ea60586afd82e7a8474fd2f6f1ba613dab",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "fad4b383bfad51ce9e5334776b092576a57134889ebfa04bf01d0eaad8d3335b"
+      },
+      "original_capture_paths": [
+        "parent/smoke/switzerland/desktop-closed.png",
+        "parent/smoke/switzerland/desktop-open.png",
+        "parent/smoke/switzerland/mobile-closed.png",
+        "parent/smoke/switzerland/mobile-open.png"
+      ],
+      "packaging_hold": false,
+      "parent_decision": "Approve the simplified Alpine interpretation explicitly or request a separate terrain/material fidelity pass. This is a visible marketing-to-runtime fidelity decision, not a proven collision or missing-terrain defect.",
+      "parent_missing_gates_preserved": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_quality": "All four original captures are fully framed and mutually consistent. Broad walnut/mountain/brass identity matches, but runtime terrain is smoother and less sculpturally distinct, wood more regular, and hardware less dimensional than exact marketing. No obvious missing mesh or broken texture patch.",
+      "parent_status": "needs-decision",
+      "remaining_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "user fidelity decision before substantial redesign",
+        "independent QA-ART-06 review"
+      ],
+      "selection": {
+        "commit": "e05b6a5502e22b9dc090d98ac836ebabccd19d65",
+        "fetched_tip": "e05b6a5502e22b9dc090d98ac836ebabccd19d65",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/switzerland-v1"
+      },
+      "source_archive_check": {
+        "archive": {
+          "bytes": 8092250,
+          "crc": "pass",
+          "entries": 62,
+          "mismatches": [],
+          "path": "preview/switzerland-v1/switzerland-v1-source.zip",
+          "required_payload_hashes": "pass",
+          "sha256": "93d32c5b05e20c311ca0e657bed332c655beabd0e05936dd90f4be00090df087"
+        },
+        "id": "switzerland",
+        "internal_inventory": "pass",
+        "inventory_entries_checked": 61,
+        "selected_payload_match": "pass"
+      },
+      "source_archives": [
+        {
+          "bytes": 8092250,
+          "crc": "pass",
+          "entries": 62,
+          "mismatches": [],
+          "path": "preview/switzerland-v1/switzerland-v1-source.zip",
+          "required_payload_hashes": "pass",
+          "sha256": "93d32c5b05e20c311ca0e657bed332c655beabd0e05936dd90f4be00090df087"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 815339,
+          "path": "preview/switzerland-v1/switzerland.blend",
+          "sha256": "e65ca7d28cdd0516e6da56a63af653c65f57e82ace7a1f0517737fadea33263a"
+        },
+        {
+          "bytes": 2391704,
+          "path": "preview/switzerland-v1/switzerland.glb",
+          "sha256": "389bd596e038f25ceea9e4e897f223501d4d3e839a349f6afed9b6ff880619f4"
+        }
+      ],
+      "user_final_approved": false,
+      "verdict": "needs-user-review",
+      "viewer": {
+        "bytes": 3950712,
+        "commit": "e05b6a5502e22b9dc090d98ac836ebabccd19d65",
+        "path": "preview/switzerland-v1/switzerland-v1.html",
+        "sha256": "7865e383e44a849364377fc760095e9da0b89ee19c3dbc4ed8d038536efc2f4a",
+        "under_5000000": true
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 8092250,
+        "commit": "e05b6a5502e22b9dc090d98ac836ebabccd19d65",
+        "crc_error": null,
+        "entries": 62,
+        "inventory_checked": true,
+        "inventory_entries": 61,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/switzerland-v1/switzerland-v1-source.zip",
+        "required_payloads": {
+          "switzerland-v1.html": true,
+          "switzerland.blend": true,
+          "switzerland.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "93d32c5b05e20c311ca0e657bed332c655beabd0e05936dd90f4be00090df087"
+      }
+    ]
+  },
+  "visual_decision": {
+    "id": "switzerland",
+    "disposition": "preview-accepted-with-limitations",
+    "issue": "Generic snowy pyramid, spiky snow transition and repetitive walnut grain.",
+    "rationale": "Mountain, exposed timber joints, green band and stone feet survive. The reference already uses a simplified pyramidal mountain; accept an Alpine-inspired miniature without claiming precise Matterhorn geography.",
+    "evidence": {
+      "commit": "bb6301f93b47613838f53fbaba43f47b7b1d78c6",
+      "path": "launch/qa-art-06/parent/boards/switzerland.jpg",
+      "sha256": "e9b5a4bc5ecfee563019937cf6abf64f8a063176719a9eb974099274f8c6365a"
+    }
+  }
+}

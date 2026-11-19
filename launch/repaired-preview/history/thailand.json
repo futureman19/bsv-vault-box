@@ -1,0 +1,543 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 2,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 433234,
+        "role": "editable-source",
+        "sha256": "0458ef11b57e701e9e42878bfd149ff2f667bb9011e4bade435747defc52748d",
+        "source": {
+          "commit": "c728062e0727a7fb767492717e285c856d2f8ba0",
+          "path": "preview/thailand-v1/thailand.blend"
+        },
+        "uri": "sha256:0458ef11b57e701e9e42878bfd149ff2f667bb9011e4bade435747defc52748d"
+      },
+      {
+        "bytes": 4898899,
+        "role": "historical-source-archive",
+        "sha256": "6bf97f02b2b4b4cbf3d1e53c5bcc36d7951421a38230a1b8f4862b40013b1d32",
+        "source": {
+          "commit": "c728062e0727a7fb767492717e285c856d2f8ba0",
+          "kind": "git",
+          "path": "preview/thailand-v1/thailand-v1-source.zip"
+        },
+        "uri": "sha256:6bf97f02b2b4b4cbf3d1e53c5bcc36d7951421a38230a1b8f4862b40013b1d32"
+      },
+      {
+        "bytes": 1123908,
+        "role": "model",
+        "sha256": "6c387a779910067516ffb9411ba58645ab71a8801480ed21290e3804ecd942c6",
+        "source": {
+          "commit": "c728062e0727a7fb767492717e285c856d2f8ba0",
+          "path": "preview/thailand-v1/thailand.glb"
+        },
+        "uri": "sha256:6c387a779910067516ffb9411ba58645ab71a8801480ed21290e3804ecd942c6"
+      },
+      {
+        "bytes": 56902,
+        "role": "promotional-illustration",
+        "sha256": "532ed14be88888d2ac736864fd3747681819817b0fdd7a7456613afa346bee71",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/thailand.webp"
+        },
+        "uri": "sha256:532ed14be88888d2ac736864fd3747681819817b0fdd7a7456613afa346bee71"
+      },
+      {
+        "bytes": 2887,
+        "role": "research-brief",
+        "sha256": "d1a631205383d331cff5892a5392944a7442068dbfe5ccfc0c478606e8a0a843",
+        "source": {
+          "commit": "c728062e0727a7fb767492717e285c856d2f8ba0",
+          "path": "preview/thailand-v1/design-brief.md"
+        },
+        "uri": "sha256:d1a631205383d331cff5892a5392944a7442068dbfe5ccfc0c478606e8a0a843"
+      },
+      {
+        "bytes": 4885,
+        "role": "source-notice",
+        "sha256": "85e34368262464511c50c9451751b8570ae5e949a8517df65df62aabfdd4359a",
+        "source": {
+          "commit": "c728062e0727a7fb767492717e285c856d2f8ba0",
+          "path": "preview/thailand-v1/README.md"
+        },
+        "uri": "sha256:85e34368262464511c50c9451751b8570ae5e949a8517df65df62aabfdd4359a"
+      },
+      {
+        "bytes": 2258199,
+        "role": "viewer",
+        "sha256": "3251357e7e14d14d27ba4fcb60a95601f63733a75890c9681d4a84ee17c9d957",
+        "source": {
+          "commit": "c728062e0727a7fb767492717e285c856d2f8ba0",
+          "path": "preview/thailand-v1/thailand-v1.html"
+        },
+        "uri": "sha256:3251357e7e14d14d27ba4fcb60a95601f63733a75890c9681d4a84ee17c9d957"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "thailand",
+    "independent_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "archives": [
+        {
+          "bytes": 4898899,
+          "entries": 52,
+          "inventory_entries_checked": 51,
+          "path": "preview/thailand-v1/thailand-v1-source.zip",
+          "required_payloads": "pass",
+          "safe_paths_crc": "pass",
+          "sha256": "6bf97f02b2b4b4cbf3d1e53c5bcc36d7951421a38230a1b8f4862b40013b1d32"
+        }
+      ],
+      "fresh_browser_cases": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.067000150680542,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1123908,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 5,
+            "meshes": 60,
+            "nonfinite": 0,
+            "triangles": 17744
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "thailand",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "3251357e7e14d14d27ba4fcb60a95601f63733a75890c9681d4a84ee17c9d957"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.067000150680542,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1123908,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 5,
+            "meshes": 60,
+            "nonfinite": 0,
+            "triangles": 17744
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "thailand",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "3251357e7e14d14d27ba4fcb60a95601f63733a75890c9681d4a84ee17c9d957"
+        }
+      ],
+      "fresh_motion_suite": {
+        "exit_code": 0,
+        "id": "thailand",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "c728062e0727a7fb767492717e285c856d2f8ba0",
+            "path": "preview/thailand-v1/motion.mjs",
+            "sha256": "9d118549fcdc1ff1d1fd8ebb6c6eb8a7a0da7fef8f0ae65ca947335407e74f03"
+          }
+        ]
+      },
+      "fresh_runtime_captures": [
+        "smoke/thailand/desktop-closed.png",
+        "smoke/thailand/desktop-open.png",
+        "smoke/thailand/mobile-closed.png",
+        "smoke/thailand/mobile-open.png"
+      ],
+      "id": "thailand",
+      "independent_reviewer_recommendation": "needs-user-review",
+      "inspected_parent_images": [
+        "parent/boards/thailand.jpg",
+        "parent/smoke/thailand/desktop-closed.png",
+        "parent/smoke/thailand/desktop-open.png",
+        "parent/smoke/thailand/mobile-closed.png",
+        "parent/smoke/thailand/mobile-open.png"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 56902,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/thailand.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "Reviewed source/output: high broad fidelity, original major counts/layout/hardware retained. Saturation, texture, ornament contours and pattern spacing differ slightly; not exact model evidence.",
+          "reviewStatus": "reviewed",
+          "sha256": "7229c128488f86b8846a70dbd27b8a41a26329bd1974b90aca4d096121ee6ddf",
+          "source": "assets/gallery/thailand.webp",
+          "sourceSha256": "2f2abcaa039fe50a5118a1985290ac058c36207ef5def0182f0a9977265c9d14",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "532ed14be88888d2ac736864fd3747681819817b0fdd7a7456613afa346bee71"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-Blender-reopen-parity-and-sampled-collisions",
+        "fresh-corrupt-GLB-fallback",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "models": [
+        {
+          "bytes": 433234,
+          "path": "preview/thailand-v1/thailand.blend",
+          "sha256": "0458ef11b57e701e9e42878bfd149ff2f667bb9011e4bade435747defc52748d"
+        },
+        {
+          "bytes": 1123908,
+          "path": "preview/thailand-v1/thailand.glb",
+          "sha256": "6c387a779910067516ffb9411ba58645ab71a8801480ed21290e3804ecd942c6"
+        }
+      ],
+      "parent_hold_preserved": false,
+      "selection": {
+        "commit": "c728062e0727a7fb767492717e285c856d2f8ba0",
+        "fetched_tip": "c728062e0727a7fb767492717e285c856d2f8ba0",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/thailand-v1"
+      },
+      "technical_verdict": "pass-bounded-review",
+      "viewer": {
+        "bytes": 2258199,
+        "commit": "c728062e0727a7fb767492717e285c856d2f8ba0",
+        "path": "preview/thailand-v1/thailand-v1.html",
+        "sha256": "3251357e7e14d14d27ba4fcb60a95601f63733a75890c9681d4a84ee17c9d957",
+        "under_5000000": true
+      },
+      "visual_findings": "Thin flat wave relief, banded glaze, dark angular feet; desktop apparent hinge gap not clearly corroborated on mobile.",
+      "visual_verdict": "candidate-with-limitations"
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Thailand",
+    "package_history": [
+      {
+        "bytes": 4898899,
+        "commit": "c728062e0727a7fb767492717e285c856d2f8ba0",
+        "crc_error": null,
+        "entries": 52,
+        "inventory_checked": true,
+        "inventory_entries": 51,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/thailand-v1/thailand-v1-source.zip",
+        "required_payloads": {
+          "thailand-v1.html": true,
+          "thailand.blend": true,
+          "thailand.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "6bf97f02b2b4b4cbf3d1e53c5bcc36d7951421a38230a1b8f4862b40013b1d32"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "c728062e0727a7fb767492717e285c856d2f8ba0",
+      "fetched_tip": "c728062e0727a7fb767492717e285c856d2f8ba0",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/thailand-v1"
+    },
+    "verdict": "candidate-with-limitations",
+    "viewer": {
+      "bytes": 2258199,
+      "commit": "c728062e0727a7fb767492717e285c856d2f8ba0",
+      "path": "preview/thailand-v1/thailand-v1.html",
+      "sha256": "3251357e7e14d14d27ba4fcb60a95601f63733a75890c9681d4a84ee17c9d957",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "thailand",
+    "baseline_verdict": "candidate-with-limitations",
+    "actions": [
+      "owner art/finish acceptance; no proven runtime defect recorded; no autonomous redesign"
+    ],
+    "approval": false,
+    "original_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "archives": [
+        {
+          "bytes": 4898899,
+          "entries": 52,
+          "inventory_entries_checked": 51,
+          "path": "preview/thailand-v1/thailand-v1-source.zip",
+          "required_payloads": "pass",
+          "safe_paths_crc": "pass",
+          "sha256": "6bf97f02b2b4b4cbf3d1e53c5bcc36d7951421a38230a1b8f4862b40013b1d32"
+        }
+      ],
+      "fresh_browser_cases": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.067000150680542,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1123908,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 5,
+            "meshes": 60,
+            "nonfinite": 0,
+            "triangles": 17744
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "thailand",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "3251357e7e14d14d27ba4fcb60a95601f63733a75890c9681d4a84ee17c9d957"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.067000150680542,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1123908,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 5,
+            "meshes": 60,
+            "nonfinite": 0,
+            "triangles": 17744
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "thailand",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "3251357e7e14d14d27ba4fcb60a95601f63733a75890c9681d4a84ee17c9d957"
+        }
+      ],
+      "fresh_motion_suite": {
+        "exit_code": 0,
+        "id": "thailand",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "c728062e0727a7fb767492717e285c856d2f8ba0",
+            "path": "preview/thailand-v1/motion.mjs",
+            "sha256": "9d118549fcdc1ff1d1fd8ebb6c6eb8a7a0da7fef8f0ae65ca947335407e74f03"
+          }
+        ]
+      },
+      "fresh_runtime_captures": [
+        "smoke/thailand/desktop-closed.png",
+        "smoke/thailand/desktop-open.png",
+        "smoke/thailand/mobile-closed.png",
+        "smoke/thailand/mobile-open.png"
+      ],
+      "id": "thailand",
+      "independent_reviewer_recommendation": "needs-user-review",
+      "inspected_parent_images": [
+        "parent/boards/thailand.jpg",
+        "parent/smoke/thailand/desktop-closed.png",
+        "parent/smoke/thailand/desktop-open.png",
+        "parent/smoke/thailand/mobile-closed.png",
+        "parent/smoke/thailand/mobile-open.png"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 56902,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/thailand.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "Reviewed source/output: high broad fidelity, original major counts/layout/hardware retained. Saturation, texture, ornament contours and pattern spacing differ slightly; not exact model evidence.",
+          "reviewStatus": "reviewed",
+          "sha256": "7229c128488f86b8846a70dbd27b8a41a26329bd1974b90aca4d096121ee6ddf",
+          "source": "assets/gallery/thailand.webp",
+          "sourceSha256": "2f2abcaa039fe50a5118a1985290ac058c36207ef5def0182f0a9977265c9d14",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "532ed14be88888d2ac736864fd3747681819817b0fdd7a7456613afa346bee71"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-Blender-reopen-parity-and-sampled-collisions",
+        "fresh-corrupt-GLB-fallback",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "models": [
+        {
+          "bytes": 433234,
+          "path": "preview/thailand-v1/thailand.blend",
+          "sha256": "0458ef11b57e701e9e42878bfd149ff2f667bb9011e4bade435747defc52748d"
+        },
+        {
+          "bytes": 1123908,
+          "path": "preview/thailand-v1/thailand.glb",
+          "sha256": "6c387a779910067516ffb9411ba58645ab71a8801480ed21290e3804ecd942c6"
+        }
+      ],
+      "parent_hold_preserved": false,
+      "selection": {
+        "commit": "c728062e0727a7fb767492717e285c856d2f8ba0",
+        "fetched_tip": "c728062e0727a7fb767492717e285c856d2f8ba0",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/thailand-v1"
+      },
+      "technical_verdict": "pass-bounded-review",
+      "viewer": {
+        "bytes": 2258199,
+        "commit": "c728062e0727a7fb767492717e285c856d2f8ba0",
+        "path": "preview/thailand-v1/thailand-v1.html",
+        "sha256": "3251357e7e14d14d27ba4fcb60a95601f63733a75890c9681d4a84ee17c9d957",
+        "under_5000000": true
+      },
+      "visual_findings": "Thin flat wave relief, banded glaze, dark angular feet; desktop apparent hinge gap not clearly corroborated on mobile.",
+      "visual_verdict": "candidate-with-limitations"
+    },
+    "package_history": [
+      {
+        "bytes": 4898899,
+        "commit": "c728062e0727a7fb767492717e285c856d2f8ba0",
+        "crc_error": null,
+        "entries": 52,
+        "inventory_checked": true,
+        "inventory_entries": 51,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/thailand-v1/thailand-v1-source.zip",
+        "required_payloads": {
+          "thailand-v1.html": true,
+          "thailand.blend": true,
+          "thailand.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "6bf97f02b2b4b4cbf3d1e53c5bcc36d7951421a38230a1b8f4862b40013b1d32"
+      }
+    ]
+  }
+}

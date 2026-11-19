@@ -1,0 +1,848 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 8,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 351502,
+        "role": "editable-source",
+        "sha256": "fb6b68cd9d5d003f6f880f5f02797fe3517d8460a6b9def436fec47af46f4f24",
+        "source": {
+          "commit": "dd22eba16e0476e12f4d42728630dd16e6d66eeb",
+          "path": "preview/singapore-v1/singapore.blend"
+        },
+        "uri": "sha256:fb6b68cd9d5d003f6f880f5f02797fe3517d8460a6b9def436fec47af46f4f24"
+      },
+      {
+        "bytes": 4583958,
+        "role": "historical-source-archive",
+        "sha256": "3adfda728bf4e8be813a195dc74b1889ddb2ab89fc306ddf47db1adb4c4b9663",
+        "source": {
+          "commit": "dd22eba16e0476e12f4d42728630dd16e6d66eeb",
+          "kind": "git",
+          "path": "preview/singapore-v1/singapore-v1-source.zip"
+        },
+        "uri": "sha256:3adfda728bf4e8be813a195dc74b1889ddb2ab89fc306ddf47db1adb4c4b9663"
+      },
+      {
+        "bytes": 1086740,
+        "role": "model",
+        "sha256": "1837ad425384b7abac6e5c0ec335ee54a4607c18144b9319a2bd84d0a597cbce",
+        "source": {
+          "commit": "dd22eba16e0476e12f4d42728630dd16e6d66eeb",
+          "path": "preview/singapore-v1/singapore.glb"
+        },
+        "uri": "sha256:1837ad425384b7abac6e5c0ec335ee54a4607c18144b9319a2bd84d0a597cbce"
+      },
+      {
+        "bytes": 36288,
+        "role": "promotional-illustration",
+        "sha256": "756fc583f0376d8ed4d090edeaaf7aa8d24f0c2f7749a2542f84acdd585cb298",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/singapore.webp"
+        },
+        "uri": "sha256:756fc583f0376d8ed4d090edeaaf7aa8d24f0c2f7749a2542f84acdd585cb298"
+      },
+      {
+        "bytes": 2624,
+        "role": "research-brief",
+        "sha256": "6f0997ff2cbd22a2f35c344fd81462bbe8ff124d6d8c7f44b99c6ab3b8c2fb97",
+        "source": {
+          "commit": "dd22eba16e0476e12f4d42728630dd16e6d66eeb",
+          "path": "preview/singapore-v1/design-brief.md"
+        },
+        "uri": "sha256:6f0997ff2cbd22a2f35c344fd81462bbe8ff124d6d8c7f44b99c6ab3b8c2fb97"
+      },
+      {
+        "bytes": 5362,
+        "role": "source-notice",
+        "sha256": "59377a927fa8041c6a88f9700b07f0ee6ddf08e037993b72e3a3c69245269478",
+        "source": {
+          "commit": "dd22eba16e0476e12f4d42728630dd16e6d66eeb",
+          "path": "preview/singapore-v1/README.md"
+        },
+        "uri": "sha256:59377a927fa8041c6a88f9700b07f0ee6ddf08e037993b72e3a3c69245269478"
+      },
+      {
+        "bytes": 2224118,
+        "role": "viewer",
+        "sha256": "62f85f3c29773585ba515ccfbe7e44f7f05b29063ea43373272a9ec6e0ca7316",
+        "source": {
+          "commit": "dd22eba16e0476e12f4d42728630dd16e6d66eeb",
+          "path": "preview/singapore-v1/singapore-v1.html"
+        },
+        "uri": "sha256:62f85f3c29773585ba515ccfbe7e44f7f05b29063ea43373272a9ec6e0ca7316"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "singapore",
+    "independent_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "capture_base": "parent/",
+      "captures": [
+        "smoke/singapore/desktop-closed.png",
+        "smoke/singapore/desktop-open.png",
+        "smoke/singapore/mobile-closed.png",
+        "smoke/singapore/mobile-open.png"
+      ],
+      "critical_reproducible_failures": [],
+      "final_approval": false,
+      "fresh_checks": {
+        "blender_parity_collision": false,
+        "fallback": false,
+        "full_inner_archive_inventories": true,
+        "motion": false,
+        "original_captures_and_marketing_inspected": true,
+        "runtime": false,
+        "source_and_delivered_viewer_hashes": true,
+        "source_archive_crc_safe_paths_required_payloads": true
+      },
+      "historical_runtime": {
+        "browser": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.174999952316284,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.3105585500597954,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1086740,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 9,
+              "meshes": 89,
+              "nonfinite": 0,
+              "triangles": 20178
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "singapore",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "62f85f3c29773585ba515ccfbe7e44f7f05b29063ea43373272a9ec6e0ca7316"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.174999952316284,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.3105585500597954,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1086740,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 9,
+              "meshes": 89,
+              "nonfinite": 0,
+              "triangles": 20178
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "singapore",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "62f85f3c29773585ba515ccfbe7e44f7f05b29063ea43373272a9ec6e0ca7316"
+          }
+        ],
+        "extended": {
+          "geometry": {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.174999952316284,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.3105585500597954,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1086740,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 9,
+              "meshes": 89,
+              "nonfinite": 0,
+              "triangles": 20178
+            },
+            "meshes": 89,
+            "nonfinite": 0,
+            "triangles": 20178
+          },
+          "id": "singapore",
+          "no_js_poster": true
+        },
+        "motion": {
+          "exit_code": 0,
+          "id": "singapore",
+          "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+          "source": [
+            {
+              "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+              "path": "preview/albania-v1/tests.mjs",
+              "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+            },
+            {
+              "commit": "dd22eba16e0476e12f4d42728630dd16e6d66eeb",
+              "path": "preview/singapore-v1/motion.mjs",
+              "sha256": "335db1c40266ea42b1666a1ad542343c167e5a0c1e156437a4f4ce9c08da4543"
+            }
+          ]
+        },
+        "parent_commit": "431e51ffb5a8704b5f8f8b11694d28befae18402"
+      },
+      "id": "singapore",
+      "independent_visual": {
+        "assessment": {
+          "concrete_defects": [
+            "Closed marketing and previews show a substantial dark lid reveal and stepped front-left joins. Open previews show conspicuous pale rim-strip ends and dark corner seams; alignment needs closer inspection, not a claim of breakage.",
+            "Mobile fittings are chunky and their attachment points unresolved; celadon panels show broad diagonal/cloudy mottling that may be intended glaze rather than shading error."
+          ],
+          "framing": "Entire object, raised lid/latch in open views and visible feet remain in frame on desktop and mobile; no obvious UI overlap or asset cropping. Small presentation scale limits detailed hardware assessment.",
+          "id": "singapore",
+          "inspected_paths": [
+            "parent/smoke/singapore/desktop-closed.png",
+            "parent/smoke/singapore/desktop-open.png",
+            "parent/smoke/singapore/mobile-closed.png",
+            "parent/smoke/singapore/mobile-open.png",
+            "parent/sources/singapore/marketing.webp"
+          ],
+          "limitations": [
+            "All five original images inspected individually with vision; static endpoint screenshots do not establish motion, hinge/latch operation, clearance, physical buildability, or custody behavior. A released latch in an open view is not itself a defect.",
+            "Only the depicted angles and screenshot resolutions were reviewed; hidden faces and fine attachment details remain unverified. Stylized collectible imagery is not a mechanically validated product or authenticated traditional craft. No final approval or art changes.",
+            "Inherited user-review hold retained without reinterpretation or clearance. Celadon body, three raised orchid-like ornaments, brass border/fittings and teal rounded feet correspond across marketing and closed views. Flowers read as applied sculptural decoration rather than flat enamel; material treatment remains stylized and requires user judgment. Outer-lid flowers being hidden in open views is not a missing-art defect."
+          ],
+          "verdict": "needs-user-review"
+        },
+        "report": "visual-d.json"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "user fidelity decision before substantial redesign",
+        "independent QA-ART-08 review"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 36288,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/singapore.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "Correction restores teal feet and small ring; three flowers retained, petal/stem details differ.",
+          "reviewStatus": "reviewed_with_limitations",
+          "sha256": "084fa3b27866c42bbebeb068ab345d18ca779f7e3244f8be0c5525fa6dac371a",
+          "source": "assets/gallery/singapore.webp",
+          "sourceSha256": "ca451cd3022c95feb17576cab3666d53e89b23915d46d5d77b6001a105ee5a4e",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "756fc583f0376d8ed4d090edeaaf7aa8d24f0c2f7749a2542f84acdd585cb298"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "user fidelity decision before substantial redesign"
+      ],
+      "parent_verdict": "needs-decision",
+      "parent_visual": {
+        "decision": "Hold for explicit artistic decision on whether generic-blossom readability and weaker petal/lip separation adequately convey the orchid theme relative to marketing. This is fidelity uncertainty, not a proven mechanical defect or authority to edit art.",
+        "hardware": "Chunky faceted long clasp and conspicuous backing/corner joints; dark jade seam/stepped rim can look slightly lifted. Open latch separation is expected, and no broken hinge is established at screenshot scale.",
+        "limitations": "Frozen still-image review only; supplied technical passes were not rerun. No final user approval, photoreal equivalence, physical-phone performance, cultural authentication or continuous mechanical certification. Open disengaged latch is expected; hidden exterior lid ornament in open views is not missing. Brief requires differentiated orchid anatomy but explicitly permits stylized enamel, not botanical reconstruction. Source README already acknowledges generic mobile blossoms, repetitive arrangement, chunky hardware and slightly lifted-looking seam. Do not erase those limits because technical flower counts pass.",
+        "quality": "Complete coherent celadon/brass chest with three pink/ivory flowers and gold frame; open cavity and silhouette fit both viewports. Substantial uncertainty remains in the theme-defining floral specificity rather than any demonstrated runtime defect.",
+        "terrain": "Not terrain: three shallow floral appliques with stems/leaves. Actual desktop flowers can read as generic broad-lobed blossoms; pale petals lose separation on mobile. Marketing shows clearer layered/cupped petals, magenta lips and amber throats than the actual whole-object captures resolve.",
+        "texture": "Actual celadon reads as cloudy/streaky coloration rather than depthful ceramic glaze; broad smooth enamel lobes and simplified leaves remain visible. Marketing is satin and clouded too, so gloss alone is not the hold."
+      },
+      "parent_visual_hold_preserved": true,
+      "reviewed_image_hashes": [
+        {
+          "bytes": 304457,
+          "path": "smoke/singapore/desktop-closed.png",
+          "sha256": "2ec21694424742dfc139315b7d2c00f061fab193c406a1d468c75f6a3050eec0"
+        },
+        {
+          "bytes": 326329,
+          "path": "smoke/singapore/desktop-open.png",
+          "sha256": "f7b19db1f45d8fb6a0e1b92e596e463f1fefda5d2d736fa53d399dc2ac9fccab"
+        },
+        {
+          "bytes": 104615,
+          "path": "smoke/singapore/mobile-closed.png",
+          "sha256": "b5463b61b551b3676af8db6e23abfe7e4e833f1e9092b6eba5de4cc8de94732d"
+        },
+        {
+          "bytes": 106349,
+          "path": "smoke/singapore/mobile-open.png",
+          "sha256": "cdfe2458bda137b3f326fb29b750e1046575ff947329f02fa66ee6f837042411"
+        },
+        {
+          "bytes": 36288,
+          "path": "sources/singapore/marketing.webp",
+          "sha256": "756fc583f0376d8ed4d090edeaaf7aa8d24f0c2f7749a2542f84acdd585cb298"
+        }
+      ],
+      "selection": {
+        "commit": "dd22eba16e0476e12f4d42728630dd16e6d66eeb",
+        "fetched_tip": "dd22eba16e0476e12f4d42728630dd16e6d66eeb",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/singapore-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 4583958,
+          "commit": "dd22eba16e0476e12f4d42728630dd16e6d66eeb",
+          "crc_error": null,
+          "entries": 52,
+          "fresh_crc_safe_unique": true,
+          "fresh_inner_inventory_entries": 51,
+          "fresh_required_payloads": [
+            {
+              "member": "singapore-v1.html",
+              "path": "preview/singapore-v1/singapore-v1.html",
+              "sha256": "62f85f3c29773585ba515ccfbe7e44f7f05b29063ea43373272a9ec6e0ca7316"
+            },
+            {
+              "member": "singapore.blend",
+              "path": "preview/singapore-v1/singapore.blend",
+              "sha256": "fb6b68cd9d5d003f6f880f5f02797fe3517d8460a6b9def436fec47af46f4f24"
+            },
+            {
+              "member": "singapore.glb",
+              "path": "preview/singapore-v1/singapore.glb",
+              "sha256": "1837ad425384b7abac6e5c0ec335ee54a4607c18144b9319a2bd84d0a597cbce"
+            }
+          ],
+          "inventory_checked": true,
+          "inventory_entries": 51,
+          "inventory_mismatches": [],
+          "kind": "git",
+          "path": "preview/singapore-v1/singapore-v1-source.zip",
+          "required_payloads": {
+            "singapore-v1.html": true,
+            "singapore.blend": true,
+            "singapore.glb": true
+          },
+          "safe_unique_paths": true,
+          "sha256": "3adfda728bf4e8be813a195dc74b1889ddb2ab89fc306ddf47db1adb4c4b9663"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 351502,
+          "commit": "dd22eba16e0476e12f4d42728630dd16e6d66eeb",
+          "path": "preview/singapore-v1/singapore.blend",
+          "role": "selected-model",
+          "sha256": "fb6b68cd9d5d003f6f880f5f02797fe3517d8460a6b9def436fec47af46f4f24"
+        },
+        {
+          "bytes": 1086740,
+          "commit": "dd22eba16e0476e12f4d42728630dd16e6d66eeb",
+          "path": "preview/singapore-v1/singapore.glb",
+          "role": "selected-model",
+          "sha256": "1837ad425384b7abac6e5c0ec335ee54a4607c18144b9319a2bd84d0a597cbce",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 89,
+            "nodes": 91
+          }
+        }
+      ],
+      "verdict": "needs-user-review",
+      "viewer": {
+        "bytes": 2224118,
+        "commit": "dd22eba16e0476e12f4d42728630dd16e6d66eeb",
+        "path": "preview/singapore-v1/singapore-v1.html",
+        "sha256": "62f85f3c29773585ba515ccfbe7e44f7f05b29063ea43373272a9ec6e0ca7316",
+        "under_5000000": true
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Singapore",
+    "package_history": [
+      {
+        "bytes": 4583958,
+        "commit": "dd22eba16e0476e12f4d42728630dd16e6d66eeb",
+        "crc_error": null,
+        "entries": 52,
+        "inventory_checked": true,
+        "inventory_entries": 51,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/singapore-v1/singapore-v1-source.zip",
+        "required_payloads": {
+          "singapore-v1.html": true,
+          "singapore.blend": true,
+          "singapore.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "3adfda728bf4e8be813a195dc74b1889ddb2ab89fc306ddf47db1adb4c4b9663"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "dd22eba16e0476e12f4d42728630dd16e6d66eeb",
+      "fetched_tip": "dd22eba16e0476e12f4d42728630dd16e6d66eeb",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/singapore-v1"
+    },
+    "verdict": "needs-user-review",
+    "viewer": {
+      "bytes": 2224118,
+      "commit": "dd22eba16e0476e12f4d42728630dd16e6d66eeb",
+      "path": "preview/singapore-v1/singapore-v1.html",
+      "sha256": "62f85f3c29773585ba515ccfbe7e44f7f05b29063ea43373272a9ec6e0ca7316",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "singapore",
+    "baseline_verdict": "needs-user-review",
+    "actions": [
+      "owner art/finish acceptance; no proven runtime defect recorded; no autonomous redesign"
+    ],
+    "approval": false,
+    "original_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "capture_base": "parent/",
+      "captures": [
+        "smoke/singapore/desktop-closed.png",
+        "smoke/singapore/desktop-open.png",
+        "smoke/singapore/mobile-closed.png",
+        "smoke/singapore/mobile-open.png"
+      ],
+      "critical_reproducible_failures": [],
+      "final_approval": false,
+      "fresh_checks": {
+        "blender_parity_collision": false,
+        "fallback": false,
+        "full_inner_archive_inventories": true,
+        "motion": false,
+        "original_captures_and_marketing_inspected": true,
+        "runtime": false,
+        "source_and_delivered_viewer_hashes": true,
+        "source_archive_crc_safe_paths_required_payloads": true
+      },
+      "historical_runtime": {
+        "browser": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.174999952316284,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.3105585500597954,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1086740,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 9,
+              "meshes": 89,
+              "nonfinite": 0,
+              "triangles": 20178
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "singapore",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "62f85f3c29773585ba515ccfbe7e44f7f05b29063ea43373272a9ec6e0ca7316"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.174999952316284,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.3105585500597954,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1086740,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 9,
+              "meshes": 89,
+              "nonfinite": 0,
+              "triangles": 20178
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "singapore",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "62f85f3c29773585ba515ccfbe7e44f7f05b29063ea43373272a9ec6e0ca7316"
+          }
+        ],
+        "extended": {
+          "geometry": {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.174999952316284,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.3105585500597954,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1086740,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 9,
+              "meshes": 89,
+              "nonfinite": 0,
+              "triangles": 20178
+            },
+            "meshes": 89,
+            "nonfinite": 0,
+            "triangles": 20178
+          },
+          "id": "singapore",
+          "no_js_poster": true
+        },
+        "motion": {
+          "exit_code": 0,
+          "id": "singapore",
+          "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+          "source": [
+            {
+              "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+              "path": "preview/albania-v1/tests.mjs",
+              "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+            },
+            {
+              "commit": "dd22eba16e0476e12f4d42728630dd16e6d66eeb",
+              "path": "preview/singapore-v1/motion.mjs",
+              "sha256": "335db1c40266ea42b1666a1ad542343c167e5a0c1e156437a4f4ce9c08da4543"
+            }
+          ]
+        },
+        "parent_commit": "431e51ffb5a8704b5f8f8b11694d28befae18402"
+      },
+      "id": "singapore",
+      "independent_visual": {
+        "assessment": {
+          "concrete_defects": [
+            "Closed marketing and previews show a substantial dark lid reveal and stepped front-left joins. Open previews show conspicuous pale rim-strip ends and dark corner seams; alignment needs closer inspection, not a claim of breakage.",
+            "Mobile fittings are chunky and their attachment points unresolved; celadon panels show broad diagonal/cloudy mottling that may be intended glaze rather than shading error."
+          ],
+          "framing": "Entire object, raised lid/latch in open views and visible feet remain in frame on desktop and mobile; no obvious UI overlap or asset cropping. Small presentation scale limits detailed hardware assessment.",
+          "id": "singapore",
+          "inspected_paths": [
+            "parent/smoke/singapore/desktop-closed.png",
+            "parent/smoke/singapore/desktop-open.png",
+            "parent/smoke/singapore/mobile-closed.png",
+            "parent/smoke/singapore/mobile-open.png",
+            "parent/sources/singapore/marketing.webp"
+          ],
+          "limitations": [
+            "All five original images inspected individually with vision; static endpoint screenshots do not establish motion, hinge/latch operation, clearance, physical buildability, or custody behavior. A released latch in an open view is not itself a defect.",
+            "Only the depicted angles and screenshot resolutions were reviewed; hidden faces and fine attachment details remain unverified. Stylized collectible imagery is not a mechanically validated product or authenticated traditional craft. No final approval or art changes.",
+            "Inherited user-review hold retained without reinterpretation or clearance. Celadon body, three raised orchid-like ornaments, brass border/fittings and teal rounded feet correspond across marketing and closed views. Flowers read as applied sculptural decoration rather than flat enamel; material treatment remains stylized and requires user judgment. Outer-lid flowers being hidden in open views is not a missing-art defect."
+          ],
+          "verdict": "needs-user-review"
+        },
+        "report": "visual-d.json"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "user fidelity decision before substantial redesign",
+        "independent QA-ART-08 review"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 36288,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/singapore.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "Correction restores teal feet and small ring; three flowers retained, petal/stem details differ.",
+          "reviewStatus": "reviewed_with_limitations",
+          "sha256": "084fa3b27866c42bbebeb068ab345d18ca779f7e3244f8be0c5525fa6dac371a",
+          "source": "assets/gallery/singapore.webp",
+          "sourceSha256": "ca451cd3022c95feb17576cab3666d53e89b23915d46d5d77b6001a105ee5a4e",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "756fc583f0376d8ed4d090edeaaf7aa8d24f0c2f7749a2542f84acdd585cb298"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "user fidelity decision before substantial redesign"
+      ],
+      "parent_verdict": "needs-decision",
+      "parent_visual": {
+        "decision": "Hold for explicit artistic decision on whether generic-blossom readability and weaker petal/lip separation adequately convey the orchid theme relative to marketing. This is fidelity uncertainty, not a proven mechanical defect or authority to edit art.",
+        "hardware": "Chunky faceted long clasp and conspicuous backing/corner joints; dark jade seam/stepped rim can look slightly lifted. Open latch separation is expected, and no broken hinge is established at screenshot scale.",
+        "limitations": "Frozen still-image review only; supplied technical passes were not rerun. No final user approval, photoreal equivalence, physical-phone performance, cultural authentication or continuous mechanical certification. Open disengaged latch is expected; hidden exterior lid ornament in open views is not missing. Brief requires differentiated orchid anatomy but explicitly permits stylized enamel, not botanical reconstruction. Source README already acknowledges generic mobile blossoms, repetitive arrangement, chunky hardware and slightly lifted-looking seam. Do not erase those limits because technical flower counts pass.",
+        "quality": "Complete coherent celadon/brass chest with three pink/ivory flowers and gold frame; open cavity and silhouette fit both viewports. Substantial uncertainty remains in the theme-defining floral specificity rather than any demonstrated runtime defect.",
+        "terrain": "Not terrain: three shallow floral appliques with stems/leaves. Actual desktop flowers can read as generic broad-lobed blossoms; pale petals lose separation on mobile. Marketing shows clearer layered/cupped petals, magenta lips and amber throats than the actual whole-object captures resolve.",
+        "texture": "Actual celadon reads as cloudy/streaky coloration rather than depthful ceramic glaze; broad smooth enamel lobes and simplified leaves remain visible. Marketing is satin and clouded too, so gloss alone is not the hold."
+      },
+      "parent_visual_hold_preserved": true,
+      "reviewed_image_hashes": [
+        {
+          "bytes": 304457,
+          "path": "smoke/singapore/desktop-closed.png",
+          "sha256": "2ec21694424742dfc139315b7d2c00f061fab193c406a1d468c75f6a3050eec0"
+        },
+        {
+          "bytes": 326329,
+          "path": "smoke/singapore/desktop-open.png",
+          "sha256": "f7b19db1f45d8fb6a0e1b92e596e463f1fefda5d2d736fa53d399dc2ac9fccab"
+        },
+        {
+          "bytes": 104615,
+          "path": "smoke/singapore/mobile-closed.png",
+          "sha256": "b5463b61b551b3676af8db6e23abfe7e4e833f1e9092b6eba5de4cc8de94732d"
+        },
+        {
+          "bytes": 106349,
+          "path": "smoke/singapore/mobile-open.png",
+          "sha256": "cdfe2458bda137b3f326fb29b750e1046575ff947329f02fa66ee6f837042411"
+        },
+        {
+          "bytes": 36288,
+          "path": "sources/singapore/marketing.webp",
+          "sha256": "756fc583f0376d8ed4d090edeaaf7aa8d24f0c2f7749a2542f84acdd585cb298"
+        }
+      ],
+      "selection": {
+        "commit": "dd22eba16e0476e12f4d42728630dd16e6d66eeb",
+        "fetched_tip": "dd22eba16e0476e12f4d42728630dd16e6d66eeb",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/singapore-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 4583958,
+          "commit": "dd22eba16e0476e12f4d42728630dd16e6d66eeb",
+          "crc_error": null,
+          "entries": 52,
+          "fresh_crc_safe_unique": true,
+          "fresh_inner_inventory_entries": 51,
+          "fresh_required_payloads": [
+            {
+              "member": "singapore-v1.html",
+              "path": "preview/singapore-v1/singapore-v1.html",
+              "sha256": "62f85f3c29773585ba515ccfbe7e44f7f05b29063ea43373272a9ec6e0ca7316"
+            },
+            {
+              "member": "singapore.blend",
+              "path": "preview/singapore-v1/singapore.blend",
+              "sha256": "fb6b68cd9d5d003f6f880f5f02797fe3517d8460a6b9def436fec47af46f4f24"
+            },
+            {
+              "member": "singapore.glb",
+              "path": "preview/singapore-v1/singapore.glb",
+              "sha256": "1837ad425384b7abac6e5c0ec335ee54a4607c18144b9319a2bd84d0a597cbce"
+            }
+          ],
+          "inventory_checked": true,
+          "inventory_entries": 51,
+          "inventory_mismatches": [],
+          "kind": "git",
+          "path": "preview/singapore-v1/singapore-v1-source.zip",
+          "required_payloads": {
+            "singapore-v1.html": true,
+            "singapore.blend": true,
+            "singapore.glb": true
+          },
+          "safe_unique_paths": true,
+          "sha256": "3adfda728bf4e8be813a195dc74b1889ddb2ab89fc306ddf47db1adb4c4b9663"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 351502,
+          "commit": "dd22eba16e0476e12f4d42728630dd16e6d66eeb",
+          "path": "preview/singapore-v1/singapore.blend",
+          "role": "selected-model",
+          "sha256": "fb6b68cd9d5d003f6f880f5f02797fe3517d8460a6b9def436fec47af46f4f24"
+        },
+        {
+          "bytes": 1086740,
+          "commit": "dd22eba16e0476e12f4d42728630dd16e6d66eeb",
+          "path": "preview/singapore-v1/singapore.glb",
+          "role": "selected-model",
+          "sha256": "1837ad425384b7abac6e5c0ec335ee54a4607c18144b9319a2bd84d0a597cbce",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 89,
+            "nodes": 91
+          }
+        }
+      ],
+      "verdict": "needs-user-review",
+      "viewer": {
+        "bytes": 2224118,
+        "commit": "dd22eba16e0476e12f4d42728630dd16e6d66eeb",
+        "path": "preview/singapore-v1/singapore-v1.html",
+        "sha256": "62f85f3c29773585ba515ccfbe7e44f7f05b29063ea43373272a9ec6e0ca7316",
+        "under_5000000": true
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 4583958,
+        "commit": "dd22eba16e0476e12f4d42728630dd16e6d66eeb",
+        "crc_error": null,
+        "entries": 52,
+        "inventory_checked": true,
+        "inventory_entries": 51,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/singapore-v1/singapore-v1-source.zip",
+        "required_payloads": {
+          "singapore-v1.html": true,
+          "singapore.blend": true,
+          "singapore.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "3adfda728bf4e8be813a195dc74b1889ddb2ab89fc306ddf47db1adb4c4b9663"
+      }
+    ]
+  },
+  "visual_decision": {
+    "id": "singapore",
+    "disposition": "preview-accepted-with-limitations",
+    "issue": "Applied sculptural flowers and cloudy celadon rather than refined enamel.",
+    "rationale": "Three pink orchid-like ornaments, green foliage, bordered panel and celadon chest remain. Accept relief/material interpretation; visible seams and small fittings are not proven broken by endpoint stills.",
+    "evidence": {
+      "commit": "2b63e124d6131233cee9fb4c97c23cdb4bf91d52",
+      "path": "launch/qa-art-08/parent/boards/singapore.jpg",
+      "sha256": "704ed75209507173d3c4834e158eb60d95a0a388f85a7aad078ae6b03c0eaa5b"
+    }
+  }
+}

@@ -1,0 +1,572 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 3,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 860019,
+        "role": "editable-source",
+        "sha256": "5ad9902baa2d96aa15bb44c11fda68af021dc47de47a7cdde604e667bd43dc7a",
+        "source": {
+          "commit": "e13dd91fe1518caeafa2009b54c3a3ed5a88ac29",
+          "path": "preview/belgium-v1/belgium.blend"
+        },
+        "uri": "sha256:5ad9902baa2d96aa15bb44c11fda68af021dc47de47a7cdde604e667bd43dc7a"
+      },
+      {
+        "bytes": 7002504,
+        "role": "historical-source-archive",
+        "sha256": "9bb11f489789c444da9e84c8986204d61525136b24f8014e195db5b560645b93",
+        "source": {
+          "commit": "e13dd91fe1518caeafa2009b54c3a3ed5a88ac29",
+          "kind": "git",
+          "path": "preview/belgium-v1/belgium-v1-source.zip"
+        },
+        "uri": "sha256:9bb11f489789c444da9e84c8986204d61525136b24f8014e195db5b560645b93"
+      },
+      {
+        "bytes": 2488292,
+        "role": "model",
+        "sha256": "50809f33eeefebd8639f33a8f461fce24c8cad5d7afb6dacf65f23cfb0621d89",
+        "source": {
+          "commit": "e13dd91fe1518caeafa2009b54c3a3ed5a88ac29",
+          "path": "preview/belgium-v1/belgium.glb"
+        },
+        "uri": "sha256:50809f33eeefebd8639f33a8f461fce24c8cad5d7afb6dacf65f23cfb0621d89"
+      },
+      {
+        "bytes": 68728,
+        "role": "promotional-illustration",
+        "sha256": "539e10cc0392b8d05fc3ccc3aea79cce5633cba76b8f96b0a3aa6b3d85cc7b47",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/belgium.webp"
+        },
+        "uri": "sha256:539e10cc0392b8d05fc3ccc3aea79cce5633cba76b8f96b0a3aa6b3d85cc7b47"
+      },
+      {
+        "bytes": 3980,
+        "role": "research-brief",
+        "sha256": "2d250bb1caa8c4512a294e92df1713b40ac62d6a0b3b3f5f087b703ab77058cd",
+        "source": {
+          "commit": "e13dd91fe1518caeafa2009b54c3a3ed5a88ac29",
+          "path": "preview/belgium-v1/design-brief.md"
+        },
+        "uri": "sha256:2d250bb1caa8c4512a294e92df1713b40ac62d6a0b3b3f5f087b703ab77058cd"
+      },
+      {
+        "bytes": 6776,
+        "role": "source-notice",
+        "sha256": "959da64690d220b3f7c66746e30688a2c6a41c3bf6f00563e0f6fe81ae049d86",
+        "source": {
+          "commit": "e13dd91fe1518caeafa2009b54c3a3ed5a88ac29",
+          "path": "preview/belgium-v1/README.md"
+        },
+        "uri": "sha256:959da64690d220b3f7c66746e30688a2c6a41c3bf6f00563e0f6fe81ae049d86"
+      },
+      {
+        "bytes": 4095204,
+        "role": "viewer",
+        "sha256": "f83f0f18a72a5b0b0b823be0ee9ea4a1545cfbe744c9e9fdcd2eab366cb9998b",
+        "source": {
+          "commit": "e13dd91fe1518caeafa2009b54c3a3ed5a88ac29",
+          "path": "preview/belgium-v1/belgium-v1.html"
+        },
+        "uri": "sha256:f83f0f18a72a5b0b0b823be0ee9ea4a1545cfbe744c9e9fdcd2eab366cb9998b"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "belgium",
+    "independent_review": {
+      "art_changed": false,
+      "captures": [
+        "parent/smoke/belgium/desktop-closed.png",
+        "parent/smoke/belgium/desktop-open.png",
+        "parent/smoke/belgium/mobile-closed.png",
+        "parent/smoke/belgium/mobile-open.png"
+      ],
+      "fresh_browser": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.0480000115931034,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.21000000461935997,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 2488292,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 5,
+            "meshes": 124,
+            "nonfinite": 0,
+            "triangles": 26296
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "belgium",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "f83f0f18a72a5b0b0b823be0ee9ea4a1545cfbe744c9e9fdcd2eab366cb9998b"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.0480000115931034,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.21000000461935997,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 2488292,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 5,
+            "meshes": 124,
+            "nonfinite": 0,
+            "triangles": 26296
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "belgium",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "f83f0f18a72a5b0b0b823be0ee9ea4a1545cfbe744c9e9fdcd2eab366cb9998b"
+        }
+      ],
+      "fresh_motion": {
+        "exit_code": 0,
+        "id": "belgium",
+        "passed": true,
+        "scope": "original motion unit assertions; not fresh collision/source parity"
+      },
+      "fresh_runtime_captures": [
+        "smoke/belgium/desktop-closed.png",
+        "smoke/belgium/desktop-open.png",
+        "smoke/belgium/mobile-closed.png",
+        "smoke/belgium/mobile-open.png"
+      ],
+      "hinge_assessment": "Small rear attachment continuity unresolved in stills, not proven detached. No fresh geometric contact/collision certification.",
+      "id": "belgium",
+      "independent_visual_findings": "Dense speckling and angular branching relief weaken individual fossil-ring readability; hold retained.",
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "inspection": "Five read-only independent visual reviewers: all four original full-resolution captures and marketing image per ID; lead Ghana comparison and fresh Croatia open inspection. Delegation deleg_d31df2b3 tasks 0-4.",
+      "launch_ready": false,
+      "marketing": "parent/marketing/belgium.webp",
+      "packaging": {
+        "archives": [
+          {
+            "bytes": 7002504,
+            "crc_and_safe_unique_paths": true,
+            "entries": 50,
+            "full_historical_inventory_freshly_checked": false,
+            "inherited_inventory_checked": true,
+            "kind": "git",
+            "path": "preview/belgium-v1/belgium-v1-source.zip",
+            "selected_payload_checks": [
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "belgium-v1.html",
+                "sha256": "f83f0f18a72a5b0b0b823be0ee9ea4a1545cfbe744c9e9fdcd2eab366cb9998b"
+              },
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "belgium.blend",
+                "sha256": "5ad9902baa2d96aa15bb44c11fda68af021dc47de47a7cdde604e667bd43dc7a"
+              },
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "belgium.glb",
+                "sha256": "50809f33eeefebd8639f33a8f461fce24c8cad5d7afb6dacf65f23cfb0621d89"
+              }
+            ],
+            "sha256": "9bb11f489789c444da9e84c8986204d61525136b24f8014e195db5b560645b93"
+          }
+        ],
+        "id": "belgium",
+        "source_hashes": [
+          {
+            "bytes": 860019,
+            "commit": "e13dd91fe1518caeafa2009b54c3a3ed5a88ac29",
+            "path": "preview/belgium-v1/belgium.blend",
+            "role": "selected-model",
+            "sha256": "5ad9902baa2d96aa15bb44c11fda68af021dc47de47a7cdde604e667bd43dc7a"
+          },
+          {
+            "bytes": 2488292,
+            "commit": "e13dd91fe1518caeafa2009b54c3a3ed5a88ac29",
+            "path": "preview/belgium-v1/belgium.glb",
+            "role": "selected-model",
+            "sha256": "50809f33eeefebd8639f33a8f461fce24c8cad5d7afb6dacf65f23cfb0621d89",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 124,
+              "nodes": 126
+            }
+          }
+        ],
+        "viewer": {
+          "bytes": 4095204,
+          "commit": "e13dd91fe1518caeafa2009b54c3a3ed5a88ac29",
+          "path": "preview/belgium-v1/belgium-v1.html",
+          "sha256": "f83f0f18a72a5b0b0b823be0ee9ea4a1545cfbe744c9e9fdcd2eab366cb9998b",
+          "under_5000000": true
+        }
+      },
+      "parent_status": "needs-decision",
+      "parent_visual_findings": "Fossil stone reads densely speckled versus individual promotional rings; branching relief more angular, brass flatter. Open hinge connection ambiguous.",
+      "polish_iterations": 0,
+      "proven_runtime_defects": [],
+      "remaining_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "resolved_gate": "independent-current-model-visual-review performed; not final art approval",
+      "source_selection": {
+        "commit": "e13dd91fe1518caeafa2009b54c3a3ed5a88ac29",
+        "fetched_tip": "e13dd91fe1518caeafa2009b54c3a3ed5a88ac29",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/belgium-v1"
+      },
+      "user_final_approved": false,
+      "verdict": "needs-user-review",
+      "viewer": {
+        "bytes": 4095204,
+        "commit": "e13dd91fe1518caeafa2009b54c3a3ed5a88ac29",
+        "path": "preview/belgium-v1/belgium-v1.html",
+        "sha256": "f83f0f18a72a5b0b0b823be0ee9ea4a1545cfbe744c9e9fdcd2eab366cb9998b",
+        "under_5000000": true
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Belgium",
+    "package_history": [
+      {
+        "bytes": 7002504,
+        "commit": "e13dd91fe1518caeafa2009b54c3a3ed5a88ac29",
+        "crc_error": null,
+        "entries": 50,
+        "inventory_checked": true,
+        "inventory_entries": 49,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/belgium-v1/belgium-v1-source.zip",
+        "required_payloads": {
+          "belgium-v1.html": true,
+          "belgium.blend": true,
+          "belgium.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "9bb11f489789c444da9e84c8986204d61525136b24f8014e195db5b560645b93"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "e13dd91fe1518caeafa2009b54c3a3ed5a88ac29",
+      "fetched_tip": "e13dd91fe1518caeafa2009b54c3a3ed5a88ac29",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/belgium-v1"
+    },
+    "verdict": "needs-user-review",
+    "viewer": {
+      "bytes": 4095204,
+      "commit": "e13dd91fe1518caeafa2009b54c3a3ed5a88ac29",
+      "path": "preview/belgium-v1/belgium-v1.html",
+      "sha256": "f83f0f18a72a5b0b0b823be0ee9ea4a1545cfbe744c9e9fdcd2eab366cb9998b",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "belgium",
+    "baseline_verdict": "needs-user-review",
+    "actions": [
+      "owner art/finish acceptance; no proven runtime defect recorded; no autonomous redesign"
+    ],
+    "approval": false,
+    "original_review": {
+      "art_changed": false,
+      "captures": [
+        "parent/smoke/belgium/desktop-closed.png",
+        "parent/smoke/belgium/desktop-open.png",
+        "parent/smoke/belgium/mobile-closed.png",
+        "parent/smoke/belgium/mobile-open.png"
+      ],
+      "fresh_browser": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.0480000115931034,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.21000000461935997,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 2488292,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 5,
+            "meshes": 124,
+            "nonfinite": 0,
+            "triangles": 26296
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "belgium",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "f83f0f18a72a5b0b0b823be0ee9ea4a1545cfbe744c9e9fdcd2eab366cb9998b"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.0480000115931034,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.21000000461935997,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 2488292,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 5,
+            "meshes": 124,
+            "nonfinite": 0,
+            "triangles": 26296
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "belgium",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "f83f0f18a72a5b0b0b823be0ee9ea4a1545cfbe744c9e9fdcd2eab366cb9998b"
+        }
+      ],
+      "fresh_motion": {
+        "exit_code": 0,
+        "id": "belgium",
+        "passed": true,
+        "scope": "original motion unit assertions; not fresh collision/source parity"
+      },
+      "fresh_runtime_captures": [
+        "smoke/belgium/desktop-closed.png",
+        "smoke/belgium/desktop-open.png",
+        "smoke/belgium/mobile-closed.png",
+        "smoke/belgium/mobile-open.png"
+      ],
+      "hinge_assessment": "Small rear attachment continuity unresolved in stills, not proven detached. No fresh geometric contact/collision certification.",
+      "id": "belgium",
+      "independent_visual_findings": "Dense speckling and angular branching relief weaken individual fossil-ring readability; hold retained.",
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "inspection": "Five read-only independent visual reviewers: all four original full-resolution captures and marketing image per ID; lead Ghana comparison and fresh Croatia open inspection. Delegation deleg_d31df2b3 tasks 0-4.",
+      "launch_ready": false,
+      "marketing": "parent/marketing/belgium.webp",
+      "packaging": {
+        "archives": [
+          {
+            "bytes": 7002504,
+            "crc_and_safe_unique_paths": true,
+            "entries": 50,
+            "full_historical_inventory_freshly_checked": false,
+            "inherited_inventory_checked": true,
+            "kind": "git",
+            "path": "preview/belgium-v1/belgium-v1-source.zip",
+            "selected_payload_checks": [
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "belgium-v1.html",
+                "sha256": "f83f0f18a72a5b0b0b823be0ee9ea4a1545cfbe744c9e9fdcd2eab366cb9998b"
+              },
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "belgium.blend",
+                "sha256": "5ad9902baa2d96aa15bb44c11fda68af021dc47de47a7cdde604e667bd43dc7a"
+              },
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "belgium.glb",
+                "sha256": "50809f33eeefebd8639f33a8f461fce24c8cad5d7afb6dacf65f23cfb0621d89"
+              }
+            ],
+            "sha256": "9bb11f489789c444da9e84c8986204d61525136b24f8014e195db5b560645b93"
+          }
+        ],
+        "id": "belgium",
+        "source_hashes": [
+          {
+            "bytes": 860019,
+            "commit": "e13dd91fe1518caeafa2009b54c3a3ed5a88ac29",
+            "path": "preview/belgium-v1/belgium.blend",
+            "role": "selected-model",
+            "sha256": "5ad9902baa2d96aa15bb44c11fda68af021dc47de47a7cdde604e667bd43dc7a"
+          },
+          {
+            "bytes": 2488292,
+            "commit": "e13dd91fe1518caeafa2009b54c3a3ed5a88ac29",
+            "path": "preview/belgium-v1/belgium.glb",
+            "role": "selected-model",
+            "sha256": "50809f33eeefebd8639f33a8f461fce24c8cad5d7afb6dacf65f23cfb0621d89",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 124,
+              "nodes": 126
+            }
+          }
+        ],
+        "viewer": {
+          "bytes": 4095204,
+          "commit": "e13dd91fe1518caeafa2009b54c3a3ed5a88ac29",
+          "path": "preview/belgium-v1/belgium-v1.html",
+          "sha256": "f83f0f18a72a5b0b0b823be0ee9ea4a1545cfbe744c9e9fdcd2eab366cb9998b",
+          "under_5000000": true
+        }
+      },
+      "parent_status": "needs-decision",
+      "parent_visual_findings": "Fossil stone reads densely speckled versus individual promotional rings; branching relief more angular, brass flatter. Open hinge connection ambiguous.",
+      "polish_iterations": 0,
+      "proven_runtime_defects": [],
+      "remaining_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "resolved_gate": "independent-current-model-visual-review performed; not final art approval",
+      "source_selection": {
+        "commit": "e13dd91fe1518caeafa2009b54c3a3ed5a88ac29",
+        "fetched_tip": "e13dd91fe1518caeafa2009b54c3a3ed5a88ac29",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/belgium-v1"
+      },
+      "user_final_approved": false,
+      "verdict": "needs-user-review",
+      "viewer": {
+        "bytes": 4095204,
+        "commit": "e13dd91fe1518caeafa2009b54c3a3ed5a88ac29",
+        "path": "preview/belgium-v1/belgium-v1.html",
+        "sha256": "f83f0f18a72a5b0b0b823be0ee9ea4a1545cfbe744c9e9fdcd2eab366cb9998b",
+        "under_5000000": true
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 7002504,
+        "commit": "e13dd91fe1518caeafa2009b54c3a3ed5a88ac29",
+        "crc_error": null,
+        "entries": 50,
+        "inventory_checked": true,
+        "inventory_entries": 49,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/belgium-v1/belgium-v1-source.zip",
+        "required_payloads": {
+          "belgium-v1.html": true,
+          "belgium.blend": true,
+          "belgium.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "9bb11f489789c444da9e84c8986204d61525136b24f8014e195db5b560645b93"
+      }
+    ]
+  },
+  "visual_decision": {
+    "id": "belgium",
+    "disposition": "preview-accepted-with-limitations",
+    "issue": "Dense speckling obscures individual fossil rings.",
+    "rationale": "Pale branching fossil relief and blue-gray stone body remain recognizable. Angular fossil detail and flatter brass are ordinary stylized finish limitations, without a demonstrated missing motif.",
+    "evidence": {
+      "commit": "c869c72179ff59e534712b05aede3fecf7e341ae",
+      "path": "launch/qa-art-03/parent/boards/belgium.jpg",
+      "sha256": "438b2318aaf1cd5d5bbb8c12009b5c34354fcbbef87dcf029c5eb6299be678f1"
+    }
+  }
+}

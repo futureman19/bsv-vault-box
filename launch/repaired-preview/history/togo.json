@@ -1,0 +1,731 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 5,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 543709,
+        "role": "editable-source",
+        "sha256": "fbe43643af2c794722273d7af32bb5a8563246a06fa56a472dcce51b20609875",
+        "source": {
+          "commit": "91c6adb6965b19cbc1970c050e6d92a955626ae4",
+          "path": "preview/togo-v1/togo.blend"
+        },
+        "uri": "sha256:fbe43643af2c794722273d7af32bb5a8563246a06fa56a472dcce51b20609875"
+      },
+      {
+        "bytes": 5493932,
+        "role": "historical-source-archive",
+        "sha256": "74bb5b5907e3cb9784721cf904103958f957acf7922ea14168a695ed48ccdb50",
+        "source": {
+          "commit": "91c6adb6965b19cbc1970c050e6d92a955626ae4",
+          "kind": "git",
+          "path": "preview/togo-v1/togo-v1-source.zip"
+        },
+        "uri": "sha256:74bb5b5907e3cb9784721cf904103958f957acf7922ea14168a695ed48ccdb50"
+      },
+      {
+        "bytes": 1411136,
+        "role": "model",
+        "sha256": "7077f4e68fbf0456dd1de016b506a4e82a4337d5601cac57fb6960ab8c3bf06f",
+        "source": {
+          "commit": "91c6adb6965b19cbc1970c050e6d92a955626ae4",
+          "path": "preview/togo-v1/togo.glb"
+        },
+        "uri": "sha256:7077f4e68fbf0456dd1de016b506a4e82a4337d5601cac57fb6960ab8c3bf06f"
+      },
+      {
+        "bytes": 45264,
+        "role": "promotional-illustration",
+        "sha256": "5d40f2ca4246c0acbc0e6d296e26ea2dfd163942d091301ea9a8ec67f1f35aa4",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/togo.webp"
+        },
+        "uri": "sha256:5d40f2ca4246c0acbc0e6d296e26ea2dfd163942d091301ea9a8ec67f1f35aa4"
+      },
+      {
+        "bytes": 3279,
+        "role": "research-brief",
+        "sha256": "ac17f10b3edf3bf2f92b648e8303a418a58dcf4a586ac2b0ca25c8211cc78bd6",
+        "source": {
+          "commit": "91c6adb6965b19cbc1970c050e6d92a955626ae4",
+          "path": "preview/togo-v1/design-brief.md"
+        },
+        "uri": "sha256:ac17f10b3edf3bf2f92b648e8303a418a58dcf4a586ac2b0ca25c8211cc78bd6"
+      },
+      {
+        "bytes": 4428,
+        "role": "source-notice",
+        "sha256": "8adfe668166bc0414f3138d1238f27e407c286880d3923ab23a35e93a7e78459",
+        "source": {
+          "commit": "91c6adb6965b19cbc1970c050e6d92a955626ae4",
+          "path": "preview/togo-v1/README.md"
+        },
+        "uri": "sha256:8adfe668166bc0414f3138d1238f27e407c286880d3923ab23a35e93a7e78459"
+      },
+      {
+        "bytes": 2643365,
+        "role": "viewer",
+        "sha256": "fd76ffbba92f3da49f8ff0a0828f237524fa1b70aa11ebc50521746077800dc4",
+        "source": {
+          "commit": "91c6adb6965b19cbc1970c050e6d92a955626ae4",
+          "path": "preview/togo-v1/togo-v1.html"
+        },
+        "uri": "sha256:fd76ffbba92f3da49f8ff0a0828f237524fa1b70aa11ebc50521746077800dc4"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "togo",
+    "independent_review": {
+      "art_changed": false,
+      "fresh_checks": {
+        "archives": [
+          {
+            "bytes": 5493932,
+            "crc_safe_unique": true,
+            "entries": 52,
+            "full_inner_inventory_rerun": false,
+            "path": "preview/togo-v1/togo-v1-source.zip",
+            "required_payloads": [
+              {
+                "archive_members": [
+                  "togo-v1.html"
+                ],
+                "exact_match": true,
+                "path": "preview/togo-v1/togo-v1.html"
+              },
+              {
+                "archive_members": [
+                  "togo.blend"
+                ],
+                "exact_match": true,
+                "path": "preview/togo-v1/togo.blend"
+              },
+              {
+                "archive_members": [
+                  "togo.glb"
+                ],
+                "exact_match": true,
+                "path": "preview/togo-v1/togo.glb"
+              }
+            ],
+            "sha256": "74bb5b5907e3cb9784721cf904103958f957acf7922ea14168a695ed48ccdb50"
+          }
+        ],
+        "art_changed": false,
+        "id": "togo",
+        "models": [
+          {
+            "bytes": 543709,
+            "commit": "91c6adb6965b19cbc1970c050e6d92a955626ae4",
+            "path": "preview/togo-v1/togo.blend",
+            "role": "selected-model",
+            "sha256": "fbe43643af2c794722273d7af32bb5a8563246a06fa56a472dcce51b20609875"
+          },
+          {
+            "bytes": 1411136,
+            "commit": "91c6adb6965b19cbc1970c050e6d92a955626ae4",
+            "path": "preview/togo-v1/togo.glb",
+            "role": "selected-model",
+            "sha256": "7077f4e68fbf0456dd1de016b506a4e82a4337d5601cac57fb6960ab8c3bf06f",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 67,
+              "nodes": 69
+            }
+          }
+        ],
+        "parent_package_holds": [],
+        "viewer": {
+          "bytes": 2643365,
+          "commit": "91c6adb6965b19cbc1970c050e6d92a955626ae4",
+          "path": "preview/togo-v1/togo-v1.html",
+          "sha256": "fd76ffbba92f3da49f8ff0a0828f237524fa1b70aa11ebc50521746077800dc4",
+          "under_5000000": true
+        }
+      },
+      "historical_runtime_only": true,
+      "id": "togo",
+      "inspected_images": [
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/togo/desktop-closed.png",
+          "sha256": "df5c60fa06632018390c9717f0103048835170830fd10821fbe5b138c8292671"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/togo/desktop-open.png",
+          "sha256": "183358ad4ad18d8ad476996a3c513bb8277ffb58aec7edc267f95b46fac7fe40"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/togo/mobile-closed.png",
+          "sha256": "c30a7fb2d80937ec99af604701b38a713006a94a423d6f7966343cdfc608ad19"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/togo/mobile-open.png",
+          "sha256": "4434cc6e1fe9b7d7389f1e4e9f06254cb66ec41845c8f76192caade43a93dd96"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "sources/togo/marketing.webp",
+          "sha256": "5d40f2ca4246c0acbc0e6d296e26ea2dfd163942d091301ea9a8ec67f1f35aa4"
+        }
+      ],
+      "launch_ready": false,
+      "missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "package_holds": [],
+      "parent_reason": "Bounded visual candidate pass: all five required originals inspected; identity retained, no unequivocal major geometry or framing defect observed. Not final user approval.",
+      "review_complete": true,
+      "source_record": {
+        "approval": {
+          "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+          "prior_approved_baseline": null,
+          "status": "candidate-not-final-approved",
+          "user_final_approved": false
+        },
+        "category": "Country",
+        "delivered_viewer": {
+          "bytes": 2643365,
+          "exists": true,
+          "matches_selected_commit": true,
+          "path": "C:\\Users\\futur\\.hermes\\profiles\\telegram2\\output\\boxsv-collection-review\\viewers\\togo.html",
+          "sha256": "fd76ffbba92f3da49f8ff0a0828f237524fa1b70aa11ebc50521746077800dc4"
+        },
+        "edition_supply": 1,
+        "id": "togo",
+        "launch_ready": false,
+        "legacy_review_viewer": {
+          "bytes": 2643365,
+          "commit": "91c6adb6965b19cbc1970c050e6d92a955626ae4",
+          "path": "viewers/togo.html",
+          "sha256": "fd76ffbba92f3da49f8ff0a0828f237524fa1b70aa11ebc50521746077800dc4",
+          "source_path": "preview/togo-v1/togo-v1.html"
+        },
+        "marketing": {
+          "bytes": 45264,
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "dimensions": [
+            1072,
+            976
+          ],
+          "image_type": "Promotional art",
+          "matches_gallery_inventory": true,
+          "not_model_approval": true,
+          "path": "docs/assets/gallery/togo.webp",
+          "provenance": {
+            "exactModelEquivalenceClaimed": false,
+            "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+            "model": "grok-imagine-image",
+            "nativeDimensions": [
+              1072,
+              976
+            ],
+            "provider": "xai",
+            "reviewNotes": "Two capped towers and two short cylinders retained; wall/tower contour detail differs.",
+            "reviewStatus": "reviewed_with_limitations",
+            "sha256": "5ed439c473e55e7219980c946d6aa1ade95daa5d0e2c6740ca5a545d7263a63b",
+            "source": "assets/gallery/togo.webp",
+            "sourceSha256": "480ec75366029b2ec596cfda4c8fa2f4f39c0460a68a33ae29e404f57ed14213",
+            "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+          },
+          "sha256": "5d40f2ca4246c0acbc0e6d296e26ea2dfd163942d091301ea9a8ec67f1f35aa4"
+        },
+        "missing_gates": [
+          "independent-current-model-visual-review",
+          "explicit-final-user-art-approval",
+          "fresh-full-source-and-browser-acceptance",
+          "storage-and-preservation-policy",
+          "mint-and-release-authorization"
+        ],
+        "model_sources": [
+          {
+            "bytes": 543709,
+            "commit": "91c6adb6965b19cbc1970c050e6d92a955626ae4",
+            "path": "preview/togo-v1/togo.blend",
+            "role": "selected-model",
+            "sha256": "fbe43643af2c794722273d7af32bb5a8563246a06fa56a472dcce51b20609875"
+          },
+          {
+            "bytes": 1411136,
+            "commit": "91c6adb6965b19cbc1970c050e6d92a955626ae4",
+            "path": "preview/togo-v1/togo.glb",
+            "role": "selected-model",
+            "sha256": "7077f4e68fbf0456dd1de016b506a4e82a4337d5601cac57fb6960ab8c3bf06f",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 67,
+              "nodes": 69
+            }
+          }
+        ],
+        "name": "Togo",
+        "provenance": {
+          "readme_snapshot": "source-notes/togo.md",
+          "research_brief": {
+            "bytes": 3279,
+            "commit": "91c6adb6965b19cbc1970c050e6d92a955626ae4",
+            "path": "preview/togo-v1/design-brief.md",
+            "sha256": "ac17f10b3edf3bf2f92b648e8303a418a58dcf4a586ac2b0ca25c8211cc78bd6"
+          },
+          "source_readme": {
+            "bytes": 4428,
+            "commit": "91c6adb6965b19cbc1970c050e6d92a955626ae4",
+            "path": "preview/togo-v1/README.md",
+            "sha256": "8adfe668166bc0414f3138d1238f27e407c286880d3923ab23a35e93a7e78459"
+          }
+        },
+        "qa": {
+          "evidence_path": "qa/togo.json",
+          "fresh_runtime_execution": false,
+          "historical_report_count": 7
+        },
+        "selection": {
+          "commit": "91c6adb6965b19cbc1970c050e6d92a955626ae4",
+          "fetched_tip": "91c6adb6965b19cbc1970c050e6d92a955626ae4",
+          "reachable_from_fetched_ref": true,
+          "remote_ref": "origin/art/togo-v1"
+        },
+        "source_archives": [
+          {
+            "bytes": 5493932,
+            "commit": "91c6adb6965b19cbc1970c050e6d92a955626ae4",
+            "crc_error": null,
+            "entries": 52,
+            "inventory_checked": true,
+            "inventory_entries": 51,
+            "inventory_mismatches": [],
+            "kind": "git",
+            "path": "preview/togo-v1/togo-v1-source.zip",
+            "required_payloads": {
+              "togo-v1.html": true,
+              "togo.blend": true,
+              "togo.glb": true
+            },
+            "safe_unique_paths": true,
+            "sha256": "74bb5b5907e3cb9784721cf904103958f957acf7922ea14168a695ed48ccdb50"
+          }
+        ],
+        "version": "togo-v1",
+        "viewer": {
+          "bytes": 2643365,
+          "commit": "91c6adb6965b19cbc1970c050e6d92a955626ae4",
+          "path": "preview/togo-v1/togo-v1.html",
+          "sha256": "fd76ffbba92f3da49f8ff0a0828f237524fa1b70aa11ebc50521746077800dc4",
+          "under_5000000": true
+        },
+        "visual_limitations": []
+      },
+      "user_final_approved": false,
+      "verdict": "candidate-with-limitations",
+      "visual_review": {
+        "art_changed": false,
+        "decision_reason": "Distinctive architecture and hardware retained; no demonstrated clipping or geometry failure.",
+        "finish_differences": [
+          "Viewer regular horizontal banding reads wood-like rather than natural earth; the marketing reference is also wood-like.",
+          "Rough feet contrast with smooth body and tower surfaces; this is finish contrast rather than broken supports.",
+          "Dark hinge clearance gives a loose-lid impression but does not prove disconnection."
+        ],
+        "id": "togo",
+        "images_inspected": [
+          "launch/art-05/smoke/togo/desktop-closed.png",
+          "launch/art-05/smoke/togo/desktop-open.png",
+          "launch/art-05/smoke/togo/mobile-closed.png",
+          "launch/art-05/smoke/togo/mobile-open.png",
+          "launch/art-05/sources/togo/marketing.webp"
+        ],
+        "observations": {
+          "desktop_closed": "Banded tan chest carries two tall capped towers, two short cylinders and connecting walls; brass fittings and rough rounded feet visible without clipping.",
+          "desktop_open": "Plain banded inner lid and empty tan cavity visible, with two rear hinge pieces and projecting free-edge clasp tab; full silhouette framed.",
+          "marketing": "Pale pink-beige chest, same four-tower composition and ivory conical caps, brass hardware, dark seam and irregular rounded feet.",
+          "mobile_closed": "Tower silhouette, clasp and controls remain readable and unclipped.",
+          "mobile_open": "Complete raised lid, cavity and feet remain within viewer; hinge attachment and rear corner joins are difficult to resolve."
+        },
+        "parent_reconciliation": "Parent pass agrees with cold inspection; no approval inferred.",
+        "proven_defects": [],
+        "review_complete": true,
+        "user_final_approved": false,
+        "verdict": "candidate-pass"
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Togo",
+    "package_history": [
+      {
+        "bytes": 5493932,
+        "commit": "91c6adb6965b19cbc1970c050e6d92a955626ae4",
+        "crc_error": null,
+        "entries": 52,
+        "inventory_checked": true,
+        "inventory_entries": 51,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/togo-v1/togo-v1-source.zip",
+        "required_payloads": {
+          "togo-v1.html": true,
+          "togo.blend": true,
+          "togo.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "74bb5b5907e3cb9784721cf904103958f957acf7922ea14168a695ed48ccdb50"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "91c6adb6965b19cbc1970c050e6d92a955626ae4",
+      "fetched_tip": "91c6adb6965b19cbc1970c050e6d92a955626ae4",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/togo-v1"
+    },
+    "verdict": "candidate-with-limitations",
+    "viewer": {
+      "bytes": 2643365,
+      "commit": "91c6adb6965b19cbc1970c050e6d92a955626ae4",
+      "path": "preview/togo-v1/togo-v1.html",
+      "sha256": "fd76ffbba92f3da49f8ff0a0828f237524fa1b70aa11ebc50521746077800dc4",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "togo",
+    "baseline_verdict": "candidate-with-limitations",
+    "actions": [
+      "owner art/finish acceptance; no proven runtime defect recorded; no autonomous redesign"
+    ],
+    "approval": false,
+    "original_review": {
+      "art_changed": false,
+      "fresh_checks": {
+        "archives": [
+          {
+            "bytes": 5493932,
+            "crc_safe_unique": true,
+            "entries": 52,
+            "full_inner_inventory_rerun": false,
+            "path": "preview/togo-v1/togo-v1-source.zip",
+            "required_payloads": [
+              {
+                "archive_members": [
+                  "togo-v1.html"
+                ],
+                "exact_match": true,
+                "path": "preview/togo-v1/togo-v1.html"
+              },
+              {
+                "archive_members": [
+                  "togo.blend"
+                ],
+                "exact_match": true,
+                "path": "preview/togo-v1/togo.blend"
+              },
+              {
+                "archive_members": [
+                  "togo.glb"
+                ],
+                "exact_match": true,
+                "path": "preview/togo-v1/togo.glb"
+              }
+            ],
+            "sha256": "74bb5b5907e3cb9784721cf904103958f957acf7922ea14168a695ed48ccdb50"
+          }
+        ],
+        "art_changed": false,
+        "id": "togo",
+        "models": [
+          {
+            "bytes": 543709,
+            "commit": "91c6adb6965b19cbc1970c050e6d92a955626ae4",
+            "path": "preview/togo-v1/togo.blend",
+            "role": "selected-model",
+            "sha256": "fbe43643af2c794722273d7af32bb5a8563246a06fa56a472dcce51b20609875"
+          },
+          {
+            "bytes": 1411136,
+            "commit": "91c6adb6965b19cbc1970c050e6d92a955626ae4",
+            "path": "preview/togo-v1/togo.glb",
+            "role": "selected-model",
+            "sha256": "7077f4e68fbf0456dd1de016b506a4e82a4337d5601cac57fb6960ab8c3bf06f",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 67,
+              "nodes": 69
+            }
+          }
+        ],
+        "parent_package_holds": [],
+        "viewer": {
+          "bytes": 2643365,
+          "commit": "91c6adb6965b19cbc1970c050e6d92a955626ae4",
+          "path": "preview/togo-v1/togo-v1.html",
+          "sha256": "fd76ffbba92f3da49f8ff0a0828f237524fa1b70aa11ebc50521746077800dc4",
+          "under_5000000": true
+        }
+      },
+      "historical_runtime_only": true,
+      "id": "togo",
+      "inspected_images": [
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/togo/desktop-closed.png",
+          "sha256": "df5c60fa06632018390c9717f0103048835170830fd10821fbe5b138c8292671"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/togo/desktop-open.png",
+          "sha256": "183358ad4ad18d8ad476996a3c513bb8277ffb58aec7edc267f95b46fac7fe40"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/togo/mobile-closed.png",
+          "sha256": "c30a7fb2d80937ec99af604701b38a713006a94a423d6f7966343cdfc608ad19"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "smoke/togo/mobile-open.png",
+          "sha256": "4434cc6e1fe9b7d7389f1e4e9f06254cb66ec41845c8f76192caade43a93dd96"
+        },
+        {
+          "parent_commit": "c3318e46fe1ac6ba279f99708ae814caa3775db0",
+          "path": "sources/togo/marketing.webp",
+          "sha256": "5d40f2ca4246c0acbc0e6d296e26ea2dfd163942d091301ea9a8ec67f1f35aa4"
+        }
+      ],
+      "launch_ready": false,
+      "missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "package_holds": [],
+      "parent_reason": "Bounded visual candidate pass: all five required originals inspected; identity retained, no unequivocal major geometry or framing defect observed. Not final user approval.",
+      "review_complete": true,
+      "source_record": {
+        "approval": {
+          "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+          "prior_approved_baseline": null,
+          "status": "candidate-not-final-approved",
+          "user_final_approved": false
+        },
+        "category": "Country",
+        "delivered_viewer": {
+          "bytes": 2643365,
+          "exists": true,
+          "matches_selected_commit": true,
+          "path": "C:\\Users\\futur\\.hermes\\profiles\\telegram2\\output\\boxsv-collection-review\\viewers\\togo.html",
+          "sha256": "fd76ffbba92f3da49f8ff0a0828f237524fa1b70aa11ebc50521746077800dc4"
+        },
+        "edition_supply": 1,
+        "id": "togo",
+        "launch_ready": false,
+        "legacy_review_viewer": {
+          "bytes": 2643365,
+          "commit": "91c6adb6965b19cbc1970c050e6d92a955626ae4",
+          "path": "viewers/togo.html",
+          "sha256": "fd76ffbba92f3da49f8ff0a0828f237524fa1b70aa11ebc50521746077800dc4",
+          "source_path": "preview/togo-v1/togo-v1.html"
+        },
+        "marketing": {
+          "bytes": 45264,
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "dimensions": [
+            1072,
+            976
+          ],
+          "image_type": "Promotional art",
+          "matches_gallery_inventory": true,
+          "not_model_approval": true,
+          "path": "docs/assets/gallery/togo.webp",
+          "provenance": {
+            "exactModelEquivalenceClaimed": false,
+            "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+            "model": "grok-imagine-image",
+            "nativeDimensions": [
+              1072,
+              976
+            ],
+            "provider": "xai",
+            "reviewNotes": "Two capped towers and two short cylinders retained; wall/tower contour detail differs.",
+            "reviewStatus": "reviewed_with_limitations",
+            "sha256": "5ed439c473e55e7219980c946d6aa1ade95daa5d0e2c6740ca5a545d7263a63b",
+            "source": "assets/gallery/togo.webp",
+            "sourceSha256": "480ec75366029b2ec596cfda4c8fa2f4f39c0460a68a33ae29e404f57ed14213",
+            "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+          },
+          "sha256": "5d40f2ca4246c0acbc0e6d296e26ea2dfd163942d091301ea9a8ec67f1f35aa4"
+        },
+        "missing_gates": [
+          "independent-current-model-visual-review",
+          "explicit-final-user-art-approval",
+          "fresh-full-source-and-browser-acceptance",
+          "storage-and-preservation-policy",
+          "mint-and-release-authorization"
+        ],
+        "model_sources": [
+          {
+            "bytes": 543709,
+            "commit": "91c6adb6965b19cbc1970c050e6d92a955626ae4",
+            "path": "preview/togo-v1/togo.blend",
+            "role": "selected-model",
+            "sha256": "fbe43643af2c794722273d7af32bb5a8563246a06fa56a472dcce51b20609875"
+          },
+          {
+            "bytes": 1411136,
+            "commit": "91c6adb6965b19cbc1970c050e6d92a955626ae4",
+            "path": "preview/togo-v1/togo.glb",
+            "role": "selected-model",
+            "sha256": "7077f4e68fbf0456dd1de016b506a4e82a4337d5601cac57fb6960ab8c3bf06f",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 67,
+              "nodes": 69
+            }
+          }
+        ],
+        "name": "Togo",
+        "provenance": {
+          "readme_snapshot": "source-notes/togo.md",
+          "research_brief": {
+            "bytes": 3279,
+            "commit": "91c6adb6965b19cbc1970c050e6d92a955626ae4",
+            "path": "preview/togo-v1/design-brief.md",
+            "sha256": "ac17f10b3edf3bf2f92b648e8303a418a58dcf4a586ac2b0ca25c8211cc78bd6"
+          },
+          "source_readme": {
+            "bytes": 4428,
+            "commit": "91c6adb6965b19cbc1970c050e6d92a955626ae4",
+            "path": "preview/togo-v1/README.md",
+            "sha256": "8adfe668166bc0414f3138d1238f27e407c286880d3923ab23a35e93a7e78459"
+          }
+        },
+        "qa": {
+          "evidence_path": "qa/togo.json",
+          "fresh_runtime_execution": false,
+          "historical_report_count": 7
+        },
+        "selection": {
+          "commit": "91c6adb6965b19cbc1970c050e6d92a955626ae4",
+          "fetched_tip": "91c6adb6965b19cbc1970c050e6d92a955626ae4",
+          "reachable_from_fetched_ref": true,
+          "remote_ref": "origin/art/togo-v1"
+        },
+        "source_archives": [
+          {
+            "bytes": 5493932,
+            "commit": "91c6adb6965b19cbc1970c050e6d92a955626ae4",
+            "crc_error": null,
+            "entries": 52,
+            "inventory_checked": true,
+            "inventory_entries": 51,
+            "inventory_mismatches": [],
+            "kind": "git",
+            "path": "preview/togo-v1/togo-v1-source.zip",
+            "required_payloads": {
+              "togo-v1.html": true,
+              "togo.blend": true,
+              "togo.glb": true
+            },
+            "safe_unique_paths": true,
+            "sha256": "74bb5b5907e3cb9784721cf904103958f957acf7922ea14168a695ed48ccdb50"
+          }
+        ],
+        "version": "togo-v1",
+        "viewer": {
+          "bytes": 2643365,
+          "commit": "91c6adb6965b19cbc1970c050e6d92a955626ae4",
+          "path": "preview/togo-v1/togo-v1.html",
+          "sha256": "fd76ffbba92f3da49f8ff0a0828f237524fa1b70aa11ebc50521746077800dc4",
+          "under_5000000": true
+        },
+        "visual_limitations": []
+      },
+      "user_final_approved": false,
+      "verdict": "candidate-with-limitations",
+      "visual_review": {
+        "art_changed": false,
+        "decision_reason": "Distinctive architecture and hardware retained; no demonstrated clipping or geometry failure.",
+        "finish_differences": [
+          "Viewer regular horizontal banding reads wood-like rather than natural earth; the marketing reference is also wood-like.",
+          "Rough feet contrast with smooth body and tower surfaces; this is finish contrast rather than broken supports.",
+          "Dark hinge clearance gives a loose-lid impression but does not prove disconnection."
+        ],
+        "id": "togo",
+        "images_inspected": [
+          "launch/art-05/smoke/togo/desktop-closed.png",
+          "launch/art-05/smoke/togo/desktop-open.png",
+          "launch/art-05/smoke/togo/mobile-closed.png",
+          "launch/art-05/smoke/togo/mobile-open.png",
+          "launch/art-05/sources/togo/marketing.webp"
+        ],
+        "observations": {
+          "desktop_closed": "Banded tan chest carries two tall capped towers, two short cylinders and connecting walls; brass fittings and rough rounded feet visible without clipping.",
+          "desktop_open": "Plain banded inner lid and empty tan cavity visible, with two rear hinge pieces and projecting free-edge clasp tab; full silhouette framed.",
+          "marketing": "Pale pink-beige chest, same four-tower composition and ivory conical caps, brass hardware, dark seam and irregular rounded feet.",
+          "mobile_closed": "Tower silhouette, clasp and controls remain readable and unclipped.",
+          "mobile_open": "Complete raised lid, cavity and feet remain within viewer; hinge attachment and rear corner joins are difficult to resolve."
+        },
+        "parent_reconciliation": "Parent pass agrees with cold inspection; no approval inferred.",
+        "proven_defects": [],
+        "review_complete": true,
+        "user_final_approved": false,
+        "verdict": "candidate-pass"
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 5493932,
+        "commit": "91c6adb6965b19cbc1970c050e6d92a955626ae4",
+        "crc_error": null,
+        "entries": 52,
+        "inventory_checked": true,
+        "inventory_entries": 51,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/togo-v1/togo-v1-source.zip",
+        "required_payloads": {
+          "togo-v1.html": true,
+          "togo.blend": true,
+          "togo.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "74bb5b5907e3cb9784721cf904103958f957acf7922ea14168a695ed48ccdb50"
+      }
+    ]
+  }
+}

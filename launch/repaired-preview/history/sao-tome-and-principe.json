@@ -1,0 +1,554 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 2,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 487080,
+        "role": "editable-source",
+        "sha256": "85b5e8bd172ed9375cb5013614088e2b706b2b4b1adb2957ed437a7935f19a6b",
+        "source": {
+          "commit": "32f4fd3c469090105576de32fd33c450538fc880",
+          "path": "preview/sao-tome-and-principe-v1/sao-tome-and-principe.blend"
+        },
+        "uri": "sha256:85b5e8bd172ed9375cb5013614088e2b706b2b4b1adb2957ed437a7935f19a6b"
+      },
+      {
+        "bytes": 5910244,
+        "role": "historical-source-archive",
+        "sha256": "abba83247b7a6624aeba737b8cbbf6cc5bf0051115cd4ea8dc1d8a008091682d",
+        "source": {
+          "commit": "32f4fd3c469090105576de32fd33c450538fc880",
+          "kind": "git",
+          "path": "preview/sao-tome-and-principe-v1/sao-tome-and-principe-v1-source.zip"
+        },
+        "uri": "sha256:abba83247b7a6624aeba737b8cbbf6cc5bf0051115cd4ea8dc1d8a008091682d"
+      },
+      {
+        "bytes": 1232176,
+        "role": "model",
+        "sha256": "aafcd44fae029e51a287d78eda8c1a30f57499591106b806624a2649b6cf2b01",
+        "source": {
+          "commit": "32f4fd3c469090105576de32fd33c450538fc880",
+          "path": "preview/sao-tome-and-principe-v1/sao-tome-and-principe.glb"
+        },
+        "uri": "sha256:aafcd44fae029e51a287d78eda8c1a30f57499591106b806624a2649b6cf2b01"
+      },
+      {
+        "bytes": 109748,
+        "role": "promotional-illustration",
+        "sha256": "fea31f52a25287a83b6ee889ee63e3546e32e2281711e6ec636756174b74d479",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/sao-tome-and-principe.webp"
+        },
+        "uri": "sha256:fea31f52a25287a83b6ee889ee63e3546e32e2281711e6ec636756174b74d479"
+      },
+      {
+        "bytes": 3737,
+        "role": "research-brief",
+        "sha256": "5ec3c25514edd9315a0c3fbcfd8ef3ca03ad0d380c828cb7a2a2eaa976b41b5a",
+        "source": {
+          "commit": "32f4fd3c469090105576de32fd33c450538fc880",
+          "path": "preview/sao-tome-and-principe-v1/design-brief.md"
+        },
+        "uri": "sha256:5ec3c25514edd9315a0c3fbcfd8ef3ca03ad0d380c828cb7a2a2eaa976b41b5a"
+      },
+      {
+        "bytes": 5835,
+        "role": "source-notice",
+        "sha256": "2c383eafc55359833b30659a5d7c6b4f416bedd3408f7ea9e1b8ab516bbd8146",
+        "source": {
+          "commit": "32f4fd3c469090105576de32fd33c450538fc880",
+          "path": "preview/sao-tome-and-principe-v1/README.md"
+        },
+        "uri": "sha256:2c383eafc55359833b30659a5d7c6b4f416bedd3408f7ea9e1b8ab516bbd8146"
+      },
+      {
+        "bytes": 2447096,
+        "role": "viewer",
+        "sha256": "ab3e05defdd93f08f37b0af133d0d62993dd193fd06c12113ebb5575c3d358c0",
+        "source": {
+          "commit": "32f4fd3c469090105576de32fd33c450538fc880",
+          "path": "preview/sao-tome-and-principe-v1/sao-tome-and-principe-v1.html"
+        },
+        "uri": "sha256:ab3e05defdd93f08f37b0af133d0d62993dd193fd06c12113ebb5575c3d358c0"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "sao-tome-and-principe",
+    "independent_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "archives": [
+        {
+          "bytes": 5910244,
+          "entries": 58,
+          "inventory_entries_checked": 57,
+          "path": "preview/sao-tome-and-principe-v1/sao-tome-and-principe-v1-source.zip",
+          "required_payloads": "pass",
+          "safe_paths_crc": "pass",
+          "sha256": "abba83247b7a6624aeba737b8cbbf6cc5bf0051115cd4ea8dc1d8a008091682d"
+        }
+      ],
+      "fresh_browser_cases": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                3.1449999809265137,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.3105585500597954,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1232176,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 7,
+            "meshes": 101,
+            "nonfinite": 0,
+            "triangles": 18120
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "sao-tome-and-principe",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "ab3e05defdd93f08f37b0af133d0d62993dd193fd06c12113ebb5575c3d358c0"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                3.1449999809265137,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.3105585500597954,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1232176,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 7,
+            "meshes": 101,
+            "nonfinite": 0,
+            "triangles": 18120
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "sao-tome-and-principe",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "ab3e05defdd93f08f37b0af133d0d62993dd193fd06c12113ebb5575c3d358c0"
+        }
+      ],
+      "fresh_motion_suite": {
+        "exit_code": 0,
+        "id": "sao-tome-and-principe",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "32f4fd3c469090105576de32fd33c450538fc880",
+            "path": "preview/sao-tome-and-principe-v1/motion.mjs",
+            "sha256": "681c51032068f29b4b0b9ba4ce2540b61fde609017b5231d9b2cc5184884204d"
+          }
+        ]
+      },
+      "fresh_runtime_captures": [
+        "smoke/sao-tome-and-principe/desktop-closed.png",
+        "smoke/sao-tome-and-principe/desktop-open.png",
+        "smoke/sao-tome-and-principe/mobile-closed.png",
+        "smoke/sao-tome-and-principe/mobile-open.png"
+      ],
+      "id": "sao-tome-and-principe",
+      "independent_reviewer_recommendation": "needs-user-review",
+      "inspected_parent_images": [
+        "parent/boards/sao-tome-and-principe.jpg",
+        "parent/smoke/sao-tome-and-principe/desktop-closed.png",
+        "parent/smoke/sao-tome-and-principe/desktop-open.png",
+        "parent/smoke/sao-tome-and-principe/mobile-closed.png",
+        "parent/smoke/sao-tome-and-principe/mobile-open.png"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 109748,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          960
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/sao-tome-and-principe.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            960
+          ],
+          "provider": "xai",
+          "reviewNotes": "Principal silhouette, palette, hardware and lid count/placement retained; texture refinement allowed.",
+          "reviewStatus": "accepted",
+          "sha256": "092343576f190ac54764ad4b7dca202800c251de310a41cf1c96bd09dfc78676",
+          "source": "assets/gallery/sao-tome-and-principe.webp",
+          "sourceSha256": "84a343e783d3114e4a820d858572460fc4ca10fb9cb11a2e51e8d812c53ff342",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "fea31f52a25287a83b6ee889ee63e3546e32e2281711e6ec636756174b74d479"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-Blender-reopen-parity-and-sampled-collisions",
+        "fresh-corrupt-GLB-fallback",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "models": [
+        {
+          "bytes": 487080,
+          "path": "preview/sao-tome-and-principe-v1/sao-tome-and-principe.blend",
+          "sha256": "85b5e8bd172ed9375cb5013614088e2b706b2b4b1adb2957ed437a7935f19a6b"
+        },
+        {
+          "bytes": 1232176,
+          "path": "preview/sao-tome-and-principe-v1/sao-tome-and-principe.glb",
+          "sha256": "aafcd44fae029e51a287d78eda8c1a30f57499591106b806624a2649b6cf2b01"
+        }
+      ],
+      "parent_hold_preserved": true,
+      "selection": {
+        "commit": "32f4fd3c469090105576de32fd33c450538fc880",
+        "fetched_tip": "32f4fd3c469090105576de32fd33c450538fc880",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/sao-tome-and-principe-v1"
+      },
+      "technical_verdict": "pass-bounded-review",
+      "viewer": {
+        "bytes": 2447096,
+        "commit": "32f4fd3c469090105576de32fd33c450538fc880",
+        "path": "preview/sao-tome-and-principe-v1/sao-tome-and-principe-v1.html",
+        "sha256": "ab3e05defdd93f08f37b0af133d0d62993dd193fd06c12113ebb5575c3d358c0",
+        "under_5000000": true
+      },
+      "visual_findings": "Strong repetitive gray-green checks on body/interior versus subtle pale-blue promotional finish; trim and landscape detail differ. Pattern mismatch confirmed, renderer malfunction not proven.",
+      "visual_verdict": "needs-user-review"
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "São Tomé and Príncipe",
+    "package_history": [
+      {
+        "bytes": 5910244,
+        "commit": "32f4fd3c469090105576de32fd33c450538fc880",
+        "crc_error": null,
+        "entries": 58,
+        "inventory_checked": true,
+        "inventory_entries": 57,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/sao-tome-and-principe-v1/sao-tome-and-principe-v1-source.zip",
+        "required_payloads": {
+          "sao-tome-and-principe-v1.html": true,
+          "sao-tome-and-principe.blend": true,
+          "sao-tome-and-principe.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "abba83247b7a6624aeba737b8cbbf6cc5bf0051115cd4ea8dc1d8a008091682d"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "32f4fd3c469090105576de32fd33c450538fc880",
+      "fetched_tip": "32f4fd3c469090105576de32fd33c450538fc880",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/sao-tome-and-principe-v1"
+    },
+    "verdict": "needs-user-review",
+    "viewer": {
+      "bytes": 2447096,
+      "commit": "32f4fd3c469090105576de32fd33c450538fc880",
+      "path": "preview/sao-tome-and-principe-v1/sao-tome-and-principe-v1.html",
+      "sha256": "ab3e05defdd93f08f37b0af133d0d62993dd193fd06c12113ebb5575c3d358c0",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "sao-tome-and-principe",
+    "baseline_verdict": "needs-user-review",
+    "actions": [
+      "owner art/finish acceptance; no proven runtime defect recorded; no autonomous redesign"
+    ],
+    "approval": false,
+    "original_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "archives": [
+        {
+          "bytes": 5910244,
+          "entries": 58,
+          "inventory_entries_checked": 57,
+          "path": "preview/sao-tome-and-principe-v1/sao-tome-and-principe-v1-source.zip",
+          "required_payloads": "pass",
+          "safe_paths_crc": "pass",
+          "sha256": "abba83247b7a6624aeba737b8cbbf6cc5bf0051115cd4ea8dc1d8a008091682d"
+        }
+      ],
+      "fresh_browser_cases": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                3.1449999809265137,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.3105585500597954,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1232176,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 7,
+            "meshes": 101,
+            "nonfinite": 0,
+            "triangles": 18120
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "sao-tome-and-principe",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "ab3e05defdd93f08f37b0af133d0d62993dd193fd06c12113ebb5575c3d358c0"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                3.1449999809265137,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.3105585500597954,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1232176,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 7,
+            "meshes": 101,
+            "nonfinite": 0,
+            "triangles": 18120
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "sao-tome-and-principe",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "ab3e05defdd93f08f37b0af133d0d62993dd193fd06c12113ebb5575c3d358c0"
+        }
+      ],
+      "fresh_motion_suite": {
+        "exit_code": 0,
+        "id": "sao-tome-and-principe",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "32f4fd3c469090105576de32fd33c450538fc880",
+            "path": "preview/sao-tome-and-principe-v1/motion.mjs",
+            "sha256": "681c51032068f29b4b0b9ba4ce2540b61fde609017b5231d9b2cc5184884204d"
+          }
+        ]
+      },
+      "fresh_runtime_captures": [
+        "smoke/sao-tome-and-principe/desktop-closed.png",
+        "smoke/sao-tome-and-principe/desktop-open.png",
+        "smoke/sao-tome-and-principe/mobile-closed.png",
+        "smoke/sao-tome-and-principe/mobile-open.png"
+      ],
+      "id": "sao-tome-and-principe",
+      "independent_reviewer_recommendation": "needs-user-review",
+      "inspected_parent_images": [
+        "parent/boards/sao-tome-and-principe.jpg",
+        "parent/smoke/sao-tome-and-principe/desktop-closed.png",
+        "parent/smoke/sao-tome-and-principe/desktop-open.png",
+        "parent/smoke/sao-tome-and-principe/mobile-closed.png",
+        "parent/smoke/sao-tome-and-principe/mobile-open.png"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 109748,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          960
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/sao-tome-and-principe.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            960
+          ],
+          "provider": "xai",
+          "reviewNotes": "Principal silhouette, palette, hardware and lid count/placement retained; texture refinement allowed.",
+          "reviewStatus": "accepted",
+          "sha256": "092343576f190ac54764ad4b7dca202800c251de310a41cf1c96bd09dfc78676",
+          "source": "assets/gallery/sao-tome-and-principe.webp",
+          "sourceSha256": "84a343e783d3114e4a820d858572460fc4ca10fb9cb11a2e51e8d812c53ff342",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "fea31f52a25287a83b6ee889ee63e3546e32e2281711e6ec636756174b74d479"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-Blender-reopen-parity-and-sampled-collisions",
+        "fresh-corrupt-GLB-fallback",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "models": [
+        {
+          "bytes": 487080,
+          "path": "preview/sao-tome-and-principe-v1/sao-tome-and-principe.blend",
+          "sha256": "85b5e8bd172ed9375cb5013614088e2b706b2b4b1adb2957ed437a7935f19a6b"
+        },
+        {
+          "bytes": 1232176,
+          "path": "preview/sao-tome-and-principe-v1/sao-tome-and-principe.glb",
+          "sha256": "aafcd44fae029e51a287d78eda8c1a30f57499591106b806624a2649b6cf2b01"
+        }
+      ],
+      "parent_hold_preserved": true,
+      "selection": {
+        "commit": "32f4fd3c469090105576de32fd33c450538fc880",
+        "fetched_tip": "32f4fd3c469090105576de32fd33c450538fc880",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/sao-tome-and-principe-v1"
+      },
+      "technical_verdict": "pass-bounded-review",
+      "viewer": {
+        "bytes": 2447096,
+        "commit": "32f4fd3c469090105576de32fd33c450538fc880",
+        "path": "preview/sao-tome-and-principe-v1/sao-tome-and-principe-v1.html",
+        "sha256": "ab3e05defdd93f08f37b0af133d0d62993dd193fd06c12113ebb5575c3d358c0",
+        "under_5000000": true
+      },
+      "visual_findings": "Strong repetitive gray-green checks on body/interior versus subtle pale-blue promotional finish; trim and landscape detail differ. Pattern mismatch confirmed, renderer malfunction not proven.",
+      "visual_verdict": "needs-user-review"
+    },
+    "package_history": [
+      {
+        "bytes": 5910244,
+        "commit": "32f4fd3c469090105576de32fd33c450538fc880",
+        "crc_error": null,
+        "entries": 58,
+        "inventory_checked": true,
+        "inventory_entries": 57,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/sao-tome-and-principe-v1/sao-tome-and-principe-v1-source.zip",
+        "required_payloads": {
+          "sao-tome-and-principe-v1.html": true,
+          "sao-tome-and-principe.blend": true,
+          "sao-tome-and-principe.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "abba83247b7a6624aeba737b8cbbf6cc5bf0051115cd4ea8dc1d8a008091682d"
+      }
+    ]
+  },
+  "visual_decision": {
+    "id": "sao-tome-and-principe",
+    "disposition": "substantive-feature-hold",
+    "issue": "Dominant repetitive gray-green checks replace subdued pale-blue stone character.",
+    "rationale": "Needle and rainforest miniature survive, but the body/interior pattern becomes a dominant checker-like treatment rather than the reference pale stone field. Independent review confirms this large pattern mismatch; retain substantive material-identity fidelity hold, without diagnosing renderer malfunction or authorizing redesign.",
+    "evidence": {
+      "commit": "d6a689fd19cfddcc5fef52606f4e581938a8a004",
+      "path": "launch/qa-art-02/parent/boards/sao-tome-and-principe.jpg",
+      "sha256": "d3d304c21d197eb9dbd2fe963fcd024f66a0d818218f22b52c39232a663681a6"
+    }
+  }
+}

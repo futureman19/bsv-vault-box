@@ -1,0 +1,695 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 4,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 293947,
+        "role": "editable-source",
+        "sha256": "820403fd6783c1e44becff0e2859f1022ad3f58fbaa17c5975c2ac3bb579f8fe",
+        "source": {
+          "commit": "8f91f250692e49de5f2953e6c6cded2612bf0af4",
+          "path": "preview/rwanda-v1/rwanda.blend"
+        },
+        "uri": "sha256:820403fd6783c1e44becff0e2859f1022ad3f58fbaa17c5975c2ac3bb579f8fe"
+      },
+      {
+        "bytes": 4375650,
+        "role": "historical-source-archive",
+        "sha256": "addd7339f89c7bdec1a425cc72130821c30827039a79644d2878f1ad9e451b15",
+        "source": {
+          "commit": "8f91f250692e49de5f2953e6c6cded2612bf0af4",
+          "kind": "git",
+          "path": "preview/rwanda-v1/rwanda-v1-source.zip"
+        },
+        "uri": "sha256:addd7339f89c7bdec1a425cc72130821c30827039a79644d2878f1ad9e451b15"
+      },
+      {
+        "bytes": 811176,
+        "role": "model",
+        "sha256": "bbe5b2ad7b0d81aecc6833079db59b1473f197bbc3863f1d72a18bd2f2398d49",
+        "source": {
+          "commit": "8f91f250692e49de5f2953e6c6cded2612bf0af4",
+          "path": "preview/rwanda-v1/rwanda.glb"
+        },
+        "uri": "sha256:bbe5b2ad7b0d81aecc6833079db59b1473f197bbc3863f1d72a18bd2f2398d49"
+      },
+      {
+        "bytes": 94838,
+        "role": "promotional-illustration",
+        "sha256": "7ad59567d0477d3acefda051c7a231b531463a018e53b38341f89377d09f3a6b",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/rwanda.webp"
+        },
+        "uri": "sha256:7ad59567d0477d3acefda051c7a231b531463a018e53b38341f89377d09f3a6b"
+      },
+      {
+        "bytes": 3902,
+        "role": "research-brief",
+        "sha256": "2963715106b23eddbc900b696fdb451e5cee4ecf02a6f3f17edb623a329cb258",
+        "source": {
+          "commit": "8f91f250692e49de5f2953e6c6cded2612bf0af4",
+          "path": "preview/rwanda-v1/design-brief.md"
+        },
+        "uri": "sha256:2963715106b23eddbc900b696fdb451e5cee4ecf02a6f3f17edb623a329cb258"
+      },
+      {
+        "bytes": 5495,
+        "role": "source-notice",
+        "sha256": "a97b9856fd5c2d98819e040194faf6465665acbcd1e53020745a2e47bf5de91f",
+        "source": {
+          "commit": "8f91f250692e49de5f2953e6c6cded2612bf0af4",
+          "path": "preview/rwanda-v1/README.md"
+        },
+        "uri": "sha256:a97b9856fd5c2d98819e040194faf6465665acbcd1e53020745a2e47bf5de91f"
+      },
+      {
+        "bytes": 1828614,
+        "role": "viewer",
+        "sha256": "e0a8953b5ff9e6aaeb19ac48ae1a934c411ff886eb2031a1e50fc8ce77d2e71e",
+        "source": {
+          "commit": "8f91f250692e49de5f2953e6c6cded2612bf0af4",
+          "path": "preview/rwanda-v1/rwanda-v1.html"
+        },
+        "uri": "sha256:e0a8953b5ff9e6aaeb19ac48ae1a934c411ff886eb2031a1e50fc8ce77d2e71e"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "rwanda",
+    "independent_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "captures": [
+        "parent/smoke/rwanda/desktop-closed.png",
+        "parent/smoke/rwanda/desktop-open.png",
+        "parent/smoke/rwanda/mobile-closed.png",
+        "parent/smoke/rwanda/mobile-open.png"
+      ],
+      "fresh_browser": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.009999990463257,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.8919999599456787,
+                -0.24000000208616257,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 811176,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 6,
+            "meshes": 88,
+            "nonfinite": 0,
+            "triangles": 11060
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "rwanda",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "e0a8953b5ff9e6aaeb19ac48ae1a934c411ff886eb2031a1e50fc8ce77d2e71e"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.009999990463257,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.8919999599456787,
+                -0.24000000208616257,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 811176,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 6,
+            "meshes": 88,
+            "nonfinite": 0,
+            "triangles": 11060
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "rwanda",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "e0a8953b5ff9e6aaeb19ac48ae1a934c411ff886eb2031a1e50fc8ce77d2e71e"
+        }
+      ],
+      "fresh_motion": {
+        "exit_code": 0,
+        "id": "rwanda",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "8f91f250692e49de5f2953e6c6cded2612bf0af4",
+            "path": "preview/rwanda-v1/motion.mjs",
+            "sha256": "26b1e90c6110f2941a98c87938f529f77d9b2e68b8635698f52cdad9cfa5ee4d"
+          }
+        ]
+      },
+      "fresh_runtime_captures": [
+        "smoke/rwanda/desktop-closed.png",
+        "smoke/rwanda/desktop-open.png",
+        "smoke/rwanda/mobile-closed.png",
+        "smoke/rwanda/mobile-open.png"
+      ],
+      "id": "rwanda",
+      "independent_visual_findings": "Diamond relief and three lid ornaments retained; wood-like ridging and pronounced seam also in promotion. Visual candidate only; exact-byte archive hold remains.",
+      "inspection": "deleg_5910ddb9 tasks 0-4 inspected four original PNGs and promotional WebP per ID; lead Malta comparison reinspection",
+      "launch_ready": false,
+      "packaging_verdict": "exact-byte-hold",
+      "parent_findings": {
+        "hardware": "Clasp, caps and wooden feet retained; prominent dark seam also in reference.",
+        "terrain": "Raised ivory/dark geometric patterns retain identity; no landscape intended.",
+        "texture": "Grain reads as painted wood rather than plaster; relief aliases and brass is flat. Archive integrity hold is separate from visual verdict."
+      },
+      "parent_remaining_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "source-archive-integrity-or-required-payload-mismatch",
+        "independent QA-ART-04 review"
+      ],
+      "parent_status": "needs-decision",
+      "polish_iterations": 0,
+      "proven_runtime_defects": [],
+      "remaining_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "source-archive-integrity-or-required-payload-mismatch"
+      ],
+      "selection": {
+        "commit": "8f91f250692e49de5f2953e6c6cded2612bf0af4",
+        "fetched_tip": "8f91f250692e49de5f2953e6c6cded2612bf0af4",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/rwanda-v1"
+      },
+      "source_archive_audit": {
+        "archives": [
+          {
+            "internal_inventory_checked": 45,
+            "provenance": {
+              "bytes": 4375650,
+              "commit": "8f91f250692e49de5f2953e6c6cded2612bf0af4",
+              "crc_error": null,
+              "entries": 46,
+              "inventory_checked": true,
+              "inventory_entries": 45,
+              "inventory_mismatches": [],
+              "kind": "git",
+              "path": "preview/rwanda-v1/rwanda-v1-source.zip",
+              "payload_differences": {
+                "rwanda-v1.html": {
+                  "archived": {
+                    "bytes": 1832459,
+                    "sha256": "cec7117ab178c9462fb4e55677c0749535627a69ffb6b2b0d12cb5f02e810f05"
+                  },
+                  "committed": {
+                    "bytes": 1828614,
+                    "sha256": "e0a8953b5ff9e6aaeb19ac48ae1a934c411ff886eb2031a1e50fc8ce77d2e71e"
+                  },
+                  "newline_normalized_match": true
+                }
+              },
+              "required_payloads": {
+                "rwanda-v1.html": false,
+                "rwanda.blend": true,
+                "rwanda.glb": true
+              },
+              "safe_unique_paths": true,
+              "sha256": "addd7339f89c7bdec1a425cc72130821c30827039a79644d2878f1ad9e451b15"
+            },
+            "safe_unique_crc": true,
+            "selected_payload_checks": [
+              {
+                "matches_selected_bytes": false,
+                "newline_only_difference": true,
+                "path": "rwanda-v1.html",
+                "sha256": "cec7117ab178c9462fb4e55677c0749535627a69ffb6b2b0d12cb5f02e810f05"
+              },
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "rwanda.blend",
+                "sha256": "820403fd6783c1e44becff0e2859f1022ad3f58fbaa17c5975c2ac3bb579f8fe"
+              },
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "rwanda.glb",
+                "sha256": "bbe5b2ad7b0d81aecc6833079db59b1473f197bbc3863f1d72a18bd2f2398d49"
+              }
+            ]
+          }
+        ],
+        "id": "rwanda",
+        "sources": [
+          {
+            "bytes": 293947,
+            "commit": "8f91f250692e49de5f2953e6c6cded2612bf0af4",
+            "path": "preview/rwanda-v1/rwanda.blend",
+            "role": "selected-model",
+            "sha256": "820403fd6783c1e44becff0e2859f1022ad3f58fbaa17c5975c2ac3bb579f8fe"
+          },
+          {
+            "bytes": 811176,
+            "commit": "8f91f250692e49de5f2953e6c6cded2612bf0af4",
+            "path": "preview/rwanda-v1/rwanda.glb",
+            "role": "selected-model",
+            "sha256": "bbe5b2ad7b0d81aecc6833079db59b1473f197bbc3863f1d72a18bd2f2398d49",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 88,
+              "nodes": 90
+            }
+          }
+        ],
+        "viewer": {
+          "bytes": 1828614,
+          "commit": "8f91f250692e49de5f2953e6c6cded2612bf0af4",
+          "path": "preview/rwanda-v1/rwanda-v1.html",
+          "sha256": "e0a8953b5ff9e6aaeb19ac48ae1a934c411ff886eb2031a1e50fc8ce77d2e71e",
+          "under_5000000": true
+        }
+      },
+      "user_final_approved": false,
+      "verdict": "needs-user-review",
+      "viewer": {
+        "bytes": 1828614,
+        "commit": "8f91f250692e49de5f2953e6c6cded2612bf0af4",
+        "path": "preview/rwanda-v1/rwanda-v1.html",
+        "sha256": "e0a8953b5ff9e6aaeb19ac48ae1a934c411ff886eb2031a1e50fc8ce77d2e71e",
+        "under_5000000": true
+      },
+      "visual_verdict": "candidate-with-limitations"
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Rwanda",
+    "package_history": [
+      {
+        "bytes": 4375650,
+        "commit": "8f91f250692e49de5f2953e6c6cded2612bf0af4",
+        "crc_error": null,
+        "entries": 46,
+        "inventory_checked": true,
+        "inventory_entries": 45,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/rwanda-v1/rwanda-v1-source.zip",
+        "payload_differences": {
+          "rwanda-v1.html": {
+            "archived": {
+              "bytes": 1832459,
+              "sha256": "cec7117ab178c9462fb4e55677c0749535627a69ffb6b2b0d12cb5f02e810f05"
+            },
+            "committed": {
+              "bytes": 1828614,
+              "sha256": "e0a8953b5ff9e6aaeb19ac48ae1a934c411ff886eb2031a1e50fc8ce77d2e71e"
+            },
+            "newline_normalized_match": true
+          }
+        },
+        "required_payloads": {
+          "rwanda-v1.html": false,
+          "rwanda.blend": true,
+          "rwanda.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "addd7339f89c7bdec1a425cc72130821c30827039a79644d2878f1ad9e451b15"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization",
+      "source-archive-integrity-or-required-payload-mismatch"
+    ],
+    "selected_candidate": {
+      "commit": "8f91f250692e49de5f2953e6c6cded2612bf0af4",
+      "fetched_tip": "8f91f250692e49de5f2953e6c6cded2612bf0af4",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/rwanda-v1"
+    },
+    "verdict": "needs-user-review",
+    "viewer": {
+      "bytes": 1828614,
+      "commit": "8f91f250692e49de5f2953e6c6cded2612bf0af4",
+      "path": "preview/rwanda-v1/rwanda-v1.html",
+      "sha256": "e0a8953b5ff9e6aaeb19ac48ae1a934c411ff886eb2031a1e50fc8ce77d2e71e",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "rwanda",
+    "baseline_verdict": "needs-user-review",
+    "actions": [
+      "canonical-source-package repaired; history and visual approvals unchanged"
+    ],
+    "approval": false,
+    "original_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "captures": [
+        "parent/smoke/rwanda/desktop-closed.png",
+        "parent/smoke/rwanda/desktop-open.png",
+        "parent/smoke/rwanda/mobile-closed.png",
+        "parent/smoke/rwanda/mobile-open.png"
+      ],
+      "fresh_browser": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.009999990463257,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.8919999599456787,
+                -0.24000000208616257,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 811176,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 6,
+            "meshes": 88,
+            "nonfinite": 0,
+            "triangles": 11060
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "rwanda",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "e0a8953b5ff9e6aaeb19ac48ae1a934c411ff886eb2031a1e50fc8ce77d2e71e"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.009999990463257,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.8919999599456787,
+                -0.24000000208616257,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 811176,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 6,
+            "meshes": 88,
+            "nonfinite": 0,
+            "triangles": 11060
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "rwanda",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "e0a8953b5ff9e6aaeb19ac48ae1a934c411ff886eb2031a1e50fc8ce77d2e71e"
+        }
+      ],
+      "fresh_motion": {
+        "exit_code": 0,
+        "id": "rwanda",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "8f91f250692e49de5f2953e6c6cded2612bf0af4",
+            "path": "preview/rwanda-v1/motion.mjs",
+            "sha256": "26b1e90c6110f2941a98c87938f529f77d9b2e68b8635698f52cdad9cfa5ee4d"
+          }
+        ]
+      },
+      "fresh_runtime_captures": [
+        "smoke/rwanda/desktop-closed.png",
+        "smoke/rwanda/desktop-open.png",
+        "smoke/rwanda/mobile-closed.png",
+        "smoke/rwanda/mobile-open.png"
+      ],
+      "id": "rwanda",
+      "independent_visual_findings": "Diamond relief and three lid ornaments retained; wood-like ridging and pronounced seam also in promotion. Visual candidate only; exact-byte archive hold remains.",
+      "inspection": "deleg_5910ddb9 tasks 0-4 inspected four original PNGs and promotional WebP per ID; lead Malta comparison reinspection",
+      "launch_ready": false,
+      "packaging_verdict": "exact-byte-hold",
+      "parent_findings": {
+        "hardware": "Clasp, caps and wooden feet retained; prominent dark seam also in reference.",
+        "terrain": "Raised ivory/dark geometric patterns retain identity; no landscape intended.",
+        "texture": "Grain reads as painted wood rather than plaster; relief aliases and brass is flat. Archive integrity hold is separate from visual verdict."
+      },
+      "parent_remaining_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "source-archive-integrity-or-required-payload-mismatch",
+        "independent QA-ART-04 review"
+      ],
+      "parent_status": "needs-decision",
+      "polish_iterations": 0,
+      "proven_runtime_defects": [],
+      "remaining_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "source-archive-integrity-or-required-payload-mismatch"
+      ],
+      "selection": {
+        "commit": "8f91f250692e49de5f2953e6c6cded2612bf0af4",
+        "fetched_tip": "8f91f250692e49de5f2953e6c6cded2612bf0af4",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/rwanda-v1"
+      },
+      "source_archive_audit": {
+        "archives": [
+          {
+            "internal_inventory_checked": 45,
+            "provenance": {
+              "bytes": 4375650,
+              "commit": "8f91f250692e49de5f2953e6c6cded2612bf0af4",
+              "crc_error": null,
+              "entries": 46,
+              "inventory_checked": true,
+              "inventory_entries": 45,
+              "inventory_mismatches": [],
+              "kind": "git",
+              "path": "preview/rwanda-v1/rwanda-v1-source.zip",
+              "payload_differences": {
+                "rwanda-v1.html": {
+                  "archived": {
+                    "bytes": 1832459,
+                    "sha256": "cec7117ab178c9462fb4e55677c0749535627a69ffb6b2b0d12cb5f02e810f05"
+                  },
+                  "committed": {
+                    "bytes": 1828614,
+                    "sha256": "e0a8953b5ff9e6aaeb19ac48ae1a934c411ff886eb2031a1e50fc8ce77d2e71e"
+                  },
+                  "newline_normalized_match": true
+                }
+              },
+              "required_payloads": {
+                "rwanda-v1.html": false,
+                "rwanda.blend": true,
+                "rwanda.glb": true
+              },
+              "safe_unique_paths": true,
+              "sha256": "addd7339f89c7bdec1a425cc72130821c30827039a79644d2878f1ad9e451b15"
+            },
+            "safe_unique_crc": true,
+            "selected_payload_checks": [
+              {
+                "matches_selected_bytes": false,
+                "newline_only_difference": true,
+                "path": "rwanda-v1.html",
+                "sha256": "cec7117ab178c9462fb4e55677c0749535627a69ffb6b2b0d12cb5f02e810f05"
+              },
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "rwanda.blend",
+                "sha256": "820403fd6783c1e44becff0e2859f1022ad3f58fbaa17c5975c2ac3bb579f8fe"
+              },
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "rwanda.glb",
+                "sha256": "bbe5b2ad7b0d81aecc6833079db59b1473f197bbc3863f1d72a18bd2f2398d49"
+              }
+            ]
+          }
+        ],
+        "id": "rwanda",
+        "sources": [
+          {
+            "bytes": 293947,
+            "commit": "8f91f250692e49de5f2953e6c6cded2612bf0af4",
+            "path": "preview/rwanda-v1/rwanda.blend",
+            "role": "selected-model",
+            "sha256": "820403fd6783c1e44becff0e2859f1022ad3f58fbaa17c5975c2ac3bb579f8fe"
+          },
+          {
+            "bytes": 811176,
+            "commit": "8f91f250692e49de5f2953e6c6cded2612bf0af4",
+            "path": "preview/rwanda-v1/rwanda.glb",
+            "role": "selected-model",
+            "sha256": "bbe5b2ad7b0d81aecc6833079db59b1473f197bbc3863f1d72a18bd2f2398d49",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 88,
+              "nodes": 90
+            }
+          }
+        ],
+        "viewer": {
+          "bytes": 1828614,
+          "commit": "8f91f250692e49de5f2953e6c6cded2612bf0af4",
+          "path": "preview/rwanda-v1/rwanda-v1.html",
+          "sha256": "e0a8953b5ff9e6aaeb19ac48ae1a934c411ff886eb2031a1e50fc8ce77d2e71e",
+          "under_5000000": true
+        }
+      },
+      "user_final_approved": false,
+      "verdict": "needs-user-review",
+      "viewer": {
+        "bytes": 1828614,
+        "commit": "8f91f250692e49de5f2953e6c6cded2612bf0af4",
+        "path": "preview/rwanda-v1/rwanda-v1.html",
+        "sha256": "e0a8953b5ff9e6aaeb19ac48ae1a934c411ff886eb2031a1e50fc8ce77d2e71e",
+        "under_5000000": true
+      },
+      "visual_verdict": "candidate-with-limitations"
+    },
+    "package_history": [
+      {
+        "bytes": 4375650,
+        "commit": "8f91f250692e49de5f2953e6c6cded2612bf0af4",
+        "crc_error": null,
+        "entries": 46,
+        "inventory_checked": true,
+        "inventory_entries": 45,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/rwanda-v1/rwanda-v1-source.zip",
+        "payload_differences": {
+          "rwanda-v1.html": {
+            "archived": {
+              "bytes": 1832459,
+              "sha256": "cec7117ab178c9462fb4e55677c0749535627a69ffb6b2b0d12cb5f02e810f05"
+            },
+            "committed": {
+              "bytes": 1828614,
+              "sha256": "e0a8953b5ff9e6aaeb19ac48ae1a934c411ff886eb2031a1e50fc8ce77d2e71e"
+            },
+            "newline_normalized_match": true
+          }
+        },
+        "required_payloads": {
+          "rwanda-v1.html": false,
+          "rwanda.blend": true,
+          "rwanda.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "addd7339f89c7bdec1a425cc72130821c30827039a79644d2878f1ad9e451b15"
+      }
+    ]
+  },
+  "visual_decision": {
+    "id": "rwanda",
+    "disposition": "preview-accepted-with-limitations",
+    "issue": "Painted-wood-like surface and angular relief instead of rich plaster texture.",
+    "rationale": "Contrasting diamond relief and three framed lid ornaments remain visible. Strong seam and ridging are also reference features. Accept stylized material treatment while preserving the independent exact-byte archive hold.",
+    "evidence": {
+      "commit": "0e22c22c36e6c24b209b25e130b6f65dba12eb72",
+      "path": "launch/qa-art-04/parent/boards/rwanda.jpg",
+      "sha256": "4814d9585de6c1020e999b070a09c693b822cbb6e136d7068067350df66837d3"
+    }
+  }
+}

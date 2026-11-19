@@ -1,0 +1,683 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 1,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 749827,
+        "role": "editable-source",
+        "sha256": "cc50de92103628e6fe02b5168f059bb50b03e83582f104feb2e1c43edd54a9de",
+        "source": {
+          "commit": "63bfeeb9b3f2d4dbbe94a66efb269ad957f7b9af",
+          "path": "preview/lesotho-v1/lesotho.blend"
+        },
+        "uri": "sha256:cc50de92103628e6fe02b5168f059bb50b03e83582f104feb2e1c43edd54a9de"
+      },
+      {
+        "bytes": 8164255,
+        "role": "historical-source-archive",
+        "sha256": "06e4acff887cb7b9a565fbd2c77647b2259dc4d03040031ad43b3b3e0fdf6726",
+        "source": {
+          "commit": "63bfeeb9b3f2d4dbbe94a66efb269ad957f7b9af",
+          "kind": "git",
+          "path": "preview/lesotho-v1/lesotho-v1-source.zip"
+        },
+        "uri": "sha256:06e4acff887cb7b9a565fbd2c77647b2259dc4d03040031ad43b3b3e0fdf6726"
+      },
+      {
+        "bytes": 1802704,
+        "role": "model",
+        "sha256": "44d1653bca510165cbfe100e92aba992ff76fd6dbaebc45ed2d5b6ff23eeddf3",
+        "source": {
+          "commit": "63bfeeb9b3f2d4dbbe94a66efb269ad957f7b9af",
+          "path": "preview/lesotho-v1/lesotho.glb"
+        },
+        "uri": "sha256:44d1653bca510165cbfe100e92aba992ff76fd6dbaebc45ed2d5b6ff23eeddf3"
+      },
+      {
+        "bytes": 33726,
+        "role": "promotional-illustration",
+        "sha256": "57062cb83d89a489e9cf2906a6ca4a02ea8c485a6939518fc9509a92c52ea6f3",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/lesotho.webp"
+        },
+        "uri": "sha256:57062cb83d89a489e9cf2906a6ca4a02ea8c485a6939518fc9509a92c52ea6f3"
+      },
+      {
+        "bytes": 5145,
+        "role": "research-brief",
+        "sha256": "7a0a8e125fc398c3a59f9fd07c5c2f2103640e422096ec16f1329bd353a588f4",
+        "source": {
+          "commit": "63bfeeb9b3f2d4dbbe94a66efb269ad957f7b9af",
+          "path": "preview/lesotho-v1/design-brief.md"
+        },
+        "uri": "sha256:7a0a8e125fc398c3a59f9fd07c5c2f2103640e422096ec16f1329bd353a588f4"
+      },
+      {
+        "bytes": 8325,
+        "role": "source-notice",
+        "sha256": "f13266fbc8030594812f916a5b5b2444de18aeaf4f9e619c972b7a2df8806337",
+        "source": {
+          "commit": "63bfeeb9b3f2d4dbbe94a66efb269ad957f7b9af",
+          "path": "preview/lesotho-v1/README.md"
+        },
+        "uri": "sha256:f13266fbc8030594812f916a5b5b2444de18aeaf4f9e619c972b7a2df8806337"
+      },
+      {
+        "bytes": 3136261,
+        "role": "viewer",
+        "sha256": "09465039530d44cafb395ebb908208a8748630bbcbc0483a1487616a6086a3b6",
+        "source": {
+          "commit": "63bfeeb9b3f2d4dbbe94a66efb269ad957f7b9af",
+          "path": "preview/lesotho-v1/lesotho-v1.html"
+        },
+        "uri": "sha256:09465039530d44cafb395ebb908208a8748630bbcbc0483a1487616a6086a3b6"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "lesotho",
+    "independent_review": {
+      "all_four_original_captures_inspected": true,
+      "captures": [
+        "launch/art-01/smoke/lesotho/desktop-closed.png",
+        "launch/art-01/smoke/lesotho/desktop-open.png",
+        "launch/art-01/smoke/lesotho/mobile-closed.png",
+        "launch/art-01/smoke/lesotho/mobile-open.png"
+      ],
+      "critical_defects": [],
+      "fresh_qa_runtime": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.5015499591827393,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.9279999874783151,
+                -0.23499999940395355,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1802704,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 10,
+            "meshes": 102,
+            "nonfinite": 0,
+            "triangles": 17958
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "lesotho",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "09465039530d44cafb395ebb908208a8748630bbcbc0483a1487616a6086a3b6"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.5015499591827393,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.9279999874783151,
+                -0.23499999940395355,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1802704,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 10,
+            "meshes": 102,
+            "nonfinite": 0,
+            "triangles": 17958
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "lesotho",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "09465039530d44cafb395ebb908208a8748630bbcbc0483a1487616a6086a3b6"
+        }
+      ],
+      "id": "lesotho",
+      "launch_ready": false,
+      "marketing_inspected": true,
+      "model_changed": false,
+      "model_sources": [
+        {
+          "bytes": 749827,
+          "commit": "63bfeeb9b3f2d4dbbe94a66efb269ad957f7b9af",
+          "path": "preview/lesotho-v1/lesotho.blend",
+          "role": "selected-model",
+          "sha256": "cc50de92103628e6fe02b5168f059bb50b03e83582f104feb2e1c43edd54a9de"
+        },
+        {
+          "bytes": 1802704,
+          "commit": "63bfeeb9b3f2d4dbbe94a66efb269ad957f7b9af",
+          "path": "preview/lesotho-v1/lesotho.glb",
+          "role": "selected-model",
+          "sha256": "44d1653bca510165cbfe100e92aba992ff76fd6dbaebc45ed2d5b6ff23eeddf3",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 99,
+            "nodes": 101
+          }
+        }
+      ],
+      "parent_runtime": {
+        "cases": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.5015499591827393,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.9279999874783151,
+                  -0.23499999940395355,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1802704,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 10,
+              "meshes": 102,
+              "nonfinite": 0,
+              "triangles": 17958
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "lesotho",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "09465039530d44cafb395ebb908208a8748630bbcbc0483a1487616a6086a3b6"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.5015499591827393,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.9279999874783151,
+                  -0.23499999940395355,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1802704,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 10,
+              "meshes": 102,
+              "nonfinite": 0,
+              "triangles": 17958
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "lesotho",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "09465039530d44cafb395ebb908208a8748630bbcbc0483a1487616a6086a3b6"
+          }
+        ],
+        "independently_rerun": false,
+        "motion": {
+          "exit_code": 0,
+          "id": "lesotho",
+          "passed": true,
+          "scope": "original motion unit assertions; not fresh collision/source parity"
+        }
+      },
+      "parent_status": "pass",
+      "remaining_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "hinge-attachment-clarity-not-proven-by-stills"
+      ],
+      "selection": {
+        "commit": "63bfeeb9b3f2d4dbbe94a66efb269ad957f7b9af",
+        "fetched_tip": "63bfeeb9b3f2d4dbbe94a66efb269ad957f7b9af",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/lesotho-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 8164255,
+          "commit": "63bfeeb9b3f2d4dbbe94a66efb269ad957f7b9af",
+          "crc_safe_unique": true,
+          "exact_selected_payloads": {
+            "lesotho-v1.html": [
+              "lesotho-v1.html"
+            ],
+            "lesotho.blend": [
+              "lesotho.blend"
+            ],
+            "lesotho.glb": [
+              "lesotho.glb"
+            ]
+          },
+          "full_inventory_rerun": false,
+          "inherited_full_inventory_checked": true,
+          "members": 62,
+          "path": "preview/lesotho-v1/lesotho-v1-source.zip",
+          "sha256": "06e4acff887cb7b9a565fbd2c77647b2259dc4d03040031ad43b3b3e0fdf6726"
+        }
+      ],
+      "user_final_approved": false,
+      "verdict": "bounded-candidate-pass",
+      "viewer": {
+        "bytes": 3136261,
+        "commit": "63bfeeb9b3f2d4dbbe94a66efb269ad957f7b9af",
+        "path": "preview/lesotho-v1/lesotho-v1.html",
+        "sha256": "09465039530d44cafb395ebb908208a8748630bbcbc0483a1487616a6086a3b6",
+        "under_5000000": true
+      },
+      "visual_review": {
+        "caveats": [
+          "Highest-priority concern is apparent rear hinge/lid separation, not a confirmed mesh defect",
+          "Graphic stripes are not tactile woven fabric",
+          "Retain full source/physical-contact verification hold"
+        ],
+        "critical_visible_faults": [],
+        "file": "visual-b.json",
+        "id": "lesotho",
+        "observations": {
+          "desktop-closed": "Blue-gray chest, gold fittings, striped lid inset and pale mountain cluster retained. Fully framed; closed lid dark gap and subdued front details are conspicuous.",
+          "desktop-open": "Stone-blue cavity and lid fully framed. Lid/hinge assembly appears floating across rear gap; narrow rim strips have broken-looking corner joins.",
+          "marketing": "Same mottled blue body, pale faceted peaks, striped inset, brass and feet. More tactile surface appearance; mountain size difference cannot be inferred reliably across framing.",
+          "mobile-closed": "Mountain cluster and striped inset remain readable. Fine front marks and dark feet lose contrast; no clipped object or controls.",
+          "mobile-open": "Entire open silhouette fits. Apparent lid separation and doubled/uneven rim edges persist at mobile scale."
+        },
+        "parent_status": "pass",
+        "parent_status_justified": "yes only as a limited visual candidate pass; apparent hinge separation in both open captures deserves an explicit unresolved note",
+        "recommended_status": "pass"
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Lesotho",
+    "package_history": [
+      {
+        "bytes": 8164255,
+        "commit": "63bfeeb9b3f2d4dbbe94a66efb269ad957f7b9af",
+        "crc_error": null,
+        "entries": 62,
+        "inventory_checked": true,
+        "inventory_entries": 61,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/lesotho-v1/lesotho-v1-source.zip",
+        "required_payloads": {
+          "lesotho-v1.html": true,
+          "lesotho.blend": true,
+          "lesotho.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "06e4acff887cb7b9a565fbd2c77647b2259dc4d03040031ad43b3b3e0fdf6726"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "63bfeeb9b3f2d4dbbe94a66efb269ad957f7b9af",
+      "fetched_tip": "63bfeeb9b3f2d4dbbe94a66efb269ad957f7b9af",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/lesotho-v1"
+    },
+    "verdict": "candidate-with-limitations",
+    "viewer": {
+      "bytes": 3136261,
+      "commit": "63bfeeb9b3f2d4dbbe94a66efb269ad957f7b9af",
+      "path": "preview/lesotho-v1/lesotho-v1.html",
+      "sha256": "09465039530d44cafb395ebb908208a8748630bbcbc0483a1487616a6086a3b6",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "lesotho",
+    "baseline_verdict": "candidate-with-limitations",
+    "actions": [
+      "owner art/finish acceptance; no proven runtime defect recorded; no autonomous redesign"
+    ],
+    "approval": false,
+    "original_review": {
+      "all_four_original_captures_inspected": true,
+      "captures": [
+        "launch/art-01/smoke/lesotho/desktop-closed.png",
+        "launch/art-01/smoke/lesotho/desktop-open.png",
+        "launch/art-01/smoke/lesotho/mobile-closed.png",
+        "launch/art-01/smoke/lesotho/mobile-open.png"
+      ],
+      "critical_defects": [],
+      "fresh_qa_runtime": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.5015499591827393,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.9279999874783151,
+                -0.23499999940395355,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1802704,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 10,
+            "meshes": 102,
+            "nonfinite": 0,
+            "triangles": 17958
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "lesotho",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "09465039530d44cafb395ebb908208a8748630bbcbc0483a1487616a6086a3b6"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.5015499591827393,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.9279999874783151,
+                -0.23499999940395355,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1802704,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 10,
+            "meshes": 102,
+            "nonfinite": 0,
+            "triangles": 17958
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "lesotho",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "09465039530d44cafb395ebb908208a8748630bbcbc0483a1487616a6086a3b6"
+        }
+      ],
+      "id": "lesotho",
+      "launch_ready": false,
+      "marketing_inspected": true,
+      "model_changed": false,
+      "model_sources": [
+        {
+          "bytes": 749827,
+          "commit": "63bfeeb9b3f2d4dbbe94a66efb269ad957f7b9af",
+          "path": "preview/lesotho-v1/lesotho.blend",
+          "role": "selected-model",
+          "sha256": "cc50de92103628e6fe02b5168f059bb50b03e83582f104feb2e1c43edd54a9de"
+        },
+        {
+          "bytes": 1802704,
+          "commit": "63bfeeb9b3f2d4dbbe94a66efb269ad957f7b9af",
+          "path": "preview/lesotho-v1/lesotho.glb",
+          "role": "selected-model",
+          "sha256": "44d1653bca510165cbfe100e92aba992ff76fd6dbaebc45ed2d5b6ff23eeddf3",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 99,
+            "nodes": 101
+          }
+        }
+      ],
+      "parent_runtime": {
+        "cases": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.5015499591827393,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.9279999874783151,
+                  -0.23499999940395355,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1802704,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 10,
+              "meshes": 102,
+              "nonfinite": 0,
+              "triangles": 17958
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "lesotho",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "09465039530d44cafb395ebb908208a8748630bbcbc0483a1487616a6086a3b6"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.5015499591827393,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.9279999874783151,
+                  -0.23499999940395355,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1802704,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 10,
+              "meshes": 102,
+              "nonfinite": 0,
+              "triangles": 17958
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "lesotho",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "09465039530d44cafb395ebb908208a8748630bbcbc0483a1487616a6086a3b6"
+          }
+        ],
+        "independently_rerun": false,
+        "motion": {
+          "exit_code": 0,
+          "id": "lesotho",
+          "passed": true,
+          "scope": "original motion unit assertions; not fresh collision/source parity"
+        }
+      },
+      "parent_status": "pass",
+      "remaining_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "hinge-attachment-clarity-not-proven-by-stills"
+      ],
+      "selection": {
+        "commit": "63bfeeb9b3f2d4dbbe94a66efb269ad957f7b9af",
+        "fetched_tip": "63bfeeb9b3f2d4dbbe94a66efb269ad957f7b9af",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/lesotho-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 8164255,
+          "commit": "63bfeeb9b3f2d4dbbe94a66efb269ad957f7b9af",
+          "crc_safe_unique": true,
+          "exact_selected_payloads": {
+            "lesotho-v1.html": [
+              "lesotho-v1.html"
+            ],
+            "lesotho.blend": [
+              "lesotho.blend"
+            ],
+            "lesotho.glb": [
+              "lesotho.glb"
+            ]
+          },
+          "full_inventory_rerun": false,
+          "inherited_full_inventory_checked": true,
+          "members": 62,
+          "path": "preview/lesotho-v1/lesotho-v1-source.zip",
+          "sha256": "06e4acff887cb7b9a565fbd2c77647b2259dc4d03040031ad43b3b3e0fdf6726"
+        }
+      ],
+      "user_final_approved": false,
+      "verdict": "bounded-candidate-pass",
+      "viewer": {
+        "bytes": 3136261,
+        "commit": "63bfeeb9b3f2d4dbbe94a66efb269ad957f7b9af",
+        "path": "preview/lesotho-v1/lesotho-v1.html",
+        "sha256": "09465039530d44cafb395ebb908208a8748630bbcbc0483a1487616a6086a3b6",
+        "under_5000000": true
+      },
+      "visual_review": {
+        "caveats": [
+          "Highest-priority concern is apparent rear hinge/lid separation, not a confirmed mesh defect",
+          "Graphic stripes are not tactile woven fabric",
+          "Retain full source/physical-contact verification hold"
+        ],
+        "critical_visible_faults": [],
+        "file": "visual-b.json",
+        "id": "lesotho",
+        "observations": {
+          "desktop-closed": "Blue-gray chest, gold fittings, striped lid inset and pale mountain cluster retained. Fully framed; closed lid dark gap and subdued front details are conspicuous.",
+          "desktop-open": "Stone-blue cavity and lid fully framed. Lid/hinge assembly appears floating across rear gap; narrow rim strips have broken-looking corner joins.",
+          "marketing": "Same mottled blue body, pale faceted peaks, striped inset, brass and feet. More tactile surface appearance; mountain size difference cannot be inferred reliably across framing.",
+          "mobile-closed": "Mountain cluster and striped inset remain readable. Fine front marks and dark feet lose contrast; no clipped object or controls.",
+          "mobile-open": "Entire open silhouette fits. Apparent lid separation and doubled/uneven rim edges persist at mobile scale."
+        },
+        "parent_status": "pass",
+        "parent_status_justified": "yes only as a limited visual candidate pass; apparent hinge separation in both open captures deserves an explicit unresolved note",
+        "recommended_status": "pass"
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 8164255,
+        "commit": "63bfeeb9b3f2d4dbbe94a66efb269ad957f7b9af",
+        "crc_error": null,
+        "entries": 62,
+        "inventory_checked": true,
+        "inventory_entries": 61,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/lesotho-v1/lesotho-v1-source.zip",
+        "required_payloads": {
+          "lesotho-v1.html": true,
+          "lesotho.blend": true,
+          "lesotho.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "06e4acff887cb7b9a565fbd2c77647b2259dc4d03040031ad43b3b3e0fdf6726"
+      }
+    ]
+  }
+}

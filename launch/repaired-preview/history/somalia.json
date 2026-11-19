@@ -1,0 +1,627 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 4,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 454304,
+        "role": "editable-source",
+        "sha256": "d23cb41bb4b878470d581b41b758b5f36cf246ad8f352218f4ad106542ccb7ea",
+        "source": {
+          "commit": "3e825343d4d8f3bce82f04978e98a2b4e1a01b7a",
+          "path": "preview/somalia-v1/somalia.blend"
+        },
+        "uri": "sha256:d23cb41bb4b878470d581b41b758b5f36cf246ad8f352218f4ad106542ccb7ea"
+      },
+      {
+        "bytes": 5442592,
+        "role": "historical-source-archive",
+        "sha256": "1a765c43964bed28ee13d793eb2bb736a987cc8befce473959db14175734046c",
+        "source": {
+          "commit": "3e825343d4d8f3bce82f04978e98a2b4e1a01b7a",
+          "kind": "git",
+          "path": "preview/somalia-v1/somalia-v1-source.zip"
+        },
+        "uri": "sha256:1a765c43964bed28ee13d793eb2bb736a987cc8befce473959db14175734046c"
+      },
+      {
+        "bytes": 1192284,
+        "role": "model",
+        "sha256": "3b3b3dfe1f6c9e9a11748ca2609c59fd17072708a1c4705686b0f45c846541fc",
+        "source": {
+          "commit": "3e825343d4d8f3bce82f04978e98a2b4e1a01b7a",
+          "path": "preview/somalia-v1/somalia.glb"
+        },
+        "uri": "sha256:3b3b3dfe1f6c9e9a11748ca2609c59fd17072708a1c4705686b0f45c846541fc"
+      },
+      {
+        "bytes": 117894,
+        "role": "promotional-illustration",
+        "sha256": "54428c9f56099e7ef1c699c0913a03150974a81e2e8fcbba0412dcdda8b188fd",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/somalia.webp"
+        },
+        "uri": "sha256:54428c9f56099e7ef1c699c0913a03150974a81e2e8fcbba0412dcdda8b188fd"
+      },
+      {
+        "bytes": 3500,
+        "role": "research-brief",
+        "sha256": "f87436dfed47c1df525f67d771c0490255fd89ac0448c73dbf80ad6fbfcf9a53",
+        "source": {
+          "commit": "3e825343d4d8f3bce82f04978e98a2b4e1a01b7a",
+          "path": "preview/somalia-v1/design-brief.md"
+        },
+        "uri": "sha256:f87436dfed47c1df525f67d771c0490255fd89ac0448c73dbf80ad6fbfcf9a53"
+      },
+      {
+        "bytes": 5093,
+        "role": "source-notice",
+        "sha256": "5dd006cd36e80bc2f6314362cd3bb41fff4e32d2f593d92f1c87fe673578c6f5",
+        "source": {
+          "commit": "3e825343d4d8f3bce82f04978e98a2b4e1a01b7a",
+          "path": "preview/somalia-v1/README.md"
+        },
+        "uri": "sha256:5dd006cd36e80bc2f6314362cd3bb41fff4e32d2f593d92f1c87fe673578c6f5"
+      },
+      {
+        "bytes": 2398644,
+        "role": "viewer",
+        "sha256": "da14db9409a0241d99734bcd3eb740ea90b5ca4fa513086a4648526fef595983",
+        "source": {
+          "commit": "3e825343d4d8f3bce82f04978e98a2b4e1a01b7a",
+          "path": "preview/somalia-v1/somalia-v1.html"
+        },
+        "uri": "sha256:da14db9409a0241d99734bcd3eb740ea90b5ca4fa513086a4648526fef595983"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "somalia",
+    "independent_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "captures": [
+        "parent/smoke/somalia/desktop-closed.png",
+        "parent/smoke/somalia/desktop-open.png",
+        "parent/smoke/somalia/mobile-closed.png",
+        "parent/smoke/somalia/mobile-open.png"
+      ],
+      "fresh_browser": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.3309848308563232,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1192284,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 6,
+            "meshes": 60,
+            "nonfinite": 0,
+            "triangles": 17804
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "somalia",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "da14db9409a0241d99734bcd3eb740ea90b5ca4fa513086a4648526fef595983"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.3309848308563232,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1192284,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 6,
+            "meshes": 60,
+            "nonfinite": 0,
+            "triangles": 17804
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "somalia",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "da14db9409a0241d99734bcd3eb740ea90b5ca4fa513086a4648526fef595983"
+        }
+      ],
+      "fresh_motion": {
+        "exit_code": 0,
+        "id": "somalia",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "3e825343d4d8f3bce82f04978e98a2b4e1a01b7a",
+            "path": "preview/somalia-v1/motion.mjs",
+            "sha256": "9d118549fcdc1ff1d1fd8ebb6c6eb8a7a0da7fef8f0ae65ca947335407e74f03"
+          }
+        ]
+      },
+      "fresh_runtime_captures": [
+        "smoke/somalia/desktop-closed.png",
+        "smoke/somalia/desktop-open.png",
+        "smoke/somalia/mobile-closed.png",
+        "smoke/somalia/mobile-open.png"
+      ],
+      "id": "somalia",
+      "independent_visual_findings": "Ocean and dune relief retained; cloudier cream finish and simplified ridges; seam is not proof of misclosure.",
+      "inspection": "deleg_5910ddb9 tasks 0-4 inspected four original PNGs and promotional WebP per ID; lead Malta comparison reinspection",
+      "launch_ready": false,
+      "packaging_verdict": "pass",
+      "parent_findings": {
+        "hardware": "Brass fittings and pale feet preserve arrangement.",
+        "terrain": "Rust dunes and turquoise inset retained; softer shallow ridges with conspicuous straight ends.",
+        "texture": "Enlarged cloudy cream mottling rather than fine pebbled surface; prominent turquoise seam."
+      },
+      "parent_remaining_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-04 review"
+      ],
+      "parent_status": "pass",
+      "polish_iterations": 0,
+      "proven_runtime_defects": [],
+      "remaining_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "selection": {
+        "commit": "3e825343d4d8f3bce82f04978e98a2b4e1a01b7a",
+        "fetched_tip": "3e825343d4d8f3bce82f04978e98a2b4e1a01b7a",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/somalia-v1"
+      },
+      "source_archive_audit": {
+        "archives": [
+          {
+            "internal_inventory_checked": 51,
+            "provenance": {
+              "bytes": 5442592,
+              "commit": "3e825343d4d8f3bce82f04978e98a2b4e1a01b7a",
+              "crc_error": null,
+              "entries": 52,
+              "inventory_checked": true,
+              "inventory_entries": 51,
+              "inventory_mismatches": [],
+              "kind": "git",
+              "path": "preview/somalia-v1/somalia-v1-source.zip",
+              "required_payloads": {
+                "somalia-v1.html": true,
+                "somalia.blend": true,
+                "somalia.glb": true
+              },
+              "safe_unique_paths": true,
+              "sha256": "1a765c43964bed28ee13d793eb2bb736a987cc8befce473959db14175734046c"
+            },
+            "safe_unique_crc": true,
+            "selected_payload_checks": [
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "somalia-v1.html",
+                "sha256": "da14db9409a0241d99734bcd3eb740ea90b5ca4fa513086a4648526fef595983"
+              },
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "somalia.blend",
+                "sha256": "d23cb41bb4b878470d581b41b758b5f36cf246ad8f352218f4ad106542ccb7ea"
+              },
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "somalia.glb",
+                "sha256": "3b3b3dfe1f6c9e9a11748ca2609c59fd17072708a1c4705686b0f45c846541fc"
+              }
+            ]
+          }
+        ],
+        "id": "somalia",
+        "sources": [
+          {
+            "bytes": 454304,
+            "commit": "3e825343d4d8f3bce82f04978e98a2b4e1a01b7a",
+            "path": "preview/somalia-v1/somalia.blend",
+            "role": "selected-model",
+            "sha256": "d23cb41bb4b878470d581b41b758b5f36cf246ad8f352218f4ad106542ccb7ea"
+          },
+          {
+            "bytes": 1192284,
+            "commit": "3e825343d4d8f3bce82f04978e98a2b4e1a01b7a",
+            "path": "preview/somalia-v1/somalia.glb",
+            "role": "selected-model",
+            "sha256": "3b3b3dfe1f6c9e9a11748ca2609c59fd17072708a1c4705686b0f45c846541fc",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 60,
+              "nodes": 62
+            }
+          }
+        ],
+        "viewer": {
+          "bytes": 2398644,
+          "commit": "3e825343d4d8f3bce82f04978e98a2b4e1a01b7a",
+          "path": "preview/somalia-v1/somalia-v1.html",
+          "sha256": "da14db9409a0241d99734bcd3eb740ea90b5ca4fa513086a4648526fef595983",
+          "under_5000000": true
+        }
+      },
+      "user_final_approved": false,
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 2398644,
+        "commit": "3e825343d4d8f3bce82f04978e98a2b4e1a01b7a",
+        "path": "preview/somalia-v1/somalia-v1.html",
+        "sha256": "da14db9409a0241d99734bcd3eb740ea90b5ca4fa513086a4648526fef595983",
+        "under_5000000": true
+      },
+      "visual_verdict": "candidate-with-limitations"
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Somalia",
+    "package_history": [
+      {
+        "bytes": 5442592,
+        "commit": "3e825343d4d8f3bce82f04978e98a2b4e1a01b7a",
+        "crc_error": null,
+        "entries": 52,
+        "inventory_checked": true,
+        "inventory_entries": 51,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/somalia-v1/somalia-v1-source.zip",
+        "required_payloads": {
+          "somalia-v1.html": true,
+          "somalia.blend": true,
+          "somalia.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "1a765c43964bed28ee13d793eb2bb736a987cc8befce473959db14175734046c"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "3e825343d4d8f3bce82f04978e98a2b4e1a01b7a",
+      "fetched_tip": "3e825343d4d8f3bce82f04978e98a2b4e1a01b7a",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/somalia-v1"
+    },
+    "verdict": "candidate-with-limitations",
+    "viewer": {
+      "bytes": 2398644,
+      "commit": "3e825343d4d8f3bce82f04978e98a2b4e1a01b7a",
+      "path": "preview/somalia-v1/somalia-v1.html",
+      "sha256": "da14db9409a0241d99734bcd3eb740ea90b5ca4fa513086a4648526fef595983",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "somalia",
+    "baseline_verdict": "candidate-with-limitations",
+    "actions": [
+      "owner art/finish acceptance; no proven runtime defect recorded; no autonomous redesign"
+    ],
+    "approval": false,
+    "original_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "captures": [
+        "parent/smoke/somalia/desktop-closed.png",
+        "parent/smoke/somalia/desktop-open.png",
+        "parent/smoke/somalia/mobile-closed.png",
+        "parent/smoke/somalia/mobile-open.png"
+      ],
+      "fresh_browser": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.3309848308563232,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1192284,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 6,
+            "meshes": 60,
+            "nonfinite": 0,
+            "triangles": 17804
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "somalia",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "da14db9409a0241d99734bcd3eb740ea90b5ca4fa513086a4648526fef595983"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.3309848308563232,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1192284,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 6,
+            "meshes": 60,
+            "nonfinite": 0,
+            "triangles": 17804
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "somalia",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "da14db9409a0241d99734bcd3eb740ea90b5ca4fa513086a4648526fef595983"
+        }
+      ],
+      "fresh_motion": {
+        "exit_code": 0,
+        "id": "somalia",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "3e825343d4d8f3bce82f04978e98a2b4e1a01b7a",
+            "path": "preview/somalia-v1/motion.mjs",
+            "sha256": "9d118549fcdc1ff1d1fd8ebb6c6eb8a7a0da7fef8f0ae65ca947335407e74f03"
+          }
+        ]
+      },
+      "fresh_runtime_captures": [
+        "smoke/somalia/desktop-closed.png",
+        "smoke/somalia/desktop-open.png",
+        "smoke/somalia/mobile-closed.png",
+        "smoke/somalia/mobile-open.png"
+      ],
+      "id": "somalia",
+      "independent_visual_findings": "Ocean and dune relief retained; cloudier cream finish and simplified ridges; seam is not proof of misclosure.",
+      "inspection": "deleg_5910ddb9 tasks 0-4 inspected four original PNGs and promotional WebP per ID; lead Malta comparison reinspection",
+      "launch_ready": false,
+      "packaging_verdict": "pass",
+      "parent_findings": {
+        "hardware": "Brass fittings and pale feet preserve arrangement.",
+        "terrain": "Rust dunes and turquoise inset retained; softer shallow ridges with conspicuous straight ends.",
+        "texture": "Enlarged cloudy cream mottling rather than fine pebbled surface; prominent turquoise seam."
+      },
+      "parent_remaining_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-04 review"
+      ],
+      "parent_status": "pass",
+      "polish_iterations": 0,
+      "proven_runtime_defects": [],
+      "remaining_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "selection": {
+        "commit": "3e825343d4d8f3bce82f04978e98a2b4e1a01b7a",
+        "fetched_tip": "3e825343d4d8f3bce82f04978e98a2b4e1a01b7a",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/somalia-v1"
+      },
+      "source_archive_audit": {
+        "archives": [
+          {
+            "internal_inventory_checked": 51,
+            "provenance": {
+              "bytes": 5442592,
+              "commit": "3e825343d4d8f3bce82f04978e98a2b4e1a01b7a",
+              "crc_error": null,
+              "entries": 52,
+              "inventory_checked": true,
+              "inventory_entries": 51,
+              "inventory_mismatches": [],
+              "kind": "git",
+              "path": "preview/somalia-v1/somalia-v1-source.zip",
+              "required_payloads": {
+                "somalia-v1.html": true,
+                "somalia.blend": true,
+                "somalia.glb": true
+              },
+              "safe_unique_paths": true,
+              "sha256": "1a765c43964bed28ee13d793eb2bb736a987cc8befce473959db14175734046c"
+            },
+            "safe_unique_crc": true,
+            "selected_payload_checks": [
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "somalia-v1.html",
+                "sha256": "da14db9409a0241d99734bcd3eb740ea90b5ca4fa513086a4648526fef595983"
+              },
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "somalia.blend",
+                "sha256": "d23cb41bb4b878470d581b41b758b5f36cf246ad8f352218f4ad106542ccb7ea"
+              },
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "somalia.glb",
+                "sha256": "3b3b3dfe1f6c9e9a11748ca2609c59fd17072708a1c4705686b0f45c846541fc"
+              }
+            ]
+          }
+        ],
+        "id": "somalia",
+        "sources": [
+          {
+            "bytes": 454304,
+            "commit": "3e825343d4d8f3bce82f04978e98a2b4e1a01b7a",
+            "path": "preview/somalia-v1/somalia.blend",
+            "role": "selected-model",
+            "sha256": "d23cb41bb4b878470d581b41b758b5f36cf246ad8f352218f4ad106542ccb7ea"
+          },
+          {
+            "bytes": 1192284,
+            "commit": "3e825343d4d8f3bce82f04978e98a2b4e1a01b7a",
+            "path": "preview/somalia-v1/somalia.glb",
+            "role": "selected-model",
+            "sha256": "3b3b3dfe1f6c9e9a11748ca2609c59fd17072708a1c4705686b0f45c846541fc",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 60,
+              "nodes": 62
+            }
+          }
+        ],
+        "viewer": {
+          "bytes": 2398644,
+          "commit": "3e825343d4d8f3bce82f04978e98a2b4e1a01b7a",
+          "path": "preview/somalia-v1/somalia-v1.html",
+          "sha256": "da14db9409a0241d99734bcd3eb740ea90b5ca4fa513086a4648526fef595983",
+          "under_5000000": true
+        }
+      },
+      "user_final_approved": false,
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 2398644,
+        "commit": "3e825343d4d8f3bce82f04978e98a2b4e1a01b7a",
+        "path": "preview/somalia-v1/somalia-v1.html",
+        "sha256": "da14db9409a0241d99734bcd3eb740ea90b5ca4fa513086a4648526fef595983",
+        "under_5000000": true
+      },
+      "visual_verdict": "candidate-with-limitations"
+    },
+    "package_history": [
+      {
+        "bytes": 5442592,
+        "commit": "3e825343d4d8f3bce82f04978e98a2b4e1a01b7a",
+        "crc_error": null,
+        "entries": 52,
+        "inventory_checked": true,
+        "inventory_entries": 51,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/somalia-v1/somalia-v1-source.zip",
+        "required_payloads": {
+          "somalia-v1.html": true,
+          "somalia.blend": true,
+          "somalia.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "1a765c43964bed28ee13d793eb2bb736a987cc8befce473959db14175734046c"
+      }
+    ]
+  }
+}

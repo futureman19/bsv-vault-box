@@ -1,0 +1,940 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 8,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 974458,
+        "role": "editable-source",
+        "sha256": "0a2323f930fb414357631cfce0a9972f43feea234f445403f5ddf8f1cede1d95",
+        "source": {
+          "commit": "1e5b4f7b00541e4e20abff5feafc3b39a1ac50b6",
+          "path": "preview/zambia-v1/zambia.blend"
+        },
+        "uri": "sha256:0a2323f930fb414357631cfce0a9972f43feea234f445403f5ddf8f1cede1d95"
+      },
+      {
+        "bytes": 7673648,
+        "role": "historical-source-archive",
+        "sha256": "7d962759dca745fd4e030d15071fdc59890394b22b742a0153d54a2999beca32",
+        "source": {
+          "commit": "1e5b4f7b00541e4e20abff5feafc3b39a1ac50b6",
+          "kind": "git",
+          "path": "preview/zambia-v1/zambia-v1-source.zip"
+        },
+        "uri": "sha256:7d962759dca745fd4e030d15071fdc59890394b22b742a0153d54a2999beca32"
+      },
+      {
+        "bytes": 1898704,
+        "role": "model",
+        "sha256": "c24524dae985a40323cf17bd7feec6484dcd5dc35c1202880c89f125c67bb4e3",
+        "source": {
+          "commit": "1e5b4f7b00541e4e20abff5feafc3b39a1ac50b6",
+          "path": "preview/zambia-v1/zambia.glb"
+        },
+        "uri": "sha256:c24524dae985a40323cf17bd7feec6484dcd5dc35c1202880c89f125c67bb4e3"
+      },
+      {
+        "bytes": 99034,
+        "role": "promotional-illustration",
+        "sha256": "ec5d5f5f4421254f5f39ab422ad0a53891b2b6dfab293958f7921184c49435dd",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/zambia.webp"
+        },
+        "uri": "sha256:ec5d5f5f4421254f5f39ab422ad0a53891b2b6dfab293958f7921184c49435dd"
+      },
+      {
+        "bytes": 3110,
+        "role": "research-brief",
+        "sha256": "67ffc4606a9f62227b1d038fefa19647254f2e756286a8072f2e615a9b613a3a",
+        "source": {
+          "commit": "1e5b4f7b00541e4e20abff5feafc3b39a1ac50b6",
+          "path": "preview/zambia-v1/design-brief.md"
+        },
+        "uri": "sha256:67ffc4606a9f62227b1d038fefa19647254f2e756286a8072f2e615a9b613a3a"
+      },
+      {
+        "bytes": 6927,
+        "role": "source-notice",
+        "sha256": "2ef7bbde02932ffeea339ef5e8c9646e73a8b89e0e119bb31f0448973b937110",
+        "source": {
+          "commit": "1e5b4f7b00541e4e20abff5feafc3b39a1ac50b6",
+          "path": "preview/zambia-v1/README.md"
+        },
+        "uri": "sha256:2ef7bbde02932ffeea339ef5e8c9646e73a8b89e0e119bb31f0448973b937110"
+      },
+      {
+        "bytes": 3254642,
+        "role": "viewer",
+        "sha256": "cb9e68557e7def955995026dc3dffba5202a744425df762ea9c86e9443faff54",
+        "source": {
+          "commit": "1e5b4f7b00541e4e20abff5feafc3b39a1ac50b6",
+          "path": "preview/zambia-v1/zambia-v1.html"
+        },
+        "uri": "sha256:cb9e68557e7def955995026dc3dffba5202a744425df762ea9c86e9443faff54"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "zambia",
+    "independent_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "capture_base": "parent/",
+      "captures": [
+        "smoke/zambia/desktop-closed.png",
+        "smoke/zambia/desktop-open.png",
+        "smoke/zambia/mobile-closed.png",
+        "smoke/zambia/mobile-open.png"
+      ],
+      "critical_reproducible_failures": [],
+      "final_approval": false,
+      "fresh_checks": {
+        "blender_parity_collision": false,
+        "fallback": false,
+        "full_inner_archive_inventories": true,
+        "motion": false,
+        "original_captures_and_marketing_inspected": true,
+        "runtime": false,
+        "source_and_delivered_viewer_hashes": true,
+        "source_archive_crc_safe_paths_required_payloads": true
+      },
+      "historical_runtime": {
+        "browser": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.557010769844055,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1898704,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 6,
+              "meshes": 96,
+              "nonfinite": 0,
+              "triangles": 17264
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "zambia",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "cb9e68557e7def955995026dc3dffba5202a744425df762ea9c86e9443faff54"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.557010769844055,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1898704,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 6,
+              "meshes": 96,
+              "nonfinite": 0,
+              "triangles": 17264
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "zambia",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "cb9e68557e7def955995026dc3dffba5202a744425df762ea9c86e9443faff54"
+          }
+        ],
+        "extended": {
+          "geometry": {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.557010769844055,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1898704,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 6,
+              "meshes": 96,
+              "nonfinite": 0,
+              "triangles": 17264
+            },
+            "meshes": 96,
+            "nonfinite": 0,
+            "triangles": 17264
+          },
+          "id": "zambia",
+          "no_js_poster": true
+        },
+        "motion": {
+          "exit_code": 0,
+          "id": "zambia",
+          "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+          "source": [
+            {
+              "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+              "path": "preview/albania-v1/tests.mjs",
+              "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+            },
+            {
+              "commit": "1e5b4f7b00541e4e20abff5feafc3b39a1ac50b6",
+              "path": "preview/zambia-v1/motion.mjs",
+              "sha256": "d61544de9b41521a7b14e81a5e9867ce0fcc387f8852ce57490031b84bf2150e"
+            }
+          ]
+        },
+        "parent_commit": "431e51ffb5a8704b5f8f8b11694d28befae18402"
+      },
+      "id": "zambia",
+      "independent_visual": {
+        "assessment": {
+          "concrete_defects": [
+            "Mobile waterfall, rocky silhouettes and brass details are visibly jagged/blocky; repeated wavy body texture is conspicuous rather than naturally fractured stone.",
+            "Open rim corners show protruding/overlapping-looking strips, especially at the right corner, and the raised lid tab lacks clear attachment definition at mobile resolution.",
+            "Dark feet merge into base and shadow, obscuring individual silhouettes. Marketing also contains uneven waterfall edging and small stream-platform notches, so rough terrain finishing is not exclusively a viewer regression."
+          ],
+          "id": "zambia",
+          "inspected_paths": [
+            "parent/smoke/zambia/desktop-closed.png",
+            "parent/smoke/zambia/desktop-open.png",
+            "parent/smoke/zambia/mobile-closed.png",
+            "parent/smoke/zambia/mobile-open.png",
+            "parent/sources/zambia/marketing.webp"
+          ],
+          "limitations": [
+            "All five originals inspected individually via vision; paths relative to launch/qa-art-08.",
+            "Static frames cannot certify hidden waterfall/terrain attachment, hinges, cavity floor, foot-to-body/ground contacts or motion clearances.",
+            "Dark feet and rear/interior occlusion limit inspection; apparent overlapping rim strips are not proof of intersecting meshes. No art approval."
+          ],
+          "observations": [
+            "Stepped gorge, aqua/white waterfall, sparse green accents, slate body, olive seam and gold hardware retain the source vocabulary. Entire chest and raised lid fit both viewport sizes; no major broken surface observed."
+          ],
+          "verdict": "candidate-with-limitations"
+        },
+        "report": "visual-e.json"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-08 review"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 99034,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/zambia.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "Principal silhouette, palette, hardware and lid count/placement retained; texture refinement allowed. Minor organic contour variation.",
+          "reviewStatus": "accepted",
+          "sha256": "27c86746f6822eb55e454eba31cdd4cb16addde567563acf81562148015c3069",
+          "source": "assets/gallery/zambia.webp",
+          "sourceSha256": "7b4848886f317c11e7179635f480a7c0e36e4ebecf3c60efc2cca5992879c68d",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "ec5d5f5f4421254f5f39ab422ad0a53891b2b6dfab293958f7921184c49435dd"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_verdict": "pass",
+      "parent_visual": {
+        "decision": "Retain bounded stylized relief candidate, preserving repetitive basalt texture, regular stepped terrain and rigid curtain-water caveats. Not photoreal marketing or final user approval.",
+        "hardware": "Brass clasp, round fitting, ring and caps contrast clearly against dark shell; simplified blocky finish and mobile shadowed feet limit detail. Released open latch is expected, with no visible evidence requiring a detached-part diagnosis.",
+        "limitations": "Reviewed original desktop/mobile closed/open captures and marketing.webp, plus supplied source notes/brief where available. Static images do not certify motion, hidden attachments, exact pigment, physical-phone performance or manufacture. Technical checks were supplied, not rerun. No final user visual approval. Shared Zambia/Zimbabwe landscape, not exclusively Zambian or a scale geological reconstruction. Dark lower edges blend into background on mobile and supporting UI text is small.",
+        "quality": "Recognizable basalt/gorge chest with turquoise channel and white waterfall in both closed views; all open silhouettes fit. Marketing has stronger grain/contact shading, but shares the same clearly sculptural treatment.",
+        "terrain": "Raised stepped banks flank upper water and rigid ribbed white drop into lower channel. Sparse pebble-like greenery and broad planar rocks are schematic. No obvious unsupported water edge in these views; lower channel is between raised banks, not cut through lid. Open front view hides lid-top terrain normally.",
+        "texture": "Repetitive wavy gray-green striations across body and interior read as carved/painted or woodgrain-like rather than natural basalt. Water is opaque rigid relief without mist, translucency or hydrodynamics; marketing also has these stylized limits."
+      },
+      "parent_visual_hold_preserved": false,
+      "reviewed_image_hashes": [
+        {
+          "bytes": 364498,
+          "path": "smoke/zambia/desktop-closed.png",
+          "sha256": "3e7cbca9a83221da5d0ea99da389ff8cbbe51d5d2232fbfe3ab7eadf81f6b16a"
+        },
+        {
+          "bytes": 370737,
+          "path": "smoke/zambia/desktop-open.png",
+          "sha256": "e799c09121d230698b6d54762adf8d8a28415d2b0b5bfe3af6b557a11b819248"
+        },
+        {
+          "bytes": 115173,
+          "path": "smoke/zambia/mobile-closed.png",
+          "sha256": "b2d79a5a8f2765533fa72c097bd37f45272f95cc573d587e115358355683cd12"
+        },
+        {
+          "bytes": 115405,
+          "path": "smoke/zambia/mobile-open.png",
+          "sha256": "b5cdcc11d52c580b9c2af8c3c53f5abc747b0bbb17d73fb3495cb3e7a5148cc0"
+        },
+        {
+          "bytes": 99034,
+          "path": "sources/zambia/marketing.webp",
+          "sha256": "ec5d5f5f4421254f5f39ab422ad0a53891b2b6dfab293958f7921184c49435dd"
+        }
+      ],
+      "selection": {
+        "commit": "1e5b4f7b00541e4e20abff5feafc3b39a1ac50b6",
+        "fetched_tip": "1e5b4f7b00541e4e20abff5feafc3b39a1ac50b6",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/zambia-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 7673648,
+          "commit": "1e5b4f7b00541e4e20abff5feafc3b39a1ac50b6",
+          "crc_error": null,
+          "entries": 55,
+          "fresh_crc_safe_unique": true,
+          "fresh_inner_inventory_entries": 54,
+          "fresh_required_payloads": [
+            {
+              "member": "zambia-v1.html",
+              "path": "preview/zambia-v1/zambia-v1.html",
+              "sha256": "cb9e68557e7def955995026dc3dffba5202a744425df762ea9c86e9443faff54"
+            },
+            {
+              "member": "zambia.blend",
+              "path": "preview/zambia-v1/zambia.blend",
+              "sha256": "0a2323f930fb414357631cfce0a9972f43feea234f445403f5ddf8f1cede1d95"
+            },
+            {
+              "member": "zambia.glb",
+              "path": "preview/zambia-v1/zambia.glb",
+              "sha256": "c24524dae985a40323cf17bd7feec6484dcd5dc35c1202880c89f125c67bb4e3"
+            }
+          ],
+          "inventory_checked": true,
+          "inventory_entries": 54,
+          "inventory_mismatches": [],
+          "kind": "git",
+          "path": "preview/zambia-v1/zambia-v1-source.zip",
+          "required_payloads": {
+            "zambia-v1.html": true,
+            "zambia.blend": true,
+            "zambia.glb": true
+          },
+          "safe_unique_paths": true,
+          "sha256": "7d962759dca745fd4e030d15071fdc59890394b22b742a0153d54a2999beca32"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 974458,
+          "commit": "1e5b4f7b00541e4e20abff5feafc3b39a1ac50b6",
+          "path": "preview/zambia-v1/zambia.blend",
+          "role": "selected-model",
+          "sha256": "0a2323f930fb414357631cfce0a9972f43feea234f445403f5ddf8f1cede1d95"
+        },
+        {
+          "bytes": 1898704,
+          "commit": "1e5b4f7b00541e4e20abff5feafc3b39a1ac50b6",
+          "path": "preview/zambia-v1/zambia.glb",
+          "role": "selected-model",
+          "sha256": "c24524dae985a40323cf17bd7feec6484dcd5dc35c1202880c89f125c67bb4e3",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 95,
+            "nodes": 97
+          }
+        }
+      ],
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 3254642,
+        "commit": "1e5b4f7b00541e4e20abff5feafc3b39a1ac50b6",
+        "path": "preview/zambia-v1/zambia-v1.html",
+        "sha256": "cb9e68557e7def955995026dc3dffba5202a744425df762ea9c86e9443faff54",
+        "under_5000000": true
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Zambia",
+    "package_history": [
+      {
+        "bytes": 7673648,
+        "commit": "1e5b4f7b00541e4e20abff5feafc3b39a1ac50b6",
+        "crc_error": null,
+        "entries": 55,
+        "inventory_checked": true,
+        "inventory_entries": 54,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/zambia-v1/zambia-v1-source.zip",
+        "required_payloads": {
+          "zambia-v1.html": true,
+          "zambia.blend": true,
+          "zambia.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "7d962759dca745fd4e030d15071fdc59890394b22b742a0153d54a2999beca32"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "1e5b4f7b00541e4e20abff5feafc3b39a1ac50b6",
+      "fetched_tip": "1e5b4f7b00541e4e20abff5feafc3b39a1ac50b6",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/zambia-v1"
+    },
+    "verdict": "candidate-with-limitations",
+    "viewer": {
+      "bytes": 3254642,
+      "commit": "1e5b4f7b00541e4e20abff5feafc3b39a1ac50b6",
+      "path": "preview/zambia-v1/zambia-v1.html",
+      "sha256": "cb9e68557e7def955995026dc3dffba5202a744425df762ea9c86e9443faff54",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "zambia",
+    "baseline_verdict": "candidate-with-limitations",
+    "actions": [
+      "remaining ordinary finish inspection; do not edit promotional-only differences or infer broken model"
+    ],
+    "approval": false,
+    "original_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "capture_base": "parent/",
+      "captures": [
+        "smoke/zambia/desktop-closed.png",
+        "smoke/zambia/desktop-open.png",
+        "smoke/zambia/mobile-closed.png",
+        "smoke/zambia/mobile-open.png"
+      ],
+      "critical_reproducible_failures": [],
+      "final_approval": false,
+      "fresh_checks": {
+        "blender_parity_collision": false,
+        "fallback": false,
+        "full_inner_archive_inventories": true,
+        "motion": false,
+        "original_captures_and_marketing_inspected": true,
+        "runtime": false,
+        "source_and_delivered_viewer_hashes": true,
+        "source_archive_crc_safe_paths_required_payloads": true
+      },
+      "historical_runtime": {
+        "browser": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.557010769844055,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1898704,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 6,
+              "meshes": 96,
+              "nonfinite": 0,
+              "triangles": 17264
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "zambia",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "cb9e68557e7def955995026dc3dffba5202a744425df762ea9c86e9443faff54"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.557010769844055,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1898704,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 6,
+              "meshes": 96,
+              "nonfinite": 0,
+              "triangles": 17264
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "zambia",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "cb9e68557e7def955995026dc3dffba5202a744425df762ea9c86e9443faff54"
+          }
+        ],
+        "extended": {
+          "geometry": {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.557010769844055,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1898704,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 6,
+              "meshes": 96,
+              "nonfinite": 0,
+              "triangles": 17264
+            },
+            "meshes": 96,
+            "nonfinite": 0,
+            "triangles": 17264
+          },
+          "id": "zambia",
+          "no_js_poster": true
+        },
+        "motion": {
+          "exit_code": 0,
+          "id": "zambia",
+          "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+          "source": [
+            {
+              "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+              "path": "preview/albania-v1/tests.mjs",
+              "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+            },
+            {
+              "commit": "1e5b4f7b00541e4e20abff5feafc3b39a1ac50b6",
+              "path": "preview/zambia-v1/motion.mjs",
+              "sha256": "d61544de9b41521a7b14e81a5e9867ce0fcc387f8852ce57490031b84bf2150e"
+            }
+          ]
+        },
+        "parent_commit": "431e51ffb5a8704b5f8f8b11694d28befae18402"
+      },
+      "id": "zambia",
+      "independent_visual": {
+        "assessment": {
+          "concrete_defects": [
+            "Mobile waterfall, rocky silhouettes and brass details are visibly jagged/blocky; repeated wavy body texture is conspicuous rather than naturally fractured stone.",
+            "Open rim corners show protruding/overlapping-looking strips, especially at the right corner, and the raised lid tab lacks clear attachment definition at mobile resolution.",
+            "Dark feet merge into base and shadow, obscuring individual silhouettes. Marketing also contains uneven waterfall edging and small stream-platform notches, so rough terrain finishing is not exclusively a viewer regression."
+          ],
+          "id": "zambia",
+          "inspected_paths": [
+            "parent/smoke/zambia/desktop-closed.png",
+            "parent/smoke/zambia/desktop-open.png",
+            "parent/smoke/zambia/mobile-closed.png",
+            "parent/smoke/zambia/mobile-open.png",
+            "parent/sources/zambia/marketing.webp"
+          ],
+          "limitations": [
+            "All five originals inspected individually via vision; paths relative to launch/qa-art-08.",
+            "Static frames cannot certify hidden waterfall/terrain attachment, hinges, cavity floor, foot-to-body/ground contacts or motion clearances.",
+            "Dark feet and rear/interior occlusion limit inspection; apparent overlapping rim strips are not proof of intersecting meshes. No art approval."
+          ],
+          "observations": [
+            "Stepped gorge, aqua/white waterfall, sparse green accents, slate body, olive seam and gold hardware retain the source vocabulary. Entire chest and raised lid fit both viewport sizes; no major broken surface observed."
+          ],
+          "verdict": "candidate-with-limitations"
+        },
+        "report": "visual-e.json"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-08 review"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 99034,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/zambia.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "Principal silhouette, palette, hardware and lid count/placement retained; texture refinement allowed. Minor organic contour variation.",
+          "reviewStatus": "accepted",
+          "sha256": "27c86746f6822eb55e454eba31cdd4cb16addde567563acf81562148015c3069",
+          "source": "assets/gallery/zambia.webp",
+          "sourceSha256": "7b4848886f317c11e7179635f480a7c0e36e4ebecf3c60efc2cca5992879c68d",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "ec5d5f5f4421254f5f39ab422ad0a53891b2b6dfab293958f7921184c49435dd"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_verdict": "pass",
+      "parent_visual": {
+        "decision": "Retain bounded stylized relief candidate, preserving repetitive basalt texture, regular stepped terrain and rigid curtain-water caveats. Not photoreal marketing or final user approval.",
+        "hardware": "Brass clasp, round fitting, ring and caps contrast clearly against dark shell; simplified blocky finish and mobile shadowed feet limit detail. Released open latch is expected, with no visible evidence requiring a detached-part diagnosis.",
+        "limitations": "Reviewed original desktop/mobile closed/open captures and marketing.webp, plus supplied source notes/brief where available. Static images do not certify motion, hidden attachments, exact pigment, physical-phone performance or manufacture. Technical checks were supplied, not rerun. No final user visual approval. Shared Zambia/Zimbabwe landscape, not exclusively Zambian or a scale geological reconstruction. Dark lower edges blend into background on mobile and supporting UI text is small.",
+        "quality": "Recognizable basalt/gorge chest with turquoise channel and white waterfall in both closed views; all open silhouettes fit. Marketing has stronger grain/contact shading, but shares the same clearly sculptural treatment.",
+        "terrain": "Raised stepped banks flank upper water and rigid ribbed white drop into lower channel. Sparse pebble-like greenery and broad planar rocks are schematic. No obvious unsupported water edge in these views; lower channel is between raised banks, not cut through lid. Open front view hides lid-top terrain normally.",
+        "texture": "Repetitive wavy gray-green striations across body and interior read as carved/painted or woodgrain-like rather than natural basalt. Water is opaque rigid relief without mist, translucency or hydrodynamics; marketing also has these stylized limits."
+      },
+      "parent_visual_hold_preserved": false,
+      "reviewed_image_hashes": [
+        {
+          "bytes": 364498,
+          "path": "smoke/zambia/desktop-closed.png",
+          "sha256": "3e7cbca9a83221da5d0ea99da389ff8cbbe51d5d2232fbfe3ab7eadf81f6b16a"
+        },
+        {
+          "bytes": 370737,
+          "path": "smoke/zambia/desktop-open.png",
+          "sha256": "e799c09121d230698b6d54762adf8d8a28415d2b0b5bfe3af6b557a11b819248"
+        },
+        {
+          "bytes": 115173,
+          "path": "smoke/zambia/mobile-closed.png",
+          "sha256": "b2d79a5a8f2765533fa72c097bd37f45272f95cc573d587e115358355683cd12"
+        },
+        {
+          "bytes": 115405,
+          "path": "smoke/zambia/mobile-open.png",
+          "sha256": "b5cdcc11d52c580b9c2af8c3c53f5abc747b0bbb17d73fb3495cb3e7a5148cc0"
+        },
+        {
+          "bytes": 99034,
+          "path": "sources/zambia/marketing.webp",
+          "sha256": "ec5d5f5f4421254f5f39ab422ad0a53891b2b6dfab293958f7921184c49435dd"
+        }
+      ],
+      "selection": {
+        "commit": "1e5b4f7b00541e4e20abff5feafc3b39a1ac50b6",
+        "fetched_tip": "1e5b4f7b00541e4e20abff5feafc3b39a1ac50b6",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/zambia-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 7673648,
+          "commit": "1e5b4f7b00541e4e20abff5feafc3b39a1ac50b6",
+          "crc_error": null,
+          "entries": 55,
+          "fresh_crc_safe_unique": true,
+          "fresh_inner_inventory_entries": 54,
+          "fresh_required_payloads": [
+            {
+              "member": "zambia-v1.html",
+              "path": "preview/zambia-v1/zambia-v1.html",
+              "sha256": "cb9e68557e7def955995026dc3dffba5202a744425df762ea9c86e9443faff54"
+            },
+            {
+              "member": "zambia.blend",
+              "path": "preview/zambia-v1/zambia.blend",
+              "sha256": "0a2323f930fb414357631cfce0a9972f43feea234f445403f5ddf8f1cede1d95"
+            },
+            {
+              "member": "zambia.glb",
+              "path": "preview/zambia-v1/zambia.glb",
+              "sha256": "c24524dae985a40323cf17bd7feec6484dcd5dc35c1202880c89f125c67bb4e3"
+            }
+          ],
+          "inventory_checked": true,
+          "inventory_entries": 54,
+          "inventory_mismatches": [],
+          "kind": "git",
+          "path": "preview/zambia-v1/zambia-v1-source.zip",
+          "required_payloads": {
+            "zambia-v1.html": true,
+            "zambia.blend": true,
+            "zambia.glb": true
+          },
+          "safe_unique_paths": true,
+          "sha256": "7d962759dca745fd4e030d15071fdc59890394b22b742a0153d54a2999beca32"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 974458,
+          "commit": "1e5b4f7b00541e4e20abff5feafc3b39a1ac50b6",
+          "path": "preview/zambia-v1/zambia.blend",
+          "role": "selected-model",
+          "sha256": "0a2323f930fb414357631cfce0a9972f43feea234f445403f5ddf8f1cede1d95"
+        },
+        {
+          "bytes": 1898704,
+          "commit": "1e5b4f7b00541e4e20abff5feafc3b39a1ac50b6",
+          "path": "preview/zambia-v1/zambia.glb",
+          "role": "selected-model",
+          "sha256": "c24524dae985a40323cf17bd7feec6484dcd5dc35c1202880c89f125c67bb4e3",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 95,
+            "nodes": 97
+          }
+        }
+      ],
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 3254642,
+        "commit": "1e5b4f7b00541e4e20abff5feafc3b39a1ac50b6",
+        "path": "preview/zambia-v1/zambia-v1.html",
+        "sha256": "cb9e68557e7def955995026dc3dffba5202a744425df762ea9c86e9443faff54",
+        "under_5000000": true
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 7673648,
+        "commit": "1e5b4f7b00541e4e20abff5feafc3b39a1ac50b6",
+        "crc_error": null,
+        "entries": 55,
+        "inventory_checked": true,
+        "inventory_entries": 54,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/zambia-v1/zambia-v1-source.zip",
+        "required_payloads": {
+          "zambia-v1.html": true,
+          "zambia.blend": true,
+          "zambia.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "7d962759dca745fd4e030d15071fdc59890394b22b742a0153d54a2999beca32"
+      }
+    ]
+  },
+  "ordinary_record": {
+    "id": "zambia",
+    "disposition": "unchanged-with-explicit-limitations",
+    "correction_passes": 0,
+    "model_geometry_changed": false,
+    "final_approved": false,
+    "launch_ready": false,
+    "original_observations": [
+      "Mobile waterfall, rocky silhouettes and brass details are visibly jagged/blocky; repeated wavy body texture is conspicuous rather than naturally fractured stone.",
+      "Open rim corners show protruding/overlapping-looking strips, especially at the right corner, and the raised lid tab lacks clear attachment definition at mobile resolution.",
+      "Dark feet merge into base and shadow, obscuring individual silhouettes. Marketing also contains uneven waterfall edging and small stream-platform notches, so rough terrain finishing is not exclusively a viewer regression."
+    ],
+    "independent_adjudication": {
+      "id": "zambia",
+      "disposition": "no-edit",
+      "observation": "Broad wavy basalt bands cover exterior and interior consistently. Gorge is stepped, plants faceted, river opaque cyan and waterfall a ribbed white curtain; open hardware remains coherent.",
+      "rationale": "These are material and geometry choices, not random finish damage. Promotional finer stone and naturalistic water do not establish a broken runtime finish.",
+      "bounded_recommendation": "Preserve basalt pattern, terrain, water and mechanism. Only investigate specific joins or thin waterfall sampling if native interaction reproduces a fault.",
+      "supersampling": "No current justification for a permanent change; cannot fix broad material banding or intentional faceting."
+    },
+    "unresolved_owner_holds": [
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "inherited_holds": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization",
+      "independent QA-ART-08 review"
+    ],
+    "original_review_preserved_in": "baseline.json",
+    "fresh_runtime": {
+      "id": "zambia",
+      "exit_code": 0,
+      "shared_contract": "Bangladesh renderer-independent interaction assertions; no fresh source/collision claim",
+      "results": "launch\\ordinary-finish-20\\runtime\\zambia\\browser-check.json"
+    },
+    "fresh_source_archive": {
+      "id": "zambia",
+      "archives": [
+        {
+          "archive": {
+            "bytes": 7673648,
+            "commit": "1e5b4f7b00541e4e20abff5feafc3b39a1ac50b6",
+            "crc_error": null,
+            "entries": 55,
+            "fresh_crc_safe_unique": true,
+            "fresh_inner_inventory_entries": 54,
+            "fresh_required_payloads": [
+              {
+                "member": "zambia-v1.html",
+                "path": "preview/zambia-v1/zambia-v1.html",
+                "sha256": "cb9e68557e7def955995026dc3dffba5202a744425df762ea9c86e9443faff54"
+              },
+              {
+                "member": "zambia.blend",
+                "path": "preview/zambia-v1/zambia.blend",
+                "sha256": "0a2323f930fb414357631cfce0a9972f43feea234f445403f5ddf8f1cede1d95"
+              },
+              {
+                "member": "zambia.glb",
+                "path": "preview/zambia-v1/zambia.glb",
+                "sha256": "c24524dae985a40323cf17bd7feec6484dcd5dc35c1202880c89f125c67bb4e3"
+              }
+            ],
+            "inventory_checked": true,
+            "inventory_entries": 54,
+            "inventory_mismatches": [],
+            "kind": "git",
+            "path": "preview/zambia-v1/zambia-v1-source.zip",
+            "required_payloads": {
+              "zambia-v1.html": true,
+              "zambia.blend": true,
+              "zambia.glb": true
+            },
+            "safe_unique_paths": true,
+            "sha256": "7d962759dca745fd4e030d15071fdc59890394b22b742a0153d54a2999beca32"
+          },
+          "members": 55,
+          "fresh_inventory": {
+            "status": "pass",
+            "entries_checked": 54,
+            "uninventoried_members": [
+              "inventory.json"
+            ]
+          },
+          "exact_selected_payloads": [
+            "zambia-v1.html",
+            "zambia.blend",
+            "zambia.glb"
+          ]
+        }
+      ],
+      "pass": true
+    },
+    "remaining_visual_limitations": "These are material and geometry choices, not random finish damage. Promotional finer stone and naturalistic water do not establish a broken runtime finish."
+  }
+}

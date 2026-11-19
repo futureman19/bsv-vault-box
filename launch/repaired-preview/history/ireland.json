@@ -1,0 +1,572 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 3,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 827244,
+        "role": "editable-source",
+        "sha256": "373302d4f094c694ed9204acca9250c992641d8e984e847b58924b79696fe4fb",
+        "source": {
+          "commit": "022463189ae2f95fc1d610f679fcb8e118bc11ef",
+          "path": "preview/ireland-v1/ireland.blend"
+        },
+        "uri": "sha256:373302d4f094c694ed9204acca9250c992641d8e984e847b58924b79696fe4fb"
+      },
+      {
+        "bytes": 9192400,
+        "role": "historical-source-archive",
+        "sha256": "f41025d33d1bca44e57123be68e03d0f009ababd6717f9c3b02c25f1d2cb800a",
+        "source": {
+          "commit": "022463189ae2f95fc1d610f679fcb8e118bc11ef",
+          "kind": "git",
+          "path": "preview/ireland-v1/ireland-v1-source.zip"
+        },
+        "uri": "sha256:f41025d33d1bca44e57123be68e03d0f009ababd6717f9c3b02c25f1d2cb800a"
+      },
+      {
+        "bytes": 1748608,
+        "role": "model",
+        "sha256": "a277a71b06a47ea1de07a2ec46728a098554ffac595d50b135c630fe28e51a3d",
+        "source": {
+          "commit": "022463189ae2f95fc1d610f679fcb8e118bc11ef",
+          "path": "preview/ireland-v1/ireland.glb"
+        },
+        "uri": "sha256:a277a71b06a47ea1de07a2ec46728a098554ffac595d50b135c630fe28e51a3d"
+      },
+      {
+        "bytes": 99826,
+        "role": "promotional-illustration",
+        "sha256": "9098deb095c323a6c9963a657924810b7591c5fce562019d468b7df9d0fd6236",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/ireland.webp"
+        },
+        "uri": "sha256:9098deb095c323a6c9963a657924810b7591c5fce562019d468b7df9d0fd6236"
+      },
+      {
+        "bytes": 3345,
+        "role": "research-brief",
+        "sha256": "b6690ab0ad3095c77d24fb8588af504f8cdd9671349f6e8b7f117fd5cdc9d157",
+        "source": {
+          "commit": "022463189ae2f95fc1d610f679fcb8e118bc11ef",
+          "path": "preview/ireland-v1/design-brief.md"
+        },
+        "uri": "sha256:b6690ab0ad3095c77d24fb8588af504f8cdd9671349f6e8b7f117fd5cdc9d157"
+      },
+      {
+        "bytes": 6115,
+        "role": "source-notice",
+        "sha256": "47c49bc974fbeb4db5aa44459abfe9c1f607bdc0128fe18387f44a0e6563d095",
+        "source": {
+          "commit": "022463189ae2f95fc1d610f679fcb8e118bc11ef",
+          "path": "preview/ireland-v1/README.md"
+        },
+        "uri": "sha256:47c49bc974fbeb4db5aa44459abfe9c1f607bdc0128fe18387f44a0e6563d095"
+      },
+      {
+        "bytes": 3179700,
+        "role": "viewer",
+        "sha256": "fac51f3646f22db71bd0f2717f571e3d651b660e5d357b112ab70038510064db",
+        "source": {
+          "commit": "022463189ae2f95fc1d610f679fcb8e118bc11ef",
+          "path": "preview/ireland-v1/ireland-v1.html"
+        },
+        "uri": "sha256:fac51f3646f22db71bd0f2717f571e3d651b660e5d357b112ab70038510064db"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "ireland",
+    "independent_review": {
+      "art_changed": false,
+      "captures": [
+        "parent/smoke/ireland/desktop-closed.png",
+        "parent/smoke/ireland/desktop-open.png",
+        "parent/smoke/ireland/mobile-closed.png",
+        "parent/smoke/ireland/mobile-open.png"
+      ],
+      "fresh_browser": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.2012462615966797,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1748608,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 4,
+            "meshes": 76,
+            "nonfinite": 0,
+            "triangles": 18056
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "ireland",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "fac51f3646f22db71bd0f2717f571e3d651b660e5d357b112ab70038510064db"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.2012462615966797,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1748608,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 4,
+            "meshes": 76,
+            "nonfinite": 0,
+            "triangles": 18056
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "ireland",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "fac51f3646f22db71bd0f2717f571e3d651b660e5d357b112ab70038510064db"
+        }
+      ],
+      "fresh_motion": {
+        "exit_code": 0,
+        "id": "ireland",
+        "passed": true,
+        "scope": "original motion unit assertions; not fresh collision/source parity"
+      },
+      "fresh_runtime_captures": [
+        "smoke/ireland/desktop-closed.png",
+        "smoke/ireland/desktop-open.png",
+        "smoke/ireland/mobile-closed.png",
+        "smoke/ireland/mobile-open.png"
+      ],
+      "hinge_assessment": "Small rear attachment continuity unresolved in stills, not proven detached. No fresh geometric contact/collision certification.",
+      "id": "ireland",
+      "independent_visual_findings": "Smaller tidier paving, broad cream waves and less substantial ring remain substantive fidelity hold.",
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "inspection": "Five read-only independent visual reviewers: all four original full-resolution captures and marketing image per ID; lead Ghana comparison and fresh Croatia open inspection. Delegation deleg_d31df2b3 tasks 0-4.",
+      "launch_ready": false,
+      "marketing": "parent/marketing/ireland.webp",
+      "packaging": {
+        "archives": [
+          {
+            "bytes": 9192400,
+            "crc_and_safe_unique_paths": true,
+            "entries": 53,
+            "full_historical_inventory_freshly_checked": false,
+            "inherited_inventory_checked": true,
+            "kind": "git",
+            "path": "preview/ireland-v1/ireland-v1-source.zip",
+            "selected_payload_checks": [
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "ireland-v1.html",
+                "sha256": "fac51f3646f22db71bd0f2717f571e3d651b660e5d357b112ab70038510064db"
+              },
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "ireland.blend",
+                "sha256": "373302d4f094c694ed9204acca9250c992641d8e984e847b58924b79696fe4fb"
+              },
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "ireland.glb",
+                "sha256": "a277a71b06a47ea1de07a2ec46728a098554ffac595d50b135c630fe28e51a3d"
+              }
+            ],
+            "sha256": "f41025d33d1bca44e57123be68e03d0f009ababd6717f9c3b02c25f1d2cb800a"
+          }
+        ],
+        "id": "ireland",
+        "source_hashes": [
+          {
+            "bytes": 827244,
+            "commit": "022463189ae2f95fc1d610f679fcb8e118bc11ef",
+            "path": "preview/ireland-v1/ireland.blend",
+            "role": "selected-model",
+            "sha256": "373302d4f094c694ed9204acca9250c992641d8e984e847b58924b79696fe4fb"
+          },
+          {
+            "bytes": 1748608,
+            "commit": "022463189ae2f95fc1d610f679fcb8e118bc11ef",
+            "path": "preview/ireland-v1/ireland.glb",
+            "role": "selected-model",
+            "sha256": "a277a71b06a47ea1de07a2ec46728a098554ffac595d50b135c630fe28e51a3d",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 76,
+              "nodes": 78
+            }
+          }
+        ],
+        "viewer": {
+          "bytes": 3179700,
+          "commit": "022463189ae2f95fc1d610f679fcb8e118bc11ef",
+          "path": "preview/ireland-v1/ireland-v1.html",
+          "sha256": "fac51f3646f22db71bd0f2717f571e3d651b660e5d357b112ab70038510064db",
+          "under_5000000": true
+        }
+      },
+      "parent_status": "needs-decision",
+      "parent_visual_findings": "Marketing side ring reads larger/heavier; actual masonry is smaller/tidier and marble broad cream waves rather than fine green contour layering.",
+      "polish_iterations": 0,
+      "proven_runtime_defects": [],
+      "remaining_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "resolved_gate": "independent-current-model-visual-review performed; not final art approval",
+      "source_selection": {
+        "commit": "022463189ae2f95fc1d610f679fcb8e118bc11ef",
+        "fetched_tip": "022463189ae2f95fc1d610f679fcb8e118bc11ef",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/ireland-v1"
+      },
+      "user_final_approved": false,
+      "verdict": "needs-user-review",
+      "viewer": {
+        "bytes": 3179700,
+        "commit": "022463189ae2f95fc1d610f679fcb8e118bc11ef",
+        "path": "preview/ireland-v1/ireland-v1.html",
+        "sha256": "fac51f3646f22db71bd0f2717f571e3d651b660e5d357b112ab70038510064db",
+        "under_5000000": true
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Ireland",
+    "package_history": [
+      {
+        "bytes": 9192400,
+        "commit": "022463189ae2f95fc1d610f679fcb8e118bc11ef",
+        "crc_error": null,
+        "entries": 53,
+        "inventory_checked": true,
+        "inventory_entries": 52,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/ireland-v1/ireland-v1-source.zip",
+        "required_payloads": {
+          "ireland-v1.html": true,
+          "ireland.blend": true,
+          "ireland.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "f41025d33d1bca44e57123be68e03d0f009ababd6717f9c3b02c25f1d2cb800a"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "022463189ae2f95fc1d610f679fcb8e118bc11ef",
+      "fetched_tip": "022463189ae2f95fc1d610f679fcb8e118bc11ef",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/ireland-v1"
+    },
+    "verdict": "needs-user-review",
+    "viewer": {
+      "bytes": 3179700,
+      "commit": "022463189ae2f95fc1d610f679fcb8e118bc11ef",
+      "path": "preview/ireland-v1/ireland-v1.html",
+      "sha256": "fac51f3646f22db71bd0f2717f571e3d651b660e5d357b112ab70038510064db",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "ireland",
+    "baseline_verdict": "needs-user-review",
+    "actions": [
+      "owner art/finish acceptance; no proven runtime defect recorded; no autonomous redesign"
+    ],
+    "approval": false,
+    "original_review": {
+      "art_changed": false,
+      "captures": [
+        "parent/smoke/ireland/desktop-closed.png",
+        "parent/smoke/ireland/desktop-open.png",
+        "parent/smoke/ireland/mobile-closed.png",
+        "parent/smoke/ireland/mobile-open.png"
+      ],
+      "fresh_browser": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.2012462615966797,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1748608,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 4,
+            "meshes": 76,
+            "nonfinite": 0,
+            "triangles": 18056
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "ireland",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "fac51f3646f22db71bd0f2717f571e3d651b660e5d357b112ab70038510064db"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.2012462615966797,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1748608,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 4,
+            "meshes": 76,
+            "nonfinite": 0,
+            "triangles": 18056
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "ireland",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "fac51f3646f22db71bd0f2717f571e3d651b660e5d357b112ab70038510064db"
+        }
+      ],
+      "fresh_motion": {
+        "exit_code": 0,
+        "id": "ireland",
+        "passed": true,
+        "scope": "original motion unit assertions; not fresh collision/source parity"
+      },
+      "fresh_runtime_captures": [
+        "smoke/ireland/desktop-closed.png",
+        "smoke/ireland/desktop-open.png",
+        "smoke/ireland/mobile-closed.png",
+        "smoke/ireland/mobile-open.png"
+      ],
+      "hinge_assessment": "Small rear attachment continuity unresolved in stills, not proven detached. No fresh geometric contact/collision certification.",
+      "id": "ireland",
+      "independent_visual_findings": "Smaller tidier paving, broad cream waves and less substantial ring remain substantive fidelity hold.",
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "inspection": "Five read-only independent visual reviewers: all four original full-resolution captures and marketing image per ID; lead Ghana comparison and fresh Croatia open inspection. Delegation deleg_d31df2b3 tasks 0-4.",
+      "launch_ready": false,
+      "marketing": "parent/marketing/ireland.webp",
+      "packaging": {
+        "archives": [
+          {
+            "bytes": 9192400,
+            "crc_and_safe_unique_paths": true,
+            "entries": 53,
+            "full_historical_inventory_freshly_checked": false,
+            "inherited_inventory_checked": true,
+            "kind": "git",
+            "path": "preview/ireland-v1/ireland-v1-source.zip",
+            "selected_payload_checks": [
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "ireland-v1.html",
+                "sha256": "fac51f3646f22db71bd0f2717f571e3d651b660e5d357b112ab70038510064db"
+              },
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "ireland.blend",
+                "sha256": "373302d4f094c694ed9204acca9250c992641d8e984e847b58924b79696fe4fb"
+              },
+              {
+                "matches_selected_bytes": true,
+                "newline_only_difference": false,
+                "path": "ireland.glb",
+                "sha256": "a277a71b06a47ea1de07a2ec46728a098554ffac595d50b135c630fe28e51a3d"
+              }
+            ],
+            "sha256": "f41025d33d1bca44e57123be68e03d0f009ababd6717f9c3b02c25f1d2cb800a"
+          }
+        ],
+        "id": "ireland",
+        "source_hashes": [
+          {
+            "bytes": 827244,
+            "commit": "022463189ae2f95fc1d610f679fcb8e118bc11ef",
+            "path": "preview/ireland-v1/ireland.blend",
+            "role": "selected-model",
+            "sha256": "373302d4f094c694ed9204acca9250c992641d8e984e847b58924b79696fe4fb"
+          },
+          {
+            "bytes": 1748608,
+            "commit": "022463189ae2f95fc1d610f679fcb8e118bc11ef",
+            "path": "preview/ireland-v1/ireland.glb",
+            "role": "selected-model",
+            "sha256": "a277a71b06a47ea1de07a2ec46728a098554ffac595d50b135c630fe28e51a3d",
+            "structural_probe": {
+              "declared_size_matches": true,
+              "embedded_buffers": true,
+              "embedded_in_html": true,
+              "glb_version": 2,
+              "meshes": 76,
+              "nodes": 78
+            }
+          }
+        ],
+        "viewer": {
+          "bytes": 3179700,
+          "commit": "022463189ae2f95fc1d610f679fcb8e118bc11ef",
+          "path": "preview/ireland-v1/ireland-v1.html",
+          "sha256": "fac51f3646f22db71bd0f2717f571e3d651b660e5d357b112ab70038510064db",
+          "under_5000000": true
+        }
+      },
+      "parent_status": "needs-decision",
+      "parent_visual_findings": "Marketing side ring reads larger/heavier; actual masonry is smaller/tidier and marble broad cream waves rather than fine green contour layering.",
+      "polish_iterations": 0,
+      "proven_runtime_defects": [],
+      "remaining_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "resolved_gate": "independent-current-model-visual-review performed; not final art approval",
+      "source_selection": {
+        "commit": "022463189ae2f95fc1d610f679fcb8e118bc11ef",
+        "fetched_tip": "022463189ae2f95fc1d610f679fcb8e118bc11ef",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/ireland-v1"
+      },
+      "user_final_approved": false,
+      "verdict": "needs-user-review",
+      "viewer": {
+        "bytes": 3179700,
+        "commit": "022463189ae2f95fc1d610f679fcb8e118bc11ef",
+        "path": "preview/ireland-v1/ireland-v1.html",
+        "sha256": "fac51f3646f22db71bd0f2717f571e3d651b660e5d357b112ab70038510064db",
+        "under_5000000": true
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 9192400,
+        "commit": "022463189ae2f95fc1d610f679fcb8e118bc11ef",
+        "crc_error": null,
+        "entries": 53,
+        "inventory_checked": true,
+        "inventory_entries": 52,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/ireland-v1/ireland-v1-source.zip",
+        "required_payloads": {
+          "ireland-v1.html": true,
+          "ireland.blend": true,
+          "ireland.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "f41025d33d1bca44e57123be68e03d0f009ababd6717f9c3b02c25f1d2cb800a"
+      }
+    ]
+  },
+  "visual_decision": {
+    "id": "ireland",
+    "disposition": "preview-accepted-with-limitations",
+    "issue": "Regular small limestone blocks and broad cream marble waves.",
+    "rationale": "Raised limestone pavement and green marble-like chest remain legible. Accept tidy block geometry and lighter ring weight as miniature simplification; no exact natural limestone or fine promotional contour match is claimed.",
+    "evidence": {
+      "commit": "c869c72179ff59e534712b05aede3fecf7e341ae",
+      "path": "launch/qa-art-03/parent/boards/ireland.jpg",
+      "sha256": "5f7a8a12730109473369a22bf614d7886096af916c33cb0e38de0cc661655c40"
+    }
+  }
+}

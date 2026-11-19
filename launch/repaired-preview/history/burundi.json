@@ -1,0 +1,643 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 6,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 475998,
+        "role": "editable-source",
+        "sha256": "8f9bb7180ec0223a774d0f63456cd239154ff411fe405f07801603ea39dd3f04",
+        "source": {
+          "commit": "3ef45ce9de8f6d10e254f9938a489a7263edbaeb",
+          "path": "preview/burundi-v1/burundi.blend"
+        },
+        "uri": "sha256:8f9bb7180ec0223a774d0f63456cd239154ff411fe405f07801603ea39dd3f04"
+      },
+      {
+        "bytes": 5576912,
+        "role": "historical-source-archive",
+        "sha256": "78f3daa0c9ba3615c3b4c0e97ef9cf0652263df478a2f1453b9dfcd9f8bc92ea",
+        "source": {
+          "commit": "3ef45ce9de8f6d10e254f9938a489a7263edbaeb",
+          "kind": "git",
+          "path": "preview/burundi-v1/burundi-source.zip"
+        },
+        "uri": "sha256:78f3daa0c9ba3615c3b4c0e97ef9cf0652263df478a2f1453b9dfcd9f8bc92ea"
+      },
+      {
+        "bytes": 1642600,
+        "role": "model",
+        "sha256": "6876aadc5db41c8d89098a2d59e050b0c0e64b3a90eb3d58fcb48d7fdc05355b",
+        "source": {
+          "commit": "3ef45ce9de8f6d10e254f9938a489a7263edbaeb",
+          "path": "preview/burundi-v1/burundi.glb"
+        },
+        "uri": "sha256:6876aadc5db41c8d89098a2d59e050b0c0e64b3a90eb3d58fcb48d7fdc05355b"
+      },
+      {
+        "bytes": 54802,
+        "role": "promotional-illustration",
+        "sha256": "93061e7573426e45f1c7e847bd65d811a2654004af0632d3768a0ef01ec933d2",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/burundi.webp"
+        },
+        "uri": "sha256:93061e7573426e45f1c7e847bd65d811a2654004af0632d3768a0ef01ec933d2"
+      },
+      {
+        "bytes": 4286,
+        "role": "research-brief",
+        "sha256": "869609b68c2173b422469c8ebaa7427afd3b0d9d55bce1e0d6b73eb979100ba0",
+        "source": {
+          "commit": "3ef45ce9de8f6d10e254f9938a489a7263edbaeb",
+          "path": "preview/burundi-v1/design-brief.md"
+        },
+        "uri": "sha256:869609b68c2173b422469c8ebaa7427afd3b0d9d55bce1e0d6b73eb979100ba0"
+      },
+      {
+        "bytes": 4178,
+        "role": "source-notice",
+        "sha256": "bfd1901f088e2302dc685d25255c6bb4471fdf4d457d19b434b930173bf8a14e",
+        "source": {
+          "commit": "3ef45ce9de8f6d10e254f9938a489a7263edbaeb",
+          "path": "preview/burundi-v1/README.md"
+        },
+        "uri": "sha256:bfd1901f088e2302dc685d25255c6bb4471fdf4d457d19b434b930173bf8a14e"
+      },
+      {
+        "bytes": 2955082,
+        "role": "viewer",
+        "sha256": "1754e5949667767ae822d6c22fd9c1da1e4e4a43751ae813c3159c00b06f6d48",
+        "source": {
+          "commit": "3ef45ce9de8f6d10e254f9938a489a7263edbaeb",
+          "path": "preview/burundi-v1/burundi-v1.html"
+        },
+        "uri": "sha256:1754e5949667767ae822d6c22fd9c1da1e4e4a43751ae813c3159c00b06f6d48"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "burundi",
+    "independent_review": {
+      "adjudication": "Candidate with disclosed finish limitations, not final user approval.",
+      "art_changed": false,
+      "critical_reproducible_defects": [],
+      "fresh_blender_reopen": false,
+      "fresh_browser": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.888500051572919,
+                2.0733580589294434,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.2500000074505806,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1642600,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 6,
+            "meshes": 85,
+            "nonfinite": 0,
+            "triangles": 54448
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "burundi",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "1754e5949667767ae822d6c22fd9c1da1e4e4a43751ae813c3159c00b06f6d48"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.888500051572919,
+                2.0733580589294434,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.2500000074505806,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1642600,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 6,
+            "meshes": 85,
+            "nonfinite": 0,
+            "triangles": 54448
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "burundi",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "1754e5949667767ae822d6c22fd9c1da1e4e4a43751ae813c3159c00b06f6d48"
+        }
+      ],
+      "fresh_collision_sampling": false,
+      "fresh_corrupt_glb_fallback": false,
+      "fresh_motion": {
+        "exit_code": 0,
+        "id": "burundi",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "3ef45ce9de8f6d10e254f9938a489a7263edbaeb",
+            "path": "preview/burundi-v1/motion.mjs",
+            "sha256": "4563e40fb5caeef0f61425757ba15e1de5131e36afb175fe3cdeece39913287c"
+          }
+        ]
+      },
+      "fresh_nojs": false,
+      "id": "burundi",
+      "independent_visual": {
+        "file": "visual-1.json",
+        "findings": {
+          "appearance": "Cream woven-looking panels with charcoal and terracotta diamond bands, brown frame and block feet, raised concentric lid coil, brass clasp, round front fitting and left ring. Marketing retains the same chest and ornamental layout.",
+          "approval": false,
+          "artistic_gaps": [
+            "Fine fiber/weave detail is weak at mobile scale; appearance is a procedural craft interpretation rather than literal woven construction.",
+            "Marketing frame is more tactile and hardware shading richer; actual frame/interior are smoother and more matte. Main geometry and motifs are preserved."
+          ],
+          "confirmed_visual_defects": [],
+          "id": "burundi",
+          "inspected": [
+            "parent/smoke/burundi/desktop-closed.png",
+            "parent/smoke/burundi/desktop-open.png",
+            "parent/smoke/burundi/mobile-closed.png",
+            "parent/smoke/burundi/mobile-open.png",
+            "parent/sources/burundi/marketing.webp"
+          ],
+          "parent_hold_disposition": "Retain fiber-detail and promotional-finish limitations. Left-side ring is visibly present; do not resurrect a missing-hardware allegation from a reduced board.",
+          "recommendation": "candidate-with-limitations",
+          "state_observations": {
+            "desktop-closed": "Entire model visible; lid coil has dimensional ridges and panels have fine surface pattern. A small irregular dark mark near the side panel edge is ambiguous, not a confirmed texture failure.",
+            "desktop-open": "Plain brown lid underside, empty brown cavity, two rear hinges and principal front/side fittings are readable and fully framed.",
+            "mobile-closed": "Diamond motif and concentric coil survive; fine woven texture flattens and small hardware/coil edges alias. Complete chest and page controls fit.",
+            "mobile-open": "Empty brown cavity and lid fit with all visible fittings. Rim transitions and patterned edges look coarse; no definite mesh penetration or cropping."
+          },
+          "suggested_next_step": "Present as a stylized craft-inspired candidate with clear limits on fiber realism and no artisan-authenticity claim.",
+          "uncertain_inspection_points": [
+            "Small side-panel dark mark could be ornament, shadow or seam; it is insufficient evidence for a broken UV or missing-map claim."
+          ]
+        }
+      },
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 54802,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/burundi.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "Source/output reviewed: broad silhouette hardware miniature counts retained. Stronger contrast and surface realism; small contour/pattern variations.",
+          "reviewStatus": "reviewed",
+          "sha256": "2bea47964ae33b172503817d639b2ab57da0ce4aab9e99077a5e3133abb9d233",
+          "source": "assets/gallery/burundi.webp",
+          "sourceSha256": "26370e977eea4da08e0f4d32be4790dee4a29fbe8d74e77595ac0c1445c94063",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "93061e7573426e45f1c7e847bd65d811a2654004af0632d3768a0ef01ec933d2"
+      },
+      "original_capture_paths": [
+        "parent/smoke/burundi/desktop-closed.png",
+        "parent/smoke/burundi/desktop-open.png",
+        "parent/smoke/burundi/mobile-closed.png",
+        "parent/smoke/burundi/mobile-open.png"
+      ],
+      "packaging_hold": false,
+      "parent_decision": "Accept stylized candidate with explicit fiber-detail and promotional-finish caveats; no proven hardware omission found after original-image inspection.",
+      "parent_missing_gates_preserved": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_quality": "Candidate visual pass: coherent cream, charcoal and brick-red diamond panels with concentric lid ornament. Both states remain fully visible and consistent across desktop/mobile. Marketing has more tactile framing and richer metal lighting, a finish gap rather than clear asset failure.",
+      "parent_status": "pass",
+      "remaining_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-06 review"
+      ],
+      "selection": {
+        "commit": "3ef45ce9de8f6d10e254f9938a489a7263edbaeb",
+        "fetched_tip": "3ef45ce9de8f6d10e254f9938a489a7263edbaeb",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/burundi-v1"
+      },
+      "source_archive_check": {
+        "archive": {
+          "bytes": 5576912,
+          "crc": "pass",
+          "entries": 51,
+          "mismatches": [],
+          "path": "preview/burundi-v1/burundi-source.zip",
+          "required_payload_hashes": "pass",
+          "sha256": "78f3daa0c9ba3615c3b4c0e97ef9cf0652263df478a2f1453b9dfcd9f8bc92ea"
+        },
+        "id": "burundi",
+        "internal_inventory": "pass",
+        "inventory_entries_checked": 50,
+        "selected_payload_match": "pass"
+      },
+      "source_archives": [
+        {
+          "bytes": 5576912,
+          "crc": "pass",
+          "entries": 51,
+          "mismatches": [],
+          "path": "preview/burundi-v1/burundi-source.zip",
+          "required_payload_hashes": "pass",
+          "sha256": "78f3daa0c9ba3615c3b4c0e97ef9cf0652263df478a2f1453b9dfcd9f8bc92ea"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 475998,
+          "path": "preview/burundi-v1/burundi.blend",
+          "sha256": "8f9bb7180ec0223a774d0f63456cd239154ff411fe405f07801603ea39dd3f04"
+        },
+        {
+          "bytes": 1642600,
+          "path": "preview/burundi-v1/burundi.glb",
+          "sha256": "6876aadc5db41c8d89098a2d59e050b0c0e64b3a90eb3d58fcb48d7fdc05355b"
+        }
+      ],
+      "user_final_approved": false,
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 2955082,
+        "commit": "3ef45ce9de8f6d10e254f9938a489a7263edbaeb",
+        "path": "preview/burundi-v1/burundi-v1.html",
+        "sha256": "1754e5949667767ae822d6c22fd9c1da1e4e4a43751ae813c3159c00b06f6d48",
+        "under_5000000": true
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Burundi",
+    "package_history": [
+      {
+        "bytes": 5576912,
+        "commit": "3ef45ce9de8f6d10e254f9938a489a7263edbaeb",
+        "crc_error": null,
+        "entries": 51,
+        "inventory_checked": true,
+        "inventory_entries": 50,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/burundi-v1/burundi-source.zip",
+        "required_payloads": {
+          "burundi-v1.html": true,
+          "burundi.blend": true,
+          "burundi.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "78f3daa0c9ba3615c3b4c0e97ef9cf0652263df478a2f1453b9dfcd9f8bc92ea"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "3ef45ce9de8f6d10e254f9938a489a7263edbaeb",
+      "fetched_tip": "3ef45ce9de8f6d10e254f9938a489a7263edbaeb",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/burundi-v1"
+    },
+    "verdict": "candidate-with-limitations",
+    "viewer": {
+      "bytes": 2955082,
+      "commit": "3ef45ce9de8f6d10e254f9938a489a7263edbaeb",
+      "path": "preview/burundi-v1/burundi-v1.html",
+      "sha256": "1754e5949667767ae822d6c22fd9c1da1e4e4a43751ae813c3159c00b06f6d48",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "burundi",
+    "baseline_verdict": "candidate-with-limitations",
+    "actions": [
+      "owner art/finish acceptance; no proven runtime defect recorded; no autonomous redesign"
+    ],
+    "approval": false,
+    "original_review": {
+      "adjudication": "Candidate with disclosed finish limitations, not final user approval.",
+      "art_changed": false,
+      "critical_reproducible_defects": [],
+      "fresh_blender_reopen": false,
+      "fresh_browser": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.888500051572919,
+                2.0733580589294434,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.2500000074505806,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1642600,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 6,
+            "meshes": 85,
+            "nonfinite": 0,
+            "triangles": 54448
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "burundi",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "1754e5949667767ae822d6c22fd9c1da1e4e4a43751ae813c3159c00b06f6d48"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.888500051572919,
+                2.0733580589294434,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.2500000074505806,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1642600,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 6,
+            "meshes": 85,
+            "nonfinite": 0,
+            "triangles": 54448
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "burundi",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "1754e5949667767ae822d6c22fd9c1da1e4e4a43751ae813c3159c00b06f6d48"
+        }
+      ],
+      "fresh_collision_sampling": false,
+      "fresh_corrupt_glb_fallback": false,
+      "fresh_motion": {
+        "exit_code": 0,
+        "id": "burundi",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "3ef45ce9de8f6d10e254f9938a489a7263edbaeb",
+            "path": "preview/burundi-v1/motion.mjs",
+            "sha256": "4563e40fb5caeef0f61425757ba15e1de5131e36afb175fe3cdeece39913287c"
+          }
+        ]
+      },
+      "fresh_nojs": false,
+      "id": "burundi",
+      "independent_visual": {
+        "file": "visual-1.json",
+        "findings": {
+          "appearance": "Cream woven-looking panels with charcoal and terracotta diamond bands, brown frame and block feet, raised concentric lid coil, brass clasp, round front fitting and left ring. Marketing retains the same chest and ornamental layout.",
+          "approval": false,
+          "artistic_gaps": [
+            "Fine fiber/weave detail is weak at mobile scale; appearance is a procedural craft interpretation rather than literal woven construction.",
+            "Marketing frame is more tactile and hardware shading richer; actual frame/interior are smoother and more matte. Main geometry and motifs are preserved."
+          ],
+          "confirmed_visual_defects": [],
+          "id": "burundi",
+          "inspected": [
+            "parent/smoke/burundi/desktop-closed.png",
+            "parent/smoke/burundi/desktop-open.png",
+            "parent/smoke/burundi/mobile-closed.png",
+            "parent/smoke/burundi/mobile-open.png",
+            "parent/sources/burundi/marketing.webp"
+          ],
+          "parent_hold_disposition": "Retain fiber-detail and promotional-finish limitations. Left-side ring is visibly present; do not resurrect a missing-hardware allegation from a reduced board.",
+          "recommendation": "candidate-with-limitations",
+          "state_observations": {
+            "desktop-closed": "Entire model visible; lid coil has dimensional ridges and panels have fine surface pattern. A small irregular dark mark near the side panel edge is ambiguous, not a confirmed texture failure.",
+            "desktop-open": "Plain brown lid underside, empty brown cavity, two rear hinges and principal front/side fittings are readable and fully framed.",
+            "mobile-closed": "Diamond motif and concentric coil survive; fine woven texture flattens and small hardware/coil edges alias. Complete chest and page controls fit.",
+            "mobile-open": "Empty brown cavity and lid fit with all visible fittings. Rim transitions and patterned edges look coarse; no definite mesh penetration or cropping."
+          },
+          "suggested_next_step": "Present as a stylized craft-inspired candidate with clear limits on fiber realism and no artisan-authenticity claim.",
+          "uncertain_inspection_points": [
+            "Small side-panel dark mark could be ornament, shadow or seam; it is insufficient evidence for a broken UV or missing-map claim."
+          ]
+        }
+      },
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 54802,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/burundi.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "Source/output reviewed: broad silhouette hardware miniature counts retained. Stronger contrast and surface realism; small contour/pattern variations.",
+          "reviewStatus": "reviewed",
+          "sha256": "2bea47964ae33b172503817d639b2ab57da0ce4aab9e99077a5e3133abb9d233",
+          "source": "assets/gallery/burundi.webp",
+          "sourceSha256": "26370e977eea4da08e0f4d32be4790dee4a29fbe8d74e77595ac0c1445c94063",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "93061e7573426e45f1c7e847bd65d811a2654004af0632d3768a0ef01ec933d2"
+      },
+      "original_capture_paths": [
+        "parent/smoke/burundi/desktop-closed.png",
+        "parent/smoke/burundi/desktop-open.png",
+        "parent/smoke/burundi/mobile-closed.png",
+        "parent/smoke/burundi/mobile-open.png"
+      ],
+      "packaging_hold": false,
+      "parent_decision": "Accept stylized candidate with explicit fiber-detail and promotional-finish caveats; no proven hardware omission found after original-image inspection.",
+      "parent_missing_gates_preserved": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_quality": "Candidate visual pass: coherent cream, charcoal and brick-red diamond panels with concentric lid ornament. Both states remain fully visible and consistent across desktop/mobile. Marketing has more tactile framing and richer metal lighting, a finish gap rather than clear asset failure.",
+      "parent_status": "pass",
+      "remaining_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-06 review"
+      ],
+      "selection": {
+        "commit": "3ef45ce9de8f6d10e254f9938a489a7263edbaeb",
+        "fetched_tip": "3ef45ce9de8f6d10e254f9938a489a7263edbaeb",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/burundi-v1"
+      },
+      "source_archive_check": {
+        "archive": {
+          "bytes": 5576912,
+          "crc": "pass",
+          "entries": 51,
+          "mismatches": [],
+          "path": "preview/burundi-v1/burundi-source.zip",
+          "required_payload_hashes": "pass",
+          "sha256": "78f3daa0c9ba3615c3b4c0e97ef9cf0652263df478a2f1453b9dfcd9f8bc92ea"
+        },
+        "id": "burundi",
+        "internal_inventory": "pass",
+        "inventory_entries_checked": 50,
+        "selected_payload_match": "pass"
+      },
+      "source_archives": [
+        {
+          "bytes": 5576912,
+          "crc": "pass",
+          "entries": 51,
+          "mismatches": [],
+          "path": "preview/burundi-v1/burundi-source.zip",
+          "required_payload_hashes": "pass",
+          "sha256": "78f3daa0c9ba3615c3b4c0e97ef9cf0652263df478a2f1453b9dfcd9f8bc92ea"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 475998,
+          "path": "preview/burundi-v1/burundi.blend",
+          "sha256": "8f9bb7180ec0223a774d0f63456cd239154ff411fe405f07801603ea39dd3f04"
+        },
+        {
+          "bytes": 1642600,
+          "path": "preview/burundi-v1/burundi.glb",
+          "sha256": "6876aadc5db41c8d89098a2d59e050b0c0e64b3a90eb3d58fcb48d7fdc05355b"
+        }
+      ],
+      "user_final_approved": false,
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 2955082,
+        "commit": "3ef45ce9de8f6d10e254f9938a489a7263edbaeb",
+        "path": "preview/burundi-v1/burundi-v1.html",
+        "sha256": "1754e5949667767ae822d6c22fd9c1da1e4e4a43751ae813c3159c00b06f6d48",
+        "under_5000000": true
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 5576912,
+        "commit": "3ef45ce9de8f6d10e254f9938a489a7263edbaeb",
+        "crc_error": null,
+        "entries": 51,
+        "inventory_checked": true,
+        "inventory_entries": 50,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/burundi-v1/burundi-source.zip",
+        "required_payloads": {
+          "burundi-v1.html": true,
+          "burundi.blend": true,
+          "burundi.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "78f3daa0c9ba3615c3b4c0e97ef9cf0652263df478a2f1453b9dfcd9f8bc92ea"
+      }
+    ]
+  }
+}

@@ -1,0 +1,936 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 8,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 632251,
+        "role": "editable-source",
+        "sha256": "ef9deb0d6f3fb506b1280d0d50f6a24eebea840766d4782b20407918894713df",
+        "source": {
+          "commit": "3f797b71ad7d658f7b2e5907066173684d614b1e",
+          "path": "preview/myanmar-v1/myanmar.blend"
+        },
+        "uri": "sha256:ef9deb0d6f3fb506b1280d0d50f6a24eebea840766d4782b20407918894713df"
+      },
+      {
+        "bytes": 6123548,
+        "role": "historical-source-archive",
+        "sha256": "9b898485a46743bb9d11918df6584a57d56a0bd4739a271b798668070c9b7c08",
+        "source": {
+          "commit": "3f797b71ad7d658f7b2e5907066173684d614b1e",
+          "kind": "git",
+          "path": "preview/myanmar-v1/myanmar-v1-source.zip"
+        },
+        "uri": "sha256:9b898485a46743bb9d11918df6584a57d56a0bd4739a271b798668070c9b7c08"
+      },
+      {
+        "bytes": 1672672,
+        "role": "model",
+        "sha256": "5479059754e1bb767e4840c25bc8cb2b94bbb804abee4361b1e38067930ca20d",
+        "source": {
+          "commit": "3f797b71ad7d658f7b2e5907066173684d614b1e",
+          "path": "preview/myanmar-v1/myanmar.glb"
+        },
+        "uri": "sha256:5479059754e1bb767e4840c25bc8cb2b94bbb804abee4361b1e38067930ca20d"
+      },
+      {
+        "bytes": 84850,
+        "role": "promotional-illustration",
+        "sha256": "faa9f998e056bad0b510262ef2a99b2a32a5d083ceab78237e733bcacb5f1b4c",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/myanmar.webp"
+        },
+        "uri": "sha256:faa9f998e056bad0b510262ef2a99b2a32a5d083ceab78237e733bcacb5f1b4c"
+      },
+      {
+        "bytes": 2897,
+        "role": "research-brief",
+        "sha256": "dd82e40d3faf5a8235690a50280daf03df665febf7458d6b342ee62933dbfb05",
+        "source": {
+          "commit": "3f797b71ad7d658f7b2e5907066173684d614b1e",
+          "path": "preview/myanmar-v1/design-brief.md"
+        },
+        "uri": "sha256:dd82e40d3faf5a8235690a50280daf03df665febf7458d6b342ee62933dbfb05"
+      },
+      {
+        "bytes": 5096,
+        "role": "source-notice",
+        "sha256": "5f4f4b8949a42a0288b9d102b75e6ad06c1c5aa114df345c86ecf47794ea361d",
+        "source": {
+          "commit": "3f797b71ad7d658f7b2e5907066173684d614b1e",
+          "path": "preview/myanmar-v1/README.md"
+        },
+        "uri": "sha256:5f4f4b8949a42a0288b9d102b75e6ad06c1c5aa114df345c86ecf47794ea361d"
+      },
+      {
+        "bytes": 3040969,
+        "role": "viewer",
+        "sha256": "35b7b40ff569c9cc50cc8fb2a429caa56356a5cea7e999a0381743a814a9ccc5",
+        "source": {
+          "commit": "3f797b71ad7d658f7b2e5907066173684d614b1e",
+          "path": "preview/myanmar-v1/myanmar-v1.html"
+        },
+        "uri": "sha256:35b7b40ff569c9cc50cc8fb2a429caa56356a5cea7e999a0381743a814a9ccc5"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "myanmar",
+    "independent_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "capture_base": "parent/",
+      "captures": [
+        "smoke/myanmar/desktop-closed.png",
+        "smoke/myanmar/desktop-open.png",
+        "smoke/myanmar/mobile-closed.png",
+        "smoke/myanmar/mobile-open.png"
+      ],
+      "critical_reproducible_failures": [],
+      "final_approval": false,
+      "fresh_checks": {
+        "blender_parity_collision": false,
+        "fallback": false,
+        "full_inner_archive_inventories": true,
+        "motion": false,
+        "original_captures_and_marketing_inspected": true,
+        "runtime": false,
+        "source_and_delivered_viewer_hashes": true,
+        "source_archive_crc_safe_paths_required_payloads": true
+      },
+      "historical_runtime": {
+        "browser": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.046000107191503,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.24000000953674316,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1672672,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 4,
+              "meshes": 59,
+              "nonfinite": 0,
+              "triangles": 18312
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "myanmar",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "35b7b40ff569c9cc50cc8fb2a429caa56356a5cea7e999a0381743a814a9ccc5"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.046000107191503,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.24000000953674316,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1672672,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 4,
+              "meshes": 59,
+              "nonfinite": 0,
+              "triangles": 18312
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "myanmar",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "35b7b40ff569c9cc50cc8fb2a429caa56356a5cea7e999a0381743a814a9ccc5"
+          }
+        ],
+        "extended": {
+          "geometry": {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.046000107191503,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.24000000953674316,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1672672,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 4,
+              "meshes": 59,
+              "nonfinite": 0,
+              "triangles": 18312
+            },
+            "meshes": 59,
+            "nonfinite": 0,
+            "triangles": 18312
+          },
+          "id": "myanmar",
+          "no_js_poster": true
+        },
+        "motion": {
+          "exit_code": 0,
+          "id": "myanmar",
+          "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+          "source": [
+            {
+              "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+              "path": "preview/albania-v1/tests.mjs",
+              "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+            },
+            {
+              "commit": "3f797b71ad7d658f7b2e5907066173684d614b1e",
+              "path": "preview/myanmar-v1/motion.mjs",
+              "sha256": "2a348dd5ebcd4432cb3eb3b661b6228f9c60cb9db291b8e141c1ea65c9b2c98d"
+            }
+          ]
+        },
+        "parent_commit": "431e51ffb5a8704b5f8f8b11694d28befae18402"
+      },
+      "id": "myanmar",
+      "independent_visual": {
+        "assessment": {
+          "concrete_defects": [
+            "The candidate lacks the illustration's broad pale lid reflections; lacquer reads comparatively matte and the mobile lid can look reddish/wood-like.",
+            "Thin vermilion linework crowds and terminates abruptly at the front-left corner and trim boundaries; fine lines and medallion detail alias at mobile size.",
+            "Dark lower body and feet merge with the background/shadow, reducing construction readability; brass fittings are blockier and flatter in highlight than the illustration."
+          ],
+          "id": "myanmar",
+          "inspected_paths": [
+            "parent/smoke/myanmar/desktop-closed.png",
+            "parent/smoke/myanmar/desktop-open.png",
+            "parent/smoke/myanmar/mobile-closed.png",
+            "parent/smoke/myanmar/mobile-open.png",
+            "parent/sources/myanmar/marketing.webp"
+          ],
+          "limitations": [
+            "All five original images inspected; normal-size theme/material comparison, not hyperrealism or cultural-authenticity certification.",
+            "Lighting/framing differ from the illustration; a weaker visible lacquer highlight is a rendered appearance observation, not proof of incorrect shader settings.",
+            "Static frames cannot establish hidden collisions, intermediate motion, or control operation. No art approval or changes."
+          ],
+          "observations": "Black/vermilion palette, double-diamond pattern, circular lid emblem and brass hardware preserve the illustrated identity despite the finish gap. Both open poses fit fully in frame with a readable red cavity and no obvious major missing panel.",
+          "verdict": "candidate-with-limitations"
+        },
+        "report": "visual-c.json"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-08 review"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 84850,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          960
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/myanmar.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            960
+          ],
+          "provider": "xai",
+          "reviewNotes": "Correction restores pale lid field; single medallion retained, red linework and relief differ.",
+          "reviewStatus": "reviewed_with_limitations",
+          "sha256": "cec26146235d329ed9633132c3d689e2b8cf486346fa28301233d4a6a0d22321",
+          "source": "assets/gallery/myanmar.webp",
+          "sourceSha256": "00f9f372b478096b77de779ac8203af0cddf5ea56fcbe7e94a868e6b72c8a574",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "faa9f998e056bad0b510262ef2a99b2a32a5d083ceab78237e733bcacb5f1b4c"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_verdict": "pass",
+      "parent_visual": {
+        "decision": "Pass only as bounded decorative candidate with clearly disclosed lacquer/reflection and linework readability gaps. Marketing surface polish is not equivalent to runtime. No final user approval.",
+        "hardware": "Clasp, separate front disk, ring pull, corner caps and lid oval retain marketing configuration. Open rear hinges and released latch read consistently with normal opening. Small hardware details unresolved, not proof of failure.",
+        "limitations": "Read README/research brief: colour-mapped linework evokes incision without modeled grooves; invented pattern, no traditional motif authentication, bamboo substrate or handmade claim. No photorealism or final human approval; static views cannot establish mechanism performance.",
+        "quality": "Readable black/vermilion/brass composition in all desktop/mobile states; raised lid, cavity and feet are fully framed.",
+        "terrain": "No geographic terrain intended. Low red oval ornament with concentric brass rings remains present on closed lid; fine rings compress at mobile size. No temple or other landscape omission is inferred.",
+        "texture": "Runtime preserves nested red diamonds on black panels but has warmer, streakier lid shading and weaker lacquer depth/reflections than the glossy marketing image. Busy procedural joins and crowded/jagged mobile lines remain visible. Marketing broad pale lid reflection is not reproduced in the browser lighting; images are not calibrated."
+      },
+      "parent_visual_hold_preserved": false,
+      "reviewed_image_hashes": [
+        {
+          "bytes": 333142,
+          "path": "smoke/myanmar/desktop-closed.png",
+          "sha256": "e104b3a18fe68cef1563b36bb536b9ffd728efa3f77fa5cdda98dd94d44ed070"
+        },
+        {
+          "bytes": 358713,
+          "path": "smoke/myanmar/desktop-open.png",
+          "sha256": "b801d272d0ac046021448dd41e6a5fb94e21fb8c57f3e161c24e4d8268727589"
+        },
+        {
+          "bytes": 116623,
+          "path": "smoke/myanmar/mobile-closed.png",
+          "sha256": "7808036b3713de944ca4a400b311e15d85c57db65838b421cb8b5c5623e90901"
+        },
+        {
+          "bytes": 126277,
+          "path": "smoke/myanmar/mobile-open.png",
+          "sha256": "ddcba9d6bb17d188f1177f261a35364569289fdf6256251423be831cf42b0edf"
+        },
+        {
+          "bytes": 84850,
+          "path": "sources/myanmar/marketing.webp",
+          "sha256": "faa9f998e056bad0b510262ef2a99b2a32a5d083ceab78237e733bcacb5f1b4c"
+        }
+      ],
+      "selection": {
+        "commit": "3f797b71ad7d658f7b2e5907066173684d614b1e",
+        "fetched_tip": "3f797b71ad7d658f7b2e5907066173684d614b1e",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/myanmar-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 6123548,
+          "commit": "3f797b71ad7d658f7b2e5907066173684d614b1e",
+          "crc_error": null,
+          "entries": 56,
+          "fresh_crc_safe_unique": true,
+          "fresh_inner_inventory_entries": 55,
+          "fresh_required_payloads": [
+            {
+              "member": "myanmar-v1.html",
+              "path": "preview/myanmar-v1/myanmar-v1.html",
+              "sha256": "35b7b40ff569c9cc50cc8fb2a429caa56356a5cea7e999a0381743a814a9ccc5"
+            },
+            {
+              "member": "myanmar.blend",
+              "path": "preview/myanmar-v1/myanmar.blend",
+              "sha256": "ef9deb0d6f3fb506b1280d0d50f6a24eebea840766d4782b20407918894713df"
+            },
+            {
+              "member": "myanmar.glb",
+              "path": "preview/myanmar-v1/myanmar.glb",
+              "sha256": "5479059754e1bb767e4840c25bc8cb2b94bbb804abee4361b1e38067930ca20d"
+            }
+          ],
+          "inventory_checked": true,
+          "inventory_entries": 55,
+          "inventory_mismatches": [],
+          "kind": "git",
+          "path": "preview/myanmar-v1/myanmar-v1-source.zip",
+          "required_payloads": {
+            "myanmar-v1.html": true,
+            "myanmar.blend": true,
+            "myanmar.glb": true
+          },
+          "safe_unique_paths": true,
+          "sha256": "9b898485a46743bb9d11918df6584a57d56a0bd4739a271b798668070c9b7c08"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 632251,
+          "commit": "3f797b71ad7d658f7b2e5907066173684d614b1e",
+          "path": "preview/myanmar-v1/myanmar.blend",
+          "role": "selected-model",
+          "sha256": "ef9deb0d6f3fb506b1280d0d50f6a24eebea840766d4782b20407918894713df"
+        },
+        {
+          "bytes": 1672672,
+          "commit": "3f797b71ad7d658f7b2e5907066173684d614b1e",
+          "path": "preview/myanmar-v1/myanmar.glb",
+          "role": "selected-model",
+          "sha256": "5479059754e1bb767e4840c25bc8cb2b94bbb804abee4361b1e38067930ca20d",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 59,
+            "nodes": 61
+          }
+        }
+      ],
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 3040969,
+        "commit": "3f797b71ad7d658f7b2e5907066173684d614b1e",
+        "path": "preview/myanmar-v1/myanmar-v1.html",
+        "sha256": "35b7b40ff569c9cc50cc8fb2a429caa56356a5cea7e999a0381743a814a9ccc5",
+        "under_5000000": true
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Myanmar",
+    "package_history": [
+      {
+        "bytes": 6123548,
+        "commit": "3f797b71ad7d658f7b2e5907066173684d614b1e",
+        "crc_error": null,
+        "entries": 56,
+        "inventory_checked": true,
+        "inventory_entries": 55,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/myanmar-v1/myanmar-v1-source.zip",
+        "required_payloads": {
+          "myanmar-v1.html": true,
+          "myanmar.blend": true,
+          "myanmar.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "9b898485a46743bb9d11918df6584a57d56a0bd4739a271b798668070c9b7c08"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "3f797b71ad7d658f7b2e5907066173684d614b1e",
+      "fetched_tip": "3f797b71ad7d658f7b2e5907066173684d614b1e",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/myanmar-v1"
+    },
+    "verdict": "candidate-with-limitations",
+    "viewer": {
+      "bytes": 3040969,
+      "commit": "3f797b71ad7d658f7b2e5907066173684d614b1e",
+      "path": "preview/myanmar-v1/myanmar-v1.html",
+      "sha256": "35b7b40ff569c9cc50cc8fb2a429caa56356a5cea7e999a0381743a814a9ccc5",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "myanmar",
+    "baseline_verdict": "candidate-with-limitations",
+    "actions": [
+      "remaining ordinary finish inspection; do not edit promotional-only differences or infer broken model"
+    ],
+    "approval": false,
+    "original_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "capture_base": "parent/",
+      "captures": [
+        "smoke/myanmar/desktop-closed.png",
+        "smoke/myanmar/desktop-open.png",
+        "smoke/myanmar/mobile-closed.png",
+        "smoke/myanmar/mobile-open.png"
+      ],
+      "critical_reproducible_failures": [],
+      "final_approval": false,
+      "fresh_checks": {
+        "blender_parity_collision": false,
+        "fallback": false,
+        "full_inner_archive_inventories": true,
+        "motion": false,
+        "original_captures_and_marketing_inspected": true,
+        "runtime": false,
+        "source_and_delivered_viewer_hashes": true,
+        "source_archive_crc_safe_paths_required_payloads": true
+      },
+      "historical_runtime": {
+        "browser": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.046000107191503,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.24000000953674316,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1672672,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 4,
+              "meshes": 59,
+              "nonfinite": 0,
+              "triangles": 18312
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "myanmar",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "35b7b40ff569c9cc50cc8fb2a429caa56356a5cea7e999a0381743a814a9ccc5"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.046000107191503,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.24000000953674316,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1672672,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 4,
+              "meshes": 59,
+              "nonfinite": 0,
+              "triangles": 18312
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "myanmar",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "35b7b40ff569c9cc50cc8fb2a429caa56356a5cea7e999a0381743a814a9ccc5"
+          }
+        ],
+        "extended": {
+          "geometry": {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.046000107191503,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.24000000953674316,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 1672672,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 4,
+              "meshes": 59,
+              "nonfinite": 0,
+              "triangles": 18312
+            },
+            "meshes": 59,
+            "nonfinite": 0,
+            "triangles": 18312
+          },
+          "id": "myanmar",
+          "no_js_poster": true
+        },
+        "motion": {
+          "exit_code": 0,
+          "id": "myanmar",
+          "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+          "source": [
+            {
+              "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+              "path": "preview/albania-v1/tests.mjs",
+              "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+            },
+            {
+              "commit": "3f797b71ad7d658f7b2e5907066173684d614b1e",
+              "path": "preview/myanmar-v1/motion.mjs",
+              "sha256": "2a348dd5ebcd4432cb3eb3b661b6228f9c60cb9db291b8e141c1ea65c9b2c98d"
+            }
+          ]
+        },
+        "parent_commit": "431e51ffb5a8704b5f8f8b11694d28befae18402"
+      },
+      "id": "myanmar",
+      "independent_visual": {
+        "assessment": {
+          "concrete_defects": [
+            "The candidate lacks the illustration's broad pale lid reflections; lacquer reads comparatively matte and the mobile lid can look reddish/wood-like.",
+            "Thin vermilion linework crowds and terminates abruptly at the front-left corner and trim boundaries; fine lines and medallion detail alias at mobile size.",
+            "Dark lower body and feet merge with the background/shadow, reducing construction readability; brass fittings are blockier and flatter in highlight than the illustration."
+          ],
+          "id": "myanmar",
+          "inspected_paths": [
+            "parent/smoke/myanmar/desktop-closed.png",
+            "parent/smoke/myanmar/desktop-open.png",
+            "parent/smoke/myanmar/mobile-closed.png",
+            "parent/smoke/myanmar/mobile-open.png",
+            "parent/sources/myanmar/marketing.webp"
+          ],
+          "limitations": [
+            "All five original images inspected; normal-size theme/material comparison, not hyperrealism or cultural-authenticity certification.",
+            "Lighting/framing differ from the illustration; a weaker visible lacquer highlight is a rendered appearance observation, not proof of incorrect shader settings.",
+            "Static frames cannot establish hidden collisions, intermediate motion, or control operation. No art approval or changes."
+          ],
+          "observations": "Black/vermilion palette, double-diamond pattern, circular lid emblem and brass hardware preserve the illustrated identity despite the finish gap. Both open poses fit fully in frame with a readable red cavity and no obvious major missing panel.",
+          "verdict": "candidate-with-limitations"
+        },
+        "report": "visual-c.json"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-08 review"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 84850,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          960
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/myanmar.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            960
+          ],
+          "provider": "xai",
+          "reviewNotes": "Correction restores pale lid field; single medallion retained, red linework and relief differ.",
+          "reviewStatus": "reviewed_with_limitations",
+          "sha256": "cec26146235d329ed9633132c3d689e2b8cf486346fa28301233d4a6a0d22321",
+          "source": "assets/gallery/myanmar.webp",
+          "sourceSha256": "00f9f372b478096b77de779ac8203af0cddf5ea56fcbe7e94a868e6b72c8a574",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "faa9f998e056bad0b510262ef2a99b2a32a5d083ceab78237e733bcacb5f1b4c"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_verdict": "pass",
+      "parent_visual": {
+        "decision": "Pass only as bounded decorative candidate with clearly disclosed lacquer/reflection and linework readability gaps. Marketing surface polish is not equivalent to runtime. No final user approval.",
+        "hardware": "Clasp, separate front disk, ring pull, corner caps and lid oval retain marketing configuration. Open rear hinges and released latch read consistently with normal opening. Small hardware details unresolved, not proof of failure.",
+        "limitations": "Read README/research brief: colour-mapped linework evokes incision without modeled grooves; invented pattern, no traditional motif authentication, bamboo substrate or handmade claim. No photorealism or final human approval; static views cannot establish mechanism performance.",
+        "quality": "Readable black/vermilion/brass composition in all desktop/mobile states; raised lid, cavity and feet are fully framed.",
+        "terrain": "No geographic terrain intended. Low red oval ornament with concentric brass rings remains present on closed lid; fine rings compress at mobile size. No temple or other landscape omission is inferred.",
+        "texture": "Runtime preserves nested red diamonds on black panels but has warmer, streakier lid shading and weaker lacquer depth/reflections than the glossy marketing image. Busy procedural joins and crowded/jagged mobile lines remain visible. Marketing broad pale lid reflection is not reproduced in the browser lighting; images are not calibrated."
+      },
+      "parent_visual_hold_preserved": false,
+      "reviewed_image_hashes": [
+        {
+          "bytes": 333142,
+          "path": "smoke/myanmar/desktop-closed.png",
+          "sha256": "e104b3a18fe68cef1563b36bb536b9ffd728efa3f77fa5cdda98dd94d44ed070"
+        },
+        {
+          "bytes": 358713,
+          "path": "smoke/myanmar/desktop-open.png",
+          "sha256": "b801d272d0ac046021448dd41e6a5fb94e21fb8c57f3e161c24e4d8268727589"
+        },
+        {
+          "bytes": 116623,
+          "path": "smoke/myanmar/mobile-closed.png",
+          "sha256": "7808036b3713de944ca4a400b311e15d85c57db65838b421cb8b5c5623e90901"
+        },
+        {
+          "bytes": 126277,
+          "path": "smoke/myanmar/mobile-open.png",
+          "sha256": "ddcba9d6bb17d188f1177f261a35364569289fdf6256251423be831cf42b0edf"
+        },
+        {
+          "bytes": 84850,
+          "path": "sources/myanmar/marketing.webp",
+          "sha256": "faa9f998e056bad0b510262ef2a99b2a32a5d083ceab78237e733bcacb5f1b4c"
+        }
+      ],
+      "selection": {
+        "commit": "3f797b71ad7d658f7b2e5907066173684d614b1e",
+        "fetched_tip": "3f797b71ad7d658f7b2e5907066173684d614b1e",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/myanmar-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 6123548,
+          "commit": "3f797b71ad7d658f7b2e5907066173684d614b1e",
+          "crc_error": null,
+          "entries": 56,
+          "fresh_crc_safe_unique": true,
+          "fresh_inner_inventory_entries": 55,
+          "fresh_required_payloads": [
+            {
+              "member": "myanmar-v1.html",
+              "path": "preview/myanmar-v1/myanmar-v1.html",
+              "sha256": "35b7b40ff569c9cc50cc8fb2a429caa56356a5cea7e999a0381743a814a9ccc5"
+            },
+            {
+              "member": "myanmar.blend",
+              "path": "preview/myanmar-v1/myanmar.blend",
+              "sha256": "ef9deb0d6f3fb506b1280d0d50f6a24eebea840766d4782b20407918894713df"
+            },
+            {
+              "member": "myanmar.glb",
+              "path": "preview/myanmar-v1/myanmar.glb",
+              "sha256": "5479059754e1bb767e4840c25bc8cb2b94bbb804abee4361b1e38067930ca20d"
+            }
+          ],
+          "inventory_checked": true,
+          "inventory_entries": 55,
+          "inventory_mismatches": [],
+          "kind": "git",
+          "path": "preview/myanmar-v1/myanmar-v1-source.zip",
+          "required_payloads": {
+            "myanmar-v1.html": true,
+            "myanmar.blend": true,
+            "myanmar.glb": true
+          },
+          "safe_unique_paths": true,
+          "sha256": "9b898485a46743bb9d11918df6584a57d56a0bd4739a271b798668070c9b7c08"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 632251,
+          "commit": "3f797b71ad7d658f7b2e5907066173684d614b1e",
+          "path": "preview/myanmar-v1/myanmar.blend",
+          "role": "selected-model",
+          "sha256": "ef9deb0d6f3fb506b1280d0d50f6a24eebea840766d4782b20407918894713df"
+        },
+        {
+          "bytes": 1672672,
+          "commit": "3f797b71ad7d658f7b2e5907066173684d614b1e",
+          "path": "preview/myanmar-v1/myanmar.glb",
+          "role": "selected-model",
+          "sha256": "5479059754e1bb767e4840c25bc8cb2b94bbb804abee4361b1e38067930ca20d",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 59,
+            "nodes": 61
+          }
+        }
+      ],
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 3040969,
+        "commit": "3f797b71ad7d658f7b2e5907066173684d614b1e",
+        "path": "preview/myanmar-v1/myanmar-v1.html",
+        "sha256": "35b7b40ff569c9cc50cc8fb2a429caa56356a5cea7e999a0381743a814a9ccc5",
+        "under_5000000": true
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 6123548,
+        "commit": "3f797b71ad7d658f7b2e5907066173684d614b1e",
+        "crc_error": null,
+        "entries": 56,
+        "inventory_checked": true,
+        "inventory_entries": 55,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/myanmar-v1/myanmar-v1-source.zip",
+        "required_payloads": {
+          "myanmar-v1.html": true,
+          "myanmar.blend": true,
+          "myanmar.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "9b898485a46743bb9d11918df6584a57d56a0bd4739a271b798668070c9b7c08"
+      }
+    ]
+  },
+  "ordinary_record": {
+    "id": "myanmar",
+    "disposition": "unchanged-with-explicit-limitations",
+    "correction_passes": 0,
+    "model_geometry_changed": false,
+    "final_approved": false,
+    "launch_ready": false,
+    "original_observations": [
+      "The candidate lacks the illustration's broad pale lid reflections; lacquer reads comparatively matte and the mobile lid can look reddish/wood-like.",
+      "Thin vermilion linework crowds and terminates abruptly at the front-left corner and trim boundaries; fine lines and medallion detail alias at mobile size.",
+      "Dark lower body and feet merge with the background/shadow, reducing construction readability; brass fittings are blockier and flatter in highlight than the illustration."
+    ],
+    "independent_adjudication": {
+      "id": "myanmar",
+      "disposition": "no-edit",
+      "observation": "Dense red diamond/parallel-line ornament stays consistent in all states. Small fittings and circular ornaments are angular; lid-mounted latch projects upward when open.",
+      "rationale": "Neither geometry simplification nor dense intentional ornament establishes broken finish. Promotional gloss/reflections and finer detailing are separate art direction.",
+      "bounded_recommendation": "Keep model, lacquer materials and pattern. Investigate texture sampling only if native moving views reproduce distracting line crawl; none established here.",
+      "supersampling": "No permanent change recommended; would not repair polygonal fittings or reproduce promotional reflections."
+    },
+    "unresolved_owner_holds": [
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "inherited_holds": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization",
+      "independent QA-ART-08 review"
+    ],
+    "original_review_preserved_in": "baseline.json",
+    "fresh_runtime": {
+      "id": "myanmar",
+      "exit_code": 0,
+      "shared_contract": "Bangladesh renderer-independent interaction assertions; no fresh source/collision claim",
+      "results": "launch\\ordinary-finish-20\\runtime\\myanmar\\browser-check.json"
+    },
+    "fresh_source_archive": {
+      "id": "myanmar",
+      "archives": [
+        {
+          "archive": {
+            "bytes": 6123548,
+            "commit": "3f797b71ad7d658f7b2e5907066173684d614b1e",
+            "crc_error": null,
+            "entries": 56,
+            "fresh_crc_safe_unique": true,
+            "fresh_inner_inventory_entries": 55,
+            "fresh_required_payloads": [
+              {
+                "member": "myanmar-v1.html",
+                "path": "preview/myanmar-v1/myanmar-v1.html",
+                "sha256": "35b7b40ff569c9cc50cc8fb2a429caa56356a5cea7e999a0381743a814a9ccc5"
+              },
+              {
+                "member": "myanmar.blend",
+                "path": "preview/myanmar-v1/myanmar.blend",
+                "sha256": "ef9deb0d6f3fb506b1280d0d50f6a24eebea840766d4782b20407918894713df"
+              },
+              {
+                "member": "myanmar.glb",
+                "path": "preview/myanmar-v1/myanmar.glb",
+                "sha256": "5479059754e1bb767e4840c25bc8cb2b94bbb804abee4361b1e38067930ca20d"
+              }
+            ],
+            "inventory_checked": true,
+            "inventory_entries": 55,
+            "inventory_mismatches": [],
+            "kind": "git",
+            "path": "preview/myanmar-v1/myanmar-v1-source.zip",
+            "required_payloads": {
+              "myanmar-v1.html": true,
+              "myanmar.blend": true,
+              "myanmar.glb": true
+            },
+            "safe_unique_paths": true,
+            "sha256": "9b898485a46743bb9d11918df6584a57d56a0bd4739a271b798668070c9b7c08"
+          },
+          "members": 56,
+          "fresh_inventory": {
+            "status": "pass",
+            "entries_checked": 55,
+            "uninventoried_members": [
+              "inventory.json"
+            ]
+          },
+          "exact_selected_payloads": [
+            "myanmar-v1.html",
+            "myanmar.blend",
+            "myanmar.glb"
+          ]
+        }
+      ],
+      "pass": true
+    },
+    "remaining_visual_limitations": "Neither geometry simplification nor dense intentional ornament establishes broken finish. Promotional gloss/reflections and finer detailing are separate art direction."
+  }
+}

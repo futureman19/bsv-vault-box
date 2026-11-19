@@ -1,0 +1,647 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 6,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 411111,
+        "role": "editable-source",
+        "sha256": "3921475ab2887bc53a8539fe119bf39135ea742738940b3f6d34115ece619219",
+        "source": {
+          "commit": "f1a8ff0ca062bb5614acfe6de4c4c4c14e0a4eaf",
+          "path": "preview/bahamas-v1/bahamas.blend"
+        },
+        "uri": "sha256:3921475ab2887bc53a8539fe119bf39135ea742738940b3f6d34115ece619219"
+      },
+      {
+        "bytes": 5068516,
+        "role": "historical-source-archive",
+        "sha256": "a832dcb89fd4e1d2d2bc975133b30bbc9d7070424e98d15feaa0300a01801f44",
+        "source": {
+          "commit": "f1a8ff0ca062bb5614acfe6de4c4c4c14e0a4eaf",
+          "kind": "git",
+          "path": "preview/bahamas-v1/bahamas-v1-source.zip"
+        },
+        "uri": "sha256:a832dcb89fd4e1d2d2bc975133b30bbc9d7070424e98d15feaa0300a01801f44"
+      },
+      {
+        "bytes": 1114028,
+        "role": "model",
+        "sha256": "829ec3e5ff2b588c6367cc1040e80250ff9f9063831ebfc76a38954052c08616",
+        "source": {
+          "commit": "f1a8ff0ca062bb5614acfe6de4c4c4c14e0a4eaf",
+          "path": "preview/bahamas-v1/bahamas.glb"
+        },
+        "uri": "sha256:829ec3e5ff2b588c6367cc1040e80250ff9f9063831ebfc76a38954052c08616"
+      },
+      {
+        "bytes": 32982,
+        "role": "promotional-illustration",
+        "sha256": "9ae34f402e40f63d639a8590872305fdcf01709bb72c078aca656a20856e3ad9",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/bahamas.webp"
+        },
+        "uri": "sha256:9ae34f402e40f63d639a8590872305fdcf01709bb72c078aca656a20856e3ad9"
+      },
+      {
+        "bytes": 3666,
+        "role": "research-brief",
+        "sha256": "90c31df997ede35f18b262d2efa733734804cd09e4b5afc4d11bb46fd2364404",
+        "source": {
+          "commit": "f1a8ff0ca062bb5614acfe6de4c4c4c14e0a4eaf",
+          "path": "preview/bahamas-v1/design-brief.md"
+        },
+        "uri": "sha256:90c31df997ede35f18b262d2efa733734804cd09e4b5afc4d11bb46fd2364404"
+      },
+      {
+        "bytes": 5788,
+        "role": "source-notice",
+        "sha256": "3a29babc3dfd95babe1afac488214df663382121ce4b59f180cf88c1f9f10e42",
+        "source": {
+          "commit": "f1a8ff0ca062bb5614acfe6de4c4c4c14e0a4eaf",
+          "path": "preview/bahamas-v1/README.md"
+        },
+        "uri": "sha256:3a29babc3dfd95babe1afac488214df663382121ce4b59f180cf88c1f9f10e42"
+      },
+      {
+        "bytes": 2240611,
+        "role": "viewer",
+        "sha256": "d963f36d76f1c46b9b8353617cac2be46c65c7adc68f43088b6c2377cc185933",
+        "source": {
+          "commit": "f1a8ff0ca062bb5614acfe6de4c4c4c14e0a4eaf",
+          "path": "preview/bahamas-v1/bahamas-v1.html"
+        },
+        "uri": "sha256:d963f36d76f1c46b9b8353617cac2be46c65c7adc68f43088b6c2377cc185933"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "bahamas",
+    "independent_review": {
+      "adjudication": "Candidate with disclosed finish limitations, not final user approval.",
+      "art_changed": false,
+      "critical_reproducible_defects": [],
+      "fresh_blender_reopen": false,
+      "fresh_browser": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.1740000247955322,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1114028,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 7,
+            "meshes": 60,
+            "nonfinite": 0,
+            "triangles": 15172
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "bahamas",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "d963f36d76f1c46b9b8353617cac2be46c65c7adc68f43088b6c2377cc185933"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.1740000247955322,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1114028,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 7,
+            "meshes": 60,
+            "nonfinite": 0,
+            "triangles": 15172
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "bahamas",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "d963f36d76f1c46b9b8353617cac2be46c65c7adc68f43088b6c2377cc185933"
+        }
+      ],
+      "fresh_collision_sampling": false,
+      "fresh_corrupt_glb_fallback": false,
+      "fresh_motion": {
+        "exit_code": 0,
+        "id": "bahamas",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "f1a8ff0ca062bb5614acfe6de4c4c4c14e0a4eaf",
+            "path": "preview/bahamas-v1/motion.mjs",
+            "sha256": "9d118549fcdc1ff1d1fd8ebb6c6eb8a7a0da7fef8f0ae65ca947335407e74f03"
+          }
+        ]
+      },
+      "fresh_nojs": false,
+      "id": "bahamas",
+      "independent_visual": {
+        "file": "visual-1.json",
+        "findings": {
+          "appearance": "Ivory rectangular coastal chest with gold clasp, round front fitting, side ring, pale sculpted feet, turquoise inset, raised pale-pink banks and a small dark oval blue-hole motif. Broad composition matches marketing.",
+          "approval": false,
+          "artistic_gaps": [
+            "Blue hole reads as a dark oval in the viewer versus a lighter, more shaded basin-like mark in marketing; image evidence does not prove missing depression geometry.",
+            "Body material is generic matte ivory rather than strongly tactile limestone; water is enamel-like and banks/feet are angular.",
+            "Marketing has softer sculptural shading and stronger grounding, not a fundamentally different chest shape."
+          ],
+          "confirmed_visual_defects": [],
+          "id": "bahamas",
+          "inspected": [
+            "parent/smoke/bahamas/desktop-closed.png",
+            "parent/smoke/bahamas/desktop-open.png",
+            "parent/smoke/bahamas/mobile-closed.png",
+            "parent/smoke/bahamas/mobile-open.png",
+            "parent/sources/bahamas/marketing.webp"
+          ],
+          "parent_hold_disposition": "Preserve blue-hole depth, opaque water, irregular-bank and material-polish limitations; do not reinterpret the shared teal seam as demonstrated malfunction.",
+          "recommendation": "candidate-with-limitations",
+          "state_observations": {
+            "desktop-closed": "Complete box visible. Pink terrain and feet look faceted; blue hole reads as a dark flat oval rather than perceptibly deep water. Teal lid/body seam is conspicuous.",
+            "desktop-open": "Empty pale cavity, plain ivory lid underside, two rear hinges, front fittings and left ring are visible and entirely framed.",
+            "mobile-closed": "Turquoise coastal palette remains legible, but feet, banks and small fittings soften into ambiguous low-detail forms. Blue-hole depth is especially weak. No cropping.",
+            "mobile-open": "Open cavity and complete lid/tab/feet fit. Pale corner blocks interrupt teal rim; hinge connection is visually discontinuous at this scale but not proven detached."
+          },
+          "suggested_next_step": "Present as a stylized coastal candidate, explicitly disclosing shallow visual depth and nonrealistic water.",
+          "uncertain_inspection_points": [
+            "Closed teal seam can resemble a gap, but the marketing also carries a turquoise seam; no failed closure can be concluded.",
+            "Rear hinge attachment cannot be resolved from the endpoint perspective."
+          ]
+        }
+      },
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 32982,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/bahamas.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "pass: two islands and oval retained; slightly saturated turquoise",
+          "reviewStatus": "reviewed_pass",
+          "sha256": "1ad0cfa5654e208f3b7bb19e8efdc693227bde1995aba69b6e13744ec8fbf598",
+          "source": "assets/gallery/bahamas.webp",
+          "sourceSha256": "a808a27f48289f5c99c2282e04539d1e06fcd597f88a55f7f40823c2fea3a970",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "9ae34f402e40f63d639a8590872305fdcf01709bb72c078aca656a20856e3ad9"
+      },
+      "original_capture_paths": [
+        "parent/smoke/bahamas/desktop-closed.png",
+        "parent/smoke/bahamas/desktop-open.png",
+        "parent/smoke/bahamas/mobile-closed.png",
+        "parent/smoke/bahamas/mobile-open.png"
+      ],
+      "packaging_hold": false,
+      "parent_decision": "Accept stylized candidate with blue-hole depth and material-polish caveats. Do not describe the obvious teal seam as a failed closure solely from these stills.",
+      "parent_missing_gates_preserved": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_quality": "Candidate visual pass: complete, consistently framed coastal box on desktop and mobile in both states. Marketing's more tactile body, sculptural shading and grounded lighting exceed the real-time finish, but the identifying composition remains recognizable.",
+      "parent_status": "pass",
+      "remaining_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-06 review"
+      ],
+      "selection": {
+        "commit": "f1a8ff0ca062bb5614acfe6de4c4c4c14e0a4eaf",
+        "fetched_tip": "f1a8ff0ca062bb5614acfe6de4c4c4c14e0a4eaf",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/bahamas-v1"
+      },
+      "source_archive_check": {
+        "archive": {
+          "bytes": 5068516,
+          "crc": "pass",
+          "entries": 54,
+          "mismatches": [],
+          "path": "preview/bahamas-v1/bahamas-v1-source.zip",
+          "required_payload_hashes": "pass",
+          "sha256": "a832dcb89fd4e1d2d2bc975133b30bbc9d7070424e98d15feaa0300a01801f44"
+        },
+        "id": "bahamas",
+        "internal_inventory": "pass",
+        "inventory_entries_checked": 53,
+        "selected_payload_match": "pass"
+      },
+      "source_archives": [
+        {
+          "bytes": 5068516,
+          "crc": "pass",
+          "entries": 54,
+          "mismatches": [],
+          "path": "preview/bahamas-v1/bahamas-v1-source.zip",
+          "required_payload_hashes": "pass",
+          "sha256": "a832dcb89fd4e1d2d2bc975133b30bbc9d7070424e98d15feaa0300a01801f44"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 411111,
+          "path": "preview/bahamas-v1/bahamas.blend",
+          "sha256": "3921475ab2887bc53a8539fe119bf39135ea742738940b3f6d34115ece619219"
+        },
+        {
+          "bytes": 1114028,
+          "path": "preview/bahamas-v1/bahamas.glb",
+          "sha256": "829ec3e5ff2b588c6367cc1040e80250ff9f9063831ebfc76a38954052c08616"
+        }
+      ],
+      "user_final_approved": false,
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 2240611,
+        "commit": "f1a8ff0ca062bb5614acfe6de4c4c4c14e0a4eaf",
+        "path": "preview/bahamas-v1/bahamas-v1.html",
+        "sha256": "d963f36d76f1c46b9b8353617cac2be46c65c7adc68f43088b6c2377cc185933",
+        "under_5000000": true
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Bahamas",
+    "package_history": [
+      {
+        "bytes": 5068516,
+        "commit": "f1a8ff0ca062bb5614acfe6de4c4c4c14e0a4eaf",
+        "crc_error": null,
+        "entries": 54,
+        "inventory_checked": true,
+        "inventory_entries": 53,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/bahamas-v1/bahamas-v1-source.zip",
+        "required_payloads": {
+          "bahamas-v1.html": true,
+          "bahamas.blend": true,
+          "bahamas.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "a832dcb89fd4e1d2d2bc975133b30bbc9d7070424e98d15feaa0300a01801f44"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "f1a8ff0ca062bb5614acfe6de4c4c4c14e0a4eaf",
+      "fetched_tip": "f1a8ff0ca062bb5614acfe6de4c4c4c14e0a4eaf",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/bahamas-v1"
+    },
+    "verdict": "candidate-with-limitations",
+    "viewer": {
+      "bytes": 2240611,
+      "commit": "f1a8ff0ca062bb5614acfe6de4c4c4c14e0a4eaf",
+      "path": "preview/bahamas-v1/bahamas-v1.html",
+      "sha256": "d963f36d76f1c46b9b8353617cac2be46c65c7adc68f43088b6c2377cc185933",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "bahamas",
+    "baseline_verdict": "candidate-with-limitations",
+    "actions": [
+      "owner art/finish acceptance; no proven runtime defect recorded; no autonomous redesign"
+    ],
+    "approval": false,
+    "original_review": {
+      "adjudication": "Candidate with disclosed finish limitations, not final user approval.",
+      "art_changed": false,
+      "critical_reproducible_defects": [],
+      "fresh_blender_reopen": false,
+      "fresh_browser": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.1740000247955322,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1114028,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 7,
+            "meshes": 60,
+            "nonfinite": 0,
+            "triangles": 15172
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "bahamas",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "d963f36d76f1c46b9b8353617cac2be46c65c7adc68f43088b6c2377cc185933"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.1740000247955322,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1114028,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 7,
+            "meshes": 60,
+            "nonfinite": 0,
+            "triangles": 15172
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "bahamas",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "d963f36d76f1c46b9b8353617cac2be46c65c7adc68f43088b6c2377cc185933"
+        }
+      ],
+      "fresh_collision_sampling": false,
+      "fresh_corrupt_glb_fallback": false,
+      "fresh_motion": {
+        "exit_code": 0,
+        "id": "bahamas",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "f1a8ff0ca062bb5614acfe6de4c4c4c14e0a4eaf",
+            "path": "preview/bahamas-v1/motion.mjs",
+            "sha256": "9d118549fcdc1ff1d1fd8ebb6c6eb8a7a0da7fef8f0ae65ca947335407e74f03"
+          }
+        ]
+      },
+      "fresh_nojs": false,
+      "id": "bahamas",
+      "independent_visual": {
+        "file": "visual-1.json",
+        "findings": {
+          "appearance": "Ivory rectangular coastal chest with gold clasp, round front fitting, side ring, pale sculpted feet, turquoise inset, raised pale-pink banks and a small dark oval blue-hole motif. Broad composition matches marketing.",
+          "approval": false,
+          "artistic_gaps": [
+            "Blue hole reads as a dark oval in the viewer versus a lighter, more shaded basin-like mark in marketing; image evidence does not prove missing depression geometry.",
+            "Body material is generic matte ivory rather than strongly tactile limestone; water is enamel-like and banks/feet are angular.",
+            "Marketing has softer sculptural shading and stronger grounding, not a fundamentally different chest shape."
+          ],
+          "confirmed_visual_defects": [],
+          "id": "bahamas",
+          "inspected": [
+            "parent/smoke/bahamas/desktop-closed.png",
+            "parent/smoke/bahamas/desktop-open.png",
+            "parent/smoke/bahamas/mobile-closed.png",
+            "parent/smoke/bahamas/mobile-open.png",
+            "parent/sources/bahamas/marketing.webp"
+          ],
+          "parent_hold_disposition": "Preserve blue-hole depth, opaque water, irregular-bank and material-polish limitations; do not reinterpret the shared teal seam as demonstrated malfunction.",
+          "recommendation": "candidate-with-limitations",
+          "state_observations": {
+            "desktop-closed": "Complete box visible. Pink terrain and feet look faceted; blue hole reads as a dark flat oval rather than perceptibly deep water. Teal lid/body seam is conspicuous.",
+            "desktop-open": "Empty pale cavity, plain ivory lid underside, two rear hinges, front fittings and left ring are visible and entirely framed.",
+            "mobile-closed": "Turquoise coastal palette remains legible, but feet, banks and small fittings soften into ambiguous low-detail forms. Blue-hole depth is especially weak. No cropping.",
+            "mobile-open": "Open cavity and complete lid/tab/feet fit. Pale corner blocks interrupt teal rim; hinge connection is visually discontinuous at this scale but not proven detached."
+          },
+          "suggested_next_step": "Present as a stylized coastal candidate, explicitly disclosing shallow visual depth and nonrealistic water.",
+          "uncertain_inspection_points": [
+            "Closed teal seam can resemble a gap, but the marketing also carries a turquoise seam; no failed closure can be concluded.",
+            "Rear hinge attachment cannot be resolved from the endpoint perspective."
+          ]
+        }
+      },
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 32982,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/bahamas.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "pass: two islands and oval retained; slightly saturated turquoise",
+          "reviewStatus": "reviewed_pass",
+          "sha256": "1ad0cfa5654e208f3b7bb19e8efdc693227bde1995aba69b6e13744ec8fbf598",
+          "source": "assets/gallery/bahamas.webp",
+          "sourceSha256": "a808a27f48289f5c99c2282e04539d1e06fcd597f88a55f7f40823c2fea3a970",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "9ae34f402e40f63d639a8590872305fdcf01709bb72c078aca656a20856e3ad9"
+      },
+      "original_capture_paths": [
+        "parent/smoke/bahamas/desktop-closed.png",
+        "parent/smoke/bahamas/desktop-open.png",
+        "parent/smoke/bahamas/mobile-closed.png",
+        "parent/smoke/bahamas/mobile-open.png"
+      ],
+      "packaging_hold": false,
+      "parent_decision": "Accept stylized candidate with blue-hole depth and material-polish caveats. Do not describe the obvious teal seam as a failed closure solely from these stills.",
+      "parent_missing_gates_preserved": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_quality": "Candidate visual pass: complete, consistently framed coastal box on desktop and mobile in both states. Marketing's more tactile body, sculptural shading and grounded lighting exceed the real-time finish, but the identifying composition remains recognizable.",
+      "parent_status": "pass",
+      "remaining_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-06 review"
+      ],
+      "selection": {
+        "commit": "f1a8ff0ca062bb5614acfe6de4c4c4c14e0a4eaf",
+        "fetched_tip": "f1a8ff0ca062bb5614acfe6de4c4c4c14e0a4eaf",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/bahamas-v1"
+      },
+      "source_archive_check": {
+        "archive": {
+          "bytes": 5068516,
+          "crc": "pass",
+          "entries": 54,
+          "mismatches": [],
+          "path": "preview/bahamas-v1/bahamas-v1-source.zip",
+          "required_payload_hashes": "pass",
+          "sha256": "a832dcb89fd4e1d2d2bc975133b30bbc9d7070424e98d15feaa0300a01801f44"
+        },
+        "id": "bahamas",
+        "internal_inventory": "pass",
+        "inventory_entries_checked": 53,
+        "selected_payload_match": "pass"
+      },
+      "source_archives": [
+        {
+          "bytes": 5068516,
+          "crc": "pass",
+          "entries": 54,
+          "mismatches": [],
+          "path": "preview/bahamas-v1/bahamas-v1-source.zip",
+          "required_payload_hashes": "pass",
+          "sha256": "a832dcb89fd4e1d2d2bc975133b30bbc9d7070424e98d15feaa0300a01801f44"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 411111,
+          "path": "preview/bahamas-v1/bahamas.blend",
+          "sha256": "3921475ab2887bc53a8539fe119bf39135ea742738940b3f6d34115ece619219"
+        },
+        {
+          "bytes": 1114028,
+          "path": "preview/bahamas-v1/bahamas.glb",
+          "sha256": "829ec3e5ff2b588c6367cc1040e80250ff9f9063831ebfc76a38954052c08616"
+        }
+      ],
+      "user_final_approved": false,
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 2240611,
+        "commit": "f1a8ff0ca062bb5614acfe6de4c4c4c14e0a4eaf",
+        "path": "preview/bahamas-v1/bahamas-v1.html",
+        "sha256": "d963f36d76f1c46b9b8353617cac2be46c65c7adc68f43088b6c2377cc185933",
+        "under_5000000": true
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 5068516,
+        "commit": "f1a8ff0ca062bb5614acfe6de4c4c4c14e0a4eaf",
+        "crc_error": null,
+        "entries": 54,
+        "inventory_checked": true,
+        "inventory_entries": 53,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/bahamas-v1/bahamas-v1-source.zip",
+        "required_payloads": {
+          "bahamas-v1.html": true,
+          "bahamas.blend": true,
+          "bahamas.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "a832dcb89fd4e1d2d2bc975133b30bbc9d7070424e98d15feaa0300a01801f44"
+      }
+    ]
+  }
+}

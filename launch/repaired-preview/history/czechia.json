@@ -1,0 +1,649 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 6,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 332939,
+        "role": "editable-source",
+        "sha256": "07046ada9a2ce8417480dd8ed2ee3ab17f900c02c29a5928b00f643c0ce797c4",
+        "source": {
+          "commit": "2057038e536b783e656d99f5d558e7d890c322ac",
+          "path": "preview/czechia-v1/czechia.blend"
+        },
+        "uri": "sha256:07046ada9a2ce8417480dd8ed2ee3ab17f900c02c29a5928b00f643c0ce797c4"
+      },
+      {
+        "bytes": 4375281,
+        "role": "historical-source-archive",
+        "sha256": "3976af3aa2602ed161f82cff0d9cad6544666573a5f1a5c1c271734da3164dab",
+        "source": {
+          "commit": "2057038e536b783e656d99f5d558e7d890c322ac",
+          "kind": "git",
+          "path": "preview/czechia-v1/czechia-v1-source.zip"
+        },
+        "uri": "sha256:3976af3aa2602ed161f82cff0d9cad6544666573a5f1a5c1c271734da3164dab"
+      },
+      {
+        "bytes": 1002740,
+        "role": "model",
+        "sha256": "96a9b832fcc20b97fc3a4eddd4d1d8a54a631cbac917230e8de442bd5e21f1ab",
+        "source": {
+          "commit": "2057038e536b783e656d99f5d558e7d890c322ac",
+          "path": "preview/czechia-v1/czechia.glb"
+        },
+        "uri": "sha256:96a9b832fcc20b97fc3a4eddd4d1d8a54a631cbac917230e8de442bd5e21f1ab"
+      },
+      {
+        "bytes": 69146,
+        "role": "promotional-illustration",
+        "sha256": "6053139efabf7afeadae4db5da534b906a34745e7b42a4a45089e909f3ef92ab",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/czechia.webp"
+        },
+        "uri": "sha256:6053139efabf7afeadae4db5da534b906a34745e7b42a4a45089e909f3ef92ab"
+      },
+      {
+        "bytes": 2251,
+        "role": "research-brief",
+        "sha256": "0706e47996c6ec42a6372d34e80181d7c767de8cfcd06e2daa4c96178ba292ce",
+        "source": {
+          "commit": "2057038e536b783e656d99f5d558e7d890c322ac",
+          "path": "preview/czechia-v1/design-brief.md"
+        },
+        "uri": "sha256:0706e47996c6ec42a6372d34e80181d7c767de8cfcd06e2daa4c96178ba292ce"
+      },
+      {
+        "bytes": 4257,
+        "role": "source-notice",
+        "sha256": "8f59abcaa406d39665915b66fd3e944e9ceac8c69bbe25d41b13afbed1d80771",
+        "source": {
+          "commit": "2057038e536b783e656d99f5d558e7d890c322ac",
+          "path": "preview/czechia-v1/README.md"
+        },
+        "uri": "sha256:8f59abcaa406d39665915b66fd3e944e9ceac8c69bbe25d41b13afbed1d80771"
+      },
+      {
+        "bytes": 2092763,
+        "role": "viewer",
+        "sha256": "4a78e82a6750db20106d24de2ce5a2fa1e71b4c976d589d88a1b9b6d75667fa3",
+        "source": {
+          "commit": "2057038e536b783e656d99f5d558e7d890c322ac",
+          "path": "preview/czechia-v1/czechia-v1.html"
+        },
+        "uri": "sha256:4a78e82a6750db20106d24de2ce5a2fa1e71b4c976d589d88a1b9b6d75667fa3"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "czechia",
+    "independent_review": {
+      "adjudication": "Candidate with disclosed finish limitations, not final user approval.",
+      "art_changed": false,
+      "critical_reproducible_defects": [],
+      "fresh_blender_reopen": false,
+      "fresh_browser": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.5199999809265137,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1002740,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 5,
+            "meshes": 64,
+            "nonfinite": 0,
+            "triangles": 14500
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "czechia",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "4a78e82a6750db20106d24de2ce5a2fa1e71b4c976d589d88a1b9b6d75667fa3"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.5199999809265137,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1002740,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 5,
+            "meshes": 64,
+            "nonfinite": 0,
+            "triangles": 14500
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "czechia",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "4a78e82a6750db20106d24de2ce5a2fa1e71b4c976d589d88a1b9b6d75667fa3"
+        }
+      ],
+      "fresh_collision_sampling": false,
+      "fresh_corrupt_glb_fallback": false,
+      "fresh_motion": {
+        "exit_code": 0,
+        "id": "czechia",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "2057038e536b783e656d99f5d558e7d890c322ac",
+            "path": "preview/czechia-v1/motion.mjs",
+            "sha256": "86bcdcce8a35078e818312ebce93220deacd8a33f038894d5dec469eaf7502d2"
+          }
+        ]
+      },
+      "fresh_nojs": false,
+      "id": "czechia",
+      "independent_visual": {
+        "file": "visual-2.json",
+        "findings": {
+          "artistic_fidelity_gaps": [
+            "Glass reads opaque and rock-like, with little optical sparkle or transparency. Importantly, the reference also uses opaque pale faceted ornaments: this is mainly a material-story limitation, not proof of lost reference glass transparency.",
+            "Reference's fine surface grain and brass highlights are simplified; feet and ornaments remain deliberately low-poly."
+          ],
+          "demonstrated_malfunctions": [],
+          "id": "czechia",
+          "inspected_files": [
+            "parent/sources/czechia/marketing.webp",
+            "parent/smoke/czechia/desktop-closed.png",
+            "parent/smoke/czechia/desktop-open.png",
+            "parent/smoke/czechia/mobile-closed.png",
+            "parent/smoke/czechia/mobile-open.png"
+          ],
+          "marketing_dimensions": [
+            1072,
+            960
+          ],
+          "reference_appearance": "Cobalt rectangular chest, pale opaque faceted central mound with smaller surrounding crystals, warm brass corner caps, long clasp, separate round disk, side ring, and squat irregular gray feet.",
+          "suggested_disposition": "candidate-with-limitations",
+          "user_review_focus": "Whether the faithful stylized blue/crystal silhouette is sufficient despite weak cut-glass material expression and coarse finish.",
+          "views": {
+            "desktop_closed": "Cobalt body and icy faceted lid ornaments preserve the reference silhouette and brass hardware hierarchy. Thick dark lid seam; softly mottled broad panels; whole model and controls fit.",
+            "desktop_open": "Blue underside and empty blue cavity are visible, with gray rim strips, two brass rear hinges and an upright lid clasp. Whole lid and feet remain in frame; Close lid label agrees with pose.",
+            "mobile_closed": "Same recognizable crystal cluster and cobalt/brass palette. Fine hardware and feet are coarse at phone scale. Heading wraps with Glass alone on the second line; no truncation.",
+            "mobile_open": "Open cavity, gray rim and projecting brass clasp remain legible and contained. Small edge stepping and abrupt rim corners are more conspicuous; controls remain separate from model."
+          },
+          "visible_concerns_not_proven_malfunctions": [
+            "Heavy closed seam and coarse rim junctions warrant another-angle inspection, but do not demonstrate a detached lid.",
+            "Small hardware and diagonal silhouettes have aliasing; capture resolution may contribute."
+          ]
+        }
+      },
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 69146,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          960
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/czechia.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            960
+          ],
+          "provider": "xai",
+          "reviewNotes": "Deeper blue lid",
+          "reviewStatus": "accepted",
+          "sha256": "11bf34aa7e7fadb489788b6287aee9d850c739464a01dc393a84c64532343d0b",
+          "source": "assets/gallery/czechia.webp",
+          "sourceSha256": "36e72c994f97d82fab694867bdec3407535a264d79f7fe528c7c4e0b2bd9daa5",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "6053139efabf7afeadae4db5da534b906a34745e7b42a4a45089e909f3ef92ab"
+      },
+      "original_capture_paths": [
+        "parent/smoke/czechia/desktop-closed.png",
+        "parent/smoke/czechia/desktop-open.png",
+        "parent/smoke/czechia/mobile-closed.png",
+        "parent/smoke/czechia/mobile-open.png"
+      ],
+      "packaging_hold": false,
+      "parent_decision": "Retain as a stylized candidate with the disclosed glass/material caveat. Promotional lighting/finish gap is not a proven model defect; pass is not user approval or mechanical certification.",
+      "parent_missing_gates_preserved": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_quality": "Candidate visual pass: coherent closed/open silhouette on desktop and mobile; complete model and controls fit. Exact marketing has richer lighting, brass highlights and contact shadows, but the opaque faceted ornament language and overall construction are retained. This is not photorealistic cut glass.",
+      "parent_status": "pass",
+      "remaining_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-06 review"
+      ],
+      "selection": {
+        "commit": "2057038e536b783e656d99f5d558e7d890c322ac",
+        "fetched_tip": "2057038e536b783e656d99f5d558e7d890c322ac",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/czechia-v1"
+      },
+      "source_archive_check": {
+        "archive": {
+          "bytes": 4375281,
+          "crc": "pass",
+          "entries": 50,
+          "mismatches": [],
+          "path": "preview/czechia-v1/czechia-v1-source.zip",
+          "required_payload_hashes": "pass",
+          "sha256": "3976af3aa2602ed161f82cff0d9cad6544666573a5f1a5c1c271734da3164dab"
+        },
+        "id": "czechia",
+        "internal_inventory": "pass",
+        "inventory_entries_checked": 49,
+        "selected_payload_match": "pass"
+      },
+      "source_archives": [
+        {
+          "bytes": 4375281,
+          "crc": "pass",
+          "entries": 50,
+          "mismatches": [],
+          "path": "preview/czechia-v1/czechia-v1-source.zip",
+          "required_payload_hashes": "pass",
+          "sha256": "3976af3aa2602ed161f82cff0d9cad6544666573a5f1a5c1c271734da3164dab"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 332939,
+          "path": "preview/czechia-v1/czechia.blend",
+          "sha256": "07046ada9a2ce8417480dd8ed2ee3ab17f900c02c29a5928b00f643c0ce797c4"
+        },
+        {
+          "bytes": 1002740,
+          "path": "preview/czechia-v1/czechia.glb",
+          "sha256": "96a9b832fcc20b97fc3a4eddd4d1d8a54a631cbac917230e8de442bd5e21f1ab"
+        }
+      ],
+      "user_final_approved": false,
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 2092763,
+        "commit": "2057038e536b783e656d99f5d558e7d890c322ac",
+        "path": "preview/czechia-v1/czechia-v1.html",
+        "sha256": "4a78e82a6750db20106d24de2ce5a2fa1e71b4c976d589d88a1b9b6d75667fa3",
+        "under_5000000": true
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Czechia",
+    "package_history": [
+      {
+        "bytes": 4375281,
+        "commit": "2057038e536b783e656d99f5d558e7d890c322ac",
+        "crc_error": null,
+        "entries": 50,
+        "inventory_checked": true,
+        "inventory_entries": 49,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/czechia-v1/czechia-v1-source.zip",
+        "required_payloads": {
+          "czechia-v1.html": true,
+          "czechia.blend": true,
+          "czechia.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "3976af3aa2602ed161f82cff0d9cad6544666573a5f1a5c1c271734da3164dab"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "2057038e536b783e656d99f5d558e7d890c322ac",
+      "fetched_tip": "2057038e536b783e656d99f5d558e7d890c322ac",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/czechia-v1"
+    },
+    "verdict": "candidate-with-limitations",
+    "viewer": {
+      "bytes": 2092763,
+      "commit": "2057038e536b783e656d99f5d558e7d890c322ac",
+      "path": "preview/czechia-v1/czechia-v1.html",
+      "sha256": "4a78e82a6750db20106d24de2ce5a2fa1e71b4c976d589d88a1b9b6d75667fa3",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "czechia",
+    "baseline_verdict": "candidate-with-limitations",
+    "actions": [
+      "owner art/finish acceptance; no proven runtime defect recorded; no autonomous redesign"
+    ],
+    "approval": false,
+    "original_review": {
+      "adjudication": "Candidate with disclosed finish limitations, not final user approval.",
+      "art_changed": false,
+      "critical_reproducible_defects": [],
+      "fresh_blender_reopen": false,
+      "fresh_browser": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.5199999809265137,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1002740,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 5,
+            "meshes": 64,
+            "nonfinite": 0,
+            "triangles": 14500
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "czechia",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "4a78e82a6750db20106d24de2ce5a2fa1e71b4c976d589d88a1b9b6d75667fa3"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.5199999809265137,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1002740,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 5,
+            "meshes": 64,
+            "nonfinite": 0,
+            "triangles": 14500
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "czechia",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "4a78e82a6750db20106d24de2ce5a2fa1e71b4c976d589d88a1b9b6d75667fa3"
+        }
+      ],
+      "fresh_collision_sampling": false,
+      "fresh_corrupt_glb_fallback": false,
+      "fresh_motion": {
+        "exit_code": 0,
+        "id": "czechia",
+        "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+        "source": [
+          {
+            "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+            "path": "preview/albania-v1/tests.mjs",
+            "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+          },
+          {
+            "commit": "2057038e536b783e656d99f5d558e7d890c322ac",
+            "path": "preview/czechia-v1/motion.mjs",
+            "sha256": "86bcdcce8a35078e818312ebce93220deacd8a33f038894d5dec469eaf7502d2"
+          }
+        ]
+      },
+      "fresh_nojs": false,
+      "id": "czechia",
+      "independent_visual": {
+        "file": "visual-2.json",
+        "findings": {
+          "artistic_fidelity_gaps": [
+            "Glass reads opaque and rock-like, with little optical sparkle or transparency. Importantly, the reference also uses opaque pale faceted ornaments: this is mainly a material-story limitation, not proof of lost reference glass transparency.",
+            "Reference's fine surface grain and brass highlights are simplified; feet and ornaments remain deliberately low-poly."
+          ],
+          "demonstrated_malfunctions": [],
+          "id": "czechia",
+          "inspected_files": [
+            "parent/sources/czechia/marketing.webp",
+            "parent/smoke/czechia/desktop-closed.png",
+            "parent/smoke/czechia/desktop-open.png",
+            "parent/smoke/czechia/mobile-closed.png",
+            "parent/smoke/czechia/mobile-open.png"
+          ],
+          "marketing_dimensions": [
+            1072,
+            960
+          ],
+          "reference_appearance": "Cobalt rectangular chest, pale opaque faceted central mound with smaller surrounding crystals, warm brass corner caps, long clasp, separate round disk, side ring, and squat irregular gray feet.",
+          "suggested_disposition": "candidate-with-limitations",
+          "user_review_focus": "Whether the faithful stylized blue/crystal silhouette is sufficient despite weak cut-glass material expression and coarse finish.",
+          "views": {
+            "desktop_closed": "Cobalt body and icy faceted lid ornaments preserve the reference silhouette and brass hardware hierarchy. Thick dark lid seam; softly mottled broad panels; whole model and controls fit.",
+            "desktop_open": "Blue underside and empty blue cavity are visible, with gray rim strips, two brass rear hinges and an upright lid clasp. Whole lid and feet remain in frame; Close lid label agrees with pose.",
+            "mobile_closed": "Same recognizable crystal cluster and cobalt/brass palette. Fine hardware and feet are coarse at phone scale. Heading wraps with Glass alone on the second line; no truncation.",
+            "mobile_open": "Open cavity, gray rim and projecting brass clasp remain legible and contained. Small edge stepping and abrupt rim corners are more conspicuous; controls remain separate from model."
+          },
+          "visible_concerns_not_proven_malfunctions": [
+            "Heavy closed seam and coarse rim junctions warrant another-angle inspection, but do not demonstrate a detached lid.",
+            "Small hardware and diagonal silhouettes have aliasing; capture resolution may contribute."
+          ]
+        }
+      },
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 69146,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          960
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/czechia.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            960
+          ],
+          "provider": "xai",
+          "reviewNotes": "Deeper blue lid",
+          "reviewStatus": "accepted",
+          "sha256": "11bf34aa7e7fadb489788b6287aee9d850c739464a01dc393a84c64532343d0b",
+          "source": "assets/gallery/czechia.webp",
+          "sourceSha256": "36e72c994f97d82fab694867bdec3407535a264d79f7fe528c7c4e0b2bd9daa5",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "6053139efabf7afeadae4db5da534b906a34745e7b42a4a45089e909f3ef92ab"
+      },
+      "original_capture_paths": [
+        "parent/smoke/czechia/desktop-closed.png",
+        "parent/smoke/czechia/desktop-open.png",
+        "parent/smoke/czechia/mobile-closed.png",
+        "parent/smoke/czechia/mobile-open.png"
+      ],
+      "packaging_hold": false,
+      "parent_decision": "Retain as a stylized candidate with the disclosed glass/material caveat. Promotional lighting/finish gap is not a proven model defect; pass is not user approval or mechanical certification.",
+      "parent_missing_gates_preserved": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_quality": "Candidate visual pass: coherent closed/open silhouette on desktop and mobile; complete model and controls fit. Exact marketing has richer lighting, brass highlights and contact shadows, but the opaque faceted ornament language and overall construction are retained. This is not photorealistic cut glass.",
+      "parent_status": "pass",
+      "remaining_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-06 review"
+      ],
+      "selection": {
+        "commit": "2057038e536b783e656d99f5d558e7d890c322ac",
+        "fetched_tip": "2057038e536b783e656d99f5d558e7d890c322ac",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/czechia-v1"
+      },
+      "source_archive_check": {
+        "archive": {
+          "bytes": 4375281,
+          "crc": "pass",
+          "entries": 50,
+          "mismatches": [],
+          "path": "preview/czechia-v1/czechia-v1-source.zip",
+          "required_payload_hashes": "pass",
+          "sha256": "3976af3aa2602ed161f82cff0d9cad6544666573a5f1a5c1c271734da3164dab"
+        },
+        "id": "czechia",
+        "internal_inventory": "pass",
+        "inventory_entries_checked": 49,
+        "selected_payload_match": "pass"
+      },
+      "source_archives": [
+        {
+          "bytes": 4375281,
+          "crc": "pass",
+          "entries": 50,
+          "mismatches": [],
+          "path": "preview/czechia-v1/czechia-v1-source.zip",
+          "required_payload_hashes": "pass",
+          "sha256": "3976af3aa2602ed161f82cff0d9cad6544666573a5f1a5c1c271734da3164dab"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 332939,
+          "path": "preview/czechia-v1/czechia.blend",
+          "sha256": "07046ada9a2ce8417480dd8ed2ee3ab17f900c02c29a5928b00f643c0ce797c4"
+        },
+        {
+          "bytes": 1002740,
+          "path": "preview/czechia-v1/czechia.glb",
+          "sha256": "96a9b832fcc20b97fc3a4eddd4d1d8a54a631cbac917230e8de442bd5e21f1ab"
+        }
+      ],
+      "user_final_approved": false,
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 2092763,
+        "commit": "2057038e536b783e656d99f5d558e7d890c322ac",
+        "path": "preview/czechia-v1/czechia-v1.html",
+        "sha256": "4a78e82a6750db20106d24de2ce5a2fa1e71b4c976d589d88a1b9b6d75667fa3",
+        "under_5000000": true
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 4375281,
+        "commit": "2057038e536b783e656d99f5d558e7d890c322ac",
+        "crc_error": null,
+        "entries": 50,
+        "inventory_checked": true,
+        "inventory_entries": 49,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/czechia-v1/czechia-v1-source.zip",
+        "required_payloads": {
+          "czechia-v1.html": true,
+          "czechia.blend": true,
+          "czechia.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "3976af3aa2602ed161f82cff0d9cad6544666573a5f1a5c1c271734da3164dab"
+      }
+    ]
+  }
+}

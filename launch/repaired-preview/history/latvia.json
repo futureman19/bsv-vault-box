@@ -1,0 +1,853 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 7,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 767439,
+        "role": "editable-source",
+        "sha256": "101d9cc3c5f54128419cc252a8595ab4bdbf2ef0704c422715ed399815e98f83",
+        "source": {
+          "commit": "06c7ddbd46cba6903fe6c6567608e2a663554da9",
+          "path": "preview/latvia-v1/latvia.blend"
+        },
+        "uri": "sha256:101d9cc3c5f54128419cc252a8595ab4bdbf2ef0704c422715ed399815e98f83"
+      },
+      {
+        "bytes": 6201683,
+        "role": "historical-source-archive",
+        "sha256": "b9177dff2d266082e36e08ee41915fbce7e0d5ba5f0c2f83234958f24b54d6c9",
+        "source": {
+          "commit": "06c7ddbd46cba6903fe6c6567608e2a663554da9",
+          "kind": "git",
+          "path": "preview/latvia-v1/latvia-v1-source.zip"
+        },
+        "uri": "sha256:b9177dff2d266082e36e08ee41915fbce7e0d5ba5f0c2f83234958f24b54d6c9"
+      },
+      {
+        "bytes": 2407672,
+        "role": "model",
+        "sha256": "ec849dc6da39861bbe7c33730b9625aa2458b875ab6878a19c76303b9e55c875",
+        "source": {
+          "commit": "06c7ddbd46cba6903fe6c6567608e2a663554da9",
+          "path": "preview/latvia-v1/latvia.glb"
+        },
+        "uri": "sha256:ec849dc6da39861bbe7c33730b9625aa2458b875ab6878a19c76303b9e55c875"
+      },
+      {
+        "bytes": 77828,
+        "role": "promotional-illustration",
+        "sha256": "19ab5cc9d629df9fa85ba9ccd378d72dec74b1c8a6a7e5c83022388eee8b96c8",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/latvia.webp"
+        },
+        "uri": "sha256:19ab5cc9d629df9fa85ba9ccd378d72dec74b1c8a6a7e5c83022388eee8b96c8"
+      },
+      {
+        "bytes": 3044,
+        "role": "research-brief",
+        "sha256": "0af72795a3df40444f3361d357c42f762d273ee57aa6da0eac0a81bfd4969252",
+        "source": {
+          "commit": "06c7ddbd46cba6903fe6c6567608e2a663554da9",
+          "path": "preview/latvia-v1/design-brief.md"
+        },
+        "uri": "sha256:0af72795a3df40444f3361d357c42f762d273ee57aa6da0eac0a81bfd4969252"
+      },
+      {
+        "bytes": 5338,
+        "role": "source-notice",
+        "sha256": "f10e453f866e068552429ee2078a54618e0001a8aba1ceb0afa053e357d2b183",
+        "source": {
+          "commit": "06c7ddbd46cba6903fe6c6567608e2a663554da9",
+          "path": "preview/latvia-v1/README.md"
+        },
+        "uri": "sha256:f10e453f866e068552429ee2078a54618e0001a8aba1ceb0afa053e357d2b183"
+      },
+      {
+        "bytes": 3979743,
+        "role": "viewer",
+        "sha256": "3e5399fc0bc061d6663b3a47ca8065920e97150a222482bef9b6384c1a9dfa45",
+        "source": {
+          "commit": "06c7ddbd46cba6903fe6c6567608e2a663554da9",
+          "path": "preview/latvia-v1/latvia-v1.html"
+        },
+        "uri": "sha256:3e5399fc0bc061d6663b3a47ca8065920e97150a222482bef9b6384c1a9dfa45"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "latvia",
+    "independent_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "capture_base": "parent/",
+      "captures": [
+        {
+          "bytes": 313321,
+          "path": "smoke/latvia/desktop-closed.png",
+          "sha256": "2f0530db474b30524385150466df358cab615c178259dfe040205ebe66e07487",
+          "viewer_sha256": "3e5399fc0bc061d6663b3a47ca8065920e97150a222482bef9b6384c1a9dfa45"
+        },
+        {
+          "bytes": 325196,
+          "path": "smoke/latvia/desktop-open.png",
+          "sha256": "4ada6d82844fc28a7b8f33696c244b8d0b7a9364aca16c5e28aab97557f4dac4",
+          "viewer_sha256": "3e5399fc0bc061d6663b3a47ca8065920e97150a222482bef9b6384c1a9dfa45"
+        },
+        {
+          "bytes": 103652,
+          "path": "smoke/latvia/mobile-closed.png",
+          "sha256": "bd8da67ff58c777f0a8f638e4be14dad5b064503c6dad0276192c8fc83375d6e",
+          "viewer_sha256": "3e5399fc0bc061d6663b3a47ca8065920e97150a222482bef9b6384c1a9dfa45"
+        },
+        {
+          "bytes": 103581,
+          "path": "smoke/latvia/mobile-open.png",
+          "sha256": "403e541846de89144f6820d00a175e0d5bd79827e590f6a245745363702c03cd",
+          "viewer_sha256": "3e5399fc0bc061d6663b3a47ca8065920e97150a222482bef9b6384c1a9dfa45"
+        }
+      ],
+      "critical_reproducible_failures": [],
+      "final_approval": false,
+      "fresh_checks": {
+        "blender_parity_collision": false,
+        "fallback": false,
+        "full_inner_archive_inventories": false,
+        "motion": false,
+        "original_captures_and_marketing_inspected": true,
+        "runtime": false,
+        "source_and_delivered_viewer_hashes": true,
+        "source_archive_crc_safe_paths_required_payloads": true
+      },
+      "historical_runtime": {
+        "browser": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.865999988745898,
+                  2.1550000831484795,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 2407672,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 7,
+              "meshes": 134,
+              "nonfinite": 0,
+              "triangles": 29724
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "latvia",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "3e5399fc0bc061d6663b3a47ca8065920e97150a222482bef9b6384c1a9dfa45"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.865999988745898,
+                  2.1550000831484795,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 2407672,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 7,
+              "meshes": 134,
+              "nonfinite": 0,
+              "triangles": 29724
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "latvia",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "3e5399fc0bc061d6663b3a47ca8065920e97150a222482bef9b6384c1a9dfa45"
+          }
+        ],
+        "extended": {
+          "geometry": {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.865999988745898,
+                  2.1550000831484795,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 2407672,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 7,
+              "meshes": 134,
+              "nonfinite": 0,
+              "triangles": 29724
+            },
+            "meshes": 134,
+            "nonfinite": 0,
+            "triangles": 29724
+          },
+          "id": "latvia",
+          "no_js_poster": true
+        },
+        "motion": {
+          "exit_code": 0,
+          "id": "latvia",
+          "passed": true,
+          "scope": "original motion unit assertions; not fresh collision/source parity"
+        },
+        "parent_commit": "0a99711872c208041b6602f0462675cd1b1a0d0c"
+      },
+      "id": "latvia",
+      "independent_visual": {
+        "assessment": {
+          "defects": [],
+          "id": "latvia",
+          "limitations": [
+            "Linen reads as a rigid insert and weave is unresolved at mobile scale.",
+            "Amber is opaque and stylized; promotional versus runtime hue/gloss differs without indicating malfunction.",
+            "Dark closed seam reads raised; documented design concern rather than demonstrated bad closure.",
+            "Front-open view hides lid ornament and small contact details."
+          ],
+          "observations": [
+            {
+              "image": "parent/sources/latvia/marketing.webp",
+              "observation": "Light wood and dark finger joints frame a smooth ivory panel with burgundy stripes and three peach-orange domes on square brass settings. Stone-like feet and gold fittings; polished presentation."
+            },
+            {
+              "image": "parent/smoke/latvia/desktop-closed.png",
+              "observation": "Cream/carmine panel and three honey-yellow domes read clearly. Weave is not convincingly resolved and domes are more opaque/yellow than promotional peach gloss. Pronounced dark closed seam; full silhouette visible."
+            },
+            {
+              "image": "parent/smoke/latvia/desktop-open.png",
+              "observation": "Plain warm wood lid underside and empty cavity, rear hinge fittings, front hardware and raised tab are visible. Ornaments face away naturally. All parts fit without cropping."
+            },
+            {
+              "image": "parent/smoke/latvia/mobile-closed.png",
+              "observation": "Three ornaments and cream/red panel remain distinguishable. Seam stays dark and conspicuous; fine textile detail disappears. Model, title and both controls fit without overlap."
+            },
+            {
+              "image": "parent/smoke/latvia/mobile-open.png",
+              "observation": "Open cavity and two rear fittings remain legible, floor partly obscured. Small fittings have coarse edges; no obvious detached part or UI clipping."
+            }
+          ],
+          "rationale": "Core panel/three-cabochon motif survives both viewport sizes and all poses are fully framed; limitations are disclosed and no unmistakable visual failure is shown.",
+          "readme_context": "Invented cream/carmine linen-inspired motif, three deliberately opaque amber cabochons; weave resolution, rigid insert appearance and conspicuous seam disclosed. No original reference artwork existed during authoring.",
+          "recommendation": "candidate-with-limitations",
+          "source_readme": "parent/sources/latvia/source_readme.md"
+        },
+        "report": "visual-c.json"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 77828,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/latvia.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "Wood joinery, two red stripes and three gold domes retained.",
+          "reviewStatus": "accepted",
+          "sha256": "1c054ecfc61237d876d6b78f86ebd7a56fbd8c8d006bf9fee337887d4a1eda70",
+          "source": "assets/gallery/latvia.webp",
+          "sourceSha256": "0b67b07d51268c2a00b4f2e83c179bdebdbb7e27d0402a87522613cee5b4050f",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "19ab5cc9d629df9fa85ba9ccd378d72dec74b1c8a6a7e5c83022388eee8b96c8"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_verdict": "pass",
+      "parent_visual": {
+        "confirmed_geometry_defects": [],
+        "final_approval": false,
+        "hardware": "Front clasp, separate round fitting, side ring, corner caps and gray stone feet are present. Rear hinge sections are visible open; no obvious detached hardware. Broad dark closed seam is documented, not proof of broken closure.",
+        "id": "latvia",
+        "inspected_paths": [
+          "sources/latvia/marketing.webp",
+          "smoke/latvia/desktop-closed.png",
+          "smoke/latvia/desktop-open.png",
+          "smoke/latvia/mobile-closed.png",
+          "smoke/latvia/mobile-open.png"
+        ],
+        "limitations": [
+          "Cannot establish realistic amber translucency or woven fibers from these views.",
+          "Open view does not inspect exterior ornament attachments behind the lid."
+        ],
+        "mobile_open": "Entire model and controls fit both mobile poses. Closed mobile retains three ornaments and border; open views show plain wood cavity and lid underside. Exterior linen/amber faces away as documented, so its absence from the open front view is not a theme failure.",
+        "source_context_path": "sources/latvia/source_readme.md",
+        "terrain": "No landscape terrain expected: cream/carmine raised panel and three cabochons are the motif. All three domes are visible closed, including mobile; panel can read as a rigid insert.",
+        "texture": "Marketing has paler wood, peach glossy domes and softer satin metal. Runtime is warmer with opaque honey-yellow domes, repetitive grain and poorly resolved linen weave. Promotional finish differences do not establish missing geometry.",
+        "verdict": "pass"
+      },
+      "parent_visual_hold_preserved": false,
+      "selection": {
+        "commit": "06c7ddbd46cba6903fe6c6567608e2a663554da9",
+        "fetched_tip": "06c7ddbd46cba6903fe6c6567608e2a663554da9",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/latvia-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 6201683,
+          "commit": "06c7ddbd46cba6903fe6c6567608e2a663554da9",
+          "crc_error": null,
+          "entries": 55,
+          "fresh_crc_safe_unique": true,
+          "fresh_required_payloads": [
+            {
+              "member": "latvia-v1.html",
+              "path": "preview/latvia-v1/latvia-v1.html",
+              "sha256": "3e5399fc0bc061d6663b3a47ca8065920e97150a222482bef9b6384c1a9dfa45"
+            },
+            {
+              "member": "latvia.blend",
+              "path": "preview/latvia-v1/latvia.blend",
+              "sha256": "101d9cc3c5f54128419cc252a8595ab4bdbf2ef0704c422715ed399815e98f83"
+            },
+            {
+              "member": "latvia.glb",
+              "path": "preview/latvia-v1/latvia.glb",
+              "sha256": "ec849dc6da39861bbe7c33730b9625aa2458b875ab6878a19c76303b9e55c875"
+            }
+          ],
+          "full_inner_inventory_fresh": false,
+          "inventory_checked": true,
+          "inventory_entries": 54,
+          "inventory_mismatches": [],
+          "kind": "git",
+          "path": "preview/latvia-v1/latvia-v1-source.zip",
+          "required_payloads": {
+            "latvia-v1.html": true,
+            "latvia.blend": true,
+            "latvia.glb": true
+          },
+          "safe_unique_paths": true,
+          "sha256": "b9177dff2d266082e36e08ee41915fbce7e0d5ba5f0c2f83234958f24b54d6c9"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 767439,
+          "commit": "06c7ddbd46cba6903fe6c6567608e2a663554da9",
+          "path": "preview/latvia-v1/latvia.blend",
+          "role": "selected-model",
+          "sha256": "101d9cc3c5f54128419cc252a8595ab4bdbf2ef0704c422715ed399815e98f83"
+        },
+        {
+          "bytes": 2407672,
+          "commit": "06c7ddbd46cba6903fe6c6567608e2a663554da9",
+          "path": "preview/latvia-v1/latvia.glb",
+          "role": "selected-model",
+          "sha256": "ec849dc6da39861bbe7c33730b9625aa2458b875ab6878a19c76303b9e55c875",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 134,
+            "nodes": 136
+          }
+        }
+      ],
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 3979743,
+        "commit": "06c7ddbd46cba6903fe6c6567608e2a663554da9",
+        "path": "preview/latvia-v1/latvia-v1.html",
+        "sha256": "3e5399fc0bc061d6663b3a47ca8065920e97150a222482bef9b6384c1a9dfa45",
+        "under_5000000": true
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Latvia",
+    "package_history": [
+      {
+        "bytes": 6201683,
+        "commit": "06c7ddbd46cba6903fe6c6567608e2a663554da9",
+        "crc_error": null,
+        "entries": 55,
+        "inventory_checked": true,
+        "inventory_entries": 54,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/latvia-v1/latvia-v1-source.zip",
+        "required_payloads": {
+          "latvia-v1.html": true,
+          "latvia.blend": true,
+          "latvia.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "b9177dff2d266082e36e08ee41915fbce7e0d5ba5f0c2f83234958f24b54d6c9"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "06c7ddbd46cba6903fe6c6567608e2a663554da9",
+      "fetched_tip": "06c7ddbd46cba6903fe6c6567608e2a663554da9",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/latvia-v1"
+    },
+    "verdict": "candidate-with-limitations",
+    "viewer": {
+      "bytes": 3979743,
+      "commit": "06c7ddbd46cba6903fe6c6567608e2a663554da9",
+      "path": "preview/latvia-v1/latvia-v1.html",
+      "sha256": "3e5399fc0bc061d6663b3a47ca8065920e97150a222482bef9b6384c1a9dfa45",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "latvia",
+    "baseline_verdict": "candidate-with-limitations",
+    "actions": [
+      "owner art/finish acceptance; no proven runtime defect recorded; no autonomous redesign"
+    ],
+    "approval": false,
+    "original_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "capture_base": "parent/",
+      "captures": [
+        {
+          "bytes": 313321,
+          "path": "smoke/latvia/desktop-closed.png",
+          "sha256": "2f0530db474b30524385150466df358cab615c178259dfe040205ebe66e07487",
+          "viewer_sha256": "3e5399fc0bc061d6663b3a47ca8065920e97150a222482bef9b6384c1a9dfa45"
+        },
+        {
+          "bytes": 325196,
+          "path": "smoke/latvia/desktop-open.png",
+          "sha256": "4ada6d82844fc28a7b8f33696c244b8d0b7a9364aca16c5e28aab97557f4dac4",
+          "viewer_sha256": "3e5399fc0bc061d6663b3a47ca8065920e97150a222482bef9b6384c1a9dfa45"
+        },
+        {
+          "bytes": 103652,
+          "path": "smoke/latvia/mobile-closed.png",
+          "sha256": "bd8da67ff58c777f0a8f638e4be14dad5b064503c6dad0276192c8fc83375d6e",
+          "viewer_sha256": "3e5399fc0bc061d6663b3a47ca8065920e97150a222482bef9b6384c1a9dfa45"
+        },
+        {
+          "bytes": 103581,
+          "path": "smoke/latvia/mobile-open.png",
+          "sha256": "403e541846de89144f6820d00a175e0d5bd79827e590f6a245745363702c03cd",
+          "viewer_sha256": "3e5399fc0bc061d6663b3a47ca8065920e97150a222482bef9b6384c1a9dfa45"
+        }
+      ],
+      "critical_reproducible_failures": [],
+      "final_approval": false,
+      "fresh_checks": {
+        "blender_parity_collision": false,
+        "fallback": false,
+        "full_inner_archive_inventories": false,
+        "motion": false,
+        "original_captures_and_marketing_inspected": true,
+        "runtime": false,
+        "source_and_delivered_viewer_hashes": true,
+        "source_archive_crc_safe_paths_required_payloads": true
+      },
+      "historical_runtime": {
+        "browser": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.865999988745898,
+                  2.1550000831484795,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 2407672,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 7,
+              "meshes": 134,
+              "nonfinite": 0,
+              "triangles": 29724
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "latvia",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "3e5399fc0bc061d6663b3a47ca8065920e97150a222482bef9b6384c1a9dfa45"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.865999988745898,
+                  2.1550000831484795,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 2407672,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 7,
+              "meshes": 134,
+              "nonfinite": 0,
+              "triangles": 29724
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "latvia",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "3e5399fc0bc061d6663b3a47ca8065920e97150a222482bef9b6384c1a9dfa45"
+          }
+        ],
+        "extended": {
+          "geometry": {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.865999988745898,
+                  2.1550000831484795,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.30816949158906937,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 2407672,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 7,
+              "meshes": 134,
+              "nonfinite": 0,
+              "triangles": 29724
+            },
+            "meshes": 134,
+            "nonfinite": 0,
+            "triangles": 29724
+          },
+          "id": "latvia",
+          "no_js_poster": true
+        },
+        "motion": {
+          "exit_code": 0,
+          "id": "latvia",
+          "passed": true,
+          "scope": "original motion unit assertions; not fresh collision/source parity"
+        },
+        "parent_commit": "0a99711872c208041b6602f0462675cd1b1a0d0c"
+      },
+      "id": "latvia",
+      "independent_visual": {
+        "assessment": {
+          "defects": [],
+          "id": "latvia",
+          "limitations": [
+            "Linen reads as a rigid insert and weave is unresolved at mobile scale.",
+            "Amber is opaque and stylized; promotional versus runtime hue/gloss differs without indicating malfunction.",
+            "Dark closed seam reads raised; documented design concern rather than demonstrated bad closure.",
+            "Front-open view hides lid ornament and small contact details."
+          ],
+          "observations": [
+            {
+              "image": "parent/sources/latvia/marketing.webp",
+              "observation": "Light wood and dark finger joints frame a smooth ivory panel with burgundy stripes and three peach-orange domes on square brass settings. Stone-like feet and gold fittings; polished presentation."
+            },
+            {
+              "image": "parent/smoke/latvia/desktop-closed.png",
+              "observation": "Cream/carmine panel and three honey-yellow domes read clearly. Weave is not convincingly resolved and domes are more opaque/yellow than promotional peach gloss. Pronounced dark closed seam; full silhouette visible."
+            },
+            {
+              "image": "parent/smoke/latvia/desktop-open.png",
+              "observation": "Plain warm wood lid underside and empty cavity, rear hinge fittings, front hardware and raised tab are visible. Ornaments face away naturally. All parts fit without cropping."
+            },
+            {
+              "image": "parent/smoke/latvia/mobile-closed.png",
+              "observation": "Three ornaments and cream/red panel remain distinguishable. Seam stays dark and conspicuous; fine textile detail disappears. Model, title and both controls fit without overlap."
+            },
+            {
+              "image": "parent/smoke/latvia/mobile-open.png",
+              "observation": "Open cavity and two rear fittings remain legible, floor partly obscured. Small fittings have coarse edges; no obvious detached part or UI clipping."
+            }
+          ],
+          "rationale": "Core panel/three-cabochon motif survives both viewport sizes and all poses are fully framed; limitations are disclosed and no unmistakable visual failure is shown.",
+          "readme_context": "Invented cream/carmine linen-inspired motif, three deliberately opaque amber cabochons; weave resolution, rigid insert appearance and conspicuous seam disclosed. No original reference artwork existed during authoring.",
+          "recommendation": "candidate-with-limitations",
+          "source_readme": "parent/sources/latvia/source_readme.md"
+        },
+        "report": "visual-c.json"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 77828,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/latvia.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "Wood joinery, two red stripes and three gold domes retained.",
+          "reviewStatus": "accepted",
+          "sha256": "1c054ecfc61237d876d6b78f86ebd7a56fbd8c8d006bf9fee337887d4a1eda70",
+          "source": "assets/gallery/latvia.webp",
+          "sourceSha256": "0b67b07d51268c2a00b4f2e83c179bdebdbb7e27d0402a87522613cee5b4050f",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "19ab5cc9d629df9fa85ba9ccd378d72dec74b1c8a6a7e5c83022388eee8b96c8"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_verdict": "pass",
+      "parent_visual": {
+        "confirmed_geometry_defects": [],
+        "final_approval": false,
+        "hardware": "Front clasp, separate round fitting, side ring, corner caps and gray stone feet are present. Rear hinge sections are visible open; no obvious detached hardware. Broad dark closed seam is documented, not proof of broken closure.",
+        "id": "latvia",
+        "inspected_paths": [
+          "sources/latvia/marketing.webp",
+          "smoke/latvia/desktop-closed.png",
+          "smoke/latvia/desktop-open.png",
+          "smoke/latvia/mobile-closed.png",
+          "smoke/latvia/mobile-open.png"
+        ],
+        "limitations": [
+          "Cannot establish realistic amber translucency or woven fibers from these views.",
+          "Open view does not inspect exterior ornament attachments behind the lid."
+        ],
+        "mobile_open": "Entire model and controls fit both mobile poses. Closed mobile retains three ornaments and border; open views show plain wood cavity and lid underside. Exterior linen/amber faces away as documented, so its absence from the open front view is not a theme failure.",
+        "source_context_path": "sources/latvia/source_readme.md",
+        "terrain": "No landscape terrain expected: cream/carmine raised panel and three cabochons are the motif. All three domes are visible closed, including mobile; panel can read as a rigid insert.",
+        "texture": "Marketing has paler wood, peach glossy domes and softer satin metal. Runtime is warmer with opaque honey-yellow domes, repetitive grain and poorly resolved linen weave. Promotional finish differences do not establish missing geometry.",
+        "verdict": "pass"
+      },
+      "parent_visual_hold_preserved": false,
+      "selection": {
+        "commit": "06c7ddbd46cba6903fe6c6567608e2a663554da9",
+        "fetched_tip": "06c7ddbd46cba6903fe6c6567608e2a663554da9",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/latvia-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 6201683,
+          "commit": "06c7ddbd46cba6903fe6c6567608e2a663554da9",
+          "crc_error": null,
+          "entries": 55,
+          "fresh_crc_safe_unique": true,
+          "fresh_required_payloads": [
+            {
+              "member": "latvia-v1.html",
+              "path": "preview/latvia-v1/latvia-v1.html",
+              "sha256": "3e5399fc0bc061d6663b3a47ca8065920e97150a222482bef9b6384c1a9dfa45"
+            },
+            {
+              "member": "latvia.blend",
+              "path": "preview/latvia-v1/latvia.blend",
+              "sha256": "101d9cc3c5f54128419cc252a8595ab4bdbf2ef0704c422715ed399815e98f83"
+            },
+            {
+              "member": "latvia.glb",
+              "path": "preview/latvia-v1/latvia.glb",
+              "sha256": "ec849dc6da39861bbe7c33730b9625aa2458b875ab6878a19c76303b9e55c875"
+            }
+          ],
+          "full_inner_inventory_fresh": false,
+          "inventory_checked": true,
+          "inventory_entries": 54,
+          "inventory_mismatches": [],
+          "kind": "git",
+          "path": "preview/latvia-v1/latvia-v1-source.zip",
+          "required_payloads": {
+            "latvia-v1.html": true,
+            "latvia.blend": true,
+            "latvia.glb": true
+          },
+          "safe_unique_paths": true,
+          "sha256": "b9177dff2d266082e36e08ee41915fbce7e0d5ba5f0c2f83234958f24b54d6c9"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 767439,
+          "commit": "06c7ddbd46cba6903fe6c6567608e2a663554da9",
+          "path": "preview/latvia-v1/latvia.blend",
+          "role": "selected-model",
+          "sha256": "101d9cc3c5f54128419cc252a8595ab4bdbf2ef0704c422715ed399815e98f83"
+        },
+        {
+          "bytes": 2407672,
+          "commit": "06c7ddbd46cba6903fe6c6567608e2a663554da9",
+          "path": "preview/latvia-v1/latvia.glb",
+          "role": "selected-model",
+          "sha256": "ec849dc6da39861bbe7c33730b9625aa2458b875ab6878a19c76303b9e55c875",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 134,
+            "nodes": 136
+          }
+        }
+      ],
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 3979743,
+        "commit": "06c7ddbd46cba6903fe6c6567608e2a663554da9",
+        "path": "preview/latvia-v1/latvia-v1.html",
+        "sha256": "3e5399fc0bc061d6663b3a47ca8065920e97150a222482bef9b6384c1a9dfa45",
+        "under_5000000": true
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 6201683,
+        "commit": "06c7ddbd46cba6903fe6c6567608e2a663554da9",
+        "crc_error": null,
+        "entries": 55,
+        "inventory_checked": true,
+        "inventory_entries": 54,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/latvia-v1/latvia-v1-source.zip",
+        "required_payloads": {
+          "latvia-v1.html": true,
+          "latvia.blend": true,
+          "latvia.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "b9177dff2d266082e36e08ee41915fbce7e0d5ba5f0c2f83234958f24b54d6c9"
+      }
+    ]
+  }
+}

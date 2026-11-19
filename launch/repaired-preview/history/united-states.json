@@ -1,0 +1,935 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "needs-user-review",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 8,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 231950,
+        "role": "editable-source",
+        "sha256": "71708464cc29352ffe3abcdd47bc4cb2dd120d3fe0b9dfe354a666879f630ead",
+        "source": {
+          "commit": "1e6b1712959013285769a152b1d50bbf119f7729",
+          "path": "preview/united-states-flag-v9/united-states.blend"
+        },
+        "uri": "sha256:71708464cc29352ffe3abcdd47bc4cb2dd120d3fe0b9dfe354a666879f630ead"
+      },
+      {
+        "bytes": 232083,
+        "role": "historical-editable-source",
+        "sha256": "6c26462fd8bc836f6997b6759ef0f584b14c83c072099cca9168d29f9f21b2be",
+        "source": {
+          "commit": "1e6b1712959013285769a152b1d50bbf119f7729",
+          "path": "preview/united-states-flag-v9/baseline-v7.blend"
+        },
+        "uri": "sha256:6c26462fd8bc836f6997b6759ef0f584b14c83c072099cca9168d29f9f21b2be"
+      },
+      {
+        "bytes": 949916,
+        "role": "historical-model",
+        "sha256": "ec59f0aea3ce447379b2eca4c37bea080c00e82bc9c6ca4696fb717c7dc20420",
+        "source": {
+          "commit": "1e6b1712959013285769a152b1d50bbf119f7729",
+          "path": "preview/united-states-flag-v9/baseline-v8.glb"
+        },
+        "uri": "sha256:ec59f0aea3ce447379b2eca4c37bea080c00e82bc9c6ca4696fb717c7dc20420"
+      },
+      {
+        "bytes": 12815012,
+        "role": "historical-source-archive",
+        "sha256": "75cdbeaa774376248872abaf301d89f1b49142698a21de7978d3018ae5284551",
+        "source": {
+          "kind": "local",
+          "path": "C:\\Users\\futur\\.hermes\\profiles\\telegram2\\output\\boxsv-usa-flag-v9\\united-states-flag-v9-source.zip"
+        },
+        "uri": "sha256:75cdbeaa774376248872abaf301d89f1b49142698a21de7978d3018ae5284551"
+      },
+      {
+        "bytes": 879648,
+        "role": "model",
+        "sha256": "aa44e0b99baf1e354dd38a13826deaa0c848569e5d7bd92d37e9c295e8ebbb96",
+        "source": {
+          "commit": "1e6b1712959013285769a152b1d50bbf119f7729",
+          "path": "preview/united-states-flag-v9/united-states.glb"
+        },
+        "uri": "sha256:aa44e0b99baf1e354dd38a13826deaa0c848569e5d7bd92d37e9c295e8ebbb96"
+      },
+      {
+        "bytes": 94462,
+        "role": "promotional-illustration",
+        "sha256": "4bb4e0d8ab18d2bdfce5776121e8bbee41d3e1374b1f2455de5a001d920c8757",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/united-states.webp"
+        },
+        "uri": "sha256:4bb4e0d8ab18d2bdfce5776121e8bbee41d3e1374b1f2455de5a001d920c8757"
+      },
+      {
+        "bytes": 5498,
+        "role": "source-notice",
+        "sha256": "a878a4366aab28a052ae2d3d24586fcc3c2e95ea7e795daf12eb886067fc313c",
+        "source": {
+          "commit": "1e6b1712959013285769a152b1d50bbf119f7729",
+          "path": "preview/united-states-flag-v9/README.md"
+        },
+        "uri": "sha256:a878a4366aab28a052ae2d3d24586fcc3c2e95ea7e795daf12eb886067fc313c"
+      },
+      {
+        "bytes": 1879515,
+        "role": "viewer",
+        "sha256": "d385ef7e902b40242052d3187270c2582f467bf02cda68f15a970582ab4bc741",
+        "source": {
+          "commit": "1e6b1712959013285769a152b1d50bbf119f7729",
+          "path": "preview/united-states-flag-v9/united-states-flag-v9.html"
+        },
+        "uri": "sha256:d385ef7e902b40242052d3187270c2582f467bf02cda68f15a970582ab4bc741"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "united-states",
+    "independent_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "needs-user-review",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "capture_base": "parent/",
+      "captures": [
+        "smoke/united-states/desktop-closed.png",
+        "smoke/united-states/desktop-open.png",
+        "smoke/united-states/mobile-closed.png",
+        "smoke/united-states/mobile-open.png"
+      ],
+      "critical_reproducible_failures": [],
+      "final_approval": false,
+      "fresh_checks": {
+        "blender_parity_collision": false,
+        "fallback": false,
+        "full_inner_archive_inventories": true,
+        "motion": false,
+        "original_captures_and_marketing_inspected": true,
+        "runtime": false,
+        "source_and_delivered_viewer_hashes": true,
+        "source_archive_crc_safe_paths_required_payloads": true
+      },
+      "historical_runtime": {
+        "browser": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.0004999628290534,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.25999999791383743,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 879648,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 5,
+              "meshes": 55,
+              "nonfinite": 0,
+              "triangles": 13324
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "united-states",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "d385ef7e902b40242052d3187270c2582f467bf02cda68f15a970582ab4bc741"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.0004999628290534,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.25999999791383743,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 879648,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 5,
+              "meshes": 55,
+              "nonfinite": 0,
+              "triangles": 13324
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "united-states",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "d385ef7e902b40242052d3187270c2582f467bf02cda68f15a970582ab4bc741"
+          }
+        ],
+        "extended": {
+          "geometry": {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.0004999628290534,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.25999999791383743,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 879648,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 5,
+              "meshes": 55,
+              "nonfinite": 0,
+              "triangles": 13324
+            },
+            "meshes": 55,
+            "nonfinite": 0,
+            "triangles": 13324
+          },
+          "id": "united-states",
+          "no_js_poster": true
+        },
+        "motion": {
+          "exit_code": 0,
+          "id": "united-states",
+          "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+          "source": [
+            {
+              "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+              "path": "preview/albania-v1/tests.mjs",
+              "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+            },
+            {
+              "commit": "1e6b1712959013285769a152b1d50bbf119f7729",
+              "path": "preview/united-states-flag-v9/motion.mjs",
+              "sha256": "c5dabee65a0415e3bdc7846227ca5010d5c8b24db8bb8bd3c7e02c44e0ad62bd"
+            }
+          ]
+        },
+        "parent_commit": "431e51ffb5a8704b5f8f8b11694d28befae18402"
+      },
+      "id": "united-states",
+      "independent_visual": {
+        "assessment": {
+          "concrete_defects": [
+            "Closed viewer star fragments appear to terminate on the lid fascia; the fixed-body navy band below the seam appears blank rather than demonstrating matching star continuation. Marketing shows seam-interrupted stars; neither resolves full continuation.",
+            "Mobile wrapped stars look compressed/fragmented at edges, while open-view fireworks overlap and obscure the star field, preventing reliable count/equality assessment.",
+            "Visible feet read red, but fireworks are mixed red/pale/blue/gold rather than establishing the requested red-fireworks treatment.",
+            "Closed lid reads substantial, while raised-lid edge reads relatively thin from this angle; required substantial lid is not certified by these frames."
+          ],
+          "id": "united-states",
+          "inspected_paths": [
+            "parent/smoke/united-states/desktop-closed.png",
+            "parent/smoke/united-states/desktop-open.png",
+            "parent/smoke/united-states/mobile-closed.png",
+            "parent/smoke/united-states/mobile-open.png",
+            "parent/sources/united-states/marketing.webp"
+          ],
+          "limitations": [
+            "All five originals inspected individually via vision; paths relative to launch/qa-art-08.",
+            "USA v9 HOLD remains. Screenshots are not pigment or count proof: requested red #B50018 and blue #021F41 and 4 left/5 front equal wrapped stars remain unverified.",
+            "Full star-to-fixed-body continuation remains unresolved; apparent marketing counts do not establish complete, equal, registered wrapped stars.",
+            "Static frames cannot certify hidden contacts, material inputs, substantial lid dimensions, star geometry, hinge attachment or motion clearance. This review does not approve art or release the hold."
+          ],
+          "observations": [
+            "Preserved requirements: substantial lid; requested red #B50018 and blue #021F41; 4 left/5 front equal wrapped stars; red feet/fireworks; full star-to-fixed-body continuation unresolved.",
+            "All supplied viewport states contain the chest and effects without obvious clipping. This framing observation does not reduce the v9 hold."
+          ],
+          "verdict": "needs-user-review"
+        },
+        "report": "visual-e.json"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "usa-full-star-to-body-continuation-unresolved",
+        "user fidelity decision before substantial redesign",
+        "independent QA-ART-08 review"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 94462,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/united-states.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "intentionalRedesign": true,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "Reviewed supplied native artwork: red, warm white and navy flag-inspired chest with gold fittings and fireworks above. Stylized stars and stripes, not exact official flag counts. Uppermost fireworks are naturally cropped in the supplied composition. Intentional departure from the canyon-inspired model; model unchanged. Derivatives preserve the complete supplied composition.",
+          "reviewStatus": "reviewed-intentional-redesign",
+          "sha256": "dea369dda513f9c779d5b22b188abab583ff8d43adb1ae4374b5705777e52793",
+          "source": "assets/gallery/united-states.webp",
+          "sourceRole": "Historical model reference only; intentionally not matched by this redesign",
+          "sourceSha256": "1d54c3d3f1a065bc66e4a2e33d8a817d544dc05fd99f4bdc5daf6a2e49fc16d9",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "4bb4e0d8ab18d2bdfce5776121e8bbee41d3e1374b1f2455de5a001d920c8757"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "usa-full-star-to-body-continuation-unresolved",
+        "user fidelity decision before substantial redesign"
+      ],
+      "parent_verdict": "needs-decision",
+      "parent_visual": {
+        "decision": "Preserve needs-decision. Do not mark final approved or silently waive full stars-to-body continuation. User must resolve this substantial fidelity gap while retaining substantial lid, equal 4-left/5-front stars, requested pigments, red feet and fireworks; cinematic reference gap also remains.",
+        "hardware": "Gold clasp, corner caps, round fitting and side ring legible. Open latch is intentionally disengaged, not detached. Screenshot only shows some feet; all-four red assignment is supplied source evidence, not visually proven here.",
+        "limitations": "Reviewed original desktop/mobile closed/open captures and marketing.webp, plus supplied source notes/brief where available. Static images do not certify motion, hidden attachments, exact pigment, physical-phone performance or manufacture. Technical checks were supplied, not rerun. No final user visual approval. V9 source explicitly states no fixed-body star continuation: restored 0.30-unit lid and 0.25-unit glyph diameter conflict with continuation and current front pitch. Four left/five front equal-size wrap stars are documented by source tests, not independently counted/proven from these views. No research_brief.md supplied for this ID.",
+        "quality": "V9 has a visibly substantial lid, striped shell, visible red feet and fireworks. Actual viewer is cleaner/flatter and less cinematic than marketing, with more layered navy rim, brighter lit ivory and angular fittings.",
+        "terrain": "No landscape required. Sparse viewer-only firework bursts remain visible but overlap the open lid/star graphics, especially on mobile; they lack marketing smoke, dense trails and cinematic scale.",
+        "texture": "Smooth red/ivory/navy graphic finish. Lid-edge star fragments become pointed slivers; navy continues onto fixed body but stars do not. Marketing shows more complete stars across the upper body. Requested #B50018 red/#021F41 blue cannot be proven by rendered pixels."
+      },
+      "parent_visual_hold_preserved": true,
+      "reviewed_image_hashes": [
+        {
+          "bytes": 333716,
+          "path": "smoke/united-states/desktop-closed.png",
+          "sha256": "08d420dca5ea1ce706968ba4d43381dd18a05fed6191132f682824b02bcd86a4"
+        },
+        {
+          "bytes": 310252,
+          "path": "smoke/united-states/desktop-open.png",
+          "sha256": "3dba8f4b9e1966cd338c003f8798e903f7be40d9b0f3392ccfb6763291685e9a"
+        },
+        {
+          "bytes": 122753,
+          "path": "smoke/united-states/mobile-closed.png",
+          "sha256": "7c40b5bb7275106b72057cb830543dbff4719df6ab178e2e841545d7985eae53"
+        },
+        {
+          "bytes": 105210,
+          "path": "smoke/united-states/mobile-open.png",
+          "sha256": "c2370899dcff2ed0dd832cf95778769ef365ac276fac2f92c354e2b01f3cf0c2"
+        },
+        {
+          "bytes": 94462,
+          "path": "sources/united-states/marketing.webp",
+          "sha256": "4bb4e0d8ab18d2bdfce5776121e8bbee41d3e1374b1f2455de5a001d920c8757"
+        }
+      ],
+      "selection": {
+        "commit": "1e6b1712959013285769a152b1d50bbf119f7729",
+        "fetched_tip": "1e6b1712959013285769a152b1d50bbf119f7729",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/united-states-flag-v9"
+      },
+      "source_archives": [
+        {
+          "bytes": 12815012,
+          "crc_error": null,
+          "entries": 111,
+          "fresh_crc_safe_unique": true,
+          "fresh_inner_inventory_entries": 110,
+          "fresh_required_payloads": [
+            {
+              "member": "united-states-flag-v9.html",
+              "path": "preview/united-states-flag-v9/united-states-flag-v9.html",
+              "sha256": "d385ef7e902b40242052d3187270c2582f467bf02cda68f15a970582ab4bc741"
+            },
+            {
+              "member": "baseline-v7.blend",
+              "path": "preview/united-states-flag-v9/baseline-v7.blend",
+              "sha256": "6c26462fd8bc836f6997b6759ef0f584b14c83c072099cca9168d29f9f21b2be"
+            },
+            {
+              "member": "baseline-v8.glb",
+              "path": "preview/united-states-flag-v9/baseline-v8.glb",
+              "sha256": "ec59f0aea3ce447379b2eca4c37bea080c00e82bc9c6ca4696fb717c7dc20420"
+            },
+            {
+              "member": "united-states.blend",
+              "path": "preview/united-states-flag-v9/united-states.blend",
+              "sha256": "71708464cc29352ffe3abcdd47bc4cb2dd120d3fe0b9dfe354a666879f630ead"
+            },
+            {
+              "member": "united-states.glb",
+              "path": "preview/united-states-flag-v9/united-states.glb",
+              "sha256": "aa44e0b99baf1e354dd38a13826deaa0c848569e5d7bd92d37e9c295e8ebbb96"
+            }
+          ],
+          "inventory_checked": true,
+          "inventory_entries": 110,
+          "inventory_mismatches": [],
+          "kind": "local",
+          "path": "C:\\Users\\futur\\.hermes\\profiles\\telegram2\\output\\boxsv-usa-flag-v9\\united-states-flag-v9-source.zip",
+          "required_payloads": {
+            "baseline-v7.blend": true,
+            "baseline-v8.glb": true,
+            "united-states-flag-v9.html": true,
+            "united-states.blend": true,
+            "united-states.glb": true
+          },
+          "safe_unique_paths": true,
+          "sha256": "75cdbeaa774376248872abaf301d89f1b49142698a21de7978d3018ae5284551"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 232083,
+          "commit": "1e6b1712959013285769a152b1d50bbf119f7729",
+          "path": "preview/united-states-flag-v9/baseline-v7.blend",
+          "role": "historical-baseline",
+          "sha256": "6c26462fd8bc836f6997b6759ef0f584b14c83c072099cca9168d29f9f21b2be"
+        },
+        {
+          "bytes": 949916,
+          "commit": "1e6b1712959013285769a152b1d50bbf119f7729",
+          "path": "preview/united-states-flag-v9/baseline-v8.glb",
+          "role": "historical-baseline",
+          "sha256": "ec59f0aea3ce447379b2eca4c37bea080c00e82bc9c6ca4696fb717c7dc20420",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": false,
+            "glb_version": 2,
+            "meshes": 55,
+            "nodes": 57
+          }
+        },
+        {
+          "bytes": 231950,
+          "commit": "1e6b1712959013285769a152b1d50bbf119f7729",
+          "path": "preview/united-states-flag-v9/united-states.blend",
+          "role": "selected-model",
+          "sha256": "71708464cc29352ffe3abcdd47bc4cb2dd120d3fe0b9dfe354a666879f630ead"
+        },
+        {
+          "bytes": 879648,
+          "commit": "1e6b1712959013285769a152b1d50bbf119f7729",
+          "path": "preview/united-states-flag-v9/united-states.glb",
+          "role": "selected-model",
+          "sha256": "aa44e0b99baf1e354dd38a13826deaa0c848569e5d7bd92d37e9c295e8ebbb96",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 55,
+            "nodes": 57
+          }
+        }
+      ],
+      "verdict": "needs-user-review",
+      "viewer": {
+        "bytes": 1879515,
+        "commit": "1e6b1712959013285769a152b1d50bbf119f7729",
+        "path": "preview/united-states-flag-v9/united-states-flag-v9.html",
+        "sha256": "d385ef7e902b40242052d3187270c2582f467bf02cda68f15a970582ab4bc741",
+        "under_5000000": true
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "United States",
+    "package_history": [
+      {
+        "bytes": 12815012,
+        "crc_error": null,
+        "entries": 111,
+        "inventory_checked": true,
+        "inventory_entries": 110,
+        "inventory_mismatches": [],
+        "kind": "local",
+        "path": "C:\\Users\\futur\\.hermes\\profiles\\telegram2\\output\\boxsv-usa-flag-v9\\united-states-flag-v9-source.zip",
+        "required_payloads": {
+          "baseline-v7.blend": true,
+          "baseline-v8.glb": true,
+          "united-states-flag-v9.html": true,
+          "united-states.blend": true,
+          "united-states.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "75cdbeaa774376248872abaf301d89f1b49142698a21de7978d3018ae5284551"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization",
+      "usa-full-star-to-body-continuation-unresolved"
+    ],
+    "selected_candidate": {
+      "commit": "1e6b1712959013285769a152b1d50bbf119f7729",
+      "fetched_tip": "1e6b1712959013285769a152b1d50bbf119f7729",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/united-states-flag-v9"
+    },
+    "verdict": "needs-user-review",
+    "viewer": {
+      "bytes": 1879515,
+      "commit": "1e6b1712959013285769a152b1d50bbf119f7729",
+      "path": "preview/united-states-flag-v9/united-states-flag-v9.html",
+      "sha256": "d385ef7e902b40242052d3187270c2582f467bf02cda68f15a970582ab4bc741",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "united-states",
+    "baseline_verdict": "needs-user-review",
+    "actions": [
+      "new-review-candidate; USA seam repaired; crater camera trials remain partial"
+    ],
+    "approval": false,
+    "original_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "needs-user-review",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "capture_base": "parent/",
+      "captures": [
+        "smoke/united-states/desktop-closed.png",
+        "smoke/united-states/desktop-open.png",
+        "smoke/united-states/mobile-closed.png",
+        "smoke/united-states/mobile-open.png"
+      ],
+      "critical_reproducible_failures": [],
+      "final_approval": false,
+      "fresh_checks": {
+        "blender_parity_collision": false,
+        "fallback": false,
+        "full_inner_archive_inventories": true,
+        "motion": false,
+        "original_captures_and_marketing_inspected": true,
+        "runtime": false,
+        "source_and_delivered_viewer_hashes": true,
+        "source_archive_crc_safe_paths_required_payloads": true
+      },
+      "historical_runtime": {
+        "browser": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.0004999628290534,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.25999999791383743,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 879648,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 5,
+              "meshes": 55,
+              "nonfinite": 0,
+              "triangles": 13324
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "united-states",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "d385ef7e902b40242052d3187270c2582f467bf02cda68f15a970582ab4bc741"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.0004999628290534,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.25999999791383743,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 879648,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 5,
+              "meshes": 55,
+              "nonfinite": 0,
+              "triangles": 13324
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "united-states",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "d385ef7e902b40242052d3187270c2582f467bf02cda68f15a970582ab4bc741"
+          }
+        ],
+        "extended": {
+          "geometry": {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8600000143051147,
+                  2.0004999628290534,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.927119004633135,
+                  -0.25999999791383743,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 879648,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 5,
+              "meshes": 55,
+              "nonfinite": 0,
+              "triangles": 13324
+            },
+            "meshes": 55,
+            "nonfinite": 0,
+            "triangles": 13324
+          },
+          "id": "united-states",
+          "no_js_poster": true
+        },
+        "motion": {
+          "exit_code": 0,
+          "id": "united-states",
+          "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+          "source": [
+            {
+              "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+              "path": "preview/albania-v1/tests.mjs",
+              "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+            },
+            {
+              "commit": "1e6b1712959013285769a152b1d50bbf119f7729",
+              "path": "preview/united-states-flag-v9/motion.mjs",
+              "sha256": "c5dabee65a0415e3bdc7846227ca5010d5c8b24db8bb8bd3c7e02c44e0ad62bd"
+            }
+          ]
+        },
+        "parent_commit": "431e51ffb5a8704b5f8f8b11694d28befae18402"
+      },
+      "id": "united-states",
+      "independent_visual": {
+        "assessment": {
+          "concrete_defects": [
+            "Closed viewer star fragments appear to terminate on the lid fascia; the fixed-body navy band below the seam appears blank rather than demonstrating matching star continuation. Marketing shows seam-interrupted stars; neither resolves full continuation.",
+            "Mobile wrapped stars look compressed/fragmented at edges, while open-view fireworks overlap and obscure the star field, preventing reliable count/equality assessment.",
+            "Visible feet read red, but fireworks are mixed red/pale/blue/gold rather than establishing the requested red-fireworks treatment.",
+            "Closed lid reads substantial, while raised-lid edge reads relatively thin from this angle; required substantial lid is not certified by these frames."
+          ],
+          "id": "united-states",
+          "inspected_paths": [
+            "parent/smoke/united-states/desktop-closed.png",
+            "parent/smoke/united-states/desktop-open.png",
+            "parent/smoke/united-states/mobile-closed.png",
+            "parent/smoke/united-states/mobile-open.png",
+            "parent/sources/united-states/marketing.webp"
+          ],
+          "limitations": [
+            "All five originals inspected individually via vision; paths relative to launch/qa-art-08.",
+            "USA v9 HOLD remains. Screenshots are not pigment or count proof: requested red #B50018 and blue #021F41 and 4 left/5 front equal wrapped stars remain unverified.",
+            "Full star-to-fixed-body continuation remains unresolved; apparent marketing counts do not establish complete, equal, registered wrapped stars.",
+            "Static frames cannot certify hidden contacts, material inputs, substantial lid dimensions, star geometry, hinge attachment or motion clearance. This review does not approve art or release the hold."
+          ],
+          "observations": [
+            "Preserved requirements: substantial lid; requested red #B50018 and blue #021F41; 4 left/5 front equal wrapped stars; red feet/fireworks; full star-to-fixed-body continuation unresolved.",
+            "All supplied viewport states contain the chest and effects without obvious clipping. This framing observation does not reduce the v9 hold."
+          ],
+          "verdict": "needs-user-review"
+        },
+        "report": "visual-e.json"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "usa-full-star-to-body-continuation-unresolved",
+        "user fidelity decision before substantial redesign",
+        "independent QA-ART-08 review"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 94462,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/united-states.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "intentionalRedesign": true,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "Reviewed supplied native artwork: red, warm white and navy flag-inspired chest with gold fittings and fireworks above. Stylized stars and stripes, not exact official flag counts. Uppermost fireworks are naturally cropped in the supplied composition. Intentional departure from the canyon-inspired model; model unchanged. Derivatives preserve the complete supplied composition.",
+          "reviewStatus": "reviewed-intentional-redesign",
+          "sha256": "dea369dda513f9c779d5b22b188abab583ff8d43adb1ae4374b5705777e52793",
+          "source": "assets/gallery/united-states.webp",
+          "sourceRole": "Historical model reference only; intentionally not matched by this redesign",
+          "sourceSha256": "1d54c3d3f1a065bc66e4a2e33d8a817d544dc05fd99f4bdc5daf6a2e49fc16d9",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "4bb4e0d8ab18d2bdfce5776121e8bbee41d3e1374b1f2455de5a001d920c8757"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "usa-full-star-to-body-continuation-unresolved",
+        "user fidelity decision before substantial redesign"
+      ],
+      "parent_verdict": "needs-decision",
+      "parent_visual": {
+        "decision": "Preserve needs-decision. Do not mark final approved or silently waive full stars-to-body continuation. User must resolve this substantial fidelity gap while retaining substantial lid, equal 4-left/5-front stars, requested pigments, red feet and fireworks; cinematic reference gap also remains.",
+        "hardware": "Gold clasp, corner caps, round fitting and side ring legible. Open latch is intentionally disengaged, not detached. Screenshot only shows some feet; all-four red assignment is supplied source evidence, not visually proven here.",
+        "limitations": "Reviewed original desktop/mobile closed/open captures and marketing.webp, plus supplied source notes/brief where available. Static images do not certify motion, hidden attachments, exact pigment, physical-phone performance or manufacture. Technical checks were supplied, not rerun. No final user visual approval. V9 source explicitly states no fixed-body star continuation: restored 0.30-unit lid and 0.25-unit glyph diameter conflict with continuation and current front pitch. Four left/five front equal-size wrap stars are documented by source tests, not independently counted/proven from these views. No research_brief.md supplied for this ID.",
+        "quality": "V9 has a visibly substantial lid, striped shell, visible red feet and fireworks. Actual viewer is cleaner/flatter and less cinematic than marketing, with more layered navy rim, brighter lit ivory and angular fittings.",
+        "terrain": "No landscape required. Sparse viewer-only firework bursts remain visible but overlap the open lid/star graphics, especially on mobile; they lack marketing smoke, dense trails and cinematic scale.",
+        "texture": "Smooth red/ivory/navy graphic finish. Lid-edge star fragments become pointed slivers; navy continues onto fixed body but stars do not. Marketing shows more complete stars across the upper body. Requested #B50018 red/#021F41 blue cannot be proven by rendered pixels."
+      },
+      "parent_visual_hold_preserved": true,
+      "reviewed_image_hashes": [
+        {
+          "bytes": 333716,
+          "path": "smoke/united-states/desktop-closed.png",
+          "sha256": "08d420dca5ea1ce706968ba4d43381dd18a05fed6191132f682824b02bcd86a4"
+        },
+        {
+          "bytes": 310252,
+          "path": "smoke/united-states/desktop-open.png",
+          "sha256": "3dba8f4b9e1966cd338c003f8798e903f7be40d9b0f3392ccfb6763291685e9a"
+        },
+        {
+          "bytes": 122753,
+          "path": "smoke/united-states/mobile-closed.png",
+          "sha256": "7c40b5bb7275106b72057cb830543dbff4719df6ab178e2e841545d7985eae53"
+        },
+        {
+          "bytes": 105210,
+          "path": "smoke/united-states/mobile-open.png",
+          "sha256": "c2370899dcff2ed0dd832cf95778769ef365ac276fac2f92c354e2b01f3cf0c2"
+        },
+        {
+          "bytes": 94462,
+          "path": "sources/united-states/marketing.webp",
+          "sha256": "4bb4e0d8ab18d2bdfce5776121e8bbee41d3e1374b1f2455de5a001d920c8757"
+        }
+      ],
+      "selection": {
+        "commit": "1e6b1712959013285769a152b1d50bbf119f7729",
+        "fetched_tip": "1e6b1712959013285769a152b1d50bbf119f7729",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/united-states-flag-v9"
+      },
+      "source_archives": [
+        {
+          "bytes": 12815012,
+          "crc_error": null,
+          "entries": 111,
+          "fresh_crc_safe_unique": true,
+          "fresh_inner_inventory_entries": 110,
+          "fresh_required_payloads": [
+            {
+              "member": "united-states-flag-v9.html",
+              "path": "preview/united-states-flag-v9/united-states-flag-v9.html",
+              "sha256": "d385ef7e902b40242052d3187270c2582f467bf02cda68f15a970582ab4bc741"
+            },
+            {
+              "member": "baseline-v7.blend",
+              "path": "preview/united-states-flag-v9/baseline-v7.blend",
+              "sha256": "6c26462fd8bc836f6997b6759ef0f584b14c83c072099cca9168d29f9f21b2be"
+            },
+            {
+              "member": "baseline-v8.glb",
+              "path": "preview/united-states-flag-v9/baseline-v8.glb",
+              "sha256": "ec59f0aea3ce447379b2eca4c37bea080c00e82bc9c6ca4696fb717c7dc20420"
+            },
+            {
+              "member": "united-states.blend",
+              "path": "preview/united-states-flag-v9/united-states.blend",
+              "sha256": "71708464cc29352ffe3abcdd47bc4cb2dd120d3fe0b9dfe354a666879f630ead"
+            },
+            {
+              "member": "united-states.glb",
+              "path": "preview/united-states-flag-v9/united-states.glb",
+              "sha256": "aa44e0b99baf1e354dd38a13826deaa0c848569e5d7bd92d37e9c295e8ebbb96"
+            }
+          ],
+          "inventory_checked": true,
+          "inventory_entries": 110,
+          "inventory_mismatches": [],
+          "kind": "local",
+          "path": "C:\\Users\\futur\\.hermes\\profiles\\telegram2\\output\\boxsv-usa-flag-v9\\united-states-flag-v9-source.zip",
+          "required_payloads": {
+            "baseline-v7.blend": true,
+            "baseline-v8.glb": true,
+            "united-states-flag-v9.html": true,
+            "united-states.blend": true,
+            "united-states.glb": true
+          },
+          "safe_unique_paths": true,
+          "sha256": "75cdbeaa774376248872abaf301d89f1b49142698a21de7978d3018ae5284551"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 232083,
+          "commit": "1e6b1712959013285769a152b1d50bbf119f7729",
+          "path": "preview/united-states-flag-v9/baseline-v7.blend",
+          "role": "historical-baseline",
+          "sha256": "6c26462fd8bc836f6997b6759ef0f584b14c83c072099cca9168d29f9f21b2be"
+        },
+        {
+          "bytes": 949916,
+          "commit": "1e6b1712959013285769a152b1d50bbf119f7729",
+          "path": "preview/united-states-flag-v9/baseline-v8.glb",
+          "role": "historical-baseline",
+          "sha256": "ec59f0aea3ce447379b2eca4c37bea080c00e82bc9c6ca4696fb717c7dc20420",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": false,
+            "glb_version": 2,
+            "meshes": 55,
+            "nodes": 57
+          }
+        },
+        {
+          "bytes": 231950,
+          "commit": "1e6b1712959013285769a152b1d50bbf119f7729",
+          "path": "preview/united-states-flag-v9/united-states.blend",
+          "role": "selected-model",
+          "sha256": "71708464cc29352ffe3abcdd47bc4cb2dd120d3fe0b9dfe354a666879f630ead"
+        },
+        {
+          "bytes": 879648,
+          "commit": "1e6b1712959013285769a152b1d50bbf119f7729",
+          "path": "preview/united-states-flag-v9/united-states.glb",
+          "role": "selected-model",
+          "sha256": "aa44e0b99baf1e354dd38a13826deaa0c848569e5d7bd92d37e9c295e8ebbb96",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 55,
+            "nodes": 57
+          }
+        }
+      ],
+      "verdict": "needs-user-review",
+      "viewer": {
+        "bytes": 1879515,
+        "commit": "1e6b1712959013285769a152b1d50bbf119f7729",
+        "path": "preview/united-states-flag-v9/united-states-flag-v9.html",
+        "sha256": "d385ef7e902b40242052d3187270c2582f467bf02cda68f15a970582ab4bc741",
+        "under_5000000": true
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 12815012,
+        "crc_error": null,
+        "entries": 111,
+        "inventory_checked": true,
+        "inventory_entries": 110,
+        "inventory_mismatches": [],
+        "kind": "local",
+        "path": "C:\\Users\\futur\\.hermes\\profiles\\telegram2\\output\\boxsv-usa-flag-v9\\united-states-flag-v9-source.zip",
+        "required_payloads": {
+          "baseline-v7.blend": true,
+          "baseline-v8.glb": true,
+          "united-states-flag-v9.html": true,
+          "united-states.blend": true,
+          "united-states.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "75cdbeaa774376248872abaf301d89f1b49142698a21de7978d3018ae5284551"
+      }
+    ]
+  }
+}

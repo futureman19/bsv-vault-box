@@ -1,0 +1,937 @@
+{
+  "baseline_record": {
+    "approval": {
+      "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+      "prior_approved_baseline": null,
+      "status": "candidate-not-final-approved",
+      "user_final_approved": false
+    },
+    "art_changed": false,
+    "baseline_policy": "Null means not established by these records; candidate is never promoted to approved baseline. Existing versions remain immutable.",
+    "batch": 8,
+    "category": "Country",
+    "files": [
+      {
+        "bytes": 513729,
+        "role": "editable-source",
+        "sha256": "e610b42371087a88c083cb2c768680086edfeeb80875368bc474323e82d8a1f6",
+        "source": {
+          "commit": "5ed8b7b61f3dfd9ecb9cd4faa0894f30fbdd761c",
+          "path": "preview/mexico-v1/mexico.blend"
+        },
+        "uri": "sha256:e610b42371087a88c083cb2c768680086edfeeb80875368bc474323e82d8a1f6"
+      },
+      {
+        "bytes": 6227206,
+        "role": "historical-source-archive",
+        "sha256": "037e880057af82467ccc0309d312c3c0c40ecacc30cad3d59a6b3e5eac497161",
+        "source": {
+          "commit": "5ed8b7b61f3dfd9ecb9cd4faa0894f30fbdd761c",
+          "kind": "git",
+          "path": "preview/mexico-v1/mexico-v1-source.zip"
+        },
+        "uri": "sha256:037e880057af82467ccc0309d312c3c0c40ecacc30cad3d59a6b3e5eac497161"
+      },
+      {
+        "bytes": 2266880,
+        "role": "model",
+        "sha256": "aad59e0c0bffd5ee98b59f6c404a7f48bcfcfabb0ce503b2c9ed49b0bf31dc12",
+        "source": {
+          "commit": "5ed8b7b61f3dfd9ecb9cd4faa0894f30fbdd761c",
+          "path": "preview/mexico-v1/mexico.glb"
+        },
+        "uri": "sha256:aad59e0c0bffd5ee98b59f6c404a7f48bcfcfabb0ce503b2c9ed49b0bf31dc12"
+      },
+      {
+        "bytes": 109000,
+        "role": "promotional-illustration",
+        "sha256": "d85b9e5a78d23481e4c2453241fb1956e9d19234f8f2fbdeb2498f2384786ccb",
+        "source": {
+          "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+          "path": "docs/assets/gallery/mexico.webp"
+        },
+        "uri": "sha256:d85b9e5a78d23481e4c2453241fb1956e9d19234f8f2fbdeb2498f2384786ccb"
+      },
+      {
+        "bytes": 3540,
+        "role": "research-brief",
+        "sha256": "98e9e2eb3562d5a5fff33ad83e310349baf1ec9ad661ad61fd085daabf292fe1",
+        "source": {
+          "commit": "5ed8b7b61f3dfd9ecb9cd4faa0894f30fbdd761c",
+          "path": "preview/mexico-v1/design-brief.md"
+        },
+        "uri": "sha256:98e9e2eb3562d5a5fff33ad83e310349baf1ec9ad661ad61fd085daabf292fe1"
+      },
+      {
+        "bytes": 5530,
+        "role": "source-notice",
+        "sha256": "a3091856bf353a247eacccae2a1bd9c1884f55a9e62d29c6557033d0fc7e0985",
+        "source": {
+          "commit": "5ed8b7b61f3dfd9ecb9cd4faa0894f30fbdd761c",
+          "path": "preview/mexico-v1/README.md"
+        },
+        "uri": "sha256:a3091856bf353a247eacccae2a1bd9c1884f55a9e62d29c6557033d0fc7e0985"
+      },
+      {
+        "bytes": 3886150,
+        "role": "viewer",
+        "sha256": "583e6710f4db070cd6a2bafbbcd99c1b4a11ad6898adffa336e9854aa2d89e1f",
+        "source": {
+          "commit": "5ed8b7b61f3dfd9ecb9cd4faa0894f30fbdd761c",
+          "path": "preview/mexico-v1/mexico-v1.html"
+        },
+        "uri": "sha256:583e6710f4db070cd6a2bafbbcd99c1b4a11ad6898adffa336e9854aa2d89e1f"
+      }
+    ],
+    "final_user_approved": false,
+    "id": "mexico",
+    "independent_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "capture_base": "parent/",
+      "captures": [
+        "smoke/mexico/desktop-closed.png",
+        "smoke/mexico/desktop-open.png",
+        "smoke/mexico/mobile-closed.png",
+        "smoke/mexico/mobile-open.png"
+      ],
+      "critical_reproducible_failures": [],
+      "final_approval": false,
+      "fresh_checks": {
+        "blender_parity_collision": false,
+        "fallback": false,
+        "full_inner_archive_inventories": true,
+        "motion": false,
+        "original_captures_and_marketing_inspected": true,
+        "runtime": false,
+        "source_and_delivered_viewer_hashes": true,
+        "source_archive_crc_safe_paths_required_payloads": true
+      },
+      "historical_runtime": {
+        "browser": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8680000398308039,
+                  2.93999981880188,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.8680000398308039,
+                  -0.30737072974443436,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 2266880,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 8,
+              "meshes": 172,
+              "nonfinite": 0,
+              "triangles": 29108
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "mexico",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "583e6710f4db070cd6a2bafbbcd99c1b4a11ad6898adffa336e9854aa2d89e1f"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8680000398308039,
+                  2.93999981880188,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.8680000398308039,
+                  -0.30737072974443436,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 2266880,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 8,
+              "meshes": 172,
+              "nonfinite": 0,
+              "triangles": 29108
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "mexico",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "583e6710f4db070cd6a2bafbbcd99c1b4a11ad6898adffa336e9854aa2d89e1f"
+          }
+        ],
+        "extended": {
+          "geometry": {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8680000398308039,
+                  2.93999981880188,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.8680000398308039,
+                  -0.30737072974443436,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 2266880,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 8,
+              "meshes": 172,
+              "nonfinite": 0,
+              "triangles": 29108
+            },
+            "meshes": 172,
+            "nonfinite": 0,
+            "triangles": 29108
+          },
+          "id": "mexico",
+          "no_js_poster": true
+        },
+        "motion": {
+          "exit_code": 0,
+          "id": "mexico",
+          "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+          "source": [
+            {
+              "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+              "path": "preview/albania-v1/tests.mjs",
+              "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+            },
+            {
+              "commit": "5ed8b7b61f3dfd9ecb9cd4faa0894f30fbdd761c",
+              "path": "preview/mexico-v1/motion.mjs",
+              "sha256": "69ef871b2a1f44a737e2e288f10ddaf4244e2351fdbf855938fb955c1926a511"
+            }
+          ]
+        },
+        "parent_commit": "431e51ffb5a8704b5f8f8b11694d28befae18402"
+      },
+      "id": "mexico",
+      "independent_visual": {
+        "assessment": {
+          "concrete_defects": [
+            "Agave leaves and dark feet have conspicuously angular silhouettes versus the reference's softer surface treatment.",
+            "Small cobalt motifs soften on receding tile surfaces and mobile views; tile/corner joins and terracotta rim blocks look coarse at those scales.",
+            "Ceramic and terracotta finishes are relatively matte and simplified, retaining the palette but not all of the illustration's surface variation."
+          ],
+          "id": "mexico",
+          "inspected_paths": [
+            "parent/smoke/mexico/desktop-closed.png",
+            "parent/smoke/mexico/desktop-open.png",
+            "parent/smoke/mexico/mobile-closed.png",
+            "parent/smoke/mexico/mobile-open.png",
+            "parent/sources/mexico/marketing.webp"
+          ],
+          "limitations": [
+            "All five original images inspected at normal size against the illustration's theme/material identity, not a hyperrealism standard.",
+            "The agave is not exposed from the open underside viewpoint; that does not establish that the ornament is missing or detached.",
+            "Static frames cannot establish hidden collisions, intermediate motion, or control operation. No art approval or changes."
+          ],
+          "observations": "Cobalt floral tiles, warm terracotta lid, blue-green agave and brass hardware remain clearly recognizable and closely aligned with the illustration. Both open views are complete and unobstructed; no obvious major broken texture, missing panel or page overlap.",
+          "verdict": "candidate-with-limitations"
+        },
+        "report": "visual-c.json"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-08 review"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 109000,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/mexico.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "High broad fidelity; original major miniature counts and hardware retained. Richer texture/color, minor pattern and contour changes.",
+          "reviewStatus": "reviewed",
+          "sha256": "f854e9e5e2580aab7024508823c21a56e19f377bd71b5e3c9130552f423986d8",
+          "source": "assets/gallery/mexico.webp",
+          "sourceSha256": "c578ba7e868958d708a9ece78ecf67eb416c4ec736378d2ace4729efd453a1c5",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "d85b9e5a78d23481e4c2453241fb1956e9d19234f8f2fbdeb2498f2384786ccb"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_verdict": "pass",
+      "parent_visual": {
+        "decision": "Pass as bounded stylized candidate, retaining pronounced faceted-agave and repetitive-tile limitations. Geometry/theme broadly align; do not claim premium marketing finish equivalence or final user approval.",
+        "hardware": "Brass corner caps and tall centered clasp retain marketing scale/layout. Open captures expose two rear hinges and separated released latch. No obvious detached hardware; fine fastening detail simplified.",
+        "limitations": "README and brief describe invented regional combination and original repeat, not workshop-pattern fidelity or botanical precision. Interior and fasteners become less legible on mobile. Static comparison does not independently reverify technical acceptance.",
+        "quality": "Strong cobalt/ivory/terracotta identity and complete chest silhouette; all four captures keep box, open lid and controls in frame.",
+        "terrain": "Blue-green radial agave and terracotta soil island preserve marketing placement and theme. Runtime leaves are visibly angular, rigid and flat-faced compared with marketing curved, overlapping, textured leaves. Agave is small but recognizable on mobile; concealed behind the open lid is not evidence of omission.",
+        "texture": "Regular cobalt flower tile grid and orange lid match broad marketing design. Runtime lacks much of marketing handmade surface variation, glaze/material richness and leaf speckle; tiles are highly repeated and lid framing can look wood-like. These are explicit stylization gaps, not authenticated Talavera craft."
+      },
+      "parent_visual_hold_preserved": false,
+      "reviewed_image_hashes": [
+        {
+          "bytes": 401915,
+          "path": "smoke/mexico/desktop-closed.png",
+          "sha256": "bd752f3ef15ea93c27a49ba472587fee150b2da9c2f987c3ad39d2b1e1bb66b3"
+        },
+        {
+          "bytes": 418557,
+          "path": "smoke/mexico/desktop-open.png",
+          "sha256": "84f1e2349a3a273507ea909c60c53aed9149c6b80fd42c933b20472cf6f0cedf"
+        },
+        {
+          "bytes": 129556,
+          "path": "smoke/mexico/mobile-closed.png",
+          "sha256": "95e9e44d0f87fb433417d4225e1040fc16c377d90fddb0f9a929524f8a61defc"
+        },
+        {
+          "bytes": 127211,
+          "path": "smoke/mexico/mobile-open.png",
+          "sha256": "752c5df1ee2c2f0f2387d0f128af9915fd5d49ffbebc8af7cde9247334e3cd79"
+        },
+        {
+          "bytes": 109000,
+          "path": "sources/mexico/marketing.webp",
+          "sha256": "d85b9e5a78d23481e4c2453241fb1956e9d19234f8f2fbdeb2498f2384786ccb"
+        }
+      ],
+      "selection": {
+        "commit": "5ed8b7b61f3dfd9ecb9cd4faa0894f30fbdd761c",
+        "fetched_tip": "5ed8b7b61f3dfd9ecb9cd4faa0894f30fbdd761c",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/mexico-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 6227206,
+          "commit": "5ed8b7b61f3dfd9ecb9cd4faa0894f30fbdd761c",
+          "crc_error": null,
+          "entries": 56,
+          "fresh_crc_safe_unique": true,
+          "fresh_inner_inventory_entries": 55,
+          "fresh_required_payloads": [
+            {
+              "member": "mexico-v1.html",
+              "path": "preview/mexico-v1/mexico-v1.html",
+              "sha256": "583e6710f4db070cd6a2bafbbcd99c1b4a11ad6898adffa336e9854aa2d89e1f"
+            },
+            {
+              "member": "mexico.blend",
+              "path": "preview/mexico-v1/mexico.blend",
+              "sha256": "e610b42371087a88c083cb2c768680086edfeeb80875368bc474323e82d8a1f6"
+            },
+            {
+              "member": "mexico.glb",
+              "path": "preview/mexico-v1/mexico.glb",
+              "sha256": "aad59e0c0bffd5ee98b59f6c404a7f48bcfcfabb0ce503b2c9ed49b0bf31dc12"
+            }
+          ],
+          "inventory_checked": true,
+          "inventory_entries": 55,
+          "inventory_mismatches": [],
+          "kind": "git",
+          "path": "preview/mexico-v1/mexico-v1-source.zip",
+          "required_payloads": {
+            "mexico-v1.html": true,
+            "mexico.blend": true,
+            "mexico.glb": true
+          },
+          "safe_unique_paths": true,
+          "sha256": "037e880057af82467ccc0309d312c3c0c40ecacc30cad3d59a6b3e5eac497161"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 513729,
+          "commit": "5ed8b7b61f3dfd9ecb9cd4faa0894f30fbdd761c",
+          "path": "preview/mexico-v1/mexico.blend",
+          "role": "selected-model",
+          "sha256": "e610b42371087a88c083cb2c768680086edfeeb80875368bc474323e82d8a1f6"
+        },
+        {
+          "bytes": 2266880,
+          "commit": "5ed8b7b61f3dfd9ecb9cd4faa0894f30fbdd761c",
+          "path": "preview/mexico-v1/mexico.glb",
+          "role": "selected-model",
+          "sha256": "aad59e0c0bffd5ee98b59f6c404a7f48bcfcfabb0ce503b2c9ed49b0bf31dc12",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 172,
+            "nodes": 174
+          }
+        }
+      ],
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 3886150,
+        "commit": "5ed8b7b61f3dfd9ecb9cd4faa0894f30fbdd761c",
+        "path": "preview/mexico-v1/mexico-v1.html",
+        "sha256": "583e6710f4db070cd6a2bafbbcd99c1b4a11ad6898adffa336e9854aa2d89e1f",
+        "under_5000000": true
+      }
+    },
+    "last_approved_baseline": null,
+    "launch_ready": false,
+    "name": "Mexico",
+    "package_history": [
+      {
+        "bytes": 6227206,
+        "commit": "5ed8b7b61f3dfd9ecb9cd4faa0894f30fbdd761c",
+        "crc_error": null,
+        "entries": 56,
+        "inventory_checked": true,
+        "inventory_entries": 55,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/mexico-v1/mexico-v1-source.zip",
+        "required_payloads": {
+          "mexico-v1.html": true,
+          "mexico.blend": true,
+          "mexico.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "037e880057af82467ccc0309d312c3c0c40ecacc30cad3d59a6b3e5eac497161"
+      }
+    ],
+    "package_missing_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "selected_candidate": {
+      "commit": "5ed8b7b61f3dfd9ecb9cd4faa0894f30fbdd761c",
+      "fetched_tip": "5ed8b7b61f3dfd9ecb9cd4faa0894f30fbdd761c",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/mexico-v1"
+    },
+    "verdict": "candidate-with-limitations",
+    "viewer": {
+      "bytes": 3886150,
+      "commit": "5ed8b7b61f3dfd9ecb9cd4faa0894f30fbdd761c",
+      "path": "preview/mexico-v1/mexico-v1.html",
+      "sha256": "583e6710f4db070cd6a2bafbbcd99c1b4a11ad6898adffa336e9854aa2d89e1f",
+      "under_5000000": true
+    }
+  },
+  "repair_record": {
+    "id": "mexico",
+    "baseline_verdict": "candidate-with-limitations",
+    "actions": [
+      "remaining ordinary finish inspection; do not edit promotional-only differences or infer broken model"
+    ],
+    "approval": false,
+    "original_review": {
+      "approval": {
+        "evidence_policy": "No new approval inferred from existence, published promotional acceptance, or old technical reports.",
+        "prior_approved_baseline": null,
+        "status": "candidate-not-final-approved",
+        "user_final_approved": false
+      },
+      "art_changed": false,
+      "capture_base": "parent/",
+      "captures": [
+        "smoke/mexico/desktop-closed.png",
+        "smoke/mexico/desktop-open.png",
+        "smoke/mexico/mobile-closed.png",
+        "smoke/mexico/mobile-open.png"
+      ],
+      "critical_reproducible_failures": [],
+      "final_approval": false,
+      "fresh_checks": {
+        "blender_parity_collision": false,
+        "fallback": false,
+        "full_inner_archive_inventories": true,
+        "motion": false,
+        "original_captures_and_marketing_inspected": true,
+        "runtime": false,
+        "source_and_delivered_viewer_hashes": true,
+        "source_archive_crc_safe_paths_required_payloads": true
+      },
+      "historical_runtime": {
+        "browser": [
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8680000398308039,
+                  2.93999981880188,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.8680000398308039,
+                  -0.30737072974443436,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 2266880,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 8,
+              "meshes": 172,
+              "nonfinite": 0,
+              "triangles": 29108
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "mexico",
+            "interrupted_reset": true,
+            "mode": "desktop",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "583e6710f4db070cd6a2bafbbcd99c1b4a11ad6898adffa336e9854aa2d89e1f"
+          },
+          {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8680000398308039,
+                  2.93999981880188,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.8680000398308039,
+                  -0.30737072974443436,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 2266880,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 8,
+              "meshes": 172,
+              "nonfinite": 0,
+              "triangles": 29108
+            },
+            "drag": true,
+            "external_requests": [],
+            "id": "mexico",
+            "interrupted_reset": true,
+            "mode": "mobile",
+            "no_overflow": true,
+            "open_close": true,
+            "page_errors": [],
+            "reduced_motion_endpoints": true,
+            "result": "pass",
+            "scope": "pilot smoke only",
+            "sha256": "583e6710f4db070cd6a2bafbbcd99c1b4a11ad6898adffa336e9854aa2d89e1f"
+          }
+        ],
+        "extended": {
+          "geometry": {
+            "asset": {
+              "bounds": {
+                "max": [
+                  1.8680000398308039,
+                  2.93999981880188,
+                  1.4875000286847353
+                ],
+                "min": [
+                  -1.8680000398308039,
+                  -0.30737072974443436,
+                  -1.3950000554323196
+                ]
+              },
+              "bytes": 2266880,
+              "degenerate": 0,
+              "latch": "Latch_Pivot",
+              "lid": "Lid_Hinge",
+              "materials": 8,
+              "meshes": 172,
+              "nonfinite": 0,
+              "triangles": 29108
+            },
+            "meshes": 172,
+            "nonfinite": 0,
+            "triangles": 29108
+          },
+          "id": "mexico",
+          "no_js_poster": true
+        },
+        "motion": {
+          "exit_code": 0,
+          "id": "mexico",
+          "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+          "source": [
+            {
+              "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+              "path": "preview/albania-v1/tests.mjs",
+              "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+            },
+            {
+              "commit": "5ed8b7b61f3dfd9ecb9cd4faa0894f30fbdd761c",
+              "path": "preview/mexico-v1/motion.mjs",
+              "sha256": "69ef871b2a1f44a737e2e288f10ddaf4244e2351fdbf855938fb955c1926a511"
+            }
+          ]
+        },
+        "parent_commit": "431e51ffb5a8704b5f8f8b11694d28befae18402"
+      },
+      "id": "mexico",
+      "independent_visual": {
+        "assessment": {
+          "concrete_defects": [
+            "Agave leaves and dark feet have conspicuously angular silhouettes versus the reference's softer surface treatment.",
+            "Small cobalt motifs soften on receding tile surfaces and mobile views; tile/corner joins and terracotta rim blocks look coarse at those scales.",
+            "Ceramic and terracotta finishes are relatively matte and simplified, retaining the palette but not all of the illustration's surface variation."
+          ],
+          "id": "mexico",
+          "inspected_paths": [
+            "parent/smoke/mexico/desktop-closed.png",
+            "parent/smoke/mexico/desktop-open.png",
+            "parent/smoke/mexico/mobile-closed.png",
+            "parent/smoke/mexico/mobile-open.png",
+            "parent/sources/mexico/marketing.webp"
+          ],
+          "limitations": [
+            "All five original images inspected at normal size against the illustration's theme/material identity, not a hyperrealism standard.",
+            "The agave is not exposed from the open underside viewpoint; that does not establish that the ornament is missing or detached.",
+            "Static frames cannot establish hidden collisions, intermediate motion, or control operation. No art approval or changes."
+          ],
+          "observations": "Cobalt floral tiles, warm terracotta lid, blue-green agave and brass hardware remain clearly recognizable and closely aligned with the illustration. Both open views are complete and unobstructed; no obvious major broken texture, missing panel or page overlap.",
+          "verdict": "candidate-with-limitations"
+        },
+        "report": "visual-c.json"
+      },
+      "inherited_missing_gates": [
+        "independent-current-model-visual-review",
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization",
+        "independent QA-ART-08 review"
+      ],
+      "launch_ready": false,
+      "marketing": {
+        "bytes": 109000,
+        "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+        "dimensions": [
+          1072,
+          976
+        ],
+        "image_type": "Promotional art",
+        "matches_gallery_inventory": true,
+        "not_model_approval": true,
+        "path": "docs/assets/gallery/mexico.webp",
+        "provenance": {
+          "exactModelEquivalenceClaimed": false,
+          "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+          "model": "grok-imagine-image",
+          "nativeDimensions": [
+            1072,
+            976
+          ],
+          "provider": "xai",
+          "reviewNotes": "High broad fidelity; original major miniature counts and hardware retained. Richer texture/color, minor pattern and contour changes.",
+          "reviewStatus": "reviewed",
+          "sha256": "f854e9e5e2580aab7024508823c21a56e19f377bd71b5e3c9130552f423986d8",
+          "source": "assets/gallery/mexico.webp",
+          "sourceSha256": "c578ba7e868958d708a9ece78ecf67eb416c4ec736378d2ace4729efd453a1c5",
+          "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+        },
+        "sha256": "d85b9e5a78d23481e4c2453241fb1956e9d19234f8f2fbdeb2498f2384786ccb"
+      },
+      "missing_gates": [
+        "explicit-final-user-art-approval",
+        "fresh-full-source-and-browser-acceptance",
+        "storage-and-preservation-policy",
+        "mint-and-release-authorization"
+      ],
+      "parent_verdict": "pass",
+      "parent_visual": {
+        "decision": "Pass as bounded stylized candidate, retaining pronounced faceted-agave and repetitive-tile limitations. Geometry/theme broadly align; do not claim premium marketing finish equivalence or final user approval.",
+        "hardware": "Brass corner caps and tall centered clasp retain marketing scale/layout. Open captures expose two rear hinges and separated released latch. No obvious detached hardware; fine fastening detail simplified.",
+        "limitations": "README and brief describe invented regional combination and original repeat, not workshop-pattern fidelity or botanical precision. Interior and fasteners become less legible on mobile. Static comparison does not independently reverify technical acceptance.",
+        "quality": "Strong cobalt/ivory/terracotta identity and complete chest silhouette; all four captures keep box, open lid and controls in frame.",
+        "terrain": "Blue-green radial agave and terracotta soil island preserve marketing placement and theme. Runtime leaves are visibly angular, rigid and flat-faced compared with marketing curved, overlapping, textured leaves. Agave is small but recognizable on mobile; concealed behind the open lid is not evidence of omission.",
+        "texture": "Regular cobalt flower tile grid and orange lid match broad marketing design. Runtime lacks much of marketing handmade surface variation, glaze/material richness and leaf speckle; tiles are highly repeated and lid framing can look wood-like. These are explicit stylization gaps, not authenticated Talavera craft."
+      },
+      "parent_visual_hold_preserved": false,
+      "reviewed_image_hashes": [
+        {
+          "bytes": 401915,
+          "path": "smoke/mexico/desktop-closed.png",
+          "sha256": "bd752f3ef15ea93c27a49ba472587fee150b2da9c2f987c3ad39d2b1e1bb66b3"
+        },
+        {
+          "bytes": 418557,
+          "path": "smoke/mexico/desktop-open.png",
+          "sha256": "84f1e2349a3a273507ea909c60c53aed9149c6b80fd42c933b20472cf6f0cedf"
+        },
+        {
+          "bytes": 129556,
+          "path": "smoke/mexico/mobile-closed.png",
+          "sha256": "95e9e44d0f87fb433417d4225e1040fc16c377d90fddb0f9a929524f8a61defc"
+        },
+        {
+          "bytes": 127211,
+          "path": "smoke/mexico/mobile-open.png",
+          "sha256": "752c5df1ee2c2f0f2387d0f128af9915fd5d49ffbebc8af7cde9247334e3cd79"
+        },
+        {
+          "bytes": 109000,
+          "path": "sources/mexico/marketing.webp",
+          "sha256": "d85b9e5a78d23481e4c2453241fb1956e9d19234f8f2fbdeb2498f2384786ccb"
+        }
+      ],
+      "selection": {
+        "commit": "5ed8b7b61f3dfd9ecb9cd4faa0894f30fbdd761c",
+        "fetched_tip": "5ed8b7b61f3dfd9ecb9cd4faa0894f30fbdd761c",
+        "reachable_from_fetched_ref": true,
+        "remote_ref": "origin/art/mexico-v1"
+      },
+      "source_archives": [
+        {
+          "bytes": 6227206,
+          "commit": "5ed8b7b61f3dfd9ecb9cd4faa0894f30fbdd761c",
+          "crc_error": null,
+          "entries": 56,
+          "fresh_crc_safe_unique": true,
+          "fresh_inner_inventory_entries": 55,
+          "fresh_required_payloads": [
+            {
+              "member": "mexico-v1.html",
+              "path": "preview/mexico-v1/mexico-v1.html",
+              "sha256": "583e6710f4db070cd6a2bafbbcd99c1b4a11ad6898adffa336e9854aa2d89e1f"
+            },
+            {
+              "member": "mexico.blend",
+              "path": "preview/mexico-v1/mexico.blend",
+              "sha256": "e610b42371087a88c083cb2c768680086edfeeb80875368bc474323e82d8a1f6"
+            },
+            {
+              "member": "mexico.glb",
+              "path": "preview/mexico-v1/mexico.glb",
+              "sha256": "aad59e0c0bffd5ee98b59f6c404a7f48bcfcfabb0ce503b2c9ed49b0bf31dc12"
+            }
+          ],
+          "inventory_checked": true,
+          "inventory_entries": 55,
+          "inventory_mismatches": [],
+          "kind": "git",
+          "path": "preview/mexico-v1/mexico-v1-source.zip",
+          "required_payloads": {
+            "mexico-v1.html": true,
+            "mexico.blend": true,
+            "mexico.glb": true
+          },
+          "safe_unique_paths": true,
+          "sha256": "037e880057af82467ccc0309d312c3c0c40ecacc30cad3d59a6b3e5eac497161"
+        }
+      ],
+      "source_models": [
+        {
+          "bytes": 513729,
+          "commit": "5ed8b7b61f3dfd9ecb9cd4faa0894f30fbdd761c",
+          "path": "preview/mexico-v1/mexico.blend",
+          "role": "selected-model",
+          "sha256": "e610b42371087a88c083cb2c768680086edfeeb80875368bc474323e82d8a1f6"
+        },
+        {
+          "bytes": 2266880,
+          "commit": "5ed8b7b61f3dfd9ecb9cd4faa0894f30fbdd761c",
+          "path": "preview/mexico-v1/mexico.glb",
+          "role": "selected-model",
+          "sha256": "aad59e0c0bffd5ee98b59f6c404a7f48bcfcfabb0ce503b2c9ed49b0bf31dc12",
+          "structural_probe": {
+            "declared_size_matches": true,
+            "embedded_buffers": true,
+            "embedded_in_html": true,
+            "glb_version": 2,
+            "meshes": 172,
+            "nodes": 174
+          }
+        }
+      ],
+      "verdict": "candidate-with-limitations",
+      "viewer": {
+        "bytes": 3886150,
+        "commit": "5ed8b7b61f3dfd9ecb9cd4faa0894f30fbdd761c",
+        "path": "preview/mexico-v1/mexico-v1.html",
+        "sha256": "583e6710f4db070cd6a2bafbbcd99c1b4a11ad6898adffa336e9854aa2d89e1f",
+        "under_5000000": true
+      }
+    },
+    "package_history": [
+      {
+        "bytes": 6227206,
+        "commit": "5ed8b7b61f3dfd9ecb9cd4faa0894f30fbdd761c",
+        "crc_error": null,
+        "entries": 56,
+        "inventory_checked": true,
+        "inventory_entries": 55,
+        "inventory_mismatches": [],
+        "kind": "git",
+        "path": "preview/mexico-v1/mexico-v1-source.zip",
+        "required_payloads": {
+          "mexico-v1.html": true,
+          "mexico.blend": true,
+          "mexico.glb": true
+        },
+        "safe_unique_paths": true,
+        "sha256": "037e880057af82467ccc0309d312c3c0c40ecacc30cad3d59a6b3e5eac497161"
+      }
+    ]
+  },
+  "ordinary_record": {
+    "id": "mexico",
+    "disposition": "unchanged-with-explicit-limitations",
+    "correction_passes": 0,
+    "model_geometry_changed": false,
+    "final_approved": false,
+    "launch_ready": false,
+    "original_observations": [
+      "Agave leaves and dark feet have conspicuously angular silhouettes versus the reference's softer surface treatment.",
+      "Small cobalt motifs soften on receding tile surfaces and mobile views; tile/corner joins and terracotta rim blocks look coarse at those scales.",
+      "Ceramic and terracotta finishes are relatively matte and simplified, retaining the palette but not all of the illustration's surface variation."
+    ],
+    "independent_adjudication": {
+      "id": "mexico",
+      "disposition": "no-edit",
+      "observation": "Cobalt tile motifs remain coherent across closed/open and desktop/mobile. Open terracotta lid/interior have broad cloudy variation; agave leaves and mound are angular.",
+      "rationale": "Native mobile-open reinspection does not establish an isolated stain, seam, missing material or broken finish. Cloudiness is material taste; agave faceting is geometry. Promotional glaze, wear and leaf realism are not repair requirements.",
+      "bounded_recommendation": "Preserve existing materials and geometry. Do not attenuate terracotta mottling merely to make it smoother.",
+      "supersampling": "Not warranted by current evidence; no conspicuous repeated staircase problem.",
+      "adjudication": "Initial board-only suggestion to reduce mottling withdrawn after native-size inspection: aesthetic preference is not an ordinary defect."
+    },
+    "unresolved_owner_holds": [
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "inherited_holds": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization",
+      "independent QA-ART-08 review"
+    ],
+    "original_review_preserved_in": "baseline.json",
+    "fresh_runtime": {
+      "id": "mexico",
+      "exit_code": 0,
+      "shared_contract": "Bangladesh renderer-independent interaction assertions; no fresh source/collision claim",
+      "results": "launch\\ordinary-finish-20\\runtime\\mexico\\browser-check.json"
+    },
+    "fresh_source_archive": {
+      "id": "mexico",
+      "archives": [
+        {
+          "archive": {
+            "bytes": 6227206,
+            "commit": "5ed8b7b61f3dfd9ecb9cd4faa0894f30fbdd761c",
+            "crc_error": null,
+            "entries": 56,
+            "fresh_crc_safe_unique": true,
+            "fresh_inner_inventory_entries": 55,
+            "fresh_required_payloads": [
+              {
+                "member": "mexico-v1.html",
+                "path": "preview/mexico-v1/mexico-v1.html",
+                "sha256": "583e6710f4db070cd6a2bafbbcd99c1b4a11ad6898adffa336e9854aa2d89e1f"
+              },
+              {
+                "member": "mexico.blend",
+                "path": "preview/mexico-v1/mexico.blend",
+                "sha256": "e610b42371087a88c083cb2c768680086edfeeb80875368bc474323e82d8a1f6"
+              },
+              {
+                "member": "mexico.glb",
+                "path": "preview/mexico-v1/mexico.glb",
+                "sha256": "aad59e0c0bffd5ee98b59f6c404a7f48bcfcfabb0ce503b2c9ed49b0bf31dc12"
+              }
+            ],
+            "inventory_checked": true,
+            "inventory_entries": 55,
+            "inventory_mismatches": [],
+            "kind": "git",
+            "path": "preview/mexico-v1/mexico-v1-source.zip",
+            "required_payloads": {
+              "mexico-v1.html": true,
+              "mexico.blend": true,
+              "mexico.glb": true
+            },
+            "safe_unique_paths": true,
+            "sha256": "037e880057af82467ccc0309d312c3c0c40ecacc30cad3d59a6b3e5eac497161"
+          },
+          "members": 56,
+          "fresh_inventory": {
+            "status": "pass",
+            "entries_checked": 55,
+            "uninventoried_members": [
+              "inventory.json"
+            ]
+          },
+          "exact_selected_payloads": [
+            "mexico-v1.html",
+            "mexico.blend",
+            "mexico.glb"
+          ]
+        }
+      ],
+      "pass": true
+    },
+    "remaining_visual_limitations": "Native mobile-open reinspection does not establish an isolated stain, seam, missing material or broken finish. Cloudiness is material taste; agave faceting is geometry. Promotional glaze, wear and leaf realism are not repair requirements."
+  }
+}
