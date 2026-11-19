@@ -1,0 +1,54 @@
+[
+  {
+    "url": "https://github.com/yours-org/yours-wallet/blob/ccdd6f480906c06cfa1481ad3a66f4abc8a5cc9e/src/cwi.ts",
+    "sha256": "b6534c893efd59e6399e16b1cd74dbb341268eae309fb1ecb3d89e74b3cc63bd",
+    "lines": [
+      1,
+      30
+    ],
+    "excerpt": "/**\n * CWI (Chrome Wallet Interface) - BRC-100 WalletInterface implementation\n * Re-exports from @1sat/wallet-remote for browser page context\n */\n\nimport type { WalletInterface } from '@bsv/sdk';\nimport { createEventCWI, CWIEventName } from '@1sat/wallet-browser';\n\n// Re-export for backwards compatibility\nexport { CWIEventName };\n\n// Create the CWI instance for browser pages (uses CustomEvent pattern)\nexport const CWI = createEventCWI();\n\n// Inject CWI on window\nif (typeof window !== 'undefined') {\n  (window as unknown as { CWI: WalletInterface }).CWI = CWI;\n}"
+  },
+  {
+    "url": "https://github.com/yours-org/yours-wallet/blob/ccdd6f480906c06cfa1481ad3a66f4abc8a5cc9e/src/content.ts",
+    "sha256": "47e17968fe8f235e51bed97bc18e452c5b3b59b23a721fd232cb7459fac3aad2",
+    "lines": [
+      1,
+      38
+    ],
+    "excerpt": "/* global chrome */\n\nimport { isCWIEventName } from '@1sat/wallet-browser';\nimport { CustomListenerName, RequestEventDetail, RequestParams, ResponseEventDetail } from './inject';\n\nconsole.log('\ud83c\udf31 Yours Wallet Loaded');\n\n// inject.js runs as a MAIN-world content script (see manifest.json), so\n// window.CWI is bound before any page script executes.\n\n// Forward CWI requests from page to background service worker\nself.addEventListener(CustomListenerName.YOURS_REQUEST, (e: Event) => {\n  const { type, messageId, params: originalParams = {} } = (e as CustomEvent<RequestEventDetail>).detail;\n  if (!type || !isCWIEventName(type)) return;\n\n  let params: RequestParams = {};\n\n  if (Array.isArray(originalParams)) {\n    params.data = originalParams;\n  } else if (typeof originalParams === 'object') {\n    params = { ...params, ...originalParams };\n  }\n\n  // Use originator at message level (BRC-100 standard)\n  const originator = window.location.host;\n\n  chrome.runtime.sendMessage({ action: type, params, originator }, buildResponseCallback(messageId));\n});\n\nconst buildResponseCallback = (messageId: string) => {\n  return (response: ResponseEventDetail) => {\n    const detail = chrome.runtime.lastError\n      ? { success: false, error: chrome.runtime.lastError.message || 'Message channel closed' }\n      : (response ?? { success: false, error: 'No response from service worker' });\n    const responseEvent = new CustomEvent(messageId, { detail });\n    self.dispatchEvent(responseEvent);\n  };\n};"
+  },
+  {
+    "url": "https://github.com/yours-org/yours-wallet/blob/ccdd6f480906c06cfa1481ad3a66f4abc8a5cc9e/src/background.ts",
+    "sha256": "bd27ac5169a89874aed9ad9aed878156e89af9cbdd9e704432658baedda18ce9",
+    "lines": [
+      2415,
+      2447
+    ],
+    "excerpt": "      });\n    } catch (error) {\n      sendResponse({\n        type: CWIEventName.LIST_OUTPUTS,\n        success: false,\n        error: error instanceof Error ? error.message : JSON.stringify(error),\n      });\n    }\n    return true;\n  };\n\n  const processCWIGetNetwork = async (message: { originator?: string }, sendResponse: CallbackResponse) => {\n    try {\n      const w = await ensureWallet();\n\n      const result = await w.getNetwork({}, message.originator);\n      sendResponse({\n        type: CWIEventName.GET_NETWORK,\n        success: true,\n        data: result,\n      });\n    } catch (error) {\n      sendResponse({\n        type: CWIEventName.GET_NETWORK,\n        success: false,\n        error: error instanceof Error ? error.message : JSON.stringify(error),\n      });\n    }\n    return true;\n  };\n\n  const processCWIGetHeight = async (message: { originator?: string }, sendResponse: CallbackResponse) => {\n    try {"
+  },
+  {
+    "url": "https://github.com/yours-org/yours-wallet/blob/ccdd6f480906c06cfa1481ad3a66f4abc8a5cc9e/src/background.ts",
+    "sha256": "bd27ac5169a89874aed9ad9aed878156e89af9cbdd9e704432658baedda18ce9",
+    "lines": [
+      2660,
+      2686
+    ],
+    "excerpt": "  // Signing operations - wallet handles permission prompts internally via callbacks\n  const processCWICreateSignature = async (\n    message: { params: CreateSignatureArgs; originator?: string },\n    sendResponse: CallbackResponse,\n  ) => {\n    try {\n      console.log('[background] processCWICreateSignature: entering, originator:', message.originator);\n      const w = await ensureWallet();\n      await ensureUsbSeen('sign with your keys', message.originator);\n      console.log('[background] processCWICreateSignature: ensureWallet resolved, calling w.createSignature...');\n      const result = await w.createSignature(message.params, message.originator);\n      console.log('[background] processCWICreateSignature: success');\n      sendResponse({\n        type: CWIEventName.CREATE_SIGNATURE,\n        success: true,\n        data: result,\n      });\n    } catch (error) {\n      console.error('[background] processCWICreateSignature: error:', error);\n      sendResponse({\n        type: CWIEventName.CREATE_SIGNATURE,\n        success: false,\n        error: error instanceof Error ? error.message : JSON.stringify(error),\n      });\n    }\n    return true;\n  };"
+  },
+  {
+    "package": "@bsv/sdk@4.1.1",
+    "file": "dist/types/src/wallet/Wallet.interfaces.d.ts",
+    "sha256": "b0a46bea2b34adb932c98eb9eee30c6edfcedb2da07854e8d51eabfbcbc54d4c",
+    "excerpts": {
+      "interface CreateSignatureArgs": "interface CreateSignatureArgs extends WalletEncryptionArgs {\n    data?: Byte[];\n    hashToDirectlySign?: Byte[];\n}\nexport interface CreateSignatureResult {\n    signature: Byte[];\n}\n/**\n * @param {Byte[]} [args.data] - The data originally signed, which is required for verification unless directly verifying a hash.\n * @param {Byte[]} [args.hashToDirectlyVerify] - Optional field to verify the signatu",
+      "interface GetNetworkResult": "interface GetNetworkResult {\n    /** The selected wallet's network assertion, not independent chain evidence. */\n    network: WalletNetwork;\n}\nexport interface GetVersionResult {\n    version: VersionString7To30Bytes;\n}\n/**\n * @param {PubKeyHex} identityKey - Identity key used to filter and discover certificates.\n * @param {PositiveIntegerDefault10Max10000} [limit] - Maximum number of certificates ",
+      "interface GetPublicKeyArgs": "interface GetPublicKeyArgs extends Partial<WalletEncryptionArgs> {\n    identityKey?: true;\n    forSelf?: BooleanDefaultFalse;\n}\n/**\n * @param {PubKeyHex} counterparty - The public key of the counterparty involved in the linkage.\n * @param {PubKeyHex} verifier - The public key of the verifier requesting the linkage information.\n * @param {DescriptionString5to50Bytes} [privilegedReason] - Reason pro"
+    }
+  },
+  {
+    "package": "@bsv/sdk@4.1.1",
+    "file": "dist/cjs/src/wallet/ProtoWallet.js",
+    "sha256": "6dc5acaa1121cb5adf059d86068c51bfc5d6b4c8a8e99885af33c82aa470fabe",
+    "excerpt": "async createSignature(args) {\n        (0, validationHelpers_js_1.validateCreateSignatureArgs)(args);\n        const keyDeriver = keyDeriverOrThrow(this.keyDeriver);\n        if (args.hashToDirectlySign == null && args.data == null) {\n            throw new Error('args.data or args.hashToDirectlySign must be valid');\n        }\n        const protocolID = snapshotProtocolID(args.protocolID);\n        const keyID = args.keyID;\n        const counterparty = args.counterparty ?? 'anyone';\n        const directHash = args.hashToDirectlySign === undefined ? undefined : snapshotBytes(args.hashToDirectlySign);\n        const data = args.data === undefined ? undefined : snapshotBytes(args.data);\n        const hash = directHash ?? (await hashSignatureData(data ?? []));\n        const key = derivePrivateKey(keyDeriver, protocolID, keyID, counterparty);\n        const backend = (0, AsyncCryptoBackend_js_1.isAsyncCryptoDigest)(hash) ? (0, AsyncCryptoBackend_js_1.readyAsyncCryptoBackend)('signDigest') : undefined;\n        const signature = backend === undefined\n            ? (0, ECDSA_js_1.sign)(new BigNumber_js_1.default(hash), key, true)\n            : Signature_js_1.default.fromDER(Array.from((0, AsyncCryptoBackend_js_1.validateAsyncCryptoBytes)('signDigest', await backend.signDigest(Uint8Array.from(key.toArray('be', 32)), Uint8Array.from(hash)))));\n        return {\n            signature: signature.toDER()\n        };\n    }\n    "
+  }
+]

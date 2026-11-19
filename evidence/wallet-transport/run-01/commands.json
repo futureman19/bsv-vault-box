@@ -1,0 +1,53 @@
+[
+  {
+    "file": "focused.txt",
+    "argv": [
+      "node",
+      "--test",
+      "launch/wallet-transport/test.js",
+      "launch/wallet-transport/security.test.js"
+    ],
+    "exit": 0
+  },
+  {
+    "file": "harness.json",
+    "argv": [
+      "node",
+      "launch/wallet-transport/harness.js"
+    ],
+    "exit": 0
+  },
+  {
+    "file": "build.txt",
+    "argv": [
+      "node",
+      "launch/wallet-transport/node_modules/browserify/bin/cmd.js",
+      "launch/wallet-transport/adapter.js",
+      "--standalone",
+      "BoxSVWalletTransport",
+      "-o",
+      "launch/wallet-transport/browser/adapter.js"
+    ],
+    "exit": 0
+  },
+  {
+    "file": "browser.txt",
+    "argv": [
+      "python",
+      "launch/wallet-transport/browser_smoke.py"
+    ],
+    "exit": 0
+  },
+  {
+    "file": "continuous-regression.txt",
+    "argv": [
+      "node",
+      "--test",
+      "launch/continuous/test.js",
+      "launch/continuous/security.test.js",
+      "launch/continuous/server.test.js",
+      "launch/continuous/process.test.js"
+    ],
+    "exit": 0
+  }
+]

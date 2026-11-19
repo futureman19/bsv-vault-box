@@ -1,0 +1,70 @@
+{
+  "label": "PUBLIC_FIXTURE_SDK_SIGNING_NOT_EXTENSION_NOT_CHAIN",
+  "network": "testnet",
+  "syntheticRoots": true,
+  "request": {
+    "version": 1,
+    "id": "fixture-request-0001",
+    "expiresAt": 1795066856442,
+    "network": "testnet",
+    "identityKey": "02c6047f9441ed7d6d3045406e95c07cd85c778e4b8cef3ca7abac09b95c709ee5",
+    "signingKey": "03d41be61c2f8b5a19f4c92e4a9c990351f27a1e5b7bc0ca1ef85a037311da437a",
+    "action": "Withdraw",
+    "binding": {
+      "manifestSha256": "1111111111111111111111111111111111111111111111111111111111111111",
+      "designId": "iceland",
+      "metadataSha256": "2222222222222222222222222222222222222222222222222222222222222222",
+      "origin": "a2b0711bf058f16f5f32d234eac066dd7c4c9143f0c592aab381dda29d76898a_0",
+      "buyerPubkey": "03d41be61c2f8b5a19f4c92e4a9c990351f27a1e5b7bc0ca1ef85a037311da437a"
+    },
+    "transaction": {
+      "raw": "01000000018a89769da2dd81b3aa92c5f043914c7cdd66c0ea34d2325f6ff158f01b71b0a20000000000ffffffff0184030000000000001976a914fa0d157af10ef8a4f99e37305a8113e7f009f43388ac00000000",
+      "parents": [
+        "010000000195bdc99863222a15de97662afb687348af3d35f76e679bb0d8627f0da6edd7c50000000000ffffffff01e8030000000000001976a914fa0d157af10ef8a4f99e37305a8113e7f009f43388ac00000000"
+      ],
+      "inputIndex": 0
+    },
+    "intent": {
+      "outputs": [
+        {
+          "script": "76a914fa0d157af10ef8a4f99e37305a8113e7f009f43388ac",
+          "satoshis": 900
+        }
+      ],
+      "maxFee": 100
+    }
+  },
+  "response": {
+    "version": 1,
+    "kind": "VERIFIED_SIGNATURES_NOT_SENT",
+    "requestHash": "71c665e6c26486e10ee1e36ac613130687c6874ab34c64d443b3154bb75814a0",
+    "network": "testnet",
+    "identityKey": "02c6047f9441ed7d6d3045406e95c07cd85c778e4b8cef3ca7abac09b95c709ee5",
+    "signingKey": "03d41be61c2f8b5a19f4c92e4a9c990351f27a1e5b7bc0ca1ef85a037311da437a",
+    "transactionSignature": "304402200bb2692944d43e91bb7d2250be0116a46b48c3093092734a98a79dbfb0b76f1802200414f199234cee95ec76f5379724c9ece6c2ac9c380d7ab98d714250f9a49de241",
+    "signature": "304402204de2b1a2f18c97e996ff3c988e733b8584322948ce37211021cff6193f48501a02203b95ed9ab88f4bc339db71bf1c127c8078e4ee22726eb30b4fa7ff246794090e"
+  },
+  "raw": "01000000018a89769da2dd81b3aa92c5f043914c7cdd66c0ea34d2325f6ff158f01b71b0a2000000006a47304402200bb2692944d43e91bb7d2250be0116a46b48c3093092734a98a79dbfb0b76f1802200414f199234cee95ec76f5379724c9ece6c2ac9c380d7ab98d714250f9a49de2412103d41be61c2f8b5a19f4c92e4a9c990351f27a1e5b7bc0ca1ef85a037311da437affffffff0184030000000000001976a914fa0d157af10ef8a4f99e37305a8113e7f009f43388ac00000000",
+  "txid": "d28f23eac62e132e706bdd8c06e9fbe4d4426aebb6de96602e06a97ba2c088e1",
+  "vm": {
+    "success": true
+  },
+  "providerMethods": [
+    "waitForAuthentication",
+    "isAuthenticated",
+    "getNetwork",
+    "getPublicKey",
+    "getPublicKey",
+    "createSignature",
+    "isAuthenticated",
+    "getNetwork",
+    "getPublicKey",
+    "getPublicKey",
+    "createSignature",
+    "isAuthenticated",
+    "getNetwork",
+    "getPublicKey",
+    "getPublicKey"
+  ],
+  "realSends": 0
+}
