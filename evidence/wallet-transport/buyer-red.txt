@@ -1,0 +1,25 @@
+✖ buyer actions reject a different bound owner before any provider call (122.1392ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 0
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 894.693
+
+✖ failing tests:
+
+test at launch\wallet-transport\security.test.js:40:1
+✖ buyer actions reject a different bound owner before any provider call (122.1392ms)
+  AssertionError [ERR_ASSERTION]: Missing expected rejection.
+      at async TestContext.<anonymous> (C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_da157555\launch\wallet-transport\security.test.js:40:161)
+      at async Test.run (node:internal/test_runner/test:1113:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:358:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: /BUYER/,
+    operator: 'rejects',
+    diff: 'simple'
+  }

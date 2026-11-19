@@ -1,0 +1,40 @@
+✔ SDK-derived signature spends exact fixture transaction; envelope verifies (106.0609ms)
+✔ disabled signing makes no calls (6.0339ms)
+✔ send always disabled (5.2061ms)
+✔ trusted request hash required (4.3667ms)
+✔ Reserve signs binding only (23.3888ms)
+✔ rejects network (5.8816ms)
+✔ rejects identity (5.4008ms)
+✔ rejects signing key (5.5695ms)
+✔ rejects authentication (5.979ms)
+✔ rejects provider rejection (5.1218ms)
+✔ rejects malformed signature (4.8121ms)
+✔ rejects action error (8.6682ms)
+✔ rejects wrong key (11.3276ms)
+✔ rejects extra response fields (6.5756ms)
+✔ rejects wrong parent (4.5089ms)
+✔ rejects output diversion (4.3985ms)
+✔ rejects excess fee (4.1686ms)
+✔ rejects expired (4.1463ms)
+✔ rejects unknown action (4.8673ms)
+✔ rejects extra fields (3.6789ms)
+✔ request IDs cannot replay (19.1867ms)
+✔ disconnect discards late signature (7.1447ms)
+✔ abort cancels a hung request locally (4.2165ms)
+✔ timeout and single flight (44.191ms)
+✔ network switch after signing rejects (8.2748ms)
+✔ response tamper and cross-request substitution (23.4403ms)
+✔ sparse arrays are rejected before serialization (0.1582ms)
+✔ buyer actions reject a different bound owner before any provider call (3.7279ms)
+✔ response accessors are rejected without invoking them (4.3681ms)
+✔ default policy disables signing (3.2863ms)
+✔ caller mutation cannot alter signed snapshot (22.9262ms)
+✔ authoritative transport exports a runnable adapter (95.1095ms)
+ℹ tests 32
+ℹ suites 0
+ℹ pass 32
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 901.6952

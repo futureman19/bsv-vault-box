@@ -1,0 +1,16 @@
+{
+  "name": "boxsv-wallet-transport",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "test": "node --test test.js security.test.js",
+    "harness": "node harness.js",
+    "build:browser": "browserify adapter.js --standalone BoxSVWalletTransport -o browser/adapter.js"
+  },
+  "dependencies": {
+    "@bsv/sdk": "4.1.1"
+  },
+  "devDependencies": {
+    "browserify": "17.0.1"
+  }
+}
