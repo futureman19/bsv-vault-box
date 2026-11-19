@@ -1,0 +1,9 @@
+afghanistan PASS
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_baa6f6fd\launch\attachment-rim-repairs\finish_verify_repairs.py", line 10, in <module>
+    subprocess.run([blender,'--background','--factory-startup','--python-exit-code','1','--python',str(R/'launch/attachment-rim-repairs'/f'finish_{stage}.py'),'--',slug],cwd=R,stdout=f,stderr=subprocess.STDOUT,check=True)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\futur\.hermes\tools\python-3.14.9+20261021-win32-x64\Lib\subprocess.py", line 578, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['C:/Users/futur/AppData/Local/Programs/Blender-5.2.1/blender.exe', '--background', '--factory-startup', '--python-exit-code', '1', '--python', 'C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_baa6f6fd\\launch\\attachment-rim-repairs\\finish_preservation.py', '--', 'croatia']' returned non-zero exit status 1.

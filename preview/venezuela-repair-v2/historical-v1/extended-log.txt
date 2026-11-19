@@ -1,0 +1,31 @@
+C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_faaade42\preview\venezuela-v1\verify_extended.py:7: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  assert sum(1 for r,g,b,a in im.getdata() if max(r,g,b)>30 and a>0)>im.width*im.height*.1
+{
+  "poster_nonblack": true,
+  "poster_dimensions": [
+    900,
+    820
+  ],
+  "maps": [
+    {
+      "kind": "color",
+      "width": 512,
+      "height": 512,
+      "range": 146
+    },
+    {
+      "kind": "roughness",
+      "width": 512,
+      "height": 512,
+      "range": 76
+    },
+    {
+      "kind": "color",
+      "width": 256,
+      "height": 256,
+      "range": 41
+    }
+  ],
+  "noJS_poster": true,
+  "status": "PASS"
+}

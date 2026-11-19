@@ -1,0 +1,43 @@
+{
+  "pixel_identification": "rim-pixel-identification.json",
+  "identified_projections": [
+    {
+      "mesh": "Basalt fracture / rear.008",
+      "intersects_interior_walls": [
+        "Interior wall / rear"
+      ]
+    },
+    {
+      "mesh": "Basalt fracture / right.011",
+      "intersects_interior_walls": [
+        "Interior wall / end.001"
+      ]
+    },
+    {
+      "mesh": "Basalt fracture / right.005",
+      "intersects_interior_walls": [
+        "Interior wall / end.001"
+      ]
+    },
+    {
+      "mesh": "Basalt fracture / right.007",
+      "intersects_interior_walls": [
+        "Interior wall / end.001"
+      ]
+    },
+    {
+      "mesh": "Basalt fracture / right.003",
+      "intersects_interior_walls": [
+        "Interior wall / end.001"
+      ]
+    },
+    {
+      "mesh": "Basalt fracture / front.021",
+      "intersects_interior_walls": [
+        "Interior wall / front"
+      ]
+    }
+  ],
+  "verdict": "Identified thin projections belong to supported basalt/continuous interior walls, not detached trim. No geometry repair warranted.",
+  "limitations": "Sampled image-pixel ownership and BVH surface contacts, not manufacturing certification."
+}

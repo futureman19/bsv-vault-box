@@ -1,0 +1,123 @@
+{
+  "correction_passes": 1,
+  "changed_objects": [
+    {
+      "name": "Mineral seam / side",
+      "axes": [
+        "Y",
+        "Z"
+      ],
+      "reason": "Close demonstrated 0.025-unit gaps; lower top 0.004 to avoid coincident corner top faces."
+    },
+    {
+      "name": "Mineral seam / side.001",
+      "axes": [
+        "Y",
+        "Z"
+      ],
+      "reason": "Close demonstrated 0.025-unit gaps; lower top 0.004 to avoid coincident corner top faces."
+    }
+  ],
+  "baseline_disconnected_pairs": [
+    {
+      "pair": [
+        "Mineral seam / side",
+        "Jade / rim corner"
+      ],
+      "axis_gap": 0.02499997615814209
+    },
+    {
+      "pair": [
+        "Mineral seam / side",
+        "Jade / rim corner.001"
+      ],
+      "axis_gap": 0.02499997615814209
+    },
+    {
+      "pair": [
+        "Mineral seam / side.001",
+        "Jade / rim corner.002"
+      ],
+      "axis_gap": 0.02499997615814209
+    },
+    {
+      "pair": [
+        "Mineral seam / side.001",
+        "Jade / rim corner.003"
+      ],
+      "axis_gap": 0.02499997615814209
+    }
+  ],
+  "repaired_surface_intersections": [
+    [
+      "Mineral seam / side",
+      "Jade / rim corner"
+    ],
+    [
+      "Mineral seam / side",
+      "Jade / rim corner.001"
+    ],
+    [
+      "Mineral seam / side.001",
+      "Jade / rim corner.002"
+    ],
+    [
+      "Mineral seam / side.001",
+      "Jade / rim corner.003"
+    ]
+  ],
+  "before": {
+    "Mineral seam / side": [
+      [
+        -1.8200000524520874,
+        -1.024999976158142,
+        1.5640000104904175
+      ],
+      [
+        -1.659999966621399,
+        1.024999976158142,
+        1.6720000505447388
+      ]
+    ],
+    "Mineral seam / side.001": [
+      [
+        1.659999966621399,
+        -1.024999976158142,
+        1.5640000104904175
+      ],
+      [
+        1.8200000524520874,
+        1.024999976158142,
+        1.6720000505447388
+      ]
+    ]
+  },
+  "after": {
+    "Mineral seam / side": [
+      [
+        -1.8200000524520874,
+        -1.0649999380111694,
+        1.5600000619888306
+      ],
+      [
+        -1.659999966621399,
+        1.0649999380111694,
+        1.6679999828338623
+      ]
+    ],
+    "Mineral seam / side.001": [
+      [
+        1.659999966621399,
+        -1.0649999380111694,
+        1.5600000619888306
+      ],
+      [
+        1.8200000524520874,
+        1.0649999380111694,
+        1.6679999828338623
+      ]
+    ]
+  },
+  "untargeted_bounds_exact": true,
+  "limitations": "Surface intersections, not welded engineering certification. All original artistic holds remain separate."
+}

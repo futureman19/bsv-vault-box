@@ -1,0 +1,272 @@
+{
+  "id": "tonga",
+  "baseline_verdict": "needs-user-review",
+  "actions": [
+    "remaining targeted attachment/rim/landmark investigation and repair when reproduced; not proven breakage"
+  ],
+  "approval": false,
+  "original_review": {
+    "adjudication": "Preserve substantive parent art-decision hold despite any more permissive independent recommendation; no user approval or changed art resolves it.",
+    "art_changed": false,
+    "critical_reproducible_defects": [],
+    "fresh_blender_reopen": false,
+    "fresh_browser": [
+      {
+        "asset": {
+          "bounds": {
+            "max": [
+              1.89750000461936,
+              2.0380001068115234,
+              1.4875000286847353
+            ],
+            "min": [
+              -1.927119004633135,
+              -0.2749999985098839,
+              -1.3950000554323196
+            ]
+          },
+          "bytes": 1631436,
+          "degenerate": 0,
+          "latch": "Latch_Pivot",
+          "lid": "Lid_Hinge",
+          "materials": 6,
+          "meshes": 74,
+          "nonfinite": 0,
+          "triangles": 15960
+        },
+        "drag": true,
+        "external_requests": [],
+        "id": "tonga",
+        "interrupted_reset": true,
+        "mode": "desktop",
+        "no_overflow": true,
+        "open_close": true,
+        "page_errors": [],
+        "reduced_motion_endpoints": true,
+        "result": "pass",
+        "scope": "pilot smoke only",
+        "sha256": "53a8c982f5a01ccc400729d09ab16be575246c1d1a7e9c3e4eb82ce668d06077"
+      },
+      {
+        "asset": {
+          "bounds": {
+            "max": [
+              1.89750000461936,
+              2.0380001068115234,
+              1.4875000286847353
+            ],
+            "min": [
+              -1.927119004633135,
+              -0.2749999985098839,
+              -1.3950000554323196
+            ]
+          },
+          "bytes": 1631436,
+          "degenerate": 0,
+          "latch": "Latch_Pivot",
+          "lid": "Lid_Hinge",
+          "materials": 6,
+          "meshes": 74,
+          "nonfinite": 0,
+          "triangles": 15960
+        },
+        "drag": true,
+        "external_requests": [],
+        "id": "tonga",
+        "interrupted_reset": true,
+        "mode": "mobile",
+        "no_overflow": true,
+        "open_close": true,
+        "page_errors": [],
+        "reduced_motion_endpoints": true,
+        "result": "pass",
+        "scope": "pilot smoke only",
+        "sha256": "53a8c982f5a01ccc400729d09ab16be575246c1d1a7e9c3e4eb82ce668d06077"
+      }
+    ],
+    "fresh_collision_sampling": false,
+    "fresh_corrupt_glb_fallback": false,
+    "fresh_motion": {
+      "exit_code": 0,
+      "id": "tonga",
+      "scope": "shared Albania endpoint tests against each immutable motion module; not collision sampling",
+      "source": [
+        {
+          "commit": "3e0daf79c8bf96da31c14d0bdfeb17f16e9a053a",
+          "path": "preview/albania-v1/tests.mjs",
+          "sha256": "5124f40d7cb481c6755683d47e714d90aa2d87f04c41e4c81507cfdcee0cfedd"
+        },
+        {
+          "commit": "2f4fe75a51b36aeca41b271a8646a1c4c6022faf",
+          "path": "preview/tonga-v1/motion.mjs",
+          "sha256": "d61544de9b41521a7b14e81a5e9867ce0fcc387f8852ce57490031b84bf2150e"
+        }
+      ]
+    },
+    "fresh_nojs": false,
+    "id": "tonga",
+    "independent_visual": {
+      "file": "visual-5.json",
+      "findings": {
+        "appearance": "Brown framed chest with cream panels, ochre nested diamond grids, larger lid lozenges, brass caps/clasp and short block feet. Open views have plain brown underside and empty brown interior; the lid-to-body connection appears visually sparse.",
+        "artistic_gaps": [
+          "Subtle barkcloth/wood grain is weak; broad brown surfaces appear flat or clay-like.",
+          "Claimed raised diamond relief is not clearly legible at mobile scale.",
+          "Frame tone versus the taupe reference warrants a user fidelity decision, not automatic recoloring."
+        ],
+        "id": "tonga",
+        "images": {
+          "desktop_closed": "parent/smoke/tonga/desktop-closed.png",
+          "desktop_open": "parent/smoke/tonga/desktop-open.png",
+          "marketing": "parent/sources/tonga/marketing.webp",
+          "mobile_closed": "parent/smoke/tonga/mobile-closed.png",
+          "mobile_open": "parent/smoke/tonga/mobile-open.png"
+        },
+        "mechanism_concerns_unconfirmed": [
+          "Desktop/mobile closed views both show pronounced dark lid separation crossed by the clasp; inspect actual closed seating before calling this a closure defect.",
+          "Desktop/mobile open views show dark clearance around small hinge contacts; connected motion is not demonstrated by stills."
+        ],
+        "observed_defects": [],
+        "per_frame": {
+          "desktop_closed": "Diamond grids clear; dark seam and overlapping-looking clasp dominate closure reading.",
+          "desktop_open": "Plain brown underside and cavity; two hinges and projecting clasp tab fit fully in frame.",
+          "marketing": "Taupe-brown frame, cream nested-diamond panels, six larger lid lozenges, dark seam and brass hardware.",
+          "mobile_closed": "Complete chest and controls; dark seam and chunky frame junctions persist.",
+          "mobile_open": "No clipping; weak attachment reading and flat materials are prominent."
+        },
+        "recommendation": "needs-user-review",
+        "recommendation_reason": "User should judge frame-tone/material fidelity and visibly loose closure presentation. These are appearance concerns, not a proven malfunction or a final rejection.",
+        "reference_comparison": "Motifs, broad framing and hardware match. Reference framing is dusty taupe/gray-chocolate with subtle surface grain; model presentation reads warmer/darker and flatter. The reference already has a dark lid seam, but its conspicuous runtime presentation makes the apparently latched closed state look less tightly seated."
+      }
+    },
+    "launch_ready": false,
+    "marketing": {
+      "bytes": 57160,
+      "commit": "606147d6a1521adf635d79a70785ba7f82dbbf77",
+      "dimensions": [
+        1072,
+        960
+      ],
+      "image_type": "Promotional art",
+      "matches_gallery_inventory": true,
+      "not_model_approval": true,
+      "path": "docs/assets/gallery/tonga.webp",
+      "provenance": {
+        "exactModelEquivalenceClaimed": false,
+        "kind": "AI-generated promotional illustration; not an actual-model screenshot",
+        "model": "grok-imagine-image",
+        "nativeDimensions": [
+          1072,
+          960
+        ],
+        "provider": "xai",
+        "reviewNotes": "Muted taupe frame and diamond patterns preserved.",
+        "reviewStatus": "accepted",
+        "sha256": "f35d26b038c461820ed89a21248a342382ff9b08ba069ff5b649a7ad88155721",
+        "source": "assets/gallery/tonga.webp",
+        "sourceSha256": "9861d0a3cb16cf46106c71e1fb5a59a3cea854d8757aeac0bba3d55b3455d569",
+        "transform": "Native provider original resized proportionally and WebP encoded; no cropping or added padding"
+      },
+      "sha256": "90daf00aa977432c009137c457a8f773273aa3c3ddecf35c9582b828420ae169"
+    },
+    "original_capture_paths": [
+      "parent/smoke/tonga/desktop-closed.png",
+      "parent/smoke/tonga/desktop-open.png",
+      "parent/smoke/tonga/mobile-closed.png",
+      "parent/smoke/tonga/mobile-open.png"
+    ],
+    "packaging_hold": false,
+    "parent_decision": "Decide whether the seam/ajar appearance and subtle relief are acceptable for presentation beside the promotional image. Candidate is coherent with no proven major rendering defect; acceptance of this stylization is not human art approval or engineering certification.",
+    "parent_missing_gates_preserved": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization"
+    ],
+    "parent_quality": "Cream/ochre panels, brown framing and diamond identity closely track exact marketing. Desktop/mobile closed/open are consistent and uncropped. Runtime has less surface depth and small-pattern clarity. Closed lid appears slightly ajar because of a strong dark reveal, also present in the marketing reference; this is not newly proven failure to close.",
+    "parent_status": "needs-decision",
+    "remaining_gates": [
+      "independent-current-model-visual-review",
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization",
+      "user fidelity decision before substantial redesign",
+      "independent QA-ART-06 review"
+    ],
+    "selection": {
+      "commit": "2f4fe75a51b36aeca41b271a8646a1c4c6022faf",
+      "fetched_tip": "2f4fe75a51b36aeca41b271a8646a1c4c6022faf",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/tonga-v1"
+    },
+    "source_archive_check": {
+      "archive": {
+        "bytes": 6278508,
+        "crc": "pass",
+        "entries": 52,
+        "mismatches": [],
+        "path": "preview/tonga-v1/tonga-v1-source.zip",
+        "required_payload_hashes": "pass",
+        "sha256": "fa978c109b76dd1a8d9ded1254d198b910aff32ce30b86cb14aa90aa57a37b86"
+      },
+      "id": "tonga",
+      "internal_inventory": "pass",
+      "inventory_entries_checked": 51,
+      "selected_payload_match": "pass"
+    },
+    "source_archives": [
+      {
+        "bytes": 6278508,
+        "crc": "pass",
+        "entries": 52,
+        "mismatches": [],
+        "path": "preview/tonga-v1/tonga-v1-source.zip",
+        "required_payload_hashes": "pass",
+        "sha256": "fa978c109b76dd1a8d9ded1254d198b910aff32ce30b86cb14aa90aa57a37b86"
+      }
+    ],
+    "source_models": [
+      {
+        "bytes": 718017,
+        "path": "preview/tonga-v1/tonga.blend",
+        "sha256": "e904a29d1eba619e1bc2ba6e6de2a64753a69421d5856c1c826f8bb0afc58f61"
+      },
+      {
+        "bytes": 1631436,
+        "path": "preview/tonga-v1/tonga.glb",
+        "sha256": "62793ece4f5c3b7ea94ec9a8bd606d8eee16d203756d58154a32242634567a62"
+      }
+    ],
+    "user_final_approved": false,
+    "verdict": "needs-user-review",
+    "viewer": {
+      "bytes": 2962887,
+      "commit": "2f4fe75a51b36aeca41b271a8646a1c4c6022faf",
+      "path": "preview/tonga-v1/tonga-v1.html",
+      "sha256": "53a8c982f5a01ccc400729d09ab16be575246c1d1a7e9c3e4eb82ce668d06077",
+      "under_5000000": true
+    }
+  },
+  "package_history": [
+    {
+      "bytes": 6278508,
+      "commit": "2f4fe75a51b36aeca41b271a8646a1c4c6022faf",
+      "crc_error": null,
+      "entries": 52,
+      "inventory_checked": true,
+      "inventory_entries": 51,
+      "inventory_mismatches": [],
+      "kind": "git",
+      "path": "preview/tonga-v1/tonga-v1-source.zip",
+      "required_payloads": {
+        "tonga-v1.html": true,
+        "tonga.blend": true,
+        "tonga.glb": true
+      },
+      "safe_unique_paths": true,
+      "sha256": "fa978c109b76dd1a8d9ded1254d198b910aff32ce30b86cb14aa90aa57a37b86"
+    }
+  ]
+}

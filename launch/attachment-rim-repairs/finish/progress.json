@@ -1,0 +1,154 @@
+{
+  "scope_complete": false,
+  "collection_complete": false,
+  "records": [
+    {
+      "id": "afghanistan",
+      "candidate": "preview\\afghanistan-repair-v2\\afghanistan-repair-v2.html",
+      "html_bytes": 3129324,
+      "geometry_passes": 1,
+      "presentation_passes": 0,
+      "fresh_source_parity_browser_supplemental": true,
+      "remaining": [
+        "independent final visual review",
+        "source ZIP recovery",
+        "final disposition/report"
+      ]
+    },
+    {
+      "id": "croatia",
+      "candidate": "preview\\croatia-repair-v2\\croatia-repair-v2.html",
+      "html_bytes": 2438246,
+      "geometry_passes": 1,
+      "presentation_passes": 0,
+      "fresh_source_parity_browser_supplemental": true,
+      "remaining": [
+        "independent final visual review",
+        "source ZIP recovery",
+        "final disposition/report"
+      ]
+    },
+    {
+      "id": "iceland",
+      "candidate": "launch\\attachment-rim-repairs\\finish\\iceland\\verified\\iceland-backright-v10.html",
+      "html_bytes": 4122297,
+      "geometry_passes": 0,
+      "presentation_passes": 0,
+      "fresh_source_parity_browser_supplemental": true,
+      "remaining": [
+        "independent final visual review",
+        "source ZIP recovery",
+        "final disposition/report"
+      ]
+    },
+    {
+      "id": "lithuania",
+      "candidate": "preview\\lithuania-repair-v2\\lithuania-repair-v2.html",
+      "html_bytes": 2791299,
+      "geometry_passes": 1,
+      "presentation_passes": 0,
+      "fresh_source_parity_browser_supplemental": true,
+      "remaining": [
+        "independent final visual review",
+        "source ZIP recovery",
+        "final disposition/report"
+      ]
+    },
+    {
+      "id": "malta",
+      "candidate": "preview\\malta-repair-v2\\malta-repair-v2.html",
+      "html_bytes": 1997579,
+      "geometry_passes": 1,
+      "presentation_passes": 0,
+      "fresh_source_parity_browser_supplemental": true,
+      "remaining": [
+        "independent final visual review",
+        "source ZIP recovery",
+        "final disposition/report"
+      ]
+    },
+    {
+      "id": "mozambique",
+      "candidate": "preview\\mozambique-repair-v2\\mozambique-repair-v2.html",
+      "html_bytes": 2869707,
+      "geometry_passes": 1,
+      "presentation_passes": 0,
+      "fresh_source_parity_browser_supplemental": true,
+      "remaining": [
+        "independent final visual review",
+        "source ZIP recovery",
+        "final disposition/report"
+      ]
+    },
+    {
+      "id": "panama",
+      "candidate": "preview\\panama-repair-v2\\panama-repair-v2.html",
+      "html_bytes": 2863282,
+      "geometry_passes": 1,
+      "presentation_passes": 1,
+      "fresh_source_parity_browser_supplemental": true,
+      "remaining": [
+        "independent final visual review",
+        "source ZIP recovery",
+        "final disposition/report"
+      ]
+    },
+    {
+      "id": "saint-kitts-and-nevis",
+      "candidate": "preview\\saint-kitts-and-nevis-repair-v2\\saint-kitts-and-nevis-repair-v2.html",
+      "html_bytes": 2523231,
+      "geometry_passes": 1,
+      "presentation_passes": 0,
+      "fresh_source_parity_browser_supplemental": true,
+      "remaining": [
+        "independent final visual review",
+        "source ZIP recovery",
+        "final disposition/report"
+      ]
+    },
+    {
+      "id": "tonga",
+      "candidate": "preview\\tonga-repair-v2\\tonga-repair-v2.html",
+      "html_bytes": 2964251,
+      "geometry_passes": 1,
+      "presentation_passes": 0,
+      "fresh_source_parity_browser_supplemental": true,
+      "remaining": [
+        "independent final visual review",
+        "source ZIP recovery",
+        "final disposition/report"
+      ]
+    },
+    {
+      "id": "venezuela",
+      "candidate": "preview\\venezuela-repair-v2\\venezuela-repair-v2.html",
+      "html_bytes": 2893381,
+      "geometry_passes": 1,
+      "presentation_passes": 0,
+      "fresh_source_parity_browser_supplemental": true,
+      "remaining": [
+        "independent final visual review",
+        "source ZIP recovery",
+        "final disposition/report"
+      ]
+    }
+  ],
+  "all_original_remaining_ids_still_pending_final_acceptance": [
+    "afghanistan",
+    "croatia",
+    "iceland",
+    "lithuania",
+    "malta",
+    "mozambique",
+    "panama",
+    "saint-kitts-and-nevis",
+    "tonga",
+    "venezuela"
+  ],
+  "failure_notes": [
+    "Initial source discovery included mechanism/approved historical blends; corrected explicit selected filenames.",
+    "Croatia exact-all-image preservation failed because Blender drops zero-user packed images on save; final verifier proves all retained bytes and material inputs exact, permits only proven zero-user drops, records hashes. Original images remain in historical source.",
+    "Iceland physical verifier required approved-v9.blend and authorship.json; copied exact originals and passed. Optional historical runtime-physical comparison then failed on absent sibling v9 screenshot; native browser/physical/rim checks independently passed.",
+    "Diagnostic script initially emitted misleading PASS; corrected to DIAGNOSTIC_ONLY_NOT_ACCEPTANCE and redirected output. Final strict preservation rerun passed all nine."
+  ]
+}

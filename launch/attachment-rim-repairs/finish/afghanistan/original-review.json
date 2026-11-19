@@ -1,0 +1,214 @@
+{
+  "id": "afghanistan",
+  "baseline_verdict": "needs-user-review",
+  "actions": [
+    "remaining targeted attachment/rim/landmark investigation and repair when reproduced; not proven breakage"
+  ],
+  "approval": false,
+  "original_review": {
+    "all_four_original_captures_inspected": true,
+    "captures": [
+      "launch/art-01/smoke/afghanistan/desktop-closed.png",
+      "launch/art-01/smoke/afghanistan/desktop-open.png",
+      "launch/art-01/smoke/afghanistan/mobile-closed.png",
+      "launch/art-01/smoke/afghanistan/mobile-open.png"
+    ],
+    "critical_defects": [],
+    "fresh_qa_runtime": [],
+    "id": "afghanistan",
+    "launch_ready": false,
+    "marketing_inspected": true,
+    "model_changed": false,
+    "model_sources": [
+      {
+        "bytes": 857446,
+        "commit": "25514037b972afd2b44579ee35b7450d3faacb2f",
+        "path": "preview/afghanistan-v1/afghanistan.blend",
+        "role": "selected-model",
+        "sha256": "6beb113e48807b1eaa4dc369aee2724f1497744eb09502bc3e680d3c23361686"
+      },
+      {
+        "bytes": 1758768,
+        "commit": "25514037b972afd2b44579ee35b7450d3faacb2f",
+        "path": "preview/afghanistan-v1/afghanistan.glb",
+        "role": "selected-model",
+        "sha256": "c068ec4eec2d8b243935bd3809d865924cb68d8612f90ee7b3bdafb91cc4d327",
+        "structural_probe": {
+          "declared_size_matches": true,
+          "embedded_buffers": true,
+          "embedded_in_html": true,
+          "glb_version": 2,
+          "meshes": 56,
+          "nodes": 58
+        }
+      }
+    ],
+    "parent_runtime": {
+      "cases": [
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.666875123977661,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1758768,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 4,
+            "meshes": 56,
+            "nonfinite": 0,
+            "triangles": 16586
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "afghanistan",
+          "interrupted_reset": true,
+          "mode": "desktop",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "1b285cbf6725e89171ca146d7fe09a365177cdf5c95e4b7de8c7b86e6b87f66a"
+        },
+        {
+          "asset": {
+            "bounds": {
+              "max": [
+                1.8600000143051147,
+                2.666875123977661,
+                1.4875000286847353
+              ],
+              "min": [
+                -1.927119004633135,
+                -0.30816949158906937,
+                -1.3950000554323196
+              ]
+            },
+            "bytes": 1758768,
+            "degenerate": 0,
+            "latch": "Latch_Pivot",
+            "lid": "Lid_Hinge",
+            "materials": 4,
+            "meshes": 56,
+            "nonfinite": 0,
+            "triangles": 16586
+          },
+          "drag": true,
+          "external_requests": [],
+          "id": "afghanistan",
+          "interrupted_reset": true,
+          "mode": "mobile",
+          "no_overflow": true,
+          "open_close": true,
+          "page_errors": [],
+          "reduced_motion_endpoints": true,
+          "result": "pass",
+          "scope": "pilot smoke only",
+          "sha256": "1b285cbf6725e89171ca146d7fe09a365177cdf5c95e4b7de8c7b86e6b87f66a"
+        }
+      ],
+      "independently_rerun": false,
+      "motion": {
+        "exit_code": 0,
+        "id": "afghanistan",
+        "passed": true,
+        "scope": "original motion unit assertions; not fresh collision/source parity"
+      }
+    },
+    "parent_status": "needs-decision",
+    "remaining_gates": [
+      "explicit-final-user-art-approval",
+      "fresh-full-source-and-browser-acceptance",
+      "storage-and-preservation-policy",
+      "mint-and-release-authorization",
+      "art-direction-decision",
+      "hinge-attachment-clarity-not-proven-by-stills"
+    ],
+    "selection": {
+      "commit": "25514037b972afd2b44579ee35b7450d3faacb2f",
+      "fetched_tip": "25514037b972afd2b44579ee35b7450d3faacb2f",
+      "reachable_from_fetched_ref": true,
+      "remote_ref": "origin/art/afghanistan-v1"
+    },
+    "source_archives": [
+      {
+        "bytes": 8203376,
+        "commit": "25514037b972afd2b44579ee35b7450d3faacb2f",
+        "crc_safe_unique": true,
+        "exact_selected_payloads": {
+          "afghanistan-v1.html": [
+            "afghanistan-v1.html"
+          ],
+          "afghanistan.blend": [
+            "afghanistan.blend"
+          ],
+          "afghanistan.glb": [
+            "afghanistan.glb"
+          ]
+        },
+        "full_inventory_rerun": false,
+        "inherited_full_inventory_checked": true,
+        "members": 57,
+        "path": "preview/afghanistan-v1/afghanistan-v1-source.zip",
+        "sha256": "dd221b653e5e8d102d1c5759ae8e472ab2235f2224156e6281b751f4a0c6f901"
+      }
+    ],
+    "user_final_approved": false,
+    "verdict": "needs-user-review",
+    "viewer": {
+      "bytes": 3127732,
+      "commit": "25514037b972afd2b44579ee35b7450d3faacb2f",
+      "path": "preview/afghanistan-v1/afghanistan-v1.html",
+      "sha256": "1b285cbf6725e89171ca146d7fe09a365177cdf5c95e4b7de8c7b86e6b87f66a",
+      "under_5000000": true
+    },
+    "visual_review": {
+      "caveats": [
+        "Material and terrain fidelity hold remains justified.",
+        "Visible seam/hinge spacing warrants close mechanical review before claiming realistic attachment; no confirmed critical fault from stills."
+      ],
+      "critical_visible_faults": [],
+      "desktop_closed": "Cobalt mineral body, pale mountain peaks and gold fittings are legible and fully framed. Veins and flecks are conspicuous; terrain and feet remain coarse. Broad closed seam is visible.",
+      "desktop_open": "Empty blue-lined cavity and lid underside visible. Rear hinge/lid spacing and protruding latch silhouette look mechanically ambiguous, without proving detachment.",
+      "file": "visual-a.json",
+      "id": "afghanistan",
+      "marketing_comparison": "Marketing retains the same mountains, stone feet and fittings but uses darker, finer-grained lapis and craggier peaks; runtime reads brighter and more stylized.",
+      "mobile_closed": "Country motif survives; peaks and feet look jagged. Model and both controls fit, with substantial upper whitespace.",
+      "mobile_open": "Interior and complete upright lid fit. Hinge seating remains visually ambiguous at this scale.",
+      "parent_status": "needs-decision",
+      "parent_status_justified": true,
+      "recommended_status": "needs-decision"
+    }
+  },
+  "package_history": [
+    {
+      "bytes": 8203376,
+      "commit": "25514037b972afd2b44579ee35b7450d3faacb2f",
+      "crc_error": null,
+      "entries": 57,
+      "inventory_checked": true,
+      "inventory_entries": 56,
+      "inventory_mismatches": [],
+      "kind": "git",
+      "path": "preview/afghanistan-v1/afghanistan-v1-source.zip",
+      "required_payloads": {
+        "afghanistan-v1.html": true,
+        "afghanistan.blend": true,
+        "afghanistan.glb": true
+      },
+      "safe_unique_paths": true,
+      "sha256": "dd221b653e5e8d102d1c5759ae8e472ab2235f2224156e6281b751f4a0c6f901"
+    }
+  ]
+}

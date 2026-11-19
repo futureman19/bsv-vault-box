@@ -1,0 +1,7 @@
+# Bounded iteration / failures
+
+- Optional Codex input lane exited 1 with HTTP 401/token-refresh failure before any edits. No output accepted; Hermes implemented and tested directly. No credentials read or changed.
+- Bootstrap initially attempted to copy `tests.mjs` from the Japan directory; it does not exist there. Removed that copy assumption and authored actual staged-motion/invalid-asset tests here. Blender did not author a model in that failed attempt.
+- First HTML build failed `MODULE_NOT_FOUND` for sibling esbuild. Both required main checkout and linked worktree dependency directories were empty. Installed the unchanged package.json dependencies locally in this new folder with `npm install --no-audit --no-fund`; dependency lock included, node_modules excluded. Build then succeeded without modifying shared tooling.
+- First actual source poster looked excessively like wooden grain. Retained `initial/first-poster.png` and initial color map. One bounded material correction replaces fine continuous bands with interrupted coarse weathering and subordinate strata. This is a stylized stone material, not a scan or photoreal geology. Rebuilt source, GLB, poster and all final checks after correction.
+- Negative controls: `tests.mjs` must reject invalid geometry; `verify_theme.py` temporarily detaches actual terrain and confirms ownership rejection, restoring it before further tests; `verify_browser.py` feeds corrupt bytes to the actual loader and requires fallback. No failure gates relaxed.

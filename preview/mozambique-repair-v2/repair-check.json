@@ -1,0 +1,123 @@
+{
+  "correction_passes": 1,
+  "changed_objects": [
+    {
+      "name": "Tidal seam / side",
+      "axes": [
+        "Y",
+        "Z"
+      ],
+      "reason": "Close demonstrated 0.025-unit gaps; lower top 0.004 to avoid coincident corner top faces."
+    },
+    {
+      "name": "Tidal seam / side.001",
+      "axes": [
+        "Y",
+        "Z"
+      ],
+      "reason": "Close demonstrated 0.025-unit gaps; lower top 0.004 to avoid coincident corner top faces."
+    }
+  ],
+  "baseline_disconnected_pairs": [
+    {
+      "pair": [
+        "Tidal seam / side",
+        "Sand / rim corner"
+      ],
+      "axis_gap": 0.02499997615814209
+    },
+    {
+      "pair": [
+        "Tidal seam / side",
+        "Sand / rim corner.001"
+      ],
+      "axis_gap": 0.02499997615814209
+    },
+    {
+      "pair": [
+        "Tidal seam / side.001",
+        "Sand / rim corner.002"
+      ],
+      "axis_gap": 0.02499997615814209
+    },
+    {
+      "pair": [
+        "Tidal seam / side.001",
+        "Sand / rim corner.003"
+      ],
+      "axis_gap": 0.02499997615814209
+    }
+  ],
+  "repaired_surface_intersections": [
+    [
+      "Tidal seam / side",
+      "Sand / rim corner"
+    ],
+    [
+      "Tidal seam / side",
+      "Sand / rim corner.001"
+    ],
+    [
+      "Tidal seam / side.001",
+      "Sand / rim corner.002"
+    ],
+    [
+      "Tidal seam / side.001",
+      "Sand / rim corner.003"
+    ]
+  ],
+  "before": {
+    "Tidal seam / side": [
+      [
+        -1.8200000524520874,
+        -1.024999976158142,
+        1.5730000734329224
+      ],
+      [
+        -1.659999966621399,
+        1.024999976158142,
+        1.6629999876022339
+      ]
+    ],
+    "Tidal seam / side.001": [
+      [
+        1.659999966621399,
+        -1.024999976158142,
+        1.5730000734329224
+      ],
+      [
+        1.8200000524520874,
+        1.024999976158142,
+        1.6629999876022339
+      ]
+    ]
+  },
+  "after": {
+    "Tidal seam / side": [
+      [
+        -1.8200000524520874,
+        -1.0649999380111694,
+        1.569000005722046
+      ],
+      [
+        -1.659999966621399,
+        1.0649999380111694,
+        1.659000039100647
+      ]
+    ],
+    "Tidal seam / side.001": [
+      [
+        1.659999966621399,
+        -1.0649999380111694,
+        1.569000005722046
+      ],
+      [
+        1.8200000524520874,
+        1.0649999380111694,
+        1.659000039100647
+      ]
+    ]
+  },
+  "untargeted_bounds_exact": true,
+  "limitations": "Surface intersections, not welded engineering certification. All original artistic holds remain separate."
+}

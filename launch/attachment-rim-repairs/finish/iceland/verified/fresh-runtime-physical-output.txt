@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "C:\Users\futur\Desktop\bsv-vault-box\.worktrees\t_baa6f6fd\launch\attachment-rim-repairs\finish\iceland\verified\verify_runtime_physical.py", line 18, in <module>
+    old=Image.open(R.parent/'iceland-corner-ice-v9/desktop-closed.png').convert('RGB');new=Image.open(R/'desktop-closed.png').convert('RGB')
+        ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\futur\.hermes\installs\60215e25aec448c9\environments\6bbad3125f8846bda151fac3595e4336\venv\Lib\site-packages\PIL\Image.py", line 3654, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\futur\\Desktop\\bsv-vault-box\\.worktrees\\t_baa6f6fd\\launch\\attachment-rim-repairs\\finish\\iceland\\iceland-corner-ice-v9\\desktop-closed.png'
