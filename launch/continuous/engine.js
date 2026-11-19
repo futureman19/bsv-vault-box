@@ -141,7 +141,7 @@ class Journal {
   close(){this.db.close();}
 }
 class Engine {
-  constructor(journal,{wallet,transport,hooks={}}) {this.journal=journal;this.wallet=wallet;this.transport=transport;this.hooks=hooks;this.busy=false;}
+  constructor(journal,{wallet,transport,hooks={},beforeAttempt}) {this.journal=journal;this.wallet=wallet;this.transport=transport;this.hooks=hooks;this.beforeAttempt=beforeAttempt;this.busy=false;}
   inspect() {
     const {state:s,head,events}=this.journal.read();
     return {...s,head,events,provenance:provenance(s),originalOutpoint:s.binding.origin,withdrawnOwner:s.stage==='WITHDRAWN'?s.binding.buyerPubkey:null,simulation:true,chainInclusion:false,launchReady:false};
@@ -173,6 +173,8 @@ class Engine {
       this.journal.append({type:'HOLD',binding:s.binding,reason:'INTERRUPTED_SEND'},head);
       throw Error('Interrupted send quarantined; same bytes retained, no retry');
     }
+    // Trusted composition guard: also runs for prepared-only recovery, never retries an attempt.
+    if(this.beforeAttempt)await this.beforeAttempt(structuredClone(s.pending.request));
     this.journal.append({type:'ATTEMPT',binding:s.binding,txid:tx(s.pending.response.raw).id},head);
     ({state:s,head}=this.journal.read());
     if(this.hooks.afterAttempt) await this.hooks.afterAttempt();
@@ -194,6 +196,6 @@ function createDemo(file,options={}) {
     const binding={designId:c.item.slug,designIdentity:c.item.id,manifestSha256:c.manifestSha256,buyerPubkey:policy.buyer,metadataSha256:c.metadataSha256,origin:tx(inventory.foreign).id+'_0'};
     return {type:'INIT',candidate:c,inventory,policy,binding};
   },options.policy||Fixture.policy);
-  return new Engine(journal,{wallet:options.wallet||new Fixture.FixtureWallet(),transport:options.transport||new Fixture.FixtureTransport(),hooks:options.hooks});
+  return new Engine(journal,{wallet:options.wallet||new Fixture.FixtureWallet(),transport:options.transport||new Fixture.FixtureTransport(),hooks:options.hooks,beforeAttempt:options.beforeAttempt});
 }
 module.exports={createDemo,Engine,Journal,requestFor,verifyResponse,reduce,provenance};

@@ -19,7 +19,12 @@ async function createPaid(directory,{authorize,hooks={}}={}) {
   catch(e){auth.prepare("UPDATE requests SET status='REJECTED' WHERE id=?").run(request.id);throw e;}
  };
  const transport=new F.FixtureTransport();
- const engine=E.createDemo(path.join(dir,'journal.sqlite'),{wallet,policy:wallet.policy,transport,hooks});
+ const engine=E.createDemo(path.join(dir,'journal.sqlite'),{wallet,policy:wallet.policy,transport,hooks,beforeAttempt:async request=>{
+  if(['Open','Withdraw'].includes(request.action)){
+   const d=await delivery.observe('box-1');
+   assert.equal(d.holds.length,0,'delivery reconciliation hold');
+  }
+ }});
  const hd=M.bsv.HDPrivateKey.fromSeed(Buffer.alloc(32,7),M.bsv.Networks.testnet);
  const store=new SaleStore({file:path.join(dir,'sales.jsonl'),xpub:hd.hdPublicKey.toString(),chain:'testnet'});
  const payment={policy:Canary.policy({chain:'testnet'}),read:async()=>JSON.parse(auth.prepare('SELECT payload FROM fixture_payment WHERE id=1').get()?.payload||'{"satoshis":0,"confirmations":0,"refs":[]}')};

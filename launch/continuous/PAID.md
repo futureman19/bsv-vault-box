@@ -41,7 +41,7 @@ node mint/scripts/delivery-inspect.js launch/continuous/.paid-run/delivery.sqlit
 - `delivery.sqlite`: existing shared order/address/design/origin/funding/receipt registry; watcher triggers are rechecked against durable cumulative observation. Preparation claim, prepared bytes and send attempt precede the local transport. The accepted Transfer is projected into the continuous journal using exactly the saved response and receipt, not sent twice.
 - Buyer Open/Withdraw use two independently verified BRC-100 input signatures, assembled into the actual `ordinalPair` covenant unlocks. The assembler checks exact raw transaction and parent bytes, outputs, fee and anchored serialized Script history. The existing former-owner/sealed-withdrawal protections are not replaced by UI checks.
 
-Signing and payment are sequential, **not atomic payment-versus-delivery**. A fixture `Pay` writes synthetic receipt `sha256("public simulated payment:" + sealedInventoryId):0`, 100 test satoshis/depth 2; it neither sends funds nor observes an actual payment. Payment observation is reread before delivery and before later buyer actions. Holds never refund, clear, relist, retry an attempted send, or allocate replacement funding.
+Signing and payment are sequential, **not atomic payment-versus-delivery**. A fixture `Pay` writes synthetic receipt `sha256("public simulated payment:" + sealedInventoryId):0`, 100 test satoshis/depth 2; it neither sends funds nor observes an actual payment. Payment observation is reread before delivery and before later buyer actions, then again after Open/Withdraw signature preparation immediately before the durable send attempt (also on prepared-only recovery). A lost/depth-reduced/changed/excess/unavailable observation persists a delivery hold, retains prepared bytes and prior ownership, and prevents transport. Holds never refund, clear, relist, retry an attempted send, or allocate replacement funding.
 
 ## Crash/recovery boundary
 
@@ -53,6 +53,10 @@ A prepared custody transaction can resume with the same bytes and no new wallet 
 
 ```sh
 node --test launch/continuous/integrated.test.js launch/continuous/paid-security.test.js
+# R1 race/recovery matrix (split for bounded tool timeouts):
+node --test --test-name-pattern='Open' launch/continuous/paid-finality.test.js
+node --test --test-name-pattern='Withdraw signing' launch/continuous/paid-finality.test.js
+node --test --test-name-pattern='Withdraw prepared' launch/continuous/paid-finality.test.js
 node --test launch/continuous/test.js launch/continuous/security.test.js launch/continuous/server.test.js launch/continuous/process.test.js launch/wallet-transport/test.js launch/wallet-transport/security.test.js
 node mint/test/run.js
 node --test evidence/security/challenges.test.js
